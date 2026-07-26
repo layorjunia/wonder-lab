@@ -1,0 +1,237 @@
+/* Wonder Lab — science for a 9–10 year old.
+   Deliberately NOT the younger sibling's app: no pastels, no bouncy rounded
+   comic type, no baby rewards. This is a field-notebook / nature-documentary
+   look — deep ink background, photography treated as the hero, crisp modern
+   type. It should feel like something a fourth-grader is a little proud to be
+   using. */
+
+* { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+:root {
+  --ink:        #0f1720;   /* near-black, slightly blue */
+  --ink-2:      #16212d;
+  --ink-3:      #1e2c3a;
+  --line:       #2a3a4b;
+  --text:       #e8eef5;
+  --text-dim:   #93a4b6;
+  --lime:       #9ee85f;   /* primary accent — energetic, not childish */
+  --lime-dark:  #6fbf34;
+  --cyan:       #4fd6e8;
+  --amber:      #ffc94a;
+  --coral:      #ff7a6b;
+  --violet:     #b088ff;
+  --radius:     16px;
+  --radius-lg:  22px;
+}
+
+html, body { height: 100%; }
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+               system-ui, sans-serif;
+  background: var(--ink);
+  color: var(--text);
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: none;
+}
+
+/* faint grid, like squared field-notebook paper */
+body::before {
+  content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,.022) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.022) 1px, transparent 1px);
+  background-size: 34px 34px;
+}
+
+#app { position: relative; z-index: 1; max-width: 880px; margin: 0 auto;
+       padding: 0 16px 96px; min-height: 100vh; }
+
+.screen { animation: rise .28s cubic-bezier(.2,.7,.3,1); }
+@keyframes rise { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+
+h1 { font-size: 1.7rem; font-weight: 800; letter-spacing: -.02em; }
+h2 { font-size: 1.22rem; font-weight: 700; letter-spacing: -.01em; }
+h3 { font-size: 1.02rem; font-weight: 700; }
+.dim { color: var(--text-dim); }
+.small { font-size: .84rem; }
+
+/* ── Top bar ── */
+.bar {
+  display: flex; align-items: center; gap: 10px;
+  padding: 16px 0 12px; position: sticky; top: 0; z-index: 20;
+  background: linear-gradient(180deg, var(--ink) 72%, rgba(15,23,32,0));
+}
+.bar .grow { flex: 1; }
+.chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--ink-3); border: 1px solid var(--line);
+  padding: 7px 13px; border-radius: 999px;
+  font-size: .86rem; font-weight: 600; white-space: nowrap;
+}
+.chip.accent { border-color: var(--lime-dark); color: var(--lime); }
+.chip.flame  { border-color: #a2622a; color: var(--amber); }
+
+/* ── Buttons ── */
+.btn {
+  font: inherit; font-weight: 700; cursor: pointer;
+  background: var(--lime); color: #10240a; border: none;
+  padding: 12px 22px; border-radius: 12px; font-size: .98rem;
+  transition: filter .12s, transform .08s;
+}
+.btn:active { transform: translateY(1px); filter: brightness(.94); }
+.btn.ghost { background: transparent; color: var(--text);
+             border: 1px solid var(--line); }
+.btn.ghost:active { background: var(--ink-3); }
+.btn.big { padding: 16px 30px; font-size: 1.08rem; border-radius: 14px; }
+.btn.wide { display: block; width: 100%; }
+.btn:disabled { opacity: .4; pointer-events: none; }
+
+/* ── Cards ── */
+.card {
+  background: var(--ink-2); border: 1px solid var(--line);
+  border-radius: var(--radius-lg); padding: 18px; margin-bottom: 14px;
+}
+.card.tight { padding: 14px; }
+
+/* ── The fact card: the heart of the app ── */
+.fact-deck { position: relative; min-height: 460px; }
+.fact-card {
+  background: var(--ink-2); border: 1px solid var(--line);
+  border-radius: 24px; overflow: hidden;
+  box-shadow: 0 18px 40px rgba(0,0,0,.45);
+}
+.fact-photo {
+  position: relative; background: var(--ink-3);
+  /* width must be pinned: with aspect-ratio alone, max-height makes the
+     browser shrink the WIDTH to preserve the ratio, leaving a gap beside the
+     photo instead of cropping it */
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  /* cap the hero so the fact text is always visible without scrolling —
+     the photo is the hook, but the sentence is the point */
+  max-height: min(46vh, 340px);
+}
+.fact-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.fact-photo::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(15,23,32,0) 45%, rgba(15,23,32,.92));
+}
+.fact-tag {
+  position: absolute; top: 12px; left: 12px; z-index: 2;
+  background: rgba(15,23,32,.78); backdrop-filter: blur(6px);
+  border: 1px solid var(--line); color: var(--cyan);
+  padding: 5px 11px; border-radius: 999px;
+  font-size: .74rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase;
+}
+.fact-name {
+  position: absolute; left: 16px; right: 16px; bottom: 12px; z-index: 2;
+  font-size: 1.3rem; font-weight: 800; letter-spacing: -.01em;
+  text-shadow: 0 2px 12px rgba(0,0,0,.6);
+}
+.fact-body { padding: 18px; }
+.fact-text { font-size: 1.16rem; line-height: 1.5; font-weight: 500; }
+.fact-text em { color: var(--lime); font-style: normal; font-weight: 700; }
+.fact-more {
+  margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line);
+  color: var(--text-dim); font-size: .95rem; line-height: 1.6;
+}
+.fact-actions { display: flex; gap: 10px; margin-top: 16px; }
+.fact-actions .btn { flex: 1; }
+
+/* wonder line — the quiet "look what God made" beat, never a sermon */
+.wonder {
+  margin-top: 14px; padding: 11px 14px;
+  background: rgba(176,136,255,.09);
+  border-left: 3px solid var(--violet);
+  border-radius: 0 10px 10px 0;
+  color: #d6c6ff; font-size: .92rem; line-height: 1.55;
+}
+
+/* ── Home tiles ── */
+.tiles { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+.tile {
+  position: relative; overflow: hidden; cursor: pointer;
+  background: var(--ink-2); border: 1px solid var(--line);
+  border-radius: var(--radius-lg); padding: 18px; min-height: 116px;
+  display: flex; flex-direction: column; justify-content: flex-end;
+  transition: border-color .15s, transform .1s;
+}
+.tile:active { transform: scale(.985); }
+.tile:hover { border-color: var(--lime-dark); }
+.tile .t-name { font-weight: 800; font-size: 1.04rem; }
+.tile .t-sub { color: var(--text-dim); font-size: .82rem; margin-top: 2px; }
+.tile .t-glyph {
+  position: absolute; right: -6px; top: -10px; font-size: 3.6rem; opacity: .16;
+}
+
+/* ── Browsing grid ── */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(146px, 1fr)); gap: 12px; }
+.thumb {
+  background: var(--ink-2); border: 1px solid var(--line);
+  border-radius: var(--radius); overflow: hidden; cursor: pointer;
+  transition: transform .1s, border-color .15s;
+}
+.thumb:active { transform: scale(.97); }
+.thumb:hover { border-color: var(--lime-dark); }
+.thumb img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; }
+.thumb .th-name { padding: 9px 10px; font-size: .9rem; font-weight: 600; }
+.thumb.seen { border-color: var(--lime-dark); }
+
+/* ── Progress ── */
+.meter { height: 8px; background: var(--ink-3); border-radius: 999px; overflow: hidden; }
+.meter span {
+  display: block; height: 100%; border-radius: 999px;
+  background: linear-gradient(90deg, var(--cyan), var(--lime));
+  transition: width .5s cubic-bezier(.2,.8,.3,1);
+}
+
+/* ── Quiz ── */
+.q-option {
+  display: block; width: 100%; text-align: left; cursor: pointer;
+  background: var(--ink-2); border: 1px solid var(--line); color: var(--text);
+  padding: 15px 17px; border-radius: 14px; margin-bottom: 10px;
+  font: inherit; font-size: 1rem; transition: border-color .12s, background .12s;
+}
+.q-option:hover { border-color: var(--lime-dark); }
+.q-option.right { border-color: var(--lime); background: rgba(158,232,95,.14); }
+.q-option.wrong { border-color: var(--coral); background: rgba(255,122,107,.12); }
+.q-option:disabled { cursor: default; }
+
+/* ── Badges ── */
+.badges { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 12px; }
+.badge { text-align: center; padding: 14px 8px; border-radius: var(--radius);
+         background: var(--ink-2); border: 1px solid var(--line); }
+.badge .b-glyph { font-size: 2rem; }
+.badge .b-name { font-size: .78rem; margin-top: 6px; font-weight: 600; }
+.badge.locked { opacity: .32; }
+.badge.earned { border-color: var(--amber); }
+
+/* ── Credits ── */
+.credit-row { display: flex; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--line);
+              font-size: .8rem; color: var(--text-dim); }
+.credit-row img { width: 46px; height: 34px; object-fit: cover; border-radius: 6px; flex: 0 0 46px; }
+
+/* ── Bottom nav ── */
+.nav {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 30;
+  display: flex; justify-content: center; gap: 4px;
+  background: rgba(15,23,32,.94); backdrop-filter: blur(12px);
+  border-top: 1px solid var(--line);
+  padding: 8px 10px calc(8px + env(safe-area-inset-bottom));
+}
+.nav button {
+  flex: 1; max-width: 130px; background: none; border: none; cursor: pointer;
+  color: var(--text-dim); font: inherit; font-size: .7rem; font-weight: 600;
+  padding: 5px 4px; border-radius: 10px; display: flex; flex-direction: column;
+  align-items: center; gap: 3px;
+}
+.nav button .n-ic { font-size: 1.25rem; line-height: 1; }
+.nav button.on { color: var(--lime); }
+
+@media (max-width: 520px) {
+  .tiles { grid-template-columns: 1fr 1fr; }
+  .fact-text { font-size: 1.08rem; }
+  h1 { font-size: 1.45rem; }
+}
