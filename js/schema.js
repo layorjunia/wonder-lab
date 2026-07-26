@@ -30,6 +30,8 @@ const GROUPS = {
   insects:    { name: 'Bugs',         glyph: '🐝', tint: '#ffb04a' },
   spiders:    { name: 'Spiders',      glyph: '🕷️', tint: '#b088ff' },
   sea:        { name: 'Sea Creatures', glyph: '🐙', tint: '#4fd6e8' },
+  crustaceans:{ name: 'Crabs & Shrimp', glyph: '🦀', tint: '#ff9f7a' },
+  worms:      { name: 'Worms & Slugs', glyph: '🪱', tint: '#c9a06f' },
   tiny:       { name: 'Tiny Wonders', glyph: '🔬', tint: '#ff7a6b' },
 };
 
@@ -62,14 +64,23 @@ const CATEGORIES = {
   home:     { name: 'Where It Lives', glyph: '📍' },
   talk:     { name: 'How It Talks',  glyph: '🗣️' },
   sleep:    { name: 'Sleep & Rest',  glyph: '😴' },
+  travel:   { name: 'Great Journeys', glyph: '🧭' },
+  gross:    { name: 'Gross But Glorious', glyph: '🤢' },
+  teamwork: { name: 'Better Together', glyph: '🤝' },
+  disguise: { name: 'Master of Disguise', glyph: '🥸' },
+  copied:   { name: 'We Copied It',   glyph: '💡' },
+  tryit:    { name: 'Try It Yourself', glyph: '🧪' },
+  oops:     { name: 'When It Goes Wrong', glyph: '🩹' },
+  samesame: { name: 'Just Like An Animal', glyph: '🔗' },
 };
 
 // Comparable stats, so "compare two animals" works for any pair.
 // Missing values are fine — the compare screen only shows what both have.
+// Imperial units — this family is in the US, so feet and pounds come first.
 const STAT_META = {
   speed:  { name: 'Top speed', unit: 'mph', big: true },
-  weight: { name: 'Weight',    unit: 'kg',  big: true },
-  length: { name: 'Length',    unit: 'm',   big: true },
+  weight: { name: 'Weight',    unit: 'lb',  big: true },
+  length: { name: 'Length',    unit: 'ft',  big: true },
   life:   { name: 'Lifespan',  unit: 'yrs', big: true },
 };
 

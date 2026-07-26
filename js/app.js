@@ -325,18 +325,44 @@ const App = {
     }
 
     const a = ANIMALS[Math.floor(Math.random() * ANIMALS.length)];
-    const f = a.facts[Math.floor(Math.random() * a.facts.length)];
+    // Most facts name their own animal, which hands the answer over. Prefer one
+    // that doesn't; if every fact names it, blank the name out instead.
+    const names = this.nameForms(a);
+    const clean = a.facts.filter(f => !names.some(n => n.test(f.text)));
+    const usable = clean.length ? clean : a.facts;
+    const f = usable[Math.floor(Math.random() * usable.length)];
+    const prompt = clean.length ? f.text : this.redact(f.text, names);
+
     const others = ANIMALS.filter(x => x.id !== a.id && x.group === a.group);
     const pool = (others.length >= 3 ? others : ANIMALS.filter(x => x.id !== a.id))
       .sort(() => Math.random() - 0.5).slice(0, 3);
     return {
       q: 'Which animal is this about?',
-      prompt: f.text,
+      prompt,
       options: [a, ...pool].sort(() => Math.random() - 0.5)
         .map(x => ({ label: x.name, right: x.id === a.id, id: x.id })),
-      after: f.more || '',
+      after: (clean.length ? '' : `The fact is about the ${a.name.toLowerCase()}. `) + (f.more || ''),
       subject: a.id,
     };
+  },
+
+  // Every way this animal's name might appear: the full name, the head noun
+  // ("Snow leopard" -> "leopard"), and the id's words. Plurals included.
+  nameForms(a) {
+    const words = a.name.toLowerCase().split(/[\s-]+/);
+    const bits = new Set([a.name.toLowerCase(), words[words.length - 1]]);
+    a.id.split('-').forEach(w => { if (w.length > 3) bits.add(w); });
+    return [...bits]
+      .filter(b => b.length > 3)
+      .map(b => new RegExp('\\b' + b.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + 's?\\b', 'i'));
+  },
+
+  redact(text, names) {
+    let out = text;
+    names.forEach(rx => {
+      out = out.replace(new RegExp(rx.source, 'gi'), '▬▬▬▬');
+    });
+    return out;
   },
 
   quiz(state) {
