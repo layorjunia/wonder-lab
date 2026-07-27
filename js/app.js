@@ -213,14 +213,11 @@ const App = {
       <div class="grid">
         ${list.map(a => {
           const st = Progress.state(a.id);
-          const unseen = st === 'unseen';
-          return `<div class="thumb ${st === 'known' || st === 'mastered' ? 'seen' : ''}"
-            onclick="App.species('${a.id}')">
-            <img src="img/${a.id}.jpg" alt="" loading="lazy"
-                 style="${unseen ? 'filter:grayscale(1) brightness(.42)' : ''}"
+          return `<div class="thumb ${st}" onclick="App.species('${a.id}')">
+            <img src="img/${a.id}.jpg" alt="${a.name}" loading="lazy"
                  onerror="this.style.opacity=.15">
-            <div class="th-name">${unseen ? '???' : a.name}
-              ${st === 'mastered' ? '<span style="color:var(--amber)">★</span>' : ''}</div>
+            <div class="th-name">${a.name}
+              ${st === 'mastered' ? '<span class="th-star">★</span>' : ''}</div>
           </div>`;
         }).join('')}
       </div>
@@ -249,7 +246,8 @@ const App = {
         <span class="chip">${g.glyph || ''} ${g.name || a.group}</span>
         ${st === 'mastered' ? '<span class="chip accent">★ Mastered</span>' : ''}</div>
       <div class="fact-card" style="margin-bottom:16px">
-        <div class="fact-photo">
+        <div class="fact-photo profile-photo"
+             style="background-image:url('img/${a.id}.jpg')">
           <img src="img/${a.id}.jpg" alt="${a.name}" onerror="this.style.display='none'">
           <div class="fact-name">${a.name}</div>
         </div>
@@ -268,8 +266,7 @@ const App = {
       ${a.facts.map((f, i) => {
         const cat = CATEGORIES[f.cat] || { name: f.cat, glyph: '✨' };
         return `<div class="card tight">
-          <div class="dim small" style="text-transform:uppercase;letter-spacing:.05em;
-               color:var(--cyan);font-weight:700">${cat.glyph} ${cat.name}</div>
+          <div class="cat-label">${cat.glyph} ${cat.name}</div>
           <div style="margin-top:6px;font-size:1.02rem;line-height:1.5">${f.text}</div>
           ${f.more ? `<div class="fact-more" style="margin-top:10px;padding-top:10px">${f.more}</div>` : ''}
           <button class="btn ghost" style="margin-top:10px;padding:7px 14px;font-size:.84rem"
@@ -473,8 +470,7 @@ const App = {
         <div class="bar"><button class="btn ghost" onclick="App.go('body')">←</button>
           <div class="grow"></div><h2>${meta.glyph} ${meta.name}</h2></div>
         ${items.map(b => `<div class="card">
-          <div class="dim small" style="text-transform:uppercase;letter-spacing:.05em;
-               color:var(--cyan);font-weight:700">${(CATEGORIES[b.cat] || {}).glyph || '✨'} ${b.cat}</div>
+          <div class="cat-label">${(CATEGORIES[b.cat] || {}).glyph || '✨'} ${(CATEGORIES[b.cat] || {}).name || b.cat}</div>
           <div style="margin-top:6px;font-size:1.05rem;line-height:1.5">${b.text}</div>
           ${b.more ? `<div class="fact-more">${b.more}</div>` : ''}
           ${b.tryit ? `<div class="wonder" style="border-left-color:var(--lime);

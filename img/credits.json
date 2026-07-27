@@ -1618,5 +1618,275 @@
   "source": "https://commons.wikimedia.org/wiki/File:Kragenechse_Chlamydosaurus_kingii.jpg",
   "width": 900,
   "height": 622
+ },
+ "tyrannosaurus": {
+  "name": "Tyrannosaurus rex",
+  "file": "tyrannosaurus.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "ScottRobertAnselmo",
+  "source": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus_Rex_Holotype.jpg",
+  "width": 900,
+  "height": 596
+ },
+ "triceratops": {
+  "name": "Triceratops",
+  "file": "triceratops.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Source: Allie_Caulfield Derivative: User:MathKnight",
+  "source": "https://commons.wikimedia.org/wiki/File:LA-Triceratops_mount-2.jpg",
+  "width": 900,
+  "height": 683
+ },
+ "stegosaurus": {
+  "name": "Stegosaurus",
+  "file": "stegosaurus.jpg",
+  "licence": "CC BY 4.0",
+  "author": "Susannah Maidment et al. &amp; Natural History Museum, London",
+  "source": "https://commons.wikimedia.org/wiki/File:Journal.pone.0138352.g001A.jpg",
+  "width": 900,
+  "height": 541
+ },
+ "brachiosaurus": {
+  "name": "Brachiosaurus",
+  "file": "brachiosaurus.jpg",
+  "licence": "CC BY 3.0",
+  "author": "Matt Wedel",
+  "source": "https://commons.wikimedia.org/wiki/File:Brachiosaurus_mount.jpg",
+  "width": 900,
+  "height": 753
+ },
+ "apatosaurus": {
+  "name": "Apatosaurus",
+  "file": "apatosaurus.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "AbstractionBlue",
+  "source": "https://commons.wikimedia.org/wiki/File:Apatosaurus_louisae_-_CM.jpg",
+  "width": 900,
+  "height": 601
+ },
+ "diplodocus": {
+  "name": "Diplodocus",
+  "file": "diplodocus.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "ScottRobertAnselmo",
+  "source": "https://commons.wikimedia.org/wiki/File:CM_Diplodocus.jpg",
+  "width": 900,
+  "height": 596
+ },
+ "velociraptor": {
+  "name": "Velociraptor",
+  "file": "velociraptor.jpg",
+  "licence": "CC BY 3.0",
+  "author": "Eduard Solà Vázquez",
+  "source": "https://commons.wikimedia.org/wiki/File:Velociraptor_skeleton_white_background.jpg",
+  "width": 900,
+  "height": 673
+ },
+ "spinosaurus": {
+  "name": "Spinosaurus",
+  "file": "spinosaurus.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "3blindMies",
+  "source": "https://commons.wikimedia.org/wiki/File:FSAC-KK-11888.jpg",
+  "width": 900,
+  "height": 291
+ },
+ "allosaurus": {
+  "name": "Allosaurus",
+  "file": "allosaurus.jpg",
+  "licence": "CC BY 2.5",
+  "author": "The_Wookies",
+  "source": "https://commons.wikimedia.org/wiki/File:WLA_hmns_Allosaurus_White_Background.jpg",
+  "width": 900,
+  "height": 727
+ },
+ "ankylosaurus": {
+  "name": "Ankylosaurus",
+  "file": "ankylosaurus.jpg",
+  "licence": "CC BY-SA 2.0",
+  "author": "Tim Evanson",
+  "source": "https://commons.wikimedia.org/wiki/File:Ankylosaur_head_-_cast_-_Custer_County_Montana_-_Museum_of_the_Rockies_-_2013-07-08.jpg",
+  "width": 900,
+  "height": 789
+ },
+ "parasaurolophus": {
+  "name": "Parasaurolophus",
+  "file": "parasaurolophus.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Zissoudisctrucker",
+  "source": "https://commons.wikimedia.org/wiki/File:FMNH_Parasaurolophus_fossil.jpg",
+  "width": 900,
+  "height": 737
+ },
+ "pachycephalosaurus": {
+  "name": "Pachycephalosaurus",
+  "file": "pachycephalosaurus.jpg",
+  "licence": "CC BY 4.0",
+  "author": "IJReid",
+  "source": "https://commons.wikimedia.org/wiki/File:Pachycephalosaurus_wyomingensis_ROM.jpg",
+  "width": 900,
+  "height": 849
+ },
+ "iguanodon": {
+  "name": "Iguanodon",
+  "file": "iguanodon.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Ben2",
+  "source": "https://commons.wikimedia.org/wiki/File:Iguanodon_de_Bernissart_IRSNB_01.JPG",
+  "width": 900,
+  "height": 1080
+ },
+ "argentinosaurus": {
+  "name": "Argentinosaurus",
+  "file": "argentinosaurus.jpg",
+  "licence": "CC BY 2.5",
+  "author": "William Irvin Sellers, Lee Margetts, Rodolfo Aníbal Coria, Phillip Lars Manning",
+  "source": "https://commons.wikimedia.org/wiki/File:Argentinosaurus_skeleton,_PLoS_ONE.png",
+  "width": 900,
+  "height": 555
+ },
+ "giganotosaurus": {
+  "name": "Giganotosaurus",
+  "file": "giganotosaurus.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Jonathan Chen",
+  "source": "https://commons.wikimedia.org/wiki/File:Giganotosaurus_at_Fernbank.jpg",
+  "width": 900,
+  "height": 442
+ },
+ "carnotaurus": {
+  "name": "Carnotaurus",
+  "file": "carnotaurus.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Carnotaurus, Chlupáč Museum, Prague-2.jpg: Czech Wikipedia user Packa derivative work: Hic et nunc",
+  "source": "https://commons.wikimedia.org/wiki/File:Carnotaurus,_Chlup%C3%A1%C4%8D_Museum,_Prague-2.jpg",
+  "width": 900,
+  "height": 797
+ },
+ "therizinosaurus": {
+  "name": "Therizinosaurus",
+  "file": "therizinosaurus.jpg",
+  "licence": "CC BY 2.0",
+  "author": "Yuya Tamai from Gifu, Japan",
+  "source": "https://commons.wikimedia.org/wiki/File:Therizinosaurus_arms.jpg",
+  "width": 900,
+  "height": 832
+ },
+ "deinonychus": {
+  "name": "Deinonychus",
+  "file": "deinonychus.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Jonathan Chen",
+  "source": "https://commons.wikimedia.org/wiki/File:Deinonychus_FMNH.jpg",
+  "width": 900,
+  "height": 446
+ },
+ "compsognathus": {
+  "name": "Compsognathus",
+  "file": "compsognathus.jpg",
+  "licence": "CC BY-SA 2.0",
+  "author": "Zach Tirrell from Plymouth, USA",
+  "source": "https://commons.wikimedia.org/wiki/File:Compy.jpg",
+  "width": 900,
+  "height": 531
+ },
+ "protoceratops": {
+  "name": "Protoceratops",
+  "file": "protoceratops.jpg",
+  "licence": "CC BY 2.0",
+  "author": "Tadek Kurpaski from London, Poland",
+  "source": "https://commons.wikimedia.org/wiki/File:Andrewsi.jpg",
+  "width": 900,
+  "height": 598
+ },
+ "oviraptor": {
+  "name": "Oviraptor",
+  "file": "oviraptor.jpg",
+  "licence": "Public domain",
+  "author": "Internet Archive Book Images",
+  "source": "https://commons.wikimedia.org/wiki/File:Oviraptor_holotype.jpg",
+  "width": 900,
+  "height": 800
+ },
+ "gallimimus": {
+  "name": "Gallimimus",
+  "file": "gallimimus.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Fernando Losada Rodríguez",
+  "source": "https://commons.wikimedia.org/wiki/File:Gallimimus_bullatus.001_-_Natural_History_Museum_of_London.JPG",
+  "width": 900,
+  "height": 663
+ },
+ "dilophosaurus": {
+  "name": "Dilophosaurus",
+  "file": "dilophosaurus.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Eduard Solà",
+  "source": "https://commons.wikimedia.org/wiki/File:DilophosaurusROM1.JPG",
+  "width": 900,
+  "height": 538
+ },
+ "styracosaurus": {
+  "name": "Styracosaurus",
+  "file": "styracosaurus.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "LittleLazyLass",
+  "source": "https://commons.wikimedia.org/wiki/File:StyracosaurCMN2.jpg",
+  "width": 900,
+  "height": 675
+ },
+ "edmontosaurus": {
+  "name": "Edmontosaurus",
+  "file": "edmontosaurus.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "MCDinosaurhunter",
+  "source": "https://commons.wikimedia.org/wiki/File:Edmontosaurus_Family_Clean.png",
+  "width": 900,
+  "height": 566
+ },
+ "pteranodon": {
+  "name": "Pteranodon",
+  "file": "pteranodon.jpg",
+  "licence": "CC BY 3.0",
+  "author": "Matt Martyniuk",
+  "source": "https://commons.wikimedia.org/wiki/File:Pteranodon_amnh_martyniuk.jpg",
+  "width": 900,
+  "height": 1182
+ },
+ "quetzalcoatlus": {
+  "name": "Quetzalcoatlus",
+  "file": "quetzalcoatlus.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Ghedoghedo",
+  "source": "https://commons.wikimedia.org/wiki/File:Quetzalcoatlus_northropi.jpg",
+  "width": 900,
+  "height": 566
+ },
+ "plesiosaurus": {
+  "name": "Plesiosaurus",
+  "file": "plesiosaurus.jpg",
+  "licence": "CC BY 2.0",
+  "author": "the paleobear",
+  "source": "https://commons.wikimedia.org/wiki/File:Plesiosaurus_dolichodeirus_NHM.jpg",
+  "width": 900,
+  "height": 417
+ },
+ "mosasaurus": {
+  "name": "Mosasaurus",
+  "file": "mosasaurus.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Ghedoghedo",
+  "source": "https://commons.wikimedia.org/wiki/File:Mosasaurus_hoffmannii_-_skeleton.jpg",
+  "width": 900,
+  "height": 560
+ },
+ "ichthyosaurus": {
+  "name": "Ichthyosaurus",
+  "file": "ichthyosaurus.jpg",
+  "licence": "CC BY 3.0",
+  "author": "Nobu Tamura (http://spinops.blogspot.com)",
+  "source": "https://commons.wikimedia.org/wiki/File:Ichthyosaurus_BW.jpg",
+  "width": 600,
+  "height": 274
  }
 }
