@@ -193,15 +193,12 @@ const App = {
 
   guide() {
     const f = this.guideFilter;
-    const chips = [
-      `<button class="chip ${!f.key ? 'accent' : ''}" onclick="App.setFilter('group',null)">All</button>`,
-      ...Object.entries(GROUPS).map(([k, g]) =>
-        `<button class="chip ${f.kind === 'group' && f.key === k ? 'accent' : ''}"
-          onclick="App.setFilter('group','${k}')">${g.glyph} ${g.name}</button>`),
-      ...Object.entries(HABITATS).map(([k, h]) =>
-        `<button class="chip ${f.kind === 'home' && f.key === k ? 'accent' : ''}"
-          onclick="App.setFilter('home','${k}')">${h.glyph} ${h.name}</button>`),
-    ].join(' ');
+    // Two scrolling rails rather than one wrapping block. Wrapped, the filters
+    // ran eight rows deep on a phone and pushed every animal below the fold —
+    // the child had to scroll past the controls to reach the thing itself.
+    const rail = (kind, dict) => Object.entries(dict).map(([k, v]) =>
+      `<button class="chip ${f.kind === kind && f.key === k ? 'accent' : ''}"
+        onclick="App.setFilter('${kind}','${k}')">${v.glyph} ${v.name}</button>`).join('');
 
     const list = ANIMALS.filter(a =>
       !f.key || (f.kind === 'group' ? a.group === f.key : (a.homes || []).includes(f.key)));
@@ -209,7 +206,11 @@ const App = {
     const c = Progress.counts();
     this.el(`
       ${this.bar('Field Guide', `<span class="chip accent">${c.known + c.mastered} known</span>`)}
-      <div style="display:flex;gap:7px;flex-wrap:wrap;margin-bottom:14px">${chips}</div>
+      <div class="rail">
+        <button class="chip ${!f.key ? 'accent' : ''}" onclick="App.setFilter('group',null)">All</button>
+        ${rail('group', GROUPS)}
+      </div>
+      <div class="rail last">${rail('home', HABITATS)}</div>
       <div class="grid">
         ${list.map(a => {
           const st = Progress.state(a.id);
@@ -349,8 +350,12 @@ const App = {
     const words = a.name.toLowerCase().split(/[\s-]+/);
     const bits = new Set([a.name.toLowerCase(), words[words.length - 1]]);
     a.id.split('-').forEach(w => { if (w.length > 3) bits.add(w); });
+    // Short forms the prose actually uses. "Tyrannosaurus rex" never appears
+    // in a fact written for a child — "T. rex" does, and without this the quiz
+    // hands over the answer inside the question.
+    (a.alias || []).forEach(x => bits.add(x.toLowerCase()));
     return [...bits]
-      .filter(b => b.length > 3)
+      .filter(b => b.length > 2)
       .map(b => new RegExp('\\b' + b.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + 's?\\b', 'i'));
   },
 

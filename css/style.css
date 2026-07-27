@@ -194,6 +194,20 @@ h3 { font-size: 1.02rem; font-weight: 700; }
   position: absolute; right: -6px; top: -10px; font-size: 3.6rem; opacity: .16;
 }
 
+/* Filter rails — horizontal scroll so the grid stays at the top of the screen.
+   `scrollbar-width:none` because a visible bar under each row reads as clutter
+   at this size; the chips are cut off mid-shape at the edge, which is what
+   actually tells a child there is more to swipe to. */
+.rail {
+  display: flex; gap: 7px; margin-bottom: 8px;
+  overflow-x: auto; scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 2px;
+}
+.rail::-webkit-scrollbar { display: none; }
+.rail > .chip { flex: 0 0 auto; }
+.rail.last { margin-bottom: 14px; }
+
 /* ── Browsing grid ── */
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(146px, 1fr)); gap: 12px; }
 .thumb {

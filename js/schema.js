@@ -33,6 +33,7 @@ const GROUPS = {
   crustaceans:{ name: 'Crabs & Shrimp', glyph: '🦀', tint: '#ff9f7a' },
   worms:      { name: 'Worms & Slugs', glyph: '🪱', tint: '#c9a06f' },
   tiny:       { name: 'Tiny Wonders', glyph: '🔬', tint: '#ff7a6b' },
+  dinosaurs:  { name: 'Dinosaurs & Giants', glyph: '🦕', tint: '#ffa04a' },
 };
 
 const HABITATS = {
@@ -72,6 +73,13 @@ const CATEGORIES = {
   tryit:    { name: 'Try It Yourself', glyph: '🧪' },
   oops:     { name: 'When It Goes Wrong', glyph: '🩹' },
   samesame: { name: 'Just Like An Animal', glyph: '🔗' },
+  /* Dinosaur-only. `bones` is what the diggers actually dug up — measurable,
+     countable, in a museum you can go and stand in front of. `created` is where
+     the creature sits in the Bible's account: made on day six with the other
+     land animals, alive alongside people, aboard the Ark. Kept as its own
+     category so the two are never blurred together. */
+  bones:    { name: 'What We Dug Up',  glyph: '🦴' },
+  created:  { name: 'Made In The Beginning', glyph: '🌍' },
 };
 
 // Comparable stats, so "compare two animals" works for any pair.

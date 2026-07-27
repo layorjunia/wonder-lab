@@ -22,22 +22,35 @@ OUT = os.path.join(ROOT, 'js', 'animals.js')
 
 CATS = {'speed', 'size', 'senses', 'food', 'babies', 'defence', 'record',
         'weird', 'build', 'home', 'talk', 'sleep', 'travel', 'gross',
-        'teamwork', 'disguise', 'copied'}
+        'teamwork', 'disguise', 'copied', 'bones', 'created'}
 HOMES = {'rainforest', 'ocean', 'desert', 'grassland', 'polar', 'mountain',
          'forest', 'freshwater', 'cave', 'backyard'}
 
-# Editorial tripwires. These are checked against the shipped text, because a
-# rule that is only in a prompt is a rule that is only sometimes followed.
+# Editorial tripwires, checked against the shipped text — a rule that lives only
+# in a prompt is a rule that is only sometimes followed.
+#
+# Dinosaurs and the bones they left are IN scope, described the way the family
+# reads Genesis: land animals made on day six, alive alongside people, young
+# ones aboard the Ark, remembered in the dragon accounts. What stays out is the
+# deep-time frame that usually rides along with the word "dinosaur" — the era
+# names smuggle in a timescale as surely as "millions of years" does, so
+# "Jurassic" is banned for the same reason.
 BANNED = [
     (re.compile(r'\bevolv|\bevolution', re.I), 'evolution'),
     (re.compile(r'natural selection', re.I), 'natural selection'),
     (re.compile(r'millions? of years|billions? of years', re.I), 'deep time'),
     (re.compile(r'\b\d[\d,\.]*\s*(million|billion)\s*years', re.I), 'age claim'),
-    (re.compile(r'\b6,?000\s*years', re.I), 'age claim'),
-    (re.compile(r'\bfossil', re.I), 'fossils'),
-    (re.compile(r'\bdinosaur', re.I), 'dinosaurs'),
+    (re.compile(r'\byears ago\b', re.I), 'dating claim'),
+    (re.compile(r'\bTriassic|\bJurassic(?!\s+(Park|World))|\bCretaceous|'
+                r'\bMesozoic|\bPaleozoic|\bCenozoic|\bPermian|'
+                r'\bIce Age', re.I), 'geologic era'),
+    (re.compile(r'\bK-Pg\b|\bK-T\b|mass extinction|extinction event|'
+                r'asteroid (impact|strike|hit)', re.I), 'extinction-event framing'),
     (re.compile(r'\bancestor|\bdescend(ed|ant)', re.I), 'common descent'),
     (re.compile(r'\bprehistoric|\bprimitive\b', re.I), 'deep-time framing'),
+    # "before people existed" is the same claim wearing plain clothes
+    (re.compile(r'before (humans?|people|man) (ever )?(existed|appeared|walked)',
+                re.I), 'deep-time framing'),
 ]
 
 
