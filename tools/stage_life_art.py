@@ -18,6 +18,7 @@ Licence gate is unchanged: PD/CC0/CC-BY/CC-BY-SA only.
 import io
 import json
 import os
+import tempfile
 import re
 import sys
 import time
@@ -25,6 +26,10 @@ import time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fetch_life_art import (ROOT, IMG, UA, MAX_WIDTH, JPEG_QUALITY, ALL_GENERA,
                             api, acceptable, candidates, file_meta)
+
+_WORK = os.path.join(ROOT, '.work', 'tmp')
+os.makedirs(_WORK, exist_ok=True)
+tempfile.tempdir = _WORK          # never the system temp dir
 
 STAGE = os.path.join(ROOT, '.work', 'lifecand')
 PER_SPECIES = 8

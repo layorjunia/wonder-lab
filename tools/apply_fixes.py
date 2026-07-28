@@ -19,9 +19,13 @@ the de-boilerplate rewrite comes back.
 import glob
 import json
 import os
+import tempfile
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_WORK = os.path.join(ROOT, '.work', 'tmp')
+os.makedirs(_WORK, exist_ok=True)
+tempfile.tempdir = _WORK          # never the system temp dir
 WORK = os.path.join(ROOT, '.work')
 
 

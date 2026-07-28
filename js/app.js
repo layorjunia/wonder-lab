@@ -16,6 +16,7 @@ const App = {
 
   // ── boot ──
   init() {
+    this.checkForUpdate();          // unawaited on purpose — never blocks boot
     if ('serviceWorker' in navigator && location.protocol === 'https:') {
       navigator.serviceWorker.register('sw.js').catch(() => {});
     }
@@ -24,14 +25,40 @@ const App = {
     else this.welcome();
   },
 
+  // An installed service worker plus Pages' HTML caching can pin a device to
+  // an old build for hours with no error anywhere. Compare the id baked into
+  // the page against version.json fetched with no-store; on a mismatch, bin
+  // every cache and reload exactly once.
+  async checkForUpdate() {
+    try {
+      const meta = document.querySelector('meta[name="build"]');
+      const running = meta ? meta.getAttribute('content') : null;
+      const res = await fetch('version.json?t=' + Date.now(), { cache: 'no-store' });
+      if (!res.ok) return;
+      const { build } = await res.json();
+      if (!build || !running || build === running) return;
+      if (sessionStorage.getItem('wonderlab-updating') === build) return;   // never loop
+      sessionStorage.setItem('wonderlab-updating', build);
+      for (const k of await caches.keys()) await caches.delete(k);
+      const regs = await navigator.serviceWorker.getRegistrations();
+      for (const r of regs) await r.unregister();
+      location.replace(location.pathname + '?b=' + build);
+    } catch (e) { /* offline: keep running what we have */ }
+  },
+
   el(html) {
     document.getElementById('app').innerHTML = `<div class="screen">${html}</div>`;
     window.scrollTo(0, 0);
   },
 
+  // Registry indexes are per-screen; stale entries would point a button at
+  // another screen's text. Cleared before each render, filled during it.
+  resetSay() { this._sayReg = []; this._saying = null; AudioLib.stop(); },
+
   go(tab) {
     this.tab = tab;
     this.view = null;
+    this.resetSay();
     ({ today: () => this.today(), guide: () => this.guide(),
        play: () => this.play(), body: () => this.body(),
        notes: () => this.notes() }[tab] || (() => this.today()))();
@@ -46,6 +73,46 @@ const App = {
     document.getElementById('nav').innerHTML = items.map(([k, ic, label]) =>
       `<button class="${this.tab === k ? 'on' : ''}" onclick="App.go('${k}')">
         <span class="n-ic">${ic}</span>${label}</button>`).join('');
+  },
+
+  // ── Listen buttons ──
+  // Narration is opt-in per section, never automatic: this app is read as
+  // often as it is listened to, and audio that starts by itself is audio you
+  // have to stop. Long text goes through an index rather than into the onclick
+  // attribute — a fact containing an apostrophe would otherwise break the
+  // handler it is embedded in.
+  _sayReg: [],
+  _saying: null,
+
+  listenBtn(...parts) {
+    const clean = parts.filter(p => p && String(p).trim());
+    if (!clean.length) return '';
+    const i = this._sayReg.push(clean) - 1;
+    return `<button class="listen" data-say="${i}" aria-label="Listen"
+      onclick="event.stopPropagation();App.say(${i})">
+      <span class="ic">▶</span><span class="lbl">Listen</span></button>`;
+  },
+
+  say(i) {
+    const parts = this._sayReg[i];
+    if (!parts) return;
+    if (this._saying === i) { AudioLib.stop(); this._saying = null; return this.syncListen(); }
+    this._saying = i;
+    this.syncListen();
+    AudioLib.speakSeq(parts).then(() => {
+      if (this._saying === i) { this._saying = null; this.syncListen(); }
+    });
+  },
+
+  // Repaint the buttons in place. A full re-render would reset the scroll
+  // position out from under a child halfway down a species page.
+  syncListen() {
+    document.querySelectorAll('.listen').forEach(b => {
+      const on = +b.dataset.say === this._saying;
+      b.classList.toggle('on', on);
+      b.querySelector('.ic').textContent = on ? '■' : '▶';
+      b.querySelector('.lbl').textContent = on ? 'Stop' : 'Listen';
+    });
   },
 
   // "How do we know this?" badge. Absent `kind` renders nothing, so the
@@ -136,6 +203,7 @@ const App = {
   },
 
   today() {
+    this.resetSay();
     const deck = this.buildDeck();
     if (deck.idx >= deck.served.length) return this.deckDone();
 
@@ -163,6 +231,7 @@ const App = {
             ${f.more ? `<div class="fact-more">${f.more}</div>` : ''}
             ${a.wonder && +fi === 0 ? `<div class="wonder">${a.wonder}</div>` : ''}
             <div class="fact-actions">
+              ${this.listenBtn(f.text, f.more)}
               <button class="btn ghost" onclick="App.whoa(${deck.idx})">
                 ${whoa ? '★ Saved' : '☆ Whoa!'}</button>
               <button class="btn ghost" onclick="App.species('${a.id}')">Full profile</button>
@@ -255,6 +324,7 @@ const App = {
 
   // ── species profile ──
   species(id) {
+    this.resetSay();
     const a = ANIMALS.find(x => x.id === id);
     if (!a) return this.guide();
     Progress.markSeen(id);
@@ -314,11 +384,130 @@ const App = {
             ${this.kindTag(f)}</div>
           <div style="margin-top:6px;font-size:1.02rem;line-height:1.5">${f.text}</div>
           ${f.more ? `<div class="fact-more" style="margin-top:10px;padding-top:10px">${f.more}</div>` : ''}
-          <button class="btn ghost" style="margin-top:10px;padding:7px 14px;font-size:.84rem"
-            onclick="Progress.toggleWhoa('${a.id}',${i});App.species('${a.id}')">
-            ${Progress.isWhoa(a.id, i) ? '★ Saved' : '☆ Whoa!'}</button>
+          <div class="card-actions">
+            ${this.listenBtn(f.text, f.more)}
+            <button class="btn ghost" style="padding:7px 14px;font-size:.84rem"
+              onclick="Progress.toggleWhoa('${a.id}',${i});App.species('${a.id}')">
+              ${Progress.isWhoa(a.id, i) ? '★ Saved' : '☆ Whoa!'}</button>
+          </div>
         </div>`;
       }).join('')}`);
+  },
+
+  // ── CLOUD ──
+  // One account across every homeschool app. The sign-in is a name and four
+  // pictures because the child using this cannot type a password, and the
+  // derivation lives in HOMESCHOOL_AUTH so it cannot drift between apps.
+  CLOUD_EMOJI: ['🦖', '🐙', '🦋', '🐝', '🦉', '🐢', '🦈', '🐸',
+                '🌋', '⭐', '🌈', '🍄', '🔬', '🧪', '🦴', '🪐'],
+
+  cloudCard() {
+    const on = window.Sync && Sync.uid;
+    return `<div class="card" style="margin-top:16px">
+      <h2>${on ? '☁️ Backed up' : '☁️ Cloud Backpack'}</h2>
+      <p class="dim small" style="margin-top:6px">
+        ${on ? 'Your progress is saved to the cloud and follows you to any device.'
+             : 'Sign in and your progress follows you to any device — and to the other homeschool apps.'}
+      </p>
+      <button class="btn ${on ? 'ghost' : ''}" style="margin-top:12px"
+        onclick="App.cloud()">${on ? 'Manage' : 'Sign in'}</button>
+    </div>`;
+  },
+
+  _pin: [],
+
+  cloud() {
+    this.resetSay();
+    if (!window.Sync || !Sync.configured()) {
+      return this.el(`${this.bar('Cloud Backpack')}
+        <div class="card"><p class="dim">Cloud sync is not set up for this copy of
+        the app. Everything is still saved on this device.</p>
+        <button class="btn ghost wide" style="margin-top:12px" onclick="App.go('notes')">Back</button></div>`);
+    }
+    if (Sync.uid) {
+      return this.el(`${this.bar('Cloud Backpack')}
+        <div class="card" style="text-align:center;padding:30px 20px">
+          <div style="font-size:3rem">☁️</div>
+          <h2 style="margin-top:8px">Signed in</h2>
+          <p class="dim" style="margin-top:8px">Progress for
+            <b>${Progress.profile ? Progress.profile.name : 'you'}</b> is backed up,
+            and the same name and pictures work in the other homeschool apps.</p>
+          <button class="btn ghost wide" style="margin-top:16px" onclick="App.cloudOut()">Sign out</button>
+          <button class="btn ghost wide" style="margin-top:10px" onclick="App.go('notes')">Back</button>
+        </div>`);
+    }
+    this._pin = [];
+    this.el(`${this.bar('Cloud Backpack')}
+      <div class="card">
+        <h2>What's your name?</h2>
+        <input id="cn" maxlength="18" placeholder="Your name" value="${
+          Progress.profile ? Progress.profile.name : ''}"
+          style="width:100%;margin-top:12px;padding:14px;border-radius:12px;
+                 background:var(--ink-3);border:1px solid var(--line);
+                 color:var(--text);font:inherit;font-size:1.05rem">
+        <h2 style="margin-top:20px">Tap four pictures</h2>
+        <p class="dim small" style="margin-top:4px">The same four, in the same order, every time.</p>
+        <div id="pin" class="pin-row"></div>
+        <div class="emoji-grid" style="margin-top:12px">
+          ${this.CLOUD_EMOJI.map(e => `<button class="emoji-btn"
+            onclick="App.cloudTap('${e}')">${e}</button>`).join('')}
+        </div>
+        <div id="cloud-msg" class="dim small" style="margin-top:12px;min-height:1.2em"></div>
+        <button class="btn wide big" style="margin-top:8px" onclick="App.cloudIn()">Sign in</button>
+        <button class="btn ghost wide" style="margin-top:10px" onclick="App.go('notes')">Not now</button>
+      </div>`);
+    this.drawPin();
+  },
+
+  drawPin() {
+    const el = document.getElementById('pin');
+    if (!el) return;
+    el.innerHTML = [0, 1, 2, 3].map(i =>
+      `<span class="pin-slot ${this._pin[i] ? 'filled' : ''}">${this._pin[i] || ''}</span>`).join('');
+  },
+
+  cloudTap(e) {
+    if (this._pin.length >= 4) this._pin = [];
+    this._pin.push(e);
+    this.drawPin();
+  },
+
+  async cloudIn() {
+    const name = (document.getElementById('cn').value || '').trim();
+    const msg = document.getElementById('cloud-msg');
+    if (!name) { msg.textContent = 'Type your name first.'; return; }
+    if (this._pin.length !== 4) { msg.textContent = 'Tap four pictures.'; return; }
+    msg.textContent = 'Connecting…';
+    try {
+      await Sync.signIn(name, this._pin);
+      const cloud = await Sync.pull();
+      // Newer wins. A child who played on the tablet this morning should not
+      // lose it by opening the laptop this afternoon.
+      if (cloud && cloud.progress && Progress.profile) {
+        const theirs = cloud.updatedAt && cloud.updatedAt.toMillis
+          ? cloud.updatedAt.toMillis() : 0;
+        if (theirs > (Progress.profile.updatedAt || 0)) {
+          Progress.profile.p = cloud.progress;
+        }
+      }
+      if (Progress.profile) { Progress.profile.name = name; Progress.commit(); }
+      Sync.watch(d => {
+        if (d.progress && Progress.profile) {
+          Progress.profile.p = d.progress;
+          Store.save(Progress.data);
+          if (this.tab) this.go(this.tab);
+        }
+      });
+      await Sync.push(Progress.profile);
+      this.cloud();
+    } catch (err) {
+      msg.textContent = err.message || 'Could not sign in.';
+    }
+  },
+
+  async cloudOut() {
+    await Sync.signOut();
+    this.go('notes');
   },
 
   // ── PLAY ──
@@ -509,6 +698,7 @@ const App = {
 
   // ── BODY ──
   body(sec) {
+    this.resetSay();
     if (typeof BODY === 'undefined' || !BODY.length) {
       return this.el(`${this.bar('Your Body')}
         <div class="card"><p class="dim">The body section is being written.</p></div>`);
@@ -526,8 +716,11 @@ const App = {
           ${b.tryit ? `<div class="wonder" style="border-left-color:var(--lime);
              background:rgba(158,232,95,.08);color:#d8f5be">
              <b>Try it now:</b> ${b.tryit}</div>` : ''}
-          ${b.animal ? `<button class="btn ghost" style="margin-top:10px;padding:7px 14px;font-size:.84rem"
-             onclick="App.species('${b.animal}')">Compare with an animal →</button>` : ''}
+          <div class="card-actions">
+            ${this.listenBtn(b.text, b.more, b.tryit)}
+            ${b.animal ? `<button class="btn ghost" style="padding:7px 14px;font-size:.84rem"
+               onclick="App.species('${b.animal}')">Compare with an animal →</button>` : ''}
+          </div>
         </div>`).join('')}`);
     }
     const used = [...new Set(BODY.map(b => b.section))];
@@ -564,6 +757,7 @@ const App = {
       }).join('') : `<div class="card"><p class="dim">
         Nothing saved yet. Tap <b>☆ Whoa!</b> on any fact that surprises you and
         it lands here.</p></div>`}
+      ${this.cloudCard()}
       <div class="card" style="margin-top:16px">
         <h2>Photo credits</h2>
         <p class="dim small" style="margin-top:6px">Every photo is freely licensed.

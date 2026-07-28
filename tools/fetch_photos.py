@@ -18,6 +18,7 @@ import argparse
 import io
 import json
 import os
+import tempfile
 import re
 import sys
 import time
@@ -25,6 +26,9 @@ import urllib.parse
 import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_WORK = os.path.join(ROOT, '.work', 'tmp')
+os.makedirs(_WORK, exist_ok=True)
+tempfile.tempdir = _WORK          # never the system temp dir
 IMG = os.path.join(ROOT, 'img')
 UA = ('WonderLabHomeschoolApp/1.0 (educational use; '
       'contact jacob@illuminatedrones.com)')

@@ -14,10 +14,14 @@ passes through, so a malformed or off-brief entry cannot reach the app:
 import glob
 import json
 import os
+import tempfile
 import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_WORK = os.path.join(ROOT, '.work', 'tmp')
+os.makedirs(_WORK, exist_ok=True)
+tempfile.tempdir = _WORK          # never the system temp dir
 OUT = os.path.join(ROOT, 'js', 'animals.js')
 
 CATS = {'speed', 'size', 'senses', 'food', 'babies', 'defence', 'record',

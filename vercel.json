@@ -1,0 +1,33 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "headers": [
+    {
+      "//": "Clip and photo filenames are content-derived (md5 of the normalised text, species id), so a file at a given path never changes. Cache it for a year and let the service worker keep its copy. This is what makes ~200 MB of audio cheap to serve.",
+      "source": "/(audio|img)/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "//": "The update self-heal compares this against the id baked into index.html. Cached, it can never report a new build, and every installed device stays pinned to the old one forever with no error.",
+      "source": "/version.json",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store, max-age=0" }
+      ]
+    },
+    {
+      "//": "The service worker must never be served stale or it cannot ship its own replacement.",
+      "source": "/sw.js",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache" }
+      ]
+    },
+    {
+      "//": "The manifest maps text to clip filenames. A stale copy means new content resolves to nothing and falls back to the browser voice.",
+      "source": "/audio/manifest.json",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache" }
+      ]
+    }
+  ]
+}

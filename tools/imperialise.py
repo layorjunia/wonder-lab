@@ -15,10 +15,14 @@ Stats are converted too, since those drive the Face-Off bars.
 import glob
 import json
 import os
+import tempfile
 import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_WORK = os.path.join(ROOT, '.work', 'tmp')
+os.makedirs(_WORK, exist_ok=True)
+tempfile.tempdir = _WORK          # never the system temp dir
 
 # metric unit -> (imperial unit, multiplier, decimals)
 CONV = {

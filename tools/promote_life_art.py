@@ -9,10 +9,14 @@ skeleton photo, which is the honest fallback and needs no apology.
 """
 import json
 import os
+import tempfile
 import shutil
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_WORK = os.path.join(ROOT, '.work', 'tmp')
+os.makedirs(_WORK, exist_ok=True)
+tempfile.tempdir = _WORK          # never the system temp dir
 IMG = os.path.join(ROOT, 'img')
 STAGE = os.path.join(ROOT, '.work', 'lifecand')
 CREDITS = os.path.join(IMG, 'credits.json')

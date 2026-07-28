@@ -79,7 +79,9 @@ const Progress = {
   commit() {
     if (this.profile) this.profile.updatedAt = Date.now();
     Store.save(this.data);
-    if (window.Sync && this.profile && this.profile.cloud) Sync.schedulePush(this.profile);
+    // Signed in is the only condition — Sync itself is a no-op otherwise, and
+    // a separate per-profile `cloud` flag was one more thing to get out of step.
+    if (window.Sync && Sync.uid && this.profile) Sync.schedulePush(this.profile);
   },
 
   get p() { return this.profile.p; },
