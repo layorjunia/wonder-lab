@@ -71,9 +71,11 @@ def norm(text):
 # schema means adding it here, which is the point.
 _DUMP = r'''
 const fs = require('fs');
+// /gm, not /m: schema.js declares GROUPS, HABITATS, CATEGORIES, KINDS and
+// BODY_SECTIONS, and a non-global replace only reaches the first one.
 const load = f => { const s = fs.readFileSync(f, 'utf8')
-  .replace(/^const (\w+)/m, 'globalThis.$1'); eval(s); };
-load('js/animals.js'); load('js/body.js');
+  .replace(/^const (\w+)/gm, 'globalThis.$1'); eval(s); };
+load('js/schema.js'); load('js/animals.js'); load('js/body.js');
 const out = [];
 const push = (src, field, id, t) => { if (t && String(t).trim())
   out.push({ src, field, id, text: String(t) }); };
@@ -87,6 +89,14 @@ ANIMALS.forEach(a => {
     push('animal', 'fact.more', a.id + '#' + i, f.more);
   });
 });
+// Section headers. Pressing Listen on a card used to start mid-thought — the
+// fact with no clue what it was about or which animal it belonged to. These
+// are short and few, and they make every playback self-contained.
+Object.values(CATEGORIES).forEach((c, i) => push('label', 'category', 'c' + i, c.name));
+Object.values(BODY_SECTIONS).forEach((b, i) => push('label', 'section', 's' + i, b.name));
+Object.values(KINDS).forEach((k, i) => push('label', 'kind', 'k' + i, k.name));
+Object.values(GROUPS).forEach((g, i) => push('label', 'group', 'g' + i, g.name));
+push('label', 'phrase', 'tryit', 'Try it now');
 BODY.forEach((f, i) => {
   push('body', 'fact.text',  'b' + i, f.text);
   push('body', 'fact.more',  'b' + i, f.more);
@@ -97,7 +107,8 @@ console.log(JSON.stringify(out));
 
 # Fields the app can play. Anything not listed gets no clip, on purpose.
 NARRATED = {'name', 'blurb', 'size', 'wonder',
-            'fact.text', 'fact.more', 'fact.tryit'}
+            'fact.text', 'fact.more', 'fact.tryit',
+            'category', 'section', 'kind', 'group', 'phrase'}
 
 MAX_CHARS = 1400        # a fact over this length is a content bug, not a clip
 

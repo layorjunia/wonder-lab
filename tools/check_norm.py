@@ -32,6 +32,8 @@ from gen_audio import corpus, norm                      # noqa: E402
 JS = r'''
 globalThis.fetch = () => Promise.reject();
 globalThis.document = { addEventListener() {}, removeEventListener() {} };
+// audio.js now derives AUDIO_BASE from location at load time.
+globalThis.location = { hostname: 'localhost', protocol: 'http:', origin: 'http://localhost' };
 const fs = require('fs');
 const AudioLib = eval(fs.readFileSync('js/audio.js', 'utf8') + '; AudioLib');
 // argv[2], not argv[1]: the guide's snippet assumes `node -e`, where there is

@@ -76,6 +76,7 @@ def words_of(text):
     t = ''.join(c for c in unicodedata.normalize('NFD', t)
                 if unicodedata.category(c) != 'Mn')
     t = re.sub(r'(\d),(\d)', r'\1\2', t)          # 8,435 -> 8435
+    t = t.replace('&', ' and ')                   # the clip says "and"; the key has "&"
     t = re.sub(r"[^a-z0-9' ]+", ' ', t)
     out = []
     for w in t.split():

@@ -231,7 +231,7 @@ const App = {
             ${f.more ? `<div class="fact-more">${f.more}</div>` : ''}
             ${a.wonder && +fi === 0 ? `<div class="wonder">${a.wonder}</div>` : ''}
             <div class="fact-actions">
-              ${this.listenBtn(f.text, f.more)}
+              ${this.listenBtn(a.name, cat.name, f.text, f.more)}
               <button class="btn ghost" onclick="App.whoa(${deck.idx})">
                 ${whoa ? '★ Saved' : '☆ Whoa!'}</button>
               <button class="btn ghost" onclick="App.species('${a.id}')">Full profile</button>
@@ -366,6 +366,7 @@ const App = {
                         padding-top:14px;border-top:1px solid var(--line)">${stats}</div>
             ${a.group === 'dinosaurs' ? `<div class="dim small" style="margin-top:10px">
               🦴 Worked out from the bones — nobody ever put one on a scale.</div>` : ''}` : ''}
+          <div class="card-actions">${this.listenBtn(a.name, a.blurb, a.size)}</div>
         </div>
       </div>
       ${a.wonder ? `<div class="wonder" style="margin-bottom:14px">${a.wonder}</div>` : ''}
@@ -385,7 +386,7 @@ const App = {
           <div style="margin-top:6px;font-size:1.02rem;line-height:1.5">${f.text}</div>
           ${f.more ? `<div class="fact-more" style="margin-top:10px;padding-top:10px">${f.more}</div>` : ''}
           <div class="card-actions">
-            ${this.listenBtn(f.text, f.more)}
+            ${this.listenBtn(cat.name, f.text, f.more)}
             <button class="btn ghost" style="padding:7px 14px;font-size:.84rem"
               onclick="Progress.toggleWhoa('${a.id}',${i});App.species('${a.id}')">
               ${Progress.isWhoa(a.id, i) ? '★ Saved' : '☆ Whoa!'}</button>
@@ -717,7 +718,8 @@ const App = {
              background:rgba(158,232,95,.08);color:#d8f5be">
              <b>Try it now:</b> ${b.tryit}</div>` : ''}
           <div class="card-actions">
-            ${this.listenBtn(b.text, b.more, b.tryit)}
+            ${this.listenBtn((CATEGORIES[b.cat] || {}).name || b.cat, b.text, b.more,
+                             b.tryit ? 'Try it now' : '', b.tryit)}
             ${b.animal ? `<button class="btn ghost" style="padding:7px 14px;font-size:.84rem"
                onclick="App.species('${b.animal}')">Compare with an animal →</button>` : ''}
           </div>

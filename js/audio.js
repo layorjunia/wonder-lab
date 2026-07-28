@@ -43,7 +43,16 @@ const AudioLib = {
     // Keep the promise, do not fire and forget. The reference sets `ready` and
     // never reads it, so a very first tap on a cold load resolves against a
     // null manifest and speaks in the browser voice. _playSeq awaits this.
-    this.loading = fetch(AUDIO_BASE + 'manifest.json')
+    // Version the manifest by build id. Without it the browser (and the
+    // service worker, and Pages' own 10-minute cache) happily serve the
+    // previous manifest after a re-render: the new clips are sitting on the
+    // server, fileFor misses every one of them, and the app quietly speaks in
+    // the browser voice while sounding perfect on a fresh load.
+    const build = (document.querySelector('meta[name="build"]') || {}).content
+                || (document.querySelector('meta[name="build"]')
+                    && document.querySelector('meta[name="build"]').getAttribute('content'))
+                || '';
+    this.loading = fetch(AUDIO_BASE + 'manifest.json' + (build ? '?v=' + encodeURIComponent(build) : ''))
       .then(r => r.ok ? r.json() : null)
       .then(m => { this.manifest = m; this.ready = !!m; })
       .catch(() => { this.manifest = null; });
