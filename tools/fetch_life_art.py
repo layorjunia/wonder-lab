@@ -40,8 +40,11 @@ tempfile.tempdir = _WORK          # never the system temp dir
 IMG = os.path.join(ROOT, 'img')
 CREDITS = os.path.join(IMG, 'credits.json')
 
+# Wikimedia asks for a contact in the User-Agent. A repo URL is the better
+# choice than a personal address anyway, and this is a family project — it must
+# not carry the Illuminate Drones business identity.
 UA = ('WonderLabHomeschoolApp/1.0 (educational use; '
-      'contact jacob@illuminatedrones.com)')
+      'https://github.com/layorjunia/wonder-lab)')
 
 OK_LICENCE = re.compile(
     r'^(cc0|cc[ -]by([ -]sa)?([ -][0-9.]+)?|public domain|pd(-|$)|'

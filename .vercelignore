@@ -1,0 +1,16 @@
+# The ~194 MB voice corpus is served by GitHub Pages, not from here — see
+# AUDIO_BASE in js/audio.js. Shipping it in the Vercel deployment too would
+# double the payload for nothing and blow past the 100 MB static-upload cap on
+# anything below a Pro plan.
+audio/
+
+# Build-time only. The venv is ~226 MB and the Piper voice model ~109 MB;
+# neither is needed to serve a static page.
+.venv-tts/
+tools/
+.work/
+*.command
+
+# Docs
+SYNC.md
+NEURAL-NARRATION.md
