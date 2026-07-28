@@ -80,6 +80,21 @@ for CLI deploys; Git-connected projects clone in the build container, which may
 behave differently, but do not bet a deploy on it.) The file count is fine
 either way: the cap is 15,000.
 
+### Why vercel.json looks sparse
+
+JSON has no comments and Vercel's schema **rejects unknown keys**, including
+the `"//"` convention — a deploy fails outright with "should NOT have
+additional property". So the reasoning lives here instead:
+
+* `/img/*` is immutable (filenames are species ids) — cached for a year.
+* `/version.json` must never be cached, or the update self-heal can never
+  detect a new build and every installed device stays pinned to the old one.
+* `/sw.js` must never be stale, or the service worker cannot ship its own
+  replacement.
+* There is no `/audio/*` rule because the audio is not served from Vercel at
+  all — `.vercelignore` excludes it and the app fetches it from Pages, which
+  sets its own cache headers.
+
 Nothing is precached — `sw.js` fetches clips lazily on first play — so the
 corpus size is a hosting number, not a download. A child who presses Listen on
 forty facts has fetched about 2 MB.

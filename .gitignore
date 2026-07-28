@@ -10,3 +10,6 @@ __pycache__/
 # clips from there on demand.
 .venv-tts/
 tools/voices/
+
+# Vercel project link (ids, machine-local)
+.vercel/
