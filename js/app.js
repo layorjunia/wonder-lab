@@ -48,6 +48,23 @@ const App = {
         <span class="n-ic">${ic}</span>${label}</button>`).join('');
   },
 
+  // "How do we know this?" badge. Absent `kind` renders nothing, so the
+  // living-animal entries are unaffected until they are marked too.
+  kindTag(f) {
+    const k = KINDS[f.kind];
+    return k ? `<span class="kind-tag k-${f.kind}" title="${k.blurb}"
+      onclick="event.stopPropagation();App.explainKind('${f.kind}')"
+      >${k.glyph} ${k.name}</span>` : '';
+  },
+
+  explainKind(id) {
+    const k = KINDS[id];
+    if (k) alert(k.glyph + '  ' + k.name + '\n\n' + k.blurb);
+  },
+
+  // Tile image: the restoration when there is one, otherwise the photo.
+  pic(a) { return 'img/' + (a.art ? a.id + '-life.jpg' : a.id + '.jpg'); },
+
   bar(title, right) {
     return `<div class="bar"><h1>${title}</h1><div class="grow"></div>${right || ''}</div>`;
   },
@@ -136,7 +153,8 @@ const App = {
         <div class="fact-card">
           <div class="fact-photo">
             <span class="fact-tag">${cat.glyph} ${cat.name}</span>
-            <img src="img/${a.id}.jpg" alt="${a.name}" loading="eager"
+            ${this.kindTag(f)}
+            <img src="${this.pic(a)}" alt="${a.name}" loading="eager"
                  onerror="this.style.display='none'">
             <div class="fact-name">${a.name}</div>
           </div>
@@ -215,7 +233,7 @@ const App = {
         ${list.map(a => {
           const st = Progress.state(a.id);
           return `<div class="thumb ${st}" onclick="App.species('${a.id}')">
-            <img src="img/${a.id}.jpg" alt="${a.name}" loading="lazy"
+            <img src="${this.pic(a)}" alt="${a.name}" loading="lazy"
                  onerror="this.style.opacity=.15">
             <div class="th-name">${a.name}
               ${st === 'mastered' ? '<span class="th-star">★</span>' : ''}</div>
@@ -225,7 +243,15 @@ const App = {
       ${list.length ? '' : '<p class="dim">Nothing here yet.</p>'}`);
   },
 
-  setFilter(kind, key) { this.guideFilter = { kind, key }; this.guide(); },
+  setFilter(kind, key) {
+    this.guideFilter = { kind, key };
+    this.guide();
+    // The chosen chip may sit well off the right edge of its rail — Dinosaurs
+    // is the twelfth group. Without this the child taps a filter, the grid
+    // changes, and no chip on screen looks selected.
+    const on = document.querySelector('.rail .chip.accent');
+    if (on) on.scrollIntoView({ inline: 'center', block: 'nearest' });
+  },
 
   // ── species profile ──
   species(id) {
@@ -234,6 +260,12 @@ const App = {
     Progress.markSeen(id);
     const st = Progress.state(id);
     const g = GROUPS[a.group] || {};
+    // Dinosaurs get two pictures where a good restoration exists: the painting
+    // as the hero, the excavated skeleton kept below with the bones facts. A
+    // child should be able to see which one is evidence and which one is
+    // somebody's careful guess, rather than being handed a painting unlabelled.
+    const art = a.art ? a.id + '-life.jpg' : null;
+    const hero = art || (a.id + '.jpg');
     const stats = Object.entries(a.stats || {})
       .filter(([k]) => STAT_META[k])
       .map(([k, v]) => `<div style="flex:1;min-width:78px">
@@ -248,8 +280,9 @@ const App = {
         ${st === 'mastered' ? '<span class="chip accent">★ Mastered</span>' : ''}</div>
       <div class="fact-card" style="margin-bottom:16px">
         <div class="fact-photo profile-photo"
-             style="background-image:url('img/${a.id}.jpg')">
-          <img src="img/${a.id}.jpg" alt="${a.name}" onerror="this.style.display='none'">
+             style="background-image:url('img/${hero}')">
+          <img src="img/${hero}" alt="${a.name}" onerror="this.style.display='none'">
+          ${art ? '<span class="art-tag">🎨 Artist\'s idea</span>' : ''}
           <div class="fact-name">${a.name}</div>
         </div>
         <div class="fact-body">
@@ -260,14 +293,25 @@ const App = {
               ? `<span class="chip">${HABITATS[h].glyph} ${HABITATS[h].name}</span>` : '').join('')}
           </div>
           ${stats ? `<div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:14px;
-                        padding-top:14px;border-top:1px solid var(--line)">${stats}</div>` : ''}
+                        padding-top:14px;border-top:1px solid var(--line)">${stats}</div>
+            ${a.group === 'dinosaurs' ? `<div class="dim small" style="margin-top:10px">
+              🦴 Worked out from the bones — nobody ever put one on a scale.</div>` : ''}` : ''}
         </div>
       </div>
       ${a.wonder ? `<div class="wonder" style="margin-bottom:14px">${a.wonder}</div>` : ''}
+      ${art ? `<div class="card tight" style="margin-bottom:14px">
+        <div class="cat-label">🦴 What we actually dug up</div>
+        <img src="img/${a.id}.jpg" alt="${a.name} skeleton" loading="lazy"
+             style="width:100%;border-radius:12px;margin-top:8px;display:block">
+        <div class="dim small" style="margin-top:8px">The picture above is an
+          artist's reconstruction. This is the mounted skeleton — the part
+          anybody can go and stand in front of.</div>
+      </div>` : ''}
       ${a.facts.map((f, i) => {
         const cat = CATEGORIES[f.cat] || { name: f.cat, glyph: '✨' };
         return `<div class="card tight">
-          <div class="cat-label">${cat.glyph} ${cat.name}</div>
+          <div class="cat-row"><span class="cat-label">${cat.glyph} ${cat.name}</span>
+            ${this.kindTag(f)}</div>
           <div style="margin-top:6px;font-size:1.02rem;line-height:1.5">${f.text}</div>
           ${f.more ? `<div class="fact-more" style="margin-top:10px;padding-top:10px">${f.more}</div>` : ''}
           <button class="btn ghost" style="margin-top:10px;padding:7px 14px;font-size:.84rem"
@@ -428,7 +472,7 @@ const App = {
       <div class="grid">
         ${list.map(a => `<div class="thumb" onclick="${aId
           ? `App.faceoff('${aId}','${a.id}')` : `App.faceoffPick('${a.id}')`}">
-          <img src="img/${a.id}.jpg" alt="" loading="lazy" onerror="this.style.opacity=.15">
+          <img src="${this.pic(a)}" alt="" loading="lazy" onerror="this.style.opacity=.15">
           <div class="th-name">${a.name}</div></div>`).join('')}
       </div>`);
   },
@@ -447,14 +491,15 @@ const App = {
           <div style="flex:1"><b>${av}</b> <span class="dim small">${STAT_META[k].unit}</span>${bar(av, av >= bv)}</div>
           <div style="flex:1"><b>${bv}</b> <span class="dim small">${STAT_META[k].unit}</span>${bar(bv, bv >= av)}</div>
         </div></div>`;
-    }).join('');
+    }).join('') || `<p class="dim">These two have no measurement in common —
+        pick a different pair to compare.</p>`;
 
     this.el(`
       <div class="bar"><button class="btn ghost" onclick="App.faceoffPick()">←</button>
         <div class="grow"></div><h2>Face-Off</h2></div>
       <div style="display:flex;gap:12px;margin-bottom:14px">
         ${[A, B].map(a => `<div style="flex:1;text-align:center">
-          <img src="img/${a.id}.jpg" alt="" style="width:100%;aspect-ratio:1;object-fit:cover;
+          <img src="${this.pic(a)}" alt="" style="width:100%;aspect-ratio:1;object-fit:cover;
                border-radius:14px;border:1px solid var(--line)" onerror="this.style.opacity=.15">
           <div style="font-weight:800;margin-top:6px">${a.name}</div></div>`).join('')}
       </div>
@@ -512,7 +557,7 @@ const App = {
         const f = a.facts[+fi];
         return `<div class="card tight" onclick="App.species('${a.id}')" style="cursor:pointer">
           <div style="display:flex;gap:12px">
-            <img src="img/${a.id}.jpg" alt="" style="width:64px;height:64px;object-fit:cover;
+            <img src="${this.pic(a)}" alt="" style="width:64px;height:64px;object-fit:cover;
                  border-radius:10px;flex:0 0 64px" onerror="this.style.opacity=.15">
             <div><b>${a.name}</b><div class="dim" style="margin-top:4px;line-height:1.45">${f.text}</div></div>
           </div></div>`;

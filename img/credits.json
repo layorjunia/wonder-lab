@@ -1888,5 +1888,215 @@
   "source": "https://commons.wikimedia.org/wiki/File:Ichthyosaurus_BW.jpg",
   "width": 600,
   "height": 274
+ },
+ "tyrannosaurus-life": {
+  "name": "Tyrannosaurus rex — artist's reconstruction",
+  "file": "tyrannosaurus-life.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Nobu Tamura",
+  "source": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus_rex_Reconstruction_by_Nobu_Tamura.jpg",
+  "width": 900,
+  "height": 364,
+  "kind": "artwork"
+ },
+ "triceratops-life": {
+  "name": "Triceratops — artist's reconstruction",
+  "file": "triceratops-life.jpg",
+  "licence": "Public domain",
+  "author": "Charles Robert Knight",
+  "source": "https://commons.wikimedia.org/wiki/File:Knight_Triceratops.jpg",
+  "width": 600,
+  "height": 395,
+  "kind": "artwork"
+ },
+ "stegosaurus-life": {
+  "name": "Stegosaurus — artist's reconstruction",
+  "file": "stegosaurus-life.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Fred Wierum",
+  "source": "https://commons.wikimedia.org/wiki/File:Stegosaurus_stenops_Life_Reconstruction.png",
+  "width": 900,
+  "height": 435,
+  "kind": "artwork"
+ },
+ "brachiosaurus-life": {
+  "name": "Brachiosaurus — artist's reconstruction",
+  "file": "brachiosaurus-life.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Charles Nye",
+  "source": "https://commons.wikimedia.org/wiki/File:Brachiosaurus_altithorax_side_profile.png",
+  "width": 900,
+  "height": 651,
+  "kind": "artwork"
+ },
+ "apatosaurus-life": {
+  "name": "Apatosaurus — artist's reconstruction",
+  "file": "apatosaurus-life.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Durbed",
+  "source": "https://commons.wikimedia.org/wiki/File:Apatosaurus_louisae_by_durbed.jpg",
+  "width": 900,
+  "height": 419,
+  "kind": "artwork"
+ },
+ "diplodocus-life": {
+  "name": "Diplodocus — artist's reconstruction",
+  "file": "diplodocus-life.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Fred Wierum",
+  "source": "https://commons.wikimedia.org/wiki/File:Diplodocus_carnegii.jpg",
+  "width": 900,
+  "height": 433,
+  "kind": "artwork"
+ },
+ "spinosaurus-life": {
+  "name": "Spinosaurus — artist's reconstruction",
+  "file": "spinosaurus-life.jpg",
+  "licence": "CC BY 4.0",
+  "author": "Connor Ashbridge",
+  "source": "https://commons.wikimedia.org/wiki/File:Spinosaurus_aegyptiacus_life_reconstruction.png",
+  "width": 900,
+  "height": 318,
+  "kind": "artwork"
+ },
+ "allosaurus-life": {
+  "name": "Allosaurus — artist's reconstruction",
+  "file": "allosaurus-life.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Fred Wierum",
+  "source": "https://commons.wikimedia.org/wiki/File:Allosaurus_Revised.jpg",
+  "width": 900,
+  "height": 412,
+  "kind": "artwork"
+ },
+ "ankylosaurus-life": {
+  "name": "Ankylosaurus — artist's reconstruction",
+  "file": "ankylosaurus-life.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Emily Willoughby (e.deinonychus@gmail.com, http://emilywilloughby.com)",
+  "source": "https://commons.wikimedia.org/wiki/File:Ankylosaurus_magniventris_reconstruction.png",
+  "width": 900,
+  "height": 407,
+  "kind": "artwork"
+ },
+ "parasaurolophus-life": {
+  "name": "Parasaurolophus — artist's reconstruction",
+  "file": "parasaurolophus-life.jpg",
+  "licence": "CC BY 3.0",
+  "author": "Tom Parker: http://tomozaurus.deviantart.com/",
+  "source": "https://commons.wikimedia.org/wiki/File:Parasaurolophus_with_frill.jpg",
+  "width": 900,
+  "height": 311,
+  "kind": "artwork"
+ },
+ "pachycephalosaurus-life": {
+  "name": "Pachycephalosaurus — artist's reconstruction",
+  "file": "pachycephalosaurus-life.jpg",
+  "licence": "CC BY 4.0",
+  "author": "Fred Wierum",
+  "source": "https://commons.wikimedia.org/wiki/File:Pachycephalosaurus_Reconstruction.jpg",
+  "width": 900,
+  "height": 540,
+  "kind": "artwork"
+ },
+ "iguanodon-life": {
+  "name": "Iguanodon — artist's reconstruction",
+  "file": "iguanodon-life.jpg",
+  "licence": "CC BY 4.0",
+  "author": "Davide Bonadonna",
+  "source": "https://commons.wikimedia.org/wiki/File:Iguanodon_bernissartensis_(Davide_Bonadonna,_cropped).png",
+  "width": 900,
+  "height": 368,
+  "kind": "artwork"
+ },
+ "argentinosaurus-life": {
+  "name": "Argentinosaurus — artist's reconstruction",
+  "file": "argentinosaurus-life.jpg",
+  "licence": "CC BY 3.0",
+  "author": "Nobu Tamura (http://spinops.blogspot.com)",
+  "source": "https://commons.wikimedia.org/wiki/File:Argentinosaurus_BW.jpg",
+  "width": 900,
+  "height": 375,
+  "kind": "artwork"
+ },
+ "giganotosaurus-life": {
+  "name": "Giganotosaurus — artist's reconstruction",
+  "file": "giganotosaurus-life.jpg",
+  "licence": "CC BY 2.5",
+  "author": "Nobu Tamura (http://spinops.blogspot.com)",
+  "source": "https://commons.wikimedia.org/wiki/File:Giganotosaurus_BW.jpg",
+  "width": 745,
+  "height": 263,
+  "kind": "artwork"
+ },
+ "compsognathus-life": {
+  "name": "Compsognathus — artist's reconstruction",
+  "file": "compsognathus-life.jpg",
+  "licence": "CC BY 4.0",
+  "author": "TotalDino",
+  "source": "https://commons.wikimedia.org/wiki/File:Compsognathus_TD.png",
+  "width": 900,
+  "height": 300,
+  "kind": "artwork"
+ },
+ "protoceratops-life": {
+  "name": "Protoceratops — artist's reconstruction",
+  "file": "protoceratops-life.jpg",
+  "licence": "Public domain",
+  "author": "Charles R. Knight",
+  "source": "https://commons.wikimedia.org/wiki/File:Nesting_Protoceratops.jpg",
+  "width": 900,
+  "height": 717,
+  "kind": "artwork"
+ },
+ "dilophosaurus-life": {
+  "name": "Dilophosaurus — artist's reconstruction",
+  "file": "dilophosaurus-life.jpg",
+  "licence": "CC BY 4.0",
+  "author": "Connor Ashbridge",
+  "source": "https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Dilophosaurus_wetherilli.png",
+  "width": 900,
+  "height": 323,
+  "kind": "artwork"
+ },
+ "styracosaurus-life": {
+  "name": "Styracosaurus — artist's reconstruction",
+  "file": "styracosaurus-life.jpg",
+  "licence": "CC BY 4.0",
+  "author": "Connor Ashbridge",
+  "source": "https://commons.wikimedia.org/wiki/File:Styracosaurus_albertensis.png",
+  "width": 900,
+  "height": 466,
+  "kind": "artwork"
+ },
+ "edmontosaurus-life": {
+  "name": "Edmontosaurus — artist's reconstruction",
+  "file": "edmontosaurus-life.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Connor Ashbridge",
+  "source": "https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Edmontosaurus_regalis.png",
+  "width": 900,
+  "height": 301,
+  "kind": "artwork"
+ },
+ "plesiosaurus-life": {
+  "name": "Plesiosaurus — artist's reconstruction",
+  "file": "plesiosaurus-life.jpg",
+  "licence": "CC BY 4.0",
+  "author": "DataBase Center for Life Science (DBCLS)",
+  "source": "https://commons.wikimedia.org/wiki/File:202006_Plesiosaurus_dolichodeirus.png",
+  "width": 900,
+  "height": 636,
+  "kind": "artwork"
+ },
+ "ichthyosaurus-life": {
+  "name": "Ichthyosaurus — artist's reconstruction",
+  "file": "ichthyosaurus-life.jpg",
+  "licence": "CC BY 3.0",
+  "author": "Nobu Tamura (http://spinops.blogspot.com)",
+  "source": "https://commons.wikimedia.org/wiki/File:Ichthyosaurus_BW.jpg",
+  "width": 600,
+  "height": 274,
+  "kind": "artwork"
  }
 }

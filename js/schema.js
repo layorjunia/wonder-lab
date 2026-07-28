@@ -52,6 +52,25 @@ const HABITATS = {
 // Every animal draws from the same category set. That repetition is a feature:
 // it is what lets the quiz ask "which of these is faster?" across any pair, and
 // what makes writing 10 facts per animal a fill-in rather than a blank page.
+/* How do we know this?
+ *
+ * Not a decoration. A dinosaur entry mixes three completely different kinds of
+ * claim — a measured bone, a weight somebody modelled from that bone, and a
+ * written account — and prose alone lets the second quietly borrow the
+ * authority of the first. Six bumps on one forearm became "Velociraptor had
+ * feathers" in an earlier draft of this app, filed under evidence. Marking the
+ * kind on the card itself is the fix: the child can see which is which without
+ * having to already know.
+ */
+const KINDS = {
+  found:  { name: 'Dug up',       glyph: '🦴', tint: '#9ee85f',
+            blurb: 'Something physically there in the rock — a bone, a tooth, a footprint, a patch of skin. You could go and look at it.' },
+  worked: { name: 'Worked out',   glyph: '📐', tint: '#ffc94a',
+            blurb: 'Not dug up. Someone reasoned it from what was dug up — a weight, a speed, a habit, a colour. Good reasoning is still reasoning.' },
+  record: { name: 'Written down', glyph: '📜', tint: '#b088ff',
+            blurb: 'From a written account rather than the ground — Genesis, an old chronicle, or the story of who found the bones and when.' },
+};
+
 const CATEGORIES = {
   speed:    { name: 'Speed',        glyph: '💨' },
   size:     { name: 'Size',         glyph: '📏' },

@@ -23,6 +23,10 @@ OUT = os.path.join(ROOT, 'js', 'animals.js')
 CATS = {'speed', 'size', 'senses', 'food', 'babies', 'defence', 'record',
         'weird', 'build', 'home', 'talk', 'sleep', 'travel', 'gross',
         'teamwork', 'disguise', 'copied', 'bones', 'created'}
+# How the claim is known. Optional for now — the living-animal entries predate
+# it — but required on every dinosaur fact, where almost nothing is direct
+# observation and prose alone lets a model borrow the authority of a bone.
+KINDS = {'found', 'worked', 'record'}
 HOMES = {'rainforest', 'ocean', 'desert', 'grassland', 'polar', 'mountain',
          'forest', 'freshwater', 'cave', 'backyard'}
 
@@ -54,6 +58,18 @@ BANNED = [
 ]
 
 
+# Group-scoped tripwires. The plain BANNED list runs against every entry, so a
+# feather rule cannot live there — half the bird entries would fail it. The
+# family's position is that the feathered specimens are birds rather than
+# dinosaurs, so the word simply has no business in this group.
+BANNED_BY_GROUP = {
+    'dinosaurs': [
+        (re.compile(r'\bfeather|\bquill|\bplumage|\bpycnofib|\bproto-?feather',
+                    re.I), 'feathers'),
+    ],
+}
+
+
 def check(entry, roster_ids, photo_ids):
     problems = []
     eid = entry.get('id', '?')
@@ -69,6 +85,11 @@ def check(entry, roster_ids, photo_ids):
     for f in entry.get('facts', []):
         if f.get('cat') not in CATS:
             problems.append(f'{eid}: unknown category {f.get("cat")!r}')
+        k = f.get('kind')
+        if k is not None and k not in KINDS:
+            problems.append(f'{eid}: unknown kind {k!r}')
+        if entry.get('group') == 'dinosaurs' and not k:
+            problems.append(f'{eid}: fact has no kind — {f.get("text", "")[:48]!r}')
         words = len((f.get('text') or '').split())
         if words > 60:
             problems.append(f'{eid}: fact runs {words} words')
@@ -76,7 +97,8 @@ def check(entry, roster_ids, photo_ids):
         [entry.get('blurb', ''), entry.get('size', ''), entry.get('wonder', '')]
         + [f.get('text', '') + ' ' + (f.get('more') or '')
            for f in entry.get('facts', [])])
-    for rx, label in BANNED:
+    rules = BANNED + BANNED_BY_GROUP.get(entry.get('group'), [])
+    for rx, label in rules:
         m = rx.search(blob)
         if m:
             problems.append(f'{eid}: EDITORIAL — {label} ({m.group(0)!r})')
@@ -110,6 +132,13 @@ def main():
         p = check(e, roster_ids, photo_ids)
         problems += p
         if not any('EDITORIAL' in x or 'no facts' in x for x in p):
+            # Flag entries that have an artist's reconstruction alongside the
+            # excavated-skeleton photo, so the app can lead with the painting
+            # and still show the bones underneath, each labelled for what it is.
+            if os.path.exists(os.path.join(ROOT, 'img', eid + '-life.jpg')):
+                e['art'] = 1
+            else:
+                e.pop('art', None)
             kept[eid] = e
 
     ordered = sorted(kept.values(), key=lambda e: order.get(e['id'], 9999))
