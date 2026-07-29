@@ -36,6 +36,33 @@ const GROUPS = {
   dinosaurs:  { name: 'Dinosaurs & Giants', glyph: '🦕', tint: '#ffa04a' },
 };
 
+/* Plant groups. Kept separate from GROUPS so a filter rail in one section can
+   never offer a filter that belongs to another. */
+const PLANT_GROUPS = {
+  trees:      { name: 'Trees',            glyph: '🌳', tint: '#7fe3a0' },
+  flowers:    { name: 'Flowers',          glyph: '🌸', tint: '#ff9ec7' },
+  carnivores: { name: 'Meat-Eaters',      glyph: '🪤', tint: '#9ee85f' },
+  desert:     { name: 'Desert Survivors', glyph: '🌵', tint: '#ffc94a' },
+  crops:      { name: 'Food We Grow',     glyph: '🌾', tint: '#ffb04a' },
+  water:      { name: 'Water Plants',     glyph: '🌊', tint: '#4fd6e8' },
+  moss:       { name: 'Moss & Lichen',    glyph: '🍃', tint: '#8fd18f' },
+  ferns:      { name: 'Ferns',            glyph: '🌿', tint: '#6fbf73' },
+  fungi:      { name: 'Fungi',            glyph: '🍄', tint: '#ff7a6b' },
+  odd:        { name: 'Oddities',         glyph: '🌀', tint: '#b088ff' },
+};
+
+/* The Earth half. Topic sections, like the body — there is no species here. */
+const EARTH_SECTIONS = {
+  rocks:     { name: 'Rocks & Crystals',  glyph: '💎' },
+  volcanoes: { name: 'Volcanoes',         glyph: '🌋' },
+  quakes:    { name: 'Earthquakes',       glyph: '🫨' },
+  water:     { name: 'Oceans & Rivers',   glyph: '🌊' },
+  weather:   { name: 'Weather',           glyph: '⛈️' },
+  caves:     { name: 'Caves & Canyons',   glyph: '🕳️' },
+  ice:       { name: 'Ice & Poles',       glyph: '🧊' },
+  sky:       { name: 'Sun, Moon & Sky',   glyph: '🌙' },
+};
+
 const HABITATS = {
   rainforest: { name: 'Rainforest', glyph: '🌴' },
   ocean:      { name: 'Ocean',      glyph: '🌊' },
@@ -63,8 +90,13 @@ const HABITATS = {
  * having to already know.
  */
 const KINDS = {
-  found:  { name: 'Dug up',       glyph: '🦴', tint: '#9ee85f',
-            blurb: 'Something physically there in the rock — a bone, a tooth, a footprint, a patch of skin. You could go and look at it.' },
+  /* "Dug up" is right for a fossil and nonsense for the moon's rotation, so
+     the label follows the section: dinosaurs keep the spade, everything else
+     gets the neutral word. The MEANING is identical — somebody actually
+     looked. */
+  found:  { name: 'Observed',     glyph: '🔍', tint: '#9ee85f',
+            dino: { name: 'Dug up', glyph: '🦴' },
+            blurb: 'Somebody actually looked. A measured bone, a counted set of teeth, a depth someone lowered a line to, a thing you could go and see for yourself.' },
   worked: { name: 'Worked out',   glyph: '📐', tint: '#ffc94a',
             blurb: 'Not dug up. Someone reasoned it from what was dug up — a weight, a speed, a habit, a colour. Good reasoning is still reasoning.' },
   record: { name: 'Written down', glyph: '📜', tint: '#b088ff',

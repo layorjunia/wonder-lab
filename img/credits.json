@@ -2098,5 +2098,824 @@
   "width": 600,
   "height": 274,
   "kind": "artwork"
+ },
+ "giant-sequoia": {
+  "name": "Giant sequoia",
+  "file": "giant-sequoia.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Mike Murphy (talk · contribs)",
+  "source": "https://commons.wikimedia.org/wiki/File:Grizzly_Giant_Mariposa_Grove.jpg",
+  "width": 900,
+  "height": 1662
+ },
+ "coast-redwood": {
+  "name": "Coast redwood",
+  "file": "coast-redwood.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Acroterion",
+  "source": "https://commons.wikimedia.org/wiki/File:US_199_Redwood_Highway.jpg",
+  "width": 900,
+  "height": 1348
+ },
+ "bristlecone-pine": {
+  "name": "Bristlecone pine",
+  "file": "bristlecone-pine.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Dcrjsr",
+  "source": "https://commons.wikimedia.org/wiki/File:Big_bristlecone_pine_Pinus_longaeva.jpg",
+  "width": 900,
+  "height": 1122
+ },
+ "baobab": {
+  "name": "Baobab",
+  "file": "baobab.jpg",
+  "licence": "CC BY-SA 2.0",
+  "author": "Ton Rulkens from Mozambique",
+  "source": "https://commons.wikimedia.org/wiki/File:Adansonia_digitata_(1).jpg",
+  "width": 900,
+  "height": 758
+ },
+ "oak": {
+  "name": "English oak",
+  "file": "oak.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "The original uploader was Snowmanradio at English Wikipedia. (Original text: snowmanradio)",
+  "source": "https://commons.wikimedia.org/wiki/File:Baginton_oak_tree_july06.JPG",
+  "width": 900,
+  "height": 1200
+ },
+ "banyan": {
+  "name": "Banyan",
+  "file": "banyan.jpg",
+  "licence": "CC BY 2.0",
+  "author": "McKay Savage",
+  "source": "https://commons.wikimedia.org/wiki/File:Great_banyan_tree_kol.jpg",
+  "width": 900,
+  "height": 675
+ },
+ "mangrove": {
+  "name": "Red mangrove",
+  "file": "mangrove.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Fred Hsu on en.wikipedia",
+  "source": "https://commons.wikimedia.org/wiki/File:2017_Sarasota_Red_Mangrove_Tunnels_2_FRD_9456.jpg",
+  "width": 900,
+  "height": 675
+ },
+ "aspen": {
+  "name": "Quaking aspen",
+  "file": "aspen.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Famartin",
+  "source": "https://commons.wikimedia.org/wiki/File:2013-10-06_15_04_21_Aspens_during_autumn_along_the_Changing_Canyon_Nature_Trail_in_Lamoille_Canyon,_Nevada.jpg",
+  "width": 900,
+  "height": 675
+ },
+ "dragon-blood-tree": {
+  "name": "Dragon's blood tree",
+  "file": "dragon-blood-tree.jpg",
+  "licence": "CC BY 4.0",
+  "author": "Alex38",
+  "source": "https://commons.wikimedia.org/wiki/File:Dragonblood_tree_in_Socotra_2.jpg",
+  "width": 900,
+  "height": 1199
+ },
+ "joshua-tree": {
+  "name": "Joshua tree",
+  "file": "joshua-tree.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Bernard Gagnon",
+  "source": "https://commons.wikimedia.org/wiki/File:Joshua_Tree_01.jpg",
+  "width": 900,
+  "height": 1242
+ },
+ "cacao": {
+  "name": "Cacao",
+  "file": "cacao.jpg",
+  "licence": "CC BY 3.0",
+  "author": "Luisovalles",
+  "source": "https://commons.wikimedia.org/wiki/File:Matadecacao.jpg",
+  "width": 900,
+  "height": 1350
+ },
+ "rubber-tree": {
+  "name": "Rubber tree",
+  "file": "rubber-tree.jpg",
+  "licence": "Public domain",
+  "author": "Irvin calicut",
+  "source": "https://commons.wikimedia.org/wiki/File:Tapped_rubber_tree.jpg",
+  "width": 900,
+  "height": 1200
+ },
+ "eucalyptus": {
+  "name": "Rainbow eucalyptus",
+  "file": "eucalyptus.jpg",
+  "licence": "CC0",
+  "author": "Bruceanthro",
+  "source": "https://commons.wikimedia.org/wiki/File:EucalyptusDeglupta_TallTree.jpg",
+  "width": 900,
+  "height": 675
+ },
+ "cedar-of-lebanon": {
+  "name": "Cedar of Lebanon",
+  "file": "cedar-of-lebanon.jpg",
+  "licence": "CC BY 2.5",
+  "author": "Olivier BEZES",
+  "source": "https://commons.wikimedia.org/wiki/File:C%C3%A8dre_du_Liban_Barouk_2005.jpg",
+  "width": 900,
+  "height": 675
+ },
+ "willow": {
+  "name": "Weeping willow",
+  "file": "willow.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Fab5669",
+  "source": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Chenonceau_-_jardin_Russell-Page_(01).jpg",
+  "width": 900,
+  "height": 1200
+ },
+ "birch": {
+  "name": "Silver birch",
+  "file": "birch.jpg",
+  "licence": "CC BY-SA 2.0",
+  "author": "Percita at Flickr",
+  "source": "https://commons.wikimedia.org/wiki/File:Betula_pendula_Finland.jpg",
+  "width": 900,
+  "height": 675
+ },
+ "corpse-flower": {
+  "name": "Corpse flower",
+  "file": "corpse-flower.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Sailing moose",
+  "source": "https://commons.wikimedia.org/wiki/File:Amorphophallus_titanum_(corpse_flower)_-_2.jpg",
+  "width": 900,
+  "height": 1286
+ },
+ "rafflesia": {
+  "name": "Rafflesia",
+  "file": "rafflesia.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "LukeTriton",
+  "source": "https://commons.wikimedia.org/wiki/File:Rafflesia_arnoldii,_Sumatra.jpg",
+  "width": 900,
+  "height": 926
+ },
+ "orchid-bee": {
+  "name": "Bee orchid",
+  "file": "orchid-bee.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Didier Descouens",
+  "source": "https://commons.wikimedia.org/wiki/File:(MHNT)_Ophrys_apifera_-_Villeneuve-l%C3%A8s-Bouloc_-_Flower.jpg",
+  "width": 900,
+  "height": 741
+ },
+ "lotus": {
+  "name": "Sacred lotus",
+  "file": "lotus.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "T.Voekler",
+  "source": "https://commons.wikimedia.org/wiki/File:Sacred_lotus_Nelumbo_nucifera.jpg",
+  "width": 900,
+  "height": 825
+ },
+ "dandelion": {
+  "name": "Dandelion",
+  "file": "dandelion.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Ivar Leidus",
+  "source": "https://commons.wikimedia.org/wiki/File:Bombus_ruderarius_-_Taraxacum_officinale_-_Keila.jpg",
+  "width": 900,
+  "height": 600
+ },
+ "poppy": {
+  "name": "Common poppy",
+  "file": "poppy.jpg",
+  "licence": "Public domain",
+  "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+  "source": "https://commons.wikimedia.org/wiki/File:Papaver_rhoeas_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-101.jpg",
+  "width": 412,
+  "height": 592
+ },
+ "lavender": {
+  "name": "Lavender",
+  "file": "lavender.jpg",
+  "licence": "CC0",
+  "author": "Kitten Goes Meow",
+  "source": "https://commons.wikimedia.org/wiki/File:A_small_white_feeding_on_a_lavender_flower.jpg",
+  "width": 900,
+  "height": 506
+ },
+ "bird-of-paradise": {
+  "name": "Bird of paradise flower",
+  "file": "bird-of-paradise.jpg",
+  "licence": "CC BY 4.0",
+  "author": "Gabriel Collares",
+  "source": "https://commons.wikimedia.org/wiki/File:Ave-do-para%C3%ADso,_Strelitzia_reginae,_em_Bag%C3%A9,_Rio_Grande_do_Sul,_Brasil_-_55211233712.jpg",
+  "width": 900,
+  "height": 675
+ },
+ "passionflower": {
+  "name": "Passionflower",
+  "file": "passionflower.jpg",
+  "licence": "CC BY 3.0",
+  "author": "Oliver P. Quillia",
+  "source": "https://commons.wikimedia.org/wiki/File:OQ_Passion_flower.jpg",
+  "width": 800,
+  "height": 797
+ },
+ "snapdragon": {
+  "name": "Snapdragon",
+  "file": "snapdragon.jpg",
+  "licence": "CC BY-SA 3.0 au",
+  "author": "Craig Franklin",
+  "source": "https://commons.wikimedia.org/wiki/File:Antirrhinum_majus_BCBG_(02).jpg",
+  "width": 900,
+  "height": 1200
+ },
+ "water-lily": {
+  "name": "Giant water lily",
+  "file": "water-lily.jpg",
+  "licence": "CC BY 3.0",
+  "author": "Bilby",
+  "source": "https://commons.wikimedia.org/wiki/File:Victoria_amazonica_edit_1.jpg",
+  "width": 900,
+  "height": 1080
+ },
+ "foxglove": {
+  "name": "Foxglove",
+  "file": "foxglove.jpg",
+  "licence": "CC BY-SA 3.0 de",
+  "author": "Jörg Hempel",
+  "source": "https://commons.wikimedia.org/wiki/File:Digitalis_purpurea_LC0101.jpg",
+  "width": 900,
+  "height": 1367
+ },
+ "bluebell": {
+  "name": "Bluebell",
+  "file": "bluebell.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "MichaelMaggs",
+  "source": "https://commons.wikimedia.org/wiki/File:Hyacinthoides_non-scripta_(Common_Bluebell).jpg",
+  "width": 900,
+  "height": 1350
+ },
+ "pitcher-plant": {
+  "name": "Tropical pitcher plant",
+  "file": "pitcher-plant.jpg",
+  "licence": "Public domain",
+  "author": "hirosi SBM",
+  "source": "https://commons.wikimedia.org/wiki/File:N.macrophylla_x_lowii.jpg",
+  "width": 500,
+  "height": 667
+ },
+ "sundew": {
+  "name": "Sundew",
+  "file": "sundew.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Jan Wieneke",
+  "source": "https://commons.wikimedia.org/wiki/File:Drosera_spatulata_KansaiHabit.jpg",
+  "width": 900,
+  "height": 675
+ },
+ "bladderwort": {
+  "name": "Bladderwort",
+  "file": "bladderwort.jpg",
+  "licence": "Public domain",
+  "author": "Veledan",
+  "source": "https://commons.wikimedia.org/wiki/File:Uk_pond_bladderwort2.jpg",
+  "width": 900,
+  "height": 677
+ },
+ "cobra-lily": {
+  "name": "Cobra lily",
+  "file": "cobra-lily.jpg",
+  "licence": "CC BY 2.5",
+  "author": "NoahElhardt (talk · contribs)",
+  "source": "https://commons.wikimedia.org/wiki/File:Darlingtonia_californica_ne1.JPG",
+  "width": 900,
+  "height": 675
+ },
+ "butterwort": {
+  "name": "Butterwort",
+  "file": "butterwort.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Noah Elhardt",
+  "source": "https://commons.wikimedia.org/wiki/File:Pinguicula_moranensis.jpg",
+  "width": 900,
+  "height": 742
+ },
+ "living-stones": {
+  "name": "Living stones",
+  "file": "living-stones.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "SAplants",
+  "source": "https://commons.wikimedia.org/wiki/File:Lithops_schwantesii_subsp._schwantesii_var._marthae_S-0292-603.jpg",
+  "width": 900,
+  "height": 600
+ },
+ "resurrection-plant": {
+  "name": "Resurrection plant",
+  "file": "resurrection-plant.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Unknown",
+  "source": "https://commons.wikimedia.org/wiki/File:Selaginella_lepidophylla_gruen.jpeg",
+  "width": 800,
+  "height": 600
+ },
+ "agave": {
+  "name": "Century plant",
+  "file": "agave.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Alvesgaspar",
+  "source": "https://commons.wikimedia.org/wiki/File:Agave_July_2011-1.jpg",
+  "width": 900,
+  "height": 1263
+ },
+ "barrel-cactus": {
+  "name": "Barrel cactus",
+  "file": "barrel-cactus.jpg",
+  "licence": "Public domain",
+  "author": "Karelj",
+  "source": "https://commons.wikimedia.org/wiki/File:Ferocactus_glaucescens_Prg1.jpg",
+  "width": 900,
+  "height": 831
+ },
+ "prickly-pear": {
+  "name": "Prickly pear",
+  "file": "prickly-pear.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Unknown",
+  "source": "https://commons.wikimedia.org/wiki/File:Opuntia_littoralis_var_vaseyi_4.jpg",
+  "width": 900,
+  "height": 648
+ },
+ "aloe": {
+  "name": "Aloe vera",
+  "file": "aloe.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Collage by en:User:MidgleyDJ, original images from Wikimedia commons (Image:Aloe_vera_offsets.jpg and Image:Aloe_vera_C.jpg)",
+  "source": "https://commons.wikimedia.org/wiki/File:Aloe_vera_flower_inset.png",
+  "width": 900,
+  "height": 675
+ },
+ "rice": {
+  "name": "Rice",
+  "file": "rice.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Augustus Binu : flickr : Instagram",
+  "source": "https://commons.wikimedia.org/wiki/File:Mature_Rice_(India)_by_Augustus_Binu.jpg",
+  "width": 900,
+  "height": 596
+ },
+ "coffee": {
+  "name": "Coffee",
+  "file": "coffee.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Marcelo Corrêa",
+  "source": "https://commons.wikimedia.org/wiki/File:Coffee_Flowers.JPG",
+  "width": 900,
+  "height": 675
+ },
+ "vanilla": {
+  "name": "Vanilla orchid",
+  "file": "vanilla.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "B.navez",
+  "source": "https://commons.wikimedia.org/wiki/File:Vanilla_on_Dracaena.JPG",
+  "width": 900,
+  "height": 675
+ },
+ "pumpkin": {
+  "name": "Pumpkin",
+  "file": "pumpkin.jpg",
+  "licence": "CC BY-SA 1.0",
+  "author": "Various",
+  "source": "https://commons.wikimedia.org/wiki/File:Cucurbita_pepo_collage_1.png",
+  "width": 900,
+  "height": 744
+ },
+ "sugarcane": {
+  "name": "Sugarcane",
+  "file": "sugarcane.jpg",
+  "licence": "CC BY-SA 2.0",
+  "author": "Ton Rulkens",
+  "source": "https://commons.wikimedia.org/wiki/File:Saccharum_officinarum,_Mozambique.jpg",
+  "width": 625,
+  "height": 800
+ },
+ "chilli": {
+  "name": "Chilli pepper",
+  "file": "chilli.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Tommi Nummelin",
+  "source": "https://commons.wikimedia.org/wiki/File:Bolivian_Rainbow_fruits.JPG",
+  "width": 900,
+  "height": 675
+ },
+ "grape": {
+  "name": "Grapevine",
+  "file": "grape.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Unknown",
+  "source": "https://commons.wikimedia.org/wiki/File:Cabernet_Sauvignon_Gaillac.jpg",
+  "width": 882,
+  "height": 718
+ },
+ "duckweed": {
+  "name": "Duckweed",
+  "file": "duckweed.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Unknown",
+  "source": "https://commons.wikimedia.org/wiki/File:Eendekroos_dicht_bijeen.JPG",
+  "width": 900,
+  "height": 675
+ },
+ "papyrus": {
+  "name": "Papyrus",
+  "file": "papyrus.jpg",
+  "licence": "CC BY-SA 2.0",
+  "author": "Bernard DUPONT from FRANCE",
+  "source": "https://commons.wikimedia.org/wiki/File:Papyrus_(Cyperus_papyrus)_(7079191471).jpg",
+  "width": 900,
+  "height": 675
+ },
+ "seagrass": {
+  "name": "Seagrass",
+  "file": "seagrass.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Frédéric Ducarme",
+  "source": "https://commons.wikimedia.org/wiki/File:Posidonia_oceanica_(L).jpg",
+  "width": 900,
+  "height": 675
+ },
+ "sphagnum": {
+  "name": "Sphagnum moss",
+  "file": "sphagnum.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "James K. Lindsey",
+  "source": "https://commons.wikimedia.org/wiki/File:Sphagnum.flexuosum.jpg",
+  "width": 640,
+  "height": 426
+ },
+ "tree-fern": {
+  "name": "Tree fern",
+  "file": "tree-fern.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Kevmin",
+  "source": "https://commons.wikimedia.org/wiki/File:Cyathea_inequilateralis_SRIC_img2.jpg",
+  "width": 900,
+  "height": 984
+ },
+ "bracken": {
+  "name": "Bracken",
+  "file": "bracken.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Rasbak",
+  "source": "https://commons.wikimedia.org/wiki/File:Adelaarsvaren_planten_Pteridium_aquilinum.jpg",
+  "width": 900,
+  "height": 1235
+ },
+ "horsetail": {
+  "name": "Horsetail",
+  "file": "horsetail.jpg",
+  "licence": "CC BY-SA 2.0",
+  "author": "Ragnhild&amp;Neil Crawford from Sweden",
+  "source": "https://commons.wikimedia.org/wiki/File:Equisetum_telmateia,_Ireland_1_-_Ragnhild_%26_Neil_Crawford.jpg",
+  "width": 900,
+  "height": 900
+ },
+ "lichen": {
+  "name": "Lichen",
+  "file": "lichen.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "MichaelMaggs",
+  "source": "https://commons.wikimedia.org/wiki/File:Lichen-covered_tree,_Tresco.jpg",
+  "width": 900,
+  "height": 1380
+ },
+ "fly-agaric": {
+  "name": "Fly agaric",
+  "file": "fly-agaric.jpg",
+  "licence": "CC BY-SA 3.0 nl",
+  "author": "Onderwijsgek",
+  "source": "https://commons.wikimedia.org/wiki/File:Amanita_muscaria_3_vliegenzwammen_op_rij.jpg",
+  "width": 900,
+  "height": 675
+ },
+ "honey-fungus": {
+  "name": "Honey fungus",
+  "file": "honey-fungus.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Stu's Images",
+  "source": "https://commons.wikimedia.org/wiki/File:Armillaria_mellea,_Honey_Fungus,_UK_1.jpg",
+  "width": 900,
+  "height": 600
+ },
+ "stinkhorn": {
+  "name": "Stinkhorn",
+  "file": "stinkhorn.jpg",
+  "licence": "CC BY-SA 3.0 de",
+  "author": "Jörg Hempel",
+  "source": "https://commons.wikimedia.org/wiki/File:Phallus_impudicus_LC0235.jpg",
+  "width": 900,
+  "height": 1200
+ },
+ "puffball": {
+  "name": "Giant puffball",
+  "file": "puffball.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "The original uploader was Sulfur at English Wikipedia.",
+  "source": "https://commons.wikimedia.org/wiki/File:Giant_Puffball.jpg",
+  "width": 900,
+  "height": 600
+ },
+ "bracket-fungus": {
+  "name": "Bracket fungus",
+  "file": "bracket-fungus.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Eric Steinert",
+  "source": "https://commons.wikimedia.org/wiki/File:Ganoderma_applanatum02.jpg",
+  "width": 800,
+  "height": 600
+ },
+ "truffle": {
+  "name": "Truffle",
+  "file": "truffle.jpg",
+  "licence": "Public domain",
+  "author": "moi-même",
+  "source": "https://commons.wikimedia.org/wiki/File:Truffe_noire_du_P%C3%A9rigord.jpg",
+  "width": 800,
+  "height": 600
+ },
+ "mimosa": {
+  "name": "Sensitive plant",
+  "file": "mimosa.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Suyash.dwivedi",
+  "source": "https://commons.wikimedia.org/wiki/File:Mimosa_pudica_in_September_month.jpg",
+  "width": 900,
+  "height": 675
+ },
+ "strangler-fig": {
+  "name": "Strangler fig",
+  "file": "strangler-fig.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Forest Starr and Kim Starr",
+  "source": "https://commons.wikimedia.org/wiki/File:Ficus_aurea03.jpg",
+  "width": 900,
+  "height": 1200
+ },
+ "corpse-lily": {
+  "name": "Ghost plant",
+  "file": "corpse-lily.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Sage Ross",
+  "source": "https://commons.wikimedia.org/wiki/File:Monotropa_uniflora_in_Penwood_State_Park_3,_2009-07-03.jpg",
+  "width": 900,
+  "height": 1261
+ },
+ "touch-me-not": {
+  "name": "Himalayan balsam",
+  "file": "touch-me-not.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "H. Zell",
+  "source": "https://commons.wikimedia.org/wiki/File:Impatiens_glandulifera_0004.JPG",
+  "width": 900,
+  "height": 1200
+ },
+ "telegraph-plant": {
+  "name": "Telegraph plant",
+  "file": "telegraph-plant.jpg",
+  "licence": "CC BY 3.0",
+  "author": "പ്രശാന്ത്‌ ഇറവങ്കര",
+  "source": "https://commons.wikimedia.org/wiki/File:Thozhukanni.JPG",
+  "width": 600,
+  "height": 800
+ },
+ "tumbleweed": {
+  "name": "Tumbleweed",
+  "file": "tumbleweed.jpg",
+  "licence": "CC BY 3.0",
+  "author": "Forest &amp; Kim Starr",
+  "source": "https://commons.wikimedia.org/wiki/File:Starr_070313-5636_Salsola_tragus.jpg",
+  "width": 900,
+  "height": 675
+ },
+ "date-palm": {
+  "name": "Date palm",
+  "file": "date-palm.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Nepenthes",
+  "source": "https://commons.wikimedia.org/wiki/File:Dates005.jpg",
+  "width": 900,
+  "height": 602
+ },
+ "olive": {
+  "name": "Olive tree",
+  "file": "olive.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "en:User:Nickfraser",
+  "source": "https://commons.wikimedia.org/wiki/File:Olivesfromjordan.jpg",
+  "width": 494,
+  "height": 500
+ },
+ "fig": {
+  "name": "Common fig",
+  "file": "fig.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "No machine-readable author provided. Pokrajac assumed (based on copyright claims).",
+  "source": "https://commons.wikimedia.org/wiki/File:Drvo_smokve.JPG",
+  "width": 640,
+  "height": 480
+ },
+ "apple": {
+  "name": "Apple tree",
+  "file": "apple.jpg",
+  "licence": "Public domain",
+  "author": "Agricultural Research Service (Research agent of United States Department of Agriculture)",
+  "source": "https://commons.wikimedia.org/wiki/File:95apple.jpeg",
+  "width": 600,
+  "height": 450
+ },
+ "sunflower": {
+  "name": "Sunflower",
+  "file": "sunflower.jpg",
+  "licence": "CC BY-SA 2.5",
+  "author": "L. Shyamal",
+  "source": "https://commons.wikimedia.org/wiki/File:Helianthus_whorl.jpg",
+  "width": 640,
+  "height": 480
+ },
+ "tulip": {
+  "name": "Tulip",
+  "file": "tulip.jpg",
+  "licence": "CC0",
+  "author": "Dina L",
+  "source": "https://commons.wikimedia.org/wiki/File:%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG",
+  "width": 900,
+  "height": 617
+ },
+ "edelweiss": {
+  "name": "Edelweiss",
+  "file": "edelweiss.jpg",
+  "licence": "CC BY-SA 2.5",
+  "author": "Böhringer Friedrich",
+  "source": "https://commons.wikimedia.org/wiki/File:Alpen_Edelwei%C3%9F,_Leontopodium_alpinum_2.JPG",
+  "width": 900,
+  "height": 598
+ },
+ "hibiscus": {
+  "name": "Hibiscus",
+  "file": "hibiscus.jpg",
+  "licence": "CC BY 2.0",
+  "author": "Andy / Andrew Fogg from near Cambridge, UK",
+  "source": "https://commons.wikimedia.org/wiki/File:Hibiscus_Brilliant.jpg",
+  "width": 900,
+  "height": 659
+ },
+ "venus-flytrap": {
+  "name": "Venus flytrap",
+  "file": "venus-flytrap.jpg",
+  "licence": "CC BY-SA 2.5",
+  "author": "Noah Elhardt",
+  "source": "https://commons.wikimedia.org/wiki/File:Venus_Flytrap_showing_trigger_hairs.jpg",
+  "width": 900,
+  "height": 984
+ },
+ "saguaro": {
+  "name": "Saguaro cactus",
+  "file": "saguaro.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "WClarke",
+  "source": "https://commons.wikimedia.org/wiki/File:Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson,_Arizona_during_November_(58).jpg",
+  "width": 900,
+  "height": 675
+ },
+ "welwitschia": {
+  "name": "Welwitschia",
+  "file": "welwitschia.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Thomas Schoch",
+  "source": "https://commons.wikimedia.org/wiki/File:Welwitschia_mirabilis(2).jpg",
+  "width": 900,
+  "height": 675
+ },
+ "wheat": {
+  "name": "Wheat",
+  "file": "wheat.jpg",
+  "licence": "CC BY 2.0",
+  "author": "INRA DIST from France",
+  "source": "https://commons.wikimedia.org/wiki/File:Bl%C3%A9_tendre_(GRAPELLI)_AO-5-cliche_Jean_Weber_(5)_(23975019962).jpg",
+  "width": 900,
+  "height": 600
+ },
+ "maize": {
+  "name": "Maize",
+  "file": "maize.jpg",
+  "licence": "CC BY 2.0",
+  "author": "Stephen Morrison/Africa Practice",
+  "source": "https://commons.wikimedia.org/wiki/File:Africa_Food_Security_11_(10665081134).jpg",
+  "width": 900,
+  "height": 599
+ },
+ "potato": {
+  "name": "Potato",
+  "file": "potato.jpg",
+  "licence": "Public domain",
+  "author": "Scott Bauer, USDA ARS",
+  "source": "https://commons.wikimedia.org/wiki/File:Patates.jpg",
+  "width": 900,
+  "height": 585
+ },
+ "tomato": {
+  "name": "Tomato",
+  "file": "tomato.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Softeis",
+  "source": "https://commons.wikimedia.org/wiki/File:Tomato_je.jpg",
+  "width": 900,
+  "height": 748
+ },
+ "pineapple": {
+  "name": "Pineapple",
+  "file": "pineapple.jpg",
+  "licence": "CC BY 3.0",
+  "author": "Suniltg at Malayalam Wikipedia",
+  "source": "https://commons.wikimedia.org/wiki/File:%E0%B4%95%E0%B5%88%E0%B4%A4%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%95%E0%B5%8D%E0%B4%95.jpg",
+  "width": 900,
+  "height": 604
+ },
+ "strawberry": {
+  "name": "Strawberry",
+  "file": "strawberry.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "Ivar Leidus",
+  "source": "https://commons.wikimedia.org/wiki/File:Garden_strawberry_(Fragaria_%C3%97_ananassa)_single2.jpg",
+  "width": 900,
+  "height": 600
+ },
+ "peanut": {
+  "name": "Peanut",
+  "file": "peanut.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "H. Zell",
+  "source": "https://commons.wikimedia.org/wiki/File:Arachis_hypogaea_006.JPG",
+  "width": 900,
+  "height": 675
+ },
+ "giant-kelp": {
+  "name": "Giant kelp",
+  "file": "giant-kelp.jpg",
+  "licence": "Public domain",
+  "author": "Unknown",
+  "source": "https://commons.wikimedia.org/wiki/File:Giantkelp2_300.jpg",
+  "width": 900,
+  "height": 594
+ },
+ "bamboo": {
+  "name": "Bamboo",
+  "file": "bamboo.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Kamakura",
+  "source": "https://commons.wikimedia.org/wiki/File:Bamboo_forest.jpg",
+  "width": 720,
+  "height": 960
+ },
+ "squirting-cucumber": {
+  "name": "Squirting cucumber",
+  "file": "squirting-cucumber.jpg",
+  "licence": "CC BY 2.0",
+  "author": "Katja Schulz from Washington, D. C., USA",
+  "source": "https://commons.wikimedia.org/wiki/File:Squirting_Cucumber_(15796509091).jpg",
+  "width": 900,
+  "height": 675
+ },
+ "rose": {
+  "name": "Rose",
+  "file": "rose.jpg",
+  "licence": "CC BY-SA 3.0",
+  "author": "Stan Shebs",
+  "source": "https://commons.wikimedia.org/wiki/File:Rosa_rubiginosa_1.jpg",
+  "width": 900,
+  "height": 836
+ },
+ "banana": {
+  "name": "Banana",
+  "file": "banana.jpg",
+  "licence": "CC BY 2.0",
+  "author": "Shubert Ciencia",
+  "source": "https://commons.wikimedia.org/wiki/File:Banana_Plantation_Panabo_City.jpg",
+  "width": 900,
+  "height": 675
+ },
+ "moss": {
+  "name": "Common moss",
+  "file": "moss.jpg",
+  "licence": "CC BY 2.5",
+  "author": "IvoShandor",
+  "source": "https://commons.wikimedia.org/wiki/File:Tionesta-ac-moss2.jpg",
+  "width": 900,
+  "height": 675
  }
 }

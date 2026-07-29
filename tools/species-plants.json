@@ -1,0 +1,548 @@
+[
+ {
+  "id": "giant-sequoia",
+  "name": "Giant sequoia",
+  "group": "trees",
+  "wiki": "Sequoiadendron giganteum"
+ },
+ {
+  "id": "coast-redwood",
+  "name": "Coast redwood",
+  "group": "trees",
+  "wiki": "Sequoia sempervirens"
+ },
+ {
+  "id": "bristlecone-pine",
+  "name": "Bristlecone pine",
+  "group": "trees",
+  "wiki": "Pinus longaeva"
+ },
+ {
+  "id": "baobab",
+  "name": "Baobab",
+  "group": "trees",
+  "wiki": "Adansonia"
+ },
+ {
+  "id": "oak",
+  "name": "English oak",
+  "group": "trees",
+  "wiki": "Quercus robur"
+ },
+ {
+  "id": "banyan",
+  "name": "Banyan",
+  "group": "trees",
+  "wiki": "Ficus benghalensis"
+ },
+ {
+  "id": "mangrove",
+  "name": "Red mangrove",
+  "group": "trees",
+  "wiki": "Rhizophora mangle"
+ },
+ {
+  "id": "aspen",
+  "name": "Quaking aspen",
+  "group": "trees",
+  "wiki": "Populus tremuloides"
+ },
+ {
+  "id": "dragon-blood-tree",
+  "name": "Dragon's blood tree",
+  "group": "trees",
+  "wiki": "Dracaena cinnabari"
+ },
+ {
+  "id": "joshua-tree",
+  "name": "Joshua tree",
+  "group": "trees",
+  "wiki": "Yucca brevifolia"
+ },
+ {
+  "id": "cacao",
+  "name": "Cacao",
+  "group": "trees",
+  "wiki": "Theobroma cacao"
+ },
+ {
+  "id": "rubber-tree",
+  "name": "Rubber tree",
+  "group": "trees",
+  "wiki": "Hevea brasiliensis"
+ },
+ {
+  "id": "eucalyptus",
+  "name": "Rainbow eucalyptus",
+  "group": "trees",
+  "wiki": "Eucalyptus deglupta"
+ },
+ {
+  "id": "date-palm",
+  "name": "Date palm",
+  "group": "trees",
+  "wiki": "Phoenix dactylifera"
+ },
+ {
+  "id": "cedar-of-lebanon",
+  "name": "Cedar of Lebanon",
+  "group": "trees",
+  "wiki": "Cedrus libani"
+ },
+ {
+  "id": "olive",
+  "name": "Olive tree",
+  "group": "trees",
+  "wiki": "Olea europaea"
+ },
+ {
+  "id": "fig",
+  "name": "Common fig",
+  "group": "trees",
+  "wiki": "Ficus carica"
+ },
+ {
+  "id": "apple",
+  "name": "Apple tree",
+  "group": "trees",
+  "wiki": "Malus domestica"
+ },
+ {
+  "id": "willow",
+  "name": "Weeping willow",
+  "group": "trees",
+  "wiki": "Salix babylonica"
+ },
+ {
+  "id": "birch",
+  "name": "Silver birch",
+  "group": "trees",
+  "wiki": "Betula pendula"
+ },
+ {
+  "id": "sunflower",
+  "name": "Sunflower",
+  "group": "flowers",
+  "wiki": "Helianthus annuus"
+ },
+ {
+  "id": "corpse-flower",
+  "name": "Corpse flower",
+  "group": "flowers",
+  "wiki": "Amorphophallus titanum"
+ },
+ {
+  "id": "rafflesia",
+  "name": "Rafflesia",
+  "group": "flowers",
+  "wiki": "Rafflesia arnoldii"
+ },
+ {
+  "id": "orchid-bee",
+  "name": "Bee orchid",
+  "group": "flowers",
+  "wiki": "Ophrys apifera"
+ },
+ {
+  "id": "lotus",
+  "name": "Sacred lotus",
+  "group": "flowers",
+  "wiki": "Nelumbo nucifera"
+ },
+ {
+  "id": "rose",
+  "name": "Rose",
+  "group": "flowers",
+  "wiki": "Rose"
+ },
+ {
+  "id": "tulip",
+  "name": "Tulip",
+  "group": "flowers",
+  "wiki": "Tulipa"
+ },
+ {
+  "id": "dandelion",
+  "name": "Dandelion",
+  "group": "flowers",
+  "wiki": "Taraxacum officinale"
+ },
+ {
+  "id": "poppy",
+  "name": "Common poppy",
+  "group": "flowers",
+  "wiki": "Papaver rhoeas"
+ },
+ {
+  "id": "lavender",
+  "name": "Lavender",
+  "group": "flowers",
+  "wiki": "Lavandula"
+ },
+ {
+  "id": "bird-of-paradise",
+  "name": "Bird of paradise flower",
+  "group": "flowers",
+  "wiki": "Strelitzia reginae"
+ },
+ {
+  "id": "passionflower",
+  "name": "Passionflower",
+  "group": "flowers",
+  "wiki": "Passiflora"
+ },
+ {
+  "id": "snapdragon",
+  "name": "Snapdragon",
+  "group": "flowers",
+  "wiki": "Antirrhinum majus"
+ },
+ {
+  "id": "water-lily",
+  "name": "Giant water lily",
+  "group": "flowers",
+  "wiki": "Victoria amazonica"
+ },
+ {
+  "id": "edelweiss",
+  "name": "Edelweiss",
+  "group": "flowers",
+  "wiki": "Leontopodium nivale"
+ },
+ {
+  "id": "hibiscus",
+  "name": "Hibiscus",
+  "group": "flowers",
+  "wiki": "Hibiscus rosa-sinensis"
+ },
+ {
+  "id": "foxglove",
+  "name": "Foxglove",
+  "group": "flowers",
+  "wiki": "Digitalis purpurea"
+ },
+ {
+  "id": "bluebell",
+  "name": "Bluebell",
+  "group": "flowers",
+  "wiki": "Hyacinthoides non-scripta"
+ },
+ {
+  "id": "venus-flytrap",
+  "name": "Venus flytrap",
+  "group": "carnivores",
+  "wiki": "Dionaea muscipula"
+ },
+ {
+  "id": "pitcher-plant",
+  "name": "Tropical pitcher plant",
+  "group": "carnivores",
+  "wiki": "Nepenthes"
+ },
+ {
+  "id": "sundew",
+  "name": "Sundew",
+  "group": "carnivores",
+  "wiki": "Drosera"
+ },
+ {
+  "id": "bladderwort",
+  "name": "Bladderwort",
+  "group": "carnivores",
+  "wiki": "Utricularia"
+ },
+ {
+  "id": "cobra-lily",
+  "name": "Cobra lily",
+  "group": "carnivores",
+  "wiki": "Darlingtonia californica"
+ },
+ {
+  "id": "butterwort",
+  "name": "Butterwort",
+  "group": "carnivores",
+  "wiki": "Pinguicula"
+ },
+ {
+  "id": "saguaro",
+  "name": "Saguaro cactus",
+  "group": "desert",
+  "wiki": "Carnegiea gigantea"
+ },
+ {
+  "id": "welwitschia",
+  "name": "Welwitschia",
+  "group": "desert",
+  "wiki": "Welwitschia mirabilis"
+ },
+ {
+  "id": "living-stones",
+  "name": "Living stones",
+  "group": "desert",
+  "wiki": "Lithops"
+ },
+ {
+  "id": "resurrection-plant",
+  "name": "Resurrection plant",
+  "group": "desert",
+  "wiki": "Selaginella lepidophylla"
+ },
+ {
+  "id": "agave",
+  "name": "Century plant",
+  "group": "desert",
+  "wiki": "Agave americana"
+ },
+ {
+  "id": "barrel-cactus",
+  "name": "Barrel cactus",
+  "group": "desert",
+  "wiki": "Ferocactus"
+ },
+ {
+  "id": "prickly-pear",
+  "name": "Prickly pear",
+  "group": "desert",
+  "wiki": "Opuntia"
+ },
+ {
+  "id": "aloe",
+  "name": "Aloe vera",
+  "group": "desert",
+  "wiki": "Aloe vera"
+ },
+ {
+  "id": "wheat",
+  "name": "Wheat",
+  "group": "crops",
+  "wiki": "Triticum aestivum"
+ },
+ {
+  "id": "rice",
+  "name": "Rice",
+  "group": "crops",
+  "wiki": "Oryza sativa"
+ },
+ {
+  "id": "maize",
+  "name": "Maize",
+  "group": "crops",
+  "wiki": "Zea mays"
+ },
+ {
+  "id": "potato",
+  "name": "Potato",
+  "group": "crops",
+  "wiki": "Solanum tuberosum"
+ },
+ {
+  "id": "tomato",
+  "name": "Tomato",
+  "group": "crops",
+  "wiki": "Solanum lycopersicum"
+ },
+ {
+  "id": "banana",
+  "name": "Banana",
+  "group": "crops",
+  "wiki": "Banana"
+ },
+ {
+  "id": "coffee",
+  "name": "Coffee",
+  "group": "crops",
+  "wiki": "Coffea arabica"
+ },
+ {
+  "id": "vanilla",
+  "name": "Vanilla orchid",
+  "group": "crops",
+  "wiki": "Vanilla planifolia"
+ },
+ {
+  "id": "pineapple",
+  "name": "Pineapple",
+  "group": "crops",
+  "wiki": "Ananas comosus"
+ },
+ {
+  "id": "strawberry",
+  "name": "Strawberry",
+  "group": "crops",
+  "wiki": "Fragaria ananassa"
+ },
+ {
+  "id": "pumpkin",
+  "name": "Pumpkin",
+  "group": "crops",
+  "wiki": "Cucurbita pepo"
+ },
+ {
+  "id": "sugarcane",
+  "name": "Sugarcane",
+  "group": "crops",
+  "wiki": "Saccharum officinarum"
+ },
+ {
+  "id": "peanut",
+  "name": "Peanut",
+  "group": "crops",
+  "wiki": "Arachis hypogaea"
+ },
+ {
+  "id": "chilli",
+  "name": "Chilli pepper",
+  "group": "crops",
+  "wiki": "Capsicum annuum"
+ },
+ {
+  "id": "grape",
+  "name": "Grapevine",
+  "group": "crops",
+  "wiki": "Vitis vinifera"
+ },
+ {
+  "id": "giant-kelp",
+  "name": "Giant kelp",
+  "group": "water",
+  "wiki": "Macrocystis pyrifera"
+ },
+ {
+  "id": "duckweed",
+  "name": "Duckweed",
+  "group": "water",
+  "wiki": "Lemna minor"
+ },
+ {
+  "id": "papyrus",
+  "name": "Papyrus",
+  "group": "water",
+  "wiki": "Cyperus papyrus"
+ },
+ {
+  "id": "seagrass",
+  "name": "Seagrass",
+  "group": "water",
+  "wiki": "Posidonia oceanica"
+ },
+ {
+  "id": "sphagnum",
+  "name": "Sphagnum moss",
+  "group": "moss",
+  "wiki": "Sphagnum"
+ },
+ {
+  "id": "tree-fern",
+  "name": "Tree fern",
+  "group": "ferns",
+  "wiki": "Cyathea"
+ },
+ {
+  "id": "bracken",
+  "name": "Bracken",
+  "group": "ferns",
+  "wiki": "Pteridium aquilinum"
+ },
+ {
+  "id": "horsetail",
+  "name": "Horsetail",
+  "group": "ferns",
+  "wiki": "Equisetum"
+ },
+ {
+  "id": "lichen",
+  "name": "Lichen",
+  "group": "moss",
+  "wiki": "Lichen"
+ },
+ {
+  "id": "moss",
+  "name": "Common moss",
+  "group": "moss",
+  "wiki": "Moss"
+ },
+ {
+  "id": "fly-agaric",
+  "name": "Fly agaric",
+  "group": "fungi",
+  "wiki": "Amanita muscaria"
+ },
+ {
+  "id": "honey-fungus",
+  "name": "Honey fungus",
+  "group": "fungi",
+  "wiki": "Armillaria"
+ },
+ {
+  "id": "stinkhorn",
+  "name": "Stinkhorn",
+  "group": "fungi",
+  "wiki": "Phallus impudicus"
+ },
+ {
+  "id": "puffball",
+  "name": "Giant puffball",
+  "group": "fungi",
+  "wiki": "Calvatia gigantea"
+ },
+ {
+  "id": "bracket-fungus",
+  "name": "Bracket fungus",
+  "group": "fungi",
+  "wiki": "Polyporales"
+ },
+ {
+  "id": "truffle",
+  "name": "Truffle",
+  "group": "fungi",
+  "wiki": "Truffle"
+ },
+ {
+  "id": "mimosa",
+  "name": "Sensitive plant",
+  "group": "odd",
+  "wiki": "Mimosa pudica"
+ },
+ {
+  "id": "bamboo",
+  "name": "Bamboo",
+  "group": "odd",
+  "wiki": "Bambusoideae"
+ },
+ {
+  "id": "strangler-fig",
+  "name": "Strangler fig",
+  "group": "odd",
+  "wiki": "Ficus aurea"
+ },
+ {
+  "id": "corpse-lily",
+  "name": "Ghost plant",
+  "group": "odd",
+  "wiki": "Monotropa uniflora"
+ },
+ {
+  "id": "touch-me-not",
+  "name": "Himalayan balsam",
+  "group": "odd",
+  "wiki": "Impatiens glandulifera"
+ },
+ {
+  "id": "telegraph-plant",
+  "name": "Telegraph plant",
+  "group": "odd",
+  "wiki": "Codariocalyx motorius"
+ },
+ {
+  "id": "squirting-cucumber",
+  "name": "Squirting cucumber",
+  "group": "odd",
+  "wiki": "Ecballium elaterium"
+ },
+ {
+  "id": "tumbleweed",
+  "name": "Tumbleweed",
+  "group": "odd",
+  "wiki": "Salsola tragus"
+ }
+]

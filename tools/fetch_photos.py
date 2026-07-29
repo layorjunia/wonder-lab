@@ -65,6 +65,11 @@ def commons_candidates(title, want=6):
         d = api('en.wikipedia.org', {
             'action': 'query', 'format': 'json', 'formatversion': '2',
             'prop': 'images', 'imlimit': '40', 'titles': title,
+            # Scientific names are redirects on Wikipedia ("Helianthus annuus"
+            # -> "Common sunflower"). Without this the API returns an empty
+            # page object and the species silently gets no photo — it cost 24
+            # of 91 plants before anyone noticed.
+            'redirects': '1',
         })
         pages = d.get('query', {}).get('pages', [])
         if not pages:
@@ -91,6 +96,7 @@ def lead_image(title):
     d = api('en.wikipedia.org', {
         'action': 'query', 'format': 'json', 'formatversion': '2',
         'prop': 'pageimages', 'piprop': 'original', 'titles': title,
+        'redirects': '1',
     })
     pages = d.get('query', {}).get('pages', [])
     if not pages or 'original' not in pages[0]:
@@ -118,6 +124,23 @@ def file_meta(filename):
         'url': info.get('url', ''),
         'width': info.get('width', 0),
     }
+
+
+# A licence gate is not a quality gate. Wikipedia's lead image for a plant is
+# very often a public-domain botanical plate — Köhler's Medizinal-Pflanzen
+# alone supplied seven of these — and a plate sails through the licence check
+# while looking nothing like the living thing a child is trying to recognise.
+# One entry got a Van Dyck self-portrait because the man is holding a sunflower.
+NOT_A_PHOTO = re.compile(
+    r'k[o&#;\w]{0,8}hler|medizinal|pflanzen|sturm\d|thome|thom%C3%A9|'
+    r'illustration|botanical.?plate|\bplate\b|lithograph|engraving|woodcut|'
+    r'herbarium|specimen.?sheet|drawing|sketch|painting|portrait|'
+    r'bilder.?ur|nordens.?flora|deutschlands.?flora|flora.?von|'
+    r'[,_]\s*1[5-8]\d\d[.\-_]', re.I)
+
+
+def is_photo(filename):
+    return not NOT_A_PHOTO.search(filename)
 
 
 def acceptable(meta):
@@ -182,6 +205,10 @@ def main():
             if src:
                 names.append(urllib.parse.unquote(src.rsplit('/', 1)[-1]))
             names += commons_candidates(title)
+
+            # Prefer photographs, but keep the plates at the back of the queue
+            # rather than dropping them — a plate beats no image at all.
+            names = [n for n in names if is_photo(n)] + [n for n in names if not is_photo(n)]
 
             meta, why = None, 'no usable image found'
             for filename in names:

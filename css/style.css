@@ -284,6 +284,36 @@ h3 { font-size: 1.02rem; font-weight: 700; }
 .rail > .chip { flex: 0 0 auto; }
 .rail.last { margin-bottom: 14px; }
 
+/* ── Explore hub ── */
+/* Two up on a phone, four across on a laptop. The tint is per-card so the four
+   sections stay distinguishable at a glance rather than being four grey
+   rectangles a child has to read. */
+.kingdoms { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+.kingdom {
+  position: relative; overflow: hidden; cursor: pointer;
+  background: var(--ink-2); border: 1px solid var(--line);
+  border-radius: var(--radius-lg); padding: 20px 18px; min-height: 132px;
+  display: flex; flex-direction: column; justify-content: flex-end;
+  transition: border-color .15s, transform .1s;
+}
+.kingdom::before {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(150deg, var(--tint), transparent 62%);
+  opacity: .13; pointer-events: none;
+}
+.kingdom:hover { border-color: var(--tint); }
+.kingdom:active { transform: scale(.985); }
+.kingdom .k-glyph {
+  position: absolute; right: -4px; top: -8px; font-size: 3.4rem; opacity: .22;
+}
+.kingdom .k-name { font-weight: 800; font-size: 1.14rem; }
+.kingdom .k-sub { color: var(--text-dim); font-size: .84rem; margin-top: 3px; }
+
+@media (min-width: 720px) {
+  .kingdoms { grid-template-columns: repeat(4, 1fr); }
+  .kingdom { min-height: 156px; }
+}
+
 /* ── Browsing grid ── */
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(146px, 1fr)); gap: 12px; }
 .thumb {
@@ -362,4 +392,49 @@ h3 { font-size: 1.02rem; font-weight: 700; }
   .tiles { grid-template-columns: 1fr 1fr; }
   .fact-text { font-size: 1.08rem; }
   h1 { font-size: 1.45rem; }
+}
+
+/* ── Laptop and desktop ──────────────────────────────────────────────────
+   The app was built thumb-first and it showed: an 880px column stranded in
+   the middle of a 1440px screen with several hundred pixels of empty space
+   under it, which reads as a page that failed to load rather than a design.
+   These rules give the width back to the content. */
+@media (min-width: 900px) {
+  #app { max-width: 1180px; padding-bottom: 110px; }
+
+  /* More species per row rather than bigger species. A child scanning a field
+     guide wants to see more of it at once, not larger pictures. */
+  .grid { grid-template-columns: repeat(auto-fill, minmax(184px, 1fr)); gap: 16px; }
+
+  /* The hub is four cards on an otherwise empty screen; give them presence. */
+  .kingdoms { gap: 20px; }
+  .kingdom { min-height: 210px; padding: 24px 22px; }
+  .kingdom .k-glyph { font-size: 5rem; opacity: .2; }
+  .kingdom .k-name { font-size: 1.32rem; }
+  .kingdom .k-sub { font-size: .92rem; }
+
+  /* Section tiles read as a row of buttons at this width, not a stack. */
+  .tiles { grid-template-columns: repeat(4, 1fr); gap: 16px; }
+
+  /* A 1180px-wide line of prose is unreadable — cap the text column while
+     leaving grids full width. */
+  .fact-body, .card.tight, .wonder { max-width: none; }
+  .fact-text, .fact-more { max-width: 68ch; }
+
+  /* The deck card is a single hero; centring it stops it becoming a banner. */
+  .fact-deck { max-width: 760px; margin: 0 auto; }
+
+  /* Bottom bar is a phone idiom. On a laptop, float it as a centred pill so
+     it reads as a control rather than a stuck-on mobile chrome. */
+  .nav {
+    left: 50%; right: auto; transform: translateX(-50%);
+    bottom: 18px; border-radius: 999px; border: 1px solid var(--line);
+    padding: 8px 14px; gap: 6px; box-shadow: 0 14px 34px rgba(0,0,0,.45);
+  }
+  .nav button { max-width: 108px; font-size: .74rem; }
+}
+
+/* Very wide screens: stop the guide becoming a wall of tiny tiles. */
+@media (min-width: 1500px) {
+  #app { max-width: 1320px; }
 }

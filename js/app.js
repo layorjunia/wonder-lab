@@ -59,19 +59,26 @@ const App = {
     this.tab = tab;
     this.view = null;
     this.resetSay();
-    ({ today: () => this.today(), guide: () => this.guide(),
-       play: () => this.play(), body: () => this.body(),
-       notes: () => this.notes() }[tab] || (() => this.today()))();
+    ({ today: () => this.today(), explore: () => this.explore(),
+       guide: () => this.guide(), plants: () => this.plants(),
+       earth: () => this.earth(), play: () => this.play(),
+       body: () => this.body(), notes: () => this.notes() }[tab]
+      || (() => this.today()))();
     this.renderNav();
   },
 
   renderNav() {
+    // Four sections (animals, plants, earth, human) plus Today, Play and Notes
+    // is seven destinations — too many for a thumb-sized bar. Explore is a hub
+    // over the four; the bar stays at four items and has room to grow.
     const items = [
-      ['today', '🔭', 'Today'], ['guide', '📖', 'Guide'],
-      ['play', '🎯', 'Play'], ['body', '🫀', 'Body'], ['notes', '📓', 'Notes'],
+      ['today', '🔭', 'Today'], ['explore', '🧭', 'Explore'],
+      ['play', '🎯', 'Play'], ['notes', '📓', 'Notes'],
     ];
+    const inExplore = ['explore', 'guide', 'plants', 'earth', 'body'];
     document.getElementById('nav').innerHTML = items.map(([k, ic, label]) =>
-      `<button class="${this.tab === k ? 'on' : ''}" onclick="App.go('${k}')">
+      `<button class="${this.tab === k || (k === 'explore' && inExplore.includes(this.tab)) ? 'on' : ''}"
+        onclick="App.go('${k}')">
         <span class="n-ic">${ic}</span>${label}</button>`).join('');
   },
 
@@ -117,17 +124,27 @@ const App = {
 
   // "How do we know this?" badge. Absent `kind` renders nothing, so the
   // living-animal entries are unaffected until they are marked too.
-  kindTag(f) {
+  kindTag(f, dino) {
     const k = KINDS[f.kind];
-    return k ? `<span class="kind-tag k-${f.kind}" title="${k.blurb}"
+    if (!k) return '';
+    const v = (dino && k.dino) ? k.dino : k;
+    return `<span class="kind-tag k-${f.kind}" title="${k.blurb}"
       onclick="event.stopPropagation();App.explainKind('${f.kind}')"
-      >${k.glyph} ${k.name}</span>` : '';
+      >${v.glyph} ${v.name}</span>`;
   },
 
   explainKind(id) {
     const k = KINDS[id];
     if (k) alert(k.glyph + '  ' + k.name + '\n\n' + k.blurb);
   },
+
+  // Animals and plants share the entry shape and the profile screen, so one
+  // lookup serves both. A duplicate profile renderer would have been the third
+  // place to remember when the schema changes.
+  all() {
+    return (typeof PLANTS !== 'undefined' ? ANIMALS.concat(PLANTS) : ANIMALS);
+  },
+  find(id) { return this.all().find(x => x.id === id); },
 
   // Tile image: the restoration when there is one, otherwise the photo.
   pic(a) { return 'img/' + (a.art ? a.id + '-life.jpg' : a.id + '.jpg'); },
@@ -221,7 +238,7 @@ const App = {
         <div class="fact-card">
           <div class="fact-photo">
             <span class="fact-tag">${cat.glyph} ${cat.name}</span>
-            ${this.kindTag(f)}
+            ${this.kindTag(f, a.group === 'dinosaurs')}
             <img src="${this.pic(a)}" alt="${a.name}" loading="eager"
                  onerror="this.style.display='none'">
             <div class="fact-name">${a.name}</div>
@@ -275,6 +292,33 @@ const App = {
       </div>`);
   },
 
+  // ── EXPLORE: the hub over the four sections ──
+  explore() {
+    this.resetSay();
+    const c = Progress.counts();
+    const met = c.seen + c.known + c.mastered;
+    const nPlants = typeof PLANTS !== 'undefined' ? PLANTS.length : 0;
+    const nEarth = typeof EARTH !== 'undefined' ? EARTH.length : 0;
+    const card = (tab, glyph, name, sub, tint) => `
+      <div class="kingdom" onclick="App.go('${tab}')" style="--tint:${tint}">
+        <span class="k-glyph">${glyph}</span>
+        <div class="k-name">${name}</div>
+        <div class="k-sub">${sub}</div>
+      </div>`;
+    this.el(`
+      ${this.bar('Explore', this.streakChip())}
+      <div class="kingdoms">
+        ${card('guide', '🦁', 'Animals',
+               `${ANIMALS.length} species · ${met} met`, 'var(--amber)')}
+        ${card('plants', '🌳', 'Plants',
+               nPlants ? `${nPlants} kinds to meet` : 'coming soon', 'var(--lime)')}
+        ${card('earth', '🌍', 'Earth',
+               nEarth ? `${Object.keys(EARTH_SECTIONS).length} things to dig into` : 'coming soon', 'var(--cyan)')}
+        ${card('body', '🫀', 'Your Body',
+               `${typeof BODY !== 'undefined' ? BODY.length : 0} facts about you`, 'var(--violet)')}
+      </div>`);
+  },
+
   // ── GUIDE ──
   guideFilter: { kind: 'group', key: null },
 
@@ -312,6 +356,48 @@ const App = {
       ${list.length ? '' : '<p class="dim">Nothing here yet.</p>'}`);
   },
 
+  plantFilter: null,
+
+  plants() {
+    this.resetSay();
+    if (typeof PLANTS === 'undefined' || !PLANTS.length) {
+      return this.el(`${this.bar('Plants')}
+        <div class="card"><p class="dim">The plant section is being written.</p>
+        <button class="btn ghost wide" style="margin-top:12px" onclick="App.go('explore')">Back</button></div>`);
+    }
+    const f = this.plantFilter;
+    const list = PLANTS.filter(p => !f || p.group === f);
+    const c = Progress.counts();
+    this.el(`
+      <div class="bar"><button class="btn ghost" onclick="App.go('explore')">←</button>
+        <h1>Plants</h1><div class="grow"></div>
+        <span class="chip accent">${PLANTS.length}</span></div>
+      <div class="rail last">
+        <button class="chip ${!f ? 'accent' : ''}" onclick="App.setPlantFilter(null)">All</button>
+        ${Object.entries(PLANT_GROUPS).map(([k, v]) =>
+          `<button class="chip ${f === k ? 'accent' : ''}"
+            onclick="App.setPlantFilter('${k}')">${v.glyph} ${v.name}</button>`).join('')}
+      </div>
+      <div class="grid">
+        ${list.map(p => {
+          const st = Progress.state(p.id);
+          return `<div class="thumb ${st}" onclick="App.species('${p.id}')">
+            <img src="img/${p.id}.jpg" alt="${p.name}" loading="lazy"
+                 onerror="this.style.opacity=.15">
+            <div class="th-name">${p.name}
+              ${st === 'mastered' ? '<span class="th-star">★</span>' : ''}</div>
+          </div>`;
+        }).join('')}
+      </div>`);
+  },
+
+  setPlantFilter(k) {
+    this.plantFilter = k;
+    this.plants();
+    const on = document.querySelector('.rail .chip.accent');
+    if (on) on.scrollIntoView({ inline: 'center', block: 'nearest' });
+  },
+
   setFilter(kind, key) {
     this.guideFilter = { kind, key };
     this.guide();
@@ -325,11 +411,12 @@ const App = {
   // ── species profile ──
   species(id) {
     this.resetSay();
-    const a = ANIMALS.find(x => x.id === id);
+    const a = this.find(id);
     if (!a) return this.guide();
+    const isPlant = typeof PLANTS !== 'undefined' && PLANTS.some(p => p.id === id);
     Progress.markSeen(id);
     const st = Progress.state(id);
-    const g = GROUPS[a.group] || {};
+    const g = (isPlant ? PLANT_GROUPS : GROUPS)[a.group] || {};
     // Dinosaurs get two pictures where a good restoration exists: the painting
     // as the hero, the excavated skeleton kept below with the bones facts. A
     // child should be able to see which one is evidence and which one is
@@ -344,7 +431,7 @@ const App = {
       </div>`).join('');
 
     this.el(`
-      <div class="bar"><button class="btn ghost" onclick="App.go('guide')">←</button>
+      <div class="bar"><button class="btn ghost" onclick="App.go('${isPlant ? 'plants' : 'guide'}')">←</button>
         <div class="grow"></div>
         <span class="chip">${g.glyph || ''} ${g.name || a.group}</span>
         ${st === 'mastered' ? '<span class="chip accent">★ Mastered</span>' : ''}</div>
@@ -382,7 +469,7 @@ const App = {
         const cat = CATEGORIES[f.cat] || { name: f.cat, glyph: '✨' };
         return `<div class="card tight">
           <div class="cat-row"><span class="cat-label">${cat.glyph} ${cat.name}</span>
-            ${this.kindTag(f)}</div>
+            ${this.kindTag(f, a.group === 'dinosaurs')}</div>
           <div style="margin-top:6px;font-size:1.02rem;line-height:1.5">${f.text}</div>
           ${f.more ? `<div class="fact-more" style="margin-top:10px;padding-top:10px">${f.more}</div>` : ''}
           <div class="card-actions">
@@ -697,6 +784,56 @@ const App = {
       <button class="btn ghost wide" onclick="App.faceoffPick()">Pick two more</button>`);
   },
 
+  // ── EARTH ──
+  // Topic sections, like the body — no species, so it reuses the body's
+  // section-tile pattern rather than the species grid.
+  earth(sec) {
+    this.resetSay();
+    if (typeof EARTH === 'undefined' || !EARTH.length) {
+      return this.el(`${this.bar('Earth')}
+        <div class="card"><p class="dim">The Earth section is being written.</p>
+        <button class="btn ghost wide" style="margin-top:12px" onclick="App.go('explore')">Back</button></div>`);
+    }
+    if (sec) {
+      const items = EARTH.filter(e => e.section === sec);
+      const meta = EARTH_SECTIONS[sec] || { name: sec, glyph: '🌍' };
+      return this.el(`
+        <div class="bar"><button class="btn ghost" onclick="App.earth()">←</button>
+          <div class="grow"></div><h2>${meta.glyph} ${meta.name}</h2></div>
+        ${items.map(e => {
+          const cat = CATEGORIES[e.cat] || { name: e.cat, glyph: '✨' };
+          return `<div class="card">
+            <div class="cat-row"><span class="cat-label">${cat.glyph} ${cat.name}</span>
+              ${this.kindTag(e)}</div>
+            <div style="margin-top:6px;font-size:1.05rem;line-height:1.5">${e.text}</div>
+            ${e.more ? `<div class="fact-more">${e.more}</div>` : ''}
+            ${e.tryit ? `<div class="wonder" style="border-left-color:var(--lime);
+               background:rgba(158,232,95,.08);color:#d8f5be">
+               <b>Try it now:</b> ${e.tryit}</div>` : ''}
+            <div class="card-actions">
+              ${this.listenBtn(cat.name, e.text, e.more,
+                               e.tryit ? 'Try it now' : '', e.tryit)}
+            </div>
+          </div>`;
+        }).join('')}`);
+    }
+    this.el(`
+      <div class="bar"><button class="btn ghost" onclick="App.go('explore')">←</button>
+        <h1>Earth</h1><div class="grow"></div>
+        <span class="chip accent">${EARTH.length}</span></div>
+      <div class="tiles">
+        ${Object.entries(EARTH_SECTIONS).map(([k, v]) => {
+          const n = EARTH.filter(e => e.section === k).length;
+          if (!n) return '';
+          return `<div class="tile" onclick="App.earth('${k}')">
+            <span class="t-glyph">${v.glyph}</span>
+            <div class="t-name">${v.name}</div>
+            <div class="t-sub">${n} facts</div>
+          </div>`;
+        }).join('')}
+      </div>`);
+  },
+
   // ── BODY ──
   body(sec) {
     this.resetSay();
@@ -708,7 +845,7 @@ const App = {
       const items = BODY.filter(b => b.section === sec);
       const meta = BODY_SECTIONS[sec] || { name: sec, glyph: '🫀' };
       return this.el(`
-        <div class="bar"><button class="btn ghost" onclick="App.go('body')">←</button>
+        <div class="bar"><button class="btn ghost" onclick="App.body()">←</button>
           <div class="grow"></div><h2>${meta.glyph} ${meta.name}</h2></div>
         ${items.map(b => `<div class="card">
           <div class="cat-label">${(CATEGORIES[b.cat] || {}).glyph || '✨'} ${(CATEGORIES[b.cat] || {}).name || b.cat}</div>
