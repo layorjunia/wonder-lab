@@ -314,6 +314,22 @@ h3 { font-size: 1.02rem; font-weight: 700; }
   .kingdom { min-height: 156px; }
 }
 
+/* Hub panel — stacked on a phone, two columns on a laptop, where it is what
+   stops the page ending in 600px of nothing. */
+.hub-panel { display: grid; gap: 14px; margin-top: 16px; }
+.hub-main h2, .hub-side h2 { font-size: 1.06rem; }
+.hub-stats {
+  display: flex; gap: 22px; margin-top: 16px;
+  padding-top: 14px; border-top: 1px solid var(--line);
+}
+.hub-stats > div { display: flex; flex-direction: column; }
+.hub-stats b { font-size: 1.32rem; line-height: 1.15; }
+
+@media (min-width: 720px) {
+  .hub-panel { grid-template-columns: 1.4fr 1fr; }
+  .kingdom { min-height: 190px; }
+}
+
 /* ── Browsing grid ── */
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(146px, 1fr)); gap: 12px; }
 .thumb {

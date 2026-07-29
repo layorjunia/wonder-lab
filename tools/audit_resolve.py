@@ -32,7 +32,10 @@ from gen_audio import corpus                              # noqa: E402
 
 JS = r'''
 globalThis.fetch = () => Promise.reject();
-globalThis.document = { addEventListener() {}, removeEventListener() {} };
+// querySelector too: audio.js now reads the build id from a meta tag to
+// cache-bust the manifest, and a bare stub throws before init() finishes.
+globalThis.document = { addEventListener() {}, removeEventListener() {},
+                        querySelector() { return null; } };
 // audio.js now derives AUDIO_BASE from location at load time.
 globalThis.location = { hostname: 'localhost', protocol: 'http:', origin: 'http://localhost' };
 const fs = require('fs');

@@ -1,6 +1,6 @@
 // Offline cache for Wonder Lab.
 // Bump CACHE whenever app code changes so installed devices pick it up.
-const CACHE = 'wonderlab-20260728-1550-e5f5cf7';
+const CACHE = 'wonderlab-20260729-1447-2492702';
 const SHELL = [
   '.', 'index.html', 'css/style.css', 'manifest.json',
   'js/schema.js', 'js/animals.js', 'js/body.js', 'js/store.js',

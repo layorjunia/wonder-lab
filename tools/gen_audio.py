@@ -76,6 +76,7 @@ const fs = require('fs');
 const load = f => { const s = fs.readFileSync(f, 'utf8')
   .replace(/^const (\w+)/gm, 'globalThis.$1'); eval(s); };
 load('js/schema.js'); load('js/animals.js'); load('js/body.js');
+load('js/plants.js'); load('js/earth.js');
 const out = [];
 const push = (src, field, id, t) => { if (t && String(t).trim())
   out.push({ src, field, id, text: String(t) }); };
@@ -97,6 +98,24 @@ Object.values(BODY_SECTIONS).forEach((b, i) => push('label', 'section', 's' + i,
 Object.values(KINDS).forEach((k, i) => push('label', 'kind', 'k' + i, k.name));
 Object.values(GROUPS).forEach((g, i) => push('label', 'group', 'g' + i, g.name));
 push('label', 'phrase', 'tryit', 'Try it now');
+PLANTS.forEach(p => {
+  push('plant', 'name',   p.id, p.name);
+  push('plant', 'blurb',  p.id, p.blurb);
+  push('plant', 'size',   p.id, p.size);
+  push('plant', 'wonder', p.id, p.wonder);
+  p.facts.forEach((f, i) => {
+    push('plant', 'fact.text', p.id + '#' + i, f.text);
+    push('plant', 'fact.more', p.id + '#' + i, f.more);
+  });
+});
+EARTH.forEach(e => {
+  push('earth', 'fact.text',  e.id, e.text);
+  push('earth', 'fact.more',  e.id, e.more);
+  push('earth', 'fact.tryit', e.id, e.tryit);
+});
+Object.values(PLANT_GROUPS).forEach((g, i) => push('label', 'group', 'pg' + i, g.name));
+Object.values(EARTH_SECTIONS).forEach((s, i) => push('label', 'section', 'es' + i, s.name));
+push('label', 'kind', 'kobs', 'Observed');
 BODY.forEach((f, i) => {
   push('body', 'fact.text',  'b' + i, f.text);
   push('body', 'fact.more',  'b' + i, f.more);

@@ -305,6 +305,15 @@ const App = {
         <div class="k-name">${name}</div>
         <div class="k-sub">${sub}</div>
       </div>`;
+    // Four cards alone left most of a laptop screen empty, which reads as a
+    // page that failed to load. The panel below is the thing a child actually
+    // wants next — how far in they are, and a way straight back to the deck.
+    const totalFacts = ANIMALS.reduce((n, a) => n + a.facts.length, 0)
+      + (typeof PLANTS !== 'undefined' ? PLANTS.reduce((n, p) => n + p.facts.length, 0) : 0)
+      + nEarth + (typeof BODY !== 'undefined' ? BODY.length : 0);
+    const deck = Progress.p.deck || {};
+    const left = Math.max(0, (deck.served || []).length - (deck.idx || 0));
+    const pct = Math.round(met / Math.max(1, ANIMALS.length) * 100);
     this.el(`
       ${this.bar('Explore', this.streakChip())}
       <div class="kingdoms">
@@ -316,6 +325,27 @@ const App = {
                nEarth ? `${Object.keys(EARTH_SECTIONS).length} things to dig into` : 'coming soon', 'var(--cyan)')}
         ${card('body', '🫀', 'Your Body',
                `${typeof BODY !== 'undefined' ? BODY.length : 0} facts about you`, 'var(--violet)')}
+      </div>
+
+      <div class="hub-panel">
+        <div class="hub-main card">
+          <h2>${left ? `${left} card${left === 1 ? '' : 's'} left today` : "Today's deck is done"}</h2>
+          <p class="dim" style="margin-top:6px">
+            ${left ? 'A fresh deck is dealt every morning.'
+                   : 'Come back tomorrow for a new one — or browse anything above.'}</p>
+          <button class="btn ${left ? '' : 'ghost'} wide" style="margin-top:14px"
+            onclick="App.go('today')">${left ? 'Keep going →' : 'See the deck'}</button>
+        </div>
+        <div class="hub-side card">
+          <h2>Where you are</h2>
+          <div class="dim small" style="margin-top:10px">Species met</div>
+          <div class="meter" style="margin-top:5px"><span style="width:${pct}%"></span></div>
+          <div class="dim small" style="margin-top:4px">${met} of ${ANIMALS.length} animals · ${pct}%</div>
+          <div class="hub-stats">
+            <div><b>${totalFacts.toLocaleString()}</b><span class="dim small">facts in here</span></div>
+            <div><b>${Progress.p.whoa.length}</b><span class="dim small">saved to Notes</span></div>
+          </div>
+        </div>
       </div>`);
   },
 
