@@ -353,6 +353,73 @@ h3 { font-size: 1.02rem; font-weight: 700; }
 .thumb.known { border-color: var(--lime-dark); }
 .thumb.mastered { border-color: var(--amber); }
 
+/* ── Games ── */
+/* Zoom In. The scale sits on the img inside a clipping frame, so the photo
+   pulls back without the layout moving. 6s matches the pace of a nine-year-old
+   deciding — long enough to think, short enough to feel like a clock. */
+.zoom-stage {
+  position: relative; overflow: hidden;
+  width: 100%; aspect-ratio: 4 / 3; max-height: min(46vh, 380px);
+  border-radius: var(--radius-lg); background: var(--ink-3);
+  border: 1px solid var(--line);
+}
+.zoom-stage img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+  transform: scale(7); transform-origin: 50% 45%;
+  transition: transform 6s cubic-bezier(.25,.6,.3,1);
+}
+.zoom-stage img.out  { transform: scale(1); }
+.zoom-stage img.done { transform: scale(1); transition: transform .4s ease-out; }
+
+.opt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 14px; }
+.opt-grid .opt { width: 100%; padding: 15px 12px; font-size: .95rem; }
+.opt.right {
+  border-color: var(--lime); color: var(--lime);
+  background: rgba(158,232,95,.12);
+}
+.opt.wrong {
+  border-color: #ff7a6b; color: #ff7a6b; background: rgba(255,122,107,.10);
+}
+.opt:disabled { opacity: 1; cursor: default; }
+
+/* Bigger or Smaller */
+.hl-q { font-size: 1.16rem; font-weight: 700; margin: 4px 0 12px; }
+.hl-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.hl-card {
+  padding: 0; overflow: hidden; cursor: pointer; text-align: left;
+  background: var(--ink-2); border: 1px solid var(--line);
+  border-radius: var(--radius); color: var(--text); font: inherit;
+  transition: border-color .15s, transform .1s;
+}
+.hl-card:hover:enabled { border-color: var(--cyan); }
+.hl-card:active:enabled { transform: scale(.98); }
+.hl-card img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; }
+.hl-name { padding: 10px 11px 2px; font-weight: 700; font-size: .95rem; }
+.hl-val { padding: 0 11px 11px; min-height: 1.3em; font-size: 1.1rem;
+          font-weight: 800; color: var(--cyan); }
+.hl-card.right { border-color: var(--lime); }
+.hl-card.wrong { border-color: #ff7a6b; opacity: .72; }
+.hl-card:disabled { cursor: default; }
+
+/* Try It Now */
+.tryit-row { display: flex; gap: 13px; align-items: flex-start; }
+.tryit-row.done { border-color: var(--lime-dark); }
+.tick {
+  flex: 0 0 30px; width: 30px; height: 30px; margin-top: 2px;
+  border-radius: 9px; cursor: pointer; font-size: 1rem; font-weight: 800;
+  background: var(--ink-3); border: 1px solid var(--line); color: var(--ink);
+}
+.tryit-row.done .tick { background: var(--lime); border-color: var(--lime); color: #0b1118; }
+
+@media (min-width: 720px) {
+  .opt-grid { grid-template-columns: repeat(4, 1fr); max-width: 760px; }
+  .hl-pair { max-width: 620px; }
+  /* Cap the WIDTH, not just the height. aspect-ratio plus max-height alone
+     lets a 1180px container stretch the stage to 3:1, which shows far too
+     much of the photo at once and gives the game away in the first second. */
+  .zoom-stage { max-width: 500px; }
+}
+
 /* ── Progress ── */
 .meter { height: 8px; background: var(--ink-3); border-radius: 999px; overflow: hidden; }
 .meter span {

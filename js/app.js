@@ -628,6 +628,315 @@ const App = {
     this.go('notes');
   },
 
+  // ── ZOOM IN ──
+  // The photo starts far too close to read and pulls back over six seconds.
+  // Answering early is worth more, which is the whole game: commit on a
+  // texture or a colour before the shape gives it away.
+  _zoom: null,
+
+  zoomGame() {
+    this.resetSay();
+    const pool = this.pool();
+    const a = pool[Math.floor(Math.random() * pool.length)];
+    this._zoom = { a, opts: this.options(a, 4), t0: Date.now(), done: false };
+    const st = this.gameStats('zoom');
+    this.el(`
+      <div class="bar"><button class="btn ghost" onclick="App.go('play')">←</button>
+        <div class="grow"></div><h2>🔎 Zoom In</h2>
+        <span class="chip accent">${st.streak} in a row</span></div>
+      <div class="zoom-stage"><img id="zi" src="${this.pic(a)}" alt=""></div>
+      <div id="zopts" class="opt-grid">
+        ${this._zoom.opts.map((o, i) =>
+          `<button class="btn ghost opt" onclick="App.zoomAnswer(${i})">${o.name}</button>`).join('')}
+      </div>
+      <div id="zmsg"></div>`);
+    // Force a reflow, then flip the class. requestAnimationFrame looks like
+    // the right tool and is not: browsers throttle it in a backgrounded or
+    // unfocused tab, so the callback never runs and the photo just sits at 7x
+    // forever. Reading offsetWidth commits the starting style synchronously,
+    // which is all the transition actually needs.
+    const el = document.getElementById('zi');
+    if (el) { void el.offsetWidth; el.classList.add('out'); }
+  },
+
+  zoomAnswer(i) {
+    const z = this._zoom;
+    if (!z || z.done) return;
+    z.done = true;
+    const pick = z.opts[i];
+    const right = pick.id === z.a.id;
+    const secs = (Date.now() - z.t0) / 1000;
+    const st = this.gameStats('zoom');
+    st.played++;
+    st.streak = right ? st.streak + 1 : 0;
+    if (st.streak > st.best) st.best = st.streak;
+    Progress.markSeen(z.a.id);
+    Progress.commit();
+
+    const img = document.getElementById('zi');
+    if (img) { img.classList.remove('out'); img.classList.add('done'); }
+    document.querySelectorAll('#zopts .opt').forEach((b, n) => {
+      b.disabled = true;
+      if (z.opts[n].id === z.a.id) b.classList.add('right');
+      else if (n === i) b.classList.add('wrong');
+    });
+    document.getElementById('zmsg').innerHTML = `
+      <div class="card" style="margin-top:14px">
+        <h2>${right ? (secs < 2 ? 'Got it, fast' : 'Got it') : z.a.name}</h2>
+        <p class="dim" style="margin-top:6px">${z.a.blurb}</p>
+        <div class="card-actions">
+          <button class="btn" onclick="App.zoomGame()">Next →</button>
+          <button class="btn ghost" onclick="App.species('${z.a.id}')">Full profile</button>
+        </div>
+      </div>`;
+  },
+
+  // ── BIGGER OR SMALLER ──
+  _hl: null,
+
+  higherGame() {
+    this.resetSay();
+    const STATS = [
+      { k: 'weight', q: 'Which is heavier?', unit: 'lb' },
+      { k: 'length', q: 'Which is longer?', unit: 'ft' },
+      { k: 'height', q: 'Which is taller?', unit: 'ft' },
+      { k: 'life', q: 'Which lives longer?', unit: 'yrs' },
+    ];
+    // Only stats with enough species to make a varied game.
+    const usable = STATS.map(s => ({ ...s,
+      pool: this.pool().filter(a => a.stats && typeof a.stats[s.k] === 'number') }))
+      .filter(s => s.pool.length >= 12);
+    const s = usable[Math.floor(Math.random() * usable.length)];
+    let a, b, guard = 0;
+    do {
+      a = s.pool[Math.floor(Math.random() * s.pool.length)];
+      b = s.pool[Math.floor(Math.random() * s.pool.length)];
+      guard++;
+      // Reject near-ties: a coin flip the child cannot reason about is not a
+      // question, it is a punishment.
+    } while (guard < 40 && (a.id === b.id ||
+             Math.min(a.stats[s.k], b.stats[s.k]) /
+             Math.max(a.stats[s.k], b.stats[s.k]) > 0.8));
+    this._hl = { a, b, s, done: false };
+    const st = this.gameStats('higher');
+    const card = (x, side) => `
+      <button class="hl-card" onclick="App.higherAnswer('${side}')">
+        <img src="${this.pic(x)}" alt="" onerror="this.style.opacity=.15">
+        <div class="hl-name">${x.name}</div>
+        <div class="hl-val" data-side="${side}"></div>
+      </button>`;
+    this.el(`
+      <div class="bar"><button class="btn ghost" onclick="App.go('play')">←</button>
+        <div class="grow"></div><h2>⚖️ Bigger or Smaller</h2>
+        <span class="chip accent">${st.streak} in a row</span></div>
+      <p class="hl-q">${s.q}</p>
+      <div class="hl-pair">${card(a, 'a')}${card(b, 'b')}</div>
+      <div id="hmsg"></div>`);
+  },
+
+  higherAnswer(side) {
+    const h = this._hl;
+    if (!h || h.done) return;
+    h.done = true;
+    const { a, b, s } = h;
+    const winner = a.stats[s.k] >= b.stats[s.k] ? 'a' : 'b';
+    const right = side === winner;
+    const st = this.gameStats('higher');
+    st.played++;
+    st.streak = right ? st.streak + 1 : 0;
+    if (st.streak > st.best) st.best = st.streak;
+    Progress.markSeen(a.id); Progress.markSeen(b.id);
+    Progress.commit();
+
+    document.querySelectorAll('.hl-val').forEach(el => {
+      const x = el.dataset.side === 'a' ? a : b;
+      el.textContent = x.stats[s.k].toLocaleString() + ' ' + s.unit;
+    });
+    document.querySelectorAll('.hl-card').forEach((c, i) => {
+      c.disabled = true;
+      c.classList.add((i === 0 ? 'a' : 'b') === winner ? 'right' : 'wrong');
+    });
+    document.getElementById('hmsg').innerHTML = `
+      <div class="card" style="margin-top:14px">
+        <h2>${right ? 'Correct' : 'Not that one'}</h2>
+        <p class="dim" style="margin-top:6px">
+          ${(a.stats[s.k] >= b.stats[s.k] ? a : b).name} wins this one.
+          ${right ? `That is ${st.streak} in a row.` : `Best streak so far: ${st.best}.`}</p>
+        <button class="btn wide" style="margin-top:12px" onclick="App.higherGame()">Next →</button>
+      </div>`;
+  },
+
+  // ── LISTEN UP ──
+  // A recording cannot be bleeped, so the clue has to be a fact that never
+  // says the animal's name in the first place. 1,549 of them qualify.
+  _lis: null,
+
+  namelessFacts(a) {
+    const n = this.nameForms(a);
+    return a.facts.filter(f => !n.some(rx => rx.test(f.text)) && AudioLib.has(f.text));
+  },
+
+  listenGame() {
+    this.resetSay();
+    const pool = this.pool();
+    let a, clues = [], guard = 0;
+    do {
+      a = pool[Math.floor(Math.random() * pool.length)];
+      clues = this.namelessFacts(a);
+      guard++;
+    } while (guard < 60 && !clues.length);
+    if (!clues.length) return this.go('play');
+    const clue = clues[Math.floor(Math.random() * clues.length)];
+    this._lis = { a, clue, opts: this.options(a, 4), done: false };
+    const st = this.gameStats('listen');
+    this.el(`
+      <div class="bar"><button class="btn ghost" onclick="App.go('play')">←</button>
+        <div class="grow"></div><h2>🎧 Listen Up</h2>
+        <span class="chip accent">${st.streak} in a row</span></div>
+      <div class="card" style="text-align:center;padding:26px 18px">
+        <div style="font-size:2.6rem">🎧</div>
+        <p class="dim" style="margin-top:8px">One clue. No names in it.</p>
+        <button class="btn wide big" style="margin-top:14px" onclick="App.listenPlay()">▶ Play the clue</button>
+        <button class="btn ghost wide" style="margin-top:10px" onclick="App.listenShow()">Show it in words</button>
+        <div id="lclue" class="dim" style="margin-top:12px;display:none;line-height:1.5"></div>
+      </div>
+      <div id="lopts" class="opt-grid">
+        ${this._lis.opts.map((o, i) =>
+          `<button class="btn ghost opt" onclick="App.listenAnswer(${i})">${o.name}</button>`).join('')}
+      </div>
+      <div id="lmsg"></div>`);
+    setTimeout(() => this.listenPlay(), 350);
+  },
+
+  listenPlay() { if (this._lis) AudioLib.speak(this._lis.clue.text); },
+
+  // Reading it is a fair fallback: a deaf child, a quiet room, a broken
+  // speaker. The clue names nothing either way.
+  listenShow() {
+    const el = document.getElementById('lclue');
+    if (el && this._lis) { el.textContent = this._lis.clue.text; el.style.display = 'block'; }
+  },
+
+  listenAnswer(i) {
+    const l = this._lis;
+    if (!l || l.done) return;
+    l.done = true;
+    AudioLib.stop();
+    const right = l.opts[i].id === l.a.id;
+    const st = this.gameStats('listen');
+    st.played++;
+    st.streak = right ? st.streak + 1 : 0;
+    if (st.streak > st.best) st.best = st.streak;
+    Progress.markSeen(l.a.id);
+    Progress.commit();
+    document.querySelectorAll('#lopts .opt').forEach((b, n) => {
+      b.disabled = true;
+      if (l.opts[n].id === l.a.id) b.classList.add('right');
+      else if (n === i) b.classList.add('wrong');
+    });
+    document.getElementById('lmsg').innerHTML = `
+      <div class="card" style="margin-top:14px">
+        <div style="display:flex;gap:12px">
+          <img src="${this.pic(l.a)}" alt="" style="width:72px;height:72px;object-fit:cover;
+               border-radius:12px;flex:0 0 72px" onerror="this.style.opacity=.15">
+          <div><b>${l.a.name}</b>
+            <div class="dim" style="margin-top:4px;line-height:1.45">${l.clue.text}</div></div>
+        </div>
+        <div class="card-actions">
+          <button class="btn" onclick="App.listenGame()">Next →</button>
+          <button class="btn ghost" onclick="App.species('${l.a.id}')">Full profile</button>
+        </div>
+      </div>`;
+  },
+
+  // ── TRY IT NOW ──
+  // 18 experiments were sitting in the app with nothing recording whether she
+  // had ever done one. Getting a child off the screen and into the actual
+  // world is the best thing this app can do, so it is worth tracking.
+  allTryits() {
+    const out = [];
+    if (typeof BODY !== 'undefined') {
+      BODY.forEach((b, i) => {
+        if (b.tryit) out.push({ key: 'b' + i, where: 'Your Body',
+          section: (BODY_SECTIONS[b.section] || {}).name || b.section,
+          text: b.tryit, go: `App.body('${b.section}')` });
+      });
+    }
+    if (typeof EARTH !== 'undefined') {
+      EARTH.forEach(e => {
+        if (e.tryit) out.push({ key: e.id, where: 'Earth',
+          section: (EARTH_SECTIONS[e.section] || {}).name || e.section,
+          text: e.tryit, go: `App.earth('${e.section}')` });
+      });
+    }
+    return out;
+  },
+
+  toggleTried(key) {
+    const t = Progress.p.tried || (Progress.p.tried = {});
+    if (t[key]) delete t[key]; else t[key] = Store.dayKey();
+    Progress.commit();
+    this.tried();
+  },
+
+  tried() {
+    this.resetSay();
+    const list = this.allTryits();
+    const done = Progress.p.tried || {};
+    const n = list.filter(x => done[x.key]).length;
+    this.el(`
+      <div class="bar"><button class="btn ghost" onclick="App.go('play')">←</button>
+        <h1>Try It Now</h1><div class="grow"></div>
+        <span class="chip accent">${n} / ${list.length}</span></div>
+      <div class="card">
+        <p class="dim">Things to actually go and do, away from the screen.
+          Tick one off when you have really done it.</p>
+        <div class="meter" style="margin-top:12px">
+          <span style="width:${Math.round(n / Math.max(1, list.length) * 100)}%"></span></div>
+      </div>
+      ${list.map(x => `
+        <div class="card tight tryit-row ${done[x.key] ? 'done' : ''}">
+          <button class="tick" onclick="App.toggleTried('${x.key}')"
+            aria-label="Mark done">${done[x.key] ? '✓' : ''}</button>
+          <div style="flex:1">
+            <div class="cat-label">${x.where} · ${x.section}</div>
+            <div style="margin-top:5px;line-height:1.5">${x.text}</div>
+            ${done[x.key] ? `<div class="dim small" style="margin-top:6px">Done ${done[x.key]}</div>` : ''}
+          </div>
+        </div>`).join('')}`);
+  },
+
+  // ── GAME PLUMBING ──
+  // Per-game records live under p.games. Profiles created before these games
+  // existed have no such key, so every read goes through here.
+  gameStats(key) {
+    const p = Progress.p;
+    if (!p.games) p.games = {};
+    if (!p.games[key]) p.games[key] = { played: 0, best: 0, streak: 0 };
+    return p.games[key];
+  },
+
+  // Every species the games can draw on: needs a photo, and for the stat games
+  // a value to compare. Plants and animals both qualify.
+  pool() { return this.all().filter(a => a.name && a.id); },
+
+  // Wrong answers come from the same group where possible. Four random species
+  // from across the whole app would make most rounds trivially easy — a
+  // rainforest frog next to a sequoia is not a question.
+  options(correct, n) {
+    const same = this.pool().filter(x => x.id !== correct.id && x.group === correct.group);
+    const rest = this.pool().filter(x => x.id !== correct.id && x.group !== correct.group);
+    const picked = [];
+    const take = (arr) => {
+      const a = arr.slice();
+      while (picked.length < n - 1 && a.length) {
+        picked.push(a.splice(Math.floor(Math.random() * a.length), 1)[0]);
+      }
+    };
+    take(same); take(rest);
+    return [correct, ...picked].sort(() => Math.random() - 0.5);
+  },
+
   // ── PLAY ──
   play() {
     const q = Progress.p.quiz;
@@ -642,6 +951,22 @@ const App = {
           <span class="t-glyph">⚔️</span>
           <div class="t-name">Face-Off</div>
           <div class="t-sub">Compare two animals</div></div>
+        <div class="tile" onclick="App.zoomGame()">
+          <span class="t-glyph">🔎</span>
+          <div class="t-name">Zoom In</div>
+          <div class="t-sub">Name it before it clears</div></div>
+        <div class="tile" onclick="App.higherGame()">
+          <span class="t-glyph">⚖️</span>
+          <div class="t-name">Bigger or Smaller</div>
+          <div class="t-sub">Keep the streak alive</div></div>
+        <div class="tile" onclick="App.listenGame()">
+          <span class="t-glyph">🎧</span>
+          <div class="t-name">Listen Up</div>
+          <div class="t-sub">Guess it from a clue</div></div>
+        <div class="tile" onclick="App.tried()">
+          <span class="t-glyph">🧪</span>
+          <div class="t-name">Try It Now</div>
+          <div class="t-sub">${Object.keys(Progress.p.tried || {}).length} of ${this.allTryits().length} done</div></div>
       </div>
       <div class="card" style="margin-top:14px">
         <h2>Your record</h2>
