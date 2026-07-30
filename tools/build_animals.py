@@ -110,7 +110,14 @@ def check(entry, roster_ids, photo_ids):
 
 
 def main():
-    patterns = sys.argv[1:] or ['.work/entries-*.json']
+    # Explicit, not a wildcard. '.work/entries-*.json' also matches the plant
+    # and earth files, and plants have the same entry shape as animals — so a
+    # glob silently merged 91 plants into ANIMALS and the app showed 301
+    # "animals" including the banana.
+    patterns = sys.argv[1:] or ['.work/entries-mammals.json',
+                                '.work/entries-rest.json',
+                                '.work/entries-birds5.json',
+                                '.work/entries-dinos-*.json']
     files = []
     for p in patterns:
         files += sorted(glob.glob(os.path.join(ROOT, p) if not os.path.isabs(p) else p))

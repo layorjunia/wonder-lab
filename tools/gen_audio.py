@@ -29,6 +29,7 @@ tools/speech_forms.py first, so "43 ft (13 m)" is looked up as written and
 spoken as "forty-three feet".
 """
 import argparse
+import glob
 import hashlib
 import json
 import os
@@ -293,6 +294,17 @@ def main():
         print(f'  RENDER FAILED {os.path.basename(out)}: {err}')
     for p in problems[:20]:
         print('  ' + p)
+
+    # Prune clips no manifest entry points at. A reworded fact hashes to a new
+    # filename and abandons the old one; the reference ships 737 of these, and
+    # every orphan lands in every device's service-worker cache.
+    used = set(manifest['words'].values())
+    orphans = [p for p in glob.glob(os.path.join(AUDIO, 'p', '*.m4a'))
+               if os.path.relpath(p, AUDIO) not in used]
+    for o in orphans:
+        os.unlink(o)
+    if orphans:
+        print(f'pruned {len(orphans)} orphaned clip(s)')
 
     total = sum(os.path.getsize(os.path.join(AUDIO, v))
                 for v in manifest['words'].values()
