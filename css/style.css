@@ -289,6 +289,9 @@ h3 { font-size: 1.02rem; font-weight: 700; }
    sections stay distinguishable at a glance rather than being four grey
    rectangles a child has to read. */
 .kingdoms { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+/* Five sections in a 2-up grid leaves a lone card on the last row. Let it
+   stretch rather than sit half-width next to nothing. */
+.kingdoms > .kingdom:nth-child(5):last-child { grid-column: 1 / -1; min-height: 118px; }
 .kingdom {
   position: relative; overflow: hidden; cursor: pointer;
   background: var(--ink-2); border: 1px solid var(--line);
@@ -310,7 +313,8 @@ h3 { font-size: 1.02rem; font-weight: 700; }
 .kingdom .k-sub { color: var(--text-dim); font-size: .84rem; margin-top: 3px; }
 
 @media (min-width: 720px) {
-  .kingdoms { grid-template-columns: repeat(4, 1fr); }
+  .kingdoms { grid-template-columns: repeat(5, 1fr); }
+  .kingdoms > .kingdom:nth-child(5):last-child { grid-column: auto; }
   .kingdom { min-height: 156px; }
 }
 

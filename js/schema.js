@@ -63,6 +63,20 @@ const EARTH_SECTIONS = {
   sky:       { name: 'Sun, Moon & Sky',   glyph: '🌙' },
 };
 
+/* Astronomy. Its own section rather than more Earth `sky` facts: those are
+   what an observer on the ground sees — tides, shadows, eclipses — and this is
+   the objects themselves. */
+const ASTRO_SECTIONS = {
+  sun:        { name: 'Our Star',        glyph: '☀️' },
+  moon:       { name: 'The Moon',        glyph: '🌙' },
+  rocky:      { name: 'Rocky Worlds',    glyph: '🪨' },
+  giants:     { name: 'Giant Planets',   glyph: '🪐' },
+  smallstuff: { name: 'Rocks & Comets',  glyph: '☄️' },
+  stars:      { name: 'Stars',           glyph: '⭐' },
+  deepsky:    { name: 'Deep Sky',        glyph: '🌌' },
+  looking:    { name: 'How We Look',     glyph: '🔭' },
+};
+
 const HABITATS = {
   rainforest: { name: 'Rainforest', glyph: '🌴' },
   ocean:      { name: 'Ocean',      glyph: '🌊' },
@@ -152,5 +166,10 @@ const BODY_SECTIONS = {
   gut:      { name: 'Eating & Digesting', glyph: '🍎', tint: '#ffb04a' },
   skin:     { name: 'Skin, Hair & Nails', glyph: '✋', tint: '#ff9f7a' },
   defence:  { name: 'Germ Fighters',  glyph: '🛡️', tint: '#6fb3ff' },
+  sleep:    { name: 'Sleep & Dreams',  glyph: '😴' },
+  cells:    { name: 'Cells & DNA',     glyph: '🧬' },
+  voice:    { name: 'Voice & Sound',   glyph: '🗣️' },
+  hands:    { name: 'Hands & Grip',    glyph: '✋' },
+  heat:     { name: 'Hot & Cold',      glyph: '🌡️' },
   growing:  { name: 'Growing Up',     glyph: '📈', tint: '#7fe3a0' },
 };

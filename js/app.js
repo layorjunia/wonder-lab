@@ -62,7 +62,8 @@ const App = {
     ({ today: () => this.today(), trails: () => this.expeditions(),
        explore: () => this.explore(),
        guide: () => this.guide(), plants: () => this.plants(),
-       earth: () => this.earth(), play: () => this.play(),
+       earth: () => this.earth(), astro: () => this.astro(),
+       play: () => this.play(),
        body: () => this.body(), notes: () => this.notes() }[tab]
       || (() => this.today()))();
     this.renderNav();
@@ -300,6 +301,7 @@ const App = {
     const met = c.seen + c.known + c.mastered;
     const nPlants = typeof PLANTS !== 'undefined' ? PLANTS.length : 0;
     const nEarth = typeof EARTH !== 'undefined' ? EARTH.length : 0;
+    const nAstro = typeof ASTRO !== 'undefined' ? ASTRO.length : 0;
     const card = (tab, glyph, name, sub, tint) => `
       <div class="kingdom" onclick="App.go('${tab}')" style="--tint:${tint}">
         <span class="k-glyph">${glyph}</span>
@@ -311,7 +313,7 @@ const App = {
     // wants next — how far in they are, and a way straight back to the deck.
     const totalFacts = ANIMALS.reduce((n, a) => n + a.facts.length, 0)
       + (typeof PLANTS !== 'undefined' ? PLANTS.reduce((n, p) => n + p.facts.length, 0) : 0)
-      + nEarth + (typeof BODY !== 'undefined' ? BODY.length : 0);
+      + nEarth + nAstro + (typeof BODY !== 'undefined' ? BODY.length : 0);
     const deck = Progress.p.deck || {};
     const left = Math.max(0, (deck.served || []).length - (deck.idx || 0));
     const pct = Math.round(met / Math.max(1, ANIMALS.length) * 100);
@@ -324,6 +326,9 @@ const App = {
                nPlants ? `${nPlants} kinds to meet` : 'coming soon', 'var(--lime)')}
         ${card('earth', '🌍', 'Earth',
                nEarth ? `${Object.keys(EARTH_SECTIONS).length} things to dig into` : 'coming soon', 'var(--cyan)')}
+        ${card('astro', '🔭', 'Astronomy',
+               nAstro ? `${Object.keys(ASTRO_SECTIONS).length} things to look at` : 'coming soon',
+               '#8fa8ff')}
         ${card('body', '🫀', 'Your Body',
                `${typeof BODY !== 'undefined' ? BODY.length : 0} facts about you`, 'var(--violet)')}
       </div>
@@ -1274,21 +1279,31 @@ const App = {
       <button class="btn ghost wide" onclick="App.faceoffPick()">Pick two more</button>`);
   },
 
+  // ── ASTRONOMY ──
+  // Same shape as Earth — topic sections of standalone facts — so it runs
+  // through the same renderer rather than a near-identical copy.
+  astro(sec) { return this.topics('astro', sec); },
+
   // ── EARTH ──
-  // Topic sections, like the body — no species, so it reuses the body's
-  // section-tile pattern rather than the species grid.
-  earth(sec) {
+  earth(sec) { return this.topics('earth', sec); },
+
+  topics(which, sec) {
+    const cfg = which === 'astro'
+      ? { rows: typeof ASTRO !== 'undefined' ? ASTRO : [], secs: ASTRO_SECTIONS,
+          title: 'Astronomy', glyph: '🔭', fn: 'astro' }
+      : { rows: typeof EARTH !== 'undefined' ? EARTH : [], secs: EARTH_SECTIONS,
+          title: 'Earth', glyph: '🌍', fn: 'earth' };
     this.resetSay();
-    if (typeof EARTH === 'undefined' || !EARTH.length) {
-      return this.el(`${this.bar('Earth')}
-        <div class="card"><p class="dim">The Earth section is being written.</p>
+    if (!cfg.rows.length) {
+      return this.el(`${this.bar(cfg.title)}
+        <div class="card"><p class="dim">This section is being written.</p>
         <button class="btn ghost wide" style="margin-top:12px" onclick="App.go('explore')">Back</button></div>`);
     }
     if (sec) {
-      const items = EARTH.filter(e => e.section === sec);
-      const meta = EARTH_SECTIONS[sec] || { name: sec, glyph: '🌍' };
+      const items = cfg.rows.filter(e => e.section === sec);
+      const meta = cfg.secs[sec] || { name: sec, glyph: cfg.glyph };
       return this.el(`
-        <div class="bar"><button class="btn ghost" onclick="App.earth()">←</button>
+        <div class="bar"><button class="btn ghost" onclick="App.${cfg.fn}()">←</button>
           <div class="grow"></div><h2>${meta.glyph} ${meta.name}</h2></div>
         ${items.map(e => {
           const cat = CATEGORIES[e.cat] || { name: e.cat, glyph: '✨' };
@@ -1301,21 +1316,20 @@ const App = {
                background:rgba(158,232,95,.08);color:#d8f5be">
                <b>Try it now:</b> ${e.tryit}</div>` : ''}
             <div class="card-actions">
-              ${this.listenBtn(cat.name, e.text, e.more,
-                               e.tryit ? 'Try it now' : '', e.tryit)}
+              ${this.listenBtn(cat.name, e.text, e.more, e.tryit ? 'Try it now' : '', e.tryit)}
             </div>
           </div>`;
         }).join('')}`);
     }
     this.el(`
       <div class="bar"><button class="btn ghost" onclick="App.go('explore')">←</button>
-        <h1>Earth</h1><div class="grow"></div>
-        <span class="chip accent">${EARTH.length}</span></div>
+        <h1>${cfg.title}</h1><div class="grow"></div>
+        <span class="chip accent">${cfg.rows.length}</span></div>
       <div class="tiles">
-        ${Object.entries(EARTH_SECTIONS).map(([k, v]) => {
-          const n = EARTH.filter(e => e.section === k).length;
+        ${Object.entries(cfg.secs).map(([k, v]) => {
+          const n = cfg.rows.filter(e => e.section === k).length;
           if (!n) return '';
-          return `<div class="tile" onclick="App.earth('${k}')">
+          return `<div class="tile" onclick="App.${cfg.fn}('${k}')">
             <span class="t-glyph">${v.glyph}</span>
             <div class="t-name">${v.name}</div>
             <div class="t-sub">${n} facts</div>

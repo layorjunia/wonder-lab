@@ -77,7 +77,8 @@ const fs = require('fs');
 const load = f => { const s = fs.readFileSync(f, 'utf8')
   .replace(/^const (\w+)/gm, 'globalThis.$1'); eval(s); };
 load('js/schema.js'); load('js/animals.js'); load('js/body.js');
-load('js/plants.js'); load('js/earth.js');
+load('js/expeditions.js');
+load('js/plants.js'); load('js/earth.js'); load('js/astro.js');
 const out = [];
 const push = (src, field, id, t) => { if (t && String(t).trim())
   out.push({ src, field, id, text: String(t) }); };
@@ -114,6 +115,18 @@ EARTH.forEach(e => {
   push('earth', 'fact.more',  e.id, e.more);
   push('earth', 'fact.tryit', e.id, e.tryit);
 });
+ASTRO.forEach(a => {
+  push('astro', 'fact.text',  a.id, a.text);
+  push('astro', 'fact.more',  a.id, a.more);
+  push('astro', 'fact.tryit', a.id, a.tryit);
+});
+Object.values(ASTRO_SECTIONS).forEach((s, i) => push('label', 'section', 'as' + i, s.name));
+EXPEDITIONS.forEach(x => {
+  push('trail', 'name',  x.id, x.name);
+  push('trail', 'intro', x.id, x.intro);
+  push('trail', 'outro', x.id, x.outro);
+  x.stops.forEach((st, i) => push('trail', 'note', x.id + '#' + i, st.note));
+});
 Object.values(PLANT_GROUPS).forEach((g, i) => push('label', 'group', 'pg' + i, g.name));
 Object.values(EARTH_SECTIONS).forEach((s, i) => push('label', 'section', 'es' + i, s.name));
 push('label', 'kind', 'kobs', 'Observed');
@@ -128,7 +141,8 @@ console.log(JSON.stringify(out));
 # Fields the app can play. Anything not listed gets no clip, on purpose.
 NARRATED = {'name', 'blurb', 'size', 'wonder',
             'fact.text', 'fact.more', 'fact.tryit',
-            'category', 'section', 'kind', 'group', 'phrase'}
+            'category', 'section', 'kind', 'group', 'phrase',
+            'intro', 'outro', 'note'}
 
 MAX_CHARS = 1400        # a fact over this length is a content bug, not a clip
 
