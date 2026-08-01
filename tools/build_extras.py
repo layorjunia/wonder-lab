@@ -133,6 +133,22 @@ def main():
     earth.sort(key=lambda e: (sec_order.index(e['section'])
                               if e.get('section') in sec_order else 99, e.get('id', '')))
 
+    # Ids are how an Expedition addresses a stop, so a collision silently
+    # points two stops at the same card. The recovery pass created one by
+    # numbering against a single file when the section spanned two.
+    dupes = [e['id'] for e in earth]
+    dupes = sorted({i for i in dupes if dupes.count(i) > 1})
+    if dupes:
+        problems.append(f'duplicate earth ids: {", ".join(dupes)}')
+
+    # Body facts get a stable id for the same reason. They are hand-written and
+    # ordered, so position is the id — but it has to be written down, not
+    # inferred at runtime, or inserting one fact renumbers every stop after it.
+    bpath = os.path.join(ROOT, 'js', 'body.js')
+    btxt = open(bpath, encoding='utf-8').read()
+    if "id: 'b" not in btxt:
+        print('  NOTE: js/body.js has no stable ids — run tools/id_body.py')
+
     missing = sorted(roster_ids - set(kept))
     if missing:
         print(f'plants with no usable entry ({len(missing)}): {", ".join(missing[:12])}')

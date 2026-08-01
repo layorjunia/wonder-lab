@@ -353,6 +353,51 @@ h3 { font-size: 1.02rem; font-weight: 700; }
 .thumb.known { border-color: var(--lime-dark); }
 .thumb.mastered { border-color: var(--amber); }
 
+/* ── Expeditions ── */
+.exps { display: grid; grid-template-columns: 1fr; gap: 12px; }
+.exp {
+  position: relative; overflow: hidden; cursor: pointer;
+  background: var(--ink-2); border: 1px solid var(--line);
+  border-radius: var(--radius-lg); padding: 17px 18px 15px;
+  transition: border-color .15s, transform .1s;
+}
+.exp::before {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(120deg, var(--tint), transparent 55%);
+  opacity: .12; pointer-events: none;
+}
+.exp:hover { border-color: var(--tint); }
+.exp:active { transform: scale(.99); }
+.exp-glyph { position: absolute; right: 10px; top: 6px; font-size: 2.6rem; opacity: .22; }
+.exp-name { font-weight: 800; font-size: 1.08rem; }
+.exp-stamp { color: var(--lime); }
+.exp-sub { color: var(--text-dim); font-size: .84rem; margin-top: 2px; }
+.exp-meter { height: 5px; margin-top: 11px; }
+
+/* The pips are the whole reason a trail feels like a trail: you can see how
+   far along you are without reading anything. */
+.exp-track { display: flex; gap: 6px; margin: 2px 0 14px; }
+.pip { flex: 1; height: 4px; border-radius: 999px; background: var(--ink-3); }
+.pip.past { background: var(--lime-dark); }
+.pip.now  { background: var(--cyan); }
+
+/* The guide's voice, set apart from the fact it introduces. */
+.exp-note {
+  border-left: 3px solid var(--cyan); padding: 2px 0 2px 13px;
+  margin-bottom: 13px; font-size: 1.02rem; line-height: 1.55; color: #cfe9f2;
+}
+.exp-nav { display: flex; justify-content: space-between; gap: 12px; margin-top: 16px; }
+.exp-nav .btn { min-width: 120px; }
+
+.hub-trail { display: flex; align-items: center; gap: 14px; cursor: pointer; }
+.hub-trail:hover { border-color: var(--cyan); }
+.hub-arrow { margin-left: auto; font-size: 1.5rem; color: var(--cyan); }
+
+@media (min-width: 720px) {
+  .exps { grid-template-columns: repeat(3, 1fr); }
+  .exp-nav { max-width: 620px; }
+}
+
 /* ── Games ── */
 /* Zoom In. The scale sits on the img inside a clipping frame, so the photo
    pulls back without the layout moving. 6s matches the pace of a nine-year-old

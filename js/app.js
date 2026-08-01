@@ -59,7 +59,8 @@ const App = {
     this.tab = tab;
     this.view = null;
     this.resetSay();
-    ({ today: () => this.today(), explore: () => this.explore(),
+    ({ today: () => this.today(), trails: () => this.expeditions(),
+       explore: () => this.explore(),
        guide: () => this.guide(), plants: () => this.plants(),
        earth: () => this.earth(), play: () => this.play(),
        body: () => this.body(), notes: () => this.notes() }[tab]
@@ -72,10 +73,10 @@ const App = {
     // is seven destinations — too many for a thumb-sized bar. Explore is a hub
     // over the four; the bar stays at four items and has room to grow.
     const items = [
-      ['today', '🔭', 'Today'], ['explore', '🧭', 'Explore'],
-      ['play', '🎯', 'Play'], ['notes', '📓', 'Notes'],
+      ['today', '🔭', 'Today'], ['trails', '🧭', 'Trails'],
+      ['explore', '📖', 'Explore'], ['play', '🎯', 'Play'], ['notes', '📓', 'Notes'],
     ];
-    const inExplore = ['explore', 'guide', 'plants', 'earth', 'body'];
+    const inExplore = ['explore', 'guide', 'plants', 'earth', 'body', 'astro'];
     document.getElementById('nav').innerHTML = items.map(([k, ic, label]) =>
       `<button class="${this.tab === k || (k === 'explore' && inExplore.includes(this.tab)) ? 'on' : ''}"
         onclick="App.go('${k}')">
@@ -327,6 +328,12 @@ const App = {
                `${typeof BODY !== 'undefined' ? BODY.length : 0} facts about you`, 'var(--violet)')}
       </div>
 
+      <div class="card hub-trail" onclick="App.go('trails')" style="margin-top:16px">
+        <div><h2>🧭 Expeditions</h2>
+          <p class="dim small" style="margin-top:4px">Short trails that cross the
+            whole lab — each one goes somewhere.</p></div>
+        <span class="hub-arrow">→</span>
+      </div>
       <div class="hub-panel">
         <div class="hub-main card">
           <h2>${left ? `${left} card${left === 1 ? '' : 's'} left today` : "Today's deck is done"}</h2>
@@ -628,6 +635,131 @@ const App = {
     this.go('notes');
   },
 
+  // ── EXPEDITIONS ──
+  // A trail with a beginning and an end, which is the thing the app did not
+  // have. Progress is stored per expedition so a child can stop halfway and
+  // come back to the right stop rather than starting again.
+  expProgress(id) {
+    const p = Progress.p;
+    if (!p.exp) p.exp = {};
+    if (!p.exp[id]) p.exp[id] = { at: 0, done: false };
+    return p.exp[id];
+  },
+
+  expeditions() {
+    this.resetSay();
+    if (typeof EXPEDITIONS === 'undefined') return this.go('today');
+    this.el(`
+      ${this.bar('Expeditions', this.streakChip())}
+      <p class="dim" style="margin:2px 0 14px">Short trails that cross the whole
+        lab. Each one goes somewhere and ends somewhere.</p>
+      <div class="exps">
+        ${EXPEDITIONS.map(x => {
+          const stops = expeditionStops(x);
+          const pr = this.expProgress(x.id);
+          const at = Math.min(pr.at, stops.length);
+          return `<div class="exp" onclick="App.expedition('${x.id}')" style="--tint:${x.tint}">
+            <span class="exp-glyph">${x.glyph}</span>
+            <div class="exp-name">${x.name}${pr.done ? ' <span class="exp-stamp">✓</span>' : ''}</div>
+            <div class="exp-sub">${pr.done ? 'Finished' : at ? `Stop ${at + 1} of ${stops.length}`
+                                                             : `${stops.length} stops`}</div>
+            <div class="meter exp-meter"><span style="width:${Math.round(at / stops.length * 100)}%"></span></div>
+          </div>`;
+        }).join('')}
+      </div>`);
+  },
+
+  expedition(id, at) {
+    this.resetSay();
+    const x = EXPEDITIONS.find(e => e.id === id);
+    if (!x) return this.expeditions();
+    const stops = expeditionStops(x);
+    const pr = this.expProgress(id);
+    if (at == null) at = pr.done ? 0 : Math.min(pr.at, stops.length - 1);
+    at = Math.max(0, Math.min(at, stops.length));
+    this._exp = { id, at };
+
+    // past the last stop: the closing card
+    if (at >= stops.length) {
+      pr.done = true; pr.at = stops.length; Progress.commit();
+      return this.el(`
+        <div class="bar"><button class="btn ghost" onclick="App.expeditions()">←</button>
+          <div class="grow"></div><h2>${x.glyph} ${x.name}</h2></div>
+        <div class="card" style="text-align:center;padding:32px 20px">
+          <div style="font-size:3rem">${x.glyph}</div>
+          <h2 style="margin-top:8px">Trail complete</h2>
+          <p style="margin-top:12px;line-height:1.6">${x.outro}</p>
+          <div class="card-actions" style="justify-content:center">
+            ${this.listenBtn(x.outro)}
+            <button class="btn" onclick="App.expedition('${id}', 0)">Walk it again</button>
+          </div>
+        </div>
+        <button class="btn ghost wide" style="margin-top:12px"
+          onclick="App.expeditions()">Back to expeditions</button>`);
+    }
+
+    if (at > pr.at) { pr.at = at; Progress.commit(); }
+    const st = stops[at];
+    const body = this.stopCard(st);
+    this.el(`
+      <div class="bar"><button class="btn ghost" onclick="App.expeditions()">←</button>
+        <div class="grow"></div><h2>${x.glyph} ${x.name}</h2></div>
+      <div class="exp-track">${stops.map((_, i) =>
+        `<span class="pip ${i < at ? 'past' : i === at ? 'now' : ''}"></span>`).join('')}</div>
+      ${at === 0 ? `<div class="card" style="margin-bottom:12px">
+        <p style="line-height:1.6">${x.intro}</p></div>` : ''}
+      ${st.note ? `<div class="exp-note">${st.note}</div>` : ''}
+      ${body}
+      <div class="exp-nav">
+        ${at > 0 ? `<button class="btn ghost" onclick="App.expedition('${id}',${at - 1})">← Back</button>`
+                 : '<span></span>'}
+        <button class="btn" onclick="App.expedition('${id}',${at + 1})">
+          ${at === stops.length - 1 ? 'Finish →' : 'Next stop →'}</button>
+      </div>`);
+  },
+
+  // One stop rendered inline. A species stop shows its photo and blurb rather
+  // than jumping to the profile — leaving the trail to read a full page and
+  // then finding your way back is how a journey stops feeling like one.
+  stopCard(st) {
+    if (st.s) {
+      const a = this.find(st.s);
+      if (!a) return '';
+      Progress.markSeen(a.id);
+      return `<div class="fact-card">
+        <div class="fact-photo profile-photo" style="background-image:url('${this.pic(a)}')">
+          <img src="${this.pic(a)}" alt="${a.name}" onerror="this.style.display='none'">
+          <div class="fact-name">${a.name}</div>
+        </div>
+        <div class="fact-body">
+          <div style="font-size:1.04rem">${a.blurb}</div>
+          <div class="dim" style="margin-top:8px">📏 ${a.size}</div>
+          <div class="card-actions">
+            ${this.listenBtn(a.name, a.blurb, a.size)}
+            <button class="btn ghost" onclick="App.species('${a.id}')">Full profile</button>
+          </div>
+        </div>
+      </div>`;
+    }
+    const f = st.e ? EARTH.find(e => e.id === st.e)
+            : st.b ? BODY.find(b => b.id === st.b)
+            : st.a ? ASTRO.find(a => a.id === st.a) : null;
+    if (!f) return '';
+    const cat = CATEGORIES[f.cat] || { name: f.cat, glyph: '✨' };
+    return `<div class="card">
+      <div class="cat-row"><span class="cat-label">${cat.glyph} ${cat.name}</span>
+        ${this.kindTag(f)}</div>
+      <div style="margin-top:6px;font-size:1.05rem;line-height:1.5">${f.text}</div>
+      ${f.more ? `<div class="fact-more">${f.more}</div>` : ''}
+      ${f.tryit ? `<div class="wonder" style="border-left-color:var(--lime);
+         background:rgba(158,232,95,.08);color:#d8f5be">
+         <b>Try it now:</b> ${f.tryit}</div>` : ''}
+      <div class="card-actions">
+        ${this.listenBtn(cat.name, f.text, f.more, f.tryit ? 'Try it now' : '', f.tryit)}
+      </div>
+    </div>`;
+  },
+
   // ── ZOOM IN ──
   // The photo starts far too close to read and pulls back over six seconds.
   // Answering early is worth more, which is the whole game: commit on a
@@ -857,7 +989,10 @@ const App = {
     const out = [];
     if (typeof BODY !== 'undefined') {
       BODY.forEach((b, i) => {
-        if (b.tryit) out.push({ key: 'b' + i, where: 'Your Body',
+        // b.id, not the index. Keying on position meant that adding a single
+        // body fact renumbered every experiment after it and silently wiped
+        // the child's record of what she had actually done.
+        if (b.tryit) out.push({ key: b.id || ('b' + i), where: 'Your Body',
           section: (BODY_SECTIONS[b.section] || {}).name || b.section,
           text: b.tryit, go: `App.body('${b.section}')` });
       });
