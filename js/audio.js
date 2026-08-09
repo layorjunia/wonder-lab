@@ -68,21 +68,27 @@ const AudioLib = {
       .catch(() => { this.manifest = null; });
     // iOS gesture unlock. See el() for why this has to be the SAME element
     // every clip plays through, and why it fires in the capture phase.
+    const EVENTS = ['pointerdown', 'touchend', 'click'];
     const unlock = () => {
       if (this._unlocked) return;
+      // Synchronously, and exactly once. Waiting for the play() promise to
+      // resolve looks more careful and is a bug: all three events fire for a
+      // single tap, so the flag stayed false through the whole gesture and the
+      // element got re-pointed at the silent clip three times. The Listen
+      // handler then set the real src, Safari aborted the in-flight load, the
+      // abort fired `error`, and _playFile read that as "clip finished" and
+      // skipped it. Four choices, four instant skips, no sound, no error.
+      this._unlocked = true;
+      EVENTS.forEach(ev => document.removeEventListener(ev, unlock, true));
       const a = this.el();
       a.src = SILENCE;
       const p = a.play();
-      if (p && p.then) p.then(() => { this._unlocked = true; }).catch(() => {});
-      else this._unlocked = true;
+      if (p && p.catch) p.catch(() => {});
     };
     // Capture, so the element is unlocked BEFORE the Listen button's own
     // handler runs — say() awaits the manifest before it plays, and by then
-    // the gesture is over. Listeners are never removed: if the unlock is
-    // refused (Low Power Mode, silent switch, a gesture Safari does not like)
-    // the next tap simply tries again.
-    ['pointerdown', 'touchend', 'click'].forEach(
-      ev => document.addEventListener(ev, unlock, true));
+    // the gesture is over.
+    EVENTS.forEach(ev => document.addEventListener(ev, unlock, true));
   },
 
   // ONE audio element for the whole app.
@@ -170,19 +176,28 @@ const AudioLib = {
       const a = this.el();
       this._current = a;
       let done = false;
+      let watchdog = 0;
       const fin = () => {
         if (done) return;
         done = true;
+        clearTimeout(watchdog);
         a.onended = a.onerror = null;
         if (this._fin === fin) this._fin = null;
         resolve();
       };
       this._fin = fin;
       a.onended = fin;
-      a.onerror = fin;
+      // `error` with no a.error is an aborted load, not a broken clip — it
+      // fires when something else re-points the element mid-load. Treating it
+      // as the end of the clip is how a whole sequence used to evaporate
+      // silently. Only a real MediaError ends playback.
+      a.onerror = () => { if (a.error) fin(); };
       a.src = AUDIO_BASE + file;
       const p = a.play();
       if (p && p.catch) p.catch(() => fin());
+      // Nothing above is guaranteed to fire. A clip that neither plays nor
+      // errors would otherwise stall the whole sequence forever.
+      watchdog = setTimeout(fin, 20000);
     });
   },
 
