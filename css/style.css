@@ -202,8 +202,20 @@ h3 { font-size: 1.02rem; font-weight: 700; }
   margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line);
   color: var(--text-dim); font-size: .95rem; line-height: 1.6;
 }
-.fact-actions { display: flex; gap: 10px; margin-top: 16px; }
-.fact-actions .btn { flex: 1; }
+/* Four buttons do not fit across a phone. Without wrapping, Next ran off the
+   right edge of the card and was half unreachable on an iPhone — flex kept
+   them on one line and let the last one overflow rather than move it down. */
+.fact-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+/* basis 0, not auto: the secondary buttons then share one line evenly and let
+   their labels wrap, instead of each claiming its content width and pushing
+   the next one onto a line of its own. */
+.fact-actions .btn { flex: 1 1 0; min-width: 0; }
+/* Next is the one that must always be whole and always be reachable, so it
+   takes the full width of its own line as soon as the row breaks. */
+.fact-actions .btn:not(.ghost) { flex: 1 0 100%; order: 1; }
+@media (min-width: 560px) {
+  .fact-actions .btn:not(.ghost) { flex: 1 1 auto; order: 0; }
+}
 
 /* wonder line — the quiet "look what God made" beat, never a sermon */
 .wonder {
