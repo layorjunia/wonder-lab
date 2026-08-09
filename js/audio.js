@@ -32,10 +32,20 @@ const AUDIO_BASE = (function () {
   return 'https://layorjunia.github.io/wonder-lab/audio/';
 })();
 
+// 12 ms of 8 kHz silence. Played once on the first gesture purely to mark the
+// shared element as user-initiated; short enough that nobody hears it.
+const SILENCE = 'data:audio/wav;base64,UklGRuwAAABXQVZFZm10IBAAAAABAAEAQB8AAEAf'
+  + 'AAABAAgAZGF0YcgAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA'
+  + 'gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA'
+  + 'gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA'
+  + 'gICAgICAgICAgICAgICAgICAgICAgICAgICAgA==';
+
 const AudioLib = {
   manifest: null,      // { words: {normalised text -> file}, engine, voice }
   ready: false,
   _current: null,
+  _el: null,           // the one shared, gesture-unlocked <audio>
+  _fin: null,          // resolver for the clip currently in flight
   _queueToken: 0,
   _unlocked: false,
 
@@ -56,18 +66,45 @@ const AudioLib = {
       .then(r => r.ok ? r.json() : null)
       .then(m => { this.manifest = m; this.ready = !!m; })
       .catch(() => { this.manifest = null; });
-    // iOS needs a user gesture before audio may play — unlock on first tap
+    // iOS gesture unlock. See el() for why this has to be the SAME element
+    // every clip plays through, and why it fires in the capture phase.
     const unlock = () => {
       if (this._unlocked) return;
-      this._unlocked = true;
-      const a = new Audio();
-      a.muted = true;
-      a.play().catch(() => {});
-      document.removeEventListener('touchend', unlock);
-      document.removeEventListener('click', unlock);
+      const a = this.el();
+      a.src = SILENCE;
+      const p = a.play();
+      if (p && p.then) p.then(() => { this._unlocked = true; }).catch(() => {});
+      else this._unlocked = true;
     };
-    document.addEventListener('touchend', unlock);
-    document.addEventListener('click', unlock);
+    // Capture, so the element is unlocked BEFORE the Listen button's own
+    // handler runs — say() awaits the manifest before it plays, and by then
+    // the gesture is over. Listeners are never removed: if the unlock is
+    // refused (Low Power Mode, silent switch, a gesture Safari does not like)
+    // the next tap simply tries again.
+    ['pointerdown', 'touchend', 'click'].forEach(
+      ev => document.addEventListener(ev, unlock, true));
+  },
+
+  // ONE audio element for the whole app.
+  //
+  // iOS only lets an <audio> element play if play() was called on THAT element
+  // during a user gesture. A fresh `new Audio()` per clip — which is what this
+  // did — is therefore never unlocked: every play() rejects with
+  // NotAllowedError, `.catch(() => resolve())` swallows it, the sequence runs
+  // to completion in milliseconds, and the app is silent with nothing logged
+  // and nothing on screen. It worked on every desktop browser and on no iPhone.
+  //
+  // Reusing one unlocked element and only swapping .src is the fix. It also
+  // stops the app allocating an element per clip.
+  el() {
+    if (!this._el) {
+      const a = new Audio();
+      a.preload = 'auto';
+      a.playsInline = true;       // never hand playback to the fullscreen player
+      a.setAttribute('playsinline', '');
+      this._el = a;
+    }
+    return this._el;
   },
 
   norm(text) {
@@ -118,17 +155,34 @@ const AudioLib = {
 
   stop() {
     this._queueToken++;
-    if (this._current) { this._current.pause(); this._current = null; }
+    if (this._el) { try { this._el.pause(); } catch (e) { /* nothing playing */ } }
+    this._current = null;
+    // Release whatever clip is in flight. With one shared element a pause
+    // fires neither `ended` nor `error`, so without this the sequence's await
+    // never settles and _done hangs forever — every later screen change then
+    // waits on a promise that will not resolve.
+    if (this._fin) { const f = this._fin; this._fin = null; f(); }
     if (window.speechSynthesis) speechSynthesis.cancel();
   },
 
   _playFile(file) {
     return new Promise(resolve => {
-      const a = new Audio(AUDIO_BASE + file);
+      const a = this.el();
       this._current = a;
-      a.onended = () => resolve();
-      a.onerror = () => resolve();
-      a.play().catch(() => resolve());
+      let done = false;
+      const fin = () => {
+        if (done) return;
+        done = true;
+        a.onended = a.onerror = null;
+        if (this._fin === fin) this._fin = null;
+        resolve();
+      };
+      this._fin = fin;
+      a.onended = fin;
+      a.onerror = fin;
+      a.src = AUDIO_BASE + file;
+      const p = a.play();
+      if (p && p.catch) p.catch(() => fin());
     });
   },
 
