@@ -1,6 +1,6 @@
 // Offline cache for Wonder Lab.
 // Bump CACHE whenever app code changes so installed devices pick it up.
-const CACHE = 'wonderlab-20260809-1217-33ee9cf';
+const CACHE = 'wonderlab-20260809-1222-699bd69';
 const SHELL = [
   '.', 'index.html', 'css/style.css', 'manifest.json',
   'js/schema.js', 'js/animals.js', 'js/body.js', 'js/store.js',
@@ -33,9 +33,26 @@ self.addEventListener('activate', e => {
 // repo and are served by Pages. Those requests are CROSS-ORIGIN, so they have
 // to be allowed through explicitly — the blanket same-origin bail below would
 // otherwise skip every clip and offline playback would silently never work.
-// Pages sends `access-control-allow-origin: *`, so these cache as normal
-// responses rather than opaque ones.
+// Pages sends `access-control-allow-origin: *` — but that header only buys
+// anything if the REQUEST is made in cors mode, and an <audio> element issues
+// its request in `no-cors`. Passing that request straight to fetch() therefore
+// yields an OPAQUE response, which Safari refuses to play:
+//
+//   TypeError: Response served by service worker is opaque
+//   NotSupportedError: The operation is not supported.
+//
+// Every clip was silent on iPhone and iPad while working perfectly in desktop
+// Chrome, which tolerates opaque media. The fix is to re-issue the request
+// ourselves in cors mode (see corsFetch) so we get a real, readable, cacheable
+// response. Never cache an opaque one — a cached opaque response fails exactly
+// the same way, forever, on a device that is now offline-capable and wrong.
 const AUDIO_ORIGIN = 'https://layorjunia.github.io';
+
+function corsFetch(request) {
+  return fetch(new Request(request.url, {
+    mode: 'cors', credentials: 'omit', cache: 'default',
+  }));
+}
 
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
@@ -49,9 +66,22 @@ self.addEventListener('fetch', e => {
   // and has to work on a tablet with no signal.
   if (/\/(img|audio)\//.test(url.pathname) &&
       /\.(jpg|jpeg|png|m4a|mp3)$/.test(url.pathname)) {
-    e.respondWith(caches.match(e.request).then(hit => hit || fetch(e.request)
-      .then(res => { const c = res.clone();
-                     caches.open(CACHE).then(k => k.put(e.request, c)); return res; })));
+    e.respondWith(caches.match(e.request).then((hit) => {
+      if (hit) return hit;
+      const net = sameOrigin ? fetch(e.request) : corsFetch(e.request);
+      return net.then((res) => {
+        // 200 only. A 206 partial (Safari range-requests media) is not a whole
+        // clip, and an opaque response is unplayable — caching either one
+        // poisons the cache for good.
+        if (res.status === 200 && res.type !== 'opaque') {
+          const c = res.clone();
+          caches.open(CACHE).then(k => k.put(e.request, c));
+        }
+        return res;
+      // Last resort: hand back the untouched request rather than an error, so
+      // a cors hiccup degrades to "the browser fetches it itself".
+      }).catch(() => fetch(e.request));
+    }));
     return;
   }
 
