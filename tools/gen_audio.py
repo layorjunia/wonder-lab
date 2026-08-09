@@ -100,6 +100,9 @@ Object.values(BODY_SECTIONS).forEach((b, i) => push('label', 'section', 's' + i,
 Object.values(KINDS).forEach((k, i) => push('label', 'kind', 'k' + i, k.name));
 Object.values(GROUPS).forEach((g, i) => push('label', 'group', 'g' + i, g.name));
 push('label', 'phrase', 'tryit', 'Try it now');
+// Game phrases live in schema.js precisely so this line can find them. A
+// phrase written inline in app.js gets no clip and no warning.
+Object.values(GAME_PHRASES).forEach((t, i) => push('label', 'phrase', 'gp' + i, t));
 PLANTS.forEach(p => {
   push('plant', 'name',   p.id, p.name);
   push('plant', 'blurb',  p.id, p.blurb);

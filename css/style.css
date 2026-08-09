@@ -424,13 +424,28 @@ h3 { font-size: 1.02rem; font-weight: 700; }
   border-radius: var(--radius-lg); background: var(--ink-3);
   border: 1px solid var(--line);
 }
-.zoom-stage img {
-  width: 100%; height: 100%; object-fit: cover; display: block;
+.zoom-stage > img {
+  position: absolute; inset: 0; width: 100%; height: 100%; display: block;
+}
+/* The photo was `object-fit: cover`, so "fully zoomed out" was still a 4:3
+   crop — the reveal never showed the animal whole, which is the entire payoff
+   of the game. `contain` fixes that; the blurred copy behind fills what would
+   otherwise be black bars, and gives away nothing that is not already on
+   screen, being a blur of the very same picture. */
+.zoom-stage .zbg {
+  object-fit: cover; transform: scale(1.15);
+  filter: blur(24px) brightness(.42) saturate(.75);
+}
+.zoom-stage .zfg {
+  object-fit: contain;
   transform: scale(7); transform-origin: 50% 45%;
   transition: transform 6s cubic-bezier(.25,.6,.3,1);
 }
-.zoom-stage img.out  { transform: scale(1); }
-.zoom-stage img.done { transform: scale(1); transition: transform .4s ease-out; }
+.zoom-stage .zfg.out  { transform: scale(1); }
+.zoom-stage .zfg.done { transform: scale(1); transition: transform .4s ease-out; }
+
+/* The row that carries "Hear the choices" above an answer grid. */
+.opt-head { display: flex; justify-content: flex-end; margin-top: 14px; }
 
 .opt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 14px; }
 .opt-grid .opt { width: 100%; padding: 15px 12px; font-size: .95rem; }

@@ -93,18 +93,26 @@ const App = {
   _sayReg: [],
   _saying: null,
 
-  listenBtn(...parts) {
+  listenBtn(...parts) { return this._mkListen('Listen', parts); },
+
+  // Labelled variant. In the games the button offers something more specific
+  // than "listen", and "Hear the choices" is the difference between a child
+  // using it and never noticing it is there.
+  listenLabel(label, ...parts) { return this._mkListen(label, parts); },
+
+  _mkListen(label, parts) {
     const clean = parts.filter(p => p && String(p).trim());
     if (!clean.length) return '';
-    const i = this._sayReg.push(clean) - 1;
-    return `<button class="listen" data-say="${i}" aria-label="Listen"
+    const i = this._sayReg.push({ parts: clean, label }) - 1;
+    return `<button class="listen" data-say="${i}" aria-label="${label}"
       onclick="event.stopPropagation();App.say(${i})">
-      <span class="ic">▶</span><span class="lbl">Listen</span></button>`;
+      <span class="ic">▶</span><span class="lbl">${label}</span></button>`;
   },
 
   say(i) {
-    const parts = this._sayReg[i];
-    if (!parts) return;
+    const reg = this._sayReg[i];
+    if (!reg) return;
+    const parts = reg.parts;
     if (this._saying === i) { AudioLib.stop(); this._saying = null; return this.syncListen(); }
     this._saying = i;
     this.syncListen();
@@ -120,7 +128,8 @@ const App = {
       const on = +b.dataset.say === this._saying;
       b.classList.toggle('on', on);
       b.querySelector('.ic').textContent = on ? '■' : '▶';
-      b.querySelector('.lbl').textContent = on ? 'Stop' : 'Listen';
+      b.querySelector('.lbl').textContent = on ? 'Stop'
+        : ((this._sayReg[+b.dataset.say] || {}).label || 'Listen');
     });
   },
 
@@ -781,7 +790,13 @@ const App = {
       <div class="bar"><button class="btn ghost" onclick="App.go('play')">←</button>
         <div class="grow"></div><h2>🔎 Zoom In</h2>
         <span class="chip accent">${st.streak} in a row</span></div>
-      <div class="zoom-stage"><img id="zi" src="${this.pic(a)}" alt=""></div>
+      <div class="zoom-stage">
+        <img class="zbg" src="${this.pic(a)}" alt="" aria-hidden="true">
+        <img id="zi" class="zfg" src="${this.pic(a)}" alt="">
+      </div>
+      <div class="opt-head">
+        ${this.listenLabel('Hear the choices', ...this._zoom.opts.map(o => o.name))}
+      </div>
       <div id="zopts" class="opt-grid">
         ${this._zoom.opts.map((o, i) =>
           `<button class="btn ghost opt" onclick="App.zoomAnswer(${i})">${o.name}</button>`).join('')}
@@ -822,6 +837,7 @@ const App = {
         <h2>${right ? (secs < 2 ? 'Got it, fast' : 'Got it') : z.a.name}</h2>
         <p class="dim" style="margin-top:6px">${z.a.blurb}</p>
         <div class="card-actions">
+          ${this.listenBtn(z.a.name, z.a.blurb)}
           <button class="btn" onclick="App.zoomGame()">Next →</button>
           <button class="btn ghost" onclick="App.species('${z.a.id}')">Full profile</button>
         </div>
@@ -833,11 +849,13 @@ const App = {
 
   higherGame() {
     this.resetSay();
+    // Questions come from GAME_PHRASES in schema.js so gen_audio can render a
+    // clip for each. Typed inline here they would have no recording.
     const STATS = [
-      { k: 'weight', q: 'Which is heavier?', unit: 'lb' },
-      { k: 'length', q: 'Which is longer?', unit: 'ft' },
-      { k: 'height', q: 'Which is taller?', unit: 'ft' },
-      { k: 'life', q: 'Which lives longer?', unit: 'yrs' },
+      { k: 'weight', q: GAME_PHRASES.heavier, unit: 'lb' },
+      { k: 'length', q: GAME_PHRASES.longer, unit: 'ft' },
+      { k: 'height', q: GAME_PHRASES.taller, unit: 'ft' },
+      { k: 'life', q: GAME_PHRASES.lives, unit: 'yrs' },
     ];
     // Only stats with enough species to make a varied game.
     const usable = STATS.map(s => ({ ...s,
@@ -867,6 +885,9 @@ const App = {
         <div class="grow"></div><h2>⚖️ Bigger or Smaller</h2>
         <span class="chip accent">${st.streak} in a row</span></div>
       <p class="hl-q">${s.q}</p>
+      <div class="opt-head" style="margin-top:0;margin-bottom:12px">
+        ${this.listenLabel('Hear the question', s.q, a.name, b.name)}
+      </div>
       <div class="hl-pair">${card(a, 'a')}${card(b, 'b')}</div>
       <div id="hmsg"></div>`);
   },
@@ -937,6 +958,9 @@ const App = {
         <button class="btn ghost wide" style="margin-top:10px" onclick="App.listenShow()">Show it in words</button>
         <div id="lclue" class="dim" style="margin-top:12px;display:none;line-height:1.5"></div>
       </div>
+      <div class="opt-head">
+        ${this.listenLabel('Hear the choices', ...this._lis.opts.map(o => o.name))}
+      </div>
       <div id="lopts" class="opt-grid">
         ${this._lis.opts.map((o, i) =>
           `<button class="btn ghost opt" onclick="App.listenAnswer(${i})">${o.name}</button>`).join('')}
@@ -980,6 +1004,7 @@ const App = {
             <div class="dim" style="margin-top:4px;line-height:1.45">${l.clue.text}</div></div>
         </div>
         <div class="card-actions">
+          ${this.listenBtn(l.a.name, l.clue.text)}
           <button class="btn" onclick="App.listenGame()">Next →</button>
           <button class="btn ghost" onclick="App.species('${l.a.id}')">Full profile</button>
         </div>

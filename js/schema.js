@@ -173,3 +173,17 @@ const BODY_SECTIONS = {
   heat:     { name: 'Hot & Cold',      glyph: '🌡️' },
   growing:  { name: 'Growing Up',     glyph: '📈', tint: '#7fe3a0' },
 };
+
+// Spoken game phrases.
+//
+// Declared here rather than written inline in app.js because tools/gen_audio.py
+// has to render a clip for every string the app can speak. A phrase typed
+// straight into a template literal is a phrase with no recording — the app then
+// falls to the browser voice for that one line, in a different voice, and is
+// silent for it on iOS. One definition, read by both the app and the generator.
+const GAME_PHRASES = {
+  heavier: 'Which is heavier?',
+  longer:  'Which is longer?',
+  taller:  'Which is taller?',
+  lives:   'Which lives longer?',
+};
