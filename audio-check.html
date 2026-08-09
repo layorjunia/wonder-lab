@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Wonder Lab — audio check</title>
+<!--
+  A standalone diagnostic, because the interesting failure only happens on a
+  device with no debugger attached. "Listen does nothing" has at least four
+  causes that look identical from the outside — a missing manifest, a blocked
+  cross-origin fetch, an autoplay refusal, a decode failure — and guessing
+  between them from the symptom wastes a round-trip each time.
+
+  Everything prints on screen in large text so it can be read from a photo.
+-->
+<style>
+  body { font: 16px/1.5 -apple-system, system-ui, sans-serif; background: #0f1720;
+         color: #e8eef4; margin: 0; padding: 20px 16px 60px; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  p.sub { color: #8fa3b4; margin: 0 0 18px; font-size: 14px; }
+  button { font: 600 18px/1 -apple-system, system-ui, sans-serif; width: 100%;
+           padding: 18px; border-radius: 14px; border: 0; background: #9ee85f;
+           color: #0f1720; margin-bottom: 18px; }
+  .row { padding: 10px 12px; border-radius: 10px; background: #16212c;
+         margin-bottom: 8px; word-break: break-word; }
+  .ok   { border-left: 5px solid #9ee85f; }
+  .bad  { border-left: 5px solid #ff7a6b; }
+  .info { border-left: 5px solid #4fd6e8; }
+  .k { color: #8fa3b4; font-size: 13px; }
+  .v { font-weight: 600; font-size: 15px; }
+</style>
+</head>
+<body>
+<h1>Audio check</h1>
+<p class="sub">Tap the button. Every step reports what actually happened.</p>
+<button id="go">Run the check (and play a clip)</button>
+<div id="out"></div>
+
+<script src="js/audio.js"></script>
+<script>
+const out = document.getElementById('out');
+function row(k, v, cls) {
+  const d = document.createElement('div');
+  d.className = 'row ' + (cls || 'info');
+  d.innerHTML = '<div class="k">' + k + '</div><div class="v">' + v + '</div>';
+  out.appendChild(d);
+}
+function errName(e) {
+  if (!e) return 'unknown';
+  return (e.name || '') + (e.message ? ' — ' + e.message : '');
+}
+
+// The whole point is to run inside the gesture, exactly as the app does.
+document.getElementById('go').addEventListener('click', async () => {
+  out.innerHTML = '';
+  row('page build', (document.querySelector('meta[name="build"]') || {}).content || '(none)');
+  row('audio base', AUDIO_BASE);
+  row('unlocked before play', String(AudioLib._unlocked),
+      AudioLib._unlocked ? 'ok' : 'bad');
+
+  try {
+    await AudioLib.loading;
+    row('manifest', AudioLib.manifest
+        ? Object.keys(AudioLib.manifest.words).length + ' clips'
+        : 'FAILED TO LOAD', AudioLib.manifest ? 'ok' : 'bad');
+  } catch (e) { row('manifest', 'threw: ' + errName(e), 'bad'); }
+
+  const file = AudioLib.fileFor('Tarsier')
+            || (AudioLib.manifest && Object.values(AudioLib.manifest.words)[0]);
+  if (!file) { row('clip lookup', 'no clip to test with', 'bad'); return; }
+  row('test clip', file);
+
+  // 1. can it even be fetched?
+  try {
+    const r = await fetch(AUDIO_BASE + file);
+    row('fetch', r.status + ' ' + (r.headers.get('content-type') || ''),
+        r.ok ? 'ok' : 'bad');
+  } catch (e) { row('fetch', 'blocked: ' + errName(e), 'bad'); }
+
+  // 2. the OLD approach — a fresh element, never gesture-unlocked.
+  await new Promise(res => {
+    const a = new Audio(AUDIO_BASE + file);
+    let settled = false;
+    const fin = (msg, cls) => { if (settled) return; settled = true; row('fresh new Audio()', msg, cls); res(); };
+    a.onplaying = () => { a.pause(); fin('played', 'ok'); };
+    a.onerror = () => fin('media error code ' + (a.error && a.error.code), 'bad');
+    const p = a.play();
+    if (p && p.catch) p.catch(e => fin('REFUSED: ' + errName(e), 'bad'));
+    setTimeout(() => fin('timed out', 'bad'), 3000);
+  });
+
+  // 3. the shared, gesture-unlocked element the app now uses.
+  await new Promise(res => {
+    const a = AudioLib.el();
+    let settled = false;
+    const fin = (msg, cls) => { if (settled) return; settled = true; row('shared unlocked element', msg, cls); res(); };
+    a.onplaying = () => fin('PLAYING — you should hear it', 'ok');
+    a.onerror = () => fin('media error code ' + (a.error && a.error.code), 'bad');
+    a.src = AUDIO_BASE + file;
+    const p = a.play();
+    if (p && p.catch) p.catch(e => fin('REFUSED: ' + errName(e), 'bad'));
+    setTimeout(() => fin('timed out (readyState ' + a.readyState + ')', 'bad'), 3000);
+  });
+
+  // 4. the real app path, end to end.
+  const t0 = Date.now();
+  await AudioLib.speak('Tarsier');
+  const ms = Date.now() - t0;
+  row('AudioLib.speak()', ms + ' ms', ms > 300 ? 'ok' : 'bad');
+  if (ms <= 300) row('verdict', 'returned instantly = nothing played', 'bad');
+});
+</script>
+</body>
+</html>
