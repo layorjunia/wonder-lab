@@ -79,6 +79,7 @@ const load = f => { const s = fs.readFileSync(f, 'utf8')
 load('js/schema.js'); load('js/animals.js'); load('js/body.js');
 load('js/expeditions.js');
 load('js/plants.js'); load('js/earth.js'); load('js/astro.js');
+['ancient', 'america', 'world', 'micro', 'physical'].forEach(f => load('js/' + f + '.js'));
 const out = [];
 const push = (src, field, id, t) => { if (t && String(t).trim())
   out.push({ src, field, id, text: String(t) }); };
@@ -113,17 +114,19 @@ PLANTS.forEach(p => {
     push('plant', 'fact.more', p.id + '#' + i, f.more);
   });
 });
-EARTH.forEach(e => {
-  push('earth', 'fact.text',  e.id, e.text);
-  push('earth', 'fact.more',  e.id, e.more);
-  push('earth', 'fact.tryit', e.id, e.tryit);
+// Every flat topic set, walked by name from TOPIC_SETS rather than one block
+// each. A subject added to schema.js gets narrated without touching this file.
+Object.entries(TOPIC_SETS).forEach(([key, t]) => {
+  const rows = globalThis[t.data] || [];
+  rows.forEach(e => {
+    push(key, 'fact.text',  e.id, e.text);
+    push(key, 'fact.more',  e.id, e.more);
+    push(key, 'fact.tryit', e.id, e.tryit);
+  });
+  Object.values(globalThis[t.secs] || {}).forEach((s, i) =>
+    push('label', 'section', key + i, s.name));
+  push('label', 'phrase', 'tn' + key, t.name);
 });
-ASTRO.forEach(a => {
-  push('astro', 'fact.text',  a.id, a.text);
-  push('astro', 'fact.more',  a.id, a.more);
-  push('astro', 'fact.tryit', a.id, a.tryit);
-});
-Object.values(ASTRO_SECTIONS).forEach((s, i) => push('label', 'section', 'as' + i, s.name));
 EXPEDITIONS.forEach(x => {
   push('trail', 'name',  x.id, x.name);
   push('trail', 'intro', x.id, x.intro);
@@ -131,7 +134,6 @@ EXPEDITIONS.forEach(x => {
   x.stops.forEach((st, i) => push('trail', 'note', x.id + '#' + i, st.note));
 });
 Object.values(PLANT_GROUPS).forEach((g, i) => push('label', 'group', 'pg' + i, g.name));
-Object.values(EARTH_SECTIONS).forEach((s, i) => push('label', 'section', 'es' + i, s.name));
 push('label', 'kind', 'kobs', 'Observed');
 BODY.forEach((f, i) => {
   push('body', 'fact.text',  'b' + i, f.text);

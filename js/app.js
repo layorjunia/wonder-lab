@@ -62,9 +62,11 @@ const App = {
     ({ today: () => this.today(), trails: () => this.expeditions(),
        explore: () => this.explore(),
        guide: () => this.guide(), plants: () => this.plants(),
-       earth: () => this.earth(), astro: () => this.astro(),
        play: () => this.play(),
        body: () => this.body(), notes: () => this.notes() }[tab]
+      // Any TOPIC_SETS key is a valid destination — seven subjects and
+      // counting, none of which needs its own line here.
+      || (TOPIC_SETS[tab] ? () => this.topics(tab) : null)
       || (() => this.today()))();
     this.renderNav();
   },
@@ -77,7 +79,7 @@ const App = {
       ['today', '🔭', 'Today'], ['trails', '🧭', 'Trails'],
       ['explore', '📖', 'Explore'], ['play', '🎯', 'Play'], ['notes', '📓', 'Notes'],
     ];
-    const inExplore = ['explore', 'guide', 'plants', 'earth', 'body', 'astro'];
+    const inExplore = ['explore', 'guide', 'plants', 'body'].concat(Object.keys(TOPIC_SETS));
     document.getElementById('nav').innerHTML = items.map(([k, ic, label]) =>
       `<button class="${this.tab === k || (k === 'explore' && inExplore.includes(this.tab)) ? 'on' : ''}"
         onclick="App.go('${k}')">
@@ -309,38 +311,49 @@ const App = {
     const c = Progress.counts();
     const met = c.seen + c.known + c.mastered;
     const nPlants = typeof PLANTS !== 'undefined' ? PLANTS.length : 0;
-    const nEarth = typeof EARTH !== 'undefined' ? EARTH.length : 0;
-    const nAstro = typeof ASTRO !== 'undefined' ? ASTRO.length : 0;
-    const card = (tab, glyph, name, sub, tint) => `
-      <div class="kingdom" onclick="App.go('${tab}')" style="--tint:${tint}">
+    const nBody = typeof BODY !== 'undefined' ? BODY.length : 0;
+
+    // Ten subjects in one flat grid is a wall. Three families, from
+    // FAMILIES in schema.js — a subject with no data yet renders as
+    // "being written" rather than vanishing, so the shape of the app is
+    // visible before the content lands.
+    const countFor = (c) => {
+      if (c.go === 'guide') return `${ANIMALS.length} species · ${met} met`;
+      if (c.go === 'plants') return nPlants ? `${nPlants} kinds to meet` : 'being written';
+      if (c.go === 'body') return `${nBody} facts about you`;
+      const cfg = this.topicCfg(c.topic);
+      return cfg.rows.length ? `${cfg.rows.length} facts` : 'being written';
+    };
+    const cardFor = (c, tint) => {
+      const t = c.topic ? TOPIC_SETS[c.topic] : null;
+      const dest = c.topic || c.go;
+      const glyph = c.glyph || (t && t.glyph);
+      const name = c.name || (t && t.name);
+      const empty = c.topic && !this.topicCfg(c.topic).rows.length;
+      return `<div class="kingdom${empty ? ' soon' : ''}"
+          onclick="App.go('${dest}')" style="--tint:${tint}">
         <span class="k-glyph">${glyph}</span>
         <div class="k-name">${name}</div>
-        <div class="k-sub">${sub}</div>
+        <div class="k-sub">${countFor(c)}</div>
       </div>`;
-    // Four cards alone left most of a laptop screen empty, which reads as a
-    // page that failed to load. The panel below is the thing a child actually
-    // wants next — how far in they are, and a way straight back to the deck.
+    };
+
     const totalFacts = ANIMALS.reduce((n, a) => n + a.facts.length, 0)
       + (typeof PLANTS !== 'undefined' ? PLANTS.reduce((n, p) => n + p.facts.length, 0) : 0)
-      + nEarth + nAstro + (typeof BODY !== 'undefined' ? BODY.length : 0);
+      + nBody
+      + Object.keys(TOPIC_SETS).reduce((n, k) => n + this.topicCfg(k).rows.length, 0);
     const deck = Progress.p.deck || {};
     const left = Math.max(0, (deck.served || []).length - (deck.idx || 0));
     const pct = Math.round(met / Math.max(1, ANIMALS.length) * 100);
     this.el(`
       ${this.bar('Explore', this.streakChip())}
-      <div class="kingdoms">
-        ${card('guide', '🦁', 'Animals',
-               `${ANIMALS.length} species · ${met} met`, 'var(--amber)')}
-        ${card('plants', '🌳', 'Plants',
-               nPlants ? `${nPlants} kinds to meet` : 'coming soon', 'var(--lime)')}
-        ${card('earth', '🌍', 'Earth',
-               nEarth ? `${Object.keys(EARTH_SECTIONS).length} things to dig into` : 'coming soon', 'var(--cyan)')}
-        ${card('astro', '🔭', 'Astronomy',
-               nAstro ? `${Object.keys(ASTRO_SECTIONS).length} things to look at` : 'coming soon',
-               '#8fa8ff')}
-        ${card('body', '🫀', 'Your Body',
-               `${typeof BODY !== 'undefined' ? BODY.length : 0} facts about you`, 'var(--violet)')}
-      </div>
+      ${FAMILIES.map(f => `
+        <div class="family">
+          <h2 class="fam-head"><span>${f.glyph}</span>${f.name}</h2>
+          <div class="kingdoms">
+            ${f.cards.map(c => cardFor(c, f.tint)).join('')}
+          </div>
+        </div>`).join('')}
 
       <div class="card hub-trail" onclick="App.go('trails')" style="margin-top:16px">
         <div><h2>🧭 Expeditions</h2>
@@ -1027,13 +1040,20 @@ const App = {
           text: b.tryit, go: `App.body('${b.section}')` });
       });
     }
-    if (typeof EARTH !== 'undefined') {
-      EARTH.forEach(e => {
-        if (e.tryit) out.push({ key: e.id, where: 'Earth',
-          section: (EARTH_SECTIONS[e.section] || {}).name || e.section,
-          text: e.tryit, go: `App.earth('${e.section}')` });
+    // Every topic set, not a hand-written list. Earth and Body were the only
+    // two collected here, so astronomy's experiments — "find the moon in
+    // daylight", "spot Jupiter's moons with binoculars" — existed in the data
+    // and appeared nowhere in the tracker. A list of sources that has to be
+    // extended by hand is a list that will be short again next month.
+    Object.keys(TOPIC_SETS).forEach((key) => {
+      const cfg = this.topicCfg(key);
+      cfg.rows.forEach((e) => {
+        if (!e.tryit) return;
+        out.push({ key: e.id, where: cfg.title,
+          section: (cfg.secs[e.section] || {}).name || e.section,
+          text: e.tryit, go: `App.topics('${key}','${e.section}')` });
       });
-    }
+    });
     return out;
   },
 
@@ -1307,17 +1327,66 @@ const App = {
   // ── ASTRONOMY ──
   // Same shape as Earth — topic sections of standalone facts — so it runs
   // through the same renderer rather than a near-identical copy.
-  astro(sec) { return this.topics('astro', sec); },
 
   // ── EARTH ──
-  earth(sec) { return this.topics('earth', sec); },
+
+  // Driven by TOPIC_SETS, not by a branch per subject. Seven subjects share
+  // this renderer; adding an eighth is a line in schema.js.
+  topicCfg(which) {
+    const t = TOPIC_SETS[which] || TOPIC_SETS.earth;
+    const g = (n) => globalThis[n] || null;
+    return { rows: g(t.data) || [], secs: g(t.secs) || {},
+             title: t.name, glyph: t.glyph, fn: which };
+  },
+
+  // Clips are only cached once they have been heard, so a tablet taken out of
+  // wifi is silent for anything new. This downloads a whole subject's narration
+  // up front.
+  offlineRow(which, cfg) {
+    if (!cfg.rows.length) return '';
+    const texts = this.offlineTexts(which, cfg);
+    const mb = Math.round(Offline.estimate(texts) / 1048576);
+    if (Offline.has(which)) {
+      return `<div class="offline done"><span>✓</span>
+        <div><b>Downloaded</b><div class="dim small">Works with no wifi</div></div></div>`;
+    }
+    return `<div class="offline" id="off-${which}">
+      <span>⬇</span>
+      <div class="grow"><b>Download for offline</b>
+        <div class="dim small" id="off-msg">${texts.length} clips · about ${mb} MB</div></div>
+      <button class="btn" onclick="App.downloadPack('${which}')">Get it</button>
+    </div>`;
+  },
+
+  // Everything the subject can speak: each card's three fields, plus the
+  // section names and the shared "Try it now" the Listen button reads first.
+  offlineTexts(which, cfg) {
+    const t = ['Try it now'];
+    Object.values(cfg.secs).forEach(s => t.push(s.name));
+    Object.values(CATEGORIES).forEach(c => t.push(c.name));
+    Object.values(KINDS).forEach(k => t.push(k.name));
+    cfg.rows.forEach(e => { t.push(e.text); if (e.more) t.push(e.more);
+                            if (e.tryit) t.push(e.tryit); });
+    return t;
+  },
+
+  async downloadPack(which) {
+    const cfg = this.topicCfg(which);
+    const row = document.getElementById('off-' + which);
+    const msg = document.getElementById('off-msg');
+    if (row) row.classList.add('busy');
+    const r = await Offline.download(which, this.offlineTexts(which, cfg),
+      (n, total) => { if (msg) msg.textContent = `${n} of ${total} clips…`; });
+    if (row) {
+      row.className = 'offline done';
+      row.innerHTML = `<span>✓</span><div><b>Downloaded</b>
+        <div class="dim small">${r.files} clips · ${Math.round(r.bytes / 1048576)} MB ·
+        works with no wifi</div></div>`;
+    }
+  },
 
   topics(which, sec) {
-    const cfg = which === 'astro'
-      ? { rows: typeof ASTRO !== 'undefined' ? ASTRO : [], secs: ASTRO_SECTIONS,
-          title: 'Astronomy', glyph: '🔭', fn: 'astro' }
-      : { rows: typeof EARTH !== 'undefined' ? EARTH : [], secs: EARTH_SECTIONS,
-          title: 'Earth', glyph: '🌍', fn: 'earth' };
+    const cfg = this.topicCfg(which);
     this.resetSay();
     if (!cfg.rows.length) {
       return this.el(`${this.bar(cfg.title)}
@@ -1328,7 +1397,7 @@ const App = {
       const items = cfg.rows.filter(e => e.section === sec);
       const meta = cfg.secs[sec] || { name: sec, glyph: cfg.glyph };
       return this.el(`
-        <div class="bar"><button class="btn ghost" onclick="App.${cfg.fn}()">←</button>
+        <div class="bar"><button class="btn ghost" onclick="App.topics('${which}')">←</button>
           <div class="grow"></div><h2>${meta.glyph} ${meta.name}</h2></div>
         ${items.map(e => {
           const cat = CATEGORIES[e.cat] || { name: e.cat, glyph: '✨' };
@@ -1350,11 +1419,12 @@ const App = {
       <div class="bar"><button class="btn ghost" onclick="App.go('explore')">←</button>
         <h1>${cfg.title}</h1><div class="grow"></div>
         <span class="chip accent">${cfg.rows.length}</span></div>
+      ${this.offlineRow(which, cfg)}
       <div class="tiles">
         ${Object.entries(cfg.secs).map(([k, v]) => {
           const n = cfg.rows.filter(e => e.section === k).length;
           if (!n) return '';
-          return `<div class="tile" onclick="App.${cfg.fn}('${k}')">
+          return `<div class="tile" onclick="App.topics('${which}','${k}')">
             <span class="t-glyph">${v.glyph}</span>
             <div class="t-name">${v.name}</div>
             <div class="t-sub">${n} facts</div>

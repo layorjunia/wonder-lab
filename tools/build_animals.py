@@ -26,7 +26,9 @@ OUT = os.path.join(ROOT, 'js', 'animals.js')
 
 CATS = {'speed', 'size', 'senses', 'food', 'babies', 'defence', 'record',
         'weird', 'build', 'home', 'talk', 'sleep', 'travel', 'gross',
-        'teamwork', 'disguise', 'copied', 'bones', 'created', 'tryit', 'oops', 'samesame'}
+        'teamwork', 'disguise', 'copied', 'bones', 'created', 'tryit', 'oops', 'samesame',
+        # history + physical science
+        'built', 'writing', 'daily', 'artifact', 'when', 'people', 'howworks'}
 # How the claim is known. Optional for now — the living-animal entries predate
 # it — but required on every dinosaur fact, where almost nothing is direct
 # observation and prose alone lets a model borrow the authority of a bone.

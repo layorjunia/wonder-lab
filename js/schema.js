@@ -145,6 +145,19 @@ const CATEGORIES = {
      category so the two are never blurred together. */
   bones:    { name: 'What We Dug Up',  glyph: '🦴' },
   created:  { name: 'Made In The Beginning', glyph: '🌍' },
+
+  /* History and physical science. "Speed" and "Babies" describe an animal;
+     they do not describe a stele or a lever. `artifact` is the most useful one
+     in the whole set for history — the thing is still there and a child could
+     go and stand in front of it, which is the difference between a fact and a
+     story about a fact. */
+  built:    { name: 'What They Built',  glyph: '🏗️' },
+  writing:  { name: 'Words & Writing',  glyph: '✍️' },
+  daily:    { name: 'Everyday Life',    glyph: '🏠' },
+  artifact: { name: 'You Can Go See It', glyph: '🏛️' },
+  when:     { name: 'When It Happened', glyph: '📅' },
+  people:   { name: 'The People',       glyph: '👥' },
+  howworks: { name: 'How It Works',     glyph: '⚙️' },
 };
 
 // Comparable stats, so "compare two animals" works for any pair.
@@ -187,3 +200,110 @@ const GAME_PHRASES = {
   taller:  'Which is taller?',
   lives:   'Which lives longer?',
 };
+
+/* ── The five new subjects ──────────────────────────────────────────────
+   Same flat shape as EARTH and ASTRO: {id, section, cat, kind, text, more,
+   tryit}. They render through App.topics(), which is driven by TOPIC_SETS
+   below rather than by a branch per subject. */
+
+const PHYSICAL_SECTIONS = {
+  forces:   { name: 'Forces & Motion',  glyph: '🏃' },
+  energy:   { name: 'Energy',           glyph: '⚡' },
+  light:    { name: 'Light & Colour',   glyph: '🌈' },
+  sound:    { name: 'Sound',            glyph: '🔊' },
+  heat:     { name: 'Heat & Cold',      glyph: '🔥' },
+  electric: { name: 'Electricity',      glyph: '💡' },
+  magnets:  { name: 'Magnets',          glyph: '🧲' },
+  matter:   { name: 'States of Matter', glyph: '🧊' },
+};
+
+const MICRO_SECTIONS = {
+  cell:     { name: 'Inside a Cell',    glyph: '🔵' },
+  bacteria: { name: 'Bacteria',         glyph: '🦠' },
+  virus:    { name: 'Viruses',          glyph: '🧬' },
+  fungi:    { name: 'Moulds & Yeasts',  glyph: '🍄' },
+  pond:     { name: 'Pond Water',       glyph: '💧' },
+  helpers:  { name: 'Helpful Microbes', glyph: '🥛' },
+  clean:    { name: 'Staying Well',     glyph: '🧼' },
+  scope:    { name: 'The Microscope',   glyph: '🔬' },
+};
+
+/* Ancient history runs on the Bible's own timeline. See
+   .work/BRIEF-ancient.md — the short version is that BOTH chronologies are
+   marked: Scripture states reign-lengths and genealogies (`record`), a YEAR
+   comes from adding them up (`worked`), and the conventional date sits beside
+   it with its own method named (`worked`). Marking one and not the other is
+   the exact failure this app exists to correct. */
+const ANCIENT_SECTIONS = {
+  beginning: { name: 'The Beginning',     glyph: '🌍' },
+  flood:     { name: 'Flood & Babel',     glyph: '🌊' },
+  egypt:     { name: 'Egypt',             glyph: '🏺' },
+  mesopot:   { name: 'Mesopotamia',       glyph: '🧱' },
+  israel:    { name: 'Israel',            glyph: '🕎' },
+  greece:    { name: 'Greece',            glyph: '🏛️' },
+  rome:      { name: 'Rome',              glyph: '🦅' },
+  howknow:   { name: 'How We Know',       glyph: '📜' },
+};
+
+const AMERICA_SECTIONS = {
+  explorers: { name: 'Explorers',         glyph: '🧭' },
+  colonies:  { name: 'The Colonies',      glyph: '⛵' },
+  founding:  { name: 'A New Country',     glyph: '📜' },
+  inventors: { name: 'Inventors',         glyph: '💡' },
+  frontier:  { name: 'Heading West',      glyph: '🐎' },
+  machines:  { name: 'Rails & Machines',  glyph: '🚂' },
+  flight:    { name: 'Flight',            glyph: '✈️' },
+  everyday:  { name: 'Everyday Life',     glyph: '🏠' },
+};
+
+const WORLD_SECTIONS = {
+  middle:    { name: 'The Middle Ages',   glyph: '🏰' },
+  voyages:   { name: 'Great Voyages',     glyph: '🗺️' },
+  printing:  { name: 'Printing & Books',  glyph: '📖' },
+  discovery: { name: 'Age of Discovery',  glyph: '🔭' },
+  builders:  { name: 'Great Builders',    glyph: '🏗️' },
+  faroff:    { name: 'Far-Off Kingdoms',  glyph: '🐘' },
+  medicine:  { name: 'Medicine',          glyph: '💊' },
+  modern:    { name: 'The Modern World',  glyph: '🌐' },
+};
+
+/* One registry, so adding a subject is a data change. `data` and `secs` are
+   the NAMES of globals rather than the globals themselves: schema.js loads
+   before every data file, so the values do not exist yet at this point. */
+const TOPIC_SETS = {
+  earth:    { name: 'Earth',            glyph: '🌍', data: 'EARTH',    secs: 'EARTH_SECTIONS' },
+  astro:    { name: 'Astronomy',        glyph: '🔭', data: 'ASTRO',    secs: 'ASTRO_SECTIONS' },
+  physical: { name: 'Physical Science', glyph: '🧲', data: 'PHYSICAL', secs: 'PHYSICAL_SECTIONS' },
+  micro:    { name: 'Microbiology',     glyph: '🦠', data: 'MICRO',    secs: 'MICRO_SECTIONS' },
+  ancient:  { name: 'Ancient History',  glyph: '🏺', data: 'ANCIENT',  secs: 'ANCIENT_SECTIONS' },
+  america:  { name: 'American History', glyph: '🦅', data: 'AMERICA',  secs: 'AMERICA_SECTIONS' },
+  world:    { name: 'World History',    glyph: '🌐', data: 'WORLD',    secs: 'WORLD_SECTIONS' },
+};
+
+/* Ten destinations is too many for one flat grid. Three families, in the order
+   a child actually asks about them. `go` is an App method; `topic` is a key in
+   TOPIC_SETS. */
+const FAMILIES = [
+  { name: 'Living Things', glyph: '🌿', tint: '#9ee85f', cards: [
+    { go: 'guide',  name: 'Animals',   glyph: '🦁' },
+    { go: 'plants', name: 'Plants',    glyph: '🌻' },
+    { topic: 'micro' },
+    { go: 'body',   name: 'Your Body', glyph: '🫀' },
+  ] },
+  { name: 'Earth & Sky', glyph: '🌍', tint: '#4fd6e8', cards: [
+    { topic: 'earth' }, { topic: 'astro' }, { topic: 'physical' },
+  ] },
+  { name: 'History', glyph: '📜', tint: '#ffc94a', cards: [
+    { topic: 'ancient' }, { topic: 'america' }, { topic: 'world' },
+  ] },
+];
+
+/* Same reason as the generated data files: these are `const`, so they are not
+   on globalThis unless we put them there, and TOPIC_SETS looks them up by
+   name. Miss one and its subject renders as "being written" forever with no
+   error anywhere. */
+[['EARTH_SECTIONS', EARTH_SECTIONS], ['ASTRO_SECTIONS', ASTRO_SECTIONS],
+ ['PHYSICAL_SECTIONS', PHYSICAL_SECTIONS], ['MICRO_SECTIONS', MICRO_SECTIONS],
+ ['ANCIENT_SECTIONS', ANCIENT_SECTIONS], ['AMERICA_SECTIONS', AMERICA_SECTIONS],
+ ['WORLD_SECTIONS', WORLD_SECTIONS], ['BODY_SECTIONS', BODY_SECTIONS],
+].forEach(([n, v]) => { globalThis[n] = v; });

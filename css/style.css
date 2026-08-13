@@ -597,3 +597,30 @@ h3 { font-size: 1.02rem; font-weight: 700; }
 @media (min-width: 1500px) {
   #app { max-width: 1320px; }
 }
+
+/* ── Explore families ── */
+/* Ten subjects in one grid is a wall of tiles. Grouping them costs a heading
+   each and turns the hub into something a child can scan. */
+.family { margin-top: 20px; }
+.family:first-of-type { margin-top: 8px; }
+.fam-head {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 1.02rem; letter-spacing: .01em; margin-bottom: 10px;
+  color: var(--dim);
+}
+.fam-head span { font-size: 1.15rem; }
+/* A subject with no content yet still shows, so the shape of the app is
+   visible while it is being written — but it must not look ready. */
+.kingdom.soon { opacity: .5; }
+
+/* ── Offline packs ── */
+.offline {
+  display: flex; align-items: center; gap: 12px;
+  background: var(--ink-2); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 13px 15px; margin-bottom: 14px;
+}
+.offline > span { font-size: 1.3rem; }
+.offline .grow { flex: 1; }
+.offline.done { border-color: var(--lime-dark); }
+.offline.done > span { color: var(--lime); }
+.offline.busy { opacity: .7; pointer-events: none; }

@@ -303,4 +303,77 @@ const Sfx = {
   }
 };
 
+// ── Offline packs ────────────────────────────────────────────────────────
+// A tablet in a car has no signal, and clips are only cached once they have
+// been heard. This walks a subject's clips and asks the service-worker cache
+// to hold them, so a downloaded section works with the wifi off.
+//
+// It talks to caches directly rather than to the worker: the worker's own
+// fetch handler already caches whatever goes through it, so simply fetching
+// each clip in cors mode fills the same cache under the same key.
+const Offline = {
+  KEY: 'wonderlab:offline',
+  // A cache of its own, and deliberately NOT the versioned one. The service
+  // worker's cache name carries the build id and its activate step deletes
+  // every other cache, so a pack stored there would be wiped by the next
+  // deploy and the child would re-download the lot. This name never changes
+  // and sw.js is told to leave it alone.
+  CACHE: 'wonderlab-offline',
+
+  done() { try { return JSON.parse(localStorage.getItem(this.KEY)) || {}; }
+           catch (e) { return {}; } },
+
+  mark(id, bytes) {
+    const d = this.done(); d[id] = bytes;
+    localStorage.setItem(this.KEY, JSON.stringify(d));
+  },
+
+  has(id) { return !!this.done()[id]; },
+
+  // Every distinct clip a set of strings resolves to. Deduplicated, because
+  // section names and "Try it now" repeat on every card in the section.
+  filesFor(texts) {
+    const out = new Set();
+    texts.forEach((t) => { const f = AudioLib.fileFor(t); if (f) out.add(f); });
+    return [...out];
+  },
+
+  async download(id, texts, onProgress) {
+    const files = this.filesFor(texts);
+    if (!files.length) return { files: 0, bytes: 0 };
+    let bytes = 0, n = 0;
+    let cache = null;
+    try { cache = await caches.open(this.CACHE); } catch (e) { /* no storage */ }
+    if (!cache) return { files: 0, bytes: 0, failed: true };
+    // Six at a time. Serial is slow enough on a phone to look broken; all at
+    // once makes a few hundred simultaneous requests and Safari starts
+    // dropping them.
+    const queue = files.slice();
+    const worker = async () => {
+      while (queue.length) {
+        const f = queue.shift();
+        try {
+          const url = AUDIO_BASE + f;
+          const r = await fetch(url, { mode: 'cors', credentials: 'omit' });
+          // Write it ourselves. Relying on the worker's fetch handler to cache
+          // it as a side effect meant that with no worker registered — a first
+          // visit, or a browser where registration failed — the download
+          // reported success and stored nothing at all.
+          if (r.ok && r.status === 200 && cache) await cache.put(url, r.clone());
+          if (r.ok) bytes += (+r.headers.get('content-length') || 0);
+        } catch (e) { /* one missed clip is not a failed download */ }
+        n++;
+        if (onProgress) onProgress(n, files.length);
+      }
+    };
+    await Promise.all(Array.from({ length: 6 }, worker));
+    this.mark(id, bytes);
+    return { files: files.length, bytes };
+  },
+
+  // What a pack will cost, before committing to it. Estimated from the
+  // measured average rather than by asking the server 340 times.
+  estimate(texts) { return this.filesFor(texts).length * 43000; },
+};
+
 AudioLib.init();
