@@ -250,6 +250,15 @@ def main():
     ap.add_argument('--workers', type=int, default=6)
     ap.add_argument('--limit', type=int, default=0, help='render only the first N (smoke test)')
     ap.add_argument('--no-energy', action='store_true', help='skip the energy gate')
+    # ── sharding ──
+    # The onnx session is not thread-safe, so tts_engines holds a lock around
+    # synthesis: --workers only ever parallelised the afconvert encoding, and
+    # the actual voice generation ran single-threaded on a 14-core machine.
+    # A shard renders its slice in its own PROCESS, with its own model, and
+    # exits before touching the manifest. Run N of them, then one plain pass to
+    # write the manifest and prune.
+    ap.add_argument('--shards', type=int, default=1)
+    ap.add_argument('--shard', type=int, default=0)
     args = ap.parse_args()
 
     try:
@@ -282,7 +291,12 @@ def main():
         if not os.path.exists(out):
             jobs[out] = spoken            # dedupe by output path, not by index
 
-    print(f'{len(jobs)} to render ({len(items) - len(jobs)} already on disk)')
+    if args.shards > 1:
+        keys = sorted(jobs)
+        jobs = {k: jobs[k] for i, k in enumerate(keys) if i % args.shards == args.shard}
+        print(f'shard {args.shard}/{args.shards}: {len(jobs)} clips')
+    else:
+        print(f'{len(jobs)} to render ({len(items) - len(jobs)} already on disk)')
     fails = []
     if jobs:
         def render(item):
@@ -298,6 +312,13 @@ def main():
                 done += 1
                 if done % 200 == 0:
                     print(f'  {done}/{len(jobs)}')
+
+    if args.shards > 1:
+        # A shard never writes the manifest or prunes — two processes doing
+        # either would race, and a prune mid-run would delete the clips the
+        # other shards have not caught up to yet.
+        print(f'shard {args.shard} done, {len(fails)} failure(s)')
+        return 1 if fails else 0
 
     with open(MANIFEST, 'w', encoding='utf-8') as f:
         json.dump(manifest, f, separators=(',', ':'), ensure_ascii=False)

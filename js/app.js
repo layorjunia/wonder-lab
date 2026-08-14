@@ -97,6 +97,8 @@ const App = {
     play:    '<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4"/>'
              + '<circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/>',
     notes:   '<path d="M6 3h9l4 4v14H6z"/><path d="M15 3v4h4"/><path d="M9.5 12h6M9.5 16h4"/>',
+    down:    '<path d="M12 4v12"/><path d="M7 11.5 12 16.5 17 11.5"/><path d="M5 20h14"/>',
+    check:   '<path d="M4.5 12.5 9.5 17.5 19.5 6.5"/>',
   },
 
   icon(name) {
@@ -267,7 +269,7 @@ const App = {
       ${this.bar('Today', `${this.streakChip()}<span class="chip">${deck.idx + 1} / ${deck.served.length}</span>`)}
       <div class="fact-deck">
         <div class="fact-card">
-          <div class="fact-photo">
+          <div class="fact-photo" style="background-image:url('${this.pic(a)}')">
             <span class="fact-tag">${cat.glyph} ${cat.name}</span>
             ${this.kindTag(f, a.group === 'dinosaurs')}
             <img src="${this.pic(a)}" alt="${a.name}" loading="eager"
@@ -276,7 +278,8 @@ const App = {
           </div>
           <div class="fact-body">
             <div class="fact-text">${f.text}</div>
-            ${f.more ? `<div class="fact-more">${f.more}</div>` : ''}
+            ${f.more ? `<details class="tellmore"><summary>Tell me more</summary>
+              <div class="fact-more">${f.more}</div></details>` : ''}
             ${a.wonder && +fi === 0 ? `<div class="wonder">${a.wonder}</div>` : ''}
             <div class="fact-actions">
               ${this.listenBtn(a.name, cat.name, f.text, f.more)}
@@ -1399,14 +1402,14 @@ const App = {
   // download or a slow connection.
   offlineAll() {
     if (Offline.has('all')) {
-      return `<div class="offline done"><span>✓</span>
+      return `<div class="offline done">${this.icon('check')}
         <div><b>Everything downloaded</b>
         <div class="dim small">The whole app works with no wifi</div></div></div>`;
     }
     const texts = Offline.allTexts();
     const mb = Math.round(Offline.estimate(texts) / 1048576);
     return `<div class="offline" id="off-all">
-      <span>⬇</span>
+      ${this.icon('down')}
       <div class="grow"><b>Download the whole app</b>
         <div class="dim small" id="off-msg">Every subject · about ${mb} MB ·
           then it works with no wifi</div></div>
@@ -1426,7 +1429,7 @@ const App = {
     Object.keys(TOPIC_SETS).forEach(k => Offline.mark(k, 0));
     if (row) {
       row.className = 'offline done';
-      row.innerHTML = `<span>✓</span><div><b>Everything downloaded</b>
+      row.innerHTML = `${this.icon('check')}<div><b>Everything downloaded</b>
         <div class="dim small">${r.files} clips · ${Math.round(r.bytes / 1048576)} MB ·
         works with no wifi</div></div>`;
     }
@@ -1440,11 +1443,11 @@ const App = {
     const texts = this.offlineTexts(which, cfg);
     const mb = Math.round(Offline.estimate(texts) / 1048576);
     if (Offline.has(which) || Offline.has('all')) {
-      return `<div class="offline done"><span>✓</span>
+      return `<div class="offline done">${this.icon('check')}
         <div><b>Downloaded</b><div class="dim small">Works with no wifi</div></div></div>`;
     }
     return `<div class="offline" id="off-${which}">
-      <span>⬇</span>
+      ${this.icon('down')}
       <div class="grow"><b>Download for offline</b>
         <div class="dim small" id="off-msg">${texts.length} clips · about ${mb} MB</div></div>
       <button class="btn" onclick="App.downloadPack('${which}')">Get it</button>
@@ -1472,7 +1475,7 @@ const App = {
       (n, total) => { if (msg) msg.textContent = `${n} of ${total} clips…`; });
     if (row) {
       row.className = 'offline done';
-      row.innerHTML = `<span>✓</span><div><b>Downloaded</b>
+      row.innerHTML = `${this.icon('check')}<div><b>Downloaded</b>
         <div class="dim small">${r.files} clips · ${Math.round(r.bytes / 1048576)} MB ·
         works with no wifi</div></div>`;
     }

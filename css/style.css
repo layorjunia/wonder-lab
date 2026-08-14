@@ -7,6 +7,14 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
+/* A <button> does not inherit colour. The UA sheet sets `color: buttontext`,
+   which is BLACK — so every button-shaped control that did not name a colour
+   of its own was rendering black text on a dark slate chip at a contrast
+   ratio of 1.46:1. That is the unreadable field-guide filter row, and it had
+   been there since long before any of the styling work. Anything that needs
+   dark-on-light (.btn on lime) states it explicitly further down. */
+button, input, select, textarea { color: inherit; font: inherit; }
+
 :root {
   /* ── Surfaces. Four levels, not one, so a card can sit ON something. ── */
   --ink:        #0d1621;   /* page */
@@ -180,9 +188,27 @@ h3 { font-weight: 700; font-size: var(--fs-md); }
   aspect-ratio: 16 / 10;
   /* cap the hero so the fact text is always visible without scrolling —
      the photo is the hook, but the sentence is the point */
-  max-height: min(46vh, 340px);
+  max-height: min(42vh, 320px);
+  /* `cover` on a 16:10 box crops whatever does not fit, which cut the top of
+     the beaver's head clean off. On a field-guide card the shape of the
+     animal IS the information, so the photo is CONTAINED and a blurred copy
+     of itself fills the letterbox. The species page already worked this way;
+     the daily deck did not. */
+  background-size: cover; background-position: center;
 }
-.fact-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.fact-photo::before {
+  content: ''; position: absolute; inset: 0; z-index: 0;
+  background: rgba(11,18,26,.5);
+  -webkit-backdrop-filter: blur(28px) brightness(.4) saturate(.7);
+  backdrop-filter: blur(28px) brightness(.4) saturate(.7);
+}
+@supports not (backdrop-filter: blur(2px)) {
+  .fact-photo::before { background: rgba(11,18,26,.86); }
+}
+.fact-photo img {
+  position: relative; z-index: 1;
+  width: 100%; height: 100%; object-fit: contain; display: block;
+}
 
 /* Species profile hero. `cover` crops to the box, which beheaded giraffes and
    sliced the tail off anything long — on a field-guide page the shape of the
@@ -719,10 +745,12 @@ h3 { font-weight: 700; font-size: var(--fs-md); }
   background: var(--ink-2); border: 1px solid var(--line);
   border-radius: var(--radius); padding: 13px 15px; margin-bottom: 14px;
 }
-.offline > span { font-size: 1.3rem; }
+.offline > .n-ic { width: 24px; height: 24px; flex: 0 0 24px; color: var(--text-dim); }
+.offline > .n-ic svg { width: 100%; height: 100%; fill: none; stroke: currentColor;
+  stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .offline .grow { flex: 1; }
 .offline.done { border-color: var(--lime-dark); }
-.offline.done > span { color: var(--lime); }
+.offline.done > .n-ic { color: var(--lime); }
 .offline.busy { opacity: .7; pointer-events: none; }
 
 
@@ -796,3 +824,22 @@ h3 { font-weight: 700; font-size: var(--fs-md); }
    row of content. The padding above reserves its height; this stops the very
    last element tucking under it on screens that do not scroll at all. */
 .screen > *:last-child { margin-bottom: 8px; }
+
+/* ── "Tell me more" ──
+   The deeper paragraph used to sit open under every fact, so one card ran
+   three screens on a phone and the buttons were always below the fold. The
+   fact is the card; the detail is a choice. */
+.tellmore { margin-top: 14px; }
+.tellmore > summary {
+  list-style: none; cursor: pointer; display: inline-flex; align-items: center;
+  gap: 7px; padding: 8px 15px; border-radius: 999px;
+  background: var(--ink-3); border: 1px solid var(--line-2);
+  color: var(--text-2); font-size: var(--fs-small); font-weight: 600;
+}
+.tellmore > summary::-webkit-details-marker { display: none; }
+.tellmore > summary::after {
+  content: '+'; font-size: 1.05rem; line-height: 1; color: var(--text-dim);
+}
+.tellmore[open] > summary::after { content: '–'; }
+.tellmore > summary:active { background: var(--ink-4); }
+.tellmore .fact-more { margin-top: 12px; }
