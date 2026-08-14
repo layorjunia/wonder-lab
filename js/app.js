@@ -76,14 +76,32 @@ const App = {
     // is seven destinations — too many for a thumb-sized bar. Explore is a hub
     // over the four; the bar stays at four items and has room to grow.
     const items = [
-      ['today', '🔭', 'Today'], ['trails', '🧭', 'Trails'],
-      ['explore', '📖', 'Explore'], ['play', '🎯', 'Play'], ['notes', '📓', 'Notes'],
+      ['today', 'Today'], ['trails', 'Trails'],
+      ['explore', 'Explore'], ['play', 'Play'], ['notes', 'Notes'],
     ];
     const inExplore = ['explore', 'guide', 'plants', 'body'].concat(Object.keys(TOPIC_SETS));
-    document.getElementById('nav').innerHTML = items.map(([k, ic, label]) =>
+    document.getElementById('nav').innerHTML = items.map(([k, label]) =>
       `<button class="${this.tab === k || (k === 'explore' && inExplore.includes(this.tab)) ? 'on' : ''}"
-        onclick="App.go('${k}')">
-        <span class="n-ic">${ic}</span>${label}</button>`).join('');
+        onclick="App.go('${k}')" aria-label="${label}">
+        ${this.icon(k)}${label}</button>`).join('');
+  },
+
+
+  // Drawn, not typed. Five icons is a small enough set to hand-draw and it is
+  // the most-looked-at furniture in the app.
+  ICON: {
+    today:   '<path d="M3 12h3l2.5-7 4 14L15 9l2 3h4"/>',
+    trails:  '<circle cx="12" cy="12" r="9"/><path d="M15.5 8.5 10 10l-1.5 5.5L14 14z"/>',
+    explore: '<path d="M4 5.5A2 2 0 0 1 6 4h5v16H6a2 2 0 0 0-2 2z"/>'
+             + '<path d="M20 5.5A2 2 0 0 0 18 4h-5v16h5a2 2 0 0 1 2 2z"/>',
+    play:    '<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4"/>'
+             + '<circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/>',
+    notes:   '<path d="M6 3h9l4 4v14H6z"/><path d="M15 3v4h4"/><path d="M9.5 12h6M9.5 16h4"/>',
+  },
+
+  icon(name) {
+    return `<span class="n-ic"><svg viewBox="0 0 24 24" aria-hidden="true">`
+         + (this.ICON[name] || '') + `</svg></span>`;
   },
 
   // ── Listen buttons ──
@@ -330,10 +348,12 @@ const App = {
       const glyph = c.glyph || (t && t.glyph);
       const name = c.name || (t && t.name);
       const empty = c.topic && !this.topicCfg(c.topic).rows.length;
-      return `<div class="kingdom${empty ? ' soon' : ''}"
-          onclick="App.go('${dest}')" style="--tint:${tint}">
+      const pat = c.pat || (t && t.pat) || 'leaf';
+      // colour drives the texture too — currentColor inside ::after
+      return `<div class="kingdom pat-${pat}${empty ? ' soon' : ''}"
+          onclick="App.go('${dest}')" style="--tint:${tint};color:${tint}">
         <span class="k-glyph">${glyph}</span>
-        <div class="k-name">${name}</div>
+        <div class="k-name" style="color:var(--text)">${name}</div>
         <div class="k-sub">${countFor(c)}</div>
       </div>`;
     };
@@ -345,12 +365,46 @@ const App = {
     const deck = Progress.p.deck || {};
     const left = Math.max(0, (deck.served || []).length - (deck.idx || 0));
     const pct = Math.round(met / Math.max(1, ANIMALS.length) * 100);
+    const tried = Object.keys(Progress.p.tried || {}).length;
+    // A photograph, not a coloured rectangle. There are 322 licensed images
+    // here and the front door was using none of them. Curated rather than
+    // random: rotating through all 210 lands on a lot of pale cave newts, and
+    // the first thing she sees each day should be worth seeing.
+    const HERO = ['red-eyed-tree-frog', 'snowy-owl', 'cheetah', 'giraffe', 'orca',
+                  'poison-dart-frog', 'lion', 'emperor-penguin', 'monarch-butterfly',
+                  'tarsier', 'clownfish', 'sea-otter', 'arctic-fox', 'toucan',
+                  'flamingo', 'humpback-whale', 'peacock'];
+    const heroA = this.find(HERO[Math.floor(Date.now() / 864e5) % HERO.length]);
+    const heroPic = heroA ? this.pic(heroA) : this.pic(ANIMALS[0]);
     this.el(`
-      ${this.bar('Explore', this.streakChip())}
+      <div class="hero">
+        <img class="hero-bg" src="${heroPic}" alt="" aria-hidden="true"
+             onerror="this.style.display='none'">
+        <div class="hero-body">
+          <div class="hero-eyebrow">A field guide to almost everything</div>
+          <h1 class="hero-title">Wonder Lab</h1>
+          <p class="hero-sub">${totalFacts.toLocaleString()} true things, in ten subjects.
+            Every one of them says how anybody knows.</p>
+          <div class="hero-acts">
+            <button class="btn" onclick="App.go('today')">
+              ${left ? `Keep going · ${left} left` : "Today's deck"}</button>
+            <button class="btn ghost" onclick="App.go('trails')">Walk a trail</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="rule">The ledger</div>
+      <div class="ledger">
+        <div><b>${met}</b><span>Species met</span></div>
+        <div><b>${tried}</b><span>Things tried</span></div>
+        <div><b>${Progress.p.whoa.length}</b><span>Saved</span></div>
+        <div><b>${Progress.p.dayStreak || 0}</b><span>Day streak</span></div>
+      </div>
+
       ${this.offlineAll()}
       ${FAMILIES.map(f => `
         <div class="family">
-          <h2 class="fam-head"><span>${f.glyph}</span>${f.name}</h2>
+          <h2 class="rule">${f.name}</h2>
           <div class="kingdoms">
             ${f.cards.map(c => cardFor(c, f.tint)).join('')}
           </div>

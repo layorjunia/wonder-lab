@@ -270,13 +270,13 @@ const WORLD_SECTIONS = {
    the NAMES of globals rather than the globals themselves: schema.js loads
    before every data file, so the values do not exist yet at this point. */
 const TOPIC_SETS = {
-  earth:    { name: 'Earth',            glyph: '🌍', data: 'EARTH',    secs: 'EARTH_SECTIONS' },
-  astro:    { name: 'Astronomy',        glyph: '🔭', data: 'ASTRO',    secs: 'ASTRO_SECTIONS' },
-  physical: { name: 'Physical Science', glyph: '🧲', data: 'PHYSICAL', secs: 'PHYSICAL_SECTIONS' },
-  micro:    { name: 'Microbiology',     glyph: '🦠', data: 'MICRO',    secs: 'MICRO_SECTIONS' },
-  ancient:  { name: 'Ancient History',  glyph: '🏺', data: 'ANCIENT',  secs: 'ANCIENT_SECTIONS' },
-  america:  { name: 'American History', glyph: '🦅', data: 'AMERICA',  secs: 'AMERICA_SECTIONS' },
-  world:    { name: 'World History',    glyph: '🌐', data: 'WORLD',    secs: 'WORLD_SECTIONS' },
+  earth:    { name: 'Earth',            glyph: '🌍', pat: 'topo',   data: 'EARTH',    secs: 'EARTH_SECTIONS' },
+  astro:    { name: 'Astronomy',        glyph: '🔭', pat: 'star',   data: 'ASTRO',    secs: 'ASTRO_SECTIONS' },
+  physical: { name: 'Physical Science', glyph: '🧲', pat: 'wave',   data: 'PHYSICAL', secs: 'PHYSICAL_SECTIONS' },
+  micro:    { name: 'Microbiology',     glyph: '🦠', pat: 'cell',   data: 'MICRO',    secs: 'MICRO_SECTIONS' },
+  ancient:  { name: 'Ancient History',  glyph: '🏺', pat: 'brick',  data: 'ANCIENT',  secs: 'ANCIENT_SECTIONS' },
+  america:  { name: 'American History', glyph: '🦅', pat: 'scroll', data: 'AMERICA',  secs: 'AMERICA_SECTIONS' },
+  world:    { name: 'World History',    glyph: '🌐', pat: 'star2',  data: 'WORLD',    secs: 'WORLD_SECTIONS' },
 };
 
 /* Ten destinations is too many for one flat grid. Three families, in the order
@@ -284,10 +284,10 @@ const TOPIC_SETS = {
    TOPIC_SETS. */
 const FAMILIES = [
   { name: 'Living Things', glyph: '🌿', tint: '#9ee85f', cards: [
-    { go: 'guide',  name: 'Animals',   glyph: '🦁' },
-    { go: 'plants', name: 'Plants',    glyph: '🌻' },
+    { go: 'guide',  name: 'Animals',   glyph: '🦁', pat: 'fur' },
+    { go: 'plants', name: 'Plants',    glyph: '🌻', pat: 'leaf' },
     { topic: 'micro' },
-    { go: 'body',   name: 'Your Body', glyph: '🫀' },
+    { go: 'body',   name: 'Your Body', glyph: '🫀', pat: 'pulse' },
   ] },
   { name: 'Earth & Sky', glyph: '🌍', tint: '#4fd6e8', cards: [
     { topic: 'earth' }, { topic: 'astro' }, { topic: 'physical' },

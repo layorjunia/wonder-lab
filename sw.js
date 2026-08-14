@@ -3,9 +3,13 @@
 // Downloaded offline packs live here, unversioned, and survive every deploy.
 // caches.match() below searches every cache, so nothing else has to know.
 const OFFLINE_CACHE = 'wonderlab-offline';
-const CACHE = 'wonderlab-20260813-1850-c620f05';
+const CACHE = 'wonderlab-20260813-1945-a838df2';
 const SHELL = [
   '.', 'index.html', 'css/style.css', 'manifest.json',
+  'css/fonts.css',
+  // Self-hosted so the app has a voice offline too. ~380 KB, once.
+  'fonts/Fraunces-600-latin.woff2', 'fonts/Fraunces-700-latin.woff2',
+  'fonts/Inter-latin-1ab1ad55.woff2',
   'js/schema.js', 'js/store.js', 'js/audio.js', 'js/app.js',
   'js/sync.js', 'js/firebase-config.js', 'js/expeditions.js',
   // Every data file. Only animals and body were listed, so an offline
