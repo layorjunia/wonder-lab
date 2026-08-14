@@ -265,7 +265,7 @@ const App = {
     const a = ANIMALS.find(x => x.id === aid);
     if (!a) { deck.idx++; return this.today(); }
     const f = a.facts[+fi];
-    Progress.markSeen(a.id);
+    const isNew = Progress.markSeen(a.id);
 
     const cat = CATEGORIES[f.cat] || { name: f.cat, glyph: '✨' };
     const whoa = Progress.isWhoa(a.id, +fi);
@@ -295,6 +295,38 @@ const App = {
           </div>
         </div>
       </div>`);
+    if (isNew) this.newSpecimen(a);
+  },
+
+  // ══ THE REVEAL ══════════════════════════════════════════════════════════
+  // Meeting a creature for the first time used to be silent — the card simply
+  // appeared in the passport later and she would never know it happened. This
+  // is the moment the card is issued: it flies in, the stamp comes down, and
+  // she gets one line about the animal.
+  newSpecimen(a) {
+    const wrap = document.createElement('div');
+    wrap.className = 'reveal';
+    wrap.innerHTML = `
+      <div class="reveal-scrim"></div>
+      <div class="reveal-card">
+        <div class="rv-kicker">New specimen</div>
+        <div class="rv-photo"><img src="${this.pic(a)}" alt="" onerror="this.style.opacity=0"></div>
+        <div class="rv-stamp">${this.icon('stamp')}</div>
+        <h2 class="rv-name">${a.name}</h2>
+        <p class="rv-line">${a.blurb || ''}</p>
+        <div class="rv-foot">Added to your passport</div>
+      </div>`;
+    document.body.appendChild(wrap);
+    // force the start styles to commit before the class flips — rAF is
+    // throttled in a background tab and the animation would never begin
+    void wrap.offsetWidth;
+    wrap.classList.add('in');
+    const close = () => {
+      wrap.classList.remove('in');
+      setTimeout(() => wrap.remove(), 320);
+    };
+    wrap.addEventListener('click', close);
+    setTimeout(close, 3400);
   },
 
   whoa(i) {
@@ -512,9 +544,8 @@ const App = {
     const doneEx = stations.reduce((n, s2) => n + s2.done, 0);
     this.el(`
       <div class="pp-head">
-        <div class="pp-crest" style="background:linear-gradient(150deg,var(--cyan),#2a9fb5);
-             box-shadow:0 0 28px rgba(86,221,240,.28)">⚗️</div>
-        <div><div class="pp-kicker" style="color:var(--cyan)">The lab</div>
+        <div class="pp-crest lab-crest">⚗️</div>
+        <div><div class="pp-kicker lab-kick">The lab</div>
           <h1 class="pp-title">${doneEx} <span>of ${totalEx} experiments done</span></h1></div>
       </div>
       <div class="pp-meter"><span style="width:${Math.round(doneEx / Math.max(1, totalEx) * 100)}%"></span></div>
@@ -536,39 +567,73 @@ const App = {
   // A map of places with a path drawn between them, instead of a tile grid.
   expeditionMap() {
     this.resetSay();
+    const seen = new Set(Progress.p.stops || []);
     const legs = [];
     WINGS.expedition.sources.forEach(({ topic }) => {
       const cfg = this.topicCfg(topic);
       if (!cfg.rows.length) return;
-      legs.push({ topic, name: cfg.name,
+      legs.push({ topic, name: cfg.title, glyph: cfg.glyph,
         stops: Object.entries(cfg.secs)
           .map(([sk, sv]) => ({ sk, name: sv.name, glyph: sv.glyph,
             n: cfg.rows.filter(e => e.section === sk).length }))
           .filter(x => x.n) });
     });
-    const seen = new Set(Progress.p.stops || []);
+    const visited = legs.reduce((n, l) =>
+      n + l.stops.filter(s2 => seen.has(l.topic + ':' + s2.sk)).length, 0);
+    const total = legs.reduce((n, l) => n + l.stops.length, 0);
+
     this.el(`
       <div class="pp-head">
-        <div class="pp-crest" style="background:linear-gradient(150deg,var(--amber),#c98c1e);
-             box-shadow:0 0 28px rgba(255,201,74,.26)">🧭</div>
-        <div><div class="pp-kicker" style="color:var(--amber)">The expedition</div>
-          <h1 class="pp-title">${seen.size} <span>places visited</span></h1></div>
+        <div class="pp-crest map-crest">🧭</div>
+        <div><div class="pp-kicker map-kick">The expedition</div>
+          <h1 class="pp-title">${visited} <span>of ${total} places visited</span></h1></div>
       </div>
-      ${legs.map(leg => `
-        <div class="rule">${leg.name}</div>
-        <div class="trailmap">
-          ${leg.stops.map((st, i) => {
-            const key = leg.topic + ':' + st.sk;
-            const been = seen.has(key);
-            return `<button class="stop ${been ? 'been' : ''}"
-                onclick="App.visitStop('${leg.topic}','${st.sk}')">
-              <span class="stop-dot">${been ? '✓' : i + 1}</span>
-              <span class="stop-glyph">${st.glyph}</span>
-              <span class="stop-name">${st.name}</span>
-              <span class="stop-n">${st.n}</span>
-            </button>`;
-          }).join('')}
-        </div>`).join('')}`);
+      <div class="pp-meter"><span style="width:${Math.round(visited / Math.max(1, total) * 100)}%"></span></div>
+      ${legs.map(leg => this.mapLeg(leg, seen)).join('')}`);
+  },
+
+  // A route drawn on a map, not a list with dots. The path snakes left and
+  // right down the page and the pins sit ON it, so the eye follows a journey
+  // instead of scanning a column. Everything is one inline SVG plus absolutely
+  // positioned buttons, so it scales to any number of stops and needs no art.
+  mapLeg(leg, seen) {
+    const n = leg.stops.length;
+    const STEP = 108;                 // vertical distance between stops
+    const H = STEP * n + 40;
+    const W = 100;                    // viewBox units; the SVG stretches to fit
+    // serpentine: alternate sides, with the ends pulled in a little
+    const xs = leg.stops.map((_, i) => (i % 2 === 0 ? 26 : 74)
+      + (i === 0 || i === n - 1 ? (i % 2 === 0 ? 6 : -6) : 0));
+    const ys = leg.stops.map((_, i) => 24 + i * STEP);
+    let d = `M ${xs[0]} ${ys[0]}`;
+    for (let i = 1; i < n; i++) {
+      const my = (ys[i - 1] + ys[i]) / 2;
+      d += ` C ${xs[i - 1]} ${my}, ${xs[i]} ${my}, ${xs[i]} ${ys[i]}`;
+    }
+    const doneCount = leg.stops.filter(s2 => seen.has(leg.topic + ':' + s2.sk)).length;
+    return `
+      <div class="rule">${leg.name}<span class="rule-count">${doneCount}/${n}</span></div>
+      <div class="map" style="height:${H}px">
+        <svg class="map-path" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none"
+             aria-hidden="true">
+          <path d="${d}" class="mp-road"/>
+          <path d="${d}" class="mp-walked"
+                style="stroke-dasharray:${1200};stroke-dashoffset:${1200 - 1200 * (doneCount / n)}"/>
+        </svg>
+        ${leg.stops.map((st, i) => {
+          const been = seen.has(leg.topic + ':' + st.sk);
+          const left = i % 2 === 0 ? 'left:6%' : 'right:6%';
+          const align = i % 2 === 0 ? 'pin-l' : 'pin-r';
+          return `<button class="pin ${align} ${been ? 'been' : ''}"
+              style="top:${ys[i] - 26}px;${left}"
+              onclick="App.visitStop('${leg.topic}','${st.sk}')">
+            <span class="pin-dot">${been ? '✓' : st.glyph}</span>
+            <span class="pin-label">
+              <b>${st.name}</b><i>${st.n} things here</i>
+            </span>
+          </button>`;
+        }).join('')}
+      </div>`;
   },
 
   visitStop(topic, sec) {

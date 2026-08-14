@@ -958,6 +958,9 @@ h3 { font-weight: 700; font-size: var(--fs-md); }
 /* ══ THE LAB — benches ════════════════════════════════════════════════ */
 .bench { display: grid; grid-template-columns: repeat(2, 1fr); gap: 11px; }
 @media (min-width: 700px) { .bench { grid-template-columns: repeat(3, 1fr); } }
+.lab-crest { background: linear-gradient(150deg, var(--cyan), #2a9fb5) !important;
+  box-shadow: 0 0 28px rgba(86,221,240,.28) !important; font-size: 1.4rem; }
+.lab-kick { color: var(--cyan) !important; }
 .station {
   cursor: pointer; text-align: left; padding: 15px 14px;
   background: var(--ink-2); border: 1px solid var(--line);
@@ -1003,3 +1006,148 @@ h3 { font-weight: 700; font-size: var(--fs-md); }
 .stop.been .stop-name { color: var(--text-2); }
 .stop-n { color: var(--text-faint); font-size: var(--fs-micro); }
 .stop:active { opacity: .7; }
+
+/* ══ THE REVEAL — a card being issued ══════════════════════════════════ */
+.reveal { position: fixed; inset: 0; z-index: 60; display: grid;
+          place-items: center; pointer-events: none; }
+.reveal.in { pointer-events: auto; }
+.reveal-scrim {
+  position: absolute; inset: 0; background: rgba(6,10,15,.72);
+  -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+  opacity: 0; transition: opacity .28s var(--ease);
+}
+.reveal.in .reveal-scrim { opacity: 1; }
+.reveal-card {
+  position: relative; width: min(86vw, 330px); text-align: center;
+  padding: 22px 20px 18px; border-radius: var(--r-xl);
+  background: linear-gradient(170deg, var(--ink-3), var(--ink-2));
+  border: 1px solid var(--lime-dark);
+  box-shadow: var(--sh-3), 0 0 60px rgba(168,240,98,.22);
+  /* comes in from below, tilted, then settles square */
+  opacity: 0; transform: translateY(38px) scale(.9) rotate(-4deg);
+  transition: opacity .3s var(--ease), transform .42s cubic-bezier(.2,1.1,.3,1);
+}
+.reveal.in .reveal-card { opacity: 1; transform: none; }
+.rv-kicker {
+  color: var(--lime); font-size: var(--fs-micro); font-weight: 700;
+  letter-spacing: .18em; text-transform: uppercase;
+}
+.rv-photo {
+  margin: 14px auto 0; width: 100%; aspect-ratio: 4/3; overflow: hidden;
+  border-radius: var(--r); border: 1px solid var(--line-2); background: var(--ink);
+}
+.rv-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.rv-name { font-size: var(--fs-xl); margin-top: 13px; }
+.rv-line { color: var(--text-2); font-size: var(--fs-small);
+  line-height: 1.45; margin-top: 7px; }
+.rv-foot { color: var(--text-dim); font-size: var(--fs-micro); margin-top: 14px;
+  letter-spacing: .06em; text-transform: uppercase; font-weight: 600; }
+
+/* The stamp lands late and hard, the way a real one does. */
+.rv-stamp {
+  position: absolute; top: 74px; right: 12px;
+  width: 62px; height: 62px; border-radius: 50%;
+  display: grid; place-items: center;
+  color: var(--lime); border: 2.5px solid var(--lime);
+  background: rgba(13,22,33,.55);
+  opacity: 0; transform: scale(2.4) rotate(-24deg);
+}
+.rv-stamp svg { width: 30px; height: 30px; fill: none; stroke: currentColor;
+  stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.reveal.in .rv-stamp {
+  animation: stamp .34s cubic-bezier(.3,1.4,.4,1) .5s forwards;
+}
+@keyframes stamp {
+  from { opacity: 0; transform: scale(2.4) rotate(-24deg); }
+  to   { opacity: 1; transform: scale(1) rotate(-13deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal-card, .reveal-scrim { transition: opacity .2s; transform: none; }
+  .reveal.in .rv-stamp { animation: none; opacity: 1; transform: rotate(-13deg); }
+}
+
+/* A ghost, not a black hole. brightness(0) on a dark page shows nothing at
+   all; a blurred, lifted version of the photo gives the shape and colour
+   without giving the animal away. */
+.pp-card.unseen .pp-photo img {
+  filter: grayscale(.9) brightness(1.7) contrast(.45) blur(5px) opacity(.3);
+  transform: scale(1.1);
+}
+.pp-card.unseen .pp-photo::after {
+  content: '?'; position: absolute; inset: 0; display: grid; place-items: center;
+  font-family: var(--font-display); font-size: 1.5rem; font-weight: 700;
+  color: var(--text-faint);
+}
+.pp-photo { position: relative; }
+
+/* ══ THE EXPEDITION — a drawn route ════════════════════════════════════ */
+.map-crest { background: linear-gradient(150deg, var(--amber), #c98c1e) !important;
+  box-shadow: 0 0 28px rgba(255,207,92,.28) !important; font-size: 1.5rem; }
+.map-kick { color: var(--amber) !important; }
+.rule-count { margin-left: 10px; color: var(--text-faint); letter-spacing: .06em; }
+
+.map { position: relative; margin: 4px 0 10px; }
+.map-path { position: absolute; inset: 0; width: 100%; height: 100%; }
+/* The road: a dashed track, like a map. The walked part is drawn over it in
+   amber, so how far she has come is visible at a glance. */
+.mp-road {
+  fill: none; stroke: var(--line-2); stroke-width: 2.2;
+  stroke-linecap: round; stroke-dasharray: 1 7;
+  vector-effect: non-scaling-stroke;
+}
+.mp-walked {
+  fill: none; stroke: var(--amber); stroke-width: 2.6; stroke-linecap: round;
+  vector-effect: non-scaling-stroke; opacity: .85;
+  transition: stroke-dashoffset .8s var(--ease);
+}
+
+.pin {
+  position: absolute; z-index: 1; cursor: pointer; background: none;
+  border: none; padding: 0; display: flex; align-items: center; gap: 11px;
+  max-width: 62%;
+}
+.pin-r { flex-direction: row-reverse; text-align: right; }
+.pin-dot {
+  flex: 0 0 52px; width: 52px; height: 52px; border-radius: 50%;
+  display: grid; place-items: center; font-size: 1.35rem;
+  background: var(--ink-3); border: 2px solid var(--line-2);
+  box-shadow: var(--sh-2); transition: transform .12s var(--ease);
+}
+.pin:active .pin-dot { transform: scale(.92); }
+.pin.been .pin-dot {
+  background: var(--amber); border-color: #ffe6a3; color: #2a1c00;
+  font-weight: 800; box-shadow: 0 0 22px rgba(255,207,92,.4);
+}
+.pin-label { min-width: 0; }
+.pin-label b { display: block; font-family: var(--font-display);
+  font-weight: 600; font-size: var(--fs-base); line-height: 1.15; }
+.pin-label i { display: block; font-style: normal; color: var(--text-dim);
+  font-size: var(--fs-micro); margin-top: 3px; }
+.pin.been .pin-label b { color: var(--text); }
+
+/* ══ THE LAB — an actual bench ═════════════════════════════════════════ */
+/* A brushed steel worktop with the stations standing on it, rather than
+   another grid of cards on the page background. */
+.bench {
+  position: relative; padding: 16px 14px;
+  border-radius: var(--r-lg); border: 1px solid var(--line-2);
+  background:
+    repeating-linear-gradient(90deg, rgba(255,255,255,.014) 0 2px, transparent 2px 5px),
+    linear-gradient(180deg, var(--ink-3), var(--ink-2));
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.05), var(--sh-1);
+}
+.station {
+  background: var(--ink-2); border: 1px solid var(--line-2);
+  box-shadow: 0 3px 0 rgba(0,0,0,.35), var(--sh-1);
+}
+.station:active { transform: translateY(2px); box-shadow: 0 1px 0 rgba(0,0,0,.35); }
+
+/* Labels sat on top of the road. Give them a backing so the line reads
+   behind them rather than through them. */
+.pin-label {
+  background: linear-gradient(90deg, rgba(13,22,33,.92), rgba(13,22,33,.72));
+  padding: 6px 10px; border-radius: 10px;
+}
+.pin-r .pin-label {
+  background: linear-gradient(270deg, rgba(13,22,33,.92), rgba(13,22,33,.72));
+}

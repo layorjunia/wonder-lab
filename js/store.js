@@ -103,11 +103,16 @@ const Progress = {
     return p.species[id];
   },
 
+  // Returns true the FIRST time a species is met, so the app can make
+  // something of it. Nothing could tell before: a new card and the four
+  // hundredth card were indistinguishable to the caller.
   markSeen(id) {
     const r = this.rec(id);
+    const isNew = r.state === 'unseen';
     r.seen++;
-    if (r.state === 'unseen') r.state = 'seen';
+    if (isNew) r.state = 'seen';
     this.commit();
+    return isNew;
   },
 
   markRight(id) {
