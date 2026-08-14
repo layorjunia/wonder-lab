@@ -354,6 +354,10 @@ const Offline = {
         const f = queue.shift();
         try {
           const url = AUDIO_BASE + f;
+          // Already downloaded — skip it. This is what makes a second run
+          // instant and a interrupted download resume where it stopped.
+          if (cache && await cache.match(url)) { bytes += 42000; n++;
+            if (onProgress) onProgress(n, files.length); continue; }
           const r = await fetch(url, { mode: 'cors', credentials: 'omit' });
           // Write it ourselves. Relying on the worker's fetch handler to cache
           // it as a side effect meant that with no worker registered — a first
@@ -369,6 +373,37 @@ const Offline = {
     await Promise.all(Array.from({ length: 6 }, worker));
     this.mark(id, bytes);
     return { files: files.length, bytes };
+  },
+
+  // Every narratable string in the whole app, so "download everything" is one
+  // button rather than ten. Deduplication happens in filesFor().
+  allTexts() {
+    const t = ['Try it now'];
+    [CATEGORIES, KINDS, GROUPS, PLANT_GROUPS, BODY_SECTIONS, GAME_PHRASES]
+      .forEach(m => { if (m) Object.values(m).forEach(v =>
+        t.push(typeof v === 'string' ? v : v.name)); });
+    const facts = (a) => a.forEach(x => {
+      ['name', 'blurb', 'size', 'wonder', 'text', 'more', 'tryit']
+        .forEach(k => { if (x[k]) t.push(x[k]); });
+      (x.facts || []).forEach(f => { if (f.text) t.push(f.text);
+                                     if (f.more) t.push(f.more); });
+    });
+    if (typeof ANIMALS !== 'undefined') facts(ANIMALS);
+    if (typeof PLANTS !== 'undefined') facts(PLANTS);
+    if (typeof BODY !== 'undefined') facts(BODY);
+    if (typeof TOPIC_SETS !== 'undefined') {
+      Object.values(TOPIC_SETS).forEach(ts => {
+        const rows = globalThis[ts.data] || [];
+        facts(rows);
+        t.push(ts.name);
+        Object.values(globalThis[ts.secs] || {}).forEach(s => t.push(s.name));
+      });
+    }
+    if (typeof EXPEDITIONS !== 'undefined') EXPEDITIONS.forEach(x => {
+      t.push(x.name, x.intro, x.outro);
+      x.stops.forEach(st => { if (st.note) t.push(st.note); });
+    });
+    return t;
   },
 
   // What a pack will cost, before committing to it. Estimated from the

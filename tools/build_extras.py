@@ -35,7 +35,7 @@ PHYSICAL_SECTIONS = {'forces', 'energy', 'light', 'sound', 'heat',
 MICRO_SECTIONS = {'cell', 'bacteria', 'virus', 'fungi', 'pond', 'helpers',
                   'clean', 'scope'}
 ANCIENT_SECTIONS = {'beginning', 'flood', 'egypt', 'mesopot', 'israel',
-                    'greece', 'rome', 'howknow'}
+                    'greece', 'rome'}
 AMERICA_SECTIONS = {'explorers', 'colonies', 'founding', 'inventors',
                     'frontier', 'machines', 'flight', 'everyday'}
 WORLD_SECTIONS = {'middle', 'voyages', 'printing', 'discovery', 'builders',

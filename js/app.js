@@ -347,6 +347,7 @@ const App = {
     const pct = Math.round(met / Math.max(1, ANIMALS.length) * 100);
     this.el(`
       ${this.bar('Explore', this.streakChip())}
+      ${this.offlineAll()}
       ${FAMILIES.map(f => `
         <div class="family">
           <h2 class="fam-head"><span>${f.glyph}</span>${f.name}</h2>
@@ -790,7 +791,7 @@ const App = {
   // ── ZOOM IN ──
   // The photo starts far too close to read and pulls back over six seconds.
   // Answering early is worth more, which is the whole game: commit on a
-  // texture or a colour before the shape gives it away.
+  // texture or a color before the shape gives it away.
   _zoom: null,
 
   zoomGame() {
@@ -1339,6 +1340,44 @@ const App = {
              title: t.name, glyph: t.glyph, fn: which };
   },
 
+  // The default offer is the whole app in one go — that is what a tablet
+  // going in a car actually needs. Per-subject packs stay, for a smaller
+  // download or a slow connection.
+  offlineAll() {
+    if (Offline.has('all')) {
+      return `<div class="offline done"><span>✓</span>
+        <div><b>Everything downloaded</b>
+        <div class="dim small">The whole app works with no wifi</div></div></div>`;
+    }
+    const texts = Offline.allTexts();
+    const mb = Math.round(Offline.estimate(texts) / 1048576);
+    return `<div class="offline" id="off-all">
+      <span>⬇</span>
+      <div class="grow"><b>Download the whole app</b>
+        <div class="dim small" id="off-msg">Every subject · about ${mb} MB ·
+          then it works with no wifi</div></div>
+      <button class="btn" onclick="App.downloadAll()">Get it</button>
+    </div>`;
+  },
+
+  async downloadAll() {
+    const row = document.getElementById('off-all');
+    const msg = document.getElementById('off-msg');
+    if (row) row.classList.add('busy');
+    const r = await Offline.download('all', Offline.allTexts(), (n, total) => {
+      if (msg) msg.textContent = `${n} of ${total} clips… you can keep using the app`;
+    });
+    // A whole-app download covers every subject, so mark them all done rather
+    // than leaving each subject page still offering its own copy.
+    Object.keys(TOPIC_SETS).forEach(k => Offline.mark(k, 0));
+    if (row) {
+      row.className = 'offline done';
+      row.innerHTML = `<span>✓</span><div><b>Everything downloaded</b>
+        <div class="dim small">${r.files} clips · ${Math.round(r.bytes / 1048576)} MB ·
+        works with no wifi</div></div>`;
+    }
+  },
+
   // Clips are only cached once they have been heard, so a tablet taken out of
   // wifi is silent for anything new. This downloads a whole subject's narration
   // up front.
@@ -1346,7 +1385,7 @@ const App = {
     if (!cfg.rows.length) return '';
     const texts = this.offlineTexts(which, cfg);
     const mb = Math.round(Offline.estimate(texts) / 1048576);
-    if (Offline.has(which)) {
+    if (Offline.has(which) || Offline.has('all')) {
       return `<div class="offline done"><span>✓</span>
         <div><b>Downloaded</b><div class="dim small">Works with no wifi</div></div></div>`;
     }

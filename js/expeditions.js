@@ -1,9 +1,5 @@
 // Expeditions — the journey layer.
 //
-// The app was 3,500 excellent facts with no shape: a daily deck of random
-// cards and four browsable lists. Nothing had a beginning or an end, so
-// nothing felt like getting anywhere.
-//
 // An expedition is a short curated trail — six to nine stops — that crosses
 // the sections deliberately. Down to the Deep starts at the bottom of the
 // ocean, meets the animals that live there, and finishes with what happens to
@@ -70,7 +66,7 @@ const EXPEDITIONS = [
     stops: [
       { s: 'tardigrade', note: 'Start with the one that survives being put in space.' },
       { s: 'resurrection-plant', note: 'A plant that looks dead for years and is not.' },
-      { s: 'bristlecone-pine', note: 'Slow is its own kind of armour.' },
+      { s: 'bristlecone-pine', note: 'Slow is its own kind of armor.' },
       { s: 'naked-mole-rat', note: 'Almost no oxygen, almost no pain, almost no rules.' },
       { s: 'lichen', note: 'Two things living as one, on bare rock, eating stone.' },
     ],
@@ -114,11 +110,9 @@ const EXPEDITIONS = [
     name: 'What We Actually Dug Up',
     glyph: '🦴',
     tint: '#ffa04a',
-    intro: 'A trail about the difference between a bone and a story. Watch '
-         + 'the badge on every card.',
+    intro: 'A trail about the difference between a bone and a story.',
     outro: 'The bones are the same for everybody. What people build on top of '
-         + 'them is where the arguing starts — and knowing which is which is '
-         + 'the most useful thing in this whole app.',
+         + 'them is where the arguing starts.',
     stops: [
       { s: 'tyrannosaurus', note: 'Sue is 250 real bones in a real building in Chicago.' },
       { s: 'carnotaurus', note: 'And one animal left an actual print of its skin.' },

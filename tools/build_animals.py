@@ -58,6 +58,15 @@ BANNED = [
                 r'asteroid (impact|strike|hit)', re.I), 'extinction-event framing'),
     (re.compile(r'\bancestor|\bdescend(ed|ant)', re.I), 'common descent'),
     (re.compile(r'\bprehistoric|\bprimitive\b', re.I), 'deep-time framing'),
+    # The app must never talk about itself. Cards that explain the badge
+    # colours, or say "the rest of this section", are commentary on how the
+    # thing was built rather than on the world — and a child reading a card
+    # about Genesis should get Genesis, not a note about the interface.
+    (re.compile(r'\bthis app\b|\bthe app\b|\bthis section\b|\bthis card\b|'
+                r'purple badge|green badge|badge on every|'
+                r'purple rather than green|green means somebody|'
+                r'included here because|'
+                r'(?:green|amber|purple)\b[^.]{0,30}\bnot\b[^.]{0,15}(?:green|amber|purple)', re.I), 'meta commentary'),
     # "before people existed" is the same claim wearing plain clothes
     (re.compile(r'before (humans?|people|man) (ever )?(existed|appeared|walked)',
                 re.I), 'deep-time framing'),

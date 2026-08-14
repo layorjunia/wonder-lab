@@ -112,7 +112,7 @@ const KINDS = {
             dino: { name: 'Dug up', glyph: '🦴' },
             blurb: 'Somebody actually looked. A measured bone, a counted set of teeth, a depth someone lowered a line to, a thing you could go and see for yourself.' },
   worked: { name: 'Worked out',   glyph: '📐', tint: '#ffc94a',
-            blurb: 'Not dug up. Someone reasoned it from what was dug up — a weight, a speed, a habit, a colour. Good reasoning is still reasoning.' },
+            blurb: 'Not dug up. Someone reasoned it from what was dug up — a weight, a speed, a habit, a color. Good reasoning is still reasoning.' },
   record: { name: 'Written down', glyph: '📜', tint: '#b088ff',
             blurb: 'From a written account rather than the ground — Genesis, an old chronicle, or the story of who found the bones and when.' },
 };
@@ -209,7 +209,7 @@ const GAME_PHRASES = {
 const PHYSICAL_SECTIONS = {
   forces:   { name: 'Forces & Motion',  glyph: '🏃' },
   energy:   { name: 'Energy',           glyph: '⚡' },
-  light:    { name: 'Light & Colour',   glyph: '🌈' },
+  light:    { name: 'Light & Color',   glyph: '🌈' },
   sound:    { name: 'Sound',            glyph: '🔊' },
   heat:     { name: 'Heat & Cold',      glyph: '🔥' },
   electric: { name: 'Electricity',      glyph: '💡' },
@@ -221,7 +221,7 @@ const MICRO_SECTIONS = {
   cell:     { name: 'Inside a Cell',    glyph: '🔵' },
   bacteria: { name: 'Bacteria',         glyph: '🦠' },
   virus:    { name: 'Viruses',          glyph: '🧬' },
-  fungi:    { name: 'Moulds & Yeasts',  glyph: '🍄' },
+  fungi:    { name: 'Molds & Yeasts',  glyph: '🍄' },
   pond:     { name: 'Pond Water',       glyph: '💧' },
   helpers:  { name: 'Helpful Microbes', glyph: '🥛' },
   clean:    { name: 'Staying Well',     glyph: '🧼' },
@@ -242,7 +242,6 @@ const ANCIENT_SECTIONS = {
   israel:    { name: 'Israel',            glyph: '🕎' },
   greece:    { name: 'Greece',            glyph: '🏛️' },
   rome:      { name: 'Rome',              glyph: '🦅' },
-  howknow:   { name: 'How We Know',       glyph: '📜' },
 };
 
 const AMERICA_SECTIONS = {
