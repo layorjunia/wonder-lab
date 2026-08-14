@@ -99,6 +99,10 @@ const App = {
     notes:   '<path d="M6 3h9l4 4v14H6z"/><path d="M15 3v4h4"/><path d="M9.5 12h6M9.5 16h4"/>',
     down:    '<path d="M12 4v12"/><path d="M7 11.5 12 16.5 17 11.5"/><path d="M5 20h14"/>',
     check:   '<path d="M4.5 12.5 9.5 17.5 19.5 6.5"/>',
+    stamp:   '<path d="M12 3.5c-1.9 0-3 1.2-3 2.6 0 1.5 1.2 1.9 1.2 2.9H13'
+             + '.8c0-1 1.2-1.4 1.2-2.9 0-1.4-1.1-2.6-3-2.6z"/>'
+             + '<rect x="4.5" y="10.5" width="15" height="6.5" rx="1.4"/>'
+             + '<path d="M4.5 20h15"/>',
   },
 
   icon(name) {
@@ -404,14 +408,24 @@ const App = {
         <div><b>${Progress.p.dayStreak || 0}</b><span>Day streak</span></div>
       </div>
 
+      <div class="rule">Where to go</div>
+      <div class="wings">
+        ${Object.entries(WINGS).map(([k, w]) => {
+          const n = this.wingCount(k);
+          return `<button class="wing wing-${k}" onclick="App.wing('${k}')"
+              style="--tint:${w.tint}">
+            <span class="wing-glyph">${w.glyph}</span>
+            <div class="wing-body">
+              <div class="wing-verb">${w.verb}</div>
+              <div class="wing-name">${w.name}</div>
+              <div class="wing-line">${w.line}</div>
+            </div>
+            <div class="wing-tail"><b>${n.done}</b><span>of ${n.total}</span></div>
+          </button>`;
+        }).join('')}
+      </div>
+
       ${this.offlineAll()}
-      ${FAMILIES.map(f => `
-        <div class="family">
-          <h2 class="rule">${f.name}</h2>
-          <div class="kingdoms">
-            ${f.cards.map(c => cardFor(c, f.tint)).join('')}
-          </div>
-        </div>`).join('')}
 
       <div class="card hub-trail" onclick="App.go('trails')" style="margin-top:16px">
         <div><h2>🧭 Expeditions</h2>
@@ -438,6 +452,183 @@ const App = {
             <div><b>${Progress.p.whoa.length}</b><span class="dim small">saved to Notes</span></div>
           </div>
         </div>
+      </div>`);
+  },
+
+
+
+  // How full each wing is, in its own units — species collected, stops
+  // walked, experiments done. A single "facts" number told her nothing.
+  wingCount(key) {
+    const w = WINGS[key];
+    if (key === 'field') {
+      const all = this.all();
+      return { done: all.filter(a => Progress.state(a.id) !== 'unseen').length,
+               total: all.length, unit: 'collected' };
+    }
+    if (key === 'lab') {
+      const t = this.allTryits().filter(x => (Progress.p.tried || {})[x.key]);
+      return { done: t.length, total: this.allTryits().length, unit: 'tried' };
+    }
+    const stops = w.sources.reduce((n, s2) => n + this.topicCfg(s2.topic).rows.length, 0);
+    const seen = (Progress.p.stops || []).length;
+    return { done: seen, total: stops, unit: 'stops' };
+  },
+
+  wing(key) {
+    this.tab = 'explore';
+    if (key === 'field') return this.passport();
+    if (key === 'lab') return this.labBench();
+    return this.expeditionMap();
+  },
+
+  // ══ THE LAB ═════════════════════════════════════════════════════════════
+  // Stations, not sections. The hero is the experiment: 125 of them existed
+  // and they were buried three taps deep inside a fact list.
+  labBench() {
+    this.resetSay();
+    const tried = Progress.p.tried || {};
+    const stations = [];
+    ['physical', 'micro'].forEach(k => {
+      const cfg = this.topicCfg(k);
+      Object.entries(cfg.secs).forEach(([sk, sv]) => {
+        const rows = cfg.rows.filter(e => e.section === sk);
+        const ex = rows.filter(e => e.tryit);
+        if (rows.length) stations.push({ topic: k, sk, name: sv.name,
+          glyph: sv.glyph, n: rows.length, ex: ex.length,
+          done: ex.filter(e => tried[e.id]).length });
+      });
+    });
+    if (typeof BODY !== 'undefined') {
+      Object.entries(BODY_SECTIONS).forEach(([sk, sv]) => {
+        const rows = BODY.filter(e => e.section === sk);
+        const ex = rows.filter(e => e.tryit);
+        if (rows.length) stations.push({ topic: 'body', sk, name: sv.name,
+          glyph: sv.glyph, n: rows.length, ex: ex.length,
+          done: ex.filter(e => tried[e.id]).length });
+      });
+    }
+    const totalEx = stations.reduce((n, s2) => n + s2.ex, 0);
+    const doneEx = stations.reduce((n, s2) => n + s2.done, 0);
+    this.el(`
+      <div class="pp-head">
+        <div class="pp-crest" style="background:linear-gradient(150deg,var(--cyan),#2a9fb5);
+             box-shadow:0 0 28px rgba(86,221,240,.28)">⚗️</div>
+        <div><div class="pp-kicker" style="color:var(--cyan)">The lab</div>
+          <h1 class="pp-title">${doneEx} <span>of ${totalEx} experiments done</span></h1></div>
+      </div>
+      <div class="pp-meter"><span style="width:${Math.round(doneEx / Math.max(1, totalEx) * 100)}%"></span></div>
+      <div class="rule">Benches</div>
+      <div class="bench">
+        ${stations.map(st => `
+          <button class="station" onclick="App.${st.topic === 'body'
+              ? `body('${st.sk}')` : `topics('${st.topic}','${st.sk}')`}">
+            <span class="st-glyph">${st.glyph}</span>
+            <div class="st-name">${st.name}</div>
+            <div class="st-sub">${st.n} things to learn</div>
+            ${st.ex ? `<div class="st-ex ${st.done === st.ex ? 'all' : ''}">
+              ${st.done}/${st.ex} tried</div>` : ''}
+          </button>`).join('')}
+      </div>`);
+  },
+
+  // ══ THE EXPEDITION ══════════════════════════════════════════════════════
+  // A map of places with a path drawn between them, instead of a tile grid.
+  expeditionMap() {
+    this.resetSay();
+    const legs = [];
+    WINGS.expedition.sources.forEach(({ topic }) => {
+      const cfg = this.topicCfg(topic);
+      if (!cfg.rows.length) return;
+      legs.push({ topic, name: cfg.name,
+        stops: Object.entries(cfg.secs)
+          .map(([sk, sv]) => ({ sk, name: sv.name, glyph: sv.glyph,
+            n: cfg.rows.filter(e => e.section === sk).length }))
+          .filter(x => x.n) });
+    });
+    const seen = new Set(Progress.p.stops || []);
+    this.el(`
+      <div class="pp-head">
+        <div class="pp-crest" style="background:linear-gradient(150deg,var(--amber),#c98c1e);
+             box-shadow:0 0 28px rgba(255,201,74,.26)">🧭</div>
+        <div><div class="pp-kicker" style="color:var(--amber)">The expedition</div>
+          <h1 class="pp-title">${seen.size} <span>places visited</span></h1></div>
+      </div>
+      ${legs.map(leg => `
+        <div class="rule">${leg.name}</div>
+        <div class="trailmap">
+          ${leg.stops.map((st, i) => {
+            const key = leg.topic + ':' + st.sk;
+            const been = seen.has(key);
+            return `<button class="stop ${been ? 'been' : ''}"
+                onclick="App.visitStop('${leg.topic}','${st.sk}')">
+              <span class="stop-dot">${been ? '✓' : i + 1}</span>
+              <span class="stop-glyph">${st.glyph}</span>
+              <span class="stop-name">${st.name}</span>
+              <span class="stop-n">${st.n}</span>
+            </button>`;
+          }).join('')}
+        </div>`).join('')}`);
+  },
+
+  visitStop(topic, sec) {
+    const p = Progress.p;
+    if (!p.stops) p.stops = [];
+    const key = topic + ':' + sec;
+    if (!p.stops.includes(key)) { p.stops.push(key); Progress.commit(); }
+    this.topics(topic, sec);
+  },
+
+  // ══ THE FIELD ═══════════════════════════════════════════════════════════
+  // A passport, not a list. Every species is a card slot; the slot exists
+  // before she has met the creature, so the book is visibly incomplete and
+  // filling it is the point. The four states were already in Progress and
+  // nothing had ever drawn them.
+  passportFilter: null,
+
+  passport(group) {
+    this.resetSay();
+    if (group !== undefined) this.passportFilter = group;
+    const g = this.passportFilter;
+    const all = this.all();
+    const rows = g ? all.filter(a => a.group === g) : all;
+    const got = all.filter(a => Progress.state(a.id) !== 'unseen').length;
+    const pct = Math.round(got / Math.max(1, all.length) * 100);
+
+    const groups = {};
+    all.forEach(a => { groups[a.group] = (groups[a.group] || 0) + 1; });
+
+    this.el(`
+      <div class="pp-head">
+        <div class="pp-crest">${this.icon('stamp')}</div>
+        <div>
+          <div class="pp-kicker">Field passport</div>
+          <h1 class="pp-title">${got} <span>of ${all.length} collected</span></h1>
+        </div>
+      </div>
+      <div class="pp-meter"><span style="width:${pct}%"></span></div>
+
+      <div class="chips pp-chips">
+        <button class="chip ${!g ? 'accent' : ''}" onclick="App.passport(null)">All</button>
+        ${Object.entries(GROUPS).filter(([k]) => groups[k])
+          .map(([k, v]) => `<button class="chip ${g === k ? 'accent' : ''}"
+            onclick="App.passport('${k}')">${v.glyph} ${v.name}</button>`).join('')}
+      </div>
+
+      <div class="pp-grid">
+        ${rows.map(a => {
+          const st = Progress.state(a.id);
+          const met = st !== 'unseen';
+          return `<button class="pp-card ${st}" onclick="App.species('${a.id}')"
+              aria-label="${met ? a.name : 'Not collected yet'}">
+            <div class="pp-photo">
+              <img src="${this.pic(a)}" alt="" loading="lazy"
+                   onerror="this.style.opacity=0">
+            </div>
+            ${st === 'mastered' ? `<span class="pp-stamp">${this.icon('stamp')}</span>` : ''}
+            <div class="pp-name">${met ? a.name : '—'}</div>
+          </button>`;
+        }).join('')}
       </div>`);
   },
 

@@ -279,6 +279,38 @@ const TOPIC_SETS = {
   world:    { name: 'World History',    glyph: '🌐', pat: 'star2',  data: 'WORLD',    secs: 'WORLD_SECTIONS' },
 };
 
+/* ── The three wings ──
+   Ten subjects were ten identical tiles opening ten identical lists. They are
+   not the same KIND of thing, and pretending they are is why the app felt like
+   a database with a nav bar.
+
+   Each wing has its own verb and its own screen:
+     field      you COLLECT   — a passport of specimen cards you fill in
+     expedition you TRAVEL    — a map of places with a path between them
+     lab        you DO        — a bench of stations, each with experiments
+
+   The data already supported this and nothing was using it: animals carry
+   unseen -> spotted -> known -> mastered per species, history is already
+   sectioned into places, and the science sections hold 125 experiments. */
+const WINGS = {
+  field: {
+    name: 'The Field', verb: 'Collect', glyph: '🔭', tint: '#9ee85f',
+    line: 'Every creature you meet gets a card in your passport.',
+    sources: [{ kind: 'animals' }, { kind: 'plants' }],
+  },
+  expedition: {
+    name: 'The Expedition', verb: 'Travel', glyph: '🧭', tint: '#ffc94a',
+    line: 'Maps of real places. Walk them a stop at a time.',
+    sources: [{ topic: 'ancient' }, { topic: 'america' }, { topic: 'world' },
+              { topic: 'earth' }, { topic: 'astro' }],
+  },
+  lab: {
+    name: 'The Lab', verb: 'Try it', glyph: '⚗️', tint: '#4fd6e8',
+    line: 'Benches you can actually work at. Nothing here is only reading.',
+    sources: [{ topic: 'physical' }, { topic: 'micro' }, { kind: 'body' }],
+  },
+};
+
 /* Ten destinations is too many for one flat grid. Three families, in the order
    a child actually asks about them. `go` is an App method; `topic` is a key in
    TOPIC_SETS. */
