@@ -188,7 +188,7 @@ h3 { font-weight: 700; font-size: var(--fs-md); }
   aspect-ratio: 16 / 10;
   /* cap the hero so the fact text is always visible without scrolling —
      the photo is the hook, but the sentence is the point */
-  max-height: min(42vh, 320px);
+  max-height: min(36vh, 290px);
   /* `cover` on a 16:10 box crops whatever does not fit, which cut the top of
      the beaver's head clean off. On a field-guide card the shape of the
      animal IS the information, so the photo is CONTAINED and a blurred copy
@@ -645,20 +645,26 @@ h3 { font-weight: 700; font-size: var(--fs-md); }
 
 /* ── Bottom nav ── */
 .nav {
-  position: fixed; left: 50%; transform: translateX(-50%);
-  bottom: calc(10px + var(--sa-b)); z-index: 30;
-  display: flex; gap: 2px;
-  background: rgba(13,22,33,.82);
+  /* Docked, not floating. A centred pill looked better in a screenshot and
+     was worse to use: it sits ON the content, and reserving space for it is
+     guesswork because the browser chrome changes the usable height. Docked,
+     the padding below matches its height exactly and nothing is ever hidden
+     behind it. */
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 30;
+  display: flex; justify-content: center; gap: 2px;
+  background: rgba(13,22,33,.94);
   -webkit-backdrop-filter: saturate(1.4) blur(18px);
   backdrop-filter: saturate(1.4) blur(18px);
-  border: 1px solid var(--line-2); border-radius: 999px;
-  padding: 6px; box-shadow: var(--sh-3);
+  border-top: 1px solid var(--line);
+  padding: 7px 8px calc(7px + var(--sa-b));
+  box-shadow: 0 -10px 30px rgba(0,0,0,.45);
 }
 .nav button {
   position: relative; background: none; border: none; cursor: pointer;
   color: var(--text-dim); font: inherit;
   font-size: var(--fs-micro); font-weight: 600; letter-spacing: .01em;
-  padding: 7px 13px 6px; border-radius: 999px;
+  flex: 1; max-width: 116px;
+  padding: 7px 6px 6px; border-radius: 14px;
   display: flex; flex-direction: column; align-items: center; gap: 3px;
   transition: color var(--t), background var(--t);
 }
@@ -818,7 +824,8 @@ h3 { font-weight: 700; font-size: var(--fs-md); }
 }
 
 /* the bottom bar floats now, so the page needs room under it */
-#app { padding-bottom: calc(104px + var(--sa-b)); }
+/* exactly the docked bar's height, so the last button always clears it */
+#app { padding-bottom: calc(86px + var(--sa-b)); }
 
 /* The bar is fixed, so a short screen would let it sit on top of the last
    row of content. The padding above reserves its height; this stops the very

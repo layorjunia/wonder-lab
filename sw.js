@@ -3,7 +3,7 @@
 // Downloaded offline packs live here, unversioned, and survive every deploy.
 // caches.match() below searches every cache, so nothing else has to know.
 const OFFLINE_CACHE = 'wonderlab-offline';
-const CACHE = 'wonderlab-20260813-2054-0b932c7';
+const CACHE = 'wonderlab-20260813-2056-c6a0cbb';
 const SHELL = [
   '.', 'index.html', 'css/style.css', 'manifest.json',
   'css/fonts.css',
