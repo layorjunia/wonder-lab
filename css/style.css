@@ -1396,3 +1396,33 @@ h3 { font-weight: 700; font-size: var(--fs-md); }
 }
 .w-input:focus { outline: none; border-color: var(--lime-dark);
   box-shadow: 0 0 0 3px rgba(168,240,98,.15); }
+
+/* The silhouette slot: the animal's own shadow, waiting. */
+.pp-card.sil .pp-photo { background: var(--ink-3); }
+.pp-card.sil .pp-photo img {
+  filter: none; transform: none; object-fit: contain;
+  padding: 12%; opacity: .55;
+}
+.pp-card.sil .pp-photo::after { content: ''; }
+
+/* ── Atlas terrain ──
+   All linework, one hue, low alpha: a chart she is walking across, not a
+   picture fighting the pins. The panel border makes each leg a plate. */
+.map {
+  border: 1px solid var(--line-2); border-radius: var(--r-lg);
+  background: linear-gradient(180deg, #101d2c, var(--ink) 85%);
+  overflow: hidden; padding: 8px 0;
+}
+.tr-grid { stroke: rgba(255,255,255,.028); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.tr-land { fill: none; stroke: rgba(255,207,92,.13); stroke-width: 1.1;
+           stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.tr-mtn  { fill: none; stroke: rgba(255,207,92,.2); stroke-width: 1;
+           stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.tr-sea  { stroke: rgba(86,221,240,.09); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.tr-rose circle { fill: none; stroke: rgba(255,207,92,.3); stroke-width: 1;
+                  vector-effect: non-scaling-stroke; }
+.tr-rose path { fill: rgba(255,207,92,.4); stroke: none; }
+.tr-rose text { fill: rgba(255,207,92,.55); font: 700 7px var(--font-ui);
+                text-anchor: middle; }
+/* pins gained a plate behind them; the road brightens a touch to sit on it */
+.mp-road { stroke: rgba(255,255,255,.16); }

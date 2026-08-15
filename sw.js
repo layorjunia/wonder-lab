@@ -3,7 +3,7 @@
 // Downloaded offline packs live here, unversioned, and survive every deploy.
 // caches.match() below searches every cache, so nothing else has to know.
 const OFFLINE_CACHE = 'wonderlab-offline';
-const CACHE = 'wonderlab-20260815-0839-72349f3';
+const CACHE = 'wonderlab-20260815-0853-d876534';
 const SHELL = [
   '.', 'index.html', 'css/style.css', 'manifest.json',
   'css/fonts.css',
@@ -16,7 +16,7 @@ const SHELL = [
   // first-load quietly had no plants, no earth, no astronomy and no history —
   // the guards in app.js turn that into empty sections rather than an error,
   // which is worse: it looks like the app, minus most of it.
-  'js/animals.js', 'js/body.js', 'js/plants.js', 'js/earth.js', 'js/astro.js',
+  'js/cutouts.js', 'js/animals.js', 'js/body.js', 'js/plants.js', 'js/earth.js', 'js/astro.js',
   'js/ancient.js', 'js/america.js', 'js/world.js', 'js/micro.js', 'js/physical.js',
   'img/credits.json',
   // Precached so the very first Listen tap resolves against a real manifest

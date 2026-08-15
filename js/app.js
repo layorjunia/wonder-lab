@@ -578,6 +578,7 @@ const App = {
 
   wing(key) {
     this.tab = 'explore';
+    this.renderNav();   // wing() bypasses go(), so the bar must repaint here
     if (key === 'field') return this.passport();
     if (key === 'lab') return this.labBench();
     return this.expeditionMap();
@@ -661,6 +662,64 @@ const App = {
       ${legs.map(leg => this.mapLeg(leg, seen)).join('')}`);
   },
 
+
+  // Atlas terrain behind a leg's road: coastline, contour islands, sea
+  // hatching, mountain marks, a compass rose. Everything is generated — no
+  // artwork to fetch, nothing to license — and seeded from the leg name, so
+  // Egypt's coastline is Egypt's coastline every time she opens the map.
+  terrain(seedStr, W, H) {
+    let h = 2166136261;
+    for (const ch of seedStr) { h ^= ch.charCodeAt(0); h = Math.imul(h, 16777619); }
+    const rnd = () => {
+      h = Math.imul(h ^ (h >>> 15), 2246822519);
+      h = Math.imul(h ^ (h >>> 13), 3266489917);
+      return ((h ^= h >>> 16) >>> 0) / 4294967296;
+    };
+    const blob = (cx, cy, r, wob) => {
+      const k = 5 + Math.floor(rnd() * 3);
+      const ph = Array.from({ length: k }, () => rnd() * Math.PI * 2);
+      const amp = Array.from({ length: k }, (_, i) => wob / (i + 1.6));
+      const pts = [];
+      for (let a = 0; a < Math.PI * 2; a += Math.PI / 14) {
+        let rr = r;
+        for (let i = 0; i < k; i++) rr += amp[i] * Math.sin((i + 2) * a + ph[i]) * r;
+        pts.push(`${(cx + Math.cos(a) * rr).toFixed(1)} ${(cy + Math.sin(a) * rr * 0.8).toFixed(1)}`);
+      }
+      return 'M ' + pts.join(' L ') + ' Z';
+    };
+    let out = '';
+    // graticule
+    for (let x = 12; x < W; x += 22)
+      out += `<line x1="${x}" y1="0" x2="${x}" y2="${H}" class="tr-grid"/>`;
+    for (let y = 20; y < H; y += 90)
+      out += `<line x1="0" y1="${y}" x2="${W}" y2="${y}" class="tr-grid"/>`;
+    // landmasses with contour rings, scattered down the leg
+    const nLand = 2 + Math.floor(H / 300);
+    for (let i = 0; i < nLand; i++) {
+      const cx = rnd() * W, cy = 60 + (i + 0.5) * (H / nLand) + (rnd() - 0.5) * 60;
+      const r = 26 + rnd() * 30;
+      for (let ring = 0; ring < 3; ring++)
+        out += `<path d="${blob(cx, cy, r * (1 - ring * 0.3), 0.16)}" class="tr-land"/>`;
+      // mountain carets on the biggest ring
+      const nM = 2 + Math.floor(rnd() * 3);
+      for (let m = 0; m < nM; m++) {
+        const mx = cx + (rnd() - 0.5) * r, my = cy + (rnd() - 0.5) * r * 0.6;
+        out += `<path d="M ${mx - 4} ${my + 3} L ${mx} ${my - 3.5} L ${mx + 4} ${my + 3}" class="tr-mtn"/>`;
+      }
+    }
+    // sea hatching: short dashes in the gaps
+    for (let i = 0; i < H / 26; i++) {
+      const sx = rnd() * W, sy = rnd() * H;
+      out += `<path d="M ${sx} ${sy} h 7 m 3 0 h 7" class="tr-sea"/>`;
+    }
+    // compass rose, top right
+    const rx = W - 16, ry = 26;
+    out += `<g class="tr-rose"><circle cx="${rx}" cy="${ry}" r="9"/>`
+         + `<path d="M ${rx} ${ry - 12} L ${rx + 2.5} ${ry - 2.5} L ${rx} ${ry + 6} L ${rx - 2.5} ${ry - 2.5} Z"/>`
+         + `<text x="${rx}" y="${ry - 14.5}">N</text></g>`;
+    return out;
+  },
+
   // A route drawn on a map, not a list with dots. The path snakes left and
   // right down the page and the pins sit ON it, so the eye follows a journey
   // instead of scanning a column. Everything is one inline SVG plus absolutely
@@ -685,6 +744,7 @@ const App = {
       <div class="map" style="height:${H}px">
         <svg class="map-path" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none"
              aria-hidden="true">
+          ${this.terrain(leg.topic + leg.name, W, H)}
           <path d="${d}" class="mp-road"/>
           <path d="${d}" class="mp-walked"
                 style="stroke-dasharray:${1200};stroke-dashoffset:${1200 - 1200 * (doneCount / n)}"/>
@@ -753,11 +813,17 @@ const App = {
         ${rows.map(a => {
           const st = Progress.state(a.id);
           const met = st !== 'unseen';
-          return `<button class="pp-card ${st}" onclick="App.species('${a.id}')"
+          // An uncollected slot shows the SHAPE of the animal, cut from its
+          // own photo — a shadow in the shape of the answer. Species whose
+          // segmentation failed review fall back to the blurred ghost.
+          const cut = this.pic(a).replace(/^img\//, '').replace(/\.jpg$/, '');
+          const sil = !met && typeof CUTOUTS !== 'undefined' && CUTOUTS.has(cut);
+          return `<button class="pp-card ${st}${sil ? ' sil' : ''}"
+              onclick="App.species('${a.id}')"
               aria-label="${met ? a.name : 'Not collected yet'}">
             <div class="pp-photo">
-              <img src="${this.pic(a)}" alt="" loading="lazy"
-                   onerror="this.style.opacity=0">
+              <img src="${sil ? 'img/cut/' + cut + '.png' : this.pic(a)}" alt=""
+                   loading="lazy" onerror="this.style.opacity=0">
             </div>
             ${st === 'mastered' ? `<span class="pp-stamp">${this.icon('stamp')}</span>` : ''}
             <div class="pp-name">${met ? a.name : '—'}</div>
