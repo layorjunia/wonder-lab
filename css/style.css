@@ -1208,3 +1208,131 @@ h3 { font-weight: 700; font-size: var(--fs-md); }
   .chip.flame .fl { animation: none; }
   .fact-card { transition: none; }
 }
+
+/* ══ THE FRONT DOOR ════════════════════════════════════════════════════ */
+/* A greeting, the deck, three doors, the trails, the ledger. In that order,
+   because that is the order she cares about them. */
+.mast { padding: calc(18px + var(--sa-t)) 0 4px; }
+.mast-kicker {
+  color: var(--text-dim); font-size: var(--fs-micro); font-weight: 700;
+  letter-spacing: .14em; text-transform: uppercase;
+}
+.mast-greet {
+  font-size: clamp(26px, 7.4vw, var(--fs-2xl));
+  margin-top: 6px; letter-spacing: -.012em;
+}
+
+/* The deck, with a progress ring. The one thing to do today, styled like it. */
+.deckcard {
+  width: 100%; display: flex; align-items: center; gap: 14px; text-align: left;
+  cursor: pointer; margin-top: 16px; padding: 14px 16px;
+  background: linear-gradient(120deg, var(--ink-3), var(--ink-2) 70%);
+  border: 1px solid var(--line-2); border-radius: var(--r-lg);
+  box-shadow: var(--sh-1); transition: transform .1s var(--ease), border-color var(--t);
+}
+.deckcard:active { transform: scale(.985); }
+.deckcard:hover { border-color: var(--lime-dark); }
+.ring { width: 46px; height: 46px; flex: 0 0 46px; transform: rotate(-90deg); }
+.ring-bg { fill: none; stroke: var(--ink-4); stroke-width: 3.4; }
+.ring-fg {
+  fill: none; stroke: var(--lime); stroke-width: 3.4; stroke-linecap: round;
+  transition: stroke-dashoffset .8s var(--ease);
+}
+.ring-t {
+  transform: rotate(90deg); transform-origin: 18px 18px;
+  fill: var(--text-2); font: 700 9.5px var(--font-ui); text-anchor: middle;
+}
+.deckcard .grow { min-width: 0; }
+.deckcard b { display: block; font-weight: 700; font-size: var(--fs-base); }
+.deckcard i { display: block; font-style: normal; color: var(--text-dim);
+  font-size: var(--fs-tiny); margin-top: 3px; }
+.deckcard-go { flex: 0 0 auto; color: var(--lime); font-weight: 700;
+  font-size: var(--fs-small); }
+
+/* The three doors. Full-width, tall, each with its own face — a photograph
+   for the Field, textures for the others. A door, not a menu item. */
+.doors { display: grid; gap: 12px; }
+.door {
+  position: relative; overflow: hidden; isolation: isolate; cursor: pointer;
+  width: 100%; min-height: 116px; text-align: left;
+  display: flex; align-items: center; gap: 14px; padding: 16px 18px;
+  background-color: var(--ink-2); background-size: cover;
+  background-position: center right;
+  border: 1px solid var(--line); border-radius: var(--r-lg);
+  box-shadow: var(--sh-1);
+  transition: transform .1s var(--ease), border-color var(--t), box-shadow var(--t);
+}
+.door:active { transform: scale(.988); }
+.door:hover { border-color: var(--tint); box-shadow: var(--sh-2); }
+.door::before {
+  content: ''; position: absolute; inset: 0; z-index: -2;
+  background: radial-gradient(110% 150% at 0% 50%, var(--tint), transparent 60%);
+  opacity: .16;
+}
+.door::after {
+  content: ''; position: absolute; inset: 0; z-index: -1;
+  background-image: var(--pat, none); background-size: var(--pat-size, 26px 26px);
+  opacity: .4; mix-blend-mode: soft-light; color: var(--tint);
+}
+.door-glyph {
+  flex: 0 0 auto; font-size: 2.1rem; line-height: 1;
+  filter: drop-shadow(0 3px 8px rgba(0,0,0,.5));
+}
+.door-body { flex: 1; min-width: 0; display: block; }
+.door-verb {
+  display: block; color: var(--tint); font-size: var(--fs-micro);
+  font-weight: 700; letter-spacing: .16em; text-transform: uppercase;
+}
+.door-name {
+  display: block; font-family: var(--font-display); font-weight: 600;
+  font-size: var(--fs-xl); line-height: 1.05; margin-top: 4px;
+  text-shadow: 0 2px 14px rgba(0,0,0,.55);
+}
+.door-line {
+  display: block; color: var(--text-2); font-size: var(--fs-tiny);
+  margin-top: 6px; line-height: 1.4; max-width: 34ch;
+  text-shadow: 0 1px 8px rgba(0,0,0,.6);
+}
+.door-tail { flex: 0 0 auto; text-align: right; }
+.door-tail b { display: block; font-family: var(--font-display);
+  font-size: var(--fs-lg); line-height: 1; }
+.door-tail i { display: block; font-style: normal; color: var(--text-dim);
+  font-size: var(--fs-micro); margin-top: 3px; }
+
+/* Trails: a hand of cards you can thumb sideways. */
+.trailstrip {
+  display: flex; gap: 10px; overflow-x: auto; padding: 2px 2px 8px;
+  scrollbar-width: none; scroll-snap-type: x mandatory;
+}
+.trailstrip::-webkit-scrollbar { display: none; }
+.trailcard {
+  flex: 0 0 148px; scroll-snap-align: start; cursor: pointer; text-align: left;
+  padding: 13px 13px 12px; border-radius: var(--r);
+  background: var(--ink-2); border: 1px solid var(--line);
+  border-top: 3px solid var(--tint);
+  transition: transform .1s var(--ease), border-color var(--t);
+}
+.trailcard:active { transform: scale(.96); }
+.trailcard .tc-glyph { font-size: 1.4rem; display: block; }
+.trailcard b {
+  display: block; font-family: var(--font-display); font-weight: 600;
+  font-size: var(--fs-small); line-height: 1.2; margin-top: 8px;
+  min-height: 2.4em;
+}
+.trailcard .tc-sub { display: block; color: var(--text-dim);
+  font-size: var(--fs-micro); margin-top: 5px; }
+.trailcard.done { border-color: var(--lime-dark); }
+.trailcard.done .tc-sub { color: var(--lime); }
+
+/* Species hero: the name lives on the photograph, in the display face. */
+.sp-title { position: absolute; left: 16px; right: 16px; bottom: 12px; z-index: 3; }
+.sp-kind {
+  display: inline-block; padding: 4px 10px; border-radius: 999px;
+  background: rgba(11,17,24,.85); border: 1px solid var(--line-2);
+  color: var(--text-2); font-size: var(--fs-micro); font-weight: 700;
+}
+.sp-name {
+  position: static !important; font-family: var(--font-display);
+  font-weight: 700; font-size: clamp(26px, 7.5vw, 34px);
+  margin-top: 6px; text-shadow: 0 2px 18px rgba(0,0,0,.75);
+}

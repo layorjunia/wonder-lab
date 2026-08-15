@@ -75,11 +75,15 @@ const App = {
     // Four sections (animals, plants, earth, human) plus Today, Play and Notes
     // is seven destinations — too many for a thumb-sized bar. Explore is a hub
     // over the four; the bar stays at four items and has room to grow.
+    // Four, not five. Trails is a strip on the Explore front door — a fifth
+    // top-level destination for six curated lists was navigation for its own
+    // sake, and every tab removed makes the remaining ones bigger for a
+    // nine-year-old's thumb.
     const items = [
-      ['today', 'Today'], ['trails', 'Trails'],
-      ['explore', 'Explore'], ['play', 'Play'], ['notes', 'Notes'],
+      ['today', 'Today'], ['explore', 'Explore'],
+      ['play', 'Play'], ['notes', 'Notes'],
     ];
-    const inExplore = ['explore', 'guide', 'plants', 'body'].concat(Object.keys(TOPIC_SETS));
+    const inExplore = ['explore', 'guide', 'plants', 'body', 'trails'].concat(Object.keys(TOPIC_SETS));
     document.getElementById('nav').innerHTML = items.map(([k, label]) =>
       `<button class="${this.tab === k || (k === 'explore' && inExplore.includes(this.tab)) ? 'on' : ''}"
         onclick="App.go('${k}')" aria-label="${label}">
@@ -416,126 +420,106 @@ const App = {
   // ── EXPLORE: the hub over the four sections ──
   explore() {
     this.resetSay();
+    const name = (Progress.profile && Progress.profile.name) || '';
+    const h = new Date().getHours();
+    const greet = h < 12 ? 'Good morning' : h < 18 ? 'Good afternoon' : 'Good evening';
+    const date = new Date().toLocaleDateString('en-US',
+      { weekday: 'long', month: 'long', day: 'numeric' });
     const c = Progress.counts();
     const met = c.seen + c.known + c.mastered;
-    const nPlants = typeof PLANTS !== 'undefined' ? PLANTS.length : 0;
-    const nBody = typeof BODY !== 'undefined' ? BODY.length : 0;
-
-    // Ten subjects in one flat grid is a wall. Three families, from
-    // FAMILIES in schema.js — a subject with no data yet renders as
-    // "being written" rather than vanishing, so the shape of the app is
-    // visible before the content lands.
-    const countFor = (c) => {
-      if (c.go === 'guide') return `${ANIMALS.length} species · ${met} met`;
-      if (c.go === 'plants') return nPlants ? `${nPlants} kinds to meet` : 'being written';
-      if (c.go === 'body') return `${nBody} facts about you`;
-      const cfg = this.topicCfg(c.topic);
-      return cfg.rows.length ? `${cfg.rows.length} facts` : 'being written';
-    };
-    const cardFor = (c, tint) => {
-      const t = c.topic ? TOPIC_SETS[c.topic] : null;
-      const dest = c.topic || c.go;
-      const glyph = c.glyph || (t && t.glyph);
-      const name = c.name || (t && t.name);
-      const empty = c.topic && !this.topicCfg(c.topic).rows.length;
-      const pat = c.pat || (t && t.pat) || 'leaf';
-      // colour drives the texture too — currentColor inside ::after
-      return `<div class="kingdom pat-${pat}${empty ? ' soon' : ''}"
-          onclick="App.go('${dest}')" style="--tint:${tint};color:${tint}">
-        <span class="k-glyph">${glyph}</span>
-        <div class="k-name" style="color:var(--text)">${name}</div>
-        <div class="k-sub">${countFor(c)}</div>
-      </div>`;
-    };
-
-    const totalFacts = ANIMALS.reduce((n, a) => n + a.facts.length, 0)
-      + (typeof PLANTS !== 'undefined' ? PLANTS.reduce((n, p) => n + p.facts.length, 0) : 0)
-      + nBody
-      + Object.keys(TOPIC_SETS).reduce((n, k) => n + this.topicCfg(k).rows.length, 0);
-    const deck = Progress.p.deck || {};
-    const left = Math.max(0, (deck.served || []).length - (deck.idx || 0));
-    const pct = Math.round(met / Math.max(1, ANIMALS.length) * 100);
     const tried = Object.keys(Progress.p.tried || {}).length;
-    // A photograph, not a coloured rectangle. There are 322 licensed images
-    // here and the front door was using none of them. Curated rather than
-    // random: rotating through all 210 lands on a lot of pale cave newts, and
-    // the first thing she sees each day should be worth seeing.
-    const HERO = ['red-eyed-tree-frog', 'snowy-owl', 'cheetah', 'giraffe', 'orca',
-                  'poison-dart-frog', 'lion', 'emperor-penguin', 'monarch-butterfly',
-                  'tarsier', 'clownfish', 'sea-otter', 'arctic-fox', 'toucan',
-                  'flamingo', 'humpback-whale', 'peacock'];
-    const heroA = this.find(HERO[Math.floor(Date.now() / 864e5) % HERO.length]);
-    const heroPic = heroA ? this.pic(heroA) : this.pic(ANIMALS[0]);
+    const deck = Progress.p.deck || {};
+    const total = (deck.served || []).length;
+    const left = Math.max(0, total - (deck.idx || 0));
+    const pct = total ? Math.round((total - left) / total * 100) : 0;
+    const R = 15.5, CIRC = (2 * Math.PI * R).toFixed(1);
+
+    // The Field's door is a photograph — the app owns 322 of them and the
+    // front door should spend one. The other two doors wear their textures.
+    const doorPic = this.pic(this.find('cheetah') || ANIMALS[0]);
+    const w = WINGS, n = {
+      field: this.wingCount('field'),
+      expedition: this.wingCount('expedition'),
+      lab: this.wingCount('lab'),
+    };
+
     this.el(`
-      <div class="hero">
-        <img class="hero-bg" src="${heroPic}" alt="" aria-hidden="true"
-             onerror="this.style.display='none'">
-        <div class="hero-body">
-          <div class="hero-eyebrow">A field guide to almost everything</div>
-          <h1 class="hero-title">Wonder Lab</h1>
-          <p class="hero-sub">${totalFacts.toLocaleString()} true things, in ten subjects.
-            Every one of them says how anybody knows.</p>
-          <div class="hero-acts">
-            <button class="btn" onclick="App.go('today')">
-              ${left ? `Keep going · ${left} left` : "Today's deck"}</button>
-            <button class="btn ghost" onclick="App.go('trails')">Walk a trail</button>
-          </div>
-        </div>
+      <header class="mast">
+        <div class="mast-kicker">Wonder Lab · ${date}</div>
+        <h1 class="mast-greet">${greet}${name ? ', ' + name : ''}.</h1>
+      </header>
+
+      <button class="deckcard" onclick="App.go('today')">
+        <svg class="ring" viewBox="0 0 36 36" aria-hidden="true">
+          <circle class="ring-bg" cx="18" cy="18" r="${R}"/>
+          <circle class="ring-fg" cx="18" cy="18" r="${R}"
+            stroke-dasharray="${CIRC}"
+            stroke-dashoffset="${(CIRC * (1 - pct / 100)).toFixed(1)}"/>
+          <text x="18" y="22.5" class="ring-t">${pct}%</text>
+        </svg>
+        <span class="grow">
+          <b>${left ? `${left} card${left === 1 ? '' : 's'} left in today's deck`
+                    : total ? "Today's deck is cleared" : "Today's deck is ready"}</b>
+          <i>${left || !total ? 'Dealt fresh every morning' : 'A new one lands tomorrow'}</i>
+        </span>
+        <span class="deckcard-go">${left || !total ? 'Deal →' : 'Look back'}</span>
+      </button>
+
+      <div class="rule">Where to go</div>
+      <div class="doors">
+        <button class="door" onclick="App.wing('field')" style="--tint:${w.field.tint};
+            background-image:linear-gradient(100deg, rgba(11,18,28,.95) 34%, rgba(11,18,28,.18) 78%),
+            url('${doorPic}')">
+          <span class="door-body">
+            <span class="door-verb">${w.field.verb}</span>
+            <span class="door-name">${w.field.name}</span>
+            <span class="door-line">${w.field.line}</span>
+          </span>
+          <span class="door-tail"><b>${n.field.done}</b><i>of ${n.field.total}</i></span>
+        </button>
+        <button class="door pat-brick" onclick="App.wing('expedition')" style="--tint:${w.expedition.tint}">
+          <span class="door-glyph">🧭</span>
+          <span class="door-body">
+            <span class="door-verb">${w.expedition.verb}</span>
+            <span class="door-name">${w.expedition.name}</span>
+            <span class="door-line">${w.expedition.line}</span>
+          </span>
+          <span class="door-tail"><b>${n.expedition.done}</b><i>of ${n.expedition.total}</i></span>
+        </button>
+        <button class="door pat-cell" onclick="App.wing('lab')" style="--tint:${w.lab.tint}">
+          <span class="door-glyph">⚗️</span>
+          <span class="door-body">
+            <span class="door-verb">${w.lab.verb}</span>
+            <span class="door-name">${w.lab.name}</span>
+            <span class="door-line">${w.lab.line}</span>
+          </span>
+          <span class="door-tail"><b>${n.lab.done}</b><i>of ${n.lab.total}</i></span>
+        </button>
       </div>
 
-      <div class="rule">The ledger</div>
+      <div class="rule">Guided trails</div>
+      <div class="trailstrip">
+        ${EXPEDITIONS.map((x) => {
+          const stops = expeditionStops(x).length;
+          const pr = this.expProgress(x.id);
+          const at = pr.done ? stops : Math.min(pr.at, stops);
+          return `<button class="trailcard ${pr.done ? 'done' : ''}" style="--tint:${x.tint}"
+              onclick="App.expedition('${x.id}')">
+            <span class="tc-glyph">${x.glyph}</span>
+            <b>${x.name}</b>
+            <span class="tc-sub">${pr.done ? 'Walked ✓' : `${at} of ${stops} stops`}</span>
+          </button>`;
+        }).join('')}
+      </div>
+
+      <div class="rule">Your ledger</div>
       <div class="ledger">
         <div><b>${met}</b><span>Species met</span></div>
         <div><b>${tried}</b><span>Things tried</span></div>
         <div><b>${Progress.p.whoa.length}</b><span>Saved</span></div>
         <div><b>${Progress.p.dayStreak || 0}</b><span>Day streak</span></div>
       </div>
-
-      <div class="rule">Where to go</div>
-      <div class="wings">
-        ${Object.entries(WINGS).map(([k, w]) => {
-          const n = this.wingCount(k);
-          return `<button class="wing wing-${k}" onclick="App.wing('${k}')"
-              style="--tint:${w.tint}">
-            <span class="wing-glyph">${w.glyph}</span>
-            <div class="wing-body">
-              <div class="wing-verb">${w.verb}</div>
-              <div class="wing-name">${w.name}</div>
-              <div class="wing-line">${w.line}</div>
-            </div>
-            <div class="wing-tail"><b>${n.done}</b><span>of ${n.total}</span></div>
-          </button>`;
-        }).join('')}
-      </div>
-
-      ${this.offlineAll()}
-
-      <div class="card hub-trail" onclick="App.go('trails')" style="margin-top:16px">
-        <div><h2>🧭 Expeditions</h2>
-          <p class="dim small" style="margin-top:4px">Short trails that cross the
-            whole lab — each one goes somewhere.</p></div>
-        <span class="hub-arrow">→</span>
-      </div>
-      <div class="hub-panel">
-        <div class="hub-main card">
-          <h2>${left ? `${left} card${left === 1 ? '' : 's'} left today` : "Today's deck is done"}</h2>
-          <p class="dim" style="margin-top:6px">
-            ${left ? 'A fresh deck is dealt every morning.'
-                   : 'Come back tomorrow for a new one — or browse anything above.'}</p>
-          <button class="btn ${left ? '' : 'ghost'} wide" style="margin-top:14px"
-            onclick="App.go('today')">${left ? 'Keep going →' : 'See the deck'}</button>
-        </div>
-        <div class="hub-side card">
-          <h2>Where you are</h2>
-          <div class="dim small" style="margin-top:10px">Species met</div>
-          <div class="meter" style="margin-top:5px"><span style="width:${pct}%"></span></div>
-          <div class="dim small" style="margin-top:4px">${met} of ${ANIMALS.length} animals · ${pct}%</div>
-          <div class="hub-stats">
-            <div><b>${totalFacts.toLocaleString()}</b><span class="dim small">facts in here</span></div>
-            <div><b>${Progress.p.whoa.length}</b><span class="dim small">saved to Notes</span></div>
-          </div>
-        </div>
-      </div>`);
+      ${this.offlineAll()}`);
     this.countUp();
   },
 
@@ -879,14 +863,16 @@ const App = {
     this.el(`
       <div class="bar"><button class="btn ghost" onclick="App.go('${isPlant ? 'plants' : 'guide'}')">←</button>
         <div class="grow"></div>
-        <span class="chip">${g.glyph || ''} ${g.name || a.group}</span>
         ${st === 'mastered' ? '<span class="chip accent">★ Mastered</span>' : ''}</div>
       <div class="fact-card" style="margin-bottom:16px">
-        <div class="fact-photo profile-photo"
+        <div class="fact-photo profile-photo sp-hero"
              style="background-image:url('img/${hero}')">
           <img src="img/${hero}" alt="${a.name}" onerror="this.style.display='none'">
           ${art ? '<span class="art-tag">🎨 Artist\'s idea</span>' : ''}
-          <div class="fact-name">${a.name}</div>
+          <div class="sp-title">
+            <span class="sp-kind">${g.glyph || ''} ${g.name || a.group}</span>
+            <div class="fact-name sp-name">${a.name}</div>
+          </div>
         </div>
         <div class="fact-body">
           <div style="font-size:1.04rem">${a.blurb}</div>
