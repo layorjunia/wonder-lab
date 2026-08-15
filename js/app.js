@@ -107,6 +107,22 @@ const App = {
              + '.8c0-1 1.2-1.4 1.2-2.9 0-1.4-1.1-2.6-3-2.6z"/>'
              + '<rect x="4.5" y="10.5" width="15" height="6.5" rx="1.4"/>'
              + '<path d="M4.5 20h15"/>',
+    compass: '<circle cx="12" cy="12" r="9"/>'
+             + '<path d="M15.8 8.2 13.4 13.4 8.2 15.8 10.6 10.6z"/>',
+    flask:   '<path d="M9 3.5h6"/>'
+             + '<path d="M10.2 3.5v5.2L5.3 18a2.1 2.1 0 0 0 1.9 3h9.6a2.1 2.1 0 0 0 1.9-3'
+             + 'l-4.9-9.3V3.5"/><path d="M7.6 15.2h8.8"/>',
+    zoom:    '<circle cx="11" cy="11" r="6.5"/><path d="M15.9 15.9 20.5 20.5"/>'
+             + '<path d="M8.4 11h5.2M11 8.4v5.2"/>',
+    scale:   '<path d="M12 5.5V19"/><path d="M4.5 8h15"/><path d="M9 19h6"/>'
+             + '<path d="M7 8.4 4.6 13a2.6 2.6 0 0 0 4.8 0z"/>'
+             + '<path d="M17 8.4 14.6 13a2.6 2.6 0 0 0 4.8 0z"/>',
+    ears:    '<path d="M4.5 13.5a7.5 7.5 0 0 1 15 0"/>'
+             + '<rect x="4" y="13" width="3.7" height="6.2" rx="1.7"/>'
+             + '<rect x="16.3" y="13" width="3.7" height="6.2" rx="1.7"/>',
+    vs:      '<path d="M9.5 6.5 5 12l4.5 5.5"/><path d="M14.5 6.5 19 12l-4.5 5.5"/>',
+    beaker:  '<path d="M7 3.5h10"/><path d="M8.5 3.5V10l-3.4 8.2A2 2 0 0 0 7 21h10a2 2 0 0 0'
+             + ' 1.9-2.8L15.5 10V3.5"/><path d="M6.2 15h11.6"/>',
   },
 
   icon(name) {
@@ -222,19 +238,20 @@ const App = {
   welcome() {
     document.getElementById('nav').innerHTML = '';
     this.el(`
-      <div style="padding:60px 6px 20px;text-align:center">
-        <div style="font-size:4rem;line-height:1">🔬</div>
-        <h1 style="margin-top:10px;font-size:2.1rem">Wonder Lab</h1>
-        <p class="dim" style="margin-top:8px;font-size:1.02rem">
-          Thousands of true, strange, brilliant things<br>about animals and your own body.</p>
+      <div class="w-hero" style="background-image:url('img/red-eyed-tree-frog.jpg')">
+        <div class="w-body">
+          <div class="pp-kicker">A field guide to almost everything</div>
+          <h1 class="w-title">Wonder Lab</h1>
+          <p class="w-sub">Thousands of true, strange, brilliant things —
+            animals, plants, the earth, the sky, and you.</p>
+        </div>
       </div>
-      <div class="card">
+      <div class="card w-card">
         <h2>What should we call you?</h2>
-        <input id="nm" maxlength="18" placeholder="Your name"
-          style="width:100%;margin-top:12px;padding:14px;border-radius:12px;
-                 background:var(--ink-3);border:1px solid var(--line);
-                 color:var(--text);font:inherit;font-size:1.05rem">
-        <button class="btn wide big" style="margin-top:14px" onclick="App.start()">Start exploring</button>
+        <input id="nm" maxlength="18" placeholder="Your name" autocomplete="off"
+          class="w-input">
+        <button class="btn wide big" style="margin-top:14px" onclick="App.start()">
+          Start exploring</button>
       </div>`);
     setTimeout(() => { const i = document.getElementById('nm'); if (i) i.focus(); }, 100);
   },
@@ -478,7 +495,7 @@ const App = {
           <span class="door-tail"><b>${n.field.done}</b><i>of ${n.field.total}</i></span>
         </button>
         <button class="door pat-brick" onclick="App.wing('expedition')" style="--tint:${w.expedition.tint}">
-          <span class="door-glyph">🧭</span>
+          <span class="door-ic">${this.icon('compass')}</span>
           <span class="door-body">
             <span class="door-verb">${w.expedition.verb}</span>
             <span class="door-name">${w.expedition.name}</span>
@@ -487,7 +504,7 @@ const App = {
           <span class="door-tail"><b>${n.expedition.done}</b><i>of ${n.expedition.total}</i></span>
         </button>
         <button class="door pat-cell" onclick="App.wing('lab')" style="--tint:${w.lab.tint}">
-          <span class="door-glyph">⚗️</span>
+          <span class="door-ic">${this.icon('flask')}</span>
           <span class="door-body">
             <span class="door-verb">${w.lab.verb}</span>
             <span class="door-name">${w.lab.name}</span>
@@ -596,7 +613,7 @@ const App = {
     const doneEx = stations.reduce((n, s2) => n + s2.done, 0);
     this.el(`
       <div class="pp-head">
-        <div class="pp-crest lab-crest">⚗️</div>
+        <div class="pp-crest lab-crest">${this.icon('flask')}</div>
         <div><div class="pp-kicker lab-kick">The lab</div>
           <h1 class="pp-title">${doneEx} <span>of ${totalEx} experiments done</span></h1></div>
       </div>
@@ -636,7 +653,7 @@ const App = {
 
     this.el(`
       <div class="pp-head">
-        <div class="pp-crest map-crest">🧭</div>
+        <div class="pp-crest map-crest">${this.icon('compass')}</div>
         <div><div class="pp-kicker map-kick">The expedition</div>
           <h1 class="pp-title">${visited} <span>of ${total} places visited</span></h1></div>
       </div>
@@ -1509,27 +1526,27 @@ const App = {
       ${this.bar('Play', this.streakChip())}
       <div class="tiles">
         <div class="tile" onclick="App.quiz()">
-          <span class="t-glyph">🎯</span>
+          <span class="t-glyph t-ic">${this.icon('play')}</span>
           <div class="t-name">Spot Check</div>
           <div class="t-sub">Quiz yourself</div></div>
         <div class="tile" onclick="App.faceoffPick()">
-          <span class="t-glyph">⚔️</span>
+          <span class="t-glyph t-ic">${this.icon('vs')}</span>
           <div class="t-name">Face-Off</div>
           <div class="t-sub">Compare two animals</div></div>
         <div class="tile" onclick="App.zoomGame()">
-          <span class="t-glyph">🔎</span>
+          <span class="t-glyph t-ic">${this.icon('zoom')}</span>
           <div class="t-name">Zoom In</div>
           <div class="t-sub">Name it before it clears</div></div>
         <div class="tile" onclick="App.higherGame()">
-          <span class="t-glyph">⚖️</span>
+          <span class="t-glyph t-ic">${this.icon('scale')}</span>
           <div class="t-name">Bigger or Smaller</div>
           <div class="t-sub">Keep the streak alive</div></div>
         <div class="tile" onclick="App.listenGame()">
-          <span class="t-glyph">🎧</span>
+          <span class="t-glyph t-ic">${this.icon('ears')}</span>
           <div class="t-name">Listen Up</div>
           <div class="t-sub">Guess it from a clue</div></div>
         <div class="tile" onclick="App.tried()">
-          <span class="t-glyph">🧪</span>
+          <span class="t-glyph t-ic">${this.icon('beaker')}</span>
           <div class="t-name">Try It Now</div>
           <div class="t-sub">${Object.keys(Progress.p.tried || {}).length} of ${this.allTryits().length} done</div></div>
       </div>

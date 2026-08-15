@@ -1336,3 +1336,63 @@ h3 { font-weight: 700; font-size: var(--fs-md); }
   font-weight: 700; font-size: clamp(26px, 7.5vw, 34px);
   margin-top: 6px; text-shadow: 0 2px 18px rgba(0,0,0,.75);
 }
+
+/* ══ DRAWN MARKS — where emoji was doing a job it cannot do reliably ═══ */
+.door-ic { flex: 0 0 auto; }
+.door-ic .n-ic { display: block; width: 40px; height: 40px; color: var(--tint);
+  filter: drop-shadow(0 3px 10px rgba(0,0,0,.5)); }
+.door-ic .n-ic svg { width: 100%; height: 100%; fill: none; stroke: currentColor;
+  stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+
+.pp-crest .n-ic { display: block; width: 26px; height: 26px; }
+.pp-crest .n-ic svg { width: 100%; height: 100%; fill: none; stroke: currentColor;
+  stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.map-crest { color: #2a1c00; }
+.lab-crest { color: #062730; }
+
+.t-ic .n-ic { display: block; width: 27px; height: 27px; color: var(--lime); }
+.t-ic .n-ic svg { width: 100%; height: 100%; fill: none; stroke: currentColor;
+  stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+
+/* The daily card's name gets the same display-face treatment as the species
+   hero — it is the same object, met a day earlier. */
+.fact-photo .fact-name {
+  font-family: var(--font-display); font-weight: 700;
+  font-size: clamp(24px, 6.6vw, 31px); letter-spacing: -.01em;
+  text-shadow: 0 2px 18px rgba(0,0,0,.75);
+}
+
+/* ══ WELCOME — the first screen anyone ever sees ═══════════════════════ */
+.w-hero {
+  position: relative; overflow: hidden; isolation: isolate;
+  min-height: 46vh; display: flex; align-items: flex-end;
+  margin: calc(10px + var(--sa-t)) 0 14px;
+  border-radius: var(--r-xl); border: 1px solid var(--line);
+  background-size: cover; background-position: center 30%;
+  box-shadow: var(--sh-2);
+}
+/* One pseudo-layer only, and it must NOT be opaque: children with negative
+   z-index paint ABOVE the element's own background, so an opaque plate here
+   hides the photograph entirely. The fallback lives in background-color. */
+.w-hero { background-color: var(--ink-3); }
+.w-hero::after {
+  content: ''; position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(180deg, rgba(13,22,33,.15) 0%,
+              rgba(13,22,33,.66) 55%, rgba(13,22,33,.95) 100%);
+}
+.w-body { position: relative; padding: 24px 22px 20px; }
+.w-title {
+  font-size: clamp(38px, 11vw, 52px); line-height: 1; margin-top: 8px;
+  text-shadow: 0 2px 26px rgba(0,0,0,.65);
+}
+.w-sub { color: var(--text-2); margin-top: 10px; max-width: 44ch;
+  font-size: var(--fs-small); line-height: 1.55; }
+.w-card h2 { font-size: var(--fs-md); }
+.w-input {
+  width: 100%; margin-top: 12px; padding: 15px 16px;
+  border-radius: var(--r); background: var(--ink-3);
+  border: 1.5px solid var(--line-2); color: var(--text);
+  font: inherit; font-size: 1.06rem;
+}
+.w-input:focus { outline: none; border-color: var(--lime-dark);
+  box-shadow: 0 0 0 3px rgba(168,240,98,.15); }
