@@ -84,6 +84,12 @@ const AudioLib = {
       a.src = SILENCE;
       const p = a.play();
       if (p && p.catch) p.catch(() => {});
+      // Prime the sound-effect pool in the same gesture. Sfx used to mint a
+      // fresh Audio per call — the exact trap that silenced the whole app on
+      // iOS once already. A sound fired inside a tap survives that; the stamp
+      // thunk (520 ms after render) and the deck fanfare (after a setTimeout)
+      // fire OUTSIDE the gesture and would be silently killed.
+      Sfx.prime();
     };
     // Capture, so the element is unlocked BEFORE the Listen button's own
     // handler runs — say() awaits the manifest before it plays, and by then
@@ -293,12 +299,37 @@ const AudioLib = {
 // rapid taps stack instead of cutting each other off.
 const Sfx = {
   enabled: true,
+  _pool: [],
+  _i: 0,
+
+  // Four elements, all unlocked on the first gesture (AudioLib calls this).
+  // Round-robin means up to four effects can overlap — a yes landing on a
+  // ding — without any of them cutting another off.
+  prime() {
+    if (this._pool.length) return;
+    for (let k = 0; k < 4; k++) {
+      const a = new Audio();
+      a.playsInline = true;
+      a.setAttribute('playsinline', '');
+      a.src = SILENCE;
+      const p = a.play();
+      if (p && p.catch) p.catch(() => {});
+      this._pool.push(a);
+    }
+  },
+
   play(name, volume) {
     if (!this.enabled) return;
     try {
-      const a = new Audio(AUDIO_BASE + 'sfx/' + name + '.m4a');
+      // Fall back to a bare element pre-gesture (desktop allows it; iOS will
+      // refuse and that is correct — nothing should sound before a touch).
+      const a = this._pool.length
+        ? this._pool[this._i++ % this._pool.length]
+        : new Audio();
+      a.src = AUDIO_BASE + 'sfx/' + name + '.m4a';
       a.volume = volume == null ? 0.75 : volume;
-      a.play().catch(() => {});
+      const p = a.play();
+      if (p && p.catch) p.catch(() => {});
     } catch (e) { /* audio not available yet */ }
   }
 };
