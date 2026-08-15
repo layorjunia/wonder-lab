@@ -123,7 +123,7 @@ const CATEGORIES = {
   senses:   { name: 'Super Senses', glyph: '👁️' },
   food:     { name: 'Food',         glyph: '🍽️' },
   babies:   { name: 'Babies',       glyph: '🥚' },
-  defence:  { name: 'Defence',      glyph: '🛡️' },
+  defence:  { name: 'Defense',      glyph: '🛡️' },
   record:   { name: 'Record Holder', glyph: '🏆' },
   weird:    { name: 'Weird But True', glyph: '🤯' },
   build:    { name: 'Built-In Tools', glyph: '🔧' },

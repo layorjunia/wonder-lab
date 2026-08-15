@@ -1151,3 +1151,60 @@ h3 { font-weight: 700; font-size: var(--fs-md); }
 .pin-r .pin-label {
   background: linear-gradient(270deg, rgba(13,22,33,.92), rgba(13,22,33,.72));
 }
+
+/* ══ MOTION & CELEBRATION ══════════════════════════════════════════════ */
+
+/* The deck is a deck: two ghost cards peek out beneath the top one, and the
+   dealt card slides off left the way a card leaves a pile. */
+.fact-deck::before, .fact-deck::after {
+  content: ''; position: absolute; left: 8px; right: 8px; top: 10px;
+  height: 97%; z-index: -1; border-radius: 24px;
+  background: var(--ink-2); border: 1px solid var(--line);
+  transform: rotate(1.1deg) translateY(6px);
+}
+.fact-deck::after {
+  left: 15px; right: 15px;
+  transform: rotate(-1.4deg) translateY(13px); opacity: .55;
+}
+.fact-card { transition: transform .22s var(--ease), opacity .22s var(--ease); }
+.fact-card.dealt {
+  transform: translateX(-115%) rotate(-7deg); opacity: 0;
+}
+
+/* Thin strip under the Today bar: how deep into the deck she is. */
+.deckbar {
+  height: 4px; border-radius: 999px; background: var(--ink-3);
+  overflow: hidden; margin: 0 0 12px;
+}
+.deckbar span {
+  display: block; height: 100%; border-radius: 999px;
+  background: linear-gradient(90deg, var(--cyan), var(--lime));
+  transition: width .4s var(--ease);
+}
+
+/* Confetti: little palette squares that fall, drift and spin. DOM only. */
+.confetti { position: fixed; inset: 0; z-index: 70; pointer-events: none;
+            overflow: hidden; }
+.confetti i {
+  position: absolute; top: -14px; width: 9px; height: 12px;
+  border-radius: 2px; opacity: 0;
+  animation: cfall 1.3s cubic-bezier(.25,.4,.6,1) forwards;
+}
+@keyframes cfall {
+  0%   { opacity: 1; transform: translate(0, 0) rotate(0); }
+  100% { opacity: .9;
+         transform: translate(var(--drift), 104vh) rotate(var(--spin)); }
+}
+
+/* The streak flame breathes. */
+.chip.flame .fl { display: inline-block; transform-origin: 50% 90%;
+  animation: flick 1.1s ease-in-out infinite; }
+@keyframes flick {
+  0%, 100% { transform: scale(1) rotate(-2deg); }
+  40%      { transform: scale(1.14) rotate(2deg); }
+  70%      { transform: scale(.95) rotate(-1deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .chip.flame .fl { animation: none; }
+  .fact-card { transition: none; }
+}

@@ -110,6 +110,25 @@ const App = {
          + (this.ICON[name] || '') + `</svg></span>`;
   },
 
+  // Squares of the app's own palette thrown from the top of the screen.
+  // Pure DOM + CSS keyframes: no canvas, no library, gone in 1.6 s. Skipped
+  // entirely for a child who has asked the OS for reduced motion.
+  confetti(n) {
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const box = document.createElement('div');
+    box.className = 'confetti';
+    const hues = ['var(--lime)', 'var(--cyan)', 'var(--amber)', 'var(--violet)', 'var(--coral)'];
+    box.innerHTML = Array.from({ length: n }, (_, i) => `<i style="
+      left:${8 + Math.random() * 84}%;
+      background:${hues[i % hues.length]};
+      animation-delay:${Math.random() * .25}s;
+      animation-duration:${1 + Math.random() * .5}s;
+      --drift:${(Math.random() * 2 - 1) * 90}px;
+      --spin:${360 + Math.random() * 540}deg;"></i>`).join('');
+    document.body.appendChild(box);
+    setTimeout(() => box.remove(), 1900);
+  },
+
   // ── Listen buttons ──
   // Narration is opt-in per section, never automatic: this app is read as
   // often as it is listened to, and audio that starts by itself is audio you
@@ -192,7 +211,7 @@ const App = {
 
   streakChip() {
     const s = Progress.p.dayStreak || 0;
-    return s > 1 ? `<span class="chip flame">🔥 ${s}</span>` : '';
+    return s > 1 ? `<span class="chip flame"><span class="fl">🔥</span> ${s}</span>` : '';
   },
 
   // ── welcome ──
@@ -271,6 +290,7 @@ const App = {
     const whoa = Progress.isWhoa(a.id, +fi);
     this.el(`
       ${this.bar('Today', `${this.streakChip()}<span class="chip">${deck.idx + 1} / ${deck.served.length}</span>`)}
+      <div class="deckbar"><span style="width:${Math.round((deck.idx) / deck.served.length * 100)}%"></span></div>
       <div class="fact-deck">
         <div class="fact-card">
           <div class="fact-photo" style="background-image:url('${this.pic(a)}')">
@@ -295,6 +315,16 @@ const App = {
           </div>
         </div>
       </div>`);
+    // Swipe left deals the next card — the gesture a deck of cards asks for.
+    const el = document.querySelector('.fact-card');
+    if (el) {
+      let x0 = null;
+      el.addEventListener('touchstart', (ev) => { x0 = ev.touches[0].clientX; }, { passive: true });
+      el.addEventListener('touchend', (ev) => {
+        if (x0 !== null && x0 - ev.changedTouches[0].clientX > 56) this.nextCard();
+        x0 = null;
+      }, { passive: true });
+    }
     if (isNew) this.newSpecimen(a);
   },
 
@@ -321,6 +351,9 @@ const App = {
     // throttled in a background tab and the animation would never begin
     void wrap.offsetWidth;
     wrap.classList.add('in');
+    // the thump lands with the stamp animation (.5s delay), not the card
+    setTimeout(() => Sfx.play('stamp', 0.5), 520);
+    this.confetti(12);
     const close = () => {
       wrap.classList.remove('in');
       setTimeout(() => wrap.remove(), 320);
@@ -337,6 +370,18 @@ const App = {
   },
 
   nextCard() {
+    Sfx.play('pop', 0.35);
+    const card = document.querySelector('.fact-card');
+    if (card && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      card.classList.add('dealt');
+      // rAF is throttled in background tabs; a class + transition is not
+      setTimeout(() => this._advanceCard(), 220);
+      return;
+    }
+    this._advanceCard();
+  },
+
+  _advanceCard() {
     Progress.p.deck.idx++;
     Progress.commit();
     this.today();
@@ -344,6 +389,12 @@ const App = {
 
   deckDone() {
     const c = Progress.counts();
+    const deck = Progress.p.deck || {};
+    if (!deck.celebrated) {
+      deck.celebrated = true; Progress.commit();
+      Sfx.play('tada', 0.5);
+      this.confetti(28);
+    }
     this.el(`
       ${this.bar('Today', this.streakChip())}
       <div class="card" style="text-align:center;padding:34px 20px">
@@ -485,9 +536,26 @@ const App = {
           </div>
         </div>
       </div>`);
+    this.countUp();
   },
 
-
+  // Ledger numbers count up from zero when the screen opens. 600 ms, eased,
+  // skipped under reduced motion — a small thing that makes progress feel
+  // like a score rather than a database readout.
+  countUp() {
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    document.querySelectorAll('.ledger b').forEach((el) => {
+      const target = parseInt(el.textContent.replace(/,/g, ''), 10);
+      if (!target || target > 9999) return;
+      const t0 = performance.now();
+      const tick = (now) => {
+        const k = Math.min(1, (now - t0) / 600);
+        el.textContent = Math.round(target * (1 - Math.pow(1 - k, 3))).toLocaleString();
+        if (k < 1) requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+    });
+  },
 
   // How full each wing is, in its own units — species collected, stops
   // walked, experiments done. A single "facts" number told her nothing.
@@ -1149,6 +1217,8 @@ const App = {
     st.played++;
     st.streak = right ? st.streak + 1 : 0;
     if (st.streak > st.best) st.best = st.streak;
+    Sfx.play(right ? 'yes' : 'no', right ? 0.4 : 0.3);
+    if (right && st.streak > 0 && st.streak % 5 === 0) this.confetti(20);
     Progress.markSeen(z.a.id);
     Progress.commit();
 
@@ -1230,6 +1300,8 @@ const App = {
     st.played++;
     st.streak = right ? st.streak + 1 : 0;
     if (st.streak > st.best) st.best = st.streak;
+    Sfx.play(right ? 'yes' : 'no', right ? 0.4 : 0.3);
+    if (right && st.streak > 0 && st.streak % 5 === 0) this.confetti(20);
     Progress.markSeen(a.id); Progress.markSeen(b.id);
     Progress.commit();
 
@@ -1315,6 +1387,8 @@ const App = {
     st.played++;
     st.streak = right ? st.streak + 1 : 0;
     if (st.streak > st.best) st.best = st.streak;
+    Sfx.play(right ? 'yes' : 'no', right ? 0.4 : 0.3);
+    if (right && st.streak > 0 && st.streak % 5 === 0) this.confetti(20);
     Progress.markSeen(l.a.id);
     Progress.commit();
     document.querySelectorAll('#lopts .opt').forEach((b, n) => {
@@ -1373,7 +1447,13 @@ const App = {
 
   toggleTried(key) {
     const t = Progress.p.tried || (Progress.p.tried = {});
-    if (t[key]) delete t[key]; else t[key] = Store.dayKey();
+    if (t[key]) { delete t[key]; }
+    else {
+      t[key] = Store.dayKey();
+      Sfx.play('ding', 0.4);
+      // finishing the whole list is worth a moment
+      if (this.allTryits().every(x => t[x.key])) { Sfx.play('tada', 0.5); this.confetti(24); }
+    }
     Progress.commit();
     this.tried();
   },
@@ -1581,6 +1661,9 @@ const App = {
       else if (j === i) btn.classList.add('wrong');
     });
     Progress.recordQuiz(chosen.right);
+    Sfx.play(chosen.right ? 'yes' : 'no', chosen.right ? 0.4 : 0.3);
+    const q = Progress.p.quiz;
+    if (chosen.right && q.streak > 0 && q.streak % 5 === 0) this.confetti(20);
     if (chosen.right) Progress.markRight(question.subject);
     document.getElementById('after').innerHTML = `
       <div class="card" style="margin-top:12px">
