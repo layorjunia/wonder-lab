@@ -61,11 +61,17 @@ const App = {
     this.resetSay();
     ({ today: () => this.today(), trails: () => this.expeditions(),
        explore: () => this.explore(),
-       guide: () => this.guide(), plants: () => this.plants(),
+       guide: () => { this._roster = 'animals'; this.passportFilter = null; this.passport(); },
+       plants: () => { this._roster = 'plants'; this.passportFilter = null; this.passport(); },
        play: () => this.play(),
        body: () => this.body(), notes: () => this.notes() }[tab]
-      // Any TOPIC_SETS key is a valid destination — seven subjects and
-      // counting, none of which needs its own line here.
+      // Every subject routes to its HALL — the screen that IS its
+      // instrument. Astronomy lands on the sky, history and earth land on
+      // their route maps, the sciences land on their benches.
+      || (tab === 'astro' ? () => this.sky() : null)
+      || (['ancient', 'america', 'world', 'earth'].includes(tab)
+          ? () => this.mapHall(tab) : null)
+      || (['micro', 'physical'].includes(tab) ? () => this.benchHall(tab) : null)
       || (TOPIC_SETS[tab] ? () => this.topics(tab) : null)
       || (() => this.today()))();
     this.renderNav();
@@ -454,14 +460,44 @@ const App = {
     const pct = total ? Math.round((total - left) / total * 100) : 0;
     const R = 15.5, CIRC = (2 * Math.PI * R).toFixed(1);
 
-    // The Field's door is a photograph — the app owns 322 of them and the
-    // front door should spend one. The other two doors wear their textures.
-    const doorPic = this.pic(this.find('cheetah') || ANIMALS[0]);
-    const w = WINGS, n = {
-      field: this.wingCount('field'),
-      expedition: this.wingCount('expedition'),
-      lab: this.wingCount('lab'),
-    };
+    // Ten subjects, three shelves, ONE tap each. The wings-and-doors layer
+    // that used to sit above the subjects hid the thing she was looking for —
+    // navigation for its own sake. The subjects ARE the app; put them on the
+    // front door, always in the same order, always one tap away.
+    const collected = (roster) =>
+      roster.filter((a) => Progress.state(a.id) !== 'unseen').length;
+    const SUBJECTS = [
+      ['Living things', [
+        { go: 'guide', name: 'Animals', glyph: '🦁', pat: 'fur',
+          tint: 'var(--amber)',
+          sub: `${collected(ANIMALS)} of ${ANIMALS.length} collected` },
+        { go: 'plants', name: 'Plants', glyph: '🌻', pat: 'leaf',
+          tint: 'var(--lime)',
+          sub: typeof PLANTS !== 'undefined'
+            ? `${collected(PLANTS)} of ${PLANTS.length} collected` : '' },
+        { go: 'micro', name: 'Microbiology', glyph: '🦠', pat: 'cell',
+          tint: 'var(--cyan)', sub: `${this.topicCfg('micro').rows.length} facts` },
+        { go: 'body', name: 'Your Body', glyph: '🫀', pat: 'pulse',
+          tint: 'var(--violet)',
+          sub: `${typeof BODY !== 'undefined' ? BODY.length : 0} facts` },
+      ]],
+      ['Earth & sky', [
+        { go: 'earth', name: 'Earth', glyph: '🌍', pat: 'topo',
+          tint: 'var(--cyan)', sub: `${this.topicCfg('earth').rows.length} facts` },
+        { go: 'astro', name: 'Astronomy', glyph: '🔭', pat: 'star',
+          tint: '#8fa8ff', sub: `${this.topicCfg('astro').rows.length} stars` },
+        { go: 'physical', name: 'Physical Science', glyph: '🧲', pat: 'wave',
+          tint: '#6fb3ff', sub: `${this.topicCfg('physical').rows.length} facts` },
+      ]],
+      ['History', [
+        { go: 'ancient', name: 'Ancient History', glyph: '🏺', pat: 'brick',
+          tint: 'var(--amber)', sub: `${this.topicCfg('ancient').rows.length} facts` },
+        { go: 'america', name: 'American History', glyph: '🦅', pat: 'scroll',
+          tint: '#ff9f7a', sub: `${this.topicCfg('america').rows.length} facts` },
+        { go: 'world', name: 'World History', glyph: '🌐', pat: 'star2',
+          tint: 'var(--violet)', sub: `${this.topicCfg('world').rows.length} facts` },
+      ]],
+    ];
 
     this.el(`
       <header class="mast">
@@ -485,37 +521,17 @@ const App = {
         <span class="deckcard-go">${left || !total ? 'Deal →' : 'Look back'}</span>
       </button>
 
-      <div class="rule">Where to go</div>
-      <div class="doors">
-        <button class="door" onclick="App.wing('field')" style="--tint:${w.field.tint};
-            background-image:linear-gradient(100deg, rgba(11,18,28,.95) 34%, rgba(11,18,28,.18) 78%),
-            url('${doorPic}')">
-          <span class="door-body">
-            <span class="door-verb">${w.field.verb}</span>
-            <span class="door-name">${w.field.name}</span>
-            <span class="door-line">${w.field.line}</span>
-          </span>
-          <span class="door-tail"><b>${n.field.done}</b><i>of ${n.field.total}</i></span>
-        </button>
-        <button class="door pat-brick" onclick="App.wing('expedition')" style="--tint:${w.expedition.tint}">
-          <span class="door-ic">${this.icon('compass')}</span>
-          <span class="door-body">
-            <span class="door-verb">${w.expedition.verb}</span>
-            <span class="door-name">${w.expedition.name}</span>
-            <span class="door-line">${w.expedition.line}</span>
-          </span>
-          <span class="door-tail"><b>${n.expedition.done}</b><i>of ${n.expedition.total}</i></span>
-        </button>
-        <button class="door pat-cell" onclick="App.wing('lab')" style="--tint:${w.lab.tint}">
-          <span class="door-ic">${this.icon('flask')}</span>
-          <span class="door-body">
-            <span class="door-verb">${w.lab.verb}</span>
-            <span class="door-name">${w.lab.name}</span>
-            <span class="door-line">${w.lab.line}</span>
-          </span>
-          <span class="door-tail"><b>${n.lab.done}</b><i>of ${n.lab.total}</i></span>
-        </button>
-      </div>
+      ${SUBJECTS.map(([label, cards]) => `
+        <div class="rule">${label}</div>
+        <div class="kingdoms">
+          ${cards.map((c) => `
+            <button class="kingdom pat-${c.pat}" onclick="App.go('${c.go}')"
+                style="--tint:${c.tint};color:${c.tint}">
+              <span class="k-glyph">${c.glyph}</span>
+              <div class="k-name" style="color:var(--text)">${c.name}</div>
+              <div class="k-sub">${c.sub}</div>
+            </button>`).join('')}
+        </div>`).join('')}
 
       <div class="rule">Guided trails</div>
       <div class="trailstrip">
@@ -777,6 +793,63 @@ const App = {
   },
 
 
+
+  // ══ SUBJECT HALLS ═══════════════════════════════════════════════════════
+  // One subject, one screen, and the screen IS the instrument. History and
+  // Earth are route maps; the sciences are benches; Astronomy is the sky.
+  mapHall(key) {
+    this.resetSay();
+    this.tab = key; this.renderNav();
+    const cfg = this.topicCfg(key);
+    const seen = new Set(Progress.p.stops || []);
+    const leg = { topic: key, name: cfg.title,
+      stops: Object.entries(cfg.secs)
+        .map(([sk, sv]) => ({ sk, name: sv.name, glyph: sv.glyph,
+          n: cfg.rows.filter(e => e.section === sk).length }))
+        .filter(x => x.n) };
+    const done = leg.stops.filter(st => seen.has(key + ':' + st.sk)).length;
+    this.el(`
+      <div class="bar"><button class="btn ghost" onclick="App.go('explore')">←</button>
+        <div class="grow"></div><h2>${cfg.glyph} ${cfg.title}</h2>
+        <span class="chip accent">${done}/${leg.stops.length}</span></div>
+      <p class="dim small" style="margin:2px 2px 8px">A route with ${leg.stops.length}
+        stops. Walk it in order or jump to what looks interesting.</p>
+      ${this.mapLeg(leg, seen)}
+      ${this.offlineRow(key, cfg)}`);
+  },
+
+  benchHall(key) {
+    this.resetSay();
+    this.tab = key; this.renderNav();
+    const cfg = this.topicCfg(key);
+    const tried = Progress.p.tried || {};
+    const stations = Object.entries(cfg.secs).map(([sk, sv]) => {
+      const rows = cfg.rows.filter(e => e.section === sk);
+      const ex = rows.filter(e => e.tryit);
+      return { sk, name: sv.name, glyph: sv.glyph, n: rows.length,
+        ex: ex.length, done: ex.filter(e => tried[e.id]).length };
+    }).filter(st => st.n);
+    const totEx = stations.reduce((n, x) => n + x.ex, 0);
+    const doneEx = stations.reduce((n, x) => n + x.done, 0);
+    this.el(`
+      <div class="bar"><button class="btn ghost" onclick="App.go('explore')">←</button>
+        <div class="grow"></div><h2>${cfg.glyph} ${cfg.title}</h2>
+        <span class="chip accent">${doneEx}/${totEx} tried</span></div>
+      <p class="dim small" style="margin:2px 2px 8px">Benches you can actually
+        work at. The chip on each one counts real experiments.</p>
+      <div class="bench">
+        ${stations.map(st => `
+          <button class="station" onclick="App.topics('${key}','${st.sk}')">
+            <span class="st-glyph">${st.glyph}</span>
+            <div class="st-name">${st.name}</div>
+            <div class="st-sub">${st.n} things to learn</div>
+            ${st.ex ? `<div class="st-ex ${st.done === st.ex ? 'all' : ''}">
+              ${st.done}/${st.ex} tried</div>` : ''}
+          </button>`).join('')}
+      </div>
+      ${this.offlineRow(key, cfg)}`);
+  },
+
   // ══ THE SIZE PARADE ═════════════════════════════════════════════════════
   // An instrument, not a page: every measured creature standing in one line,
   // smallest to largest, drawn at RELATIVE size on a log scale — and she is
@@ -811,7 +884,7 @@ const App = {
       : v < 30 ? 'Bigger than you' : 'Giants';
 
     this.el(`
-      <div class="bar"><button class="btn ghost" onclick="App.wing('field')">←</button>
+      <div class="bar"><button class="btn ghost" onclick="App.go('guide')">←</button>
         <div class="grow"></div><h2>The Size Parade</h2>
         <span class="chip">${rows.length - 1} marchers</span></div>
       <p class="dim small" style="margin:2px 2px 10px">Everyone drawn to the same
@@ -893,8 +966,8 @@ const App = {
         top:${(cy / H * 100).toFixed(1)}%">${sv.glyph} ${sv.name}</div>`;
     });
     this.el(`
-      <div class="bar"><button class="btn ghost" onclick="App.topics('astro')">←</button>
-        <div class="grow"></div><h2>The Night Sky</h2>
+      <div class="bar"><button class="btn ghost" onclick="App.go('explore')">←</button>
+        <div class="grow"></div><h2>🔭 Astronomy</h2>
         <span class="chip">${this._skyStars.length} stars</span></div>
       <p class="dim small" style="margin:2px 2px 10px">Drag across the sky.
         Every star is something true. The bright ones are things to go and do.</p>
@@ -904,7 +977,19 @@ const App = {
           ${labels}
         </div>
       </div>
+      <div class="rule">Or browse by section</div>
+      <div class="tiles">
+        ${Object.entries(cfg.secs).map(([k, v]) => {
+          const n = cfg.rows.filter(e => e.section === k).length;
+          return n ? `<div class="tile" onclick="App.topics('astro','${k}')">
+            <span class="t-glyph">${v.glyph}</span>
+            <div class="t-name">${v.name}</div>
+            <div class="t-sub">${n} facts</div></div>` : '';
+        }).join('')}
+      </div>
+      ${this.offlineRow('astro', cfg)}
       <div id="skysheet"></div>`);
+    this.tab = 'astro'; this.renderNav();
   },
 
   skyOpen(n) {
@@ -944,12 +1029,15 @@ const App = {
   // filling it is the point. The four states were already in Progress and
   // nothing had ever drawn them.
   passportFilter: null,
+  _roster: 'animals',
 
   passport(group) {
     this.resetSay();
     if (group !== undefined) this.passportFilter = group;
     const g = this.passportFilter;
-    const all = this.all();
+    const plants = this._roster === 'plants';
+    const all = plants ? (typeof PLANTS !== 'undefined' ? PLANTS : []) : ANIMALS;
+    const GG = plants ? PLANT_GROUPS : GROUPS;
     const rows = g ? all.filter(a => a.group === g) : all;
     const got = all.filter(a => Progress.state(a.id) !== 'unseen').length;
     const pct = Math.round(got / Math.max(1, all.length) * 100);
@@ -961,20 +1049,20 @@ const App = {
       <div class="pp-head">
         <div class="pp-crest">${this.icon('stamp')}</div>
         <div>
-          <div class="pp-kicker">Field passport</div>
+          <div class="pp-kicker">${plants ? 'Plant passport' : 'Animal passport'}</div>
           <h1 class="pp-title">${got} <span>of ${all.length} collected</span></h1>
         </div>
       </div>
       <div class="pp-meter"><span style="width:${pct}%"></span></div>
 
-      <div class="seg">
+      ${plants ? '' : `<div class="seg">
         <button class="on">Passport</button>
         <button onclick="App.parade()">Size Parade</button>
-      </div>
+      </div>`}
 
       <div class="chips pp-chips">
         <button class="chip ${!g ? 'accent' : ''}" onclick="App.passport(null)">All</button>
-        ${Object.entries(GROUPS).filter(([k]) => groups[k])
+        ${Object.entries(GG).filter(([k]) => groups[k])
           .map(([k, v]) => `<button class="chip ${g === k ? 'accent' : ''}"
             onclick="App.passport('${k}')">${v.glyph} ${v.name}</button>`).join('')}
       </div>
@@ -2075,7 +2163,7 @@ const App = {
       const items = cfg.rows.filter(e => e.section === sec);
       const meta = cfg.secs[sec] || { name: sec, glyph: cfg.glyph };
       return this.el(`
-        <div class="bar"><button class="btn ghost" onclick="App.topics('${which}')">←</button>
+        <div class="bar"><button class="btn ghost" onclick="App.go('${which}')">←</button>
           <div class="grow"></div><h2>${meta.glyph} ${meta.name}</h2></div>
         ${items.map(e => {
           const cat = CATEGORIES[e.cat] || { name: e.cat, glyph: '✨' };

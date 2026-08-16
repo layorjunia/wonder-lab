@@ -46,6 +46,14 @@ HOMES = {'rainforest', 'ocean', 'desert', 'grassland', 'polar', 'mountain',
 # names smuggle in a timescale as surely as "millions of years" does, so
 # "Jurassic" is banned for the same reason.
 BANNED = [
+    # Jacob's rule: state the measurement — a comparison may follow a number,
+    # never replace it. A bowling ball is not a unit; they run 6 to 16 lb.
+    (re.compile(r'bowling ball|washing machine(?!s,)|bag of sugar|family car|'
+                r'grand piano|double-decker|school bus|golf cart|'
+                r'vending machine|a refrigerator|a microwave\b', re.I),
+     'vague object as measurement'),
+    (re.compile(r'weighs? (about |roughly )?(as much as|the same as) an? [a-z]',
+                re.I), 'weight stated as object'),
     (re.compile(r'\bevolv|\bevolution', re.I), 'evolution'),
     (re.compile(r'natural selection', re.I), 'natural selection'),
     (re.compile(r'millions? of years|billions? of years', re.I), 'deep time'),
