@@ -121,6 +121,9 @@ const App = {
              + '<rect x="4" y="13" width="3.7" height="6.2" rx="1.7"/>'
              + '<rect x="16.3" y="13" width="3.7" height="6.2" rx="1.7"/>',
     vs:      '<path d="M9.5 6.5 5 12l4.5 5.5"/><path d="M14.5 6.5 19 12l-4.5 5.5"/>',
+    parade:  '<path d="M4 20v-4M9 20v-7M14 20V8M19 20V4"/><path d="M3 20h18"/>',
+    sky:     '<path d="M13.5 3.5a8.5 8.5 0 1 0 7 13.5 9.5 9.5 0 0 1-7-13.5z"/>'
+             + '<path d="M18 4.5v3M16.5 6h3"/>',
     beaker:  '<path d="M7 3.5h10"/><path d="M8.5 3.5V10l-3.4 8.2A2 2 0 0 0 7 21h10a2 2 0 0 0'
              + ' 1.9-2.8L15.5 10V3.5"/><path d="M6.2 15h11.6"/>',
   },
@@ -773,6 +776,168 @@ const App = {
     this.topics(topic, sec);
   },
 
+
+  // ══ THE SIZE PARADE ═════════════════════════════════════════════════════
+  // An instrument, not a page: every measured creature standing in one line,
+  // smallest to largest, drawn at RELATIVE size on a log scale — and she is
+  // in the line too. "How big is it really?" is the question children
+  // actually ask, and a paragraph never answers it the way standing next to
+  // the thing does. Only species whose silhouettes survived review march.
+  parade() {
+    this.resetSay();
+    this.tab = 'explore';
+    this.renderNav();
+    const val = (a) => a.stats && a.stats.length;
+    const rows = ANIMALS
+      .filter((a) => val(a) > 0 && typeof CUTOUTS !== 'undefined'
+        && CUTOUTS.has(a.art ? a.id + '-life' : a.id))
+      .map((a) => ({ a, v: val(a), cut: a.art ? a.id + '-life' : a.id }));
+    rows.push({ you: true, v: 4.5 });
+    rows.sort((x, y) => x.v - y.v);
+
+    const lo = Math.log10(rows[0].v), hi = Math.log10(rows[rows.length - 1].v);
+    const px = (v) => Math.round(30 + (Math.log10(v) - lo) / (hi - lo) * 250);
+    const say = (v) => v < 1 ? `${Math.round(v * 12)} in` :
+      v < 10 ? `${(+v.toFixed(1))} ft` : `${Math.round(v)} ft`;
+    const vs = (v) => {
+      const r = v / 4.5;
+      if (r >= 1.6) return `${r < 10 ? +r.toFixed(1) : Math.round(r)}× you`;
+      if (r <= 0.6) return `1/${Math.round(1 / r)} of you`;
+      return 'about your size';
+    };
+
+    let lastBand = '';
+    const band = (v) => v < 1 ? 'Smaller than a ruler' : v < 6 ? 'Up to you-sized'
+      : v < 30 ? 'Bigger than you' : 'Giants';
+
+    this.el(`
+      <div class="bar"><button class="btn ghost" onclick="App.wing('field')">←</button>
+        <div class="grow"></div><h2>The Size Parade</h2>
+        <span class="chip">${rows.length - 1} marchers</span></div>
+      <p class="dim small" style="margin:2px 2px 10px">Everyone drawn to the same
+        scale, smallest to largest. Find yourself in the line.</p>
+      <div class="parade" id="parade">
+        ${rows.map((r) => {
+          const b = band(r.v);
+          const divider = b !== lastBand
+            ? `<div class="pd-band"><span>${b}</span></div>` : '';
+          lastBand = b;
+          if (r.you) {
+            return `${divider}<div class="pd-item pd-you">
+              <svg viewBox="0 0 40 100" style="height:${px(r.v)}px" aria-hidden="true">
+                <circle cx="20" cy="13" r="9"/>
+                <path d="M20 22v36M20 34l-12 12M20 34l12 12M20 58l-9 30M20 58l9 30"/>
+              </svg>
+              <b>You</b><span>about 4 ft 6 in</span></div>`;
+          }
+          // The stat is LENGTH, so it pins the silhouette's LONGEST side —
+          // a height-pinned tortoise renders elephant-sized. A max box does
+          // the right thing for both tall birds and long reptiles.
+          return `${divider}<button class="pd-item" onclick="App.species('${r.a.id}')">
+            <img src="img/cut/${r.cut}.png" alt=""
+                 style="max-height:${px(r.v)}px;max-width:${px(r.v)}px" loading="lazy">
+            <b>${r.a.name}</b><span>${say(r.v)} · ${vs(r.v)}</span>
+          </button>`;
+        }).join('')}
+      </div>`);
+    // She starts standing next to herself, not at the dust mites.
+    const you = document.querySelector('.pd-you');
+    if (you) you.scrollIntoView({ inline: 'center', block: 'nearest' });
+    window.scrollTo(0, 0);
+  },
+
+  // ══ THE NIGHT SKY ═══════════════════════════════════════════════════════
+  // Astronomy as a sky, not a list. Eight constellations — one per section —
+  // scattered across a field she pans; every star is a fact. Positions are
+  // seeded from the section key, so her sky never rearranges itself.
+  sky() {
+    this.resetSay();
+    this.tab = 'explore';
+    this.renderNav();
+    const cfg = this.topicCfg('astro');
+    const W = 1600, H = 520;
+    let h = 2166136261;
+    const seed = (str) => { h = 2166136261;
+      for (const c of str) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } };
+    const rnd = () => {
+      h = Math.imul(h ^ (h >>> 15), 2246822519);
+      h = Math.imul(h ^ (h >>> 13), 3266489917);
+      return ((h ^= h >>> 16) >>> 0) / 4294967296;
+    };
+    const secs = Object.entries(cfg.secs);
+    let svg = '', labels = '';
+    // backdrop dust
+    seed('dust');
+    for (let i = 0; i < 240; i++)
+      svg += `<circle cx="${(rnd() * W).toFixed(0)}" cy="${(rnd() * H).toFixed(0)}"
+        r="${(0.4 + rnd() * 0.7).toFixed(1)}" class="sk-dust"/>`;
+    this._skyStars = [];
+    secs.forEach(([sk, sv], si) => {
+      const rows = cfg.rows.filter((e) => e.section === sk);
+      if (!rows.length) return;
+      seed(sk);
+      const cx = 110 + (si % 4) * ((W - 220) / 3) + (rnd() - 0.5) * 60;
+      const cy = si < 4 ? 120 + rnd() * 60 : 340 + rnd() * 60;
+      const pts = rows.map(() => [cx + (rnd() - 0.5) * 220, cy + (rnd() - 0.5) * 150]);
+      for (let i = 1; i < pts.length; i++)
+        svg += `<line x1="${pts[i - 1][0].toFixed(0)}" y1="${pts[i - 1][1].toFixed(0)}"
+          x2="${pts[i][0].toFixed(0)}" y2="${pts[i][1].toFixed(0)}" class="sk-line"/>`;
+      rows.forEach((e, i) => {
+        const n = this._skyStars.push(e) - 1;
+        const R = e.tryit ? 7 : 5;
+        svg += `<circle cx="${pts[i][0].toFixed(0)}" cy="${pts[i][1].toFixed(0)}" r="${R}"
+          class="sk-star ${e.tryit ? 'try' : ''}" style="animation-delay:${(rnd() * 3).toFixed(1)}s"
+          onclick="App.skyOpen(${n})"/>`;
+      });
+      labels += `<div class="sk-name" style="left:${(cx / W * 100).toFixed(1)}%;
+        top:${(cy / H * 100).toFixed(1)}%">${sv.glyph} ${sv.name}</div>`;
+    });
+    this.el(`
+      <div class="bar"><button class="btn ghost" onclick="App.topics('astro')">←</button>
+        <div class="grow"></div><h2>The Night Sky</h2>
+        <span class="chip">${this._skyStars.length} stars</span></div>
+      <p class="dim small" style="margin:2px 2px 10px">Drag across the sky.
+        Every star is something true. The bright ones are things to go and do.</p>
+      <div class="skywrap">
+        <div class="skypan">
+          <svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}">${svg}</svg>
+          ${labels}
+        </div>
+      </div>
+      <div id="skysheet"></div>`);
+  },
+
+  skyOpen(n) {
+    const e = this._skyStars[n];
+    if (!e) return;
+    Sfx.play('pop', 0.3);
+    const cfg = this.topicCfg('astro');
+    const sec = (cfg.secs[e.section] || {});
+    const el = document.getElementById('skysheet');
+    el.innerHTML = `
+      <div class="sheet-scrim" onclick="App.skyClose()"></div>
+      <div class="sheet">
+        <div class="cat-row"><span class="cat-label">${sec.glyph} ${sec.name}</span>
+          ${this.kindTag(e)}</div>
+        <div style="margin-top:8px;font-size:1.02rem;line-height:1.5">${e.text}</div>
+        ${e.tryit ? `<div class="wonder" style="border-left-color:var(--lime);
+          background:rgba(168,240,98,.08);color:#d8f5be"><b>Try it:</b> ${e.tryit}</div>` : ''}
+        <div class="card-actions">
+          ${this.listenBtn(sec.name, e.text, e.tryit ? 'Try it now' : '', e.tryit)}
+          <button class="btn ghost" onclick="App.topics('astro','${e.section}')">Read more</button>
+        </div>
+      </div>`;
+    void el.firstElementChild.offsetWidth;
+    el.querySelector('.sheet').classList.add('up');
+    el.querySelector('.sheet-scrim').classList.add('up');
+  },
+
+  skyClose() {
+    AudioLib.stop();
+    const el = document.getElementById('skysheet');
+    if (el) el.innerHTML = '';
+  },
+
   // ══ THE FIELD ═══════════════════════════════════════════════════════════
   // A passport, not a list. Every species is a card slot; the slot exists
   // before she has met the creature, so the book is visibly incomplete and
@@ -801,6 +966,11 @@ const App = {
         </div>
       </div>
       <div class="pp-meter"><span style="width:${pct}%"></span></div>
+
+      <div class="seg">
+        <button class="on">Passport</button>
+        <button onclick="App.parade()">Size Parade</button>
+      </div>
 
       <div class="chips pp-chips">
         <button class="chip ${!g ? 'accent' : ''}" onclick="App.passport(null)">All</button>
@@ -1611,6 +1781,10 @@ const App = {
           <span class="t-glyph t-ic">${this.icon('ears')}</span>
           <div class="t-name">Listen Up</div>
           <div class="t-sub">Guess it from a clue</div></div>
+        <div class="tile" onclick="App.parade()">
+          <span class="t-glyph t-ic">${this.icon('parade')}</span>
+          <div class="t-name">Size Parade</div>
+          <div class="t-sub">Walk the whole lineup</div></div>
         <div class="tile" onclick="App.tried()">
           <span class="t-glyph t-ic">${this.icon('beaker')}</span>
           <div class="t-name">Try It Now</div>
@@ -1924,6 +2098,13 @@ const App = {
         <h1>${cfg.title}</h1><div class="grow"></div>
         <span class="chip accent">${cfg.rows.length}</span></div>
       ${this.offlineRow(which, cfg)}
+      ${which === 'astro' ? `<button class="skydoor" onclick="App.sky()">
+          <span class="door-ic">${this.icon('sky')}</span>
+          <span class="door-body">
+            <span class="door-verb" style="color:var(--violet)">Look up</span>
+            <span class="door-name">The Night Sky</span>
+            <span class="door-line">Every star is something true. Drag across it.</span>
+          </span></button>` : ''}
       <div class="tiles">
         ${Object.entries(cfg.secs).map(([k, v]) => {
           const n = cfg.rows.filter(e => e.section === k).length;

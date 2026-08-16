@@ -1426,3 +1426,108 @@ h3 { font-weight: 700; font-size: var(--fs-md); }
                 text-anchor: middle; }
 /* pins gained a plate behind them; the road brightens a touch to sit on it */
 .mp-road { stroke: rgba(255,255,255,.16); }
+
+/* ══ THE SIZE PARADE ═══════════════════════════════════════════════════ */
+.parade {
+  display: flex; align-items: flex-end; gap: 22px;
+  overflow-x: auto; padding: 26px 18px 14px;
+  border: 1px solid var(--line-2); border-radius: var(--r-lg);
+  background: linear-gradient(180deg, #101d2c 0%, var(--ink) 78%, #16222f 78.2%);
+  min-height: 380px; scrollbar-width: none;
+}
+.parade::-webkit-scrollbar { display: none; }
+.pd-item {
+  flex: 0 0 auto; display: flex; flex-direction: column; align-items: center;
+  justify-content: flex-end; gap: 0; background: none; border: none;
+  cursor: pointer; padding: 0 2px; min-width: 58px;
+}
+.pd-item img { display: block; width: auto; height: auto; object-fit: contain;
+  opacity: .85; transition: transform .12s var(--ease); }
+.pd-item:active img { transform: scale(1.06); }
+.pd-item b { margin-top: 9px; font-size: var(--fs-micro); font-weight: 700;
+  color: var(--text-2); max-width: 86px; line-height: 1.15; text-align: center; }
+.pd-item span { margin-top: 3px; font-size: 10px; color: var(--text-dim);
+  white-space: nowrap; }
+.pd-you svg { fill: none; stroke: var(--lime); stroke-width: 4;
+  stroke-linecap: round; }
+.pd-you svg circle { fill: var(--lime); stroke: none; }
+.pd-you b { color: var(--lime); }
+.pd-band {
+  flex: 0 0 auto; align-self: stretch; display: flex; align-items: center;
+  border-left: 1px dashed var(--line-2); padding-left: 10px; margin-left: 4px;
+}
+.pd-band span {
+  writing-mode: vertical-rl; transform: rotate(180deg);
+  color: var(--text-faint); font-size: var(--fs-micro); font-weight: 700;
+  letter-spacing: .12em; text-transform: uppercase;
+}
+
+/* segmented control (Field wing header) */
+.seg { display: flex; gap: 4px; margin-top: 12px; padding: 4px;
+  background: var(--ink-3); border-radius: 12px; border: 1px solid var(--line); }
+.seg button { flex: 1; padding: 9px 8px; border: none; border-radius: 9px;
+  background: none; cursor: pointer; font-weight: 700; font-size: var(--fs-small);
+  color: var(--text-dim); }
+.seg button.on { background: var(--ink); color: var(--text);
+  box-shadow: var(--sh-1); }
+
+/* ══ THE NIGHT SKY ═════════════════════════════════════════════════════ */
+.skywrap {
+  border: 1px solid var(--line-2); border-radius: var(--r-lg);
+  overflow: hidden; background: radial-gradient(120% 100% at 50% 0%,
+    #131f31 0%, #0a1220 60%, #070d17 100%);
+}
+.skypan { overflow: auto; position: relative; height: min(62vh, 560px);
+  scrollbar-width: none; }
+.skypan::-webkit-scrollbar { display: none; }
+.skypan svg { display: block; }
+.sk-dust { fill: rgba(255,255,255,.16); }
+.sk-line { stroke: rgba(187,150,255,.14); stroke-width: 1; }
+.sk-star { fill: #e8eefc; cursor: pointer; animation: twinkle 2.6s ease-in-out infinite; }
+.sk-star.try { fill: var(--lime); filter: drop-shadow(0 0 6px rgba(168,240,98,.8)); }
+.sk-star:active { fill: var(--amber); }
+@keyframes twinkle { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .sk-star { animation: none; opacity: .9; } }
+.sk-name {
+  position: absolute; transform: translate(-50%, -170%);
+  font-family: var(--font-display); font-weight: 600; font-size: var(--fs-small);
+  color: rgba(187,150,255,.75); pointer-events: none; white-space: nowrap;
+  text-shadow: 0 1px 8px rgba(0,0,0,.8);
+}
+
+/* the star's bottom sheet */
+.sheet-scrim { position: fixed; inset: 0; z-index: 55;
+  background: rgba(6,10,15,.55); opacity: 0; transition: opacity .22s; }
+.sheet-scrim.up { opacity: 1; }
+.sheet {
+  position: fixed; left: 10px; right: 10px; z-index: 56;
+  bottom: calc(10px + var(--sa-b));
+  background: var(--ink-2); border: 1px solid var(--line-2);
+  border-radius: var(--r-lg); padding: 16px; box-shadow: var(--sh-3);
+  transform: translateY(110%); transition: transform .28s cubic-bezier(.2,.9,.3,1);
+}
+.sheet.up { transform: none; }
+
+/* the sky door on the astronomy landing */
+.skydoor {
+  width: 100%; display: flex; align-items: center; gap: 14px; text-align: left;
+  cursor: pointer; margin-bottom: 14px; padding: 16px 18px;
+  border: 1px solid var(--line-2); border-radius: var(--r-lg);
+  background: radial-gradient(130% 160% at 85% 0%, rgba(187,150,255,.2), transparent 55%),
+              linear-gradient(120deg, #131f31, var(--ink-2));
+  --tint: var(--violet);
+  transition: transform .1s var(--ease), border-color var(--t);
+}
+.skydoor:active { transform: scale(.985); }
+.skydoor:hover { border-color: var(--violet); }
+
+/* ══ FULL-BLEED TODAY ══════════════════════════════════════════════════ */
+/* On a phone the daily card stops being a card in a page and becomes the
+   page: photo edge to edge, the deck ghosts retired at this size. */
+@media (max-width: 560px) {
+  .fact-card { margin: 0 -16px; border-radius: 0;
+    border-left: 0; border-right: 0; }
+  .fact-photo { max-height: 46vh; }
+  .fact-deck::before, .fact-deck::after { display: none; }
+  .fact-deck { min-height: 0; }
+}
