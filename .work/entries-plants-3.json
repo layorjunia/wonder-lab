@@ -1,0 +1,1099 @@
+[
+ {
+  "id": "venus-flytrap",
+  "name": "Venus flytrap",
+  "group": "carnivores",
+  "blurb": "A bog plant with hinged leaves that snap shut on insects, and it will not close for a raindrop.",
+  "size": "A trap is about 1 in (2.5 cm) long — thumbnail size. The whole plant fits in a teacup, with the flowers held about 6 in (15 cm) above it.",
+  "homes": [
+   "grassland",
+   "freshwater"
+  ],
+  "stats": {
+   "height": 1
+  },
+  "wonder": "The counting is the part that stops you — a leaf that waits for a second touch, and then waits for a fifth.",
+  "facts": [
+   {
+    "cat": "senses",
+    "kind": "found",
+    "text": "Each half of a trap carries three stiff hairs. Touch one and nothing happens. Touch a second — or the same one again — within 20 seconds, and the trap shuts. One touch is a raindrop. Two is something walking."
+   },
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "The snap takes about one tenth of a second. The leaf is curved like the bottom of a popper toy, and closing flips that curve inside out. The trap does not bend shut so much as buckle.",
+    "more": "Measurements published in 2026 timed the outer cell walls softening after the trigger. They lose 30 to 40 percent of their stiffness within about a second. That is the fastest change in cell-wall stiffness recorded in any plant."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "The counting does not stop at two. Rainer Hedrich's team at Würzburg tripped the hairs by hand and watched what switched on. At five, the digestive glands fire and flood the trap. Keep going and it pours out more."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The rim carries stiff bristles that mesh together like interlaced fingers. For the first stage the trap is only loosely closed — a cage with gaps, not a sealed box. It seals flat afterwards.",
+    "more": "Once sealed, the two lobes press against the prey along their whole surface. The digestive glands touch it everywhere at once. Nothing sits waiting at the bottom of a cup."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "Why the loose cage stage? The best read is that it is a size filter. A tiny ant slips out through the gaps; anything big enough to keep tripping the hairs stays in. The argument is arithmetic — ten days of digestion is not worth spending on an ant."
+   },
+   {
+    "cat": "gross",
+    "kind": "found",
+    "text": "Digestion takes about ten days. What is left is a husk of chitin, the insect's outer shell, which the plant cannot break down. The trap opens and the husk blows away."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Every wild Venus flytrap on earth grows in wet pine ground around Wilmington, North Carolina. The usual figure quoted is a 75-mile radius. Surviving populations are all inside about 56 miles (90 km) of the city. Not Africa, not the Amazon."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "North Carolina made digging up a wild flytrap a felony in 2014. In 2019 one man was charged with 73 counts of it and held on $750,000 bond. Another case involved nearly a thousand poached plants."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Elsa Youngsteadt's team at NC State compared what was caught in the traps with what visited the flowers. The main pollinators — sweat bees and a checkered beetle — turned up in the traps hardly at all. The flowers stand on a long stalk, well above the traps."
+   },
+   {
+    "cat": "weird",
+    "kind": "record",
+    "text": "Charles Darwin worked on carnivorous plants for years and published Insectivorous Plants in 1875. He called the Venus flytrap one of the most wonderful plants in the world."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three of the creation week brought the plants — before the sun on day four, and before any animal on day five. A trap with nothing to catch is just a leaf. The equipment came first and the flies came after."
+   },
+   {
+    "cat": "created",
+    "kind": "worked",
+    "text": "Count what a working trap needs at once. Hairs that fire a signal. A leaf curved so it can buckle. A rim of bristles that mesh. Glands that hold off until the fifth touch. Take away the counting and it closes on rain until it starves."
+   }
+  ]
+ },
+ {
+  "id": "pitcher-plant",
+  "name": "Tropical pitcher plant",
+  "group": "carnivores",
+  "blurb": "A climbing vine that grows a lidded jug at the tip of every leaf and lets things fall in.",
+  "size": "The vines climb to 49 ft (15 m) or more. The record pitcher, on Nepenthes rajah, stood 16 in (41 cm) tall and holds close to a gallon (3.5 liters) of liquid.",
+  "homes": [
+   "rainforest",
+   "mountain"
+  ],
+  "stats": {
+   "height": 49
+  },
+  "wonder": "The lid, the slick rim, the waxed wall and the fluid are four separate answers to one question, and they arrived together.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The pitcher is not a flower or a fruit. It is the tip of a leaf. The midrib runs out past the blade as a tendril, and the tendril's end swells into a bud that inflates into a lidded jug.",
+    "more": "One vine makes two shapes. Squat pitchers sit on the ground near the base; slimmer aerial ones hang in the air once the vine starts climbing. They catch different things."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The record trap was a Nepenthes rajah pitcher 16 in (41 cm) tall. Alex Lamb measured it on Mount Kinabalu in Sabah, Borneo on 26 March 2011. Guinness lists the species as holding the largest carnivorous plant traps by volume."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "The rim is the trap. Wet it and the surface turns into a water slide — insects aquaplane on the film and go over the edge. Inside, the upper wall is coated in loose wax flakes that come away on their feet."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Rajah pitchers have been found with drowned frogs, birds and small mammals in them, rats included. Nothing is hunted. They fall in.",
+    "more": "The fluid is far from sterile. Mosquito and midge larvae live in it, and spiders hang above it. Mites, ants and even a species of crab have been found in it. They feed on what drowns without being digested themselves."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "High on the mountain, Nepenthes lowii mostly stops catching insects. Its upper pitchers are sized for a tree shrew to sit on, and the underside of the lid is smeared with something sweet. The shrew perches, licks, and does its business into the jug."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "worked",
+    "text": "Charles Clarke's team traced where the nitrogen in those leaves came from. Between 57 and 100 percent of it came back to shrew droppings, not insects. On that plant the pitcher is not really a trap at all — the sums say it is a lavatory."
+   },
+   {
+    "cat": "senses",
+    "kind": "found",
+    "text": "Nepenthes hemsleyana in Borneo houses a wooly bat instead. The back wall above the opening is shaped so bat sonar bounces straight back over a wide angle. Researchers enlarged the reflector and more bats came; they cut it down and fewer did."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Nepenthes ampullaria grows crowded clusters of pitchers on the forest floor with the lids swung back out of the way. What mostly lands in them is dead leaves falling from the canopy. It runs largely on compost."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "Nepenthes bicalcarata has hollow tendrils, and a carpenter ant nests inside them. The ant is Camponotus schmitzi, and it swims in the pitcher fluid. It drags out prey too big to break down before it rots the trap. It leaves its own droppings behind."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "There are about 170 species, almost all in the Old World tropics. Borneo, Sumatra and the Philippines have the most. Some grow on the top of a single mountain and nowhere else. Nepenthes attenboroughii lives only on Mount Victoria in Palawan."
+   },
+   {
+    "cat": "created",
+    "kind": "worked",
+    "text": "Look at what one pitcher needs, all at the same moment. A lid so rain does not dilute it. A rim that is slick only when wet. A waxed wall. And fluid that digests a rat but not the midge larvae swimming in it. Any one of those alone is just a leaf with a problem."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Plants were made on day three, bearing seed after their kind. Nepenthes still does exactly that. About 170 species, and every one grows its jug the same way, from the tip of a leaf, out of a tendril."
+   }
+  ]
+ },
+ {
+  "id": "sundew",
+  "name": "Sundew",
+  "group": "carnivores",
+  "blurb": "A leaf covered in stalks, each holding a bead of glue that looks like dew and does not dry out in the sun.",
+  "size": "Most sundews are coasters on the ground, under 2 in (5 cm) across. Drosera erythrogyne, in Western Australia, climbs to about 10 ft (3 m).",
+  "homes": [
+   "freshwater",
+   "grassland"
+  ],
+  "stats": {
+   "height": 10
+  },
+  "wonder": "Glue that stays wet in full sun is a harder thing to make than a snapping jaw, and it is the part nobody notices.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Every stalk on the leaf ends in a bead of clear glue. It catches the light like a dewdrop, which is where the name comes from — and unlike dew it is still sitting there at noon in full sun."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Once an insect sticks, the neighboring stalks bend over and press onto it, adding their own glue. Drosera capensis goes further and wraps the whole leaf right around the prey in about 30 minutes.",
+    "more": "Nothing is carried anywhere. The insect is digested where it landed, on the open face of the leaf, and the leaf absorbs the meal straight through its surface before unrolling again."
+   },
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "Drosera glanduligera, from southern Australia, does not wait. Long outer stalks flick forward in 75 thousandths of a second and catapult the insect into the sticky middle of the leaf. That is faster than a Venus flytrap closes.",
+    "more": "Simon Poppinga and Thomas Speck's team at Freiburg filmed the snap-tentacles and published them in 2012. Guinness now lists the species as the fastest predatory land plant. The stalks appear to fire by dumping stored water pressure all at once, and each one works only once."
+   },
+   {
+    "cat": "senses",
+    "kind": "found",
+    "text": "Darwin tested what the stalks actually respond to. Bits of glass, hair and sand got a weak reaction or none. Meat and insects got a strong one. The leaf is answering chemistry, not just weight."
+   },
+   {
+    "cat": "food",
+    "kind": "worked",
+    "text": "Sundews grow in bogs, where the ground hands over almost no nitrogen. The best read on why a plant would build glue traps at all is that the insects are the fertiliser. The soil cannot supply it, so the leaf goes and gets it."
+   },
+   {
+    "cat": "gross",
+    "kind": "worked",
+    "text": "A trapped fly is usually dead within about 15 minutes. That is quicker than digestion could manage. The usual read is suffocation. An insect breathes through a row of tiny holes along its sides, and the glue plugs them."
+   },
+   {
+    "cat": "weird",
+    "kind": "record",
+    "text": "Darwin spent years on sundews and gave them the bulk of Insectivorous Plants in 1875. In a letter in 1860 he wrote that he cared more about Drosera than about almost anything else he was working on."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "There are at least 194 species of sundew, on every continent except Antarctica. About half of them are Australian."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "Not all of them sit flat. Drosera erythrogyne, from Western Australia, scrambles up through other plants to about 10 ft (3 m), trailing sticky leaves the whole way."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The flowers open on a bare stalk, held well clear of the sticky leaves. The plant keeps its pollinators and its dinner at different heights."
+   },
+   {
+    "cat": "created",
+    "kind": "worked",
+    "text": "The glue has to be sticky, clear enough to let light through, and able to stay wet in desert-grade sun. The stalks have to bend the right way. The enzymes have to arrive after the catch, not before. Glue with no enzymes just holds a corpse."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Plants came on day three, three days before any animal. A sundew is a plant first and a catcher second — roots, chlorophyll, its own sugar made from light. The glue is an extra bolted onto a plant that already works."
+   }
+  ]
+ },
+ {
+  "id": "bladderwort",
+  "name": "Bladderwort",
+  "group": "carnivores",
+  "blurb": "A rootless water plant strung with tiny sprung bladders. Nothing else in the plant world swallows a water flea faster.",
+  "size": "The traps run from about 1/100 in to 1/2 in (0.2–12 mm). Most are pinhead-sized, and you need a lens to watch one work.",
+  "homes": [
+   "freshwater"
+  ],
+  "stats": {},
+  "wonder": "Half a thousandth of a second, in a plant with no muscles, no nerves and no roots.",
+  "facts": [
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "High-speed cameras at Freiburg clocked the trapdoor buckling open in about 0.5 milliseconds. The whole catch is finished inside that same half-millisecond. It is the fastest movement known in any plant. The Venus flytrap, at 100 milliseconds, is two hundred times slower."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "It is a vacuum, not a mouth. The plant pumps water out of the sealed bladder until the walls cave inward and the door is held shut against the pressure difference. Brush a trigger hair on the door and the seal lets go.",
+    "more": "The door does not swing on a hinge. It is curved, and the touch flips the curve inside out. The Venus flytrap uses the same buckling trick. This door is a thousandth of the size and two hundred times the speed."
+   },
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "Water rushing into a sprung bladder accelerates at up to 600 times gravity and reaches about 5 ft per second (1.5 m/s). A water flea sitting in front of the door gets no vote in the matter."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Then it resets itself. The bladder pumps the water back out over roughly 15 to 30 minutes and is armed again. No help, no repair, just pumping."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Bladderworts have no roots at all — and their parts are not cleanly sorted into stems and leaves either. The whole plant is a tangle of green threads with bladders strung along them."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Water species take water fleas, roundworms, mosquito larvae, tadpoles and newly hatched fish. The ones in wet soil take protozoa and rotifers — prey you need a microscope to see at all.",
+    "more": "The traps come in a range of sizes to match, from about 1/100 in to 1/2 in (0.2–12 mm). A single plant carries hundreds of them along its threads, all cocked at once."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "Utricularia is the largest group of carnivorous plants there is. About 233 species, on every continent except Antarctica."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Utricularia gibba carries one of the smallest genomes of any flowering plant, around 80 megabases of DNA. Short instruction book. It still builds the fastest trap in the plant world."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Most of the plant is invisible. From a pond bank you see yellow flowers shaped a little like snapdragons standing on stalks above the water, and nothing else. The traps are all below the surface."
+   },
+   {
+    "cat": "senses",
+    "kind": "worked",
+    "text": "The trigger hairs are levers, not nerves. The best read is that a push on a hair twists the door's edge just far enough to break the buckled seal — no signal travels anywhere. That is why it works in half a millisecond. Nothing has to be decided."
+   },
+   {
+    "cat": "created",
+    "kind": "worked",
+    "text": "Nothing about a bladder works in stages. Pump out the water without a door and you get a collapsed bag. Add a door that does not seal and it fills straight back up. Add a seal with no trigger and it never opens. It catches nothing until every piece is present."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three of the creation week made the plants. The swarming things of the waters came on day five. The bladderwort is a plant that lives in the water and eats what swims there — made first, fed second."
+   }
+  ]
+ },
+ {
+  "id": "cobra-lily",
+  "name": "Cobra lily",
+  "group": "carnivores",
+  "blurb": "A pitcher plant shaped like a rearing snake, with a hood full of skylights. It grows in northern California and Oregon.",
+  "size": "The hooded tubes usually reach knee height, and the tallest stand about 3 ft (1 m), with a two-pronged tongue hanging under the opening.",
+  "homes": [
+   "mountain",
+   "freshwater"
+  ],
+  "stats": {
+   "height": 3
+  },
+  "wonder": "It does not fool an insect with a lie. It fools it with the truth about light.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The hood is peppered with translucent patches — real windows, letting daylight through. An insect inside flies at the bright spots, hits leaf, and drops back. The one genuine exit is a small hole tucked under the curled hood, in shadow."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Below the opening the tube is lined with hairs, every one of them pointing down. Walking in is easy. Walking back up is not."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "It does not collect rainwater. The hood curls right over the mouth, so rain runs off. The plant fills the tube itself, pumping water up from the roots and letting it out inside. The water level is the plant's decision.",
+    "more": "Other pitcher plants leave the top open and take whatever falls in, which means a wet week dilutes their fluid to nothing. This one never has that problem, and never overflows either."
+   },
+   {
+    "cat": "food",
+    "kind": "worked",
+    "text": "For a long time the line was that Darlingtonia makes no digestive enzymes at all and leaves the work to bacteria and midge larvae living in the fluid. That is now known to be partly wrong — it does secrete at least one protein-cutting enzyme. The lodgers still do most of it."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "William Brackenridge found it at Mount Shasta in northern California in 1841, on the Wilkes Expedition. John Torrey described it in 1853. He named the genus after a Philadelphia botanist, William Darlington."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It grows only in northern California and southwest Oregon, and almost always over serpentine rock. That ground is short of the usual nutrients and loaded with metals. Most plants will not grow on it at all.",
+    "more": "It also needs running water at its feet. In the wild the pitchers stand in full sun while cold spring water moves through the ground around the roots. Growers who let the roots warm up lose the plant."
+   },
+   {
+    "cat": "disguise",
+    "kind": "found",
+    "text": "The forked appendage under the mouth gets called fangs, looks like a snake's tongue, and carries nectar. It was assumed to be essential bait — but when researchers cut the tongue off, the pitchers caught about as much as before."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "It spreads sideways as much as by seed, pushing out long runners called stolons in late winter and spring. A patch of cobra lilies is often one plant that walked."
+   },
+   {
+    "cat": "senses",
+    "kind": "worked",
+    "text": "Why fill the roof with windows? The best read is plain geometry. A flying insect steers for light. Put false skylights across the whole hood and keep the real exit in shade, and the insect spends everything it has on the wrong ones."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "The trap is a one-way tube with no moving parts. Nothing snaps, nothing grabs, nothing closes. Every insect that dies in one walked in under its own power and could not find the door."
+   },
+   {
+    "cat": "created",
+    "kind": "worked",
+    "text": "Windows, downward hairs, a hidden exit, a nectar tongue and a water supply pumped up from below. Alone, each is useless — a hood full of windows over an open cup is just a bright cup."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Plants came on day three. This one grows where almost nothing else will — bare serpentine, metal-heavy and starved of nitrogen — and solves the problem with a jug instead of with better roots."
+   }
+  ]
+ },
+ {
+  "id": "butterwort",
+  "name": "Butterwort",
+  "group": "carnivores",
+  "blurb": "A flat rosette of leaves that feel buttery to the touch, and that greasy film is the trap.",
+  "size": "Most rosettes are palm-sized or smaller and sit flat against wet ground, with a single flower on a bare stalk above.",
+  "homes": [
+   "freshwater",
+   "mountain"
+  ],
+  "stats": {},
+  "wonder": "The quietest carnivorous plant there is — no snap, no jug, no bristles. Just a leaf you would call slippery.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The leaf is covered in tiny stalked glands, each carrying a droplet of clear slime. That is what makes it feel greasy. A small fly lands and cannot get purchase, because the entire surface is glue."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "A second kind of gland lies flat against the leaf and does nothing until something is caught. Then it releases enzymes into the puddle, and the leaf absorbs the meal straight through its own surface."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Some species roll the leaf edge inward around a catch. It is not a snap — it is a curl over hours, which brings more glands into contact with the prey."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The name is Latin for 'little greasy one', from pinguis, meaning fat. Conrad Gesner coined it in 1561 after noticing how the leaves glisten."
+   },
+   {
+    "cat": "copied",
+    "kind": "record",
+    "text": "In Norway and Sweden the leaves were used to set milk. Pour warm milk over butterwort leaves and it thickens. Norwegians call the result tjukkmjølk and Swedes call it filmjölk. It is a farmhouse dairy product started with a carnivorous plant.",
+    "more": "Scandinavian country names for the plant keep pointing at dairy for the same reason. Much of the actual thickening is done by bacteria carried on the leaves, not by the plant's own enzymes. The leaves are still what you use."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Butterworts want the opposite of what most carnivorous plants want: wet ground that is alkaline. Limestone country, dripping cliffs, seeping rock. There are 126 accepted species, and most of them are in Mexico and Central America."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Temperate butterworts spend winter as a tight bud of scaly leaves called a hibernaculum, with no traps on it at all. In spring the sticky leaves come back.",
+    "more": "Tropical species, which do not get a hard winter, keep their catching leaves going all year round. The bud is a response to the cold, not part of the plan for eating."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "The catch is small — fungus gnats, springtails, the odd mosquito. Nothing strong is ever held. Indoor growers keep butterworts next to their houseplants precisely because they clear out gnats."
+   },
+   {
+    "cat": "senses",
+    "kind": "worked",
+    "text": "There is no signal and no muscle here. The glue does the holding, the flat glands do the digesting, and the slow leaf curl is growth rather than movement. The best read is that this is the cheapest carnivorous plant to run, and it works."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The flowers stand on bare stalks well above the leaves and look like small violets — two lobes up, three down, with a spur behind. Nothing about them is sticky."
+   },
+   {
+    "cat": "created",
+    "kind": "worked",
+    "text": "Two gland types on one leaf: one that catches, one that waits and digests. Neither is any use alone. Glue by itself holds a corpse you cannot eat; enzymes by themselves spill onto a leaf with nothing on it."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three named the plants, yielding seed after their kind. A butterwort still does all the ordinary plant things — roots, leaves, flowers, seed. The greasy film is an addition to a working plant, not a replacement for one."
+   }
+  ]
+ },
+ {
+  "id": "saguaro",
+  "name": "Saguaro cactus",
+  "group": "desert",
+  "blurb": "The tall branching cactus of the Sonoran Desert. It is the one on every postcard, and it grows nowhere else.",
+  "size": "A big one stands 40 to 52 ft (12–16 m) and can weigh 4,800 lb (2,200 kg) full of water.",
+  "homes": [
+   "desert"
+  ],
+  "stats": {
+   "height": 52,
+   "life": 175,
+   "weight": 4800
+  },
+  "wonder": "Seventy-five years of standing still before it lifts an arm. Nothing about it is in a hurry, and nothing about it is unfinished.",
+  "facts": [
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "Saguaros start slowly and stay slow. Measured against height: about half a foot at nine years old, one foot at thirteen, five feet at twenty-seven, ten feet at forty-one, twenty feet at eighty-three."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The first arm usually does not appear until the plant is 75 to 100 years old, and some never grow one. An armless saguaro is not a young saguaro. The tallest ever measured stood 78 ft (23.8 m) near Cave Creek, Arizona. It had no arms at all.",
+    "more": "That one was blown down in a windstorm in 1986. The tallest known living saguaro, in Maricopa County, stands 45 ft 3 in (13.8 m) with a trunk 10 ft 2 in around, and is reckoned at about 200 years old."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The trunk is pleated like an accordion. After rain the pleats open and the cactus swells; through a dry spell they close again. Its weight swings by hundreds of pounds between a soaking and a drought, and the skin never splits."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Inside is a ring of woody ribs as long as the cactus itself. When a saguaro dies the flesh rots away and the ribs stand there like a bundle of poles. Dry saguaro rib weighs about 27 lb per cubic foot — lighter than most timber."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "The roots are a shallow mat, not a deep drill. They spread out as far as the cactus is tall — up to 100 ft (30 m) across — while the main taproot goes down only about 3 ft (1 m). It is built to grab a downpour before it drains away."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The flowers open well after sunset and shut by mid-afternoon. Under 24 hours, once, and that is the whole life of a saguaro flower. Bees work them by day; the lesser long-nosed bat works them at night.",
+    "more": "The white saguaro blossom has been Arizona's state flower since 16 March 1931. It is a state flower that is only properly open in the dark and the early morning."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Each fruit holds around 2,000 seeds and ripens in June. Almost none of them become a cactus. A seedling needs shade — usually under a palo verde or a bursage — or the sun kills it in its first summer."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "Gila woodpeckers drill nest holes straight into the trunk. The cactus seals the wound with a hard, cork-like shell of callus, and that shell — a saguaro boot — outlasts the plant itself. People used to pull them out of dead saguaros and use them as containers.",
+    "more": "The woodpeckers usually leave a fresh hole alone for months while the walls dry hard, then move in. After they move out, elf owls — the smallest owls in the world — take the empty boot."
+   },
+   {
+    "cat": "food",
+    "kind": "record",
+    "text": "The Tohono O'odham harvest saguaro fruit with a kuibit: a pole about 20 ft (6 m) long, made of saguaro ribs lashed together. Nine pounds of fruit boils down to roughly a quart of syrup. One 1929 harvest brought in 99,000 lb across 600 families."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Arizona protects it by law. Move a saguaro over 4 ft tall and you need a permit, a tag and a seal from the state — even one growing on your own land. Damage a valuable one and it can be charged as a class four felony."
+   },
+   {
+    "cat": "created",
+    "kind": "worked",
+    "text": "The whole design answers one problem: rain that comes all at once and then not at all. Shallow roots to catch it, pleats to swell, ribs to hold the swelling up, waxed skin to keep it in. Remove any one and the other three are wasted."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three of the creation week made the plants, the day before the sun. The saguaro is a fair emblem of a made thing taking its time. Nine years to reach half a foot. Seventy-five before it lifts an arm. Two centuries standing."
+   }
+  ]
+ },
+ {
+  "id": "welwitschia",
+  "name": "Welwitschia",
+  "group": "desert",
+  "blurb": "A Namib Desert plant that grows exactly two leaves when it sprouts and never grows another one.",
+  "size": "The largest measured plant is about 6 ft (1.8 m) tall and 28 ft (8.7 m) across — a sprawling mound of leaf, all of it two leaves.",
+  "homes": [
+   "desert"
+  ],
+  "stats": {
+   "height": 6,
+   "life": 1500
+  },
+  "wonder": "Two leaves, held for centuries, in a place with no rain. It is the fewest parts anything that size gets away with.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Two leaves. That is the total, for the whole life of the plant. They appear when it germinates, they never stop growing, and they are never replaced. What looks like a tangle of many leaves is those same two, split and frayed by wind.",
+    "more": "Afrikaans speakers call it tweeblaarkanniedood — 'two leaves, cannot die'. Welwitsch himself was told the local name was tumbo."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "Because they never stop and never drop, the leaves get long. Mature plants add roughly 3 to 6 in (8–15 cm) a year, measured at about a third of a millimeter a day. The tips die and shred while the base keeps pushing new leaf out."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The largest known plant, in the Messum Mountains of Namibia, stands about 6 ft (1.8 m) high and sprawls 28 ft (8.7 m) wide."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Friedrich Welwitsch came across it in the Namib in 1859. He wrote that he could do nothing but kneel down and stare. He was half afraid that touching it would prove it a figment of his imagination.",
+    "more": "He wanted to call the genus Tumboa. Joseph Hooker in London, who wrote the formal description, asked leave to name it Welwitschia after him instead. The species name, mirabilis, simply means marvelous."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It grows in a strip about 620 miles (1,000 km) long, running up the coast from Namibia into southern Angola. It is seldom found more than 60 to 90 miles inland."
+   },
+   {
+    "cat": "food",
+    "kind": "worked",
+    "text": "Where does the water come from? Fog rolling off the Atlantic is worth perhaps 2 in (50 mm) a year, and the leaves do take it up. The sums say that is not enough on its own. A long taproot reaching groundwater is the rest of the answer."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "There are male plants and female plants, and no plant is both. Cones grow on stalks out of the crown between the two leaves; the female cones are larger, and the seeds carry papery wings."
+   },
+   {
+    "cat": "babies",
+    "kind": "worked",
+    "text": "Something has to carry pollen from one plant to the other. Insects are the obvious candidates and a wasp is the current best guess, but nobody has actually settled it. That is a strange gap in the record for a plant this famous."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Carbon dating puts the average plant at 500 to 600 years old, and the biggest at around 2,000. Nothing about a welwitschia is fast, including dying."
+   },
+   {
+    "cat": "defence",
+    "kind": "record",
+    "text": "Namibia protects it by law. Digging one up is illegal. It is not classed as endangered or even rare — it is simply impossible to replace at any useful speed."
+   },
+   {
+    "cat": "created",
+    "kind": "worked",
+    "text": "Two leaves is not a shortfall. A growth zone at the base never switches off. The leaf is tough enough to be shredded for centuries and keep working. The pores open for fog. That is a complete answer to a coast without rain, built from the smallest possible parts list."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three of the creation week made plants bearing seed after their kind. This one bears its seed in cones, off two leaves it has had since it sprouted, and has never needed a third."
+   }
+  ]
+ },
+ {
+  "id": "living-stones",
+  "name": "Living stones",
+  "group": "desert",
+  "blurb": "A pair of fat leaves that look exactly like the pebbles around them, with a window in the top to let the light in.",
+  "size": "A whole plant is about 1 in (2.5 cm) across and sits almost flush with the ground. You can walk across a colony and never see one.",
+  "homes": [
+   "desert"
+  ],
+  "stats": {},
+  "wonder": "A plant that hides underground and still gets the light it needs, through a window it grew for the purpose.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "A Lithops is two leaves and almost nothing else. They are fused into a squat cone with a split across the top, and there is hardly any stem at all. Most of the plant is below the surface."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The top face is a window. It is translucent, partly or completely, and light passes through it to green tissue lining the inside of the buried leaves. The plant does its photosynthesis underground.",
+    "more": "The green is on the inner wall, not the outside. That is backwards for a plant. It is the whole reason a Lithops can afford to look like a stone. The color that matters is hidden where nothing has to see it."
+   },
+   {
+    "cat": "disguise",
+    "kind": "found",
+    "text": "The windows are patterned with creams, grays, browns, dark blotches and fine red lines. The pattern matches the gravel each population grows in. Different valleys, different pebbles, different markings."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "William Burchell picked one up in the Northern Cape on 14 September 1811, thinking it was a curiously shaped pebble off the stony ground. It turned out to be a plant. That was the first Lithops anyone described."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "It replaces itself once a year. Through winter a new pair of leaves grows inside the old pair, feeding off them. In spring the old pair splits and dries into papery skins around the new one.",
+    "more": "Growers learn this the hard way. Water a Lithops in spring while the old leaves are still being drained, and the new pair swells too fast and the plant splits open."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "A flower comes out of the split, usually in fall, and it is often wider than the whole plant. Yellow or white, one per leaf pair."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "They grow in Namibia and South Africa, with a little into Botswana. You find them from sea level right up into the mountains. It is always stony ground, where there is more rock than soil."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "Why look like a stone? The best read is that it is about not being eaten. Where a fat, water-filled leaf is the wettest thing for miles, being indistinguishable from gravel is worth more than any spine could be."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "You cannot judge a Lithops from the top. Most of the leaf column is below ground. Lift one out and it is a fat carrot with a pebble on the end."
+   },
+   {
+    "cat": "food",
+    "kind": "worked",
+    "text": "Buried leaves plus a window solves two problems with one design. Sunk in gravel the plant stays cool and out of sight, and the window still delivers light to the chlorophyll. A green plant sitting on top of that ground would cook."
+   },
+   {
+    "cat": "created",
+    "kind": "worked",
+    "text": "A window is no use without green tissue underneath it, and buried green tissue is no use without a window. Neither half is a plant on its own."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three: the earth brought forth grass, and herb yielding seed after his kind. Lithops does exactly that in about the least likely place there is — bare stone flats — and it does it by looking like the stone."
+   }
+  ]
+ },
+ {
+  "id": "resurrection-plant",
+  "name": "Resurrection plant",
+  "group": "desert",
+  "blurb": "A Chihuahuan Desert plant that curls into a dead-looking brown ball. It waits years. Then it opens green within hours of getting wet.",
+  "size": "A dry ball is about fist-sized. Wet, it opens out flat into a green rosette a hand's width across.",
+  "homes": [
+   "desert"
+  ],
+  "stats": {},
+  "wonder": "It does not survive drying out by avoiding it. It dries out completely and comes back, which is a harder thing.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "It is a spikemoss — not a flowering plant and not a moss either. It has no flowers and no seeds. It spreads by spores, the way a fern does."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "It can lose about 95 percent of its water and live. Dried right down it holds around 3 percent of its wet mass, and simply stops, for years at a stretch, with no damage done."
+   },
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "Put a dry ball in a saucer of water and it starts opening within a few hours. The green comes back and it goes back to making sugar from light. It does not even need to be rooted in anything — a loose ball on a plate will do it."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The outer stems and inner stems curl differently. The outer ones snap into tight rings quickly; the inner ones wind slowly into spirals, because the strain runs unevenly along their length. That is why the ball closes in the order it does."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "The trick is a sugar. As the plant dries it makes trehalose. The sugar crystallizes and takes the place of the water in its tissues. So the cell contents never dry to powder or turn too salty to work."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It grows in the Chihuahuan Desert, across northern Mexico and into the American Southwest. It sits on rock and thin soil. It may go a whole season with no rain at all."
+   },
+   {
+    "cat": "travel",
+    "kind": "found",
+    "text": "A dried ball is light and round, and the wind moves it. If it fetches up somewhere damp it opens there and can take root. The plant travels as a ball and unpacks on arrival."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "It is sold as 'rose of Jericho', but two different plants carry that name. The true rose of Jericho is Anastatica hierochuntica, from the Middle East and North Africa. It is a small member of the mustard family, under 6 in (15 cm) tall, with tiny white flowers.",
+    "more": "Anastatica's seeds have a sticky coat. It grips wet soil the moment the ball opens. So the seeds stay where the water is instead of blowing on across the desert."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "And the true one does not actually come back to life. Anastatica's tissue is dead when it dries; the ball opens mechanically, by soaking up water, to release its seeds. Only the Mexican spikemoss turns green again.",
+    "more": "From the outside the two look like the same trick — curl up dry, open when wet. Only one of them is alive in between. If a shop sells you a resurrection plant that greens up, it is Selaginella."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "Nothing eats a dry one, and the best read is that there is nothing in it worth eating. No water, no soft tissue, and the color and texture of dead twigs. Being worthless for months at a time is its whole defense."
+   },
+   {
+    "cat": "created",
+    "kind": "worked",
+    "text": "Drying out kills almost every plant, and the reason is mechanical — cells collapse and cannot be rebuilt. Coming back needs a substitute for water made in advance, a curling order that protects the middle, and a restart that still works after years. That is a system, not a knack."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Plants came on day three of the creation week, and in that account rain is not mentioned yet at all. This one can wait out the absence of rain for years and start again in an afternoon."
+   }
+  ]
+ },
+ {
+  "id": "agave",
+  "name": "Century plant",
+  "group": "desert",
+  "blurb": "A rosette of gray spiked leaves that spends its whole life saving up for one enormous flower stalk, then dies.",
+  "size": "The rosette spreads 6 to 10 ft (1.8–3 m), with leaves 3 to 5 ft (0.9–1.5 m) long. The flower stalk goes up 25 to 30 ft (8–9 m).",
+  "homes": [
+   "desert",
+   "backyard"
+  ],
+  "stats": {
+   "height": 30,
+   "life": 30
+  },
+  "wonder": "Twenty years of saving, one month of spending, and the pups are already in the ground before the stalk goes up.",
+  "facts": [
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The name is wrong. A century plant does not take a century. It usually flowers somewhere between 10 and 30 years old, and in a warm garden with water it can be sooner than that."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "When it goes, it goes fast. The flower stalk has been measured growing 6 to 9 in a day, sometimes close to a foot. It ends up 25 to 30 ft (8–9 m) high. That is a stalk taller than a house, out of a plant that was knee-high."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "It flowers once and dies. Everything the rosette stored for decades goes into that single stalk of yellow blossom, and when the seed is set the plant is finished.",
+    "more": "Before it dies it throws out shoots from the base — pups. The rosette that flowered is gone; the clone beside it carries on. A century plant in an old garden is often the third or fourth of its line in the same spot."
+   },
+   {
+    "cat": "food",
+    "kind": "record",
+    "text": "Cut the stalk before it flowers and the plant keeps pumping sugar into the stump. The sweet liquid that pools there is aguamiel, which means honey water. Fermented, it becomes pulque. People in Mexico were making it long before the Spanish arrived.",
+    "more": "The plant is not fooled for long. It goes on delivering sugar to a stalk that is no longer there, for weeks, and is drained dry by the end of it. The harvest kills the rosette just as surely as flowering would have."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Tequila is not made from this one. Tequila comes from a different agave, Agave tequilana, the blue agave. Century plant gives pulque and other mezcal; blue agave gives tequila."
+   },
+   {
+    "cat": "copied",
+    "kind": "record",
+    "text": "The leaves give a fiber called pita, stripped out and twisted into rope, netting, sacks, matting and coarse cloth. Sisal, from a related agave, is the same idea run at industrial scale."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "Each leaf ends in a hard spine you would not want to walk into. There are more teeth down the edges. The sap is worse. It can cause severe allergic dermatitis, so trimming a big agave bare-handed makes for a genuinely bad afternoon."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It is not native to most of the places it grows. Agave americana comes from Mexico and Texas. It has been planted so widely around the Mediterranean, Australia and southern Africa that people assume it is local."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "Why save for twenty years and spend it in one go? The best read is arithmetic. In dry ground you cannot afford a flower stalk every year, but you can afford one enormous one if you save for it. The pups make sure the gamble is not total."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "The rosette is a spiral, and the leaves press hard against each other as they grow. Unfold an old leaf and it carries a clean pattern of ridges — the imprint of the leaves that were folded against it years earlier."
+   },
+   {
+    "cat": "created",
+    "kind": "worked",
+    "text": "One flowering, one stalk, and a set of pups already rooted before it happens. Get the order wrong — flower before the pups, or pup and never flower — and the plant is a dead end. The timing is the design."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three: the herb yielding seed after his kind. Twenty years of storing and one month of stalk, and at the end of all of it, seed."
+   }
+  ]
+ },
+ {
+  "id": "barrel-cactus",
+  "name": "Barrel cactus",
+  "group": "desert",
+  "blurb": "A squat, ribbed cactus armed with hooked spines, and it leans toward the sun as it ages.",
+  "size": "A fishhook barrel usually stands 3 to 6 ft (0.9–1.8 m) tall and about 2 ft 3 in (0.7 m) across. Big ones reach 10 ft (3 m).",
+  "homes": [
+   "desert"
+  ],
+  "stats": {
+   "height": 10,
+   "life": 100
+  },
+  "wonder": "A plant with no leaves at all, still doing the one thing plants are for — turning light into food.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Young barrels are smooth columns. The ribs form as they get older, and only then does the plant fill out into the barrel shape it is named for."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The spines are hooked, like fish hooks, and that is where the fishhook barrel gets its name. Thick, stiff, and curved back on themselves."
+   },
+   {
+    "cat": "travel",
+    "kind": "worked",
+    "text": "Why hooks? One reading is transport. In a flash flood a hooked barrel snags on floating debris, gets pulled loose and carried, then dropped where the water slows — which is exactly where water collects. It is a plausible read, not a filmed event."
+   },
+   {
+    "cat": "senses",
+    "kind": "found",
+    "text": "Mature fishhook barrels lean, and they lean south or southwest. Desert hikers call it the compass barrel. The lean is consistent enough to take a rough bearing from."
+   },
+   {
+    "cat": "senses",
+    "kind": "worked",
+    "text": "The reason worked out for the lean is uneven growth. The side facing the hard afternoon sun gets cooked and grows more slowly; the shaded side keeps going. Over years the faster side pushes the top over toward the slower one."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The cut-open-a-cactus-for-water scene is wrong, and dangerously so. Barrel pulp does hold liquid. That liquid is alkaline and loaded with oxalic acid. Seri people of the Sonoran Desert who tried it reported headaches, pain and diarrhea.",
+    "more": "Drunk on an empty stomach it can bring on vomiting and severe muscle cramps, which in a desert costs you more water than the cactus gave you. It is an emergency measure that mostly makes the emergency worse."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "Many barrel cacti are ant plants. They ooze nectar from glands set above each cluster of spines. It does not come from the flower, but from the body of the cactus. Ants set up on the plant and stay there.",
+    "more": "Nectar outside a flower is called extrafloral nectar, and it is not paying for pollination. The reading is that it is paying for a garrison. The ants get fed. Anything chewing on the cactus gets swarmed."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Flowers come out in a ring right at the top in summer. They are yellow, orange, red or purple depending on the species, often with a darker stripe down each petal. The fruit that follows is yellow. It can sit on the plant for over a year."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Like the saguaro it is pleated, and the ribs let it swell after rain and shrink through the dry without splitting its skin. A barrel cactus a week after a storm is visibly fatter than it was."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "It is in no rush. A fishhook barrel runs 50 to 100 years from seed to death, and spends most of that as a fairly boring green cylinder sitting in the sun."
+   },
+   {
+    "cat": "created",
+    "kind": "worked",
+    "text": "Ribs to swell, wax to hold the water in, spines for shade and defense, nectar to keep ants on guard, roots spread wide for one downpour a year. Five answers to the same question, all present in one plant at once."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three brought forth plants of every kind. This one is the plainest possible proof that 'plant' does not have to mean green and leafy. No leaves at all, a barrel of water, and it still makes its own food out of light."
+   }
+  ]
+ },
+ {
+  "id": "prickly-pear",
+  "name": "Prickly pear",
+  "group": "desert",
+  "blurb": "A cactus built out of flat pads, with edible fruit, edible pads, and hairs that get into your skin and stay there.",
+  "size": "Pads run from hand-sized to dinner-plate size, and a clump can pile up well above head height.",
+  "homes": [
+   "desert",
+   "grassland"
+  ],
+  "stats": {},
+  "wonder": "Armored everywhere except the one place it wants an animal to help itself — the fruit.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The flat green pads are not leaves. They are stems — the plant's trunk and branches, flattened out. Botanists call them cladodes."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "The big spines are the least of it. Around each spine cluster sit glochids: fine barbed hairs that come off the plant on contact and lodge in skin. They are hard to see and much harder to get out.",
+    "more": "Get them in your fingers and they work inward rather than out. Tape or glue lifts them better than tweezers. Swallowed, they irritate the throat — which is why prickly pear fruit has to be scrubbed or singed clean before anyone eats it."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Both halves are food. The fruit is the tuna, and it comes red, wine-red, green or orange. The young pads are nopales. They are sold by the sackful in Mexico and eaten in tacos and with eggs."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Mexico's coat of arms is a golden eagle standing on a prickly pear with a rattlesnake in its beak, from the Aztec account of the founding of Tenochtitlan. The cactus is on the national flag."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "record",
+    "text": "A scale insect that lives on prickly pear pads is packed with carminic acid. That was the deepest red dye anyone had, and the insect is Dactylopius coccus. Spain held a near-monopoly on it for close to 300 years. It became Mexico's second most valuable export after silver.",
+    "more": "It takes about 70,000 dried insects to make a pound of dye. Cochineal is still in use — check the label on pink yoghurt and red lipstick. Peru is now the biggest producer, ahead of Mexico."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Prickly pear taken to Australia got out of hand. By the 1920s it had covered about 60 million acres (24 million hectares) of New South Wales and Queensland and made the land useless. Farms were simply walked away from."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The fix was a moth. Eggs of Cactoblastis cactorum came from Argentina in 1925 and the first field release was in 1926; the caterpillars bore straight into the pads. By 1933 about 80 percent of the infested Queensland land was clear.",
+    "more": "Two earlier attempts to breed the moth had failed, so 3,000 eggs were imported and split between Brisbane and a station at Chinchilla, Queensland. At its peak Chinchilla was posting out as many as 14 million eggs a day. In 1936 the district built the Cactoblastis Memorial Hall — a public hall named after a moth."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "They are not all desert plants. Opuntia fragilis grows in northeastern British Columbia at 56 degrees north — a cactus that sits out Canadian winters."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "A pad knocked off and left lying on the ground will root where it falls and become a new plant. That is much of why it went across Australia so fast: one pad carried on a cart wheel or a cow's hide moves a whole cactus."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "Flat pads and round barrels are two answers to the same desert. Turned edge-on to the midday sun a pad takes far less heat than a cylinder does — but it also stores less water. The read is that a pad trades storage for a big cheap solar panel."
+   },
+   {
+    "cat": "created",
+    "kind": "worked",
+    "text": "Spines, glochids, waxed skin, water held in the stem, roots that spread instead of dig. On top of all that sits a sweet fruit. Any animal is welcome to carry it off and plant it. The cactus is defended everywhere except exactly where it wants to be eaten."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three of the creation week named the fruit tree yielding fruit, whose seed is in itself. This is a fruiting plant with no trunk, no leaves and no branches in any ordinary sense — and it still yields fruit, with the seed inside it."
+   }
+  ]
+ },
+ {
+  "id": "aloe",
+  "name": "Aloe vera",
+  "group": "desert",
+  "blurb": "A succulent with thick spiky leaves full of clear gel. It is grown on windowsills worldwide and wild in almost nowhere.",
+  "size": "The plant stands about 2 to 3 ft (60–100 cm) tall, with a flower spike up to 3 ft (90 cm) above it in summer.",
+  "homes": [
+   "desert",
+   "backyard"
+  ],
+  "stats": {
+   "height": 3
+  },
+  "wonder": "Everything valuable in the leaf sits behind three separate defenses, and the outermost one is bitterness.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "It is not a cactus. Aloe vera is a succulent in the family Asphodelaceae. It is closer kin to a daylily than to anything with spines and areoles. Cacti are almost all American. Aloes are African and Arabian."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "For a plant on this many windowsills, the wild home is oddly small. It is the southeastern Arabian Peninsula, in the Hajar Mountains of northeastern Oman and the eastern United Arab Emirates. That may be the only genuinely wild population left.",
+    "more": "Olwen Grace at Kew and Nina Rønsted in Copenhagen led the 2015 study that pinned it down. They used the largest genetic sample of the aloes anyone had assembled. Until then nobody could say where the world's most-grown medicinal plant actually came from."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Cut a leaf across and you get two substances, not one. In the middle is the clear gel. Just under the green skin is a thin layer of bitter yellow sap, the latex. They are different things and they do different things."
+   },
+   {
+    "cat": "gross",
+    "kind": "found",
+    "text": "The yellow latex holds aloin, and aloin is a powerful laxative. It was sold over the counter in the United States until 2002, when the FDA pulled it for want of safety data. It also stains hands and clothes.",
+    "more": "Gut bacteria turn aloin into aloe-emodin. That is what actually irritates the intestine. It is why 'aloe juice' from a shop is filtered. It is also why eating 'whole leaf' aloe straight off a windowsill plant is a bad idea."
+   },
+   {
+    "cat": "food",
+    "kind": "worked",
+    "text": "The gel is the part that goes on burns. The honest position is that the evidence is mixed — some trials find it helps wounds and burns, some do not. It is a real substance with a real effect on skin, and also the most oversold plant in the shop."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Aloe turns up in the written record early. It is illustrated in the Juliana Anicia Codex, a Greek herbal copied out in the year 512. By the time that book was made, aloe was already an old and standard medicine."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "It flowers in summer on a spike up to 3 ft (90 cm) tall, hung with tubular yellow flowers. Almost every aloe vera you can buy, though, was grown from a pup cut off a parent plant rather than from seed."
+   },
+   {
+    "cat": "travel",
+    "kind": "found",
+    "text": "It escapes. Aloe vera has naturalized across North Africa, the Canary Islands, parts of southern Europe and well beyond. A good many countries list it as an invasive species."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "The gel is mostly water held in a mesh of long sugar molecules. Why carry water as a gel rather than a liquid? The best read is straightforward. Gel does not slosh, does not run out of a wound, and does not evaporate through a cut nearly as fast."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Snap a leaf and the bitter yellow latex runs out first, at the cut, before any gel appears. Growers stand a cut leaf upright and let it drain for that exact reason, so the latex is gone before they scoop."
+   },
+   {
+    "cat": "created",
+    "kind": "worked",
+    "text": "A leaf that is a water tank, skin thick enough to hold it, a bitter layer just inside that skin, and teeth along the edge. Everything worth taking sits behind three separate defenses. That is not a coincidence of parts."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Plants came on day three, the herb yielding seed after his kind. People have since carried this one to nearly every warm country on earth, and it is still recognisably the same plant growing wild in the mountains of Oman."
+   }
+  ]
+ }
+]

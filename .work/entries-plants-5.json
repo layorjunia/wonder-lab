@@ -1,0 +1,806 @@
+[
+ {
+  "id": "giant-kelp",
+  "name": "Giant kelp",
+  "group": "water",
+  "blurb": "A brown seaweed that grows in underwater forests off rocky coasts. It runs from the seabed to the surface. It is not a plant.",
+  "size": "Measured at more than 150 ft (45 m) from the rock it grips to the daylight, and a few at close to 200 ft (60 m).",
+  "homes": [
+   "ocean"
+  ],
+  "stats": {
+   "height": 150
+  },
+  "wonder": "Something that stands upright all day in moving water needs a float on every single blade, and that is exactly what it has.",
+  "facts": [
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "Divers have measured giant kelp at more than 150 ft (45 m) from the rock it grips to the surface, and a few at close to 200 ft (60 m). Most of that length is a single rubbery cable no thicker than a garden hose."
+   },
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "Two feet (60 cm) in a single day. That is the measured top growth rate of giant kelp, which puts it among the fastest-growing living things anywhere.",
+    "more": "It needs everything at once to manage that. Cold water has to rise from below with nutrients in it. Bright light has to reach the surface. A single frond only lasts about a hundred days, so the forest is always rebuilding itself at that speed."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "It is not a plant. Giant kelp is a brown alga: no roots, no true leaves, no flowers, no seeds, no wood. The knobbly tangle at the bottom is called a holdfast, and its only job is grip. It absorbs nothing.",
+    "more": "A holdfast is not a root and does not behave like one. It is a mass of branching, gripping fingers cemented onto rock, and the whole point of it is to survive a winter storm. Small animals live inside the tangle year-round."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "At the base of every blade sits a hollow bladder full of gas. The best read is the obvious one — they are floats. The blades they lift ride in the top few feet of water, which is the only place with enough light to work with."
+   },
+   {
+    "cat": "food",
+    "kind": "worked",
+    "text": "A tree pulls water and minerals up through roots and pipes them everywhere. Kelp has neither roots nor pipes. The read is that it simply takes what it needs in across its whole surface, because it is already sitting in the stuff."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Giant kelp anchors to rock and reaches all the way up, where the fronds bend over and lie flat in a floating canopy. Boat propellers get tangled in it."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "worked",
+    "text": "Sea urchins graze kelp. Sea otters eat urchins. Where otters patrol a coast, the urchins stay wedged in cracks and the forest stands. Where the otters are gone, urchins spread across the rock and strip it bare. The link is a read, not a filmed event."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Near the bottom of the stalk are special blades that make spores and let them go. Each spore grows into a plant so small you need a microscope for it, and that microscopic generation is what produces the next 150-footer.",
+    "more": "So the species has two completely different bodies. One of them is among the largest things growing in the sea. The other would sit unnoticed on a pinhead. Same species, one after the other, every time."
+   },
+   {
+    "cat": "copied",
+    "kind": "found",
+    "text": "Alginate is pulled out of kelp. It goes into ice cream, salad dressing, jam, cake mix and toothpaste. It is also in the goo a dentist uses to take a mold of your teeth. It is what stops things separating in the tub.",
+    "more": "Alginate is what makes the kelp bendy in the first place. In the seaweed it sits in the cell walls and lets a frond flex without tearing. Pulled out and dried, it does the same job in a tub of ice cream: it holds everything in one soft mass."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "A single frond lasts about a hundred days. The forest you swim through in late summer is not the one that stood there in spring — it has replaced itself, piece by piece, without moving."
+   },
+   {
+    "cat": "gross",
+    "kind": "found",
+    "text": "Storms rip whole kelp plants free and pile them on beaches, where they rot into black slippery heaps full of sandhoppers and flies. The smell carries a long way. Almost none of it is wasted; the beach eats it."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three did two things: it gathered the waters into seas, and it made the earth bring forth green growing things. Giant kelp sits on the seam — gripping bare rock like something off the land, standing in seawater, bending all day and never snapping."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Off Monterey, California, somebody did the counting. A disease killed the sunflower stars after 2014 and purple urchins boomed. The sea otters there switched to eating about three times as many urchins as before. Their own numbers climbed from around 270 to around 432.",
+    "more": "Those are counted animals and watched meals, written up in March 2021. It did not save everything. North of San Francisco, where there are no otters, over 80 percent of the kelp forest went. Around Monterey, patches of forest held on where the otters worked, while the rock between them went bare."
+   }
+  ]
+ },
+ {
+  "id": "duckweed",
+  "name": "Duckweed",
+  "group": "water",
+  "blurb": "The smallest flowering plants there are — green specks that cover a still pond so completely it looks like spilled paint.",
+  "size": "One watermeal is about 0.6 mm long, small enough to pass through the eye of a sewing needle.",
+  "homes": [
+   "freshwater"
+  ],
+  "stats": {},
+  "wonder": "Shrink a flowering plant as far as it will go and it still flowers, still sets seed, and still comes up duckweed.",
+  "facts": [
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "Wolffia angusta, a watermeal, measures about 0.6 mm long and 0.33 mm wide. That is roughly one fortieth of an inch. Guinness lists it as the smallest flowering plant on record. A relative, Wolffia globosa, may be smaller still.",
+    "more": "For scale, a grain of table salt is around 0.3 mm across. So a whole watermeal plant, flower included, is roughly two grains of salt end to end. It is the entire organism, not a seed or a piece of one."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "Its fruit holds a record too: a quarter of a millimeter long, weighing seventy millionths of a gram. No flowering plant anywhere makes a smaller one."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Watermeal has no roots at all and no veins — a flowering plant reduced to a floating green crumb with nothing left to take away. Its cousin Lemna keeps exactly one thread of root under each disc."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "It does flower. In a pocket on the upper surface sit one stamen and one pistil and nothing spare, in a flower about 0.3 mm long — the smallest known. Most of the time the plant skips all that and buds a new one off its own edge.",
+    "more": "That is why a green pond can be a single individual copied a million times over. Budding is quicker and cheaper. Flowering is the slow route, and it is the one the plant keeps in reserve."
+   },
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "Wolffia microscopica doubles itself in 29.3 hours. That is the fastest growth measured in any flowering plant. Two specks become four, and four become eight. Inside a fortnight the whole pond is a green carpet."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Harvested duckweed can run 35 to 42 percent protein. Square yard for square yard it out-produces a soybean field for protein, and makes several times as much starch as the same area of corn."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "People in Asia have scooped duckweed off ponds and eaten it as a vegetable for a very long time. Ducks, geese and a lot of fish eat it too, which is where the English name came from."
+   },
+   {
+    "cat": "travel",
+    "kind": "worked",
+    "text": "A pond with no duckweed in spring can be solid with it by August. Nobody has filmed the delivery. The read is feet and feathers: the specks stick to a wet duck, the duck flies to the next pond, and the specks come off."
+   },
+   {
+    "cat": "home",
+    "kind": "worked",
+    "text": "A complete duckweed cover is bad news underneath. Almost no light gets through, so the plants below stop making oxygen, and the fish in that pond can end up short of air. Small is not the same as harmless."
+   },
+   {
+    "cat": "copied",
+    "kind": "found",
+    "text": "Duckweed is put to work cleaning water. It is grown on the outflow of a farm or a sewage works. It pulls nitrogen and phosphate out and locks them into itself. Then the whole crop is skimmed off the top.",
+    "more": "The nitrogen and phosphate would otherwise feed an algal bloom downstream. Instead they end up in the crop. The crop is worth feeding to ducks, fish or pigs. Whether it pays depends on how much it costs to skim, dry and shift it."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Duckweed is not a moss and not an alga. It sits inside the arum family, alongside cuckoo pint and the calla lily, which makes these green specks close relations of some very showy flowers."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names the herb yielding seed, each after its kind. Duckweed is the smallest thing on earth that answers to that description. It is 0.6 mm across, and still carries a stamen, a pistil, a fruit and a seed. It still comes up duckweed."
+   }
+  ]
+ },
+ {
+  "id": "papyrus",
+  "name": "Papyrus",
+  "group": "water",
+  "blurb": "A giant African wetland sedge whose stem was sliced, layered and pressed into the world's first paper.",
+  "size": "Stems of 13 to 16 ft (4 to 5 m) are ordinary, and around some high African lakes they reach about 33 ft (10 m).",
+  "homes": [
+   "freshwater"
+  ],
+  "stats": {
+   "height": 16
+  },
+  "wonder": "The stem was built to hold a plant up in a swamp. It turned out to hold something else as well — writing — and carry it far past everyone who cut it.",
+  "facts": [
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "A papyrus stem runs 13 to 16 ft (4 to 5 m) of bare green, then bursts at the top into a spray of thread-like rays 4 to 10 in (10 to 30 cm) long. A young one looks exactly like a feather duster."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Roll a papyrus stem between your fingers and you feel three flat sides. It is a triangle, not a tube. Sedges have edges, and papyrus is the largest sedge most people will ever stand next to."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "To make a sheet, peel off the green rind and cut the sticky white pith into strips about 16 in (40 cm) long. Lay the strips side by side, slightly overlapping. Lay a second layer across them at right angles. Hammer the two layers together while damp, then dry them under a weight.",
+    "more": "The finished sheet was rubbed smooth with a stone or a shell. Hold one up to a window and you can still see the grid where the two layers cross."
+   },
+   {
+    "cat": "copied",
+    "kind": "worked",
+    "text": "Why cross the layers? A sheet of parallel fibers splits along them the moment you pull. Turn the second layer ninety degrees and each layer holds the other shut. Plywood is the same idea, arrived at a very long time later."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The oldest inscribed papyrus anyone has found is a diary. It belonged to a man named Merer, and it was dug out at Wadi al-Jarf on Egypt's Red Sea coast. It covers the final stretch of building the Great Pyramid at Giza.",
+    "more": "Merer ran a boat crew. His diary records them hauling white limestone downriver from the Tura quarries to Giza. The stone was for the pyramid's outer casing. The oldest surviving writing on papyrus is, essentially, a delivery schedule."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The English word paper comes from papyrus, through Latin and Greek. Modern paper has never been made from this plant. The name simply stayed on after the material underneath it changed."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Where the water is deep, papyrus does not stand on the bottom. It mats together into floating rafts called sudd, thick enough to block a river. Fishermen set up temporary camps on top of them.",
+    "more": "The Sudd, the enormous wetland in South Sudan, is named for these mats. They can seal a channel completely. Nineteenth-century expeditions trying to follow the Nile upstream were stopped for months at a time by vegetation they could neither sail through nor walk on."
+   },
+   {
+    "cat": "travel",
+    "kind": "found",
+    "text": "Papyrus stems float well, so Egyptians bundled them into boats. A Fourth Dynasty carving shows men cutting papyrus for exactly that. The same plant supplied the rope and the rigging that held the boat together."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Egyptians ate the thick underground stem. They used the rest for rope, sandals, mats and baskets. Bowls and utensils were carved from the woody root. One swamp plant covered writing, footwear, rigging, furniture, boats and dinner."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The feather-duster head is the flower. Small brown flowers sit right at the tips of those green threads, and the seeds follow. Almost every photograph of papyrus is a photograph of a flower head nobody recognizes as one."
+   },
+   {
+    "cat": "weird",
+    "kind": "record",
+    "text": "Papyrus went out of use slowly. By around the fourth century the important books were being made on parchment instead. The last European document written on papyrus was a papal decree issued under Pope Victor II."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "The account puts seed-bearing plants on day three. The first material people wrote on at length was one of them — a swamp weed, sliced up and pressed flat into a page that still turns."
+   }
+  ]
+ },
+ {
+  "id": "seagrass",
+  "name": "Seagrass",
+  "group": "water",
+  "blurb": "A true flowering plant that lives underwater in the sea. It flowers, sheds pollen and sets seed without ever coming up for air.",
+  "size": "Blades reach about 3 ft (1 m). One Australian meadow is a single plant with shoots 110 miles (180 km) apart.",
+  "homes": [
+   "ocean"
+  ],
+  "stats": {
+   "height": 3
+  },
+  "wonder": "A flower is equipment for open air — dry pollen, a breeze, an insect. Every part of that job is done here in salt water instead, and it still works.",
+  "facts": [
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The largest known organism on earth by area is a seagrass. One Posidonia australis in Shark Bay, Western Australia, covers about 77 square miles (200 km2). Shoots sampled 110 miles (180 km) apart turned out to be the same plant.",
+    "more": "Researchers read the DNA of shoots from all over the bay. Every sample came back identical. That is how a meadow turned out to be one individual. It carries 40 chromosomes where its relatives carry 20. It creeps outward at about 14 in (35 cm) a year."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Seagrass is not seaweed. Kelp and wrack are algae. Seagrass has roots, a creeping underground stem, veined leaves, flowers, pollen and seeds — the complete kit of a flowering plant, working underwater. There are about 60 species."
+   },
+   {
+    "cat": "record",
+    "kind": "worked",
+    "text": "Creep 14 in (35 cm) a year and 110 miles takes a while. Run that measured rate backwards and the Shark Bay plant comes out at least 4,500 years old. Nobody started the clock; the arithmetic is what gives the number."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Eelgrass pollen is wrong for pollen. Instead of round dry grains built to drift on a breeze, it comes out in long sticky threads that ride the current and wrap around whatever they touch."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "Turtle grass was assumed to be pollinated purely by drifting current. Then researchers found small crustaceans and worm larvae crawling over the flowers at night with pollen grains stuck to them. Underwater flowers get visitors, the same as flowers in air.",
+    "more": "The check that settled it was done in tanks with the water held completely still. No current and no wind — and pollen still reached the female flowers, carried on the backs of animals."
+   },
+   {
+    "cat": "home",
+    "kind": "worked",
+    "text": "Young fish shelter in seagrass, and the read is straightforward: a meadow is a thicket. A big predator cannot see through it or swim fast in it, and the small things hiding inside can. A lot of the fish people eat start life in one."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Dugongs, green turtles, manatees, geese, swans, sea urchins and crabs all eat seagrass. A feeding dugong plows visible furrows through a meadow, and you can follow its track from the surface."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Seagrass covers something like one or two thousandths of the sea floor. It accounts for more than a tenth of all the carbon the ocean stores. Acre for acre it holds twice as much carbon dioxide as rainforest."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "A meadow full of leaves slows the water moving through it, and slow water drops the sand it is carrying. The read is that seagrass builds and then holds the seabed it lives on. Tear it up and the bottom starts moving again."
+   },
+   {
+    "cat": "travel",
+    "kind": "found",
+    "text": "Divers cannot cover thousands of square miles of seabed. So researchers strapped cameras to tiger sharks and let them swim. The footage, reported in 2022, mapped the largest seagrass bed known, near the Bahamas.",
+    "more": "The sharks were fitted with cameras and tracking tags, then let go. They did the survey by going about their normal business. It is a neat solution to a dull problem. A tiger shark covers more seabed in a week than a dive team covers in a season."
+   },
+   {
+    "cat": "senses",
+    "kind": "worked",
+    "text": "Eelgrass flowers in spring as the water warms. The plant has no eyes and no calendar. The best read is that it is going by temperature. Every plant in the meadow reads it at about the same time."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three gathered the waters into seas and made the earth bring forth grass, the herb yielding seed. Seagrass is the one green thing doing both jobs in the same place: a seed-bearing plant, flowering, in the sea.",
+    "more": "It is not a halfway thing. Everything a flowering plant needs is present and working — root, creeping stem, leaf, flower, pollen, seed — with each part suited to salt water. Threads instead of grains. Current and crustaceans instead of wind and bees."
+   }
+  ]
+ },
+ {
+  "id": "sphagnum",
+  "name": "Sphagnum moss",
+  "group": "moss",
+  "blurb": "A bog moss built like a sponge, which soaks up water, turns the ground sour, and slowly turns into peat.",
+  "size": "One plant is a few inches of soft green stem. The bog it builds can be miles across and yards deep.",
+  "homes": [
+   "freshwater",
+   "forest",
+   "polar"
+  ],
+  "stats": {},
+  "wonder": "A plant that carries most of its water in cells that are already dead is a strange design, and it is the whole reason a bog exists.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Most of a Sphagnum leaf is dead on purpose. Big empty barrel-shaped cells sit between the living green ones, each with a pore in it, and water pours in and stays. The living cells do the food-making; the dead ones do the holding."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "Sphagnum can hold 16 to 26 times its own dry weight in water, depending on the species. Lift a handful straight out of a bog and it runs like a squeezed sponge."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "Sphagnum takes calcium and magnesium out of the water around it and puts hydrogen back. The water turns acid, and the read is plain enough: very little else will grow in it. The moss makes the bog it needs."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The spore capsule fires like a gun. It dries out, and the air trapped inside compresses. The lid blows off. The spores leave at 12 ft per second (3.6 m/s), which is about 36,000 g of acceleration. They reach 4 to 8 in (10 to 20 cm) up.",
+    "more": "The best read of that height is the still air near the ground. Within an inch of a bog surface almost nothing moves. Four inches up there is enough breeze to carry a spore somewhere new, so the capsule's job is to punch through the calm layer."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "No flowers, no seeds. Mosses make spores instead, in a capsule on a stalk, and a spore is a single cell — nothing like a seed with a packed lunch inside it."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Peat is mostly dead Sphagnum that never rotted. Peatlands cover about 3 percent of the world's land. They hold 42 percent of all the carbon in soil. That is more than every forest and every other kind of plant put together.",
+    "more": "Peat forms because the bog is too sour and too airless for the bacteria and fungi that normally break dead plants down. So the moss just stacks up, layer on layer, each one squashing the one below it. Nothing is being burned off, which is why the carbon stays put."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Peat builds up at roughly a millimeter a year. A northern peat bog is typically 5 to 7 ft (1.5 to 2.3 m) deep, which is an extremely large number of millimeters."
+   },
+   {
+    "cat": "gross",
+    "kind": "found",
+    "text": "Whole human bodies have come out of Sphagnum bogs with skin, hair and clothing intact. Tollund Man, Lindow Man and Clonycavan Man are three of them. Containers of butter up to two thousand years old have come out too, still recognizably butter.",
+    "more": "Three things do it. The water is acid enough to tan skin like leather. There is no oxygen down there for the bacteria that rot things. Sphagnum also releases a substance called sphagnan, which kills bacteria outright."
+   },
+   {
+    "cat": "copied",
+    "kind": "record",
+    "text": "Sphagnum was used as a wound dressing for centuries. It went into field dressings in place of cotton right through the First World War. A botanist named John William Hotson published a paper on it in Science in 1918. He called it 'Sphagnum as a surgical dressing'.",
+    "more": "It was the obvious material: it holds many times its weight in fluid, it costs nothing, and it grows in bogs by the acre. The same sourness that stops a bog rotting is no friendlier to bacteria in a bandage."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Peat is cut and dried for fuel in Ireland and Scotland. The smoke gets used on purpose too. Islay distilleries dry their barley over peat fires, and that is where the smoky taste in that whisky comes from."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Sphagnum grows further north than almost anything green. There are populations in Svalbard at 81 degrees north, well inside the Arctic. About 380 species are accepted."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three has the earth bringing forth green growing things — before the sun on day four. Sphagnum grows in the dimmest, wettest, sourest ground there is and takes almost nothing out of the soil. Whatever it was built to run on, it is not rich living."
+   }
+  ]
+ },
+ {
+  "id": "lichen",
+  "name": "Lichen",
+  "group": "moss",
+  "blurb": "Not a plant at all: a fungus and an alga living as one organism, growing on bare rock where nothing else will start.",
+  "size": "From a paint-like crust you could cover with a thumbnail to shaggy gray tufts hanging a foot long off a branch.",
+  "homes": [
+   "mountain",
+   "polar",
+   "forest",
+   "desert"
+  ],
+  "stats": {},
+  "wonder": "Two living things from two different kingdoms, together making a third thing that neither could be alone, on bare stone.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "A lichen is not one organism doing two jobs. It is a fungus and an alga — sometimes a cyanobacterium — living inside one body. The fungus makes the structure and catches the water; the alga inside it makes the food. Pull them apart and neither one is a lichen."
+   },
+   {
+    "cat": "build",
+    "kind": "record",
+    "text": "Nobody worked this out until 1867, when a Swiss botanist called Simon Schwendener said a lichen was two organisms and not one. The lichen specialists of the day mostly refused to believe him. He turned out to be right."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Fungi are not plants. About one in five of all known fungus species lives as a lichen. That is a very large slice of the fungus kingdom. Each one took on a green partner and never let go."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "A crust lichen spreads by 1 to 2 mm a year, and plenty manage less than one. A small patch has been sitting on that rock since long before anyone now alive."
+   },
+   {
+    "cat": "record",
+    "kind": "worked",
+    "text": "Because lichens grow at a steady measurable rate, you can date a bare rock surface by measuring the biggest lichen on it. Map lichens on East Baffin Island come out at roughly 9,500 years old on that basis. It is arithmetic, not a birth certificate."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Lichens grow on bare rock, on gravestones, on roof tiles, on fence wire and on tree bark, in deserts and on Antarctic stone. They are not parasites on the trees they sit on — the bark is a perch, not a meal."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "In 2005 two lichen species rode a Soyuz rocket into orbit. They were held in open space for fifteen days, in vacuum, unfiltered sunlight and cosmic radiation. Brought home, they were photosynthesizing as though nothing had happened.",
+    "more": "The lichens went out with no protection at all. No air, and no shielding from ultraviolet. Temperatures swung wildly every time the craft passed into shadow. The result matched what they already do on a mountaintop. A lichen shuts down and waits, and space is just another dry spell."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "A lichen dries out completely. It has no way to hold water in and does not try; it goes brittle, shuts down and waits, sometimes for months. Wet it and it swells and starts working again."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Reindeer and caribou get through northern winters largely on lichen, digging it out from under the snow. Cladonia rangiferina is called reindeer moss. The name is wrong twice over. It is not a moss, and it is not one organism.",
+    "more": "It grows 3 to 11 mm a year. A lichen range that has been overgrazed, burned or trampled can take decades to come back. That is why reindeer herds keep moving instead of eating one patch out."
+   },
+   {
+    "cat": "copied",
+    "kind": "record",
+    "text": "Litmus paper is made from lichen. It is the strip that goes red in acid and blue in alkali. The dye comes from Roccella and its relatives. A Catalan physician, Arnaldus de Villa Nova, was using it to test acids around the year 1300.",
+    "more": "Litmus is not one chemical but a mixture pulled out of the lichen with ammonia and lime. It changes color between about pH 4.5 and 8.3, so it will tell you acid from alkali but not much more than that. For anything finer, chemists use other indicators."
+   },
+   {
+    "cat": "travel",
+    "kind": "found",
+    "text": "Lichens make travel bundles: soredia, a few algal cells wrapped in fungal threads and blown off as dust, and isidia, small spiny outgrowths that snap off. Either way, both partners leave together in the same parcel."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three is when the earth brought forth green growing things. A lichen fits that line strangely. The green half is an alga, the other half is a fungus, and neither on its own is a lichen. It only ever turns up as a pair."
+   }
+  ]
+ },
+ {
+  "id": "moss",
+  "name": "Common moss",
+  "group": "moss",
+  "blurb": "A plant with no flowers, no seeds and no proper roots, which covers damp ground, walls and rock in a low green mat.",
+  "size": "Most mosses stand between a tenth of an inch and 4 in (0.2 to 10 cm) tall. The tallest of all reaches about 20 in (50 cm).",
+  "homes": [
+   "forest",
+   "backyard",
+   "mountain",
+   "polar"
+  ],
+  "stats": {},
+  "wonder": "No roots, no flowers, no seeds — and it still carpets more cold wet ground than anything else growing.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Moss is a plant, but it has no flowers, no seeds and no real roots. The hairs holding it down are called rhizoids and they are only for grip. Water and food go in through the leaves, across the whole surface at once."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "There are about 12,000 species of moss, and most of them stand between 0.2 and 10 cm high — a tenth of an inch to four inches. A moss forest is ankle-deep at best."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The tallest moss is Dawsonia superba, of New Zealand, Australia and New Guinea. Its stem reaches about 20 in (50 cm). It manages that by having internal plumbing. Strands of cells carry water up and food down, which most mosses do without."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Moss makes spores, not seeds. The green cushion sends up a bare stalk with a capsule on top, capped by a small hood. The whole arrangement is a spore factory standing on a stem."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Around the mouth of the capsule sit teeth — usually sixteen of them, made from the walls of dead cells. They fold in to close it and fold back to open it, so the spores go out gradually instead of all at once.",
+    "more": "The teeth are made of dead cell wall, so the capsule is not spending energy on the mechanism. They are shaped to move as the air around them dries and dampens. That releases spores on a dry day, when they will actually travel. Wet still air gets nothing."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "A moss can dry to a brown crisp and stay that way for months. Water it and it turns green and starts working again within hours. It does not fight drying out. It just stops."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Moss grows in the cracks between paving stones, on roofs, on walls, on gravestones and on tree bark. It does not need soil, because it has no roots to put in soil."
+   },
+   {
+    "cat": "weird",
+    "kind": "worked",
+    "text": "People say moss grows on the north side of a tree. In the northern half of the world it does tend to be thicker there, but the reason is shade and damp, not north. On a slope, or beside a wall, or under other trees, the rule falls apart.",
+    "more": "It is a useful lesson about rules of thumb. The moss is not reading a compass. It is sitting wherever stays wet longest, and plenty of things besides the sun decide where that is."
+   },
+   {
+    "cat": "copied",
+    "kind": "found",
+    "text": "Dried moss was packed between the logs of cabins in Russia and the Nordic countries to keep the cold out. Tribes in the north-eastern United States and south-eastern Canada used it the same way. It filled the gaps in wooden longhouses.",
+    "more": "Dry moss is mostly air trapped in small spaces, which is exactly what an insulator needs to be. It can be stuffed into an awkward gap and stay there. It also swells when it gets damp. That helps close the joint rather than open it."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "One old group of mosses, Takakia, pairs up with fungi. Most flowering plants do the same thing at their roots. The fungus feeds the moss minerals and the moss feeds the fungus sugar. It is the only moss group known to do it."
+   },
+   {
+    "cat": "home",
+    "kind": "worked",
+    "text": "Moss on bare rock is the start of soil. It holds water against the stone, grit and dust collect in it, and the surface crumbles faster than it would bare. The read is that moss goes first and everything else follows it."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three had the earth bring forth green growing things. Moss is the plainest version of that there is: no flower, no fruit, no seed, no roots. Just green, coming up true to kind from a speck you cannot see."
+   }
+  ]
+ },
+ {
+  "id": "tree-fern",
+  "name": "Tree fern",
+  "group": "ferns",
+  "blurb": "A fern that stands on a trunk like a tree, except the trunk is not wood — it is an upright stem wrapped in its own roots.",
+  "size": "Most stand 15 to 20 ft (5 to 6 m). The Norfolk Island tree fern reaches about 66 ft (20 m), with fronds 16 ft (5 m) long.",
+  "homes": [
+   "rainforest",
+   "forest",
+   "mountain"
+  ],
+  "stats": {
+   "height": 66
+  },
+  "wonder": "Everything a tree normally uses to stand up — wood, bark, growth rings — is missing here, and it stands anyway.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The trunk is not a trunk. It is an upright underground stem that has stood up, and there is no wood in it at all. What holds it rigid is stiffening in the cell walls plus a thick interlocking felt of tiny roots grown down the outside.",
+    "more": "That is why a tree fern has no growth rings and cannot be aged by cutting it open. It also means the trunk cannot heal or thicken once it is formed. A tree fern gets taller, but the trunk it has at the bottom is the trunk it will always have."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "Sphaeropteris excelsa, from Norfolk Island in the Pacific, reaches 66 ft (20 m) or more, with single fronds 16 ft (5 m) long. It is probably the largest fern species in the world."
+   },
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "That species and its close relative are the fastest-growing tree ferns, at up to 20 in (50 cm) of new trunk in a year. That is quick for a fern and slow for a tree."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "Dicksonia antarctica of south-east Australia and Tasmania usually reaches 16 ft (5 m) with a trunk a foot (30 cm) thick. Rare ones hit 49 ft (15 m) and 6 ft 7 in (2 m) thick, with fronds 13 ft (4 m) long."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "No flowers, no seeds, no fruit. Tree ferns make spores in patches on the underside of the fronds. A spore is a single cell. It is smaller than a grain of dust, with nothing packed inside it."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "A fern spore does not grow into a fern. It grows into a flat green scrap about the size of a fingernail, and that scrap makes the fern. There are two separate plants in a fern's life, and the famous one is the second.",
+    "more": "The flat green scrap is called a prothallus. It is where the egg and the sperm meet. The sperm needs a film of water to swim across. That is a large part of why ferns live in damp places, even when the grown plant looks tough."
+   },
+   {
+    "cat": "disguise",
+    "kind": "found",
+    "text": "New fronds come up rolled into a tight spiral and open from the outside in. The shape has a name in New Zealand — koru — and it turns up all over New Zealand carving and design."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "New Zealand's silver fern, Cyathea dealbata, grows to 33 ft (10 m) with fronds up to 10 ft (3 m) long and 3 ft (1 m) wide, silver-white underneath. A New Zealand side wore it touring Britain in 1888, and it has been the country's emblem ever since.",
+    "more": "Silver ferns appear on the national coat of arms, on military badges and on war memorials. They are on the shirts of the All Blacks and the Silver Ferns netball side. It started with the 1888-89 New Zealand Native football team, who wore it touring Britain."
+   },
+   {
+    "cat": "senses",
+    "kind": "record",
+    "text": "Maori used that silver underside as a road sign. Fronds laid silver-side-up along a track catch moonlight, so a party walking back after dark can see the way home."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Tree ferns grow in tropical rainforest and in the cool wet forests of Australia and New Zealand. Dicksonia antarctica needs at least 20 in (500 mm) of rain a year and grows from sea level up to about 3,300 ft (1,000 m)."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Some tree ferns come back from the trunk itself. Dicksonia squarrosa and D. youngiae push out new plants from offsets at the base and from pups along the standing trunk, so one plant slowly becomes a clump."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names grass, seed-bearing herbs and fruit trees. A tree fern is none of those and looks like one of them anyway: tree-shaped, without wood, without a flower, without a seed. There is more than one way to build something that stands 60 ft up."
+   }
+  ]
+ },
+ {
+  "id": "bracken",
+  "name": "Bracken",
+  "group": "ferns",
+  "blurb": "A coarse fern that spreads by underground stems and takes whole hillsides — one of the most widespread plants there is.",
+  "size": "Fronds stand 1 to 3.5 ft (0.3 to 1 m) tall over a rhizome that can run 50 ft (15 m) sideways and 11 ft (3.5 m) down.",
+  "homes": [
+   "forest",
+   "grassland",
+   "mountain"
+  ],
+  "stats": {
+   "height": 3
+  },
+  "wonder": "Most of the plant is under your feet. The part you can see is the small part.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The fronds are the small end of it. Bracken's rhizome — its underground stem — is about 2 in (5 cm) thick, runs up to 50 ft (15 m) sideways, and can sit 11 ft (3.5 m) below the surface."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "One bracken clone at Raakkyla in Finland measures 1,604 ft (489 m) across. That is a single plant nearly a third of a mile wide, all of it joined up underground.",
+    "more": "Its age was worked out rather than watched. Run the measured spreading rate back across 1,604 ft and the answer comes to more than 1,400 years. Individual rhizomes are reckoned to last up to 72 years. So the plant has replaced its own parts many times over while staying one plant."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Bracken grows on every continent except Antarctica. It ranks about fifth among the most widely distributed weeds in the world. If you have walked in the countryside anywhere temperate, you have walked past it."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "Bracken is poisonous. It contains ptaquiloside, which causes cancer, and cattle and sheep that eat enough of it get seriously ill. It also contains thiaminase, which destroys vitamin B1 in horses that graze on it."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "Almost nothing grazes bracken, and that is the point. The read is that the poisons are a defense, and it works. A hillside of bracken is a hillside grazing animals walk around. That leaves the bracken more room."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "People eat it anyway. In Japan young bracken shoots are warabi, and warabimochi is a chilled dessert made from them. In Korea the same shoots are gosari — soaked, parboiled and stir-fried.",
+    "more": "The poison dissolves in water, and boiling breaks down nearly all of it. That is why every traditional recipe starts with soaking and boiling. Young bracken has been eaten in parts of Japan and in north Wales. Stomach cancer rates run high in both places."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "No flowers and no seeds — bracken makes spores under the rolled edges of its fronds. But most new bracken never involves a spore at all. It is the rhizome, creeping sideways underground and pushing up another frond.",
+    "more": "Bracken does still make spores, in enormous numbers, and they blow a long way. Almost none of them succeed: a spore has to land somewhere damp and bare and stay damp long enough to make a prothallus. The rhizome does not have to gamble like that."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "A bracken hillside can be one plant. What looks like thousands of separate ferns is a single rhizome network with fronds sent up through the soil at intervals, like periscopes."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "Burn bracken off and it comes straight back. The rhizome sits feet below the surface where a grass fire cannot reach it, and it pushes up fresh fronds from food stored down there."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The fronds are triangular and cut into leaflets, and in cold places they die back brown every fall into a deep springy litter. New ones come up the next spring, rolled tight like a bishop's crook."
+   },
+   {
+    "cat": "travel",
+    "kind": "worked",
+    "text": "Bracken spreads two ways at very different speeds. Spores can travel miles on the wind and hardly ever take. The rhizome moves a few feet a year and almost always does. The read is that the slow way is the one that matters."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names the plants that yield seed. Bracken yields none. It is out on the same earth doing the same work — covering ground, holding soil, dying back and coming again — with a completely different set of parts."
+   }
+  ]
+ },
+ {
+  "id": "horsetail",
+  "name": "Horsetail",
+  "group": "ferns",
+  "blurb": "A jointed plant with hollow stems, stiffened with real grit. People used it for centuries to scour pots and polish wood.",
+  "size": "Most are knee-high. Equisetum myriochaetum in Central America reaches about 26 ft (8 m).",
+  "homes": [
+   "freshwater",
+   "forest",
+   "grassland"
+  ],
+  "stats": {
+   "height": 26
+  },
+  "wonder": "A plant that loads sand into its own walls, and then people borrowed it as sandpaper.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Rub a horsetail stem and it is rough, like fine sandpaper. The plant loads silica — the stuff of sand and glass — into its stem. That is not dust picked up off the ground. The plant put it there."
+   },
+   {
+    "cat": "copied",
+    "kind": "found",
+    "text": "That grit is why horsetail was used for scouring pots and mugs. In English the unbranched kinds are still called scouring rush, and in Japan the boiled and dried stems give the final polish on woodwork."
+   },
+   {
+    "cat": "copied",
+    "kind": "found",
+    "text": "Horsetail stems are used to shape the reeds of clarinets and saxophones. A plant is doing a job that would otherwise need a file, on an instrument that costs rather more than the plant."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The stems are hollow and jointed, ridged along their length with anything from 3 to about 40 ridges, and they pull apart at the joints with a small pop. The leaves are fused into a collar at each joint.",
+    "more": "Pull a horsetail apart at a joint and you get a clean socket, like a tent pole. Every joint carries a ring of tiny fused leaves, and the branches, when there are any, come out in a whorl from the same ring. It is one design repeated all the way up."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "No flowers and no seeds. Spores form in a cone at the tip of the stem. Each spore has four ribbons attached to it, called elaters. They coil and uncoil as the air gets damper or drier."
+   },
+   {
+    "cat": "travel",
+    "kind": "found",
+    "text": "Those four ribbons make the spore move. As they open and shut the spore crawls and hops across a surface. Put horsetail spores under a lens and change the humidity, and the whole pile visibly shifts."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "Most horsetails are knee-high. Two are not. Equisetum giganteum in South America reaches 16 ft (5 m). Equisetum myriochaetum in Central America reaches about 26 ft (8 m)."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "Only 18 species of horsetail are generally accepted, and every one is in the genus Equisetum. It is the only living genus in its family — and the only genus in a whole subclass. There is nothing else quite like it alive.",
+    "more": "That is a strikingly small group for a plant this widespread. The 18 species between them cover most of the northern half of the world, plus a good deal of South America. They also hybridize readily. That is part of why counting them is awkward."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Horsetails grow in wet ground: ditches, riverbanks, damp fields, railway cuttings and gravel. Common horsetail is a serious garden weed. It comes back from rhizomes buried well below the depth of a spade."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "Grazing animals mostly leave horsetail alone. The read is the grit. A mouthful of silica wears teeth down and is hard to get anything out of. An animal with a choice picks something softer."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "In some horsetails the spore-bearing stem comes up first in spring, pale brown with no green on it anywhere. It does its job, dies back, and only then do the green stems appear. The same plant sends up two different shoots."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three sorted the waters from the dry land. Horsetail lives right on that line, roots in the mud and stem in the air. It has never needed a flower, a seed, or a leaf worth the name to do it."
+   }
+  ]
+ }
+]

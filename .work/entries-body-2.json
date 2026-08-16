@@ -1,0 +1,414 @@
+[
+ {
+  "section": "brain",
+  "cat": "weird",
+  "kind": "found",
+  "text": "The idea that you use only 10% of your brain is simply wrong. Scans show activity all over it, and there is no spare, unused portion sitting idle.",
+  "more": "Damage to almost any small patch costs something — a word, a memory, a movement, a piece of the visual field. If nine tenths were spare, most head injuries would cost nothing at all."
+ },
+ {
+  "section": "brain",
+  "cat": "weird",
+  "kind": "record",
+  "text": "Nobody had ever actually counted the cells in a human brain. Suzana Herculano-Houzel dissolved brains into a smooth soup. Then she counted the nuclei floating in it. The answer came out near 86 billion neurons. Textbooks had been repeating 100 billion for decades."
+ },
+ {
+  "section": "brain",
+  "cat": "food",
+  "kind": "found",
+  "text": "Your brain is about 2% of your weight and burns about 20% of your energy — roughly 20 watts, less than an old-style light bulb."
+ },
+ {
+  "section": "brain",
+  "cat": "created",
+  "kind": "found",
+  "text": "Your brain sits in clear fluid that is almost exactly as dense as brain tissue itself. Floating in it drops the brain's effective weight from about 3 lb (1.4 kg) to roughly 2 oz (50 g) — the difference between resting on bone and hanging weightless."
+ },
+ {
+  "section": "brain",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "You have never once seen your own eyes move.",
+  "tryit": "Stand close to a mirror. Look at your left eye, then your right, then back again. You never catch the movement — your vision shuts off for the instant your eyes jump, so you are not blurred. Get someone else to watch you do it; they see it perfectly clearly."
+ },
+ {
+  "section": "brain",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "You can give your own foot an order it will refuse to follow.",
+  "tryit": "Sit down, lift your right foot off the floor and circle it clockwise. Keep it going, and now draw a big number 6 in the air with your right hand. The foot flips direction. Both jobs are run from the same side of your brain, and the hand wins."
+ },
+ {
+  "section": "brain",
+  "cat": "build",
+  "kind": "found",
+  "text": "London taxi drivers have to learn 25,000 streets before they are licensed. Scans show the back of their hippocampus — the brain's map room — is measurably larger than other drivers', and it grows while they learn.",
+  "more": "Trainees who studied for years and then failed the test showed no such growth. The reading is hard to escape: the parts you work hardest are the parts that get built up."
+ },
+ {
+  "section": "heart",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Your blood is never blue. Blood that has given up its oxygen is dark red, and veins only look blue because of how light gets back out of your skin.",
+  "more": "Red light travels deep and gets soaked up by the dark blood below. Blue light bounces off the fibers in the upper skin and comes straight back to your eye. The vein is red; the picture is blue."
+ },
+ {
+  "section": "heart",
+  "cat": "record",
+  "kind": "record",
+  "text": "William Harvey settled the question with arithmetic in 1628. He worked out how much blood one beat pushes, multiplied it by the beats in half an hour, and got far more blood than a whole body holds. So it had to be going round in a loop.",
+  "more": "Before that, blood was thought to be made fresh in the liver and used up at the edges. Harvey never saw a capillary — no microscope of his was good enough — but the numbers left him no other answer."
+ },
+ {
+  "section": "heart",
+  "cat": "size",
+  "kind": "found",
+  "text": "Your heart shifts about 5 quarts (5 L) of blood a minute, which is your entire supply. Over a day that adds up to roughly 2,000 gallons (7,600 L)."
+ },
+ {
+  "section": "heart",
+  "cat": "created",
+  "kind": "found",
+  "text": "The lub-dub of a heartbeat is not the squeeze. It is doors slamming: four valves that open one way only, so blood goes forward and can never wash back."
+ },
+ {
+  "section": "heart",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "You can watch blood refill part of your body in under two seconds.",
+  "tryit": "Press hard on a fingernail for five seconds, then let go. The nail is white, then color floods back — normally in under two seconds. Paramedics use this exact test to check that blood is still reaching someone's hands and feet."
+ },
+ {
+  "section": "heart",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Your heart does not wait to be told. A patch of cells at the top sets the beat, and even single heart cells taken out and kept in a dish carry on beating on their own.",
+  "more": "It is why a donated heart starts up again in a new chest. Nerves from the brain speed the beat up or slow it down, but the rhythm itself belongs to the heart."
+ },
+ {
+  "section": "heart",
+  "cat": "build",
+  "kind": "found",
+  "text": "The pipe leaving your heart is called the aorta. It is about 1 inch (2.5 cm) across, near enough a garden hose. It runs more than a foot (30 cm) before it starts to divide."
+ },
+ {
+  "section": "bones",
+  "cat": "weird",
+  "kind": "record",
+  "text": "Cracking your knuckles does not give you arthritis. Donald Unger cracked the knuckles of his left hand at least twice a day for over 60 years and never cracked his right. X-rays of both hands showed no difference.",
+  "more": "He collected an Ig Nobel Prize for it in 2009. The pop itself was filmed live in an MRI scanner in 2015: it is a gas pocket suddenly forming as the joint surfaces pull apart, not a bubble bursting."
+ },
+ {
+  "section": "bones",
+  "cat": "size",
+  "kind": "found",
+  "text": "Your thigh bone is the longest bone you own, and it comes to close to a quarter of your height. Take your height, divide by four, and you have roughly its length."
+ },
+ {
+  "section": "bones",
+  "cat": "build",
+  "kind": "found",
+  "text": "Bone is living tissue, torn down and rebuilt without stopping. One kind of cell chews out old bone, another lays fresh bone into the gap, and over about ten years the whole skeleton gets replaced.",
+  "more": "That is why bone thickens where you load it and thins where you do not. Astronauts, with nothing to push against, lose bone quickly and have to exercise for hours a day to slow it down."
+ },
+ {
+  "section": "bones",
+  "cat": "weird",
+  "kind": "found",
+  "text": "One bone in your body touches no other bone. The hyoid, a small horseshoe in your throat, hangs in muscle alone, and your tongue is anchored to it.",
+  "tryit": "Rest a finger lightly on the soft part of your throat just above your voice box and swallow. The little arch that jumps up and back down under your fingertip is the hyoid, held by nothing but muscle."
+ },
+ {
+  "section": "bones",
+  "cat": "record",
+  "kind": "found",
+  "text": "Teeth are not bones. Enamel is the hardest material your body makes, harder than any bone you have — and unlike bone it cannot repair itself, which is the entire reason for brushing."
+ },
+ {
+  "section": "bones",
+  "cat": "build",
+  "kind": "found",
+  "text": "Your arm is joined to the rest of your skeleton by exactly one bone. Trace the ridge from the notch at the base of your throat out to the point of your shoulder: that collarbone is the only bony link. Everything else is muscle."
+ },
+ {
+  "section": "bones",
+  "cat": "created",
+  "kind": "worked",
+  "text": "Your backbone is not a straight column. It curves in at the neck, out at the chest and in again at the waist. A straight spine would send every footfall jarring up into your skull; the S-shape turns it into a spring."
+ },
+ {
+  "section": "lungs",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Yawning is not your body grabbing extra oxygen. Robert Provine had volunteers breathe pure oxygen, then air loaded with carbon dioxide. Neither changed how much they yawned.",
+  "more": "Breathing sped up on the carbon dioxide, as you would expect, but yawns did not. Why we yawn is still open; the one thing that is settled is that the oxygen story is out."
+ },
+ {
+  "section": "lungs",
+  "cat": "build",
+  "kind": "found",
+  "text": "You sigh roughly every five minutes without ever deciding to. A sigh is a double-sized breath, and its job is popping open air sacs that have collapsed shut.",
+  "more": "Around half a billion of those sacs line your lungs, and some stick closed every hour. Without the automatic sigh they would stay shut, and the working surface of your lungs would quietly shrink."
+ },
+ {
+  "section": "lungs",
+  "cat": "created",
+  "kind": "found",
+  "text": "The tiny air sacs in your lungs are wet inside, and wet surfaces stick shut. Each one is coated in a soapy film that stops that happening, so every sac reopens on every single breath.",
+  "more": "Babies born very early sometimes have not made the film yet, and their air sacs collapse between breaths. Mary Ellen Avery worked out why in 1959, and the film can now be given as a medicine."
+ },
+ {
+  "section": "lungs",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "You are mostly breathing through one nostril right now.",
+  "tryit": "Hold a cold window or a mirror under your nose and breathe out. One patch of mist comes out bigger. Roughly three quarters of your air goes through the dominant nostril, and your nose swaps which one that is every couple of hours, all day, without telling you."
+ },
+ {
+  "section": "lungs",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "Your breath leaves at one temperature but can feel hot or cold.",
+  "tryit": "Hold your palm a few inches from your mouth. Breathe out slowly with your mouth wide open — warm. Now purse your lips and blow hard at the same spot — cold. The fast jet drags cool room air along with it, and that is most of what lands on your hand."
+ },
+ {
+  "section": "lungs",
+  "cat": "talk",
+  "kind": "found",
+  "text": "You talk on the way out. Air pushed up from your lungs makes two small flaps in your throat flutter — for a child's voice, somewhere around 300 times a second."
+ },
+ {
+  "section": "lungs",
+  "cat": "gross",
+  "kind": "found",
+  "text": "You swallow around 3 pints (1.5 L) of your own mucus a day and never notice. Tiny hairs lining your airways row it steadily upward at about half an inch (1 cm) a minute, carrying trapped dust with it."
+ },
+ {
+  "section": "senses",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "The genuinely sharp part of your sight is about the size of your thumbnail held at arm's length.",
+  "tryit": "Hold a book at arm's length, stare hard at one word and do not let your eyes drift. Now try to read the words on either side of it. You cannot. Everything outside that tiny patch is rough, and your eyes hide it by darting about constantly."
+ },
+ {
+  "section": "senses",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "Stare at a color long enough and your eye will print the opposite one onto a blank wall.",
+  "tryit": "Stare at something strongly colored — a red book, a bright blue screen — for 30 seconds without moving your eyes. Then look at a white wall. A ghost of it floats there in the opposite color, because the cells handling that color are worn out for a moment."
+ },
+ {
+  "section": "senses",
+  "cat": "senses",
+  "kind": "found",
+  "text": "About 1 in 12 boys and 1 in 200 girls cannot tell certain reds and greens apart. The instructions for those color detectors sit on the X chromosome, and boys have only one X."
+ },
+ {
+  "section": "senses",
+  "cat": "created",
+  "kind": "found",
+  "text": "Inside your ear is a coiled tube laid out like a piano keyboard. High notes shake the hairs at one end, low notes at the far end, and every spot along it has its own line reporting to the brain.",
+  "more": "Cochlear implants use that map directly. An electrode is threaded along the coil, and it is told to stimulate the high-note end for high sounds and the far end for low ones."
+ },
+ {
+  "section": "senses",
+  "cat": "build",
+  "kind": "worked",
+  "text": "Your nose carries about 400 different types of smell detector. You can tell apart far more smells than that. So a smell cannot be one key fitting one lock. Each smell has to be a pattern across many detectors at once."
+ },
+ {
+  "section": "senses",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Your nose stops reporting any smell that does not change. Sniff a lemon or a marker pen steadily for a minute and it fades to almost nothing; take it away and it comes back at full strength. It is why you cannot smell your own house and other people can."
+ },
+ {
+  "section": "senses",
+  "cat": "senses",
+  "kind": "found",
+  "text": "You can hear higher notes than the adults around you. The top of the range starts slipping from the late teens, and by 50 most people have lost everything above about 12,000 vibrations a second.",
+  "more": "Some shops have played a 17,000-per-second tone outside to move teenagers along. The staff and the older customers will not hear it at all."
+ },
+ {
+  "section": "gut",
+  "cat": "record",
+  "kind": "record",
+  "text": "Alexis St Martin was shot in the side in 1822. He survived, but the wound left a hole into his stomach that never fully closed. His doctor was William Beaumont. For years he lowered food into the hole on a string, then pulled it back out to see how far it had got.",
+  "more": "Over 250 experiments. It is how anyone first learned that a stomach works by chemistry rather than by grinding. It was hard on St Martin, who put up with being an experiment for much of his life."
+ },
+ {
+  "section": "gut",
+  "cat": "build",
+  "kind": "found",
+  "text": "Your gut runs on its own nerve network of roughly 500 million cells, more than your spinal cord holds. Cut its line to the brain and the gut carries on digesting anyway."
+ },
+ {
+  "section": "gut",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "You can time your own digestion using sweetcorn.",
+  "tryit": "Eat a good helping of sweetcorn and write down the time. The yellow skins are made of a fiber you cannot break down, so they come out looking exactly the same. Watch for them. For most people they show up somewhere around a day to a day and a half later."
+ },
+ {
+  "section": "gut",
+  "cat": "food",
+  "kind": "found",
+  "text": "You make somewhere between 1 and 3 pints (0.5 to 1.5 L) of spit a day and swallow nearly all of it. It is not just water — it carries enzymes, germ-killers, and minerals that patch tiny damage on your teeth."
+ },
+ {
+  "section": "gut",
+  "cat": "gross",
+  "kind": "found",
+  "text": "A rumbling stomach is not asking to be fed. About every 90 minutes, when there is nothing to digest, a slow wave sweeps down your gut clearing out leftovers. The noise is gas and liquid being shoved along ahead of it."
+ },
+ {
+  "section": "gut",
+  "cat": "created",
+  "kind": "worked",
+  "text": "The appendix gets called a spare part. It is a narrow dead-end pocket off the main tube. The reasoning goes like this. When illness flushes the gut out, useful bacteria tucked up that pocket are not swept away, and they can restock everything afterwards.",
+  "more": "Nobody has watched it happen inside a person. The argument is the shape — a pouch too narrow to flush out, lined with immune tissue that appears to shelter those bacteria rather than attack them."
+ },
+ {
+  "section": "gut",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Your liver does hundreds of separate jobs and is the one large organ that grows back. Remove two thirds of it and the remainder returns to full size. It is why a living person can donate part of a liver: both halves regrow."
+ },
+ {
+  "section": "skin",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Shaving does not make hair grow back thicker, darker or faster. Mildred Trotter tested it in 1928, and every careful study since has found the same nothing.",
+  "more": "An uncut hair tapers to a fine soft point. Shaving slices it flat, so what you feel next is a blunt end — stubbly to the touch and darker-looking because it catches the light differently. Same hair."
+ },
+ {
+  "section": "skin",
+  "cat": "defence",
+  "kind": "found",
+  "text": "You do not lose most of your heat through your head. Your head is about a tenth of your skin, and it loses about a tenth of your heat.",
+  "more": "The claim traces to an old cold-weather test where volunteers were zipped into arctic suits with only their heads left bare. Of course the head lost the heat — it was the only part uncovered."
+ },
+ {
+  "section": "skin",
+  "cat": "gross",
+  "kind": "found",
+  "text": "Sweat itself smells of almost nothing. The smell is made by bacteria living on your skin, feeding on what comes out of the glands and giving off the pongy chemicals themselves."
+ },
+ {
+  "section": "skin",
+  "cat": "created",
+  "kind": "worked",
+  "text": "Your skin is waterproof both ways at once: bath water stays out, your own water stays in. The outer layer is dead flat cells stacked like bricks in greasy mortar. You can tell that layer is what matters — burns that destroy it leave a person drying out."
+ },
+ {
+  "section": "skin",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Your fingerprints belong to you alone. A koala's look so like a human's that forensic scientists have struggled to tell the two apart under a microscope. Outside the monkeys and apes, koalas are the only animals known to have them.",
+  "animal": "koala"
+ },
+ {
+  "section": "skin",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "There is a patch of your skin that barely notices a hard pinch.",
+  "tryit": "Pinch the loose skin over the point of your elbow as hard as you like. Now pinch the same amount of skin on your forearm. The elbow skin is thicker, fattier and much shorter on pain endings, so it hardly registers at all."
+ },
+ {
+  "section": "skin",
+  "cat": "build",
+  "kind": "found",
+  "text": "Your fingernails grow about 1/8 inch (3.5 mm) a month, more than twice as fast as your toenails. The nail on your middle finger is usually the quickest and your little finger the slowest."
+ },
+ {
+  "section": "defence",
+  "cat": "gross",
+  "kind": "found",
+  "text": "Green snot does not mean you need antibiotics. The color comes from an enzyme carried inside your own white blood cells, and it shows up whether the trouble is a virus or a bacterium."
+ },
+ {
+  "section": "defence",
+  "cat": "record",
+  "kind": "record",
+  "text": "Milkmaids who had caught cowpox seemed never to catch smallpox. In 1796 Edward Jenner tested it: he scratched cowpox fluid into the arm of an eight-year-old, James Phipps, and later exposed him to smallpox. Phipps did not get ill.",
+  "more": "Smallpox has since been wiped off the planet completely, the only human disease that has. The word vaccine comes from vacca, the Latin for cow."
+ },
+ {
+  "section": "defence",
+  "cat": "defence",
+  "kind": "record",
+  "text": "Alexander Fleming had a cold, and a drop from his nose landed on a dish of bacteria. Where the drop sat, the bacteria dissolved. He had stumbled on a germ-killer that your tears, spit and snot produce all the time.",
+  "more": "He named it lysozyme in 1922, six years before the mold that gave him penicillin. To get more tears for testing, he had volunteers squeeze lemon peel in front of their eyes."
+ },
+ {
+  "section": "defence",
+  "cat": "gross",
+  "kind": "found",
+  "text": "Pus is mostly white blood cells that died doing their job, mixed with the germs they killed and the bits of tissue wrecked in the fight."
+ },
+ {
+  "section": "defence",
+  "cat": "created",
+  "kind": "found",
+  "text": "Air and food both come in through the same doorway, and a ring of immune tissue is stationed exactly there. Your tonsils are part of it — guard posts placed at the one opening everything has to pass through.",
+  "more": "Open wide in front of a mirror and the two lumps at the back on either side are the tonsils. They are constantly sampling what you breathe and swallow, which is also why they are often the first thing to swell."
+ },
+ {
+  "section": "defence",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Being sick is a defense, not a malfunction. A small patch at the base of your brain samples the blood for poisons, and if it finds one it empties your stomach without consulting you."
+ },
+ {
+  "section": "defence",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "You can feel your own immune system's inspection points.",
+  "tryit": "Press gently under your jaw, just behind the corner, and roll your fingers around. Small firm beads move under the skin: lymph nodes. Fluid drained out of your head passes through them to be checked, and they swell when you are fighting something off."
+ },
+ {
+  "section": "growing",
+  "cat": "created",
+  "kind": "found",
+  "text": "Your long bones do not grow all over. Each has a thin plate of soft cartilage near the end, and new bone is added there and nowhere else, so the shaft lengthens without being rebuilt. When you have finished growing, the plate seals over.",
+  "more": "A doctor can x-ray a child's hand and see how much growing is left from how open those plates still are. It is called bone age, and it can differ from the age on the birthday card."
+ },
+ {
+  "section": "growing",
+  "cat": "weird",
+  "kind": "found",
+  "text": "An x-ray of a six-year-old's jaw shows two complete sets of teeth. The baby ones are in place. The adult ones are stacked in the bone behind and below, waiting their turn.",
+  "more": "A baby tooth does not get pushed out with its roots intact. The roots dissolve away first, which is why a tooth that has been wobbly for a week comes out as a small hollow cap."
+ },
+ {
+  "section": "growing",
+  "cat": "build",
+  "kind": "found",
+  "text": "In a growth spurt the ends go first. Hands and feet reach adult size before the arms and legs, which finish before the body does — which is why shoes stop fitting before trousers do."
+ },
+ {
+  "section": "growing",
+  "cat": "record",
+  "kind": "record",
+  "text": "The tallest person ever measured was Robert Wadlow, at 8 ft 11.1 in (2.72 m) when he was last measured in June 1940. His growing never switched off — a gland under his brain kept releasing growth hormone."
+ },
+ {
+  "section": "growing",
+  "cat": "babies",
+  "kind": "found",
+  "text": "A newborn's head is about a quarter of its whole length. Yours is nearer an eighth. The head changes least because the brain does most of its growing earliest, and the rest of the body spends years catching up."
+ },
+ {
+  "section": "growing",
+  "cat": "babies",
+  "kind": "found",
+  "text": "A newborn can cry hard and produce no tears at all. The glands make just enough to keep the eyes wet; the flood that runs down cheeks usually does not arrive for several weeks."
+ },
+ {
+  "section": "growing",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "Your arm span comes out very close to your height.",
+  "tryit": "Stand with your back to a wall, arms straight out sideways, and get someone to mark where your fingertips reach. Measure between the marks, then measure your height. They land within an inch (2-3 cm) for most people, and children usually measure a shade narrower than they are tall."
+ }
+]

@@ -1,0 +1,391 @@
+[
+ {
+  "id": "rocks-1",
+  "section": "rocks",
+  "cat": "record",
+  "kind": "found",
+  "text": "A mineral's hardness is really just a list of what it can scratch. Talc, number 1, gives way to a fingernail. Quartz, number 7, cuts glass. Diamond sits at 10, and the only thing that reliably scratches a diamond is another diamond.",
+  "more": "The ten steps in order are talc, gypsum, calcite, fluorite, apatite, orthoclase, quartz, topaz, corundum, diamond. Nothing on the list can scratch anything above it."
+ },
+ {
+  "id": "rocks-2",
+  "section": "rocks",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "Your fingernail is about 2.5 on the hardness scale and a copper coin is about 3. A rock your nail marks is softer than calcite. A rock that shrugs off a steel key is harder than about 5.5. That is the whole test geologists carry into the field.",
+  "tryit": "Pick up a rock outside. Drag a fingernail across it, then the edge of a copper coin, then a steel key. Whichever leaves a scratch tells you roughly how hard the rock is."
+ },
+ {
+  "id": "rocks-3",
+  "section": "rocks",
+  "cat": "weird",
+  "kind": "found",
+  "text": "The hardness scale looks like a ruler and is not one. Corundum is 9 and diamond is 10, one step apart. But pressed with a hard point and measured properly, diamond resists about five times better than corundum. The numbers are an order of finish, not a measurement.",
+  "more": "On the Vickers test corundum comes in near 2,035 and diamond near 10,000. The gaps between the ten steps are all different sizes, and the last one is enormous."
+ },
+ {
+  "id": "rocks-4",
+  "section": "rocks",
+  "cat": "record",
+  "kind": "record",
+  "text": "The scale is named for Friedrich Mohs, a German mineral expert who in 1812 lined ten minerals up in the order of which scratched which. He never measured a force or built a machine. He just made a ranking, and it was useful enough that it is still in every geology kit.",
+  "more": "This is history rather than a measurement. One man sorted a drawer of samples and wrote the order down. That is why the scale exists."
+ },
+ {
+  "id": "rocks-5",
+  "section": "rocks",
+  "cat": "size",
+  "kind": "found",
+  "text": "Miners at Naica in Mexico broke into a chamber packed with clear gypsum beams. The largest measure about 37 feet (11 m) long and 13 feet (4 m) thick, and weigh roughly 55 tons. They are single crystals.",
+  "more": "The chamber sits near 136 degrees F (58 C). The air in it is almost completely saturated with water. Even in cooled suits, people could only stay a few minutes at a time. The mine's pumps were switched off in October 2015. The water came back and covered the crystals again."
+ },
+ {
+  "id": "rocks-6",
+  "section": "rocks",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Ruby and sapphire are the same mineral. Both are corundum, aluminum and oxygen. A trace of chromium turns it red and it gets called ruby. Traces of iron and titanium turn it blue and it gets called sapphire. Same hardness, same recipe, different pinch of impurity, wildly different price."
+ },
+ {
+  "id": "rocks-7",
+  "section": "rocks",
+  "cat": "build",
+  "kind": "found",
+  "text": "Obsidian is glass a volcano made. Lava cooled so fast the minerals never got to line up into crystals. With no grain to follow, a flake of obsidian can come to an edge a few nanometers across, thinner than the edge of a steel razor. People chipped it into knives and arrowheads.",
+  "more": "A steel scalpel is blunt next to it. Obsidian blades have been used in some surgery, and in laboratory work where a very clean cut matters."
+ },
+ {
+  "id": "rocks-8",
+  "section": "rocks",
+  "cat": "build",
+  "kind": "found",
+  "text": "Weigh the rock of Earth's crust and 46 percent of it is oxygen, the same element you are breathing, locked into minerals instead of floating loose. Silicon is another 28 percent. Most rock is those two joined together, with some aluminum and iron mixed in.",
+  "more": "Aluminum comes third at about 8 percent. Put oxygen, silicon and aluminum together and you have more than four fifths of everything you walk on."
+ },
+ {
+  "id": "rocks-9",
+  "section": "rocks",
+  "cat": "home",
+  "kind": "found",
+  "text": "Table salt is a mineral. Its proper name is halite, and it is the one rock people eat on purpose. Halite always breaks along the same three directions, so the grains come apart into little cubes. Tip some onto dark paper and look closely and the cubes are right there.",
+  "more": "Halite is soft, only about 2 or 2.5 on the hardness scale, which is why salt crushes under a spoon and quartz does not."
+ },
+ {
+  "id": "rocks-10",
+  "section": "rocks",
+  "cat": "travel",
+  "kind": "found",
+  "text": "Pumice is rock full of frozen gas bubbles, and it floats. After some eruptions, whole rafts of it drift away across the open sea. Ships and satellites track those rafts for months. In the end the pumice waterlogs and sinks.",
+  "more": "Drop a piece in a glass and it bobs. Leave it long enough and water works into the holes and it goes under, which is how the rafts eventually break up."
+ },
+ {
+  "id": "rocks-11",
+  "section": "rocks",
+  "cat": "senses",
+  "kind": "found",
+  "text": "Granite is not one substance. Look closely at a polished granite counter. The speckles are separate minerals grown together. There is glassy gray quartz, and blocky pink or white feldspar. The black flecks are mica, and they peel off in shiny sheets. You are looking at a mixture, not a material.",
+  "more": "Put your eye close to a granite countertop, step or gravestone. You can usually pick out three or four different kinds of grain with no magnifier at all."
+ },
+ {
+  "id": "rocks-12",
+  "section": "rocks",
+  "cat": "created",
+  "kind": "record",
+  "text": "Genesis names minerals early. Describing the land of Havilah in chapter 2, it lists gold, bdellium and onyx stone. Onyx is banded quartz, and people still cut and polish it."
+ },
+ {
+  "id": "volcanoes-1",
+  "section": "volcanoes",
+  "cat": "build",
+  "kind": "found",
+  "text": "Magma and lava are the same melted rock with different addresses. Underground it is magma. The second it comes out of the vent it is lava. Geologists are strict about this, and it is the cheapest way there is to sound like you know what you are talking about."
+ },
+ {
+  "id": "volcanoes-2",
+  "section": "volcanoes",
+  "cat": "record",
+  "kind": "found",
+  "text": "Lava at Kilauea in Hawaii comes out around 2,140 degrees F (1,170 C), and inside a lava tube it can hold near 2,200 degrees F (1,200 C). That is not an estimate. Geologists walk up to the flow and push a metal probe called a thermocouple straight into it.",
+  "more": "Some flows cannot be safely reached. They point calibrated thermal cameras at those instead. Then they check the camera readings against the ones taken with the probe."
+ },
+ {
+  "id": "volcanoes-3",
+  "section": "volcanoes",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Ol Doinyo Lengai in Tanzania erupts the coolest lava on Earth, about 930 to 1,110 degrees F (500 to 600 C). It is cool enough that it does not glow in daylight. It pours out looking like runny black oil, and rain turns the hardened flows chalk white.",
+  "more": "Ordinary lava is made of silicate minerals. This lava is made of sodium and potassium carbonates instead. That is why it is so runny and so cool. It also turns white when water gets at it."
+ },
+ {
+  "id": "volcanoes-4",
+  "section": "volcanoes",
+  "cat": "size",
+  "kind": "found",
+  "text": "About 1,350 volcanoes on land are counted as capable of erupting. That does not include the near-continuous chain of them running along the sea floor. About 500 of the land ones have actually erupted within written history. On a typical day, roughly 20 are erupting somewhere in the world.",
+  "more": "About 170 of those volcanoes sit in the United States and its territories. That is why the USGS keeps watch on them. It runs volcano observatories in Hawaii, Alaska, California and Yellowstone."
+ },
+ {
+  "id": "volcanoes-5",
+  "section": "volcanoes",
+  "cat": "record",
+  "kind": "record",
+  "text": "The eruption that buried Pompeii in AD 79 has an eyewitness. Pliny the Younger watched it from across the bay. He later wrote two letters about it to the historian Tacitus. He described a cloud shaped like an umbrella pine. A tall trunk, with branches spreading at the top.",
+  "more": "His description was good enough that volcanologists named that kind of eruption after him. A tall column punching straight up into the sky is still called Plinian."
+ },
+ {
+  "id": "volcanoes-6",
+  "section": "volcanoes",
+  "cat": "record",
+  "kind": "record",
+  "text": "Krakatoa exploded on the morning of 27 August 1883. People on Rodrigues Island heard what they wrote down as the distant roar of heavy guns. That island sits 3,000 miles (4,800 km) away in the Indian Ocean. Perth, Australia, is 1,930 miles (3,110 km) off, and they heard it there too.",
+  "more": "Barographs, instruments that scratch a line of air pressure onto a paper drum, recorded the pressure wave passing seven times over five days. It went out to the far side of the world and back, out and back, until it faded. Nobody at those weather stations knew yet what had happened."
+ },
+ {
+  "id": "volcanoes-7",
+  "section": "volcanoes",
+  "cat": "record",
+  "kind": "record",
+  "text": "Tambora in Indonesia erupted in April 1815 and blew about 4,200 feet off its own summit. The next year, farmers in New England wrote down frost in every single month and a snowstorm in June. They called 1816 the year without a summer, and also Eighteen Hundred and Froze to Death.",
+  "more": "On 5 June 1816 the temperature in Ipswich, Massachusetts hit 92 degrees F. By the next morning it had fallen to 43. Crops failed across the northeast and in Europe, and people who kept diaries recorded all of it as it happened."
+ },
+ {
+  "id": "volcanoes-8",
+  "section": "volcanoes",
+  "cat": "build",
+  "kind": "worked",
+  "text": "Nobody has ever looked into a magma chamber. Their size and depth are worked out, not seen. Earthquake waves slow down when they pass through melted rock. The ground above swells by a few inches before an eruption. Instruments read both. Eyes read neither.",
+  "more": "The tilt is far too small to notice standing on it. It is measured with tiltmeters and with satellites that compare radar images of the same hillside taken weeks apart."
+ },
+ {
+  "id": "volcanoes-9",
+  "section": "volcanoes",
+  "cat": "speed",
+  "kind": "found",
+  "text": "Old Faithful in Yellowstone throws boiling water 106 to 184 feet (30 to 55 m) into the air about every 90 minutes. Rangers predict it by timing the eruption before: the longer it plays, the longer the wait for the next one. Each eruption empties 3,700 to 8,400 gallons.",
+  "more": "It is neither the biggest geyser in the park nor the most punctual. It is simply the big one that keeps to a schedule people can plan a day around."
+ },
+ {
+  "id": "volcanoes-10",
+  "section": "volcanoes",
+  "cat": "size",
+  "kind": "found",
+  "text": "Measured from the sea floor it stands on, the Hawaiian volcano Mauna Kea rises about 30,610 feet (9,330 m). Everest is 29,032 feet (8,849 m) above sea level. Mauna Kea is the taller mountain and loses the title on a technicality, because most of it is underwater.",
+  "more": "Only 13,803 feet (4,207 m) of Mauna Kea sticks out above the sea. The rest is a slope you would have to dive to see."
+ },
+ {
+  "id": "volcanoes-11",
+  "section": "volcanoes",
+  "cat": "created",
+  "kind": "record",
+  "text": "Genesis 7 does not describe the Flood as rain alone. It says the fountains of the great deep were broken up, and then that the windows of heaven were opened. Water out of the ground first, water out of the sky second. That is the order the written account gives.",
+  "more": "A geyser and a spring both send water bursting upward out of the ground. The Genesis account puts that before the rain rather than after it."
+ },
+ {
+  "id": "volcanoes-12",
+  "section": "volcanoes",
+  "cat": "speed",
+  "kind": "found",
+  "text": "Films get this backwards. Most lava flows creep along slower than you walk, and people stand next to them taking photographs. The killer is the pyroclastic flow: a ground-hugging cloud of hot ash and gas that comes down the slope faster than 50 mph (80 km/h).",
+  "more": "That is what reached Pompeii and Herculaneum. Volcanologists worry less about where the lava is going. They watch whether the eruption column is about to collapse."
+ },
+ {
+  "id": "quakes-1",
+  "section": "quakes",
+  "cat": "record",
+  "kind": "found",
+  "text": "Each whole step up the magnitude scale means the ground shakes ten times as far, and about 32 times as much energy comes out. So a magnitude 7 is not a bit worse than a 6. It would take roughly 32 sixes to add up to one seven.",
+  "more": "Two steps, from 6 to 8, is a hundred times the shaking and about a thousand times the energy. The scale is written that way because otherwise the numbers would run into the millions."
+ },
+ {
+  "id": "quakes-2",
+  "section": "quakes",
+  "cat": "record",
+  "kind": "record",
+  "text": "Charles Richter built his scale in 1935 for medium earthquakes in southern California. The name then stuck to everything after it. Big quakes broke the scale. Above about magnitude 7 it flattens out and stops telling them apart. The numbers you hear today come from the moment magnitude scale instead.",
+  "more": "News reports still say Richter out of habit. The two scales are set up to agree in the middle of the range, so a modern magnitude 5 means about what Richter's magnitude 5 meant."
+ },
+ {
+  "id": "quakes-3",
+  "section": "quakes",
+  "cat": "record",
+  "kind": "found",
+  "text": "The strongest earthquake ever measured struck southern Chile near Valdivia on 22 May 1960: magnitude 9.5. The shaking lasted about ten minutes. Hundreds of miles of coastline tore at once, and the tsunami it launched was still killing people in Hawaii and Japan a day later.",
+  "more": "In Hilo, Hawaii, the wave arrived about fifteen hours after the quake and killed 61 people. Japan is a quarter of the way around the world from Chile, and it got hit the following day."
+ },
+ {
+  "id": "quakes-4",
+  "section": "quakes",
+  "cat": "speed",
+  "kind": "found",
+  "text": "In deep water a tsunami crosses the ocean at over 500 mph, about the speed of an airliner, while lifting the surface only a few feet. A ship sitting right on top of one feels nothing unusual. It only piles up into something terrible when it reaches shallow water.",
+  "more": "Buoys anchored in the deep ocean feel the wave pass underneath as a tiny change in sea level. They radio it to warning centers straight away. That is how a coast thousands of miles off gets hours of notice."
+ },
+ {
+  "id": "quakes-5",
+  "section": "quakes",
+  "cat": "senses",
+  "kind": "found",
+  "text": "A tsunami announces itself. Sometimes the sea drains away first and leaves fish stranded. Sometimes it comes in and in and does not go out, frothing oddly. Tilly Smith was ten years old and standing at Mai Khao Beach in Thailand in 2004. She knew the water looked wrong, from a geography lesson two weeks earlier.",
+  "more": "She told her parents. Her father told a hotel security guard. The beach was cleared onto the second floor of a hotel before the wave arrived. Mai Khao was one of very few beaches on Phuket where nobody was killed."
+ },
+ {
+  "id": "quakes-6",
+  "section": "quakes",
+  "cat": "speed",
+  "kind": "found",
+  "text": "The plates of Earth's surface drift about as fast as your fingernails grow. That is roughly one to four inches a year. The speed is measured, not reasoned out. GPS receivers are bolted to bedrock all over the world. They report their own positions, and those positions keep changing by exactly those small amounts.",
+  "more": "The Pacific plate is one of the quicker ones, moving something like 3 to 4 inches a year. The North American plate ambles along at closer to one inch."
+ },
+ {
+  "id": "quakes-7",
+  "section": "quakes",
+  "cat": "build",
+  "kind": "worked",
+  "text": "Nobody has ever been below the crust, and nobody has seen the core. What is down there is worked out from the way earthquake waves bend, slow and stop. Sideways shear waves cannot travel through liquid, and they vanish partway down, so the outer core is reasoned to be molten.",
+  "more": "In 1936 the Danish seismologist Inge Lehmann noticed waves arriving where a fully liquid core should have left silence. She argued there was a solid inner core inside the liquid one. That is still how it is done. No camera, no sample, just wiggles on a chart."
+ },
+ {
+  "id": "quakes-8",
+  "section": "quakes",
+  "cat": "size",
+  "kind": "found",
+  "text": "The deepest hole anyone has drilled is the Kola borehole in Russia, finished in 1989 at 40,230 feet (12,262 m). That is 7.6 miles straight down. The rock at the bottom was around 356 degrees F (180 C), far hotter than planned, and the drilling stopped.",
+  "more": "It never came close to leaving the crust. How much further the crust goes is not something anyone has dug to find out; it is worked out from earthquake waves."
+ },
+ {
+  "id": "quakes-9",
+  "section": "quakes",
+  "cat": "size",
+  "kind": "found",
+  "text": "Big earthquakes are rarer than the news makes them feel. Take the average across the years 2000 to 2021. The world got about 135 quakes of magnitude 6 a year. It got around 13 of magnitude 7. It got roughly one of magnitude 8 or stronger. Small ones happen constantly, everywhere.",
+  "more": "Thousands of quakes too small to feel are recorded every single day. Most of what a seismograph draws is a planet quietly fidgeting."
+ },
+ {
+  "id": "quakes-10",
+  "section": "quakes",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "One earthquake sends out two kinds of wave from the same spot at the same moment. The push-pull P wave travels fastest through rock and arrives first. The sideways S wave lags behind and does more damage. Measure the gap between them and you know how far away the quake was.",
+  "tryit": "Press your ear flat on a wooden table and have someone tap the far end. You hear the faucet through the wood before you hear it through the air. Same idea: how fast a shake travels depends entirely on what it is traveling through."
+ },
+ {
+  "id": "quakes-11",
+  "section": "quakes",
+  "cat": "build",
+  "kind": "found",
+  "text": "Some buildings do not sit on the ground. They sit on thick pads of rubber layered with steel and lead. When the ground jerks sideways, the pads squash and shear and the building above lags behind, moving far less than the dirt under it.",
+  "more": "Hospitals, museums and emergency centers are built this way in Japan, New Zealand and California. Instruments inside them have recorded real earthquakes. The buildings did what the design said they would."
+ },
+ {
+  "id": "quakes-12",
+  "section": "quakes",
+  "cat": "created",
+  "kind": "record",
+  "text": "Day three in Genesis is land moving on a scale nobody has ever watched. The waters under the sky are gathered into one place, and dry land appears. The account gives an order, water first and then land standing out of it, and calls the dry part Earth.",
+  "more": "Genesis names the dry land on day three, gathered out from under the water. Water first, then land standing out of it. Hold that order in mind at a cliff face of flat layers. Those layers were laid down wet."
+ },
+ {
+  "id": "water-1",
+  "section": "water",
+  "cat": "size",
+  "kind": "found",
+  "text": "The deepest measured spot in the ocean is the Challenger Deep. It lies at the southern end of the Mariana Trench, 35,876 feet (10,935 m) below the surface. Drop Mount Everest into it and more than a mile of water would still cover the summit.",
+  "more": "That figure comes from a careful 2020 sonar survey and is good to about 20 feet either way. It is a depth someone measured, not a depth anyone calculated."
+ },
+ {
+  "id": "water-2",
+  "section": "water",
+  "cat": "weird",
+  "kind": "found",
+  "text": "At the bottom of the Challenger Deep the water presses in at over a thousand times the pressure at the surface, roughly eight tons on every square inch. Anything with air inside it, including a person, would be crushed flat. People have still been down there, inside thick steel spheres.",
+  "more": "Jacques Piccard and Don Walsh reached the bottom in 1960. James Cameron went alone in 2012, and Victor Vescovo has been down repeatedly since 2019."
+ },
+ {
+  "id": "water-3",
+  "section": "water",
+  "cat": "size",
+  "kind": "found",
+  "text": "Of all the water on Earth, 96.5 percent is salt water sitting in the oceans. Of the small slice that is fresh, most is not available at all: nearly 69 percent of it is locked up as ice, and about 30 percent is underground. Lakes and rivers get the leftovers.",
+  "more": "Add up every lake, river, swamp and puddle. Together they come to well under one percent of the world's fresh water. And fresh water is under three percent of all the water there is."
+ },
+ {
+  "id": "water-4",
+  "section": "water",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Every river on Earth put together holds about one ten-thousandth of one percent of the planet's water. Nearly all the water people drink, wash in and grow food with comes from that sliver. It only works because rain keeps refilling it faster than we empty it.",
+  "more": "A river is less a store of water than a queue of it. What is in the Mississippi today is not what was in it last month."
+ },
+ {
+  "id": "water-5",
+  "section": "water",
+  "cat": "size",
+  "kind": "found",
+  "text": "The Amazon pours about 7.6 million cubic feet of fresh water into the Atlantic every second. That is five times the Congo and twelve times the Mississippi. Roughly one fifth of all the river water reaching the sea comes out of this one river.",
+  "more": "So much comes out that the sea off the mouth is noticeably less salty. Sailors used to refill their water barrels there, still out of sight of land."
+ },
+ {
+  "id": "water-6",
+  "section": "water",
+  "cat": "record",
+  "kind": "found",
+  "text": "Tides in the Bay of Fundy in Canada rise and fall about 52 feet (16 m) twice a day. Boats afloat at breakfast sit on mud by lunch. Around 100 billion tons of water move in and out each cycle, more than every river in the world carries in that same stretch of time.",
+  "more": "The highest level ever recorded there was 71 feet (21.6 m), in October 1869. A storm surge happened to land on top of an already big tide."
+ },
+ {
+  "id": "water-7",
+  "section": "water",
+  "cat": "travel",
+  "kind": "found",
+  "text": "High tide arrives about 50 minutes later each day. So does the moon. That is no coincidence, and nobody has to take it on trust. Tide tables are printed a year in advance. Boats stake their keels on those tables being right.",
+  "more": "The moon takes 24 hours and 50 minutes to come back to the same place in your sky. The whole tidal pattern slides later at exactly that rate."
+ },
+ {
+  "id": "water-8",
+  "section": "water",
+  "cat": "weird",
+  "kind": "found",
+  "text": "The ocean covers about 70 percent of the planet, and only around 29 percent of the sea floor has been mapped in detail with modern sonar. The moon has been mapped in finer detail than the bottom of our own sea.",
+  "more": "Mapping is not the same as seeing. A camera or a person has looked at less than one thousandth of one percent of the deep sea floor. That is an area about the size of Rhode Island."
+ },
+ {
+  "id": "water-9",
+  "section": "water",
+  "cat": "size",
+  "kind": "found",
+  "text": "Angel Falls in Venezuela drops 3,212 feet (979 m) in total. One unbroken plunge accounts for 2,648 feet (807 m) of that. The water falls for a long time before anything interrupts it. A good deal of it arrives at the bottom as drifting spray rather than a river.",
+  "more": "Jimmie Angel was an American pilot. He flew over the falls on 16 November 1933, and the falls are named for him. The name first appeared on a Venezuelan government map in December 1939."
+ },
+ {
+  "id": "water-10",
+  "section": "water",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "A cold glass does not leak. The water on the outside came out of the air in the room. Air carries invisible water, and chilling it makes the air let go. That single step, warm damp air meeting something cold, is how clouds and rain get made.",
+  "tryit": "Fill a glass with ice water and leave it a few minutes. Wipe the outside completely dry with your sleeve, then watch it go wet again. Nothing came through the glass. The room handed it over."
+ },
+ {
+  "id": "water-11",
+  "section": "water",
+  "cat": "build",
+  "kind": "worked",
+  "text": "The depth of a trench is measured. How it got there is not. Nobody has watched a trench form. The deepest ones are worked out to be places where one slab of sea floor bends under another. The reason is the earthquakes below them. They line up on a slanting sheet that runs down and away.",
+  "more": "The measured part is where each quake happened and how deep. The bending slab is the explanation that fits the pattern, and an explanation is a different kind of thing from a depth reading."
+ },
+ {
+  "id": "water-12",
+  "section": "water",
+  "cat": "created",
+  "kind": "record",
+  "text": "In Genesis, water is there before anything has a shape. On day two the waters are divided, water below from water above. On day three the water below is gathered into one place so that dry land can appear. The written account makes water the setting everything else gets arranged in.",
+  "more": "This one is a record, not a reading. The ocean really is one connected body of water, not several. That is why a bottle dropped off Japan can wash up in California."
+ },
+ {
+  "id": "caves-1",
+  "section": "caves",
+  "cat": "build",
+  "kind": "found",
+  "text": "On 19 March 1982 a small eruption melted the snow in Mount St. Helens' crater. Close to a billion gallons (4 million cubic meters) of water burst out and tore down the North Fork Toutle River valley, cutting as it went. Nobody watched the Grand Canyon get cut. People watched this one.",
+  "more": "Geologists had surveyed marked lines across the channel weeks before. They surveyed the same lines again on 20 March, the morning after. Ten miles (16 km) below the crater the riverbed had dropped an average of 9 ft (2.8 m) overnight. Downstream, four men stood at a gauging station and sampled the flood as it went past. The stuff it cut through was loose volcanic debris dumped by the 1980 eruption, not hard rock, which is a fair part of why it went so fast."
+ }
+]

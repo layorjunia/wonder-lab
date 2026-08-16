@@ -1,0 +1,386 @@
+[
+ {
+  "id": "cell-1",
+  "section": "cell",
+  "cat": "people",
+  "kind": "record",
+  "text": "In 1665 Robert Hooke shaved a slice of cork thin enough to see through, put it under his microscope, and found it was full of tiny empty boxes. They reminded him of the little rooms monks slept in, so he called them cells. The name stuck.",
+  "more": "His book of drawings, Micrographia, was a bestseller. People had simply never seen a flea properly before."
+ },
+ {
+  "id": "cell-2",
+  "section": "cell",
+  "cat": "people",
+  "kind": "record",
+  "text": "A Dutch draper called Antonie van Leeuwenhoek ground lenses better than anyone alive, looked at a drop of pond water, and found it full of things swimming. He called them animalcules. Nobody believed him until the Royal Society sent someone to check.",
+  "more": "He never told anyone how he made his lenses. His best ones magnified about 270 times — from a single bead of glass smaller than a pinhead."
+ },
+ {
+  "id": "cell-3",
+  "section": "cell",
+  "cat": "size",
+  "kind": "worked",
+  "text": "You are made of roughly 30 trillion cells. Nobody counted them. The figure comes from weighing organs and working out the typical size and weight of each kind of cell. Then somebody did the arithmetic. It replaced an older figure that was several times too big.",
+  "more": "The correction was published in 2016. A number repeated in textbooks for decades turned out to have been a rough guess nobody had rechecked."
+ },
+ {
+  "id": "cell-4",
+  "section": "cell",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Every cell is wrapped in a skin two molecules thick that decides what gets in. It is made of fat, which is exactly why soap destroys germs and why your fingers wrinkle in the bath.",
+  "tryit": "Put a raw egg in vinegar for two days. The shell dissolves and you are left with the membrane — a bare cell you can hold."
+ },
+ {
+  "id": "cell-5",
+  "section": "cell",
+  "cat": "size",
+  "kind": "worked",
+  "text": "If you pulled the DNA out of one of your cells and stretched it into a line, it would be about 6 ft long. It fits because it is wound round protein spools and coiled again and again, like a very long rope packed into a very small bag.",
+  "more": "The length is worked out by counting the chemical letters. Then you multiply by the known spacing between them."
+ },
+ {
+  "id": "cell-6",
+  "section": "cell",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Inside almost every cell are hundreds of bean-shaped parts that do nothing but release energy from food. Muscle cells that work hard are packed with them; a heart muscle cell can be a third mitochondria by volume.",
+  "more": "They have their own separate loop of DNA. Nothing else in the cell does. It is one of the odder facts in biology."
+ },
+ {
+  "id": "bacteria-1",
+  "section": "bacteria",
+  "cat": "size",
+  "kind": "found",
+  "text": "A typical bacterium is about two thousandths of a millimeter long. You could lay a thousand of them across the head of a pin and still have room. They were completely invisible to everybody until somebody made a good enough lens.",
+  "tryit": "Look at a period on this page. About a million bacteria would fit inside it."
+ },
+ {
+  "id": "bacteria-2",
+  "section": "bacteria",
+  "cat": "weird",
+  "kind": "worked",
+  "text": "You will often read that bacteria in your body outnumber your own cells ten to one. That number came from a rough estimate in 1972 and got repeated for forty years. When somebody finally checked properly, the answer came out at about one to one.",
+  "more": "There are still tens of trillions of them, mostly in your large intestine. The ten-to-one part was simply never measured."
+ },
+ {
+  "id": "bacteria-3",
+  "section": "bacteria",
+  "cat": "babies",
+  "kind": "found",
+  "text": "Bacteria multiply by splitting in two. In ideal conditions a common gut bacterium does it every twenty minutes. That means one becomes eight in an hour, and over a thousand in ten hours, which is why food left out goes bad so suddenly rather than gradually.",
+  "tryit": "Start at 1 and double it every twenty minutes on paper. See how many hours it takes to pass a million. It is fewer than you think."
+ },
+ {
+  "id": "bacteria-4",
+  "section": "bacteria",
+  "cat": "oops",
+  "kind": "found",
+  "text": "Use a drug against bacteria and a few of them happen to survive. Those few are the ones that breed, and their offspring survive the drug too. This has been watched happening in laboratories and in hospitals. It is why doctors insist you finish a course of antibiotics.",
+  "more": "You can see it on a single giant plate: bacteria spread across bands of stronger and stronger drug, and a film shows them creeping into each band. What is going on is not in dispute — it has been filmed."
+ },
+ {
+  "id": "bacteria-5",
+  "section": "bacteria",
+  "cat": "home",
+  "kind": "found",
+  "text": "Some bacteria live in hot springs, at temperatures that would cook an egg. One was pulled out of a pool at Yellowstone. It turned out to make a heat-proof copying enzyme. That enzyme is now used in medical tests all over the world.",
+  "more": "Every DNA test you have heard of depends on a microbe found in a hot pool in Wyoming."
+ },
+ {
+  "id": "bacteria-6",
+  "section": "bacteria",
+  "cat": "teamwork",
+  "kind": "found",
+  "text": "Almost none of them are trying to hurt you. Of the thousands of kinds living on your skin and in your gut, only a small handful cause disease. Most are doing nothing to you, and a good many are useful.",
+  "more": "Wiping out all of them is not a goal anyone sensible has. People who lose their gut bacteria to strong antibiotics get ill in a different way."
+ },
+ {
+  "id": "virus-1",
+  "section": "virus",
+  "cat": "weird",
+  "kind": "worked",
+  "text": "A virus does not eat, does not grow and cannot make a copy of itself. It is a bundle of instructions in a coat, and it only does anything at all once it is inside a living cell. Whether that counts as alive is argued about and not settled.",
+  "more": "It is a genuinely open question, not a trick one. The usual tests for life simply give contradictory answers."
+ },
+ {
+  "id": "virus-2",
+  "section": "virus",
+  "cat": "size",
+  "kind": "found",
+  "text": "Viruses are far smaller than bacteria. They are small enough to pass through filters that catch every bacterium. That is how people first worked out something else was there. Nobody saw one until the electron microscope was invented in the 1930s.",
+  "more": "For decades their existence was known only from what they did and what could pass through porcelain."
+ },
+ {
+  "id": "virus-3",
+  "section": "virus",
+  "cat": "weird",
+  "kind": "found",
+  "text": "There is a virus that attacks bacteria, and it looks like a spacecraft. It has a head full of instructions and a straight body. Spindly legs let it stand on the bacterium before it injects. Photographs of it look invented. They are not.",
+  "more": "They are called bacteriophages, and there are thought to be more of them on earth than any other kind of thing."
+ },
+ {
+  "id": "virus-4",
+  "section": "virus",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Antibiotics do nothing whatsoever to a virus. They attack machinery that bacteria have and viruses do not. Taking them for a cold cannot help and does make resistant bacteria more likely.",
+  "more": "Most adults get this wrong. Colds are still one of the commonest reasons antibiotics are handed out for no benefit."
+ },
+ {
+  "id": "virus-5",
+  "section": "virus",
+  "cat": "people",
+  "kind": "record",
+  "text": "In 1796 Edward Jenner noticed that milkmaids who had caught cowpox did not catch smallpox. He put matter from a milkmaid's sore into a cut on an eight-year-old boy, waited, then deliberately exposed him to smallpox. The boy did not get it.",
+  "more": "It was a shocking thing to do to a child and it worked. Smallpox is the only human disease ever wiped out, and it was declared gone in 1980."
+ },
+ {
+  "id": "virus-6",
+  "section": "virus",
+  "cat": "oops",
+  "kind": "found",
+  "text": "There is no cure for the common cold, because there is no such thing as the common cold. More than two hundred different viruses produce the same set of symptoms. Beat one of them and you are left with the other one hundred and ninety-nine.",
+  "tryit": "Next time someone says they have a cold, ask which virus. Nobody knows, because nobody tests — it would change nothing."
+ },
+ {
+  "id": "fungi-1",
+  "section": "fungi",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Bread rises because a fungus is breathing inside it. Yeast eats the sugar in the dough and gives off carbon dioxide, and the gas is trapped in stretchy bubbles. Every hole in a slice of bread is a bubble of yeast breath.",
+  "tryit": "Put warm water, sugar and dried yeast in a bottle and stretch a balloon over the neck. Within half an hour the balloon stands up."
+ },
+ {
+  "id": "fungi-2",
+  "section": "fungi",
+  "cat": "gross",
+  "kind": "found",
+  "text": "Mold does not arrive on bread. It is already in the air of every room you have ever been in, as spores, waiting for something damp. Leave bread out and you are not catching mold — you are providing for it.",
+  "tryit": "Seal three slices of bread in bags: one untouched, one rubbed on the floor, one wiped with a damp cloth. Leave them a week somewhere warm and compare. Do not open them afterwards."
+ },
+ {
+  "id": "fungi-3",
+  "section": "fungi",
+  "cat": "people",
+  "kind": "record",
+  "text": "Alexander Fleming came back from holiday in 1928 to a stack of dishes he had left out. One had gone moldy, and in a clear ring round the mold, the bacteria were dead. He noticed, instead of washing it up.",
+  "more": "Turning that observation into a usable drug took another twelve years. It took a different team as well."
+ },
+ {
+  "id": "fungi-4",
+  "section": "fungi",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Fungi are not plants. They have no chlorophyll and cannot make their own food, so they feed on things that are already dead or alive. Their walls are made of the same stuff as an insect's shell, which puts them closer to animals than to plants in that respect.",
+  "more": "A mushroom is only the fruit. The organism is a mat of threads spread through the soil or the wood, often for a very long way."
+ },
+ {
+  "id": "fungi-5",
+  "section": "fungi",
+  "cat": "record",
+  "kind": "found",
+  "text": "In a forest in Oregon there is a single honey fungus whose underground threads have been traced across 3.4 square miles. It is one organism. Above ground it appears as scattered clumps of ordinary-looking mushrooms.",
+  "more": "It was mapped by taking samples from all over the forest and testing whether they were genetically the same individual. They were."
+ },
+ {
+  "id": "fungi-6",
+  "section": "fungi",
+  "cat": "food",
+  "kind": "found",
+  "text": "Bread, cheese, yogurt, soy sauce, vinegar, chocolate and beer all depend on microbes doing something to food on purpose. Blue cheese is mold. Somebody put it there deliberately.",
+  "tryit": "Read the back of a yoghurt pot and look for the words live cultures. Then look up what the Latin names actually are."
+ },
+ {
+  "id": "pond-1",
+  "section": "pond",
+  "cat": "weird",
+  "kind": "found",
+  "text": "An amoeba is one cell that does everything a whole animal does — moves, hunts, eats, gets rid of waste. It moves by pouring part of itself forward and letting the rest follow. It has no fixed shape at all.",
+  "more": "It eats by flowing round something until it is surrounded. There is no mouth."
+ },
+ {
+  "id": "pond-2",
+  "section": "pond",
+  "cat": "speed",
+  "kind": "found",
+  "text": "A paramecium is covered in thousands of tiny hairs that beat in waves, like a crowd doing a Mexican wave, and it shoots through the water. When it hits something it reverses the beat and backs up.",
+  "tryit": "A drop of pond water under any cheap microscope will usually have one. They are the fast ones that keep leaving the field of view."
+ },
+ {
+  "id": "pond-3",
+  "section": "pond",
+  "cat": "teamwork",
+  "kind": "found",
+  "text": "Volvox is a hollow ball of hundreds of single cells, each with two whips, all beating together so the ball rolls through the water. Inside the ball are smaller balls — the next generation, growing.",
+  "more": "It is one of the neatest things in a drop of pond water. You can see it without a microscope, as a tiny green speck."
+ },
+ {
+  "id": "pond-4",
+  "section": "pond",
+  "cat": "build",
+  "kind": "found",
+  "text": "Diatoms build themselves glass boxes with lids. Each kind makes a different pattern of holes. The patterns are so regular and so fine that Victorian microscope-makers laid diatoms out in rows to test their lenses.",
+  "more": "When they die the glass shells sink and pile up. Diatomaceous earth, sold for cleaning and for gardens, is a powder of those shells."
+ },
+ {
+  "id": "pond-5",
+  "section": "pond",
+  "cat": "defence",
+  "kind": "found",
+  "text": "Some single cells build armor out of whatever is lying around. A testate amoeba glues sand grains and bits of diatom shell into a case and carries it, leaving one opening to reach out through.",
+  "more": "Different kinds use different materials and build different cases. That is how you tell them apart."
+ },
+ {
+  "id": "pond-6",
+  "section": "pond",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "Any still water has a population. Leave a jam jar of pond water on a windowsill for a week. It will hold more than it did the day you collected it. You have just made a small pond with good light.",
+  "tryit": "Collect water from the bottom and from among the weed, not the clear middle. Let it settle. Take your drop from the muck at the bottom — that is where everything is."
+ },
+ {
+  "id": "helpers-1",
+  "section": "helpers",
+  "cat": "teamwork",
+  "kind": "found",
+  "text": "The bacteria in your large intestine break down fiber you cannot digest yourself, and in the process they make vitamin K, which your blood needs to clot. You are getting something out of the arrangement and so are they.",
+  "more": "People on long courses of antibiotics sometimes need extra vitamin K. This is exactly the reason why."
+ },
+ {
+  "id": "helpers-2",
+  "section": "helpers",
+  "cat": "food",
+  "kind": "found",
+  "text": "Yoghurt is milk that bacteria have been allowed to sour under control. They turn the milk sugar into acid, the acid makes the milk proteins clump, and the same acid stops anything worse growing in it.",
+  "tryit": "Warm milk to about 110°F, stir in two spoons of plain live yoghurt, wrap it up warm and leave it overnight. In the morning it is yoghurt."
+ },
+ {
+  "id": "helpers-3",
+  "section": "helpers",
+  "cat": "teamwork",
+  "kind": "found",
+  "text": "Pull up a clover or a pea plant and look at the roots. The little lumps are full of bacteria that pull nitrogen out of the air and hand it to the plant as fertiliser. The plant feeds them sugar in exchange.",
+  "tryit": "Dig up a clover from a lawn. Wash the roots gently in a bowl of water. Look for tiny pink or white nodules on the roots."
+ },
+ {
+  "id": "helpers-4",
+  "section": "helpers",
+  "cat": "size",
+  "kind": "worked",
+  "text": "A single teaspoon of healthy soil is estimated to hold more living organisms than there are people on earth. The figure comes from diluting soil, growing what is in it, and counting. That almost certainly undercounts. Most soil microbes will not grow in a dish at all.",
+  "more": "That last part is the interesting bit. For a long time the only microbes anybody could study were the ones willing to live in a laboratory."
+ },
+ {
+  "id": "helpers-5",
+  "section": "helpers",
+  "cat": "food",
+  "kind": "found",
+  "text": "A sourdough starter is flour and water that has been left out until wild yeast and bacteria from the air and the flour move in and stay. Kept fed, one can be passed down for generations, and bakeries have starters older than the baker.",
+  "tryit": "Mix equal weights of flour and water in a jar. Throw half away and feed it again every day. By about day six it will be bubbling."
+ },
+ {
+  "id": "helpers-6",
+  "section": "helpers",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Every leaf that has ever fallen has been taken apart by fungi and bacteria. Without them the ground would be meters deep in dead wood and leaves. Nothing new could grow. All the material would be locked up in what had already lived.",
+  "tryit": "Bury a slice of apple and a piece of plastic in a pot of soil. Dig both up in a month."
+ },
+ {
+  "id": "clean-1",
+  "section": "clean",
+  "cat": "people",
+  "kind": "record",
+  "text": "In 1847 Ignaz Semmelweis noticed that mothers in the ward staffed by doctors were dying far more often than in the ward staffed by midwives. The doctors came straight from dissecting the dead. He made them wash their hands in chlorine and the deaths dropped away.",
+  "more": "He was ignored, then mocked, then dismissed. Nobody could see what he was talking about. Germs had not been demonstrated yet."
+ },
+ {
+  "id": "clean-2",
+  "section": "clean",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Soap does not poison germs. One end of a soap molecule grips grease and the other grips water, so grease and everything stuck in it lifts off and goes down the drain. A virus with a fatty coat simply falls apart.",
+  "tryit": "Sprinkle pepper on a bowl of water, then touch the surface with a soapy finger. The pepper flees to the edges instantly."
+ },
+ {
+  "id": "clean-3",
+  "section": "clean",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Twenty seconds is not superstition. It is roughly how long the scrubbing takes to physically lift things off skin. It matters most under the nails and between the fingers. A rinse on its own does not reach there.",
+  "tryit": "Rub a little cooking oil mixed with cinnamon on your hands and try washing it off in five seconds. Then look at your nail beds."
+ },
+ {
+  "id": "clean-4",
+  "section": "clean",
+  "cat": "defence",
+  "kind": "found",
+  "text": "A fever is not something the germ does to you. Your own body turns the temperature up, because most of the things that infect people grow best at your normal temperature and worse when it rises.",
+  "more": "This is why a mild fever is usually left alone. It is a weapon being used, not damage being done."
+ },
+ {
+  "id": "clean-5",
+  "section": "clean",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "A fridge does not kill anything. It slows bacteria down so much that they take days to reach numbers that would make you ill instead of hours. Freezing stops them almost entirely — and they start again when it thaws.",
+  "more": "Which is why refreezing something that has thawed is a bad idea. The clock restarts where it left off, but with a much larger starting population."
+ },
+ {
+  "id": "clean-6",
+  "section": "clean",
+  "cat": "copied",
+  "kind": "found",
+  "text": "Milk is heated to about 161°F for fifteen seconds and then chilled fast. That is enough to kill what causes disease without cooking the milk. The method is named after Louis Pasteur and is on almost every carton you have ever opened.",
+  "tryit": "Look at a milk carton for the word pasteurised, then find one that says UHT and compare the dates. Hotter treatment, much longer life, different taste."
+ },
+ {
+  "id": "scope-1",
+  "section": "scope",
+  "cat": "artifact",
+  "kind": "found",
+  "text": "Van Leeuwenhoek's microscopes were not tubes. They were small flat brass plates with one tiny glass bead in a hole, held right up against the eye. About a dozen survive and they still work.",
+  "more": "Copies made in recent years reach about 270 times. Nothing better was built for over a hundred years afterwards."
+ },
+ {
+  "id": "scope-2",
+  "section": "scope",
+  "cat": "howworks",
+  "kind": "worked",
+  "text": "Any microscope that uses light has a hard limit. It is about two ten-thousandths of a millimeter. Below that, the thing is smaller than the light waves themselves. No lens, however good, can help.",
+  "more": "That limit is worked out from the behavior of light, not from trying lots of lenses. It is why viruses stayed invisible until people stopped using light."
+ },
+ {
+  "id": "scope-3",
+  "section": "scope",
+  "cat": "build",
+  "kind": "found",
+  "text": "An electron microscope fires electrons instead of light. Electrons behave like far shorter waves. The machine works in a vacuum, and everything has to be coated in metal first. Nothing being looked at can be alive.",
+  "more": "Which is the trade. You get to see a virus, and you never get to see it moving."
+ },
+ {
+  "id": "scope-4",
+  "section": "scope",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Most cells are transparent, so microscopists dye them. One old dye recipe splits bacteria into two groups. The split depends on whether the color washes back out of their walls. That single test still tells a doctor which antibiotic to reach for.",
+  "more": "Hans Christian Gram worked it out in 1884. He thought his method was a failure, because it did not stain everything."
+ },
+ {
+  "id": "scope-5",
+  "section": "scope",
+  "cat": "artifact",
+  "kind": "found",
+  "text": "The flat round dish with the loose lid was invented in 1887 by Julius Petri, an assistant in Robert Koch's laboratory. The lid rests on top rather than sealing, so air gets in and dust does not. It has barely changed since.",
+  "more": "Before it, cultures were grown on slices of potato. The potato worked poorly and it rotted."
+ },
+ {
+  "id": "scope-6",
+  "section": "scope",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "A single drop of water is a lens. Hold a drop on a loop of wire over a printed page. Or put one on clear plastic. Either way, it magnifies. It works on the same principle as the bead of glass that first showed anyone a bacterium.",
+  "tryit": "Punch a small hole in a strip of card. Dip it in water so a drop stays in the hole. Hold it close to your eye, over some newsprint. Move it until the letters snap into focus."
+ }
+]

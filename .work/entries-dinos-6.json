@@ -1,0 +1,417 @@
+[
+ {
+  "id": "pteranodon",
+  "name": "Pteranodon",
+  "group": "dinosaurs",
+  "blurb": "A large flying reptile with a toothless beak and a long backswept crest — not a dinosaur, and not a bird either.",
+  "size": "Wings about 20 ft (6 m) from tip to tip, on a body only about 6 ft (1.8 m) from beak to tail.",
+  "homes": [
+   "ocean"
+  ],
+  "stats": {
+   "length": 6,
+   "weight": 45
+  },
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "About 1,200 Pteranodon specimens have been dug up, more than any other flying reptile, nearly all of them from the chalk of western Kansas. Othniel Marsh found the first pieces there in 1870 or 1871.",
+    "more": "Samuel Williston found the first skull on 2 May 1876, along the Smoky Hill River. George Sternberg later spent years working the same chalk. He kept the best of his material close to home. You can go and see it at the Sternberg Museum of Natural History in Hays, Kansas.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "Specimen AMNH 5098 was found with a wad of fish bones packed between its jaws — the last meal, still in the beak. Other specimens have fish scales and fish backbones preserved where the stomach used to be.",
+    "more": "That is about as direct as diet evidence gets. Most of the time what an animal ate has to be guessed from tooth shape; here it is sitting in the mouth.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "One Pteranodon neck bone came out of the chalk with a shark tooth still stuck in it, from Cretoxyrhina, a big shark of the same water. Whether the pterosaur was caught alive or scavenged afterwards, the bone cannot say.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "Pteranodon is not a dinosaur. It is a pterosaur — a flying reptile — and that is a separate kind altogether. Nearly every book cover that calls it a flying dinosaur has it wrong.",
+    "more": "Dinosaurs are land animals that stand with their legs straight underneath them. No dinosaur ever grew a wing of skin, and no pterosaur ever had a dinosaur's hips. They lived side by side without being the same sort of creature.",
+    "kind": "record"
+   },
+   {
+    "cat": "build",
+    "text": "Each wing was one sheet of skin, stretched from the body out along a single enormously long finger — the fourth. The finger is right there in the bones; the shape of the skin comes from other pterosaurs found with the wing preserved. A bat spreads four fingers through its wing. This used one.",
+    "kind": "worked"
+   },
+   {
+    "cat": "weird",
+    "text": "The name means wing without tooth. The beak is completely empty: two long pointed jaws with nothing in them. The lower jaw of one large specimen measures 4 ft 1 in (1.25 m) on its own.",
+    "kind": "found"
+   },
+   {
+    "cat": "size",
+    "text": "The specimens fall into two clear size classes. The big ones, taken to be males, spanned 18 to 25 ft (5.6 to 7.6 m) and carried tall backswept crests. The smaller ones averaged about 12 ft (3.8 m), with small rounded crests.",
+    "more": "With 1,200 specimens to compare, the two classes are hard to argue with. The larger group also has narrower hips; the smaller group's hips are wide, which is what you would expect of a female.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "Nobody has ever put one on a scale. Worked out from the bones, weight estimates run from about 45 lb (20 kg) up to 200 lb (90 kg) — either way, remarkably light for an animal with a 20-ft wingspan.",
+    "kind": "worked"
+   },
+   {
+    "cat": "weird",
+    "text": "Films enjoy showing a Pteranodon snatching a person off the ground. Its feet were flat walking feet, not gripping talons, and there is nothing in the skeleton built for lifting and carrying a struggling load.",
+    "kind": "worked"
+   },
+   {
+    "cat": "home",
+    "text": "The chalk holding these bones was laid down under water that once covered Kansas. A flying reptile buried out in the middle of it died a long way from any shore, which says something about how far it could travel.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "One finger — the fourth — holds the whole wing, grown longer than the rest of the arm, stretching a sheet of skin 20 ft (6 m) across. The finger is measured bone; the sheet's reach comes from other pterosaurs found with the wing preserved. Shorten the finger and the sheet hangs slack. Half a finger is not half a wing.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "Behemoth has a tail like a cedar and leviathan belongs to the sea. Pteranodon is neither: a 6 ft (1.8 m) body carrying a weight worked out from the bones at about 45 lb (20 kg), all of its size in span. What it matches instead are the old accounts of flying serpents.",
+    "more": "The Ark carried the flying creatures along with the land kinds, so a place on it was needed. A 20 ft (6 m) span sounds impossible to house until the weight is worked out from the bones: about 45 lb, and a young one a good deal less.",
+    "kind": "record"
+   }
+  ],
+  "wonder": "One finger, drawn out long enough to hold up a wing 20 ft across, and it flew.",
+  "_units": "imperial"
+ },
+ {
+  "id": "quetzalcoatlus",
+  "name": "Quetzalcoatlus",
+  "group": "dinosaurs",
+  "blurb": "The largest flying animal ever found. It was a toothless flying reptile that stalked river shallows on all fours. It launched itself into the air with a jump.",
+  "size": "Wings about 33 to 36 ft (10 to 11 m) across, the wingspan of a small airplane. Standing on the ground it held its head more than 13 ft (4 m) up — higher than a basketball hoop.",
+  "homes": [
+   "freshwater"
+  ],
+  "stats": {
+   "weight": 450
+  },
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "Douglas Lawson, a geology student, found the first bones in 1971 in Big Bend National Park, Texas. The specimen, TMM 41450-3, is part of a left wing. The giant species is still known from only about a dozen bones.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "A smaller relative from the same park is called Quetzalcoatlus lawsoni. It is known from more than 300 bones belonging to over 200 individuals. That is more material than for any other pterosaur. It was named in 2021, fifty years after Lawson's first find.",
+    "more": "Its wings spanned about 15 to 20 ft (4.5 to 6 m). Its neck alone is 4 ft 11 in (1.5 m) long and its skull about 3 ft (0.95 m). Most of what is known about how the giant walked, fed and took off comes from this smaller one. So much more of it survived.",
+    "kind": "found"
+   },
+   {
+    "cat": "record",
+    "text": "No flying animal found anywhere is bigger. Its wingspan is scaled up from the more complete smaller relative. It works out to about 36 ft (11 m). That is about the same as a Cessna 172, the little four-seater plane you see at small airfields.",
+    "more": "Early guesses were wilder still. One ran to 85 ft, which nobody defends now. The figure came down as more of the smaller relative was found. The giant's proportions could then be scaled from a complete animal rather than a few wing pieces.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "Its weight has to be worked out from the bones, not measured. Most estimates land between 440 and 550 lb (200 to 250 kg), though one 2021 study argued for as little as 330 lb (150 kg).",
+    "kind": "worked"
+   },
+   {
+    "cat": "speed",
+    "text": "To get airborne it jumped. Researchers who modelled the skeleton in 2021 reckon it leaped at least 8 ft (2.4 m) straight up from a standing start, then swept its wings down on the way.",
+    "more": "A bird that size would need a runway. Jumping first means the wings never have to beat close to the ground. Down there they would strike it. The animal is already clear of the mud before the first downstroke.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "On the ground it walked on all fours with the wings folded, putting the knuckle of the wing finger down as a front foot. That pose is read off pterosaur trackways, which preserve exactly that: a pair of footprints with knuckle prints beside them, step after step.",
+    "kind": "worked"
+   },
+   {
+    "cat": "food",
+    "text": "The jaws are long, thin, straight and toothless. The 2021 study argues it worked the shallows the way a stork does. It picked crabs, worms and clams out of river mud and lake edges. It did not snatch fish in flight.",
+    "kind": "worked"
+   },
+   {
+    "cat": "weird",
+    "text": "Quetzalcoatlus is not a dinosaur. It was a pterosaur, a flying reptile, and its bones came out of an old river floodplain in Texas rather than a sea bed.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "The name comes from Quetzalcoatl, the serpent god of wind and sky in Aztec accounts. The second half, northropi, honours Jack Northrop, who built airplanes with no tail — which is roughly what this animal was.",
+    "kind": "record"
+   },
+   {
+    "cat": "weird",
+    "text": "Cultures that never met each other tell of enormous flying serpents and winged creatures. Aztec, Chinese, European, and more. An animal standing taller than a man and opening 36 ft of wing is exactly what those accounts describe.",
+    "more": "People generally describe what they have seen. Carvings and stories of winged dragons turn up on separate continents. The people who made them had no way of comparing notes. The descriptions keep landing on the same handful of features.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "Thirty-six feet of wing on an animal weighing roughly 450 pounds. Nothing found anywhere flew bigger. Day five was given to the flying creatures. The largest of them was made toothless and four-footed on the ground. It could jump 8 feet up before its first wingbeat.",
+    "more": "The second half of its name, northropi, honours Jack Northrop, who built airplanes with no tail. The animal already had that layout: no tail, no teeth, no engine, just a standing leap and a downstroke off a Texas floodplain. Northrop reached the same shape by drawing it.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "God brought the kinds to Noah. Nobody had to go out and catch a 36-foot wingspan. Quetzalcoatlus starts in an egg, and a young one folds small. Wings shut, it walks aboard on all fours. The knuckle of the wing finger serves as a front foot.",
+    "more": "Feeding the adult would mean crabs, worms and clams by the barrowload; a young one probing the same shallows needs a fraction of that. Room and food both scale to the animal that walks up the ramp, not to the one it will grow into afterwards.",
+    "kind": "record"
+   }
+  ],
+  "wonder": "An animal of about 450 lb (200 kg), built light enough to jump into the sky.",
+  "_units": "imperial"
+ },
+ {
+  "id": "plesiosaurus",
+  "name": "Plesiosaurus",
+  "group": "dinosaurs",
+  "blurb": "A swimming reptile with a long neck, a short tail and four big flippers. It is not a dinosaur. Nothing alive swims the way it did.",
+  "size": "About 10 ft (3 m) from nose to tail — and roughly a third of that is neck.",
+  "homes": [
+   "ocean"
+  ],
+  "stats": {
+   "length": 10
+  },
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "On 10 December 1823, Mary Anning dug the first complete Plesiosaurus out of the cliffs at Lyme Regis in Dorset, England. That skeleton is NHMUK PV OR 22656. It is on display at the Natural History Museum in London.",
+    "more": "Anning was 24. She had been collecting from those cliffs since she was a girl, selling fossils to keep her family fed. The Geological Society of London discussed her finds at length. It did not allow women to join it, or even attend as guests.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "Georges Cuvier was the most respected anatomist in Europe. He saw the drawings and declared the neck too long to be real. He called it a fake, bones from different animals stuck together. The Geological Society examined the specimen in 1824 and found it genuine. Cuvier admitted he had judged too fast.",
+    "more": "It was a serious accusation. Anning made her living selling fossils, and a reputation for fakery would have ended that. The specimen survived the inspection because it was exactly what she said it was: one animal, in one piece, in the rock.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "The neck alone holds about 40 separate bones — different skeletons preserve between 38 and 42 of them. A giraffe manages its whole neck with seven.",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "Four flippers, all much the same size, and a short tail. Work back from that build and the swimming comes out as underwater flight — all four beating like wings, the short tail steering instead of pushing. Nothing alive swims that way now: sea turtles and sea lions pull with two.",
+    "more": "Working out how the four were timed is still an argument among people who build models of it. Front pair and back pair beating together gives power; beating out of step gives control.",
+    "kind": "worked"
+   },
+   {
+    "cat": "food",
+    "text": "The teeth are thin needle-shaped cones that lean forward — about 20 to 25 in each upper row, and 24 in each lower one. Nobody ever watched one feed, so the shape has to do the arguing: cones like that make a fish trap, not a cutting tool. Shut the jaws and nothing slips back out.",
+    "kind": "worked"
+   },
+   {
+    "cat": "weird",
+    "text": "Plesiosaur skeletons often turn up with a heap of smooth stones in the belly. One had 95 of them, 15 lb (6.8 kg) of stone altogether, the biggest a 2 lb (1 kg) lump. Ballast for diving, or a grinder for food — the argument continues.",
+    "kind": "found"
+   },
+   {
+    "cat": "babies",
+    "text": "A plesiosaur from Kansas sat in storage in a Los Angeles museum for years. In 2011 somebody looked at it properly and found an unborn baby inside. Just one, and already about a third of its mother's length.",
+    "more": "One big calf rather than a clutch of eggs makes sense for an animal that could not haul itself up a beach. It also matches how whales and dolphins do it today.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "Not a dinosaur. Plesiosaurus was a swimming reptile that came up to breathe air, and it was named in 1821 — twenty-one years before Richard Owen invented the word dinosaur at all.",
+    "kind": "record"
+   },
+   {
+    "cat": "weird",
+    "text": "Sailors have reported sea serpents for centuries. On 6 August 1848 the officers of HMS Daedalus reported one in the South Atlantic. The head and neck were held about 4 ft above the water. Some 60 ft of animal was in view. A long-necked swimmer fits that better than anything alive today.",
+    "more": "Richard Owen tried to explain it away as an elephant seal. Captain Peter M'Quhae stood by what his officers saw and had drawings published in the newspapers so people could judge for themselves.",
+    "kind": "record"
+   },
+   {
+    "cat": "size",
+    "text": "Plesiosaurus itself reached about 9 to 11 ft (2.9 to 3.5 m). Later relatives took the same body plan much further. Elasmosaurus carried 72 bones in its neck and grew longer than a bus.",
+    "kind": "found"
+   },
+   {
+    "cat": "created",
+    "text": "Plesiosaurus was made on day five with the great sea creatures, a day before the first land animals. About a third of its 10 ft was neck — forty bones — built for reaching after fish in open water, and the fish were made that same day.",
+    "more": "It breathed air and had to surface, but it was never a land animal and never needed a boat. When the Flood came, the water it already lived in rose with it. People and Plesiosaurus were on the earth together, and long-necked swimmers keep turning up in sailors' reports and old carvings.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "The teeth are forward-leaning needle cones, 20 to 25 in each upper row against 24 below. They never meet point to point — they slide past each other and shut into a cage. Half-meshed teeth leave gaps, and a fish leaves through a gap.",
+    "more": "The four flippers work the same way. Underwater flight needs all four shaped like wings and timed against each other. One wing and three stubs is not a slower version of the stroke; it is a spin.",
+    "kind": "worked"
+   }
+  ],
+  "wonder": "Four wings, beating under water, on an animal that still had to come up for air.",
+  "_units": "imperial"
+ },
+ {
+  "id": "mosasaurus",
+  "name": "Mosasaurus",
+  "group": "dinosaurs",
+  "blurb": "An enormous sea-going lizard with paddles and a shark-like tail. It gave the world its first great sea-monster fossil.",
+  "size": "Around 40 ft (12 m) long, worked out from the skull.",
+  "homes": [
+   "ocean"
+  ],
+  "stats": {
+   "length": 40
+  },
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "The famous skull came out of a chalk mine under Maastricht, in the Netherlands, in the 1770s. In 1794 French troops took the town and carried it off to Paris. It is still there, in the Muséum national d'Histoire naturelle, catalogued MNHN AC 9648.",
+    "more": "A favorite version of the story has the soldiers handing over 600 bottles of wine for it. Historians who went back through the records could not find support for that part; the taking of it, though, is thoroughly documented. An earlier skull had been found nearby in 1764.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "William Conybeare named it Mosasaurus in 1822. The name means lizard of the Meuse, after the river at Maastricht. That is twenty years before Richard Owen invented the word dinosaur in 1842. This animal had a scientific name before the dinosaurs did.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "Skulls of Mosasaurus hoffmannii measure over 4 ft 9 in (145 cm). The length of the whole animal has to be scaled up from the skull, which is why published figures range from about 39 ft (12 m) to 56 ft (17 m).",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "Mosasaurus was a lizard. Line its skeleton up against animals alive today. Monitor lizards and snakes come out the closest match. So picture a monitor lizard 40 ft (12 m) long, with paddles where the feet should be.",
+    "kind": "worked"
+   },
+   {
+    "cat": "weird",
+    "text": "Not a dinosaur, and not a fish. It was a reptile that swam. The skeleton is a lizard's. A reptile breathes air, so it had to come to the surface for a breath. A whale does the same.",
+    "more": "The confusion is understandable — it turns up in dinosaur books, dinosaur films and dinosaur toy sets. But dinosaurs walked on land. This one never left the water.",
+    "kind": "worked"
+   },
+   {
+    "cat": "food",
+    "text": "The jaws carry 14 to 16 teeth along each upper edge, and eight more on the roof of the mouth. That second set points backwards down the throat. Once a fish was in there, reversing out was not an option.",
+    "kind": "found"
+   },
+   {
+    "cat": "food",
+    "text": "A specimen nicknamed Lars was found with the bones of a young sea turtle inside it, pitted and etched by stomach acid. Shell included.",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "For a long time mosasaurs were drawn with straight, eel-like tails. Then one from Harrana in Jordan turned up with the outline of its skin preserved, showing a two-lobed fin at the tail tip like a shark's. Every picture had to be redrawn.",
+    "more": "Soft tissue almost never survives. The shape of a tail is usually guesswork from the bones. The Harrana specimen preserves the flipper outlines too. Those are real edges, not reconstructions.",
+    "kind": "found"
+   },
+   {
+    "cat": "babies",
+    "text": "Mosasaurs gave birth at sea. Bones of newborn-sized mosasaurs turn up in rock that formed far from any shore, which is not somewhere an animal goes to lay eggs.",
+    "kind": "worked"
+   },
+   {
+    "cat": "weird",
+    "text": "The mosasaur in the dinosaur films is drawn far larger than any Mosasaurus ever dug up. The real animal works out at around 40 ft (12 m). That is enormous, and it could take a sea turtle whole. It is still nowhere near the film's version.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "Mosasaurus, Tylosaurus, Platecarpus. The same paddles instead of feet. The same backward-pointing teeth on the roof of the mouth. The same shark-like tail. One created kind, made on day five with the great sea creatures. Then it was sorted into different sizes and snouts. Rearranged, never added to.",
+    "more": "Published lengths for Mosasaurus alone run from about 39 ft to 56 ft, because the whole animal is scaled up from the skull. Size shifts easily inside a kind. What never shifts is the kit — no mosasaur has ever turned up with a leg on it.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "A monitor lizard is an armload of animal. Mosasaurus ran about 40 ft, school-bus length, its skull alone over 4 ft 9 in, paddles where the feet should be. That was the design from the start: an ocean lizard at ocean scale, swimming before any land animal existed.",
+    "more": "Sea-monster accounts turn up in the old records of many nations — carved, painted, retold. A 40-ft lizard with a shark's tail, surfacing to breathe, is the sort of thing people would remember and pass down long after the last one was gone.",
+    "kind": "record"
+   }
+  ],
+  "wonder": "A lizard fitted out for the open ocean, right down to the shark's tail.",
+  "_units": "imperial"
+ },
+ {
+  "id": "ichthyosaurus",
+  "name": "Ichthyosaurus",
+  "group": "dinosaurs",
+  "blurb": "A dolphin-shaped swimming reptile from the cliffs of the Dorset coast. It is shaped like a fish and breathes air. It is not a dinosaur.",
+  "size": "About 6 to 7 ft (2 m) long. The largest one ever found reached nearly 11 ft (3.3 m).",
+  "homes": [
+   "ocean"
+  ],
+  "stats": {
+   "length": 7
+  },
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "In 1811 Joseph Anning found a 4-ft skull in the cliffs at Lyme Regis. About a year later his sister Mary, then 12, dug out the rest of the skeleton — over 15 ft (4.6 m) of it. The skull is at the Natural History Museum in London.",
+    "more": "That animal is now put in a group of its own. But it was the find that made the world take these sea reptiles seriously. It also began thirty years of collecting by Mary Anning, who found most of what we know from that coast.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "Anning noticed odd stones lying where the belly had been in ichthyosaur skeletons. She broke them open and found fish scales, fish bones, sometimes bones of small ichthyosaurs. William Buckland worked out what they were. He named them coprolites in 1829. Fossil dung.",
+    "more": "It is a genuinely clever piece of detective work. A stone tells you nothing; a stone full of scales tells you what the animal ate, how it chewed and how quickly it digested. Buckland credited Anning by name.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "The largest Ichthyosaurus known sat unstudied in a museum in Hannover, Germany. Someone looked at it properly in 2016. It is 10 to 11 ft (3 to 3.3 m) long. It also has an unborn baby inside it. That is 2.75 in (7 cm) of tiny backbone, a small fin, some ribs.",
+    "kind": "found"
+   },
+   {
+    "cat": "babies",
+    "text": "Ichthyosaurs gave birth in the water, and the best reading of the fossils is that the baby came out tail first, so it did not drown part-way. Only three pregnant Ichthyosaurus have ever been found.",
+    "kind": "worked"
+   },
+   {
+    "cat": "weird",
+    "text": "Not a dinosaur, and not a fish. Ichthyosaurus was a reptile that swam. Bone for bone it is built like a reptile, so it had to come up for air the way every reptile does. And the pregnant specimens show it bore live young instead of laying eggs on a beach.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "It has the same shape as a dolphin. Pointed snout, back fin, crescent tail. A back fin contains no bones. We only know it was there because of specimens from Holzmaden in Germany. Those preserve the outline of the whole body as a dark film in the rock.",
+    "more": "Two animals built to the same plan for the same job, one a reptile and one a mammal. Engineers call that convergence; it is the same reason a submarine and a shark end up looking alike.",
+    "kind": "found"
+   },
+   {
+    "cat": "senses",
+    "text": "The eye is huge, and holds a ring of bony plates inside it. A ring like that would have propped the eyeball against the push of the water. The record for the largest eye of any animal belongs to Temnodontosaurus. It is a bigger relative from the same Dorset cliffs, at 10 in (26 cm) across.",
+    "kind": "found"
+   },
+   {
+    "cat": "food",
+    "text": "Stomach contents show fish and belemnites, squid-like animals with a hard internal shell. Buckland thought some of the coprolites were black because of ink swallowed along with them.",
+    "kind": "found"
+   },
+   {
+    "cat": "record",
+    "text": "In February 2021 Joe Davis was draining a lagoon at Rutland Water in England. He spotted bones in the mud. They belonged to a 33-ft (10 m) sea dragon, a Temnodontosaurus. It is the largest and most complete ichthyosaur skeleton ever found in Britain.",
+    "more": "The dig took most of August and September that year, and the block holding the skull alone weighed about a ton. The find was announced in January 2022. Fossils like this are still turning up in ordinary places, found by people who were doing something else entirely.",
+    "kind": "record"
+   },
+   {
+    "cat": "weird",
+    "text": "Collecting on that coast is dangerous work. The cliffs give up bones after a winter storm and then slide. In October 1833 a landslide came down on Mary Anning, missed her, and buried her dog Tray.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "The cold is the harder problem. It bore its young alive in open water. Nothing in its build fits coming ashore. So it could not haul out onto a warm rock the way a lizard does.",
+    "more": "The cold is the harder problem. It bore its young alive in open water and never came ashore, so it could not haul out onto a warm rock the way a lizard does.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "A fisherman would have taken the fin for a dolphin's, until the head lifted: a long snout of small teeth, a great round eye. Nothing in its build fits coming ashore, so there are no tracks to find. The men who dug them from those cliffs called them sea dragons.",
+    "more": "A boat crew could have seen one thing we only ever meet in stone. A birth in open water, tail first. The baby swims up for its first breath on its own.",
+    "kind": "worked"
+   }
+  ],
+  "wonder": "Built like a dolphin, breathing like us, bringing its young into the world alive in open water.",
+  "_units": "imperial"
+ }
+]

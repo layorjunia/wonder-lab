@@ -1,0 +1,1154 @@
+[
+ {
+  "id": "wheat",
+  "name": "Wheat",
+  "group": "crops",
+  "blurb": "A grass grown for its seeds, which are ground into flour. It is planted on more land than any other food crop.",
+  "size": "Waist to chest high on a nine-year-old, about 2 to 4 ft (0.6-1.2 m), with a seed head the size of your thumb.",
+  "homes": [
+   "grassland",
+   "backyard"
+  ],
+  "stats": {
+   "height": 4,
+   "life": 1
+  },
+  "wonder": "A grain small enough to lose between your fingers holds a plant, a food store and a coat, and comes up wheat every time.",
+  "facts": [
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "In 2024 the world grew about 880 million tons (799 million tonnes) of wheat, on 542 million acres (219.5 million hectares). No other food crop covers that much ground. China, India and Russia grew the most.",
+    "more": "Russia sent out the most wheat of anyone in 2024, about 32.7 million tonnes, with Canada, the United States and Ukraine behind it. Egypt bought the most, 13.1 million tonnes."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "A wheat grain has three parts: the bran on the outside, the germ, which is the young plant, and the endosperm, which is the packed lunch. White flour is endosperm only. Wholemeal keeps all three."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Bread wheat carries six sets of chromosomes, 42 in all. You carry 46, in two sets. It is a hexaploid, a mouthful meaning three whole grasses' worth of instructions stacked into one plant."
+   },
+   {
+    "cat": "food",
+    "kind": "worked",
+    "text": "Gluten is about 75 to 80 percent of wheat's protein. Add water and the gluten proteins hook into a stretchy net. The best read of why bread rises is that the net traps the gas yeast makes. Rice flour has no such net, and rice bread does not rise."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "Bread needs a fungus. Baker's yeast, Saccharomyces cerevisiae, is not a plant at all. It eats sugar in the dough and breathes out carbon dioxide, and the gluten holds the bubbles in place."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Norman Borlaug bred short-strawed wheat in Mexico from 1944. By 1963 Mexico's harvest was six times the 1944 one. India went from 12.3 million tons of wheat in 1965 to 20.1 million in 1970. He was given the Nobel Peace Prize in 1970.",
+    "more": "He used shuttle breeding, growing two crops a year at two different altitudes in Mexico. It halved the time to make a new variety and produced wheat that did not much mind where it was planted."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "Tall wheat falls flat when it is fed well, and a flattened crop rots. Borlaug put dwarfing genes from a Japanese wheat, Norin 10, into his lines. Short stems hold up under heavy grain, so the fertiliser goes into seed instead of straw."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "One sown grain does not make one stem. Wheat tillers: the seedling sends up several stems from its base, each with its own head of grain. Count the heads in a clump and you are counting one seed's work."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Wheat runs right through the Bible. Ruth gleans behind the reapers at the wheat harvest. Pharaoh dreams of seven full ears of grain swallowed by seven thin ones. Jesus says a grain of wheat has to fall into the ground and die before it bears anything."
+   },
+   {
+    "cat": "home",
+    "kind": "worked",
+    "text": "Winter wheat is sown in fall, sits out the cold as a small green plant, and will not make a head until it has had that cold. Spring wheat is sown after the frosts and does the whole job in one summer."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three of the creation week names the herb yielding seed after its kind. A wheat grain is that in one object: the young plant, its food store, and a coat around both. Sow it and wheat comes up, not barley."
+   },
+   {
+    "cat": "created",
+    "kind": "worked",
+    "text": "Wheat comes in many shapes, from tall old field varieties to Borlaug's knee-high lines, and they all cross with each other. Sizes shift inside a kind. The equipment does not: hollow stem, flat leaves, a head of grain, a seed with germ and endosperm."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Deep in a mountain on Svalbard, in the Arctic, sits a vault for seeds. It runs more than 330 ft (100 m) into the rock and is held at 0°F (minus 18°C). It has room for 4.5 million seed samples. At about 500 seeds to a packet, that comes to some 2.25 billion seeds.",
+    "more": "Wheat, rice and barley fill more of its shelves than anything else. Seeds have been taken out once. In September 2015 the gene bank driven out of Aleppo, Syria by the war asked for 128 boxes back, about 38,000 samples, and regrew them in Lebanon and Morocco. Fresh seed was later sent back up to Svalbard."
+   }
+  ]
+ },
+ {
+  "id": "rice",
+  "name": "Rice",
+  "group": "crops",
+  "blurb": "A grass that grows standing in water, and the main food for more than half the people alive.",
+  "size": "About 3 to 4 ft (1-1.2 m) tall in a flooded field, with a heavy drooping head of grain at the top.",
+  "homes": [
+   "freshwater",
+   "grassland"
+  ],
+  "stats": {
+   "height": 4,
+   "life": 1
+  },
+  "wonder": "A plant that would drown most roots pipes its own air down through hollow stems, and feeds half the world standing in water.",
+  "facts": [
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Rice is the staple food of over half the world's population. The 2023 crop came to about 800 million tonnes. Nine tenths of it grew in Asia, with India and China between them making just over half."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "Cut a rice stem across and it is honeycombed with air channels. Roots in flooded mud have no oxygen to draw on. The best read is that those channels pipe air down from the leaves, which is why rice stands in water that would kill wheat."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "worked",
+    "text": "Flooding a paddy is a way of weeding. Most weeds drown; rice does not. The water is doing a job, not just watering."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "The head of a rice plant, called a panicle, can carry up to 350 spikelets. Every one that gets pollinated turns into a grain."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Deepwater rice puts up with flooding more than 20 in (50 cm) deep for a month or more. It grows upward fast enough to keep its leaves above the rising water."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "IR8 was made in 1966 at the International Rice Research Institute in the Philippines. It came from crossing an Indonesian rice called Peta with a Chinese one called Dee-geo-woo-gen. It was short and it did not fall over. It yielded so heavily that people called it miracle rice."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Golden Rice was made by Ingo Potrykus and Peter Beyer and published in 2000, after eight years' work. It builds beta-carotene, which the body turns into vitamin A, and that turns the grain orange. A later version, Golden Rice 2, makes 23 times more.",
+    "more": "Vitamin A shortage is a real cause of blindness where rice is nearly the whole diet. Canada and the United States cleared Golden Rice in 2018, and the Philippines in 2019. A Philippine court ordered it stopped again in 2024."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Brown rice and white rice are the same grain. White rice has had the bran and germ polished off, which makes it keep longer and cook faster, and takes most of the vitamins away with them."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Across much of Asia rice is not sown where it grows. Seed is sprouted thickly in a nursery bed. Then the seedlings are pulled up and pushed into the mud of the paddy by hand, one small clump at a time."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Rice, wheat, maize, sugarcane and the lawn outside are all one family, the grasses. Every grain crop on earth is a grass seed."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names the seed-bearing plants, each after its kind. A rice grain dropped into warm mud sends a root down and a shoot up within days, and what comes up is rice. Nobody has ever had to teach it which way is up."
+   }
+  ]
+ },
+ {
+  "id": "maize",
+  "name": "Maize",
+  "group": "crops",
+  "blurb": "A giant grass from the Americas that carries its seeds on a cob, and grows more weight of grain each year than anything else.",
+  "size": "Usually 7 to 10 ft (2-3 m) tall, well over an adult's head, with the cobs at about chest height.",
+  "homes": [
+   "grassland",
+   "backyard"
+  ],
+  "stats": {
+   "height": 10,
+   "life": 1
+  },
+  "wonder": "One silk thread for every seed, each thread finding its own kernel, and a gap in the rows means one thread got missed.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The silk on a cob is not decoration. There is exactly one silk thread for each kernel, and a grain of pollen has to land on that thread and grow down it. A cob with gaps in the rows is a cob whose silks got missed."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "Kernels sit in 8 to 32 rows around the cob, and a big cob can carry up to 1,200 of them. That is 1,200 seeds hanging off one stalk."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "World maize came to 1.16 billion tonnes in 2020, a greater weight than any other grain. The United States grew 31 percent of it and China 22.4 percent."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Barbara McClintock spent decades on maize and found that pieces of its genetic instructions move about, switching kernel colors on and off. Almost nobody believed her at first. She was given the Nobel Prize in 1983."
+   },
+   {
+    "cat": "food",
+    "kind": "record",
+    "text": "Maize on its own is missing usable niacin, a B vitamin, and a maize-only diet causes pellagra. Peoples of the Americas soaked their maize in wood-ash or lime water, which frees the niacin. That is nixtamalization. It is what makes a tortilla a tortilla.",
+    "more": "Pellagra still turns up where donated maize is eaten without that soaking step. The fix was worked out long before anybody had heard of a vitamin. It was hiding in the cooking method all along."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "A popcorn kernel is about 14 percent water, sealed in a hard hull. Heat turns that water to steam at roughly 135 psi and 356 F (180 C) before the hull splits. The starch inside blows up into foam 20 to 50 times the size of the kernel."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Maize keeps its two flower types apart. The tassel on top makes pollen and drops it. The ears lower down catch it on their silks. Pollen from your own tassel usually drifts sideways before it lands, so most cobs are fathered by the neighbors."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "worked",
+    "text": "Maize cannot sow itself. The cob grips its seeds inside a husk that does not open. Drop a whole cob and you get a knot of seedlings strangling each other. The best read is plain: this plant needs a person to strip the seeds off and space them out."
+   },
+   {
+    "cat": "gross",
+    "kind": "found",
+    "text": "Corn smut is a fungus, not a plant. It swells kernels into gray lumps the size of golf balls. In Mexico that is not a disaster, it is huitlacoche, scraped off and cooked into quesadillas."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Look at the bottom of a maize stalk and you will find brace roots, thick props angling out of the stem above the soil. They go in later than the ordinary roots and hold a top-heavy plant upright in wind."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names the herb yielding seed. A maize cob is that counted out. Up to 1,200 seeds stand on one stalk. Each one is wrapped, and each one is fed by its own thread. Each one is a whole maize plant folded small."
+   }
+  ]
+ },
+ {
+  "id": "potato",
+  "name": "Potato",
+  "group": "crops",
+  "blurb": "A swollen underground stem from the Andes, and the biggest food crop in the world that is not a grain.",
+  "size": "The plant is knee to waist high, about 2 to 3 ft (60-90 cm). The part you eat is buried, on stems running sideways.",
+  "homes": [
+   "mountain",
+   "backyard"
+  ],
+  "stats": {
+   "height": 3,
+   "life": 1
+  },
+  "wonder": "The eyes are not decoration. Every one is a bud, and a potato forgotten in a dark cupboard will prove it.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "A potato is a stem, not a root. The eyes are buds, and if you leave one in the light, shoots come out of the eyes, exactly where a stem puts them. Roots do not carry buds arranged like that."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Tubers grow at the tips of stolons, underground stems running sideways from the base of the plant. One plant makes several, which is why you can dig a whole nest of potatoes out from under a single seedling."
+   },
+   {
+    "cat": "home",
+    "kind": "record",
+    "text": "The International Potato Center in Lima, Peru keeps 4,870 kinds of potato, most of them traditional Andean varieties. Purple ones, spotted ones, ones shaped like a knuckle. The shop sells you about four."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The 2024 crop was 390 million tonnes. China grew 94.8 million tonnes of it, about a quarter of the world's potatoes, and India 57.1 million."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "A green potato is a warning you can see. Light makes the tuber build solanine, which tastes bitter and can make you ill. Green skin, green flesh, sprouting eyes: cut them out or throw it away."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The Irish famine was caused by potato late blight. The killer is usually called a fungus, and it is not one. Phytophthora infestans is an oomycete, a water mold. That is a different sort of living thing altogether, closer to seaweed than to mushrooms.",
+    "more": "Blight rots a field in days in warm wet weather. It reached Ireland in the 1840s, where a huge share of people ate little else, and the crop failed year after year."
+   },
+   {
+    "cat": "weird",
+    "kind": "worked",
+    "text": "Potatoes are grown from pieces of potato, so a field is one plant copied thousands of times. Anything that can beat one plant can beat every plant in the field on the same afternoon. That reasoning is why thousands of varieties are kept safe in Lima."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Seed potatoes are not seeds. They are chunks of tuber with an eye in them, and what grows is a copy. Potato plants do make real seeds, in small green berries above ground after flowering, and those berries are poisonous."
+   },
+   {
+    "cat": "travel",
+    "kind": "record",
+    "text": "In the high Andes potatoes are turned into chuno. They are spread out to freeze on cold nights and thaw in the day. Then they are trodden to squeeze the water out. That happens over and over, until they are hard and light and keep for years."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "The potato is a nightshade. Tomato, chili pepper and tobacco are all in the same family. That is exactly why Europeans were suspicious of it when it first turned up."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names plants yielding seed. The potato has two ways of making more of itself built in. Flowers set true seed inside a green berry. A stem underground is stuffed with food and studded with buds."
+   },
+   {
+    "cat": "travel",
+    "kind": "record",
+    "text": "Pieces of potato plant flew on the shuttle Columbia in October 1995. It was a leaf, a bud and a scrap of stem, in a growth chamber built at the University of Wisconsin. They grew real tubers in orbit. Those tubers were built the same inside as ones grown on the ground.",
+    "more": "Gravity was not needed to make a proper potato. Later the International Potato Center in Lima sealed a tuber inside a box. The box held Mars air pressure, Mars gases and Mars day-and-night temperatures. The soil was near-lifeless, trucked in from the Pampas de La Joya desert. In March 2017 they reported it had sprouted."
+   }
+  ]
+ },
+ {
+  "id": "tomato",
+  "name": "Tomato",
+  "group": "crops",
+  "blurb": "A berry from South America. Nearly everyone files it under vegetables, including the Supreme Court.",
+  "size": "A staked vine runs 6 ft (1.8 m) or more up its string; bush kinds sprawl to about knee height.",
+  "homes": [
+   "backyard",
+   "grassland"
+  ],
+  "stats": {
+   "height": 6,
+   "life": 1
+  },
+  "wonder": "The fruit is a case built to be eaten: colored to be found, sweetened to be worth it, packed with seeds meant to survive the trip.",
+  "facts": [
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "A tomato is botanically a berry, a fruit with its seeds sitting in pulp. Grapes and bananas are berries too. Strawberries and raspberries are not."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "On 10 May 1893 the Supreme Court of the United States ruled, in Nix v. Hedden, that tomatoes are vegetables. Vegetables were taxed at the border and fruit was not. The judges agreed a tomato is botanically a fruit, and taxed it anyway, because people eat it with dinner and not for pudding."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "John Gerard's Herbal of 1597 told English readers the tomato was poisonous. He knew perfectly well that Spaniards and Italians were eating them. His book was trusted, and Britain kept its distance for a very long time afterwards."
+   },
+   {
+    "cat": "record",
+    "kind": "worked",
+    "text": "The popular explanation is that acid tomatoes pulled lead out of rich people's pewter plates. It gets repeated everywhere. Chemists who have checked it say a tomato is nowhere near acid enough. One of them is Joe Schwarcz at McGill University. The nightshade family and Gerard's book explain the fear better."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "Gerard was not entirely wrong. Tomato leaves, stems and green unripe fruit hold tomatine, an alkaloid the plant makes. The ripe fruit does not, and the ripe fruit is the only part anybody eats."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The heaviest tomato weighed 16.89 lb (7.661 kg) and measured 39 in around. It was a Domingo, grown by Dan Sutherland at Walla Walla, Washington, and weighed on 19 July 2025. He had broken his own record eight days earlier.",
+    "more": "Sutherland was the first person on record to grow a tomato past 10 lb. Giant tomatoes are usually lumpy and scarred. They are several tomatoes' worth of flower fused into one fruit."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "A tomato flower holds its pollen in tubes that only let go when they are shaken at the right speed. Bumblebees do it by gripping the flower and buzzing their flight muscles. Greenhouse growers either keep bumblebees or walk the rows with a vibrating wand."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Tomatoes ripen themselves with a gas. They give off ethylene, and ethylene tells the fruit to soften, redden and sweeten. Put a ripe tomato in a paper bag with green ones and the green ones catch up faster."
+   },
+   {
+    "cat": "travel",
+    "kind": "record",
+    "text": "The word comes from the Nahuatl tomatl, by way of Spanish. Spanish ships carried the plant back across the Atlantic in the 1500s, and it took a couple of centuries before Europeans north of Italy would eat it."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Nightshade family again. Tomato, potato, chili and tobacco are close relatives. You can graft a tomato shoot onto a potato plant. Then you get tomatoes above and potatoes below, off one set of roots."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names the seed-bearing plants and the fruit trees, each after its kind. Slice a tomato across and the arrangement is right there. The seeds sit set in jelly. The case around them is colored to be noticed and sweetened to be eaten."
+   },
+   {
+    "cat": "weird",
+    "kind": "record",
+    "text": "Frank Rubio picked a Red Robin tomato on the space station on 29 March 2023, bagged it, and lost it. Crewmates teased him about eating the evidence for months. On 6 December 2023 the crew announced they had found the bag, tomato inside, dried out and a bit squashed. He was cleared.",
+    "more": "Rubio was not meant to be up there that long. His Soyuz sprang a coolant leak, a replacement had to be flown up empty, and a six-month trip turned into 371 days — the longest single spaceflight by an American. He landed on 27 September 2023, ten weeks before the tomato turned up."
+   }
+  ]
+ },
+ {
+  "id": "banana",
+  "name": "Banana",
+  "group": "crops",
+  "blurb": "Not a tree and not a bush. It is the largest herb on earth, and its fruit is a berry with no seeds in it.",
+  "size": "Commonly 15 to 25 ft (4.5-7.5 m) tall, held up by rolled leaf bases with no wood anywhere in them.",
+  "homes": [
+   "rainforest",
+   "backyard"
+  ],
+  "stats": {
+   "height": 20
+  },
+  "wonder": "A plant with no wood in it anywhere holds a whole bunch of fruit in the air on nothing but rolled-up leaves.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The banana is the largest herbaceous flowering plant there is. What looks like a trunk is a pseudostem, made of leaf stalks wrapped tightly round each other. There is no wood in it. You can cut one through with a knife."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "A banana is botanically a berry. So is a tomato and so is a grape. The word berry means seeds set in pulp, which is awkward, because the banana you eat has no seeds at all."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The Cavendish came out of a greenhouse in Derbyshire. Joseph Paxton, head gardener at Chatsworth House, raised plants shipped from Mauritius. He named them Musa cavendishii after his employer, the sixth Duke of Devonshire. They flowered in 1835 and fruited the next May. They won a medal at that year's Horticultural Society show."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Every Cavendish banana is a clone. They set no seed, so they are grown from suckers cut off the base of the parent plant. The banana in your lunchbox and the banana in a shop on the other side of the world are the same individual plant, copied and copied again."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "One clone means one weakness. If a disease can kill one Cavendish it can kill all of them, because there is no variation anywhere in the crop for it to trip over. That is not a prediction, it is arithmetic, and it has already happened once."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The banana in shops used to be the Gros Michel. A soil fungus, Fusarium oxysporum, caused Panama disease and wrecked the export crop by the 1950s. Growers switched to the Cavendish because it shrugged that strain off. Then a new strain, Tropical Race 4, turned up that does not.",
+    "more": "Tropical Race 4 was first identified in Taiwan in 1967. It has since spread through Asia, Australia, Africa, the Middle East and into Latin America. It attacks Cavendish and as much as 80 percent of the other kinds grown."
+   },
+   {
+    "cat": "gross",
+    "kind": "found",
+    "text": "The killer is a fungus, which is not a plant. It lives in the soil rather than on the plant, so once a field has it, that field keeps it. You cannot spray it out and you cannot wait it out."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Wild bananas are full of hard black seeds the size of peppercorns, packed so tightly there is barely anything to eat. The eating kinds set fruit without being pollinated at all, so the seeds never form and the flesh fills the space."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "A bunch is built in tiers called hands, about nine of them, with up to twenty fruits to a hand. One finger is one banana. The whole bunch grows on a single stalk that bends the plant over."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "India grows the most bananas by a long way: 34.5 million tonnes in 2022, roughly a fifth of the world's crop. Most of it never leaves the country."
+   },
+   {
+    "cat": "copied",
+    "kind": "found",
+    "text": "Banana candy tastes of one chemical, isoamyl acetate. That chemical is genuinely present in real bananas, and in pears. A honeybee makes the same chemical at its sting. It is an alarm signal, telling the rest of the hive where to aim."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names fruit yielding fruit after its kind. The eating banana is an odd case. It has no seeds, so it cannot sow itself. Every plant alive is a cutting from a cutting, kept going by human hands. The wild kinds still carry their seeds."
+   }
+  ]
+ },
+ {
+  "id": "coffee",
+  "name": "Coffee",
+  "group": "crops",
+  "blurb": "A tropical shrub grown for the two seeds inside its small red fruit, which are roasted, ground and soaked in hot water.",
+  "size": "Left alone it grows into a small tree. On farms it is cut back to 5 or 6 ft (1.5-1.8 m) so pickers can reach the fruit.",
+  "homes": [
+   "rainforest",
+   "mountain"
+  ],
+  "stats": {
+   "height": 6
+  },
+  "wonder": "The bitterness that keeps insects off the leaves is the same bitterness people get up early for.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "A coffee bean is not a bean, it is a seed. Each coffee fruit, called a cherry, usually holds two of them lying flat side to flat side. That flat face is why a roasted bean has a crease down the middle."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "About 5 to 10 percent of coffee cherries hold only one seed instead of two, and with nothing to press against it grows round. Those are peaberries, and some buyers sort them out and sell them separately."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The world picked 11 million tonnes of green coffee beans in 2023. Brazil grew 31 percent of it."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Coffee leaf rust, Hemileia vastatrix, is a fungus and not a plant. It was reported in Ceylon, now Sri Lanka, in 1867, and by 1890 the island's coffee industry was all but destroyed. The planters pulled out the coffee and put in tea.",
+    "more": "That is one of the reasons Britain became a tea-drinking country rather than a coffee-drinking one. The rust reached Brazil in 1970. By 1975 it was in every Brazilian coffee area. By 1981 it had covered most of Central and South America."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "There are two coffees in the trade. Arabica is the one people fuss over. Robusta holds about 40 to 50 percent more caffeine, tastes harsher, and is easier to grow, so it gets blended in."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "Caffeine is the plant's chemical, not ours. It puts off animals that would chew the leaves, and it stops the seeds of other plants sprouting near the roots. The best read is that it is a weapon on two fronts, and we drink it on purpose."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "worked",
+    "text": "Caffeine also turns up in the nectar of coffee flowers, where it is not defending anything. Bees will work a caffeinated flower. Reasoned from that: the same chemical is being used to push some animals away and pull others in."
+   },
+   {
+    "cat": "travel",
+    "kind": "record",
+    "text": "Gabriel de Clieu carried a coffee plant by ship to Martinique in the 1720s. Much of the world's arabica traces back to plants raised from that one."
+   },
+   {
+    "cat": "home",
+    "kind": "worked",
+    "text": "Arabica is grown high on tropical mountains, where nights are cool and frost never comes. Robusta takes the hot lowlands. That split is why a bag of coffee tells you an altitude, and why a warming climate is a real worry for arabica farms."
+   },
+   {
+    "cat": "senses",
+    "kind": "found",
+    "text": "A green coffee seed smells of hay and nothing else. Every smell you know as coffee is made in the roaster, in a few minutes, out of a seed that had none of it beforehand."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names the herb yielding seed. Coffee's seed is the whole point of the plant. It is wrapped in sweet red pulp to get it carried off. Everything anyone has ever done to coffee has been done to a seed."
+   }
+  ]
+ },
+ {
+  "id": "vanilla",
+  "name": "Vanilla orchid",
+  "group": "crops",
+  "blurb": "A climbing orchid grown for its cured pods, and the only orchid in the world farmed for food.",
+  "size": "A vine that hauls itself up a tree or a post and can run 50 ft (15 m), gripping with roots along the stem.",
+  "homes": [
+   "rainforest"
+  ],
+  "stats": {
+   "height": 50
+  },
+  "wonder": "A flower that opens for one day and shuts the door on its own pollen is not a flower that arrived by accident.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Vanilla is an orchid and it is a vine. It climbs a tree or a post, and along the stem it sends out thick roots that grip the bark as it goes."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "A vanilla flower lasts about one day, sometimes less. Miss it and it drops off and no pod grows. Every morning of the flowering season somebody walks the whole plantation looking for flowers that opened that day."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "In 1841 Edmond Albius, an enslaved boy of twelve on the island of Reunion, worked out how to pollinate vanilla by hand. Inside the flower a flap separates the male part from the female. He lifted it with a sliver of bamboo and pressed the two together with his thumb.",
+    "more": "It is still done exactly that way. He showed his owner, Ferreol Bellier-Beaumont, two vanilla pods hanging on a vine and said he had made them himself. The technique went from Reunion to Madagascar and eventually back to Mexico. Albius died poor."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Charles Morren, at Liege in Belgium, published a way to pollinate vanilla by hand in 1837, four years before Albius. His method was too slow and too costly to use on a farm, so nothing came of it. Albius's worked in the field, and that is the difference."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "worked",
+    "text": "In Mexico orchid bees of the genus Eulaema do the job. Even there, wild vanilla flowers only set fruit about one time in a hundred. Take the plant anywhere else and there is no insect shaped to fit it, so a person has to be the bee."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "A pollinated flower takes five to six weeks to grow a full-sized pod. It needs about six months more to mature. Then the curing begins. Killing, sweating, drying and conditioning take months again."
+   },
+   {
+    "cat": "senses",
+    "kind": "found",
+    "text": "A green vanilla pod straight off the vine barely smells of anything. The vanilla smell is not harvested, it is made during curing, as the pod is heated, wrapped, sweated and slowly dried."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "Madagascar grew 42 percent of the world's vanilla in 2023, with Indonesia next at 25 percent. Both are a long way from Mexico, where the plant is from, and neither has the bee."
+   },
+   {
+    "cat": "copied",
+    "kind": "found",
+    "text": "Most vanilla is not vanilla. Synthetic vanillin is about 88 percent of the vanillin sold. Real extract from cured pods is under 1 percent of it, around 50 tons a year for the entire world."
+   },
+   {
+    "cat": "babies",
+    "kind": "worked",
+    "text": "Vanilla plantations are grown from cuttings, so the vines in a field are clones of each other. It is the same arithmetic as the banana. No variation in the crop means no variation for a disease to trip over."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names seed after its kind. The vanilla flower is built so carefully that a flap keeps its own pollen off its own stigma. Without the right bee, or a boy with a splinter of bamboo, no pod forms and no seed follows."
+   }
+  ]
+ },
+ {
+  "id": "pineapple",
+  "name": "Pineapple",
+  "group": "crops",
+  "blurb": "A South American bromeliad whose fruit is not one fruit at all. It is up to two hundred flowers grown into a single lump.",
+  "size": "A rosette of stiff spiky leaves about 3 to 4 ft (1-1.2 m) across, with one fruit on a stalk in the middle.",
+  "homes": [
+   "grassland",
+   "backyard"
+  ],
+  "stats": {
+   "height": 4
+  },
+  "wonder": "A hundred separate flowers grow into one body, and the joins are still there on the skin as diamonds.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "A pineapple is a multiple fruit. The plant sends up a spike of up to 200 small flowers, and they all swell and fuse into one. Every diamond-shaped eye on the skin is one flower that used to be separate."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Pineapple contains bromelain, an enzyme that takes proteins apart. That is why fresh pineapple makes your mouth tingle: it is digesting you back, a little. It is also why fresh pineapple will not set in jelly, because it chops up the gelatine.",
+    "more": "Tinned or cooked pineapple sets in jelly perfectly well. Heat wrecks the enzyme, and a wrecked enzyme does nothing. Try both in two bowls and you get the answer in an afternoon."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Cut the leafy crown off a pineapple, let the cut dry for a day or two, and plant it. It roots and grows. The plant also throws side shoots at its base, called slips and suckers, and those get planted too."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "A pineapple takes about a year from planting to a ripe fruit, and the plant makes one fruit at a time. Everything it does for that year goes into a single pineapple."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The world grew 29.4 million tonnes of pineapples in 2024. Costa Rica led with 3.1 million tonnes, then the Philippines with 2.9 and Indonesia with 2.7."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Columbus's crew met pineapples in 1493. In Europe the fruit became a symbol of money. Growing one in a cold country meant building a heated glasshouse called a pinery. Then you burned fuel in it for a year or more. People hired a pineapple for the evening to put on the table."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Pineapples are bromeliads. Spanish moss, the gray stuff hanging off trees in the American South, is a relative, and so are the spiky tank plants that hold rainwater in their centers."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The pineapples in shops are grown unpollinated on purpose. The flowers fuse into fruit anyway, and because nothing was fertilised there are no seeds. Wild ones, pollinated, come with small hard seeds in the flesh."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "A pineapple opens the pores in its leaves at night rather than in the day, takes in carbon dioxide then, and stores it until morning. That way it does its breathing when the air is cool. The best read is that this is how it survives long dry spells on thin soil."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "Many pineapple varieties carry rows of small backward-pointing saw teeth along the leaf edges. Reaching into the middle of the plant to cut the fruit means reaching past every one of them."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names fruit after its kind. A pineapple is two hundred flowers built into one body on one stalk, and the crown you slice off the top will grow into the next plant. Nothing about it is spare."
+   }
+  ]
+ },
+ {
+  "id": "strawberry",
+  "name": "Strawberry",
+  "group": "crops",
+  "blurb": "The red part is not the fruit and the specks are not seeds. It is the swollen tip of a flower stalk, studded with the real fruits.",
+  "size": "A low clump about 8 to 12 in (20-30 cm) high, sending runners out sideways across the ground.",
+  "homes": [
+   "forest",
+   "backyard"
+  ],
+  "stats": {
+   "height": 1
+  },
+  "wonder": "The red part is not the fruit and the specks are not seeds, and knowing that makes the thing more interesting, not less.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Each speck on a strawberry is an achene, a dry fruit with one seed inside it. The red flesh is the receptacle, the tip of the stalk that the flower sat on, swollen up. Botanists call the whole arrangement an aggregate accessory fruit."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "A medium strawberry carries around 200 achenes on its surface. So a strawberry is not one fruit with seeds on the outside. It is about two hundred fruits sitting on a red cushion."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "A strawberry is not a berry. A tomato is, a grape is, a banana is. A strawberry is not, and neither is a raspberry."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "The achenes drive the swelling. As they develop they release auxin, a growth chemical, and the flesh under each one puffs up in response. That explains lopsided strawberries: where the achenes failed, the flesh underneath stayed flat."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Strawberries send out runners, thin stems that creep across the ground, put roots down at a node and start a new plant. Growers peg the runners down, let them root and cut them free. Every one is a clone of the parent."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Amedee-Francois Frezier was a French military engineer, sent to South America to sketch Spanish harbor defenses. He came home in 1714 with five Chilean strawberry plants, which had enormous fruit. In France they flowered and set almost nothing. All five were female.",
+    "more": "Only five plants survived the crossing, and he gave most of them away. The one he kept went to Brest in Brittany, where they ended up growing near North American strawberries, and the two crossed."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "In 1766, at Versailles, Antoine Nicolas Duchesne worked out where the garden strawberry came from. It was a cross between the Chilean plant and a North American one. He also worked out that strawberries have separate sexes. He was eighteen. He was born in 1747 and lived to 1827."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Strawberries are in the rose family. Apples, pears, plums, cherries, blackberries and roses are all relatives. That is easier to believe once you look at a strawberry flower. Five white petals and a crowd of stamens, exactly like a wild rose."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The world grew 10.7 million tonnes of strawberries in 2024. China produced 38 percent of them. The United States came next."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "The garden strawberry does not exist in the wild anywhere. It was made in Europe out of one plant from Chile and one from eastern North America, and every shop strawberry comes from that pairing."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names plants whose seed is in themselves. The strawberry wears its fruits on the outside, about two hundred of them. They are spread over a red cushion that was never a fruit at all. The cushion exists only to get them eaten and carried."
+   }
+  ]
+ },
+ {
+  "id": "pumpkin",
+  "name": "Pumpkin",
+  "group": "crops",
+  "blurb": "A sprawling vine that grows the heaviest fruit on earth. The record is over a ton and a third.",
+  "size": "The vine is only about knee high but runs many yards across the ground. The record fruit weighed 2,819 lb (1,278.8 kg).",
+  "homes": [
+   "backyard",
+   "grassland"
+  ],
+  "stats": {
+   "weight": 2819,
+   "life": 1
+  },
+  "wonder": "The same vine that makes a pie pumpkin can make one heavier than a car, given water, room, and one fruit to feed.",
+  "facts": [
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The heaviest pumpkin ever weighed came to 2,819 lb 4 oz (1,278.8 kg). It was nicknamed Muggle and grown by twin brothers Ian and Stuart Paton, weighed at Wargrave in Berkshire on 6 October 2025. It also measured 21 ft 3.8 in (649.8 cm) around.",
+    "more": "It was the first time British growers had held the record. The Patons have been growing giant pumpkins since they were teenagers, which is around fifty years of practice for one afternoon on the scales."
+   },
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "At full tilt a giant pumpkin can put on 50 lb (23 kg) in a single day. You cannot see it move, but you can measure it in the morning and again at night and the numbers will not match."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "A giant pumpkin is up to 94 percent water, and its cells are bigger than an ordinary pumpkin's. It is not so much grown as filled."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Nearly every record pumpkin is one variety, Dill's Atlantic Giant, bred by Howard Dill in Nova Scotia. Growers trade seed from record fruit, so the seeds out of a champion are worth real money."
+   },
+   {
+    "cat": "weird",
+    "kind": "record",
+    "text": "The Patons grew a heavier pumpkin than Muggle in 2022, at 2,907.85 lb, and it did not count. It had split. A damaged pumpkin is disqualified, so a season's work can end with one crack in the rind."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Pumpkins put male and female flowers on the same plant. The males open first, on long thin stalks. A female flower has a tiny green pumpkin already sitting behind it, and it only swells if pollen reaches it."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "Giant-pumpkin growers do not leave that to the bees. They pick a male flower, brush its pollen onto the female by hand, and tape her shut so nothing else gets in. Then they know exactly which two plants made the fruit."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "A pumpkin is a fruit, and specifically a berry, of the sort called a pepo: soft inside, seeds in the middle, hard rind outside. Cucumbers, melons and courgettes are all pepos too."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "To grow a monster you take every other fruit off the vine. One pumpkin, one plant, hundreds of square feet of leaf all feeding a single fruit. Leave two on and you get two medium ones."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "Run a hand along a pumpkin stem and it is covered in short stiff bristles, and so are the undersides of the leaves. The flowers, by contrast, are soft and edible, and get stuffed and fried in Mexico and Italy."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names the seed-bearing plants. A pumpkin is one taken to the limit. Male and female flowers grow separately on the same vine. The fruit can end up over 2,800 lb, with the seeds still sitting quietly in the middle of it."
+   }
+  ]
+ },
+ {
+  "id": "sugarcane",
+  "name": "Sugarcane",
+  "group": "crops",
+  "blurb": "A grass twenty feet tall with sugar stored in its stem. By weight it is the biggest crop grown anywhere on earth.",
+  "size": "6 to 20 ft (2-7 m) tall on stout jointed stalks, thicker than a broom handle.",
+  "homes": [
+   "grassland",
+   "rainforest"
+  ],
+  "stats": {
+   "height": 20
+  },
+  "wonder": "A grass that catches sunlight better than almost anything else green, and then stacks the result in its own stem.",
+  "facts": [
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "Sugarcane is the largest crop in the world by weight: 1.9 billion tonnes in 2020. Brazil grows about 40 percent of it, 724.4 million tonnes in 2022, with India next at 439.4 million."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "Cane stands 6 to 20 ft (2-7 m) tall on jointed fibrous stalks. Walking into a mature cane field is like walking into a wall of bamboo you cannot see through."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "A ripe cane stalk is roughly 12 to 16 percent soluble sugar. The rest is fiber, water and other carbohydrate. Crushing the stalk squeezes that sugar out as juice."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "Sugarcane is a C4 plant, which is a different and faster way of catching carbon dioxide. It can turn as much as 1 percent of the sunlight falling on it into plant material. That is close to the ceiling for anything green, and it is the reason the tonnage is so absurd."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Sugarcane is not planted as seed. Lengths of stalk are laid in a furrow and covered, and buds along the stalk sprout into new plants. A cane field is one plant repeated down every row."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Cut cane does not need replanting straight away. The stump left in the ground sends up new stalks, and the same planting can be harvested several times over. Growers call the regrowth a ratoon."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Sugarcane is a grass, family Poaceae, along with wheat, rice, maize and the lawn. It is a grass that grew to twenty feet and decided to store its food in the stem rather than in a seed."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "After the juice is squeezed out, the crushed fiber left behind is called bagasse. Mills burn it to run themselves, and it also gets made into paper and board. Almost none of the stalk is thrown away."
+   },
+   {
+    "cat": "travel",
+    "kind": "record",
+    "text": "In Brazil gasoline is required by law to contain at least 22 percent bioethanol, and that ethanol is made from cane. A country's cars run partly on grass juice."
+   },
+   {
+    "cat": "copied",
+    "kind": "found",
+    "text": "Sugar from cane and sugar from beet are the same molecule, sucrose. Once refined there is nothing to tell them apart, which is why the packet often does not say which one it came from."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names the grass and the herb yielding seed. Cane is a grass, in the same family as wheat and rice. What it does differently is where it puts the food. It goes into the stalk, not into a seed. That is why it is us, and not the next generation, that gets it."
+   }
+  ]
+ },
+ {
+  "id": "peanut",
+  "name": "Peanut",
+  "group": "crops",
+  "blurb": "Not a nut but a legume, and one of very few plants that plants its own fruit underground.",
+  "size": "A low bushy plant about 1 to 2 ft (30-60 cm) high, with the pods forming under the soil beneath it.",
+  "homes": [
+   "grassland",
+   "backyard"
+  ],
+  "stats": {
+   "height": 2,
+   "life": 1
+  },
+  "wonder": "The flower does its work above ground and then hands the job down a stalk into the dark, on purpose, every time.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "A peanut is not a nut. It is a legume, so peas and beans are the relatives, not walnuts or almonds. The shell is a pod, and it splits down the seam like a pea pod does."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The flower opens above ground and is pollinated there. Then a stalk at the base of the fertilised ovary, called a peg, turns downward, grows to the soil and pushes into it. The pod develops underground, in the dark, 90 to 150 days after planting.",
+    "more": "The peg keeps growing until the young pod is buried, then stops and lets the seeds swell. Pull a peanut plant up and you can see the pegs still attached, running from the stem down to each pod like short ropes."
+   },
+   {
+    "cat": "weird",
+    "kind": "worked",
+    "text": "The word for burying your own fruit is geocarpy, meaning earth fruit. Very few plants do it. Reasoned from where the pods end up, the peg is not a root doing a strange job; it is a fruit stalk with somewhere very specific to be."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "Peanut roots carry nodules packed with bacteria that pull nitrogen straight out of the air and hand it to the plant. That is why peanuts are grown in rotation with other crops. In Texas rotations, peanuts yield about 50 percent more than peanuts grown in the same ground year after year."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "George Washington Carver pushed peanuts on southern farms whose soil cotton had stripped bare, and worked out hundreds of things to make from them, from paint to plastics. He did not invent peanut butter. That was patented by Marcellus Gilmore Edson in 1884."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The world grew 54.3 million tonnes of peanuts in 2023. China grew 36 percent of them, 19.2 million tonnes, with India next at 10.3 million."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Peanut butter takes nothing but peanuts. Grinding crushes the cells, and the oil that was inside them comes out. The oil coats everything else. A dry powder turns into a paste with nothing added at all."
+   },
+   {
+    "cat": "gross",
+    "kind": "found",
+    "text": "Damp stored peanuts grow Aspergillus, a mold, which is a fungus and not a plant. It makes aflatoxin, which is genuinely poisonous. This is why peanuts get dried hard and fast after lifting, and why a moldy peanut is not worth the risk."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "Peanut allergy is one of the most serious food allergies there is. It is not fussiness and it is not the same as disliking them. A trace can be enough, which is why so many schools keep them off the premises."
+   },
+   {
+    "cat": "senses",
+    "kind": "found",
+    "text": "Peanut leaves fold shut at night, the four leaflets closing up like a book, and open again in the morning. You can watch a whole field do it."
+   },
+   {
+    "cat": "home",
+    "kind": "worked",
+    "text": "Peanuts want light sandy soil, and the reason is mechanical rather than chemical: the peg has to be able to push into the ground. In heavy baked clay it cannot get in, and no pods form however well the plant flowers."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names the seed-bearing plants. The peanut buries its own seed before it lets go of it. The flower is above ground, the pod is below, and a stalk built for the job carries one to the other."
+   }
+  ]
+ },
+ {
+  "id": "chilli",
+  "name": "Chilli pepper",
+  "group": "crops",
+  "blurb": "A fruit that defends itself with a chemical that switches on the nerve for heat, while nothing is actually hot.",
+  "size": "A bushy plant 2 to 3 ft (60-90 cm) high, carrying fruit from thumbnail size to the length of your hand.",
+  "homes": [
+   "rainforest",
+   "backyard"
+  ],
+  "stats": {
+   "height": 3,
+   "life": 3
+  },
+  "wonder": "A chemical that fools one nerve into shouting fire, and leaves birds entirely unbothered.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The burn is a chemical called capsaicin, and most of it is not in the seeds. The highest concentration is in the white pith on the inner wall, where the seeds are attached. The seeds themselves make none. They just sit against the hottest part of the fruit."
+   },
+   {
+    "cat": "senses",
+    "kind": "found",
+    "text": "Capsaicin locks onto TRPV1, the same receptor on a nerve that fires when something is genuinely hot. The nerve cannot tell the difference and reports burning. Nothing is burning. Your mouth is being lied to by a molecule."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The hottest chilli on record is Pepper X, at an average 2,693,000 Scoville Heat Units. It was bred by Ed Currie in Fort Mill, South Carolina, and tested at Winthrop University using samples from four years of crops. Guinness recognized it in October 2023.",
+    "more": "Currie also bred the previous record holder, the Carolina Reaper, which averages about 1.64 million units. Pepper X is roughly three times as hot as that. A jalapeno is around 3,000 to 8,000."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The scale belongs to Wilbur Scoville, a pharmacist, who set out his test in 1912 at Parke-Davis. He soaked pepper extract into sugar water and diluted it, again and again, until a panel of five tasters could no longer feel any heat. The number of dilutions was the score."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Pure capsaicin measures 16,000,000 Scoville units. That is the top of the scale, because it is the chemical itself with nothing else in the way."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "Birds have TRPV1 too, and capsaicin does not touch it. Birds eat chillies and feel nothing. Mammal teeth grind the seeds to bits; birds swallow them whole and pass them still able to sprout. The best read is that the burn sorts the eaters by what they do to seeds."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Milk beats water. Capsaicin does not dissolve in water, so water just moves it about. Milk carries casein and fat, which pick the capsaicin up and take it away. Bread and rice help for the same sort of reason; a glass of water does almost nothing."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "A bell pepper is a chilli with the heat switched off. It measures zero Scoville units. Same genus, same fruit, one broken step in the chemistry, and you can eat it in slices."
+   },
+   {
+    "cat": "travel",
+    "kind": "record",
+    "text": "They are not peppers. Columbus was looking for black pepper, found these instead, and called them by the same word. Black pepper is Piper, from India. Chillies are Capsicum, from the Americas, and are not related at all."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Chillies are nightshades. Tomato, potato and tobacco are the near relatives, which puts the hottest thing in the kitchen in the same family as the mildest."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "A chilli plant is not really an annual. Where frost never comes it keeps going for several years, getting woody at the base and fruiting each season. In a cold country it dies in the first hard night, so people treat it as a one-summer plant."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names the fruit with its seed in itself. The chilli's seeds sit pressed against the hottest tissue in the fruit and come through it untouched. The burn is in the wall around them, not in the seed it is guarding."
+   }
+  ]
+ },
+ {
+  "id": "grape",
+  "name": "Grapevine",
+  "group": "crops",
+  "blurb": "A woody climber that hauls itself up trees on coiled tendrils and carries its fruit in bunches of berries.",
+  "size": "Left to climb, a vine can reach 30 ft (9 m) or more. Pruned in a vineyard it is kept at about chest height.",
+  "homes": [
+   "forest",
+   "backyard"
+  ],
+  "stats": {
+   "height": 30,
+   "life": 100
+  },
+  "wonder": "A tendril reaches, finds nothing, waves, finds a branch, then coils itself into a spring, and it does all of that without eyes.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "A vine climbs with tendrils. A tendril grows out, touches something, wraps round it, and then coils the middle section into a spring. The spring holds the vine tight and still lets it move in wind without snapping."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "A grape is botanically a berry. Tomatoes and bananas are berries; strawberries and raspberries are not. A bunch of grapes is a bunch of separate berries on one stalk."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Genesis 9 says that after the flood Noah began to be a farmer, and planted a vineyard. It is the first vineyard the Bible names anyone planting, and the passage that follows is not flattering to him."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "In Numbers 13 Moses sends men to look at Canaan. At the brook of Eshcol they cut down a single cluster of grapes. Two of them carry it back slung on a staff. The cluster is the evidence. The land grows fruit like that."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Grape phylloxera, an insect from North America that eats vine roots, was first recorded in France in 1863 and destroyed more than 40 percent of the country's vines. Jules-Emile Planchon worked out what was doing it. The cure was to graft French vines onto American roots that the insect could not kill.",
+    "more": "It is called the Great French Wine Blight. Charles Valentine Riley, an American entomologist, confirmed Planchon's finding. He also helped find the American vines to graft onto. Nearly every wine vine in Europe today is still growing on American roots."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The Great Vine at Hampton Court Palace was planted in the 1760s and was recorded as the largest grape vine in the world. By 1968 its trunk measured 81 in (2.1 m) and the vine itself ran 100 ft (30 m). It still crops every year."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The world grew 72.5 million tonnes of grapes in 2023. China grew 19 percent of them, with Italy and France next."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Cut a grape almost in half, leave the halves joined by a strip of skin, and microwave it: it makes a flash of plasma. Hamza Khattak and Aaron Slepkov explained it in 2019. The halves concentrate the microwaves where they touch, hot enough to strip electrons off the air."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "worked",
+    "text": "The dusty bloom on a grape skin is wax, and wild yeasts live in it. Yeast is a fungus, not a plant. Crushed grapes left alone will start fermenting on their own, and the reasoning is straightforward: the thing that does it was already on the outside of the fruit."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Vines are grown from cuttings. A cut length of stem, stuck in soil, roots and becomes a vine. So a vineyard of one variety is one plant repeated down every row, which is why a named grape tastes the same in a thousand places."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Grapes only grow on shoots made that same year. That is why every vine is cut back hard each winter to a few buds. A vine left unpruned turns into a great tangle of old wood carrying almost no fruit."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names the fruit tree yielding fruit, whose seed is in itself, after its kind. A grapevine is exactly that. It is also the first crop the Bible records anybody deliberately planting."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The Old Vine in Maribor, Slovenia, grows up the front of a house. Guinness lists it as the oldest vine in the world still bearing fruit, at over 400 years old. It shows up in a picture of the city drawn in 1681. That is part of how the age is fixed.",
+    "more": "It still crops. The vine gives 88 to 110 lb (40 to 50 kg) of Žametovka grapes a year. Those are pressed into 4 to 9 gallons (15 to 35 liters) of pale pink wine. It goes into little bottles holding about a cup (250 ml). Cuttings are handed out as official gifts, more than 170 of them, in 24 countries. Pope John Paul II was given one."
+   }
+  ]
+ }
+]

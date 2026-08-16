@@ -1,0 +1,412 @@
+[
+ {
+  "id": "tyrannosaurus",
+  "name": "Tyrannosaurus rex",
+  "group": "dinosaurs",
+  "blurb": "The biggest meat-eating dinosaur known from North America. It was built around a five-foot skull and a bone-crushing bite.",
+  "size": "About 40 ft (12 m) nose to tail, and 12 ft (3.7 m) tall at the hips.",
+  "homes": [
+   "forest",
+   "freshwater"
+  ],
+  "stats": {
+   "length": 40,
+   "weight": 17000
+  },
+  "wonder": "Nothing about that skull is accidental — the wide-set eyes, the arched jaw and the thick teeth all solve the same problem together.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "Sue, at the Field Museum in Chicago, is the most complete T. rex found: about 250 of the roughly 380 bones a T. rex has. Susan Hendrickson spotted the first bones sticking out of a South Dakota cliff in August 1990.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "Scotty may be the biggest one. The bones came out of the ground near Eastend, Saskatchewan. They are kept at the Royal Saskatchewan Museum. Worked out from the leg and hip bones, Scotty comes to about 19,500 lb (8,870 kg) and 43 ft (13 m) long. That is a shade more than Sue. The two are close enough that figures worked out this way cannot separate them.",
+    "kind": "worked"
+   },
+   {
+    "cat": "bones",
+    "text": "A Montana rancher named Kathy Wankel found T. rex arm bones in 1988 — the first complete T. rex arm anybody had ever seen. Diggers went back and recovered most of the animal, and it now stands in the Smithsonian in Washington, D.C.",
+    "more": "Roughly 80 to 85 percent of that skeleton came out of the ground, skull included, which makes it one of the most complete T. rex specimens known. It went to the Smithsonian on a long loan and is nicknamed the Nation's T. rex.",
+    "kind": "record"
+   },
+   {
+    "cat": "build",
+    "text": "The arms were only about 3 ft (1 m) long, which looks ridiculous on a 40-ft animal. They were not floppy flaps. The muscle scars on the arm bones are broad and deep, and one study figures each arm could curl about 440 lb (200 kg) — using just one arm muscle.",
+    "kind": "worked"
+   },
+   {
+    "cat": "food",
+    "text": "T. rex teeth were not blades. They were thick pegs. The largest one ever found is 12 in (30.5 cm) long, counting the root buried in the jaw. Only about 4 in of that showed above the gum. A tooth shaped like that is built for crunching, not slicing.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "A fossil dropping from Saskatchewan, studied by Karen Chin, is 17 in (44 cm) long and weighs 15 lb (7.1 kg). Between a third and half of it is crushed bone. Whatever left it did not spit the bones out.",
+    "more": "It was the first dropping ever confirmed from a meat-eating dinosaur, and more than twice the size of any other. Living meat-eaters mostly avoid swallowing bone. This animal bit through it and ran the pieces straight through its gut.",
+    "kind": "found"
+   },
+   {
+    "cat": "senses",
+    "text": "The skull is pinched narrow at the snout and very wide at the back, so both eyes pointed forward at the same thing. That overlap is what gives you depth — the thing you lose when you cover one eye and try to catch a ball.",
+    "kind": "worked"
+   },
+   {
+    "cat": "record",
+    "text": "Karl Bates and Peter Falkingham built a three-dimensional model of the skull. They hung the jaw muscles on it and ran the numbers. The bite at the rear teeth came to nearly 12,800 lb of force. No living land animal comes anywhere close.",
+    "kind": "worked"
+   },
+   {
+    "cat": "speed",
+    "text": "Only two footprints anywhere are confidently T. rex. One of them is 33 in (83 cm) long. Geologist Charles Pillmore found it in 1983 at Philmont Scout Ranch in New Mexico. There was about 6 ft between one step and the next.",
+    "kind": "found"
+   },
+   {
+    "cat": "babies",
+    "text": "Counting growth rings inside the leg bones, Gregory Erickson's team worked out that a teenage T. rex packed on roughly 1,300 lb (600 kg) a year through its fastest stretch. That is a bit over 3 lb a day, every day, for four years.",
+    "more": "Bone lays down rings a bit like a tree. They are thick in a good year and thin in a lean one. Slice a leg bone across and you can count how old the animal was. The size of the bone then shows how fast it was piling on weight at each age.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "Day six of the creation week covered the beasts of the earth — the land animals. T. rex is one, a walker. A track confidently matched to it, 33 in (83 cm) long, was pressed into New Mexico ground, about 6 ft from the next.",
+    "more": "Beasts of the earth are the land-walkers, and nothing about this one belongs in water or air. Hips 12 ft (3.7 m) off the ground, 40 ft (12 m) of body balanced over two feet, and a five-foot skull carried out in front.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "T. rex and its close look-alikes — the other heavy-skulled, short-armed tyrannosaurs — sort into one created kind. Inside a kind, sizes shift: Scotty's leg and hip bones work out to 43 ft (13 m) and 19,500 lb (8,870 kg), a shade more than Sue. The equipment does not shift — thick peg teeth, 3-ft arms, forward-facing eyes.",
+    "more": "Counting growth rings in the leg bones works out to a young T. rex adding roughly 1,300 lb (600 kg) a year. A heavier adult is more of the same animal, not a different one. The parts list stays the same length; only the measurements move.",
+    "kind": "worked"
+   }
+  ]
+ },
+ {
+  "id": "triceratops",
+  "name": "Triceratops",
+  "group": "dinosaurs",
+  "blurb": "A three-horned plant-eater with a solid bone frill. Its skull is one of the largest of any land animal ever found.",
+  "size": "About 28 ft (8.5 m) long, and the skull alone can reach 8 ft — nearly a third of the animal is head.",
+  "homes": [
+   "forest",
+   "freshwater"
+  ],
+  "stats": {
+   "length": 28,
+   "weight": 18000
+  },
+  "wonder": "A head that heavy only works if the neck, shoulders and legs were built to carry it in advance — and they were.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "Big John, dug out of Hell Creek rock in South Dakota in 2014, has the biggest Triceratops skull known. About a quarter of it was missing, so the 8 ft 7 in (2.62 m) length is measured on a restored skull. Guinness lists Big John as the largest Triceratops skeleton documented.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "John Bell Hatcher collected thirty-one Triceratops skulls in Wyoming between 1889 and 1891. The Smithsonian's mounted Triceratops is nicknamed Hatcher after him. It is built from more than one animal. No single skeleton was complete enough on its own.",
+    "more": "Composite mounts are normal and museums say so on the label. Two of the specimens used are catalogued USNM 2100 and USNM 4842. The alternative would have been no Triceratops on display at all for a century.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "The first Triceratops fossil to get a name was a pair of brow horns found near Denver in 1887. O. C. Marsh took them for a huge bison and called it Bison alticornis. John Bell Hatcher dug up a proper horned skull in 1888, and in 1889 Marsh corrected himself.",
+    "kind": "record"
+   },
+   {
+    "cat": "defence",
+    "text": "One Triceratops skull dug up in Montana in 1997 has tooth marks in a brow horn and the frill bone behind it, matching a big tyrannosaur's teeth. Bone had grown over the wounds, so this one survived and lived on for years. The outer third of the horn is gone — bitten off, is the reading — and a snapped horn never grows back.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "The frill is solid bone with no big openings in it. Most other horned dinosaurs have two large windows in the frill. Holes that size take a lot of weight out of the bone. Torosaurus is the obvious example. Triceratops carried the extra bone instead.",
+    "kind": "found"
+   },
+   {
+    "cat": "food",
+    "text": "Its teeth sat in stacked columns — 36 to 40 columns on each side of each jaw, 3 to 5 teeth deep. That works out to somewhere between 432 and 800 teeth in one head, with only the top tooth in each column doing any work.",
+    "more": "As the working tooth wore down, the one underneath moved up into its place. The animal never ran out. The wear on the teeth shows the jaws sheared straight up and down. They did not grind sideways. Tough plants got sliced like paper in scissors.",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "The front of the mouth is a toothless beak, built on a bone called the rostral that only horned dinosaurs have. A beak like that can nip but not chew, so the beak clipped the plant off and the tooth columns further back did the cutting up.",
+    "kind": "found"
+   },
+   {
+    "cat": "teamwork",
+    "text": "Most horned dinosaurs turn up in bone beds, dozens or hundreds together. Triceratops almost always turns up alone. One Triceratops bone bed is documented, in southeastern Montana, holding three young ones. A group of three was found near Newcastle, Wyoming in 2012.",
+    "kind": "found"
+   },
+   {
+    "cat": "home",
+    "text": "Triceratops bones come out of the Hell Creek Formation and rocks like it, across Montana, the Dakotas and Wyoming. Read from the way those rocks were laid down, that country was river floodplains and low inland forest — the same rock, and the same country, that produces T. rex.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "Torosaurus has a two-windowed frill. Some researchers argue it is really just a fully grown Triceratops whose frill kept changing as it aged. Other researchers disagree. The argument is genuinely unsettled, and both camps are looking at the same bones.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "The Roman writer Pliny described the catoblepas, a heavy beast that walked with its head down because it could not lift it. Medieval bestiaries copied him and drew it horned and thick-necked. Triceratops carried an 8 ft 7 in skull with three horns on the front.",
+    "more": "O. C. Marsh did the same thing with the first pair of brow horns from near Denver — he filed them under bison. Faced with a horned skull, people reach for the horned animal they already know and describe the rest as extra.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "Triceratops ran on bulk — 18,000 lb of animal, worked out from the thickness of its limb bones — fed by a beak and hundreds of stacked teeth. The world after the Flood was colder and drier, and the reading is that its river forest thinned with it. An animal with a 6 ft 6 in head is not hard to track.",
+    "kind": "worked"
+   }
+  ]
+ },
+ {
+  "id": "stegosaurus",
+  "name": "Stegosaurus",
+  "group": "dinosaurs",
+  "blurb": "A plated plant-eater with a spiked tail and a dog-sized brain. Nobody could mistake that back for anything else.",
+  "size": "About 21 ft (6.5 m) nose to tail, and roughly 7,700 lb (3.5 tonnes).",
+  "homes": [
+   "forest",
+   "freshwater"
+  ],
+  "stats": {
+   "length": 21,
+   "weight": 7700
+  },
+  "wonder": "Two rows of plates that deliberately do not line up, on an animal that was never asked to justify them.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "Sophie, at the Natural History Museum in London, is the most complete Stegosaurus known: 360 bones, about 85% of the skeleton. Bob Simon found it at Red Canyon Ranch in Wyoming in 2003. It is 19 ft (5.8 m) long and 9 ft 6 in tall.",
+    "more": "Most fossil skeletons get squashed flat in the rock. Sophie's bones kept their real three-dimensional shape, so researchers could scan every one and build an accurate model. That model gave a weight of about 3,500 lb (1.6 tonnes) — worked out from body volume, not from a scale.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "Apex, dug up in Colorado in 2022, has about 80% of its 320 bones and is 27 ft (8.2 m) nose to tail. It sold at auction for $44.6 million, and it is now on loan to the American Museum of Natural History in New York.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "Stegosaurus did not have a second brain in its hips. There is a wide space in the spine there, big enough for something about twenty times the size of the brain — but living birds have one too. In birds it holds a glycogen body, whose job nobody has pinned down. Not a spare brain.",
+    "kind": "worked"
+   },
+   {
+    "cat": "defence",
+    "text": "The four tail spikes run 2 to 3 ft (60–90 cm) long and stuck out sideways, not straight up. Around one in ten spike tips that get found are broken and then re-healed, which is what you expect from equipment that actually got used.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "A tail bone from an Allosaurus, catalogued UMNH 10781, has a puncture hole in it. The hole matches a Stegosaurus tail spike in size and shape. The edges of the hole had begun to heal. So the Allosaurus survived being stabbed.",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "For years the plates were explained as radiators for shedding heat. Nobody dug up a job description. The display idea comes from the plates themselves. They are big, thin and set side-on. That makes the animal look taller and broader to a rival or an enemy. That now looks like the main job. Cooling may have been a side benefit.",
+    "more": "For years the plates were explained as radiators for shedding heat. Most researchers now think the main job was display — making the animal look taller and broader from the side, to rivals and to enemies. Cooling may have been a side benefit.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "Marsh named it in 1877 believing the plates lay flat across the back and overlapped like roof shingles. That is exactly what the name means: roofed lizard. The plates were later stood upright, and the name stayed put.",
+    "kind": "record"
+   },
+   {
+    "cat": "weird",
+    "text": "The cluster of tail spikes has a real name that scientists actually use: the thagomizer. It started as a joke in a Far Side cartoon in 1982. Ken Carpenter picked it up at a paleontology conference in 1993, and nobody has produced a better word since.",
+    "kind": "record"
+   },
+   {
+    "cat": "speed",
+    "text": "The front legs are much shorter than the back legs, which tips the whole animal nose-down toward the ground. Worked out from the leg bones, its fastest walk came to somewhere around 10 mph (16 km/h). A brisk jog, not a sprint.",
+    "kind": "worked"
+   },
+   {
+    "cat": "food",
+    "text": "The teeth are small and leaf-shaped, set well back in the jaws behind a horny beak. Its bite was long thought feeble. A 3D study of Sophie's own skull put it in the range of a sheep or a cow. That is strong enough for tough, woody plants like cycads, not just soft ferns.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "The first man was set to naming the animals, and people never stopped. Marsh called this one roofed lizard in 1877, for plates he thought lay flat like shingles. They stood upright instead. The name stayed. Diggers went on naming the skeletons too: Sophie, Apex.",
+    "more": "The tail spikes had no name at all until a cartoonist supplied thagomizer in 1982. Ken Carpenter put it in print in 1993 and it held. A name sticks when people find it useful, whether or not it is accurate. Roofed lizard has no roof.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "Made on day six, with the land animals. Its front legs are much shorter than the back, so the head rides low. Down there are ferns and horsetails. That is the food a low head and a horny beak point to. The green plants had been standing since day three. The food was ready before the mouth was.",
+    "more": "Day six covers the cattle, the creeping things and the beasts of the earth. Stegosaurus fits. Four feet on the ground and a beak at the front. Small leaf-shaped teeth set well back. The shape of the skull works out to a jaw too weak for anything but soft low growth.",
+    "kind": "record"
+   }
+  ]
+ },
+ {
+  "id": "brachiosaurus",
+  "name": "Brachiosaurus",
+  "group": "dinosaurs",
+  "blurb": "A long-necked plant-eater built like a giraffe, with front legs longer than its back legs.",
+  "size": "Around 70 ft (21 m) long and tall enough to look in a third-floor window.",
+  "homes": [
+   "forest"
+  ],
+  "stats": {
+   "length": 70,
+   "weight": 70000
+  },
+  "wonder": "Front legs longer than back legs is backwards for a dinosaur — unless reaching high was the point from the start.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "Harold Menke found the skeleton that started it all near Fruita, Colorado, on 4 July 1900. It is specimen FMNH P 25107 at the Field Museum in Chicago. There is one arm bone, a thigh bone, a hip, a shoulder, part of the backbone and some ribs.",
+    "more": "Elmer Riggs named it Brachiosaurus altithorax in 1903. Brachiosaurus means 'arm lizard', because the upper arm bone was longer than the thigh bone — backwards from every other long-neck known at the time. The Colorado hill it came out of is now called Riggs Hill.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "That upper arm bone measures 6 ft 8 in (204 cm) today, and part of its lower end eroded away — whole, it was probably nearer 7 ft 1 in (216 cm). Either way, that is one bone, not the whole front leg. On you, the matching bone runs from shoulder to elbow.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "No complete Brachiosaurus skull has ever been found. The best there is, a partial skull from Colorado, works out to roughly 2 ft 4 in (70 cm) long. So the head on any Brachiosaurus model is partly a careful reconstruction.",
+    "kind": "worked"
+   },
+   {
+    "cat": "weird",
+    "text": "Brachiosaurus did not stand on a lake bottom breathing through the nostrils on top of its head. In 1951 K. A. Kermack pointed out that with the lungs 20 ft under, water pressure would squeeze the chest shut. It could not have drawn a single breath.",
+    "more": "The old swamp pictures came from a second wrong idea. An animal this heavy supposedly could not carry itself on land and needed water to hold it up. The limb bones say otherwise. They are pillar-straight, stacked vertically, and built for walking.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "The shoulders sat much higher than the hips, so the back sloped downhill from front to rear like a giraffe's. Nearly every other big long-neck did the opposite, with the hips high and the shoulders low.",
+    "kind": "found"
+   },
+   {
+    "cat": "record",
+    "text": "For most of a century that skeleton was labeled Brachiosaurus brancai. Gregory Paul had already floated the name Giraffatitan in 1988. Then in 2009 Michael Taylor listed twenty-six differences between its bones and the Colorado animal's. That settled it. The Berlin giant now keeps a name of its own.",
+    "kind": "record"
+   },
+   {
+    "cat": "size",
+    "text": "Nobody ever weighed one. Published estimates run from about 62,000 lb to over 100,000 lb (28–47 tonnes), worked out from the thickness of the limb bones and from three-dimensional models of the body. The range is that wide because every figure starts from bones.",
+    "kind": "worked"
+   },
+   {
+    "cat": "food",
+    "text": "The teeth are broad spoon-shaped croppers. They run well back along both jaws, not just at the front. Teeth built like that point to snipping and slicing leaves off with no chewing at all. Food went down close to whole. An enormous gut did the rest of the work.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "The neck bones are hollowed out with air spaces, the same trick a bird's skeleton uses. Solid bone at that size works out too heavy for the animal to raise. The air spaces look like the only way a neck that long gets lifted at all.",
+    "kind": "worked"
+   },
+   {
+    "cat": "home",
+    "text": "The bones come out of the Morrison Formation, which stretches under Colorado, Utah and Wyoming. Those same rocks hold fossil conifers and ferns. Working back from the rock layers and the plants in them, the place comes out as river channels and wide floodplains with a hard dry season every year.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "Job 40 describes behemoth: a plant-eater with a tail like a cedar and bones like tubes of bronze. Brachiosaurus's neck bones really are tubes, hollowed out with air spaces, and its chisel teeth point to stripping leaves off whole. Nothing living answers that description. A 70 ft long-neck does.",
+    "more": "Leviathan, in the chapter after, is the sea creature; behemoth is the land one. Brachiosaurus fits the land side. Its limb bones are pillar-straight and stacked vertically, built for walking, not for standing on a lake bottom the way the old museum paintings showed it.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "The brass on Bishop Richard Bell's tomb has a border of animals. The tomb is in Carlisle Cathedral, England. Among them are four-legged creatures with long necks, long tails and very small heads. Brachiosaurus carried a skull of roughly 2 ft 4 in on a 70 ft body.",
+    "more": "Babylon's Ishtar Gate does much the same in glazed brick. There are rows of lions and aurochs. Walking between them is the sirrush: four legs, a long neck, a long tail. It is set among animals anyone in the city could go out and look at.",
+    "kind": "record"
+   }
+  ]
+ },
+ {
+  "id": "apatosaurus",
+  "name": "Apatosaurus",
+  "group": "dinosaurs",
+  "blurb": "A heavy long-necked plant-eater from the Morrison rocks. Most people still call it Brontosaurus.",
+  "size": "About 72 ft (22 m) long, most of it neck and tail, and as heavy as three or four elephants.",
+  "homes": [
+   "freshwater",
+   "forest"
+  ],
+  "stats": {
+   "length": 72,
+   "weight": 40000
+  },
+  "wonder": "Fifteen neck bones, each hollowed out to the last safe ounce, holding up something no engineer would have dared to draw.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "Earl Douglass found the best Apatosaurus skeleton in Utah in 1909. It is catalogued CM 3018. It is mounted at the Carnegie Museum of Natural History in Pittsburgh. The species name louisae honors Louise Carnegie.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "The quarry Douglass opened is now Dinosaur National Monument. About 1,500 bones were deliberately left in the rock face. A building went up over the top. You can walk right up to a wall of dinosaur bones, still half-buried where they lay.",
+    "more": "Douglass worked that quarry for fifteen years. He pulled out close to twenty good skeletons. Diplodocus, Stegosaurus, Camarasaurus, Barosaurus and more. Leaving the last wall in place was the better idea. It is in Utah, near Jensen, and it is open to visitors.",
+    "kind": "record"
+   },
+   {
+    "cat": "weird",
+    "text": "Marsh named Apatosaurus in 1877 and Brontosaurus in 1879. In 1903 Elmer Riggs decided they were the same animal, and by the rules the older name wins — so Brontosaurus was struck off. In 2015 three researchers argued the differences are real after all. Still argued about.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "For decades museums put the wrong head on it. No skull was mounted with the body, so a boxy Camarasaurus-style skull got used instead. The Carnegie Museum finally fitted the correct long, low skull on 20 October 1979.",
+    "more": "The right skull had been lying a short distance from CM 3018 since 1909, and museum director W. J. Holland said at the time that it belonged. Henry Fairfield Osborn disagreed, Osborn's view won, and it took McIntosh and Berman in the 1970s to prove Holland had been right all along.",
+    "kind": "record"
+   },
+   {
+    "cat": "build",
+    "text": "It has fifteen neck bones, and none of them are solid. Air spaces run right through them, the same way a bird's bones are built. Hollow is how you hold a neck like that up without breaking your own spine.",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "The neck bones carry long rib-like struts underneath and a deep split trough along the top, which probably held a thick cable of muscle and tendon. So the neck was wide and deep in life, not slim like a swan's.",
+    "kind": "worked"
+   },
+   {
+    "cat": "defence",
+    "text": "The tail tapers into a string of tiny bones, like the lash of a bullwhip. In 1997 Nathan Myhrvold and Philip Currie modelled a crack over 200 decibels — cannon-loud. A 2022 team redid the sums: the tip tops out near 70 mph (110 km/h), and the skin would tear long before it broke the sound barrier.",
+    "kind": "worked"
+   },
+   {
+    "cat": "food",
+    "text": "The teeth are pegs, and only at the front of the mouth. That shape points to raking leaves off a branch. In Diplodocus, a long-neck from the same rocks, a worn tooth got replaced roughly every 35 days.",
+    "more": "Michael D'Emic's team sliced fossil teeth open. They counted the daily growth lines inside the dentine, the way you count tree rings. Camarasaurus lived in the same landscape and took about 62 days per tooth. Different food, different wear, different replacement speed.",
+    "kind": "worked"
+   },
+   {
+    "cat": "size",
+    "text": "Nobody owns a tape measure that long. The 69–75 ft (21–23 m) figure comes from laying out the bones of the best skeletons end to end. The weight, somewhere near 36,000–49,000 lb, is worked out from the thickness of the limb bones.",
+    "kind": "worked"
+   },
+   {
+    "cat": "weird",
+    "text": "Apatosaurus means 'deceptive lizard'. Marsh chose it because the bones under the tail looked to him like a sea-lizard's and fooled him. The animal is named after somebody's mistake.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "Genesis has God bringing the kinds to Noah. So nobody had to go out and fetch 72 ft of animal weighing as much as three or four elephants. The pair He sent could be young ones. Fifteen neck bones already, only short ones.",
+    "more": "Length is the obvious problem and the wrong one. Food is what a year on a boat is actually about. A young long-neck rakes leaves with its front peg teeth. It needs a fraction of what a full-grown one strips off a tree.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "In Genesis the first man named the animals in front of him. Marsh had only bones, and the ones under the tail fooled him, so he named this Apatosaurus — 'deceptive lizard'. The naming never stopped: its species name, louisae, honours Louise Carnegie.",
+    "more": "Louise Carnegie never dug anything up. Her husband paid for the expeditions, so the mounted skeleton in Pittsburgh, CM 3018, carries her name. Apatosaurus louisae: one half of the name is a mistake, the other half is a thank-you.",
+    "kind": "record"
+   }
+  ]
+ }
+]

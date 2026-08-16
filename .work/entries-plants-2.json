@@ -1,0 +1,1410 @@
+[
+ {
+  "id": "sunflower",
+  "name": "Sunflower",
+  "group": "flowers",
+  "blurb": "What looks like one big flower is a packed disc of hundreds of tiny separate flowers sharing a single stalk.",
+  "size": "A garden sunflower stands about 10 ft (3 m) with a head the width of a dinner plate. The record holder reached 35 ft 9 in (10.9 m).",
+  "homes": [
+   "grassland",
+   "backyard"
+  ],
+  "stats": {
+   "height": 10,
+   "life": 1
+  },
+  "wonder": "Plants were made on day three and the sun on day four, which means the sun-follower was standing there first.",
+  "facts": [
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Alex Babich grew a sunflower in Fort Wayne, Indiana that measured 35 ft 9 in (10.9 m), verified on 3 September 2025. He nicknamed it Clover. It beat Hans-Peter Schiffer's 30 ft 1 in (9.17 m) grown in Kaarst, Germany, a record that had stood since 2014.",
+    "more": "Growing one that tall is its own contest. Schiffer broke the record four times in five years before Babich took it off him. The plants have to be staked, fed hard and sheltered from wind. The head at the top ends up far too heavy for the stem to carry on its own."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Pull one apart. The yellow outer blades are ray florets, and the whole brown center is packed with disc florets. Each disc floret is a complete little flower with its own petals, and each one makes exactly one seed.",
+    "more": "So a sunflower head is a crowd, not an individual. That is why the family it belongs to is called the composite family. Daisies, dandelions and thistles are built the same way, just smaller."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The florets sit in two sets of spirals running opposite ways, and you can count them. It usually comes out 34 one way and 55 the other. On a very large head it runs 89 and 144. Those are Fibonacci numbers, where each is the sum of the two before it."
+   },
+   {
+    "cat": "senses",
+    "kind": "found",
+    "text": "Young sunflowers swing east to west across the day. Overnight they swing back, so they face east again before dawn. Hagop Atamian and Stacey Harmer's team filmed it and found the cause. The stem grows longer on its east side by day and its west side by night.",
+    "more": "They filmed it with time-lapse cameras, then went further. Plants moved into a room with one fixed light carried on swinging by themselves for several days, on a roughly 24-hour rhythm. There is a clock running in the stem, not just a reaction to whatever light happens to be falling on it."
+   },
+   {
+    "cat": "senses",
+    "kind": "worked",
+    "text": "Grown-up heads stop swinging and settle facing east. That is not the plant getting tired. The same team measured east-facing heads as warmer in the morning, and warm heads pulled in more bee visits. The stopping point is the argument, not the movement.",
+    "more": "They tested it by turning pots around so mature heads faced west. Those heads stayed colder in the morning and got fewer visitors. Pointing a heater at the west-facing flowers brought the visitors back, which is how the warmth was pinned down as the thing that mattered."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Sunflower seed is one of the world's big oil crops. About 51.9 million tonnes of seed were harvested worldwide in 2024, with Russia and Ukraine together growing roughly 58 percent of it."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "One seed per floret means a big head carries a thousand seeds or more. Count the empty sockets on a head the birds have stripped and you are counting flowers."
+   },
+   {
+    "cat": "home",
+    "kind": "record",
+    "text": "The wild plant is North American. It is native to the central and western United States, southern Canada and northern Mexico. Every sunflower field in Europe grows from plants carried out of North America."
+   },
+   {
+    "cat": "weird",
+    "kind": "record",
+    "text": "Vincent van Gogh painted his sunflower canvases in Arles in the south of France in August 1888, then painted repetitions the following year. They are among the most copied paintings in the world."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "Why spirals at all? Measure the angle between one floret and the next and it comes to about 137.5 degrees, the golden angle. The best read is that this angle is the one that packs the most seeds into a flat disc without leaving gaps."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names seed-bearing plants, each yielding seed after its kind. A sunflower head takes that instruction seriously. Hundreds of flowers stand on one stalk. Every one of them makes a seed, all in one summer."
+   }
+  ]
+ },
+ {
+  "id": "corpse-flower",
+  "name": "Corpse flower",
+  "group": "flowers",
+  "blurb": "A Sumatran plant that banks food underground for years, then spends the lot on one enormous bloom that smells of rotting meat.",
+  "size": "The bloom stands about 10 ft (3 m) — the height of a basketball hoop — over an underground store that can top 200 lb (90 kg).",
+  "homes": [
+   "rainforest"
+  ],
+  "stats": {
+   "height": 10,
+   "weight": 200
+  },
+  "wonder": "Everything about it is oversized except the flowers themselves, which are small, ordinary and hidden right at the bottom.",
+  "facts": [
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The tallest one ever measured reached 10 ft 7 in (3.225 m). It stood at Meise Botanic Garden in Belgium on 13 August 2024."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The underground store, called a corm, is the largest of any flowering plant. Over 200 lb (90 kg) is normal. One grown at the Royal Botanic Garden Edinburgh reached 339 lb (153.9 kg) after seven years.",
+    "more": "The corm is not a root. It is a swollen underground stem doing the job of a battery. Everything the plant collects through its one enormous leaf gets packed into it, and a single bloom empties it again."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "It is not one flower. Hundreds of small ones are ringed around the base of the central spike, hidden behind the frilled collar. The famous part is packaging."
+   },
+   {
+    "cat": "gross",
+    "kind": "found",
+    "text": "The smell has been taken apart chemical by chemical. Dimethyl trisulfide brings old cheese and trimethylamine brings rotting fish. Isovaleric acid brings sweaty socks. Phenol and indole are in there too. People have picked it up half a mile (800 m) away.",
+    "more": "Those are the same compounds a dead animal gives off as it breaks down. Nothing about the smell is a rough imitation. It is the real chemistry, made by a plant."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "The spike heats itself. At its peak the tip reaches about 99°F (37°C), which is human body temperature. Put a hand near it and you can feel the warmth coming off."
+   },
+   {
+    "cat": "weird",
+    "kind": "worked",
+    "text": "Why heat up? The best read is that warm air rises and carries the smell with it, the way steam lifts off a hot mug. A cold spike would leave the scent pooled at ground level where far fewer insects would cross it."
+   },
+   {
+    "cat": "food",
+    "kind": "worked",
+    "text": "The visitors are carrion beetles and flies, the insects that lay eggs in dead animals. Working backwards from the chemicals, that is exactly the crowd those compounds would reach."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "A plant grown from seed takes about ten years to bloom the first time. After that it flowers every three to seven years, and only once the corm has banked enough. The bloom itself lasts 24 to 36 hours.",
+    "more": "Botanic gardens weigh the corm between blooms for exactly this reason. If it has not put on enough since last time, the plant sends up another leaf instead of a flower and spends another year or two saving up."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "Between blooms it grows a single leaf, up to 15 ft (4.7 m) tall on a stalk as thick as a person's thigh. One leaf, standing alone in the forest looking like a small tree."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The Italian botanist Odoardo Beccari found it in Sumatra on 6 August 1878. It first flowered outside Sumatra at Kew, in London, in 1889."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It grows wild only in western Sumatra, Indonesia, and is listed as endangered. Fewer than 1,000 are thought to be left in the wild, mostly because forest has been cleared for oil palm."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Plants came on day three, before any animal. This one spends a decade filling a store underground before it flowers even once. That is a lot of patience to build into something that has no reason to hurry."
+   }
+  ]
+ },
+ {
+  "id": "rafflesia",
+  "name": "Rafflesia",
+  "group": "flowers",
+  "blurb": "The largest single flower there is, growing straight out of a jungle vine with no leaves, no stem and no roots of its own.",
+  "size": "About 3 ft 3 in (1 m) across — a car tire laid flat — and up to 24 lb (11 kg).",
+  "homes": [
+   "rainforest"
+  ],
+  "stats": {
+   "weight": 24
+  },
+  "wonder": "A plant stripped down to almost nothing but a flower, and the flower is the biggest there is.",
+  "facts": [
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "A bloom measured in a forest in West Sumatra in January 2020 came to 3 ft 7.7 in (111 cm) across, the widest reliably recorded. A specimen logged at 3 ft 9 in (1.14 m) is the largest claim on the books."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "No leaves. No stem. No roots. No chlorophyll, so nothing green anywhere on it. Everything you can see of the plant is the flower; the rest lives as threads inside the tissue of a jungle vine."
+   },
+   {
+    "cat": "food",
+    "kind": "worked",
+    "text": "It cannot make its own food, and the reasoning is not subtle. Green is the color of the machinery that turns sunlight into sugar. This plant has none. Everything it uses is taken from a Tetrastigma vine.",
+    "more": "Cut open an infected vine and you find pale strands of Rafflesia running through it. That is closer to a fungus threading through wood than to anything you would call a plant. It only becomes visible when a bud pushes out through the vine's bark."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The five fleshy lobes are up to 0.75 in (1.9 cm) thick. That is about the thickness of a slice of bread. They are brick red, with raised white warts across them."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Buds swell for many months before opening, reaching cabbage size at about 12 in (30 cm) across. The largest bud on record was 17 in (43 cm) wide, found at Mount Sago in Sumatra in May 1956.",
+    "more": "Most buds never open at all. They rot, dry out, or get eaten by squirrels and wild pigs. Counting buds at a known site and seeing how few of them make it to flowering is the main way anyone tracks whether a population is holding on."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "After all those months of swelling, the open flower lasts only a few days. Then it collapses into a black slimy heap."
+   },
+   {
+    "cat": "babies",
+    "kind": "worked",
+    "text": "Each flower is either male or female, never both. So seed is only set when a male and a female happen to open close together at the same time. That is the strongest reason anyone has for why the plant is so rare.",
+    "more": "Stack up the odds. The flower lasts days and the bud takes months. The plant lives only inside one kind of vine. Where forest has been broken into separate patches, a male and a female may never open close enough together at all."
+   },
+   {
+    "cat": "gross",
+    "kind": "found",
+    "text": "It smells of rotting meat, which is where the nickname corpse flower comes from. The visitors are flies, and they crawl over the central disc."
+   },
+   {
+    "cat": "disguise",
+    "kind": "worked",
+    "text": "Brick red, blotched with pale spots, and reeking. The best read is that the whole flower is doing a rotten-carcass impression. That is the only thing the color, the smell and the flies have in common."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The British surgeon Joseph Arnold collected one in 1818 at Bencoolen in Sumatra. He was on an expedition led by Stamford Raffles. The plant ended up carrying both their names."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It grows only in the forests of Sumatra and Borneo and is in trouble from logging. At sites visited often by tourists, the number of buds produced has been dropping year on year."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names seed-bearing plants. This is one, in the strangest possible packaging: no leaf, no root, no green, just a flower and a seed at the end of it. The job is unchanged even when everything else has been stripped away."
+   }
+  ]
+ },
+ {
+  "id": "orchid-bee",
+  "name": "Bee orchid",
+  "group": "flowers",
+  "blurb": "A small European orchid whose lower lip is furry, brown and shaped so much like a bee that people look twice.",
+  "size": "6 to 20 in (15–50 cm) tall, with each flower about the size of a thumbnail.",
+  "homes": [
+   "grassland"
+  ],
+  "stats": {
+   "height": 1.5
+  },
+  "wonder": "Every bee orchid grows the same furry lip, the same two thin antenna petals and the same three green sepals behind them.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The big lower lip is velvety chestnut brown, with a yellow-edged pattern across it. That lip is called the labellum. Two narrow inner petals stand up above it like antennae. Hold a bumblebee alongside and the resemblance is not something you have to talk yourself into."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Behind the bee-shaped lip sit three broad pink sepals, spread out like a propeller. The whole arrangement is one flower, and a spike carries several of them up the stem."
+   },
+   {
+    "cat": "disguise",
+    "kind": "worked",
+    "text": "Around the Mediterranean, male Eucera longicornis bees land on the lip and try to mate with it. They leave with pollen sacs stuck to their heads. People have watched them do it. The best read is that the resemblance works on the bee, whatever else it does.",
+    "more": "That reading rests on watching the bees, not on the shape alone. The flower also gives off a scent close to the smell of a female bee. Once a male lands, the lip is plainly not a bee. The scent is why the males keep coming back anyway."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "In Britain that bee is scarce, and the orchid mostly pollinates itself instead. Its pollen sacs hang on long flexible stalks that gradually bend down until they touch the flower's own sticky stigma. A puff of wind finishes the job.",
+    "more": "Pollinating itself is a safety net rather than a first choice. It guarantees seed, but every seedling is a copy of the one parent. In southern Europe, where the bee is around, the same species crosses with its neighbors and the seed comes out more mixed."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Charles Darwin measured and described that swinging motion. He put it in his 1862 book on how orchids get fertilized by insects. He noted that the stalks holding the pollen sacs were unusually long and bendy in this species."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It grows from Ireland and Portugal east to Iran and the Caucasus. It is common right round the Mediterranean. In Britain it flowers in June and July. Further south it is out by mid-April."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Orchid seed is dust. A single seed pod can hold over a million of them, each one too small to see clearly without a lens."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "worked",
+    "text": "Those seeds carry almost no packed lunch. They only get going once a fungus moves into them and feeds the seedling. The reasoning is a straight test: sow orchid seed in clean compost and nothing happens, sow it with the fungus and it grows."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Orchids are one of the two largest plant families on earth. There are about 28,000 species. That is somewhere between 6 and 11 percent of every seed plant there is.",
+    "more": "Part of the reason for that number is where orchids will grow. They turn up on every continent except Antarctica. They are thickest in the tropics. A great many of them live perched on tree branches instead of in soil."
+   },
+   {
+    "cat": "food",
+    "kind": "record",
+    "text": "Vanilla is an orchid. The pods of Vanilla planifolia are the only orchid product grown as a major food flavoring anywhere in the world."
+   },
+   {
+    "cat": "weird",
+    "kind": "record",
+    "text": "The names are blunt. Ophrys is Greek for eyebrow, which is what the furry lip looks like. Apifera is Latin for bee-bearing."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three has plants yielding seed after their kind. Bee orchid lips vary a little in pattern from plant to plant. The parts list never changes. One furry lip, two antenna petals, three pink sepals, every time."
+   }
+  ]
+ },
+ {
+  "id": "lotus",
+  "name": "Sacred lotus",
+  "group": "flowers",
+  "blurb": "A water plant whose leaves shed dirt completely. Paint and fabric makers copied the surface.",
+  "size": "Leaves 2 ft 7 in to 3 ft 3 in (80–100 cm) across, held on stalks up to 6 ft 7 in (2 m) long.",
+  "homes": [
+   "freshwater"
+  ],
+  "stats": {
+   "height": 6
+  },
+  "wonder": "A flower that runs its own heater for two days is a strange thing to find growing out of a pond.",
+  "facts": [
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "Leaf blades reach 2 ft 7 in to 3 ft 3 in (80–100 cm) across on stalks up to 6 ft 7 in (2 m). The flowers open up to 14 in (35 cm) wide."
+   },
+   {
+    "cat": "copied",
+    "kind": "found",
+    "text": "Water will not wet a lotus leaf. It balls up and rolls straight off, picking up dust on the way. Wilhelm Barthlott named this the lotus effect. Under a microscope the surface is covered in bumps 10 to 20 micrometres tall, coated in wax.",
+    "more": "A water drop sitting on that surface touches only about 0.6 percent of it. The rest of the drop is resting on air trapped between the bumps, which is why nothing sticks and why the leaf is always clean."
+   },
+   {
+    "cat": "copied",
+    "kind": "record",
+    "text": "Manufacturers copied it directly. Self-cleaning wall paint and stain-shedding fabrics such as NanoSphere and HeiQ Eco Dry all come from studying that leaf surface. In tests in October 2005, treated cloth shrugged off tomato sauce, coffee and red wine."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "The flower runs a heater. It holds itself between 86 and 95°F (30–35°C) inside for about two days, even when the surrounding air falls to 50°F (10°C)."
+   },
+   {
+    "cat": "weird",
+    "kind": "worked",
+    "text": "Why bother? The best read is that warm air carries scent further. Beetles that crawl in overnight stay warm enough to keep moving about. A beetle on the move shuffles pollen around instead of going sluggish in the cold."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Seeds recovered from a dry lakebed at Xipaozi village in Liaoning, north-east China, still sprouted after being buried in the mud. Of the seeds tested, 84 percent grew.",
+    "more": "The seed coat is the reason. It is hard, close to airtight, and packed with proteins that stay stable when they ought to have broken down. Researchers had to file the coats open before sowing, because water cannot get in on its own."
+   },
+   {
+    "cat": "babies",
+    "kind": "worked",
+    "text": "How long had they been down there? Carbon measured in the seed coats works out to roughly 1,300 years for the oldest ones. Nobody watched them lie there. The carbon is the whole argument, and it is worth knowing that."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The seed pod looks like a showerhead: a flat green disc with 10 to 30 seeds sitting loose in holes across its face. Each seed is about 1 in (2.5 cm) across."
+   },
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "The underground stem creeps as much as 66 ft (20 m) in a single growing season, which is why one lotus plant can fill a pond.",
+    "more": "That speed is why lotus is treated as a pest in some warm countries. One plant dropped into a pond can cover the surface within a couple of seasons. Clearing it means getting every last piece of buried stem out of the mud."
+   },
+   {
+    "cat": "food",
+    "kind": "record",
+    "text": "Every part gets eaten somewhere. The underground stem is fried or pickled or dropped in soup. The seeds are ground into mooncake paste. The leaves wrap steamed rice. The flowers are brewed as tea."
+   },
+   {
+    "cat": "home",
+    "kind": "record",
+    "text": "It grows from central and northern India up to 4,600 ft (1,400 m), through northern Indochina and East Asia. It is the national flower of India and turns up constantly in Hindu and Buddhist art."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Plants came on day three, before the sun of day four. This one does not simply take heat from the air; it makes and holds its own, in every flower, in every pond it grows in."
+   }
+  ]
+ },
+ {
+  "id": "rose",
+  "name": "Rose",
+  "group": "flowers",
+  "blurb": "A prickly shrub with 140-odd wild species behind it and around 30,000 garden versions bred out of them.",
+  "size": "A garden rose stands about 5 ft (1.5 m). The climbing dog rose at Hildesheim Cathedral covers a wall 69 ft (21 m) across.",
+  "homes": [
+   "forest",
+   "backyard"
+  ],
+  "stats": {
+   "height": 5,
+   "life": 35
+  },
+  "wonder": "Five petals and a ring of stamens is the whole wild plan, and every fancy garden rose is a rearrangement of it.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Those spikes are prickles, not thorns. A true thorn is a modified stem, wired into the plant's plumbing. A prickle is just an outgrowth of the skin, and you can snap one cleanly off a rose stem with a thumbnail without hurting the plant."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "There are 140 to 180 wild rose species, most of them native to Asia with smaller numbers in Europe, North America and north-west Africa. From those, growers have bred and named 30,000 to 35,000 garden hybrids."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The rose climbing the wall of Hildesheim Cathedral in Germany is the oldest living rose known, a wild dog rose documented for at least 700 years. Allied bombing in 1945 burned it to a charred stump.",
+    "more": "The roots under the rubble came through it. That spring the stump pushed out 25 new shoots, and it was flowering again while the cathedral above it was still being rebuilt. It still flowers every year."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Rose hips, the fruit left after the petals drop, are among the richest sources of vitamin C in any plant. Depending on the species, 3.5 oz (100 g) of fresh hips holds several hundred to over 1,000 mg. The same weight of orange holds about 53 mg."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "Rose oil is absurdly concentrated. The oil pressed out weighs somewhere between a three-thousandth and a six-thousandth of the flowers that went in. Roughly two thousand flowers make one gram of oil.",
+    "more": "Bulgaria and Turkey grow most of the world's rose oil. The flowers have to be picked before the sun is properly up. The oil starts leaving the petals as the day warms. The whole morning's crop goes straight to the still."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "On climbing roses the prickles hook backwards, pointing down the stem. That is the wrong way round for stabbing something climbing up and the right way round for gripping whatever the rose is scrambling over. The direction is the argument."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "A wild rose has five petals. Cut open a fat garden rose and in among the extra petals you find odd half-and-half pieces, part petal and part pollen-bearing stamen. The extra petals were stamens.",
+    "more": "Growers have been picking out doubled roses for centuries without knowing what they were doing. A young flower part can turn into a petal or a stamen. The switch that decides which one was worked out much later. It was found using genes first identified in snapdragons."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The hip is a container, not a fruit stone. Split one and it is packed with hard seeds surrounded by fine irritating hairs. Birds eat the flesh and pass the seeds elsewhere."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Rose scent is not one smell. Different species smell of tea, of cloves, of apples or of nothing at all. A lot of the showiest modern roses were bred for looks. They lost the scent on the way."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Wild roses are hedgerow and woodland-edge plants across the northern half of the world. The dog rose scrambling through a British hedge is the same kind of plant as the one on the cathedral wall."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three sets out seed-bearing plants after their kind. Thirty-five thousand garden roses sounds like a lot of different things. Then you notice they are all shufflings of one plan. Five petals, a ring of stamens, a hip full of seed."
+   }
+  ]
+ },
+ {
+  "id": "tulip",
+  "name": "Tulip",
+  "group": "flowers",
+  "blurb": "A mountain bulb from Central Asia that, for one winter in Holland, sold for more than a house.",
+  "size": "About 18 in (45 cm) tall, growing from a bulb 0.4 to 2 in (1–5 cm) across.",
+  "homes": [
+   "mountain",
+   "backyard"
+  ],
+  "stats": {
+   "height": 1.5
+  },
+  "wonder": "A bulb splits off copies of itself, which is the only reason one particular tulip could be bought and sold at all.",
+  "facts": [
+   {
+    "cat": "home",
+    "kind": "record",
+    "text": "There are about 75 wild tulip species, and none of them started in Holland. They grow in a band along 40 degrees north. It runs from south-eastern Europe through Turkey and across Central Asia. Most kinds are in the Tian Shan and Pamir-Alai mountains.",
+    "more": "Wild tulips are small tough mountain plants. They have short stems and narrow gray leaves. The flowers shut tight at night and open in the sun. The tall straight-stemmed tulip in a vase is the result of centuries of picking out the biggest. It looks very little like its wild relatives."
+   },
+   {
+    "cat": "travel",
+    "kind": "record",
+    "text": "Bulbs were sent to Vienna in 1554 by Ogier de Busbecq, an ambassador to the Ottoman court. They reached the Netherlands around 1593. The botanist Carolus Clusius took up a post at Leiden University and planted them."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Tulip mania. Contract prices climbed hard from 1634 and collapsed in the first week of February 1637. On 3 February an auctioneer in Haarlem stood in front of a room and could not find a single buyer.",
+    "more": "Most of the trade was in paper contracts for bulbs still in the ground. Hardly anyone was holding an actual bulb. Then spring came and the contracts had to turn into real bulbs. Prices fell to a twentieth, or even a hundredth, of what people had agreed to pay."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "A Semper Augustus bulb was quoted at 10,000 guilders. A skilled craftsman earned about 300 guilders a year, so that one bulb was priced at over 33 years of a good wage."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The flamed and streaked petals everyone was paying for were caused by an illness. Tulip breaking virus splits one petal color into two or more. It also weakened the bulb, so the most expensive tulips were the sickest ones.",
+    "more": "That is why the famous striped varieties are gone. Each generation of an infected bulb was feebler than the last, and the plants eventually gave out. The striped tulips sold today get their pattern from breeding, not from the virus."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Grown from seed, a tulip takes five to eight years to reach flowering size. Growers do not wait. They lift the bulbs and split off the small copies each one has made underground."
+   },
+   {
+    "cat": "food",
+    "kind": "record",
+    "text": "In the Dutch Hunger Winter of 1944 and 1945, people in the occupied Netherlands ate tulip bulbs. Not as a curiosity. As food, in a famine, without much idea of how to prepare them safely.",
+    "more": "A bulb is stored food, which is exactly why people reached for them. They also carry substances that irritate the mouth and gut, and the core and outer layers have to be taken out first. Nobody had written that down for the public before the famine."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The Netherlands now produces about 3 billion tulip bulbs a year, most of them for export. It is the largest commercial grower in the world by a long way."
+   },
+   {
+    "cat": "build",
+    "kind": "record",
+    "text": "A closed tulip flower has the shape of a turban. The word tulip probably comes from a Turkish term for one."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Tulips keep growing after cutting. Put a bunch in a vase and measure them. Over a few days the stems stretch another inch or more. They bend toward the window while they do it."
+   },
+   {
+    "cat": "senses",
+    "kind": "found",
+    "text": "The flower opens in warmth and shuts in cold. Bring cut tulips into a heated room and they spread within the hour; move them somewhere chilly and they close up again."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three has seed-bearing plants after their kind. Through all of the mania, the streaking, the breeding and the fortunes, a tulip stayed a tulip. Colors and prices moved. The plant did not turn into something else."
+   }
+  ]
+ },
+ {
+  "id": "dandelion",
+  "name": "Dandelion",
+  "group": "flowers",
+  "blurb": "A lawn weed carrying the best-studied flying machine in the plant world.",
+  "size": "About 12 in (30 cm) tall, with a seed head roughly the size of a golf ball.",
+  "homes": [
+   "grassland",
+   "backyard"
+  ],
+  "stats": {
+   "height": 1,
+   "life": 10
+  },
+  "wonder": "A hundred bristles holding up a ring of spinning air the seed never even touches.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The yellow head is not one flower. It is 40 to more than 100 separate little flowers packed side by side, each with its own tiny strap-shaped petal, and each one makes a single seed."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Counted properly, a head holds 54 to 172 seeds. One plant can put out more than 5,000 seeds in a year, which is why pulling a few is never enough."
+   },
+   {
+    "cat": "travel",
+    "kind": "found",
+    "text": "Each seed hangs beneath a pappus of about 100 bristles. In 2018 Cathal Cummins and his team in Edinburgh put them in a wind tunnel with smoke. They found a ring of spinning air sitting above the bristles, not touching them.",
+    "more": "It is called a separated vortex ring. Nothing else, natural or built, was known to fly that way. The ring pulls the seed upward and steadies it, which is how something with no engine stays up long enough to cross a field."
+   },
+   {
+    "cat": "travel",
+    "kind": "worked",
+    "text": "The gaps between the bristles are the point. Air flows through them, and the spacing is what keeps the ring steady. The reasoning comes straight from the wind tunnel: change the spacing and the ring breaks apart."
+   },
+   {
+    "cat": "travel",
+    "kind": "found",
+    "text": "Wind carries the seeds several hundred yards from the plant they came off. Some are picked up by rising air and go a great deal further than that."
+   },
+   {
+    "cat": "babies",
+    "kind": "worked",
+    "text": "Most North American dandelions make seed with no pollination at all. They carry three sets of chromosomes instead of two. That normally jams ordinary seed-making. Yet they seed heavily, and the seedlings come out as copies of the parent.",
+    "more": "It means the seed head on a lawn dandelion is a set of clones. That is why the plants in one field can look identical while dandelions a county away look subtly different. Botanists have named hundreds of these clone types in Britain alone, and telling them apart is specialist work."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Snap any part of it and white latex bleeds out, sticky and bitter. Stem, leaf, root, flower stalk. All of it."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "The taproot is the reason it beats gardeners. Break the root and leave a piece in the ground and a new plant grows back from the fragment.",
+    "more": "The taproot can go down a couple of feet in decent soil and stores food through the winter. A gardener who snaps it off at the collar has removed the leaves and left the battery, which is why the plant is back within a few weeks."
+   },
+   {
+    "cat": "food",
+    "kind": "record",
+    "text": "The whole plant gets eaten. Young leaves in salad, flowers brewed into wine, roots roasted and ground as a coffee substitute. It was grown deliberately as a vegetable long before it was treated as a weed."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The name comes from the French dent de lion, lion's tooth, for the jagged edge of the leaf. Not the yellow flower, and not the mane."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three, seed-bearing plants after their kind. People needed a wind tunnel and a smoke machine to work out that flight trick. It is standing in every lawn, on every stem, working perfectly. Most people bother to notice it only when they blow one."
+   }
+  ]
+ },
+ {
+  "id": "poppy",
+  "name": "Common poppy",
+  "group": "flowers",
+  "blurb": "A red field flower that only shows up where the ground has been torn open.",
+  "size": "Up to 28 in (70 cm) tall, with flowers 2 to 4 in (5–10 cm) across.",
+  "homes": [
+   "grassland",
+   "backyard"
+  ],
+  "stats": {
+   "height": 2.3,
+   "life": 1
+  },
+  "wonder": "Seed that will sit in the dark doing nothing for decades, waiting for the ground above it to be broken.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The petals sit crumpled inside the bud like a shirt stuffed into a bag. The bud hangs down, splits, and the creased petals push out and are pressed flat by the sun within a day."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The seed lasts in soil for decades, doing nothing at all, until a plow or a shell or a digger turns the ground over. Then it comes up everywhere at once, which is why a bare building site turns red.",
+    "more": "A seed bank like that is why a poppy field is never a permanent thing. Let the ground settle and grass takes over within a season or two. The poppies have not died out; they have gone back to waiting under the turf for the next time it is broken."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The seed capsule works like a pepper pot. A ring of small holes opens under the flat lid, and the wind rocking the dry stalk shakes seed out a little at a time."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "In the spring of 1915, poppies came up in their thousands across the churned ground of Flanders. John McCrae, a Canadian army doctor, wrote In Flanders Fields after a friend's burial. Punch magazine printed it later that year.",
+    "more": "The poppies were not a sign or a symbol at the time. They were doing what they always do, which is grow on ground that has been ripped open. The shelling had plowed the whole landscape."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Because of that poem the poppy became the remembrance flower across the Commonwealth. It is worn each November for soldiers who did not come home."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "The leaves and milky sap taste sharp and acrid and are mildly poisonous to grazing animals. Cattle in a field will crop around them."
+   },
+   {
+    "cat": "weird",
+    "kind": "record",
+    "text": "This is not the opium poppy. That is a different species, Papaver somniferum, with gray-green hairless leaves and a fat round capsule. The common red field poppy contains no opium.",
+    "more": "The two are easy to tell apart once you look. The opium poppy is taller, smooth and blue-gray, with leaves that clasp the stem and a larger seed capsule. The field poppy is bristly all over and its capsule is smaller."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "One plant can throw up as many as 400 flowers across a warm season. They come one after another, each lasting a day or two."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It is a weed of plowed land across Europe and follows farming about. Roadworks, new verges, a fallen tree, a field turned over: the poppies arrive the following summer."
+   },
+   {
+    "cat": "babies",
+    "kind": "worked",
+    "text": "Nobody sows them. The best read is that being buried is itself the signal to wait. Breaking the soil open is the signal to start. That is the one thing every poppy field has in common."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "Four petals, slightly overlapping, usually vivid red with a black blotch at the base, around a middle crowded with dark stamens. The stalk beneath is thin and covered in stiff bristly hairs."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names seed-bearing plants. A poppy seed can lie under a field for a lifetime and still be a working seed when the light finally reaches it. Whatever else it is, it is not fragile."
+   }
+  ]
+ },
+ {
+  "id": "lavender",
+  "name": "Lavender",
+  "group": "flowers",
+  "blurb": "A gray-green Mediterranean shrub in the mint family, grown for the oil held in glands on its surface.",
+  "size": "About 3 ft (1 m) tall and roughly as wide, with flower spikes on thin stalks above the leaves.",
+  "homes": [
+   "mountain",
+   "backyard"
+  ],
+  "stats": {
+   "height": 3,
+   "life": 15
+  },
+  "wonder": "The smell is not in the petals at all — it is stored in tiny glands on the outside of the plant, waiting to be knocked open.",
+  "facts": [
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The name traces back to the Latin lavare, to wash. Romans put lavender in bath water and in the laundry, which is where the whole idea of a clean smell being a lavender smell comes from."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "In Roman times lavender flowers sold for 100 denarii a pound. A farm laborer earned roughly that in a month."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Roll a lavender stem between finger and thumb and it is square, not round. Every plant in the mint family has that square stem, and lavender belongs to it along with mint, rosemary, sage and basil."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The oil sits in small glands on the outside of the leaves and stems. Brushing past a plant bursts them, which is why you can smell a lavender hedge from the path without touching a single flower.",
+    "more": "The glands are visible under a hand lens: small round heads on tiny stalks, scattered over the leaf and packed thickest on the flower spike. Each one is a sealed bag of oil, and each one bursts under a fingertip."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Chemists have picked about 93 different compounds out of lavender oil. Two of them do most of the smelling: linalyl acetate at 30 to 55 percent, and linalool at 20 to 35 percent."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "Mihail Garbuzov and Francis Ratnieks at Sussex planted 13 kinds of lavender side by side. Then they counted the insects on each, over and over. Dutch lavender pulled about four times as many pollinators as English lavender.",
+    "more": "That is the sort of thing you can only settle by counting. Both plants look inviting and smell strong. Only the tally showed that one of them was doing several times the work of the other for the bees in a garden."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "worked",
+    "text": "Bumblebees get through a lavender spike about three times faster than honeybees do. The best read is tongue length: a longer tongue reaches the nectar without the bee having to shove itself into each flower."
+   },
+   {
+    "cat": "food",
+    "kind": "record",
+    "text": "Lavender honey is a named single-flower honey, made where the hives sit in lavender country. The dried buds also flavor cookies, ice cream and shortbread. They are used sparingly, because it goes soapy fast."
+   },
+   {
+    "cat": "babies",
+    "kind": "record",
+    "text": "Lavandin is a cross between two lavender species, first made by bees carrying pollen between them. It grows bigger flowers and yields two to three times as much oil per field, which is why most cheap lavender oil is lavandin.",
+    "more": "Bees made the cross by carrying pollen from one lavender species to another. Growers noticed the offspring were bigger and oilier and started raising them on purpose. Lavandin plants are sterile, so every field of it is grown from cuttings."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "There are 47 lavender species, all from the Mediterranean and the drier parts of the Old World. French growers keep about 20,000 acres (8,000 hectares) of true lavender, and 97 percent of it is one species."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "The flowers are tiny. What looks like one purple flower on a stalk is a spike of dozens of small tubes, opening a few at a time from the bottom up."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three, before any animal was made. The oil glands are on the outside of every lavender plant, on every leaf and stem. They were there before there was a single bee in the world to be drawn in by them."
+   }
+  ]
+ },
+ {
+  "id": "bird-of-paradise",
+  "name": "Bird of paradise flower",
+  "group": "flowers",
+  "blurb": "A South African plant whose flowers open sideways out of a hard beak and look like the head of a crested bird.",
+  "size": "The plant reaches about 6 ft 6 in (2 m), with leaves 10 to 28 in (25–70 cm) long on stalks up to 3 ft (1 m).",
+  "homes": [
+   "grassland",
+   "backyard"
+  ],
+  "stats": {
+   "height": 6
+  },
+  "wonder": "The perch was built into the flower, and it is stiff enough to take the weight of a bird standing on it.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The hard beak-shaped sheath, the spathe, sits at right angles to the stem, which is what makes the whole thing look like a bird's head turned sideways. Flowers come out of the top of it one at a time."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Each flower has three orange sepals standing up like a crest and three blue-purple petals below. Two of the blue petals are fused into an arrow shape, with the pollen hidden inside the arrow and the nectar at its base."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "A bird landing on that blue arrow makes it split open along its length, and the pollen presses onto the bird's feet. Almost nothing else in the plant world moves pollen by foot.",
+    "more": "The bird is not trying to help. It is after the nectar pooled at the base of the arrow. The splitting happens because of its weight on the petal, so a bird that is heavy enough gets sugar and leaves with orange feet."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "worked",
+    "text": "Which bird actually does the work? Sunbirds come constantly, but watchers found they mostly perch on the beak, drink and leave without touching the pollen. Weavers land on the blue arrow itself. The reasoning from the two sets of observations is that the weavers are the real pollinators.",
+    "more": "Sunbirds are not doing anything wrong. A nectar thief is just a visitor that takes the reward without paying. Sorting one from the other took people sitting and watching where each bird put its feet. They watched over and over instead of assuming the obvious answer."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Francis Masson collected it in South Africa and it reached Kew in 1773. Joseph Banks named it Strelitzia after Queen Charlotte, wife of George III and Duchess of Mecklenburg-Strelitz. The second name, reginae, means of the queen."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Grown from seed it takes three to five years to flower, and rarely two. There is no shortcut, which is why the plants are expensive.",
+    "more": "Everything about the plant is slow. It grows from a thick clump of roots and adds only a few leaves a season. It flowers best when the pot is so crowded the roots have nowhere left to go."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "In the wild it grows only in the Cape provinces and KwaZulu-Natal in South Africa. Everywhere else it is a plant somebody put there."
+   },
+   {
+    "cat": "disguise",
+    "kind": "found",
+    "text": "In South Africa it is called the crane flower, after the blue crane. The orange crest, the gray-green beak and the angle of the head are all genuinely there. What is not there is any bird."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "One spathe keeps producing. Flower after flower pushes out of the same beak over several weeks, so the bird appears to grow a fresh crest each time the last one withers."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "The leaves are paddle-shaped and leathery, up to 28 in (70 cm) long, and the plant is a relative of the banana. Stood in a corner it looks like a small banana plant that has grown a bird."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Plants came on day three, birds on day five. The perch, the arrow, the nectar and the pollen were all in place before there was anything with feathers to stand on them."
+   }
+  ]
+ },
+ {
+  "id": "passionflower",
+  "name": "Passionflower",
+  "group": "flowers",
+  "blurb": "A climbing vine with a flower built in rings. Missionaries named it, because they read the crucifixion in its parts.",
+  "size": "Vines climb 20 to 30 ft (6–9 m) on coiling tendrils, with flowers about 3 in (8 cm) across.",
+  "homes": [
+   "rainforest",
+   "forest"
+  ],
+  "stats": {
+   "height": 30
+  },
+  "wonder": "A plant that grows fake butterfly eggs on its own leaves is doing something no gardener would think to design.",
+  "facts": [
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "In Rome in 1609 a scholar named Jacomo Bosio was writing about the Cross when a friar back from Mexico showed him drawings of the flower. Bosio read the ring of threads as the crown of thorns, three stigmas as three nails and the tendrils as cords.",
+    "more": "Spanish missionaries in the New World had already been calling it the flower of the Passion. Whatever anyone makes of the reading, the parts Bosio pointed at are genuinely there. Every flower in the genus has them, in the same arrangement."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The ring of colored threads inside the flower is called the corona. Some species stack as many as eight rings of it, one inside another, in a single flower."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "There are about 550 species in the genus Passiflora. Most of them live in the warm parts of the Americas."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "The vine makes nectar outside its flowers as well as inside them, from small glands on the leaf stalks and leaf edges. Ants find the sugar and stay on the plant."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "worked",
+    "text": "What the ants are doing there is the interesting part. They patrol the leaves and go for caterpillars. The best read is a straight trade: the plant pays in sugar and gets a standing guard it does not have to grow itself.",
+    "more": "You can watch the trade fail. Wash the ants off a passionflower vine and leave the neighboring vine alone, and the ant-free one gets stripped by caterpillars far faster. That comparison is where the confidence in the reading comes from."
+   },
+   {
+    "cat": "disguise",
+    "kind": "found",
+    "text": "Some passionflowers grow small colored bumps on their leaves. The bumps match Heliconius butterfly eggs in size, shape and yellow color."
+   },
+   {
+    "cat": "disguise",
+    "kind": "worked",
+    "text": "Female Heliconius butterflies inspect a leaf before laying. They skip any that already carries eggs, since the caterpillars eat each other. So a leaf wearing fakes gets passed over. That reasoning comes from watching the butterflies, not from the bumps."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "Many species carry cyanide-making compounds in their leaves, which makes them mildly poisonous. Heliconius caterpillars eat them anyway, and they eat nothing else."
+   },
+   {
+    "cat": "food",
+    "kind": "record",
+    "text": "Passion fruit is Passiflora edulis. Sweet granadilla is P. ligularis, giant granadilla is P. quadrangularis and the maypop of the southern United States is P. incarnata. All of them come off vines with the same ringed flower."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "It climbs on tendrils. These are thin threads that wave slowly in the air. They grab whatever they touch. Then they pull tight into a spring-shaped coil that hauls the vine in.",
+    "more": "A tendril hunts before it grips. It sweeps a slow circle in the air over hours, and if it touches nothing it eventually gives up and straightens. If it does touch something, it curls, then coils into a spring in the middle so the vine is pulled in with some give left in the line."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names the plants. The rings, the threads, the three stigmas and the five-plus-five petals and sepals are in all 550 species. People argued about what the pattern means, but nobody had to invent the pattern."
+   }
+  ]
+ },
+ {
+  "id": "snapdragon",
+  "name": "Snapdragon",
+  "group": "flowers",
+  "blurb": "A Mediterranean garden flower with a mouth that snaps shut and a seed pod that dries into a tiny skull.",
+  "size": "Usually 1 ft 8 in to 3 ft 3 in (0.5–1 m) tall, with flowers about 1.5 in (4 cm) long.",
+  "homes": [
+   "mountain",
+   "backyard"
+  ],
+  "stats": {
+   "height": 3
+  },
+  "wonder": "The same plant that gives a child a snapping dragon's mouth in July leaves a row of small skulls on the stalk by fall.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Pinch the sides of the flower and it gapes open like a jaw. Let go and it snaps shut. That is the whole reason for the name, and it works on every snapdragon in the border."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The scientific name Antirrhinum means roughly like a snout, from the Greek for nose. The flower had been named after an animal's face long before anyone called it a dragon."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The seed capsule is about half an inch (10 to 14 mm) across. It dries into the shape of a skull, with two hollow eye sockets and an open mouth. Leave the spike standing over winter and it carries a row of them.",
+    "more": "The holes are not decoration. The two sockets and the mouth are the pores the seed shakes out of when the wind rocks the dead stalk, the same pepper-pot trick a poppy uses."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "The flower is shut. A bumblebee has to land on the lower lip, force it down and climb bodily inside to reach the nectar, collecting pollen on its back as it goes. Honeybees mostly cannot manage it."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "worked",
+    "text": "The best read is that the closed mouth is a weight test. Insects too light to push the lip open never get in. So the nectar goes to the ones big enough to carry a useful load of pollen to the next plant.",
+    "more": "Small bees have another way in. Some chew a hole through the base of the flower and drink the nectar from outside without ever opening the mouth or touching the pollen. Look along a row of snapdragons in late summer and you can find the holes."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "One capsule holds a great many dust-fine seeds. They are small enough that a shaken seed head looks like it is pouring out grit."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "In the wild it grows on rocky ground in south-central France, the eastern Pyrenees, north-eastern Spain and the Balearic Islands. Everywhere else it is a garden escape."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Snapdragons have been a laboratory plant for about a century. A gene first found in them is called DEFICIENS. It supplies the D in MADS-box. That is the name for a family of genes that decides which flower part grows in which position.",
+    "more": "The point of a laboratory plant is that everyone works on the same one, so results can be compared. Snapdragons were picked early because they grow fast. They are easy to cross by hand. They also throw up odd flowers often enough to show what the genes are doing."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Snapdragons carry jumping genes, bits of DNA that move about inside the plant. One of them, Tam3, moves far more at low temperature, so a cold spring can change the color pattern that shows up on the petals."
+   },
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "A snapdragon goes from seed to seed in about four months, which is one reason researchers picked it. You can run through several generations while a tree is still deciding whether to leaf out."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "Most reach about 3 ft (1 m), though plants have been recorded at 6 ft 6 in (2 m). The flowers open from the bottom of the spike upward, so one stalk has buds at the top and skulls forming at the base."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three, seed after its kind. A snapdragon dies back to nothing and comes up the following year. It has the same snapping mouth and the same four-month timetable. The same skull-shaped pod sits on the end of it."
+   }
+  ]
+ },
+ {
+  "id": "water-lily",
+  "name": "Giant water lily",
+  "group": "flowers",
+  "blurb": "An Amazon water plant with leaves ten feet across, strong enough to hold a child standing up.",
+  "size": "Leaves up to 10 ft (3 m) wide, on stalks 23 to 26 ft (7–8 m) long running down to the mud.",
+  "homes": [
+   "freshwater",
+   "rainforest"
+  ],
+  "stats": {
+   "height": 23
+  },
+  "wonder": "Turn a leaf over and you are looking at a bridge deck: main girders radiating out, cross-braces between them, the whole thing floating.",
+  "facts": [
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "Leaves reach 10 ft (3 m) across. The largest measured was 10 ft 6 in (3.2 m), grown at La Rinconada Gardens in Bolivia."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "A leaf tested at Ghent measured 8 ft 6 in (2.6 m) across and weighed 13 lb (6.1 kg) by itself. Loaded up carefully with weights, it carried 498 lb (226 kg) before it gave way.",
+    "more": "That is a leaf holding roughly 38 times its own weight while floating. The load has to be spread out, on a board or on bare feet placed carefully. All the strength is in the rib pattern. There is none in the thin green skin between the ribs."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Turn one over. Thick ribs radiate out from the center with cross-braces running between them, and every rib is covered in sharp spines. The rim of the leaf stands up around the edge like the side of a pie dish."
+   },
+   {
+    "cat": "copied",
+    "kind": "record",
+    "text": "Joseph Paxton grew the first one to flower in Britain in November 1849. Then he dressed his seven-year-old daughter Annie in a fairy costume and stood her on a leaf. He copied the rib pattern into the Crystal Palace, and said so outright.",
+    "more": "His own words were that nature had provided the leaf with lengthways and crossways girders and supports. He had borrowed them for the building. The Crystal Palace covered 19 acres. It went up in a matter of months because of that structure."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The flower opens white and fruit-scented on the first night, then closes with beetles shut inside it. The next night it reopens, and by then the petals have turned pink.",
+    "more": "The color change is not a decoration. A white flower and a pink one on the same pond are at different stages. A beetle leaving a pink one carries pollen it can only usefully deliver to a white one. The pond keeps them out of step on purpose."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "worked",
+    "text": "Here is the best read on the trapped beetles. They spend the night feeding on starchy tissue inside. The pollen sacs drop and dust them. Then they fly off to a fresh white flower. The timing is the argument. White and scented on night one, pink and loaded on night two."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "The flower itself is 16 in (40 cm) across and weighs 3.5 lb (1.6 kg)."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "In 2022 botanists at Kew named a third species, Victoria boliviana, the largest of them all. A pressed specimen of it had been sitting mislabeled in Kew's herbarium for 177 years. Nobody had noticed."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "The spines are all underneath, on the ribs and the stalk, and there are none on the smooth upper surface. The reasoning writes itself: the grazing animals in an Amazon river arrive from below."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It needs warm water, 85 to 90°F (29–32°C). That is why it grows in the shallow backwaters of the Amazon basin. Everywhere else it grows in heated glasshouses."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The stalk runs 23 to 26 ft (7–8 m) from the mud at the bottom up to the leaf on the surface. Most of the plant is out of sight underwater."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three, before anyone built anything. The girders and cross-braces under that leaf were holding up 498 lb of load long before an engineer looked at one and copied it into a building."
+   }
+  ]
+ },
+ {
+  "id": "edelweiss",
+  "name": "Edelweiss",
+  "group": "flowers",
+  "blurb": "A wooly Alpine flower of high limestone rock. Its hairs soak up ultraviolet light.",
+  "size": "1 to 8 in (3–20 cm) tall in the wild, reaching 16 in (40 cm) when grown in a garden.",
+  "homes": [
+   "mountain"
+  ],
+  "stats": {
+   "height": 1
+  },
+  "wonder": "A plant living where the ultraviolet is fiercest, wearing a filter for it.",
+  "facts": [
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The German name is edel, noble, plus weiss, white. The scientific name Leontopodium is Greek for lion's paw, which is what the wooly white star is meant to look like."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The white star is not petals. Those are bracts, which are modified leaves, arranged in a double star around five or six small yellow flower heads. Each of those heads is only about 5 mm across."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Every white surface is packed with dense white hairs, called tomentum. Under a lens the flower looks like it has been rolled in wool."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "Researchers peeled a pad of those hairs off a bract and shone light through it. The hairs absorb near-ultraviolet before it reaches the living tissue underneath. They do not simply bounce it away — they take it in.",
+    "more": "Inside each filament is a structure at a scale below a thousandth of a millimeter, which is one of very few structures like it known in a plant. That internal pattern is what does the absorbing."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "Why that matters here: ultraviolet gets stronger the higher you go, and this plant lives at 5,900 to 11,200 ft (1,800–3,400 m). The reasoning is the match between where it grows and what its coat happens to block.",
+    "more": "Ultraviolet is what burns skin at altitude, even on a cold day. Thinner air up there filters less of it. A plant that cannot move into shade has to carry its own cover. This one carries it everywhere the sun can reach."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It grows on rocky limestone in the Alps, the Pyrenees and the Italian Apennines, between about 5,900 and 11,200 ft (1,800–3,400 m). It flowers July to September and that is the whole season."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "It was picked so heavily that it became rare, and it is now protected in most countries where it grows. Romania declared it a monument of nature in 1931.",
+    "more": "The problem was never grazing or weather. It was people climbing for a flower to take home. They took them from the most exposed and dangerous ledges. A picked edelweiss was proof of where you had been."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Austria's mountain troops took it as their cap badge in 1907. It is used as a national symbol in Austria, Switzerland, Slovenia, Italy and Bulgaria."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The song Edelweiss is not an old Austrian folk song, whatever people assume. Rodgers and Hammerstein wrote it for the 1959 Broadway musical The Sound of Music."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "A wild plant is small — often no taller than a thumb. Grown in a garden at low altitude it stretches to about 16 in (40 cm) and the wool thins out."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Plants came on day three and the sun on day four. This one is built to handle sunlight at its harshest, on bare rock two miles up, and it manages that in a package the size of a thumb."
+   }
+  ]
+ },
+ {
+  "id": "hibiscus",
+  "name": "Hibiscus",
+  "group": "flowers",
+  "blurb": "A tropical shrub with big trumpet flowers. They open in the morning and are finished by evening.",
+  "size": "Flowers 1.5 to 7 in (4–18 cm) across on a shrub that reaches about 15 ft (4.5 m).",
+  "homes": [
+   "rainforest",
+   "backyard"
+  ],
+  "stats": {
+   "height": 15
+  },
+  "wonder": "The bush spends a whole flower every single day and opens a fresh set the next morning without fail.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Look into any hibiscus and one long column sticks straight out of the throat. All the stamens are fused into that single tube, with the pollen bags stuck along its length and five knobbed stigmas on the tip."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "A hibiscus flower opens in the morning and is limp by late afternoon. That is the whole life of it. One species is even called flower-of-an-hour.",
+    "more": "A shrub in flower is spending a great deal for a single day's display. The buds are built in advance, in a queue along the stem. As one set collapses, the next is already swollen and ready to open at first light."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "Depending on the species the flowers run from 1.5 to 7 in (4–18 cm) across. The big ones are wider than an adult's outstretched hand."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The genus is huge, with 433 accepted species. They are spread across the warm parts of the world. Some are tropical shrubs and some are hardy garden bushes. One is a marsh plant in the eastern United States."
+   },
+   {
+    "cat": "food",
+    "kind": "record",
+    "text": "Hibiscus tea is not made from petals. It is brewed from the calyces of roselle, a different species, which are the fleshy crimson cups left holding the seed pod after the flower drops. It tastes sharp, like cranberry.",
+    "more": "Roselle is grown as a crop for exactly that part. The petals are thrown away or eaten as a vegetable, and the red cups are dried. The color in the drink comes from the same family of pigments that make blackcurrants dark."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Several countries and states claim one. Malaysia has Hibiscus rosa-sinensis, South Korea has H. syriacus, Haiti uses one as a national symbol, and Hawaii chose the yellow H. brackenridgei in 1988.",
+    "more": "Hawaii picked a native species rather than the familiar red one from the gardens. The yellow hibiscus was made the official state flower in 1988. For decades before that, any hibiscus at all had stood in for the islands unofficially."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "That Hawaiian yellow hibiscus, called maʻo hau hele, is endangered in the wild. The flower on every tourist shirt is one of the rarest plants on the islands."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "worked",
+    "text": "The column sticks out well past the petals, right where a visitor has to pass. The best read is that nothing gets to the nectar without brushing it — bird, bee or butterfly, the flower does not much mind which."
+   },
+   {
+    "cat": "build",
+    "kind": "record",
+    "text": "One relative, kenaf, is grown for its fiber and made into paper. The bark of sea hibiscus is twisted into rope. The same family gives us cotton and okra."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The five petals overlap each other in one direction, like the blades of a pinwheel. The flower looks as though it is turning even when it is still."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three, seed-bearing plants after their kind. A hibiscus throws away a fully built flower every evening and has another finished by dawn. Nothing about that is thrifty, and it happens on every bush, all season."
+   }
+  ]
+ },
+ {
+  "id": "foxglove",
+  "name": "Foxglove",
+  "group": "flowers",
+  "blurb": "A tall spike of speckled purple bells. It is poisonous to eat. Measured out carefully, it steadies a failing heart.",
+  "size": "3 ft 3 in to 6 ft 6 in (1–2 m) tall in its second year, with bells about 2 in (5 cm) long.",
+  "homes": [
+   "forest",
+   "grassland"
+  ],
+  "stats": {
+   "height": 6,
+   "life": 2
+  },
+  "wonder": "The dose that stops a heart and the dose that steadies one sit close together, and it took a doctor ten years to find the line.",
+  "facts": [
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "It is a biennial. The first year is a flat rosette of leaves on the ground and nothing else at all. The second year it throws up the spike, flowers, sets seed and dies."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The bells hang along one side of the spike, opening from the bottom upward. Inside each one is a pale floor covered in dark spots ringed with white, like a runway lit at night."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "worked",
+    "text": "A bumblebee crawls right inside the tube to reach the nectar at the back. The best read on the spots is that they mark the way in, since bees consistently enter on the spotted side. That is reasoning from watching bees, not from anything the plant said."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The seeds are 0.1 to 0.2 mm across, smaller than a grain of salt, and one plant releases enormous numbers of them when the dried capsules split open. That is why a single foxglove becomes a bank of them."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "Leaves, flowers and seeds all carry cardiac glycosides, mainly digitoxin. They jam a pump that every animal cell uses to move sodium and potassium in and out. Eating any part of the plant can kill a person.",
+    "more": "This is why it matters that a poisonous plant and a medicine can be the same plant. The chemical does one thing: it makes heart muscle squeeze harder. Too little does nothing, and too much makes the heart beat so hard and so wrongly that it stops."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "In 1775 a doctor named William Withering was asked about a family recipe for dropsy, a swelling caused by a weak heart. It had been kept secret by an old woman in Shropshire and contained twenty or more herbs. He worked out which one was doing the work.",
+    "more": "The way he did it matters as much as the answer. He did not guess. He went through the ingredients, tested them, and settled on foxglove because it was the only one whose effect he could reproduce on its own."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Withering then spent ten years testing doses on patients and published An Account of the Foxglove in 1785. Of 158 patients, 101 with heart failure got relief. He wrote it up mainly to warn other doctors off overdosing."
+   },
+   {
+    "cat": "copied",
+    "kind": "record",
+    "text": "Foxglove is still the source. Digoxin, a heart drug on pharmacy shelves right now, is extracted from wooly foxglove, a different species from the purple garden one. The purple one gives digitoxin instead."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "It takes roughly 2,200 lb (1,000 kg) of dried foxglove leaves to yield 2.2 lb (1 kg) of pure digoxin. The drug is still pulled out of plants rather than built from scratch in a factory."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It grows across temperate Europe and turns up in a woodland clearing the year after the trees come down. Fell a wood or burn a heath and the foxgloves arrive from seed that was already lying there.",
+    "more": "The seed was already in the soil, waiting, exactly as poppy seed does. Clear a wood and the foxgloves that appear the following summer were not blown in from anywhere. They were lying under the trees the whole time."
+   },
+   {
+    "cat": "build",
+    "kind": "record",
+    "text": "The Latin name Digitalis comes from digitus, a finger. The bells are exactly the size to push a fingertip into. That is what most children do with them, and precisely what they should not."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three names the plants. This one holds a chemical strong enough to stop a heart and precise enough to steady one, sitting in a hedge bank where anybody can walk past it."
+   }
+  ]
+ },
+ {
+  "id": "bluebell",
+  "name": "Bluebell",
+  "group": "flowers",
+  "blurb": "A woodland bulb that turns British woods solid blue for a few weeks in spring, then disappears underground for the rest of the year.",
+  "size": "Up to about 18 in (45 cm) tall, with bells around 0.8 in (2 cm) long hanging down one side of the stem.",
+  "homes": [
+   "forest"
+  ],
+  "stats": {
+   "height": 1.5
+  },
+  "wonder": "The whole show is squeezed into the few weeks between the end of winter and the moment the trees close over.",
+  "facts": [
+   {
+    "cat": "home",
+    "kind": "record",
+    "text": "The British Isles hold roughly half of all the native bluebells in the world. It is a western European plant, and Britain is its stronghold. The carpets are genuinely a local specialty."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "On a native bluebell the stem droops over at the top. The flowers hang down one side, and the tips of the bells curl right back. The pollen is creamy white. A Spanish bluebell stands upright, with flowers all round the stem and blue-green pollen.",
+    "more": "The two cross where gardens meet woods, and the hybrid looks close to the native. That hybrid is the real worry rather than the Spanish plant itself, because it is the one people cannot tell apart and so leave in place."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "They are slow. A bluebell seed takes at least five years to build a bulb big enough to flower. A wood does not gain a bluebell carpet in a hurry."
+   },
+   {
+    "cat": "home",
+    "kind": "worked",
+    "text": "Because they take that long, a thick bluebell carpet is a clue that a wood is old. It is reasoning from growth rate, and it is used alongside other slow plants rather than as proof on its own."
+   },
+   {
+    "cat": "copied",
+    "kind": "record",
+    "text": "The sticky sap had jobs. It was used to glue pages into book bindings and to fix feathers onto arrows. In Elizabethan England the bulbs were crushed to make starch for the stiff ruffs worn round the neck.",
+    "more": "None of those uses are decorative. The sap is genuinely gluey, which anyone who has snapped a stem finds out, and before manufactured glues that made it worth collecting. The starch use meant digging up bulbs by the sackful."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Native bluebells are protected in Britain under the Wildlife and Countryside Act of 1981. An addition in 1998 went further. Trading in wild bluebell bulbs or seed is now an offense outright."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "The bulbs are poisonous. That is one reason a bluebell wood is not grazed flat by deer and rabbits, the way other spring growth is."
+   },
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "The timetable is tight. Leaves come up while the trees are still bare, the flowers open, seed sets, and the whole plant has yellowed and gone back underground by early summer."
+   },
+   {
+    "cat": "home",
+    "kind": "worked",
+    "text": "Why that rush? The best read is light. On a woodland floor, almost all the light there will be arrives in one gap. The gap runs from the end of winter to the trees putting out leaves. A bluebell spends the entire gap."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The second half of the name, non-scripta, means unlettered. It was chosen to separate this plant from the hyacinth of Greek legend, which was said to have marks written on its petals."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Walking through them does real damage. Crushed leaves cannot feed the bulb, and a trampled path through a bluebell wood stays bare for years afterwards, which is why the good woods have marked routes.",
+    "more": "The leaves are the plant's only chance to feed the bulb. They lie flat on the ground, where feet land. A bulb that loses its leaves early has nothing stored for the following spring. So a shortcut worn across a wood shows up as a bare stripe long after the walkers have gone."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three, plants before anything else living. A bluebell spends eleven months of the year as a bulb in the dark and one month as a blue floor stretching out of sight under the trees."
+   }
+  ]
+ }
+]

@@ -1,0 +1,448 @@
+[
+ {
+  "id": "b0",
+  "section": "brain",
+  "cat": "weird",
+  "text": "Your brain is about 60% fat, which makes it the fattiest organ you own.",
+  "more": "That fat is not spare padding — it is structural. Much of it forms the insulating sheath wrapped around your nerve fibers, and the membranes every brain cell is built from.",
+  "kind": "found"
+ },
+ {
+  "id": "b1",
+  "section": "brain",
+  "cat": "speed",
+  "text": "Signals race along your nerves at up to about 270 mph (430 km/h) — faster than a Formula 1 car.",
+  "more": "Not all nerves are quick. The fibers carrying sharp pain are among the fastest; the ones carrying dull ache crawl along at walking pace. That is why you snatch your hand back from something hot before it properly hurts.",
+  "animal": "cheetah",
+  "kind": "found"
+ },
+ {
+  "id": "b2",
+  "section": "brain",
+  "cat": "size",
+  "text": "Your brain is roughly the size of two clenched fists held together.",
+  "kind": "found"
+ },
+ {
+  "id": "b3",
+  "section": "brain",
+  "cat": "tryit",
+  "text": "Your brain quietly hides a hole in your vision, and you can catch it doing it.",
+  "tryit": "Draw a dot and a cross about 6 inches apart on paper. Close your right eye, stare at the cross with your left, and slowly move the paper toward your face. The dot vanishes — that is your blind spot, where the nerve leaves the eye. Your brain paints over the gap so smoothly you never notice.",
+  "kind": "found"
+ },
+ {
+  "id": "b4",
+  "section": "brain",
+  "cat": "tryit",
+  "text": "You can make your own arm float upward without trying.",
+  "tryit": "Stand in a doorway and press the backs of both hands hard against the frame for 45 seconds. Step forward and relax. Your arms drift up on their own — the muscles are still firing after your brain stopped asking.",
+  "kind": "found"
+ },
+ {
+  "id": "b5",
+  "section": "brain",
+  "cat": "oops",
+  "text": "Brain freeze is not your brain getting cold — your brain never cools that fast. The best read is a blood vessel in the roof of your mouth over-reacting to the chill.",
+  "more": "Something very cold makes an artery up there narrow, then widen again fast. Nerves nearby report the change. Your brain misreads where that signal came from. So you feel it in your forehead instead of the roof of your mouth.",
+  "kind": "worked"
+ },
+ {
+  "id": "b6",
+  "section": "brain",
+  "cat": "oops",
+  "text": "Pins and needles happen when you squash a nerve, not when your foot \"falls asleep\".",
+  "more": "Pressure interrupts the nerve's signalling. When you shift and the pressure lifts, the nerve fires off a burst of confused messages all at once — which your brain reads as fizzing.",
+  "kind": "found"
+ },
+ {
+  "id": "b7",
+  "section": "brain",
+  "cat": "sleep",
+  "text": "That falling jolt just as you drift off has a name: a hypnic jerk. Most people get them.",
+  "more": "Nobody has fully settled why they happen. One well-supported idea is that as your muscles go slack, the change is briefly misread as falling, and your body responds by catching itself.",
+  "kind": "found"
+ },
+ {
+  "id": "b8",
+  "section": "heart",
+  "cat": "record",
+  "text": "Your heart beats roughly 100,000 times a day and has never once taken a day off.",
+  "more": "It manages that because it rests between every single beat. Add all those tiny pauses together and the heart is actually \"off duty\" for a large part of every day.",
+  "kind": "found"
+ },
+ {
+  "id": "b9",
+  "section": "heart",
+  "cat": "tryit",
+  "text": "You can find your own pulse in about five seconds.",
+  "tryit": "Put two fingers — not your thumb, it has its own pulse — on the thumb side of your wrist. Count the beats for 15 seconds and multiply by four. Now run on the spot for a minute and try again.",
+  "kind": "found"
+ },
+ {
+  "id": "b10",
+  "section": "heart",
+  "cat": "size",
+  "text": "Your heart is about the size of your own closed fist. It grows as you do, so it always roughly matches.",
+  "kind": "found"
+ },
+ {
+  "id": "b11",
+  "section": "heart",
+  "cat": "weird",
+  "text": "Nobody has laid one person's blood vessels end to end. Count the capillaries in a small piece of tissue, multiply up, and you get tens of thousands of miles.",
+  "more": "Almost all of that length is capillaries — vessels so narrow that red blood cells have to squeeze through in single file.",
+  "kind": "worked"
+ },
+ {
+  "id": "b12",
+  "section": "heart",
+  "cat": "samesame",
+  "text": "Your heart has four chambers. So does a crocodile's — most reptiles have three.",
+  "animal": "saltwater-crocodile",
+  "kind": "found"
+ },
+ {
+  "id": "b13",
+  "section": "heart",
+  "cat": "food",
+  "text": "Red blood cells carry oxygen using iron. That is genuinely why blood tastes faintly metallic.",
+  "kind": "found"
+ },
+ {
+  "id": "b14",
+  "section": "bones",
+  "cat": "weird",
+  "text": "You were born with about 300 bones. You now have 206. You did not lose them — some fused together.",
+  "more": "A baby's skull is several separate plates with gaps between them, which is what lets the head flex on the way out and then keep growing. They knit together over the first couple of years.",
+  "kind": "found"
+ },
+ {
+  "id": "b15",
+  "section": "bones",
+  "cat": "size",
+  "text": "Your smallest bone is inside your ear.",
+  "more": "It is called the stapes, or stirrup, because that is exactly what it looks like. Three tiny bones in a chain amplify the wobble of your eardrum and pass it inward.",
+  "kind": "found"
+ },
+ {
+  "id": "b16",
+  "section": "bones",
+  "cat": "record",
+  "text": "Bone is astonishingly strong for its weight — pound for pound, stronger than steel.",
+  "more": "Bone manages that by being two things at once. Hard mineral makes it stiff. Stretchy collagen fibers make it tough. Pure mineral would shatter. Pure collagen would simply bend.",
+  "kind": "found"
+ },
+ {
+  "id": "b17",
+  "section": "bones",
+  "cat": "tryit",
+  "text": "Your jaw muscle is one of the strongest muscles you own, for its size.",
+  "tryit": "Put your fingers on your temples and bite down gently. Feel that bulge? That is your temporalis muscle — it runs up the side of your skull, which is why chewing makes your head move.",
+  "kind": "found"
+ },
+ {
+  "id": "b18",
+  "section": "bones",
+  "cat": "weird",
+  "text": "Over half the bones in your body are in your hands and feet.",
+  "more": "Twenty-seven in each hand, twenty-six in each foot. All those small bones are what let your hand wrap around a ball and your foot roll through a step.",
+  "kind": "found"
+ },
+ {
+  "id": "b19",
+  "section": "bones",
+  "cat": "samesame",
+  "text": "A giraffe has exactly the same number of neck bones as you do: seven.",
+  "more": "Theirs are just enormously long. Almost every mammal has seven, from a mouse to a whale.",
+  "animal": "giraffe",
+  "kind": "found"
+ },
+ {
+  "id": "b20",
+  "section": "bones",
+  "cat": "oops",
+  "text": "Growing pains are real. They are almost certainly not the bone stretching, though. Bone grows far too slowly for anyone to feel it happen.",
+  "more": "They are usually muscle aches in the legs after an active day, and they tend to strike in the evening. Bone growth itself is far too slow to feel.",
+  "kind": "worked"
+ },
+ {
+  "id": "b21",
+  "section": "lungs",
+  "cat": "size",
+  "text": "Unfolded flat, the inside surface of your lungs would cover a good chunk of a tennis court.",
+  "more": "All that area is folded into your chest as hundreds of millions of tiny air sacs. Each one is thinner than a sheet of tissue paper, so oxygen slips straight through into the blood.",
+  "kind": "found"
+ },
+ {
+  "id": "b22",
+  "section": "lungs",
+  "cat": "tryit",
+  "text": "You cannot hum while holding your nose.",
+  "tryit": "Try it. Humming needs air moving out through your nose, so pinching it shut stops the sound instantly. Now try to hum and swallow at the same time — also impossible.",
+  "kind": "found"
+ },
+ {
+  "id": "b23",
+  "section": "lungs",
+  "cat": "weird",
+  "text": "Your left lung is smaller than your right, because your heart is sitting in the space.",
+  "more": "The left lung has two lobes; the right has three. That notch in the left one has a name — the cardiac notch.",
+  "kind": "found"
+ },
+ {
+  "id": "b24",
+  "section": "lungs",
+  "cat": "oops",
+  "text": "A hiccup is your diaphragm twitching, and the \"hic\" is your voice box slamming shut.",
+  "more": "The diaphragm is the big sheet of muscle under your lungs. When it spasms you gulp air suddenly, and your vocal cords snap closed about a thirty-fifth of a second later. That snap is the sound.",
+  "kind": "found"
+ },
+ {
+  "id": "b25",
+  "section": "lungs",
+  "cat": "samesame",
+  "text": "You breathe in and out through the same tubes. A bird's air flows one way, in a loop.",
+  "more": "That one-way system keeps fresh air moving across a bird's lungs even while it breathes out. It is part of how some birds fly at heights where a person would black out.",
+  "animal": "bar-tailed-godwit",
+  "kind": "found"
+ },
+ {
+  "id": "b26",
+  "section": "senses",
+  "cat": "weird",
+  "text": "The tongue map in old textbooks — sweet at the tip, bitter at the back — is simply wrong.",
+  "more": "Every part of your tongue can detect every taste. The diagram came from a mistranslation of a German study and then got copied into books for decades.",
+  "kind": "record"
+ },
+ {
+  "id": "b27",
+  "section": "senses",
+  "cat": "tryit",
+  "text": "Most of what you call taste is actually smell.",
+  "tryit": "Pinch your nose shut and eat a jelly bean without looking. You will get sweet, and almost nothing else. Let go of your nose mid-chew and the flavor arrives all at once.",
+  "kind": "found"
+ },
+ {
+  "id": "b28",
+  "section": "senses",
+  "cat": "tryit",
+  "text": "Your sense of temperature is relative, and you can fool it in under a minute.",
+  "tryit": "Fill three bowls: cold, lukewarm, warm. Put one hand in cold and one in warm for 30 seconds, then plunge both into the lukewarm one. The same water feels hot to one hand and cold to the other.",
+  "kind": "found"
+ },
+ {
+  "id": "b29",
+  "section": "senses",
+  "cat": "senses",
+  "text": "Nobody has sat a person down with a million colors. Measure the smallest change your eye can just catch, multiply it up, and you land at roughly a million shades.",
+  "animal": "mantis-shrimp",
+  "kind": "worked"
+ },
+ {
+  "id": "b30",
+  "section": "senses",
+  "cat": "weird",
+  "text": "Close your eyes and you still know where your hands are. That is a real sense, called proprioception. Most people never count it.",
+  "tryit": "Close your eyes and touch your nose with one finger. You did not need to see your hand — that is proprioception, reporting from every joint and muscle.",
+  "kind": "found"
+ },
+ {
+  "id": "b31",
+  "section": "senses",
+  "cat": "oops",
+  "text": "The best read on motion sickness is that your eyes and your ears disagree, and your brain cannot settle the argument.",
+  "more": "Reading in a moving car, your eyes report a still page while the balance organs in your inner ear report bouncing. Your brain gets two contradictory stories and responds by making you feel ill.",
+  "kind": "worked"
+ },
+ {
+  "id": "b32",
+  "section": "senses",
+  "cat": "samesame",
+  "text": "A cat sees far better than you in near-dark — but you see far more color.",
+  "animal": "tiger",
+  "kind": "found"
+ },
+ {
+  "id": "b33",
+  "section": "skin",
+  "cat": "record",
+  "text": "Skin is your largest organ.",
+  "kind": "found"
+ },
+ {
+  "id": "b34",
+  "section": "skin",
+  "cat": "gross",
+  "text": "You shed skin cells constantly — a large share of household dust is you.",
+  "more": "You replace your outer layer of skin steadily, over roughly a month. The surface you are wearing now is not the one you had last term.",
+  "kind": "found"
+ },
+ {
+  "id": "b35",
+  "section": "skin",
+  "cat": "tryit",
+  "text": "Your fingertips are far more sensitive than your back, and you can measure the difference.",
+  "tryit": "Bend a paperclip into a U with the ends about 1 cm apart. Touch both ends to a fingertip — you feel two points. Do the same on your forearm or back and it feels like one. Fingertips have far more touch sensors packed in.",
+  "kind": "found"
+ },
+ {
+  "id": "b36",
+  "section": "skin",
+  "cat": "weird",
+  "text": "Fingers wrinkle in the bath because your nervous system does it, not because water soaks in. Nobody has caught the ridges doing a job; the tire-tread pattern is the argument that they grip.",
+  "more": "The nerves trigger tiny blood vessels under the skin to narrow, pulling the surface into ridges. Wrinkled fingertips grip wet things better — the pattern works like tire tread.",
+  "kind": "worked"
+ },
+ {
+  "id": "b37",
+  "section": "skin",
+  "cat": "weird",
+  "text": "Goosebumps yank every hair on you upright. The same reflex puffs a cat's coat right up — which is the best read on what yours is doing, on hair far too fine to trap anything.",
+  "more": "Each tiny muscle pulls a hair upright. On a cat or a bird it traps warm air and makes the animal look bigger. On you it just makes bumps.",
+  "kind": "worked"
+ },
+ {
+  "id": "b38",
+  "section": "skin",
+  "cat": "oops",
+  "text": "Itching has its own dedicated nerve pathway, separate from pain.",
+  "more": "Scratching works, but only briefly. It floods the spot with a different sensation. That drowns out the itch signal for a moment.",
+  "kind": "found"
+ },
+ {
+  "id": "b39",
+  "section": "gut",
+  "cat": "gross",
+  "text": "Your stomach acid is strong enough to damage metal. Your stomach relines itself so that it does not digest you.",
+  "more": "A layer of mucus and a fresh supply of cells replace the lining continuously. Without that, the acid would start on the stomach wall itself.",
+  "kind": "found"
+ },
+ {
+  "id": "b40",
+  "section": "gut",
+  "cat": "size",
+  "text": "Your small intestine is not small. Stretched out, it is several times your own height.",
+  "more": "It is called \"small\" because it is narrow, not short. Its inner surface is folded and fringed into millions of tiny projections, which is how so much absorbing surface fits inside you.",
+  "kind": "found"
+ },
+ {
+  "id": "b41",
+  "section": "gut",
+  "cat": "weird",
+  "text": "Swallowing is not gravity. Muscles squeeze food along in a wave, so you could swallow upside down.",
+  "more": "That wave is called peristalsis, and it runs the whole length of your gut. Astronauts eat and drink normally in freefall for exactly this reason.",
+  "kind": "found"
+ },
+ {
+  "id": "b42",
+  "section": "gut",
+  "cat": "gross",
+  "text": "Your gut is home to trillions of bacteria, and you need them.",
+  "more": "They help break down food your own enzymes cannot handle and make certain vitamins for you. Carried together they weigh a surprising amount.",
+  "kind": "found"
+ },
+ {
+  "id": "b43",
+  "section": "gut",
+  "cat": "tryit",
+  "text": "Your mouth starts digesting before you swallow.",
+  "tryit": "Chew a plain cracker slowly and keep it in your mouth for a full minute without swallowing. It turns sweet. An enzyme in your saliva is already cutting the starch into sugar.",
+  "kind": "found"
+ },
+ {
+  "id": "b44",
+  "section": "gut",
+  "cat": "samesame",
+  "text": "A cow needs four stomach chambers to get through grass. You get by with one.",
+  "animal": "reindeer",
+  "kind": "found"
+ },
+ {
+  "id": "b45",
+  "section": "defence",
+  "cat": "weird",
+  "text": "A fever is not the illness. It is your body deliberately turning the heat up.",
+  "more": "Many germs breed best at your normal temperature, and your immune cells work faster when it is warmer. Your body raises the thermostat on purpose.",
+  "kind": "found"
+ },
+ {
+  "id": "b46",
+  "section": "defence",
+  "cat": "defence",
+  "text": "White blood cells hunt. Some chase bacteria down and swallow them whole.",
+  "more": "The cell flows around the invader, engulfs it, and breaks it apart inside. This is called phagocytosis — literally \"cell eating\".",
+  "kind": "found"
+ },
+ {
+  "id": "b47",
+  "section": "defence",
+  "cat": "gross",
+  "text": "A scab is a temporary lid built out of your own blood.",
+  "more": "Tiny cells called platelets clump at the tear. They lay down a mesh of fibers, and blood cells get caught in it. The whole plug dries hard. New skin is built underneath.",
+  "kind": "found"
+ },
+ {
+  "id": "b48",
+  "section": "defence",
+  "cat": "weird",
+  "text": "Sneezes leave your nose at genuinely impressive speed, and you cannot keep your eyes open for one.",
+  "more": "The eye-closing is a reflex bundled with the sneeze. Nobody has found a good reason for it — your eyes would not pop out, despite the playground legend.",
+  "kind": "found"
+ },
+ {
+  "id": "b49",
+  "section": "defence",
+  "cat": "oops",
+  "text": "Your immune system is built to fight off germs. An allergy is that same system attacking something harmless by mistake.",
+  "more": "Pollen and peanuts are not dangerous. The itching, the swelling and the sneezing are entirely your own defenses overreacting.",
+  "kind": "found"
+ },
+ {
+  "id": "b50",
+  "section": "growing",
+  "cat": "weird",
+  "text": "You grow fastest while you are asleep. Literally overnight.",
+  "more": "Most growth hormone is released during deep sleep. You are also measurably taller in the morning than at bedtime, because the discs in your spine decompress overnight.",
+  "kind": "found"
+ },
+ {
+  "id": "b51",
+  "section": "growing",
+  "cat": "tryit",
+  "text": "You shrink a little every single day.",
+  "tryit": "Measure your height first thing in the morning, then again just before bed. Most people lose up to a centimeter over the day as the cushions between the bones of the spine squash down.",
+  "kind": "found"
+ },
+ {
+  "id": "b52",
+  "section": "growing",
+  "cat": "babies",
+  "text": "Every person started as a single cell, too small to see without a microscope.",
+  "kind": "found"
+ },
+ {
+  "id": "b53",
+  "section": "growing",
+  "cat": "weird",
+  "text": "Babies have no kneecaps at birth — not bony ones anyway.",
+  "more": "They start as cartilage, the same bendy stuff as the tip of your nose, and harden into bone over several years. Bendy knees survive a lot of crawling.",
+  "kind": "found"
+ },
+ {
+  "id": "b54",
+  "section": "growing",
+  "cat": "sleep",
+  "text": "Nine to 12 hours is the figure for a nine-year-old — worked out by testing how children think and feel on more sleep and on less. Adults need less, which is deeply unfair.",
+  "more": "Your body clock also shifts later as you become a teenager. The urge to stay up is not laziness. The timing genuinely moves.",
+  "kind": "worked"
+ },
+ {
+  "id": "b55",
+  "section": "growing",
+  "cat": "weird",
+  "text": "You had more taste buds as a toddler than you do now, spread over a wider area.",
+  "more": "Which is a real reason strong flavors felt overwhelming when you were small, and why sprouts get less offensive as you grow.",
+  "kind": "found"
+ }
+]

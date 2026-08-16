@@ -1,0 +1,377 @@
+[
+ {
+  "id": "emperor-penguin",
+  "name": "Emperor penguin",
+  "group": "birds",
+  "blurb": "The largest penguin alive, and the only bird that breeds through the Antarctic winter.",
+  "size": "Chest-high on a nine-year-old — about 3 ft 9 in (1.15 m) standing up.",
+  "homes": [
+   "polar",
+   "ocean"
+  ],
+  "stats": {
+   "weight": 84,
+   "length": 3.8,
+   "life": 20,
+   "speed": 6
+  },
+  "facts": [
+   {
+    "cat": "babies",
+    "text": "The father holds the single egg on his feet, under a fold of belly skin. He does this for about two months of Antarctic winter. He does not eat the whole time.",
+    "more": "The mother walks to the sea to feed as soon as she has laid. He stands through blizzards, losing up to half his body weight, and only then does she return to take over and feed the chick.",
+    "kind": "found"
+   },
+   {
+    "cat": "teamwork",
+    "text": "Thousands of huddling males shuffle in a slow spiral so nobody stays on the freezing outside edge for long. Everyone gets a turn in the middle.",
+    "more": "Filmed from above, the huddle moves in tiny waves. Each bird steps forward a few inches every 30 seconds or so. That ripples through the whole crowd.",
+    "kind": "found"
+   },
+   {
+    "cat": "record",
+    "text": "Emperors dive deeper than any other bird. One was recorded at 1,854 ft (565 m) down — deeper than four Statues of Liberty stacked up.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "They can stay underwater for over 20 minutes on a single breath. Their bones are solid rather than hollow, and the best read is that the extra weight keeps them from bobbing back up.",
+    "more": "Most birds have air-filled bones to save weight in the air. An emperor does not fly at all, so heavy bones cost it nothing and buy it an easier trip down.",
+    "kind": "worked"
+   },
+   {
+    "cat": "home",
+    "text": "Emperor penguins breed on sea ice in temperatures down to −40°F (−40 °C), in wind that would knock you flat.",
+    "kind": "found"
+   },
+   {
+    "cat": "talk",
+    "text": "Every penguin's call is unique. A returning parent finds its own chick by voice alone, in a crowd of thousands.",
+    "more": "The chick answers, and the two zero in on each other. Researchers have played recordings to test it — chicks respond to their own parent's call and ignore all the others.",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "Their feathers are the densest of any bird, packed about 100 to the square inch. They are layered like roof tiles over a thick underlayer of down.",
+    "kind": "found"
+   },
+   {
+    "cat": "senses",
+    "text": "Their eyes work better in dim blue light than in daylight — useful when you hunt hundreds of feet down where almost no sun reaches.",
+    "kind": "found"
+   },
+   {
+    "cat": "food",
+    "text": "They eat fish, squid and krill. A day of hunting can put away several pounds. Everything goes down whole, underwater.",
+    "kind": "found"
+   },
+   {
+    "cat": "travel",
+    "text": "To reach the breeding colony they walk, and sometimes toboggan on their bellies. The trip runs up to 75 miles (120 km) across the ice.",
+    "kind": "found"
+   },
+   {
+    "cat": "defence",
+    "text": "A chick left alone is fair game for a giant petrel. So unattended chicks bunch into their own small huddles, called crèches.",
+    "kind": "found"
+   }
+  ],
+  "wonder": "A father standing still in the dark for two months, with everything that matters balanced on his feet.",
+  "_units": "imperial"
+ },
+ {
+  "id": "ostrich",
+  "name": "Ostrich",
+  "group": "birds",
+  "blurb": "The biggest and fastest bird on Earth — far too heavy to fly, and built entirely for running.",
+  "size": "Taller than a grown man: up to 9 ft (2.7 m) to the top of the head.",
+  "homes": [
+   "grassland",
+   "desert"
+  ],
+  "stats": {
+   "weight": 287,
+   "length": 9,
+   "life": 40,
+   "speed": 43
+  },
+  "facts": [
+   {
+    "cat": "speed",
+    "text": "An ostrich can run at 43 mph (70 km/h) and hold about 30 mph (48 km/h) for half an hour. No other two-legged animal comes close.",
+    "more": "A single stride can cover 10 to 16 ft (3 to 5 m), all in one step.",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "It runs on two toes, and really on one. The big toe carries almost all the weight and even has a hoof-like nail, like a built-in running shoe.",
+    "more": "Every other bird alive has three or four toes. The ostrich is the only one with two, and that pared-down foot is part of what makes the stride so efficient.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "Ostriches do not bury their heads in sand. That story comes from watching them turn eggs in a shallow nest scraped into the ground.",
+    "more": "From a distance, a bird lying flat with its head down on the ground does look headless — which is probably where the rest of the myth came from.",
+    "kind": "found"
+   },
+   {
+    "cat": "size",
+    "text": "An ostrich egg weighs about 3 lb (1.4 kg) — as much as two dozen chicken eggs. The shell is strong enough for a grown adult to stand on.",
+    "kind": "found"
+   },
+   {
+    "cat": "senses",
+    "text": "Its eye is about 2 in (5 cm) across, the largest eye of any land animal, and bigger than its own brain.",
+    "kind": "found"
+   },
+   {
+    "cat": "defence",
+    "text": "A kick forward from those legs can be genuinely dangerous, and each foot carries a claw up to 4 in (10 cm) long.",
+    "kind": "found"
+   },
+   {
+    "cat": "food",
+    "text": "Ostriches swallow pebbles on purpose. The stones sit in the gizzard and grind up tough plants, doing the job of teeth they do not have.",
+    "more": "A single ostrich may carry around 2 lb (1 kg) of stones inside it. Chickens do the same thing on a much smaller scale.",
+    "kind": "found"
+   },
+   {
+    "cat": "babies",
+    "text": "Several females lay in one shared nest. The main female arranges the eggs so hers sit in the safest middle spot.",
+    "kind": "found"
+   },
+   {
+    "cat": "home",
+    "text": "They live in African grassland and semi-desert, often alongside grazing zebra and antelope. The grazers are borrowing those extraordinary eyes.",
+    "kind": "worked"
+   },
+   {
+    "cat": "talk",
+    "text": "Males boom. It is a deep, hollow, three-note call that carries for miles and sounds far more like a lion than a bird.",
+    "kind": "found"
+   }
+  ],
+  "wonder": "Wings that gave up flying and became rudders instead, on the fastest two legs in the world.",
+  "_units": "imperial"
+ },
+ {
+  "id": "emu",
+  "name": "Emu",
+  "group": "birds",
+  "blurb": "Australia's tallest bird. It is a shaggy, flightless wanderer, second in size only to the ostrich.",
+  "size": "About head-height on an adult, up to 6 ft 3 in (1.9 m).",
+  "homes": [
+   "grassland",
+   "forest",
+   "desert"
+  ],
+  "stats": {
+   "weight": 121,
+   "length": 6.2,
+   "life": 15,
+   "speed": 31
+  },
+  "facts": [
+   {
+    "cat": "babies",
+    "text": "The father does all of it. He sits on the eggs for about eight weeks barely eating or drinking, then raises the chicks for up to 18 months.",
+    "more": "He can lose a third of his body weight sitting. The striped chicks follow him everywhere, and he will see off anything that comes near them — including the mother.",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "Emu feathers grow two shafts from a single root, giving a loose shaggy coat. The best read is that it lets heat escape instead of trapping it.",
+    "kind": "worked"
+   },
+   {
+    "cat": "talk",
+    "text": "Females make a deep drumming boom you can hear over a mile away. An inflatable pouch in the neck produces it.",
+    "more": "Males make a lower grunting sound instead. The booming pouch is a stretchy sac in the windpipe that the bird fills with air like a drum.",
+    "kind": "found"
+   },
+   {
+    "cat": "travel",
+    "text": "Emus follow the rain. Flocks have been tracked moving hundreds of miles across Australia, searching for food and water.",
+    "kind": "found"
+   },
+   {
+    "cat": "speed",
+    "text": "An emu sprints at 31 mph (50 km/h). It can change direction mid-run without slowing much. The credit goes to enormous calf muscles.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "Emu eggs are dark green, almost black, and about 5 in (13 cm) long. The color hides them in grass and leaf litter.",
+    "kind": "found"
+   },
+   {
+    "cat": "food",
+    "text": "They eat seeds, fruit, insects and shoots — and swallow stones to grind it all up. Emus also eat charcoal, and nobody is quite sure why.",
+    "kind": "found"
+   },
+   {
+    "cat": "home",
+    "text": "Emus live across most of mainland Australia, from forest edges to dry inland plains. They avoid only the thickest rainforest.",
+    "kind": "found"
+   },
+   {
+    "cat": "defence",
+    "text": "An emu's main defense is running, but it can also kick forward hard enough to tear through a wire fence.",
+    "kind": "found"
+   },
+   {
+    "cat": "senses",
+    "text": "Emus can swim, and will cross a river with their body low in the water and only the head and neck showing.",
+    "kind": "found"
+   }
+  ],
+  "wonder": "A father who spends two months without a proper meal so a clutch of dark green eggs can hatch.",
+  "_units": "imperial"
+ },
+ {
+  "id": "bar-tailed-godwit",
+  "name": "Bar-tailed godwit",
+  "group": "birds",
+  "blurb": "A long-billed wading bird. It holds the record for the longest non-stop flight of any animal.",
+  "size": "About 1.3 ft (40 cm) long and just under 1 lb (400 g), with long legs and a long bill.",
+  "homes": [
+   "polar",
+   "ocean",
+   "grassland"
+  ],
+  "stats": {
+   "weight": 0.9,
+   "length": 1.3,
+   "life": 20,
+   "speed": 35
+  },
+  "facts": [
+   {
+    "cat": "record",
+    "text": "One godwit flew from Alaska to Tasmania without landing once: 8,435 miles (13,575 km) in 11 days. No stopping, no feeding, no sleeping on the ground.",
+    "more": "The bird was tracked by a tiny satellite tag. It was a juvenile, making the journey for the first time, with no adult to follow.",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "Before setting off, a godwit shrinks its own stomach, liver and kidneys to save weight, and grows its flight muscles instead.",
+    "more": "It cannot eat on the way, so digestive organs are dead weight. Roughly half the take-off weight is fuel — fat packed on before departure.",
+    "kind": "found"
+   },
+   {
+    "cat": "travel",
+    "text": "It waits for a storm. Godwits launch on the tail of a weather front and ride the wind south, letting the sky do some of the work.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "They fly the whole way over open ocean. There is nowhere to rest, and nobody has watched what becomes of one that comes down — the best read is that it does not get up again.",
+    "kind": "worked"
+   },
+   {
+    "cat": "senses",
+    "text": "The bill tip is packed with pressure sensors, so a probing godwit can feel a buried worm move without seeing it.",
+    "kind": "found"
+   },
+   {
+    "cat": "food",
+    "text": "On the mudflats it eats worms, clams and shellfish, feeding almost around the clock to build up fat before migrating.",
+    "kind": "found"
+   },
+   {
+    "cat": "babies",
+    "text": "They nest on open Arctic tundra in a simple scrape. Chicks feed themselves within hours of hatching.",
+    "kind": "found"
+   },
+   {
+    "cat": "home",
+    "text": "It summers on Arctic tundra. It winters on the mudflats of New Zealand and Australia. Those are two places about as far apart as land allows.",
+    "kind": "found"
+   },
+   {
+    "cat": "size",
+    "text": "Females are noticeably larger than males and have longer bills. The best read of the difference is that a pair can then feed at different depths in the same mud.",
+    "kind": "worked"
+   },
+   {
+    "cat": "talk",
+    "text": "Flocks keep in contact with a sharp kew-kew call, which is how a scattered group re-forms after being flushed.",
+    "kind": "found"
+   }
+  ],
+  "wonder": "Eleven days over open ocean, on a first attempt, with nobody to follow.",
+  "_units": "imperial"
+ },
+ {
+  "id": "arctic-tern",
+  "name": "Arctic tern",
+  "group": "birds",
+  "blurb": "A small silver seabird that follows summer from one end of the planet to the other, every single year.",
+  "size": "Smaller than a pigeon, with long narrow wings and a deeply forked tail.",
+  "homes": [
+   "polar",
+   "ocean"
+  ],
+  "stats": {
+   "weight": 0.24,
+   "length": 1.1,
+   "life": 30,
+   "speed": 25
+  },
+  "facts": [
+   {
+    "cat": "record",
+    "text": "The Arctic tern migrates farther than any other animal. Tracked birds cover about 44,000 miles (71,000 km) in a year, following a looping path rather than a straight line.",
+    "more": "It breeds in the Arctic summer, then flies to Antarctica for the southern summer. Over a 30-year life that adds up to further than three round trips to the Moon.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "Chasing summer at both ends of the world, an Arctic tern sees more daylight in a year than any other creature alive. Nobody has followed one with a light meter; the tracked route is the argument.",
+    "kind": "worked"
+   },
+   {
+    "cat": "food",
+    "text": "It hunts by hovering, then plunging headfirst into the sea. It takes small fish and krill. Often it comes up with the catch crosswise in its bill.",
+    "kind": "found"
+   },
+   {
+    "cat": "defence",
+    "text": "Terns defend the nest by dive-bombing intruders and striking the top of the head with that sharp red bill. Arctic researchers wear hats for a reason.",
+    "kind": "found"
+   },
+   {
+    "cat": "babies",
+    "text": "Nests are just a scrape on gravel or sand. Chicks are speckled and sit still when a parent calls a warning, vanishing against the stones.",
+    "kind": "found"
+   },
+   {
+    "cat": "travel",
+    "text": "Terns ride prevailing winds rather than flying straight, taking a huge S-shaped route down the Atlantic. It is longer in miles, and worked out from the winds it is the easier road.",
+    "kind": "worked"
+   },
+   {
+    "cat": "home",
+    "text": "They breed in colonies right around the Arctic, on coasts, islands and tundra. Other seabirds often nest alongside them.",
+    "kind": "found"
+   },
+   {
+    "cat": "talk",
+    "text": "Colonies are extremely loud. There is a constant harsh kee-yah. It rises to a roar when any predator approaches.",
+    "kind": "found"
+   },
+   {
+    "cat": "size",
+    "text": "Wings span up to 30 in (76 cm) on a bird weighing under 4 oz (110 g), which is what makes such long-distance gliding possible.",
+    "kind": "found"
+   },
+   {
+    "cat": "teamwork",
+    "text": "When one tern sounds the alarm, the entire colony lifts at once — hundreds of birds mobbing a single fox or gull.",
+    "kind": "found"
+   }
+  ],
+  "wonder": "A bird that weighs less than a cup of water, and spends its life following the light.",
+  "_units": "imperial"
+ }
+]

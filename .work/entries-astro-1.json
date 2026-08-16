@@ -1,0 +1,424 @@
+[
+ {
+  "id": "sun-1",
+  "section": "sun",
+  "cat": "size",
+  "kind": "found",
+  "text": "The sun is about 864,000 miles across (1.39 million km). Line up Earths edge to edge along that width and you would need 109 of them. It is not a special star to look at from far away. It is just the one close enough to measure carefully.",
+  "more": "Measuring it is ordinary geometry. You know how far away the sun is, because radar bounced off nearby planets pins down the distances in the solar system. You can measure how wide it looks in the sky. Distance plus apparent width gives you real width."
+ },
+ {
+  "id": "sun-2",
+  "section": "sun",
+  "cat": "senses",
+  "kind": "found",
+  "text": "Never look straight at the sun, and never point binoculars or a telescope at it. The light burns the retina, and the retina has no pain nerves, so nothing hurts while the damage is being done. Eclipse glasses that meet the ISO 12312-2 standard are thousands of times darker than sunglasses.",
+  "more": "Damage from staring at the sun is called solar retinopathy. There is no treatment for it. Sunglasses are not eclipse glasses, no matter how dark they look. Wearing eclipse glasses and then looking through a telescope is worse than useless. The telescope concentrates the light and burns straight through the filter."
+ },
+ {
+  "id": "sun-3",
+  "section": "sun",
+  "cat": "record",
+  "kind": "record",
+  "text": "On 1 September 1859 Richard Carrington was sketching sunspots. A patch of the sun flared white while he watched. About 17 hours later, telegraph wires across Europe and North America sparked. Operators on the Boston-to-Portland line unhooked their batteries. They kept sending messages on the current the sky was pushing through the wires.",
+  "more": "It is called the Carrington Event, after the man who happened to be at the eyepiece. Aurora were reported as far south as the Caribbean. Because the whole thing was written down by hundreds of people at once, it is one of the best-documented things the sun has ever done."
+ },
+ {
+  "id": "sun-4",
+  "section": "sun",
+  "cat": "travel",
+  "kind": "found",
+  "text": "On 24 December 2024 NASA's Parker Solar Probe passed 3.8 million miles (6.1 million km) above the sun's surface, moving at roughly 430,000 miles per hour (690,000 km/h). Nothing built by people has ever gone faster or closer. It radioed home two days later to say it was fine."
+ },
+ {
+  "id": "sun-5",
+  "section": "sun",
+  "cat": "weird",
+  "kind": "found",
+  "text": "The sun is about 400 times wider than the moon and it sits about 400 times farther away. Those two numbers cancel out, so from Earth the two discs look almost exactly the same size. That is the entire reason a total solar eclipse is possible.",
+  "more": "There is no rule of nature that makes the numbers match. They just do, here, for us. On a total eclipse the moon covers the bright disc so precisely that the sun's faint outer glow, the corona, becomes visible with the naked eye."
+ },
+ {
+  "id": "sun-6",
+  "section": "sun",
+  "cat": "teamwork",
+  "kind": "found",
+  "text": "People have been drawing sunspots since 1610, when telescopes were brand new. In 1843 Heinrich Schwabe, after seventeen years of near-daily counting, noticed the number rises and falls in a repeating pattern. Rudolf Wolf then dug through old observatory records and fixed the cycle at about eleven years. The counting has never stopped.",
+  "more": "This is one long chain of ordinary people writing down a number. Galileo used sunspots to show that the sun turns. Schwabe was an amateur, counting spots in his spare time while actually hunting for a planet he never found. The count he started is still kept today."
+ },
+ {
+  "id": "sun-7",
+  "section": "sun",
+  "cat": "speed",
+  "kind": "found",
+  "text": "Sunlight takes about 8 minutes 20 seconds to cross the 93 million miles (150 million km) to Earth. Both halves of that are measured: the distance by bouncing radar off nearby planets, and the speed of light in laboratories. The sunlight on your hands left the sun before you sat down."
+ },
+ {
+  "id": "sun-8",
+  "section": "sun",
+  "cat": "build",
+  "kind": "worked",
+  "text": "Nobody has been inside the sun and nothing ever will be. The figure given for its center, about 27 million °F (15 million °C), is worked out from the way the whole sun rings and wobbles, plus what its light contains. The surface temperature is measured directly: about 10,000 °F (5,500 °C).",
+  "more": "The sun shakes very slightly, all over, all the time, and those movements can be watched on its surface. How they travel through the sun depends on what the inside is like. Reading them is a bit like telling a cracked bell from a whole one by the sound. It is a reasoned answer, not a look inside."
+ },
+ {
+  "id": "sun-9",
+  "section": "sun",
+  "cat": "senses",
+  "kind": "found",
+  "text": "A sunspot looks black in a photograph, but it is not black. It is simply cooler than the surface around it, roughly 6,300 °F against about 10,000 °F. It looks dark the way a candle flame looks dark when you hold it up in front of a floodlight."
+ },
+ {
+  "id": "sun-10",
+  "section": "sun",
+  "cat": "home",
+  "kind": "found",
+  "text": "When the sun throws out a burst of particles and they reach Earth, the sky over the far north and far south lights up green and red. That is the aurora. During the great storm of 1859 it was reported from the Caribbean, thousands of miles outside its usual range.",
+  "tryit": "Space weather forecasts are public. Search for the NOAA aurora forecast, and when the number called Kp climbs to 7 or higher, it is worth going somewhere dark and looking north."
+ },
+ {
+  "id": "sun-11",
+  "section": "sun",
+  "cat": "weird",
+  "kind": "found",
+  "text": "The sun is not solid, and it does not turn all in one piece. Track the same sunspot across the face day after day. The equator comes round in about 25 days. The regions nearer the poles take closer to 35. Nothing rigid can do that."
+ },
+ {
+  "id": "sun-12",
+  "section": "sun",
+  "cat": "record",
+  "kind": "record",
+  "text": "Helium was found in the sun before anyone found it on Earth. On 18 August 1868 Jules Janssen saw an unexplained yellow line in sunlight during an eclipse. Norman Lockyer saw the same line, and named the new element after the Greek word for the sun. It turned up on Earth in 1882.",
+  "more": "Spread light out into a spectrum and every element leaves its own pattern of lines. Nobody had seen that particular yellow line in any laboratory. So it belonged to something nobody had ever handled. It turned up in volcanic gas at Vesuvius fourteen years later. It is the same helium that is in party balloons."
+ },
+ {
+  "id": "sun-13",
+  "section": "sun",
+  "cat": "created",
+  "kind": "record",
+  "text": "Genesis says the lights in the sky were set for signs and seasons, and for days and years. The sun is what a day is measured against, and one trip of the Earth around it is what a year is. Every calendar on every wall is counting the sun."
+ },
+ {
+  "id": "sun-14",
+  "section": "sun",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "A small hole makes a picture. Sunlight passing through a pinhole in a card lands on the ground as a small round disc, and that disc is an image of the sun itself. It is safe, because you are looking at the card and not at the sun.",
+  "tryit": "Push a pin through a piece of card, stand with your back to the sun, and let the light fall onto a second card. During a partial eclipse that little disc turns into a crescent. Gaps between leaves in a tree do exactly the same thing for free, and a tree will scatter hundreds of crescents across the sidewalk."
+ },
+ {
+  "id": "moon-1",
+  "section": "moon",
+  "cat": "record",
+  "kind": "found",
+  "text": "Six Apollo crews landed on the moon and carried back 842 pounds (382 kg) of rock, dust and drilled cores, about 2,200 separate samples. They are kept in Houston. Pieces are still being cut off and sent to laboratories. This is moon that people have held in their hands.",
+  "more": "Some of it has deliberately never been opened. A few sealed containers were left shut on purpose. Later labs would have better tools. Leaving those containers shut gave them untouched material to work on. Sample tubes sealed on the moon were opened for the first time decades later, exactly as planned."
+ },
+ {
+  "id": "moon-2",
+  "section": "moon",
+  "cat": "weird",
+  "kind": "found",
+  "text": "The moon keeps one face toward us, but it does not hold it perfectly still. It rocks slightly north and south and wobbles east and west as it goes round, so over time 59% of its surface comes into view. Not half. A bit more than half. The wobble is called libration.",
+  "more": "Two things cause it. The moon's orbit is not a perfect circle, so it speeds up and slows down. Its spin stays steady the whole time. That lets us peek a little way round each side. Its axis is also tilted about 6.7 degrees. So we see a little over the top and a little under the bottom."
+ },
+ {
+  "id": "moon-3",
+  "section": "moon",
+  "cat": "travel",
+  "kind": "found",
+  "text": "Nobody had seen the far side of the moon until 7 October 1959. On that day the Soviet probe Luna 3 looped behind it and took 29 photographs. The film was developed on board, scanned, and radioed home. The pictures were grainy. They showed something nobody expected: almost none of the big dark plains.",
+  "more": "The near side is blotched with dark flat areas called maria, which is Latin for seas, though there is no water in them. The far side is nearly all crater. Whatever the reason, the two hemispheres do not match, and one blurry set of photographs from 1959 is what first showed it."
+ },
+ {
+  "id": "moon-4",
+  "section": "moon",
+  "cat": "weird",
+  "kind": "found",
+  "text": "The far side is not the dark side. It gets just as much sunlight as the side we see. It simply never faces us. When the moon is new and looks completely black from Earth, the far side is in full daylight."
+ },
+ {
+  "id": "moon-5",
+  "section": "moon",
+  "cat": "teamwork",
+  "kind": "found",
+  "text": "Apollo 11, 14 and 15 left panels of mirrored corner-cubes sitting on the moon. Observatories still fire lasers at them and time the round trip. The measurement is good to a few millimeters. It shows the moon drifting away at about 1.5 inches (3.8 cm) each year. That is roughly the speed a fingernail grows.",
+  "more": "A corner-cube is a clever shape: whatever angle light comes in at, it goes back out the way it came. That is why the mirrors do not need aiming. Apollo 15's array is the biggest and still gives the strongest return. It is the longest-running experiment ever left on another world."
+ },
+ {
+  "id": "moon-6",
+  "section": "moon",
+  "cat": "build",
+  "kind": "worked",
+  "text": "Nobody has drilled into the moon. What gets said about its middle is worked out from two things Apollo left behind. Seismometers recorded the ground shaking. Mirrors let lasers time the moon's wobble. A partly liquid core wobbles differently from a solid one. Reasoned, not seen.",
+  "more": "A body with a small liquid center does not swing quite like one that is solid all the way through. The laser mirrors measure that swing precisely enough to tell the difference. It is a good measurement pointing at a conclusion. It is not a look inside."
+ },
+ {
+  "id": "moon-7",
+  "section": "moon",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Apollo crews left seismometers switched on. Between 1972 and 1977 those instruments recorded 28 shallow moonquakes. The strongest measured about 5.5. Some kept shaking for more than ten minutes, far longer than an earthquake of that size. Dry cracked rock with no water in it rings on instead of settling down."
+ },
+ {
+  "id": "moon-8",
+  "section": "moon",
+  "cat": "senses",
+  "kind": "found",
+  "text": "Moon dust got tracked into the lunar module on every landing. Charlie Duke and Harrison Schmitt both reported the same thing once their helmets were off: it smelled like spent gunpowder. Schmitt pointed out that all the crews had fired guns and knew the smell. It faded before the samples reached Earth.",
+  "more": "The dust itself was a genuine nuisance. It is sharp and clingy, because there is no wind or water to round it off. It scratched visors, wore out seals, and left Schmitt sneezing with what he called lunar hay fever. No one has fully pinned down what made the smell."
+ },
+ {
+  "id": "moon-9",
+  "section": "moon",
+  "cat": "size",
+  "kind": "found",
+  "text": "The moon is 2,159 miles across (3,475 km), a bit over a quarter of Earth's width. It sits an average of 238,855 miles away (384,400 km), about thirty Earths laid side by side. That distance is not an estimate. Lasers measure it on clear nights."
+ },
+ {
+  "id": "moon-10",
+  "section": "moon",
+  "cat": "home",
+  "kind": "found",
+  "text": "There is no air on the moon to move heat around, so the difference between sunlight and shade is brutal. Near the equator the ground reaches about 250 °F (121 °C) in the sun and drops to around -207 °F (-133 °C) in the dark. Inside some polar craters sunlight never arrives at all.",
+  "more": "NASA's Lunar Reconnaissance Orbiter has measured spots in those permanently shadowed craters below -410 °F (-246 °C). They are among the coldest places ever measured anywhere. On Earth, air spreads heat around and softens the swing. Step from sun into shadow on the moon and there is nothing to soften it."
+ },
+ {
+  "id": "moon-11",
+  "section": "moon",
+  "cat": "home",
+  "kind": "found",
+  "text": "The bootprints Apollo left are still there. No wind, no rain, nothing to sweep them away. Only slow dusting from tiny impacts will wear them down. The Lunar Reconnaissance Orbiter has photographed the landing sites from orbit, and the tracks the crews walked and drove still show up."
+ },
+ {
+  "id": "moon-12",
+  "section": "moon",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "The moon is not only a night-time object. For most of the month it is up during daylight, pale blue-white against the blue sky. Most people never notice it, for the simple reason that they never look.",
+  "tryit": "In the week after a full moon, look west in the morning. In the week before a full moon, look east in the late afternoon. Find it in daylight once and you will start seeing it constantly."
+ },
+ {
+  "id": "moon-13",
+  "section": "moon",
+  "cat": "senses",
+  "kind": "found",
+  "text": "The worst time to look at craters is full moon. The sun is straight overhead there, nothing casts a shadow, and the surface looks flat and washed out. Along the terminator, the line dividing lit from unlit, the sun sits low and every crater rim throws a long shadow.",
+  "tryit": "Rest binoculars on a fence or a windowsill so they stop shaking, and look along the terminator a few nights after new moon. The craters stand up in relief. Look at the same craters at full moon and they nearly disappear."
+ },
+ {
+  "id": "moon-14",
+  "section": "moon",
+  "cat": "created",
+  "kind": "record",
+  "text": "Genesis puts the lesser light in charge of the night, set alongside the sun and the stars for signs and seasons. The moon does keep time. It runs from new to full and back to new in about 29 and a half days, and that is where the month came from."
+ },
+ {
+  "id": "rocky-1",
+  "section": "rocky",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Mercury is the closest planet to the sun and it is not the hottest. Venus is. Venus sits much farther out and still runs at roughly 870 °F (465 °C), hot enough to melt lead, because a thick blanket of carbon-dioxide air traps the heat. Mercury has almost no air at all.",
+  "more": "Venus's air is about 96% carbon dioxide. The pressure at the surface is around 93 times Earth's. That is the same squeeze you would feel about 3,000 feet under the ocean. Between the pressure and the heat, it is the most hostile surface any spacecraft has ever reached."
+ },
+ {
+  "id": "rocky-2",
+  "section": "rocky",
+  "cat": "home",
+  "kind": "found",
+  "text": "Mercury has the widest temperature swing of any planet. Where the sun strikes it is about 800 °F (430 °C). On the dark side it drops to about -290 °F (-180 °C). Mercury has essentially no atmosphere. Nothing carries heat from the lit side round to the unlit one."
+ },
+ {
+  "id": "rocky-3",
+  "section": "rocky",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Venus turns backwards, and it turns very slowly. One rotation takes 243 Earth days. One trip around the sun takes 225. Its day is longer than its year. If you could stand on the surface and see through the clouds, the sun would come up in the west."
+ },
+ {
+  "id": "rocky-4",
+  "section": "rocky",
+  "cat": "travel",
+  "kind": "found",
+  "text": "The Soviet lander Venera 13 reached the surface of Venus on 1 March 1982. It scraped up a soil sample and analyzed it. It sent home the first color photographs ever taken from the surface of another planet. It was built to survive about 30 minutes down there. It lasted 127.",
+  "more": "The photographs show flat orange rock under a sky the color of weak tea. Nothing has landed on Venus since, so those pictures are still the only color views anyone has of that surface."
+ },
+ {
+  "id": "rocky-5",
+  "section": "rocky",
+  "cat": "size",
+  "kind": "found",
+  "text": "Olympus Mons on Mars stands about 16 miles high (25 km). It spreads roughly 370 miles across (600 km), wide enough to cover Arizona. It is about three times the height of Everest. The slope is so broad and so gentle that standing on it, you might not realize you were on a mountain."
+ },
+ {
+  "id": "rocky-6",
+  "section": "rocky",
+  "cat": "record",
+  "kind": "found",
+  "text": "Voyager 1 was 3.7 billion miles out (6 billion km) on 14 February 1990. It turned its camera back toward home and photographed Earth. Earth came out smaller than a single pixel. It was a speck sitting in a band of scattered sunlight. Thirty-four minutes later the cameras were switched off for good.",
+  "more": "The picture was Carl Sagan's idea, and it took years of arguing to get it taken. Pointing the camera near the sun risked the instrument. The picture had no scientific value either. He called the result a pale blue dot. Everyone you have ever met is somewhere in that speck."
+ },
+ {
+  "id": "rocky-7",
+  "section": "rocky",
+  "cat": "home",
+  "kind": "found",
+  "text": "Nobody had photographed the whole Earth in a single frame until 7 December 1972, when the Apollo 17 crew, outbound to the moon, caught it lit from edge to edge. Africa and the Antarctic ice cap are both in the shot. It became one of the most reproduced photographs there has ever been."
+ },
+ {
+  "id": "rocky-8",
+  "section": "rocky",
+  "cat": "build",
+  "kind": "worked",
+  "text": "Nobody has been to the middle of the Earth. The deepest hole drilled, at Kola in Russia, went 40,230 feet down: 7.6 miles (12.3 km), under a fifth of one percent of the way. What gets said about the core is worked out from how earthquake waves bend, and where they refuse to travel.",
+  "more": "Certain earthquake waves cannot pass through liquid. There is a zone on the far side of the planet from a big quake where those waves simply never arrive. The shape of that shadow is the evidence for a liquid outer core. It is a conclusion drawn from a gap in the readings, and it should be said that way."
+ },
+ {
+  "id": "rocky-9",
+  "section": "rocky",
+  "cat": "senses",
+  "kind": "found",
+  "text": "Mars is rusty orange all day and then the sunset goes blue. Fine iron-rich dust in the thin air scatters blue light forward, so it bunches up around the sun while the rest of the sky stays butterscotch. Curiosity filmed it from Gale Crater on 15 April 2015.",
+  "more": "It is the exact reverse of Earth, where the sky is blue and the sunset is red. On a day when there is less dust aloft, the Martian blue is fainter, which is a neat check on the explanation: less dust, less effect."
+ },
+ {
+  "id": "rocky-10",
+  "section": "rocky",
+  "cat": "teamwork",
+  "kind": "found",
+  "text": "A small box called MOXIE rode on the Perseverance rover. Martian air is nearly all carbon dioxide, and MOXIE pulled oxygen out of it. It made about 4 ounces (122 grams) of oxygen across 16 runs. The last run finished on 7 August 2023, and the oxygen was at least 98% pure. A small amount, and it worked."
+ },
+ {
+  "id": "rocky-11",
+  "section": "rocky",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Mars has two small moons, both spotted by Asaph Hall in August 1877. Phobos goes round Mars in 7 hours 39 minutes, which is three times in a single Martian day. It laps the planet underneath it, so from the ground Phobos rises in the west and sets in the east."
+ },
+ {
+  "id": "rocky-12",
+  "section": "rocky",
+  "cat": "size",
+  "kind": "found",
+  "text": "Mercury is the smallest planet, 3,032 miles across (4,879 km). Two moons beat it. Ganymede, which goes round Jupiter, and Titan, which goes round Saturn, are both wider than Mercury is. Counting as a planet is about what you orbit, not about being big."
+ },
+ {
+  "id": "rocky-13",
+  "section": "rocky",
+  "cat": "travel",
+  "kind": "found",
+  "text": "Gravity on Mars pulls at about 38% of Earth's. A kid who weighs 70 pounds here would tip the scales at about 26 pounds there, and could jump getting on for three times as high. That pull is not guessed at: it is measured by watching orbiting spacecraft speed up and slow down."
+ },
+ {
+  "id": "rocky-14",
+  "section": "rocky",
+  "cat": "created",
+  "kind": "record",
+  "text": "Genesis has the lights in the sky set for signs and seasons. Venus keeps that appointment very plainly. It is the brightest thing in the sky after the sun and the moon. It hangs in the evening for months on end. Then it swaps over and does the same before dawn.",
+  "tryit": "Look low in the west just after sunset, or low in the east before dawn, depending on the month. Venus is the one that does not twinkle and outshines every star by a wide margin. A calendar or a stargazing app will tell you which half of the year you are in."
+ },
+ {
+  "id": "giants-1",
+  "section": "giants",
+  "cat": "size",
+  "kind": "found",
+  "text": "Jupiter is 88,846 miles across at the equator (142,984 km). That is eleven Earths side by side. It carries more than twice as much material as every other planet in the solar system put together. It also turns faster than any of them. One full rotation takes 9 hours 55 minutes.",
+  "more": "Spinning that fast has a visible effect. Jupiter is measurably squashed. Across the poles it is only 83,082 miles. That is about 5,800 miles narrower than across the equator. You can see the flattening in a decent telescope."
+ },
+ {
+  "id": "giants-2",
+  "section": "giants",
+  "cat": "weird",
+  "kind": "found",
+  "text": "The Great Red Spot is a storm people have measured, on and off, since the 1800s. Around 1879 its long axis came out near 24,000 miles. Hubble now measures about 10,250 miles. That is not a story about the distant past. It is a shrinking that happened while people watched.",
+  "more": "Amateur astronomers noticed the shrinking speeding up in 2012. Hubble now measures the spot every year. Nobody knows why it is shrinking. That it is shrinking is written down in numbers."
+ },
+ {
+  "id": "giants-3",
+  "section": "giants",
+  "cat": "size",
+  "kind": "found",
+  "text": "Saturn's rings reach out to about 175,000 miles from the planet (282,000 km) and are typically only around 30 feet thick (10 m). Cassini's instruments found them to be over 99% water ice. Seen exactly edge-on from Earth, something that wide thins out and all but vanishes."
+ },
+ {
+  "id": "giants-4",
+  "section": "giants",
+  "cat": "travel",
+  "kind": "found",
+  "text": "Cassini spent thirteen years at Saturn and was then destroyed on purpose. From April to September 2017 it made 22 weekly dives through the roughly 1,200-mile gap between the planet and the rings. On 15 September 2017 it flew into Saturn's atmosphere and burned up, so it could never crash into a moon.",
+  "more": "Saturn has moons where the conditions are worth protecting. So the mission was ended in a way that kept the spacecraft off them. It could not drift down onto one carrying Earth bacteria. It sent data all the way in. It stopped when its thrusters could no longer hold the antenna pointed at Earth."
+ },
+ {
+  "id": "giants-5",
+  "section": "giants",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Uranus is tipped over by about 98 degrees. It rolls around the sun on its side instead of spinning upright. Its rings circle its equator, so instead of lying flat like Saturn's they stand up, and from Earth they can look like a target aimed straight at you."
+ },
+ {
+  "id": "giants-6",
+  "section": "giants",
+  "cat": "record",
+  "kind": "record",
+  "text": "Neptune was found with a pencil before anyone looked. Uranus was not moving quite as it should, so Urbain Le Verrier worked out where an unseen planet would have to sit to tug it that way. On 23 September 1846 Johann Galle aimed a telescope there and found Neptune within one degree.",
+  "more": "John Couch Adams in England had been working on the same problem and got a similar answer. An international argument about credit followed. The sequence is not in dispute. The calculation came first. The telescope came second."
+ },
+ {
+  "id": "giants-7",
+  "section": "giants",
+  "cat": "record",
+  "kind": "record",
+  "text": "On 7 January 1610 Galileo pointed a homemade telescope at Jupiter and saw three little stars in a line beside it. On 13 January a fourth turned up. Night after night they shifted, and he concluded they were going round Jupiter. He published it in March 1610 and called them the Medicean Stars.",
+  "tryit": "Steady a pair of binoculars against a wall or a fence and look at Jupiter. Those same four moons show up as tiny points strung out in a line. Look again the next night and they will have moved. You are seeing exactly what Galileo saw."
+ },
+ {
+  "id": "giants-8",
+  "section": "giants",
+  "cat": "weird",
+  "kind": "found",
+  "text": "On 9 March 1979 Linda Morabito was checking a navigation photograph from Voyager 1. Those are the lowest-priority kind of image. She noticed an odd bulge off the edge of Jupiter's moon Io. It was a plume from an erupting volcano, about 170 miles tall. It was the first active volcano ever seen anywhere but Earth."
+ },
+ {
+  "id": "giants-9",
+  "section": "giants",
+  "cat": "build",
+  "kind": "worked",
+  "text": "Europa is wrapped in cracked ice, and something under that ice bends Jupiter's magnetic field in a way that fits a salty ocean. Nobody has drilled through. The ocean is a conclusion drawn from a magnetic reading and the pattern of the cracks. It has never been seen.",
+  "more": "Nobody has been to Europa's surface, let alone under it. A magnetic reading and a pattern of cracks are what there is. That is enough to make a salty ocean the best answer available, and not enough to call it a thing anyone has observed."
+ },
+ {
+  "id": "giants-10",
+  "section": "giants",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Saturn is the only planet lighter than water for its size. Its average density is 0.69 grams per cubic centimeter and water is 1, so given a big enough ocean it would float. Both halves of that sum are measured: its width from photographs, its mass from how it swings its moons."
+ },
+ {
+  "id": "giants-11",
+  "section": "giants",
+  "cat": "travel",
+  "kind": "found",
+  "text": "On 14 January 2005 the Huygens probe parachuted down through Titan's orange haze and landed. No spacecraft has ever landed farther from Earth. It kept transmitting for 72 minutes from the surface, sent back the sound of the wind, and photographed channels cut by flowing liquid. The liquid there is methane, not water."
+ },
+ {
+  "id": "giants-12",
+  "section": "giants",
+  "cat": "senses",
+  "kind": "found",
+  "text": "Enceladus is a small icy moon of Saturn with four long cracks near its south pole, nicknamed the tiger stripes. Jets of water vapor and ice grains fire out of them into space. Cassini flew straight through the spray and analysed it, which is a spacecraft tasting a moon without ever landing on it."
+ },
+ {
+  "id": "giants-13",
+  "section": "giants",
+  "cat": "speed",
+  "kind": "found",
+  "text": "Neptune receives a tiny fraction of the sunlight Earth does and still has the fastest winds anywhere in the solar system. Voyager 2 flew past on 25 August 1989 and clocked them near 1,200 miles per hour (2,000 km/h) around a storm called the Great Dark Spot. That spot has since disappeared."
+ },
+ {
+  "id": "giants-14",
+  "section": "giants",
+  "cat": "created",
+  "kind": "record",
+  "text": "Genesis has the lights set in the expanse for signs and seasons. Jupiter and Saturn are two of them, both bright enough to see without any equipment. On 21 December 2020 they came within a tenth of a degree of each other, a fifth of the moon's width, the closest since 1623."
+ }
+]

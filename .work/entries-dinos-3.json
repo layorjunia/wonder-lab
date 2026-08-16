@@ -1,0 +1,410 @@
+[
+ {
+  "id": "parasaurolophus",
+  "name": "Parasaurolophus",
+  "group": "dinosaurs",
+  "blurb": "A plant-eating dinosaur with a long hollow tube of bone curving back off the top of its skull.",
+  "size": "About 31 ft (9.5 m) nose to tail and around 11,000 lb.",
+  "homes": [
+   "freshwater",
+   "forest"
+  ],
+  "stats": {
+   "length": 31,
+   "weight": 11000
+  },
+  "wonder": "A head built as a wind instrument, tubes and all, and it worked the first time it was used.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "The first one found, catalogued ROM 768, came out of the ground along the Red Deer River in Alberta and was named by William Parks in 1922. Skull plus most of a skeleton. You can still go and look at it in the Royal Ontario Museum in Toronto.",
+    "more": "A University of Toronto field party collected it in 1920. Parks named it after Sir Byron Edmund Walker, who chaired the museum's board. Hence walkeri.",
+    "kind": "record"
+   },
+   {
+    "cat": "size",
+    "text": "That skull measures about 5 ft 3 in (1.6 m) long with the crest included. A skull of a second species, P. tubicen, dug up in New Mexico, is over 6 ft 7 in (2 m) — a head longer than most beds.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "The youngest one ever found is nicknamed Joe. A high school student, Kevin Terris, spotted it in southern Utah in 2009: a skeleton about 8 ft (2.5 m) long, probably under a year old. It is at the Raymond M. Alf Museum in California.",
+    "more": "Joe's skull is only about 10 in (246 mm) long, and its crest is a low bump rather than a tube. So the tube grew in as the animal grew up — a young Parasaurolophus did not look much like an adult one.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "The crest is hollow. A tube runs from each nostril all the way up to the tip, turns around, and comes back down into the skull. Several feet of looping airway, folded up inside a bone hat.",
+    "kind": "found"
+   },
+   {
+    "cat": "senses",
+    "text": "A nearly complete P. tubicen skull was found in New Mexico in 1995. It was run through a hospital CT scanner in Albuquerque, about 350 slices, 3 mm apart. A computer scientist at Sandia National Laboratories rebuilt the crest from those slices. Then he worked out what noise it made.",
+    "kind": "worked"
+   },
+   {
+    "cat": "weird",
+    "text": "An old idea said the crest was a snorkel for feeding with its head underwater. It cannot have been. There is no hole at the tip to let air in — the crest is a closed loop, not an open pipe.",
+    "kind": "worked"
+   },
+   {
+    "cat": "bones",
+    "text": "ROM 768 had a rough life. A close study of its bones found healed rib fractures, broken spines along its back, and a V-shaped notch in the backbone. The bone had knitted back together, so it lived on for months or years.",
+    "more": "One suggestion is that something heavy came down across its back, possibly a falling tree. The healing is the giveaway. Bone only repairs itself while the animal is still alive to repair it.",
+    "kind": "found"
+   },
+   {
+    "cat": "food",
+    "text": "Its jaws held hundreds of small teeth packed into solid grinding blocks. As the top ones wore flat, replacements pushed up from underneath, so the grinding surface never wore out.",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "The front legs are shorter than the back ones but sturdy. They end in a hoof-like hand. Work back from that build and you get an animal that could walk on two legs or drop onto all fours. It cropped low plants, then stood up to reach the higher ones.",
+    "kind": "worked"
+   },
+   {
+    "cat": "home",
+    "text": "Its bones come out of rock laid down by rivers and floodplains near an inland sea. That ground is now Alberta. Turtles, crocodiles and fish are mixed in with them.",
+    "kind": "found"
+   },
+   {
+    "cat": "created",
+    "text": "The crest only works finished. A tube that stops halfway up carries no note, and a skull with the loop but no airway carries nothing either. Every part of it — nostril, tube, turn, return — has to be there at once before a single sound comes out.",
+    "more": "That is a general problem with instruments. Half a trumpet is not a quieter trumpet, it is a piece of brass. The Parasaurolophus skull is the same: the parts have no use one at a time.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "They are not found alive anywhere now. Why not is worked out rather than dug up. The world after the Flood was colder, drier and harder than the one their bones came out of. People hunted the big ones. What is left is the skulls, and the accounts people wrote down while they still had something to describe.",
+    "kind": "record"
+   }
+  ]
+ },
+ {
+  "id": "pachycephalosaurus",
+  "name": "Pachycephalosaurus",
+  "group": "dinosaurs",
+  "blurb": "A two-legged plant-eater whose skull roof is a lump of solid bone almost nine inches thick.",
+  "size": "About 15 ft (4.5 m) long — a small car's length, and a lot of that is tail.",
+  "homes": [
+   "forest",
+   "freshwater"
+  ],
+  "stats": {
+   "length": 15,
+   "weight": 900
+  },
+  "wonder": "A skull built thick on purpose, in an animal that never had to design or test it.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "The dome on top of the head is solid bone up to 8.7 in (22 cm) thick — thicker than a brick is long. Around and behind it sits a fringe of bony knobs and short spikes.",
+    "more": "The name means thick-headed lizard, and it is the largest of the whole bone-headed group. Everything in that group has a reinforced skull roof; this one has the extreme version.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "The first named piece, USNM 12031, is a partial skull found by George Sternberg in Wyoming in 1930. It sits in the National Museum of Natural History in Washington. A better skull, AMNH 1696, is at the American Museum of Natural History in New York.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "Almost everything known is head. Complete skeletons are rare. The likeliest reason is the dome itself. It was thick enough to be knocked about in a river and still come through. Thin body bones broke up and washed away.",
+    "kind": "worked"
+   },
+   {
+    "cat": "defence",
+    "text": "Whether they actually rammed heads is argued about. One survey of domes found that about 22 in every 100 carried bone damage of the kind that follows an injury and infection. A single specimen had 23 separate damaged spots.",
+    "more": "That is a high rate of head injuries for an animal that supposedly only used the dome for show. It does not prove head-on ramming, but it does mean the domes were taking real hits.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "The neck bones show the neck was carried in an S or U curve rather than straight out. That is one reason some argue a full head-on crash would not work, and that they shoved each other's flanks instead.",
+    "kind": "worked"
+   },
+   {
+    "cat": "weird",
+    "text": "A spiky, flat-headed skull from South Dakota was named Dracorex hogwartsia, dragon king of Hogwarts. It is at the Children's Museum of Indianapolis. Line the skulls up by size, though, and it looks like simply a young Pachycephalosaurus. That is before the dome swelled up.",
+    "more": "Named in 2006 by Bob Bakker and Robert Sullivan. The idea is that youngsters had flat skulls with long spikes; as they grew, the spikes shrank and rounded off while the dome grew in. Stygimoloch may be the in-between stage.",
+    "kind": "record"
+   },
+   {
+    "cat": "food",
+    "text": "Its teeth are tiny, with leaf-shaped crowns and serrated edges — the shape of a plant-shredder. Oddly, some of the front teeth are sharp and blade-like, more like a meat-eater's, so it may not have been fussy.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "Long back legs, short arms, and a tail stiffened by a basket of bony rods so it stuck out straight behind. Whatever the head was for, those long legs and stiff, straight tail add up to a runner's build.",
+    "kind": "worked"
+   },
+   {
+    "cat": "home",
+    "text": "Its bones come out of the Hell Creek and Lance rocks of Montana, Wyoming and the Dakotas. Those are river floodplains and forest, the same beds that give up Tyrannosaurus and Triceratops.",
+    "kind": "found"
+   },
+   {
+    "cat": "size",
+    "text": "For all the fuss about the head, the animal itself was not huge: roughly 820 to 990 lb (370 to 450 kg). Nobody ever weighed one - that number comes from scaled drawings of the skeleton, and body bones turn up so rarely it stays a rough guess.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "Chinese dragon lore puts a lump on top of the dragon's skull. It is the chimu, hill-shaped, and without it the dragon cannot rise. Pachycephalosaurus carried 8.7 in (22 cm) of solid bone in that spot. It was ringed with knobs and short spikes.",
+    "more": "The detail is written down in an old Chinese miscellany called the Youyang Zazu. It lists dragon parts the way you would list an animal's. Where each one sits. What it looks like. What it is for.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "Work forward from the Flood, and the world it left is colder, drier and much poorer in the soft growth those tiny shredding teeth needed. A pony-weight plant-eater is also about the size people hunt. What outlasted them is the dome, thick enough to come through a river intact.",
+    "more": "The Hell Creek and Lance beds preserve river floodplain and forest, wet and thick with plants. Follow that through. Not much of the world came back like that once the water went down. An animal built to run through cover does poorly where there is no cover.",
+    "kind": "worked"
+   }
+  ]
+ },
+ {
+  "id": "iguanodon",
+  "name": "Iguanodon",
+  "group": "dinosaurs",
+  "blurb": "A big plant-eater with a spike where its thumb should be, and one of the very first dinosaurs ever named.",
+  "size": "Around 30 ft (9 m) long — about seven nine-year-olds lying head to toe.",
+  "homes": [
+   "freshwater",
+   "forest"
+  ],
+  "stats": {
+   "length": 30,
+   "weight": 7000
+  },
+  "wonder": "A hand with a spike, three hooves and a grasping finger — three tools on one limb, and no spare parts.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "Gideon Mantell got hold of some huge worn teeth from a Sussex quarry. They looked like an iguana's teeth, only about twenty times bigger. He named the animal Iguanodon, iguana tooth, in 1825.",
+    "more": "The Royal Society brushed the teeth off at first. Georges Cuvier in Paris eventually agreed they were reptile teeth. Samuel Stutchbury made the iguana match, after preparing an actual iguana. He was an assistant at the Royal College of Surgeons.",
+    "kind": "record"
+   },
+   {
+    "cat": "weird",
+    "text": "Mantell had a cone-shaped spike bone and no idea where it belonged, so he stuck it on the nose like a rhino's horn. It is a thumb. Reconstructions carried that wrong nose horn for decades before anyone sorted it out.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "The slab turned up because quarry workers blew up a lump of rock with explosives. Maidstone liked the connection enough to put an Iguanodon on the town's coat of arms in 1949. Better skeletons have been found since. Comparing them has moved the animal to a close cousin of Iguanodon rather than Iguanodon itself.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "In 1878 miners at a coal pit in Bernissart, Belgium hit bones 1,056 ft (322 m) underground. At least 38 individuals came out of that hole. Nine stand mounted at the Royal Belgian Institute of Natural Sciences in Brussels; nineteen more are kept in the basement.",
+    "more": "Louis Dollo spent years reconstructing them. The first mount went on show in 1882. It was one of the earliest dinosaur skeletons ever put up for the public to walk around.",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "The thumb spike is a solid cone of bone, somewhere between 2 and 6 in long depending on the animal, set at a right angle to the other fingers. What it was for is still argued: defense, or splitting open tough plants.",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "The hand looks built to do three jobs at once. Three middle fingers end in blunt hooves, the thumb is the spike, and the little finger is long and bendy with an extra bone in it. Read off those shapes, the hooves are for walking on and the bendy finger for hooking branches.",
+    "kind": "worked"
+   },
+   {
+    "cat": "weird",
+    "text": "On New Year's Eve in 1853 the Crystal Palace Iguanodon statue was not yet finished. Its sculptor held an eight-course dinner inside the mold. Twenty-one guests came and eleven fitted inside. Richard Owen sat at the head of the table, in the skull.",
+    "more": "The statue was based on the nose-horn reconstruction, so the concrete Iguanodon at Crystal Palace still has a horn on its snout today. It is wrong, and it is a listed monument, so it stays.",
+    "kind": "record"
+   },
+   {
+    "cat": "build",
+    "text": "For a long time it was mounted upright, propped on its tail like a kangaroo. Line that pose up against the Bernissart skeletons and it does not hold: the back comes out roughly level, with the tail out straight behind as a counterweight.",
+    "kind": "worked"
+   },
+   {
+    "cat": "food",
+    "text": "Rows of teeth in each jaw ground against each other, and worn ones were replaced from below. At the front was a toothless bony beak. A cropping beak in front of grinding teeth is what points to a diet of plants — snip at the front, grind at the back.",
+    "kind": "worked"
+   },
+   {
+    "cat": "home",
+    "text": "The Bernissart animals ended up in a deep natural pit in the rock that later filled with clay. The ferns, horsetails and conifers found with them are what make the surrounding landscape a low, wet one.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "In Genesis the first man is brought the animals to name, and people never stopped. Gideon Mantell had nothing but worn teeth from a Sussex quarry. They were the same shape as an iguana's and about twenty times the size. So he called the animal Iguanodon, iguana tooth.",
+    "more": "Samuel Stutchbury made the iguana match, having just prepared one. The rest of the animal turned up looking nothing like a lizard. Hooved fingers. A cropping beak. A spike where the thumb should be. The name held anyway. A name given once tends to stay put.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "The hand was finished work from the start. Three middle fingers end in blunt hooves. The thumb is a solid cone of a spike, set at a right angle. The little finger is long and bendy, with an extra bone in it. Read those shapes and the jobs come out. One limb, three jobs.",
+    "kind": "record"
+   }
+  ]
+ },
+ {
+  "id": "argentinosaurus",
+  "name": "Argentinosaurus",
+  "group": "dinosaurs",
+  "blurb": "An enormous long-necked plant-eater from Argentina. It is known from only a handful of gigantic bones.",
+  "size": "Somewhere between 98 and 130 ft (30 to 40 m) long — longer than a tennis court, worked out from the few bones that were found.",
+  "homes": [
+   "freshwater",
+   "forest"
+  ],
+  "stats": {
+   "length": 115,
+   "weight": 165000
+  },
+  "wonder": "Something that big had to be engineered, not merely grown — every bone hollowed exactly where the weight could be spared.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "A rancher named Guillermo Heredia found the first bone on his land near Plaza Huincul, Argentina, in 1987. He took it for a petrified log. José Bonaparte led the proper dig in 1989.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "What was actually dug up is not much. Seven back vertebrae. The underside of the hip block with some of its ribs. Part of a rib, plus a separate lower leg bone. No skull. No neck bones. No tail.",
+    "more": "Everything else about this animal is worked out by scaling up from close kin. Those kin have more complete skeletons. That is why the length estimates disagree so widely. Different scientists pick different relatives to scale from.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "One of those back vertebrae is incomplete, so its full height had to be reconstructed: about 5 ft 3 in (159 cm) tall and 4 ft 3 in (129 cm) wide. The lower leg bone is 5 ft 1 in (155 cm) long — taller than the person reading this.",
+    "kind": "found"
+   },
+   {
+    "cat": "record",
+    "text": "The original bones, catalogued MCF-PVPH 1, are at the Museo Carmen Funes in Plaza Huincul. The full skeleton standing there is a sculpted reconstruction, start to finish. The real fossil pieces sit in the same room, off to the side — a handful of them, each one enormous.",
+    "kind": "found"
+   },
+   {
+    "cat": "size",
+    "text": "Weight estimates run from about 130,000 to 210,000 lb (60 to 95 metric tons) depending on the method used. Every one of them is calculated from bone measurements. Nobody ever put this animal on a scale.",
+    "kind": "worked"
+   },
+   {
+    "cat": "speed",
+    "text": "A team at the University of Manchester laser-scanned the mounted skeleton. They ran a walking simulation on a supercomputer. Their model topped out at about 5 mph (8 km/h). That is a brisk walk for a person, and a full effort for it.",
+    "kind": "worked"
+   },
+   {
+    "cat": "babies",
+    "text": "It started small. That comes from its close kin, not from its own nest. A titanosaur nesting ground at Auca Mahuevo, elsewhere in Argentina, is full of eggs. They average about 5 in (13 cm) across. Thousands have been found there, laid in shallow pits scooped out of the ground. Whole layers of them are stacked one above another.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "The backbone is riddled with air spaces. The vertebrae are honeycombed with hollows. Work out the load on those legs and that hollowing is what kept a skeleton this large light enough to carry.",
+    "kind": "found"
+   },
+   {
+    "cat": "food",
+    "text": "With no skull dug up, its feeding is worked out from close kin: it ate plants and did not chew. Teeth cropped leaves off, everything went down whole, and the breaking-down happened slowly in an enormous gut.",
+    "kind": "worked"
+   },
+   {
+    "cat": "home",
+    "text": "Its bones come out of the Huincul rocks of Patagonia. Read from the rock those bones sit in, the place was a warm, fairly dry landscape crossed by winding rivers.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "The book of Job describes behemoth. It eats grass like an ox. It moves its tail like a cedar. Its bones are like tubes of bronze. Read off its close kin and Argentinosaurus cropped leaves and swallowed them whole. Its own vertebrae are honeycombed with air. That is a long-necked plant-eater, described by someone who had seen one.",
+    "more": "Job puts behemoth's limbs at bars of iron. The single lower leg bone dug up near Plaza Huincul is a fibula — the thinner of the two lower leg bones — and it runs 5 ft 1 in (155 cm). Bars of iron is not an exaggeration.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "Babylon's Ishtar Gate carries rows of a dragon called the mushhushshu. It is scaly and four-footed, with a small head, a long neck and a longer tail. It walks between rows of wild bulls that everyone in the city knew on sight. That neck and tail are the exact parts of Argentinosaurus nobody has dug up.",
+    "more": "It is not a portrait — the carved beast has a horn and a forked tongue. But Babylon's artists set it in rows beside bulls they saw every day, and gave it a long neck, four legs and a heavy tail. A rebuilt section stands in Berlin's Pergamon Museum.",
+    "kind": "record"
+   }
+  ]
+ },
+ {
+  "id": "giganotosaurus",
+  "name": "Giganotosaurus",
+  "group": "dinosaurs",
+  "blurb": "A huge meat-eating dinosaur from Argentina. An amateur out driving a dune buggy found it.",
+  "size": "About 43 ft (13 m) long, with a skull roughly 6 ft (1.8 m) — a head taller than a grown man.",
+  "homes": [
+   "desert",
+   "freshwater"
+  ],
+  "stats": {
+   "length": 43,
+   "weight": 15000
+  },
+  "wonder": "Teeth shaped like blades, set in a head shaped to swing them — a matched set, made together.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "Rubén Carolini was out in a dune buggy near Villa El Chocón, Argentina, in 1993 when he spotted a leg bone weathering out of the ground. The species name carolinii is after him. The skeleton, MUCPv-Ch1, is at the Ernesto Bachmann museum in that same town.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "Roughly 70 out of every 100 bones of the skeleton were there. Most of the backbone. The shoulder and hip girdles. Both thigh bones, and the left shin and calf bone. That is unusually complete for a giant meat-eater.",
+    "more": "Big predators are rare fossils to begin with. The reason lines up with animals alive now. Hunters are far outnumbered by the plant-eaters they hunt, so there were fewer of them to bury. Getting most of one in a single spot is a genuinely lucky find.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "A second individual is known from a lower jaw bone, catalogued MUCPv-95. It is 24 in (62 cm) long — about 8 per cent bigger than the same bone in the first skeleton.",
+    "kind": "found"
+   },
+   {
+    "cat": "record",
+    "text": "Its thigh bone is 2 in (5 cm) longer than the thigh bone of Sue, the largest Tyrannosaurus, which stands in the Field Museum in Chicago. Longer leg, though, is not the same as bigger animal.",
+    "kind": "found"
+   },
+   {
+    "cat": "size",
+    "text": "It gets shown as flatly bigger than Tyrannosaurus. Put a tape on the two skulls, though, and they come out about the same size. Weight is a different question — nobody has weighed either animal, and the figures worked out from their bones make T. rex the heavier of the two, with Giganotosaurus a bit longer and rather leaner.",
+    "kind": "worked"
+   },
+   {
+    "cat": "food",
+    "text": "Its teeth are flattened side to side, oval in cross-section, with saw edges front and back - nine to twelve serrations per millimeter. That is a slicing blade, not a bone-crushing peg; you can read the job off the shape.",
+    "kind": "worked"
+   },
+   {
+    "cat": "senses",
+    "text": "Its braincase has been scanned and modelled. The space the brain sat in holds about 275 millilitres, a little less than a soda can, in a long narrow shape rather than a round one.",
+    "kind": "found"
+   },
+   {
+    "cat": "speed",
+    "text": "One study worked out an upper running speed of about 31 mph (50 km/h) from the leg bones and how much muscle they could have carried. That is a calculation from bones, not a stopwatch reading.",
+    "kind": "worked"
+   },
+   {
+    "cat": "teamwork",
+    "text": "A close relative called Mapusaurus turned up in a bone bed in the same part of Argentina. At least seven individuals of different sizes were jumbled together. Some read that as a group that traveled together. Others say bodies simply piled up in one spot over time.",
+    "kind": "worked"
+   },
+   {
+    "cat": "home",
+    "text": "The sand layers it was buried in, the Candeleros beds, are the kind left by braided rivers and by dune fields. Read together, they give a sandy, half-desert landscape — dry country with water running through it.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "God brought the kinds to Noah; Noah did not go out collecting them. A grown Giganotosaurus was 43 ft long, and the weight worked out from its bones comes to about 15,000 lb. But a kind can board young. The thigh bone that outmeasures Sue's, and the 6 ft skull, grew to size afterwards.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "Adam's first task in Genesis was naming animals, and the naming never stopped. Ruben Carolini spotted a leg bone weathering out of the ground in Argentina. The skeleton ended up with three names. Giganotosaurus, giant southern lizard. Carolinii, after him. And a number on the museum label.",
+    "more": "Carolini was not a paleontologist. He was out driving a dune buggy. The bone he noticed belonged to a skeleton about 70 per cent complete, and a man's own name now sits on the species he happened to drive past.",
+    "kind": "record"
+   }
+  ]
+ }
+]

@@ -1,0 +1,414 @@
+[
+ {
+  "id": "oviraptor",
+  "name": "Oviraptor",
+  "group": "dinosaurs",
+  "blurb": "A parrot-beaked dinosaur, roughly ostrich-sized. It was named egg thief by mistake and later cleared.",
+  "size": "About 6 ft (2 m) from beak to tail tip and around 80 lb (36 kg) — a big dog's weight stretched out on an ostrich's frame.",
+  "homes": [
+   "desert"
+  ],
+  "stats": {
+   "length": 6,
+   "weight": 80
+  },
+  "wonder": "A beak strong enough to crush hard food and arms wide enough to shelter a nest, fitted to the same animal on purpose.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "Oviraptor is known from a single partial skeleton, AMNH 6517, dug up at the Flaming Cliffs in Mongolia in 1923 and named by Henry Fairfield Osborn in 1924. The American Museum of Natural History in New York still holds it. No second skeleton has ever turned up.",
+    "more": "The skull is badly crushed and missing its back end. What survives measures about 7 in (17.9 cm). Rough patches on the roof bones show a tall crest once sat up there, but the crushing means nobody can say exactly what shape it was.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "The skeleton was lying on a nest of about fifteen eggs, catalogued separately as AMNH 6508. Each egg is roughly 5.5 in (14 cm) long. Oviraptorid nests like it are laid out as a ring of paired eggs, not a random pile.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "The name means \"egg thief.\" Osborn chose it because he thought the animal had died raiding a Protoceratops nest. In the same paper he warned that the name might turn out to be wrong. It was.",
+    "more": "He went further and made the species name philoceratops, \"lover of ceratopsians\". It was a joke about a taste for Protoceratops eggs. Both halves of the name record a mistake. The rules of animal naming mean it can never be swapped for a better one.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "In 1993 an expedition to Ukhaa Tolgod in Mongolia found an egg of the same type. A tiny skeleton was still inside it, specimen IGM 100/971. The skeleton was an unhatched oviraptorid, not a Protoceratops. Match the shell type across the two sites. The Flaming Cliffs eggs had been oviraptor eggs all along.",
+    "kind": "found"
+   },
+   {
+    "cat": "babies",
+    "text": "Close relatives have been dug up crouched on top of their nests, arms folded back over the eggs the way a hen covers a clutch. The best known is IGM 100/979, nicknamed Big Mama — a cousin called Citipati, buried in that pose. Nobody watched the sitting; it is worked out from the way the bones lie.",
+    "more": "Line those two ideas up and the story flips completely. The best reading of the Flaming Cliffs skeleton is no longer an animal eating the eggs but one sitting on them. A hundred textbooks had to be corrected, and the mistaken name stayed. Being wrong in public is how the correction got made.",
+    "kind": "worked"
+   },
+   {
+    "cat": "food",
+    "text": "A 1995 report found the broken-up remains of a lizard inside the holotype's body cavity. That is where the stomach had been. So Oviraptor did eat meat. Just not eggs, on the evidence anybody has.",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "No teeth anywhere. The jaws ended in a deep, hooked beak of horn, closer to a parrot's than a lizard's, and that depth and hook point to crushing rather than slicing. The hands carried three fingers, each tipped with a curved claw flattened side to side.",
+    "kind": "found"
+   },
+   {
+    "cat": "babies",
+    "text": "One idea is that the pairing is also how the nest got built. The mother stood in the middle and turned as she worked. She added a pair at each stop until the ring closed. Crocodiles have two tubes as well. Each of theirs sends several eggs at a time rather than one.",
+    "more": "That pairing may also be how the nest got built. One idea is that the mother stood in the middle and turned as she worked, adding a pair at each stop until the ring closed. Crocodiles have two tubes as well, but each of theirs sends several eggs at a time rather than one.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "A toothless crushing beak, and a nest of about fifteen eggs set out in a ring. Oviraptor was a land animal, made on day six of the creation week. That is the same day as the people who could have stood and watched it at that nest.",
+    "more": "A crushed lizard sat in the holotype's body cavity, where the stomach had been, so this was a meat-eater with no teeth anywhere. The beak had to do the whole job, and it was there from the day the land animals were made.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "Oviraptor's own crest is known only from rough patches on the skull roof of AMNH 6517. Crests differ across its close look-alikes, Citipati included. The toothless horn beak, three clawed fingers and fused tail fan hold steady. Read that pattern across the group. It comes out as one created kind reshuffling what it already had.",
+    "more": "The ring-of-paired-eggs nest layout turns up right across the group, from the Flaming Cliffs clutch of about fifteen to Big Mama's at Ukhaa Tolgod. Same habit, same body plan, different crests and sizes. That is what variation inside one kind looks like.",
+    "kind": "worked"
+   },
+   {
+    "cat": "home",
+    "text": "The Flaming Cliffs are red sandstone in the Gobi Desert, old dune sand. Skeletons there often come out whole and still articulated, in lifelike poses. That points to sand arriving faster than the animal could get out of it.",
+    "kind": "found"
+   },
+   {
+    "cat": "record",
+    "text": "The 1923 Mongolian finds are the ones that made dinosaur eggs famous around the world. They were announced as Protoceratops eggs. They stayed labeled that way for about seventy years. Then the embryo inside one settled the question.",
+    "kind": "record"
+   }
+  ]
+ },
+ {
+  "id": "gallimimus",
+  "name": "Gallimimus",
+  "group": "dinosaurs",
+  "blurb": "A long-legged, completely toothless runner, built like an ostrich with a tail added. It is the largest ostrich-mimic dinosaur known from good skeletons.",
+  "size": "About 20 ft (6 m) long, with the hips a little over 6 ft (1.9 m) off the ground — a grown-up could stand underneath them.",
+  "homes": [
+   "freshwater",
+   "forest"
+  ],
+  "stats": {
+   "length": 20,
+   "weight": 1000
+  },
+  "wonder": "Short thigh, long shin, long foot — the leg is arranged for one job, and it came arranged that way.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "Gallimimus was named in 1972 by Halszka Osmólska, Ewa Roniewicz and Rinchen Barsbold. Polish-Mongolian expeditions collected the material in the Gobi Desert in the 1960s. The holotype is IGM 100/11. Its skull measures about 13 in (330 mm) and its thigh bone 26 in (660 mm).",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "It is known from many individuals at different sizes. Young ones stand about 1.5 ft (0.5 m) at the hip. Adults reach near 6 ft (1.9 m) at the hip. Having both ends of the growth range from one region is unusual and very useful.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "One skull, IGM 100/1133, kept part of its horny beak. Inside the upper beak run fine vertical ridges, like the comb of plates inside a duck's bill. That is a beak preserved, not a beak guessed at.",
+    "kind": "found"
+   },
+   {
+    "cat": "food",
+    "text": "Those ridges made researchers wonder whether Gallimimus strained food out of water the way a duck does. Paul Barrett looked again and argued the ridges suit cropping and shearing tough plants instead. The argument is still open; both sides are reading the same beak.",
+    "more": "This is normal science, not a scandal. One team saw duck-like plates and proposed filter feeding. Another measured them, compared them with more living birds, and got a different answer. Nobody faked anything — the beak is simply hard to read, and it is the only one anybody has.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "No teeth at all. The name means \"chicken mimic,\" chosen because the neck bones reminded the team of a chicken's, not because of its size. The second half, bullatus, refers to a hollow bulb of bone at the base of the skull, named after a locket Roman boys wore.",
+    "kind": "record"
+   },
+   {
+    "cat": "speed",
+    "text": "Nobody has ever timed a Gallimimus. The often-quoted 26–35 mph (42–56 km/h) comes from comparing the proportions of its leg bones with living runners, not from trackways. Treat it as reasoning from bones, not a stopwatch reading.",
+    "kind": "worked"
+   },
+   {
+    "cat": "senses",
+    "text": "The eyes were large and set high on the sides of the head. That layout points to an animal catching movement all around it rather than judging distance straight ahead — good for spotting something coming, less good for aiming at it.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "Three fingers on each hand, all about the same length, tipped with curved claws. Measured against its relatives, Gallimimus had the shortest hands for its body size. The arms were not the point of this animal. The legs were.",
+    "kind": "found"
+   },
+   {
+    "cat": "home",
+    "text": "Gallimimus comes out of the Nemegt Formation in Mongolia — river channel sand and floodplain mud. That is different ground from the dune sand at the Flaming Cliffs, even though both are in the same country.",
+    "kind": "found"
+   },
+   {
+    "cat": "created",
+    "text": "Medieval English bestiaries and church carvings show the cockatrice — a cock-headed creature on two long legs with a long tail behind. The King James translators used the word in Isaiah. Gallimimus means chicken mimic: toothless beak, hips over 6 ft off the ground, tail trailing.",
+    "more": "The carvings differ in the details, but the pairing holds: bird at the front, reptile behind. That is a strange thing to keep inventing and a simple thing to describe if a man had watched a toothless, long-shinned runner cross open ground.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "The Nemegt rock that holds Gallimimus is river-channel sand and floodplain mud. That same ground is Gobi desert now. Put those together and one idea follows. A toothless animal with the shortest hands among its relatives had running and nothing else. A herd out on open, drying floodplain would be easy for hunters to track.",
+    "more": "Speed answers one predator at a time. It does not answer water pulling back into a few channels, or people who work in groups and simply wait where the herd has to come to drink.",
+    "kind": "worked"
+   },
+   {
+    "cat": "copied",
+    "text": "The stampeding Gallimimus herd in the movie was one of the first crowds of computer-made animals ever put on screen. The shape they animated is close to the real skeleton.",
+    "kind": "record"
+   }
+  ]
+ },
+ {
+  "id": "dilophosaurus",
+  "name": "Dilophosaurus",
+  "group": "dinosaurs",
+  "blurb": "A 20-ft meat-eater carrying two thin bony crests along the top of its skull. It is nothing like the small, frilled, venom-spitting version in the film.",
+  "size": "The best skeleton measures 19 ft 9 in (6.03 m) nose to tail. The largest individual known reaches about 23 ft (7 m).",
+  "homes": [
+   "freshwater",
+   "desert"
+  ],
+  "stats": {
+   "length": 20,
+   "weight": 620
+  },
+  "wonder": "Two thin crests, no use in a fight and a cost to carry, on a head that already worked — some things are made to be looked at.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "A Navajo man named Jesse Williams found the bones in northern Arizona in 1940. He led Charles Camp's crew to them in 1942. The holotype, UCMP 37302, is at the University of California Museum of Paleontology. Samuel Welles named the species wetherilli in 1954.",
+    "more": "Welles first filed it under Megalosaurus. That was a catch-all name for large meat-eaters from all over the world. Then a better specimen showed the twin crests clearly. Only in 1970 did he give it a genus of its own. Dilophosaurus means \"two-crested lizard.\"",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "Only one specimen, UCMP 77270, preserves much of the crests. They are thin plates of bone standing up along the top of the snout, arched like a pair of sails. Bone that thin snaps, so they could never have been used to hit anything.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "The holotype had been badly hurt. Phil Senter and Sara Juengst counted injuries in eight bones of its shoulders and arms in 2016. A cracked shoulder blade. A bent forearm. An infected bone. Three lumps on one arm. All partly healed.",
+    "more": "That is the highest number of forelimb injuries recorded in any meat-eating dinosaur. Bone heals slowly and leaves a record while it does. The pattern says this animal survived a very bad stretch, months at least, with arms it could not use properly.",
+    "kind": "found"
+   },
+   {
+    "cat": "copied",
+    "text": "The film Jurassic Park gave Dilophosaurus a fan-shaped neck frill and venom it spat into people's eyes. Neither shows up in any fossil. Both were invented for the film, and the film's animal was shrunk well below the real size.",
+    "kind": "record"
+   },
+   {
+    "cat": "weird",
+    "text": "Nobody knows what the crests were for. They are too thin for fighting, they carry no muscle, and they sit on top of the head where the animal itself could never see them. That points at being seen rather than doing.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "There is a notch in the upper jaw just behind the front teeth, called the subnarial gap, with a matching break in the tooth row. The front teeth jut ahead of it. It is the easiest way to recognize this skull at a glance.",
+    "kind": "found"
+   },
+   {
+    "cat": "food",
+    "text": "Counted straight off the skull: four teeth in each premaxilla at the front, twelve in each maxilla behind it, seventeen in each side of the lower jaw. The teeth are long, thin and curved backwards, with more than thirty fine saw-teeth along the front edge.",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "The 2020 redescription by Adam Marsh and Timothy Rowe found pockets of air running through the skull bones and the backbone, the same lightening trick a bird's skeleton uses. A large head that weighs less than it looks is easier to swing.",
+    "kind": "found"
+   },
+   {
+    "cat": "record",
+    "text": "At the St. George Dinosaur Discovery Site in Utah there is a resting trace, SGDS 18.T1, where a big meat-eater sat down and left tail, foot and hand marks. The hands faced inward, palms toward each other. No name comes with a track, so what it says about Dilophosaurus is read across from a similar animal.",
+    "kind": "worked"
+   },
+   {
+    "cat": "home",
+    "text": "The bones come from the Kayenta Formation in northern Arizona. The spot is about 20 miles (32 km) north of Cameron, near Tuba City. The rock there was laid down by rivers and streams running through otherwise dry country.",
+    "kind": "found"
+   },
+   {
+    "cat": "created",
+    "text": "In Genesis the first man is brought the animals to name, and the job never ended. Samuel Welles first filed these bones under Megalosaurus, a catch-all for big meat-eaters. Then a better skull showed the twin crests. He renamed the animal Dilophosaurus, two-crested lizard.",
+    "more": "A Navajo man, Jesse Williams, found the bones in northern Arizona. He led Charles Camp's crew to them. Names get corrected as people look harder. The one that stuck describes what is actually there. Two ridges of bone standing along the snout.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "It walked, so it belongs to day six with the other land animals. It arrived complete. Backward-curving teeth for meat. A notch in the upper jaw behind the four front teeth. Two thin bone crests arched like sails. They were thin enough from the start that they could never have served in a fight.",
+    "more": "Marsh and Rowe found pockets of air running through the skull bones and the backbone, the same lightening trick a bird's skeleton uses. A head that size weighs less than it looks and swings more easily, so the crests cost less to carry than their span suggests.",
+    "kind": "record"
+   }
+  ]
+ },
+ {
+  "id": "styracosaurus",
+  "name": "Styracosaurus",
+  "group": "dinosaurs",
+  "blurb": "A rhino-sized horned dinosaur with one long nose horn. Its bony neck frill is rimmed with a crown of spikes.",
+  "size": "About 18 ft (5.5 m) long and somewhere near 4,000–6,000 lb (1.8–2.7 tonnes), worked out from the skeleton — a white rhinoceros wearing a spiked collar.",
+  "homes": [
+   "forest",
+   "freshwater"
+  ],
+  "stats": {
+   "length": 18,
+   "weight": 5000
+  },
+  "wonder": "Nothing on that frill helps the animal eat, run or hide. It is decoration — and decoration means somebody had an eye for it.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "Charles H. Sternberg collected the type skull along the Red Deer River in Alberta in 1913, and Lawrence Lambe named Styracosaurus albertensis from it the same year. It is catalogued as CMN 344 at the Canadian Museum of Nature.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "The rest of that same animal stayed in the ground until 1935. Sternberg's son Levi went back to the quarry with a Royal Ontario Museum crew. They took out the lower jaw and most of the skeleton. Head and body, dug up 22 years apart.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "The nose horn measures about 22 in (57 cm). Four to six spikes stand out from the rim of the frill, and the four longest run 20–22 in (50–55 cm). Those are measurements off actual bone, not reconstruction.",
+    "kind": "found"
+   },
+   {
+    "cat": "defence",
+    "text": "The spikes point up and back, away from whatever is standing in front of the animal. That is an awkward layout for stabbing anything. Reading backwards from the direction they face, the frill comes out as something built to be looked at — a signal, not a shield.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "The frill is not a slab of solid bone. Two large windows open right through it. That leaves a bony frame, which would have been covered over with skin in life. It is enormous to look at and far lighter than it appears.",
+    "kind": "found"
+   },
+   {
+    "cat": "teamwork",
+    "text": "Bonebed 42 in Dinosaur Provincial Park, Alberta, is packed with Styracosaurus pieces. Nose horns, jaws, frill fragments. Counting the horn cores gives at least ten adults in one spot. Ten animals stacked into one bed reads as a group that went down together. It does not read as one animal at a time.",
+    "more": "From 46 square meters of the bed, diggers pulled 373 bones, about eight per square meter. Over half the material is horned dinosaur. A herd caught trying to cross a river in flood is the usual explanation for a bed built like this.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "A skull found in Alberta is nicknamed Hannah, UALVP 55900, and it is lopsided. Seven spikes run along the right side of the frill and eight along the left. Several are different sizes and point different ways. Real animals are not symmetrical the way drawings are.",
+    "more": "Robert Holmes and colleagues described it in 2019. Hannah stretched the known range of Styracosaurus a long way. A second animal, once named Rubeosaurus, now looks like nothing more than a Styracosaurus with an unusual frill. One skull deleted a whole genus.",
+    "kind": "found"
+   },
+   {
+    "cat": "babies",
+    "text": "A young Styracosaurus has small bumps where an adult has a 22-in horn. Setting small skulls beside big ones is how the horn and the spikes are known to have grown in with age — nobody watched one grow up. It is also one reason young horned dinosaurs have sometimes been named as separate species by mistake.",
+    "kind": "worked"
+   },
+   {
+    "cat": "food",
+    "text": "The front of the mouth is a narrow, toothless hook shaped like a parrot's beak; further back sit tightly packed rows of teeth. Shapes like that do the cropping at the front and the cutting and grinding behind, going by animals that eat plants today. One head, two tools, arranged front to back.",
+    "kind": "worked"
+   },
+   {
+    "cat": "home",
+    "text": "The bones come out of the Dinosaur Park Formation in Alberta. The rock around them is river channel sand and floodplain mud. That is what the landscape is read from. Low, wet, wooded country, not far from a shoreline.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "Behemoth in Job moves a tail like a cedar; leviathan belongs to the sea. Styracosaurus is neither. It runs 18 ft long and roughly 5,000 lb. Everything remarkable — the 22-in nose horn, the crown of spikes — sits in front of the shoulders.",
+    "more": "A cedar-sized tail suits a long-necked giant. It does not suit a rhino-sized animal on four short legs. Job's list is not a catalogue of every creature. Behemoth is one animal, named for what stood out about it.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "Pliny the Elder described the monoceros. A deep bellow, elephant feet, one long horn, a heavy four-legged body. Medieval bestiaries copied him almost word for word. A 22-in nose horn on an animal of roughly 5,000 lb fits that better than any horse does.",
+    "more": "The Aberdeen Bestiary puts the monoceros horn on the forehead and stretches it to four feet. A description picks up that sort of drift when it is passed along by people who never saw the animal. The build survives the retelling. One horn, four heavy legs, no wings.",
+    "kind": "record"
+   }
+  ]
+ },
+ {
+  "id": "edmontosaurus",
+  "name": "Edmontosaurus",
+  "group": "dinosaurs",
+  "blurb": "A big duck-billed plant-eater. It is one of the very few dinosaurs known from specimens that kept their skin.",
+  "size": "Around 39 ft (12 m) long and roughly 12,000 lb (5.6 tonnes), worked out from the skeleton.",
+  "homes": [
+   "freshwater",
+   "forest"
+  ],
+  "stats": {
+   "length": 39,
+   "weight": 12000
+  },
+  "wonder": "Over a thousand teeth, replaced on a schedule so the grinding surface never wears out — that is machinery, and machinery gets designed.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "In 1908 Charles H. Sternberg and his sons dug up a specimen near Lusk, Wyoming, that had kept its skin. It is AMNH 5060, known as the Trachodon mummy, and it is still at the American Museum of Natural History in New York.",
+    "more": "What survives is not soft skin but a hardened impression of it. It shows the pattern of small pebbly scales across the body. One reading is that the animal dried out and shrunk down onto its bones before burial. That would be part of why the shape held.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "The Sternbergs found a second one in 1910, now SM 4036 at the Senckenberg Museum in Frankfurt. It kept the horny covering of the beak, which extends at least 3 in (8 cm) past the bone. The real bill was bigger than the skull alone suggests.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "In 1999 a high-school student named Tyler Lyson found another mummy near Marmarth, North Dakota. It was on his family's land. Nicknamed Dakota, specimen NDGS 2000 preserves skin. It has a row of spikes down the midline of the tail, and hoof-like nails on the front feet.",
+    "more": "A 2022 study led by Stephanie Drumheller found bite marks and punctures in Dakota's skin. Read from those marks, scavengers opened the carcass. It deflated and dried out instead of bloating and bursting. That would be part of why so much skin survived.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "One specimen, UALVP 53722, came out of the ground with a fleshy comb on top of its head. It is a soft dome about 8 in (20 cm) tall, with no bone inside it, covered in tiny scales. Nothing like it had been seen on a dinosaur before.",
+    "more": "Phil Bell's team described it in 2013 and compared it to a rooster's comb. In 2025 Henry Sharpe and colleagues argued the specimen cannot safely be pinned to a named species. The comb is real; whose head it sat on is still being argued about.",
+    "kind": "found"
+   },
+   {
+    "cat": "food",
+    "text": "The jaws hold roughly a hundred columns of teeth on each side of the head. About fifty above, about forty-eight below. Up to six teeth are stacked in every column. That is more than a thousand teeth in one mouth, working as a single grinding surface.",
+    "more": "Worn teeth were pushed out and replaced from underneath. In Edmontosaurus a tooth took roughly fifty days to come through, so the grinding surface renewed itself continuously and never wore down. No living animal has a mouth built this way.",
+    "kind": "found"
+   },
+   {
+    "cat": "defence",
+    "text": "Stood up on its legs, the top of that tail comes out at least 9.5 ft (2.9 m) off the ground. Only one meat-eater in those rocks was tall enough to reach it. Tyrannosaurus. Kenneth Carpenter studied the specimen. He also found an older, better-healed break in the left hip.",
+    "more": "The top of that tail stood at least 9.5 ft (2.9 m) off the ground. Only one meat-eater in those rocks was tall enough to reach it. Tyrannosaurus. Kenneth Carpenter studied the specimen. He also found an older, better-healed break in the left hip.",
+    "kind": "found"
+   },
+   {
+    "cat": "teamwork",
+    "text": "Some Edmontosaurus bone beds are enormous. One site in the Lance Formation of Wyoming spreads remains over more than a third of a square mile. That works out to somewhere between 10,000 and 25,000 animals. The thickest part is packed into about 100 acres.",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "The front feet were not hands. The middle fingers were bound together inside a fleshy pad ending in hoof-like nails, which you can see on Dakota. A front foot built like that points to an animal that could walk on all fours to feed low and rear up on two legs to move.",
+    "kind": "worked"
+   },
+   {
+    "cat": "record",
+    "text": "Most adults come in around 39 ft (12 m). A few unusually large individuals work out to close to 49 ft (15 m), which makes Edmontosaurus one of the biggest duck-bills anyone has dug up.",
+    "kind": "worked"
+   },
+   {
+    "cat": "home",
+    "text": "It turns up in the Horseshoe Canyon Formation in Alberta and the Hell Creek and Lance formations further south — low, wet, coastal floodplain country crossed by rivers. Lawrence Lambe named E. regalis in 1917; Othniel Marsh had already named E. annectens in 1892.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "Skin only survives if an animal is buried fast and deep. A body left out is picked apart in days. The Flood moved water and sediment on a scale nothing since has matched, which is the kind of burial these mummies would need.",
+    "more": "AMNH 5060 and Dakota both kept skin. That is the puzzle worth sitting with: whatever covered them did it quickly enough that scavengers and rot never got started.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "Edmontosaurus, Parasaurolophus and the other duck-bills look like variations on one design. Same beak, same tooth batteries, same build, different heads. Genesis has animals made as kinds, each producing more of its own kind. That is what a group like this looks like.",
+    "kind": "record"
+   }
+  ]
+ }
+]

@@ -1,4 +1,13 @@
-.work/
+.work/*
+# The content SOURCES live in .work and are the editable truth — the js/
+# data files are generated from them. Scratch (tmp, hf, logs, shards) stays
+# out; the entries and the editorial briefs are backed up like code.
+!.work/entries-*.json
+!.work/BRIEF-*.md
+!.work/rw/
+.work/rw/*
+!.work/rw/BRIEF.md
+!.work/rw/CMP-BRIEF.md
 __pycache__/
 *.pyc
 

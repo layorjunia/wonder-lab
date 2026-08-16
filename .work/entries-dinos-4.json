@@ -1,0 +1,412 @@
+[
+ {
+  "id": "carnotaurus",
+  "name": "Carnotaurus",
+  "group": "dinosaurs",
+  "blurb": "A horned meat-eater from Patagonia. It is known from a single skeleton. That skeleton came out of the ground with its skin still printed in the rock.",
+  "size": "About 26 ft (8 m) nose to tail — two small cars parked end to end — and roughly the weight of one of them.",
+  "homes": [
+   "freshwater",
+   "forest"
+  ],
+  "stats": {
+   "length": 26,
+   "weight": 3300
+  },
+  "wonder": "Nobody was ever supposed to see the pattern on that skin, and it was made beautiful anyway.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "Carnotaurus is known from exactly one skeleton: MACN-CH 894, dug out of a sheep farm in Chubut Province, Argentina. Skull, spine, ribs, arms and hips were still joined in the positions they held in life.",
+    "more": "The back two-thirds of the tail, the lower legs and the feet had already weathered away when it was found. Everything anyone says about Carnotaurus traces back to this one animal. It is kept at the Argentine Museum of Natural Sciences in Buenos Aires. No second skeleton has turned up anywhere in the world.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "That same block preserved large patches of skin along the right side — head, shoulder, ribs and tail. Rows of big cone-shaped studs run the length of the flanks, with a mosaic of small pebbly scales packed in between. It is the most complete skin ever found on a meat-eating dinosaur.",
+    "more": "The pattern is a mosaic of small pebbly scales about 0.2 to 0.5 in (5–12 mm) across. Rows of bigger cone-shaped scales are set into that mosaic. They are 1.6 to 2 in (4–5 cm) wide. They sit roughly 3 to 4 in (8–10 cm) apart along the flanks, like studs on a leather belt.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "Two thick horns stick out sideways above its eyes, each about 6 in (15 cm) long and solid bone all the way through. No other meat-eating dinosaur found so far has anything like them. The name means \"meat-eating bull\".",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "Its arms are almost silly. The forearm is only a quarter the length of the upper arm. The elbow barely bent. The hand ends in four stubby fingers, and only the middle two have real finger bones. T. rex arms look powerful next to these.",
+    "more": "T. rex arms were short but thickly built, and the shape of the bone points to muscle that could pull hard. Carnotaurus arms were short and going nowhere. Whatever this animal did for a living, it did with its head, neck and legs.",
+    "kind": "found"
+   },
+   {
+    "cat": "speed",
+    "text": "For its size it had the largest running muscle of any animal known, living or found in rock. Measured off the tail bones, that muscle works out at roughly 245 to 300 lb (111–137 kg) on each side.",
+    "more": "The muscle is the caudofemoralis. It runs from the tail to the thighbone, and every time it pulls, the leg swings back and the animal moves forward. A tail that big suggests real straight-line speed and terrible cornering. Nobody has put an honest number on its top speed, and the researchers say so plainly.",
+    "kind": "worked"
+   },
+   {
+    "cat": "food",
+    "text": "For a 26-ft hunter the bite was not that strong — a computer test of the skull put the front-teeth bite at about 760 lb of force. The power was in the neck instead: the size and shape of its neck bones point to muscle enough to swing the whole head like a hammer.",
+    "kind": "worked"
+   },
+   {
+    "cat": "senses",
+    "text": "The braincase shows large smell bulbs and small sight lobes: it tracked by nose better than by eye. The shape of the inner ear works out to hearing that was best at low, rumbling pitches, below about 3,000 vibrations a second. A footfall, not a squeak.",
+    "kind": "worked"
+   },
+   {
+    "cat": "weird",
+    "text": "One idea is that two Carnotaurus shoved head to head like rams. Tests of the skull disagree about whether it could survive a running crash. So the current best guess is slow pushing, skull-top against skull-top, rather than head-banging.",
+    "more": "One study calculated the neck was strong enough to absorb two animals colliding head-on at about 13 mph each. A later computer test of the skull said the bone could take hits through the teeth but not sharp frontal blows. Both papers are on the shelf; the argument is not settled.",
+    "kind": "worked"
+   },
+   {
+    "cat": "size",
+    "text": "Laid out and pieced together, the skeleton works out at about 25 to 26 ft (7.5–8 m). The missing tail end is filled in from the part that survives. Nobody weighed it, obviously. The weight is worked out from the thickness of the limb bones. The published answers range from roughly 3,000 to 4,600 lb.",
+    "kind": "worked"
+   },
+   {
+    "cat": "home",
+    "text": "The grain and layering of the rock it came from, the La Colonia Formation, point to a low coastal plain of rivers, marshes and tidal flats. Turtles are the most common fossils in it, with snakes, frogs, fish and small mammals alongside.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "That patch of skin is the closest anyone gets to touching this animal. Studs and pebbled scales, laid out in rows. It was made on day six with the other land animals. The pattern on its side was finished before anything ever walked on it.",
+    "more": "Skin does not normally survive at all. Everything else about how a dinosaur looked is worked out from bones. Here, for one animal, on one side, there is the actual surface.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "Bull-horned, deep-chested, short-armed beasts turn up in old carvings and dragon accounts from more than one part of the world, described plainly rather than as monsters. People wrote down what they saw while these animals were still about.",
+    "kind": "record"
+   }
+  ]
+ },
+ {
+  "id": "therizinosaurus",
+  "name": "Therizinosaurus",
+  "group": "dinosaurs",
+  "blurb": "A huge, pot-bellied, beaked plant-eater. It has the longest hand claws of any land animal ever found.",
+  "size": "About 30 ft (9–10 m) long and 13–16 ft (4–5 m) tall — it could have looked in an upstairs window without stretching.",
+  "homes": [
+   "freshwater",
+   "forest"
+  ],
+  "stats": {
+   "length": 32,
+   "weight": 11000
+  },
+  "wonder": "Claws like that on an animal that ate leaves is not a mix-up; it is a choice somebody made on purpose.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "What was actually dug up is mostly arms. The first find came from the Nemegt rocks of the Gobi Desert in Mongolia. It was three big claw bones, a piece of hand bone and a few rib fragments. That is specimen PIN 551-483, kept in Moscow.",
+    "more": "Later digs added a much more complete forelimb and some hindlimb and foot bones. It is still one of the most famous dinosaurs in the world despite nobody ever having found most of it.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "The largest known claw bone measures about 20 in (52 cm) around its curve — longer than a nine-year-old's whole arm. It is the longest hand claw of any land animal ever found. What is missing is the horn sheath: every clawed animal alive grows one over the bone core, so the real claw was longer still.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "The best arm gives real measurements. The upper arm bone is 30 in (76 cm). The forearm bone is 24 in (62 cm). That is about 8 ft (2.4 m) of reach in total, from shoulder to claw tip.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "When those first claws were described, they were filed under \"giant turtle\". The scientist who named them pictured a 15-ft swimming reptile raking in seaweed. The species name still says so: cheloniformis means turtle-shaped. It took another look, much later, to sort it out as a dinosaur.",
+    "kind": "record"
+   },
+   {
+    "cat": "food",
+    "text": "The claws did not belong to a hunter. Read the rest of the body and it comes out a plant-eater. A horny beak. A wide barrel of a gut for fermenting greenery. Hips built for standing and reaching. The best idea for the claws is that they were hooks for pulling branches down to the beak.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "No skull of Therizinosaurus has ever been found. Every picture you have seen of its head — the beak, the small leaf-shaped teeth, the long neck — is filled in from close relatives whose skulls are known. That part is a careful guess, not a fossil.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "Its foot puts four toes on the ground. Almost every other two-legged meat-eating-shaped dinosaur walks on three, with the first toe shrunk to a dewclaw up the leg. This one kept all four down — which works out to a wider base, the kind a heavy animal needs.",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "The claws were not cat-like hooks. Each ran almost straight for most of its length, flattened side to side like a blade, and curved only near the tip. The hand behind them had three fingers on stout palm bones; the largest of those bones measures 11.3 in (29 cm) on its own.",
+    "more": "A cat's claw is round in section and hooked the whole way along, built to sink in. This one is a thin blade, almost straight, turning only at the point — closer to a scythe than to a talon. That is where the name came from: Therizinosaurus means \"scythe lizard\".",
+    "kind": "found"
+   },
+   {
+    "cat": "size",
+    "text": "Weight estimates run over 5 tons, worked out from the size of the limb bones rather than from any scale. That is elephant territory, balanced on two legs, with a beak on the front and 20-in claws on the hands.",
+    "kind": "worked"
+   },
+   {
+    "cat": "home",
+    "text": "The Nemegt rocks are river country, not dunes — channel sands and muds holding turtles, freshwater shellfish and crocodile relatives. Big rivers, standing water, plenty of plants. A good address for something that ate 5 tons' worth of leaves.",
+    "kind": "found"
+   },
+   {
+    "cat": "created",
+    "text": "About 20 in around the curve. That is the longest hand claw found on any land animal, and it grew on a beaked leaf-eater. God made the land animals on day six. The biggest hooks went to one that used them to pull branches down to its beak. That is as best anyone can work out from the rest of the body.",
+    "more": "Five tons on two legs. That weight is worked out from the limb bones, not weighed. All four toes stayed flat on the ground. Most two-legged dinosaurs walk on three. A wide base is the sort of thing that gets put under a heavy animal on purpose.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "God brought the kinds to the Ark; Noah did not go out after them. Grown, this one works out to over 5 tons from its limb bones, with an 8-ft reach from shoulder to claw tip. A young one boards as a beaked animal whose hand claws are nowhere near 20 in yet.",
+    "more": "The claws grow with the animal. What went up the ramp was a young therizinosaur, eating greenery like everything else on the deck. It was not a 5-ton adult with 8 ft of arm and a beak level with an upstairs window.",
+    "kind": "record"
+   }
+  ]
+ },
+ {
+  "id": "deinonychus",
+  "name": "Deinonychus",
+  "group": "dinosaurs",
+  "blurb": "An 11-ft hunter with a switchblade claw on each second toe. The movie 'velociraptors' were really built from this animal.",
+  "size": "About 11 ft (3.4 m) nose to tail, but half of that is tail. Around 160 lb — a big-dog weight on long legs.",
+  "homes": [
+   "freshwater",
+   "forest"
+  ],
+  "stats": {
+   "length": 11,
+   "weight": 160
+  },
+  "wonder": "The hook, the folding toe and the counterweight tail only make sense together — parts drawn to one plan.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "John Ostrom named it from bones dug near Bridger, Montana. The type specimen, YPM 5205 at the Yale Peabody Museum, is a complete left foot plus part of the right — including the claw that gave the animal its name. Deinonychus means \"terrible claw\".",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "That sickle claw on the second toe is over 4.7 in (12 cm) measured round the outer curve. The other toes carried the weight; this one rode up off the ground, out of the dirt, staying sharp.",
+    "more": "Ostrom worked out what the claw looked like in life. He studied the claws of crocodiles and birds, where the horn sheath is still attached to the bone core. The sheath always adds length. So the living claw was bigger than the fossil bone.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "In one Yale quarry, four adult Deinonychus and one youngster lay together with a single Tenontosaurus. That Tenontosaurus was a plant-eater several times their size. Shed Deinonychus teeth turn up beside Tenontosaurus skeletons again and again.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "The movie 'velociraptors' are Deinonychus in everything but the name. The film's model makers built them at Deinonychus size. The real Velociraptor, from Mongolia, was much smaller.",
+    "more": "Velociraptor is a genuinely small animal. It is roughly 6 ft long including a long thin tail, and light enough to pick up. If you want a raptor that really was bigger than the film's, look up Utahraptor. It ran to about 20 ft.",
+    "kind": "record"
+   },
+   {
+    "cat": "teamwork",
+    "text": "The pack-hunting raptors of the films have not held up well. Chemical traces locked in Deinonychus teeth were tested. The young ones carry a different signature from the adults, which reads as the two eating different food. That is not what you would expect if a family hunted together and shared a kill.",
+    "more": "Ostrom's original idea came from those several Deinonychus found with one Tenontosaurus. Others read the same bones as a crowd mobbing a carcass. They sometimes killed each other over it, the way Komodo dragons do. Parallel trackways elsewhere hint at animals traveling together. Nobody has settled it, and honest write-ups say so.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "Bony rods ran back along the tail in bundles, like the shafts of a broom, locking the back half stiff. That stiffness reads as a counterweight — which is what its species name antirrhopus means: counterbalancing.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "The skull is about 16 in (41 cm) long. It carries around 70 curved, blade-like teeth, edged like steak knives. The hands had three fingers with big claws. That shape reads as built for grabbing and holding. They could not fold up against the body the way a bird's wing does.",
+    "kind": "found"
+   },
+   {
+    "cat": "food",
+    "text": "Two studies of its bite disagree. One put it at about 160 lb of force at the tooth — modest, a holding bite. An earlier one, working backwards from tooth punctures in Tenontosaurus bone, came out several times higher. Both are still on the shelf.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "Its arms were long. Ken Carpenter worked out in 2002 that they gave a longer reach than most other meat-eaters had. The palms could not turn to face the ground either. Push the arms forward and they swing palm-up. So prey was held between both hands at once, like a bear hug.",
+    "more": "Alan Gishlick tested what the hand could actually do in 2001. The grab worked across the arm rather than along it. Both hands closed on the same animal at the same time. It is a very different action from a person picking something up. It is the one the shoulder, elbow and wrist joints allow.",
+    "kind": "worked"
+   },
+   {
+    "cat": "record",
+    "text": "Ostrom's study of these bones changed how everybody pictured dinosaurs. The standard dinosaur before it was a slow, tail-dragging swamp lizard. A fast, sharp, bird-like hunter forced the whole picture to be redrawn.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "Anyone sharing the ground with it would have known it by its prints: two toe marks, not three, since the 4.7-inch second-toe claw rode clear of the dirt. It stood about kitchen-counter height at the hip. The 160-lb figure is worked out from the skeleton — nobody weighed one.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "Bony rods run back along the tail in bundles, like broom shafts, locking the rear half stiff. Work out what that stiffness is for and you land on a counterweight — something to swing against when the animal turns on one foot. A rod spanning one joint stiffens nothing; the bracing only works once the bundles overlap.",
+    "kind": "worked"
+   }
+  ]
+ },
+ {
+  "id": "compsognathus",
+  "name": "Compsognathus",
+  "group": "dinosaurs",
+  "blurb": "A small meat-eater known from just two skeletons — a chicken-sized youngster from Germany and a bigger one from France. Both of them still have a last meal inside the ribcage.",
+  "size": "The German skeleton is about 2 ft 6 in (75 cm) nose to tail-tip and weighed around a pound. The French one is bigger: roughly 4 ft (1.25 m) and 6 lb.",
+  "homes": [
+   "ocean"
+  ],
+  "stats": {
+   "length": 4,
+   "weight": 6
+  },
+  "wonder": "Even the smallest of them was finished properly — hollow bones, long legs, a full set of teeth, in an animal you could hold.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "Only two Compsognathus skeletons have ever been found. One came from the limestone at Solnhofen in Bavaria, Germany; the other from Canjuers, near Nice in France. Both are nearly complete and lie flattened on the slab like a pressed flower.",
+    "more": "The German one, specimen BSP AS I 563, is in Munich. The French one is in the National Museum of Natural History in Paris. Fine-grained limestone is what makes them look like that. The rock recorded the skeleton without crushing the detail out of it.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "Inside the German skeleton's ribs is a lizard, in several pieces. The eating is plain. The method is worked out from how a hawk handles the same job. Compsognathus held the lizard down with hands and teeth, tore it apart, and swallowed the chunks. It is one of the few dinosaurs whose last meal we know.",
+    "kind": "found"
+   },
+   {
+    "cat": "food",
+    "text": "That lizard was a long-toed, fast-running animal. Compsognathus swallowed one whole and undamaged. So it had to be quicker than the lizard, at least over the short distances between rocks.",
+    "kind": "worked"
+   },
+   {
+    "cat": "record",
+    "text": "For a long time Compsognathus was called the smallest dinosaur. That title has since gone elsewhere, to animals like Microraptor. It is still one of the smallest — and the German skeleton is now read as a youngster rather than a full-grown adult.",
+    "kind": "record"
+   },
+   {
+    "cat": "build",
+    "text": "Small teeth, and a lot of them. The German skull carries three in each front bone of the upper jaw, fifteen or sixteen more behind those, and eighteen in the lower jaw. The French one has a few more of each.",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "How many working fingers it had is still argued over. The German hand clearly preserves bones from the first two fingers, with a smaller third that may not have done much. Two or three, depending which paper you read.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "Round marks about 0.4 in (10 mm) across near the German skeleton were once read as eggs inside the body. Later work doubts it. Bumpy marks on the tail, once called skin, were re-read in a recent review as odd bony growths instead.",
+    "kind": "found"
+   },
+   {
+    "cat": "home",
+    "text": "Read from the rock itself, the Solnhofen limestone was a still, salty lagoon between low islands. Anything that sank into it landed in airless mud. Nothing came along to scatter the bones. That is why these fossils are flat, whole and famous.",
+    "kind": "worked"
+   },
+   {
+    "cat": "home",
+    "text": "That same rock was quarried for printing. It is so fine and so flat that pictures could be drawn straight onto a slab and printed from it. The whole method is named after the stone: lithography, from the Greek for \"stone writing\".",
+    "kind": "record"
+   },
+   {
+    "cat": "weird",
+    "text": "The little dinosaurs that swarm people in The Lost World: Jurassic Park are Compsognathus — \"compys\" in the film. The swarming is invented. Two skeletons, found in different countries, tell you nothing whatsoever about group behavior.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "Part of that gap is simply age. Read from its bones, the German animal was not full-grown. The rest is the ordinary spread found within one kind. A little longer, a little heavier, a tooth or two either way. All of it works from the same original design.",
+    "more": "Part of that gap is simply age. The German animal was not full-grown. The rest is the ordinary spread found within one kind. A little longer, a little heavier, a tooth or two either way. All of it works from the same original design.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "Two feet six inches nose to tail-tip, and about a pound in weight. That weight is taken from the skeleton, not from any scale. It still has a lower jaw carrying eighteen teeth, hollow bones and long running legs. Nothing was skipped for being small. That size was the specification, not a shortfall.",
+    "more": "The whole animal would sit in cupped hands, and most of its length is tail. Everything a hunter needs is there at full quality, just scaled down. The teeth. The light bones. Legs quick enough to run down a lizard between rocks.",
+    "kind": "worked"
+   }
+  ]
+ },
+ {
+  "id": "protoceratops",
+  "name": "Protoceratops",
+  "group": "dinosaurs",
+  "blurb": "A sheep-sized, beaked plant-eater with a bony frill. It is one half of the most famous fossil ever dug up.",
+  "size": "About 6 to 8 ft (2–2.5 m) long and, worked out from the bones, 140 to 230 lb — a large sheep with a beak.",
+  "homes": [
+   "desert"
+  ],
+  "stats": {
+   "length": 7,
+   "weight": 180
+  },
+  "wonder": "Two animals locked together in the sand, kept exactly as they fell — nothing that happens gets lost.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "The \"Fighting Dinosaurs\" specimen was found at Tugrikin Shire in Mongolia's Gobi Desert. It is a Protoceratops and a Velociraptor buried together in the middle of a fight. The raptor's sickle claw is at the Protoceratops's throat. The Protoceratops's beak has clamped the raptor's right arm.",
+    "more": "The two are catalogued separately, as Protoceratops MPC-D 100/512 and Velociraptor MPC-D 100/25. The Protoceratops has broken shoulder bones and its right forelimb torn away. The raptor's trapped arm is broken. A joint Polish-Mongolian team dug them out. The usual explanation is that a dune collapsed, or a sand-laden storm buried them where they stood. It is a national treasure of Mongolia, and casts of it travel to museums abroad.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "Protoceratops is not rare. An expedition's photographer spotted the first skull at the Flaming Cliffs. Within a few years more than a hundred specimens were known. They run every size from hatchling to adult. Few dinosaurs are known this well.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "One block from Tugrikin Shire holds fifteen young Protoceratops together, bones still in order. It is specimen MPC-D 100/530. Fifteen youngsters in one spot, all buried at once. That looks like a nursery.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "Eggs found near Protoceratops in the Gobi were labeled Protoceratops eggs for decades. A small dinosaur was found lying on a clutch of them and named Oviraptor, \"egg thief\". Then an embryo was found inside one of those eggs. It was an Oviraptor. The thief was sitting on its own nest.",
+    "more": "The name stuck anyway. That is how scientific naming works. Once a name is published it does not get swapped out for being unfair. Real Protoceratops nests were identified later. One clutch held at least twelve eggs with embryos still inside.",
+    "kind": "record"
+   },
+   {
+    "cat": "build",
+    "text": "Skulls of the main species run to about 20 in (50 cm) long, and a good share of that is frill. The frills vary enormously between individuals — some short and compact, some nearly half the length of the whole skull.",
+    "kind": "found"
+   },
+   {
+    "cat": "babies",
+    "text": "Because so many were found, you can lay them out youngest to oldest. A hatchling's frill is small, flat and almost round. An adult's is a broad fan. Line the series up and the frill turns out to grow faster than the rest of the head does.",
+    "kind": "worked"
+   },
+   {
+    "cat": "weird",
+    "text": "The name means \"first horned face\", which rather oversells it. Protoceratops had no brow horns at all — just a low bump on the snout. The properly horned relatives, like Triceratops, are a separate story.",
+    "kind": "record"
+   },
+   {
+    "cat": "food",
+    "text": "A parrot-like beak at the front, and rows of leaf-shaped teeth set behind it. Read those shapes and you get the job: the beak crops, the teeth behind shear tough plants. The main species also carries two little peg-shaped teeth tucked in the upper beak.",
+    "kind": "worked"
+   },
+   {
+    "cat": "weird",
+    "text": "A popular idea says Protoceratops skulls gave the world the griffin. Nomads prospecting for gold supposedly found them. A recent review pushed back hard. The fossil sites sit hundreds of miles from any gold. Griffin art turns up where nobody was digging skulls.",
+    "kind": "record"
+   },
+   {
+    "cat": "home",
+    "text": "Whole Protoceratops are sometimes found upright in the sandstone. Their legs are folded under them, as though caught standing. One suggestion is that they dug shelters against the desert heat. Their broad, shovel-shaped foot claws would do it. Then the sand came down on them.",
+    "more": "The other explanation is simpler. A sand-carrying storm buried them where they stood. Either way, that upright pose is why so many Gobi skeletons are complete. The sand arrived before anything could scatter the bones.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "The world after the Flood was harder, colder and drier. Protoceratops sheared tough plants with rows of leaf-shaped teeth and had nothing to fight with — no brow horns, only a bump on the snout. Put those together: a plant-eater of about 180 lb, worked out from the bones, with no weapons on it, was worth a hunter's trouble.",
+    "more": "Its broad, shovel-shaped foot claws may have dug shelters against the desert heat. That works while there is still something to crop. A beak and rows of shearing teeth need plants to shear, and where the plants thin out an animal built that narrowly runs short first.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "The Ark carried the land kinds, and this one made no difficulty: an animal of about 180 lb does not take up much room. The Gobi block holding fifteen young together points to numbers, so a pair aboard was plenty.",
+    "more": "The Ark carried the land kinds, and this one made no difficulty. An animal of about 180 lb does not take up much room. The Gobi block holding fifteen young together shows they came in numbers. So a pair aboard was plenty.",
+    "kind": "record"
+   }
+  ]
+ }
+]

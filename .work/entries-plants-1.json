@@ -1,0 +1,1530 @@
+[
+ {
+  "id": "giant-sequoia",
+  "name": "Giant sequoia",
+  "group": "trees",
+  "blurb": "The bulkiest tree on Earth — not the tallest, but the one with the most wood packed into a single trunk.",
+  "size": "General Sherman is 275 ft (83.8 m) tall and 102.6 ft (31.3 m) around at the ground — that trunk would fill most of a tennis court.",
+  "homes": [
+   "forest",
+   "mountain"
+  ],
+  "stats": {
+   "height": 279,
+   "life": 3000,
+   "weight": 4210000
+  },
+  "wonder": "Everything about it is built to outlast the fire that will certainly come: bark like a mattress, no pitch to catch, and cones that wait for the heat.",
+  "facts": [
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "General Sherman, in Sequoia National Park, is the largest single-stem tree ever measured. It stands 275 ft (83.8 m) tall. It is 102.6 ft around at the ground and 36.5 ft across at the base. The trunk alone holds 52,508 cubic feet of wood.",
+    "more": "A 1938 estimate put its wet mass at 2,105 short tons — about 4.2 million lb. Taller trees exist and wider trunks exist, but nothing measured holds more wood in one stem."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "General Sherman's largest single branch is 6.8 ft (2.1 m) thick. That one branch is fatter than the whole trunk of most oak trees you will ever stand next to."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "In January 2006 a branch over 6.6 ft (2 m) thick and more than 98 ft (30 m) long tore off General Sherman, smashing the perimeter fence and the sidewalk below. The tree was not sick. It just dropped a branch the size of a tree."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The bark can be 3 ft (0.9 m) thick at the base — spongy, fibrous, and carrying almost no pitch or resin. Punch it and your fist sinks in.",
+    "more": "Most conifer bark is thin and loaded with resin. Sequoia bark is neither: it is a mat of dry fibers, and a thick mat of dry fibers is a poor conductor of heat. The living layer underneath never gets hot enough to be hurt."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "Nobody designed a fire test for this. The bark is the argument: three feet of pithy, resin-free padding around the trunk, and the lowest live branches held far above a grass fire. Heat that kills a pine barely marks a sequoia.",
+    "more": "Most conifers are full of flammable resin. Sequoia bark is not. Fire scars carved into old trunks show the same tree burned repeatedly and kept growing around each wound."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The seeds are 4–5 mm long — flakes of oatmeal with a papery wing. A big tree may carry 11,000 cones and let go of an estimated 300,000 to 400,000 seeds in a year. Each cone averages about 230 seeds."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "A sequoia cone can hang shut on the branch for twenty years. Three things open it. A Douglas squirrel chews off the fleshy green scales. The grub of a longhorn beetle (Phymatodes nitidus) mines the cone until the scales dry and shrink. Hot air rising off a fire does it too.",
+    "more": "The beetle grub is not after the seeds. It eats the fleshy scales and the cone shaft, and once it cuts the plumbing, the scales dry out and gape. The seeds simply fall."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "No giant sequoia has a thicker measured trunk than the General Grant tree in Kings Canyon. It is 28.9 ft (8.8 m) across at chest height. Around the ground it measures 107.6 ft (32.8 m). The tree stands 267.4 ft (81.5 m) tall."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "On 28 April 1926 President Calvin Coolidge proclaimed the General Grant tree the Nation's Christmas Tree. On 29 March 1956 President Eisenhower declared it a National Shrine. That makes it a memorial to Americans killed in war. No other living thing has ever been given that status.",
+    "more": "Two presidents, thirty years apart, gave one tree two different official jobs. It was never planted, moved or shaped for either. It was already standing in Kings Canyon when the first proclamation was signed."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The naming was a mess. John Lindley called it Wellingtonia gigantea in December 1853, but that name was already taken and did not stand. Not until 1939 did John Buchholz show it was a different genus from the coast redwood and coin Sequoiadendron."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three of the creation week brought seed-bearing plants and fruit trees. Each one yielded seed after its kind. That came before the sun was set in the sky on day four. The whole of this tree is folded into a winged flake 4 mm long."
+   },
+   {
+    "cat": "created",
+    "kind": "worked",
+    "text": "The parts fit each other. Cones that stay shut for twenty years are only useful if something reliably opens them; fire, a squirrel and a beetle each do. Bark that shrugs off fire is only useful if the seed needs fire. Take one piece out and the set stops working."
+   }
+  ]
+ },
+ {
+  "id": "coast-redwood",
+  "name": "Coast redwood",
+  "group": "trees",
+  "blurb": "The tallest tree on Earth, growing in a narrow fog belt along the California coast.",
+  "size": "Hyperion measured 381.3 ft (116.22 m) in 2026 — taller than the Statue of Liberty from her feet to the tip of her flashlight.",
+  "homes": [
+   "forest"
+  ],
+  "stats": {
+   "height": 381,
+   "life": 2000
+  },
+  "wonder": "A tree this tall has to lift water 380 feet with no pump at all, and it does it every day without noticing.",
+  "facts": [
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "Chris Atkins and Michael Taylor found Hyperion in Redwood National Park on 25 August 2006. Stephen Sillett climbed it and dropped a tape from the top: 379.1 ft (115.55 m). It measured 380.8 ft (116.07 m) in 2019 and 381.3 ft (116.22 m) in 2026. It is still going up.",
+    "more": "A laser range finder from the ground gets you close. A tape dropped by a climber from the highest living twig gets you the number, and that is the number the record uses."
+   },
+   {
+    "cat": "home",
+    "kind": "record",
+    "text": "In July 2022 the National Park Service closed the area around Hyperion. So many people had walked in to find it that the ferns at its base stopped growing. Going in now risks a fine of up to $5,000 and up to six months in jail."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Fog drip can supply about 30 percent of the water a coast redwood uses in a year. On heavy-fog nights the tree can run the flow backwards and take water in through its leaves instead of its roots.",
+    "more": "Fog is not rain and it does not fall on its own. It condenses on needles high in the crown and drips down, so the tree combs water out of the air and then waters its own roots with it. In a dry Californian summer that drip is the difference."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The bark grows up to 14 in (35 cm) thick and holds almost no flammable pitch. The wood is loaded with tannic acid and terpenoids, which is why insects and rot mostly leave it alone."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The cones are tiny for such a tree — 0.6 to 1.25 in (15–32 mm) — and hold 90 to 150 seeds each. A single seed is 3–4 mm long and half a millimeter wide. The tallest living thing on the planet starts smaller than a grain of rice."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Cut a redwood down and it sprouts back. New trunks come up from burls at the base and from the stump itself. That is why you find a perfect ring of tall redwoods standing around an empty middle. The ring is one tree, not a family.",
+    "more": "Foresters call them fairy rings. The gap in the center is where the original trunk stood before it fell or was logged."
+   },
+   {
+    "cat": "size",
+    "kind": "worked",
+    "text": "George Koch's team sampled leaves at different heights and measured how much harder it gets to pull water up. Run the trend out and the ceiling lands somewhere around 400 to 427 ft (122–130 m). Hyperion is not far off it.",
+    "more": "Water is dragged up by evaporation at the leaves, pulling a thin thread of water all the way from the roots. The higher you go, the harder the pull, and the more the leaves have to shut down to avoid snapping the thread."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Climbers working in redwood crowns find soil sitting on the big branches, hundreds of feet up, with ferns and other plants rooted in it. There are gardens up there that never touch the ground.",
+    "more": "The soil up there is made of the tree's own shed needles and bark, caught in the crotches of the big limbs and slowly rotting. Once there is soil there is somewhere to root, and plants that belong on the forest floor end up living in the sky."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "Tallest is not biggest. Hyperion holds about 18,600 cubic feet (530 cubic meters) of wood. General Sherman, a giant sequoia and a shorter tree, holds 52,508 cubic feet. Height and bulk are two different competitions."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "The roots are shallow and spread wide rather than driving deep — no taproot under a 380-foot tree. The best read is that redwoods hold each other up: roots of neighboring trees tangle together, so the grove braces the individual."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Genesis puts plants on day three and the sun on day four. A coast redwood does its whole job on light. It takes fog, water and sunlight and turns them into 380 feet of standing timber. The light it runs on arrived one day after it did."
+   }
+  ]
+ },
+ {
+  "id": "bristlecone-pine",
+  "name": "Bristlecone pine",
+  "group": "trees",
+  "blurb": "A short, twisted, half-dead-looking pine that grows on bare mountain rock where almost nothing else will.",
+  "size": "Only 16 to 49 ft (5 to 15 m) tall — smaller than many garden trees — but with a trunk up to 12 ft (3.6 m) thick.",
+  "homes": [
+   "mountain"
+  ],
+  "stats": {
+   "height": 49
+  },
+  "wonder": "It gives up almost everything — height, speed, green wood, most of its own trunk — to keep one narrow strip of bark alive on a mountain that kills everything else.",
+  "facts": [
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "In 1957 Edmund Schulman bored a pencil-thin core out of a bristlecone in California's White Mountains and counted the rings under a microscope. The count came to 4,789. He named the tree Methuselah, after the man in Genesis.",
+    "more": "A core is a straw of wood pulled sideways out of the trunk with a hollow drill called an increment borer. The tree seals the hole. Rings are counted, not guessed — but a core that misses the exact center undercounts, and a year with no growth leaves no ring at all."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "In August 1964 Donald Currey was coring bristlecones on Wheeler Peak, Nevada. His borer jammed in a gnarled tree he had labelled WPN-114, and with Forest Service permission the tree was cut down. The stump held at least 4,862 countable rings — more than anyone had counted in a tree before.",
+    "more": "The tree was named Prometheus afterwards. Cutting it changed the rules. Bristlecones on federal land are now protected. The exact tree Schulman cored is not marked or published."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Needles stay green on the branch for as long as 45 years. Most pines swap theirs out every two to five. One flush of needles here does the work for decades before it is replaced."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "On the oldest trees most of the trunk is bare, polished dead wood. Only a narrow ribbon of living bark runs up one side. It feeds a few live branches. The tree is mostly a sculpture with a working strip attached.",
+    "more": "Damage kills the bark on the exposed side and the tree does not replace it. It abandons that side, drops the branches that side was feeding, and pushes everything through the ribbon that is left. Losing most of yourself is survivable if you keep the plumbing."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It grows highest and best on pale dolomite rock, in stands so thin that the canopy covers only 15 to 50 percent of the ground. Neighbors are the problem it has solved by going where there are none."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "Myth-buster: bristlecones are not fireproof. The bark is resinous and catches quickly, and the trees are extremely vulnerable to fire. They survive because there is barely any grass or brush around them to carry a flame.",
+    "more": "That is worth getting straight. The tree is not tough against fire; it is standing somewhere fire struggles to reach. Where stands are denser and there is fuel between the trees, bristlecones burn like anything else."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "The bristle is real. Each cone scale carries a spine 2 to 5 mm long, so a closed cone feels like a small burr. The cones are 2 to 4 in (5–10 cm) long and turn orange-buff after sixteen months."
+   },
+   {
+    "cat": "weird",
+    "kind": "worked",
+    "text": "Dead bristlecone wood lies on those slopes without rotting away. The best read is a combination: the wood is dense and resinous, the air is thin and dry, and it is cold. Rot needs damp and warmth, and gets neither."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "The growth is so slow that rings can be too fine to separate with the naked eye. Counters work under magnification, and a bad run of years can produce rings you would need a good lamp and patience to find."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The seeds are 5 mm long with a wing 12 to 22 mm across — a papery propeller. That is the whole travel plan for a tree that lives on a windswept ridge."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three put plants on the ground before there was an animal anywhere to eat them or a person to plant them. This one holds a bare dolomite slope at altitude, alone, on almost no soil. Somebody had to want that slope covered."
+   }
+  ]
+ },
+ {
+  "id": "baobab",
+  "name": "Baobab",
+  "group": "trees",
+  "blurb": "An African tree built like a water tank, with a trunk you could park a car in and branches that look like roots waving in the air.",
+  "size": "16 to 82 ft (5 to 25 m) tall, but the trunk is the point: 33 to 46 ft (10 to 14 m) across, wider than a school classroom.",
+  "homes": [
+   "grassland",
+   "desert"
+  ],
+  "stats": {
+   "height": 82,
+   "life": 1000
+  },
+  "wonder": "It solves the dry season the way a camel does — carry the water with you — except the tank is the tree itself.",
+  "facts": [
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "A large baobab can hold as much as 136,400 liters of water in its trunk. That is roughly 36,000 US gallons. Picture two backyard swimming pools, stored inside the wood.",
+    "more": "The wood itself is the tank. Baobab wood is soft and spongy and full of water, not dense and dry. That is why elephants chew into the trunks in a drought. It is also why a baobab is close to useless as timber."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "You can watch the tank empty. Through the dry season the trunk shrinks about 2–3 cm around, and the water content of the stem falls by roughly a tenth. When the rain comes back, it swells out again."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The Sunland Baobab in South Africa was 72 ft (22 m) tall, 47 m (154 ft) around, and 34.9 ft (10.64 m) across the trunk. In 1993 the owners cleared out a natural hollow inside and put a bar in it. Sixty people once fit in there for a party.",
+    "more": "A second hollow held a wine cellar that sat at a steady 22 °C without any cooling. In August 2016 about a third of the tree collapsed, and a second break in 2017 finished the bar."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The flowers open in the late afternoon, last one single night, and fall. Each one is a white hanging bowl with petals up to 3 in (8 cm) long and between 720 and 1,600 stamens — with counts up to 2,000 reported."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "A flower that opens at dusk is not looking for bees. In east and west Africa, fruit bats do the pollinating. Three kinds come: straw-colored, Gambian epauletted and Egyptian fruit bats. Bushbabies and insects visit as well. In southern Africa hawkmoths appear to do most of it.",
+    "more": "Bat-pollinated flowers tend to be pale, large, strong-smelling and open at night. This one ticks every box. The flower hangs down like a white bowl holding over a thousand stamens. A bat hovering there comes away thoroughly dusted."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The bark is up to 8 cm (3 in) deep. The fruit hangs on long stalks and grows up to 10 in (25 cm) long. Its shell is hard, 6–10 mm thick. It is a wooden case you have to break to get into."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "Why store water instead of digging for it? The best read is timing. Rain here arrives in a short burst and then stops for months. A tree that can take the whole burst in at once and spend it slowly does not have to find water in the dry season at all."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "The Avenue of the Baobabs is a stretch of dirt road in western Madagascar. It is Road No. 8, between Morondava and Belon'i Tsiribihina. Twenty to twenty-five trees stand along about 850 ft (260 m) of it. They are a different species, Adansonia grandidieri.",
+    "more": "Madagascar has six baobab species found nowhere else on Earth. The avenue trees are the tall, straight, bare-trunked kind, and they now stand in farmland. The forest that used to be around them is gone; they are what is left of it."
+   },
+   {
+    "cat": "disguise",
+    "kind": "record",
+    "text": "People across Africa call it the upside-down tree, and the story goes that it was pulled up and stuck back in the wrong way round. Bare in the dry season, the crown really does look like a root system waving about in the air."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "A mature leaf splits into five to seven leaflets, sometimes nine. They spread from one point like a hand. The scientific name says the same thing. Adansonia digitata means fingered."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Genesis has plants made on day three and flying creatures on day five. This tree's flowers open at dusk, hold for one night, and are worked by bats. The flower was standing ready two days before anything with wings turned up to use it."
+   }
+  ]
+ },
+ {
+  "id": "oak",
+  "name": "English oak",
+  "group": "trees",
+  "blurb": "A broad, heavy, slow European oak. No other tree in Britain supports more living things.",
+  "size": "Usually up to 65 ft (20 m) and sometimes 130 ft (40 m), with a trunk 13 ft (4 m) around — and old ones over 33 ft (10 m).",
+  "homes": [
+   "forest",
+   "backyard"
+  ],
+  "stats": {
+   "height": 130,
+   "life": 500
+  },
+  "wonder": "Almost nothing else in Britain feeds and houses 2,300 different kinds of creature at once, and the oak does it without moving.",
+  "facts": [
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "A 2019 count put 2,300 species — insects, mosses, lichens, birds, mammals and more — living on or with English oak in the UK. At least 400 of those are insects that eat its leaves, the highest count for any British plant.",
+    "more": "Not all 2,300 are on one tree at once, and most are small — mites, gall wasps, moth caterpillars, lichens, mosses. But an oak wood and a conifer plantation of the same size are not remotely the same place to be an insect."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The Major Oak stands near Edwinstowe in Sherwood Forest, Nottinghamshire. Its trunk is 33 ft (10 m) around, its canopy spreads 92 ft (28 m), and it is estimated to weigh about 23 tons."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Big acorn crops come roughly every other year rather than every year. A mast year buries the ground in acorns. The year between produces far fewer."
+   },
+   {
+    "cat": "babies",
+    "kind": "worked",
+    "text": "The best read on why it works: in a mast year, jays, squirrels, mice and pigs cannot possibly eat them all, so some survive. In the lean years the acorn-eaters go hungry and their numbers drop. The tree is not feeding them; it is out-producing them."
+   },
+   {
+    "cat": "travel",
+    "kind": "worked",
+    "text": "Oaks have no wings and no wind trick. Jays carry acorns off and bury them one at a time, often hundreds of yards away, and never dig up every store. Nobody watched a particular acorn become a particular tree — but that is how an oak wood walks uphill."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "Acorns and bark are loaded with tannin, which is why a raw acorn tastes vile and dries your mouth out. People have used oak bark tannin to turn animal hide into leather since Roman times.",
+    "more": "Tannin grabs hold of protein. That is what makes a raw acorn taste dry and awful. The same reaction turns a raw hide into leather. The tannin locks onto the protein in the skin, so the skin stops rotting."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Oak heartwood runs to about 720 kg per cubic meter — around 45 lb per cubic foot — and lasts. It was the main structural material for sailing warships, and it still goes into floors, furniture and wine barrels."
+   },
+   {
+    "cat": "weird",
+    "kind": "record",
+    "text": "Gall wasps lay eggs in oak buds and the tree grows a hard round house around the grub. People collected those oak galls, crushed them with iron salts and made ink out of them — most old European manuscripts are written in oak-gall ink.",
+    "more": "The wasp does not build the gall. It lays an egg, and the oak does the building — growing a hard round chamber around the grub with food inside it. Crush those galls with iron salts and you get a black ink that bites into paper and stays there."
+   },
+   {
+    "cat": "size",
+    "kind": "worked",
+    "text": "Very old oaks get shorter. The crown dies back from the top and the tree carries on below the dieback. The reasoning is plain plumbing. A smaller crown is less to supply. A tree that shrinks its demand can hold on far longer than one that does not."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "An oak needs up to 150 years of growing before it is big enough to cut for construction timber. The person who plants one is not the person who uses it."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three: fruit trees yielding fruit, whose seed is in itself, after its kind. An acorn is exactly that — a seed with a wooden cup and a lid, and it makes an oak, every time, and nothing else."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "English oaks routinely pass 500 years. A few named trees, like the Stelmuze Oak in Lithuania, are reckoned to be far older than that."
+   }
+  ]
+ },
+ {
+  "id": "banyan",
+  "name": "Banyan",
+  "group": "trees",
+  "blurb": "A fig that starts life up in another tree's branches, drops roots to the ground, and ends up standing in its place.",
+  "size": "Up to 100 ft (30 m) tall — but width is the point: one banyan's canopy covers 4.67 acres, about three and a half football pitches.",
+  "homes": [
+   "rainforest",
+   "forest"
+  ],
+  "stats": {
+   "height": 100
+  },
+  "wonder": "There is no rule that says a tree must be one trunk; the banyan simply keeps adding legs and walking outwards.",
+  "facts": [
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "One tree covers 18,918 square meters. That is 203,630 sq ft, or about 4.67 acres. The Great Banyan grows at the Acharya Jagadish Chandra Bose Indian Botanic Garden in Howrah, near Kolkata. Its crown measures 486 m (1,594 ft) around. The highest branch reaches 80 ft (24.5 m).",
+    "more": "There is a road running through it and a footpath around the outside. Visitors regularly walk into the middle believing they are in a small wood, and come out surprised."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "That one tree stands on 3,772 prop roots that have reached the ground and thickened into trunks. Walk into it and it reads as a small forest. It is one plant."
+   },
+   {
+    "cat": "weird",
+    "kind": "record",
+    "text": "The Great Banyan's original main trunk was 50 ft across. Two cyclones around 1925 wrecked it and fungus got in, so it was cut out and removed to save the rest. The tree lost its middle and did not notice.",
+    "more": "That is only possible because every prop root is a working trunk in its own right. Remove the center of an oak and you have a dead oak."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "Another banyan spreads further still. Thimmamma Marrimanu covers 19,107 square meters (205,670 sq ft). Its edge runs 846 m (2,776 ft) around. It grows in Anantapur district, Andhra Pradesh. Guinness listed it as the largest tree by canopy in 1989."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "A new prop root starts as a thin brown thread hanging from a branch, swinging in the air with nothing on the end of it. Once it touches soil it roots, thickens, and starts carrying weight."
+   },
+   {
+    "cat": "disguise",
+    "kind": "worked",
+    "text": "A strangler fig sprouts in a fork high in another tree and grows there as a lodger, sending roots down to the soil. Nobody watches one tree for a century — the hollow center is the argument. Old stranglers are hollow, because the host inside them rotted away.",
+    "more": "Cut into a big strangler and there is often a chimney up the middle where the host trunk used to be. The fig grew as a hollow cage around a tree that has since rotted out of it, leaving its shape behind."
+   },
+   {
+    "cat": "travel",
+    "kind": "found",
+    "text": "Birds eat the small figs and drop the seeds wherever they perch — including high forks in other trees, which is exactly where a strangler needs to start. Seeds that have been through a bird's gut sprout better than seeds that have not."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "Every wild fig, banyan included, is pollinated by tiny wasps that crawl in through a pinhole at the tip of the fig. Different fig species carry different wasps. The fig is a sealed room, and the wasp is the only one with a key."
+   },
+   {
+    "cat": "copied",
+    "kind": "record",
+    "text": "In Meghalaya, in north-east India, people grow bridges out of living roots. They take the aerial roots of a related fig, Ficus elastica, and train them across rivers on frames. The roots thicken in place and knit together. The finished bridge is alive and carries people over.",
+    "more": "A root bridge takes many years to grow and is never really finished — people keep training new roots into it. Unlike a wooden bridge it gets stronger with age, because it is still alive and still thickening."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The banyan is the national tree of India. It is treated as sacred there, and temples are often built beside one."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three gave trees that yield seed after their kind. This one yields small figs, and out of one of them comes something that can end up covering four and a half acres. The kind holds; the scale is a surprise every time."
+   }
+  ]
+ },
+ {
+  "id": "mangrove",
+  "name": "Red mangrove",
+  "group": "trees",
+  "blurb": "A tree that stands in salt water on stilts and sends its babies out already grown.",
+  "size": "Commonly about 20 ft (6 m), reaching 80 ft (24 m) where conditions suit — standing clear of the water on arching stilt roots.",
+  "homes": [
+   "ocean",
+   "forest"
+  ],
+  "stats": {
+   "height": 80
+  },
+  "wonder": "It was standing in the shallows, building a nursery out of its own legs, before there was a single fish to use it.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The prop roots arch out of the trunk and branches and stab down into the mud, holding the tree above the water on a tangle of stilts. From below at low tide it looks like the tree is standing on its hands."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "Waterlogged mud has almost no oxygen in it. The best read of the aerial roots is that they solve breathing as well as standing. The parts above water take oxygen in directly. The roots buried in airless mud do not suffocate."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Red mangroves skip the seed stage entirely. The seed germinates while still attached to the parent and grows into a finished green seedling 8 to 10 in (20–25 cm) long — a living dart — before it drops off.",
+    "more": "This is called vivipary, and it is unusual in plants. There is no dormant seed to survive being soaked in salt water, because there is no dormant seed."
+   },
+   {
+    "cat": "travel",
+    "kind": "found",
+    "text": "A dropped propagule can float in brackish water for over a year before it finds somewhere to root. In one Panama experiment, red mangrove propagules floated for more than 100 days. Related Rhizophora propagules from Micronesia floated for three to five months.",
+    "more": "A floating propagule lies flat while it is traveling and tips upright once it begins to root, heavy end down. If it grounds on mud at the right depth, it plants itself with nobody's help."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Other mangroves take the salt in and sweat it back out through their leaves. Red mangroves block most of it at the roots instead. Membranes in the root let water through and hold the salt back. The tree drinks the sea and stays fresh inside."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Mangroves flatten waves. Measurements put the drop in wave height at 13 to 66 percent across 100 m of forest, and 50 to 99 percent across 500 m. A belt of trees does the job of a sea wall.",
+    "more": "That number has a cost attached. Where mangrove belts have been cleared for shrimp ponds or building, storm damage behind them goes up. A replanted mangrove fringe is cheaper than a sea wall, and it repairs itself."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "Why the roots and not the trunks? The tangle is the brake. Thousands of stilt roots put drag on moving water, so the energy goes into churning through them instead of into the shore. It works best in shallow water and falls away as the water gets deeper."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "The root thickets are a nursery. Young fish shelter in there where big fish cannot follow, and birds nest above and hunt below. In parts of the range, crocodiles use them too.",
+    "more": "The value of the tangle is that it is a bad place to be big. A young fish slips between the roots; a predator that has grown past a certain size simply cannot follow it in."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The leaves are thick and waxy. They run 3 to 5 in (7.6–12.7 cm) long and 1 to 2 in (2.5–5.1 cm) wide. They are built to hold water in. That is odd for a tree standing in an ocean."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Genesis puts plants on day three and the swarming creatures of the sea on day five. The mangrove nursery was finished and standing two days before the first fish arrived. Stilt roots, sheltered shallows and safe water were all waiting for them."
+   }
+  ]
+ },
+ {
+  "id": "aspen",
+  "name": "Quaking aspen",
+  "group": "trees",
+  "blurb": "A white-barked tree whose leaves shake in the faintest breeze, and which is often not one tree at all.",
+  "size": "Usually 50 to 60 ft (15–18 m), with a record of 120 ft (36.5 m) — but the biggest one covers 106 acres.",
+  "homes": [
+   "forest",
+   "mountain"
+  ],
+  "stats": {
+   "height": 120
+  },
+  "wonder": "A hillside of aspen turning gold on the same day is not a coincidence and not a forest; it is one plant showing you its edges.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The leaf stalk is flattened sideways, 1.2 to 2.8 in (3–7 cm) long, instead of round like most trees'. A flat stalk has no stiffness against twisting, so the leaf spins and flips in air you can barely feel. That is the quaking."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "Nobody has watched a leaf choose to flutter. The shape is the argument. Leaves that twist keep letting light past them. The leaves lower down, and the trunk, get a share instead of sitting in permanent shade."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Scratch the white off an aspen trunk and it is green underneath. The bark is thin enough for light to reach chlorophyll in the layer below. So the trunk itself makes sugar. It does that in winter too, with no leaves on the tree at all.",
+    "more": "Rub a finger on an aspen trunk and white powder comes off, with a distinctly green layer under it. A tree that can photosynthesise through its own trunk gets a head start every spring, before a single leaf has opened."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "Pando, in the Fishlake National Forest, Utah, is about 47,000 aspen stems spread over 106 acres (42.89 hectares). Every stem shares one root system and one set of DNA. Together they weigh roughly 13.2 million lb (6,000 tonnes) — the heaviest known single organism.",
+    "more": "From a road it reads as an ordinary aspen wood. The giveaway is that every stem leafs out, turns color and drops its leaves in step, because they are all the same plant."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Jerry Kemperman and Burton Barnes worked out in 1976 that the stand was a single organism. Michael Grant gave it the name Pando, which is Latin for I spread."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Aspen seeds are minute — about three million to the pound — packed in cotton fluff, with no food store and no hard coat. They stay alive only briefly after they land.",
+    "more": "Compare that with an acorn, which is a packed lunch with a lid on it. An aspen seed carries no lunch at all — it has to land somewhere bare and damp within days or it is finished. In most years almost none of them manage it."
+   },
+   {
+    "cat": "babies",
+    "kind": "worked",
+    "text": "Which is why aspen mostly does not bother with seeds. New stems push up from buds on the roots of the plant already there. That is not a seedling; it is the same organism putting up another pole."
+   },
+   {
+    "cat": "home",
+    "kind": "record",
+    "text": "Mule deer and elk eat the young aspen shoots faster than they can grow away, and Pando has been thinning because of it. About 84 acres are now inside 8-ft wildlife fencing to give the new stems a chance.",
+    "more": "A clone can lose ground for decades without looking like it. The old trunks are still standing, so nothing seems wrong. The problem shows up as an absence: no young stems coming through underneath to replace them."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "No tree is spread more widely across North America than the quaking aspen. It runs from Canada down to central Mexico."
+   },
+   {
+    "cat": "weird",
+    "kind": "worked",
+    "text": "In fall you can read the clones off a mountainside. One patch goes gold while the patch beside it is still green, and the line between them is sharp. The reasoning: same timing means same plant, and the boundary is where one root system stops."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three named plants that yield seed after their kind. Aspen has the seed — three million to the pound — and also a second way home, sending up new stems from the root it already has. Two methods, one kind."
+   }
+  ]
+ },
+ {
+  "id": "dragon-blood-tree",
+  "name": "Dragon's blood tree",
+  "group": "trees",
+  "blurb": "A tree shaped like an open umbrella that runs dark red when you cut it, and grows wild on one island group only.",
+  "size": "Up to 30 ft (9 m) tall with a crown 39 ft (12 m) across — wider than it is high, like a mushroom made of branches.",
+  "homes": [
+   "mountain",
+   "desert"
+  ],
+  "stats": {
+   "height": 30
+  },
+  "wonder": "The crown is not decoration: everything the tree does about heat, water and its own seedlings, it does with that one umbrella shape.",
+  "facts": [
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It grows wild in one place on Earth: the Socotra archipelago, part of Yemen, out in the Arabian Sea. Dry mountain tops there are covered in them and nowhere else is."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The umbrella is built by repeated forking. Each branch splits into two, then each of those two splits into two, and so on — usually triggered when a growing tip stops, after flowering or damage. Count the forks and you have read the tree's history.",
+    "more": "Because a fork is triggered by a growing tip stopping, every fork marks an event — a flowering, a snapped branch. The crown is a record of things that happened to the tree, written in its own branching."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Cut the bark and dark red resin runs out. It dries to a crimson lump. The stuff is called dragon's blood, and it is where the tree gets its name."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The red resin is called dragon's blood. In classical times it was traded all around the Mediterranean. It sold as a medicine, used on wounds and for fevers, and as a red pigment. In eighteenth-century Europe it went into violin varnish and into tempering steel.",
+    "more": "Traders knew the resin long before anyone knew where it came from. Stories grew up to fill the gap. Some said it was the blood of a dragon, others the blood of an elephant. The real source was a slow tree on a hard-to-reach island."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "Why an umbrella on a dry mountain? The best read is shade and drip. The dense crown cuts evaporation from the ground directly beneath it, and that patch of shaded soil is where seedlings actually manage to survive — right under the parent.",
+    "more": "You can see the argument on the ground. Out in the open, seedlings dry out or get eaten. Under the crown of an adult, in shade, they hang on. So the trees end up in clusters rather than spread out evenly."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "It is not a tree in the oak sense at all. It is a monocot — the same broad group as lilies, grasses and asparagus — and it grows thicker in a way that leaves no clean annual rings to count."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "The trunk gets to about 5 ft (1.5 m) across and then splits. Below the first fork it is a bare gray column; above it, nothing but forks."
+   },
+   {
+    "cat": "home",
+    "kind": "worked",
+    "text": "Goats eat the seedlings, so the old trees are not being replaced fast enough. One model of the changing climate works out a loss of about 45 percent of suitable habitat by 2080. That last figure is a projection, not a measurement."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "People on Socotra have been raising them by hand. By 2022 around 600 nursery-grown saplings had got big enough to stop needing regular watering."
+   },
+   {
+    "cat": "disguise",
+    "kind": "found",
+    "text": "From below, the leaves make a solid roof. They are stiff blue-green blades, crowded at the very ends of the branches. Nothing else on the tree is green."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three set plants on the land first. No rain-bearing weather had been recorded yet. No animal or person existed to shelter under one. This tree's whole shape is a roof, and it built it for its own seedlings."
+   }
+  ]
+ },
+ {
+  "id": "joshua-tree",
+  "name": "Joshua tree",
+  "group": "trees",
+  "blurb": "Not really a tree, and not a cactus. It is a giant yucca of the Mojave Desert. Exactly one insect is willing to pollinate it.",
+  "size": "Most top out near 40 ft (12 m); the tallest known reach about 49 ft (15 m) — roughly a four-story building of spikes.",
+  "homes": [
+   "desert"
+  ],
+  "stats": {
+   "height": 49,
+   "life": 150
+  },
+  "wonder": "One plant, one moth, and neither can make the next generation without the other showing up on time.",
+  "facts": [
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "The yucca moth Tegeticula synthetica carries pollen from flower to flower while laying its eggs inside them. Its grubs eat some of the seeds and leave the rest. No other animal visiting the flowers does the job — none of them move the pollen.",
+    "more": "A second moth, Tegeticula antithetica, does the same work in the eastern and north-eastern Mojave. Take the moths away and the Joshua tree sets no seed; take the trees away and the moths have nothing to feed their grubs."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The trunk is thousands of small fibers bundled together, with no annual growth rings anywhere in it. You cannot count a Joshua tree's rings, because it does not have any."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "It will only flower if two things happen: rain at the right moment, and a proper winter freeze. Flowers come between February and late April, and some years a stand simply does not bloom at all.",
+    "more": "That is a strict pair of conditions for a desert plant. Flowering years come in patches and cannot be predicted. The moths have to be there in the right year as well. Otherwise the whole effort produces nothing at all."
+   },
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "Seedlings grow about 3 in (7.6 cm) a year for the first ten years, then slow to roughly 1.5 in (3.8 cm) a year. A 40-ft Joshua tree has been at it for a very long time at that rate."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The roots spread far wider than the plant. In one case a Joshua tree root was traced 36 ft (11 m) from the nearest trunk — out past the edge of everything you can see."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It lives almost entirely in the Mojave Desert, between 1,300 and 5,900 ft (400–1,800 m) above sea level. Below that band it is too hot; above it, too cold."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "Scott's oriole builds its nest right in among the spikes. Wood rats build houses under the heaps of fallen leaves. Desert night lizards hunt insects under the log of a Joshua tree that has come down."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Everyone says Mormon settlers named it for the prophet Joshua with his arms raised. The National Park Service notes there is little evidence for the story. The name is not recorded until after Mormon contact. Nobody wrote it down at the time.",
+    "more": "It is a good story and it may well be true. It is just not documented. Worth keeping straight: a thing everybody says and a thing somebody wrote down at the time are two different grades of evidence."
+   },
+   {
+    "cat": "food",
+    "kind": "record",
+    "text": "Native people of the Mojave used most of the plant. Leaf fibers were bound and made into sandals. Root sheaths were woven into baskets. The fruit was baked or boiled. The seeds were ground into flour."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "It does not only use seed. Joshua trees sprout from their own roots and branches, so a tight cluster of trunks can turn out to be one plant that came up several times."
+   },
+   {
+    "cat": "created",
+    "kind": "worked",
+    "text": "Genesis has plants on day three and every creeping thing on day six. The tree and the moth need each other completely — no moth, no seed; no tree, no grubs. Whatever you make of the order, a partnership that tight does not arrive one piece at a time and wait."
+   }
+  ]
+ },
+ {
+  "id": "cacao",
+  "name": "Cacao",
+  "group": "trees",
+  "blurb": "A small rainforest tree that grows its fruit straight out of its trunk, and is the only source of chocolate.",
+  "size": "20 to 39 ft (6–12 m) tall, with rugby-ball pods 6 to 12 in (15–30 cm) long hanging off the bark of the trunk itself.",
+  "homes": [
+   "rainforest"
+  ],
+  "stats": {
+   "height": 39
+  },
+  "wonder": "The whole of chocolate depends on a fly small enough to get through a flower less than an inch across.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Cacao flowers and fruits straight out of the trunk and the old thick branches, not out on the twigs. The word for it is cauliflory. A cacao tree looks like someone glued the fruit on by hand."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "The flowers are only 0.4 to 0.8 in (1–2 cm) across. Biting midges of the genus Forcipomyia do the pollinating. They are flies a couple of millimeters long. Only about 1 to 5 percent of flowers ever turn into a pod.",
+    "more": "A one-to-five-percent success rate sounds like a disaster. It is not, because a tree carries thousands of flowers. It just means most cacao flowers open, wait, and drop off without ever meeting a midge."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "A ripe pod weighs about 1 lb (500 g) and holds 20 to 60 seeds packed in sweet white pulp. The pulp is delicious. The seeds, raw, are horribly bitter."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "It takes about 1,200 seeds — roughly 40 pods — to make 1 kg (2.2 lb) of cocoa paste. A chocolate bar is the emptied contents of several fruits off a tree trunk."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "There is no chocolate without rotting. The seeds and pulp are heaped up and left to ferment for several days, then dried for a week or two. Skip the fermenting and the flavor never appears at all.",
+    "more": "The heap heats up as it ferments and the pulp breaks down and drains away. Inside the seed, that heat and acid start the reactions that build the flavor. A washed, dried, unfermented cacao seed tastes bitter and flat, and always will."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Cocoa butter is 40 to 50 percent of the seed and melts at 93.4 °F (34.1 °C) — just under body temperature. That is exactly why chocolate is hard in the wrapper and liquid in your mouth."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Linnaeus gave it the name Theobroma cacao in 1753. Theobroma is Greek for food of the gods. Cacao comes through Spanish from Nahuatl, the language of the people who were drinking it long before Europeans arrived.",
+    "more": "Cacao was a drink long before it was a bar — ground seeds, water, chilli, no sugar at all. Sweet solid chocolate came much later, and most of what is in a bar is not cacao."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "The seeds carry theobromine. People break it down without trouble; dogs process it far more slowly, which is why chocolate makes a dog seriously ill and a person merely happy."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Its home ground runs from south-eastern Mexico down into the Amazon basin, in humid forest. It wants shade, damp and no wind — a young cacao grows under other trees, not in the open."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The leaves reach 20 in (50 cm) long and 4 in (10 cm) across. New ones come out limp and reddish and hang straight down before they stiffen up and go green."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three: fruit trees yielding fruit, whose seed is in itself. Cacao is that sentence taken literally — the fruit hangs on the trunk and the seed inside it is the thing worth having."
+   },
+   {
+    "cat": "weird",
+    "kind": "worked",
+    "text": "Flowers on a trunk are hard to explain by wind or by birds. The best read is the midge. That fly lives in the wet leaf litter on the forest floor. It does not have to climb far to reach a flower growing at chest height on the bark."
+   }
+  ]
+ },
+ {
+  "id": "rubber-tree",
+  "name": "Rubber tree",
+  "group": "trees",
+  "blurb": "An Amazon tree with milky sap, cut from the bark daily. The sap became tires, gloves and erasers.",
+  "size": "Up to 141 ft (43 m) in wild forest; plantation trees are kept far shorter so the tappers can reach the cut.",
+  "homes": [
+   "rainforest"
+  ],
+  "stats": {
+   "height": 141
+  },
+  "wonder": "One tree in one forest turned out to have a liquid in its bark that the whole modern world runs on wheels because of.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The latex is not in the wood. It sits in its own vessels inside the bark. Those vessels spiral up the trunk in a right-handed helix, at about 30 degrees to the horizontal. They reach as high as 49 ft (15 m).",
+    "more": "There is no equivalent in a familiar tree. It is a second, separate network living in the bark, carrying its own fluid, and it has nothing to do with moving water up or sugar down."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "Which explains the slanted cut. A tapper's groove runs diagonally down the trunk. The reason is arithmetic. A diagonal crosses far more of those spiraling vessels than a straight vertical or horizontal cut would."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "The cut is shaved shallow — just deep enough to open the latex vessels without reaching the growing layer underneath. The latex runs down the groove into a small cup, and the tree seals the wound afterwards."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Henry Wickham delivered 70,000 rubber seeds collected in Brazil to Joseph Hooker at Kew Gardens in the early hours of 14 June 1876. About four percent sprouted. Roughly 2,000 seedlings went to Ceylon and 22 to Singapore.",
+    "more": "By 1898 there was a rubber plantation in Malaya. Brazil's rubber exports had halved by 1910 and were close to nothing by 1940. Seventy thousand seeds in a crate moved an entire industry to the other side of the world."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The fruit is a capsule holding three big seeds, and when it ripens it splits open explosively and throws them clear. In a quiet plantation you can hear them going off."
+   },
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "A rubber tree takes seven to ten years before it gives its first harvest, and plantations usually fell them at 25 to 30 years, when the flow drops off. Every tire involves a decade of waiting first."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "What is latex for, from the tree's side? The best read is defense. It floods out of a wound under pressure, gums up the mouthparts of anything chewing the bark, and sets into a sticky plug. It is not food, and it is not sap."
+   },
+   {
+    "cat": "copied",
+    "kind": "record",
+    "text": "Raw rubber goes soft and tacky in heat and brittle in cold. Charles Goodyear worked at that through the 1830s, and in 1839 dropped a rubber and sulfur mix on a hot stove. Instead of melting, it firmed up. He patented the process in the US on 30 January 1844.",
+    "more": "Thomas Hancock had patented the same idea in Britain eight weeks earlier, on 21 November 1843. Before it, rubber was a novelty that failed in use. Heating it with sulfur locks the long molecules to one another, and the result stays springy across a useful range of temperatures. Every tire rests on that step."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Its home is the Amazon, in forest that floods for part of the year. Thailand, Indonesia, Malaysia, India and Vietnam are now the biggest producers — none of them anywhere near where the tree grows wild."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Latex production varies wildly from tree to tree, even between trees of the same planted clone standing side by side. Growers cannot simply assume a yield; they have to tap and see."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three, before there was anyone to want a tire. The tree carries its own plumbing, its own repair fluid and its own launcher for its seeds. It had all three long before anybody thought to put a cup under it."
+   }
+  ]
+ },
+ {
+  "id": "eucalyptus",
+  "name": "Rainbow eucalyptus",
+  "group": "trees",
+  "blurb": "A rainforest eucalyptus whose bark peels off in strips, leaving a trunk streaked green, blue, orange and purple.",
+  "size": "197 to 256 ft (60–78 m) tall — as high as a 20-story building — with a trunk up to 94 in (240 cm) across.",
+  "homes": [
+   "rainforest"
+  ],
+  "stats": {
+   "height": 256
+  },
+  "wonder": "The colors are not paint and not a disease; they are simply the trunk's calendar, showing when each strip of bark let go.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The bark comes off in long strips, and different patches shed at different times of year. What is exposed underneath is bright green. It then ages through blue, purple, orange and reddish brown before the next strip peels.",
+    "more": "Plenty of eucalypts shed bark. This one does it in patches at different times, so the trunk is never one color. On a single tree you can find fresh green, older blue and month-old orange side by side."
+   },
+   {
+    "cat": "disguise",
+    "kind": "found",
+    "text": "So the streaks are a timetable. A green band is bark that was uncovered recently; a red-brown band has been out in the air longest. The trunk shows you months of its own history at once."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "The best read on the colors starts with fresh bark. It is green because it is full of chlorophyll. As it sits in the air, tannins build up in it. Different tannins run red, yellow, brown, blue, purple and pink. There is the rest of the range."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Its scientific name is Eucalyptus deglupta. Deglupta is Latin for peeled off, husked or shelled. Whoever named it went straight for the obvious thing."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It grows wild in the Philippines, Indonesia and Papua New Guinea. No other eucalyptus naturally lives in rainforest. No other one has a natural range that reaches into the Northern Hemisphere.",
+    "more": "Australia is the eucalyptus homeland and it is dry. This species went the other way, into wet tropical forest and north across the equator. It is the exception that shows how far the group will stretch."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Almost all of its several hundred relatives are Australian. This one is the outlier. It is a eucalyptus that went north across the equator and into the wet forest."
+   },
+   {
+    "cat": "food",
+    "kind": "record",
+    "text": "It is planted around the world in plantations, mainly for pulpwood to make white paper. In the Philippines it is the dominant pulpwood species. A lot of ordinary paper started out as this tree.",
+    "more": "It is grown for speed, not for looks. A pulpwood plantation wants height and volume fast, and the extraordinary trunk is simply what the tree does while it is producing them."
+   },
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "It grows fast, which is exactly why it is a plantation tree. Height and color are unrelated; the growers want the height and get the paintwork thrown in."
+   },
+   {
+    "cat": "weird",
+    "kind": "worked",
+    "text": "People assume it is fungus, dye or a hoax. The check is easy. It is on every tree in the stand. It is under the bark rather than on it. The pattern moves as the bark sheds, and paint does not do that."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Genesis puts plants on day three, before there was an eye anywhere to look at one. This trunk keeps repainting itself in green, blue, orange and purple, and it did it for a long time with nobody watching."
+   }
+  ]
+ },
+ {
+  "id": "date-palm",
+  "name": "Date palm",
+  "group": "trees",
+  "blurb": "The desert palm behind dates, feeding people in dry country as far back as written records go.",
+  "size": "Up to 98 ft (30 m) tall, with leaves 13 to 20 ft (4–6 m) long — one leaf is longer than a car.",
+  "homes": [
+   "desert"
+  ],
+  "stats": {
+   "height": 98,
+   "life": 100
+  },
+  "wonder": "It is one of the few crops in the world where the harvest depends on a person climbing up and doing the pollinating by hand.",
+  "facts": [
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "A date palm is either male or female, never both. Only about half of palms grown from seed turn out female and bear fruit, so a grower who plants seeds is throwing away half the orchard."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "record",
+    "text": "So growers do the pollinating themselves, and have for a very long time. They cut the male flower cluster and carry it up the female palm. Then they dust or tie it among her flowers. One male palm supplies pollen for up to 100 females.",
+    "more": "It is one of very few crops that essentially cannot be left to wind or insects if you want a real harvest. Growers climb, cut, carry and tie — the same work in the same order, in every date-growing country there is."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "A mature female palm gives 150 to 300 lb (70–140 kg) of dates in a harvest. Dried dates are 63 to 64 percent sugar by mass — which is why they keep, and why a handful goes a long way in a desert."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "In 2005 Elaine Solowey managed to germinate a date seed from the dig at Masada. Masada is a clifftop fortress above the Dead Sea. Sarah Sallon named the seedling Methuselah. Six more old seeds have been sprouted since: Hannah, Adam, Judith, Boaz, Jonah and Uriel.",
+    "more": "The seeds had been sitting in storage after being dug out of the ruins. Nobody expected any of them to do anything. One of them grew into a male palm that has since fathered fruit."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The Bible calls Jericho the city of palm trees. Palm branches are what the crowd carried when Jesus rode into Jerusalem, which is why the day is called Palm Sunday."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Each leaf carries about 150 leaflets, and each leaflet is around 12 in (30 cm) long and 1 in (2.5 cm) wide, ending in a spike. The lowest leaflets on a frond are stiff thorns."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Growers get around the seed problem with offshoots — young suckers cut from the base of a good female palm and planted. They come out identical to the parent and fruit two to three years sooner than a seedling."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "A palm is not built like an oak. There are no branches and no bark rings. The trunk does not widen the way an oak trunk does. There is one growing point at the top, over a column patterned with the stumps of old leaf bases. Cut the top out and the palm is finished.",
+    "more": "An oak damaged at the top regrows from buds along its branches. A date palm has one growing point, at the very crown. That is why a palm is easy to kill from above and cannot be pruned back the way a broadleaf can."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "A single date is 1 to 3 in (3–7 cm) long and about 1 in (2.5 cm) across, and hangs in enormous drooping clusters. A female palm may carry 15 to 25 flowering stalks in a season, each with 150 to 200 spikelets on it."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Palms are monocots, the same broad group as grasses and lilies. They lay down no annual rings, so nobody counts a palm's rings — there is nothing there to count."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three put the seed-bearing plants in place, and the account has fruit trees named specifically. A date is exactly that — a sweet parcel wrapped around one long hard seed, made to be carried off and dropped somewhere else."
+   }
+  ]
+ },
+ {
+  "id": "cedar-of-lebanon",
+  "name": "Cedar of Lebanon",
+  "group": "trees",
+  "blurb": "The great timber tree of the ancient Near East, and the tree on Lebanon's flag.",
+  "size": "Up to 130 ft (40 m) tall on a single massive column of a trunk 8 ft (2.5 m) thick — old ones measure 39 ft (12 m) around.",
+  "homes": [
+   "mountain",
+   "forest"
+  ],
+  "stats": {
+   "height": 130,
+   "life": 1000
+  },
+  "wonder": "Of all the trees on all those mountains, this is the one the ancient world sent ships and armies for.",
+  "facts": [
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "1 Kings 5 records the deal. Hiram, king of Tyre, supplied Solomon with cedar and workmen. The wood went into the temple in Jerusalem and into Solomon's own palace. Solomon paid in wheat and oil. 2 Chronicles 2 tells it from the other side.",
+    "more": "The account is specific about the logistics. The timber was cut in Lebanon, floated down the coast in rafts and then hauled inland. Getting the wood was a national-scale project involving two kingdoms and a written agreement."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The wood is fragrant, and it resists both rot and insects. That combination made it the most valuable building timber in the ancient world — good for temples, palaces and ships, in a region where most timber does not last."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The cedar sits in the middle of Lebanon's flag, adopted on 7 December 1943, just before independence. It stands on the country's coat of arms as well. Very few national flags carry a specific tree species."
+   },
+   {
+    "cat": "home",
+    "kind": "record",
+    "text": "The Cedars of God — Horsh Arz el-Rab — grow above Bsharri in northern Lebanon. UNESCO listed the grove in 1985 together with the Qadisha Valley below it. It is one of the last remnants of the forests that once covered Mount Lebanon.",
+    "more": "Mount Lebanon was once forested with these from end to end. What is left is a handful of protected groves, and the country now carries on its flag a tree it very nearly ran out of."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "Individual trees have been measured at 88 ft (27 m) tall with a girth of 39 ft (12 m). Trunk diameters of 5 to 7 ft (1.5–2.1 m) are on record, on a single straight columnar stem."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The cones stand upright on the branch like small barrels, 3 to 4.7 in (8–12 cm) long. They do not drop whole: they fall apart on the tree, shedding scales and seeds until only the bare central spike is left standing there.",
+    "more": "Pines drop their cones whole, and you can pick them up under the tree. Cedars do not. The cone comes apart where it stands, scale by scale, and all you find on the ground underneath is loose scales and seeds."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The needles do not run along the twig one by one. They come in tufts of 15 to 35 on short stubby side shoots, so a cedar branch looks studded with green rosettes rather than combed."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Cedar shows up in the boat too. The first-century fishing boat pulled out of the mud of the Sea of Galilee — the one people call the Jesus Boat — has cedar of Lebanon in it."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "Why does a cedar chest keep moths out of clothes? The best read is the resin. The oils that give the wood its smell are the same ones insects avoid, so the smell and the protection are one thing, not two."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It grows in the mountains of Lebanon, Syria and Turkey, most abundantly between 4,300 and 9,800 ft (1,300–3,000 m). It is a high, cold, snowy tree, not a tree of the warm coast."
+   },
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "It grows quickly until about 45 to 50 years old, then slows sharply, and after about 70 it barely widens at all. Nearly all the growing is done early."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three of the creation week put trees on the mountains before there was a single builder alive to want one. The wood that resists rot and insects was finished long before anyone had a temple to raise with it."
+   }
+  ]
+ },
+ {
+  "id": "olive",
+  "name": "Olive tree",
+  "group": "trees",
+  "blurb": "A slow, gnarled Mediterranean tree whose fruit is inedible straight off the branch.",
+  "size": "Rarely more than 25 to 50 ft (8–15 m) tall, but the trunk goes hollow, twisted and knotted — one measures 82 ft (25 m) around.",
+  "homes": [
+   "grassland",
+   "backyard"
+  ],
+  "stats": {
+   "height": 50,
+   "life": 1000
+  },
+  "wonder": "Burn one to the ground and the root sends up new shoots — which is why an old olive is so hard to kill and so hard to date.",
+  "facts": [
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The dove Noah sent out came back in the evening with a freshly plucked olive leaf in her beak. That was how he knew the water had gone down off the land. The verse is Genesis 8:11. The olive is the tree in the first good-news message in the Bible."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "You cannot eat an olive off the tree. A young olive is up to 14 percent oleuropein by dry weight, and oleuropein is savagely bitter. Curing takes a few days in lye or a few months in brine before the fruit is edible.",
+    "more": "Curing is removal, not seasoning. Lye or long soaking pulls the oleuropein out. Brine does it slowly, while fermentation changes the flavor alongside. Every olive anybody has ever eaten went through one of those processes first."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "The flesh of the fruit is 60 to 70 percent oil. A typical tree yields about 3 to 5 lb (1.5–2.2 kg) of olive oil in a year — a couple of bottles for twelve months of standing there."
+   },
+   {
+    "cat": "babies",
+    "kind": "worked",
+    "text": "Frost or fire can kill an olive's whole top and the rootstock still lives, throwing up new shoots. So an ancient olive is often a young trunk standing on a very old root — which is why counting the trunk badly undercounts the plant.",
+    "more": "It also means a grove can be older than any trunk standing in it. Cut, burned or frozen, the root keeps its place and starts again, so the grove carries on with new trunks in the old positions."
+   },
+   {
+    "cat": "record",
+    "kind": "worked",
+    "text": "Wood sampled from three of the eight olives in the Garden of Gethsemane in Jerusalem carbon-dates to AD 1092, 1166 and 1198. DNA from all eight came out with matching profiles — they all trace back to one parent plant.",
+    "more": "Matching DNA across all eight is the stronger result. It means the grove was propagated from cuttings of a single tree rather than grown from separate seeds."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "The olive known as Al Badawi, in the village of Al Walaja near Bethlehem, measures 25 m — about 82 ft — around the trunk. It would take a dozen children with their arms out to close a circle around it."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Claims about ancient olives run wild and mostly do not check out. The Bcheale tree in Lebanon was advertised at 4000 BC; the research put it at over 1,100 years instead. Portugal, Crete and Montenegro all have claimants too.",
+    "more": "Olives make their own age hard to check. The trunk goes hollow and the oldest wood rots out of the middle. So the wood left to sample is usually not the oldest wood the plant ever grew."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "Why make the fruit that bitter? The best read: oleuropein keeps things from eating the crop before the seed inside is finished. It works. The only reason we eat olives at all is that people figured out how to wash the bitterness out."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Olive leaves are dark green on top and silvery-gray underneath, and a whole grove flickers pale when the wind turns them over. The underside is covered in tiny scales."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The wood is dense and hard. The twisted trunk gives it a wild swirling grain. That makes it good for bowls and handles. It is difficult to work with anything blunt."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three named fruit trees, each with its seed in itself. An olive is a stone wrapped in oil-rich flesh. That oil has lit lamps, fried food and anointed kings — from a tree that will grow on stony ground nothing else wants."
+   }
+  ]
+ },
+ {
+  "id": "fig",
+  "name": "Common fig",
+  "group": "trees",
+  "blurb": "A Mediterranean tree whose fruit is not a fruit at all, but a bag of flowers turned inside out.",
+  "size": "23 to 33 ft (7–10 m) tall, with smooth pale bark and big hand-shaped leaves you could cover your face with.",
+  "homes": [
+   "forest",
+   "backyard"
+  ],
+  "stats": {
+   "height": 33,
+   "life": 100
+  },
+  "wonder": "Every fig is a sealed room full of flowers that will never see daylight, and the whole design only makes sense once you know about the wasp.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "A fig is not a fruit. It is a syconium — a hollow fleshy pouch lined on the inside with hundreds of tiny flowers, all facing inwards. When you bite a fig you are eating a flower bed with the walls still on.",
+    "more": "Cut one in half and look. What seems to be flesh with strings through it is the inside wall of the pouch. The strings are the flowers. There are hundreds of them, packed in, every one facing the middle."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "There is one way in: a pinhole at the tip called the ostiole. The fig wasp Blastophaga psenes squeezes through it to reach the flowers, and it is such a tight fit that she generally loses her wings on the way."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Myth-buster: the figs in the shop have no wasp in them. Smyrna-type figs do need wasp pollination or the young figs simply drop, but most eating varieties are persistent types that set fruit with no pollination at all. The crunch is seeds.",
+    "more": "So the answer to the question every child asks is: it depends on the fig. Smyrna types genuinely do involve a wasp. The common shop varieties involve none at all, and no wasp ever went into them."
+   },
+   {
+    "cat": "gross",
+    "kind": "found",
+    "text": "In a wild fig that does host a wasp, the tree deals with the body itself. Figs contain ficin, an enzyme that breaks down protein, and it dissolves the wasp where she lies."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The fig is the first plant called by name in the Bible. Genesis 3:7 has Adam and Eve sewing fig leaves together after eating the forbidden fruit. That fruit was never identified as an apple, or as anything else."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "In the Bible, a man sitting under his own vine and fig tree is the picture of peace and safety. 1 Kings 4:25 uses it of Solomon's reign. Micah 4:4 uses it of a promised peace."
+   },
+   {
+    "cat": "gross",
+    "kind": "found",
+    "text": "The milky sap from the green parts of a fig tree irritates skin. Get it on you, then go out in the sun, and it can burn — the sunlight makes the reaction worse. Fig pickers cover their arms for a reason."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Fig trees come in two arrangements. Caprifigs are the ones that house the wasps. In the edible kinds the female flowers are built too long for the wasp to lay her eggs down into, so she pollinates and gets nothing back."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "Why put your flowers inside a bag? The best read is that the bag is what makes the partnership work. It is a walled nursery the wasp cannot get anywhere else. In exchange the tree gets a courier no wind or bee could replace. Neither side works alone.",
+    "more": "This does not work halfway. A fig with a door and no wasp sets no seed. A wasp with nowhere to lay has no grubs. Whatever else you conclude about it, the two halves only make sense together."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Its home ground is the Mediterranean and western and southern Asia. It will grow out of a crack in a wall on almost no soil, which is why you find figs sprouting from ruins and bridges."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three brought seed-bearing plants and fruit trees. The fig leaf turns up again in Genesis 3. It is the first thing people ever made for themselves, cut from a tree that had been standing there since the third day."
+   }
+  ]
+ },
+ {
+  "id": "apple",
+  "name": "Apple tree",
+  "group": "trees",
+  "blurb": "A tree that refuses to copy itself from seed. Every apple variety you have eaten is a cutting off one original plant.",
+  "size": "Left alone it reaches about 30 ft (9 m); orchard trees are kept to 10 or 15 ft (3–5 m) so people can pick without ladders.",
+  "homes": [
+   "backyard",
+   "forest"
+  ],
+  "stats": {
+   "height": 30,
+   "life": 100
+  },
+  "wonder": "The seed always makes an apple tree and never makes the same apple — the kind holds perfectly, the variety not at all.",
+  "facts": [
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Plant a pip out of a Gala and you do not get a Gala. Apples are extreme heterozygotes. That means the seedlings come out different from both parents. They are usually small, usually sour, occasionally wonderful.",
+    "more": "Which is why most chance apple seedlings are small and sour. Out of a great many of them, occasionally one is excellent. That single tree then has to be copied by hand. Its own seeds will not repeat it."
+   },
+   {
+    "cat": "babies",
+    "kind": "record",
+    "text": "So every Bramley, every Granny Smith, every Pink Lady is a cutting. A shoot from the original plant is grafted onto a rootstock, and the rootstock decides how big the tree gets and how tough it is. The variety is one plant, copied endlessly.",
+    "more": "A graft is a cutting joined onto another tree's root system so the two grow together. The top decides what the apples taste like; the bottom decides how big the tree gets and how tough it is. Two plants, one trunk, on purpose."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "There are more than 7,500 named apple varieties. Almost all of them started as one lucky seedling somebody noticed and then grafted."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Apples are self-incompatible. A tree cannot fertilize itself. An orchard needs at least two different varieties flowering at the same time. It also needs something to carry pollen between them, or there is no crop."
+   },
+   {
+    "cat": "home",
+    "kind": "record",
+    "text": "The wild apple Malus sieversii still grows on the forested flanks of the Tian Shan mountains. That range runs through southern Kazakhstan, Kyrgyzstan, Tajikistan and north-western China. Whole hillsides of wild apple trees, all of them different from each other."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The apple tree at Woolsthorpe Manor in Lincolnshire — the one in the Isaac Newton story — is a variety called Flower of Kent. It blew down in a storm around 1816, re-rooted from the base, and is still growing there.",
+    "more": "Grafted copies of that tree grow on every continent except Antarctica. Not all of them are genuine. In 2016 Canada's National Research Council checked its prized Newton trees. They were not the original, and not even Flower of Kent."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Myth-buster: Genesis never says apple. The fruit in the garden is not named at all. The apple turns up in western European art and storytelling much later, by about the twelfth century, and then stuck.",
+    "more": "Painters needed a fruit their audience would recognize, and northern Europe had apples. Later writers took the picture from the pictures. It is a tidy example of a detail everyone knows and nobody can point to in the text."
+   },
+   {
+    "cat": "gross",
+    "kind": "found",
+    "text": "Apple pips contain amygdalin, a compound that carries cyanide. Before you panic, check the records. The US National Library of Medicine has no record of anyone being poisoned by eating apple seeds the ordinary way."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "An apple has 17 chromosomes and a genome of roughly 650 megabases. That is small, as fruit trees go. It is part of why the apple was one of the earlier fruit trees to be fully read."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "World apple production in 2023 came to 97 million tonnes, and China grew 51 percent of it. More than half the apples on Earth come from one country."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three: fruit trees yielding fruit after their kind. That is exactly what happens. An apple seed makes an apple tree, without fail — but never the same apple. The kind is fixed; the variety has to be carried by hand."
+   }
+  ]
+ },
+ {
+  "id": "willow",
+  "name": "Weeping willow",
+  "group": "trees",
+  "blurb": "The drooping tree by the water. It was named after a mistake, and it gave us the idea behind aspirin.",
+  "size": "66 to 82 ft (20–25 m) tall, with branchlets that hang straight down to the ground like a curtain.",
+  "homes": [
+   "freshwater",
+   "backyard"
+  ],
+  "stats": {
+   "height": 82,
+   "life": 75
+  },
+  "wonder": "Something in that bitter bark was worth chewing, and people worked out what and why over more than a century of careful trying.",
+  "facts": [
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Linnaeus named it Salix babylonica in 1753. He thought it was the tree of Psalm 137. In that psalm the exiles hang their harps on the willows by the rivers of Babylon. He was wrong. This willow is native to northern China, Korea, Mongolia, Japan and Siberia.",
+    "more": "Scientific names stick even when they turn out wrong. The rule is stability rather than accuracy. So a Chinese willow permanently carries the name of a Mesopotamian city. It has probably never grown anywhere near the place."
+   },
+   {
+    "cat": "record",
+    "kind": "worked",
+    "text": "The trees actually growing along the Euphrates were most likely Euphrates poplar, Populus euphratica. It carries willow-shaped leaves on long drooping shoots, so it is an easy tree to mistake. Some modern Bible translations now render the word as poplars."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "In 1763 the Reverend Edward Stone reported to the Royal Society that powdered white willow bark cured ague. Ague meant the shivering fevers. Over five years he had given it to some fifty sufferers, with success in nearly all of them.",
+    "more": "Stone was working from a bad theory. He believed cures grow where diseases do. So he went looking for a fever remedy in a wet place, and tasted a willow twig. The theory was wrong and the result was right. That happens more often than anyone likes to admit."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Johann Buchner got fairly pure salicin crystals out of willow bark in 1828. Pierre-Joseph Leroux worked out another way to extract it the following year. That was the bitter chemical Stone had been handing out without knowing its name."
+   },
+   {
+    "cat": "copied",
+    "kind": "record",
+    "text": "In 1897 Felix Hoffmann at Bayer refluxed salicylic acid with acetic anhydride. What he made was acetylsalicylic acid. Bayer began selling it in 1899 under the name Aspirin.",
+    "more": "The point of the change was the stomach. Salicylic acid works, but it is hard on people who take it. The acetylated version was gentler. That is the version that ended up in a billion medicine cabinets."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Myth-buster: there is no aspirin in a willow. The tree makes salicin. Aspirin is a made compound that does not occur in the bark at all — chewing willow is not the same as taking a tablet."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Push a cut willow stick into wet ground and it roots. Willows are among the easiest trees on Earth to propagate from a piece, which is why a fallen willow branch lying in a ditch turns into a willow.",
+    "more": "Gardeners use that on purpose. Willow twigs soaked in water make a liquid that is used to help other cuttings strike. Whatever a willow does to start roots, it does a great deal of it."
+   },
+   {
+    "cat": "copied",
+    "kind": "record",
+    "text": "Gardeners use that. Living willow is woven into fences, domes and tunnels while the rods are fresh. The rods root where they touch soil. The structure keeps growing after it is finished."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "Willows sit by water and their roots go looking for it. The best read on why they wreck drains is simple opportunism. A root that meets a damp crack in a pipe grows into it. Once inside, it thickens."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "For a big tree it is short-lived — 40 to 75 years. Weeping willows grow fast, get large, and are gone in a human lifetime, which is unusual company for something 80 feet tall."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three put plants on the earth before there was anyone sick enough to need them. Whatever the tree makes salicin for, a fever remedy sat in the bark of a common riverside tree the whole time. It was waiting for somebody to taste it."
+   }
+  ]
+ },
+ {
+  "id": "birch",
+  "name": "Silver birch",
+  "group": "trees",
+  "blurb": "The white-barked tree that gets to burned ground first, with bark that works as a waterproof sheet.",
+  "size": "49 to 82 ft (15–25 m) tall, exceptionally 102 ft (31 m), on a slim trunk usually under 16 in (40 cm) across.",
+  "homes": [
+   "forest",
+   "backyard"
+  ],
+  "stats": {
+   "height": 102
+  },
+  "wonder": "It arrives first on bare ground, makes the place liveable, and is then shaded out by the trees it sheltered.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The outer bark is up to 20 percent betulin. That is the white powder that comes off on your fingers. Betulin is waxy and water-repellent. It is what makes birch bark a genuinely waterproof sheet.",
+    "more": "Betulin is why birch bark peels off in papery sheets and why those sheets shed water. It is also why birch bark lights easily even when it is damp, which is the first thing anybody learns about making a fire in a birch wood."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It is a pioneer: one of the first trees to come up on bare land or on ground that has just burned. Birch does not wait for a forest; it starts one."
+   },
+   {
+    "cat": "home",
+    "kind": "worked",
+    "text": "And then it loses. Birch cannot tolerate shade, so the slower trees that established under its shelter grow up past it and shade it out. The reasoning is plain: fast and short-lived beats slow and steady on bare ground, and loses everywhere else.",
+    "more": "Being first is a strategy with the cost built in. Birch grows fast, seeds heavily, tolerates no shade and dies comparatively young. It is not built to hold ground; it is built to reach ground nothing else has reached yet."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "One birch catkin releases roughly 1.66 million grains of pollen. The seeds are 1 to 2 mm long with papery wings, packed into hanging catkins 0.8 to 1.6 in (2–4 cm) long, and they blow a long way."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "Silver birch grows with fungi wrapped around its roots, trading sugar for minerals. One of its regular partners is Amanita muscaria, the red toadstool with white spots. Fungi are not plants at all — no chlorophyll, no making food from light.",
+    "more": "The brown birch bolete and the chanterelle turn up around birch too. The fungus is the tree's mining operation, reaching soil the roots cannot, and it gets paid in sugar the tree made from sunlight."
+   },
+   {
+    "cat": "copied",
+    "kind": "record",
+    "text": "Birch tar is a glue. A man was found frozen in an Alpine glacier in 1991. His axe had a copper blade set into the shaft with birch tar and bound with leather. He also carried two birch-bark containers stitched with lime bast, one holding charcoal embers wrapped in maple leaves."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Birch bark was paper. At least 1,025 birch-bark letters have been dug up in medieval Russian towns — 923 in Novgorod alone — scratched into the inner bark with a stylus instead of written in ink. The first was found on 26 July 1951.",
+    "more": "They are ordinary letters: debts, shopping, complaints, a child's writing practice. Parchment was expensive and birch bark was free. So people wrote everyday things on it and threw them away. That is exactly why they survived in the mud."
+   },
+   {
+    "cat": "copied",
+    "kind": "record",
+    "text": "First Nations across North America built canoes, bowls and tipi covers from birch bark — light, flexible and waterproof. Only the outer bark is taken, and stripped at the right time in late spring, it does not kill the tree."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Birch sap can be tapped like maple, but it is only about 1 percent sugar. Boiling it down to syrup takes an enormous quantity of sap for a very small jar."
+   },
+   {
+    "cat": "build",
+    "kind": "record",
+    "text": "Birch timber goes into plywood, veneer, parquet blocks, skis and kitchen utensils, and the bark was used for tanning leather. Silver birch is Finland's national tree."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Day three is entirely plants — the whole day, with no animal on the earth until day five. Birch does that job in miniature, over and over: first onto bare ground, making soil and shade for everything that follows."
+   }
+  ]
+ }
+]

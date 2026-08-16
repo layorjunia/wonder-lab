@@ -1,0 +1,1107 @@
+[
+ {
+  "id": "fly-agaric",
+  "name": "Fly agaric",
+  "group": "fungi",
+  "blurb": "The storybook toadstool — scarlet cap, white flecks, growing under birches and pines — and not a plant at all.",
+  "size": "Cap 2 to 12 in (5–30 cm) across, on a white stalk up to 8 in (20 cm) tall.",
+  "homes": [
+   "forest"
+  ],
+  "stats": {},
+  "wonder": "Every scarlet cap is wired to a tree root underground, and the trade running through that joint feeds them both.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "A fungus is not a plant. There are no leaves, no green anywhere, and it never makes a scrap of food out of sunlight. What you see is only the fruiting body, the spore-making part. The fungus itself is a web of fine threads spread through the soil.",
+    "more": "Fungi are their own kingdom, neither plant nor animal. They feed by pushing digestive chemicals out into whatever they are sitting in. Then they absorb the results. It is how a stomach would eat if it were turned inside out and buried."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The white flecks are not painted on. A young fly agaric comes up wrapped in a white skin, and as the cap swells that skin tears into patches which sit on top like crumbs. A few days of heavy rain washes them off and leaves a plain red cap.",
+    "more": "This catches people out. A rain-washed fly agaric with no warts left has been mistaken for edible red-capped mushrooms more than once. The white cup at the base of the stalk is the rest of that same skin, and it stays."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "worked",
+    "text": "Dig one up carefully and you find the threads wrapped tight around fine roots. Those roots belong to birch, pine, spruce or oak. The best read of that is a trade. The fungus gathers water and minerals from a far wider reach of soil than roots manage. It takes sugar the tree made in its leaves.",
+    "more": "Most trees in a forest are joined to fungi like this. The joint is called a mycorrhiza, which just means fungus-root. A tree cut off from its fungi grows badly even in good soil."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "The poisons are ibotenic acid and muscimol, both extracted from the mushroom in a laboratory. They work on the brain — sickness, twitching, sleepiness, and seeing things that are not there. About 6 mg of muscimol is enough to affect a grown adult.",
+    "more": "Ibotenic acid turns into muscimol inside the body. That is why the effects arrive late. Usually half an hour to an hour and a half after eating, long after the meal seems to have gone fine."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "For a long time the blame fell on a chemical called muscarine, which is named after this very mushroom. It turned out there is barely any muscarine in it — far too little to explain the poisoning. The real culprits were only sorted out later."
+   },
+   {
+    "cat": "weird",
+    "kind": "record",
+    "text": "The name is a job description. In parts of Germany and eastern Europe people broke the cap into a saucer of milk to kill flies. The mushroom has been called the fly-killer ever since."
+   },
+   {
+    "cat": "defence",
+    "kind": "record",
+    "text": "Deadly is the wrong word for it. The North American Mycological Association says there is no reliable record of anyone dying from these mushrooms' toxins in the last hundred years. It is still poisonous and still a hospital trip. The storybook one-bite-kills is not true.",
+    "more": "That is not permission to eat one. Poisoning is unpleasant and lasts hours, and children are smaller than the doses were measured on. The point is only that the fairy-tale version and the real one are different."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Lay a cap gills-down on dark paper overnight and lift it in the morning: a white shadow of the gills is left behind. That dust is spores, and white is the print color for a fly agaric. It is one of the checks that tells one mushroom from another."
+   },
+   {
+    "cat": "travel",
+    "kind": "found",
+    "text": "It belongs to the cool north — Europe, Asia, North America. It is now growing wild in Australia, New Zealand, South Africa and South America too, none of which is where it started.",
+    "more": "It cannot live without a tree partner, so it almost certainly arrived with one. Pine and birch seedlings were shipped out with soil still round the roots, and the fungus was already in it."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "The cap starts as a rounded ball, opens out flat like a plate, and on a big one measures a foot (30 cm) across. The stalk is white, wears a ring of skin like a collar, and sits in a lumpy cup at the base.",
+    "more": "The cup at the base is the giveaway. Anyone learning mushrooms is taught to dig the whole stalk out rather than pick it. The bit that tells you what you have is often the bit underground."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Genesis has one Maker behind the whole living world, and calls the finished work very good. A fly agaric belongs to that world. It is bright red and no use as food. Its threads join it to trees that would gather far less from the soil without it."
+   }
+  ]
+ },
+ {
+  "id": "honey-fungus",
+  "name": "Honey fungus",
+  "group": "fungi",
+  "blurb": "A tree-killing fungus that spreads underground on black bootlaces. In Oregon it has grown into one of the largest single living things known.",
+  "size": "The mushrooms are hand-sized. The organism they grow out of covers 3.5 square miles (9.1 km²) of forest.",
+  "homes": [
+   "forest",
+   "backyard"
+  ],
+  "stats": {},
+  "wonder": "The whole of it is one individual — a single living thing laid out across an entire mountainside, holding quietly together.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Honey fungus is a fungus, not a plant. Nothing about it is green and it makes no food from sunlight. The honey-colored mushrooms that come up in clumps at the foot of a tree are only the fruit. The fungus itself is threads running through soil and wood."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "In the Malheur National Forest in eastern Oregon, one honey fungus covers 3.5 square miles (9.1 km²). That is some 2,200 acres, or about 1,600 football fields. It is one of the largest single organisms anyone has found anywhere.",
+    "more": "Area is the fair way to measure it. It is not a solid block. It is a network threading through soil and roots, with living forest on top. From the surface, nothing about it looks like one organism."
+   },
+   {
+    "cat": "record",
+    "kind": "worked",
+    "text": "Nobody can see the whole thing. Samples were taken from trees right across the forest and their DNA compared, and they all matched. That match is the argument that this is one individual rather than hundreds of separate fungi growing side by side."
+   },
+   {
+    "cat": "size",
+    "kind": "worked",
+    "text": "It has never been weighed and never will be — it is spread through soil, roots and dead wood across a mountainside. The estimate, worked out from how much fungus a measured patch of ground holds, comes to roughly 35,000 tons."
+   },
+   {
+    "cat": "travel",
+    "kind": "found",
+    "text": "It travels on black cords called rhizomorphs, tough as bootlaces, running under bark and through soil from one tree to the next. Peel the bark off an infected trunk and there they are: flat, black and branching like a map of roads.",
+    "more": "Rhizomorphs are the reason it can cross open ground. A fungus that could only creep through wood would stop at the last root of an infected tree. These cords carry it on to the next tree with nothing in between."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Most fungi eat wood that is already dead. Honey fungus goes after living trees, killing the layer just under the bark, and Douglas firs, pines and hemlocks die standing up. Gardeners rank it among the worst things that can arrive in a garden."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Wood shot through with honey fungus glows. The light is faint, greenish and steady, and you have to sit in a properly dark wood with your eyes adjusted to see it. It comes from the fungal threads, not from the wood. People have called it foxfire for a long time.",
+    "more": "Foxfire has been reported for centuries by people working in woods at night. Rotting logs that glow were the first clue that something living, and not the wood, was doing it."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The mushrooms come up in tight crowded clumps in fall, honey-brown, with a shaggy ring around the stalk and gills running a little way down it. Lay one on dark paper and the spore print is white."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Honey fungus is not rare or exotic. Its close relatives grow in woods, gardens and hedges across Europe, Asia and North America. The Oregon one is not a different creature. It is an ordinary fungus that got an unusually long run at an unusually large forest."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "worked",
+    "text": "A fallen tree does not disappear on its own. Almost nothing can digest wood, and fungi are the ones that can. A forest floor stays clear for a reason. The best read is that fungi like this one take the fallen trunks apart and hand the pieces back to the soil.",
+    "more": "Wood is mostly cellulose and lignin, and lignin in particular is very hard to break down. Fungi are among the few things with the chemistry for it, which is why they get the job almost everywhere."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Genesis has a Maker who made the living world and called it good. The taking-apart is built in as carefully as the growing. A fungus that turns a dead tree back into soil is doing work the forest cannot manage without."
+   }
+  ]
+ },
+ {
+  "id": "stinkhorn",
+  "name": "Stinkhorn",
+  "group": "fungi",
+  "blurb": "A fungus that smells like rotting meat on purpose, because it sends its spores out by fly instead of by wind.",
+  "size": "Starts as a white egg buried in leaf litter and pushes up a stalk taller than your hand inside an hour.",
+  "homes": [
+   "forest",
+   "backyard"
+  ],
+  "stats": {},
+  "wonder": "The smell, the slime and the speed all solve one problem, and the problem is a fly.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Stinkhorns are fungi, not plants: no leaves, no green, no food made out of sunlight. The stalk you see is only the fruiting part, up for a day or two. The fungus itself lives all year as threads running through leaf litter and rotting wood."
+   },
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "It is one of the fastest-growing things ever measured. The stalk pushes up about 5 mm a minute — a fifth of an inch — which is quick enough to see against a marked stick. People who have sat with one report a faint crackling as it goes.",
+    "more": "That works out at roughly a foot an hour, if it kept going. It does not. The whole performance is over in a morning. By afternoon the flies have taken the slime and left a bare white stalk."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "It is not really growing, and that is how it manages the speed. The cells are already made and folded up inside the egg. The stalk shoots up by pumping them full of water and unfolding them — closer to inflating a tent than to building one."
+   },
+   {
+    "cat": "gross",
+    "kind": "found",
+    "text": "The slime on the cap smells of dead animal and dung, and chemists have pulled the smell apart into its parts. Among them are oligosulfides, indole and p-cresol — the same compounds that come off carrion and manure."
+   },
+   {
+    "cat": "travel",
+    "kind": "worked",
+    "text": "Most fungi drop their spores and let the wind take them. A stinkhorn packs its spores into sticky slime and stinks instead. Flies land, feed, and leave carrying spores on their feet and in their guts — that much you can watch. That the smell is there to fetch them is the obvious read.",
+    "more": "You can test the idea cheaply. Cover a fresh stinkhorn with a jar and the slime sits there for days. Leave it open and the flies strip the cap clean within hours."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "It starts underground as a white egg with a rubbery skin. Cut one open and the whole mushroom is already in there, folded up in a layer of clear jelly, waiting for water.",
+    "more": "The jelly is a water store. Once the egg splits, the stalk has one shot at inflating itself. If the soil is dry there is no second chance. That is why stinkhorns appear after rain."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "The egg stage is eaten in some countries — crisp and crunchy, with a taste people compare to radish. Once the stalk is up and the slime is out, nobody wants anything to do with it."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "One relative, the octopus stinkhorn, skips the tall stalk. It splits its egg and opens into a handful of scarlet arms lying flat on the ground, smeared with black spore slime. Its other name is devil's fingers, which is fair enough."
+   },
+   {
+    "cat": "disguise",
+    "kind": "worked",
+    "text": "It is a copy with no original. Nothing has died — there is no meat, no carcass, nothing for a fly to lay eggs on. The fungus manufactures the smell of a dead animal and collects the visitors a dead animal would have got, without ever having to be one."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "A tropical relative, the veiled lady, hangs a white lace net from under its cap that drops most of the way to the ground. The stinkhorn family runs to around 77 species, most of them in the tropics."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Look in wood chips, garden mulch, leaf litter and old stumps, in late summer and fall. You will normally smell one before you see it, which is the only mushroom in the wood you can say that about."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "The Maker's world runs on things being taken apart as well as put together, and a stinkhorn's work is rot. Even the rot has been given a delivery service, and the delivery service has wings."
+   }
+  ]
+ },
+ {
+  "id": "puffball",
+  "name": "Giant puffball",
+  "group": "fungi",
+  "blurb": "A smooth white ball that sits in a meadow and, when it ripens, turns entirely into spore dust.",
+  "size": "4 to 20 in (10–50 cm) across. The heaviest on record, from Thunder Bay in Ontario, weighed 51 lb (23 kg).",
+  "homes": [
+   "grassland",
+   "forest",
+   "backyard"
+  ],
+  "stats": {},
+  "wonder": "Seven quintillion spores, and almost none of them will land anywhere useful. The design is not careful; it is extravagant.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "A puffball is a fungus, not a plant. No green, no leaves, no food made from sunlight. The ball is the fruiting body; the fungus that made it is a mat of threads through the soil, and that mat has usually been there for years."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "They run from 4 to 20 in (10–50 cm) across, and the big ones look wrong in a field — too white, too round, too much like something dropped there. One found at Thunder Bay in Ontario weighed 51 lb (23 kg)."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "A large giant puffball holds about seven quintillion spores — a 7 with eighteen zeroes after it. That is getting on for a billion spores in one puffball for every person alive on earth.",
+    "more": "Spores are single cells, a few thousandths of a millimeter across. That is small enough to drift on the faintest air current, which is exactly the point of making the ball and then letting it fall apart."
+   },
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "While it is swelling, a giant puffball builds about sixty million new cells a minute. It is one of the fastest bits of building anything alive does, and it happens in a field with nobody watching."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "A ripe one falls apart at a touch. The white paste inside has gone to brown powder, the skin has thinned to paper, and a kick sends up a cloud like a bag of soot. That cloud is the spores leaving."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Young ones are eaten — sliced thick and fried like bread. The rule is that the inside must be pure white all the way through. Yellow, or greenish, means the spores have started and it will make you ill.",
+    "more": "Cut it in half before cooking, every time. That single habit rules out both the poisonous look-alikes and an overripe puffball at once, and takes about four seconds."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "The dangerous mix-up is a young Amanita, which is also a white ball at first because the whole mushroom comes up wrapped in a skin. So cut any white ball in half from top to bottom. A puffball is even white paste throughout. An Amanita has a tiny mushroom drawn inside it.",
+    "more": "The technical name for that wrapping is a universal veil. It is the same structure that leaves the white flecks on a fly agaric — which is another good reason to know it exists."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "The other look-alike is the earthball: firmer, elastic, with a thick rind, and dark purple-black inside while it is still young. It is poisonous, and the cut test tells them apart in a second."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Meadows, pasture, field edges and open broadleaved woods, in late summer and fall, in temperate places all over the world. A patch that produced one this year will often produce one again in the same spot."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "There are no gills, no stalk and no cap. The whole thing is a bag. Spores are made inside and stay shut in until the skin breaks. An ordinary mushroom does the opposite. It builds a roof and drops its spores out from underneath."
+   },
+   {
+    "cat": "travel",
+    "kind": "worked",
+    "text": "Nearly every one of those spores lands somewhere hopeless: a road, a roof, a pond, another spore. Making seven quintillion is the answer to those odds. At that number, a handful landing well is plenty, and a handful is all it needs."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Nothing in the design is stingy. One puffball carries more spores than a person could count in a lifetime. Only a few of them will take. That same generous arithmetic runs right through the living world the Maker called good."
+   }
+  ]
+ },
+ {
+  "id": "bracket-fungus",
+  "name": "Bracket fungus",
+  "group": "fungi",
+  "blurb": "Shelves of fungus growing straight out of tree trunks, some as hard as the wood itself, adding a fresh layer every year.",
+  "size": "Most are hand- to dinner-plate-sized. An artist's conk can reach 30 in (75 cm) across, and the largest brackets weigh hundreds of pounds.",
+  "homes": [
+   "forest"
+  ],
+  "stats": {
+   "life": 80
+  },
+  "wonder": "A shelf of fungus on a dead trunk is the forest taking itself apart so that it can start again.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Bracket fungi are not plants, and they are not part of the tree either. They are fungi — no green, no leaves, no food made from sunlight. The living fungus is threads inside the wood; the shelf on the outside is only the spore factory."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Turn one over. Instead of gills there are pores — thousands of tiny tube mouths packed together like a honeycomb, and the spores fall out of the tubes. Some kinds have pores 5 mm wide. Others fit fifteen tubes into a millimeter and look perfectly smooth."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "A patch of artist's conk just 4 in by 4 in (10 by 10 cm) can release 4.65 billion spores in a single day. A large bracket has many times that area, and it keeps going for months.",
+    "more": "Nearly all of those spores land on ground with no wood on it and come to nothing. The tiny fraction that land on fresh dead timber are the ones the whole arrangement is built for."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "Some brackets are perennial: they live on year after year, adding a fresh layer of tubes underneath each season. The layers show as rings on top and can be counted the way tree rings are. Fruiting bodies of one kind have passed 80 years old.",
+    "more": "The rings are not a perfect calendar — a bad season may add very little, and two flushes in one year can confuse the count. Read like tree rings, with the same caution, they are still the best record the fungus keeps."
+   },
+   {
+    "cat": "copied",
+    "kind": "record",
+    "text": "The underside of an artist's conk is white and bruises dark brown wherever it is scratched. Draw on it with a nail and the lines stay; once the bracket dries out, the picture is permanent. That is exactly where the name came from."
+   },
+   {
+    "cat": "copied",
+    "kind": "record",
+    "text": "Tinder fungus has been carried as fire-lighting kit for a very long time. The man found frozen in the Alps and nicknamed Ötzi had pieces of it in his gear. A spongy layer inside the bracket takes a spark and holds a slow ember you can carry.",
+    "more": "The spongy layer is called amadou. Prepared properly, it takes a spark from flint and steel. It smolders rather than flaming. That is what you want when you are carrying fire rather than starting one."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "These are the best wood-eaters there are. Some digest lignin, the stiff brown glue that makes wood hard, and leave a pale stringy mess called white rot. Others leave the lignin alone, eat the cellulose, and the wood goes brown and crumbles into little cubes.",
+    "more": "Brown-rotted wood ends up as reddish cubes that crumble in the hand. White-rotted wood goes pale and stringy and feels wet. Once you know the two, you can read what killed a log from a few feet away."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "worked",
+    "text": "Wood is very hard to eat and almost nothing else can manage it. Without these fungi, fallen trunks would simply pile up and stay piled. Nobody has run that experiment on a whole forest — it is a conclusion drawn from who else is capable, which is nearly nobody."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "A bracket ends up level however far the trunk leans. Spores have to drop straight down out of the tubes, so a tilted set of tubes would never empty. The shape is not proof of anything on its own, but it is a very good argument."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Chicken of the woods grows in bright orange and yellow shelves on oaks and is eaten; cooked, it really does have the texture of chicken. Turkey tail, thin and banded in rings of brown and gray, is one of the commonest fungi in any wood."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "Many brackets are genuinely woody. You cannot pull one off a trunk — it takes a knife or a saw. Old ones sit through frost, drought and being climbed on, and are still there seasons later, still adding layers."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "The Maker built the taking-apart with as much care as the growing. A tree that comes down is not wasted. A shelf of fungus is already at work on it. It hands the wood back to the soil for whatever grows next."
+   }
+  ]
+ },
+ {
+  "id": "truffle",
+  "name": "Truffle",
+  "group": "fungi",
+  "blurb": "A fungus that fruits underground, smells strongly enough to be dug up, and is the most expensive food on earth by weight.",
+  "size": "Most are between a walnut and a fist. A white truffle found in Umbria weighed 4 lb 3 oz (1.89 kg).",
+  "homes": [
+   "forest"
+  ],
+  "stats": {},
+  "wonder": "It never sees daylight and has no way to drop a spore, so it built a smell instead — a signal aimed at a nose it will never meet.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "A truffle is a fungus, not a plant and not a root. It is the fruiting body, the spore-making part, and unlike nearly every other mushroom it never comes above ground at all. The rest of the fungus is threads wrapped around tree roots.",
+    "more": "That is the whole oddity. Every other mushroom builds a structure to lift its spores into moving air. A truffle builds nothing of the kind, because it never plans to be in the air at all."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "worked",
+    "text": "Those threads sheathe the fine roots of oak, hazel, beech, poplar and pine. The sheath is plain to see under a lens. The read is a trade. The fungus reaches water and minerals from far more soil than a root can. In return it lives on sugar from the tree's leaves."
+   },
+   {
+    "cat": "senses",
+    "kind": "found",
+    "text": "They are found by nose. Pigs were the old method and are superb at it, but a pig that finds a truffle wants to eat it and wrecks the fungal threads digging. Italy banned truffle pigs in 1985. Dogs are trained instead — they find it and then do not care.",
+    "more": "A good truffle dog is worth a great deal of money and its training is guarded. Hunters work at dawn or after dark, partly for the dog's comfort and partly so nobody follows them to the trees."
+   },
+   {
+    "cat": "senses",
+    "kind": "found",
+    "text": "For years the story was that pigs were smelling androstenol, a pig scent. Work published in 1990 pinned it on something else: dimethyl sulfide, a sulfur gas. That is what the dog and the pig are actually following down through the soil."
+   },
+   {
+    "cat": "travel",
+    "kind": "worked",
+    "text": "A mushroom above ground lets its spores fall away. A truffle cannot do that. Voles, squirrels, deer and wild boar dig them up and eat them, and the spores come out somewhere else entirely. The smell being so strong is the argument that it is the whole dispersal system."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "White truffles from around Alba in Piedmont are the dearest food on earth by weight. In December 2007 the Macau businessman Stanley Ho paid $330,000 for a single truffle weighing 3 lb 5 oz (1.5 kg). In 2021 an 830-gram Piedmont truffle sold for €103,000.",
+    "more": "Prices swing hard with the weather. A dry fall means few truffles and the price climbs; a wet one brings the market down. Nothing about the supply can be planned, which is half the reason it costs what it does."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "In 2014 a white truffle of 1.89 kg from Umbria was auctioned at Sotheby's in New York for $61,000. In November 1999 one weighing 2 lb 14 oz (1.31 kg), found near Buje in Croatia, went into the Guinness Book of Records."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "They are not cooked. A white truffle is shaved raw over hot pasta or eggs in slices thin enough to see light through, and the heat of the plate lifts the smell. A few shavings scent the whole dish."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Truffle orchards do exist. Hazel and oak seedlings are grown with the fungus already on their roots and then planted out — and after that you wait. It takes 7 to 10 years for the underground network to build before there is any chance of fruit, and some orchards never produce.",
+    "more": "That is a long time to wait on something that may not happen. Growers plant hazel because it fruits sooner than oak, and even then a plantation is a bet made a decade before it can be settled."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "Black Périgord truffles can be farmed reliably. The Italian white one has beaten almost every attempt. It wants a particular soil, a particular dampness and a particular set of trees. Outside that it simply does not appear. Most white truffles sold are still hunted wild."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "The famous ones come from Piedmont in north-west Italy, around Alba and Asti. Others come from Istria, on the Adriatic coast. Truffles of one sort or another grow in woods across Europe, North America, Australia and China. Some are worth a fortune and most are worth nothing."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "It is a strange piece of design. The fruit never sees the light. Its smell is built to travel up through a foot of packed soil to a nose. None of it was aimed at us. We simply learned to follow the signal the voles were already following."
+   }
+  ]
+ },
+ {
+  "id": "mimosa",
+  "name": "Sensitive plant",
+  "group": "odd",
+  "blurb": "A small tropical weed whose leaves fold shut the instant you touch them. They open again a few minutes later.",
+  "size": "Low and sprawling, with fern-like leaves and pink flower heads under half an inch (8–10 mm) across.",
+  "homes": [
+   "grassland",
+   "rainforest",
+   "backyard"
+  ],
+  "stats": {},
+  "wonder": "No nerves, no muscles, nothing like a brain — and it still answers a touch faster than you can pull your hand away.",
+  "facts": [
+   {
+    "cat": "senses",
+    "kind": "found",
+    "text": "Brush a leaf and the leaflets snap shut in pairs, running outward from the exact spot you touched, and then the whole leaf stalk drops. It takes a second or two. Warmth, a puff of breath or a knock on the pot will all set it off."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "There is no muscle anywhere in it. At the base of each leaflet sits a swollen joint called a pulvinus, full of cells held stiff by water. On the signal, the cells on one side let their water go and collapse, and the leaflet falls over the joint.",
+    "more": "You can prove there is no muscle by drying a leaf. A dried pulvinus cannot fold anything. The whole mechanism is water under pressure, and the moment the water is gone so is the movement."
+   },
+   {
+    "cat": "senses",
+    "kind": "found",
+    "text": "The signal travels. It runs along the leaf from the point you touched, which is why the leaflets shut in order rather than all at once. It moves as a pulse of electricity — the same kind of pulse an animal's nerve uses, in a plant with no nerves at all.",
+    "more": "The pulse is called an action potential. Animals use them to run nerves and muscles. Finding the same electrical trick in a plant with nothing resembling a nervous system is one of the odder results in botany."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Nothing pushes the leaf back up. The joints slowly refill with water and the leaf lifts itself again over a few minutes. Watching it reopen takes far more patience than knocking it down did."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Monica Gagliano dropped potted sensitive plants a short distance, over and over. After enough drops they stopped folding. Then she shook them instead — and they folded fully. So it was not exhaustion. They had sorted a harmless drop from something that might matter.",
+    "more": "Habituation is a proper term in animal learning. It means ignoring a signal that keeps turning out to be harmless. Showing it in a plant caused an argument that has not entirely finished."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Once a plant had learned to ignore the drop, it still ignored it 28 days later. Plants kept in dim light learned quicker than plants in bright light, which is not what anyone expected."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "It also folds up every night with nobody touching it, and opens again in the morning. That is a different movement from the touch one. It follows light and dark rather than contact, and it runs on its own schedule."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "Why do it at all? A study in 2022 found the folding does protect the plant from insects chewing on it — a leaf that collapses is harder to sit on and eat. Another reading is that folding cuts the sun the leaf catches and saves water. Both could be right.",
+    "more": "Folding costs the plant sunlight, so it is not free. Whatever the folding buys has to be worth more than the food the leaf could have made while it was open. That is a useful way to think about any plant behavior."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The seed pods come in clusters of two to eight, each about half to three-quarters of an inch (1–2 cm) long, with bristly prickles along both edges. Those prickles catch on fur, socks and trouser legs, and that is how the plant gets about."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It belongs to the tropical Americas and has since spread right round the tropics. It is now a weed in Tanzania, in southern and south-east Asia and on many Pacific islands. It takes over pasture and cropland where nobody planted it."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Genesis puts the plants on day three, each yielding seed after its kind. This one answers a fingertip in one second. Nothing in it resembles a nerve or a muscle. That is a fair place to start wondering how carefully that day was thought through."
+   }
+  ]
+ },
+ {
+  "id": "bamboo",
+  "name": "Bamboo",
+  "group": "odd",
+  "blurb": "A grass that can stand 151 ft (46 m) tall, and then a whole forest of it flowers on the same day and dies.",
+  "size": "The largest kind reaches 151 ft (46 m), with stems 14 in (36 cm) thick weighing 1,000 lb (450 kg) each.",
+  "homes": [
+   "forest",
+   "rainforest",
+   "mountain"
+  ],
+  "stats": {
+   "height": 151,
+   "weight": 1000
+  },
+  "wonder": "A hundred and fifty feet of hollow tube, built by a grass, and most of it goes up in a single season.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "Bamboo is a grass. Not a tree — the same family as wheat, barley and the stuff in a lawn, only enormous. There is no bark and no rings inside. The stem is a hollow tube, divided into segments by solid walls at every joint."
+   },
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "It is the fastest-growing plant ever measured. A Japanese timber bamboo has been recorded putting on 36 in (91 cm) in 24 hours — nearly 1.5 in (40 mm) every hour. Mark a stem in the morning and there is measurably more of it by lunchtime.",
+    "more": "Growth like that is possible because the segments are already formed inside the shoot. They simply extend, one after another, filling with water as they go. The building was done underground the season before."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "The largest bamboo, Dendrocalamus sinicus, reaches 151 ft (46 m). One stem is 14 in (36 cm) across. A stem can weigh 1,000 lb (450 kg), which takes several people to shift."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "A bamboo stem comes out of the ground at its final thickness and never gets any fatter. It only extends, segment by segment, like a telescope pulling open. That is a large part of why it can go up so fast — none of the effort is spent on getting wider.",
+    "more": "It also explains the sound. A bamboo grove on a hot day creaks and cracks as segments stretch against each other, which is a genuinely unsettling thing to stand in the middle of."
+   },
+   {
+    "cat": "babies",
+    "kind": "record",
+    "text": "Most bamboos hardly ever flower. Phyllostachys bambusoides goes roughly 120 years between flowerings — and then every plant grown from the same stock flowers at once, wherever in the world it has been shipped to. Afterwards they all die.",
+    "more": "A flowering wipes out a bamboo forest and the industries built on it. Growers who bought stock from the same parent plant lose everything at once, wherever they are. The clock was set before the cuttings were taken."
+   },
+   {
+    "cat": "babies",
+    "kind": "worked",
+    "text": "Flowering kills it. The plant pours everything it has into seed and then dies back, roots and all. Why do they all do it at once? The usual read is that a sudden glut of seed is far more than the birds and rodents can eat. A share of it survives to grow."
+   },
+   {
+    "cat": "weird",
+    "kind": "record",
+    "text": "In the hills of Mizoram in north-east India, bamboo flowering brings famine. The seed feeds an explosion of rats, and when the seed runs out the rats move into the rice fields. It comes round on a long and predictable cycle, and it has its own name: mautam.",
+    "more": "The pattern is well recorded because people plan for it. Local governments store grain and set rat bounties ahead of a flowering, on the strength of the last one."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "Bamboo pulls harder than it looks. Bambusa tulda has measured 60,000 psi (400 MPa) in tension, which is in the range of structural steel — from a hollow plant stem light enough to carry on one shoulder.",
+    "more": "Steel is far denser, so a steel bar of equal strength is much heavier. That ratio — strength for weight — is why bamboo keeps turning up in bridges, houses and scaffolding wherever it grows."
+   },
+   {
+    "cat": "copied",
+    "kind": "record",
+    "text": "Hong Kong still puts up scaffolding made of bamboo, lashed together with nylon ties, running the full height of skyscrapers. Nothing else is as light for its strength or as quick to assemble, and crews build it faster than steel goes up."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "Giant pandas eat almost nothing else — about 99 percent of the diet is bamboo. It is poor food for an animal built like a bear, which is why a panda spends most of its waking day chewing."
+   },
+   {
+    "cat": "travel",
+    "kind": "found",
+    "text": "Running bamboos spread underground on thick stems called rhizomes. They come up wherever those reach: through a lawn, under a fence, yards from the original clump. Gardeners sink metal barriers to contain them. The bamboo usually finds the edge."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Genesis puts the plants on day three, each after its kind. Bamboo is a grass behaving like a tree. It is a lawn's relative standing a hundred and fifty feet up. All of that was folded into a seed no bigger than a grain of rice."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Mautam runs on a clock of roughly 48 years. Muli bamboo across Mizoram, in north-east India, flowered and seeded in 1861, in 1911, in 1959 and again in 2007. Each time the rats followed, then the hunger. The 2007 flowering was expected well in advance, and grain was stored ahead of it.",
+    "more": "Mizoram lost more than half its crops in 2006 to 2008. The 1959 mautam did worse. The relief that arrived was thin, and the anger at it hardened into the Mizo National Famine Front and then into an armed movement. A grass coming into flower changed the politics of a whole state."
+   }
+  ]
+ },
+ {
+  "id": "strangler-fig",
+  "name": "Strangler fig",
+  "group": "odd",
+  "blurb": "A fig that starts life as a seed in another tree's branches. It sends roots down to the ground. It ends up standing where its host used to be.",
+  "size": "The Curtain Fig in Queensland stands 160 ft (50 m) tall with a trunk 128 ft (39 m) around.",
+  "homes": [
+   "rainforest",
+   "forest"
+  ],
+  "stats": {
+   "height": 160
+  },
+  "wonder": "It begins as a speck in a bird dropping, forty feet up, and finishes as the largest thing in the forest.",
+  "facts": [
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "A strangler fig does not start in the ground. A bird eats a fig, the seed passes through it, and it lands in a fork or a crack high up another tree. It sprouts there, in a handful of trapped leaf mold, with no soil underneath it at all."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "From that perch it drops roots straight down the host's trunk, thin as string at first. They take years to reach the ground. The moment they do, the fig has soil and water of its own and stops being a passenger.",
+    "more": "Until those roots land, the fig is living on rainwater and whatever leaf mold has collected in the fork. Most seedlings that start up there dry out and die. Almost none of them make it."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "The roots thicken, fuse where they cross, and knit into a cage around the host's trunk. The host loses light above and gets squeezed below, and eventually it dies and rots. Nobody has watched one whole case through — the hollow trunks left standing are the argument."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "What is left is a fig-shaped tree with nothing in the middle. Walk up to an old one and you can often step inside the trunk and look straight up through a chimney of woven roots. The gap is the shape of the tree that used to be there."
+   },
+   {
+    "cat": "record",
+    "kind": "found",
+    "text": "The Curtain Fig near Yungaburra in Queensland formed when its host tree toppled at an angle into a neighbor. Roots dropped from the leaning trunk 49 ft (15 m) to the forest floor in a sheet. The tree is 160 ft (50 m) tall and measures 128 ft (39 m) around."
+   },
+   {
+    "cat": "teamwork",
+    "kind": "found",
+    "text": "Every fig species has its own pollinating wasp, and neither can manage without the other. There are more than 600 kinds of fig, each with a wasp that works that one species and no other.",
+    "more": "The wasps are less than a tenth of an inch (2 mm) long. The whole arrangement runs on an insect the size of a comma. It has to find, enter and pollinate a fruit that has sealed itself against everything else."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "A fig is not a fruit in the ordinary sense. It is a bag of flowers turned inward, with hundreds of tiny blooms facing into a hollow middle. No wind or bee can reach them. The only way in is a hole at the tip about the width of a pinhead."
+   },
+   {
+    "cat": "gross",
+    "kind": "found",
+    "text": "The female wasp forces her way through that hole. It is so tight that her wings and most of her antennae are torn off going in, and she cannot get out again. She lays her eggs, spreads the pollen she carried from the fig she was born in, and dies inside."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "Her sons hatch first, wingless and nearly blind. They mate with their sisters and then chew a tunnel out through the wall of the fig. The females leave through that tunnel carrying pollen. The males never leave at all.",
+    "more": "The males are built for one job and no more: no wings, barely any eyes, and jaws for digging. They hatch, mate, dig the exit, and die inside a fruit they never see the outside of."
+   },
+   {
+    "cat": "food",
+    "kind": "worked",
+    "text": "Fig trees feed a great many animals — monkeys, hornbills, fruit bats, pigeons. Those animals pay for it by dropping seeds in high branches, which is the only place a strangler can start. The reasoning goes in a circle, and the circle is what keeps both ends going."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Stranglers are all figs, genus Ficus. The Florida strangler grows in the Everglades and across the Caribbean. The Moreton Bay fig grows in eastern Australia. The banyan of India runs the same trick on a much larger scale."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Genesis puts the trees on day three and the birds on day five. This tree needs both. It is a fig only a bird can plant, and a bird that has to be fed. Neither half is worth much on its own."
+   }
+  ]
+ },
+ {
+  "id": "corpse-lily",
+  "name": "Ghost plant",
+  "group": "odd",
+  "blurb": "A flowering plant with no green in it anywhere. It has given up sunlight. It takes its food from a fungus instead.",
+  "size": "2 to 12 in (5–30 cm) tall, carrying one nodding flower under an inch (10–20 mm) long.",
+  "homes": [
+   "forest"
+  ],
+  "stats": {
+   "height": 1
+  },
+  "wonder": "It gave up the one thing that makes a plant a plant, and it is still here, standing white in the dark under the trees.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "It is white. Not pale green — white, waxy and slightly see-through, stem, scales, flower and all. There is no chlorophyll in it anywhere, which means it cannot make a single crumb of food out of sunlight.",
+    "more": "Chlorophyll is the green chemical that catches sunlight. A plant without it cannot photosynthesise, which is normally the definition of a plant's whole way of life. This one simply does without."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "It looks like a fungus and it is not one. It has proper flowers, it sets seed, and it belongs to the heath family alongside blueberries and rhododendrons. It is a flowering plant that has stopped doing the part of the job plants are famous for."
+   },
+   {
+    "cat": "food",
+    "kind": "worked",
+    "text": "So where does the food come from? Trace it through the roots. A tree makes sugar in its leaves. It passes some to a fungus wrapped round its roots. The ghost plant is tangled into that same fungus, and it takes its cut on the way past.",
+    "more": "The word for it is mycoheterotrophy: feeding through a fungus. There are several hundred plants that do some version of it, and every one of them has given up some or all of its green."
+   },
+   {
+    "cat": "food",
+    "kind": "worked",
+    "text": "Its fungal hosts are in the Russula family. In most root-and-fungus partnerships both sides gain something. Here, as far as anyone can measure, only one side does. The plain word for it is theft, and the ghost plant is very good at it."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "Because it needs no light, it grows where almost nothing else will bother. That means deep gloom under a closed canopy, in thick leaf litter. Often there is no other green plant anywhere in sight. Dark is not a problem it has to solve."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "Pick one and it is ruined. Within hours it goes glassy, then brown, then black, and dries to something like a spent match. Old plants left alone do the same thing standing up."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The single flower hangs straight down when it opens, like the bowl of a pipe — which is where the old name Indian pipe comes from. As the seed ripens the whole flower swings upright and points at the sky.",
+    "more": "The turn is not decoration. A hanging flower keeps rain off the pollen; an upright one lets the ripe capsule shake its dust seeds out into moving air. The same stem does both jobs in order."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "The seeds are 0.6 to 0.8 mm long. That is dust: a scattering of them on a fingertip looks like nothing at all.",
+    "more": "A seed that small carries almost no food inside it for the seedling. The reasonable conclusion is that it has to meet the right fungus almost at once or it is finished, which would explain why the plant makes so many."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "The whole plant stands 2 to 12 in (5–30 cm) high and usually comes up in small clusters, several stems from one matted clump of root below. That root clump is stiff and brittle and packed through with fungal threads."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It grows in North America, in Latin America and in East Asia, but not in the wide stretches between. Nowhere is it common, and a patch that appears one year may not appear the next."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Carl Linnaeus gave it the name Monotropa uniflora. That means roughly once-turned, one-flowered. Both halves are just descriptions of what is in front of you. A single flower, on a single stem, bent over in a single curve."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Genesis puts the plants on day three, before the sun arrives on day four. Here is a plant that never needed the sun in the first place. It is white as bone and lives in the dark. It still opens a flower and sets seed after its kind."
+   }
+  ]
+ },
+ {
+  "id": "touch-me-not",
+  "name": "Himalayan balsam",
+  "group": "odd",
+  "blurb": "A tall pink-flowered plant from the Himalayas. Its ripe seed pods explode at a touch and throw the seed clear across a riverbank.",
+  "size": "3 to 7 ft (1–2 m) tall, and every inch of that is built from seed in a single season.",
+  "homes": [
+   "freshwater",
+   "grassland"
+  ],
+  "stats": {
+   "height": 6
+  },
+  "wonder": "One season from seed to seed, and it spends the end of that season firing the next one twenty feet down the bank.",
+  "facts": [
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "A ripe pod is loaded. Touch it — a finger, a raindrop, a passing sheep — and it splits along its seams, curls up instantly and flings the seeds as far as 23 ft (7 m). Held in a closed hand, you can feel it go off.",
+    "more": "The mechanism is stored tension. As the pod ripens, the five outer strips build up strain against each other until the seams can barely hold. Anything at all then acts as the trigger."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The pods are 3/4 to 1.25 in (2–3 cm) long and about a quarter inch (8 mm) across. Each one is a small green club that fattens as the seed fills. In the days before it fires, it turns tight and springy."
+   },
+   {
+    "cat": "travel",
+    "kind": "worked",
+    "text": "Seeds that land in the river do not drown. They float downstream, wash up on a bank somewhere else and grow there. That is the best explanation for why the plant is nearly always found in a long line beside water.",
+    "more": "It also explains why clearing one stretch achieves nothing if there is more balsam upstream. River groups work from the top of a catchment downwards, or they do the same stretch again every summer for ever."
+   },
+   {
+    "cat": "home",
+    "kind": "record",
+    "text": "It was brought to Britain in 1839 as a garden ornament. John Forbes Royle, a professor of medicine at King's College London, brought it over. Within ten years it was out of the gardens. It was spreading along English river systems by itself."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It belongs to the Himalayas, the country between Kashmir and Uttarakhand, at 6,500 to 8,200 ft (2,000–2,500 m). It is built for cool, wet mountain ground, which is a fair description of a British riverbank."
+   },
+   {
+    "cat": "food",
+    "kind": "found",
+    "text": "In a British survey of nectar, its flowers came top for the amount each single flower produces in a day. Bumblebees work it hard and come out of the hood dusted pale with pollen.",
+    "more": "Beekeepers notice it. Late in the summer, hives near a big stand of balsam bring in a pale honey, and the bees themselves come home looking dusted with flour."
+   },
+   {
+    "cat": "defence",
+    "kind": "worked",
+    "text": "Nectar like that pulls pollinators away from the native flowers growing nearby. The balsam also grows fast enough to shade those flowers out. Put together, that is the argument for treating it as a weed rather than a wildflower."
+   },
+   {
+    "cat": "weird",
+    "kind": "record",
+    "text": "The flower is shaped enough like a policeman's helmet that it is one of the plant's names. Others are kiss-me-on-the-mountain and ornamental jewelweed. Then there is plain touch-me-not, which is the pods talking rather than the flowers."
+   },
+   {
+    "cat": "gross",
+    "kind": "found",
+    "text": "It is an annual, so every plant dies back in fall and the bank it was holding is left bare all winter with nothing rooted in it. The soil washes into the river over the wet months. A native bank keeps its roots and keeps its dirt."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The stem is hollow, ridged and reddish, as thick as a thumb at the base, and it snaps clean with a wet crunch. Pull one up and the root ball is small and shallow, which is why volunteers with no tools can clear a whole stretch by hand.",
+    "more": "That shallow root is the one weakness the plant has. Because it is an annual with no runners underground, a stretch pulled up before the pods ripen does not come back from the roots — only from seed."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "All of it — up to 7 ft (2 m) of stem, leaf and flower — is built in one season from a single small seed, and then thrown away. Nothing overwinters. Next summer's stand starts again from scratch."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Genesis puts the seed-bearing plants on day three, each yielding seed after its kind. Most plants let theirs drop. This one throws them 23 ft (7 m), which is still yielding seed after its kind — just with more enthusiasm."
+   }
+  ]
+ },
+ {
+  "id": "telegraph-plant",
+  "name": "Telegraph plant",
+  "group": "odd",
+  "blurb": "A tropical shrub with two small leaflets on every leaf that swing round in circles all day, fast enough to watch.",
+  "size": "A leggy shrub. Each leaf carries one large blade and two small leaflets at its base — and only the small ones move.",
+  "homes": [
+   "rainforest",
+   "forest"
+  ],
+  "stats": {},
+  "wonder": "Nothing else in a garden moves while you stand and look at it. This one does, all day, for a reason nobody has settled.",
+  "facts": [
+   {
+    "cat": "senses",
+    "kind": "found",
+    "text": "Each large leaf has two small leaflets at its base, and those leaflets rotate. They go round and round in jerky steps, along an elliptical path. One full circuit takes about three to five minutes. It is fast enough to follow with the naked eye.",
+    "more": "Plant movements are usually too slow to see, or too fast to see — a Venus flytrap shuts in a fraction of a second. This one sits in the narrow band where a person can simply stand and watch it happen."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The movement happens at a hinge — a swollen joint called a pulvinus at the base of each leaflet. It works by shifting water from one side of the joint to the other, stiffening one side while the other slackens. There is no muscle anywhere in it."
+   },
+   {
+    "cat": "senses",
+    "kind": "found",
+    "text": "It only moves in daylight, and only when the air is above 72°F (22°C). Cold stops it. Night stops it. Nothing you do to the plant restarts it until both of those conditions come back."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Charles Darwin wrote it up in detail in The Power of Movement in Plants, published in 1880. He spent years on the question of how plants move, and this shrub had the rare courtesy of moving while he was still looking at it.",
+    "more": "Darwin's book was one of the last he wrote, and much of the work was done with his son Francis. They tracked plant movements by marking positions on glass over hours, which is how the elliptical path was mapped in the first place."
+   },
+   {
+    "cat": "weird",
+    "kind": "worked",
+    "text": "One idea is that the small leaflets are light meters. Each sweeps a circle, sampling brightness at every point along the way, and the big leaf is then aimed at the brightest part. Nobody has proved it — it is a reading of what the sweep would be useful for."
+   },
+   {
+    "cat": "disguise",
+    "kind": "worked",
+    "text": "Another idea is about butterflies. Flicking leaflets look like a butterfly already sitting on the plant. A butterfly hunting for somewhere to lay eggs then goes elsewhere. That one is harder to test and easier to doubt, but it is still on the table."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "Telegraph plant is the older name. The jerky steps looked like the swinging arm of a semaphore telegraph sending a message. Dancing plant and semaphore plant are the same shrub under different names."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "It is often said the two leaflets swing together like the blades of a kayak paddle. They do not. There is nothing rigid joining them, and watched closely each one goes round on its own."
+   },
+   {
+    "cat": "weird",
+    "kind": "found",
+    "text": "It gets sold in some places as a plant that dances to music. What has actually been measured is light and warmth — above 72°F, in daylight, it moves, with or without a sound in the room.",
+    "more": "It is a fair reminder to check the claim rather than the story. Sound is easy to test for: run the plant in silence at the right temperature and it dances anyway, which settles it."
+   },
+   {
+    "cat": "speed",
+    "kind": "worked",
+    "text": "Movement costs a plant energy, and this one spends it all day, every warm day. It spends it on two leaflets that catch hardly any light themselves. Whatever they are for, it must be worth the bill. That is the main reason people keep hunting for the answer."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It grows wild across tropical Asia, in Bangladesh, India, Thailand, Vietnam and Indonesia. It is a pea-family plant, a relative of beans and clover. Its small purple flowers turn orange as they age."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Genesis puts the plants on day three, before there was a sun on day four for them to answer. This one answers light with a movement you can stand and watch — and what it is answering for, nobody has yet worked out."
+   }
+  ]
+ },
+ {
+  "id": "squirting-cucumber",
+  "name": "Squirting cucumber",
+  "group": "odd",
+  "blurb": "A Mediterranean weed with an unusual fruit. It builds up pressure for days, blows itself off its own stalk, and fires its seeds out in a jet.",
+  "size": "The fruit is about 2 in (5 cm) long, blue-green and bristly — a small hairy cucumber.",
+  "homes": [
+   "grassland"
+  ],
+  "stats": {},
+  "wonder": "It has no muscles and nothing to push with, so it spends days quietly building pressure and then lets go of all of it at once.",
+  "facts": [
+   {
+    "cat": "speed",
+    "kind": "found",
+    "text": "When the fruit is ripe it snaps off its own stalk, and the hole that leaves becomes a nozzle. The fruit contracts and fires a jet of slime and seed straight out of the hole, as far as 23 to 26 ft (7–8 m).",
+    "more": "The fruit hangs down at an angle, so the jet goes out and up rather than straight at the ground. The angle is not adjustable — whatever the fruit was pointing at is where the seed goes."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The pressure inside a ripe fruit has been measured at up to 27 atmospheres — around 400 pounds per square inch, more than ten times the pressure in a car tire. It builds up over days and is spent in a fraction of a second.",
+    "more": "Twenty-seven atmospheres is around the pressure a hundred meters down in the sea. A plant holds it inside a green skin about as thick as a fingernail, without any moving parts at all."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "The pressure comes from the fruit's own sap. As it ripens, the large thin-walled cells load up with a dissolved compound. Water follows the compound in. The cells swell against a skin that will not stretch any further. Something has to give, and the stalk is the weakest point."
+   },
+   {
+    "cat": "travel",
+    "kind": "worked",
+    "text": "A seed that drops straight down has to compete with its own parent for light and water. A seed thrown 25 ft lands in ground the parent is not using. That is the read on why a plant would spend so much of a season's energy building a launcher."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "The juice is poisonous. It carries cucurbitacins, the compounds that make a bad cucumber taste bitter, and here they are concentrated enough to blister skin and burn the lining of the nose. The jet in an eye is not something to shrug off.",
+    "more": "It is a member of the cucumber and melon family, and the bitterness is the family trait. Ordinary cucumbers were bred to have very little of it; this one kept all of it and then some."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "The dried juice, called elaterium, was once a standard medicine for clearing out the gut — one of the strongest anybody had. It is not used now: the dose that works and the dose that harms sit far too close together."
+   },
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The fruit is about 2 in (5 cm) long, oval, blue-green and covered in stiff hairs — plainly a cucumber, in miniature and in a bad mood. The plant itself is a sprawling vine running flat over dry stony ground."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It is native to southern Europe, north-west Africa and south-west Asia. You find it on roadsides, waste ground and dry banks around the Mediterranean. It has since turned up in Australia, New Zealand, central Asia and eastern North America."
+   },
+   {
+    "cat": "senses",
+    "kind": "found",
+    "text": "It does not need to be touched. A ripe fruit goes off on its own the moment the pressure wins, and brushing past one only brings the moment forward. Walk through a patch in late summer and they let go around you."
+   },
+   {
+    "cat": "gross",
+    "kind": "found",
+    "text": "What comes out is not dry seed. It is a stream of mucus with the seeds carried along inside it, so the seeds travel in the jet and land wet and sticky. The slime is the vehicle, not a side effect."
+   },
+   {
+    "cat": "size",
+    "kind": "found",
+    "text": "The fruit is 2 in (5 cm) long and the jet carries about 25 ft (8 m). That is roughly 150 times the length of the thing doing the throwing, from a plant that sprawls at ankle height."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Genesis puts the seed-bearing plants on day three, each yielding seed after its kind. This one yields it under pressure — the same instruction carried out with a pump, a nozzle and a good deal of noise."
+   }
+  ]
+ },
+ {
+  "id": "tumbleweed",
+  "name": "Tumbleweed",
+  "group": "odd",
+  "blurb": "A plant that dies on purpose, snaps itself off at the ground, and rolls across the desert scattering seed the whole way.",
+  "size": "A big one is a tangled ball more than 3 ft (1 m) across, and light enough for a breeze to move.",
+  "homes": [
+   "desert",
+   "grassland"
+  ],
+  "stats": {},
+  "wonder": "It finishes growing, kills its own stem at one exact point, and hands the rest of the job to the wind.",
+  "facts": [
+   {
+    "cat": "build",
+    "kind": "found",
+    "text": "The tumbleweed rolling past is a dead plant, and that is the design working. Once the seed is ripe the stem gives way at a single spot just above the root. The root stays in the ground and the whole round bush leaves without it."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "The break is not damage. There is a weak line built into the stem in advance, the same way a leaf carries a built-in line where it lets go in fall. The neatness of the break, in the same place every time, is the argument that it was prepared.",
+    "more": "The layer is called an abscission zone. Leaves use one every fall. Using the same trick on a whole plant, to cut the entire body loose from its own root, is a considerably bolder application."
+   },
+   {
+    "cat": "babies",
+    "kind": "found",
+    "text": "One large Russian thistle carries about 200,000 seeds. It does not drop them all at once. The ball shakes a few loose with every bounce. So a single plant seeds a long line of ground instead of one spot.",
+    "more": "Holding the seed back matters. If it all fell at once the plant would seed one patch and stop. Shaking a few out per bounce spreads the seed over every mile the wind carries the ball."
+   },
+   {
+    "cat": "travel",
+    "kind": "found",
+    "text": "Nothing steers it. It goes where the wind goes until a fence stops it, and then the next one stops behind that, and the next. In Richland, Washington, in 2019, tumbleweeds piled 15 to 20 ft (4.5–6 m) deep and shut a road with cars still on it."
+   },
+   {
+    "cat": "record",
+    "kind": "record",
+    "text": "At Mobridge in South Dakota in 1989, tens of tons of large tumbleweed piled against houses. The houses were buried so deeply that machinery had to be brought in to dig them out."
+   },
+   {
+    "cat": "home",
+    "kind": "record",
+    "text": "Russian thistle is not American. It arrived in South Dakota in the 1870s in a shipment of flax seed from Russia that had tumbleweed seed mixed into it, and spread west from there. The plant in every cowboy film is an immigrant.",
+    "more": "It spread along the railways as much as by wind — seed in grain trucks and stuck to freight moved it faster than any breeze could. Within a few decades it was across most of the dry west."
+   },
+   {
+    "cat": "defence",
+    "kind": "found",
+    "text": "Young plants are soft and succulent, with leaves over 2 in (5 cm) long, and livestock will eat them. As the plant matures those leaves shrink to under half an inch and go rigid and spine-tipped. By the time it rolls, it is a ball of thorns."
+   },
+   {
+    "cat": "gross",
+    "kind": "found",
+    "text": "A dry tumbleweed is kindling with air in it. A pile of them against a building is a serious fire risk. A burning one does not stay put. It keeps rolling, which is considerably worse than a fire that stays where it started."
+   },
+   {
+    "cat": "build",
+    "kind": "worked",
+    "text": "The shape is the machine. It starts upright, then branches over and over into a tangled ball wider than it is tall. Built like that, there is no way for it to land that stops it rolling — which is the point of building like that."
+   },
+   {
+    "cat": "travel",
+    "kind": "worked",
+    "text": "Dying first is part of it. Living tissue is heavy with water; dead tissue is light and brittle. The plant dries out before it lets go, and that drying is what leaves a bush three feet across light enough for an ordinary breeze to shift.",
+    "more": "That is an unusual order of operations. Nearly every other plant does its dispersing while alive and green. This one finishes its life first and uses its own corpse as the vehicle."
+   },
+   {
+    "cat": "home",
+    "kind": "found",
+    "text": "It does best where nothing else wants to be: dry ground, salt flats, roadsides, plowed fields, railway ballast. Bare disturbed soil is its favorite thing in the world, which is why it tends to follow people around."
+   },
+   {
+    "cat": "created",
+    "kind": "record",
+    "text": "Genesis puts the plants on day three, each yielding seed after its kind. Most of them let go of the seed. This one lets go of itself, and posts the entire plant across the country with the seed still on board."
+   }
+  ]
+ }
+]

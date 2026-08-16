@@ -1,0 +1,388 @@
+[
+ {
+  "id": "weather-1",
+  "section": "weather",
+  "cat": "record",
+  "kind": "found",
+  "text": "A lightning bolt heats the air in its path to about 50,000 F (27,800 C). The surface of the sun is around 10,000 F (5,500 C). So the air inside a lightning channel is roughly five times hotter than the surface of the sun, for about a ten-thousandth of a second.",
+  "more": "It is not that the bolt is hot to begin with. Lightning is a huge current of electricity forcing its way through air, which is a terrible conductor. The air fights it, and that resistance is what dumps the heat, the same way a thin wire glows orange inside a toaster."
+ },
+ {
+  "id": "weather-2",
+  "section": "weather",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "Thunder is the sound of that superheated air blowing outward. Light gets to you almost instantly. Sound crawls, at about one mile every five seconds. So count from the flash to the bang, divide by five, and that is roughly how many miles off the strike was.",
+  "more": "Thunder carries about ten miles before the sound gives out. If you can hear it at all, you are close enough to be hit, which is why the safety rule is: when thunder roars, go indoors.",
+  "tryit": "From inside the house, count one-Mississippi, two-Mississippi from the next flash until the thunder arrives. Divide by five for miles. Do it twice and you can tell whether the storm is walking toward you or away."
+ },
+ {
+  "id": "weather-3",
+  "section": "weather",
+  "cat": "record",
+  "kind": "found",
+  "text": "The biggest hailstone ever measured in the United States fell on Vivian, South Dakota on 23 July 2010. It was 8 inches (20.3 cm) across, 18.62 inches (47.3 cm) around the middle, and weighed 1.94 pounds (0.88 kg). Roughly a soccer ball made of ice.",
+  "more": "It sat in a home freezer before the National Weather Service could get to it, and had already shrunk a little by the time it was measured. So the stone that actually landed was bigger than the record it set."
+ },
+ {
+  "id": "weather-4",
+  "section": "weather",
+  "cat": "weird",
+  "kind": "worked",
+  "text": "Cut a big hailstone open and you find layers, like an onion. The old explanation, one layer per trip up and down inside the storm, is wrong. Nobody can follow a hailstone around inside a thundercloud. The layers are read as patches of different temperature and wetness it drifted through.",
+  "more": "Clear layers form where the stone is collecting water fast enough that it freezes slowly and squeezes the air bubbles out. Cloudy white layers form where it freezes on contact and traps the bubbles. Most of the growing happens in one pass across the updraft, not in loops."
+ },
+ {
+  "id": "weather-5",
+  "section": "weather",
+  "cat": "record",
+  "kind": "record",
+  "text": "Wilson Bentley bolted a camera to a microscope and worked outdoors in the cold. On 15 January 1885 he made the first photograph of a single snow crystal. He was nineteen, on a farm in Jericho, Vermont. It had taken him two winters of failures. He kept going for the rest of his life.",
+  "more": "He photographed more than 5,000 crystals. His book Snow Crystals came out in 1931 with 2,453 of the pictures in it, and he died that same year, of pneumonia caught walking home in a snowstorm. Plenty of the snowflake pictures in schoolbooks are still his."
+ },
+ {
+  "id": "weather-6",
+  "section": "weather",
+  "cat": "weird",
+  "kind": "worked",
+  "text": "Nobody has ever checked whether no two snowflakes are alike. Nobody has compared them all. Here is what can be said. A large crystal is built from something like a billion billion water molecules. Each of its six arms grows through its own path of cold and damp. Small plain crystals do look identical.",
+  "more": "There is a narrower claim people can actually defend. Two big, complicated crystals matching arm for arm would be a staggering coincidence. Two simple six-sided plates matching is ordinary. That has been photographed."
+ },
+ {
+  "id": "weather-7",
+  "section": "weather",
+  "cat": "build",
+  "kind": "found",
+  "text": "Snow crystals have six sides because ice does. When water freezes, the molecules lock into a repeating six-sided pattern, and the crystal grows outward on that frame. The six arms end up matching each other because they are growing side by side through the same air, not because anything is copying anything."
+ },
+ {
+  "id": "weather-8",
+  "section": "weather",
+  "cat": "record",
+  "kind": "found",
+  "text": "The hottest air temperature ever officially recorded is 134 F (56.7 C). It was read at Greenland Ranch in Death Valley, California, on 10 July 1913. It is still the world record. It is also still argued about. Some researchers argue the observer misread the thermometer that week.",
+  "more": "Death Valley regularly gets past 125 F (52 C) in modern, well-checked instruments, so the place is not in doubt. Only that one reading is."
+ },
+ {
+  "id": "weather-9",
+  "section": "weather",
+  "cat": "record",
+  "kind": "found",
+  "text": "The coldest air temperature ever recorded is minus 128.6 F (minus 89.2 C). It was read at the Soviet Vostok station in Antarctica on 21 July 1983. July is midwinter down there. Throw a cup of boiling water into the air at that temperature. It can turn to ice crystals before it lands."
+ },
+ {
+  "id": "weather-10",
+  "section": "weather",
+  "cat": "size",
+  "kind": "found",
+  "text": "An ordinary puffy cumulus cloud carries around 1.1 million pounds (500,000 kg) of water. That is a loaded jumbo jet, parked in the sky. It stays up because the water is chopped into droplets far too small to fall quickly, and the air underneath the cloud is denser than the cloud is.",
+  "more": "The droplets are falling, just extremely slowly. Rising air underneath keeps shoving them back up. Rain starts when droplets bump into each other and merge. Once they are heavy enough, they win the argument."
+ },
+ {
+  "id": "weather-11",
+  "section": "weather",
+  "cat": "speed",
+  "kind": "found",
+  "text": "The fastest wind ever measured in a tornado was read by a radar mounted on a truck near Bridge Creek, Oklahoma on 3 May 1999. The first figure was about 301 mph (484 km/h). A careful re-check in 2021 raised it to 321 mph (517 km/h).",
+  "more": "The radar was looking at wind a few hundred feet up, not at ground level. No weather instrument sitting on the ground survives a tornado core. So tornado strength is normally rated afterward, from what the damage looks like."
+ },
+ {
+  "id": "weather-12",
+  "section": "weather",
+  "cat": "created",
+  "kind": "record",
+  "text": "On day two the waters were divided, water below from water above. The water above is overhead right now. One ordinary afternoon cloud carries a million pounds of it.",
+  "more": "That a cloud holds about a million pounds of water is weighed and calculated. Where the water above came from is read out of Genesis. Those are two different kinds of statement."
+ },
+ {
+  "id": "caves-13",
+  "section": "caves",
+  "cat": "size",
+  "kind": "found",
+  "text": "Hang Son Doong in Vietnam holds the largest cave passage ever measured: about 660 feet (200 m) high and 490 feet (150 m) wide, running for more than 3 miles (5 km). A Boeing 747 could fly down the middle of it without its wingtips touching either wall.",
+  "more": "Two stretches of its ceiling have collapsed, which lets daylight down into the cave. Trees grow inside, under those holes. On humid days a cloud forms indoors, near the roof, and it rains inside the cave."
+ },
+ {
+  "id": "caves-2",
+  "section": "caves",
+  "cat": "travel",
+  "kind": "record",
+  "text": "A Vietnamese man named Ho Khanh found the entrance in 1990, while out in the jungle looking for agarwood to sell. Then he could not find it again. He relocated it in 2008, and in April 2009 a team of British cavers surveyed it and worked out what he had walked into.",
+  "more": "The entrance is a hole in a jungle hillside with a cold draft coming out of it, and the roar of an underground river below. It is not obvious from outside that it opens into the biggest passage anyone has measured."
+ },
+ {
+  "id": "caves-3",
+  "section": "caves",
+  "cat": "build",
+  "kind": "worked",
+  "text": "Nobody has ever watched a cave form. The explanation is worked out, not observed: rain picks up carbon dioxide from the air and the soil, becomes a weak acid, and eats limestone along cracks. You can check the middle of that argument, though. Water leaving cave springs is carrying dissolved limestone right now.",
+  "more": "The step that is genuinely measured is the chemistry. Put limestone in fizzy water and it dissolves. Test water coming out of a cave and it is loaded with calcium it did not have going in. The size of the hole is measured too. It is the story joining the two that is reasoning."
+ },
+ {
+  "id": "caves-4",
+  "section": "caves",
+  "cat": "build",
+  "kind": "found",
+  "text": "Stalactites hang from the ceiling. Stalagmites stand on the ground. The letters do the remembering: C for ceiling, G for ground. They usually come as a matched pair, because one drip builds both. It leaves a smear of mineral on the ceiling on its way past. The rest of it lands below.",
+  "more": "The longest hanging stalactite you can walk up to and look at is about 27 feet (8.2 m) long. It is in the Jeita Grotto in Lebanon. A stalactite and the stalagmite under it sometimes meet. The join is called a column."
+ },
+ {
+  "id": "caves-5",
+  "section": "caves",
+  "cat": "build",
+  "kind": "found",
+  "text": "A stalactite starts as a hollow tube a fifth of an inch (4 to 5 mm) across, with water running down the inside. Cavers call those soda straws. When the tube clogs, water starts running down the outside instead, and the fat cone shape begins. Average thickening: 0.005 inches (0.13 mm) a year.",
+  "more": "That is the average. A stalactite under a fast steady drip can add ten times as much. Concrete under a bridge can grow one at 2 mm a day. Growth depends on the drip, not on the calendar."
+ },
+ {
+  "id": "caves-6",
+  "section": "caves",
+  "cat": "size",
+  "kind": "found",
+  "text": "Mammoth Cave in Kentucky is the longest cave known. It holds 426 miles (686 km) of mapped passage. No other cave on earth comes close. That figure is not an estimate. Volunteers from the Cave Research Foundation crawled it with tape measures and compasses, survey station by survey station.",
+  "more": "Before the Flint Ridge system was connected to it, Mammoth was a 44-mile cave. The extra 380-odd miles came from people going back again and again to check whether a crack was wide enough to squeeze through."
+ },
+ {
+  "id": "caves-7",
+  "section": "caves",
+  "cat": "record",
+  "kind": "found",
+  "text": "The deepest known cave is Veryovkina, in the Arabika massif in Georgia. Its floor sits 7,257 feet (2,212 m) below its entrance, which is well over a mile straight down. When it was first written up in 1968, it was thought to be only 377 feet (115 m) deep.",
+  "more": "The entrance is a hole about 10 feet by 13 feet in a mountainside. Reaching the bottom takes days, and expeditions have been chased back out by floodwater rising up the shafts."
+ },
+ {
+  "id": "caves-8",
+  "section": "caves",
+  "cat": "size",
+  "kind": "found",
+  "text": "The Grand Canyon is measured, not guessed at. It runs 278 river miles (447 km) long. It is up to 18 miles (29 km) from rim to rim. From rim to river is about one mile (1.6 km) straight down. The South Rim stands near 7,000 feet. The North Rim stands near 8,000.",
+  "more": "The two rims are about 10 miles apart on average, but roughly 215 miles apart by road, because you have to drive all the way around. Hiking rim to rim is about 21 miles and is not a day trip for most people."
+ },
+ {
+  "id": "caves-9",
+  "section": "caves",
+  "cat": "weird",
+  "kind": "worked",
+  "text": "How deep the canyon is and how it was cut are two different kinds of statement. The depth is measured with instruments. The cutting was never watched. That account is worked backwards from the shape of the rock, the bends in the river and the gravel it dropped. Geologists still disagree about it.",
+  "more": "This is the honest position, and it is not a dodge. A canyon does not come with a label. Everything anyone says about how it got there is reasoning from what is left behind, and reasoning can be revised. The tape measure cannot."
+ },
+ {
+  "id": "caves-10",
+  "section": "caves",
+  "cat": "home",
+  "kind": "found",
+  "text": "Movile Cave in Romania was found in 1986 by workers digging on a building site near the Black Sea. It is sealed off from the surface. Fifty-seven animal species have been counted living in it, thirty-seven of them found nowhere else on earth, and most of them have no eyes at all.",
+  "more": "Nothing down there runs on sunlight. The bottom of the food chain is bacteria pulling energy out of hydrogen sulfide and methane in the water. That is the rotten-egg gas, and the air in the cave is dangerous to breathe, so scientists go in with tanks and stay under an hour."
+ },
+ {
+  "id": "caves-11",
+  "section": "caves",
+  "cat": "weird",
+  "kind": "found",
+  "text": "On 8 May 1981 the ground opened up in Winter Park, Florida. Over two days the hole widened to 320 feet (98 m) across and 90 feet (27 m) deep. It swallowed a three-bedroom house, a huge sycamore tree, five Porsches from a repair shop, a pickup truck and the town swimming pool.",
+  "more": "Florida is built on limestone riddled with holes. This one let go during a stretch of record-low water in the aquifer underneath, when the water that had been helping hold the roof up was gone. The hole is now a lake, and the town keeps it as a park."
+ },
+ {
+  "id": "caves-12",
+  "section": "caves",
+  "cat": "created",
+  "kind": "record",
+  "text": "Genesis says the fountains of the great deep burst open. It says the windows of heaven were opened, and water covered the whole earth. Stand on the Grand Canyon rim and look. You see flat stacked layers, with a canyon cut down through them. Laid down first, then carved.",
+  "more": "Note what is and is not being claimed. The layers are there and can be photographed. The canyon is a mile deep and can be measured. Which event laid the layers and cut the canyon is not something a tape measure can settle, so it is marked here as coming from the record."
+ },
+ {
+  "id": "ice-1",
+  "section": "ice",
+  "cat": "size",
+  "kind": "found",
+  "text": "About nine-tenths of an iceberg is underwater. For the same amount of space, ice is roughly nine-tenths as heavy as seawater. So a berg sinks until it has shoved aside its own weight in water. Only that last tenth sticks up where you can see it.",
+  "more": "This is why a berg can roll over without warning. As the underwater part melts unevenly, the whole thing becomes top-heavy and flips, and there is no way to see it coming from a ship. Captains keep well clear of the sides, not just the front."
+ },
+ {
+  "id": "ice-2",
+  "section": "ice",
+  "cat": "size",
+  "kind": "found",
+  "text": "At the South Pole the ice is about 9,000 feet (2,700 m) thick. Nearly two miles of it. The rock underneath is close to sea level. So almost all of that 9,301-foot (2,835 m) elevation is frozen water standing on the ground. The research station stands on top of the water.",
+  "more": "The depth is read by flying radar over the ice and timing how long the echo takes to come back off the rock below. Where that has been checked against actual drilled holes, it lines up."
+ },
+ {
+  "id": "ice-3",
+  "section": "ice",
+  "cat": "travel",
+  "kind": "found",
+  "text": "The marker at the geographic South Pole is dug up and moved every New Year's Day. The ice it stands on, along with the station built on that ice, drifts about 33 feet (10 m) a year toward the Weddell Sea. Leave it alone and it stops marking the pole.",
+  "more": "The crew who winter over design and machine a new brass marker each year, and the old one is retired. It may be the only signpost on earth that has to keep chasing the place it names."
+ },
+ {
+  "id": "ice-4",
+  "section": "ice",
+  "cat": "size",
+  "kind": "found",
+  "text": "The thickest ice measured anywhere in Antarctica is close to 3 miles (4.9 km) deep. It sits in the Astrolabe Subglacial Basin. Across the whole continent the average is about 1.4 miles (2.2 km). Ice covers roughly 98 percent of Antarctica. Most maps of it are really maps of the lid.",
+  "more": "There are mountain ranges under there that no one has ever seen, mapped only by radar. There are lakes too, kept liquid by the pressure and the warmth of the rock, sitting under miles of ice."
+ },
+ {
+  "id": "ice-5",
+  "section": "ice",
+  "cat": "size",
+  "kind": "worked",
+  "text": "If every bit of Antarctica's ice melted, sea level would go up about 190 feet (58 m). Greenland's would add roughly 24 feet (7.4 m). Nobody has measured that, obviously. Those are sums, worked out from the measured volume of the ice and the measured area of the world's oceans.",
+  "more": "Two numbers, two different kinds of claim, in one sentence. The volume of the ice is surveyed. The sea level figure is arithmetic done on that survey. Neither one is a prediction about whether it will happen."
+ },
+ {
+  "id": "ice-6",
+  "section": "ice",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Floating sea ice melting does not raise sea level. It is already shoving aside exactly its own weight in water, so turning back into water changes nothing. Ice sitting on land is a completely different case, because that water is not in the ocean yet. Same substance, opposite result.",
+  "more": "Float an ice cube in a glass filled to the very brim and mark the level. When it melts, the glass still does not overflow. Now set a second cube on a saucer, let it melt, and pour that in. That one is land ice."
+ },
+ {
+  "id": "ice-7",
+  "section": "ice",
+  "cat": "senses",
+  "kind": "found",
+  "text": "Snow is white and glacier ice is blue, and both are made of the identical clear stuff. Snow is packed with tiny surfaces that bounce every color of light straight back out at you. Thick solid ice lets light travel far enough inside to soak up the reds, and blue is what comes back.",
+  "more": "You can watch the effect switch on. A shallow scoop of snow is white. Punch a deep hole into a glacier and the bottom goes blue. Down there the light has to travel further through solid ice to reach your eye."
+ },
+ {
+  "id": "ice-8",
+  "section": "ice",
+  "cat": "speed",
+  "kind": "found",
+  "text": "Jakobshavn Glacier in Greenland moves more than 150 feet (45 m) a day in summer. That is about an inch and a half every minute, which means a stake driven into the ice shifts several feet while you eat lunch. It is among the fastest-moving glaciers measured anywhere.",
+  "more": "It moves that fast because meltwater gets down to the bottom and the whole slab slides on it, rather than just creeping. Most glaciers are far lazier, moving a few inches a day, which is where the insult glacial pace came from."
+ },
+ {
+  "id": "ice-9",
+  "section": "ice",
+  "cat": "home",
+  "kind": "found",
+  "text": "Permafrost is not ice. It is ground, any ground, that has stayed at or below 32 F (0 C) for at least two years running. About a quarter of the land in the northern half of the world qualifies, and in places it reaches down more than 4,900 feet (1,500 m).",
+  "more": "The top layer thaws every summer and refreezes every winter. Trees, moss and mosquitoes live on a thin lid over frozen ground. Put a heated house straight on that lid and the heat thaws it. The house sinks. That is why such houses are lifted off the ground first."
+ },
+ {
+  "id": "ice-10",
+  "section": "ice",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "Your breath is full of water vapor you cannot see. Push it against something colder than the air and the vapor turns straight back into liquid: fog on the glass. If the glass is below freezing, it skips being liquid altogether and goes directly to ice crystals, which is frost.",
+  "more": "The same thing is happening on the inside of a cold window in winter, in the mist that comes off a cold drink can, and in a cloud. In all four cases warm air holding invisible water meets something cold and has to let the water go.",
+  "tryit": "Breathe hard on a cold window and watch the patch appear, then shrink and vanish. On a freezing morning, do it on the outside of a car window instead and get close: the fog arrives as tiny crystals, not as droplets."
+ },
+ {
+  "id": "ice-11",
+  "section": "ice",
+  "cat": "weird",
+  "kind": "found",
+  "text": "At the South Pole the sun rises once a year and sets once a year. It comes up around late September, then circles round and round the sky without setting for six months, and goes down around late March. One day and one night, six months each.",
+  "more": "It does not go straight up and straight down there either. It spirals: a slow climb to about 23 degrees above the horizon at midsummer, then a slow spiral back down. Sunrise at the Pole takes days."
+ },
+ {
+  "id": "ice-12",
+  "section": "ice",
+  "cat": "created",
+  "kind": "record",
+  "text": "Genesis day one: light, and light divided from darkness, and the two of them named Day and Night. All of that before the sun is made on day four. At the South Pole, Day and Night are six months long apiece. This is the written account, not something anyone measured.",
+  "more": "Standing at the Pole is the one place on earth where day and night are not tied to the sun coming up in the morning. They are a single long turn of light and dark, which is a strange thing to stand inside of."
+ },
+ {
+  "id": "sky-1",
+  "section": "sky",
+  "cat": "weird",
+  "kind": "found",
+  "text": "The moon does spin. It just spins at exactly the rate it travels round us, one turn per orbit, about 27 days, so the same face stays pointed at earth the whole time. If the moon stopped spinning tomorrow, we would start seeing every side of it.",
+  "more": "Its orbit is slightly lopsided and slightly tilted, so from here the moon appears to rock and nod a little. Over a month that rocking lets us peek round the edges, and about 59 percent of the surface has now been seen from the ground.",
+  "tryit": "Find the moon in daylight. Around first quarter, when it is half lit, look up in the afternoon. It is high in the southern sky and pale blue-white against the blue. The moon is up in daytime about as often as at night. It just loses to the sun."
+ },
+ {
+  "id": "sky-2",
+  "section": "sky",
+  "cat": "record",
+  "kind": "record",
+  "text": "Nobody saw the far side of the moon until October 1959, when a Soviet probe called Luna 3 flew past and sent back photographs. Calling it the dark side is wrong: it gets as much sunlight as the side we look at. It is the hidden side, not the dark one.",
+  "more": "There were only a handful of pictures and they were grainy. But they showed something nobody expected. The far side is covered in craters. It has almost none of the big dark smooth plains that make the near side look like a face."
+ },
+ {
+  "id": "sky-3",
+  "section": "sky",
+  "cat": "size",
+  "kind": "found",
+  "text": "Tides are measured with tide gauges, every day, everywhere. The biggest are in the Bay of Fundy in Canada, where the difference between low and high water averages about 52 feet (16 m). That is a four-story building. The worldwide average is closer to 3 feet (1 m).",
+  "more": "Roughly 110 billion tons (100 billion tonnes) of water moves in and out of that bay on one tide. That is more than every river on earth is carrying at that moment, put together. Boats in Fundy harbors sit flat on the mud twice a day."
+ },
+ {
+  "id": "sky-4",
+  "section": "sky",
+  "cat": "build",
+  "kind": "worked",
+  "text": "Most coasts get two high tides a day, not one, and the reason is reasoned out rather than watched. The moon's pull heaps the ocean up on the side facing it, and also on the far side, where the water is pulled least and gets left behind. Earth turns through both bulges daily.",
+  "more": "The sun does the same thing, with about half the pull. When sun and moon line up you get the biggest tides of the month, called spring tides, which has nothing to do with the season. When they pull at right angles you get the smallest, called neap tides."
+ },
+ {
+  "id": "sky-5",
+  "section": "sky",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Seasons have nothing to do with how far away the sun is. Earth is actually closest to the sun in early January, in the dead middle of northern winter. What makes summer is tilt: earth's axis leans over by 23.4 degrees, so for half the year your side leans sunward.",
+  "more": "The gap between nearest and farthest is only about three percent. That is far too small to matter. There is a simpler way to kill the distance idea. Australia has summer while Canada has winter. Same planet, same distance, same day. Leaning toward the sun makes the light hit at a steeper angle. It gets squeezed onto less ground. The days are longer too."
+ },
+ {
+  "id": "sky-6",
+  "section": "sky",
+  "cat": "tryit",
+  "kind": "found",
+  "text": "Your shadow is the hand of a clock. It swings around the ground all day because the earth is turning underneath you, at about 1,000 mph (1,600 km/h) if you are near the equator. You do not feel any of it, for the same reason you cannot feel the speed of a smooth airplane.",
+  "more": "The shadow also changes length through the year. Shortest at midday in summer, when the sun is high, longest at midday in winter, when it is low. That change is the tilt, showing up on your driveway.",
+  "tryit": "Stand somewhere sunny and have someone put a stone at the tip of your shadow. Go away for fifteen minutes. Come back, stand in exactly the same footprints, and put down a second stone. The gap between the stones is the earth turning."
+ },
+ {
+  "id": "sky-7",
+  "section": "sky",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Earth turns once in 23 hours 56 minutes and 4 seconds, measured against the stars. Our day is 24 hours because we time it by the sun instead. Earth slides along its orbit while it spins. So it has to turn a little extra to face the sun again.",
+  "more": "Those four missing minutes a day add up. The stars come back around four minutes earlier each night. That is two hours a month. It is why the night sky in January is not the night sky in July."
+ },
+ {
+  "id": "sky-8",
+  "section": "sky",
+  "cat": "speed",
+  "kind": "found",
+  "text": "Sunlight takes about 8 minutes and 20 seconds to get here, crossing roughly 93 million miles (150 million km). So the sun you can see out of the window is the sun as it was a few minutes ago. Everything in the sky is a picture of the past, just by a little.",
+  "more": "Light from the moon takes about 1.3 seconds, which is why radio conversations with Apollo crews had that awkward pause in them. Light from the nearest star after the sun takes over four years."
+ },
+ {
+  "id": "sky-9",
+  "section": "sky",
+  "cat": "weird",
+  "kind": "found",
+  "text": "The sun is about 400 times wider than the moon. It also sits about 400 times further away. Those two numbers cancel out. So the sun and the moon look almost exactly the same size in our sky. It is why the moon can cover the sun during a total eclipse.",
+  "more": "No other planet with moons gets a fit that neat. The fit is not permanent either. The moon drifts about an inch and a half further from earth each year. One day it will look too small to cover the sun completely."
+ },
+ {
+  "id": "sky-10",
+  "section": "sky",
+  "cat": "senses",
+  "kind": "worked",
+  "text": "Auroras are not reflections off polar ice, which is the old guess. Particles streaming off the sun get steered by earth's magnetic field down toward the poles, crash into oxygen and nitrogen high in the atmosphere and make them glow. It is a neon sign, using the whole sky as the tube.",
+  "more": "Nobody can see the particles. The cause is worked out rather than watched. Satellites measure the solar wind before it arrives. Lab tests show which gas glows what color. Oxygen gives green from roughly 60 to 120 miles (100 to 200 km) up, and red above that. The southern version is called the aurora australis. It often lights up at the same moment, in a matching shape."
+ },
+ {
+  "id": "sky-11",
+  "section": "sky",
+  "cat": "size",
+  "kind": "found",
+  "text": "Most shooting stars are made by something between a grain of sand and a pea. It is moving so fast that the air piling up in front of it is crushed and heated until the grain glows white and is gone. About 48 tons of that dust hits the atmosphere every single day.",
+  "more": "The grain is not burning up from rubbing against the air, which is the usual explanation and is wrong. It is the air itself getting compressed and superheated in front of it, the same way a bicycle pump gets hot."
+ },
+ {
+  "id": "sky-12",
+  "section": "sky",
+  "cat": "created",
+  "kind": "record",
+  "text": "Genesis day four: sun, moon and stars set in place for signs and for seasons, and for days and years. Read that way, the sky is a calendar. The spin that makes a day, the moon's cycle that makes a month, the 23.4-degree tilt that makes a year turn.",
+  "more": "Every piece of that calendar can be measured, and every piece has been. A turn takes 23 hours 56 minutes. One full moon to the next is about 29 and a half days. The tilt is 23.4 degrees. The Genesis account adds one thing to the numbers. They were put there on purpose, to be read."
+ }
+]

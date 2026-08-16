@@ -1,0 +1,412 @@
+[
+ {
+  "id": "diplodocus",
+  "name": "Diplodocus",
+  "group": "dinosaurs",
+  "blurb": "A long-necked, whip-tailed plant eater. It is one of the longest animals ever to walk on land.",
+  "size": "About 85 ft (26 m) nose to tail. Most of that length is neck at one end and tail at the other.",
+  "homes": [
+   "forest",
+   "freshwater"
+  ],
+  "stats": {
+   "length": 85,
+   "weight": 28000
+  },
+  "wonder": "The counterweight tail, the level neck and the hollowed-out back bones only work as one design; take any of them away and the animal cannot stand up.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "The famous skeleton, CM 84, was quarried out of Sheep Creek, Wyoming in 1899 and still stands in the Carnegie Museum of Natural History in Pittsburgh. The mount is a composite: mostly CM 84, with the tail from two other animals and a sculpted skull. Museum copies worldwide were cast from it.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "Skin impressions from Howe Quarry in Wyoming, found in 1990, show narrow pointed spines along the whip end of the tail — the biggest maybe 7 in (18 cm) whole. The skin came off a close cousin, not Diplodocus itself, so the spines are the family's best guess at what it wore. Every earlier model was far too smooth.",
+    "kind": "worked"
+   },
+   {
+    "cat": "bones",
+    "text": "The Smithsonian's mount, USNM 10865, went up in 1931. It is among the most complete Diplodocus known. Its own head and most of its neck had already weathered away. Skulls are the rare part. They are small, light and easily washed off, so mounts often wear a cast of someone else's.",
+    "kind": "record"
+   },
+   {
+    "cat": "build",
+    "text": "The tail runs to about 80 separate bones. It tapers to a tip no thicker than a broom handle. The name Diplodocus means 'double beam'. That is for the small paired bones tucked underneath those tail vertebrae. It is named for a detail, not for its size.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "A 1997 study suggested the tail could crack like a bullwhip and break the sound barrier. A 2022 study rebuilt it as a digital model 39 ft (12 m) long and got a tip speed near 60 mph (30 m/s) — a serious wallop, but no sonic boom.",
+    "more": "The second team also checked whether skin, tendon and ligament could survive the stresses of a supersonic crack. They could not. On those numbers the tail still works fine as a defensive club; it just does not break the sound barrier.",
+    "kind": "worked"
+   },
+   {
+    "cat": "food",
+    "text": "The teeth were slim pegs bunched at the front of the mouth. That shape points to raking leaves off a branch rather than chewing them — so everything went down whole.",
+    "more": "Worn pegs were replaced fast: a Diplodocus swapped out a tooth in under 35 days. Stripping tough conifer and fern growth all day long wears a tooth down quickly, so the factory never stopped.",
+    "kind": "worked"
+   },
+   {
+    "cat": "weird",
+    "text": "The nose openings sit high on the skull. That once had people picturing Diplodocus standing on a lake bed. It would breathe through the top of its head like a snorkel. Work published in 1951 showed the water pressure at that depth would have made a breath impossible.",
+    "kind": "worked"
+   },
+   {
+    "cat": "size",
+    "text": "A huge skeleton found in New Mexico in 1979 was named Seismosaurus, 'earthquake lizard'. Careful re-measuring showed it was simply a very large Diplodocus. The separate name was dropped.",
+    "more": "A 2024 estimate puts that individual near 108 ft (33 m) long and around 46,000 lb (21 tonnes). Both figures are worked out from the bones that were actually recovered. Nobody put it on a scale.",
+    "kind": "record"
+   },
+   {
+    "cat": "build",
+    "text": "The neck held at least 15 bones. Slot the vertebrae together neatly on a computer and you get a roughly level pose, so most reconstructions have dropped the old swan curve. But living animals hold their necks higher than that neat fit. The argument is still open.",
+    "kind": "worked"
+   },
+   {
+    "cat": "home",
+    "text": "The bones come out of the Morrison rocks, which stretch from New Mexico up into Canada. The same layers hold ferns, horsetails and tall conifers, but no grass. Read those layers and you get river floodplains with a wet season and a hard dry one.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "Diplodocus means 'double beam' — a pair of bones under each tail vertebra, arching around the blood vessel that runs to the tip. One beam covers nothing. Two that do not meet cover nothing. So the pair had to arrive on day six already a pair.",
+    "more": "The same all-or-nothing shows up in the back bones, hollowed out to cut weight without losing strength. Bone with holes in it is either a working truss or simply a weak bone, and there is no useful stage in between.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "Behemoth lies among the reeds by the river. He is untroubled when the Jordan surges at his mouth. Diplodocus bones come out of the Morrison river floodplains. Ferns and horsetails sit in the same layers. Those layers read as a wet season and a hard dry season. Leviathan is the water half of that pair.",
+    "more": "Behemoth lies among the reeds by the river and is untroubled when the Jordan surges at his mouth. Diplodocus bones come out of the Morrison river floodplains: the layers read as a wet season, a hard dry season, ferns and horsetails at the water's edge. Leviathan is the water half of that pair.",
+    "kind": "record"
+   }
+  ]
+ },
+ {
+  "id": "velociraptor",
+  "name": "Velociraptor",
+  "group": "dinosaurs",
+  "blurb": "A turkey-sized hunter from the sand dunes of Mongolia. It was built around one oversized sickle claw on each foot.",
+  "size": "About 6 ft 8 in (2 m) long, but most of that is neck and stiff tail. It stood roughly knee-high on a grown-up and weighed about 40 lb (18 kg).",
+  "homes": [
+   "desert"
+  ],
+  "stats": {
+   "length": 6.8,
+   "weight": 40
+  },
+  "wonder": "A small animal was given the equipment of a much larger one, along with the frame and the balance to carry it.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "The first Velociraptor was a crushed skull and a single hand claw. Peter Kaisen found it on 11 August 1923 at the Flaming Cliffs in Mongolia. Henry Fairfield Osborn named it the following year. That specimen, AMNH 6515, is still at the American Museum of Natural History in New York.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "The Fighting Dinosaurs was dug up in 1971. It is a Velociraptor and a Protoceratops buried mid-fight. The raptor's sickle claw is at the plant eater's throat. One of its own arms is clamped in the Protoceratops' beak. Mongolia treats the fossil as a national treasure.",
+    "more": "Sudden burial is the only way a scene like that survives. Sand poured over both animals fast. Neither came apart, and nothing scavenged them. Fossils catching two animals in the act of anything at all are extraordinarily rare.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "The skull is long, low and narrow — up to 9.1 in (23 cm) — and uniquely up-curved at the snout, which takes up about 60 percent of its length. Count the sockets and you get close to 60 teeth, each serrated more coarsely on the back edge than the front.",
+    "more": "Denticles are the tiny points along a tooth's edge. They are what makes a meat-eater's tooth work like a steak knife instead of a nail. Velociraptor's are not matched front and back. The ones on the rear edge are clearly the larger of the two.",
+    "kind": "found"
+   },
+   {
+    "cat": "size",
+    "text": "The raptors in the movies stand about 6 ft tall. A real Velociraptor stood roughly 1 ft 7 in (0.5 m) at the hip. From the size of its skeleton its weight works out at 31 to 43 lb (14 to 20 kg).",
+    "kind": "worked"
+   },
+   {
+    "cat": "defence",
+    "text": "The second toe of each foot carried a curved claw over 2.6 in (6.5 cm) around its outer edge. From the shape of the toe joint it looks to have been held up clear of the ground while walking, keeping the point sharp.",
+    "kind": "found"
+   },
+   {
+    "cat": "weird",
+    "text": "That claw was probably not a slashing blade. Tests on models found it punctured and gripped far better than it cut. A 2011 study argued raptors used it to pin prey to the ground. A hawk pins a rat under its feet the same way.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "Thin bony rods grew forward from the tail bones and locked the tail into one stiff shaft. It could still bend side to side, which is exactly what you want from a counterweight when you turn at speed.",
+    "kind": "found"
+   },
+   {
+    "cat": "food",
+    "text": "Specimen MPC-D 100/54 has the bone of a large flying reptile sitting inside its ribcage. The bone shows no pitting from stomach acid, so the meal was recent. The animal it came from was large. That points to scavenging rather than a catch.",
+    "kind": "found"
+   },
+   {
+    "cat": "record",
+    "text": "Velociraptor means 'swift seizer'. No Velociraptor trackway has ever been found, so nobody can put a real number on how fast it ran. Every speed you have read for it is worked out from the shape of the leg bones.",
+    "kind": "record"
+   },
+   {
+    "cat": "home",
+    "text": "The bones come out of the Djadochta rocks of Mongolia and the Bayan Mandahu rocks of China. Those were fields of sand dunes, occasional streams, and a lot of dry wind. Several skeletons were buried so fast that they are still curled in a lifelike pose.",
+    "kind": "found"
+   },
+   {
+    "cat": "created",
+    "text": "Velociraptor walked on land, so it belongs to day six. It stood about 1 ft 6 in (0.5 m) at the hip, knee-high on a grown-up. It was given a second-toe claw over 2.6 in (6.5 cm) around its curve. That is equipment sized for a much larger animal.",
+    "more": "That claw is the whole animal in one part. Everything else about it is turkey-sized; the weapon on its foot is not. It was finished and fitted from the start, on an animal small enough to step over.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "The animals came to Noah; he did not go collecting them. A grown Velociraptor weighed about 40 lb — worked out from its bones, not read off a scale — and ran 6 ft 8 in (2 m), most of that neck and stiff tail. Young ones would have boarded needing less room than a crate of chickens.",
+    "kind": "record"
+   }
+  ]
+ },
+ {
+  "id": "spinosaurus",
+  "name": "Spinosaurus",
+  "group": "dinosaurs",
+  "blurb": "The longest meat-eating dinosaur anyone has dug up. It had a crocodile's snout and a tall sail of bone down its back.",
+  "size": "Around 46 ft (14 m) long — longer than Tyrannosaurus rex — but far narrower, with back spines standing over 5 ft (1.6 m) tall.",
+  "homes": [
+   "freshwater"
+  ],
+  "stats": {
+   "length": 46,
+   "weight": 16000
+  },
+  "wonder": "Dense bones, a paddle of a tail and a snout that can feel ripples are not a set of accidents; they are a kit, and they match the river it was put in.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "Ernst Stromer described Spinosaurus in 1915 from bones dug out of Egypt in 1912. They were kept in Munich, and the museum was hit in a bombing raid on the night of 24 April 1944. The only Spinosaurus in the world was destroyed.",
+    "more": "What survived was Stromer's published paper. It held careful drawings and measurements of bones nobody would ever see again. For decades every picture of Spinosaurus was drawn from that one document.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "The replacement skeleton, FSAC-KK 11888, came out of the Kem Kem rocks of Morocco. Nizar Ibrahim's team described it in 2014. They published the tail separately in 2020, and the tail turned out to be the surprise.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "In one Moroccan bone bed a student named Thomas Beevor sorted 1,200 fossil teeth by species. Forty-five out of every hundred were Spinosaurus. Teeth from land-living dinosaurs were far rarer, which says a great deal about where this animal spent its time.",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "The tail bones carry tall blades of bone standing straight up. Together they make a flat fin, rather like a newt's. A plastic model of that tail was swung in a water tank. It produced over eight times the push of an ordinary meat-eater's tail.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "The sail is built from spines growing up out of the back bones, the tallest over 5 ft 4 in (1.65 m). Nobody knows what it was for. Showing off to other Spinosaurus is the usual answer, and it is only a guess.",
+    "kind": "found"
+   },
+   {
+    "cat": "food",
+    "text": "The teeth are straight cones with few or no saw edges. Read that shape and it comes out poor for cutting through flesh and excellent for holding something slippery. The snout ends in a rosette of long interlocking teeth, which is what a fish trap looks like when it is made out of jaw.",
+    "kind": "worked"
+   },
+   {
+    "cat": "senses",
+    "text": "The tip of the snout is peppered with tiny holes that carried nerve endings. Cristiano Dal Sasso's team scanned them in 2009 and suggested Spinosaurus felt ripples the way a crocodile does. It is a good guess, not a fact — land-only hunters like Neovenator have much the same wiring.",
+    "kind": "worked"
+   },
+   {
+    "cat": "weird",
+    "text": "Most big meat-eating dinosaurs had hollow, air-filled bones to save weight. Spinosaurus had dense, thick-walled ones instead. One team reads that as ballast, the trick penguins and hippos use to stop bobbing up. Another says thick bone simply braced a heavy animal walking on land.",
+    "kind": "found"
+   },
+   {
+    "cat": "record",
+    "text": "Scientists still argue about how it hunted: swimming after fish underwater, or wading in the shallows and grabbing them. Both sides are reading the same skeleton. The argument is not settled, and saying so is more honest than picking a side.",
+    "kind": "worked"
+   },
+   {
+    "cat": "home",
+    "text": "The Kem Kem rocks record an enormous river system with tidal flats and mangroves. It was full of sawfish, coelacanths and crocodile-shaped hunters. The same ground today is Saharan desert.",
+    "more": "That is a lot of large predators sharing one place. One suggestion is that they were not competing at all. Some fished and some hunted on land. The river fed far more of them than dry ground ever could.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "Someone fishing the river that ran where the Sahara is now would have seen the sail first — spines over 5 ft tall sliding above the reeds. Its tracks in the mud would have come from two feet, not four. The dragon stories many cultures keep begin at the water.",
+    "more": "Forty-six feet is longer than most houses are wide. One reading of the dense, thick-walled bones is that they kept the animal low in the water. A hippo sits the same way. From the bank you would have seen a snout, a sail, and very little in between.",
+    "kind": "worked"
+   },
+   {
+    "cat": "created",
+    "text": "The snout tip is drilled with tiny holes that carried nerve endings. Set that next to a crocodile's snout and it reads as a ripple detector. Holes without nerves are just holes; nerves with nothing wired to read them report to no one. A ripple detector is no use half-made, and if that is what this is, it came finished.",
+    "more": "Crocodiles have the same arrangement and use it the same way. Cristiano Dal Sasso's team described the Spinosaurus version in 2009. It is one solution, set into a jaw shaped like a crocodile's. But it was carried on an animal that walked out onto the bank on two legs.",
+    "kind": "worked"
+   }
+  ]
+ },
+ {
+  "id": "allosaurus",
+  "name": "Allosaurus",
+  "group": "dinosaurs",
+  "blurb": "The commonest big meat-eater in the Morrison rocks. It was a two-legged hunter with saw-edged teeth and a pair of blunt horns above its eyes.",
+  "size": "About 28 ft (8.5 m) nose to tail and around 3,700 lb (1.7 tonnes) — a figure worked out from the skeleton, not from a scale.",
+  "homes": [
+   "forest",
+   "freshwater"
+  ],
+  "stats": {
+   "length": 28,
+   "weight": 3700
+  },
+  "wonder": "A skull light enough to swing fast and braced enough to take the impact is a hard thing to design twice; this one arrived already solved.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "Big Al, catalogue number MOR 693, was found in 1991 in Big Horn County, Wyoming. It is about 95% of one skeleton. That makes it among the most complete large meat-eaters ever dug up. The bones are at the Museum of the Rockies in Bozeman, Montana.",
+    "more": "A cast of Big Al stands at the University of Wyoming Geological Museum in Laramie. You can meet the same animal in two states. A second skeleton from the same area is nicknamed Big Al Two. It is on display at the dinosaur museum in Aathal, Switzerland.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "Nineteen of Big Al's bones are broken or infected — five ribs, five backbones, four foot bones, plus a shoulder blade, a hand bone and a hip bone. A toe on the right foot is swollen with an infection that lasted months. A foot in that state would have made it limp, and it was not yet full grown.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "The Cleveland-Lloyd Dinosaur Quarry in Utah has given up thousands of bones. At least 46 Allosaurus are tangled together there, with only a handful of plant eaters. Nobody has settled why so many hunters ended up in one patch of ground.",
+    "more": "Suggestions include a bog that trapped animals one after another, or a drying waterhole where they gathered and died. The bones are jumbled rather than laid out in place, so the bodies were shifted before they were buried. On the strength of that quarry, Utah made Allosaurus its state fossil in 1988.",
+    "kind": "found"
+   },
+   {
+    "cat": "food",
+    "text": "Each side of the upper jaw carried 14 to 17 teeth, flattened like blades with saw edges front and back. Most Allosaurus teeth people find are an inch or two long; the biggest run to about 3 in (7.6 cm).",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "Worked out from a model of the skull, its bite came out weaker than a big crocodile's. The skull could still take huge force pushed straight down. One idea is that Allosaurus drove its open upper jaw into prey like a hatchet. Then it hauled back and let the teeth do the cutting.",
+    "more": "Emily Rayfield's team stress-tested a computer model of the skull in 2001. It withstood a downward load far beyond anything the jaw muscles alone could produce. So the neck and the weight of the head must have supplied the rest.",
+    "kind": "worked"
+   },
+   {
+    "cat": "defence",
+    "text": "One Allosaurus hip bone has a hole punched clean through it that matches a Stegosaurus tail spike. The bone never healed and a patch the size of a baseball was eaten away by infection. Nobody watched the fight; that hole is the reason for saying hunting a Stegosaurus was not a safe job.",
+    "kind": "found"
+   },
+   {
+    "cat": "build",
+    "text": "The two ridges above the eyes are hollow-cored and differ from one skeleton to the next. Their walls are too thin to have taken a blow, so they were not made for fighting. A sunshade, or a display, or both.",
+    "kind": "worked"
+   },
+   {
+    "cat": "size",
+    "text": "Growth rings in the bones sit widest apart at about age 15. Turned into weight, that year comes out at roughly 326 lb (148 kg) gained. The rings crowd together and stop in its twenties: it had finished growing.",
+    "kind": "worked"
+   },
+   {
+    "cat": "weird",
+    "text": "Othniel Charles Marsh named Allosaurus in 1877. The name means 'different lizard'. He chose it for the scooped-out hollows in its back bones. They were unlike anything he had catalogued before.",
+    "kind": "record"
+   },
+   {
+    "cat": "home",
+    "text": "Allosaurus bones come out of the Morrison rocks of Wyoming, Utah and Colorado. Those layers point to river floodplains with a hard dry season. Bones close enough to be called the same animal also turn up in coastal rock in Portugal, on the far side of the Atlantic.",
+    "kind": "found"
+   },
+   {
+    "cat": "created",
+    "text": "At Cleveland-Lloyd at least 46 Allosaurus lie tangled together, and the hollow brow ridges differ from one skull to the next. Allosaurus and its close look-alikes are one created kind, and a pair of that kind rode the Ark. The ridges vary. Nothing new is added.",
+    "more": "Marsh named it 'different lizard' for the scooped hollows in its back bones. Bones turn up in the Morrison rocks of Wyoming, Utah and Colorado. Bones from coastal rock in Portugal are taken as the same kind. That is one kind on both sides of an ocean.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "Growth rings put its fastest year at 326 lb gained, at age fifteen, then crowd together and stop in its twenties. Twenty-eight feet was the finished size, not the size it happened to reach. The stopping was built in as surely as the growing.",
+    "more": "The 3,700 lb comes off the skeleton, worked out from bone dimensions rather than a scale. At that weight, a Stegosaurus tail spike still punched clean through one Allosaurus hip and left a hole the size of a baseball. Big did not mean safe.",
+    "kind": "worked"
+   }
+  ]
+ },
+ {
+  "id": "ankylosaurus",
+  "name": "Ankylosaurus",
+  "group": "dinosaurs",
+  "blurb": "A low, wide plant eater, armored across the whole of its back. On the end of its tail is a bone club. The club is a knob of spongy bone under a thin hard shell.",
+  "size": "About 20 to 26 ft (6 to 8 m) long and roughly 13,000 lb, but built low — only waist-high on a grown-up.",
+  "homes": [
+   "forest",
+   "freshwater"
+  ],
+  "stats": {
+   "length": 26,
+   "weight": 13000
+  },
+  "wonder": "Armor, a cropping beak, a barrel of a gut and a bone club at the far end all belong to one animal, and each one only makes sense with the others.",
+  "facts": [
+   {
+    "cat": "bones",
+    "text": "Barnum Brown named Ankylosaurus in 1908 from AMNH 5895. That was an upper skull, two teeth, some ribs and vertebrae and over 30 armor plates. It came out of the Hell Creek rocks of Montana. Only about five decent specimens are known, and no complete skeleton exists.",
+    "kind": "record"
+   },
+   {
+    "cat": "bones",
+    "text": "Specimen AMNH 5214 was collected in 1910. It produced the first Ankylosaurus tail club anyone had seen. The club is 24 in (60 cm) long, 19 in (49 cm) across and 7.5 in (19 cm) thick. A complete skull and lower jaws came with it.",
+    "kind": "found"
+   },
+   {
+    "cat": "bones",
+    "text": "The largest known Ankylosaurus skull, CMN 8880, was collected in 1947 and measures 25 in (64.5 cm) long by 29 in (74.5 cm) wide. It is wider than it is long, which is an odd shape for the skull of anything.",
+    "kind": "found"
+   },
+   {
+    "cat": "defence",
+    "text": "The last seven tail bones sit hard against one another with no cartilage between them. They lock into a stiff handle for the club. A 2009 study worked out the force of a swing from the size of the club. Only the largest clubs come out hard enough to break bone. Young ones could not.",
+    "more": "Victoria Arbour built the models. She measured how far the tail could swing sideways, around 100 degrees. Then she worked out the force at impact from the mass of the club and the muscles driving it.",
+    "kind": "worked"
+   },
+   {
+    "cat": "defence",
+    "text": "The armor is hundreds of separate bone plates set into the skin, from under half an inch (1 cm) across up to 14 in (35.5 cm) long. They are thin-walled and hollowed underneath, so they stayed light for their size.",
+    "more": "Even the eyelids were armored. A bone called the palpebral sat over each eye like a shutter. The plates were embedded in skin rather than joined to the skeleton. That is why they scatter when a body comes apart.",
+    "kind": "found"
+   },
+   {
+    "cat": "senses",
+    "text": "The airway inside the snout does not run straight. It loops. What that loop was for was worked out in 2011. The work used a close relative, Euoplocephalus, rather than Ankylosaurus itself. The shape comes out working as a heat-and-moisture exchanger. It is a nose that warms and dampens the air on the way in.",
+    "kind": "worked"
+   },
+   {
+    "cat": "food",
+    "text": "Behind a broad flat beak sit 34 or 35 tooth sockets along each upper jaw, holding tiny leaf-shaped teeth. Teeth that small point to cropping low plants and swallowing them barely chewed.",
+    "kind": "worked"
+   },
+   {
+    "cat": "build",
+    "text": "The species name magniventris means 'great belly', and the ribcage earns it. A wide gut is what you need to ferment tough plants slowly, so Ankylosaurus was, in effect, a walking compost heap on legs.",
+    "kind": "worked"
+   },
+   {
+    "cat": "weird",
+    "text": "A close relative is called Zuul crurivastator, 'Zuul, destroyer of shins'. It was found with five armor spikes along its flanks broken and healed over. The damage clusters where another ankylosaur's club would land. It is not where a hunter's teeth would land.",
+    "more": "That skeleton is at the Royal Ontario Museum in Toronto. If the pattern holds, these animals were swinging those clubs at each other as much as at anything trying to eat them.",
+    "kind": "worked"
+   },
+   {
+    "cat": "home",
+    "text": "Its bones come out of the Hell Creek, Lance and Scollard rocks. Those read as a warm coastal plain of rivers and forest. Ankylosaurus shared that ground with Tyrannosaurus, Triceratops and Edmontosaurus. Its bones turn up far more rarely than any of theirs.",
+    "kind": "found"
+   },
+   {
+    "cat": "created",
+    "text": "The name magniventris means great belly, and a gut that wide is built to ferment low, soft plants slowly. After the Flood the world ran colder and drier, and low green feed thinned. Armor and a bone club do nothing against an empty gut, or against men who found it would not run.",
+    "more": "The plates run from under half an inch across to 14 inches long, hundreds of them. All that bone has to be grown and hauled around, and that takes steady feeding. Lean ground is hard on an animal built that heavy.",
+    "kind": "record"
+   },
+   {
+    "cat": "created",
+    "text": "People walked the same ground. What they met was an animal only waist-high yet around 13,000 lb, with a head wider than it was long. The stiff tail rode clear, so its trail would show four broad footprints and no drag mark.",
+    "more": "The club itself was worth remembering. Two feet long and a foot and a half across. It swung from a tail whose last seven bones locked together into a handle. Dragon carvings and accounts turn up across many cultures, and armored ones are in the mix.",
+    "kind": "record"
+   }
+  ]
+ }
+]
