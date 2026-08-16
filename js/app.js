@@ -59,6 +59,7 @@ const App = {
     this.tab = tab;
     this.view = null;
     this.resetSay();
+    this.realm(tab);
     ({ today: () => this.today(), trails: () => this.expeditions(),
        explore: () => this.explore(),
        guide: () => { this._roster = 'animals'; this.passportFilter = null; this.passport(); },
@@ -743,7 +744,7 @@ const App = {
   // right down the page and the pins sit ON it, so the eye follows a journey
   // instead of scanning a column. Everything is one inline SVG plus absolutely
   // positioned buttons, so it scales to any number of stops and needs no art.
-  mapLeg(leg, seen) {
+  mapLeg(leg, seen, bare) {
     const n = leg.stops.length;
     const STEP = 108;                 // vertical distance between stops
     const H = STEP * n + 40;
@@ -759,7 +760,7 @@ const App = {
     }
     const doneCount = leg.stops.filter(s2 => seen.has(leg.topic + ':' + s2.sk)).length;
     return `
-      <div class="rule">${leg.name}<span class="rule-count">${doneCount}/${n}</span></div>
+      ${bare ? '' : `<div class="rule">${leg.name}<span class="rule-count">${doneCount}/${n}</span></div>`}
       <div class="map" style="height:${H}px">
         <svg class="map-path" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none"
              aria-hidden="true">
@@ -794,11 +795,26 @@ const App = {
 
 
 
+
+  // ══ REALMS ══════════════════════════════════════════════════════════════
+  // One navy everywhere made every subject feel like the same room with the
+  // labels swapped. Each subject now carries its own atmosphere — the page
+  // itself changes color underneath you, so moving between subjects reads as
+  // travel. History goes warm parchment-amber; space goes indigo; life goes
+  // deep green. The tokens cascade, so every card and chip follows along.
+  realm(key) {
+    const MAP = { guide: 'life', plants: 'life', parade: 'life',
+      micro: 'micro', body: 'flesh', earth: 'terra', astro: 'astro',
+      physical: 'terra', ancient: 'chron', america: 'chron', world: 'chron' };
+    document.body.dataset.realm = MAP[key] || 'base';
+  },
+
   // ══ SUBJECT HALLS ═══════════════════════════════════════════════════════
   // One subject, one screen, and the screen IS the instrument. History and
   // Earth are route maps; the sciences are benches; Astronomy is the sky.
   mapHall(key) {
     this.resetSay();
+    this.realm(key);
     this.tab = key; this.renderNav();
     const cfg = this.topicCfg(key);
     const seen = new Set(Progress.p.stops || []);
@@ -814,12 +830,13 @@ const App = {
         <span class="chip accent">${done}/${leg.stops.length}</span></div>
       <p class="dim small" style="margin:2px 2px 8px">A route with ${leg.stops.length}
         stops. Walk it in order or jump to what looks interesting.</p>
-      ${this.mapLeg(leg, seen)}
+      ${this.mapLeg(leg, seen, true)}
       ${this.offlineRow(key, cfg)}`);
   },
 
   benchHall(key) {
     this.resetSay();
+    this.realm(key);
     this.tab = key; this.renderNav();
     const cfg = this.topicCfg(key);
     const tried = Progress.p.tried || {};
@@ -858,6 +875,7 @@ const App = {
   // the thing does. Only species whose silhouettes survived review march.
   parade() {
     this.resetSay();
+    this.realm('parade');
     this.tab = 'explore';
     this.renderNav();
     const val = (a) => a.stats && a.stats.length;
@@ -919,62 +937,106 @@ const App = {
     window.scrollTo(0, 0);
   },
 
-  // ══ THE NIGHT SKY ═══════════════════════════════════════════════════════
-  // Astronomy as a sky, not a list. Eight constellations — one per section —
-  // scattered across a field she pans; every star is a fact. Positions are
-  // seeded from the section key, so her sky never rearranges itself.
+  // ══ THE SOLAR SYSTEM ════════════════════════════════════════════════════
+  // The first version scattered dots at random seeded positions and called
+  // them constellations — decoration pretending to be a model. This is a
+  // MAP: the observatory where you stand, then the sun, and outward in real
+  // order to the deep sky. Position means distance. Every fact orbits the
+  // thing it is about, on tidy rails, in data order. Nothing is random.
   sky() {
     this.resetSay();
-    this.tab = 'explore';
-    this.renderNav();
+    this.realm('astro');
     const cfg = this.topicCfg('astro');
-    const W = 1600, H = 520;
-    let h = 2166136261;
-    const seed = (str) => { h = 2166136261;
-      for (const c of str) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } };
-    const rnd = () => {
-      h = Math.imul(h ^ (h >>> 15), 2246822519);
-      h = Math.imul(h ^ (h >>> 13), 3266489917);
-      return ((h ^= h >>> 16) >>> 0) / 4294967296;
+    const REG = [
+      ['looking',    'Where you stand'],
+      ['sun',        'Our star'],
+      ['moon',       'The Moon'],
+      ['rocky',      'Rocky worlds'],
+      ['smallstuff', 'Rocks & comets'],
+      ['giants',     'Giant planets'],
+      ['stars',      'The stars'],
+      ['deepsky',    'Deep sky'],
+    ];
+    const RW = 230, H = 430, W = RW * REG.length;
+    const AY = 175;                       // art baseline
+    // drawn to be RECOGNIZED, not admired: Saturn is the one with the ring,
+    // Jupiter the big banded one, Mars the red one.
+    const ART = {
+      looking: `<path d="M40 218 h150" class="ss-ground"/>
+        <path d="M85 218 a30 30 0 0 1 60 0 z" class="ss-dome"/>
+        <rect x="108" y="172" width="8" height="26" rx="3" transform="rotate(-38 112 185)" class="ss-tube"/>
+        <circle cx="152" cy="150" r="1.6" class="ss-spark"/>`,
+      sun: `<circle cx="115" cy="${AY}" r="52" fill="url(#g-sun)"/>
+        ${Array.from({length:12},(_,i)=>{const a=i*Math.PI/6;
+          return `<line x1="${115+Math.cos(a)*60}" y1="${AY+Math.sin(a)*60}"
+            x2="${115+Math.cos(a)*70}" y2="${AY+Math.sin(a)*70}" class="ss-ray"/>`;}).join('')}`,
+      moon: `<circle cx="115" cy="${AY}" r="30" fill="#c9cdd6"/>
+        <circle cx="104" cy="${AY-8}" r="6" fill="#a9aeb9"/>
+        <circle cx="124" cy="${AY+6}" r="4" fill="#a9aeb9"/>
+        <circle cx="112" cy="${AY+14}" r="3" fill="#b4b9c4"/>`,
+      rocky: `<circle cx="55" cy="${AY}" r="7" fill="#b9b0a4"/>
+        <circle cx="92" cy="${AY}" r="12" fill="#e0b56e"/>
+        <circle cx="136" cy="${AY}" r="13" fill="#5f9fe0"/>
+        <path d="M129 ${AY-9} a13 13 0 0 1 5 -2 M126 ${AY+3} a10 10 0 0 0 9 4" class="ss-cloud"/>
+        <circle cx="176" cy="${AY}" r="9" fill="#d06a4a"/>`,
+      smallstuff: `${Array.from({length:16},(_,i)=>{
+          const x=35+(i*11.3)%160, y=AY-16+((i*37)%33);
+          return `<circle cx="${x}" cy="${y}" r="${1.4+(i%3)*0.8}" fill="#8b93a3"/>`;}).join('')}
+        <circle cx="168" cy="${AY-34}" r="5" fill="#cfe3f2"/>
+        <path d="M168 ${AY-34} L206 ${AY-58} M168 ${AY-30} L204 ${AY-46}" class="ss-tail"/>`,
+      giants: `<circle cx="62" cy="${AY}" r="26" fill="#d8a06a"/>
+        <path d="M40 ${AY-8} h44 M38 ${AY} h48 M40 ${AY+9} h44" class="ss-band"/>
+        <circle cx="128" cy="${AY}" r="18" fill="#e6c98e"/>
+        <ellipse cx="128" cy="${AY}" rx="34" ry="8" class="ss-ring"/>
+        <circle cx="172" cy="${AY-14}" r="10" fill="#9fd8dd"/>
+        <circle cx="200" cy="${AY+12}" r="10" fill="#6f86e8"/>`,
+      stars: `${[[60,AY-20,9,'#f2d9a4'],[120,AY+4,6,'#cfe3f2'],[168,AY-26,5,'#e8a08a']]
+          .map(([x,y,r,c])=>`<path d="M${x} ${y-r*2} L${x+r*0.55} ${y-r*0.55} L${x+r*2} ${y}
+            L${x+r*0.55} ${y+r*0.55} L${x} ${y+r*2} L${x-r*0.55} ${y+r*0.55}
+            L${x-r*2} ${y} L${x-r*0.55} ${y-r*0.55} Z" fill="${c}"/>`).join('')}`,
+      deepsky: `<g transform="translate(115 ${AY})">
+          <circle r="7" fill="#e8dcc8"/>
+          <path d="M0 0 C 18 -6, 34 4, 40 22 M0 0 C -18 6, -34 -4, -40 -22
+                   M0 0 C 6 18, -4 34, -22 40 M0 0 C -6 -18, 4 -34, 22 -40" class="ss-arm"/>
+        </g>
+        <ellipse cx="185" cy="${AY-30}" rx="16" ry="11" class="ss-nebula"/>`,
     };
-    const secs = Object.entries(cfg.secs);
-    let svg = '', labels = '';
-    // backdrop dust
-    seed('dust');
-    for (let i = 0; i < 240; i++)
-      svg += `<circle cx="${(rnd() * W).toFixed(0)}" cy="${(rnd() * H).toFixed(0)}"
-        r="${(0.4 + rnd() * 0.7).toFixed(1)}" class="sk-dust"/>`;
     this._skyStars = [];
-    secs.forEach(([sk, sv], si) => {
+    let svg = '';
+    // the road out — one dotted line the whole way, like the expedition maps
+    svg += `<line x1="20" y1="${AY}" x2="${W-20}" y2="${AY}" class="ss-road"/>`;
+    REG.forEach(([sk, plain], ri) => {
+      const x0 = ri * RW;
+      const sv = cfg.secs[sk] || {};
       const rows = cfg.rows.filter((e) => e.section === sk);
-      if (!rows.length) return;
-      seed(sk);
-      const cx = 110 + (si % 4) * ((W - 220) / 3) + (rnd() - 0.5) * 60;
-      const cy = si < 4 ? 120 + rnd() * 60 : 340 + rnd() * 60;
-      const pts = rows.map(() => [cx + (rnd() - 0.5) * 220, cy + (rnd() - 0.5) * 150]);
-      for (let i = 1; i < pts.length; i++)
-        svg += `<line x1="${pts[i - 1][0].toFixed(0)}" y1="${pts[i - 1][1].toFixed(0)}"
-          x2="${pts[i][0].toFixed(0)}" y2="${pts[i][1].toFixed(0)}" class="sk-line"/>`;
+      svg += `<g transform="translate(${x0} 0)">${ART[sk] || ''}</g>`;
+      svg += `<text x="${x0 + 115}" y="64" class="ss-title">${sv.name || sk}</text>`;
+      svg += `<text x="${x0 + 115}" y="84" class="ss-sub">${plain} · ${rows.length}</text>`;
+      // facts on two tidy rails under the art, in data order — tap any
       rows.forEach((e, i) => {
         const n = this._skyStars.push(e) - 1;
-        const R = e.tryit ? 7 : 5;
-        svg += `<circle cx="${pts[i][0].toFixed(0)}" cy="${pts[i][1].toFixed(0)}" r="${R}"
-          class="sk-star ${e.tryit ? 'try' : ''}" style="animation-delay:${(rnd() * 3).toFixed(1)}s"
-          onclick="App.skyOpen(${n})"/>`;
+        const col = i % 7, row = Math.floor(i / 7);
+        const x = x0 + 40 + col * 25, y = 305 + row * 34 + Math.sin(col / 6 * Math.PI) * -8;
+        svg += `<circle cx="${x}" cy="${y}" r="${e.tryit ? 7.5 : 5.5}"
+          class="sk-star ${e.tryit ? 'try' : ''}" onclick="App.skyOpen(${n})"/>`;
       });
-      labels += `<div class="sk-name" style="left:${(cx / W * 100).toFixed(1)}%;
-        top:${(cy / H * 100).toFixed(1)}%">${sv.glyph} ${sv.name}</div>`;
     });
     this.el(`
       <div class="bar"><button class="btn ghost" onclick="App.go('explore')">←</button>
         <div class="grow"></div><h2>🔭 Astronomy</h2>
-        <span class="chip">${this._skyStars.length} stars</span></div>
-      <p class="dim small" style="margin:2px 2px 10px">Drag across the sky.
-        Every star is something true. The bright ones are things to go and do.</p>
+        <span class="chip">${this._skyStars.length} things</span></div>
+      <p class="dim small" style="margin:2px 2px 10px">Start at the observatory and
+        travel out. Tap any dot — the green ones are things to go and do.</p>
       <div class="skywrap">
         <div class="skypan">
-          <svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}">${svg}</svg>
-          ${labels}
+          <svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}">
+            <defs><radialGradient id="g-sun">
+              <stop offset="0%" stop-color="#fff3c4"/>
+              <stop offset="55%" stop-color="#ffd75e"/>
+              <stop offset="100%" stop-color="#e8912e"/>
+            </radialGradient></defs>
+            ${svg}
+          </svg>
         </div>
       </div>
       <div class="rule">Or browse by section</div>
@@ -1033,6 +1095,7 @@ const App = {
 
   passport(group) {
     this.resetSay();
+    this.realm('guide');
     if (group !== undefined) this.passportFilter = group;
     const g = this.passportFilter;
     const plants = this._roster === 'plants';
@@ -1182,6 +1245,7 @@ const App = {
   // ── species profile ──
   species(id) {
     this.resetSay();
+    this.realm('guide');
     const a = this.find(id);
     if (!a) return this.guide();
     const isPlant = typeof PLANTS !== 'undefined' && PLANTS.some(p => p.id === id);
@@ -2154,6 +2218,7 @@ const App = {
   topics(which, sec) {
     const cfg = this.topicCfg(which);
     this.resetSay();
+    this.realm(which);
     if (!cfg.rows.length) {
       return this.el(`${this.bar(cfg.title)}
         <div class="card"><p class="dim">This section is being written.</p>

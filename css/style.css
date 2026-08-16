@@ -1531,3 +1531,61 @@ h3 { font-weight: 700; font-size: var(--fs-md); }
   .fact-deck::before, .fact-deck::after { display: none; }
   .fact-deck { min-height: 0; }
 }
+
+/* ══ REALMS — each subject is a different room ═════════════════════════ */
+body { transition: background .45s var(--ease); }
+body[data-realm="life"] {
+  --ink: #0b1712; --ink-2: #12231a; --ink-3: #183024; --ink-4: #204030;
+  --line: #21382c; --line-2: #2f4e3d;
+}
+body[data-realm="micro"] {
+  --ink: #071720; --ink-2: #0d222e; --ink-3: #12303f; --ink-4: #1a4152;
+  --line: #1b3644; --line-2: #295062;
+}
+body[data-realm="flesh"] {
+  --ink: #180e14; --ink-2: #24151e; --ink-3: #311c29; --ink-4: #402637;
+  --line: #3a2230; --line-2: #533146;
+}
+body[data-realm="terra"] {
+  --ink: #08171b; --ink-2: #0e2228; --ink-3: #143038; --ink-4: #1c4049;
+  --line: #1c353d; --line-2: #2b4f5a;
+}
+body[data-realm="astro"] {
+  --ink: #0a0a18; --ink-2: #121226; --ink-3: #1a1936; --ink-4: #242247;
+  --line: #232144; --line-2: #363367;
+}
+body[data-realm="chron"] {
+  --ink: #170f08; --ink-2: #241a0f; --ink-3: #322416; --ink-4: #42301d;
+  --line: #382a18; --line-2: #55402a;
+  --lime: #ffcf5c; --lime-dark: #c99a2e; --lime-glow: #ffcf5c3d;
+}
+/* a soft realm-tinted glow at the top of the page, so the change of place
+   registers even before any card is read */
+body[data-realm]:not([data-realm="base"])::after {
+  content: ''; position: fixed; left: -20%; right: -20%; top: -30%;
+  height: 55%; pointer-events: none; z-index: 0;
+  background: radial-gradient(55% 100% at 50% 0%, var(--line-2), transparent 75%);
+  opacity: .35;
+}
+
+/* ══ SOLAR SYSTEM linework ═════════════════════════════════════════════ */
+.ss-road { stroke: rgba(255,255,255,.13); stroke-width: 1.6;
+  stroke-dasharray: 2 8; stroke-linecap: round; }
+.ss-title { fill: var(--text); font: 600 17px var(--font-display);
+  text-anchor: middle; }
+.ss-sub { fill: var(--text-dim); font: 600 10.5px var(--font-ui);
+  text-anchor: middle; letter-spacing: .08em; text-transform: uppercase; }
+.ss-ground { stroke: rgba(255,255,255,.25); stroke-width: 2; stroke-linecap: round; }
+.ss-dome { fill: #2a3550; stroke: #4a5a80; stroke-width: 1.5; }
+.ss-tube { fill: #8fa8ff; }
+.ss-spark { fill: #fff; }
+.ss-ray { stroke: rgba(255,215,94,.55); stroke-width: 2.5; stroke-linecap: round; }
+.ss-cloud { stroke: rgba(255,255,255,.75); stroke-width: 2; fill: none;
+  stroke-linecap: round; }
+.ss-band { stroke: rgba(120,72,40,.55); stroke-width: 3; stroke-linecap: round; }
+.ss-ring { fill: none; stroke: #cbb083; stroke-width: 3; }
+.ss-tail { stroke: rgba(207,227,242,.5); stroke-width: 2; stroke-linecap: round; }
+.ss-arm { fill: none; stroke: rgba(232,220,200,.5); stroke-width: 3;
+  stroke-linecap: round; }
+.ss-nebula { fill: rgba(187,150,255,.2); stroke: rgba(187,150,255,.4);
+  stroke-width: 1; }
