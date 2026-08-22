@@ -12,7 +12,7 @@
   "section": "weather",
   "cat": "tryit",
   "kind": "found",
-  "text": "Thunder is the sound of that superheated air blowing outward. Light gets to you almost instantly. Sound crawls, at about one mile every five seconds. So count from the flash to the bang, divide by five, and that is roughly how many miles off the strike was.",
+  "text": "Thunder is the sound of air superheated by a lightning bolt blowing outward. Light gets to you almost instantly. Sound crawls, at about one mile every five seconds. So count from the flash to the bang, divide by five, and that is roughly how many miles off the strike was.",
   "more": "Thunder carries about ten miles before the sound gives out. If you can hear it at all, you are close enough to be hit, which is why the safety rule is: when thunder roars, go indoors.",
   "tryit": "From inside the house, count one-Mississippi, two-Mississippi from the next flash until the thunder arrives. Divide by five for miles. Do it twice and you can tell whether the storm is walking toward you or away."
  },
@@ -107,7 +107,7 @@
   "section": "caves",
   "cat": "travel",
   "kind": "record",
-  "text": "A Vietnamese man named Ho Khanh found the entrance in 1990, while out in the jungle looking for agarwood to sell. Then he could not find it again. He relocated it in 2008, and in April 2009 a team of British cavers surveyed it and worked out what he had walked into.",
+  "text": "A Vietnamese man named Ho Khanh found the entrance to Hang Son Doong, the largest cave passage ever measured, in 1990, while looking for agarwood to sell. Then he could not find it again. He relocated it in 2008. In April 2009 a team of British cavers surveyed it and worked out what he had walked into.",
   "more": "The entrance is a hole in a jungle hillside with a cold draft coming out of it, and the roar of an underground river below. It is not obvious from outside that it opens into the biggest passage anyone has measured."
  },
  {
@@ -163,7 +163,7 @@
   "section": "caves",
   "cat": "weird",
   "kind": "worked",
-  "text": "How deep the canyon is and how it was cut are two different kinds of statement. The depth is measured with instruments. The cutting was never watched. That account is worked backwards from the shape of the rock, the bends in the river and the gravel it dropped. Geologists still disagree about it.",
+  "text": "How deep the Grand Canyon is and how it was cut are two different kinds of statement. The depth is measured with instruments. The cutting was never watched. That account is worked backwards from the shape of the rock, the bends in the river and the gravel it dropped. Geologists still disagree about it.",
   "more": "This is the honest position, and it is not a dodge. A canyon does not come with a label. Everything anyone says about how it got there is reasoning from what is left behind, and reasoning can be revised. The tape measure cannot."
  },
  {
@@ -203,7 +203,7 @@
   "section": "ice",
   "cat": "size",
   "kind": "found",
-  "text": "At the South Pole the ice is about 9,000 feet (2,700 m) thick. Nearly two miles of it. The rock underneath is close to sea level. So almost all of that 9,301-foot (2,835 m) elevation is frozen water standing on the ground. The research station stands on top of the water.",
+  "text": "At the South Pole the ice is about 9,000 feet (2,700 m) thick. Nearly two miles of it. The rock underneath is close to sea level. So almost all of the Pole's 9,301-foot (2,835 m) elevation is frozen water standing on the ground. The research station stands on top of the water.",
   "more": "The depth is read by flying radar over the ice and timing how long the echo takes to come back off the rock below. Where that has been checked against actual drilled holes, it lines up."
  },
  {
@@ -334,7 +334,7 @@
   "cat": "tryit",
   "kind": "found",
   "text": "Your shadow is the hand of a clock. It swings around the ground all day because the earth is turning underneath you, at about 1,000 mph (1,600 km/h) if you are near the equator. You do not feel any of it, for the same reason you cannot feel the speed of a smooth airplane.",
-  "more": "The shadow also changes length through the year. Shortest at midday in summer, when the sun is high, longest at midday in winter, when it is low. That change is the tilt, showing up on your driveway.",
+  "more": "The shadow also changes length through the year. Shortest at midday in summer, when the sun is high, longest at midday in winter, when it is low. That change is earth's 23.4-degree tilt, showing up on your driveway.",
   "tryit": "Stand somewhere sunny and have someone put a stone at the tip of your shadow. Go away for fifteen minutes. Come back, stand in exactly the same footprints, and put down a second stone. The gap between the stones is the earth turning."
  },
  {

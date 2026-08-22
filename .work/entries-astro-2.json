@@ -68,7 +68,7 @@
   "section": "smallstuff",
   "cat": "teamwork",
   "kind": "found",
-  "text": "Japan got there first. Hayabusa2 spent about eighteen months at the asteroid Ryugu. It fired a copper slug into the asteroid to expose material from below the surface. It dropped a capsule into the South Australian desert on 6 December 2020. Inside were 5.4 grams of Ryugu, roughly a teaspoon.",
+  "text": "Japan brought asteroid samples home before NASA's OSIRIS-REx did. Hayabusa2 spent about eighteen months at the asteroid Ryugu. It fired a copper slug into the asteroid to expose material from below the surface. It dropped a capsule into the South Australian desert on 6 December 2020. Inside were 5.4 grams of Ryugu, roughly a teaspoon.",
   "more": "A helicopter crew tracked the capsule down by its radio beacon. They found it sitting intact in the sand at Woomera. Nobody had ever collected material from beneath an asteroid's surface before, as well as from the top. That matters, because the top has been sitting out in the open."
  },
  {
@@ -108,7 +108,7 @@
   "section": "smallstuff",
   "cat": "created",
   "kind": "record",
-  "text": "Genesis 1:14 says the lights in the sky were set there \"for signs and for seasons, and for days and years\". The small stuff keeps that kind of time too. Halley's return was predicted decades ahead and arrived. The Perseids turn up in the same week of every single August.",
+  "text": "Genesis 1:14 says the lights in the sky were set there \"for signs and for seasons, and for days and years\". The small stuff keeps that kind of time too. Edmond Halley predicted his comet's return decades ahead, and it arrived. The Perseids turn up in the same week of every single August.",
   "more": "This is what made Halley's prediction so convincing to people at the time. He was not describing a wonder; he was setting a date, publicly, for something nobody alive would check for 53 years. Then it turned up."
  },
  {
@@ -142,7 +142,7 @@
   "section": "stars",
   "cat": "record",
   "kind": "record",
-  "text": "Friedrich Bessel got there first. In 1838 he published a measured parallax for the star 61 Cygni: 0.314 of an arcsecond, roughly the width of a coin seen from ten miles away. That put 61 Cygni about 10 light-years off. The modern figure is 11.4, so he was close.",
+  "text": "Friedrich Bessel was the first person to measure the distance to a star. In 1838 he published a measured parallax for the star 61 Cygni: 0.314 of an arcsecond, roughly the width of a coin seen from ten miles away. That put 61 Cygni about 10 light-years off. The modern figure is 11.4, so he was close.",
   "more": "Bessel was not alone for long. Struve and Henderson published parallaxes for Vega and Alpha Centauri within about a year of him. John Herschel called Bessel's result \"the greatest and most glorious triumph which practical astronomy has ever witnessed\". Before 1838 nobody had a measured distance to any star at all."
  },
  {
@@ -151,7 +151,7 @@
   "cat": "home",
   "kind": "found",
   "text": "The nearest star to the sun is Proxima Centauri, 4.24 light-years away, and you cannot see it. It is far too faint for the naked eye, around magnitude 11. Robert Innes found it in 1915 by comparing photographs of the same patch taken years apart and spotting one dot that had shifted.",
-  "more": "Its distance is known by parallax, the same trick Bessel used, and it was measured independently by Joan Voute in 1917 and Harold Alden in 1928. The nearest star to us is invisible without a telescope, and the brightest star in the sky is not the nearest one. There is no rule that says close means bright."
+  "more": "Its distance is known by parallax, the measuring trick Friedrich Bessel first used on a star in 1838. It was measured independently by Joan Voute in 1917 and Harold Alden in 1928. The nearest star to us is invisible without a telescope, and the brightest star in the sky is not the nearest one. There is no rule that says close means bright."
  },
  {
   "id": "stars-6",
@@ -214,7 +214,7 @@
   "section": "stars",
   "cat": "teamwork",
   "kind": "found",
-  "text": "A European spacecraft called Gaia spent years doing Bessel's trick over and over. It measured positions and parallaxes for more than 1.8 billion stars. Look up at almost anything you can see with your eyes. Its distance is now a measured number, not an educated guess.",
+  "text": "A European spacecraft called Gaia spent years repeating the parallax measurement Friedrich Bessel first managed in 1838. It measured positions and parallaxes for more than 1.8 billion stars. Look up at almost anything you can see with your eyes. Its distance is now a measured number, not an educated guess.",
   "more": "Gaia had to pin down angles smaller than a thousandth of an arcsecond. That is about the width of a human hair seen from ten miles away. It managed it by scanning the entire sky over and over. Each time round, it compared where every star appeared to sit."
  },
  {
@@ -450,7 +450,7 @@
   "section": "looking",
   "cat": "created",
   "kind": "record",
-  "text": "Genesis 1:14 puts the lights in the sky \"for signs and for seasons, and for days and years\". Think of Galileo's little tube, the 200-inch, and Webb's folded gold mirror. Every instrument ever built for the sky is an extension of one plain activity. Going outside and looking up carefully.",
+  "text": "Genesis 1:14 puts the lights in the sky \"for signs and for seasons, and for days and years\". Think of Galileo's little tube, the 200-inch Hale telescope, and Webb's folded gold mirror. Every instrument ever built for the sky is an extension of one plain activity. Going outside and looking up carefully.",
   "more": "The oldest working instrument is still the naked eye. It is not retired. Bessel's parallax, Goodricke's timing of Algol and the Chinese record of the guest star of 1054 all came from watching. So did every constellation ever named. Nothing but eyes, patience and somewhere to write it down."
  }
 ]

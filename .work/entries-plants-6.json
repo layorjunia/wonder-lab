@@ -38,7 +38,7 @@
    {
     "cat": "record",
     "kind": "record",
-    "text": "For a long time the blame fell on a chemical called muscarine, which is named after this very mushroom. It turned out there is barely any muscarine in it — far too little to explain the poisoning. The real culprits were only sorted out later."
+    "text": "For a long time the blame for fly agaric poisoning fell on a chemical called muscarine, which is named after this very mushroom. It turned out there is barely any muscarine in it — far too little to explain the poisoning. The real culprits were only sorted out later."
    },
    {
     "cat": "weird",
@@ -102,12 +102,12 @@
    {
     "cat": "record",
     "kind": "worked",
-    "text": "Nobody can see the whole thing. Samples were taken from trees right across the forest and their DNA compared, and they all matched. That match is the argument that this is one individual rather than hundreds of separate fungi growing side by side."
+    "text": "Nobody can see the whole of the giant honey fungus in Oregon's Malheur National Forest. Samples were taken from trees right across the forest and their DNA compared, and they all matched. That match is the argument that this is one individual rather than hundreds of separate fungi growing side by side."
    },
    {
     "cat": "size",
     "kind": "worked",
-    "text": "It has never been weighed and never will be — it is spread through soil, roots and dead wood across a mountainside. The estimate, worked out from how much fungus a measured patch of ground holds, comes to roughly 35,000 tons."
+    "text": "The giant honey fungus in Oregon has never been weighed and never will be. It is spread through soil, roots and dead wood across a mountainside. The estimate, worked out from how much fungus a measured patch of ground holds, comes to roughly 35,000 tons."
    },
    {
     "cat": "travel",
@@ -134,7 +134,7 @@
    {
     "cat": "home",
     "kind": "found",
-    "text": "Honey fungus is not rare or exotic. Its close relatives grow in woods, gardens and hedges across Europe, Asia and North America. The Oregon one is not a different creature. It is an ordinary fungus that got an unusually long run at an unusually large forest."
+    "text": "Honey fungus is not rare or exotic. Its close relatives grow in woods, gardens and hedges across Europe, Asia and North America. The giant one in Oregon is not a different creature. It is an ordinary fungus that got an unusually long run at an unusually large forest."
    },
    {
     "cat": "teamwork",
@@ -171,12 +171,12 @@
     "cat": "speed",
     "kind": "found",
     "text": "It is one of the fastest-growing things ever measured. The stalk pushes up about 5 mm a minute — a fifth of an inch — which is quick enough to see against a marked stick. People who have sat with one report a faint crackling as it goes.",
-    "more": "That works out at roughly a foot an hour, if it kept going. It does not. The whole performance is over in a morning. By afternoon the flies have taken the slime and left a bare white stalk."
+    "more": "That works out at roughly a foot an hour, if it kept going. It does not. The whole performance is over in a morning. By afternoon flies have eaten the spore slime off the cap and left a bare white stalk."
    },
    {
     "cat": "build",
     "kind": "worked",
-    "text": "It is not really growing, and that is how it manages the speed. The cells are already made and folded up inside the egg. The stalk shoots up by pumping them full of water and unfolding them — closer to inflating a tent than to building one."
+    "text": "It is not really growing, and that is how it manages a fifth of an inch (5 mm) a minute. The cells are already made and folded up inside the underground egg it starts from. The stalk shoots up by pumping them full of water and unfolding them — closer to inflating a tent than to building one."
    },
    {
     "cat": "gross",
@@ -282,7 +282,7 @@
    {
     "cat": "defence",
     "kind": "found",
-    "text": "The other look-alike is the earthball: firmer, elastic, with a thick rind, and dark purple-black inside while it is still young. It is poisonous, and the cut test tells them apart in a second."
+    "text": "Another look-alike is the earthball: firmer, elastic, with a thick rind, and dark purple-black inside while it is still young. It is poisonous, and cutting one in half tells them apart in a second."
    },
    {
     "cat": "home",
@@ -297,7 +297,7 @@
    {
     "cat": "travel",
     "kind": "worked",
-    "text": "Nearly every one of those spores lands somewhere hopeless: a road, a roof, a pond, another spore. Making seven quintillion is the answer to those odds. At that number, a handful landing well is plenty, and a handful is all it needs."
+    "text": "Nearly every one of a puffball's seven quintillion spores lands somewhere hopeless: a road, a roof, a pond, another spore. Making that many is the answer to those odds. At that number, a handful landing well is plenty, and a handful is all it needs."
    },
    {
     "cat": "created",
@@ -407,7 +407,7 @@
    {
     "cat": "teamwork",
     "kind": "worked",
-    "text": "Those threads sheathe the fine roots of oak, hazel, beech, poplar and pine. The sheath is plain to see under a lens. The read is a trade. The fungus reaches water and minerals from far more soil than a root can. In return it lives on sugar from the tree's leaves."
+    "text": "A truffle's underground threads sheathe the fine roots of oak, hazel, beech, poplar and pine. The sheath is plain to see under a lens. The read is a trade. The fungus reaches water and minerals from far more soil than a root can. In return it lives on sugar from the tree's leaves."
    },
    {
     "cat": "senses",
@@ -418,7 +418,7 @@
    {
     "cat": "senses",
     "kind": "found",
-    "text": "For years the story was that pigs were smelling androstenol, a pig scent. Work published in 1990 pinned it on something else: dimethyl sulfide, a sulfur gas. That is what the dog and the pig are actually following down through the soil."
+    "text": "For years the story was that truffle-hunting pigs were smelling androstenol, a pig scent. Work published in 1990 pinned it on something else: dimethyl sulfide, a sulfur gas. That is what a truffle dog or pig is actually following down through the soil."
    },
    {
     "cat": "travel",
@@ -492,13 +492,13 @@
    {
     "cat": "senses",
     "kind": "found",
-    "text": "The signal travels. It runs along the leaf from the point you touched, which is why the leaflets shut in order rather than all at once. It moves as a pulse of electricity — the same kind of pulse an animal's nerve uses, in a plant with no nerves at all.",
+    "text": "The touch signal travels. It runs along the leaf from the point you touched, which is why the leaflets shut in order rather than all at once. It moves as a pulse of electricity — the same kind of pulse an animal's nerve uses, in a plant with no nerves at all.",
     "more": "The pulse is called an action potential. Animals use them to run nerves and muscles. Finding the same electrical trick in a plant with nothing resembling a nervous system is one of the odder results in botany."
    },
    {
     "cat": "babies",
     "kind": "found",
-    "text": "Nothing pushes the leaf back up. The joints slowly refill with water and the leaf lifts itself again over a few minutes. Watching it reopen takes far more patience than knocking it down did."
+    "text": "Nothing pushes a folded leaf back up. The swollen joints at the base of the leaflets slowly refill with water and the leaf lifts itself again over a few minutes. Watching it reopen takes far more patience than knocking it down did."
    },
    {
     "cat": "weird",
@@ -509,7 +509,7 @@
    {
     "cat": "weird",
     "kind": "found",
-    "text": "Once a plant had learned to ignore the drop, it still ignored it 28 days later. Plants kept in dim light learned quicker than plants in bright light, which is not what anyone expected."
+    "text": "In Monica Gagliano's experiment, potted sensitive plants dropped over and over learned to ignore the drop. They still ignored it 28 days later. Plants kept in dim light learned quicker than plants in bright light, which is not what anyone expected."
    },
    {
     "cat": "weird",
@@ -587,7 +587,7 @@
    {
     "cat": "babies",
     "kind": "worked",
-    "text": "Flowering kills it. The plant pours everything it has into seed and then dies back, roots and all. Why do they all do it at once? The usual read is that a sudden glut of seed is far more than the birds and rodents can eat. A share of it survives to grow."
+    "text": "Flowering kills it. The plant pours everything it has into seed and then dies back. Every plant grown from the same stock flowers in the same year. Why all at once? The usual read is that a sudden glut of seed is far more than the birds and rodents can eat. A share of it survives to grow."
    },
    {
     "cat": "weird",
@@ -624,7 +624,7 @@
    {
     "cat": "record",
     "kind": "record",
-    "text": "Mautam runs on a clock of roughly 48 years. Muli bamboo across Mizoram, in north-east India, flowered and seeded in 1861, in 1911, in 1959 and again in 2007. Each time the rats followed, then the hunger. The 2007 flowering was expected well in advance, and grain was stored ahead of it.",
+    "text": "Mautam, the rat famine that follows a bamboo flowering in Mizoram, India, runs on a 48-year clock. Muli bamboo across the state flowered and seeded in 1861, in 1911, in 1959 and again in 2007. Each time the rats followed, then the hunger. The 2007 flowering was expected well in advance, and grain was stored ahead of it.",
     "more": "Mizoram lost more than half its crops in 2006 to 2008. The 1959 mautam did worse. The relief that arrived was thin, and the anger at it hardened into the Mizo National Famine Front and then into an armed movement. A grass coming into flower changed the politics of a whole state."
    }
   ]
@@ -652,18 +652,18 @@
    {
     "cat": "build",
     "kind": "found",
-    "text": "From that perch it drops roots straight down the host's trunk, thin as string at first. They take years to reach the ground. The moment they do, the fig has soil and water of its own and stops being a passenger.",
+    "text": "From its perch in a fork of another tree, a strangler fig drops roots down the host's trunk, thin as string at first. They take years to reach the ground. The moment they do, the fig has soil and water of its own and stops being a passenger.",
     "more": "Until those roots land, the fig is living on rainwater and whatever leaf mold has collected in the fork. Most seedlings that start up there dry out and die. Almost none of them make it."
    },
    {
     "cat": "build",
     "kind": "worked",
-    "text": "The roots thicken, fuse where they cross, and knit into a cage around the host's trunk. The host loses light above and gets squeezed below, and eventually it dies and rots. Nobody has watched one whole case through — the hollow trunks left standing are the argument."
+    "text": "The fig's roots thicken, fuse where they cross, and knit into a cage around the host tree's trunk. The host loses light above and gets squeezed below, and eventually it dies and rots. Nobody has watched one whole case through — the hollow trunks left standing are the argument."
    },
    {
     "cat": "build",
     "kind": "found",
-    "text": "What is left is a fig-shaped tree with nothing in the middle. Walk up to an old one and you can often step inside the trunk and look straight up through a chimney of woven roots. The gap is the shape of the tree that used to be there."
+    "text": "Once the host tree has rotted away, what is left is a fig-shaped tree with nothing in the middle. Walk up to an old one and you can often step inside the trunk and look straight up through a chimney of woven roots. The gap is the shape of the tree that used to be there."
    },
    {
     "cat": "record",
@@ -684,12 +684,12 @@
    {
     "cat": "gross",
     "kind": "found",
-    "text": "The female wasp forces her way through that hole. It is so tight that her wings and most of her antennae are torn off going in, and she cannot get out again. She lays her eggs, spreads the pollen she carried from the fig she was born in, and dies inside."
+    "text": "The female fig wasp forces her way in through the pinhead-sized hole at the tip of the fig. It is so tight that her wings and most of her antennae are torn off going in, and she cannot get out again. She lays her eggs, spreads the pollen she carried from the fig she was born in, and dies inside."
    },
    {
     "cat": "babies",
     "kind": "found",
-    "text": "Her sons hatch first, wingless and nearly blind. They mate with their sisters and then chew a tunnel out through the wall of the fig. The females leave through that tunnel carrying pollen. The males never leave at all.",
+    "text": "The fig wasp's sons hatch first, inside the fig, wingless and nearly blind. They mate with their sisters and then chew a tunnel out through the wall of the fig. The females leave through that tunnel carrying pollen. The males never leave at all.",
     "more": "The males are built for one job and no more: no wings, barely any eyes, and jaws for digging. They hatch, mate, dig the exit, and die inside a fruit they never see the outside of."
    },
    {
@@ -737,7 +737,7 @@
    {
     "cat": "food",
     "kind": "worked",
-    "text": "So where does the food come from? Trace it through the roots. A tree makes sugar in its leaves. It passes some to a fungus wrapped round its roots. The ghost plant is tangled into that same fungus, and it takes its cut on the way past.",
+    "text": "With no green in it, the ghost plant cannot make food, so where does the food come from? Trace it through the roots. A tree makes sugar in its leaves. It passes some to a fungus wrapped round its roots. The ghost plant is tangled into that same fungus, and it takes its cut on the way past.",
     "more": "The word for it is mycoheterotrophy: feeding through a fungus. There are several hundred plants that do some version of it, and every one of them has given up some or all of its green."
    },
    {
@@ -840,7 +840,7 @@
    {
     "cat": "defence",
     "kind": "worked",
-    "text": "Nectar like that pulls pollinators away from the native flowers growing nearby. The balsam also grows fast enough to shade those flowers out. Put together, that is the argument for treating it as a weed rather than a wildflower."
+    "text": "Its flowers came top of a British nectar survey, and nectar like that pulls pollinators away from the native flowers growing nearby. The balsam also grows fast enough to shade those flowers out. Put together, that is the argument for treating it as a weed rather than a wildflower."
    },
    {
     "cat": "weird",
@@ -892,7 +892,7 @@
    {
     "cat": "build",
     "kind": "found",
-    "text": "The movement happens at a hinge — a swollen joint called a pulvinus at the base of each leaflet. It works by shifting water from one side of the joint to the other, stiffening one side while the other slackens. There is no muscle anywhere in it."
+    "text": "The leaflets' movement happens at a hinge — a swollen joint called a pulvinus at the base of each leaflet. It works by shifting water from one side of the joint to the other, stiffening one side while the other slackens. There is no muscle anywhere in it."
    },
    {
     "cat": "senses",
@@ -903,7 +903,7 @@
     "cat": "record",
     "kind": "record",
     "text": "Charles Darwin wrote it up in detail in The Power of Movement in Plants, published in 1880. He spent years on the question of how plants move, and this shrub had the rare courtesy of moving while he was still looking at it.",
-    "more": "Darwin's book was one of the last he wrote, and much of the work was done with his son Francis. They tracked plant movements by marking positions on glass over hours, which is how the elliptical path was mapped in the first place."
+    "more": "Darwin's book was one of the last he wrote, and much of the work was done with his son Francis. They tracked plant movements by marking positions on glass over hours, which is how the leaflets' elliptical path was mapped in the first place."
    },
    {
     "cat": "weird",
@@ -913,12 +913,12 @@
    {
     "cat": "disguise",
     "kind": "worked",
-    "text": "Another idea is about butterflies. Flicking leaflets look like a butterfly already sitting on the plant. A butterfly hunting for somewhere to lay eggs then goes elsewhere. That one is harder to test and easier to doubt, but it is still on the table."
+    "text": "One idea about what the circling leaflets are for involves butterflies. Flicking leaflets look like a butterfly already sitting on the plant. A butterfly hunting for somewhere to lay eggs then goes elsewhere. That one is harder to test and easier to doubt, but it is still on the table."
    },
    {
     "cat": "record",
     "kind": "record",
-    "text": "Telegraph plant is the older name. The jerky steps looked like the swinging arm of a semaphore telegraph sending a message. Dancing plant and semaphore plant are the same shrub under different names."
+    "text": "Telegraph plant is the older name. The leaflets' jerky steps looked like the swinging arm of a semaphore telegraph sending a message. Dancing plant and semaphore plant are the same shrub under different names."
    },
    {
     "cat": "build",
@@ -975,7 +975,7 @@
    {
     "cat": "build",
     "kind": "worked",
-    "text": "The pressure comes from the fruit's own sap. As it ripens, the large thin-walled cells load up with a dissolved compound. Water follows the compound in. The cells swell against a skin that will not stretch any further. Something has to give, and the stalk is the weakest point."
+    "text": "The pressure inside a ripe fruit comes from its own sap. As it ripens, the large thin-walled cells load up with a dissolved compound. Water follows the compound in. The cells swell against a skin that will not stretch any further. Something has to give, and the stalk is the weakest point."
    },
    {
     "cat": "travel",
@@ -1046,13 +1046,13 @@
    {
     "cat": "build",
     "kind": "worked",
-    "text": "The break is not damage. There is a weak line built into the stem in advance, the same way a leaf carries a built-in line where it lets go in fall. The neatness of the break, in the same place every time, is the argument that it was prepared.",
+    "text": "The break where the stem lets go of its root is not damage. There is a weak line built into the stem in advance. A leaf carries the same kind of built-in line where it lets go in fall. The neatness of the break, in the same place every time, is the argument that it was prepared.",
     "more": "The layer is called an abscission zone. Leaves use one every fall. Using the same trick on a whole plant, to cut the entire body loose from its own root, is a considerably bolder application."
    },
    {
     "cat": "babies",
     "kind": "found",
-    "text": "One large Russian thistle carries about 200,000 seeds. It does not drop them all at once. The ball shakes a few loose with every bounce. So a single plant seeds a long line of ground instead of one spot.",
+    "text": "One large Russian thistle, the classic tumbleweed, carries about 200,000 seeds. It does not drop them all at once. The ball shakes a few loose with every bounce. So a single plant seeds a long line of ground instead of one spot.",
     "more": "Holding the seed back matters. If it all fell at once the plant would seed one patch and stop. Shaking a few out per bounce spreads the seed over every mile the wind carries the ball."
    },
    {
@@ -1068,7 +1068,7 @@
    {
     "cat": "home",
     "kind": "record",
-    "text": "Russian thistle is not American. It arrived in South Dakota in the 1870s in a shipment of flax seed from Russia that had tumbleweed seed mixed into it, and spread west from there. The plant in every cowboy film is an immigrant.",
+    "text": "Russian thistle, the classic tumbleweed, is not American. It arrived in South Dakota in the 1870s in a shipment of flax seed from Russia that had tumbleweed seed mixed into it. From there it spread west. The plant in every cowboy film is an immigrant.",
     "more": "It spread along the railways as much as by wind — seed in grain trucks and stuck to freight moved it faster than any breeze could. Within a few decades it was across most of the dry west."
    },
    {

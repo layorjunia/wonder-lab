@@ -53,7 +53,7 @@
    {
     "cat": "babies",
     "kind": "found",
-    "text": "Near the bottom of the stalk are special blades that make spores and let them go. Each spore grows into a plant so small you need a microscope for it, and that microscopic generation is what produces the next 150-footer.",
+    "text": "Near the bottom of the stalk are special blades that make spores and let them go. Each spore grows into a plant so small you need a microscope for it, and that microscopic generation is what produces the next 150 ft (45 m) kelp.",
     "more": "So the species has two completely different bodies. One of them is among the largest things growing in the sea. The other would sit unnoticed on a pinhead. Same species, one after the other, every time."
    },
    {
@@ -100,18 +100,18 @@
    {
     "cat": "size",
     "kind": "found",
-    "text": "Wolffia angusta, a watermeal, measures about 0.6 mm long and 0.33 mm wide. That is roughly one fortieth of an inch. Guinness lists it as the smallest flowering plant on record. A relative, Wolffia globosa, may be smaller still.",
+    "text": "Wolffia angusta, a watermeal — the smallest kind of duckweed — measures about 0.6 mm long and 0.33 mm wide. That is roughly one fortieth of an inch. Guinness lists it as the smallest flowering plant on record. A relative, Wolffia globosa, may be smaller still.",
     "more": "For scale, a grain of table salt is around 0.3 mm across. So a whole watermeal plant, flower included, is roughly two grains of salt end to end. It is the entire organism, not a seed or a piece of one."
    },
    {
     "cat": "record",
     "kind": "found",
-    "text": "Its fruit holds a record too: a quarter of a millimeter long, weighing seventy millionths of a gram. No flowering plant anywhere makes a smaller one."
+    "text": "The fruit of watermeal, the smallest duckweed, holds a record of its own. It is a quarter of a millimeter long and weighs seventy millionths of a gram. No flowering plant anywhere makes a smaller one."
    },
    {
     "cat": "build",
     "kind": "found",
-    "text": "Watermeal has no roots at all and no veins — a flowering plant reduced to a floating green crumb with nothing left to take away. Its cousin Lemna keeps exactly one thread of root under each disc."
+    "text": "Watermeal, the smallest duckweed, has no roots at all and no veins — a flowering plant reduced to a floating green crumb with nothing left to take away. Its cousin Lemna keeps exactly one thread of root under each disc."
    },
    {
     "cat": "babies",
@@ -122,7 +122,7 @@
    {
     "cat": "speed",
     "kind": "found",
-    "text": "Wolffia microscopica doubles itself in 29.3 hours. That is the fastest growth measured in any flowering plant. Two specks become four, and four become eight. Inside a fortnight the whole pond is a green carpet."
+    "text": "One duckweed, Wolffia microscopica, doubles itself in 29.3 hours. That is the fastest growth measured in any flowering plant. Two specks become four, and four become eight. Inside a fortnight the whole pond is a green carpet."
    },
    {
     "cat": "food",
@@ -195,7 +195,7 @@
    {
     "cat": "copied",
     "kind": "worked",
-    "text": "Why cross the layers? A sheet of parallel fibers splits along them the moment you pull. Turn the second layer ninety degrees and each layer holds the other shut. Plywood is the same idea, arrived at a very long time later."
+    "text": "A papyrus sheet is two layers of pith strips laid at right angles. Why cross them? A sheet of parallel fibers splits along them the moment you pull. Turn the second layer ninety degrees and each layer holds the other shut. Plywood is the same idea, arrived at a very long time later."
    },
    {
     "cat": "record",
@@ -227,7 +227,7 @@
    {
     "cat": "babies",
     "kind": "found",
-    "text": "The feather-duster head is the flower. Small brown flowers sit right at the tips of those green threads, and the seeds follow. Almost every photograph of papyrus is a photograph of a flower head nobody recognizes as one."
+    "text": "The feather-duster head at the top of the stem is the flower. Small brown flowers sit right at the tips of its green threads, and the seeds follow. Almost every photograph of papyrus is a photograph of a flower head nobody recognizes as one."
    },
    {
     "cat": "weird",
@@ -269,7 +269,7 @@
    {
     "cat": "record",
     "kind": "worked",
-    "text": "Creep 14 in (35 cm) a year and 110 miles takes a while. Run that measured rate backwards and the Shark Bay plant comes out at least 4,500 years old. Nobody started the clock; the arithmetic is what gives the number."
+    "text": "One seagrass plant in Shark Bay, Western Australia, creeps outward about 14 in (35 cm) a year and spans 110 miles (180 km). Run that measured rate backwards and it comes out at least 4,500 years old. Nobody started the clock; the arithmetic is what gives the number."
    },
    {
     "cat": "babies",
@@ -317,7 +317,7 @@
     "cat": "created",
     "kind": "record",
     "text": "Day three gathered the waters into seas and made the earth bring forth grass, the herb yielding seed. Seagrass is the one green thing doing both jobs in the same place: a seed-bearing plant, flowering, in the sea.",
-    "more": "It is not a halfway thing. Everything a flowering plant needs is present and working — root, creeping stem, leaf, flower, pollen, seed — with each part suited to salt water. Threads instead of grains. Current and crustaceans instead of wind and bees."
+    "more": "It is not a halfway thing. Everything a flowering plant needs is present and working — root, creeping stem, leaf, flower, pollen, seed — with each part suited to salt water. Pollen in threads instead of grains. Current and crustaceans instead of wind and bees."
    }
   ]
  },
@@ -434,7 +434,7 @@
    {
     "cat": "size",
     "kind": "found",
-    "text": "A crust lichen spreads by 1 to 2 mm a year, and plenty manage less than one. A small patch has been sitting on that rock since long before anyone now alive."
+    "text": "A crust lichen spreads by 1 to 2 mm a year, and plenty manage less than one. A small patch has been sitting on its rock since long before anyone now alive."
    },
    {
     "cat": "record",
@@ -519,7 +519,7 @@
    {
     "cat": "babies",
     "kind": "found",
-    "text": "Around the mouth of the capsule sit teeth — usually sixteen of them, made from the walls of dead cells. They fold in to close it and fold back to open it, so the spores go out gradually instead of all at once.",
+    "text": "Around the mouth of the spore capsule sit teeth — usually sixteen of them, made from the walls of dead cells. They fold in to close it and fold back to open it, so the spores go out gradually instead of all at once.",
     "more": "The teeth are made of dead cell wall, so the capsule is not spending energy on the mechanism. They are shaped to move as the air around them dries and dampens. That releases spores on a dry day, when they will actually travel. Wet still air gets nothing."
    },
    {
@@ -591,7 +591,7 @@
    {
     "cat": "speed",
     "kind": "found",
-    "text": "That species and its close relative are the fastest-growing tree ferns, at up to 20 in (50 cm) of new trunk in a year. That is quick for a fern and slow for a tree."
+    "text": "Sphaeropteris excelsa of Norfolk Island and its close relative are the fastest-growing tree ferns, at up to 20 in (50 cm) of new trunk in a year. That is quick for a fern and slow for a tree."
    },
    {
     "cat": "size",
@@ -623,7 +623,7 @@
    {
     "cat": "senses",
     "kind": "record",
-    "text": "Maori used that silver underside as a road sign. Fronds laid silver-side-up along a track catch moonlight, so a party walking back after dark can see the way home."
+    "text": "Maori used the silver-white underside of the silver fern's fronds as a road sign. Fronds laid silver-side-up along a track catch moonlight, so a party walking back after dark can see the way home."
    },
    {
     "cat": "home",
@@ -682,12 +682,12 @@
    {
     "cat": "defence",
     "kind": "worked",
-    "text": "Almost nothing grazes bracken, and that is the point. The read is that the poisons are a defense, and it works. A hillside of bracken is a hillside grazing animals walk around. That leaves the bracken more room."
+    "text": "Almost nothing grazes bracken, and that is the point. The read is that the poisons it carries are a defense, and it works. A hillside of bracken is a hillside grazing animals walk around. That leaves the bracken more room."
    },
    {
     "cat": "food",
     "kind": "found",
-    "text": "People eat it anyway. In Japan young bracken shoots are warabi, and warabimochi is a chilled dessert made from them. In Korea the same shoots are gosari — soaked, parboiled and stir-fried.",
+    "text": "Bracken is poisonous, and people eat it anyway. In Japan young bracken shoots are warabi, and warabimochi is a chilled dessert made from them. In Korea the same shoots are gosari — soaked, parboiled and stir-fried.",
     "more": "The poison dissolves in water, and boiling breaks down nearly all of it. That is why every traditional recipe starts with soaking and boiling. Young bracken has been eaten in parts of Japan and in north Wales. Stomach cancer rates run high in both places."
    },
    {
@@ -747,7 +747,7 @@
    {
     "cat": "copied",
     "kind": "found",
-    "text": "That grit is why horsetail was used for scouring pots and mugs. In English the unbranched kinds are still called scouring rush, and in Japan the boiled and dried stems give the final polish on woodwork."
+    "text": "The silica grit in its stems is why horsetail was used for scouring pots and mugs. In English the unbranched kinds are still called scouring rush, and in Japan the boiled and dried stems give the final polish on woodwork."
    },
    {
     "cat": "copied",
@@ -768,7 +768,7 @@
    {
     "cat": "travel",
     "kind": "found",
-    "text": "Those four ribbons make the spore move. As they open and shut the spore crawls and hops across a surface. Put horsetail spores under a lens and change the humidity, and the whole pile visibly shifts."
+    "text": "Each horsetail spore carries four ribbons, called elaters, and they make the spore move. As they open and shut the spore crawls and hops across a surface. Put horsetail spores under a lens and change the humidity, and the whole pile visibly shifts."
    },
    {
     "cat": "size",

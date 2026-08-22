@@ -28,7 +28,7 @@
   "section": "rocks",
   "cat": "record",
   "kind": "record",
-  "text": "The scale is named for Friedrich Mohs, a German mineral expert who in 1812 lined ten minerals up in the order of which scratched which. He never measured a force or built a machine. He just made a ranking, and it was useful enough that it is still in every geology kit.",
+  "text": "The hardness scale is named for Friedrich Mohs, a German mineral expert. In 1812 he lined ten minerals up in the order of which scratched which. He never measured a force or built a machine. He just made a ranking, and it was useful enough that it is still in every geology kit.",
   "more": "This is history rather than a measurement. One man sorted a drawer of samples and wrote the order down. That is why the scale exists."
  },
  {
@@ -266,7 +266,7 @@
   "cat": "tryit",
   "kind": "found",
   "text": "One earthquake sends out two kinds of wave from the same spot at the same moment. The push-pull P wave travels fastest through rock and arrives first. The sideways S wave lags behind and does more damage. Measure the gap between them and you know how far away the quake was.",
-  "tryit": "Press your ear flat on a wooden table and have someone tap the far end. You hear the faucet through the wood before you hear it through the air. Same idea: how fast a shake travels depends entirely on what it is traveling through."
+  "tryit": "Press your ear flat on a wooden table and have someone tap the far end. You hear the tap through the wood before you hear it through the air. Same idea: how fast a shake travels depends entirely on what it is traveling through."
  },
  {
   "id": "quakes-11",

@@ -28,7 +28,7 @@
    {
     "cat": "food",
     "kind": "found",
-    "text": "The counting does not stop at two. Rainer Hedrich's team at Würzburg tripped the hairs by hand and watched what switched on. At five, the digestive glands fire and flood the trap. Keep going and it pours out more."
+    "text": "A trap shuts after two touches on its trigger hairs, but the counting does not stop at two. Rainer Hedrich's team at Würzburg tripped the hairs by hand and watched what switched on. At five, the digestive glands fire and flood the trap. Keep going and it pours out more."
    },
    {
     "cat": "build",
@@ -39,7 +39,7 @@
    {
     "cat": "defence",
     "kind": "worked",
-    "text": "Why the loose cage stage? The best read is that it is a size filter. A tiny ant slips out through the gaps; anything big enough to keep tripping the hairs stays in. The argument is arithmetic — ten days of digestion is not worth spending on an ant."
+    "text": "Why does a trap close loosely at first, as a cage with gaps? The best read is that it is a size filter. A tiny ant slips out through the gaps; anything big enough to keep tripping the hairs stays in. The argument is arithmetic — ten days of digestion is not worth spending on an ant."
    },
    {
     "cat": "gross",
@@ -112,7 +112,7 @@
    {
     "cat": "food",
     "kind": "found",
-    "text": "Rajah pitchers have been found with drowned frogs, birds and small mammals in them, rats included. Nothing is hunted. They fall in.",
+    "text": "Nepenthes rajah pitchers have been found with drowned frogs, birds and small mammals in them, rats included. Nothing is hunted. They fall in.",
     "more": "The fluid is far from sterile. Mosquito and midge larvae live in it, and spiders hang above it. Mites, ants and even a species of crab have been found in it. They feed on what drowns without being digested themselves."
    },
    {
@@ -123,12 +123,12 @@
    {
     "cat": "teamwork",
     "kind": "worked",
-    "text": "Charles Clarke's team traced where the nitrogen in those leaves came from. Between 57 and 100 percent of it came back to shrew droppings, not insects. On that plant the pitcher is not really a trap at all — the sums say it is a lavatory."
+    "text": "Charles Clarke's team traced where the nitrogen in Nepenthes lowii's leaves came from. Between 57 and 100 percent of it came back to tree shrew droppings, not insects. On that plant the pitcher is not really a trap at all — the sums say it is a lavatory."
    },
    {
     "cat": "senses",
     "kind": "found",
-    "text": "Nepenthes hemsleyana in Borneo houses a wooly bat instead. The back wall above the opening is shaped so bat sonar bounces straight back over a wide angle. Researchers enlarged the reflector and more bats came; they cut it down and fewer did."
+    "text": "Nepenthes hemsleyana in Borneo uses its pitchers to house a wooly bat. The back wall above the opening is shaped so bat sonar bounces straight back over a wide angle. Researchers enlarged the reflector and more bats came; they cut it down and fewer did."
    },
    {
     "cat": "weird",
@@ -180,7 +180,7 @@
    {
     "cat": "food",
     "kind": "found",
-    "text": "Once an insect sticks, the neighboring stalks bend over and press onto it, adding their own glue. Drosera capensis goes further and wraps the whole leaf right around the prey in about 30 minutes.",
+    "text": "Once an insect sticks to the glue on a leaf, the neighboring stalks bend over and press onto it, adding their own glue. Drosera capensis goes further and wraps the whole leaf right around the prey in about 30 minutes.",
     "more": "Nothing is carried anywhere. The insect is digested where it landed, on the open face of the leaf, and the leaf absorbs the meal straight through its surface before unrolling again."
    },
    {
@@ -251,12 +251,12 @@
    {
     "cat": "speed",
     "kind": "found",
-    "text": "High-speed cameras at Freiburg clocked the trapdoor buckling open in about 0.5 milliseconds. The whole catch is finished inside that same half-millisecond. It is the fastest movement known in any plant. The Venus flytrap, at 100 milliseconds, is two hundred times slower."
+    "text": "High-speed cameras at Freiburg clocked the door of a bladderwort trap buckling open in about 0.5 milliseconds. The whole catch is finished inside that same half-millisecond. It is the fastest movement known in any plant. The Venus flytrap, at 100 milliseconds, is two hundred times slower."
    },
    {
     "cat": "build",
     "kind": "found",
-    "text": "It is a vacuum, not a mouth. The plant pumps water out of the sealed bladder until the walls cave inward and the door is held shut against the pressure difference. Brush a trigger hair on the door and the seal lets go.",
+    "text": "The bladder is a vacuum, not a mouth. The plant pumps water out of the sealed bladder until the walls cave inward and the door is held shut against the pressure difference. Brush a trigger hair on the door and the seal lets go.",
     "more": "The door does not swing on a hinge. It is curved, and the touch flips the curve inside out. The Venus flytrap uses the same buckling trick. This door is a thousandth of the size and two hundred times the speed."
    },
    {
@@ -267,7 +267,7 @@
    {
     "cat": "build",
     "kind": "found",
-    "text": "Then it resets itself. The bladder pumps the water back out over roughly 15 to 30 minutes and is armed again. No help, no repair, just pumping."
+    "text": "After a catch, the bladder resets itself. It pumps the water back out over roughly 15 to 30 minutes and is armed again. No help, no repair, just pumping."
    },
    {
     "cat": "build",
@@ -283,12 +283,12 @@
    {
     "cat": "record",
     "kind": "found",
-    "text": "Utricularia is the largest group of carnivorous plants there is. About 233 species, on every continent except Antarctica."
+    "text": "Utricularia, the bladderwort genus, is the largest group of carnivorous plants there is. About 233 species, on every continent except Antarctica."
    },
    {
     "cat": "weird",
     "kind": "found",
-    "text": "Utricularia gibba carries one of the smallest genomes of any flowering plant, around 80 megabases of DNA. Short instruction book. It still builds the fastest trap in the plant world."
+    "text": "One bladderwort, Utricularia gibba, carries one of the smallest genomes of any flowering plant, around 80 megabases of DNA. Short instruction book. It still builds the fastest trap in the plant world."
    },
    {
     "cat": "home",
@@ -298,7 +298,7 @@
    {
     "cat": "senses",
     "kind": "worked",
-    "text": "The trigger hairs are levers, not nerves. The best read is that a push on a hair twists the door's edge just far enough to break the buckled seal — no signal travels anywhere. That is why it works in half a millisecond. Nothing has to be decided."
+    "text": "The trigger hairs on a bladder's door are levers, not nerves. The best read is that a push on a hair twists the door's edge just far enough to break the seal holding it shut. No signal travels anywhere. That is why it works in half a millisecond. Nothing has to be decided."
    },
    {
     "cat": "created",
@@ -346,7 +346,7 @@
    {
     "cat": "food",
     "kind": "worked",
-    "text": "For a long time the line was that Darlingtonia makes no digestive enzymes at all and leaves the work to bacteria and midge larvae living in the fluid. That is now known to be partly wrong — it does secrete at least one protein-cutting enzyme. The lodgers still do most of it."
+    "text": "For a long time the line was that the cobra lily makes no digestive enzymes at all. Bacteria and midge larvae living in its fluid were supposed to do all the work. That is now known to be partly wrong — it does secrete at least one protein-cutting enzyme. The lodgers still do most of it."
    },
    {
     "cat": "record",
@@ -412,7 +412,7 @@
    {
     "cat": "build",
     "kind": "found",
-    "text": "A second kind of gland lies flat against the leaf and does nothing until something is caught. Then it releases enzymes into the puddle, and the leaf absorbs the meal straight through its own surface."
+    "text": "Besides the sticky glands that catch, a second kind lies flat against the leaf and does nothing until something is caught. Then it releases enzymes into the puddle, and the leaf absorbs the meal straight through its own surface."
    },
    {
     "cat": "food",
@@ -568,7 +568,7 @@
     "cat": "build",
     "kind": "found",
     "text": "Two leaves. That is the total, for the whole life of the plant. They appear when it germinates, they never stop growing, and they are never replaced. What looks like a tangle of many leaves is those same two, split and frayed by wind.",
-    "more": "Afrikaans speakers call it tweeblaarkanniedood — 'two leaves, cannot die'. Welwitsch himself was told the local name was tumbo."
+    "more": "Afrikaans speakers call it tweeblaarkanniedood — 'two leaves, cannot die'. Friedrich Welwitsch, who the plant is named after, was told the local name was tumbo."
    },
    {
     "cat": "size",
@@ -619,7 +619,7 @@
    {
     "cat": "created",
     "kind": "worked",
-    "text": "Two leaves is not a shortfall. A growth zone at the base never switches off. The leaf is tough enough to be shredded for centuries and keep working. The pores open for fog. That is a complete answer to a coast without rain, built from the smallest possible parts list."
+    "text": "Having only two leaves for life is not a shortfall. A growth zone at the base never switches off. The leaf is tough enough to be shredded for centuries and keep working. The pores open for fog. That is a complete answer to a coast without rain, built from the smallest possible parts list."
    },
    {
     "cat": "created",
@@ -654,7 +654,7 @@
    {
     "cat": "disguise",
     "kind": "found",
-    "text": "The windows are patterned with creams, grays, browns, dark blotches and fine red lines. The pattern matches the gravel each population grows in. Different valleys, different pebbles, different markings."
+    "text": "The window on top of each leaf is patterned with creams, grays, browns, dark blotches and fine red lines. The pattern matches the gravel each population grows in. Different valleys, different pebbles, different markings."
    },
    {
     "cat": "record",
@@ -670,7 +670,7 @@
    {
     "cat": "size",
     "kind": "found",
-    "text": "A flower comes out of the split, usually in fall, and it is often wider than the whole plant. Yellow or white, one per leaf pair."
+    "text": "A flower comes out of the split between the two leaves, usually in fall, and it is often wider than the whole plant. Yellow or white, one per leaf pair."
    },
    {
     "cat": "home",
@@ -760,8 +760,8 @@
    {
     "cat": "record",
     "kind": "found",
-    "text": "And the true one does not actually come back to life. Anastatica's tissue is dead when it dries; the ball opens mechanically, by soaking up water, to release its seeds. Only the Mexican spikemoss turns green again.",
-    "more": "From the outside the two look like the same trick — curl up dry, open when wet. Only one of them is alive in between. If a shop sells you a resurrection plant that greens up, it is Selaginella."
+    "text": "The resurrection plant is sold as 'rose of Jericho', but the true rose of Jericho, Anastatica hierochuntica, does not actually come back to life. Anastatica's tissue is dead when it dries; the ball opens mechanically, by soaking up water, to release its seeds. Only the Mexican spikemoss turns green again.",
+    "more": "From the outside the two look like the same trick — curl up dry, open when wet. Only one of them is alive in between. If a shop sells you a resurrection plant that greens up, it is the Mexican spikemoss, Selaginella."
    },
    {
     "cat": "defence",
@@ -841,7 +841,7 @@
    {
     "cat": "build",
     "kind": "worked",
-    "text": "Why save for twenty years and spend it in one go? The best read is arithmetic. In dry ground you cannot afford a flower stalk every year, but you can afford one enormous one if you save for it. The pups make sure the gamble is not total."
+    "text": "Why save for twenty years and spend it in one go? The best read is arithmetic. In dry ground you cannot afford a flower stalk every year, but you can afford one enormous one if you save for it. The pups, the shoots it sends up from its base, make sure the gamble is not total."
    },
    {
     "cat": "weird",
@@ -851,7 +851,7 @@
    {
     "cat": "created",
     "kind": "worked",
-    "text": "One flowering, one stalk, and a set of pups already rooted before it happens. Get the order wrong — flower before the pups, or pup and never flower — and the plant is a dead end. The timing is the design."
+    "text": "One flowering, one stalk, and a set of pups, shoots from its own base, already rooted before it happens. Get the order wrong — flower before the pups, or pup and never flower — and the plant is a dead end. The timing is the design."
    },
    {
     "cat": "created",
@@ -888,7 +888,7 @@
    {
     "cat": "travel",
     "kind": "worked",
-    "text": "Why hooks? One reading is transport. In a flash flood a hooked barrel snags on floating debris, gets pulled loose and carried, then dropped where the water slows — which is exactly where water collects. It is a plausible read, not a filmed event."
+    "text": "Why are the spines hooked? One reading is transport. In a flash flood a hooked barrel snags on floating debris, gets pulled loose and carried, then dropped where the water slows — which is exactly where water collects. It is a plausible read, not a filmed event."
    },
    {
     "cat": "senses",
@@ -898,7 +898,7 @@
    {
     "cat": "senses",
     "kind": "worked",
-    "text": "The reason worked out for the lean is uneven growth. The side facing the hard afternoon sun gets cooked and grows more slowly; the shaded side keeps going. Over years the faster side pushes the top over toward the slower one."
+    "text": "The reason worked out for a mature barrel's southward lean is uneven growth. The side facing the hard afternoon sun gets cooked and grows more slowly; the shaded side keeps going. Over years the faster side pushes the top over toward the slower one."
    },
    {
     "cat": "record",
@@ -977,7 +977,7 @@
     "cat": "teamwork",
     "kind": "record",
     "text": "A scale insect that lives on prickly pear pads is packed with carminic acid. That was the deepest red dye anyone had, and the insect is Dactylopius coccus. Spain held a near-monopoly on it for close to 300 years. It became Mexico's second most valuable export after silver.",
-    "more": "It takes about 70,000 dried insects to make a pound of dye. Cochineal is still in use — check the label on pink yoghurt and red lipstick. Peru is now the biggest producer, ahead of Mexico."
+    "more": "It takes about 70,000 dried insects to make a pound of dye. The dye, called cochineal, is still in use — check the label on pink yogurt and red lipstick. Peru is now the biggest producer, ahead of Mexico."
    },
    {
     "cat": "record",
@@ -987,7 +987,7 @@
    {
     "cat": "record",
     "kind": "record",
-    "text": "The fix was a moth. Eggs of Cactoblastis cactorum came from Argentina in 1925 and the first field release was in 1926; the caterpillars bore straight into the pads. By 1933 about 80 percent of the infested Queensland land was clear.",
+    "text": "The fix for Australia's runaway prickly pear was a moth. Eggs of Cactoblastis cactorum came from Argentina in 1925 and the first field release was in 1926; the caterpillars bore straight into the pads. By 1933 about 80 percent of the infested Queensland land was clear.",
     "more": "Two earlier attempts to breed the moth had failed, so 3,000 eggs were imported and split between Brisbane and a station at Chinchilla, Queensland. At its peak Chinchilla was posting out as many as 14 million eggs a day. In 1936 the district built the Cactoblastis Memorial Hall — a public hall named after a moth."
    },
    {
@@ -1051,7 +1051,7 @@
    {
     "cat": "gross",
     "kind": "found",
-    "text": "The yellow latex holds aloin, and aloin is a powerful laxative. It was sold over the counter in the United States until 2002, when the FDA pulled it for want of safety data. It also stains hands and clothes.",
+    "text": "The bitter yellow sap just under the leaf's skin, called latex, holds aloin, and aloin is a powerful laxative. It was sold over the counter in the United States until 2002, when the FDA pulled it for want of safety data. It also stains hands and clothes.",
     "more": "Gut bacteria turn aloin into aloe-emodin. That is what actually irritates the intestine. It is why 'aloe juice' from a shop is filtered. It is also why eating 'whole leaf' aloe straight off a windowsill plant is a bad idea."
    },
    {

@@ -25,12 +25,12 @@
    {
     "cat": "size",
     "kind": "found",
-    "text": "General Sherman's largest single branch is 6.8 ft (2.1 m) thick. That one branch is fatter than the whole trunk of most oak trees you will ever stand next to."
+    "text": "The largest single branch on the General Sherman tree is 6.8 ft (2.1 m) thick. That one branch is fatter than the whole trunk of most oak trees you will ever stand next to."
    },
    {
     "cat": "weird",
     "kind": "found",
-    "text": "In January 2006 a branch over 6.6 ft (2 m) thick and more than 98 ft (30 m) long tore off General Sherman, smashing the perimeter fence and the sidewalk below. The tree was not sick. It just dropped a branch the size of a tree."
+    "text": "In January 2006 a branch over 6.6 ft (2 m) thick and more than 98 ft (30 m) long tore off the General Sherman tree. It smashed the perimeter fence and the sidewalk below. The tree was not sick. It just dropped a branch the size of a tree."
    },
    {
     "cat": "build",
@@ -101,13 +101,13 @@
    {
     "cat": "record",
     "kind": "found",
-    "text": "Chris Atkins and Michael Taylor found Hyperion in Redwood National Park on 25 August 2006. Stephen Sillett climbed it and dropped a tape from the top: 379.1 ft (115.55 m). It measured 380.8 ft (116.07 m) in 2019 and 381.3 ft (116.22 m) in 2026. It is still going up.",
+    "text": "Chris Atkins and Michael Taylor found Hyperion, the tallest tree on record, in Redwood National Park on 25 August 2006. Stephen Sillett climbed it and dropped a tape from the top: 379.1 ft (115.55 m). It measured 380.8 ft (116.07 m) in 2019 and 381.3 ft (116.22 m) in 2026. It is still going up.",
     "more": "A laser range finder from the ground gets you close. A tape dropped by a climber from the highest living twig gets you the number, and that is the number the record uses."
    },
    {
     "cat": "home",
     "kind": "record",
-    "text": "In July 2022 the National Park Service closed the area around Hyperion. So many people had walked in to find it that the ferns at its base stopped growing. Going in now risks a fine of up to $5,000 and up to six months in jail."
+    "text": "In July 2022 the National Park Service closed the area around Hyperion, the tallest known redwood. So many people had walked in to find it that the ferns at its base stopped growing. Going in now risks a fine of up to $5,000 and up to six months in jail."
    },
    {
     "cat": "food",
@@ -134,7 +134,7 @@
    {
     "cat": "size",
     "kind": "worked",
-    "text": "George Koch's team sampled leaves at different heights and measured how much harder it gets to pull water up. Run the trend out and the ceiling lands somewhere around 400 to 427 ft (122–130 m). Hyperion is not far off it.",
+    "text": "George Koch's team sampled leaves at different heights and measured how much harder it gets to pull water up. Run the trend out and the ceiling lands somewhere around 400 to 427 ft (122–130 m). Hyperion, the tallest redwood known at just over 381 ft, is not far off it.",
     "more": "Water is dragged up by evaporation at the leaves, pulling a thin thread of water all the way from the roots. The higher you go, the harder the pull, and the more the leaves have to shut down to avoid snapping the thread."
    },
    {
@@ -146,7 +146,7 @@
    {
     "cat": "record",
     "kind": "found",
-    "text": "Tallest is not biggest. Hyperion holds about 18,600 cubic feet (530 cubic meters) of wood. General Sherman, a giant sequoia and a shorter tree, holds 52,508 cubic feet. Height and bulk are two different competitions."
+    "text": "Tallest is not biggest. Hyperion, the tallest redwood, holds about 18,600 cubic feet (530 cubic meters) of wood. General Sherman, a giant sequoia and a shorter tree, holds 52,508 cubic feet. Height and bulk are two different competitions."
    },
    {
     "cat": "build",
@@ -184,7 +184,7 @@
     "cat": "record",
     "kind": "found",
     "text": "In August 1964 Donald Currey was coring bristlecones on Wheeler Peak, Nevada. His borer jammed in a gnarled tree he had labelled WPN-114, and with Forest Service permission the tree was cut down. The stump held at least 4,862 countable rings — more than anyone had counted in a tree before.",
-    "more": "The tree was named Prometheus afterwards. Cutting it changed the rules. Bristlecones on federal land are now protected. The exact tree Schulman cored is not marked or published."
+    "more": "The tree was named Prometheus afterwards. Cutting it changed the rules. Bristlecones on federal land are now protected. Methuselah, the 4,789-ring tree Edmund Schulman cored in California in 1957, is not marked or published."
    },
    {
     "cat": "build",
@@ -216,7 +216,7 @@
    {
     "cat": "weird",
     "kind": "worked",
-    "text": "Dead bristlecone wood lies on those slopes without rotting away. The best read is a combination: the wood is dense and resinous, the air is thin and dry, and it is cold. Rot needs damp and warmth, and gets neither."
+    "text": "Dead bristlecone wood lies on its high mountain slopes without rotting away. The best read is a combination: the wood is dense and resinous, the air is thin and dry, and it is cold. Rot needs damp and warmth, and gets neither."
    },
    {
     "cat": "size",
@@ -260,7 +260,7 @@
    {
     "cat": "build",
     "kind": "found",
-    "text": "You can watch the tank empty. Through the dry season the trunk shrinks about 2–3 cm around, and the water content of the stem falls by roughly a tenth. When the rain comes back, it swells out again."
+    "text": "A baobab trunk is a water tank, and you can watch it empty. Through the dry season the trunk shrinks about 2–3 cm around, and the water content of the stem falls by roughly a tenth. When the rain comes back, it swells out again."
    },
    {
     "cat": "record",
@@ -347,7 +347,7 @@
    {
     "cat": "babies",
     "kind": "worked",
-    "text": "The best read on why it works: in a mast year, jays, squirrels, mice and pigs cannot possibly eat them all, so some survive. In the lean years the acorn-eaters go hungry and their numbers drop. The tree is not feeding them; it is out-producing them."
+    "text": "An oak drops a huge acorn crop, a mast year, only about every other year. The best read on why: in a mast year, jays, squirrels, mice and pigs cannot possibly eat them all, so some survive. In the lean years the acorn-eaters go hungry and their numbers drop. The tree is not feeding them; it is out-producing them."
    },
    {
     "cat": "travel",
@@ -417,7 +417,7 @@
    {
     "cat": "build",
     "kind": "found",
-    "text": "That one tree stands on 3,772 prop roots that have reached the ground and thickened into trunks. Walk into it and it reads as a small forest. It is one plant."
+    "text": "The Great Banyan near Kolkata stands on 3,772 prop roots that have reached the ground and thickened into trunks. Walk into it and it reads as a small forest. It is one plant."
    },
    {
     "cat": "weird",
@@ -428,7 +428,7 @@
    {
     "cat": "record",
     "kind": "found",
-    "text": "Another banyan spreads further still. Thimmamma Marrimanu covers 19,107 square meters (205,670 sq ft). Its edge runs 846 m (2,776 ft) around. It grows in Anantapur district, Andhra Pradesh. Guinness listed it as the largest tree by canopy in 1989."
+    "text": "Another banyan, Thimmamma Marrimanu, spreads wider than the Great Banyan near Kolkata. It covers 19,107 square meters (205,670 sq ft). Its edge runs 846 m (2,776 ft) around. It grows in Anantapur district, Andhra Pradesh. Guinness listed it as the largest tree by canopy in 1989."
    },
    {
     "cat": "build",
@@ -444,7 +444,7 @@
    {
     "cat": "travel",
     "kind": "found",
-    "text": "Birds eat the small figs and drop the seeds wherever they perch — including high forks in other trees, which is exactly where a strangler needs to start. Seeds that have been through a bird's gut sprout better than seeds that have not."
+    "text": "Birds eat the small figs and drop the seeds wherever they perch — including high forks in other trees. That is exactly where a strangler fig needs to start. Seeds that have been through a bird's gut sprout better than seeds that have not."
    },
    {
     "cat": "teamwork",
@@ -492,7 +492,7 @@
    {
     "cat": "build",
     "kind": "worked",
-    "text": "Waterlogged mud has almost no oxygen in it. The best read of the aerial roots is that they solve breathing as well as standing. The parts above water take oxygen in directly. The roots buried in airless mud do not suffocate."
+    "text": "Waterlogged mud has almost no oxygen in it. The best read of the prop roots arching above the water is that they solve breathing as well as standing. The parts above water take oxygen in directly. The roots buried in airless mud do not suffocate."
    },
    {
     "cat": "babies",
@@ -503,7 +503,7 @@
    {
     "cat": "travel",
     "kind": "found",
-    "text": "A dropped propagule can float in brackish water for over a year before it finds somewhere to root. In one Panama experiment, red mangrove propagules floated for more than 100 days. Related Rhizophora propagules from Micronesia floated for three to five months.",
+    "text": "A dropped propagule — the ready-grown seedling a red mangrove sheds — can float in brackish water for over a year before rooting. In one Panama experiment, red mangrove propagules floated for more than 100 days. Related Rhizophora propagules from Micronesia floated for three to five months.",
     "more": "A floating propagule lies flat while it is traveling and tips upright once it begins to root, heavy end down. If it grounds on mud at the right depth, it plants itself with nobody's help."
    },
    {
@@ -520,7 +520,7 @@
    {
     "cat": "defence",
     "kind": "worked",
-    "text": "Why the roots and not the trunks? The tangle is the brake. Thousands of stilt roots put drag on moving water, so the energy goes into churning through them instead of into the shore. It works best in shallow water and falls away as the water gets deeper."
+    "text": "Mangroves flatten waves, and the roots do it, not the trunks. The tangle is the brake. Thousands of stilt roots put drag on moving water, so the energy goes into churning through them instead of into the shore. It works best in shallow water and falls away as the water gets deeper."
    },
    {
     "cat": "teamwork",
@@ -563,7 +563,7 @@
    {
     "cat": "build",
     "kind": "worked",
-    "text": "Nobody has watched a leaf choose to flutter. The shape is the argument. Leaves that twist keep letting light past them. The leaves lower down, and the trunk, get a share instead of sitting in permanent shade."
+    "text": "Nobody has watched a leaf choose to flutter. The shape of the flat leaf stalk is the argument. Leaves that twist keep letting light past them. The leaves lower down, and the trunk, get a share instead of sitting in permanent shade."
    },
    {
     "cat": "build",
@@ -580,7 +580,7 @@
    {
     "cat": "record",
     "kind": "record",
-    "text": "Jerry Kemperman and Burton Barnes worked out in 1976 that the stand was a single organism. Michael Grant gave it the name Pando, which is Latin for I spread."
+    "text": "Jerry Kemperman and Burton Barnes worked out in 1976 that a 106-acre aspen stand in Utah was a single organism. Michael Grant gave it the name Pando, which is Latin for I spread."
    },
    {
     "cat": "babies",
@@ -591,12 +591,12 @@
    {
     "cat": "babies",
     "kind": "worked",
-    "text": "Which is why aspen mostly does not bother with seeds. New stems push up from buds on the roots of the plant already there. That is not a seedling; it is the same organism putting up another pole."
+    "text": "Aspen seeds stay alive only briefly, so the tree mostly does not bother with them. New stems push up from buds on the roots of the plant already there. That is not a seedling; it is the same organism putting up another pole."
    },
    {
     "cat": "home",
     "kind": "record",
-    "text": "Mule deer and elk eat the young aspen shoots faster than they can grow away, and Pando has been thinning because of it. About 84 acres are now inside 8-ft wildlife fencing to give the new stems a chance.",
+    "text": "Mule deer and elk eat the young aspen shoots faster than they can grow away. Pando, the giant Utah aspen clone, has been thinning because of it. About 84 acres are now inside 8-ft wildlife fencing to give the new stems a chance.",
     "more": "A clone can lose ground for decades without looking like it. The old trunks are still standing, so nothing seems wrong. The problem shows up as an absence: no young stems coming through underneath to replace them."
    },
    {
@@ -721,7 +721,7 @@
     "cat": "babies",
     "kind": "found",
     "text": "It will only flower if two things happen: rain at the right moment, and a proper winter freeze. Flowers come between February and late April, and some years a stand simply does not bloom at all.",
-    "more": "That is a strict pair of conditions for a desert plant. Flowering years come in patches and cannot be predicted. The moths have to be there in the right year as well. Otherwise the whole effort produces nothing at all."
+    "more": "That is a strict pair of conditions for a desert plant. Flowering years come in patches and cannot be predicted. The yucca moths that pollinate it have to be there in the right year as well. Otherwise the whole effort produces nothing at all."
    },
    {
     "cat": "speed",
@@ -762,7 +762,7 @@
    {
     "cat": "created",
     "kind": "worked",
-    "text": "Genesis has plants on day three and every creeping thing on day six. The tree and the moth need each other completely — no moth, no seed; no tree, no grubs. Whatever you make of the order, a partnership that tight does not arrive one piece at a time and wait."
+    "text": "Genesis has plants on day three and every creeping thing on day six. The tree and the yucca moth that pollinates it need each other completely — no moth, no seed; no tree, no grubs. Whatever you make of the order, a partnership that tight does not arrive one piece at a time and wait."
    }
   ]
  },
@@ -841,7 +841,7 @@
    {
     "cat": "weird",
     "kind": "worked",
-    "text": "Flowers on a trunk are hard to explain by wind or by birds. The best read is the midge. That fly lives in the wet leaf litter on the forest floor. It does not have to climb far to reach a flower growing at chest height on the bark."
+    "text": "Flowers on a trunk are hard to explain by wind or by birds. The best read is the biting midge that pollinates cacao. That fly lives in the wet leaf litter on the forest floor. It does not have to climb far to reach a flower growing at chest height on the bark."
    }
   ]
  },
@@ -868,12 +868,12 @@
    {
     "cat": "build",
     "kind": "worked",
-    "text": "Which explains the slanted cut. A tapper's groove runs diagonally down the trunk. The reason is arithmetic. A diagonal crosses far more of those spiraling vessels than a straight vertical or horizontal cut would."
+    "text": "The latex vessels spiral up inside the bark, which explains the slanted cut. A tapper's groove runs diagonally down the trunk. The reason is arithmetic. A diagonal crosses far more of those spiraling vessels than a straight vertical or horizontal cut would."
    },
    {
     "cat": "food",
     "kind": "found",
-    "text": "The cut is shaved shallow — just deep enough to open the latex vessels without reaching the growing layer underneath. The latex runs down the groove into a small cup, and the tree seals the wound afterwards."
+    "text": "A tapper's cut is shaved shallow — just deep enough to open the latex vessels without reaching the growing layer underneath. The latex runs down the groove into a small cup, and the tree seals the wound afterwards."
    },
    {
     "cat": "record",
@@ -942,7 +942,7 @@
    {
     "cat": "disguise",
     "kind": "found",
-    "text": "So the streaks are a timetable. A green band is bark that was uncovered recently; a red-brown band has been out in the air longest. The trunk shows you months of its own history at once."
+    "text": "Because patches of bark shed at different times, the streaks are a timetable. A green band is bark that was uncovered recently; a red-brown band has been out in the air longest. The trunk shows you months of its own history at once."
    },
    {
     "cat": "build",
@@ -979,7 +979,7 @@
    {
     "cat": "weird",
     "kind": "worked",
-    "text": "People assume it is fungus, dye or a hoax. The check is easy. It is on every tree in the stand. It is under the bark rather than on it. The pattern moves as the bark sheds, and paint does not do that."
+    "text": "People assume the color is fungus, dye or a hoax. The check is easy. It is on every tree in the stand. It is under the bark rather than on it. The pattern moves as the bark sheds, and paint does not do that."
    },
    {
     "cat": "created",
@@ -1011,7 +1011,7 @@
    {
     "cat": "teamwork",
     "kind": "record",
-    "text": "So growers do the pollinating themselves, and have for a very long time. They cut the male flower cluster and carry it up the female palm. Then they dust or tie it among her flowers. One male palm supplies pollen for up to 100 females.",
+    "text": "Growers do the pollinating themselves, and have for a very long time. They cut the male flower cluster and carry it up the female palm. Then they dust or tie it among her flowers. One male palm supplies pollen for up to 100 females.",
     "more": "It is one of very few crops that essentially cannot be left to wind or insects if you want a real harvest. Growers climb, cut, carry and tie — the same work in the same order, in every date-growing country there is."
    },
    {
@@ -1038,7 +1038,7 @@
    {
     "cat": "babies",
     "kind": "found",
-    "text": "Growers get around the seed problem with offshoots — young suckers cut from the base of a good female palm and planted. They come out identical to the parent and fruit two to three years sooner than a seedling."
+    "text": "Seed is a gamble, since only about half of seedlings turn out female and bear fruit. Growers get around that with offshoots — young suckers cut from the base of a good female palm and planted. They come out identical to the parent and fruit two to three years sooner than a seedling."
    },
    {
     "cat": "build",
@@ -1120,7 +1120,7 @@
    {
     "cat": "record",
     "kind": "record",
-    "text": "Cedar shows up in the boat too. The first-century fishing boat pulled out of the mud of the Sea of Galilee — the one people call the Jesus Boat — has cedar of Lebanon in it."
+    "text": "Cedar shows up in a fishing boat as well as in temples. The first-century fishing boat pulled out of the mud of the Sea of Galilee — the one people call the Jesus Boat — has cedar of Lebanon in it."
    },
    {
     "cat": "defence",
@@ -1202,7 +1202,7 @@
    {
     "cat": "defence",
     "kind": "worked",
-    "text": "Why make the fruit that bitter? The best read: oleuropein keeps things from eating the crop before the seed inside is finished. It works. The only reason we eat olives at all is that people figured out how to wash the bitterness out."
+    "text": "A raw olive is savagely bitter, from a compound called oleuropein. Why make the fruit that bitter? The best read: oleuropein keeps things from eating the crop before the seed inside is finished. It works. The only reason we eat olives at all is that people figured out how to wash the bitterness out."
    },
    {
     "cat": "build",
@@ -1246,7 +1246,7 @@
    {
     "cat": "teamwork",
     "kind": "found",
-    "text": "There is one way in: a pinhole at the tip called the ostiole. The fig wasp Blastophaga psenes squeezes through it to reach the flowers, and it is such a tight fit that she generally loses her wings on the way."
+    "text": "There is one way into a fig: a pinhole at the tip called the ostiole. The fig wasp Blastophaga psenes squeezes through it to reach the flowers inside. It is such a tight fit that she generally loses her wings on the way."
    },
    {
     "cat": "food",
@@ -1277,12 +1277,12 @@
    {
     "cat": "babies",
     "kind": "found",
-    "text": "Fig trees come in two arrangements. Caprifigs are the ones that house the wasps. In the edible kinds the female flowers are built too long for the wasp to lay her eggs down into, so she pollinates and gets nothing back."
+    "text": "Fig trees come in two arrangements. Caprifigs are the ones that house the fig wasps. In the edible kinds the female flowers are built too long for the wasp to lay her eggs down into. So she pollinates and gets nothing back."
    },
    {
     "cat": "build",
     "kind": "worked",
-    "text": "Why put your flowers inside a bag? The best read is that the bag is what makes the partnership work. It is a walled nursery the wasp cannot get anywhere else. In exchange the tree gets a courier no wind or bee could replace. Neither side works alone.",
+    "text": "Why put your flowers inside a bag? The best read is that the bag is what makes the partnership with the fig wasp work. It is a walled nursery the wasp cannot get anywhere else. In exchange the tree gets a courier no wind or bee could replace. Neither side works alone.",
     "more": "This does not work halfway. A fig with a door and no wasp sets no seed. A wasp with nowhere to lay has no grubs. Whatever else you conclude about it, the two halves only make sense together."
    },
    {
@@ -1322,7 +1322,7 @@
    {
     "cat": "babies",
     "kind": "record",
-    "text": "So every Bramley, every Granny Smith, every Pink Lady is a cutting. A shoot from the original plant is grafted onto a rootstock, and the rootstock decides how big the tree gets and how tough it is. The variety is one plant, copied endlessly.",
+    "text": "Because an apple seed never repeats its parent, every Bramley, every Granny Smith, every Pink Lady is a cutting. A shoot from the original plant is grafted onto a rootstock. The rootstock decides how big the tree gets and how tough it is. The variety is one plant, copied endlessly.",
     "more": "A graft is a cutting joined onto another tree's root system so the two grow together. The top decides what the apples taste like; the bottom decides how big the tree gets and how tough it is. Two plants, one trunk, on purpose."
    },
    {
@@ -1399,7 +1399,7 @@
    {
     "cat": "record",
     "kind": "worked",
-    "text": "The trees actually growing along the Euphrates were most likely Euphrates poplar, Populus euphratica. It carries willow-shaped leaves on long drooping shoots, so it is an easy tree to mistake. Some modern Bible translations now render the word as poplars."
+    "text": "The trees the Psalm 137 exiles hung their harps on, by the rivers of Babylon, were most likely Euphrates poplar, Populus euphratica. It carries willow-shaped leaves on long drooping shoots, so it is an easy tree to mistake. Some modern Bible translations now render the word as poplars."
    },
    {
     "cat": "record",
@@ -1410,7 +1410,7 @@
    {
     "cat": "record",
     "kind": "record",
-    "text": "Johann Buchner got fairly pure salicin crystals out of willow bark in 1828. Pierre-Joseph Leroux worked out another way to extract it the following year. That was the bitter chemical Stone had been handing out without knowing its name."
+    "text": "Johann Buchner got fairly pure salicin crystals out of willow bark in 1828. Pierre-Joseph Leroux worked out another way to extract it the following year. That was the bitter chemical Edward Stone had been handing out as a fever cure in the 1760s without knowing its name."
    },
    {
     "cat": "copied",
@@ -1432,7 +1432,7 @@
    {
     "cat": "copied",
     "kind": "record",
-    "text": "Gardeners use that. Living willow is woven into fences, domes and tunnels while the rods are fresh. The rods root where they touch soil. The structure keeps growing after it is finished."
+    "text": "Gardeners use the willow's habit of rooting from any cut stick. Living willow is woven into fences, domes and tunnels while the rods are fresh. The rods root where they touch soil. The structure keeps growing after it is finished."
    },
    {
     "cat": "build",
@@ -1480,7 +1480,7 @@
    {
     "cat": "home",
     "kind": "worked",
-    "text": "And then it loses. Birch cannot tolerate shade, so the slower trees that established under its shelter grow up past it and shade it out. The reasoning is plain: fast and short-lived beats slow and steady on bare ground, and loses everywhere else.",
+    "text": "Birch gets to bare ground first, and then it loses. Birch cannot tolerate shade, so the slower trees that established under its shelter grow up past it and shade it out. The reasoning is plain: fast and short-lived beats slow and steady on bare ground, and loses everywhere else.",
     "more": "Being first is a strategy with the cost built in. Birch grows fast, seeds heavily, tolerates no shade and dies comparatively young. It is not built to hold ground; it is built to reach ground nothing else has reached yet."
    },
    {

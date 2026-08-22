@@ -106,7 +106,7 @@
    },
    {
     "cat": "record",
-    "text": "Some of these nests grow so heavy that the branch holding them tears loose, or the whole tree comes down under the weight.",
+    "text": "Some sociable weaver nests grow so heavy that the branch holding them tears loose, or the whole tree comes down under the weight.",
     "kind": "found"
    },
    {
@@ -117,13 +117,13 @@
    },
    {
     "cat": "weird",
-    "text": "The Kalahari swings from near-freezing nights to scorching afternoons. Outside air ran from 16°C to 33.5°C (61°F to 92°F). Inside the occupied chambers, temperatures moved only 7-8°C.",
+    "text": "The Kalahari swings from near-freezing nights to scorching afternoons. Outside one nest, air ran from 16°C to 33.5°C (61°F to 92°F). Inside its occupied chambers, temperatures moved only 7-8°C.",
     "more": "Thick packed grass is a superb insulator, the same reason a straw bale holds heat in. In a place with no shade and no shelter, the birds are carrying their own weather around with them, built out of dead grass.",
     "kind": "found"
    },
    {
     "cat": "sleep",
-    "text": "The chambers deep in the middle of the mass stay warmest, so those become the night bedrooms. The outer rooms stay cooler, so those are where birds wait out the worst of the afternoon.",
+    "text": "The chambers deep in the middle of the nest mass stay warmest, so those become the night bedrooms. The outer rooms stay cooler, so those are where birds wait out the worst of the afternoon.",
     "kind": "found"
    },
    {
@@ -202,7 +202,7 @@
    },
    {
     "cat": "build",
-    "text": "He chews leaves and fruit into a pulp. Then he picks up a wad of bark and holds it in his bill like a paintbrush. He paints the inner walls of his avenue with it.",
+    "text": "He chews leaves and fruit into a pulp. Then he picks up a wad of bark and holds it in his bill like a paintbrush. He paints the inner walls of his bower, an avenue of sticks, with it.",
     "more": "That wad of bark is a tool — an object picked up and used to do a job the beak alone can't do well. Very few animals use tools at all, and fewer still make one for decorating something.",
     "kind": "found"
    },
@@ -273,7 +273,7 @@
    },
    {
     "cat": "food",
-    "text": "It also robs. It chases boobies and terns until they give up their catch, then twists round and takes the falling fish out of mid-air before it hits the water.",
+    "text": "It catches fish, and it robs too. It chases boobies and terns until they give up their catch, then twists round and takes the falling fish out of mid-air before it hits the water.",
     "more": "Sailors named the bird after the frigate, a fast warship built for chasing other ships down. Stealing is only part of its diet, not all of it. But it is very good at it. It will pull a booby by the tail to make its point.",
     "kind": "found"
    },
@@ -339,7 +339,7 @@
    },
    {
     "cat": "record",
-    "text": "The stretchy pouch slung under that bill can hold around 3 gallons (11 liters) of water. That is two or three times what the pelican's own stomach holds.",
+    "text": "The stretchy pouch slung under its bill can hold around 3 gallons (11 liters) of water. That is two or three times what the pelican's own stomach holds.",
     "more": "The pouch is a net, not a lunchbox. It scoops, then it drains. Cartoons show pelicans carrying fish around in there. They do not. The fish goes down the throat within seconds, and the pouch goes flat again.",
     "kind": "found"
    },
@@ -356,7 +356,7 @@
    },
    {
     "cat": "food",
-    "text": "Surfacing, it points the bill down and lets the water pour out of the sides of the pouch before tipping its head back to swallow. Eleven liters of seawater is heavy.",
+    "text": "Surfacing, it points the bill down and lets water pour from the sides of the pouch before tipping its head back to swallow. A full pouch, eleven liters of seawater, is heavy.",
     "more": "Those few seconds of draining are the pelican's weakest moment. Laughing gulls know it. They shadow feeding pelicans and snatch fish straight out of the open pouch. Sometimes they stand on the pelican's head to do it.",
     "kind": "found"
    },
@@ -691,7 +691,7 @@
    },
    {
     "cat": "weird",
-    "text": "Rank is measured in millimeters. Each fish in the queue keeps itself to about 80% of the size of the one above it, staying small enough not to look like a challenge.",
+    "text": "Rank is measured in millimeters. The fish in one anemone line up by size. Each keeps itself to about 80% of the size of the one above it, staying small enough not to look like a challenge.",
     "more": "Being thrown out of an anemone on a coral reef is usually a death sentence. So the smaller fish deliberately eat less and stay stunted, holding their place in line rather than risking a fight they would lose. When a rank above them opens up, they grow into it.",
     "kind": "found"
    },
@@ -780,7 +780,7 @@
    },
    {
     "cat": "copied",
-    "text": "An archerfish can learn to shoot by watching another fish do it. Some only ever spectated and never fired at that kind of target themselves. They still hit moving prey accurately on their first attempt.",
+    "text": "An archerfish can learn to shoot by watching another fish do it. Some only ever watched, and never fired at a moving target themselves. They still hit moving prey accurately on their first attempt.",
     "more": "In the experiment, one fish was trained while others watched from the side. The watchers had never aimed at a moving target, yet their first tries matched the trained fish's. Learning from someone else's practice rather than your own is rare enough in animals that the result made news.",
     "kind": "found"
    },
@@ -910,7 +910,7 @@
    },
    {
     "cat": "babies",
-    "text": "There is no tadpole stage at all. What crawls out of her back is a finished toad about the size of your thumbnail — flat and brown, a miniature of its mother.",
+    "text": "There is no tadpole stage at all. What crawls out of the pockets in the mother's back is a finished toad about the size of your thumbnail. It is flat and brown, a miniature of its mother.",
     "kind": "found"
    },
    {
@@ -1007,7 +1007,7 @@
    {
     "cat": "babies",
     "text": "The clutch is glued to the underside of a leaf hanging over water, so hatchlings fall straight into the pond below. Nothing has to carry them anywhere.",
-    "more": "About forty eggs go into a clear pad of jelly on the shaded underside of the leaf, where they will not dry out. Wasps hunt them there as well — and a wasp attack triggers the same early escape a snake does.",
+    "more": "About forty eggs go into a clear pad of jelly on the shaded underside of the leaf, where they will not dry out. Wasps hunt them there as well — and a wasp attack makes the embryos hatch early and drop, just as a snake attack does.",
     "kind": "found"
    },
    {
@@ -1018,7 +1018,7 @@
    },
    {
     "cat": "weird",
-    "text": "All that color stays hidden. A poisonous frog advertises constantly; this one keeps its reds and blues folded away and spends them only in the instant it needs to escape.",
+    "text": "All its color stays hidden. A poisonous frog advertises constantly; this one keeps its reds and blues folded away and spends them only in the instant it needs to escape.",
     "kind": "found"
    },
    {
@@ -1073,7 +1073,7 @@
    },
    {
     "cat": "weird",
-    "text": "When the water goes still, the hellbender rocks. A slow sway, side to side, pushing fresh water past those skin folds — breathing by moving instead of by inhaling.",
+    "text": "When the water goes still, the hellbender rocks. A slow sway, side to side, pushing fresh water past the skin folds it breathes through — breathing by moving instead of by inhaling.",
     "kind": "found"
    },
    {
@@ -1112,7 +1112,7 @@
    },
    {
     "cat": "defence",
-    "text": "Despite every one of those names, it is not venomous and not dangerous to people. It would far rather be left alone under its rock.",
+    "text": "Despite names like snot otter, mud devil and devil dog, it is not venomous and not dangerous to people. It would far rather be left alone under its rock.",
     "kind": "found"
    },
    {
@@ -1201,7 +1201,7 @@
    },
    {
     "cat": "food",
-    "text": "Cave shrimp, snails and insects, swallowed whole, because it cannot chew. When food is plentiful it eats enormously and banks the surplus as fat in its liver.",
+    "text": "It eats cave shrimp, snails and insects, swallowed whole, because it cannot chew. When food is plentiful it eats enormously and banks the surplus as fat in its liver.",
     "kind": "found"
    },
    {
@@ -1366,7 +1366,7 @@
    },
    {
     "cat": "babies",
-    "text": "She guards that nest for weeks, which almost no other snake does. Then, shortly before the eggs hatch, she leaves — and the hatchlings are on their own from the first minute.",
+    "text": "She guards her nest of raked-up leaves for weeks, which almost no other snake does. Then, shortly before the eggs hatch, she leaves — and the hatchlings are on their own from the first minute.",
     "more": "A clutch runs from 7 to 43 eggs and takes two to three months to develop. Hatchlings emerge around 20 inches (50 cm) long, banded black and pale, and fully venomous immediately. Nobody teaches them how to hunt.",
     "kind": "found"
    }
@@ -2661,7 +2661,7 @@
    },
    {
     "cat": "weird",
-    "text": "It shovels damp sand onto its own back. The sand sits there, the skin channels wick the moisture out of it, and the lizard drinks the sand dry.",
+    "text": "It shovels damp sand onto its own back. The sand sits there, grooves in its skin wick the moisture out of it, and the lizard drinks the sand dry.",
     "kind": "found"
    },
    {
@@ -2677,7 +2677,7 @@
    },
    {
     "cat": "defence",
-    "text": "Every one of those cones is a spine. They point in every direction at once. The best read is that this is what they are for. A snake or a bird trying to swallow a thorny devil finds no good angle to do it from.",
+    "text": "Every cone on its body is a spine. They point in every direction at once. The best read is that this is what they are for. A snake or a bird trying to swallow a thorny devil finds no good angle to do it from.",
     "more": "It can also puff itself up with air when something threatens, which makes it wider and rounder and harder still to fit into a mouth. The spines are not a weapon — the lizard never attacks with them. They simply make it an awkward parcel to swallow.",
     "kind": "worked"
    },
@@ -2708,7 +2708,7 @@
    },
    {
     "cat": "copied",
-    "text": "Engineers study that skin. It moves water sideways and uphill with no pump and no power. Dry countries need exactly that. This lizard has been doing it all along.",
+    "text": "Engineers study thorny devil skin. It moves water sideways and uphill with no pump and no power. Dry countries need exactly that. This lizard has been doing it all along.",
     "more": "The channels between the scales are shaped like tiny half-pipes. Once it is wet, the surface turns superhydrophilic. That means water spreads flat across it instead of beading up. Labs have copied the pattern to move liquid around without a motor.",
     "kind": "found"
    },
@@ -2745,7 +2745,7 @@
    },
    {
     "cat": "build",
-    "text": "The grip comes from van der Waals attraction — the faint pull between any two things whose molecules get close enough. One hair is nothing. Half a million at once, and the gecko hangs off glass.",
+    "text": "The grip comes from van der Waals attraction — the faint pull between any two things whose molecules get close enough. A single toe hair is nothing. Half a million at once, and the gecko hangs off glass.",
     "more": "It is not stickiness in any ordinary sense. Nothing wet, no residue left behind, nothing that wears out or gets used up. A gecko's foot works in a vacuum, and on a pane so smooth and clean that sticky tape would slide right off it.",
     "kind": "found"
    },
@@ -2758,12 +2758,12 @@
    {
     "cat": "weird",
     "text": "The hard part is not sticking. It is letting go. The gecko peels each toe backwards from the tip, which breaks the contact in about 15 thousandths of a second — faster than you can notice.",
-    "more": "That is why gecko toes curl upward and away as the foot lifts, which looks very odd if you slow the film down. Pull straight off and the hairs would fight you the whole way. Peel from the tip and they release instantly.",
+    "more": "That is why gecko toes curl upward and away as the foot lifts, which looks very odd if you slow the film down. Pull straight off and the toe hairs would fight you the whole way. Peel from the tip and they release instantly.",
     "kind": "found"
    },
    {
     "cat": "copied",
-    "text": "Engineers copy those hairs. Pads covered in tiny synthetic wedges have carried climbing robots up glass walls and let a person haul themselves up a sheer pane.",
+    "text": "Engineers copy the gecko's toe hairs. Pads covered in tiny synthetic wedges have carried climbing robots up glass walls and let a person haul themselves up a sheer pane.",
     "more": "The grip leaves no residue and needs no power. So the same idea is being tested for catching satellites and space junk, where ordinary glue would freeze solid, boil away, or drift off.",
     "kind": "found"
    },
@@ -2831,7 +2831,7 @@
    },
    {
     "cat": "build",
-    "text": "Every footfall is three moves: slap, stroke, recover. The slap drives the foot down and traps a pocket of air. The stroke pushes backwards against that pocket. Then the foot lifts clear.",
+    "text": "Every footfall on the water is three moves: slap, stroke, recover. The slap drives the foot down and traps a pocket of air. The stroke pushes backwards against that pocket. Then the foot lifts clear.",
     "more": "The whole thing depends on getting the foot out fast enough. If the water collapses around the leg first, the lizard has to drag its foot up through water instead of air. That costs far more energy than it has. Speed is not showing off here. It is the only thing keeping the animal on top.",
     "kind": "found"
    },
@@ -2852,7 +2852,7 @@
    },
    {
     "cat": "weird",
-    "text": "If running fails, it goes the other way. A basilisk can stay underwater for up to half an hour. It sits motionless on the bottom until whatever was chasing it loses interest.",
+    "text": "If running across the water fails, it goes the other way — down. A basilisk can stay underwater for up to half an hour. It sits motionless on the bottom until whatever was chasing it loses interest.",
     "kind": "found"
    },
    {
@@ -2954,7 +2954,7 @@
    },
    {
     "cat": "gross",
-    "text": "The blood trick is expensive. Squirting can cost the lizard up to 6 percent of its entire body weight, which is why it holds that card back until nothing else has worked.",
+    "text": "Squirting blood from its eyes is expensive. It can cost the lizard up to 6 percent of its entire body weight. That is why it holds that card back until nothing else has worked.",
     "kind": "found"
    },
    {
@@ -3028,7 +3028,7 @@
    },
    {
     "cat": "build",
-    "text": "It breathes three different ways. Those external gills are one. Oxygen also passes straight through its skin. And it rises to the surface to gulp air into a small pair of lungs.",
+    "text": "It breathes three different ways. The feathery gills on its head are one. Oxygen also passes straight through its skin. And it rises to the surface to gulp air into a small pair of lungs.",
     "kind": "found"
    },
    {
@@ -3262,7 +3262,7 @@
    },
    {
     "cat": "babies",
-    "text": "The nest gets guarded. Once the eggs are in the cleared pool, an adult stays with them through the night, which is unusual work for a frog.",
+    "text": "The nest gets guarded. Once the eggs are in the gravel pool the frog cleared for them, an adult stays through the night. That is unusual work for a frog.",
     "more": "The pools sit at the edge of fast water, but out of the main current. Eggs and tadpoles are not swept downstream, and river fish cannot easily get in. The frog builds a safe pool and then stands over it all night. That is close to what a bird does with a nest.",
     "kind": "found"
    },
@@ -3327,7 +3327,7 @@
    },
    {
     "cat": "weird",
-    "text": "Nobody taught Alex a word for zero. Asked about an amount that simply was not in front of him, he borrowed a word he already had and answered: none.",
+    "text": "Nobody taught a gray parrot named Alex a word for zero. Asked about an amount that simply was not in front of him, he borrowed a word he already had and answered: none.",
     "more": "That is harder than counting. Counting means matching a word to things you can see. Saying none means naming an amount that is not there at all — and Alex was never trained to do it. He carried the word over from another task himself.",
     "kind": "found"
    },
@@ -3428,7 +3428,7 @@
    },
    {
     "cat": "disguise",
-    "text": "During the display he throws the entire tail forward over his head. He vanishes under a shimmering silver canopy, and only the sound comes out.",
+    "text": "During his display for a female he throws the entire tail forward over his head. He vanishes under a shimmering silver canopy, and only the sound comes out.",
     "kind": "found"
    },
    {
@@ -3449,7 +3449,7 @@
    },
    {
     "cat": "food",
-    "text": "Worms, grubs, beetles, spiders, centipedes. He hooks them out from under the leaf litter with long strong claws, which is exactly why he does all that raking.",
+    "text": "Worms, grubs, beetles, spiders, centipedes. He hooks them out from under the leaf litter with long strong claws. That is exactly why he spends all day raking the forest floor.",
     "kind": "found"
    },
    {
@@ -3459,7 +3459,7 @@
    },
    {
     "cat": "copied",
-    "text": "Females copy too, which people missed for years. They use borrowed calls while foraging, and again when driving a predator away from the nest.",
+    "text": "Females copy other birds' calls too, which people missed for years. They use borrowed calls while foraging, and again when driving a predator away from the nest.",
     "kind": "found"
    },
    {
@@ -3522,7 +3522,7 @@
    },
    {
     "cat": "travel",
-    "text": "Yes, he can fly. Dragging all of that, he still hauls himself up into a tall tree every evening to sleep — slow, deliberate wingbeats, no gliding.",
+    "text": "Yes, he can fly. Dragging that whole train of feathers, he still hauls himself up into a tall tree every evening to sleep — slow, deliberate wingbeats, no gliding.",
     "kind": "found"
    },
    {
@@ -3548,7 +3548,7 @@
    },
    {
     "cat": "copied",
-    "text": "Engineers study those feathers on purpose. Color made from structure never fades the way dye does, so labs build peacock-style nanostructures for inks and paints meant to keep their color for good.",
+    "text": "Engineers study peacock feathers on purpose. Their color is built from microscopic structure, not dye, and it never fades the way dye does. Labs build peacock-style nanostructures for inks and paints meant to keep their color for good.",
     "kind": "record"
    }
   ],
@@ -3930,7 +3930,7 @@
    },
    {
     "cat": "food",
-    "text": "Stingrays, above almost anything else. Also bony fish, squid, crabs and other sharks — including, when food runs short, smaller hammerheads.",
+    "text": "It eats stingrays above almost anything else. Also bony fish, squid, crabs and other sharks — including, when food runs short, smaller hammerheads.",
     "kind": "found"
    },
    {
@@ -3958,7 +3958,7 @@
    },
    {
     "cat": "home",
-    "text": "Warm coastal seas all around the world. They work the shallows over sand and reef, and move toward the poles in summer before heading back.",
+    "text": "Great hammerheads live in warm coastal seas all around the world. They work the shallows over sand and reef, and move toward the poles in summer before heading back.",
     "kind": "found"
    },
    {
@@ -4005,7 +4005,7 @@
    },
    {
     "cat": "babies",
-    "text": "Length is the part anyone can measure: a female Greenland shark is about 14 ft (4.2 m) long before her first pups. Put beside the eye-lens ages, that works out at somewhere around 150 years old.",
+    "text": "Length is the part anyone can measure: a female Greenland shark is about 14 ft (4.2 m) long before her first pups. Put beside ages read from the eye lens, that works out at somewhere around 150 years old.",
     "more": "That is older than almost any other animal ever gets, period. It also means a shark pulled up in a net today may never have had a single pup. That is why the species recovers so terribly slowly from any losses.",
     "kind": "worked"
    },
@@ -4200,7 +4200,7 @@
    },
    {
     "cat": "weird",
-    "text": "Somewhere under all that shag is a wing about 1 in (3 cm) long — shorter than your thumb — with a small cat-like claw on the end.",
+    "text": "Somewhere under all those shaggy feathers is a wing about 1 in (3 cm) long, shorter than your thumb. It ends in a small cat-like claw.",
     "kind": "found"
    },
    {
@@ -4308,7 +4308,7 @@
    },
    {
     "cat": "babies",
-    "text": "The father takes no part. The female builds, incubates and feeds entirely alone, and about eighteen days after hatching the chicks fly out of that coin-sized cup.",
+    "text": "The father takes no part. The female builds, incubates and feeds entirely alone, and about eighteen days after hatching the chicks fly out of the coin-sized nest.",
     "kind": "found"
    }
   ]
@@ -4339,7 +4339,7 @@
    },
    {
     "cat": "food",
-    "text": "Before it goes, it eats and eats. Weighed at banding stations, a ruby-throat can roughly double the fat it carries — and that works out to just about exactly what one flight over water would cost.",
+    "text": "Before it crosses the Gulf of Mexico, it eats and eats. Weighed at banding stations, a ruby-throat can roughly double the fat it carries. That works out to just about exactly what one flight over water would cost.",
     "more": "Fat is the densest fuel a body can carry. It is the only way a three-gram bird can afford twenty hours over the sea. It arrives on the far shore thin and exhausted. Then it immediately starts looking for flowers.",
     "kind": "worked"
    },
@@ -4508,7 +4508,7 @@
    },
    {
     "cat": "food",
-    "text": "What it is fishing for is a fat beetle grub jammed deep inside rotting wood. The crow pokes the hook in, annoys the grub until it bites the stick, then pulls it out still holding on.",
+    "text": "What it fishes for with its hooked twig is a fat beetle grub jammed deep inside rotting wood. The crow pokes the hook in, annoys the grub until it bites the stick, then pulls it out still holding on.",
     "more": "The grub's own jaws do half the work. A crow will spend a long time on a single hole, jiggling, twisting, listening. One big grub is worth a great deal of energy, so the patience pays.",
     "kind": "found"
    },
@@ -4595,7 +4595,7 @@
    },
    {
     "cat": "weird",
-    "text": "Then it changes. The body turns fire-engine red, the head turns bottle-green, and the male grows a humped back and a hooked jaw called a kype.",
+    "text": "Heading home to spawn, it changes. The body turns fire-engine red, the head turns bottle-green, and the male grows a humped back and a hooked jaw called a kype.",
     "more": "The red comes from a pigment called astaxanthin, which the salmon collects by eating krill and other tiny shrimp-like animals at sea. Out there the pigment sits in the muscle, which is why salmon flesh is pink. For spawning, it moves into the skin.",
     "kind": "found"
    },
@@ -4636,7 +4636,7 @@
    },
    {
     "cat": "gross",
-    "text": "Sockeye spawn once and then die. Every adult in that river is on a one-way trip.",
+    "text": "Sockeye spawn once and then die. Every adult in a spawning river is on a one-way trip.",
     "more": "The bodies do not go to waste. Bears, eagles, gulls and beetles feed on them, and the rest rots into the streambed. Scientists can measure sea-borne nutrients from those salmon inside the trees growing along the bank — the ocean, feeding a forest.",
     "kind": "found"
    },
@@ -4956,7 +4956,7 @@
    },
    {
     "cat": "defence",
-    "text": "If something digs into the nest, the big soldiers come up out of the ground. They clamp down with those leather-cutting jaws. Then they simply do not let go.",
+    "text": "If something digs into the nest, the big soldiers come up out of the ground. They clamp down with jaws that will cut through leather. Then they simply do not let go.",
     "kind": "found"
    }
   ],
@@ -5014,7 +5014,7 @@
    },
    {
     "cat": "size",
-    "text": "About a centimeter of beetle — less than half an inch. The reservoir, the mixing chamber, the valve and the swivelling nozzle are all packed into the back end of that.",
+    "text": "About a centimeter of beetle — less than half an inch. The spray's reservoir, mixing chamber, valve and swiveling nozzle are all packed into the back end of that.",
     "kind": "found"
    },
    {
@@ -5024,7 +5024,7 @@
    },
    {
     "cat": "copied",
-    "text": "Engineers have studied that pulsing blast while designing fuel injectors and fire extinguishers. A nozzle that fires in bursts throws liquid further than one that simply streams.",
+    "text": "Engineers have studied the beetle's pulsing spray while designing fuel injectors and fire extinguishers. A nozzle that fires in bursts throws liquid further than one that simply streams.",
     "more": "The beetle solves a problem engineers care about. It pushes a fine spray a long way out of a very small opening, without a pump. Working prototypes based on the beetle's fill-fire-refill cycle have been built and tested.",
     "kind": "record"
    },
@@ -5063,7 +5063,7 @@
    },
    {
     "cat": "build",
-    "text": "The two horns close like a nutcracker. A male grips a rival between them, prises him off the branch, lifts him into the air, and drops him.",
+    "text": "The male's two horns, one from the thorax and one from the head, close like a nutcracker. A male grips a rival between them, pries him off the branch, lifts him into the air, and drops him.",
     "more": "Fights break out over sap runs on tree trunks and the females feeding there. The beetles rarely injure each other — most contests end the moment the loser loses his grip. Falling out of a tree is no great problem when you are this armored.",
     "kind": "found"
    },
@@ -5248,7 +5248,7 @@
    },
    {
     "cat": "gross",
-    "text": "The nymph's lower lip is a folded harpoon. It shoots out from under the face, grabs a tadpole or a young fish, and folds back — faster than your eye can follow.",
+    "text": "A young dragonfly, called a nymph, lives underwater, and its lower lip is a folded harpoon. It shoots out from under the face, grabs a tadpole or a young fish, and folds back — faster than your eye can follow.",
     "more": "Biologists call it the labial mask. At rest it covers the nymph's face like a visor. It fires on hydraulic pressure. The nymph squeezes its abdomen, and the fluid inside shoots the lip out. That is how something that small moves that fast from a standing start.",
     "kind": "found"
    },
@@ -5346,7 +5346,7 @@
    },
    {
     "cat": "disguise",
-    "text": "Other mantises copy dead leaves, green stems, bark and lichen. They do it so precisely that you can stare straight at one for a minute. You still see nothing but a twig.",
+    "text": "Many mantises copy dead leaves, green stems, bark and lichen. They do it so precisely that you can stare straight at one for a minute. You still see nothing but a twig.",
     "kind": "found"
    },
    {
@@ -5491,13 +5491,13 @@
    },
    {
     "cat": "weird",
-    "text": "The trick has a name: transdifferentiation. Cells that had already committed to being one thing — muscle, say — switch jobs and become something else entirely.",
+    "text": "Its trick of turning back into its young stage has a name: transdifferentiation. Cells that had already committed to being one thing — muscle, say — switch jobs and become something else entirely.",
     "more": "In almost every animal, a cell that has become muscle stays muscle for life. In this one, cells reassign themselves, and the body takes itself apart and reassembles as an earlier version. Nothing new is added — it is rebuilt entirely out of itself.",
     "kind": "found"
    },
    {
     "cat": "babies",
-    "text": "The shrunken blob settles on the seafloor and grows into a polyp, a tiny stalk. That polyp then buds off brand-new jellyfish, identical to the one that started over.",
+    "text": "When it rewinds, the shrunken blob settles on the seafloor and grows into a polyp, a tiny stalk. That polyp then buds off brand-new jellyfish, identical to the one that started over.",
     "more": "One medusa that resets can become a polyp colony. That colony can bud off many new medusae. All of them carry the same instructions as the original. A single starving jellyfish can end up as a crowd of copies.",
     "kind": "found"
    },
@@ -5519,7 +5519,7 @@
    {
     "cat": "home",
     "text": "It was first described in the Mediterranean and now turns up in harbors around the world. Big ships carry seawater for balance, and tiny drifters ride along inside.",
-    "more": "Large ships take on seawater to keep steady and pump it out again at the next port. Whatever was floating in that water goes with it. Turritopsis has since been found on both sides of the Atlantic and in the Pacific, far from where it was first named.",
+    "more": "Large ships take on seawater to keep steady and pump it out again at the next port. Whatever was floating in that water goes with it. The immortal jellyfish, Turritopsis, has since been found on both sides of the Atlantic and in the Pacific. That is far from where it was first named.",
     "kind": "record"
    },
    {
@@ -5739,8 +5739,8 @@
    },
    {
     "cat": "defence",
-    "text": "Some species shoot sticky white threads, called Cuvierian tubules, out of that same opening. The threads swell in seawater and glue a crab's legs shut.",
-    "more": "The tubules are branches off the base of the respiratory tree. They are fired out through the animal's back end. On the way they stretch to many times their resting length. Seawater turns them intensely sticky. A crab that blunders into the mess can end up wrapped and unable to walk.",
+    "text": "Some species shoot sticky white threads, called Cuvierian tubules, out of the anus. The threads swell in seawater and glue a crab's legs shut.",
+    "more": "The tubules are branches off the base of the respiratory tree, the breathing tubes just inside the anus. They are fired out through the animal's back end. On the way they stretch to many times their resting length. Seawater turns them intensely sticky. A crab that blunders into the mess can end up wrapped and unable to walk.",
     "kind": "found"
    },
    {
@@ -5866,7 +5866,7 @@
    },
    {
     "cat": "copied",
-    "text": "Engineers have built small robots that copy those legs and that rowing stroke. The robots skim across water without ever needing a hull or a float.",
+    "text": "Engineers have built small robots that copy its long legs and its rowing stroke. The robots skim across water without ever needing a hull or a float.",
     "kind": "record"
    },
    {
@@ -5905,7 +5905,7 @@
    },
    {
     "cat": "weird",
-    "text": "So why 'birdeater'? An old engraving from South America showed a tarantula eating a hummingbird. That picture traveled the world, the name stuck, and the spider has been misnamed ever since.",
+    "text": "Why 'birdeater', when it hardly ever eats birds? An old engraving from South America showed a tarantula eating a hummingbird. That picture traveled the world, the name stuck, and the spider has been misnamed ever since.",
     "kind": "record"
    },
    {
@@ -5949,7 +5949,7 @@
    },
    {
     "cat": "gross",
-    "text": "It cannot chew either. It crushes prey between its fangs and floods it with digestive juice. Then it drinks the liquid. A dry knot of skin and bone gets tipped out at the burrow door.",
+    "text": "It cannot chew. It crushes prey between its fangs and floods it with digestive juice. Then it drinks the liquid. A dry knot of skin and bone gets tipped out at the burrow door.",
     "kind": "found"
    },
    {
@@ -6120,7 +6120,7 @@
    {
     "cat": "gross",
     "text": "Her worst enemy walks on six legs. A spider wasp finds the burrow, chews through the silk plug, stings her into paralysis, and lays a single egg on her. The larva eats her alive.",
-    "more": "The venom does not kill, it only freezes. That keeps the spider fresh while the grub feeds, and the grub eats in an order that keeps her alive as long as possible. This is exactly how Number 16's forty-three years ended.",
+    "more": "The venom does not kill, it only freezes. That keeps the spider fresh while the grub feeds, and the grub eats in an order that keeps her alive as long as possible. This is exactly how the forty-three years of Number 16, the oldest spider ever recorded, ended.",
     "kind": "found"
    },
    {
@@ -6153,7 +6153,7 @@
    },
    {
     "cat": "weird",
-    "text": "That bubble is not just stored air. It works as a physical gill. Oxygen seeps in from the pond water through the surface of the bubble, and waste carbon dioxide seeps out.",
+    "text": "The air bell it builds underwater is not just stored air. It works as a physical gill. Oxygen seeps in from the pond water through the surface of the bubble, and waste carbon dioxide seeps out.",
     "more": "The silk is waterproof but gas passes straight through it, so the bell is not a tank slowly running down. It keeps drawing fresh oxygen from the pond. Nitrogen leaks the other way, though, which is why the bell gradually shrinks and has to be topped up.",
     "kind": "found"
    },
@@ -6269,7 +6269,7 @@
    },
    {
     "cat": "copied",
-    "text": "Chemists are testing the sting's poison as a crop insecticide. It is the exact molecule that makes the sting unbearable, pointed at pests instead.",
+    "text": "Chemists are testing poneratoxin, the sting's poison, as a crop insecticide. It is the exact molecule that makes the sting unbearable, pointed at pests instead.",
     "more": "In one experiment a virus was engineered to deliver poneratoxin to fall armyworm caterpillars. As little as 10 nanograms was enough to paralyze them. That is far less than a grain of salt weighs. Taking a weapon apart to see how it works is a large part of venom research.",
     "kind": "record"
    }
@@ -6335,7 +6335,7 @@
    },
    {
     "cat": "teamwork",
-    "text": "Researchers have recorded 557 kinds of animal traveling with this one species of army ant. Twenty-one species of antbird check the bivouac each morning to see whether the ants are raiding.",
+    "text": "Researchers have recorded 557 kinds of animal traveling with one species of army ant, Eciton burchellii. Twenty-one species of antbird check the ants' overnight camp, the bivouac, each morning to see whether the ants are raiding.",
     "more": "The antbirds do not eat the ants. They eat the insects the ants panic out of the leaf litter. And certain butterflies follow the antbirds to drink from their droppings. One column of ants carries a whole traveling neighbourhood along with it.",
     "kind": "found"
    },
@@ -6515,7 +6515,7 @@
    },
    {
     "cat": "defence",
-    "text": "For all that wing, it flies slowly and heavily. Most of the day it simply rests with its wings held flat and open, and the best read is that the pattern does the work of a bodyguard.",
+    "text": "For all that wing, it flies slowly and heavily. Most of the day it simply rests with its wings held flat and open. The best read is that the snake-head pattern on its wingtips does the work of a bodyguard.",
     "kind": "worked"
    },
    {
@@ -6570,7 +6570,7 @@
    },
    {
     "cat": "build",
-    "text": "There are three ways to make a living here. Rollers cut a ball and drive it away. Tunnellers dig straight down beneath the pile and drag dung under. Dwellers just move in and live in it.",
+    "text": "There are three ways to make a living on a dung pile. Rollers cut a ball and drive it away. Tunnellers dig straight down beneath the pile and drag dung under. Dwellers just move in and live in it.",
     "kind": "found"
    },
    {
@@ -6825,7 +6825,7 @@
    },
    {
     "cat": "copied",
-    "text": "That blue blood matters to hospitals. It clots instantly around bacterial poison. That reaction is used to check that vaccines and injectable medicines are clean.",
+    "text": "The horseshoe crab's blue blood matters to hospitals. It clots instantly around bacterial poison. That reaction is used to check that vaccines and injectable medicines are clean.",
     "more": "Cells in the blood called amebocytes turn liquid to gel at the faintest trace of bacterial endotoxin. Hundreds of thousands of crabs are collected and bled each year and most are returned to the sea, though not all survive it. Synthetic replacements are now taking over some of the work.",
     "kind": "record"
    },
@@ -6855,7 +6855,7 @@
    },
    {
     "cat": "teamwork",
-    "text": "Those eggs feed a bird. Red knots arrive exhausted from South America, land on the same beaches in the same few weeks, and eat almost nothing else.",
+    "text": "The eggs horseshoe crabs bury on spring-tide beaches feed a bird. Red knots arrive exhausted from South America, land on those beaches in the same few weeks, and eat almost nothing else.",
     "more": "A red knot can put on close to its own body weight again on horseshoe crab eggs before flying north to the Arctic. The timing has to line up exactly, which is why limits on collecting the crabs are partly about protecting the birds.",
     "kind": "found"
    },
@@ -7107,7 +7107,7 @@
    },
    {
     "cat": "weird",
-    "text": "The very same poison turns up in the blue-ringed octopus and in the rough-skinned newt. Three animals that look nothing alike carry one identical chemical.",
+    "text": "The puffer's poison, tetrodotoxin, turns up in the blue-ringed octopus and in the rough-skinned newt. Three animals that look nothing alike carry one identical chemical.",
     "kind": "found"
    },
    {
@@ -7259,7 +7259,7 @@
    },
    {
     "cat": "travel",
-    "text": "It climbs. Using those same front fins, a mudskipper hauls itself up mangrove roots and out onto low branches, well clear of the water it came from.",
+    "text": "It climbs. Using the same jointed front fins it walks on, a mudskipper hauls itself up mangrove roots and out onto low branches. That is well clear of the water it came from.",
     "kind": "found"
    },
    {
@@ -7417,7 +7417,7 @@
    },
    {
     "cat": "defence",
-    "text": "Under that gray surface its skin runs up to 2.9 in (7.3 cm) (nearly 3 in) thick. It is tough rubbery collagen you could not push a thumb into. The whole thing is coated in slime.",
+    "text": "Its gray skin runs up to 2.9 in (7.3 cm) (nearly 3 in) thick. It is tough rubbery collagen you could not push a thumb into. The whole thing is coated in slime.",
     "kind": "found"
    },
    {
@@ -7463,7 +7463,7 @@
    },
    {
     "cat": "weird",
-    "text": "That electric blue-and-green skin is not paint. Cells called iridocytes bend sunlight and scatter it deep down into the clam's flesh. The best read is that this feeds the algae growing in the shade.",
+    "text": "That electric blue-and-green skin is not paint. Cells called iridocytes bend sunlight and scatter it deep down into the clam's flesh. The best read is that this feeds the algae living inside its flesh, down in the shade.",
     "more": "Without those cells only the top layer of algae would ever get light. The iridocytes work like a hall of mirrors, spreading the sun evenly through the tissue so the whole crop can work at once. Different clams scatter the light in different colors, which is why no two look the same.",
     "kind": "worked"
    },
@@ -7493,7 +7493,7 @@
    {
     "cat": "travel",
     "text": "It only settles once. After about a week drifting as a speck of plankton, a young clam picks a patch of reef, glues itself down, and never moves again.",
-    "more": "That one choice is the last big move it ever makes. Land somewhere too dark and the algae starve. Land somewhere too deep and the same. Everything after that is just growing — slowly, in the light, in one spot, for a very long time.",
+    "more": "That one choice is the last big move it ever makes. Land somewhere too dark and the algae inside it starve. Land somewhere too deep and the same. Everything after that is just growing — slowly, in the light, in one spot, for a very long time.",
     "kind": "found"
    },
    {
@@ -7537,7 +7537,7 @@
    },
    {
     "cat": "build",
-    "text": "The harpoon is disposable. After a meal the snail spits out the used tooth along with the fish's scales, and a fresh one is already waiting in the tube behind it.",
+    "text": "Its harpoon tooth is disposable. After a meal the snail spits out the used tooth along with the fish's scales. A fresh one is already waiting in the stretchy feeding tube behind it.",
     "more": "The teeth are grown in a row inside a pouch called the radular sac, each one hollowed and barbed before it is ever needed. Fire, discard, reload. There is always another loaded tooth ready to go.",
     "kind": "found"
    },
@@ -7584,7 +7584,7 @@
    },
    {
     "cat": "disguise",
-    "text": "The shell is the disguise. Those brown-and-white patterns look like nothing much on a sandy reef, and the snail spends most of the day buried anyway, with only its siphon showing.",
+    "text": "The shell is the disguise. Those brown-and-white patterns look like nothing much on a sandy reef. The snail spends most of the day buried anyway, with only its snorkel-like siphon showing.",
     "kind": "found"
    },
    {
@@ -7738,7 +7738,7 @@
    },
    {
     "cat": "disguise",
-    "text": "Others go the opposite way and disappear. A slug that lives on one particular sponge grows the exact color and bumpiness of that sponge — you can stare straight at it and miss it.",
+    "text": "Some sea slugs go the opposite way from bright warning colors and disappear. A slug that lives on one particular sponge grows the exact color and bumpiness of that sponge. You can stare straight at it and miss it.",
     "kind": "found"
    },
    {
@@ -7770,13 +7770,13 @@
    },
    {
     "cat": "build",
-    "text": "Muscle alone is far too slow for that. The mantis shrimp cocks its arm against a saddle-shaped spring in its shell, latches it, and lets go. That is a crossbow, not an arm.",
+    "text": "Muscle alone is far too slow to throw its punch. The mantis shrimp cocks its arm against a saddle-shaped spring in its shell, latches it, and lets go. That is a crossbow, not an arm.",
     "more": "The spring is a curved plate of stiff and stretchy layers that squashes flat as the muscle slowly pulls it down. A latch holds everything in place. When the latch slips, all that stored energy dumps out at once. Slow to load, impossible to dodge.",
     "kind": "found"
    },
    {
     "cat": "record",
-    "text": "It lands about 1,500 newtons of force. That is more than a thousand times its own body weight. It cracks open the shell of a crab, a snail or a clam like a nut.",
+    "text": "Its punch lands about 1,500 newtons of force. That is more than a thousand times its own body weight. It cracks open the shell of a crab, a snail or a clam like a nut.",
     "kind": "found"
    },
    {
@@ -7816,7 +7816,7 @@
    },
    {
     "cat": "copied",
-    "text": "Engineers are copying the club. The smasher's hammer takes thousands of hits without shattering, because inside it the fibers are stacked in a slow twisting spiral that stops cracks running.",
+    "text": "Engineers are copying the club of the shell-breaking smasher mantis shrimp. Its hammer takes thousands of hits without shattering, because inside it the fibers are stacked in a slow twisting spiral that stops cracks running.",
     "more": "A crack tries to travel straight. In a spiral stack there is no straight line to follow, so the crack bends, splits and runs out of energy. Materials scientists have built the same twisting pattern into test panels and body armor, chasing something light that simply refuses to break.",
     "kind": "found"
    },
@@ -7855,7 +7855,7 @@
    },
    {
     "cat": "food",
-    "text": "It never has to touch its dinner. A small fish or worm passing the burrow gets hit by the shockwave and stops moving. The shrimp strolls out and collects it.",
+    "text": "It never has to touch its dinner. A small fish or worm passing the burrow gets hit by the shockwave from its snapping claw and stops moving. The shrimp strolls out and collects it.",
     "more": "That is why the claw is shaped the way it is. There is no cutting edge and no crushing surface — just a plunger and a socket, built to slam and make a bubble. A shrimp that misses simply resets and waits.",
     "kind": "found"
    },
@@ -7867,7 +7867,7 @@
    },
    {
     "cat": "weird",
-    "text": "When the bubble collapses, it flashes. Real light, made by a shrimp — far too faint for your eye, but cameras in dark tanks have caught it.",
+    "text": "When the bubble from its claw snap collapses, it flashes. Real light, made by a shrimp — far too faint for your eye, but cameras in dark tanks have caught it.",
     "more": "The name for it is shrimpoluminescence. The collapse squeezes that speck of gas violently. It passes 5,000 degrees, about the temperature of the sun's surface. That lasts a few billionths of a second, then it goes dark. The shrimp itself is completely unbothered.",
     "kind": "found"
    },
@@ -8020,7 +8020,7 @@
    },
    {
     "cat": "size",
-    "text": "The body is the surprise. Nearly all that span is leg — the shell itself, the carapace, is only about 15.7 in (40 cm) across.",
+    "text": "The body is the surprise. Nearly all of its 12 ft (3.7 m) span is leg — the shell itself, the carapace, is only about 15.7 in (40 cm) across.",
     "kind": "found"
    },
    {
@@ -8188,7 +8188,7 @@
    },
    {
     "cat": "talk",
-    "text": "He waves it. Every species has its own wave — a slow arc, a sharp snap, a circle — and females read the timing as carefully as the size.",
+    "text": "He waves the big claw. Every species has its own wave — a slow arc, a sharp snap, a circle — and females read the timing as carefully as the size.",
     "more": "Put a hundred males on one mudflat and the whole surface flickers. A female walks through the display, stopping at burrow after burrow, and inspects the hole he dug as well as the crab waving beside it.",
     "kind": "found"
    },
@@ -8290,7 +8290,7 @@
    },
    {
     "cat": "food",
-    "text": "That record-breaking squid was caught mid-meal. It was still gripping a hooked Patagonian toothfish when the fishing line reached the surface.",
+    "text": "The record-breaking 1,091 lb (495 kg) squid hauled up off Antarctica was caught mid-meal. It was still gripping a hooked Patagonian toothfish when the fishing line reached the surface.",
     "kind": "found"
    },
    {
@@ -8445,7 +8445,7 @@
    {
     "cat": "food",
     "text": "Eight arms are for holding. The other two are hidden weapons: they fire out of pockets under the eyes in about 30 thousandths of a second, several times faster than you can blink.",
-    "more": "There is no bone anywhere in a tentacle. Muscle alone stiffens it. Squeezing one set of muscles makes the tentacle longer instead of fatter. It shoots out most of its own length again. The shrimp has not registered anything at all.",
+    "more": "There is no bone anywhere in a tentacle. Muscle alone stiffens it. Squeezing one set of muscles makes the tentacle longer instead of fatter. It shoots out most of its own length again. The shrimp it is aimed at has not registered anything at all.",
     "kind": "found"
    },
    {
@@ -8535,7 +8535,7 @@
    },
    {
     "cat": "senses",
-    "text": "Smell does most of the work instead. A nautilus tracks a dead crab through pitch-dark water by scent alone, and baited traps pull them in from a long way off.",
+    "text": "Its eyes are weak, so smell does most of the work. A nautilus tracks a dead crab through pitch-dark water by scent alone, and baited traps pull them in from a long way off.",
     "kind": "found"
    },
    {
@@ -8717,7 +8717,7 @@
    },
    {
     "cat": "food",
-    "text": "Bees, flies, butterflies, small wasps. The strike comes out of those folded front legs and it is finished before you could blink.",
+    "text": "Its prey: bees, flies, butterflies, small wasps. The strike comes out of its folded front legs and it is finished before you could blink.",
     "kind": "found"
    },
    {
@@ -8807,7 +8807,7 @@
    },
    {
     "cat": "sleep",
-    "text": "Tree lobsters pair up. Keepers watching them at night see the male resting with three of his legs draped over his female — behavior almost unheard of anywhere else among insects.",
+    "text": "Lord Howe Island stick insects, the tree lobsters, pair up. Keepers watching them at night see the male resting with three of his legs draped over his female — behavior almost unheard of anywhere else among insects.",
     "kind": "found"
    },
    {
@@ -8937,7 +8937,7 @@
    },
    {
     "cat": "gross",
-    "text": "Every time a termite moults it sheds its gut lining and loses its microbes along with it. It has to be topped up by a nestmate — and often that food comes out the back end.",
+    "text": "Every time a termite molts it sheds its gut lining, and with it the microbes that digest wood for it. It has to be topped up by a nestmate — and often that food comes out the back end.",
     "more": "Termites feed each other constantly, mouth to mouth and end to end. The word for it is trophallaxis. A newly hatched termite starts with no microbes at all and gets its starter culture the same way. The colony passes its digestion around like a recipe.",
     "kind": "found"
    },
@@ -9023,7 +9023,7 @@
    },
    {
     "cat": "size",
-    "text": "A flea is 0.06 to 0.13 in (1.5 to 3.3 mm) long. Three of them nose to tail would sit across your thumbnail. Everything else on this list is done by an animal that size.",
+    "text": "A flea is 0.06 to 0.13 in (1.5 to 3.3 mm) long. Three of them nose to tail would sit across your thumbnail. Everything a flea does, it does at that size.",
     "kind": "found"
    },
    {
@@ -9180,7 +9180,7 @@
    },
    {
     "cat": "build",
-    "text": "The nozzles whip side to side 30 to 60 times a second — about as fast as a hummingbird beats its wings — crossing the two streams into a tangled mesh. No muscle does the whipping.",
+    "text": "Its two slime nozzles, either side of the mouth, whip side to side 30 to 60 times a second. That is about as fast as a hummingbird beats its wings, and it crosses the two jets into a tangled mesh. No muscle does the whipping.",
     "more": "The nozzles are floppy tubes, and fluid shoved through a floppy tube fast enough starts to oscillate all by itself. It is the same physics as a garden hose dropped on the lawn while the water is still running.",
     "kind": "found"
    },
@@ -9273,7 +9273,7 @@
    },
    {
     "cat": "defence",
-    "text": "The slime is also a weapon. It carries a chemical that numbs the mouth of an animal that bites down, and it is sticky enough that the attacker often gives up mid-meal.",
+    "text": "Its slime doubles as a weapon. It carries a chemical that numbs the mouth of an animal that bites down. It is also sticky enough that the attacker often gives up mid-meal.",
     "more": "Pick one up and you will meet the same problem. The slime is nearly impossible to rinse off with water. Rubbing your hands with dry soil works far better than the faucet.",
     "kind": "found"
    },
@@ -9443,12 +9443,12 @@
    {
     "cat": "build",
     "text": "As it dries, it fills its own cells with special proteins. Those proteins set into a glass-like solid. Every fragile part is held exactly in place until water comes back.",
-    "more": "Cells losing their water normally tear themselves apart, because everything inside collapses together and sticks. Nothing inside a tun can move at all, so nothing can break. The animal becomes, for a while, a piece of living glass.",
+    "more": "Cells losing their water normally tear themselves apart, because everything inside collapses together and sticks. Nothing inside a dried tardigrade can move at all, so nothing can break. The animal becomes, for a while, a piece of living glass.",
     "kind": "found"
    },
    {
     "cat": "record",
-    "text": "In the tun state, tardigrades have survived being chilled to minus 272 C (minus 458 F) — one degree above the coldest temperature there can possibly be. Short spells only.",
+    "text": "Dried out and folded into a barrel shape called a tun, tardigrades have survived being chilled to minus 272 C (minus 458 F). That is one degree above the coldest temperature there can possibly be. Short spells only.",
     "more": "Heat is the opposite story. Warmth is the one thing a tardigrade is genuinely bad at. A hot afternoon on a dry wall is far more dangerous to it than a freezer ever was.",
     "kind": "found"
    },
@@ -9597,7 +9597,7 @@
   "facts": [
    {
     "cat": "build",
-    "text": "A barnacle is lying on its back in there, head cemented down, legs waving out of the top. Every time it feeds, it kicks food into its own mouth.",
+    "text": "A barnacle is lying on its back inside its shell, head cemented down, legs waving out of the top. Every time it feeds, it kicks food into its own mouth.",
     "more": "Those feathery legs are called cirri. They sweep out through the opening, curl shut around whatever plankton they catch, and haul it back inside. Watch a barnacle in a tide pool and you will see the little fan flick out and in, out and in.",
     "kind": "found"
    },
@@ -9837,7 +9837,7 @@
    },
    {
     "cat": "gross",
-    "text": "Inside that front sucker are three jaws arranged in a Y, each lined with rows of tiny teeth. The bite leaves a mark shaped like a three-pointed star.",
+    "text": "Inside its front sucker are three jaws arranged in a Y, each lined with rows of tiny teeth. The bite leaves a mark shaped like a three-pointed star.",
     "more": "The jaws saw rather than stab, rocking back and forth to open a small clean wound. There are around a hundred cutting edges in there, each finer than a pin point. The Y-shaped mark is distinctive enough that a doctor can spot a leech bite on sight.",
     "kind": "found"
    },
@@ -9969,7 +9969,7 @@
    },
    {
     "cat": "speed",
-    "text": "Bdelloid means leech-like, and that is how they usually travel: gripping with the head, arching the body, reaching forward again, exactly like an inchworm. They can swim too, using the corona.",
+    "text": "Bdelloid means leech-like, and that is how they usually travel: gripping with the head, arching the body, reaching forward again, exactly like an inchworm. They can swim too, using the corona, the rings of beating hairs on the head.",
     "kind": "found"
    },
    {
@@ -10173,7 +10173,7 @@
    },
    {
     "cat": "babies",
-    "text": "Here is the odd part. When a diatom divides, each new cell keeps one old half and builds the new half inside it. So the next one is slightly smaller. And the next.",
+    "text": "Here is the odd part. When a diatom divides, each new cell keeps one half of the old two-part shell and builds the other half inside it. So the next one is slightly smaller. And the next.",
     "more": "A line of diatoms shrinks a little with every single split, until they reach a lower limit. Then one cell escapes its shell completely, swells back to full size as a bare cell called an auxospore, and builds a brand-new large shell. Then the shrinking starts over.",
     "kind": "found"
    },

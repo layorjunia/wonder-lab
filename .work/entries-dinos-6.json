@@ -102,13 +102,13 @@
    },
    {
     "cat": "bones",
-    "text": "A smaller relative from the same park is called Quetzalcoatlus lawsoni. It is known from more than 300 bones belonging to over 200 individuals. That is more material than for any other pterosaur. It was named in 2021, fifty years after Lawson's first find.",
+    "text": "A smaller relative from Big Bend National Park in Texas, where the giant was found, is called Quetzalcoatlus lawsoni. It is known from more than 300 bones belonging to over 200 individuals. That is more material than for any other pterosaur. It was named in 2021, fifty years after Douglas Lawson found the giant's first bones there.",
     "more": "Its wings spanned about 15 to 20 ft (4.5 to 6 m). Its neck alone is 4 ft 11 in (1.5 m) long and its skull about 3 ft (0.95 m). Most of what is known about how the giant walked, fed and took off comes from this smaller one. So much more of it survived.",
     "kind": "found"
    },
    {
     "cat": "record",
-    "text": "No flying animal found anywhere is bigger. Its wingspan is scaled up from the more complete smaller relative. It works out to about 36 ft (11 m). That is about the same as a Cessna 172, the little four-seater plane you see at small airfields.",
+    "text": "No flying animal found anywhere is bigger. Its wingspan is scaled up from a smaller, far more complete relative, Quetzalcoatlus lawsoni. It works out to about 36 ft (11 m). That is about the same as a Cessna 172, the little four-seater plane you see at small airfields.",
     "more": "Early guesses were wilder still. One ran to 85 ft, which nobody defends now. The figure came down as more of the smaller relative was found. The giant's proportions could then be scaled from a complete animal rather than a few wing pieces.",
     "kind": "worked"
    },
@@ -130,7 +130,7 @@
    },
    {
     "cat": "food",
-    "text": "The jaws are long, thin, straight and toothless. The 2021 study argues it worked the shallows the way a stork does. It picked crabs, worms and clams out of river mud and lake edges. It did not snatch fish in flight.",
+    "text": "The jaws are long, thin, straight and toothless. A 2021 study argues it worked the shallows the way a stork does. It picked crabs, worms and clams out of river mud and lake edges. It did not snatch fish in flight.",
     "kind": "worked"
    },
    {
@@ -186,7 +186,7 @@
    },
    {
     "cat": "bones",
-    "text": "Georges Cuvier was the most respected anatomist in Europe. He saw the drawings and declared the neck too long to be real. He called it a fake, bones from different animals stuck together. The Geological Society examined the specimen in 1824 and found it genuine. Cuvier admitted he had judged too fast.",
+    "text": "Georges Cuvier was the most respected anatomist in Europe. He saw drawings of the Plesiosaurus skeleton Mary Anning had just dug up and declared the neck too long to be real. He called it a fake, bones from different animals stuck together. The Geological Society examined the specimen in 1824 and found it genuine. Cuvier admitted he had judged too fast.",
     "more": "It was a serious accusation. Anning made her living selling fossils, and a reputation for fakery would have ended that. The specimen survived the inspection because it was exactly what she said it was: one animal, in one piece, in the rock.",
     "kind": "record"
    },
@@ -242,7 +242,7 @@
    {
     "cat": "created",
     "text": "The teeth are forward-leaning needle cones, 20 to 25 in each upper row against 24 below. They never meet point to point — they slide past each other and shut into a cage. Half-meshed teeth leave gaps, and a fish leaves through a gap.",
-    "more": "The four flippers work the same way. Underwater flight needs all four shaped like wings and timed against each other. One wing and three stubs is not a slower version of the stroke; it is a spin.",
+    "more": "The four flippers work the same way. Its underwater flight needs all four shaped like wings and timed against each other. One wing and three stubs is not a slower version of the stroke; it is a spin.",
     "kind": "worked"
    }
   ],
@@ -352,7 +352,7 @@
    },
    {
     "cat": "bones",
-    "text": "Anning noticed odd stones lying where the belly had been in ichthyosaur skeletons. She broke them open and found fish scales, fish bones, sometimes bones of small ichthyosaurs. William Buckland worked out what they were. He named them coprolites in 1829. Fossil dung.",
+    "text": "Mary Anning noticed odd stones lying where the belly had been in ichthyosaur skeletons. She broke them open and found fish scales, fish bones, sometimes bones of small ichthyosaurs. William Buckland worked out what they were. He named them coprolites in 1829. Fossil dung.",
     "more": "It is a genuinely clever piece of detective work. A stone tells you nothing; a stone full of scales tells you what the animal ate, how it chewed and how quickly it digested. Buckland credited Anning by name.",
     "kind": "record"
    },
@@ -368,7 +368,7 @@
    },
    {
     "cat": "weird",
-    "text": "Not a dinosaur, and not a fish. Ichthyosaurus was a reptile that swam. Bone for bone it is built like a reptile, so it had to come up for air the way every reptile does. And the pregnant specimens show it bore live young instead of laying eggs on a beach.",
+    "text": "Not a dinosaur, and not a fish. Ichthyosaurus was a reptile that swam. Bone for bone it is built like a reptile, so it had to come up for air the way every reptile does. And fossils of pregnant females show it bore live young instead of laying eggs on a beach.",
     "kind": "worked"
    },
    {
@@ -379,12 +379,12 @@
    },
    {
     "cat": "senses",
-    "text": "The eye is huge, and holds a ring of bony plates inside it. A ring like that would have propped the eyeball against the push of the water. The record for the largest eye of any animal belongs to Temnodontosaurus. It is a bigger relative from the same Dorset cliffs, at 10 in (26 cm) across.",
+    "text": "The eye is huge, and holds a ring of bony plates inside it. A ring like that would have propped the eyeball against the push of the water. The record for the largest eye of any animal belongs to Temnodontosaurus. It is a bigger relative from the same Dorset cliffs as Ichthyosaurus, with an eye 10 in (26 cm) across.",
     "kind": "found"
    },
    {
     "cat": "food",
-    "text": "Stomach contents show fish and belemnites, squid-like animals with a hard internal shell. Buckland thought some of the coprolites were black because of ink swallowed along with them.",
+    "text": "Stomach contents show fish and belemnites, squid-like animals with a hard internal shell. William Buckland, who named fossil dung coprolites, thought some coprolites were black from ink swallowed along with the belemnites.",
     "kind": "found"
    },
    {
@@ -395,18 +395,18 @@
    },
    {
     "cat": "weird",
-    "text": "Collecting on that coast is dangerous work. The cliffs give up bones after a winter storm and then slide. In October 1833 a landslide came down on Mary Anning, missed her, and buried her dog Tray.",
+    "text": "Collecting fossils on the Dorset coast is dangerous work. The cliffs give up bones after a winter storm and then slide. In October 1833 a landslide came down on Mary Anning, missed her, and buried her dog Tray.",
     "kind": "record"
    },
    {
     "cat": "created",
-    "text": "The cold is the harder problem. It bore its young alive in open water. Nothing in its build fits coming ashore. So it could not haul out onto a warm rock the way a lizard does.",
-    "more": "The cold is the harder problem. It bore its young alive in open water and never came ashore, so it could not haul out onto a warm rock the way a lizard does.",
+    "text": "Cold is a hard problem for Ichthyosaurus. It bore its young alive in open water. Nothing in its build fits coming ashore. So it could not haul out onto a warm rock the way a lizard does.",
+    "more": "Cold is a hard problem for Ichthyosaurus. It bore its young alive in open water and never came ashore. So it could not haul out onto a warm rock the way a lizard does.",
     "kind": "worked"
    },
    {
     "cat": "created",
-    "text": "A fisherman would have taken the fin for a dolphin's, until the head lifted: a long snout of small teeth, a great round eye. Nothing in its build fits coming ashore, so there are no tracks to find. The men who dug them from those cliffs called them sea dragons.",
+    "text": "A fisherman would have taken the fin for a dolphin's, until the head lifted: a long snout of small teeth, a great round eye. Nothing in its build fits coming ashore, so there are no tracks to find. The men who dug them from the Dorset cliffs called them sea dragons.",
     "more": "A boat crew could have seen one thing we only ever meet in stone. A birth in open water, tail first. The baby swims up for its first breath on its own.",
     "kind": "worked"
    }
