@@ -6,7 +6,7 @@
 // cache not named here, which is what clears the old Piper clips off every
 // installed device. Offline.CACHE in js/audio.js must use the same name.
 const OFFLINE_CACHE = 'wonderlab-offline-v2';
-const CACHE = 'wonderlab-20261001-1259-d3bf12c8';
+const CACHE = 'wonderlab-20261001-1307-dbec0e68';
 const SHELL = [
   '.', 'index.html', 'css/style.css', 'manifest.json',
   'css/fonts.css',
@@ -21,6 +21,7 @@ const SHELL = [
   // which is worse: it looks like the app, minus most of it.
   'js/cutouts.js', 'js/animals.js', 'js/body.js', 'js/plants.js', 'js/earth.js', 'js/astro.js',
   'js/ancient.js', 'js/america.js', 'js/world.js', 'js/micro.js', 'js/physical.js',
+  'js/economics.js',
   'img/credits.json',
   // Precached so the very first Listen tap resolves against a real manifest
   // rather than null. The player also awaits its own fetch now, so this is

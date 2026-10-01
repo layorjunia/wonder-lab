@@ -791,6 +791,7 @@ h3 { font-weight: 700; font-size: var(--fs-md); }
              --pat-size: auto; }
 .pat-scroll{ --pat: repeating-linear-gradient(0deg, currentColor 0 1px, transparent 1px 7px); --pat-size: auto; }
 .pat-star2 { --pat: radial-gradient(circle, currentColor 1.6px, transparent 1.8px); --pat-size: 30px 30px; }
+.pat-coin  { --pat: radial-gradient(circle, transparent 7px, currentColor 7px 8px, transparent 8px); --pat-size: 24px 24px; }
 
 /* ── The hero ──
    The app used to open on a grid of empty tinted boxes. It opens on a

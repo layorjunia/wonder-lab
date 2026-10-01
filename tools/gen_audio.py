@@ -79,7 +79,7 @@ const load = f => { const s = fs.readFileSync(f, 'utf8')
 load('js/schema.js'); load('js/animals.js'); load('js/body.js');
 load('js/expeditions.js');
 load('js/plants.js'); load('js/earth.js'); load('js/astro.js');
-['ancient', 'america', 'world', 'micro', 'physical'].forEach(f => load('js/' + f + '.js'));
+['ancient', 'america', 'world', 'micro', 'physical', 'economics'].forEach(f => load('js/' + f + '.js'));
 const out = [];
 const push = (src, field, id, t) => { if (t && String(t).trim())
   out.push({ src, field, id, text: String(t) }); };

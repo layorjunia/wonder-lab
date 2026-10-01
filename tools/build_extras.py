@@ -40,6 +40,8 @@ AMERICA_SECTIONS = {'explorers', 'colonies', 'founding', 'inventors',
                     'frontier', 'machines', 'flight', 'everyday'}
 WORLD_SECTIONS = {'middle', 'voyages', 'printing', 'discovery', 'builders',
                   'faroff', 'medicine', 'modern'}
+ECONOMICS_SECTIONS = {'money', 'trade', 'work', 'business', 'choices',
+                      'saving', 'supply', 'world'}
 BODY_SECTIONS = {'brain', 'heart', 'bones', 'lungs', 'senses', 'gut', 'skin',
                  'defence', 'growing', 'sleep', 'cells', 'voice', 'hands', 'heat'}
 MAX_WORDS = 60
@@ -292,6 +294,7 @@ def main():
         ('world',    'WORLD',    WORLD_SECTIONS,    'World history', True),
         ('micro',    'MICRO',    MICRO_SECTIONS,    'Microbiology', False),
         ('physical', 'PHYSICAL', PHYSICAL_SECTIONS, 'Physical science', False),
+        ('economics', 'ECONOMICS', ECONOMICS_SECTIONS, 'Economics', False),
     ]
     for key, const, secs, human, is_history in NEW:
         rows = []

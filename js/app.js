@@ -83,7 +83,7 @@ const App = {
       || (tab === 'astro' ? () => this.sky() : null)
       || (['ancient', 'america', 'world', 'earth'].includes(tab)
           ? () => this.mapHall(tab) : null)
-      || (['micro', 'physical'].includes(tab) ? () => this.benchHall(tab) : null)
+      || (['micro', 'physical', 'economics'].includes(tab) ? () => this.benchHall(tab) : null)
       || (TOPIC_SETS[tab] ? () => this.topics(tab) : null)
       || (() => this.today()))();
     this.renderNav();
@@ -508,6 +508,8 @@ const App = {
           tint: '#ff9f7a', sub: `${this.topicCfg('america').rows.length} facts` },
         { go: 'world', name: 'World History', glyph: '🌐', pat: 'star2',
           tint: 'var(--violet)', sub: `${this.topicCfg('world').rows.length} facts` },
+        { go: 'economics', name: 'Economics', glyph: '🪙', pat: 'coin',
+          tint: '#e0b84a', sub: `${this.topicCfg('economics').rows.length} facts` },
       ]],
     ];
 
@@ -622,7 +624,7 @@ const App = {
     this.resetSay();
     const tried = Progress.p.tried || {};
     const stations = [];
-    ['physical', 'micro'].forEach(k => {
+    ['physical', 'micro', 'economics'].forEach(k => {
       const cfg = this.topicCfg(k);
       Object.entries(cfg.secs).forEach(([sk, sv]) => {
         const rows = cfg.rows.filter(e => e.section === sk);
@@ -816,7 +818,8 @@ const App = {
   realm(key) {
     const MAP = { guide: 'life', plants: 'life', parade: 'life',
       micro: 'micro', body: 'flesh', earth: 'terra', astro: 'astro',
-      physical: 'terra', ancient: 'chron', america: 'chron', world: 'chron' };
+      physical: 'terra', ancient: 'chron', america: 'chron', world: 'chron',
+      economics: 'chron' };
     document.body.dataset.realm = MAP[key] || 'base';
   },
 

@@ -158,6 +158,14 @@ const CATEGORIES = {
   when:     { name: 'When It Happened', glyph: '📅' },
   people:   { name: 'The People',       glyph: '👥' },
   howworks: { name: 'How It Works',     glyph: '⚙️' },
+
+  /* Economics. "A trade" and "a choice" are the two atoms of the whole
+     subject — almost every card is one or the other, so each gets its own
+     category rather than getting folded into the generic `howworks`. */
+  trade:    { name: 'Trading & Exchange', glyph: '🤝' },
+  choices:  { name: 'Making Choices',    glyph: '⚖️' },
+  saving:   { name: 'Saving & Spending', glyph: '🐷' },
+  work:     { name: 'Jobs & Work',       glyph: '🛠️' },
 };
 
 // Comparable stats, so "compare two animals" works for any pair.
@@ -202,6 +210,17 @@ const GAME_PHRASES = {
   // The voice chooser's sample line — living here means gen_audio.py records
   // it in every voice without anyone remembering to.
   voicesample: "Hi! I can read every card to you. Tap Listen and I'll tell you a wonder.",
+};
+
+const ECONOMICS_SECTIONS = {
+  money:    { name: 'What Money Is',       glyph: '🪙' },
+  trade:    { name: 'Trading & Markets',   glyph: '🤝' },
+  work:     { name: 'Jobs & Work',         glyph: '🛠️' },
+  business: { name: 'Starting a Business', glyph: '🏭' },
+  choices:  { name: 'Scarcity & Choices',  glyph: '⚖️' },
+  saving:   { name: 'Saving & Spending',   glyph: '🐷' },
+  supply:   { name: 'Supply & Demand',     glyph: '📈' },
+  world:    { name: 'Trade Around The World', glyph: '🌍' },
 };
 
 /* ── The five new subjects ──────────────────────────────────────────────
@@ -280,6 +299,7 @@ const TOPIC_SETS = {
   ancient:  { name: 'Ancient History',  glyph: '🏺', pat: 'brick',  data: 'ANCIENT',  secs: 'ANCIENT_SECTIONS' },
   america:  { name: 'American History', glyph: '🦅', pat: 'scroll', data: 'AMERICA',  secs: 'AMERICA_SECTIONS' },
   world:    { name: 'World History',    glyph: '🌐', pat: 'star2',  data: 'WORLD',    secs: 'WORLD_SECTIONS' },
+  economics: { name: 'Economics',       glyph: '🪙', pat: 'coin',   data: 'ECONOMICS', secs: 'ECONOMICS_SECTIONS' },
 };
 
 /* ── The three wings ──
