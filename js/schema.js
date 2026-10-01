@@ -199,6 +199,9 @@ const GAME_PHRASES = {
   longer:  'Which is longer?',
   taller:  'Which is taller?',
   lives:   'Which lives longer?',
+  // The voice chooser's sample line — living here means gen_audio.py records
+  // it in every voice without anyone remembering to.
+  voicesample: "Hi! I can read every card to you. Tap Listen and I'll tell you a wonder.",
 };
 
 /* ── The five new subjects ──────────────────────────────────────────────

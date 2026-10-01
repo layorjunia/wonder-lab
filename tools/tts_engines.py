@@ -384,6 +384,97 @@ class PiperEngine:
         self._write(seq, out_path)
 
 
+class KokoroEngine:
+    """Kokoro (hexgrad/Kokoro-82M) — a local neural TTS, Apache-2.0, 82M
+    parameters. Same deal as Piper: runs on this Mac, no key, no billing, no
+    network at build time. It is noticeably more natural than Piper —
+    inflection, real pauses between sentences, expression — which is why Jacob
+    picked it over the device voice in Lamplight ("way better", 2026-09-28).
+
+    Deliberately NO phoneme-level methods. Piper stays the engine for isolated
+    letter sounds: a neural TTS is the wrong tool for a single phoneme, and
+    that whole argument is written up under `ipa_to_espeak` below. Wonder Lab
+    narrates facts, so it never needs them.
+
+    See KOKORO-VOICE-UPGRADE.md. Pronunciations for words Kokoro has to guess
+    live in tools/lexicon.py.
+    """
+
+    name = 'kokoro'
+    ext = '.m4a'
+    VOICE_NAME = os.environ.get('KOKORO_VOICE', 'af_heart')
+    SR = 24000
+
+    def __init__(self, voice=None, speed=0.95, device=None):
+        # Some ops have no MPS kernel; without this the run dies partway.
+        os.environ.setdefault('PYTORCH_ENABLE_MPS_FALLBACK', '1')
+        try:
+            import torch
+            from kokoro import KModel, KPipeline
+        except ImportError as e:
+            raise RuntimeError(
+                'kokoro is not installed. Set it up with:\n'
+                '  ~/.local/bin/uv pip install -p .venv-tts/bin/python "kokoro>=0.9" soundfile\n'
+                'then run gen_audio.py with .venv-tts/bin/python') from e
+        # Read the environment HERE, not from the class attribute: gen_audio
+        # sets KOKORO_VOICE after this module is imported, and the class body
+        # ran at import time — `--voice af_bella` would render af_heart.
+        self.voice = voice or os.environ.get('KOKORO_VOICE', 'af_heart')
+        self.speed = speed
+        threads = int(os.environ.get('KOKORO_THREADS', '0'))
+        if threads:
+            torch.set_num_threads(threads)
+        dev = device or os.environ.get('KOKORO_DEVICE') \
+            or ('mps' if torch.backends.mps.is_available() else 'cpu')
+        model = KModel(repo_id='hexgrad/Kokoro-82M').to(dev).eval()
+        # A British voice (bf_*, bm_*) needs the British frontend.
+        self.pipe = KPipeline(lang_code='b' if self.voice[0] == 'b' else 'a',
+                              repo_id='hexgrad/Kokoro-82M', model=model)
+        self.lang = 'b' if self.voice[0] == 'b' else 'a'
+        self._lock = threading.Lock()   # the Kokoro pipeline is not thread-safe
+
+    def speak_text(self, text, out_path):
+        import numpy as np
+        import soundfile as sf
+        from lexicon import tts_text
+        t = tts_text(text, self.lang)
+        # Without final punctuation the model trails off instead of landing.
+        if t.strip()[-1:] not in '.!?':
+            t = t.rstrip() + '.'
+        with self._lock:
+            chunks = [np.asarray(a) for _, _, a in
+                      self.pipe(t, voice=self.voice, speed=self.speed)]
+        if not chunks:
+            raise RuntimeError('kokoro produced no audio for: ' + text[:60])
+        gap = np.zeros(int(0.12 * self.SR), dtype=np.float32)
+        a = np.concatenate([x for c in chunks for x in (self._trim(c), gap)][:-1])
+        a = self._trim(a)
+        wav = out_path + '.wav'
+        sf.write(wav, a, self.SR, subtype='PCM_16')
+        try:
+            r = subprocess.run(
+                ['afconvert', '-f', 'm4af', '-d', 'aac',
+                 '-b', os.environ.get('KOKORO_BITRATE', '32000'), wav, out_path],
+                capture_output=True, text=True)
+        finally:
+            os.unlink(wav)
+        if r.returncode != 0:
+            raise RuntimeError('afconvert: ' + r.stderr.strip()[:200])
+
+    def _trim(self, a, pad=0.03):
+        """Cut the model's edge silence to an even margin.
+
+        The player puts the pauses between lines; leaving the model's own
+        ragged head and tail in makes a sequence of clips sound stuttery.
+        """
+        import numpy as np
+        idx = np.where(np.abs(a) > 0.012)[0]
+        if not len(idx):
+            return a
+        p = int(pad * self.SR)
+        return a[max(0, idx[0] - p): idx[-1] + p]
+
+
 def get_engine(name):
     if name == 'google':
         return GoogleEngine()
@@ -391,6 +482,8 @@ def get_engine(name):
         return AppleEngine()
     if name == 'piper':
         return PiperEngine()
+    if name == 'kokoro':
+        return KokoroEngine()
     raise ValueError('unknown engine: ' + name)
 
 

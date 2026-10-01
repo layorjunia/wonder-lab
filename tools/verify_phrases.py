@@ -122,7 +122,13 @@ def main():
     ap.add_argument('--workers', type=int, default=4)
     ap.add_argument('--out', default=os.path.join(ROOT, 'tools',
                                                   'verify-phrases-report.json'))
+    # Voices live in their own folders now (audio/heart, audio/bella, ...);
+    # each has its own manifest and gets verified on its own.
+    ap.add_argument('--dir', default='audio/heart')
     args = ap.parse_args()
+
+    global AUDIO
+    AUDIO = args.dir if os.path.isabs(args.dir) else os.path.join(ROOT, args.dir)
 
     from faster_whisper import WhisperModel
 

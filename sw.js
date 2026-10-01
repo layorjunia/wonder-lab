@@ -2,8 +2,11 @@
 // Bump CACHE whenever app code changes so installed devices pick it up.
 // Downloaded offline packs live here, unversioned, and survive every deploy.
 // caches.match() below searches every cache, so nothing else has to know.
-const OFFLINE_CACHE = 'wonderlab-offline';
-const CACHE = 'wonderlab-20260822-1703-d63854b';
+// The -v2 bump is the Kokoro re-record: the activate step below deletes every
+// cache not named here, which is what clears the old Piper clips off every
+// installed device. Offline.CACHE in js/audio.js must use the same name.
+const OFFLINE_CACHE = 'wonderlab-offline-v2';
+const CACHE = 'wonderlab-20260930-2115-77d2391';
 const SHELL = [
   '.', 'index.html', 'css/style.css', 'manifest.json',
   'css/fonts.css',
@@ -27,7 +30,9 @@ const SHELL = [
   // lives on the audio origin, so it is fetched (and cached) at runtime by the
   // cross-origin branch below rather than precached here — the player awaits
   // its own fetch, so the first Listen still resolves against a real manifest.
-  ...(location.origin.endsWith('github.io') ? ['audio/manifest.json'] : []),
+  // Only the default voice's manifest: the worker cannot know which voice the
+  // profile chose, and the runtime branch below caches the other one on use.
+  ...(location.origin.endsWith('github.io') ? ['audio/heart/manifest.json'] : []),
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-180.png'
 ];
 

@@ -40,7 +40,7 @@ globalThis.document = { addEventListener() {}, removeEventListener() {},
 globalThis.location = { hostname: 'localhost', protocol: 'http:', origin: 'http://localhost' };
 const fs = require('fs');
 const AudioLib = eval(fs.readFileSync('js/audio.js', 'utf8') + '; AudioLib');
-AudioLib.manifest = JSON.parse(fs.readFileSync('audio/manifest.json', 'utf8'));
+AudioLib.manifest = JSON.parse(fs.readFileSync('audio/heart/manifest.json', 'utf8'));
 const lines = fs.readFileSync(process.argv[2], 'utf8').split('\n');
 lines.pop();
 console.log(JSON.stringify(lines.map(l => AudioLib.resolve(l).kind)));

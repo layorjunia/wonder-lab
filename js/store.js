@@ -28,6 +28,7 @@ const Store = {
     return {
       id: 'p' + Math.random().toString(36).slice(2, 10),
       name,
+      voice: 'heart',   // narration voice key — see VOICES in js/audio.js
       cloud: false, uid: null,
       p: {
         species: {},      // id -> { seen:1, right:n, days:[dayKey], state }

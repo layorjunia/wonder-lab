@@ -63,10 +63,16 @@ document.getElementById('go').addEventListener('click', async () => {
     row('manifest', AudioLib.manifest
         ? Object.keys(AudioLib.manifest.words).length + ' clips'
         : 'FAILED TO LOAD', AudioLib.manifest ? 'ok' : 'bad');
+    row('voice', AudioLib.voice
+        + (AudioLib.manifest ? ' — ' + (AudioLib.manifest.engine || '?') + ' '
+           + (AudioLib.manifest.voice || '') : ''));
   } catch (e) { row('manifest', 'threw: ' + errName(e), 'bad'); }
 
+  // fileFor returns voice-folder-prefixed paths; the raw manifest values are
+  // folder-relative, so the fallback prefixes one the same way.
   const file = AudioLib.fileFor('Tarsier')
-            || (AudioLib.manifest && Object.values(AudioLib.manifest.words)[0]);
+            || (AudioLib.manifest
+                && AudioLib.voice + '/' + Object.values(AudioLib.manifest.words)[0]);
   if (!file) { row('clip lookup', 'no clip to test with', 'bad'); return; }
   row('test clip', file);
 

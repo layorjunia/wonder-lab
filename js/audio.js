@@ -1,4 +1,4 @@
-// AudioLib — plays pre-generated voice clips (audio/manifest.json).
+// AudioLib — plays pre-generated voice clips (audio/<voice>/manifest.json).
 //
 // Nothing here uses the browser's speech synthesiser for real content. Every
 // word, sentence, letter sound and letter name is a file generated at build
@@ -32,6 +32,19 @@ const AUDIO_BASE = (function () {
   return 'https://layorjunia.github.io/wonder-lab/audio/';
 })();
 
+// The narration voices (Kokoro, rendered at build time — see
+// KOKORO-VOICE-UPGRADE.md). Each voice is a complete recording of the corpus
+// in its own folder — audio/<key>/p/*.m4a plus its own manifest.json — with
+// IDENTICAL clip file names, so switching voices is only switching folders.
+// `heart` is the default AND the fallback: a line missing from another voice
+// plays in Heart before it ever falls to the browser voice.
+const VOICES = {
+  heart: { label: 'Heart', sub: 'Warm and cozy' },
+  // Add a voice here only once audio/<key>/ is fully recorded
+  // (tools/record_voice.sh <key> <kokoro id>). With one voice the chooser hides.
+};
+const DEFAULT_VOICE = 'heart';
+
 // 12 ms of 8 kHz silence. Played once on the first gesture purely to mark the
 // shared element as user-initiated; short enough that nobody hears it.
 const SILENCE = 'data:audio/wav;base64,UklGRuwAAABXQVZFZm10IBAAAAABAAEAQB8AAEAf'
@@ -42,6 +55,8 @@ const SILENCE = 'data:audio/wav;base64,UklGRuwAAABXQVZFZm10IBAAAAABAAEAQB8AAEAf'
 
 const AudioLib = {
   manifest: null,      // { words: {normalised text -> file}, engine, voice }
+  voice: DEFAULT_VOICE, // which VOICES folder `manifest` came from
+  _fb: null,           // the default voice's manifest, when voice !== default
   ready: false,
   _current: null,
   _el: null,           // the one shared, gesture-unlocked <audio>
@@ -50,22 +65,15 @@ const AudioLib = {
   _unlocked: false,
 
   init() {
-    // Keep the promise, do not fire and forget. The reference sets `ready` and
-    // never reads it, so a very first tap on a cold load resolves against a
-    // null manifest and speaks in the browser voice. _playSeq awaits this.
-    // Version the manifest by build id. Without it the browser (and the
-    // service worker, and Pages' own 10-minute cache) happily serve the
-    // previous manifest after a re-render: the new clips are sitting on the
-    // server, fileFor misses every one of them, and the app quietly speaks in
-    // the browser voice while sounding perfect on a fresh load.
-    const build = (document.querySelector('meta[name="build"]') || {}).content
-                || (document.querySelector('meta[name="build"]')
-                    && document.querySelector('meta[name="build"]').getAttribute('content'))
-                || '';
-    this.loading = fetch(AUDIO_BASE + 'manifest.json' + (build ? '?v=' + encodeURIComponent(build) : ''))
-      .then(r => r.ok ? r.json() : null)
-      .then(m => { this.manifest = m; this.ready = !!m; })
-      .catch(() => { this.manifest = null; });
+    // The profile's chosen voice, read straight from storage: this file loads
+    // (and should start its manifest fetch) before store.js has built
+    // Progress. The key literal must match Store.KEY in js/store.js.
+    try {
+      const d = JSON.parse(localStorage.getItem('wonderlab:v1'));
+      const p = d && d.activeId && d.profiles[d.activeId];
+      if (p && VOICES[p.voice]) this.voice = p.voice;
+    } catch (e) { /* fresh device — default voice */ }
+    this.loading = this._load(this.voice);
     // iOS gesture unlock. See el() for why this has to be the SAME element
     // every clip plays through, and why it fires in the capture phase.
     const EVENTS = ['pointerdown', 'touchend', 'click'];
@@ -95,6 +103,42 @@ const AudioLib = {
     // handler runs — say() awaits the manifest before it plays, and by then
     // the gesture is over.
     EVENTS.forEach(ev => document.addEventListener(ev, unlock, true));
+  },
+
+  // Fetch a voice's manifest (and the default voice's, for fallback).
+  //
+  // Keep the promise, do not fire and forget. The reference sets `ready` and
+  // never reads it, so a very first tap on a cold load resolves against a
+  // null manifest and speaks in the browser voice. _playSeq awaits this.
+  // Version the manifest by build id. Without it the browser (and the
+  // service worker, and Pages' own 10-minute cache) happily serve the
+  // previous manifest after a re-render: the new clips are sitting on the
+  // server, fileFor misses every one of them, and the app quietly speaks in
+  // the browser voice while sounding perfect on a fresh load.
+  _load(v) {
+    const build = (document.querySelector('meta[name="build"]') || {}).content || '';
+    const q = build ? '?v=' + encodeURIComponent(build) : '';
+    const get = k => fetch(AUDIO_BASE + k + '/manifest.json' + q)
+      .then(r => r.ok ? r.json() : null).catch(() => null);
+    return Promise.all([get(v), v !== DEFAULT_VOICE ? get(DEFAULT_VOICE) : null])
+      .then(([m, fb]) => {
+        // A voice whose manifest will not load falls back WHOLE to the
+        // default voice rather than to silence or the browser voice.
+        this.voice = m ? v : DEFAULT_VOICE;
+        this.manifest = m || fb;
+        this._fb = m ? fb : null;
+        this.ready = !!this.manifest;
+      });
+  },
+
+  // Switch the narration voice (a profile choice). Lookups after this use the
+  // new folder; the returned promise resolves when the manifest has landed.
+  setVoice(v) {
+    if (!VOICES[v]) v = DEFAULT_VOICE;
+    if (v === this.voice && this.manifest) return this.loading || Promise.resolve();
+    this.voice = v;
+    this.loading = this._load(v);
+    return this.loading;
   },
 
   // ONE audio element for the whole app.
@@ -127,11 +171,23 @@ const AudioLib = {
       .trim();
   },
 
+  // One key, looked up in the chosen voice first and the default voice
+  // second. Returns a path RELATIVE TO AUDIO_BASE, voice folder included, so
+  // the player and the offline downloader never have to know which voice a
+  // clip came from.
+  _lookup(k) {
+    const hit = m => m && (m.words[k] || m.words[k.replace(/'/g, '')]);
+    const f = hit(this.manifest);
+    if (f) return this.voice + '/' + f;
+    const g = hit(this._fb);
+    return g ? DEFAULT_VOICE + '/' + g : null;
+  },
+
   fileFor(text) {
     if (!this.manifest) return null;
-    const k = this.norm(text);
-    // Clip names drop apostrophes ("let's" is stored as "lets").
-    return this.manifest.words[k] || this.manifest.words[k.replace(/'/g, '')] || null;
+    // Clip names drop apostrophes ("let's" is stored as "lets") — _lookup
+    // tries both spellings.
+    return this._lookup(this.norm(text));
   },
 
   // Resolve text to playable items and report HOW it was resolved.
@@ -144,8 +200,7 @@ const AudioLib = {
     if (f) return { kind: 'clip', items: [{ file: f }] };
 
     const words = this.norm(text).split(/[^a-z']+/).filter(Boolean);
-    const found = words.map(w => this.manifest &&
-      (this.manifest.words[w] || this.manifest.words[w.replace(/'/g, '')]));
+    const found = words.map(w => this.manifest && this._lookup(w));
     // length >= 1 so trailing punctuation ("cat!") still finds the word clip
     // instead of silently dropping to browser speech.
     if (words.length >= 1 && found.every(Boolean)) {
@@ -347,19 +402,29 @@ const Offline = {
   // A cache of its own, and deliberately NOT the versioned one. The service
   // worker's cache name carries the build id and its activate step deletes
   // every other cache, so a pack stored there would be wiped by the next
-  // deploy and the child would re-download the lot. This name never changes
-  // and sw.js is told to leave it alone.
-  CACHE: 'wonderlab-offline',
+  // deploy and the child would re-download the lot. This name only changes
+  // when the clips themselves are replaced wholesale — the -v2 bump is the
+  // Kokoro re-record, and it lets sw.js delete the megabytes of old Piper
+  // clips still sitting on every installed device. sw.js must use the same
+  // name.
+  CACHE: 'wonderlab-offline-v2',
 
   done() { try { return JSON.parse(localStorage.getItem(this.KEY)) || {}; }
            catch (e) { return {}; } },
 
+  // Marks are per voice: a pack downloaded in Heart says nothing about Bella,
+  // and switching voices has to offer the download again rather than claim
+  // "works with no wifi" about clips that were never fetched. Old bare marks
+  // from the Piper era simply never match again, which is correct — those
+  // clips are gone from the server.
+  _k(id) { return AudioLib.voice + ':' + id; },
+
   mark(id, bytes) {
-    const d = this.done(); d[id] = bytes;
+    const d = this.done(); d[this._k(id)] = bytes;
     localStorage.setItem(this.KEY, JSON.stringify(d));
   },
 
-  has(id) { return !!this.done()[id]; },
+  has(id) { return !!this.done()[this._k(id)]; },
 
   // Every distinct clip a set of strings resolves to. Deduplicated, because
   // section names and "Try it now" repeat on every card in the section.

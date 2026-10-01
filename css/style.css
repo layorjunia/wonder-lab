@@ -351,6 +351,20 @@ h3 { font-weight: 700; font-size: var(--fs-md); }
   display: flex; align-items: center; justify-content: center; font-size: 1.6rem;
 }
 .pin-slot.filled { border-color: var(--cyan); background: rgba(79,214,232,.10); }
+/* ── narration voice chooser (Field Notes) ── */
+.voice-row { display: flex; gap: 10px; margin-top: 12px; }
+.voice-opt {
+  flex: 1; cursor: pointer; text-align: left;
+  background: var(--ink-3); border: 1px solid var(--line);
+  border-radius: 12px; padding: 12px 14px;
+  display: flex; flex-direction: column; gap: 3px;
+  transition: border-color .12s, transform .08s;
+}
+.voice-opt span { color: var(--text-dim); font-size: .82rem; }
+.voice-opt:active { transform: scale(.97); }
+.voice-opt.on { border-color: var(--lime-dark); background: rgba(168,240,98,.08); }
+.voice-opt.on b { color: var(--lime); }
+
 .emoji-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
 .emoji-btn {
   aspect-ratio: 1; font-size: 1.7rem; cursor: pointer;

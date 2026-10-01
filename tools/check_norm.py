@@ -51,7 +51,9 @@ def main():
     strings = []
     for key, _ in corpus():
         strings.append(key)
-    mpath = os.path.join(ROOT, 'audio', 'manifest.json')
+    # The default voice's manifest — every voice has identical keys, so one is
+    # enough to prove the two norm() implementations agree.
+    mpath = os.path.join(ROOT, 'audio', 'heart', 'manifest.json')
     if os.path.exists(mpath):
         strings += list(json.load(open(mpath, encoding='utf-8'))['words'])
     # newline-delimited, so anything containing a newline cannot be compared

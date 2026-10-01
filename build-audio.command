@@ -7,7 +7,7 @@
 # missing clip (browser voice on one line).
 set -e
 cd "$(dirname "$0")"
-.venv-tts/bin/python tools/gen_audio.py "$@"
+.venv-tts/bin/python tools/gen_audio.py --engine kokoro --voice af_heart --out audio/heart "$@"
 .venv-tts/bin/python tools/check_norm.py
 .venv-tts/bin/python tools/audit_resolve.py
 echo

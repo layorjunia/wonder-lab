@@ -1339,6 +1339,36 @@ const App = {
     </div>`;
   },
 
+  // ── narration voice ──
+  // The choice lives on the profile and the recordings live per voice, so
+  // this is genuinely "who reads to you", not a pitch filter. Tapping an
+  // option saves it AND plays the sample line in that voice — hearing the
+  // difference IS the chooser; labels alone mean nothing to a child.
+  voiceCard() {
+    if (Object.keys(VOICES).length < 2) return '';
+    const cur = (Progress.profile && Progress.profile.voice) || 'heart';
+    return `<div class="card" style="margin-top:16px">
+      <h2>Reading voice</h2>
+      <p class="dim small" style="margin-top:6px">Who reads the cards out loud.
+        Tap one to hear her.</p>
+      <div class="voice-row">
+        ${Object.entries(VOICES).map(([k, v]) => `
+          <button class="voice-opt ${k === cur ? 'on' : ''}" data-v="${k}"
+            onclick="App.pickVoice('${k}')">
+            <b>${v.label}</b><span>${v.sub}</span>
+          </button>`).join('')}
+      </div>
+    </div>`;
+  },
+
+  async pickVoice(v) {
+    if (Progress.profile) { Progress.profile.voice = v; Progress.commit(); }
+    document.querySelectorAll('.voice-opt').forEach(b =>
+      b.classList.toggle('on', b.dataset.v === v));
+    await AudioLib.setVoice(v);
+    AudioLib.speak(GAME_PHRASES.voicesample);
+  },
+
   _pin: [],
 
   cloud() {
@@ -2333,6 +2363,7 @@ const App = {
       }).join('') : `<div class="card"><p class="dim">
         Nothing saved yet. Tap <b>☆ Whoa!</b> on any fact that surprises you and
         it lands here.</p></div>`}
+      ${this.voiceCard()}
       ${this.cloudCard()}
       <div class="card" style="margin-top:16px">
         <h2>Photo credits</h2>

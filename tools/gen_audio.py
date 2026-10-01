@@ -246,6 +246,11 @@ def validate(manifest, check_energy):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--engine', default=os.environ.get('TTS_ENGINE', 'piper'))
+    # Each voice is recorded into its own folder with its own manifest and the
+    # SAME clip file names, so switching voice in the app is only switching the
+    # base folder. See KOKORO-VOICE-UPGRADE.md.
+    ap.add_argument('--voice', default='', help='engine voice id, e.g. af_heart')
+    ap.add_argument('--out', default='', help='output folder (default audio/)')
     ap.add_argument('--clean', action='store_true')
     ap.add_argument('--workers', type=int, default=6)
     ap.add_argument('--limit', type=int, default=0, help='render only the first N (smoke test)')
@@ -260,6 +265,16 @@ def main():
     ap.add_argument('--shards', type=int, default=1)
     ap.add_argument('--shard', type=int, default=0)
     args = ap.parse_args()
+
+    if args.voice:
+        # Read by the engine constructors, which default from the environment.
+        os.environ['KOKORO_VOICE' if args.engine == 'kokoro' else 'PIPER_VOICE'] = args.voice
+    if args.out:
+        # Rebind the module globals the rest of this file works through, so a
+        # per-voice run touches nothing belonging to another voice.
+        global AUDIO, MANIFEST
+        AUDIO = args.out if os.path.isabs(args.out) else os.path.join(ROOT, args.out)
+        MANIFEST = os.path.join(AUDIO, 'manifest.json')
 
     try:
         engine = get_engine(args.engine)
@@ -282,7 +297,10 @@ def main():
         items = items[:args.limit]
     print(f'{len(items)} narratable strings')
 
-    manifest = {'words': {}, 'engine': engine.name, 'voice': engine.VOICE_NAME}
+    # The instance voice, not the class attribute — the class default was read
+    # from the environment at import time, before --voice was applied.
+    manifest = {'words': {}, 'engine': engine.name,
+                'voice': getattr(engine, 'voice', engine.VOICE_NAME)}
     jobs = {}
     for key, spoken in items:
         rel = clip_path(key)
@@ -320,6 +338,16 @@ def main():
         print(f'shard {args.shard} done, {len(fails)} failure(s)')
         return 1 if fails else 0
 
+    # Carry across any section this tool does not own. gen_audio wiped the
+    # recorded-sound registry once by rewriting the file from scratch.
+    if os.path.exists(MANIFEST):
+        try:
+            with open(MANIFEST, encoding='utf-8') as f:
+                for k, v in json.load(f).items():
+                    if k not in ('words', 'engine', 'voice'):
+                        manifest[k] = v
+        except (ValueError, OSError):
+            pass
     with open(MANIFEST, 'w', encoding='utf-8') as f:
         json.dump(manifest, f, separators=(',', ':'), ensure_ascii=False)
 

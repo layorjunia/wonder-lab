@@ -6,7 +6,7 @@
 # iPad keeps running the old one forever with no error anywhere.
 set -e
 cd "$(dirname "$0")"
-.venv-tts/bin/python tools/gen_audio.py
+.venv-tts/bin/python tools/gen_audio.py --engine kokoro --voice af_heart --out audio/heart   # Kokoro (KOKORO-VOICE-UPGRADE.md); renders only what's new
 .venv-tts/bin/python tools/check_norm.py
 .venv-tts/bin/python tools/audit_resolve.py
 .venv-tts/bin/python tools/stamp_version.py
