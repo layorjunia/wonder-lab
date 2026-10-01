@@ -16,9 +16,20 @@ const App = {
 
   // ── boot ──
   init() {
-    this.checkForUpdate();          // unawaited on purpose — never blocks boot
-    if ('serviceWorker' in navigator && location.protocol === 'https:') {
-      navigator.serviceWorker.register('sw.js').catch(() => {});
+    // The native app and the web PWA update two completely different ways —
+    // see Updates.native(). Running the wrong one is actively harmful: the
+    // web reload-and-bin-caches trick has no "new build" to reload INTO
+    // inside the native shell's bundled index.html, and the native OTA
+    // downloader has nothing to do on the web (there is no Capacitor).
+    if (window.Updates && Updates.native()) {
+      const autoUpdate = !Progress.profile || Progress.profile.settings === undefined
+        || Progress.profile.settings.autoUpdate !== false;
+      Updates.boot(autoUpdate);
+    } else {
+      this.checkForUpdate();        // unawaited on purpose — never blocks boot
+      if ('serviceWorker' in navigator && location.protocol === 'https:') {
+        navigator.serviceWorker.register('sw.js').catch(() => {});
+      }
     }
     const has = Progress.init();
     if (has) { Progress.touchDay(); Progress.commit(); this.go('today'); }
@@ -28,7 +39,7 @@ const App = {
   // An installed service worker plus Pages' HTML caching can pin a device to
   // an old build for hours with no error anywhere. Compare the id baked into
   // the page against version.json fetched with no-store; on a mismatch, bin
-  // every cache and reload exactly once.
+  // every cache and reload exactly once. Web PWA only — see init().
   async checkForUpdate() {
     try {
       const meta = document.querySelector('meta[name="build"]');
@@ -1369,6 +1380,60 @@ const App = {
     AudioLib.speak(GAME_PHRASES.voicesample);
   },
 
+  // ── native app updates ──
+  // Invisible on the web PWA (Updates.native() is false there) — the card
+  // simply never renders, same as cloudCard hiding when Sync isn't configured.
+  updateCard() {
+    if (!window.Updates || !Updates.native()) return '';
+    const ready = JSON.parse(localStorage.getItem('wonderlab:ota-ready') || 'null');
+    const auto = !Progress.profile || !Progress.profile.settings
+               || Progress.profile.settings.autoUpdate !== false;
+    return `<div class="card" style="margin-top:16px" id="update-card">
+      <h2>App updates</h2>
+      ${ready
+        ? `<p class="dim small" style="margin-top:6px">A new version is downloaded and
+             ready.</p>
+           <button class="btn wide" style="margin-top:10px" onclick="App.applyUpdate()">
+             Use it now</button>`
+        : `<p class="dim small" style="margin-top:6px" id="update-status">
+             Lessons and fixes arrive automatically, over wifi.</p>
+           <button class="btn ghost wide" style="margin-top:10px" onclick="App.checkNow()">
+             Check for updates</button>`}
+      <label class="row" style="margin-top:12px;display:flex;align-items:center;gap:10px;cursor:pointer">
+        <input type="checkbox" ${auto ? 'checked' : ''} onchange="App.toggleAutoUpdate(this.checked)">
+        <span class="dim small">Download updates automatically</span>
+      </label>
+    </div>`;
+  },
+
+  toggleAutoUpdate(on) {
+    if (!Progress.profile) return;
+    Progress.profile.settings = Progress.profile.settings || {};
+    Progress.profile.settings.autoUpdate = on;
+    Progress.commit();
+  },
+
+  async checkNow() {
+    const status = document.getElementById('update-status');
+    if (status) status.textContent = 'Checking…';
+    try {
+      const diff = await Updates.checkAndDownload();
+      if (diff) { this.go('notes'); return; }
+      if (status) status.textContent = "You're on the latest version.";
+    } catch (e) {
+      if (status) status.textContent = 'Could not check for updates — try again later.';
+    }
+  },
+
+  async applyUpdate() {
+    const ready = JSON.parse(localStorage.getItem('wonderlab:ota-ready') || 'null');
+    if (!ready) return;
+    AudioLib.stop();
+    await Updates.apply(ready.dir);
+    localStorage.removeItem('wonderlab:ota-ready');
+    location.reload();
+  },
+
   _pin: [],
 
   cloud() {
@@ -2364,6 +2429,7 @@ const App = {
         Nothing saved yet. Tap <b>☆ Whoa!</b> on any fact that surprises you and
         it lands here.</p></div>`}
       ${this.voiceCard()}
+      ${this.updateCard()}
       ${this.cloudCard()}
       <div class="card" style="margin-top:16px">
         <h2>Photo credits</h2>

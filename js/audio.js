@@ -25,7 +25,20 @@
 //
 // Same-origin locally and on Pages itself, absolute everywhere else, so a dev
 // server plays the clips sitting next to it.
+//
+// The native app (ios-app/, Capacitor) is its own case, checked FIRST: its
+// pages load from `capacitor://localhost`, which would otherwise match the
+// "localhost" branch below and resolve to a relative `audio/` — a folder that
+// does not exist in the bundle, since the 340 MB corpus is deliberately never
+// shipped inside the .ipa (see ios-app/scripts/sync-web.py). Capacitor's own
+// WKWebView can fetch an absolute https:// URL cross-origin exactly like a
+// browser can, so the native app always uses the same GitHub Pages host the
+// web app falls back to.
 const AUDIO_BASE = (function () {
+  const C = window.Capacitor;
+  if (C && C.isNativePlatform && C.isNativePlatform()) {
+    return 'https://layorjunia.github.io/wonder-lab/audio/';
+  }
   const h = location.hostname;
   if (h === 'localhost' || h === '127.0.0.1' || h.endsWith('github.io')
       || location.protocol === 'file:') return 'audio/';

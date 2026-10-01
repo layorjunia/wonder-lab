@@ -1,0 +1,12 @@
+{
+  "appId": "com.illuminatedrones.wonderlab",
+  "appName": "Wonder Lab",
+  "webDir": "www",
+  "ios": {
+    "contentInset": "never",
+    "backgroundColor": "#0d1621",
+    "webContentsDebuggingEnabled": true
+  },
+  "server": { "iosScheme": "capacitor" },
+  "packageClassList": ["FilesystemPlugin", "CAPWebViewPlugin"]
+}
