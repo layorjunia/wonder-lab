@@ -40,6 +40,11 @@ const Store = {
         deck: { day: null, served: [], idx: 0 },
         dayStreak: 0, lastDay: null, bestStreak: 0,
         badges: [],
+        // The Journey (2026-10): id -> { stars:1-3, quizRight, quizTotal, at }.
+        // Best attempt only, same spirit as everything else here — no
+        // per-attempt history, just the running record.
+        lessons: {},
+        xp: 0,            // "Wonder Points" — the Journey's XP/level currency
       },
       updatedAt: Date.now(),
     };

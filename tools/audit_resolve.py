@@ -34,6 +34,7 @@ JS = r'''
 globalThis.fetch = () => Promise.reject();
 // querySelector too: audio.js now reads the build id from a meta tag to
 // cache-bust the manifest, and a bare stub throws before init() finishes.
+globalThis.window = globalThis;
 globalThis.document = { addEventListener() {}, removeEventListener() {},
                         querySelector() { return null; } };
 // audio.js now derives AUDIO_BASE from location at load time.

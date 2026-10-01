@@ -32,7 +32,7 @@ const App = {
       }
     }
     const has = Progress.init();
-    if (has) { Progress.touchDay(); Progress.commit(); this.go('today'); }
+    if (has) { Progress.touchDay(); Progress.commit(); this.go('journey'); }
     else this.welcome();
   },
 
@@ -71,39 +71,39 @@ const App = {
     this.view = null;
     this.resetSay();
     this.realm(tab);
-    ({ today: () => this.today(), trails: () => this.expeditions(),
+    // 2026-10: the app's main structure is the Journey (lessons + quizzes).
+    // Today/Explore/Play and the old per-subject halls below are kept
+    // reachable (species() and a few lesson pages still link into them —
+    // "Full profile", "Read more") but nothing in the nav points at them
+    // directly any more; Journey is both the default and the fallback.
+    ({ journey: () => this.journey(), collection: () => this.collection(),
+       notes: () => this.notes(),
+       today: () => this.today(), trails: () => this.expeditions(),
        explore: () => this.explore(),
        guide: () => { this._roster = 'animals'; this.passportFilter = null; this.passport(); },
        plants: () => { this._roster = 'plants'; this.passportFilter = null; this.passport(); },
        play: () => this.play(),
-       body: () => this.body(), notes: () => this.notes() }[tab]
-      // Every subject routes to its HALL — the screen that IS its
-      // instrument. Astronomy lands on the sky, history and earth land on
-      // their route maps, the sciences land on their benches.
+       body: () => this.body() }[tab]
       || (tab === 'astro' ? () => this.sky() : null)
       || (['ancient', 'america', 'world', 'earth'].includes(tab)
           ? () => this.mapHall(tab) : null)
       || (['micro', 'physical', 'economics'].includes(tab) ? () => this.benchHall(tab) : null)
       || (TOPIC_SETS[tab] ? () => this.topics(tab) : null)
-      || (() => this.today()))();
+      || (() => this.journey()))();
     this.renderNav();
   },
 
   renderNav() {
-    // Four sections (animals, plants, earth, human) plus Today, Play and Notes
-    // is seven destinations — too many for a thumb-sized bar. Explore is a hub
-    // over the four; the bar stays at four items and has room to grow.
-    // Four, not five. Trails is a strip on the Explore front door — a fifth
-    // top-level destination for six curated lists was navigation for its own
-    // sake, and every tab removed makes the remaining ones bigger for a
-    // nine-year-old's thumb.
+    // Three destinations: the Journey (lessons — the whole app), the
+    // Collection (what lessons have earned so far), and Notes (settings).
+    // Everything that used to be a separate tab (Today, Explore, Play, Body)
+    // is now reached by walking the Journey lesson by lesson.
     const items = [
-      ['today', 'Today'], ['explore', 'Explore'],
-      ['play', 'Play'], ['notes', 'Notes'],
+      ['journey', 'Journey'], ['collection', 'Collection'], ['notes', 'Notes'],
     ];
-    const inExplore = ['explore', 'guide', 'plants', 'body', 'trails'].concat(Object.keys(TOPIC_SETS));
+    const inCollection = ['collection', 'guide', 'plants', 'species'];
     document.getElementById('nav').innerHTML = items.map(([k, label]) =>
-      `<button class="${this.tab === k || (k === 'explore' && inExplore.includes(this.tab)) ? 'on' : ''}"
+      `<button class="${this.tab === k || (k === 'collection' && inCollection.includes(this.tab)) ? 'on' : ''}"
         onclick="App.go('${k}')" aria-label="${label}">
         ${this.icon(k)}${label}</button>`).join('');
   },
@@ -112,6 +112,10 @@ const App = {
   // Drawn, not typed. Five icons is a small enough set to hand-draw and it is
   // the most-looked-at furniture in the app.
   ICON: {
+    journey: '<path d="M4 20c3-9 5-9 8 0M12 20c3-9 5-9 8 0"/>'
+             + '<circle cx="8" cy="8" r="2.4"/><circle cx="16" cy="12" r="2.4"/>',
+    collection: '<path d="M4 5.5A2 2 0 0 1 6 4h5v16H6a2 2 0 0 0-2 2z"/>'
+             + '<path d="M20 5.5A2 2 0 0 0 18 4h-5v16h5a2 2 0 0 1 2 2z"/>',
     today:   '<path d="M3 12h3l2.5-7 4 14L15 9l2 3h4"/>',
     trails:  '<circle cx="12" cy="12" r="9"/><path d="M15.5 8.5 10 10l-1.5 5.5L14 14z"/>',
     explore: '<path d="M4 5.5A2 2 0 0 1 6 4h5v16H6a2 2 0 0 0-2 2z"/>'
@@ -272,7 +276,7 @@ const App = {
         <input id="nm" maxlength="18" placeholder="Your name" autocomplete="off"
           class="w-input">
         <button class="btn wide big" style="margin-top:14px" onclick="App.start()">
-          Start exploring</button>
+          Start the journey</button>
       </div>`);
     setTimeout(() => { const i = document.getElementById('nm'); if (i) i.focus(); }, 100);
   },
@@ -280,7 +284,7 @@ const App = {
   start() {
     const n = (document.getElementById('nm').value || '').trim() || 'Explorer';
     Progress.create(n);
-    this.go('today');
+    this.go('journey');
   },
 
   // ── TODAY: the dealt deck ──
@@ -2413,6 +2417,551 @@ const App = {
   },
 
   // ── NOTES ──
+  // ══════════════════════════════════════════════════════════════════════
+  // THE JOURNEY — lessons, a mini-game, a quiz, a result. 2026-10 rewrite:
+  // replaces free browsing (Today deck, Explore shelves) as the app's main
+  // structure. The content doesn't move — a lesson is a thin window onto the
+  // SAME facts/species that always lived in ANIMALS/ANCIENT/etc (see
+  // js/lessons.js and tools/build_lessons.py) — but a child now moves
+  // lesson by lesson, with something to answer at the end of each one,
+  // instead of a shuffled deck with no beginning or end.
+  // ══════════════════════════════════════════════════════════════════════
+
+  shuffle(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  },
+
+  lessonsFor(courseId) { return LESSONS.filter(l => l.course === courseId); },
+  lessonRecord(id) { return (Progress.p.lessons || {})[id] || null; },
+  lessonStars(id) { return (this.lessonRecord(id) || {}).stars || 0; },
+
+  journey() {
+    this.resetSay();
+    this.realm('journey');
+    const done = COURSES.reduce((n, c) => n + this.lessonsFor(c.id)
+      .filter(l => this.lessonStars(l.id) > 0).length, 0);
+    const total = LESSONS.length;
+    this.el(`
+      <div class="bar"><h1>Wonder Lab</h1><div class="grow"></div>
+        ${this.streakChip()}
+        <span class="chip accent">⭐ ${Progress.p.xp || 0}</span></div>
+      <p class="dim" style="margin:2px 2px 6px">${done} of ${total} lessons complete</p>
+      ${COURSES.map(c => this.journeyCourse(c)).join('')}
+      <div style="height:30px"></div>`);
+  },
+
+  journeyCourse(course) {
+    const lessons = this.lessonsFor(course.id);
+    if (!lessons.length) return '';
+    const done = lessons.filter(l => this.lessonStars(l.id) > 0).length;
+    const nextIdx = lessons.findIndex(l => this.lessonStars(l.id) === 0);
+    return `
+      <div class="course-head">
+        <div class="course-glyph">${course.glyph}</div>
+        <div><div class="course-title">${course.name}</div>
+          <div class="course-sub">${done} of ${lessons.length} lessons</div></div>
+        <div class="grow"></div>
+        <div class="course-pct">${Math.round(done / lessons.length * 100)}%</div>
+      </div>
+      ${this.journeyPath(course, lessons, nextIdx)}`;
+  },
+
+  // The winding path. Same bezier idea as a road map (control points pulled
+  // to the vertical midpoint between two stops), but the nodes are glowing
+  // 3D orbs rather than flat pins — the part that reads as a REAL game map
+  // instead of a chart with dots on it.
+  journeyPath(course, lessons, nextIdx) {
+    const n = lessons.length;
+    const STEP = 100, W = 100, H = STEP * (n - 1) + 70;
+    const xs = lessons.map((_, i) => (i % 2 === 0 ? 28 : 72));
+    const ys = lessons.map((_, i) => 40 + i * STEP);
+    let d = `M ${xs[0]} ${ys[0]}`;
+    for (let i = 1; i < n; i++) {
+      const my = (ys[i - 1] + ys[i]) / 2;
+      d += ` C ${xs[i - 1]} ${my}, ${xs[i]} ${my}, ${xs[i]} ${ys[i]}`;
+    }
+    const doneCount = lessons.filter(l => this.lessonStars(l.id) > 0).length;
+    const litFrac = n > 1 ? doneCount / (n - 1) : (doneCount > 0 ? 1 : 0);
+    return `<div class="jpath" style="height:${H}px">
+      <svg class="jp-svg" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-hidden="true">
+        <path d="${d}" class="jp-shadow"/>
+        <path d="${d}" class="jp-dim"/>
+        <path d="${d}" class="jp-lit" pathLength="100"
+          style="stroke-dasharray:100;stroke-dashoffset:${100 - 100 * Math.min(1, litFrac)}"/>
+      </svg>
+      ${lessons.map((l, i) => {
+        const stars = this.lessonStars(l.id);
+        const state = stars > 0 ? 'done' : (i === nextIdx ? 'next' : '');
+        const leftPct = xs[i], topPx = ys[i];
+        return `<button class="jnode ${state}" style="left:${leftPct}%;top:${topPx - 30}px"
+            onclick="App.lessonIntro('${l.id}')">
+          ${state === 'next' ? `<span class="jbubble">${doneCount ? 'Next' : 'Start here'}</span>` : ''}
+          <span class="jorb">${l.glyph || course.glyph}</span>
+          <span class="jstars">${'★★★'.slice(0, stars) || '☆☆☆'}</span>
+          <span class="jlabel">${l.title}</span>
+        </button>`;
+      }).join('')}
+    </div>`;
+  },
+
+  // ── lesson content assembly ──
+  // A thin window onto the data that already exists. Nothing here is new
+  // prose — see js/lessons.js's own header comment.
+  lessonPages(L) {
+    if (L.kind === 'species') {
+      return L.items.flatMap(id => {
+        const a = this.find(id);
+        if (!a) return [];
+        const pages = [{ text: a.blurb, more: a.size, img: this.pic(a),
+          name: a.name, refId: id, isIntro: true }];
+        (a.facts || []).slice(0, 2).forEach(f => pages.push({
+          text: f.text, more: f.more, img: this.pic(a), name: a.name,
+          refId: id, cat: f.cat, factKind: f.kind }));
+        return pages;
+      });
+    }
+    const course = L.course === 'body' ? null : this.topicCfg(L.course);
+    const rows = L.course === 'body'
+      ? BODY.filter(r => r.section === L.section)
+      : course.rows.filter(r => r.section === L.section);
+    return rows.map(r => ({ text: r.text, more: r.more, tryit: r.tryit,
+      refId: r.id, cat: r.cat, factKind: r.kind }));
+  },
+
+  // ── auto-generated check/quiz questions, straight from the lesson's own
+  // text. Two deliberately SAFE generator shapes — neither ever asserts a
+  // fabricated fact as true on its own:
+  //   blank — redact a number already in a true sentence, ask which number
+  //           belongs; every option is shown next to the real sentence, so
+  //           nothing false is ever presented as a standalone claim.
+  //   tf    — show the real sentence (True) or the same sentence with its
+  //           number swapped (False); a miss always reveals the original.
+  // Longer/spelled-out forms listed so "37 feet (11 m)" redacts the PRIMARY
+  // imperial number, not just whichever unit happens to be a bare letter —
+  // a plain /ft|m|.../ pattern matched the metric aside far more often than
+  // the number actually being taught, since most facts spell units out.
+  NUM_RE: /(\d[\d,]*\.?\d*)\s*(feet|foot|ft|inches|inch|in|miles?|mi|pounds?|lbs?|lb|kilograms?|kg|meters?|m|centimeters?|cm|millimeters?|mm|mph|km\/h|kilometers?|km|degrees?|°F|°C|%|years?|hours?|minutes?|seconds?|days?)\b/,
+
+  genBlank(fact, siblings) {
+    const m = this.NUM_RE.exec(fact.text);
+    if (!m) return null;
+    const correct = m[1] + ' ' + m[2];
+    const prompt = fact.text.slice(0, m.index) + '____'
+      + fact.text.slice(m.index + m[0].length);
+    const others = [];
+    siblings.forEach(s => { if (s === fact) return;
+      const mm = this.NUM_RE.exec(s.text); if (mm) others.push(mm[1] + ' ' + mm[2]); });
+    let distractors = this.shuffle([...new Set(others)].filter(o => o !== correct)).slice(0, 2);
+    while (distractors.length < 2) {
+      const n = parseFloat(m[1].replace(/,/g, ''));
+      let alt = Math.round(n * (0.4 + Math.random() * 1.8) * 10) / 10;
+      if (alt === n || alt <= 0) alt = n + 1 + Math.floor(Math.random() * 5);
+      const altStr = alt + ' ' + m[2];
+      if (altStr !== correct && !distractors.includes(altStr)) distractors.push(altStr);
+    }
+    const options = this.shuffle([correct, ...distractors]);
+    return { type: 'blank', prompt, options, answer: options.indexOf(correct),
+      explain: fact.text };
+  },
+
+  genTF(fact) {
+    const m = this.NUM_RE.exec(fact.text);
+    if (!m || Math.random() < 0.5) return { type: 'tf', prompt: fact.text, answer: 0, explain: '' };
+    const n = parseFloat(m[1].replace(/,/g, ''));
+    const factor = Math.random() < 0.5 ? 1.5 + Math.random() : 0.3 + Math.random() * 0.4;
+    let alt = Math.round(n * factor * 10) / 10;
+    if (alt === n) alt = n + 1;
+    const prompt = fact.text.slice(0, m.index) + alt + ' ' + m[2]
+      + fact.text.slice(m.index + m[0].length);
+    return { type: 'tf', prompt, answer: 1, explain: fact.text };
+  },
+
+  genChoice(id, lessonItems) {
+    const a = this.find(id);
+    if (!a) return null;
+    const names = this.nameForms(a);
+    const prompt = this.redact(a.blurb, names);
+    if (prompt === a.blurb) return null;          // name never appeared — can't redact
+    const pool = lessonItems.map(i => this.find(i)).filter(x => x && x.id !== id);
+    const distractors = this.shuffle(pool).slice(0, 3).map(x => x.name);
+    while (distractors.length < 3) {
+      const other = this.all()[Math.floor(Math.random() * this.all().length)];
+      if (other.id !== id && !distractors.includes(other.name)) distractors.push(other.name);
+    }
+    const options = this.shuffle([a.name, ...distractors]);
+    return { type: 'choice', prompt, options, answer: options.indexOf(a.name),
+      explain: a.blurb, img: this.pic(a) };
+  },
+
+  // Builds up to `n` questions, mixing types, for either the game (simpler,
+  // mostly tf) or the end quiz (fuller variety).
+  buildQuestions(L, pages, n, preferChoice) {
+    const facts = pages.filter(p => p.text && !p.isIntro);
+    const qs = [];
+    if (preferChoice && L.kind === 'species') {
+      this.shuffle([...new Set(L.items)]).forEach(id => {
+        if (qs.length >= Math.ceil(n / 2)) return;
+        const q = this.genChoice(id, L.items);
+        if (q) qs.push(q);
+      });
+    }
+    this.shuffle(facts).forEach(f => {
+      if (qs.length >= n) return;
+      const q = Math.random() < 0.5 ? this.genBlank(f, facts) : this.genTF(f);
+      if (q) qs.push(q);
+    });
+    // Still short (short lessons, few numbers) — pad with true/false of
+    // whatever is left, which always succeeds since it needs no number.
+    let i = 0;
+    while (qs.length < Math.min(n, 3) && i < facts.length) {
+      qs.push({ type: 'tf', prompt: facts[i].text, answer: 0, explain: '' });
+      i++;
+    }
+    return this.shuffle(qs).slice(0, n);
+  },
+
+  // ── flow ──
+  lessonIntro(id) {
+    const L = LESSONS.find(x => x.id === id);
+    if (!L) return;
+    const pages = this.lessonPages(L);
+    const stars = this.lessonStars(id);
+    const course = COURSES.find(c => c.id === L.course);
+    Sfx.play('pop', 0.3);
+    const wrap = document.createElement('div');
+    wrap.id = 'introSheet';
+    wrap.innerHTML = `
+      <div class="sheet-scrim" onclick="App.closeSheet()"></div>
+      <div class="sheet">
+        <div style="display:flex;align-items:center;gap:12px">
+          <div class="course-glyph" style="font-size:1.8rem">${L.glyph || course.glyph}</div>
+          <div><div class="course-sub">${course.name}</div>
+            <h2 style="margin-top:2px">${L.title}</h2></div>
+        </div>
+        <p class="dim small" style="margin-top:10px">${pages.length} pages ·
+          a quick game · a short quiz</p>
+        <button class="btn wide big" style="margin-top:16px" onclick="App.lessonOpen('${L.id}')">
+          ${stars ? 'Play again' : 'Start lesson'}</button>
+        <button class="btn ghost wide" style="margin-top:10px" onclick="App.closeSheet()">
+          Not now</button>
+      </div>`;
+    document.body.appendChild(wrap);
+    void wrap.firstElementChild.offsetWidth;
+    wrap.querySelector('.sheet').classList.add('up');
+    wrap.querySelector('.sheet-scrim').classList.add('up');
+  },
+
+  closeSheet() {
+    const el = document.getElementById('introSheet');
+    if (!el) return;
+    el.querySelector('.sheet').classList.remove('up');
+    el.querySelector('.sheet-scrim').classList.remove('up');
+    setTimeout(() => el.remove(), 260);
+  },
+
+  // An honest one-line frame before the facts start — real counts, no
+  // invented narrative. The complaint this answers: a lesson that opens
+  // straight into an isolated fact with no setup reads as a stack of trivia
+  // cards, not something being taught.
+  lessonFrame(L, course) {
+    if (L.kind === 'species') {
+      const g = (course.id === 'animals' ? GROUPS : PLANT_GROUPS)[L.group] || {};
+      return `Meet ${L.items.length} ${(g.name || course.name).toLowerCase()}.`;
+    }
+    return `${L.n} thing${L.n === 1 ? '' : 's'} to discover about ${L.title.toLowerCase()}.`;
+  },
+
+  lessonOpen(id) {
+    this.closeSheet();
+    const L = LESSONS.find(x => x.id === id);
+    if (!L) return;
+    this.resetSay();
+    const course = COURSES.find(c => c.id === L.course);
+    const pages = [{ text: this.lessonFrame(L, course), isIntro: true, isFrame: true },
+                   ...this.lessonPages(L)];
+    this._lesson = { L, pages, idx: 0, stage: 'story',
+      quizIdx: 0, quizRight: 0, quizFirst: 0, misses: 0, gameRight: 0, gameTotal: 0 };
+    const wrap = document.createElement('div');
+    wrap.className = 'lesson-overlay';
+    wrap.id = 'lessonOverlay';
+    document.body.appendChild(wrap);
+    this.lessonRenderPage();
+  },
+
+  lessonExit() {
+    const el = document.getElementById('lessonOverlay');
+    if (el) el.remove();
+    AudioLib.stop();
+    this._lesson = null;
+    this.journey();
+  },
+
+  lessonDots() {
+    const s = this._lesson;
+    const n = s.pages.length;
+    return Array.from({ length: n }, (_, i) =>
+      `<i class="${i === s.idx ? 'on' : i < s.idx ? 'past' : ''}"></i>`).join('');
+  },
+
+  lessonRenderPage() {
+    const s = this._lesson, p = s.pages[s.idx];
+    const el = document.getElementById('lessonOverlay');
+    if (!el) return;
+    this.resetSay();
+    const hasCheck = p._check !== undefined ? !!p._check
+      : (p._check = (s.idx > 0 && s.idx % 3 === 0 && Math.random() < 0.7
+          ? (Math.random() < 0.5 ? this.genBlank(p, s.pages.filter(x => x.text && !x.isIntro))
+                                  : this.genTF(p))
+          : null));
+    const answered = s._checkOK && s._checkOK[s.idx];
+    const L = s.L, course = COURSES.find(c => c.id === L.course);
+    const body = p.isFrame ? `
+        <div class="lesson-frame">
+          <div class="lesson-frame-glyph">${course.glyph}</div>
+          <h1>${L.title}</h1>
+          <p>${p.text}</p>
+        </div>` : `
+        ${p.img ? `<img class="lesson-page-img" src="${p.img}" alt="">` : ''}
+        ${p.name ? `<div class="lesson-cap">${p.name}</div>` : ''}
+        <div class="lesson-text">${p.text}</div>
+        ${p.more ? `<div class="lesson-more">${p.more}</div>` : ''}
+        ${p.tryit ? `<div class="wonder"><b>Try it:</b> ${p.tryit}</div>` : ''}`;
+    el.innerHTML = `
+      <div class="lesson-top">
+        <button class="btn ghost" onclick="App.lessonExit()">✕</button>
+        <div class="lesson-dots">${this.lessonDots()}</div>
+        ${p.isFrame ? '<span style="width:40px"></span>' : this.listenLabel('🔊', p.name || '', p.text, p.more)}
+      </div>
+      ${p.isFrame ? '' : `<div class="lesson-head">${course.glyph} ${L.title}</div>`}
+      <div class="lesson-body">${body}
+        ${hasCheck && !answered ? `
+          <div class="check-box">
+            <div class="check-q">${p._check.type === 'tf' ? 'True or false?' : 'What number fits?'}</div>
+            ${p._check.type === 'tf'
+              ? `<p style="margin-bottom:10px">${p._check.prompt}</p>
+                 <div class="answer-list">
+                   <button class="answer" onclick="App.lessonCheckAnswer(0)">True</button>
+                   <button class="answer" onclick="App.lessonCheckAnswer(1)">False</button>
+                 </div>`
+              : `<p style="margin-bottom:10px">${p._check.prompt}</p>
+                 <div class="answer-list">${p._check.options.map((o, i) =>
+                   `<button class="answer" onclick="App.lessonCheckAnswer(${i})">${o}</button>`).join('')}</div>`}
+          </div>` : ''}
+      </div>
+      <div class="lesson-nav">
+        <button class="btn ghost" ${s.idx === 0 ? 'disabled style="opacity:.4"' : ''}
+          onclick="App.lessonBack()">←</button>
+        <button class="btn wide" id="lessonNextBtn" ${hasCheck && !answered ? 'disabled style="opacity:.45"' : ''}
+          onclick="App.lessonNext()">${s.idx === s.pages.length - 1 ? 'Continue' : 'Next'} →</button>
+      </div>`;
+  },
+
+  lessonCheckAnswer(i) {
+    const s = this._lesson, p = s.pages[s.idx];
+    const ok = i === p._check.answer;
+    document.querySelectorAll('.check-box .answer').forEach((b, j) => {
+      b.onclick = null;
+      if (j === p._check.answer) b.classList.add('right');
+      else if (j === i) b.classList.add('wrong');
+    });
+    Sfx.play(ok ? 'yes' : 'no', 0.35);
+    if (ok) {
+      s._checkOK = s._checkOK || {}; s._checkOK[s.idx] = true;
+      const btn = document.getElementById('lessonNextBtn');
+      if (btn) { btn.disabled = false; btn.style.opacity = ''; }
+    } else if (p._check.explain) {
+      setTimeout(() => {
+        const box = document.querySelector('.check-box');
+        if (box) box.insertAdjacentHTML('beforeend',
+          `<p class="dim small" style="margin-top:10px">${p._check.explain}</p>`);
+      }, 300);
+    }
+  },
+
+  lessonBack() {
+    const s = this._lesson;
+    if (s.idx > 0) { s.idx--; this.lessonRenderPage(); }
+  },
+
+  lessonNext() {
+    const s = this._lesson;
+    if (s.idx < s.pages.length - 1) { s.idx++; return this.lessonRenderPage(); }
+    this.lessonStartGame();
+  },
+
+  // ── mini-game: a quick round of the same auto-generated questions, played
+  // fast with no retry — the warm-up before the quiz counts for real. ──
+  lessonStartGame() {
+    const s = this._lesson;
+    s.stage = 'game';
+    s.game = this.buildQuestions(s.L, s.pages, 5, true);
+    s.gameIdx = 0; s.gameRight = 0;
+    this.lessonRenderGame();
+  },
+
+  lessonRenderGame() {
+    const s = this._lesson, el = document.getElementById('lessonOverlay');
+    const q = s.game[s.gameIdx];
+    if (!q) return this.lessonStartQuiz();
+    const opts = q.type === 'tf' ? ['True', 'False'] : q.options;
+    el.innerHTML = `
+      <div class="lesson-top">
+        <button class="btn ghost" onclick="App.lessonExit()">✕</button>
+        <div class="lesson-dots"><i class="on" style="flex:none;width:60px"></i></div>
+        <span class="chip">${s.gameIdx + 1} / ${s.game.length}</span>
+      </div>
+      <div class="lesson-body">
+        <div class="course-sub" style="text-align:center;margin-bottom:6px">Quick Check</div>
+        ${q.img ? `<img class="lesson-page-img" src="${q.img}" alt="">` : ''}
+        <div class="lesson-text" style="text-align:center">${q.prompt}</div>
+        <div class="answer-list" style="margin-top:18px">
+          ${opts.map((o, i) => `<button class="answer" onclick="App.lessonGameAnswer(${i})">${o}</button>`).join('')}
+        </div>
+      </div>`;
+  },
+
+  lessonGameAnswer(i) {
+    const s = this._lesson, q = s.game[s.gameIdx];
+    const ok = i === q.answer;
+    if (ok) s.gameRight++;
+    document.querySelectorAll('.answer-list .answer').forEach((b, j) => {
+      b.onclick = null;
+      if (j === q.answer) b.classList.add('right');
+      else if (j === i) b.classList.add('wrong');
+    });
+    Sfx.play(ok ? 'yes' : 'no', 0.35);
+    setTimeout(() => { s.gameIdx++; this.lessonRenderGame(); }, 700);
+  },
+
+  // ── end-of-lesson quiz: full variety, misses re-ask once (same spirit as
+  // the inline checks — the right answer is always shown before moving on,
+  // never just a score with no correction). ──
+  lessonStartQuiz() {
+    const s = this._lesson;
+    s.stage = 'quiz';
+    s.quiz = this.buildQuestions(s.L, s.pages, 6, true);
+    s.quizIdx = 0; s.quizRight = 0; s.quizFirst = 0; s.quizSeenMiss = {};
+    this.lessonRenderQuiz();
+  },
+
+  lessonRenderQuiz() {
+    const s = this._lesson, el = document.getElementById('lessonOverlay');
+    const q = s.quiz[s.quizIdx];
+    if (!q) return this.lessonFinish();
+    const opts = q.type === 'tf' ? ['True', 'False'] : q.options;
+    el.innerHTML = `
+      <div class="lesson-top">
+        <button class="btn ghost" onclick="App.lessonExit()">✕</button>
+        <div class="lesson-dots"><i class="on" style="flex:none;width:60px"></i></div>
+        <span class="chip accent">${s.quizIdx + 1} / ${s.quiz.length}</span>
+      </div>
+      <div class="lesson-body">
+        <div class="course-sub" style="text-align:center;margin-bottom:6px">Quiz</div>
+        ${q.img ? `<img class="lesson-page-img" src="${q.img}" alt="">` : ''}
+        <div class="lesson-text" style="text-align:center">${q.prompt}</div>
+        <div class="answer-list" style="margin-top:18px">
+          ${opts.map((o, i) => `<button class="answer" onclick="App.lessonQuizAnswer(${i})">${o}</button>`).join('')}
+        </div>
+      </div>
+      <div class="feedback-bar" id="fbBar"></div>`;
+  },
+
+  lessonQuizAnswer(i) {
+    const s = this._lesson, q = s.quiz[s.quizIdx];
+    const ok = i === q.answer;
+    const opts = q.type === 'tf' ? ['True', 'False'] : q.options;
+    document.querySelectorAll('.answer-list .answer').forEach((b, j) => {
+      b.onclick = null;
+      if (j === q.answer) b.classList.add('right');
+      else if (j === i) b.classList.add('wrong');
+    });
+    Sfx.play(ok ? 'yes' : 'no', ok ? 0.4 : 0.3);
+    const firstTry = !s.quizSeenMiss[s.quizIdx];
+    if (ok) { s.quizRight++; if (firstTry) s.quizFirst++; }
+    else s.quizSeenMiss[s.quizIdx] = true;
+    const bar = document.getElementById('fbBar');
+    bar.className = 'feedback-bar ' + (ok ? 'ok' : 'no');
+    bar.innerHTML = `
+      <b>${ok ? this.pick(['Nice!', "That's right!", 'Yes!']) : 'Not quite'}</b>
+      <p>${ok ? (q.explain || '') : 'It’s actually: ' + opts[q.answer]
+        + (q.explain ? ' — ' + q.explain : '')}</p>
+      <button class="btn wide" style="margin-top:10px" onclick="App.lessonQuizContinue(${ok})">
+        ${ok ? 'Continue' : 'Try next'}</button>`;
+    requestAnimationFrame(() => bar.classList.add('up'));
+  },
+
+  lessonQuizContinue(wasRight) {
+    const s = this._lesson;
+    s.quizIdx++;
+    this.lessonRenderQuiz();
+  },
+
+  pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; },
+
+  lessonFinish() {
+    const s = this._lesson, L = s.L;
+    const quizAcc = s.quiz.length ? s.quizFirst / s.quiz.length : 1;
+    const gameAcc = s.game.length ? s.gameRight / s.game.length : 1;
+    const quizStars = quizAcc >= 0.85 ? 3 : quizAcc >= 0.6 ? 2 : 1;
+    const gameStars = gameAcc >= 0.85 ? 3 : gameAcc >= 0.6 ? 2 : 1;
+    const stars = Math.max(1, Math.round((quizStars + gameStars) / 2));
+    const prevStars = this.lessonStars(L.id);
+    const first = prevStars === 0;
+    const xpGain = 15 + stars * 5 + (first ? 15 : 0);
+
+    Progress.p.lessons = Progress.p.lessons || {};
+    Progress.p.lessons[L.id] = { stars: Math.max(prevStars, stars),
+      quizRight: s.quizRight, quizTotal: s.quiz.length, at: Store.dayKey() };
+    Progress.p.xp = (Progress.p.xp || 0) + xpGain;
+    Progress.touchDay();
+    Progress.commit();
+
+    // Species lessons feed the existing passport — a lesson is now HOW you
+    // meet a species, not a separate system next to it.
+    const newlySeen = [];
+    if (L.kind === 'species') {
+      L.items.forEach(id => { if (Progress.markSeen(id)) newlySeen.push(id); });
+    }
+
+    this.confetti(stars >= 3 ? 24 : 14);
+    Sfx.play('tada', 0.5);
+    const el = document.getElementById('lessonOverlay');
+    el.innerHTML = `
+      <div class="lesson-top"><div class="grow"></div></div>
+      <div class="lesson-body" style="text-align:center;padding-top:10vh">
+        <div class="course-sub">${first ? 'Lesson complete!' : 'Nice review!'}</div>
+        <h1 style="margin-top:4px">${L.title}</h1>
+        <div class="result-stars">
+          ${[0, 1, 2].map(i => `<span class="result-star ${i < stars ? 'on' : ''}"
+              style="animation-delay:${i * .18}s">★</span>`).join('')}
+        </div>
+        <div class="result-stat-row">
+          <div class="result-stat"><b>${s.quizRight}/${s.quiz.length}</b><span>Quiz</span></div>
+          <div class="result-stat"><b>+${xpGain}</b><span>Wonder Points</span></div>
+          <div class="result-stat"><b>${Progress.p.dayStreak || 1}</b><span>Day streak</span></div>
+        </div>
+      </div>
+      <div class="lesson-nav">
+        <button class="btn wide big" onclick="App.lessonExit()">Continue →</button>
+      </div>`;
+    newlySeen.forEach((id, i) => setTimeout(() => this.newSpecimen(this.find(id)), 900 + i * 1400));
+  },
+
+  // ── Collection — the field guide / passport, now populated by lessons
+  // rather than a separate "go collect things" destination. ──
+  collection() {
+    this.resetSay();
+    this.realm('collection');
+    this._roster = 'animals';
+    this.passportFilter = null;
+    this.passport();
+  },
+
   notes() {
     const keys = Progress.p.whoa;
     this.el(`

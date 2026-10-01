@@ -1604,3 +1604,148 @@ body[data-realm]:not([data-realm="base"])::after {
   stroke-linecap: round; }
 .ss-nebula { fill: rgba(187,150,255,.2); stroke: rgba(187,150,255,.4);
   stroke-width: 1; }
+
+/* ══════════════════════════════════════════════════════════════════════
+   THE JOURNEY — lessons, quizzes, a path worth walking.
+   2026-10: Wonder Lab's old discovery UI (Today deck, Explore shelves, the
+   flat dashed-line "atlas" route maps above) is retired as primary
+   navigation. This is the replacement: a proper winding skill-tree path —
+   glowing 3D nodes, a lit/unlit trail, a pulsing "next" stop — built to the
+   same polish bar as Lamplight's Journey map, in Wonder Lab's own jewel-tone
+   palette rather than Lamplight's candy one. ══════════════════════════ */
+
+.course-head {
+  display: flex; align-items: center; gap: 12px; margin: 28px 2px 14px;
+}
+.course-head:first-child { margin-top: 4px; }
+.course-glyph {
+  width: 46px; height: 46px; border-radius: 14px; display: grid; place-items: center;
+  font-size: 1.5rem; background: var(--ink-3); border: 1px solid var(--line-2);
+  box-shadow: var(--sh-1);
+}
+.course-title { font-family: var(--font-display); font-weight: 700; font-size: 1.12rem; }
+.course-sub { color: var(--text-dim); font-size: var(--fs-small); margin-top: 1px; }
+.course-head .grow { flex: 1; }
+.course-pct { color: var(--text-faint); font-size: var(--fs-micro); font-weight: 700;
+  letter-spacing: .04em; }
+
+.jpath { position: relative; padding: 18px 0 8px; }
+.jp-svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.jp-shadow { fill: none; stroke: rgba(0,0,0,.4); stroke-width: 15; stroke-linecap: round; }
+.jp-dim { fill: none; stroke: rgba(255,255,255,.07); stroke-width: 6; stroke-linecap: round;
+  stroke-dasharray: 1 15; vector-effect: non-scaling-stroke; }
+.jp-lit { fill: none; stroke: var(--lime); stroke-width: 5; stroke-linecap: round;
+  filter: drop-shadow(0 0 7px var(--lime-glow)); transition: stroke-dashoffset .9s var(--ease); }
+
+.jnode {
+  position: absolute; display: flex; flex-direction: column; align-items: center;
+  gap: 5px; width: 84px; margin-left: -42px; cursor: pointer; background: none;
+  border: none; padding: 0; z-index: 1;
+}
+.jorb {
+  width: 60px; height: 60px; border-radius: 50%; position: relative;
+  background: radial-gradient(circle at 34% 28%, var(--ink-4), var(--ink-3) 72%);
+  border: 3px solid var(--line-2); box-shadow: 0 6px 0 rgba(0,0,0,.4), var(--sh-2);
+  display: grid; place-items: center; font-size: 1.55rem;
+  transition: transform .1s var(--ease), box-shadow .1s var(--ease);
+}
+.jnode:active .jorb { transform: translateY(4px); box-shadow: 0 1px 0 rgba(0,0,0,.4); }
+.jnode.done .jorb {
+  background: radial-gradient(circle at 34% 25%, #e4ffc2, var(--lime) 55%, var(--lime-dark) 100%);
+  border-color: #eeffcf; color: #15280a;
+  box-shadow: 0 6px 0 var(--lime-dark), 0 0 22px var(--lime-glow);
+}
+.jnode.next .jorb {
+  background: radial-gradient(circle at 34% 25%, #ddccff, var(--violet) 62%, #6a4fd6 100%);
+  border-color: #d6c4ff; animation: jpulse 1.9s ease-out infinite;
+}
+@keyframes jpulse {
+  0%   { box-shadow: 0 6px 0 #6a4fd6, 0 0 0 0 rgba(187,150,255,.5); }
+  65%  { box-shadow: 0 6px 0 #6a4fd6, 0 0 0 14px rgba(187,150,255,0); }
+  100% { box-shadow: 0 6px 0 #6a4fd6, 0 0 0 0 rgba(187,150,255,0); }
+}
+@media (prefers-reduced-motion: reduce) { .jnode.next .jorb { animation: none; } }
+.jnode.done .jorb::after { content: '✓'; position: absolute; top: -4px; right: -2px;
+  width: 20px; height: 20px; border-radius: 50%; background: var(--ink); color: var(--lime);
+  display: grid; place-items: center; font-size: .8rem; font-weight: 800;
+  border: 2px solid var(--lime-dark); }
+.jbubble {
+  position: absolute; top: -32px; background: var(--violet); color: #1c1033;
+  font-weight: 800; font-size: .68rem; letter-spacing: .01em; padding: 5px 11px;
+  border-radius: 999px; white-space: nowrap; box-shadow: var(--sh-2);
+  animation: jbob 1.5s ease-in-out infinite;
+}
+.jbubble::after { content: ''; position: absolute; bottom: -4px; left: 50%;
+  transform: translateX(-50%) rotate(45deg); width: 8px; height: 8px; background: var(--violet); }
+@keyframes jbob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+.jstars { display: flex; gap: 1px; font-size: .62rem; color: var(--text-faint); line-height: 1; }
+.jnode.done .jstars { color: var(--amber); }
+.jlabel { font-family: var(--font-display); font-weight: 600; font-size: .74rem;
+  line-height: 1.15; color: var(--text-faint); text-align: center; }
+.jnode.done .jlabel, .jnode.next .jlabel { color: var(--text-2); }
+
+/* ── lesson sheet / player ── */
+.lesson-overlay { position: fixed; inset: 0; z-index: 70; background: var(--ink);
+  display: flex; flex-direction: column; }
+.lesson-top { display: flex; align-items: center; gap: 10px; padding: 14px 14px 10px;
+  padding-top: calc(14px + var(--sa-t)); }
+.lesson-dots { flex: 1; display: flex; gap: 4px; }
+.lesson-dots i { flex: 1; height: 5px; border-radius: 3px; background: var(--ink-4); display: block; }
+.lesson-dots i.on { background: var(--lime); }
+.lesson-dots i.past { background: var(--line-2); }
+.lesson-head { padding: 2px 18px 10px; font-family: var(--font-display); font-weight: 600;
+  font-size: .82rem; color: var(--text-dim); letter-spacing: .01em; }
+.lesson-body { flex: 1; overflow-y: auto; padding: 4px 18px 18px; }
+.lesson-cap { font-family: var(--font-display); font-weight: 700; font-size: 1.3rem;
+  margin-bottom: 8px; }
+.lesson-frame { display: flex; flex-direction: column; align-items: center; text-align: center;
+  padding-top: 14vh; }
+.lesson-frame-glyph { font-size: 3.4rem; margin-bottom: 18px;
+  filter: drop-shadow(0 0 20px rgba(168,240,98,.25)); }
+.lesson-frame h1 { font-size: 1.7rem; margin-bottom: 10px; }
+.lesson-frame p { color: var(--text-2); font-size: 1.08rem; max-width: 340px; }
+.lesson-page-img { width: 100%; max-height: 42vh; object-fit: cover; border-radius: var(--r-lg);
+  margin-bottom: 16px; background: var(--ink-3); }
+.lesson-text { font-size: 1.14rem; line-height: 1.55; }
+.lesson-more { margin-top: 12px; font-size: 1rem; line-height: 1.55; color: var(--text-2); }
+.lesson-nav { display: flex; gap: 10px; padding: 12px 16px calc(14px + var(--sa-b)); }
+.lesson-nav .btn.ghost { flex: 0 0 auto; width: 54px; }
+
+.check-box { margin-top: 20px; padding: 16px; border-radius: var(--r-lg);
+  background: var(--ink-2); border: 1px solid var(--line-2); }
+.check-q { font-family: var(--font-display); font-weight: 600; margin-bottom: 10px; }
+.answer-list { display: flex; flex-direction: column; gap: 8px; }
+.answer {
+  text-align: left; padding: 13px 16px; border-radius: 13px; background: var(--ink-3);
+  border: 2px solid var(--line-2); color: var(--text); font: inherit; font-size: 1rem;
+  cursor: pointer; transition: border-color .1s, background .1s, transform .08s;
+}
+.answer:active { transform: scale(.99); }
+.answer.right { border-color: var(--lime-dark); background: rgba(168,240,98,.14); }
+.answer.wrong { border-color: var(--coral); background: rgba(255,136,120,.14);
+  animation: ashake .35s ease; }
+@keyframes ashake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-6px); }
+  75% { transform: translateX(6px); } }
+
+.feedback-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 80;
+  padding: 16px 16px calc(16px + var(--sa-b)); border-radius: 22px 22px 0 0;
+  background: var(--ink-2); border-top: 1px solid var(--line-2); box-shadow: var(--sh-3);
+  transform: translateY(100%); transition: transform .3s cubic-bezier(.2,.9,.3,1); }
+.feedback-bar.up { transform: none; }
+.feedback-bar.ok { box-shadow: 0 -2px 0 var(--lime) inset, var(--sh-3); }
+.feedback-bar.no { box-shadow: 0 -2px 0 var(--coral) inset, var(--sh-3); }
+.feedback-bar b { font-family: var(--font-display); font-size: 1.05rem; }
+.feedback-bar.ok b { color: var(--lime); }
+.feedback-bar.no b { color: var(--coral); }
+.feedback-bar p { margin-top: 5px; color: var(--text-2); font-size: .92rem; line-height: 1.4; }
+
+/* ── results ── */
+.result-stars { display: flex; justify-content: center; gap: 10px; margin: 18px 0; }
+.result-star { font-size: 2.6rem; color: var(--line-2); transform: scale(.4); opacity: 0;
+  animation: starpop .45s cubic-bezier(.3,1.5,.4,1) forwards; }
+.result-star.on { color: var(--amber); text-shadow: 0 0 18px rgba(255,207,92,.5); }
+@keyframes starpop { to { transform: scale(1); opacity: 1; } }
+.result-stat-row { display: flex; justify-content: center; gap: 28px; margin: 18px 0; }
+.result-stat { text-align: center; }
+.result-stat b { display: block; font-family: var(--font-display); font-size: 1.5rem; }
+.result-stat span { color: var(--text-dim); font-size: var(--fs-micro); }
