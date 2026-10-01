@@ -292,19 +292,25 @@ def main():
 
     os.makedirs(os.path.join(AUDIO, 'p'), exist_ok=True)
 
-    items = corpus()
-    if args.limit:
-        items = items[:args.limit]
-    print(f'{len(items)} narratable strings')
+    full_items = corpus()
+    items = full_items[:args.limit] if args.limit else full_items
+    print(f'{len(items)} narratable strings'
+          + (f' (smoke test — {len(full_items)} total)' if args.limit else ''))
 
     # The instance voice, not the class attribute — the class default was read
     # from the environment at import time, before --voice was applied.
     manifest = {'words': {}, 'engine': engine.name,
                 'voice': getattr(engine, 'voice', engine.VOICE_NAME)}
+    # --limit's own manifest, built from the FULL corpus regardless of the cap.
+    # A smoke test rendering 1 clip must never shrink the manifest to 1 entry
+    # and prune the other 7,666 files as "orphans" — that happened once, live,
+    # against a finished render. --limit renders a sample; it must act like it
+    # never ran against anything it doesn't touch.
+    for key, _ in full_items:
+        manifest['words'][key] = clip_path(key)
     jobs = {}
     for key, spoken in items:
         rel = clip_path(key)
-        manifest['words'][key] = rel
         out = os.path.join(AUDIO, rel)
         if not os.path.exists(out):
             jobs[out] = spoken            # dedupe by output path, not by index
