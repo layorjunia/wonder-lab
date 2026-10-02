@@ -3,6 +3,7 @@
 # data files are generated from them. Scratch (tmp, hf, logs, shards) stays
 # out; the entries and the editorial briefs are backed up like code.
 !.work/entries-*.json
+!.work/lesson-curation.json
 !.work/BRIEF-*.md
 !.work/rw/
 .work/rw/*

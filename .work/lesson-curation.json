@@ -1,0 +1,954 @@
+{
+ "earth-rocks": {
+  "intro": "A rock is usually not one substance — look closely and you can often pick out several different minerals mixed together. Minerals are mostly told apart by hardness: which one scratches which. That ranking runs from talc, soft enough for a fingernail to mark, up to diamond, which only another diamond scratches. The ten-step order isn't an even ruler — some steps are far bigger jumps than others.",
+  "order": [
+   "rocks-11",
+   "rocks-8",
+   "rocks-1",
+   "rocks-4",
+   "rocks-3",
+   "rocks-2",
+   "rocks-9",
+   "rocks-6",
+   "rocks-5",
+   "rocks-7",
+   "rocks-10",
+   "rocks-12"
+  ]
+ },
+ "earth-volcanoes": {
+  "intro": "Melted rock has two names depending on where it is: magma while it's still underground, lava the instant it reaches the surface. Nobody has ever looked directly into the magma chamber that feeds a volcano — its size and depth are worked out from how earthquake waves slow down and the ground above swells. Volcanoes themselves are not rare. Roughly 1,350 on land are still considered capable of erupting.",
+  "order": [
+   "volcanoes-1",
+   "volcanoes-8",
+   "volcanoes-4",
+   "volcanoes-2",
+   "volcanoes-3",
+   "volcanoes-12",
+   "volcanoes-10",
+   "volcanoes-5",
+   "volcanoes-6",
+   "volcanoes-7",
+   "volcanoes-9",
+   "volcanoes-11"
+  ]
+ },
+ "earth-quakes": {
+  "intro": "An earthquake's size is reported as a single number, its magnitude — but the number does not climb like an ordinary ruler. Each step up means dramatically more shaking and more energy, not just a little more. The shaking itself travels outward as two different kinds of wave, moving at different speeds, carrying different kinds of information about the quake and the ground it passed through.",
+  "order": [
+   "quakes-1",
+   "quakes-2",
+   "quakes-9",
+   "quakes-3",
+   "quakes-10",
+   "quakes-7",
+   "quakes-8",
+   "quakes-6",
+   "quakes-11",
+   "quakes-4",
+   "quakes-5",
+   "quakes-12"
+  ]
+ },
+ "earth-water": {
+  "intro": "Of all the water on Earth, the overwhelming majority is salt water in the ocean. What little is fresh is mostly locked up as ice or buried underground, leaving rivers and lakes the smallest leftover share — and still almost everything people drink comes from that sliver. Measuring the ocean itself takes instruments: sonar for its depth, probes and gauges for what moves through it.",
+  "order": [
+   "water-3",
+   "water-4",
+   "water-12",
+   "water-5",
+   "water-9",
+   "water-10",
+   "water-7",
+   "water-6",
+   "water-1",
+   "water-2",
+   "water-8",
+   "water-11"
+  ]
+ },
+ "earth-weather": {
+  "intro": "Weather gets interesting at the extremes. Nearly all of those extremes are things people measured directly: a hottest day, a coldest day, the fastest wind ever clocked inside a tornado, the heaviest hailstone ever weighed. Some of what happens inside a storm, though, was never watched — how a hailstone built its layers has to be worked out afterward from what the ice and the damage show.",
+  "order": [
+   "weather-10",
+   "weather-1",
+   "weather-2",
+   "weather-3",
+   "weather-4",
+   "weather-5",
+   "weather-7",
+   "weather-6",
+   "weather-8",
+   "weather-9",
+   "weather-11",
+   "weather-12"
+  ]
+ },
+ "earth-caves": {
+  "intro": "Caves and canyons share a problem: nobody has ever sat and watched one get carved. A cave's formation is worked out from chemistry — rainwater turns into a weak acid and eats through limestone along cracks. A canyon's cutting is worked out from the shape left in the rock. Mount St. Helens in 1982 is the one exception: a flood there cut a valley in a single day while people measured it happening.",
+  "order": [
+   "caves-3",
+   "caves-4",
+   "caves-5",
+   "caves-6",
+   "caves-7",
+   "caves-2",
+   "caves-13",
+   "caves-10",
+   "caves-11",
+   "caves-8",
+   "caves-9",
+   "caves-1",
+   "caves-12"
+  ]
+ },
+ "earth-ice": {
+  "intro": "Ice at the poles isn't one simple thing. Some floats — icebergs ride mostly underwater, shoving aside their own weight, the way anything floating does. Some sits piled on land, miles thick in places, and that's the ice that would actually raise the sea if it melted. Some of what's frozen down there isn't ice at all, just ordinary ground that has stayed below freezing long enough to earn its own name.",
+  "order": [
+   "ice-1",
+   "ice-6",
+   "ice-5",
+   "ice-2",
+   "ice-4",
+   "ice-3",
+   "ice-8",
+   "ice-7",
+   "ice-9",
+   "ice-10",
+   "ice-11",
+   "ice-12"
+  ]
+ },
+ "earth-sky": {
+  "intro": "Nearly everything in the sky traces back to Earth's own motion. It spins once roughly every 24 hours, which is why your shadow swings around all day and the sun seems to rise and set. It also leans over on its axis, which is what actually makes summer and winter — not how close the sun happens to be. The moon pulls on the ocean too, and that pull is what drives the tides.",
+  "order": [
+   "sky-6",
+   "sky-7",
+   "sky-5",
+   "sky-4",
+   "sky-3",
+   "sky-9",
+   "sky-8",
+   "sky-1",
+   "sky-2",
+   "sky-10",
+   "sky-11",
+   "sky-12"
+  ]
+ },
+ "astro-sun": {
+  "intro": "The sun is the one star close enough to measure directly instead of just estimating. Its width and surface temperature have both been pinned down by instruments and plain geometry, but nobody has ever been inside it — its core temperature is worked out from how the whole sun rings and wobbles, not measured directly. None of this is safe to check with your own eyes: sunlight damages the retina painlessly and permanently.",
+  "order": [
+   "sun-1",
+   "sun-8",
+   "sun-9",
+   "sun-11",
+   "sun-6",
+   "sun-3",
+   "sun-10",
+   "sun-12",
+   "sun-5",
+   "sun-2",
+   "sun-14",
+   "sun-7",
+   "sun-4",
+   "sun-13"
+  ]
+ },
+ "astro-moon": {
+  "intro": "The moon always shows us the same face, though not quite perfectly — it rocks and wobbles slightly as it orbits, letting a little more than half its surface come into view over time. Its size and distance are not guesses: lasers aimed at mirrors Apollo astronauts left behind time the round trip with extreme precision. With essentially no air to carry heat around, conditions on the surface run to extremes Earth never sees.",
+  "order": [
+   "moon-9",
+   "moon-2",
+   "moon-5",
+   "moon-3",
+   "moon-4",
+   "moon-10",
+   "moon-11",
+   "moon-13",
+   "moon-12",
+   "moon-1",
+   "moon-6",
+   "moon-7",
+   "moon-8",
+   "moon-14"
+  ]
+ },
+ "astro-rocky": {
+  "intro": "Being close to the sun doesn't decide how hot a rocky planet gets — atmosphere does. Mercury is nearest the sun but has almost no air, so heat never spreads from its blazing day side to its frozen night side. Venus sits much farther out and is still the hottest planet of all, because a thick blanket of carbon dioxide traps the heat in.",
+  "order": [
+   "rocky-1",
+   "rocky-2",
+   "rocky-12",
+   "rocky-3",
+   "rocky-4",
+   "rocky-9",
+   "rocky-13",
+   "rocky-11",
+   "rocky-10",
+   "rocky-5",
+   "rocky-6",
+   "rocky-7",
+   "rocky-8",
+   "rocky-14"
+  ]
+ },
+ "astro-giants": {
+  "intro": "Jupiter and Saturn are built from completely different stuff than Earth or Mars — Saturn is so light that, with a big enough ocean, it would float. Both are enormous: Jupiter alone carries more material than every other planet combined, and spins all the way around in under ten hours. Their moons turn out just as strange, hiding active volcanoes, ice geysers, and, by the evidence so far, oceans under the ice.",
+  "order": [
+   "giants-1",
+   "giants-10",
+   "giants-3",
+   "giants-2",
+   "giants-5",
+   "giants-13",
+   "giants-6",
+   "giants-7",
+   "giants-8",
+   "giants-9",
+   "giants-12",
+   "giants-11",
+   "giants-4",
+   "giants-14"
+  ]
+ },
+ "astro-smallstuff": {
+  "intro": "Not everything orbiting the sun is a planet or a moon. Out past Mars sits a scattered ring of rocky debris called the asteroid belt, far emptier than movies make it look. Smaller bits of rock drifting in space are meteoroids; burning up in the air, they're meteors; whatever survives to hit the ground is a meteorite. Comets behave differently — their tails always point away from the sun, never trailing behind like smoke off a train.",
+  "order": [
+   "smallstuff-1",
+   "smallstuff-10",
+   "smallstuff-11",
+   "smallstuff-6",
+   "smallstuff-5",
+   "smallstuff-2",
+   "smallstuff-3",
+   "smallstuff-4",
+   "smallstuff-12",
+   "smallstuff-7",
+   "smallstuff-13",
+   "smallstuff-8",
+   "smallstuff-9",
+   "smallstuff-14"
+  ]
+ },
+ "astro-stars": {
+  "intro": "A star's color is basically a temperature reading: red stars run cooler, blue-white ones hotter, the same way a heated poker changes color as it heats. How far away a star sits gets measured by parallax — the same jump your finger makes against a far wall when you switch eyes. How bright it looks then depends on two things at once: how much light it puts out, and how close it is.",
+  "order": [
+   "stars-1",
+   "stars-3",
+   "stars-4",
+   "stars-13",
+   "stars-5",
+   "stars-2",
+   "stars-6",
+   "stars-10",
+   "stars-11",
+   "stars-12",
+   "stars-7",
+   "stars-8",
+   "stars-9",
+   "stars-14"
+  ]
+ },
+ "astro-deepsky": {
+  "intro": "Not everything fuzzy in the night sky is the same kind of thing. For centuries anything blurry in a telescope got filed as a nebula, Latin for cloud — whether it was an actual gas cloud or a cluster of stars too close together to separate. Better instruments eventually sorted the list out. The Milky Way is one case solved early: it's a band because we're seeing our own galaxy's disc from inside it, edge-on.",
+  "order": [
+   "deepsky-11",
+   "deepsky-4",
+   "deepsky-5",
+   "deepsky-1",
+   "deepsky-13",
+   "deepsky-2",
+   "deepsky-6",
+   "deepsky-3",
+   "deepsky-10",
+   "deepsky-7",
+   "deepsky-8",
+   "deepsky-12",
+   "deepsky-9",
+   "deepsky-14"
+  ]
+ },
+ "astro-looking": {
+  "intro": "Before any telescope, there is the eye, and it takes about half an hour to adjust fully to the dark — one bright light undoes it instantly. A telescope's real job isn't magnifying; it's gathering light, scooping up far more than a pupil ever could, which is why it shows things no eye alone will reach. Even a steady pair of binoculars, needing no setup at all, can reach most of what's worth seeing up there.",
+  "order": [
+   "looking-10",
+   "looking-12",
+   "looking-11",
+   "looking-1",
+   "looking-2",
+   "looking-3",
+   "looking-4",
+   "looking-5",
+   "looking-6",
+   "looking-7",
+   "looking-9",
+   "looking-13",
+   "looking-8",
+   "looking-14"
+  ]
+ },
+ "physical-forces": {
+  "intro": "A moving object keeps moving on its own — it takes a push or a pull, a force, to change that. Friction is the force usually responsible for slowing things down, turning motion into heat instead. Pushes don't happen alone, either: every one is matched by a push back the other way. Some machines use that leverage to turn a small effort into a much larger one.",
+  "order": [
+   "forces-1",
+   "forces-2",
+   "forces-6",
+   "forces-5",
+   "forces-4",
+   "forces-3"
+  ]
+ },
+ "physical-energy": {
+  "intro": "Energy never disappears — it only changes from one form into another, like height into speed, and some always leaks away as heat along the way. Because it can take so many forms, the only way to compare amounts of it is to measure the heat each one can give off. That single trick lets you set a battery, a meal, and a tank of fuel on the same scale.",
+  "order": [
+   "energy-1",
+   "energy-2",
+   "energy-3",
+   "energy-4",
+   "energy-5",
+   "energy-6"
+  ]
+ },
+ "physical-light": {
+  "intro": "Light moves fast enough that nothing reaches your eyes the instant it happens — sunlight itself is always a few minutes old by the time it arrives. What looks like one color, ordinary white light, is really every color traveling together. A handful of simple rules decide how that light bounces, bends, and splits apart again into the colors you actually see.",
+  "order": [
+   "light-1",
+   "light-2",
+   "light-6",
+   "light-3",
+   "light-4",
+   "light-5"
+  ]
+ },
+ "physical-sound": {
+  "intro": "Sound cannot cross empty space the way light can — it is a vibration passing from one bit of matter to the next, so it needs something to travel through. How fast it travels and how high or low it sounds both depend on what it's moving through and how quickly something is shaking. Once you know its speed, timing a sound's round trip tells you a distance without touching anything.",
+  "order": [
+   "sound-1",
+   "sound-2",
+   "sound-3",
+   "sound-4",
+   "sound-5",
+   "sound-6"
+  ]
+ },
+ "physical-heat": {
+  "intro": "Heat always flows from something hotter to something colder, never the other way on its own. Your skin does not actually sense temperature — it senses how fast heat is leaving it, which is why metal can feel colder than wood at the same temperature. That one-way flow also means cold has a floor: a point with no heat left to lose, and nothing hotter ever becomes a matching ceiling.",
+  "order": [
+   "heat-1",
+   "heat-2",
+   "heat-3",
+   "heat-4",
+   "heat-5",
+   "heat-6"
+  ]
+ },
+ "physical-electric": {
+  "intro": "Electricity starts with charge — tiny positive and negative charges that pull toward each other once they're separated, whether by rubbing two things together or by a chemical reaction inside a battery. For that charge to actually flow and do anything, it needs a complete loop to travel around, made of a material that lets it through. Break the loop, or use the wrong material, and nothing moves.",
+  "order": [
+   "electric-1",
+   "electric-5",
+   "electric-2",
+   "electric-6",
+   "electric-3",
+   "electric-4"
+  ]
+ },
+ "physical-magnets": {
+  "intro": "A magnet always has two ends, called poles, and there's no way to get just one — cut it in half and each piece grows its own pair. Only a handful of materials respond to magnets at all, which already tells you magnetism isn't some property every metal shares. Which way a magnet points, and what can change that, comes down to where those poles are.",
+  "order": [
+   "magnets-1",
+   "magnets-5",
+   "magnets-2",
+   "magnets-4",
+   "magnets-3",
+   "magnets-6"
+  ]
+ },
+ "physical-matter": {
+  "intro": "Matter around you mostly sits still in one state — solid, liquid, or gas — and stays there unless something drastic happens to it. Water is the exception you meet every day, moving between all three as ice, water, and steam. Exactly when and how it changes state, and how it behaves once it has, depends on things like pressure and temperature that are easy to overlook.",
+  "order": [
+   "matter-1",
+   "matter-2",
+   "matter-3",
+   "matter-4",
+   "matter-5",
+   "matter-6"
+  ]
+ },
+ "micro-cell": {
+  "intro": "Every living thing is built out of cells, and nobody knew that until someone pointed a microscope at something ordinary and looked closely. A cell is tiny but not empty — it has a boundary deciding what gets in, something very long coiled up tight inside, and parts that keep it running. You are not one thing but a staggering number of these working together.",
+  "order": [
+   "cell-1",
+   "cell-2",
+   "cell-3",
+   "cell-4",
+   "cell-5",
+   "cell-6"
+  ]
+ },
+ "micro-bacteria": {
+  "intro": "Bacteria are single cells too small to see without a lens that didn't exist until fairly recently, which is why they went unnoticed for most of history. There are enormous numbers of them, in you and around you, and they multiply by simply splitting in two, over and over, as fast as conditions allow. Most of them are not a threat at all — only a small fraction cause disease.",
+  "order": [
+   "bacteria-1",
+   "bacteria-2",
+   "bacteria-3",
+   "bacteria-4",
+   "bacteria-5",
+   "bacteria-6"
+  ]
+ },
+ "micro-virus": {
+  "intro": "A virus does not eat or grow on its own — it is a set of instructions in a protective coat that only does anything once it gets inside a living cell. That makes it very different from a bacterium, smaller and built out of less, which is part of why the same treatments do not work on both. Whether something this stripped-down even counts as alive is a genuinely open question.",
+  "order": [
+   "virus-1",
+   "virus-2",
+   "virus-3",
+   "virus-4",
+   "virus-5",
+   "virus-6"
+  ]
+ },
+ "micro-fungi": {
+  "intro": "A fungus is not a plant — it has no green coloring to make its own food, so it feeds instead on whatever is already dead or alive nearby. What you see above ground, a mushroom or a patch of mold, is usually a small visible piece of something much bigger spread out of sight. Yeast is one kind of fungus; mold on old bread is another.",
+  "order": [
+   "fungi-4",
+   "fungi-1",
+   "fungi-2",
+   "fungi-3",
+   "fungi-5",
+   "fungi-6"
+  ]
+ },
+ "micro-pond": {
+  "intro": "A drop of pond water is not empty — it is full of living things made of just one cell each, moving, eating, and getting rid of waste without any help from neighboring cells. Some drift or swim under their own power; others build themselves a shell or a case out of whatever material is close at hand. None of it needs a microscope to exist, only to be seen.",
+  "order": [
+   "pond-1",
+   "pond-2",
+   "pond-3",
+   "pond-4",
+   "pond-5",
+   "pond-6"
+  ]
+ },
+ "micro-helpers": {
+  "intro": "Most microbes do not make you sick — plenty of them are doing useful work, in you, on your food, and in the ground under your feet. Many live in a trade: they get food or shelter, and in exchange they hand back something the plant, animal, or person could not make on its own. There are more of them around than you would guess from how rarely you notice them.",
+  "order": [
+   "helpers-1",
+   "helpers-3",
+   "helpers-2",
+   "helpers-5",
+   "helpers-4",
+   "helpers-6"
+  ]
+ },
+ "micro-clean": {
+  "intro": "Many of the ordinary habits around staying well — washing hands, chilling food, heating milk — are simple mechanical tricks, discovered long before anyone understood why they worked. Soap and cold do completely different jobs: one physically removes germs, the other only slows them down. Even a fever is not an accident — it is the body doing something on purpose.",
+  "order": [
+   "clean-1",
+   "clean-2",
+   "clean-3",
+   "clean-4",
+   "clean-5",
+   "clean-6"
+  ]
+ },
+ "micro-scope": {
+  "intro": "The first microscopes were little more than a single curved bead of glass held close to the eye, bending light enough to magnify something tiny. That trick has a hard limit: nothing smaller than a light wave itself can ever be made visible that way, however good the lens. Seeing anything smaller, or getting a clear look at something nearly colorless, takes different tricks entirely.",
+  "order": [
+   "scope-1",
+   "scope-2",
+   "scope-3",
+   "scope-4",
+   "scope-5",
+   "scope-6"
+  ]
+ },
+ "ancient-beginning": {
+  "intro": "Genesis opens with an account of creation, then turns to family lists — fathers, sons, and the age of each when the next was born. Those lists are the only reason anyone can try to add up how long ago creation happened, though old copies don't all give the same numbers. Any total is arithmetic on a text, not a measurement. The text itself survives only because people copied it by hand, generation after generation.",
+  "order": [
+   "beginning-1",
+   "beginning-2",
+   "beginning-3",
+   "beginning-4",
+   "beginning-5",
+   "beginning-6"
+  ]
+ },
+ "ancient-flood": {
+  "intro": "Genesis describes a flood, survived aboard a boat built to exact measurements given in the text, and flood stories much like it turn up in unconnected cultures all over the world, including one from ancient Mesopotamia. Afterward, Genesis says, Babel is where a single language split into many and its builders scattered. Languages today still sort into families that share words and endings, though no one has shown how far back those families might connect.",
+  "order": [
+   "flood-1",
+   "flood-2",
+   "flood-3",
+   "flood-4",
+   "flood-5",
+   "flood-6"
+  ]
+ },
+ "ancient-egypt": {
+  "intro": "Ancient Egypt's monuments can be measured directly, and people have done so again and again, though some famous numbers — like a block count for the Great Pyramid — are calculated estimates, not something anyone counted. Working out when a monument was built relies on lining up different kinds of evidence, never a date carved into the stone. Egyptian writing itself stayed undeciphered until a single inscription, cut in more than one script, handed historians the key.",
+  "order": [
+   "egypt-1",
+   "egypt-2",
+   "egypt-3",
+   "egypt-4",
+   "egypt-5",
+   "egypt-6"
+  ]
+ },
+ "ancient-mesopot": {
+  "intro": "Mesopotamia has the oldest writing anyone can still read, pressed into wet clay with the cut end of a reed. Fire destroys paper and parchment but only bakes clay harder, which is why so much from this region survived to be dug up. What got written down ranged from laws to palace records to names stamped into bricks. Even wheels survive from here — but the earliest ones are potter's wheels, not cart wheels.",
+  "order": [
+   "mesopot-1",
+   "mesopot-2",
+   "mesopot-3",
+   "mesopot-4",
+   "mesopot-5",
+   "mesopot-6"
+  ]
+ },
+ "ancient-israel": {
+  "intro": "Names and events from the Bible sometimes turn up again on objects made for other reasons entirely — a king's boast cut into stone, a siege carved on a palace wall, a decree stamped into clay. People dug up or stumbled onto these objects long after they were buried, often by accident. Some record events, and one, a tunnel cut through solid rock, you can still walk through today. Each one is a separate, physical check on a written account.",
+  "order": [
+   "israel-1",
+   "israel-2",
+   "israel-3",
+   "israel-4",
+   "israel-5",
+   "israel-6"
+  ]
+ },
+ "ancient-greece": {
+  "intro": "Much of what is known about ancient Greece comes from things people wrote down — winner lists from the games, histories written close to the events — using an alphabet adapted from the Phoenicians, with vowels added in. That written record sometimes disagrees with a version of a story that became famous later, worth knowing before repeating the famous one. Greeks also built and designed with a level of precision and cleverness that people still measure and study today.",
+  "order": [
+   "greece-4",
+   "greece-5",
+   "greece-6",
+   "greece-1",
+   "greece-2",
+   "greece-3"
+  ]
+ },
+ "ancient-rome": {
+  "intro": "Roman builders worked at a scale that required real engineering, not just labor — concrete that reacts with seawater instead of crumbling, domes with no steel inside them, water channels that drop by inches over dozens of miles. Much of it is still standing, which means it can be measured, cored, and checked rather than just described. That same culture left behind eyewitness letters and even plaster casts of people caught in its disasters.",
+  "order": [
+   "rome-1",
+   "rome-2",
+   "rome-3",
+   "rome-5",
+   "rome-4",
+   "rome-6"
+  ]
+ },
+ "america-explorers": {
+  "intro": "Finding your way somewhere nobody you know has been starts with figuring out where you are — easy enough for how far north you've gone, much harder for how far east or west, which is why an accurate clock mattered so much. Exploring also meant writing everything down: logs, journals, measurements. Some of those original records survive; others exist only as copies made by people who were not there.",
+  "order": [
+   "explorers-6",
+   "explorers-1",
+   "explorers-2",
+   "explorers-3",
+   "explorers-4",
+   "explorers-5"
+  ]
+ },
+ "america-colonies": {
+  "intro": "The first English colonies were tiny, crowded footholds reached after months at sea, and much of what is known about them now has been dug up, measured, or worked out, not read off a surviving plan. Building methods, schooling, and a career all depended on whatever materials and openings were on hand — a stack of logs, a single printed page, a brother's print shop. Colonists made do, and some made a great deal out of very little.",
+  "order": [
+   "colonies-1",
+   "colonies-2",
+   "colonies-3",
+   "colonies-4",
+   "colonies-5",
+   "colonies-6"
+  ]
+ },
+ "america-founding": {
+  "intro": "The founding of the country left behind actual physical documents — sheets of parchment anyone can go see today — not just the words printed in a textbook. Some still carry the marks of the people who made them: crossed-out words, corrected mistakes, ink that has faded from years on display. The individuals behind these objects were ordinary tradespeople and thinkers working under real constraints of time, money, and the materials on hand.",
+  "order": [
+   "founding-1",
+   "founding-2",
+   "founding-3",
+   "founding-4",
+   "founding-5",
+   "founding-6"
+  ]
+ },
+ "america-inventors": {
+  "intro": "Invention mostly looks like failure from the inside. The people remembered for one breakthrough usually left behind piles of notes recording attempt after attempt that failed, each one written down before moving to the next. Proving an idea safe sometimes meant testing it in public, in front of a crowd, with real risk attached. Even the written record of who invented what first isn't always as tidy as the story that gets told.",
+  "order": [
+   "inventors-1",
+   "inventors-2",
+   "inventors-3",
+   "inventors-4",
+   "inventors-5",
+   "inventors-6"
+  ]
+ },
+ "america-frontier": {
+  "intro": "Heading west meant walking for months beside a wagon loaded with supplies, not riding in it — oxen pulled the load, being cheaper, tougher, and harder to steal than horses. So many wagons followed the same route that wheels wore grooves straight into solid rock in places, grooves still there to stand in today. Getting mail out, building a house, and feeding a crew on the move all meant working around land with little timber and few shortcuts.",
+  "order": [
+   "frontier-2",
+   "frontier-1",
+   "frontier-3",
+   "frontier-4",
+   "frontier-5",
+   "frontier-6"
+  ]
+ },
+ "america-machines": {
+  "intro": "Moving people and freight used to depend on rivers, mules, and whatever boats could float in shallow water. A canal, then steamboats, then a railroad linking both coasts each replaced the one before it. Trains moved fast enough that the time of day itself became a problem, one the railroads solved by decree. Building bigger and faster also meant rethinking how work itself was organized, on a bridge site or a factory floor.",
+  "order": [
+   "machines-4",
+   "machines-3",
+   "machines-1",
+   "machines-2",
+   "machines-6",
+   "machines-5"
+  ]
+ },
+ "america-flight": {
+  "intro": "Before they built anything that flew, the Wright brothers ran a bicycle shop, which gave them spare profits, spare parts, and a feel for balance. They didn't trust published numbers on wing performance, so they tested shapes themselves instead of guessing. What they actually solved was control — twisting a wing to make the aircraft roll — more than the engine or the wing's shape. Their first successful flight was a small, tentative start; what came right after it mattered more.",
+  "order": [
+   "flight-4",
+   "flight-2",
+   "flight-3",
+   "flight-1",
+   "flight-5",
+   "flight-6"
+  ]
+ },
+ "america-everyday": {
+  "intro": "A family's everyday life a century or more ago often ran through the mail and through whatever the neighbors could manage together. The mail-order catalog was, for many households, the biggest book in the house besides the Bible, and you really could order a whole house out of one, shipped out in pieces. Other necessities, like electricity reaching a farm, depended less on a company showing up than on families doing the work themselves.",
+  "order": [
+   "everyday-6",
+   "everyday-2",
+   "everyday-1",
+   "everyday-3",
+   "everyday-4",
+   "everyday-5"
+  ]
+ },
+ "world-middle": {
+  "intro": "In medieval Europe, buildings and books were produced one piece at a time, by people trained for years to do a single job well. A monk copying a Bible might spend years on one book, and an official record could be just as painstaking — and just as final, once written down. Learning a trade followed an equally fixed, lengthy process: years of apprenticeship before a worker was recognized as qualified.",
+  "order": [
+   "middle-1",
+   "middle-2",
+   "middle-3",
+   "middle-4",
+   "middle-5",
+   "middle-6"
+  ]
+ },
+ "world-voyages": {
+  "intro": "Long ocean voyages pushed ships, crews, and sometimes the truth itself to their limits. Some of these voyages are remarkable mainly for scale — how many ships, how far, how many men. Others were sailed with no instruments at all, by reading stars, swells, and birds. A few went wrong almost immediately, and one account of all this survives only because its author dictated it to a cellmate.",
+  "order": [
+   "voyages-2",
+   "voyages-1",
+   "voyages-3",
+   "voyages-4",
+   "voyages-5",
+   "voyages-6"
+  ]
+ },
+ "world-printing": {
+  "intro": "Printing didn't start with one single invention — it needed several pieces to come together. Paper itself originated in China and took centuries to reach Europe, and the first printed book that can be dated for certain is Chinese too. In Europe, the press, the ink, and a way to cast many identical pieces of metal type all had to be worked out separately before printing could take off.",
+  "order": [
+   "printing-3",
+   "printing-2",
+   "printing-5",
+   "printing-4",
+   "printing-1",
+   "printing-6"
+  ]
+ },
+ "world-discovery": {
+  "intro": "A number of thinkers in this period shared one basic rule: take nobody's word for it. Instead of accepting a claim, they tested it, often in front of witnesses, and published exactly what happened — successes and failures alike. That habit of testing produced a telescope pointed at the night sky, a column of mercury that revealed the weight of the air, and a clock that could keep time at sea.",
+  "order": [
+   "discovery-5",
+   "discovery-1",
+   "discovery-2",
+   "discovery-3",
+   "discovery-4",
+   "discovery-6"
+  ]
+ },
+ "world-builders": {
+  "intro": "Builders around the world solved different problems with whatever worked in that place: what to build with, how to survive an earthquake, how to keep land dry below sea level. Some methods are surprisingly precise, like stone cut so exactly it needs no mortar. Some widely held beliefs about these places have also turned out to be wrong, or incomplete, once someone actually measured or surveyed them.",
+  "order": [
+   "builders-2",
+   "builders-4",
+   "builders-3",
+   "builders-6",
+   "builders-5",
+   "builders-1"
+  ]
+ },
+ "world-faroff": {
+  "intro": "Far from Europe, other societies were solving the same basic problems — how to keep records, grow food, defend a home, and move goods over distance — in their own ways. Some kept numerical records on knotted cords instead of writing. Others built farmland on open water, or cast metal in shapes too thin for European foundries to match.",
+  "order": [
+   "faroff-1",
+   "faroff-5",
+   "faroff-2",
+   "faroff-3",
+   "faroff-4",
+   "faroff-6"
+  ]
+ },
+ "world-medicine": {
+  "intro": "Modern medicine is built from a series of specific breakthroughs, each one solving a problem that used to kill people or make treatment unbearable. Some came from a new kind of ray that could photograph bones right through skin. Some came from a changed assumption about what was making people sick. And some came from nothing more than writing down what was actually happening to patients.",
+  "order": [
+   "medicine-1",
+   "medicine-5",
+   "medicine-3",
+   "medicine-2",
+   "medicine-4",
+   "medicine-6"
+  ]
+ },
+ "world-modern": {
+  "intro": "New technology for capturing images, sending messages, and moving goods didn't appear fully formed — each step took trial and error. One early transatlantic cable worked for only three weeks before it died. A later transatlantic radio message was dismissed as impossible by physicists sure that radio waves travel in straight lines while the earth curves. Some of this technology still runs quietly in the background of daily life.",
+  "order": [
+   "modern-1",
+   "modern-2",
+   "modern-3",
+   "modern-4",
+   "modern-5",
+   "modern-6"
+  ]
+ },
+ "body-brain": {
+  "intro": "Your brain is about the size of two clenched fists and roughly 60% fat, the material that insulates its nerve fibers. Those nerves carry signals fast enough to beat a Formula 1 car, which is how you snatch your hand back from something hot before it properly hurts. A pinched or chilled nerve still fires — just with a confused signal that your brain has to make sense of.",
+  "order": [
+   "b2",
+   "b0",
+   "b58",
+   "b59",
+   "b1",
+   "b6",
+   "b5",
+   "b7",
+   "b3",
+   "b4",
+   "b60",
+   "b61",
+   "b56",
+   "b62",
+   "b57"
+  ]
+ },
+ "body-heart": {
+  "intro": "Your heart is a muscle about the size of your own fist, divided into four chambers with one-way valves between them, so blood can only flow forward. It beats on its own rhythm, set by its own cells, and pushes your entire blood supply out through vessels reaching every part of you. The lub-dub of a heartbeat is not the muscle squeezing — it's those valves slamming shut.",
+  "order": [
+   "b10",
+   "b12",
+   "b66",
+   "b68",
+   "b8",
+   "b65",
+   "b69",
+   "b11",
+   "b9",
+   "b67",
+   "b13",
+   "b63",
+   "b64"
+  ]
+ },
+ "body-bones": {
+  "intro": "You were born with about 300 bones; fusion during growth leaves you with 206. Bone isn't inert scaffolding — it's living tissue, constantly torn down and rebuilt, and pound for pound it's stronger than steel. From there, individual bones do very different jobs: some are tiny, one is the longest bone you own, and at least one isn't attached to any other bone at all.",
+  "order": [
+   "b14",
+   "b72",
+   "b16",
+   "b18",
+   "b71",
+   "b15",
+   "b73",
+   "b75",
+   "b76",
+   "b19",
+   "b74",
+   "b17",
+   "b20",
+   "b70"
+  ]
+ },
+ "body-lungs": {
+  "intro": "Your lungs pack an enormous surface for trading oxygen into your blood, folded into hundreds of millions of tiny air sacs — spread flat, it would cover a good chunk of a tennis court. Those sacs are wet and would stick shut on their own, so a soapy coating and an occasional extra-deep sigh keep them popping open. That pumping is actually done by your diaphragm, the muscle sheet underneath — not the lungs themselves.",
+  "order": [
+   "b21",
+   "b23",
+   "b79",
+   "b78",
+   "b24",
+   "b25",
+   "b77",
+   "b83",
+   "b82",
+   "b80",
+   "b81",
+   "b22"
+  ]
+ },
+ "body-senses": {
+  "intro": "You're taught five senses, but your body quietly runs more than that — close your eyes and you still know exactly where your hands are, without seeing or touching them. Taste turns out to be mostly carried by smell, and your eye can't actually see sharply across its whole visual field. Even the textbook diagrams get details wrong — including, famously, the map of where your tongue supposedly tastes what.",
+  "order": [
+   "b30",
+   "b27",
+   "b26",
+   "b88",
+   "b89",
+   "b84",
+   "b85",
+   "b29",
+   "b86",
+   "b32",
+   "b87",
+   "b90",
+   "b28",
+   "b31"
+  ]
+ },
+ "body-gut": {
+  "intro": "Digestion starts the moment food hits your mouth, not later in your stomach. From there, muscles squeeze it along the whole length of your gut in a wave — not gravity, which is why you could swallow upside down. Your stomach greets it with acid strong enough to damage metal, so the stomach lining has to constantly rebuild itself to avoid being digested along with the food.",
+  "order": [
+   "b43",
+   "b94",
+   "b41",
+   "b39",
+   "b95",
+   "b91",
+   "b40",
+   "b42",
+   "b92",
+   "b96",
+   "b97",
+   "b44",
+   "b93"
+  ]
+ },
+ "body-skin": {
+  "intro": "Skin is your largest organ, and its main job is holding a line: water stays out, and your own water stays in, thanks to a layer of dead cells stacked like bricks. It doesn't sit still to do this — you shed skin constantly and grow a whole new outer layer about every month. Nerves threaded through it report sensations like touch and itch, and your fingertips are far more sensitive than your back.",
+  "order": [
+   "b33",
+   "b101",
+   "b34",
+   "b35",
+   "b103",
+   "b38",
+   "b36",
+   "b37",
+   "b104",
+   "b98",
+   "b100",
+   "b99",
+   "b102"
+  ]
+ },
+ "body-defence": {
+  "intro": "Your immune system doesn't just block germs — it actively hunts them. White blood cells chase bacteria down and swallow them whole, and symptoms you might read as the illness itself, like a fever or a scab, are usually your body's deliberate response rather than damage. Even reflexes like sneezing and vomiting serve that same purpose: throwing out whatever shouldn't be there.",
+  "order": [
+   "b46",
+   "b108",
+   "b47",
+   "b45",
+   "b110",
+   "b109",
+   "b111",
+   "b48",
+   "b105",
+   "b49",
+   "b106",
+   "b107"
+  ]
+ },
+ "body-sleep": {
+  "intro": "A clump of cells deep in your brain keeps your sleep schedule, taking its orders from light-sensing cells at the back of your eye. Left without daylight, that clock keeps running but drifts off a 24-hour day. How much sleep it calls for changes a lot as you grow, from a newborn's scattered naps to a teenager's one long block, and the clock itself runs later during the teenage years.",
+  "order": [
+   "b123",
+   "b119",
+   "b124",
+   "b125",
+   "b120",
+   "b121",
+   "b122",
+   "b126",
+   "b127"
+  ]
+ },
+ "body-cells": {
+  "intro": "Your body is built from trillions of individual cells, and nearly every one carries a complete copy of your DNA, folded into a nucleus too small to see. Each cell reads only its own section of that instruction book: a skin cell holds full directions for a heart and never opens them. Most cells don't last long and get replaced on a fast, constant cycle.",
+  "order": [
+   "b128",
+   "b129",
+   "b130",
+   "b135",
+   "b133",
+   "b132",
+   "b134",
+   "b131",
+   "b136"
+  ]
+ },
+ "body-voice": {
+  "intro": "Your voice comes from two small flaps in your throat, snapping together as air pushes past — faster flaps make a higher sound, slower ones a deeper one. That's also why a whisper doesn't use your voice at all: the flaps hold still and you shape only the hiss of moving air. The size and tension of those flaps change throughout life, which is most obvious during puberty, when they suddenly grow.",
+  "order": [
+   "b137",
+   "b144",
+   "b138",
+   "b139",
+   "b142",
+   "b140",
+   "b141",
+   "b143",
+   "b145"
+  ]
+ },
+ "body-hands": {
+  "intro": "None of the muscles that move your fingers are inside them — they sit in your palm and forearm, pulling on tendons that run down into each finger. Your brain devotes more of its control map to your hands than to your whole trunk and both legs combined. That control is what lets your thumb reach around and touch every other fingertip, turning your hand from a simple paddle into a tool-holder.",
+  "order": [
+   "b146",
+   "b152",
+   "b154",
+   "b153",
+   "b149",
+   "b150",
+   "b148",
+   "b147",
+   "b151"
+  ]
+ },
+ "body-heat": {
+  "intro": "Your body works hard to hold its temperature in a narrow band, and it does that actively, not just by sitting still. Sweat only cools you once it evaporates, which is why muggy days feel worse than dry ones, and shivering is your muscles deliberately firing against each other to make heat. Even the number most people quote for 'normal' body temperature, 98.6°F (37°C), was never an exact average to begin with.",
+  "order": [
+   "b155",
+   "b156",
+   "b157",
+   "b158",
+   "b160",
+   "b159",
+   "b162",
+   "b161",
+   "b163"
+  ]
+ },
+ "body-growing": {
+  "intro": "Every person started as a single cell, too small to see without a microscope. Growing from there doesn't happen evenly or all at once — different parts of the body reach their final size on their own separate schedule. Much of the actual growing happens overnight, while you're asleep, which is also when growth hormone is released.",
+  "order": [
+   "b52",
+   "b116",
+   "b53",
+   "b112",
+   "b114",
+   "b50",
+   "b51",
+   "b54",
+   "b113",
+   "b55",
+   "b117",
+   "b118",
+   "b115"
+  ]
+ }
+}

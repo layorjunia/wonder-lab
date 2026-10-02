@@ -491,6 +491,7 @@ const Offline = {
     [CATEGORIES, KINDS, GROUPS, PLANT_GROUPS, BODY_SECTIONS, GAME_PHRASES]
       .forEach(m => { if (m) Object.values(m).forEach(v =>
         t.push(typeof v === 'string' ? v : v.name)); });
+    if (typeof LESSONS !== 'undefined') LESSONS.forEach(l => { if (l.intro) t.push(l.intro); });
     const facts = (a) => a.forEach(x => {
       ['name', 'blurb', 'size', 'wonder', 'text', 'more', 'tryit']
         .forEach(k => { if (x[k]) t.push(x[k]); });

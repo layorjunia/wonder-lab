@@ -80,6 +80,7 @@ load('js/schema.js'); load('js/animals.js'); load('js/body.js');
 load('js/expeditions.js');
 load('js/plants.js'); load('js/earth.js'); load('js/astro.js');
 ['ancient', 'america', 'world', 'micro', 'physical', 'economics'].forEach(f => load('js/' + f + '.js'));
+load('js/lessons.js');
 const out = [];
 const push = (src, field, id, t) => { if (t && String(t).trim())
   out.push({ src, field, id, text: String(t) }); };
@@ -104,6 +105,11 @@ push('label', 'phrase', 'tryit', 'Try it now');
 // Game phrases live in schema.js precisely so this line can find them. A
 // phrase written inline in app.js gets no clip and no warning.
 Object.values(GAME_PHRASES).forEach((t, i) => push('label', 'phrase', 'gp' + i, t));
+// Every lesson's opening line — a curated teaching intro where
+// tools/apply_lesson_intros.py has written one, otherwise the plain count
+// tools/build_lessons.py defaults to. Narrated either way: lessonFrame() in
+// app.js only ever plays L.intro, never a string built at runtime.
+LESSONS.forEach(l => push('label', 'phrase', 'li-' + l.id, l.intro));
 PLANTS.forEach(p => {
   push('plant', 'name',   p.id, p.name);
   push('plant', 'blurb',  p.id, p.blurb);

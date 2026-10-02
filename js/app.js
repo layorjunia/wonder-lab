@@ -2529,7 +2529,15 @@ const App = {
     const rows = L.course === 'body'
       ? BODY.filter(r => r.section === L.section)
       : course.rows.filter(r => r.section === L.section);
-    return rows.map(r => ({ text: r.text, more: r.more, tryit: r.tryit,
+    // L.order is the curated teaching sequence (tools/apply_lesson_intros.py)
+    // — concept/definition facts first, examples and records after, instead
+    // of whatever order the facts happened to be written in for a shuffled
+    // browsable deck. Falls back to file order where a lesson has no
+    // curation yet, which is wrong in the same way the old deck was wrong,
+    // but never crashes.
+    const byId = Object.fromEntries(rows.map(r => [r.id, r]));
+    const ordered = (L.order || rows.map(r => r.id)).map(id => byId[id]).filter(Boolean);
+    return ordered.map(r => ({ text: r.text, more: r.more, tryit: r.tryit,
       refId: r.id, cat: r.cat, factKind: r.kind }));
   },
 
@@ -2664,17 +2672,16 @@ const App = {
     setTimeout(() => el.remove(), 260);
   },
 
-  // An honest one-line frame before the facts start — real counts, no
-  // invented narrative. The complaint this answers: a lesson that opens
-  // straight into an isolated fact with no setup reads as a stack of trivia
-  // cards, not something being taught.
-  lessonFrame(L, course) {
-    if (L.kind === 'species') {
-      const g = (course.id === 'animals' ? GROUPS : PLANT_GROUPS)[L.group] || {};
-      return `Meet ${L.items.length} ${(g.name || course.name).toLowerCase()}.`;
-    }
-    return `${L.n} thing${L.n === 1 ? '' : 's'} to discover about ${L.title.toLowerCase()}.`;
-  },
+  // A real teaching intro before the facts start (tools/BRIEF-lesson-intros.md
+  // — tools/apply_lesson_intros.py), not a fact itself: this is the one place
+  // in the app allowed to set up a concept rather than stand alone, because a
+  // lesson is always read in this fixed order, start to finish. Every lesson
+  // has SOME intro straight from js/lessons.js — tools/build_lessons.py gives
+  // every lesson an honest count-only default and the curation file overwrites
+  // it with real teaching text where one has been written — so there is
+  // always exactly one already-narrated string here, never one built at
+  // runtime that gen_audio.py's corpus walker never saw.
+  lessonFrame(L) { return L.intro || `${L.n || L.items.length} things ahead.`; },
 
   lessonOpen(id) {
     this.closeSheet();
@@ -2735,7 +2742,7 @@ const App = {
       <div class="lesson-top">
         <button class="btn ghost" onclick="App.lessonExit()">✕</button>
         <div class="lesson-dots">${this.lessonDots()}</div>
-        ${p.isFrame ? '<span style="width:40px"></span>' : this.listenLabel('🔊', p.name || '', p.text, p.more)}
+        ${this.listenLabel('🔊', p.name || '', p.text, p.more)}
       </div>
       ${p.isFrame ? '' : `<div class="lesson-head">${course.glyph} ${L.title}</div>`}
       <div class="lesson-body">${body}
