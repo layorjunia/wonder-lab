@@ -2555,12 +2555,30 @@ const App = {
   // the number actually being taught, since most facts spell units out.
   NUM_RE: /(\d[\d,]*\.?\d*)\s*(feet|foot|ft|inches|inch|in|miles?|mi|pounds?|lbs?|lb|kilograms?|kg|meters?|m|centimeters?|cm|millimeters?|mm|mph|km\/h|kilometers?|km|degrees?|°F|°C|%|years?|hours?|minutes?|seconds?|days?)\b/,
 
+  // Split on sentence-ending punctuation, keeping it attached. A dense
+  // four-sentence fact used WHOLE as a quiz prompt is unreadable as a
+  // question — "is this 55-word paragraph true or false?" — so every
+  // generator below works on the one sentence a number actually falls in,
+  // never the full fact.
+  sentences(text) { return text.match(/[^.!?]+[.!?]+/g) || [text]; },
+
+  sentenceWith(text, index) {
+    const sents = this.sentences(text);
+    let pos = 0;
+    for (const s of sents) {
+      if (index < pos + s.length) return { sentence: s.trim(), offset: index - pos };
+      pos += s.length;
+    }
+    return { sentence: sents[sents.length - 1].trim(), offset: 0 };
+  },
+
   genBlank(fact, siblings) {
     const m = this.NUM_RE.exec(fact.text);
     if (!m) return null;
+    const { sentence, offset } = this.sentenceWith(fact.text, m.index);
+    if (offset < 0 || offset > sentence.length) return null;   // boundary edge case — skip
     const correct = m[1] + ' ' + m[2];
-    const prompt = fact.text.slice(0, m.index) + '____'
-      + fact.text.slice(m.index + m[0].length);
+    const prompt = sentence.slice(0, offset) + '____' + sentence.slice(offset + m[0].length);
     const others = [];
     siblings.forEach(s => { if (s === fact) return;
       const mm = this.NUM_RE.exec(s.text); if (mm) others.push(mm[1] + ' ' + mm[2]); });
@@ -2579,13 +2597,15 @@ const App = {
 
   genTF(fact) {
     const m = this.NUM_RE.exec(fact.text);
-    if (!m || Math.random() < 0.5) return { type: 'tf', prompt: fact.text, answer: 0, explain: '' };
+    if (!m) return null;
+    const { sentence, offset } = this.sentenceWith(fact.text, m.index);
+    if (offset < 0 || offset > sentence.length) return null;
+    if (Math.random() < 0.5) return { type: 'tf', prompt: sentence, answer: 0, explain: '' };
     const n = parseFloat(m[1].replace(/,/g, ''));
     const factor = Math.random() < 0.5 ? 1.5 + Math.random() : 0.3 + Math.random() * 0.4;
     let alt = Math.round(n * factor * 10) / 10;
     if (alt === n) alt = n + 1;
-    const prompt = fact.text.slice(0, m.index) + alt + ' ' + m[2]
-      + fact.text.slice(m.index + m[0].length);
+    const prompt = sentence.slice(0, offset) + alt + ' ' + m[2] + sentence.slice(offset + m[0].length);
     return { type: 'tf', prompt, answer: 1, explain: fact.text };
   },
 
@@ -2627,7 +2647,10 @@ const App = {
     // whatever is left, which always succeeds since it needs no number.
     let i = 0;
     while (qs.length < Math.min(n, 3) && i < facts.length) {
-      qs.push({ type: 'tf', prompt: facts[i].text, answer: 0, explain: '' });
+      // First sentence only — never the whole multi-sentence fact. A real
+      // fact.more paragraph dumped in whole as a single "true or false?" was
+      // exactly the bug that made a quiz question unreadable.
+      qs.push({ type: 'tf', prompt: this.sentences(facts[i].text)[0].trim(), answer: 0, explain: '' });
       i++;
     }
     return this.shuffle(qs).slice(0, n);
@@ -2683,6 +2706,11 @@ const App = {
   // runtime that gen_audio.py's corpus walker never saw.
   lessonFrame(L) { return L.intro || `${L.n || L.items.length} things ahead.`; },
 
+  COURSE_TINT: { earth: 'var(--cyan)', astro: '#8fa8ff', physical: '#6fb3ff',
+    micro: 'var(--cyan)', ancient: 'var(--amber)', america: '#ff9f7a',
+    world: 'var(--violet)', body: 'var(--violet)', economics: '#e0b84a',
+    animals: 'var(--amber)', plants: 'var(--lime)' },
+
   lessonOpen(id) {
     this.closeSheet();
     const L = LESSONS.find(x => x.id === id);
@@ -2693,9 +2721,17 @@ const App = {
                    ...this.lessonPages(L)];
     this._lesson = { L, pages, idx: 0, stage: 'story',
       quizIdx: 0, quizRight: 0, quizFirst: 0, misses: 0, gameRight: 0, gameTotal: 0 };
+    // Defensive: a stale overlay left over from anywhere that didn't go
+    // through lessonExit() would otherwise sit on top of the fresh one,
+    // showing blank — getElementById always finds the first of two same-id
+    // elements, so every render call would be silently updating the HIDDEN
+    // one underneath.
+    const old = document.getElementById('lessonOverlay');
+    if (old) old.remove();
     const wrap = document.createElement('div');
-    wrap.className = 'lesson-overlay';
+    wrap.className = 'lesson-overlay pat-' + (course.pat || 'topo');
     wrap.id = 'lessonOverlay';
+    wrap.style.setProperty('--lesson-tint', this.COURSE_TINT[L.course] || 'var(--lime)');
     document.body.appendChild(wrap);
     this.lessonRenderPage();
   },
@@ -2803,46 +2839,112 @@ const App = {
 
   // ── mini-game: a quick round of the same auto-generated questions, played
   // fast with no retry — the warm-up before the quiz counts for real. ──
+  // ══ THE GAME ═════════════════════════════════════════════════════════
+  // Two real, different mechanics — not another multiple-choice screen with
+  // a new label. "Quick Check" used to just be the quiz again, which is the
+  // exact complaint: a game has to FEEL like a different thing to play.
+  //   species lessons -> Zoom In: a photo starts zoomed in and pulls back
+  //     while the clock runs; guess the species before (or as) it reveals.
+  //     This is the app's own proven zoomGame mechanic, scoped to just the
+  //     5 species this lesson covered, not the whole 301-species pool.
+  //   fact lessons -> Sort the Evidence: read a short claim from THIS
+  //     lesson, tap which kind of evidence it is (Observed / Worked Out /
+  //     Written Down). A sorting game, not a question-and-four-buttons game,
+  //     and it drills the one distinction the whole app is built around.
   lessonStartGame() {
-    const s = this._lesson;
+    const s = this._lesson, L = s.L;
     s.stage = 'game';
-    s.game = this.buildQuestions(s.L, s.pages, 5, true);
-    s.gameIdx = 0; s.gameRight = 0;
+    if (L.kind === 'species') {
+      s.game = { kind: 'zoom', idx: 0, right: 0,
+        items: this.shuffle(L.items.map(id => this.find(id)).filter(Boolean)) };
+    } else {
+      // One sortable round per fact that actually HAS a kind badge, short
+      // claims only — reuses this.sentences() so a round is one sentence,
+      // never a whole dense paragraph.
+      const rows = s.pages.filter(p => p.factKind && p.text);
+      const rounds = this.shuffle(rows).slice(0, 6).map(p => ({
+        text: this.sentences(p.text)[0].trim(), kind: p.factKind }));
+      s.game = { kind: 'sort', idx: 0, right: 0, items: rounds };
+    }
     this.lessonRenderGame();
   },
 
   lessonRenderGame() {
-    const s = this._lesson, el = document.getElementById('lessonOverlay');
-    const q = s.game[s.gameIdx];
-    if (!q) return this.lessonStartQuiz();
-    const opts = q.type === 'tf' ? ['True', 'False'] : q.options;
-    el.innerHTML = `
+    const s = this._lesson, g = s.game, el = document.getElementById('lessonOverlay');
+    if (g.idx >= g.items.length) return this.lessonStartQuiz();
+    const head = `
       <div class="lesson-top">
         <button class="btn ghost" onclick="App.lessonExit()">✕</button>
         <div class="lesson-dots"><i class="on" style="flex:none;width:60px"></i></div>
-        <span class="chip">${s.gameIdx + 1} / ${s.game.length}</span>
-      </div>
-      <div class="lesson-body">
-        <div class="course-sub" style="text-align:center;margin-bottom:6px">Quick Check</div>
-        ${q.img ? `<img class="lesson-page-img" src="${q.img}" alt="">` : ''}
-        <div class="lesson-text" style="text-align:center">${q.prompt}</div>
-        <div class="answer-list" style="margin-top:18px">
-          ${opts.map((o, i) => `<button class="answer" onclick="App.lessonGameAnswer(${i})">${o}</button>`).join('')}
-        </div>
+        <span class="chip">${g.idx + 1} / ${g.items.length}</span>
       </div>`;
+    if (g.kind === 'zoom') {
+      const a = g.items[g.idx];
+      const opts = this.shuffle([a, ...this.shuffle(g.items.filter(x => x.id !== a.id)).slice(0, 2),
+        ...this.shuffle(this.all().filter(x => x.group === a.group && x.id !== a.id)).slice(0, 1)]
+        .filter((v, i, arr) => arr.findIndex(x => x.id === v.id) === i).slice(0, 4));
+      g._opts = opts; g._t0 = Date.now();
+      el.innerHTML = `${head}
+        <div class="lesson-body">
+          <div class="course-sub" style="text-align:center;margin-bottom:6px">Zoom In — name it</div>
+          <div class="zoom-stage">
+            <img class="zbg" src="${this.pic(a)}" alt="" aria-hidden="true">
+            <img id="zi" class="zfg" src="${this.pic(a)}" alt="">
+          </div>
+          <div class="answer-list" style="margin-top:14px">
+            ${opts.map((o, i) => `<button class="answer" onclick="App.lessonZoomAnswer(${i})">${o.name}</button>`).join('')}
+          </div>
+          <div id="zmsg"></div>
+        </div>`;
+      const img = document.getElementById('zi');
+      if (img) { void img.offsetWidth; img.classList.add('out'); }
+    } else {
+      const r = g.items[g.idx];
+      el.innerHTML = `${head}
+        <div class="lesson-body">
+          <div class="course-sub" style="text-align:center;margin-bottom:6px">Sort the Evidence</div>
+          <div class="lesson-text" style="text-align:center;margin-bottom:18px">${r.text}</div>
+          <div class="sort-bins">
+            ${Object.entries(KINDS).map(([k, v]) =>
+              `<button class="sort-bin" onclick="App.lessonSortAnswer('${k}')">
+                 <span class="sort-glyph">${v.glyph}</span><span>${v.name}</span></button>`).join('')}
+          </div>
+          <div id="zmsg"></div>
+        </div>`;
+    }
   },
 
-  lessonGameAnswer(i) {
-    const s = this._lesson, q = s.game[s.gameIdx];
-    const ok = i === q.answer;
-    if (ok) s.gameRight++;
+  lessonZoomAnswer(i) {
+    const s = this._lesson, g = s.game, a = g.items[g.idx], pick = g._opts[i];
+    const ok = pick.id === a.id, secs = (Date.now() - g._t0) / 1000;
+    if (ok) g.right++;
+    Sfx.play(ok ? 'yes' : 'no', ok ? 0.4 : 0.3);
+    const img = document.getElementById('zi');
+    if (img) { img.classList.remove('out'); img.classList.add('done'); }
     document.querySelectorAll('.answer-list .answer').forEach((b, j) => {
       b.onclick = null;
-      if (j === q.answer) b.classList.add('right');
+      if (g._opts[j].id === a.id) b.classList.add('right');
       else if (j === i) b.classList.add('wrong');
     });
-    Sfx.play(ok ? 'yes' : 'no', 0.35);
-    setTimeout(() => { s.gameIdx++; this.lessonRenderGame(); }, 700);
+    document.getElementById('zmsg').innerHTML = `
+      <div class="card" style="margin-top:14px;text-align:center">
+        <b>${ok ? (secs < 2 ? 'Got it, fast!' : 'Got it!') : a.name}</b>
+      </div>`;
+    setTimeout(() => { g.idx++; this.lessonRenderGame(); }, 1000);
+  },
+
+  lessonSortAnswer(k) {
+    const s = this._lesson, g = s.game, r = g.items[g.idx];
+    const ok = k === r.kind;
+    if (ok) g.right++;
+    Sfx.play(ok ? 'yes' : 'no', ok ? 0.4 : 0.3);
+    document.querySelectorAll('.sort-bin').forEach(b => { b.onclick = null; });
+    const right = KINDS[r.kind];
+    document.getElementById('zmsg').innerHTML = `
+      <div class="card" style="margin-top:14px;text-align:center">
+        <b>${ok ? 'Right!' : 'Actually: ' + right.glyph + ' ' + right.name}</b>
+      </div>`;
+    setTimeout(() => { g.idx++; this.lessonRenderGame(); }, 1000);
   },
 
   // ── end-of-lesson quiz: full variety, misses re-ask once (same spirit as
@@ -2851,7 +2953,11 @@ const App = {
   lessonStartQuiz() {
     const s = this._lesson;
     s.stage = 'quiz';
-    s.quiz = this.buildQuestions(s.L, s.pages, 6, true);
+    // L.quiz is hand-written (tools/lesson-quiz.json via build_lessons.py) —
+    // every fact-course lesson has one. Species lessons still use the
+    // auto-generated kind, which stays reasonable for them (short "which
+    // animal" questions built from real blurbs and names, not long facts).
+    s.quiz = this.shuffle(s.L.quiz || this.buildQuestions(s.L, s.pages, 6, true));
     s.quizIdx = 0; s.quizRight = 0; s.quizFirst = 0; s.quizSeenMiss = {};
     this.lessonRenderQuiz();
   },
@@ -2913,7 +3019,7 @@ const App = {
   lessonFinish() {
     const s = this._lesson, L = s.L;
     const quizAcc = s.quiz.length ? s.quizFirst / s.quiz.length : 1;
-    const gameAcc = s.game.length ? s.gameRight / s.game.length : 1;
+    const gameAcc = s.game.items.length ? s.game.right / s.game.items.length : 1;
     const quizStars = quizAcc >= 0.85 ? 3 : quizAcc >= 0.6 ? 2 : 1;
     const gameStars = gameAcc >= 0.85 ? 3 : gameAcc >= 0.6 ? 2 : 1;
     const stars = Math.max(1, Math.round((quizStars + gameStars) / 2));

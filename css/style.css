@@ -1687,6 +1687,18 @@ body[data-realm]:not([data-realm="base"])::after {
 /* ── lesson sheet / player ── */
 .lesson-overlay { position: fixed; inset: 0; z-index: 70; background: var(--ink);
   display: flex; flex-direction: column; }
+/* A subject texture behind the page, same device as the home-screen course
+   tiles (.kingdom/.door) — the one thing that made a flat page of text look
+   like a placeholder rather than a place. Set per-course by lessonOpen(). */
+.lesson-overlay::before {
+  content: ''; position: fixed; inset: 0; z-index: 0;
+  background-image: var(--pat, none); background-size: var(--pat-size, 26px 26px);
+  /* currentColor for the pattern comes from THIS pseudo-element's own color,
+     not the overlay's — so the course tint never leaks into real text. */
+  color: var(--lesson-tint, var(--lime));
+  opacity: .1; mix-blend-mode: soft-light; pointer-events: none;
+}
+.lesson-top, .lesson-head, .lesson-body, .lesson-nav { position: relative; z-index: 1; }
 .lesson-top { display: flex; align-items: center; gap: 10px; padding: 14px 14px 10px;
   padding-top: calc(14px + var(--sa-t)); }
 .lesson-dots { flex: 1; display: flex; gap: 4px; }
@@ -1741,6 +1753,17 @@ body[data-realm]:not([data-realm="base"])::after {
 .feedback-bar p { margin-top: 5px; color: var(--text-2); font-size: .92rem; line-height: 1.4; }
 
 /* ── results ── */
+/* ── Sort the Evidence (fact-lesson mini-game) ── */
+.sort-bins { display: flex; flex-direction: column; gap: 10px; }
+.sort-bin {
+  display: flex; align-items: center; gap: 14px; padding: 16px 18px;
+  border-radius: var(--r-lg); background: var(--ink-3); border: 2px solid var(--line-2);
+  color: var(--text); font: inherit; font-size: 1.05rem; font-weight: 600;
+  cursor: pointer; transition: border-color .1s, background .1s, transform .08s;
+}
+.sort-bin:active { transform: scale(.98); }
+.sort-glyph { font-size: 1.4rem; }
+
 .result-stars { display: flex; justify-content: center; gap: 10px; margin: 18px 0; }
 .result-star { font-size: 2.6rem; color: var(--line-2); transform: scale(.4); opacity: 0;
   animation: starpop .45s cubic-bezier(.3,1.5,.4,1) forwards; }
