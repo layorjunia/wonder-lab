@@ -94,7 +94,7 @@ echo "== publishing install page =="
 SITE="$BUILD_DIR/install-site"
 rm -rf "$SITE"; mkdir -p "$SITE/public"
 cp "$IPA" "$SITE/public/WonderLab.ipa"
-ICON_SRC="../../icons/icon-512.png"
+ICON_SRC="../../../icons/icon-512.png"   # script cd's into ios/App; wonder-lab/icons is three levels up
 sips -z 512 512 "$ICON_SRC" --out "$SITE/public/icon-512.png" > /dev/null
 sips -z 57 57 "$ICON_SRC" --out "$SITE/public/icon-57.png" > /dev/null
 VERSION="1.0"
@@ -146,7 +146,13 @@ cat > "$SITE/public/index.html" << HTML
 HTML
 
 cd "$SITE/public"
-[ -f .vercel/project.json ] || npx --yes vercel@latest link --yes --project wonder-lab-adhoc --scope layor-junia
+if [ ! -f .vercel/project.json ]; then
+  npx --yes vercel@latest link --yes --project wonder-lab-adhoc --scope layor-junia
+  # `vercel link` auto-connects the GitHub repo, and from then on EVERY git
+  # push redeploys the repo's web app over this install page (the .ipa and
+  # manifest.plist 404, the install button dies). Cut it immediately.
+  npx --yes vercel@latest git disconnect --yes --scope layor-junia || true
+fi
 npx --yes vercel@latest deploy --prod --yes --scope layor-junia
 
 echo "== verifying the deploy propagated =="
