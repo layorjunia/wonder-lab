@@ -1007,3 +1007,24 @@ body[data-realm]:not([data-realm="base"])::after {
 .node.medal.ready img.fx { filter: drop-shadow(0 3px 0 rgba(0,0,0,.25)); }
 .node.medal:not(.earned):not(.ready) img.fx { filter: grayscale(1) opacity(.55); }
 .node.medal .node-label { font-size: 16px; }
+
+/* drag it */
+.dg-slots { display: flex; flex-direction: column; gap: 12px; margin-top: 14px; }
+.dg-slot { position: relative; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; background: #fff; color: var(--pink-ink); border-radius: 22px;
+  padding: 12px 56px 12px 14px; box-shadow: 0 6px 0 rgba(0,0,0,.2); min-height: 78px; }
+.dg-clue { flex: 1 1 240px; font-weight: 800; font-size: 19px; line-height: 1.25; }
+.dg-drop { flex: 0 0 auto; min-width: 150px; text-align: center; padding: 10px 14px; border-radius: 16px; border: 3px dashed #c2cde4; color: #8a98b8;
+  font-family: var(--f-display); font-weight: 800; font-size: 18px; background: #f3f6fc; }
+.dg-slot.done { background: var(--leaf-l); box-shadow: 0 6px 0 var(--leaf); }
+.dg-slot.done .dg-drop { border: 0; background: var(--leaf); color: #fff; font-size: 21px; animation: pop .35s; }
+.dg-slot.wrong { animation: shake .4s; background: var(--rose-l); }
+.dg-slot .listen { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); width: 42px; height: 42px; border-radius: 14px; border: 0;
+  background: var(--paper-2); box-shadow: 0 4px 0 var(--paper-edge); color: var(--w-acc-d); display: grid; place-items: center; padding: 0; font-size: 0; }
+.dg-tray { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 18px; touch-action: none; }
+.dg-chip { cursor: grab; border: 0; border-radius: 18px; padding: 12px 20px; background: var(--sun); color: #4a2c00; touch-action: none; user-select: none;
+  font-family: var(--f-display); font-weight: 800; font-size: 22px; box-shadow: 0 6px 0 var(--sun-d); }
+.dg-chip:active { transform: translateY(4px); box-shadow: 0 2px 0 var(--sun-d); }
+.dg-chip.sel { box-shadow: 0 6px 0 var(--sun-d), 0 0 0 5px #fff; }
+.dg-chip.lift { opacity: .35; }
+.dg-chip.wrong { background: var(--rose); color: #fff; box-shadow: 0 6px 0 var(--rose-d); animation: shake .4s; }
+.dg-ghost { position: fixed; left: 0; top: 0; z-index: 99; pointer-events: none; transform: scale(1.08); box-shadow: 0 14px 26px rgba(0,0,0,.35); }

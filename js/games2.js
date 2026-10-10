@@ -5,7 +5,7 @@
 //   slice   Slice It     answers fly up; swipe across the right one
 //   sort    Sort It      drag animals into "lighter / heavier than you"
 //   hilo    Which One?   two animals, one measurement, a streak
-//   spell   Spell It     read the clue, tap the letters
+//   drag    Drag It      drag each name onto the clue that fits it
 //   boss    Boss Battle  a whole world's questions against a boss (unlocks the medal)
 //
 // Same rules as js/games.js: the questions, answers, names and clues are lesson
@@ -31,8 +31,8 @@ Object.assign(App.GPHR, {
   hiloMore_speed: 'Which one is faster?', hiloLess_speed: 'Which one is slower?',
   hiloMore_life: 'Which one lives longer?', hiloLess_life: 'Which one lives a shorter time?',
   hiloMore_height: 'Which one is taller?', hiloLess_height: 'Which one is shorter?',
-  spellTitle: 'Spell it',
-  spellHelp: 'Read the clue. Tap the letters to spell the name.',
+  dragTitle: 'Drag it',
+  dragHelp: 'Drag each name onto the clue that fits it.',
   bossTitle: 'Boss battle',
   bossHelp: 'Answer questions to beat the boss. Three wrong answers and the boss wins.',
   bossWin: 'You beat the boss!',
@@ -54,7 +54,7 @@ Object.assign(App.GAMES, {
   slice: { name: 'Slice It', glyph: '🔪', blurb: 'Swipe through the right answer' },
   sort:  { name: 'Sort It',  glyph: '⚖️', blurb: 'Lighter or heavier than you?' },
   hilo:  { name: 'Which One?', glyph: '🆚', blurb: 'Two animals, one winner, a streak' },
-  spell: { name: 'Spell It', glyph: '🔤', blurb: 'Tap the letters to spell the name' },
+  drag:  { name: 'Drag It',  glyph: '👆', blurb: 'Drag each name onto its clue' },
 });
 
 App.GAMEX = {};     // kind -> { build(g, lessons, ctx), render() }
@@ -80,15 +80,6 @@ Object.assign(App, {
     const wrong = this.shuffle(q.options.filter((_, i) => i !== q.answer)).slice(0, 2);
     const opts = this.shuffle([right, ...wrong]);
     return { prompt: q.prompt, opts, ans: opts.indexOf(right), explain: q.explain || '' };
-  },
-  spellWords(lessons) {
-    const out = [];
-    lessons.forEach(L => ((L.game || {}).pairs || []).forEach(([name, clue]) => {
-      const letters = name.replace(/[^A-Za-z]/g, '');
-      if (letters.length >= 4 && letters.length <= 12 && !/\d/.test(name) && name.split(/\s+/).length <= 2)
-        out.push({ name, clue });
-    }));
-    return out;
   },
   sortChoices(species) {
     const REF = { weight: 70, length: 4.5, speed: 10, life: 9 };
@@ -126,7 +117,7 @@ Object.assign(App, {
     if (this.qPool([L], false).length >= 3) out.push('catch', 'sling', 'slice');
     if (this.sortChoices(sp).stats.length) out.push('sort');
     if (this.hiloRounds(sp, 3).length >= 3) out.push('hilo');
-    if (this.spellWords([L]).length >= 3) out.push('spell');
+    if (this.gamePairs(L)) out.push('drag');
     return out;
   },
 });
@@ -638,70 +629,105 @@ Object.assign(App, {
 });
 
 // ═════════════════════════════════════════════════════════════════════════
-// SPELL IT
+// DRAG IT   (drag each name onto the clue that fits it)
 // ═════════════════════════════════════════════════════════════════════════
-App.GAMEX.spell = {
+App.GAMEX.drag = {
   build(g, lessons, ctx) {
-    const pool = this.shuffle(this.spellWords(lessons)).filter((w, i, a) => a.findIndex(x => x.name === w.name) === i);
-    g.items = pool.slice(0, ctx === 'hub' ? 6 : 5);
+    const pairs = this.shuffle(lessons.flatMap(L => this.gamePairs(L) || []))
+      .filter((p, i, a) => a.findIndex(q => q[0] === p[0]) === i);
+    g.items = pairs.slice(0, ctx === 'hub' ? 5 : 4).map(([name, clue]) => ({ name, clue }));
     g.total = g.items.length;
+    g.placed = 0; g.sel = null; g.miss = {};
+    g.order = this.shuffle(g.items.map((_, i) => i));
   },
-  render() { this.gmSpell(); },
+  render() { this.gmDrag(); },
 };
 Object.assign(App, {
-  gmSpell() {
-    const g = this._game, el = document.getElementById('lessonOverlay'), r = g.items[g.idx];
-    g.locked = false; g.firstTry = true; g.pos = 0; g.misses = 0;
-    const chars = [...r.name];
-    g.slots = chars.map(ch => /[A-Za-z]/.test(ch) ? { ch: ch.toLowerCase(), done: false } : { ch, fixed: true });
-    const letters = chars.filter(ch => /[A-Za-z]/.test(ch));
-    g.tiles = this.shuffle(letters.map((ch, i) => ({ ch: ch.toLowerCase(), i, used: false })));
-    el.innerHTML = `${this.gameTop(g, `${g.idx + 1} / ${g.total}`)}
-      <div class="gm-wrap sp-wrap">
-        ${g.idx === 0 ? this.gameHead(this.GPHR.spellTitle, this.GPHR.spellHelp) : ''}
-        <div class="gm-stage">
-          <div class="bb-kicker dark">${this.fx('🔤')} Spell the name</div>
-          <p class="gm-clue">${r.clue}</p>
-          <div class="bb-listen">${this.listenLabel('Hear it', r.clue)}</div>
-          <div class="sp-slots" id="spSlots">${g.slots.map((s, k) => s.fixed
-            ? `<span class="sp-gap">${s.ch === ' ' ? '' : s.ch}</span>` : `<span class="sp-slot" id="sl${k}"></span>`).join('')}</div>
-          <div class="sp-tiles" id="spTiles">${g.tiles.map((t, k) =>
-            `<button class="sp-tile" id="tl${k}" onclick="App.gmSpellTap(${k})">${t.ch.toUpperCase()}</button>`).join('')}</div>
-        </div>
+  gmDrag() {
+    const g = this._game, el = document.getElementById('lessonOverlay');
+    el.innerHTML = `${this.gameTop(g, `${g.placed} / ${g.total}`)}
+      <div class="gm-wrap dg-wrap">
+        ${this.gameHead(this.GPHR.dragTitle, this.GPHR.dragHelp)}
+        <div class="dg-slots">${g.items.map((it, k) => `
+          <div class="dg-slot" id="dgs${k}" data-k="${k}" onclick="App.gmDragSlot(${k})">
+            <span class="dg-clue">${it.clue}</span>
+            <span class="dg-drop" id="dgd${k}">drop the name here</span>
+            ${this.listenLabel('', it.clue)}
+          </div>`).join('')}</div>
+        <div class="dg-tray" id="dgTray">${g.order.map(k => `
+          <button class="dg-chip" id="dgc${k}" data-k="${k}" onclick="App.gmDragChip(${k})">${g.items[k].name}</button>`).join('')}</div>
         <div id="gmMsg"></div>
       </div>`;
     this.syncListen();
-    this.autoPlay('#lessonOverlay .bb-listen .listen');
+    this.autoPlay('#lessonOverlay .gm-help .listen');
+    // real dragging: pick up a name, drop it on a clue
+    const tray = document.getElementById('dgTray');
+    let dragK = null, ghost = null;
+    tray.addEventListener('pointerdown', e => {
+      const c = e.target.closest('.dg-chip'); if (!c || c.disabled) return;
+      dragK = +c.dataset.k;
+      ghost = c.cloneNode(true); ghost.classList.add('dg-ghost'); ghost.removeAttribute('id');
+      document.body.appendChild(ghost);
+      ghost.style.transform = `translate(${e.clientX - 60}px, ${e.clientY - 26}px)`;
+      c.classList.add('lift');
+      this.speakNow([g.items[dragK].name], true);
+      e.preventDefault();
+    });
+    this._dgMove = e => { if (ghost) ghost.style.transform = `translate(${e.clientX - 60}px, ${e.clientY - 26}px)`; };
+    this._dgUp = e => {
+      if (dragK == null) return;
+      const k = dragK; dragK = null;
+      if (ghost) { ghost.remove(); ghost = null; }
+      const c = document.getElementById('dgc' + k); if (c) c.classList.remove('lift');
+      const slots = [...document.querySelectorAll('.dg-slot')];
+      const hit = slots.findIndex(s => { const b = s.getBoundingClientRect();
+        return e.clientX >= b.left && e.clientX <= b.right && e.clientY >= b.top && e.clientY <= b.bottom; });
+      if (hit >= 0) this.gmDragPlace(k, hit);
+    };
+    window.addEventListener('pointermove', this._dgMove);
+    window.addEventListener('pointerup', this._dgUp);
+    this._dragCleanup = () => {
+      window.removeEventListener('pointermove', this._dgMove);
+      window.removeEventListener('pointerup', this._dgUp);
+    };
   },
-  gmSpellTap(k) {
-    const g = this._game; if (!g || g.kind !== 'spell' || g.locked) return false;
-    const t = g.tiles[k]; if (!t || t.used) return false;
-    const pos = g.slots.findIndex(s => !s.fixed && !s.done);
-    if (pos < 0) return false;
-    const tile = document.getElementById('tl' + k);
-    if (t.ch === g.slots[pos].ch) {
-      t.used = true; g.slots[pos].done = true;
-      tile.disabled = true; tile.classList.add('used');
-      const slot = document.getElementById('sl' + pos);
-      slot.textContent = t.ch.toUpperCase(); slot.classList.add('on');
-      Sfx.play('tap', 0.5);
-      if (!g.slots.some(s => !s.fixed && !s.done)) {
-        g.locked = true;
-        const r = g.items[g.idx];
-        Sfx.play('yes', 0.5); this.confetti(10); this.pipReact('happy');
-        this.speakNow([r.name], true);
-        this.gameNextRound(g.firstTry && g.misses < 2, 1500);
+  gmDragChip(k) {            // tap a name, then tap the clue it belongs to
+    const g = this._game; if (!g || g.kind !== 'drag') return;
+    document.querySelectorAll('.dg-chip').forEach(c => c.classList.remove('sel'));
+    const c = document.getElementById('dgc' + k);
+    if (c && !c.disabled) { g.sel = k; c.classList.add('sel'); this.speakNow([g.items[k].name], true); }
+  },
+  gmDragSlot(k) {
+    const g = this._game; if (!g || g.kind !== 'drag' || g.sel == null) return;
+    this.gmDragPlace(g.sel, k);
+  },
+  gmDragPlace(chipK, slotK) {
+    const g = this._game;
+    const chip = document.getElementById('dgc' + chipK), slot = document.getElementById('dgs' + slotK);
+    if (!g || !chip || !slot || chip.disabled || slot.classList.contains('done')) return false;
+    g.sel = null;
+    document.querySelectorAll('.dg-chip').forEach(c => c.classList.remove('sel'));
+    if (chipK === slotK) {
+      chip.disabled = true; chip.style.display = 'none';
+      slot.classList.add('done');
+      document.getElementById('dgd' + slotK).textContent = g.items[slotK].name;
+      g.placed++;
+      if (!g.miss[chipK]) g.right++;
+      const c = document.querySelector('.pl-sp'); if (c) c.textContent = `${g.placed} / ${g.total}`;
+      Sfx.play('yes', 0.45); this.haptic(12); this.speakNow([g.items[slotK].name], true);
+      if (g.placed >= g.total) {
+        if (this._dragCleanup) { this._dragCleanup(); this._dragCleanup = null; }
+        g.idx = g.total;
+        document.getElementById('gmMsg').innerHTML = `<div class="gm-banner">${this.fx('🎉')} ${this.PHR.pairsDone}</div>`;
+        this.confetti(18); Sfx.play('tada', 0.4);
+        setTimeout(() => { if (this._game === g) this.gameFinish(); }, 1800);
       }
       return true;
     }
-    g.firstTry = false; g.misses++;
-    tile.classList.add('wrong'); setTimeout(() => tile.classList.remove('wrong'), 420);
-    Sfx.play('no', 0.3); this.haptic(25);
-    if (g.misses >= 2) {          // a little help: light up the letter that is next
-      const next = g.slots[pos].ch;
-      const hint = g.tiles.findIndex(x => !x.used && x.ch === next);
-      const h = document.getElementById('tl' + hint); if (h) h.classList.add('hint');
-    }
+    g.miss[chipK] = true;
+    chip.classList.add('wrong'); slot.classList.add('wrong');
+    setTimeout(() => { chip.classList.remove('wrong'); slot.classList.remove('wrong'); }, 450);
+    Sfx.play('no', 0.35); this.haptic(30);
     return false;
   },
 });

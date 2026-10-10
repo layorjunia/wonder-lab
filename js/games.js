@@ -123,6 +123,7 @@ Object.assign(App, {
   gameExit() {
     const g = this._game;
     if (this._sortCleanup) { this._sortCleanup(); this._sortCleanup = null; }
+    if (this._dragCleanup) { this._dragCleanup(); this._dragCleanup = null; }
     if (g && g._raf) cancelAnimationFrame(g._raf);
     if (g && g.ctx === 'hub') {
       const el = document.getElementById('lessonOverlay');

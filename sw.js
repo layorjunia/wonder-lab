@@ -6,7 +6,7 @@
 // cache not named here, which is what clears the old Piper clips off every
 // installed device. Offline.CACHE in js/audio.js must use the same name.
 const OFFLINE_CACHE = 'wonderlab-offline-v2';
-const CACHE = 'wonderlab-20261010-1430-46ec5297';
+const CACHE = 'wonderlab-20261010-1507-311c8591';
 const SHELL = [
   '.', 'index.html', 'css/style.css', 'css/lab.css', 'manifest.json',
   'css/fonts.css',

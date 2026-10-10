@@ -65,17 +65,9 @@ window.SelfTest = {
                 const better = r.more ? (r.a.stats[r.stat] > r.b.stats[r.stat] ? 0 : 1) : (r.a.stats[r.stat] < r.b.stats[r.stat] ? 0 : 1);
                 App.gmHiloPick(better); await tick(); await tick();
               }
-            } else if (kind === 'spell') {
-              for (let n = 0; n < g.total; n++) {
-                let guard2 = 0;
-                while (g.slots.some(x => !x.fixed && !x.done) && guard2++ < 40) {
-                  const pos = g.slots.findIndex(x => !x.fixed && !x.done);
-                  const k = g.tiles.findIndex(t => !t.used && t.ch === g.slots[pos].ch);
-                  if (n === 0 && guard2 === 1) App.gmSpellTap(g.tiles.findIndex(t => !t.used && t.ch !== g.slots[pos].ch));
-                  App.gmSpellTap(k);
-                }
-                await tick(); await tick();
-              }
+            } else if (kind === 'drag') {
+              g.items.forEach((_, k) => { App.gmDragPlace(k, (k + 1) % g.total); App.gmDragPlace(k, k); });
+              if (g.placed !== g.total) mark(L, `drag placed ${g.placed}/${g.total}`);
             } else if (kind === 'pairs') {
               for (let n = 0; n < g.n; n++) {
                 const a = g.cards.findIndex(c => c.side === 0 && c.i === g.cards.filter(x => x.side === 0)[n].i);
@@ -188,13 +180,7 @@ SelfTest.hub = async function () {
           const better = r.more ? (r.a.stats[r.stat] > r.b.stats[r.stat] ? 0 : 1) : (r.a.stats[r.stat] < r.b.stats[r.stat] ? 0 : 1);
           App.gmHiloPick(better);
         }
-        if (kind === 'spell') {
-          let guard2 = 0;
-          while (g.slots.some(x => !x.fixed && !x.done) && guard2++ < 40) {
-            const pos = g.slots.findIndex(x => !x.fixed && !x.done);
-            App.gmSpellTap(g.tiles.findIndex(t => !t.used && t.ch === g.slots[pos].ch));
-          }
-        }
+        if (kind === 'drag') g.items.forEach((_, k) => App.gmDragPlace(k, k));
         if (kind === 'sort') {
           g.items.forEach((it, k) => App.gmSortPlace(k, it.bin));
           await tick(); await tick();
