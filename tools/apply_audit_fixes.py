@@ -93,13 +93,15 @@ def main():
             notes.append(f'SKIPPED {lesson} [{header}]: {old[:70]!r}')
             skipped += 1
             continue
-        if not accept_review and re.search(r'medium confidence|verify the source|check against a source', desc, re.I):
+        if not accept_review and re.search(r'medium confidence|verify the source|check against a source', header + ' ' + desc, re.I):
             notes.append(f'REVIEW {lesson} [{header}]: {old[:70]!r} -> {new[:70]!r}')
             skipped += 1
             continue
         spans = {lid: (s, e) for lid, s, e in blocks(text)}
         s, e = spans[lesson]
         block = text[s:e]
+        if new and new in block and old in new:
+            continue                      # an expanding fix that is already in (re-running a report)
         n = block.count(old)
         if n == 0:
             notes.append(f'NOMATCH {lesson} [{header}]: {old[:90]!r}')

@@ -5,7 +5,7 @@ game: Jamestown = Found postholes of the fort's wall | Mayflower = 66 days at se
 
 --- 🔍
 p: For centuries everyone said the river had washed away the original Jamestown fort.
-fact: In 1994, an archaeologist dug where he thought the fort should be and found the postholes of the palisade wall within weeks.
+fact: In 1994, an archaeologist dug where he thought the fort should be and found postholes, the dark soil stains where wooden wall posts once stood, within weeks.
 p: They have since dug up armor, tools, coins, and the graves of some of the first settlers, all inside those walls.
 check: What did the archaeologist find first?
 + The postholes of the fort's wall
@@ -27,7 +27,7 @@ explain: The Mayflower was at sea for 66 days.
 --- 🪓
 p: The log cabin is not an English idea. English colonists built timber-frame houses with sawn boards.
 fact: Log building was brought to America mostly by Swedes and Finns who settled on the Delaware. Stacking whole logs was ordinary where they came from.
-p: It spread because it needs only an axe and trees, almost nothing else — no saw pit, no nails, no carpenter.
+p: It spread because it needs only an axe and trees, almost nothing else — no sawmill, no nails, no carpenter.
 check: Who brought the log cabin to America?
 - English settlers in Virginia
 - Spanish and French in Florida
@@ -69,7 +69,7 @@ explain: He took apart a pocket watch to understand its mechanism and then built
 
 --- 🏡
 p: Postholes dug by hand. A crowded ship sailing across the ocean. A cabin built in the wilderness. A paddle of horn. A star-gazer who built a clock of wood.
-p: Each one a piece of how the colonies grew and took shape.
+p: And a boy printer who slid his letters under a door. Each one shows how people built a life in the colonies.
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
 === america-everyday
@@ -81,7 +81,7 @@ p: Before refrigerators, ice was a crop. Men cut it from frozen New England pond
 fact: They packed the ice in sawdust and shipped it as far as India. Much of it arrived unmelted.
 p: Frederic Tudor thought of this idea. Everybody said it was ridiculous, but he made a fortune.
 check: What was the ice packed in?
-- Straw
+- Wet sand
 - Cotton
 + Sawdust
 hint: Look at the first sentence of the fact box. It mentions what the ice was packed in.
@@ -100,7 +100,7 @@ explain: The house arrived with about 30,000 numbered pieces and a book to help 
 
 --- 💡
 p: In 1935, about one farm in ten had electricity. Cities had been lit for fifty years by then.
-fact: Running lines out to scattered farms cost more than any company could make back. So farm families formed their own cooperatives, borrowed money from the government, and strung much of the wire themselves.
+fact: Running lines out to scattered farms cost more than any company could make back. So farm families formed their own cooperatives (neighbors who own a business together), borrowed money from the government, and strung much of the wire themselves.
 check: Who strung the wire to the farms?
 + The farm families themselves, in cooperatives
 - Crews of paid soldiers sent out by the army
@@ -111,7 +111,7 @@ explain: Farm families formed cooperatives and did it themselves because the cos
 --- 🏫
 p: In a one-room school, kids of every age were there together.
 fact: Older children taught the younger ones because the teacher could not be everywhere at once.
-p: Many schools used the same graded readers, such as the McGuffey Readers, for reading lessons. This way, if a child moved to another state, they could pick up right where they left off.
+p: Many schools used the same series of reading books, the McGuffey Readers. This way, if a child moved to another state, they could pick up right where they left off.
 check: Who helped teach the younger children?
 + The older children
 - The school janitor
@@ -121,7 +121,7 @@ explain: Older children taught the younger ones because the teacher could not be
 
 --- 🫙
 p: Home canning is like giving food a hot bath in a sealed jar.
-fact: The heat kills everything inside, and as it cools, the lid gets sucked down tight. When you open a jar, the pop you hear is air going back in for the first time since it was sealed.
+fact: The heat kills the germs inside, and as it cools, the lid gets sucked down tight. When you open a jar, the pop you hear is air going back in for the first time since it was sealed.
 try: Next time someone opens a jar, listen for that pop.
 check: What is the pop when you open a canned jar?
 - Gas leaking out as the food slowly went bad inside it
@@ -134,15 +134,15 @@ explain: The pop is air going back into the jar for the first time since it was 
 p: In many homes, the mail-order catalog was a big book, right up there with the Bible.
 fact: Children learned to read from it, cut it up for paper dolls, and when a new one came, the old one went out to the outhouse.
 check: What did children cut up for paper dolls?
-- Old newspapers
+- The family Bible
 + The catalog
-- Magazines
+- A schoolbook
 hint: Look at the fact box. It mentions cutting the catalog for paper dolls.
 explain: Children cut up the mail-order catalog to make paper dolls.
 
 --- 🏡
-p: Ice cut from a frozen pond. A house shipped in a crate. Wires strung by neighbors. A catalog read until it fell apart.
-p: Ice, houses, wires, and books: everyday things that people in the past made and strung and canned for themselves.
+p: Ice cut from a frozen pond. A house shipped by rail in numbered pieces. Wires strung by neighbors. A catalog read until it fell apart.
+p: Ice, catalog houses, wires, jars, and books: ordinary things that families in the past had to find their own ways to get.
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
 === america-explorers
@@ -150,8 +150,8 @@ idea: A Norwegian couple found a Viking village by treating old stories as direc
 game: Amerigo Vespucci = Said clearly it was not Asia | Accurate clock = Needed to work out how far east or west | 178 plants = New ones Lewis and Clark recorded | Sacagawea = Saved crucial expedition records | John Wesley Powell = Ran the Colorado River with a missing arm
 
 --- 🏕️
-p: At L'Anse aux Meadows, on the northern tip of Newfoundland, there are eight turf buildings, a smithy, iron nails, and a bronze cloak pin. They are Norse.
-fact: They were found in 1960 by a Norwegian couple who went looking after reading the old sagas about Vinland.
+p: At L'Anse aux Meadows, on the northern tip of Newfoundland, there are eight turf buildings, a smithy, iron nails, and a bronze cloak pin. They are Norse, which means Viking.
+fact: They were found in 1960 by a Norwegian couple who went looking after reading the old sagas, long Viking stories, about a land called Vinland.
 check: Who found L'Anse aux Meadows?
 + A Norwegian couple who treated the sagas as directions
 - A Canadian farmer who found the ruins while plowing
@@ -173,9 +173,9 @@ explain: Amerigo Vespucci said clearly that the land was not Asia, and the conti
 --- 🧭
 p: Finding how far north you are is easy. Just measure the sun at noon.
 fact: Working out how far east or west needs an accurate clock because you compare your local noon with the time somewhere else.
-try: When the sun is highest in the sky, measure the shadow of a stick of known height. Do it again in three months. The shadow is a different length, not because you moved, but because the sun's path across the sky changes with the seasons.
+try: Push a stick straight into the ground on a sunny day. Mark the end of its shadow every hour. The shortest shadow is your local noon, the moment the sun is highest.
 check: What do you need to work out how far east or west you are?
-- A map of the stars
+- A strong tailwind
 - A compass
 + An accurate clock
 hint: Look at the fact box. It says you need a clock to compare times.
@@ -204,7 +204,7 @@ explain: She saved the instruments, books, and papers, which were crucial record
 --- 🛶
 p: John Wesley Powell ran the Colorado River through the Grand Canyon in 1869, even though he had lost his right arm below the elbow in the Civil War.
 fact: He took four wooden boats on the journey. Nobody had charted this stretch of the river before.
-p: Three men left partway through and were never seen again. Powell kept a journal, but it was repeatedly drenched as his boat capsized.
+p: Three men left partway through and were never seen again. Powell kept a journal as the boats ran the rapids. One boat was smashed on the rocks early in the trip, and food and instruments were lost.
 check: How many boats did John Wesley Powell take on his expedition?
 + Four
 - Two
@@ -213,8 +213,8 @@ hint: Look at the first sentence of the fact box. It gives the number of boats.
 explain: Powell took four wooden boats on his journey through the Grand Canyon.
 
 --- 🧭
-p: Logbooks of explorers. Journals charting rivers. Powell’s journal drenched as his boat capsized. Maps made by early explorers.
-p: All recorded by those who experienced it.
+p: Logbooks of explorers. Journals charting rivers. A clock to find east and west. Plants nobody in the East had written down. A boat tipping with the records saved.
+p: Each one is a way of finding out where you are and what is there.
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
 === america-flight
@@ -255,7 +255,7 @@ explain: They found that the published tables were not reliable, so they decided
 
 --- 🦅
 p: The Wright brothers' real invention was not just the wings or the engine. It was control.
-fact: They twisted the whole wing to make the aircraft roll, inspired by how a buzzard tilts. They worked the twist and the rudder together with one movement.
+fact: They twisted the whole wing to make the aircraft tip to one side, which pilots call a roll, inspired by how a buzzard tilts. They worked the twist and the rudder, the upright tail flap that steers left and right, together with one movement.
 try: Hold a long cardboard box by the ends and twist it gently. That is wing warping. Modern planes do the same job with hinged flaps at the wingtips.
 check: What was the Wrights' real invention?
 - The engine
@@ -265,7 +265,7 @@ hint: Look at the fact box. It explains what control means in their design.
 explain: They figured out how to twist the whole wing to make the aircraft roll, just like a buzzard tilts its wings.
 
 --- 🔄
-p: Two years after their first flight, the Wright brothers had a much better machine. This one could stay up for 39 minutes and circle a field 30 times.
+p: Two years after their first flight, the Wright brothers had a much better machine. This one could stay up for 39 minutes and circle a field about 30 times.
 fact: The aircraft that actually mattered is called Flyer III. It is on display in Dayton.
 check: How long did Flyer III stay up?
 + 39 minutes
@@ -275,8 +275,8 @@ hint: Look at the second sentence. It gives the number of minutes.
 explain: Flyer III could stay up for 39 minutes and circle a field 30 times.
 
 --- 🌙
-p: A bootprint on the moon will stay exactly as it was pressed because there is no wind or rain to erase it.
-fact: The astronauts also left mirrors, and laboratories on earth still bounce lasers off them to measure the distance to the moon.
+p: Flying led all the way to the moon. A bootprint there stays put, because there is no wind or rain to erase it.
+fact: The astronauts also left mirrors, and laboratories on Earth still bounce lasers off them to measure the distance to the moon.
 check: How is the distance to the moon measured?
 - By looking through powerful telescopes
 + By bouncing lasers off mirrors the astronauts left
@@ -286,7 +286,7 @@ explain: Labs bounce lasers off the mirrors left by astronauts to measure the di
 
 --- ✈️
 p: Twelve seconds in the air, a wooden box with a fan, a twisted wing, a bootprint on the moon.
-p: All part of flight.
+p: It took careful testing, one small step at a time, to get from twelve seconds to the moon.
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
 === america-founding
@@ -295,14 +295,14 @@ game: Declaration of Independence = Kept in argon gas | John Hancock = Signature
 
 --- 📜
 p: The Declaration of Independence is a single sheet you could carry under your arm. It is about 24 by 30 inches and written out by hand.
-fact: Today, it rests in a sealed case filled with argon gas in Washington. The signatures have faded badly over time, from years on display in sunlight and from an 1820s copying process that lifted some of the ink.
-p: John Hancock's signature is still the clearest, which is why his name became slang for a signature.
+fact: Today, it rests in a sealed case filled with argon, a gas that will not harm old paper, in Washington, D.C. The signatures have faded badly over time, from years on display in sunlight and from an 1820s copying process that lifted some of the ink.
+p: John Hancock signed large and bold, and his is still the clearest. That is why his name became slang for a signature.
 check: Whose signature is still the clearest on the Declaration of Independence?
 + John Hancock
 - Thomas Jefferson
 - Benjamin Franklin
 hint: Look at the last sentence. It names whose signature is clear.
-explain: John Hancock's signature is still the clearest, which is why his name became slang for a signature.
+explain: John Hancock signed large and bold, and his signature is still the clearest, which is why his name became slang for a signature.
 
 --- ✏️
 p: Jefferson's rough draft of the Declaration of Independence still exists, and it has all the crossings-out on it.
@@ -313,7 +313,7 @@ try: Look up an image of the rough draft online and find one sentence that was c
 --- 🖋️
 p: The Constitution is four sheets of parchment, and one man wrote out the whole thing over a weekend.
 fact: Jacob Shallus was the clerk who did it, and he got paid thirty dollars for his work. His name appears nowhere on it.
-p: He made a few small mistakes and squeezed the corrections into the margins, where they are still visible today.
+p: He made a few small mistakes and fixed them with words written between the lines and one scraped-away spot, where the fixes are still visible today.
 check: Who copied the finished Constitution onto parchment by hand?
 - The founding fathers
 - The president of the United States
@@ -322,24 +322,24 @@ hint: Look at the fact box. It names the clerk who did it.
 explain: Jacob Shallus was the clerk who wrote it out over a weekend for thirty dollars.
 
 --- 🪁
-p: In 1752, Benjamin Franklin wrote a letter describing how he flew a kite in a thunderstorm.
-fact: The letter describes drawing sparks from the storm with a key on a silk ribbon. It is the only account we have of it from anyone who was there.
-p: The letter warned that the silk had to stay dry and the experimenter must stand under cover. At least one scientist who tried something like it carelessly was killed.
+p: In 1752, Benjamin Franklin published a letter describing an experiment with a kite in a thunderstorm.
+fact: The letter describes drawing sparks from the storm with a key on a silk ribbon. It is the only account from that year. The story that Franklin flew the kite himself comes from a friend, Joseph Priestley, who wrote it down fifteen years later.
+p: The letter warned that the silk had to stay dry and the experimenter must stand under cover. At least one scientist who tried something like it was killed by lightning. Never try this yourself.
 check: What is the only account of the kite experiment?
 - A diary kept by his son
 + Franklin's own letter
 - A painting from the time
-hint: Look at the fact box. It says it is the only account we have.
-explain: The letter describes drawing sparks with a key on a silk ribbon, and it is the only account of it from anyone who was there.
+hint: Look at the fact box. It says it is the only account from that year.
+explain: The letter describes drawing sparks with a key on a silk ribbon, and it is the only account from that year.
 
 --- 🔔
 p: The Liberty Bell cracked on its very first test ring after arriving.
 fact: It was melted down and recast twice by local workmen, but it cracked again later. The famous wide slot was cut deliberately to try to stop the crack spreading.
-p: But it did not work, and the bell has not been rung since.
+p: But it did not work, and the bell has not been rung properly since.
 check: Why was the slot cut in the Liberty Bell?
 + To try to stop the crack spreading
 - To make it look more interesting
-- To add a new design element
+- To make the bell ring louder
 hint: Look at the fact box. It explains what the slot was for.
 explain: The slot was cut to try to stop the crack from spreading, but it did not work.
 
@@ -354,7 +354,7 @@ hint: Look at the fact box. It lists the materials used.
 explain: They were made of hippopotamus ivory, human teeth, brass screws, and a lead base.
 
 --- 🇺🇸
-p: One sheet with signatures. Four sheets with words. A crossed-out draft and a new try. A cracked Liberty Bell. A set of false teeth.
+p: One sheet with signatures. Four sheets with words. A crossed-out draft. A kite letter. A cracked Liberty Bell. A set of false teeth.
 p: Each one tells part of the story.
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
@@ -385,7 +385,7 @@ explain: The wagons were mostly pulled by oxen, which were cheaper, stronger, an
 
 --- 🐎
 p: The Pony Express carried mail nearly 2,000 miles in about ten days, changing horses every 10 to 15 miles.
-fact: It was famous right away, but it only lasted eighteen months because the telegraph reached the coast and made it pointless overnight.
+fact: It was famous right away, but it only lasted eighteen months because the telegraph wire reached California and made it pointless overnight.
 check: Why did the Pony Express end?
 - The mountain trail closed for good
 - The riders all quit to dig for gold
@@ -407,18 +407,18 @@ explain: The houses were built using strips of sod cut with a special plow and s
 --- 💨
 p: Two inventions made farming the dry plains possible.
 fact: Barbed wire fenced land where there was no wood for rails. Windmills pumped water up from far below the ground with nobody doing the work.
-p: The windmills are still standing all over the American West. They are tall and skeletal, with a fantail that turns the wheel into the wind by itself.
+p: The windmills are still standing all over the American West. They are tall metal towers with a small tail that turns the wheel into the wind by itself.
 check: What did the windmills do?
-- Generated electricity for the farms
+- Plowed the fields without any animals
 + Pumped water up from far below the ground
 - Sent signals to neighbors across the plains
 hint: Look at the fact box. It says the windmills pumped water up from far below the ground.
 explain: Windmills pumped water up from deep underground without anyone having to operate them.
 
 --- 🍳
-p: A chuckwagon was a kitchen on wheels, perfect for cooking on the go.
+p: A chuckwagon was a kitchen on wheels that followed the cattle drives.
 fact: It had a hinged lid that dropped down to make a work surface. Behind it were drawers for flour, coffee, beans, and sourdough.
-p: Charles Goodnight rebuilt an army wagon in iron to keep wooden axles from breaking.
+p: A rancher named Charles Goodnight built the first one in 1866 from an old army wagon, with iron axles that would not break.
 check: What did the hinged lid make?
 - A storage compartment
 - A bed for the cook
@@ -427,7 +427,7 @@ hint: Look at the second sentence. It says the hinged lid dropped down to make a
 explain: The hinged lid made a work surface where the cook could prepare meals.
 
 --- 🌅
-p: A groove worn into the ground. Oxen pulling a wagon. A mail rider on horseback. A house of sod. A chuckwagon kitchen on wheels.
+p: A groove worn into solid rock. Oxen pulling a wagon. A mail rider on horseback. A house of sod. A chuckwagon kitchen on wheels.
 p: Each one part of moving west.
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
@@ -437,16 +437,16 @@ game: Erie Canal = 363 miles long with locks | Mules = Pulled boats along the ca
 
 --- 🛶
 p: Have you ever dug a trench in the sand at the beach? Now imagine digging a canal 363 miles long by hand.
-fact: The Erie Canal ran across New York State, with 83 locks to climb the height. Boats were pulled by mules walking a towpath beside the water. It cut the cost of moving a ton of freight by about ninety percent.
+fact: The Erie Canal ran across New York State, with 83 locks, which are water-filled chambers that lift boats up or lower them to the next level. Boats were pulled by mules walking a towpath beside the water. It cut the cost of moving a ton of freight by about ninety percent.
 check: What pulled the boats along the Erie Canal?
 - Steam engines on the boat
 + Mules walking a towpath
 - Sails raised on tall masts
-hint: Look at the fact box. It tells you what animals pulled the boats.
+hint: Look at the fact box. It tells you what pulled the boats.
 explain: Mules walked a towpath beside the canal, pulling the boats along.
 
 --- ⛴️
-p: Mississippi steamboats drew so little water that captains joked they could run on heavy dew.
+p: Mississippi steamboats floated in so little water that captains joked they could run on heavy dew.
 fact: Flat-bottomed hulls and paddle wheels let them work rivers a few feet deep, and they carried enormous loads.
 term: paddle wheels = The big round wheels on the side of the boat that turn to push it through the water.
 check: Why could steamboats work shallow rivers?
@@ -458,7 +458,7 @@ explain: Flat-bottomed hulls and paddle wheels allowed them to navigate rivers t
 
 --- 🔨
 p: Two railroads met at Promontory Summit in 1869 to finish the first cross-country railway.
-fact: A telegraph wire was attached to the hammer and the last spike. The blow itself sent a signal down the line, so the word DONE went out to both coasts at the same moment.
+fact: A telegraph wire was attached to the hammer and the last spike. The blow was meant to send a signal down the line, so the word DONE would go out to both coasts at the same moment.
 p: The man swinging the hammer even missed on the first try, but the telegraph operator sent the signal anyway.
 check: How did the news go out when the spike was hit?
 - A rider on a fast horse carried the news to town
@@ -479,7 +479,7 @@ hint: Look at the fact box. It says who created the time zones.
 explain: The railroads invented and imposed the four time zones to make their timetables work.
 
 --- 🚗
-p: Henry Ford did not invent the car. He invented a new way to build it.
+p: Henry Ford did not invent the car. He found a new way to build it, with a moving assembly line.
 fact: Instead of workers walking around a car that stayed in one place, he moved the car past the workers, and each worker did one job. Building one chassis, the frame the car body sits on, went from twelve and a half hours to just ninety-three minutes.
 p: The idea came partly from meat-packing plants. There, carcasses traveled on overhead rails, with workers making specific cuts as they passed by.
 check: How long did building a chassis take after Ford's change?
@@ -490,7 +490,7 @@ hint: Look at the fact box. It gives the new time.
 explain: After Ford's change, building a chassis took ninety-three minutes.
 
 --- 🌉
-p: The chief engineer of the Brooklyn Bridge was hurt by working in the pressurized chambers under the river.
+p: The chief engineer of the Brooklyn Bridge, Washington Roebling, became too sick to leave his bed after working in the air-filled chambers under the river.
 fact: His wife, Emily Roebling, filled in for him. She learned the mathematics, carried his instructions to the site every day, and dealt with contractors for eleven years.
 check: Who carried the engineer's instructions to the site?
 - A hired helper
@@ -500,15 +500,15 @@ hint: Look at the second sentence. It names who took over.
 explain: Emily learned the math and carried the instructions daily.
 
 --- 🚂
-p: Canals and boats. Boats and locks. Rails and trains. Clocks timing the factory. A bridge and a wife who learned the math.
+p: Canals and boats. Boats and locks. Rails and trains. Clocks set by the railroads. A bridge and a wife who learned the math.
 p: All working together to move and lift in new ways.
 
 === america-inventors
-idea: Edison's notebooks are mostly filled with failures. Find out how inventors like Edison still made history.
-game: Thomas Edison = Left behind five million pages of notebooks | Samuel Morse = Sent "What hath God wrought" | Elisha Otis = Demonstrated a safety brake for lifts | George Washington Carver = Promoted peanuts and sweet potatoes | Garrett Morgan = Invented a breathing hood and traffic signal | Bell = Filed his telephone patent on the same day as Gray
+idea: Edison's notebooks are full of failures. Meet the inventors behind the telegraph, the safe elevator, the traffic signal, and the telephone.
+game: Thomas Edison = Left behind five million pages of papers | Samuel Morse = Sent "What hath God wrought" | Elisha Otis = Demonstrated a safety brake for elevators | George Washington Carver = Promoted peanuts and sweet potatoes | Garrett Morgan = Invented a breathing hood and traffic signal | Bell = Filed his telephone patent on the same day as Gray
 
 --- 💡
-p: Thomas Edison's laboratory left behind about five million pages of notebooks. They are being scanned and read today.
+p: Thomas Edison's laboratory left behind about five million pages of notes, drawings, and letters. They are being scanned and read today.
 fact: Most of what is in them is failure — sketches, dead ends, and lists of things tried and crossed off.
 check: What fills most of Edison's notebooks?
 - Clever inventions that worked
@@ -520,27 +520,27 @@ explain: Most of Edison's notebooks are filled with failures, sketches, and thin
 --- ⚡
 p: Samuel Morse sent the first long telegraph message from Washington to Baltimore in 1844.
 fact: The message was four words: What hath God wrought. The paper tape with those dots and dashes still exists today.
-term: wrought = Made or created, as in the message Annie Ellsworth chose.
+term: wrought = An old word meaning made or done.
 check: How many words was the first long telegraph message?
 + Four
 - Two
 - Eight
-hint: Look at the second sentence of the fact box. It tells you how many words the message had.
+hint: Look at the first sentence of the fact box. It tells you how many words the message had.
 explain: The message had four words: What hath God wrought.
 
 --- 🛗
 p: In 1854, Elisha Otis stood on a loaded platform hoisted above a crowd and had an assistant cut the rope with an axe.
-fact: The safety brake caught. This convinced people that lifts were safe to use.
+fact: The safety brake caught. This convinced people that elevators were safe to use.
 check: What happened when the rope was cut?
 - The platform fell to the ground
 - The people on board jumped to safety
 + The safety brake caught the platform
 hint: Look at the second sentence of the fact box. It tells you what happened.
-explain: The safety brake caught the platform, proving that lifts could be safe.
+explain: The safety brake caught the platform, proving that elevators could be safe.
 
 --- 🥜
 p: Cotton is hard on the land. It takes so much from the soil that it can leave fields tired and empty.
-fact: George Washington Carver pushed farmers to plant peanuts and sweet potatoes instead. He published hundreds of recipes and products to make sure those crops were worth growing.
+fact: George Washington Carver pushed farmers to plant peanuts and sweet potatoes instead. Peanut roots carry tiny bacteria that put back nitrogen, a plant food that cotton had used up. He published hundreds of recipes and products to make sure those crops were worth growing.
 check: Why did Carver push peanuts?
 + Cotton strips the soil, and peanuts help it recover
 - Cotton spoils in storage, and peanuts keep for years
@@ -551,18 +551,18 @@ explain: Peanuts let the soil recover from what cotton takes out of it.
 --- 😷
 p: Garrett Morgan built a breathing hood to protect people from smoke and gas.
 fact: In 1916, he used his breathing hood to rescue men trapped in a collapsed, gas-filled tunnel under Lake Erie.
-p: Later, Morgan patented a traffic signal with a third position that stops everyone at once.
+p: Later, Morgan patented a traffic signal. Signals then had only two positions, stop and go. His added a third that stops everyone at once.
 check: What is Morgan's third position on a traffic signal?
-- Only cars stop
+- Only the cars on one street stop
 + Everybody stops at once
-- Only pedestrians cross
+- Everybody goes at once
 hint: Look at the last sentence on the page. It tells you about the third position.
-explain: The third position stops everybody, which is why traffic lights have a moment when all directions are red.
+explain: The third position stops everybody, so people on foot can cross safely.
 
 --- ☎️
-p: In 1876, Bell filed his telephone patent.
+p: In 1876, Alexander Graham Bell filed his telephone patent.
 fact: On the very same day, another inventor named Elisha Gray filed a description of something very similar. Which arrived first has been argued about ever since.
-check: Who else filed a similar patent on the same day as Bell?
+check: Who else filed a similar description on the same day as Bell?
 - Thomas Edison
 - Nikola Tesla
 + Elisha Gray

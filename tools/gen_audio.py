@@ -81,7 +81,7 @@ load('js/expeditions.js');
 load('js/plants.js'); load('js/earth.js'); load('js/astro.js');
 ['ancient', 'america', 'world', 'micro', 'physical', 'economics'].forEach(f => load('js/' + f + '.js'));
 load('js/lessons.js');
-globalThis.App = {}; load('js/lesson.js'); load('js/games.js');   // Object.assign(App, {...}) — methods only
+globalThis.App = {}; load('js/lesson.js'); load('js/games.js'); load('js/games2.js');   // Object.assign(App, {...}) — methods only
 const out = [];
 const push = (src, field, id, t) => { if (t && String(t).trim())
   out.push({ src, field, id, text: String(t) }); };

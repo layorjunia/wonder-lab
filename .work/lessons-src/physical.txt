@@ -18,8 +18,8 @@ fact: Air pushes back harder the faster you fall and the more spread out you are
 try: Drop two identical sheets of paper, one flat and one screwed into a ball. Same paper, same weight, but they will fall very differently.
 check: Why does a feather fall slower than a hammer on Earth?
 + The air pushes back on it
-- The feather is lighter
-- The hammer is heavier
+- Gravity speeds up a hammer more than a feather
+- The feather has no weight at all
 hint: Look at the fact box. It explains how air affects falling objects.
 explain: Air resistance slows down the feather because it pushes back harder, especially on something spread out like a feather.
 
@@ -34,8 +34,8 @@ p: Friction stops everything by turning movement into heat.
 fact: Brake discs glow hot, and rubbing your hands warms them up. Rough surfaces make more friction, but so do some very smooth ones — two flat sheets of glass grip surprisingly hard.
 try: Rub your hands together fast. You will feel the heat.
 check: What does friction turn movement into?
-- Light
-- Sound
+- Wind
+- Cold
 + Heat
 hint: Look at the first fact on the page to see what happens when you rub your hands.
 explain: Friction turns movement into heat, which is why rubbing your hands together warms them up.
@@ -43,9 +43,9 @@ explain: Friction turns movement into heat, which is why rubbing your hands toge
 --- ⚖️
 p: A lever is a simple machine that trades distance for force.
 term: lever = A tool that lets you push or pull one end to move something else with more force at the other end.
-fact: Push the far end of a long bar a long way, and the near end moves a short way but with much more force. Scissors, nutcrackers, wheelbarrows, your own forearm, and a seesaw are all levers.
+fact: Push the far end of a long bar a long way, and the near end moves a short way but with much more force. Scissors, nutcrackers, wheelbarrows, and a seesaw are all levers.
 check: What does a lever trade?
-- Force for distance
+- Weight for speed
 + Distance for force
 - Time for speed
 hint: Look at the first fact on the page to see how the ends of a lever move differently.
@@ -56,7 +56,7 @@ p: Every push comes with an equal push the other way.
 fact: A rocket does not push against the air — it throws gas out of the back, and the gas pushes the rocket forward.
 p: That is why rockets work better in space. With nothing in the way, the gas still pushes the rocket forward without any resistance.
 check: What pushes a rocket forward?
-- The force of the engine
+- The pull of the moon
 - The air pushing against the rocket
 + The gas it throws out the back
 hint: Look at the first fact on the page to see what the rocket throws out.
@@ -72,14 +72,14 @@ game: Pendulum = Trades height for speed | Cereal box number = Burned food's war
 
 --- 🎢
 p: Why does a pendulum never swing back higher than where you let it go?
-fact: A pendulum trades height for speed on the way down and speed for height on the way up, but it loses a little energy to the air each time.
+fact: A pendulum trades height for speed on the way down and speed for height on the way up. Each swing it hands a little energy to the air, as a bit of heat.
 try: Tie a small weight to a string, hold the string up, and let the weight swing. Watch whether it ever swings back higher than where you let it go.
 check: Why does a pendulum never swing higher than where you let it go?
 - The string gets a bit shorter each time it swings
-+ It loses a little energy to the air each swing
++ It hands a little energy to the air each swing
 - Gravity pulls a little less with each swing
 hint: Look at the fact box. It explains what happens each time the pendulum swings.
-explain: Each swing, the pendulum loses a little energy to the air, so it never quite reaches as high.
+explain: Each swing, the pendulum hands a little energy to the air, so it never quite reaches as high.
 
 --- ♾️
 p: Imagine a ball rolling down a hill. It loses height but gains speed, and then when it rolls back up, it slows down again. Energy changes form but is never lost.
@@ -94,7 +94,7 @@ explain: Every careful measurement anyone has ever made agrees with the idea tha
 
 --- 🎈
 p: Take a rubber band and stretch it quickly. It gets warmer.
-fact: Stretch a rubber band fast and you can feel it warm up on your lip. Let it snap back and it cools down again.
+fact: Stretch a rubber band fast and you can feel it warm up on your lip. Let it snap back and it cools down again. The work your hands do stretching it ends up as a little heat.
 try: Touch a rubber band to your lip, then stretch it fast and touch it again. Wait for it to relax and touch one more time.
 check: What happens to a rubber band when you stretch it quickly?
 - It stays the same temperature
@@ -105,8 +105,8 @@ explain: When you stretch a rubber band quickly, it gets warmer, and you can fee
 
 --- 🍎
 p: Have you ever wondered where the number on a cereal box comes from?
-term: Calorie = The heat needed to warm 1 kg of water by 1 degree Celsius.
-fact: To find the number on a cereal box, they burn the food in a sealed metal chamber sitting in water. They measure how much the water warms up.
+term: Calorie = The heat needed to warm 1 kg (2.2 pounds) of water by 1 degree Celsius (1.8 degrees F).
+fact: The numbers behind a cereal box label come from burning food in a sealed metal chamber sitting in water. They measure how much the water warms up.
 check: How does the number on a cereal box get found?
 - A scale weighs the food and the weight is turned into calories
 + The food is burned and the water's warming is measured
@@ -116,7 +116,7 @@ explain: The food is burned in a sealed chamber, and the amount of heat it gives
 
 --- 🔋
 p: An AA battery holds about as much energy as a single peanut.
-fact(Worked out): A car's gasoline tank holds about as much energy as a hundred sticks of dynamite.
+fact(Worked out): One gallon of gasoline holds about as much energy as a hundred sticks of dynamite.
 p: Chemical fuels are very concentrated. That is why batteries are the hard part of every electric machine.
 
 --- 🚲
@@ -124,7 +124,7 @@ p: Imagine the most efficient way to move from one place to another. It turns ou
 fact(Worked out): A person walking uses about three times as much energy per pound carried per mile compared to cycling.
 check: Which uses about three times as much energy as cycling?
 + Walking
-- Running
+- Sitting still
 - Swimming
 hint: Look at the fact box. It tells you how much more walking uses.
 explain: Walking uses about three times as much energy as cycling.
@@ -145,7 +145,7 @@ check: How old is the sun you see right now?
 - About 8 seconds old
 + About 8 minutes old
 - About 8 hours old
-hint: Look at the first number on the page.
+hint: Look at the fact box. It says how long sunlight takes to reach you.
 explain: The sunlight you see took about 8 minutes and 20 seconds to reach you, so it shows you the sun as it was eight minutes ago.
 
 --- 🌈
@@ -239,7 +239,7 @@ explain: Sound travels fastest in steel, then water, and slowest in air.
 
 --- 🎼
 term: pitch = How many times a second something vibrates.
-fact: People hear from about 20 vibrations a second up to about 20,000. Children can hear the high end better than adults can.
+fact: People hear from about 20 vibrations a second up to about 20,000. Children can hear the high end better than adults can, because the tiny hair cells that catch high sounds wear out as we get older.
 try: Run your fingernail slowly along a comb, then do it fast. Same comb, same teeth, but different pitch — only the rate changed.
 check: What is pitch?
 - How much space a sound fills up in a room
@@ -275,7 +275,7 @@ p: Sound needs something to travel through. It moves faster in water and faster 
 p: So next time you hear a sound, think about its trip, its shake, and maybe even its return.
 
 === physical-heat
-idea: Heat only ever moves from hotter to colder, and that one rule explains a fridge, a breeze and a frozen pond. Find out where cold stops.
+idea: Heat moves from hotter to colder on its own, and that one rule helps explain a fridge, a breeze and a frozen pond. Find out where cold stops.
 game: −459.67°F = The bottom of cold | Wet cloth = Cools a drink | Fridge = Takes heat out and dumps it behind | Warm air = Rises because it is thinner
 
 --- 🥄
@@ -296,7 +296,7 @@ try: Put your hand behind a fridge. That warmth is the heat that used to be in y
 check: Where does a fridge put the heat it takes out?
 + Out of the back
 - Inside the fridge
-- Up into the air
+- Into the water pipes
 hint: Feel the back or underneath of your fridge.
 explain: The warmth you feel there is the heat the fridge took out of your food.
 
@@ -327,8 +327,8 @@ fact: Evaporating water takes heat with it. That's why you feel cold after a bat
 try: Wrap a wet cloth around a bottle and watch how it cools the drink.
 check: Why do you feel cold getting out of a bath?
 + Evaporating water takes heat with it
-- The room is colder than the water
-- The air dries your skin too quickly
+- Your skin makes cold when it gets wet
+- Soap leaves a chill on your skin
 hint: Look at the first fact box. It tells you what happens when water evaporates.
 explain: Evaporating water takes heat with it, so as the water on your skin evaporates, it takes your body heat with it, making you feel cold.
 
@@ -344,9 +344,9 @@ hint: Look at the fact box about absolute zero.
 explain: The coldest possible temperature is −459.67°F, known as absolute zero. At this point, nothing can be colder.
 
 --- 🔥
-p: Heat always moves from hotter to colder, like water flowing downhill.
+p: On its own, heat moves from hotter to colder, like water flowing downhill.
 p: That is why a fridge is warm at the back, why warm air rises, and why a wet cloth cools a bottle.
-fact: Heat flows downhill. It moves from hot to cold, no matter what. This simple rule explains a lot about our world.
+fact: Heat flows downhill. On its own, it moves from hot to cold. This simple rule explains a lot about our world.
 
 === physical-electric
 idea: Electricity is all around us, moving through wires and sometimes giving you a tiny shock. Find out what makes lightning so powerful and why plastic covers wires.
@@ -370,7 +370,7 @@ try: With a battery, a wire, and a small bulb, find every arrangement that light
 check: What does a switch do?
 - It makes the bulb shine much brighter
 - It pumps new electricity into the loop
-+ It breaks the loop so nothing flows
++ It opens and closes the loop
 hint: The fact box explains what a switch does to the loop.
 explain: A switch breaks the loop, stopping the flow of electricity.
 
@@ -387,7 +387,7 @@ explain: We cannot see the electrons, but we can measure the push on a magnet to
 --- 🍋
 p: A battery makes electricity from a chemical reaction between two different metals with something wet in between.
 fact: The first battery was a stack of copper and zinc discs, with brine-soaked cardboard between them.
-try: Push a galvanised nail and a copper coin into a lemon, not touching. Touch both with your tongue. That faint tingle is a working battery.
+try: Push a galvanized nail and a piece of copper wire (an old penny from before 1982 also works) into a lemon, not touching. Touch both with your tongue. That faint tingle is a working battery.
 check: What does a battery need?
 - Two same metals with something dry between them
 - One metal and a dry sponge
@@ -407,7 +407,7 @@ hint: The fact box explains what plastic does in wires.
 explain: Plastic stops electricity from escaping, keeping the flow inside the wire.
 
 --- ⚡
-p: Lightning is not just a pretty flash. A bolt carries around 30,000 amps and heats the air to about 50,000°F — that’s five times hotter than the surface of the sun.
+p: Lightning is not just a pretty flash. A bolt carries around 30,000 amps (a lamp at home uses less than one). It heats the air to about 50,000°F, five times hotter than the surface of the sun.
 fact(Worked out): The temperature is worked out from the colors in the light. Thunder is that heated air exploding outward.
 check: What is thunder?
 - Clouds crashing together in the sky
@@ -429,7 +429,7 @@ p: Every magnet has two ends, but you can't have just one of those ends on its o
 fact: Snap a bar magnet in half and you don’t get a north piece and a south piece — you get two smaller magnets, each with both ends.
 check: What do you get if you snap a bar magnet in half?
 + Two smaller magnets
-- One north end and one south end
+- One piece with only a north end and one with only a south end
 - A single piece with no magnetic ends
 hint: Each half still has both ends.
 explain: Both halves of the snapped magnet will still have a north and a south end.
@@ -484,18 +484,18 @@ hint: Look at the fact box. It explains why a magnet that only attracts would pu
 explain: A magnet that simply attracts would pull once and stop. The switching keeps it moving.
 
 --- 🚀
-p: Two ends that never come apart. A compass that points at the wrong pole. A nail that is a magnet only while a battery is connected.
+p: Two ends that never come apart. A compass that does not point at the North Pole. A nail that is a magnet only while a battery is connected.
 p: And inside every fan and drill, a magnet switching on and off, over and over.
 
 === physical-matter
 idea: Water can be a solid, a liquid and a gas before lunch. Find out why a steel ship floats, why you cannot feel the air pressing on you, and how you can run across a liquid.
-game: Water = The one substance that is ice, water and steam | Denver = Where water boils at about 202°F | Steel ship = Floats because most of it is air | Cornflour and water = A liquid that goes hard when hit | Air = Presses 14.7 pounds on every square inch | Atom = Too small for any ordinary microscope
+game: Water = The one substance that is ice, water and steam | Denver = Where water boils at about 202°F | Steel ship = Floats because most of it is air | Cornstarch and water = A liquid that goes hard when hit | Air = Presses 14.7 pounds on every square inch | Atom = Too small for any ordinary microscope
 
 --- 💧
 p: Which thing in your kitchen can be a solid, a liquid, and a gas all in the same day?
 fact: Water is the one substance that does it naturally — ice, water, steam. Everything else in your house stays as it is unless you do something drastic to it.
 try: Put some ice in a pan with a thermometer in it and heat it slowly. Watch for the pause in temperature while the ice melts.
-check: Which everyday substance can be ice, water, and steam?
+check: Which kitchen substance can be a solid, a liquid, and a gas in one day?
 - Metal
 + Water
 - Wood
@@ -526,7 +526,7 @@ explain: Most of the ship is air, so it floats even though it is made of heavy s
 
 --- 🌬️
 p: You might think air is weightless, but it has heft.
-fact: At sea level, air presses on you at 14.7 pounds on every square inch. That is a few tons over your whole body.
+fact: At sea level, air presses on you at 14.7 pounds on every square inch. That adds up to about 20 tons over your whole body.
 p: But you do not feel this heavy air pressing down because it pushes from inside you too.
 check: Why do you not feel the weight of the air?
 + It pushes from inside you too
@@ -536,9 +536,9 @@ hint: Look at the paragraph before the check.
 explain: Air pressure pushes from inside you as well, so you do not feel its weight.
 
 --- 🥣
-p: Imagine a liquid you can run across. That sounds impossible, but mix cornflour and water and that is exactly what you get.
+p: Imagine a liquid you can run across. That sounds impossible, but mix cornstarch and water and that is exactly what you get.
 fact: Hit it and it goes hard; leave your hand there and you sink. The grains jam together when pushed suddenly and slide when pushed slowly.
-try: Mix cornflour with water until it pours like cream. Punch it fast, then press slowly. Same bowl, two completely different substances.
+try: Mix cornstarch with water until it pours like cream. Punch it fast, then press slowly. Same bowl, two completely different substances.
 check: What happens if you hit cornflour and water?
 - You sink right in
 - It spills everywhere
@@ -547,10 +547,10 @@ hint: Look at the fact above the try block.
 explain: When you hit it, the grains jam together, making it go hard.
 
 --- 🔬
-term: atom = The teeny-tiny bits that make up everything around us.
+term: atom = The tiny building blocks that make up everything around us.
 fact(Worked out, not seen): Atoms are smaller than the waves light is made of. That means no ordinary microscope will ever show one.
-p: The first pictures of atoms were made by dragging an extremely fine needle across a surface and recording the bumps.
-check: How were the first pictures of atoms made?
+p: Today's pictures of atoms are made by dragging an extremely fine needle across a surface and recording the bumps.
+check: How are pictures of single atoms made today?
 - By zooming a very powerful camera in close on a surface
 + By dragging an extremely fine needle across a surface
 - By soaking a surface in dye and looking at it under a lamp

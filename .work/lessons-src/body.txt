@@ -1,7 +1,7 @@
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
 === body-bones
 idea: Your body starts with 300 bones but ends up with 206. The smallest bone sits in your ear, and one bone in your throat touches no other bone.
-game: Stapes = Inside your ear, looks like a stirrup | Hyoid = In your throat, shaped like a horseshoe | Collagen = Keeps bones tough and flexible | Thigh bone = About a quarter of your height | Donald Unger = Cracked knuckles for over 60 years without arthritis | Enamel = The hardest material in your body, can’t repair itself
+game: Stapes = Inside your ear, looks like a stirrup | Hyoid = In your throat, shaped like a horseshoe | Collagen = Keeps bones tough and flexible | Thigh bone = About a quarter of your height | Donald Unger = Cracked knuckles for over 60 years without arthritis | Enamel = The hardest material in your body, can’t grow back
 
 --- 🍼
 p: You were born with about 300 bones. By the time you are grown you have 206. Some of your bones fused together as you grew.
@@ -56,7 +56,7 @@ explain: Both a giraffe and you have exactly seven neck bones, even though the g
 
 --- 🫳
 p: There's one bone in your body that doesn't touch any other bone.
-fact: It’s called the hyoid, a small horseshoe-shaped bone in your throat, hanging from muscles and ligaments, with no joint to any other bone, and anchoring your tongue.
+fact: It’s called the hyoid, a small horseshoe-shaped bone in your throat. It hangs from muscles and ligaments, has no joint to any other bone, and anchors your tongue.
 try: Rest a finger above your voice box and swallow. You'll feel it jump up and down under your finger.
 check: Which bone touches no other bone?
 - The jawbone in your face
@@ -83,7 +83,7 @@ explain: Your thigh bone is about a quarter of your total height.
 
 --- 🦷
 p: Teeth are not bones. Enamel, the hard outer layer of your teeth, is actually the hardest material your body makes.
-fact: Unlike bone, enamel cannot repair itself, which is why brushing your teeth is so important.
+fact: Unlike bone, enamel cannot grow back once it is worn away, which is why brushing your teeth is so important.
 p: Cracking your knuckles does not give you arthritis. Donald Unger cracked the knuckles of his left hand at least twice a day for over 60 years and never did it with his right hand. After all that time, neither hand had arthritis.
 check: Does cracking your knuckles give you arthritis?
 - Yes, it wears down the joints
@@ -114,7 +114,7 @@ explain: The dot vanishes because your brain fills in the gap so smoothly that y
 --- ⚡
 p: Signals race along your nerves at up to about 270 mph (430 km/h) — faster than a Formula 1 car.
 
-fact: Not all nerves are quick. The fibers that carry a sharp, sudden pain are fast. The ones carrying dull ache crawl along at about walking pace. That is why you snatch your hand back from something hot before it properly hurts.
+fact: Not all nerves are quick. The fibers that carry a sharp, sudden pain are fast. The ones carrying dull ache crawl along at about walking pace. Your spinal cord also acts on the fast signal by itself, so your hand jerks back before the message even reaches your brain.
 check: Why do you snatch your hand from something hot before it hurts?
 - Because your eyes see the danger before your skin can feel it
 + Because the fibers carrying sharp pain are fast
@@ -169,7 +169,7 @@ explain: The hand wins because both jobs are run from the same side of your brai
 --- 🧷
 p: Have you ever felt a fizzing sensation in your arm or leg after sitting in an awkward position? That's what we call pins and needles.
 fact: Pins and needles happen when you squash a nerve, not because your foot "falls asleep". When the pressure lifts, the nerve fires off a burst of confused messages that feel like fizzing.
-p: Another strange feeling is the jolt you sometimes get just as you are falling asleep. It's called a hypnic jerk.
+p: Another strange feeling is the jolt you sometimes get just as you are falling asleep. It's called a hypnic jerk. Nobody is sure why it happens; one idea is that your brain mistakes your muscles relaxing for a fall.
 check: What causes pins and needles?
 - Your foot falling asleep
 + A squashed nerve
@@ -274,13 +274,13 @@ explain: Mitochondria turn food and oxygen into energy that the cell can use.
 --- 😤
 p: Hold your breath for a moment. You will soon feel a desperate need to gasp.
 fact: That urge is mostly from carbon dioxide piling up in your blood, not from running out of oxygen.
-try: Breathe in and hold it, counting how long you can last. Then breathe all the way out and hold that, counting again. The empty one is far shorter because with no air in your lungs to hold it, the carbon dioxide builds up much faster.
+try: Breathe in and hold it, counting how long you can last (no deep breathing first, and stop if you feel dizzy). Then breathe all the way out and hold that, counting again. The empty one is far shorter because your lungs have less air to spare, so the carbon dioxide builds up faster.
 check: Why do you feel the need to gasp when you hold your breath?
 + Waste gas is piling up
 - You are running out of oxygen
 - Your lungs are getting tired
 hint: Look at the first sentence of the fact box. It tells you why you need to gasp.
-explain: The urge to gasp comes from waste gas building up in your lungs.
+explain: The urge to gasp comes from waste gas building up in your blood.
 
 --- 📖
 p: Almost every cell in your body holds a full instruction book.
@@ -335,7 +335,7 @@ hint: Look at the fact box. It tells you what platelets do.
 explain: Platelets clump at the tear, lay down fibers, and catch blood cells to form a hard plug.
 
 --- 🤧
-p: You cannot keep your eyes open when you sneeze.
+p: Most people cannot keep their eyes open when they sneeze.
 fact: The eye-closing is a reflex bundled with the sneeze. Nobody has found a good reason for it — your eyes would not pop out, despite the playground legend.
 p: Your immune system fights germs, but sometimes it mistakes harmless things like pollen or peanuts for threats.
 check: What is an allergy?
@@ -397,7 +397,7 @@ idea: The tallest person ever was over 8 feet tall. Learn why your height change
 game: Robert Wadlow = Tallest person ever measured | Growth hormone = Helps bones grow longer | Cartilage = The flexible material that turns into bone | Arm span = Usually within an inch of your height | Nine to twelve hours = Sleep needed for a nine-year-old | Kneecaps = Start as cartilage and harden over years
 
 --- 🌙
-fact: You grow fastest while you are asleep. Most of your growth hormone is released during deep sleep.
+fact: Your body makes most of its growth hormone during deep sleep, so sleep matters for growing.
 fact: You are also measurably taller in the morning than at bedtime. The discs in your spine decompress overnight.
 try: Measure your height first thing in the morning, then again just before bed. Most people lose up to about half an inch (1 cm) over the day as the cushions between the bones of the spine squash down.
 check: When are you tallest?
@@ -455,14 +455,14 @@ fact: At first, the glands make just enough to keep the eyes wet. The flood that
 
 --- 📏
 p: Your arm span comes out very close to your height.
-fact: For most people, the difference is within an inch (2-3 cm). Children usually measure a shade narrower than they are tall.
+fact: For most people, the difference is only an inch or two (2-5 cm). Children usually measure a shade narrower than they are tall.
 try: Stand against a wall with your arms straight out to the sides and have someone mark where your fingertips reach. Measure between those marks and then measure your height.
 check: How does your arm span compare with your height?
 - It is usually much longer than your height
 + It is within an inch or so of each other
 - It is usually much shorter than your height
 hint: Look at the first sentence of the fact box. It tells you how close they are.
-explain: Most people's arm span and height are very close, usually within an inch.
+explain: Most people's arm span and height are very close, usually within an inch or two.
 
 --- 😴
 p: How much sleep you need changes as you grow.
@@ -487,7 +487,7 @@ fact: Each long bone has a thin plate of soft cartilage near its end. New bone i
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
 === body-gut
 idea: Your stomach acid is strong enough to damage metal. Learn why it doesn't digest your stomach in the process.
-game: Alexis St Martin = Got shot and had an open stomach wound | corn = Helps you time your own digestion | small intestine = Narrow, not short | liver = Grows back to full size | appendix = Hides and protects good bacteria | William Beaumont = Lowered food on a string into the wound
+game: Alexis St Martin = Got shot and had an open stomach wound | corn = Helps you time your own digestion | small intestine = Narrow, not short | liver = Grows back to full size | appendix = May hide good bacteria and restock the gut | William Beaumont = Lowered food on a string into the wound
 
 --- 🍪
 p: Chew a plain cracker slowly and hold it in your mouth for a whole minute without swallowing. It turns sweet because an enzyme in your saliva, a chemical that breaks food apart, cuts the starch into sugar.
@@ -511,7 +511,7 @@ hint: Look at the term definition. It names what moves the food.
 explain: Muscles squeeze food along in a wave, and this wave is called peristalsis.
 
 --- 🔥
-p: Your stomach acid is strong enough to damage metal. But it does not digest you.
+p: Your stomach acid is strong enough to damage metal. But it does not digest your stomach.
 fact: Your stomach relines itself with a layer of mucus and fresh cells, replacing the lining continuously.
 check: Why does your stomach not digest itself?
 - Its acid is too weak to hurt a living stomach wall
@@ -524,7 +524,7 @@ explain: A layer of mucus and a fresh supply of cells replace the lining continu
 p: In 1822, Alexis St Martin got shot in the side and the wound left a hole into his stomach that never closed.
 fact: His doctor, William Beaumont, lowered food on a string into the hole more than 200 times to see how much of it had been digested. These experiments showed that the stomach works mostly by chemistry, with juices breaking the food down.
 check: What did these experiments show?
-- That the stomach grinds up food
+- That the stomach only stores food until it moves on
 - That the stomach never needs to rest
 + That the stomach works by chemistry
 hint: Look at the fact box. It names what the experiments proved about how the stomach works.
@@ -539,7 +539,7 @@ check: About how long does corn take to pass through?
 + A day to a day and a half
 - A week to a week and a half
 hint: Look at the fact box. It gives the time range.
-explain: Most people see the sweetcorn skins around a day to a day and a half later.
+explain: Most people see the corn skins around a day to a day and a half later.
 
 --- 📏
 p: Your small intestine is not actually small. Stretched out, it is about 20 feet (6 m) long.
@@ -659,7 +659,7 @@ hint: Look at the first sentence in the fact box.
 explain: The hands take up more room on the brain's map because they need more control.
 
 --- 🔨
-p: Every way you hold something is one of two grips. A surgeon figured that out in 1956.
+p: Most ways you hold something are one of two grips. A surgeon, John Napier, worked that out in 1956.
 term: precision grip = When you pinch something between your thumb and fingertips, like holding a pencil.
 fact: In a power grip, your fingers wrap around and your palm joins in, like using a hammer. In a precision grip, you pinch with your thumb and fingertips, like holding a pencil.
 check: Which grip do you use for a pencil?
@@ -721,7 +721,7 @@ hint: Look at the fact box. It explains how the heart takes tiny breaks.
 explain: The heart rests between each beat, adding up to a lot of rest time throughout the day.
 
 --- 🧭
-p: Your heart moves about 5 quarts of blood every single minute. That is all the blood in your body, over and over again.
+p: A grown-up's heart moves about 5 quarts of blood every single minute. That is all the blood in the body, over and over again.
 fact: In just one day, your heart pumps roughly 2,000 gallons of blood through you.
 check: About how much blood does the heart move in a minute?
 + About 5 quarts, all of it
@@ -753,7 +753,7 @@ explain: Blood that has given up its oxygen is dark red.
 
 --- 🧵
 p: Nobody has ever laid one person's blood vessels end to end, but we can work out how long they are.
-fact(How we know): Count the capillaries in a small piece of tissue and multiply up. You get tens of thousands of miles.
+fact(How we know): Count the capillaries in a small piece of tissue and multiply up. You get somewhere between ten and sixty thousand miles, and scientists still argue about the exact number.
 p: Almost all of that length is capillaries — tiny vessels so narrow that red blood cells have to squeeze through in single file.
 check: How do we know how long the blood vessels are?
 - By pulling them out of a body and laying them in a line
@@ -785,7 +785,7 @@ explain: A patch of cells in the heart itself sets the beat, and even single hea
 
 --- 🚪
 p: The lub-dub sound in your heart is not from the squeeze of the heartbeat.
-fact: It is four valves snapping shut, one after another. Each valve opens one way only, so blood goes forward and can never wash back.
+fact: It is four valves snapping shut, two at a time: first the two between the upper and lower chambers (lub), then the two leaving the heart (dub). Each valve opens one way only, so blood goes forward and can never wash back.
 
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
@@ -847,13 +847,13 @@ explain: Your body's thermostat resets higher, so your normal temperature now fe
 
 --- 🪶
 p: Almost every hair on your body has a tiny muscle that yanks it upright, making a goosebump.
-fact: The same muscle fires for cold, fright, and even music. It also holds a nerve against the cells that grow new hair.
+fact: The same muscle fires for cold, fright, and even music. In mice, it also holds a nerve against the cells that grow new hair.
 check: What does the goosebump muscle also hold in place?
 + A nerve, against the cells that grow new hair
 - A tiny vein, against the fat under the skin
 - A sweat gland, against the bone beneath the skin
 hint: Look at the fact box. It gives the exact function of the muscle.
-explain: The muscle holds a nerve against the cells that grow new hair.
+explain: In mice, the muscle holds a nerve against the cells that grow new hair.
 
 --- 🧊
 p: The range of temperatures a person can survive is wider than you might think.
@@ -938,7 +938,7 @@ fact: Hold your palm a few inches from your mouth. Breathe out slowly with your 
 
 check: Why does fast-blown breath feel cold?
 + The fast jet drags cool room air along with it
-- The air cools down quickly as it leaves your mouth
+- Blowing hard makes your lungs breathe out colder air
 - Your lips squeeze the breath and chill it as it goes
 hint: Look at the last sentence of the fact box. It explains why the fast jet feels cold.
 explain: When you blow hard with pursed lips, the fast jet of air drags in cool room air, making it feel cold on your hand.
@@ -1001,14 +1001,14 @@ explain: The old maps were based on a mistake, but every part of your tongue can
 
 --- 🌡️
 p: Your sense of temperature is relative, and you can fool it in under a minute.
-fact: Put one hand in cold water and one in warm for 30 seconds, then plunge both into lukewarm water. The same water feels hot to one hand and cold to the other.
-try: Fill three bowls with cold, lukewarm, and warm water. 
-check: Why does lukewarm water feel hot to one hand and cold to the other?
+fact: Put one hand in cold water and one in warm for 30 seconds, then plunge both into lukewarm water. The same water feels warm to one hand and cool to the other.
+try: Fill three bowls with cold, lukewarm, and comfortably warm water (never hot). 
+check: Why does lukewarm water feel warm to one hand and cool to the other?
 - One hand has more nerves for feeling heat than the other
 + Temperature sense is relative to what it felt before
 - The water really is warmer next to one hand than the other
 hint: Look at the fact box. It explains how your hands can feel different temperatures in the same bowl.
-explain: Your sense of temperature depends on what you felt before, so one hand thinks it's hot and the other cold in the same water.
+explain: Your sense of temperature depends on what you felt before, so one hand thinks it's warm and the other cool in the same water.
 
 --- 👁️
 p: Your sight seems sharp all over, but there's a trick to it.
@@ -1081,7 +1081,7 @@ fact: High notes shake the hairs at one end, low notes at the far end. Each spot
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
 === body-skin
-idea: Your skin is waterproof in both directions, and your fingers wrinkle in water to grip better. The skin over your elbow barely notices a pinch.
+idea: Your skin is waterproof in both directions, and your fingers wrinkle in water, maybe to grip better. The skin over your elbow barely notices a pinch.
 game: Finger wrinkle = Helps you grip wet things better | Tiny blood vessels = Narrow to make your fingers wrinkle | Sweat bacteria = Feed on what the sweat glands release | Elbow skin = Thicker, fattier and has fewer pain endings | Head heat loss = About 7 percent of your total heat loss | Outer skin layer = Dead flat cells stacked like bricks in greasy mortar
 
 --- 📎
@@ -1163,7 +1163,7 @@ fact: These bacteria feed on what the sweat glands release and give off the smel
 
 --- 🦴
 p: There is a spot on your body where a hard pinch hurts much less.
-fact: Pinch the loose skin over the point of your elbow as hard as you like, then pinch the same amount of skin on your forearm. The elbow skin is thicker, fattier and much shorter on pain endings, so a pinch there hurts much less.
+fact: Pinch the loose skin over the point of your elbow firmly, but not hard enough to hurt, then pinch the same amount of skin on your forearm. The elbow skin is thicker, fattier and much shorter on pain endings, so a pinch there hurts much less.
 try: Pinch the skin over your elbow and then your forearm to feel the difference.
 check: Why does a hard pinch on your elbow skin hurt so little?
 + The skin there is thicker and has fewer pain endings
@@ -1173,7 +1173,7 @@ hint: Look at the fact box. It says what the elbow skin is like.
 explain: The elbow skin is thicker, fattier and has fewer pain endings, so a pinch there hurts much less.
 
 --- 🧱
-p: Your skin is waterproof both ways at once.
+p: Your skin is nearly waterproof both ways at once.
 fact(How it works): Bath water stays out, and your own moisture stays in. The outer layer is dead flat cells stacked like bricks in greasy mortar.
 
 
@@ -1194,7 +1194,7 @@ explain: His rhythm settled into a day slightly longer than 24 hours.
 
 --- ☀️
 p: Light sets your body clock, but not through the cells you see with.
-fact: A separate set of cells sits at the back of your eye. All they do is report how bright it is. They report straight to a small clump of cells in the middle of your brain that keeps the schedule.
+fact: A separate set of cells sits at the back of your eye. Their main job is to report how bright it is. They report straight to a small clump of cells in the middle of your brain that keeps the schedule.
 
 check: Which cells tell your body clock about light?
 - The same cells that you use to see colors and shapes in daytime
@@ -1224,7 +1224,7 @@ p: Scientists have looked for a single reason why we sleep, but they do not have
 fact(The strongest evidence): The strongest evidence points to memory. The patterns your brain fired while learning get replayed overnight, and people tested after a night's sleep beat people tested after the same gap awake.
 check: What does the strongest evidence say sleep is for?
 + Memory
-- Growing taller
+- Digesting food
 - Staying warm
 hint: Look at the fact box. It talks about replaying patterns from the day.
 explain: The strongest evidence points to memory. Your brain replays what you learned during the day while you sleep.
@@ -1232,7 +1232,7 @@ explain: The strongest evidence points to memory. Your brain replays what you le
 --- 🧼
 p: Overnight, your brain seems to clean itself.
 fact(Worked out, not seen directly): In mice, brain cells shrink back, the gaps between them widen, and fluid washes through carrying off the day's waste. The flow is far stronger when you are asleep than it ever is when you are awake.
-check: What happens in your brain overnight?
+check: What did scientists see happening in the brains of sleeping mice?
 - New brain cells grow in and replace the tired ones
 + Fluid washes through and carries off the day's waste
 - Blood stops flowing and lets the brain rest completely
@@ -1277,7 +1277,7 @@ check: What stops when you whisper?
 - The movement of your lips
 + The buzz of your vocal flaps
 - The air coming out of your mouth
-hint: When you whisper, the buzzing stops dead but the words still come through fine.
+hint: Try the finger test on your throat and notice what you feel when you whisper.
 explain: Your vocal flaps hold still when you whisper, so there is no buzz.
 
 --- 🎺
@@ -1289,12 +1289,12 @@ check: What makes a voice sound lower?
 - Its flaps are smaller and lighter
 - Its flaps are closer together
 hint: Look at the fact box. It tells you that lower voices have slower slaps.
-explain: Slower slaps make a deeper sound, which is why a lower voice is lower.
+explain: The slower the flaps slap, the lower the sound.
 
 --- 📈
-p: During puberty, your vocal folds change a lot.
-fact: A boy's vocal folds can grow up to 60% longer and thicker. A girl's grow by about a third. Bigger, heavier flaps swing more slowly, so the voice drops.
-p: The cracking in a boy's voice is because the equipment changes size faster than the brain updates its aim.
+p: During puberty, your vocal flaps change a lot.
+fact: A boy's vocal flaps can grow up to 60% longer and thicker. A girl's grow by about a third. Bigger, heavier flaps swing more slowly, so the voice drops.
+p: The cracking in a boy's voice is probably because the equipment changes size faster than the brain can adjust its aim.
 check: Why does the voice drop in puberty?
 - The smaller, tighter flaps swing more slowly
 - The flaps move up and down much more quickly
@@ -1321,7 +1321,7 @@ check: Do we know why yawning is catching?
 + No, it is not settled
 - Yes, it sharpens attention
 - Yes, it cools the brain
-hint: Look at the Worked out fact box. It says none of the arguments have enough evidence to close the case.
+hint: Look at the Still argued fact box. It says none of the arguments have enough evidence to close the case.
 explain: Nobody has settled why yawning is catching. The reasons are still being argued about.
 
 --- 😂
@@ -1348,7 +1348,7 @@ explain: He shouted 'now' to reach 122.4 decibels.
 
 --- 🐷
 p: Have you ever had a case of hiccups that just wouldn't stop? One way to stop them is to make your diaphragm pull hard while you swallow.
-fact: A stiff straw built to force exactly that stopped hiccups in nearly 92% of the people who tried it.
+fact: A stiff straw built to force exactly that stopped hiccups for nearly 92% of the people who tried it in one survey of its users.
 p: An American farmer named Charles Osborne started hiccupping while trying to lift a hog. He did not stop for 68 years.
 check: How long did Charles Osborne hiccup?
 - 1 day
@@ -1358,7 +1358,7 @@ hint: Look at the last sentence on the page. It tells you how long he hiccupped.
 explain: Charles Osborne hiccupped for 68 years, which is the longest bout on record.
 
 --- 🗣️
-p: In Genesis, a man's first job involves using his voice.
-fact(The written account says): In Genesis, the first job handed to a man is naming the animals one at a time. Speech turns up very early in that account.
+p: In Genesis, one of a man's early jobs involves using his voice.
+fact(The written account says): In Genesis, after the man is put in the garden to work it and keep it, he is given the job of naming the animals one at a time. Speech turns up very early in that account.
 
 

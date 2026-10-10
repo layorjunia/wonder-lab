@@ -66,10 +66,12 @@ Object.assign(App, {
     const dailyDone = this.dailyDone();
     const poolOk = this.dailyPool().length >= 5;
     const accents = { pairs: ['#ff8a3d', '#d9602a'], bubbles: ['#35b6ff', '#1f86d6'],
-      whoami: ['#9a7bff', '#6c4fe0'], rank: ['#3ec956', '#229a3a'] };
+      whoami: ['#9a7bff', '#6c4fe0'], rank: ['#3ec956', '#229a3a'],
+      catch: ['#ffb02e', '#d98a10'], sling: ['#ff5a6e', '#c9304a'], slice: ['#ff7aa8', '#d04a78'],
+      sort: ['#2fe0b4', '#12a784'], hilo: ['#45b9ff', '#1b86d6'], spell: ['#a98bff', '#6c4fe0'] };
     const tiles = Object.entries(this.GAMES).map(([k, g]) => {
       const n = done.filter(l => this.gameKinds(l).includes(k)).length;
-      return `<button class="gtile ${n ? '' : 'locked'}" style="--t-acc:${accents[k][0]};--t-acc-d:${accents[k][1]}"
+      return `<button class="gtile ${n ? '' : 'locked'}" style="--t-acc:${(accents[k] || accents.pairs)[0]};--t-acc-d:${(accents[k] || accents.pairs)[1]}"
           onclick="App.hubPlay('${k}')">
         ${this.fx(g.glyph)}
         ${n ? `<span class="tag">${n} lesson${n === 1 ? '' : 's'}</span>` : `<span class="tag">${this.fx('🔒')}</span>`}

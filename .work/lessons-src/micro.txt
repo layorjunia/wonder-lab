@@ -27,7 +27,7 @@ explain: He found tiny things swimming, which he called animalcules.
 --- 🧮
 p: You are made of about 30 trillion cells. That is a lot, but nobody counted them all.
 fact(Worked out): The number comes from weighing organs and working out the typical size and weight of each kind of cell. Then someone did the math.
-p: In 2016, a correction was published that replaced an older figure which was several times too big. A number repeated in textbooks for decades turned out to have been a rough guess nobody had rechecked.
+p: In 2016, a careful recount of the bacteria in and on your body replaced an older figure that was several times too big. A number repeated in textbooks for decades turned out to have been a rough guess nobody had rechecked.
 check: How was the 30 trillion worked out?
 - By putting a body under a huge microscope and counting every last cell
 - By measuring the height of many people and guessing how many cells they have
@@ -37,9 +37,9 @@ explain: The number comes from weighing organs and figuring out the typical size
 
 --- 🧼
 p: Every cell is wrapped in a skin, just two molecules thick. It decides what gets in and out.
-fact: This skin is made of fat, which is why soap destroys germs and why your fingers wrinkle in the bath.
+fact: This skin is made of fat, which is why soap can break germs apart.
 try: Put a raw egg in vinegar for two days. The shell dissolves, and you are left with the membrane — a bare cell you can hold.
-check: Why does soap destroy germs?
+check: Why can soap break some germs apart?
 - Germs have thin skin made of salt that soap dissolves
 - Soap fills them with water until they burst open
 + Their skin is made of fat and soap breaks it up
@@ -73,7 +73,7 @@ p: From a slice of cork in 1665 to the thirty trillion cells in you, each one is
 p: Not bad for something nobody could see until someone ground a good lens.
 
 === micro-bacteria
-idea: A thousand bacteria fit across the head of a pin, and one can become over a thousand in ten hours. Find out why most of them are on your side.
+idea: A thousand bacteria fit across the head of a pin, and one can become over a thousand in under four hours. Find out why most of them are on your side.
 game: Bacterium = A single tiny living thing | Twenty minutes = How often a common gut bacterium splits | Yellowstone = Where the heat-proof microbe was found | Large intestine = Home to trillions of bacteria | Finish course = Stops tough bacteria from breeding
 
 --- 📏
@@ -89,7 +89,7 @@ explain: A thousand bacteria fit across the head of a pin, with some space still
 --- ✂️
 p: Bacteria multiply by splitting in two.
 term: bacterium = A single tiny living thing that splits into two to make more of itself.
-fact: In ideal conditions, a common gut bacterium can split every twenty minutes. That means one becomes eight in an hour and over a thousand in ten hours.
+fact: In ideal conditions, a common gut bacterium can split every twenty minutes. That means one becomes eight in an hour and more than a thousand in under four hours.
 check: If one bacterium splits every twenty minutes, how many will there be after an hour?
 - Four
 - Sixteen
@@ -130,17 +130,17 @@ explain: The number one to one means for every one of your cells, there is about
 --- 💊
 p: When you take antibiotics to fight bacteria, a few of those bacteria survive by chance.
 fact: Those surviving bacteria breed, and their offspring also survive the drug. This has been watched happening in laboratories and hospitals.
-p: That is why doctors insist you finish a course of antibiotics.
-check: Why should you finish a course of antibiotics?
+p: That is why doctors tell you to take antibiotics exactly the way they say, and only when you need them.
+check: Why should you take antibiotics exactly the way the doctor says?
 - To keep the pharmacy from running out of it
 + The few that survive breed and pass it on
 - Your body gets used to it and stops needing it
 hint: Look at the fact box. It explains what happens when you do not finish the course.
-explain: Finishing the course stops the surviving bacteria from breeding and passing on their drug-resistant traits.
+explain: Taking them the right way, and only when needed, gives the surviving bacteria less chance to breed and pass on their drug-resistant traits.
 
 --- 🦠
 p: A thousand across a pin. One becomes eight in an hour. A microbe from a hot pool in Yellowstone that helps with medical tests all over the world.
-p: Tiny, quick, and mostly on your side. And if you are ever given antibiotics, finish the course.
+p: Tiny, quick, and mostly on your side. And if you are ever given antibiotics, take them exactly the way the doctor says.
 
 === micro-virus
 idea: A virus does not eat, grow or copy itself, and nobody agrees whether it counts as alive. Find out why there is no cure for the common cold.
@@ -170,7 +170,7 @@ explain: People knew something was there because it could pass through filters d
 p: There is a virus that attacks bacteria, and it looks like a spacecraft. It has a head full of instructions and a straight body.
 term: bacteriophage = A virus that attacks bacteria, with a head full of instructions, a straight body, and spindly legs.
 fact: Spindly legs let it stand on the bacterium before it injects its contents. Photographs of it look invented, but they are real.
-p: There are thought to be more of these bacteriophages on Earth than any other kind of thing.
+p: There are thought to be more of these bacteriophages on Earth than any other kind of living or virus-like thing.
 
 --- 💊
 p: Antibiotics are great at fighting bacteria, but they do nothing to a virus. They attack machinery that bacteria have, and viruses don't.
@@ -178,7 +178,7 @@ fact: Taking antibiotics for a cold cannot help. In fact, it makes resistant bac
 check: Do antibiotics work on a cold?
 - Yes, they make you feel better quickly
 + No, they do nothing to a virus
-- They shorten the duration of the cold
+- Yes, they make the cold go away in a day
 hint: Antibiotics attack bacteria, not viruses.
 explain: Antibiotics do nothing to a virus, and taking them for a cold can make resistant bacteria more likely.
 
@@ -195,7 +195,7 @@ explain: Milkmaids who had cowpox did not get smallpox.
 
 --- 🤧
 p: You might think of a cold as one thing, but it is not.
-fact: More than two hundred different viruses produce the same set of symptoms we call a cold. Beat one virus and you still have to deal with the other one hundred and ninety-nine.
+fact: More than two hundred different viruses produce the same set of symptoms we call a cold. Beating one virus does not protect you from the other one hundred and ninety-nine.
 check: Why is there no cure for the common cold?
 - One tough virus hides deep inside the body
 + More than two hundred different viruses cause it
@@ -204,7 +204,7 @@ hint: Each virus causes similar symptoms, but there are many of them.
 explain: There are more than two hundred different viruses that can cause a cold.
 
 --- 🦠
-p: Smaller than any bacterium, borrowing everything from the cell it gets into, and nobody agrees on whether it counts as alive.
+p: Much smaller than a bacterium, borrowing everything from the cell it gets into, and nobody agrees on whether it counts as alive.
 p: No wonder there is no cure for the cold. There are two hundred viruses behind it, and antibiotics do nothing to any of them.
 
 === micro-fungi
@@ -234,9 +234,9 @@ hint: Mold spores are floating in the air of every room, waiting for something d
 explain: When you leave bread out, you are not catching mold — you are giving it a place to grow.
 
 --- 🧪
-p: In 1928, Alexander Fleming came back from holiday to find something interesting in his lab.
+p: In 1928, Alexander Fleming came back from vacation to find something interesting in his lab.
 fact: One of his dishes had gone moldy, and in a clear ring around the mold, the bacteria were dead.
-p: He noticed this instead of just washing it up. Turning that observation into a usable drug took another twelve years and a different team as well.
+p: He noticed this instead of just throwing it away. Turning that observation into a usable drug took another twelve years and a different team as well.
 check: What did Fleming notice about the dish with the mold?
 + The bacteria were dead in a ring around the mold
 - The mold was growing much faster than the bacteria were
@@ -246,7 +246,7 @@ explain: In the clear ring around the mold, the bacteria were dead.
 
 --- 🍄
 p: Fungi are not like plants at all. They have no chlorophyll and cannot make their own food.
-fact: Instead, they feed on things that are already dead or alive. Their walls are made of the same stuff as an insect's shell, which is closer to animals than to plants.
+fact: Instead, they feed on things that are already dead or alive. Their walls are made of chitin, the same stuff as an insect's shell, and not the cellulose that plant walls are made of.
 p: A mushroom is only the fruit. The organism itself is a mat of threads spread through the soil or wood.
 check: What part of the fungus is a mushroom?
 + Only the fruit
@@ -296,7 +296,7 @@ explain: The amoeba eats by flowing around food until it is completely surrounde
 
 --- 🌊
 p: Next, a swimmer covered in hair: the paramecium.
-fact: A paramecium is covered in thousands of tiny hairs that beat in waves, like a crowd doing a Mexican wave. It shoots through the water with this motion.
+fact: A paramecium is covered in thousands of tiny hairs that beat in waves, like a crowd doing the wave at a ball game. It shoots through the water with this motion.
 p: When it bumps into something, it reverses the beat of its hairs and backs up.
 check: How does a paramecium back up?
 - It uses its mouth to push backward
@@ -340,8 +340,8 @@ explain: A testate amoeba uses whatever is lying around to build its case.
 
 --- 🫙
 p: Any still water has a hidden world of tiny life.
-fact: Leave a jam jar of pond water on a windowsill for a week, and it will hold more than it did the day you collected it. You have just made a small pond with good light.
-try: Leave a jam jar of pond water on a windowsill for a week, then look at it again.
+fact: Leave a jar of pond water on a windowsill for a week, and it will hold more than it did the day you collected it. You have just made a small pond with good light.
+try: Leave a jar of pond water on a windowsill for a week, then look at it again.
 
 --- 🔍
 p: An amoeba that flows round its food. A paramecium that backs up by reversing its hairs. A ball of cells that rolls. A glass box with a lid. A case made of sand.
@@ -349,7 +349,7 @@ p: All of it in one jar of pond water.
 
 === micro-helpers
 idea: Microbes are everywhere and do a lot of work, from making yogurt to helping plants grow. Find out which vitamin gut bacteria make and how microbes help turn milk into yogurt.
-game: Nitrogen-fixing bacteria = Give clover fertilizer | Fungi and bacteria = Take apart every fallen leaf | Yoghurt bacteria = Sour milk under control | Sourdough starter = Mix of flour and water with wild yeast | Gut bacteria = Make vitamin K in your large intestine
+game: Nitrogen-fixing bacteria = Give clover fertilizer | Fungi and bacteria = Take apart every fallen leaf | Yogurt bacteria = Sour milk under control | Sourdough starter = Mix of flour and water with wild yeast | Gut bacteria = Make vitamin K in your large intestine
 
 --- 🌱
 p: Pull up a clover plant and take a close look at its roots. You will see little lumps all over them.
@@ -375,21 +375,21 @@ explain: Most soil microbes will not grow in a dish, so the count is likely lowe
 
 --- 🍂
 p: Think about every leaf that has ever fallen from a tree.
-fact: Fungi and bacteria have taken apart every one of those leaves. Without them, the ground would be meters deep in dead wood and leaves, and nothing new could grow.
+fact: Fungi and bacteria have taken apart every one of those leaves. Without them, the ground would be many feet deep in dead wood and leaves, and nothing new could grow.
 try: Bury a slice of apple and a piece of plastic in a pot of soil. Dig both up in a month to see what happens.
 check: What would happen without fungi and bacteria?
 - The leaves would all dry up and blow away and the soil would be bare
 + The ground would be deep in dead leaves and nothing new could grow
 - New trees would grow faster and the forests would be much bigger
 hint: The fact box says what the ground would look like without fungi and bacteria.
-explain: Without fungi and bacteria, the ground would be meters deep in dead leaves and nothing new could grow.
+explain: Without fungi and bacteria, the ground would be many feet deep in dead leaves and nothing new could grow.
 
 --- 🥛
-p: Yoghurt is milk that bacteria have soured under control.
+p: Yogurt is milk that bacteria have soured under control.
 fact: The bacteria turn the milk sugar into acid, which makes the milk proteins clump together and stops anything worse from growing.
-try: Warm milk to about 110°F, stir in two spoons of plain live yoghurt, wrap it up warm, and leave it overnight. In the morning, it will be yoghurt.
-check: What does the acid in yoghurt do?
-- It melts the milk fat and makes the yoghurt taste much sweeter
+try: Warm milk to about 110°F, stir in two spoons of plain live yogurt, wrap it up warm, and leave it overnight. In the morning, it will be yogurt.
+check: What does the acid in yogurt do?
+- It melts the milk fat and makes the yogurt taste much sweeter
 - It breaks the milk proteins down into sugar and makes it thin
 + It clumps the milk proteins and stops anything worse growing
 hint: The fact box explains what the acid does to the milk proteins.
@@ -417,7 +417,7 @@ hint: The page talks about a vitamin that helps your blood clot.
 explain: Gut bacteria make vitamin K, which is important for blood clotting.
 
 --- 🌿
-p: Lumps on clover roots. A teaspoon of soil crowded with life. Leaves taken apart, milk turned to yoghurt, dough that rises, and a gut that makes its own vitamin K.
+p: Lumps on clover roots. A teaspoon of soil crowded with life. Leaves taken apart, milk turned to yogurt, dough that rises, and a gut that makes its own vitamin K.
 p: Microbes do all of it, and nobody ever thanks them.
 
 === micro-scope
@@ -461,9 +461,9 @@ p: An electron microscope does not use light. Instead, it fires electrons, which
 term: electron microscope = A microscope that uses electrons instead of light to see tiny things.
 fact: The machine works in a vacuum, and everything has to be coated in metal first. This means nothing being looked at can be alive, so you can see a virus but never see it moving.
 check: What is the trade with an electron microscope?
-- You can see a virus but it is not colorful
+- You can see a virus but only if it is dripping wet
 - You can see a virus but it is not clear
-- You can see a virus but it is very expensive
+- You can see a virus but only the biggest kinds
 + You can see a virus but never see it moving
 hint: Look at the fact box. It says that everything has to be coated in metal and nothing can be alive.
 explain: You get to see a virus, but you never get to see it moving because nothing seen is alive.
@@ -528,11 +528,11 @@ check: Why do we wash our hands for about twenty seconds?
 - Soap needs that long to kill every last germ on your skin
 - Because it takes that long for the water to get hot enough
 hint: Look at the fact box. It explains why scrubbing takes that long.
-explain: Twenty seconds gives the soap enough time to work and lift everything off your skin, especially in tricky spots like under your nails and between your fingers.
+explain: Twenty seconds is about how long careful scrubbing takes to lift everything off your skin, especially in tricky spots like under your nails and between your fingers.
 
 --- 🌡️
 p: Have you ever felt really warm with a fever? That is your body doing something very smart.
-fact: A fever is not something germs do to you. Your own body turns up the temperature because most things that can make you sick grow worse when it gets hotter.
+fact: A fever is not something germs do to you. Your own body turns up the temperature because most germs that can make you sick do not grow as well when it gets hotter.
 p: This is why a mild fever is usually left alone. It is a weapon being used, not damage being done.
 check: Who turns the temperature up in a fever?
 - The germs making you sick

@@ -153,10 +153,13 @@ Object.assign(App, {
         <span class="node-label">${l.title}</span>
       </button>`;
     }).join('');
-    const medal = `<button class="node medal ${earned ? 'earned' : ''}" style="left:${medalX}%;top:${medalY}px"
+    const bossIcon = (typeof BOSS_ICON !== 'undefined' && BOSS_ICON[course.id]) || '👾';
+    const bossUp = !earned && this.bossReady && this.bossReady(course.id);
+    const medal = `<button class="node medal ${earned ? 'earned' : ''} ${bossUp ? 'ready' : ''}" style="left:${medalX}%;top:${medalY}px"
         onclick="App.medalTap('${course.id}')">
-      <span class="node-disc">${this.fx('🏅')}</span>
-      <span class="node-label">${course.name} medal</span></button>`;
+      ${bossUp ? '<span class="node-bubble">Boss battle!</span>' : ''}
+      <span class="node-disc">${this.fx(earned ? '🏅' : bossIcon)}</span>
+      <span class="node-label">${earned ? course.name + ' medal' : (this.bossName ? this.bossName(course.id) : 'Boss')}</span></button>`;
     let pip = '';
     if (nextIdx >= 0) {
       const x = xs[nextIdx], right = x < 60;
@@ -651,12 +654,19 @@ Object.assign(App, {
       <div class="qz-fb-in">
         <span class="fb-pip">${this.pip(ok ? 'happy cheer' : 'oops')}</span>
         <div class="qz-fb-t"><b>${head}</b>
-          <p>${ok ? (q.explain || '') : `${this.PHR.answerIs} ${opts[q.answer]}. ${q.explain || ''}`}</p></div>
+          <p>${ok || this.explainLeadsWith(q, opts[q.answer]) ? (q.explain || '') : `${this.PHR.answerIs} ${opts[q.answer]}. ${q.explain || ''}`}</p></div>
         <button class="cta" onclick="App.lessonQuizContinue()">${s.quizIdx === s.quiz.length - 1 ? 'See how you did' : 'Continue'}</button>
       </div>`;
     requestAnimationFrame(() => bar.classList.add('up'));
-    if (s.L.quiz) this.speakNow(ok ? [head, q.explain]
+    if (s.L.quiz) this.speakNow(ok || this.explainLeadsWith(q, opts[q.answer]) ? [head, q.explain]
       : [head, this.PHR.answerIs, opts[q.answer], q.explain]);
+  },
+
+  // when the explanation already opens with the answer, saying "The right answer is X. X. ..." is a stutter
+  explainLeadsWith(q, opt) {
+    const norm = t => String(t || '').toLowerCase().replace(/[^a-z0-9 ]/g, '').trim();
+    const e = norm(q.explain), o = norm(opt);
+    return !!o && e.startsWith(o.slice(0, Math.max(6, Math.min(o.length, 24))));
   },
 
   lessonQuizContinue() {
@@ -686,15 +696,10 @@ Object.assign(App, {
       quizRight: s.quizRight, quizTotal: s.quiz.length, at: Store.dayKey(), g: s.gameKind };
     Progress.p.xp = (Progress.p.xp || 0) + xpGain;
 
-    // World medal: every lesson in the course done once.
+    // The world medal is won by beating the world's boss (js/games2.js).
     let medal = false;
     Progress.p.medals = Progress.p.medals || {};
-    if (!Progress.p.medals[L.course]) {
-      const all = this.lessonsFor(L.course);
-      if (all.every(x => (Progress.p.lessons[x.id] || {}).stars > 0)) {
-        Progress.p.medals[L.course] = true; medal = true; Progress.p.xp += 50;
-      }
-    }
+    const bossNow = !Progress.p.medals[L.course] && this.bossReady && this.bossReady(L.course);
     // The Discovery Card: one per lesson, gold-foil once earned at three stars.
     let card = null;
     if (L.idea) {
@@ -738,7 +743,7 @@ Object.assign(App, {
           <div style="flex:1"><small>Level ${after.level}</small>
             <span class="lv-bar"><i id="rsLv" style="width:${Math.round(before.frac * 100)}%"></i></span></div></div>
         ${lvUp ? `<div class="rs-levelup">${this.fx('🎉')} ${this.PHR.levelUp} You are level ${after.level}</div>` : ''}
-        ${medal ? `<div class="rs-levelup">${this.fx('🏅')} ${this.PHR.medal}</div>` : ''}
+        ${bossNow ? `<div class="rs-levelup">${this.fx('⚔️')} The ${course.name} boss is waiting on the map!</div>` : ''}
         ${card ? `<div class="dcard-wrap">${this.dcardHTML(L, course, card.foil, true, true)}
           <div class="dcard-note">${card.upgraded ? this.PHR.cardGold
             : card.isNew ? this.PHR.cardNew : this.PHR.cardHave}${

@@ -98,7 +98,7 @@ hint: Look at the first sentence in the fact box.
 explain: George Smith made out the flood lines on the tablet and got very excited.
 
 --- 🌍
-p: Flood stories turn up in the written traditions of peoples all over the world.
+p: Flood stories turn up among peoples all over the world.
 fact(Worked out, not seen directly): Many of those peoples had no contact with each other. The list includes Babylon, Greece, India, China, and people across the Americas and the Pacific.
 p: What this means is argued about. Some say it points back to one real event remembered everywhere; others say big floods happen everywhere and so do stories about them.
 check: What is true of the peoples who have flood accounts?
@@ -116,13 +116,13 @@ check: What was the tower of Babel built of?
 - Stone blocks
 + Brick and tar
 - Wooden planks
-hint: Look at the first fact on the page to see what materials are mentioned.
+hint: Look at the second paragraph. It says what the tower was made of.
 explain: The tower was made of brick and tar because southern Iraq has almost no building stone.
 
 --- 🗣️
 p: Languages are like big families. Some languages share so many words that they are grouped together.
 term: language family = A group of languages that share a lot of words and patterns.
-fact: English, Greek, Hindi, and Farsi share words and endings, making them one family. Hebrew and Arabic form another separate family.
+fact: English, Greek, Hindi, and Farsi share words and endings, making them one family. Hebrew and Arabic form another separate family. Nobody has been able to show that these families, and the many others, all trace back to one root language.
 check: Has anyone linked all the language families to one root?
 + No
 - Yes, Latin
@@ -140,8 +140,8 @@ game: Great Pyramid = Sides differ by less than 8 inches | Rosetta Stone = Key t
 
 --- 🔺
 p: The Great Pyramid is a giant stone building, and the surprise is not how big it is but how exact.
-fact(Astonishing precision): The base covers 13 acres, and its four sides differ in length by less than 8 inches. The ground it sits on was levelled to within about an inch across the whole area.
-p: It was built 455 feet high, but it has lost about 26 feet off the top over time.
+fact(How exact it is): The base covers 13 acres, and its four sides differ in length by less than 8 inches. The ground it sits on was leveled to within about an inch across the whole area.
+p: It was built about 481 feet high, but it has lost about 26 feet off the top over time, so it stands about 455 feet today.
 check: How much do the four sides of the Great Pyramid differ in length?
 - More than 80 inches
 + Less than 8 inches
@@ -162,11 +162,11 @@ explain: The figure comes from the outside volume divided by the average block s
 --- 📅
 p: You may wonder how we decide when the Great Pyramid was built.
 fact(Worked out, not directly seen): Most books say about 2560 BC. This date comes from Egyptian king-lists copied centuries later and lined up with carbon dates from mortar samples.
-p: Interestingly, nothing on the pyramid itself gives a year. The date is worked out, not read off any stone.
+p: Nothing on the pyramid gives its date in our calendar. The workers' marks name the king, but the year in BC is worked out, not read off any stone.
 check: Does the Great Pyramid itself give its date?
 + No, nothing on it gives a year
 - Yes, it has a plaque inside
-- It's written in hieroglyphs on a wall
+- A date in BC is carved over the door
 hint: Look at the fact box and see how the date was determined.
 explain: The pyramid does not have any markings that give a specific year. The date is worked out from other sources.
 
@@ -255,10 +255,10 @@ fact: One side shows a feast, and the other side shows wagons with four solid wh
 p: It came out of a royal tomb dug up by Leonard Woolley in the 1920s. Today it is in the British Museum. Nobody knows what it was used for.
 
 --- ⚙️
-p: The earliest wheels that survive are not on carts at all.
+p: Some of the earliest wheels we know of were not on carts at all.
 fact: They are potter's wheels — flat discs spun to shape clay. Wheels for carrying things show up later, made of three planks pegged together into a solid disc.
 p: A solid wooden wheel is enormously heavy. Spoked wheels came much later and changed everything.
-check: What were the earliest wheels used for?
+check: What were some of the earliest wheels used for?
 + Shaping clay into pots
 - Carrying heavy loads
 - Pulling wagons
@@ -419,12 +419,12 @@ idea: Roman concrete gets stronger in seawater, and one dome has stood open to t
 game: Roman concrete = Gets stronger with seawater | Pantheon dome = Largest unreinforced concrete dome | Nîmes aqueduct = Drops only one inch in 250 feet | Vesuvius = Buried Pompeii with hardened ash | Colosseum = Held about 50,000 people | House = Short blunt older English word
 
 --- 🏗️
-p: Have you ever wondered why some old buildings are still standing strong after all these years? Roman concrete harbors are a perfect example. They are still standing in seawater, which modern concrete cannot do.
+p: Have you ever wondered why some old buildings are still standing strong after all these years? Roman concrete harbors are a perfect example. They are still standing in seawater, where modern concrete often wears out within a few decades.
 fact: The Romans mixed volcanic ash into their concrete. Seawater reacts with the ash and grows new crystals inside the concrete, making it stronger instead of letting it crumble.
 check: What did the Romans mix into their concrete?
-- Sand
+- Iron filings
 + Volcanic ash
-- Gravel
+- Crushed glass
 hint: Look at the fact box. It tells you what they mixed in.
 explain: The volcanic ash reacts with seawater to grow new crystals inside the concrete, making it stronger over time.
 
@@ -441,19 +441,19 @@ explain: The dome has a 27-foot hole in the middle, and rain still comes through
 
 --- 💧
 p: The aqueduct that brought water to Nîmes runs about 31 miles.
-fact: It drops only 41 feet over that whole distance, which is a slope of roughly one inch in every 250 feet.
+fact: It drops only about 55 feet over that whole distance, which is a slope of roughly one inch in every 250 feet.
 p: They surveyed it with water levels and sighting rods. Too steep and the water tears the channel apart; too flat and it stops.
 check: How steep is the Nîmes aqueduct?
 + About one inch in every 250 feet
 - About one foot in every 100 feet
 - About one inch in every 10 feet
 hint: Look at the fact box. It gives you the exact slope.
-explain: The aqueduct drops only 41 feet over 31 miles, so it is about one inch in every 250 feet.
+explain: The aqueduct drops only about 55 feet over 31 miles, so it is about one inch in every 250 feet.
 
 --- 🌋
 p: When Vesuvius buried Pompeii, bodies left holes in the hardened ash as they decayed.
 fact: In 1863 an excavator started pouring plaster into those holes before digging them out. What comes out is the shape of a person in their last moment.
-p: Pliny the Younger watched the eruption from across the bay as a teenager and wrote two letters describing it. His account matches the ash layers exactly.
+p: Pliny the Younger watched the eruption from across the bay as a teenager and wrote two letters describing it. His account fits the ash layers closely.
 check: How were the body shapes made?
 - Stone carved by artists who copied the people they saw
 - Wax pressed over each body as soon as it was found

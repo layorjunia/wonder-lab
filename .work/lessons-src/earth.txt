@@ -9,7 +9,7 @@ game: P wave = The push-pull wave that arrives first | S wave = The sideways wav
 
 --- 🌍
 p: Stand still for a moment. It feels like you are not moving at all. But Earth's surface is cracked into giant slabs called plates, and they creep along at about the speed your fingernails grow.
-fact(How we know): Nobody has watched a plate move. But GPS receivers are bolted to bedrock all over the world, and each one reports its own position. Year after year, those positions keep changing by exactly those small amounts.
+fact(How we know): Nobody has watched a plate move. But GPS receivers are bolted to bedrock all over the world, and each one reports its own position. Year after year, those positions shift by a few inches.
 try: Draw a line on paper 4 inches long. That is about as far as the quickest plates travel in a whole year. The slowest move about one inch.
 check: What shows us that the plates are moving?
 - Cameras that film the ground all year
@@ -31,7 +31,7 @@ explain: Around 13 a year. Magnitude 6 is about 135, and 8 or stronger is about 
 
 --- 🔟
 p: Here is the surprise about magnitude. The numbers do not climb like a ruler.
-fact: Every whole step up the scale means the ground shakes ten times as far, and about 32 times as much energy comes out.
+fact: Every whole step up the scale means the shaking is ten times bigger, and about 32 times as much energy comes out.
 p: So a magnitude 7 is not a little worse than a 6. It would take roughly 32 sixes to add up to one seven.
 check: About how many magnitude 6 earthquakes would it take to match the energy of one magnitude 7?
 - About 10
@@ -95,7 +95,7 @@ explain: S waves cannot pass through liquid, and they vanish partway down. It is
 
 --- 🏗️
 p: People do not just measure earthquakes. They build to survive them.
-fact: Some buildings do not sit on the ground at all. They sit on thick pads of rubber layered with steel and lead. When the ground jerks sideways, the pads squash and shear, and the building above lags behind, moving far less than the dirt under it.
+fact: Some buildings do not sit on the ground at all. They sit on thick pads of rubber layered with steel and lead. When the ground jerks sideways, the pads squash and bend sideways, and the building above lags behind, moving far less than the dirt under it.
 p: Hospitals, museums and emergency centers are built this way in Japan, New Zealand and California.
 
 --- 📜
@@ -129,30 +129,30 @@ explain: Granite is a mixture. You are looking at several minerals, each with it
 
 --- 🧂
 p: Here is a mineral you have probably already eaten today.
-term: halite = The proper name for table salt. It is the one rock that people eat on purpose.
+term: halite = The proper name for table salt. It is a rock that people eat every day.
 fact: Halite always breaks along the same three directions, so its grains come apart into tiny cubes.
 try: Tip a little salt onto dark paper and look closely. The cubes are right there.
 
 --- ✋
 p: How do you tell one mineral from another? You find out what scratches what.
 fact(The hardness scale): A mineral's hardness is really a list of what it can scratch. Talc, number 1, gives way to a fingernail. Quartz, number 7, cuts glass. Diamond sits at 10, and the only thing that reliably scratches a diamond is another diamond.
-try: Your fingernail is about 2.5 on the scale, and a copper coin is about 3. A rock your nail marks is softer than calcite. A rock that shrugs off a steel key is harder than about 5.5.
-check: A rock shrugs off a steel key. What do you know about it?
+try: Your fingernail is about 2.5 on the scale, and a copper coin is about 3. A rock your nail marks is softer than calcite. A rock that shrugs off a steel nail is harder than about 5.5.
+check: A rock shrugs off a steel nail. What do you know about it?
 - It is softer than your fingernail
 + It is harder than about 5.5
 - It must be a diamond
-hint: Look at the try it box. The steel key sits at about 5.5.
-explain: It is harder than about 5.5. That is all the test says, which is why geologists carry a key.
+hint: Look at the try it box. The steel nail sits at about 5.5.
+explain: It is harder than about 5.5. That is all this test tells you. It does not say which mineral it is.
 
 --- 📏
 p: The scale is named for Friedrich Mohs, a German mineral expert. In 1812 he lined up ten minerals in the order of which scratched which. He never measured a force or built a machine. He just made a ranking, and it is still in every geology kit.
-fact(Not a ruler): The scale looks like a ruler, but it is not one. Corundum is 9 and diamond is 10, one step apart. Yet measured properly with a hard point, diamond resists about five times better than corundum.
+fact(Not a ruler): The scale looks like a ruler, but it is not one. Corundum, a very hard mineral, is 9 and diamond is 10, one step apart. Yet measured properly with a hard point, diamond resists about four times better than corundum.
 check: Corundum is 9 and diamond is 10. How much harder is diamond, really?
 - Exactly one step harder
 - Just a tiny bit harder
-+ About five times harder
++ About four times harder
 hint: The numbers are only an order of finish, not a measurement.
-explain: About five times better at resisting a hard point. The gaps between the ten steps are all different sizes.
+explain: About four times better at resisting a hard point. The gaps between the ten steps are all different sizes.
 
 --- 💎
 p: Now a magic trick. Ruby and sapphire are the same mineral.
@@ -161,7 +161,7 @@ fact: A trace of chromium turns it red, and it gets called ruby. Traces of iron 
 
 --- 🌋
 p: Volcanoes make rocks that do surprising things. Start with glass.
-fact: Obsidian is glass that a volcano made. The lava cooled so fast that its minerals never got to line up into crystals. With no grain to follow, a flake of obsidian can come to an edge a few nanometers across, thinner than the edge of a steel razor. People chipped it into knives and arrowheads.
+fact: Obsidian is glass that a volcano made. The lava cooled so fast that its minerals never got to line up into crystals. With no grain to follow, a flake of obsidian can come to an edge a few nanometers across. A nanometer is a billionth of a meter, and that edge is far thinner than a steel razor's. People chipped it into knives and arrowheads.
 check: Why can obsidian get such a sharp edge?
 - It is the hardest mineral there is
 + It has no crystal grain to follow
@@ -177,13 +177,13 @@ try: Drop a piece in a glass of water and it bobs. Leave it long enough, and wat
 --- 🕳️
 p: Now the biggest crystals anyone has ever found.
 fact(Naica, Mexico): Miners at Naica in Mexico broke into a chamber packed with clear gypsum beams. The largest measure about 37 feet (11 m) long and 13 feet (4 m) thick, and weigh roughly 55 tons. They are single crystals.
-p: The chamber sits near 136 degrees F (58 C), and the air is almost completely saturated with water. Even in cooled suits, people could only stay a few minutes at a time. In October 2015 the mine's pumps were switched off, and the water came back and covered the crystals again.
+p: The chamber sits near 136 degrees F (58 C), and the air is almost completely saturated with water. Even in cooled suits, people could only stay for a short time, well under an hour. In October 2015 the mine's pumps were switched off, and the water came back and covered the crystals again.
 check: How long could people stay inside the Naica crystal chamber, even in cooled suits?
 - A whole working day
-- About an hour
-+ Only a few minutes
+- Several hours
++ Well under an hour
 hint: The chamber sits near 136 degrees F, and the air is full of water.
-explain: Only a few minutes at a time. It was far too hot and wet to stay.
+explain: Well under an hour at a time. It was far too hot and wet to stay longer.
 
 --- 📜
 p: Genesis names minerals early. Describing the land of Havilah in chapter 2, it lists gold, bdellium and onyx stone.
@@ -191,11 +191,11 @@ fact: Onyx is banded quartz, number 7 on the hardness scale, and people still cu
 p: So the next time you pick up a rock, look closer. Grains, cubes, a pinch of chromium. There is a lot to read in one small stone.
 
 === earth-volcanoes
-idea: Two words sound the same, and one of them is a trap. Find out how anyone knows what is hiding under a volcano when nobody has ever looked.
+idea: Two words mean almost the same thing, and mixing them up is a trap. Find out how anyone knows what is hiding under a volcano when nobody has ever looked.
 game: Magma chamber = Worked out from earthquake waves | Plinian eruption = Named after Pliny the Younger's description | Ol Doinyo Lengai = Erupts coolest lava on Earth | Tambora = Caused the year without a summer | USGS = Keeps watch on volcanoes in the United States
 
 --- 🌋
-p: Two words that sound almost the same, and one of them is a trap: magma and lava.
+p: Two words that mean almost the same thing, and mixing them up is a trap: magma and lava.
 term: magma = The melted rock underground.
 term: lava = The melted rock once it comes out of the volcano.
 check: What is melted rock called once it comes out of the vent?
@@ -220,10 +220,10 @@ explain: Mauna Kea rises about 30,610 feet from the sea floor, making it taller 
 p: Films often get it wrong. Most lava flows creep along slower than you walk, and people stand next to them taking photographs.
 fact: The real killer is the pyroclastic flow: a ground-hugging cloud of hot ash and gas that comes down the slope faster than 50 mph (80 km/h).
 p: That is what reached Pompeii and Herculaneum. Volcanologists worry less about where the lava is going and more about whether the eruption column is about to collapse.
-check: Which one is the real killer?
+check: Which volcano hazard is the real killer?
 + The pyroclastic flow
 - The glowing lava river
-- The rising ash cloud
+- The small earthquakes before the eruption
 hint: Look at the fact box for a description of the killer.
 explain: The pyroclastic flow moves faster than 50 mph and can devastate everything in its path.
 
@@ -236,14 +236,14 @@ p: Some flows cannot be safely reached. Then they point calibrated thermal camer
 p: Most lava glows red hot, but one volcano spits out something much cooler.
 fact: Ol Doinyo Lengai in Tanzania erupts the coolest lava on Earth, about 930 to 1,110 degrees F (500 to 600 C). It is cool enough that it does not glow in daylight.
 p: This lava pours out looking like runny black oil. When rain hits it, the hardened flows turn chalk white.
-p: Most lava is made of silicate minerals. But Ol Doinyo Lengai's lava is made of sodium and potassium carbonates. That is why it is so runny and cool, and why water turns it white.
+p: Most lava is made of the same minerals as ordinary rock. Ol Doinyo Lengai's lava is made of sodium and potassium salts instead. That is why it is so runny and cool, and why water turns it white.
 
 --- 📜
 p: The eruption that buried Pompeii in AD 79 had an eyewitness. Pliny the Younger watched it from across the bay.
 term: Plinian = A type of eruption with a tall column punching straight up into the sky, named after Pliny the Younger's description.
 fact: Pliny the Younger wrote two letters to historian Tacitus describing a cloud shaped like an umbrella pine. It had a tall trunk with branches spreading at the top.
 check: What did Pliny say the cloud looked like?
-- A mushroom cloud
+- A tall wall of water
 - A volcanic cone
 + An umbrella pine
 hint: His description mentions a tall trunk with branches spreading at the top.
@@ -253,7 +253,7 @@ explain: Pliny described the cloud as looking like an umbrella pine.
 p: Krakatoa exploded on the morning of 27 August 1883.
 fact: People 3,000 miles away on Rodrigues Island heard a distant roar that sounded like heavy guns. Perth, Australia, heard it too, and it was 1,930 miles off.
 p: Barographs recorded something strange happening. These instruments scratch a line of air pressure onto paper. The lines showed the pressure wave passing seven times over five days.
-p: It went out to the far side of the world and back, out and back, until it faded. Nobody knew yet that Krakatoa had erupted.
+p: It went out to the far side of the world and back, out and back, until it faded. One island's blast had been felt around the whole planet, more than once.
 
 --- 🥶
 p: Tambora in Indonesia erupted in April 1815 and blew about 4,200 feet off its own summit.
@@ -268,7 +268,7 @@ explain: They called it the year without a summer because there was frost in eve
 --- 📊
 p: How many volcanoes are out there? About 1,350 on land could erupt.
 fact: Of those, about 500 have actually erupted within written history. On a typical day, roughly 20 are erupting somewhere in the world.
-p: About 170 of those volcanoes sit in the United States and its territories. That is why the USGS keeps watch on them with volcano observatories in Hawaii, Alaska, California, and Yellowstone.
+p: About 160 of those volcanoes sit in the United States and its territories. That is why the USGS keeps watch on them with volcano observatories in Hawaii, Alaska, California, Washington, and Yellowstone.
 
 --- 🔍
 p: Here is the puzzle: nobody has ever looked into a magma chamber.
@@ -282,7 +282,7 @@ explain: Earthquake waves slow down in melted rock, and the ground swells before
 
 --- 📜
 p: Volcanoes throw things up out of the ground. So where does the written account put the water of the Flood?
-fact(The written account says): In Genesis 7, the fountains of the great deep were broken up first, and then the windows of heaven were opened. Water out of the ground came before water out of the sky.
+fact(The written account says): In Genesis 7, on the same day the fountains of the great deep were broken up and the windows of heaven were opened. The water out of the ground is named first.
 
 === earth-weather
 idea: Lightning heats the air five times hotter than the sun's surface. Find out how to measure the distance of a lightning strike by counting.
@@ -322,8 +322,8 @@ p: By the time it was measured, it had shrunk a little from sitting in a home fr
 
 --- 🧅
 p: Cut a big hailstone open and you find layers, like an onion.
-fact(Worked out): The old idea that each layer is from a trip up and down inside the storm is wrong. Nobody can follow a hailstone around inside a thundercloud.
-p: The layers form as the stone drifts through patches of different temperature and wetness. Clear layers mean it was collecting water fast enough for slow freezing, squeezing out air bubbles. Cloudy white layers mean it froze on contact and trapped the bubbles.
+fact(Worked out): The old idea was that each layer is one trip up and down inside the storm. That is only a guess. Nobody can follow a hailstone around inside a thundercloud.
+p: The layers form as the stone drifts through patches of different temperature and wetness. Clear layers mean water landed on the stone faster than it could freeze, so the water spread out and the air bubbles escaped. Cloudy white layers mean it froze on contact and trapped the bubbles.
 check: Why can we not say exactly how a hailstone grew?
 - Scientists have never found a hailstone that has layers
 - Hailstones are made on the ground, not in the clouds
@@ -364,10 +364,10 @@ explain: The coldest air was measured at Vostok station in Antarctica.
 
 --- 🌪️
 p: The fastest wind ever measured in a tornado was read by a radar mounted on a truck near Bridge Creek, Oklahoma.
-fact: On 3 May 1999, the first figure was about 301 mph (484 km/h). A careful re-check in 2021 raised it to 321 mph (517 km/h).
+fact: On 3 May 1999, the radar read about 301 mph (484 km/h), give or take about 20 mph.
 p: The radar was looking at wind a few hundred feet up, not at ground level. No weather instrument on the ground survives a tornado, so tornado strength is normally rated afterward from what the damage looks like.
 check: How is a tornado's strength normally rated?
-- By the speed of the winds inside
+- By a weather instrument left standing in its path
 - By how long it lasts
 + Afterward, from the damage
 hint: The page says ground instruments do not survive.
@@ -399,7 +399,7 @@ fact(Worked out): Rain picks up carbon dioxide from the air and soil, turns into
 term: limestone = A type of rock that forms in layers under water and can be eaten away by acid.
 check: What has nobody ever done with a cave?
 - Dived into one
-- Filled one with water
+- Drawn a map of one
 + Watched one form
 hint: The fact box talks about what nobody has witnessed directly.
 explain: Nobody has watched a cave actually form. We know the process, but we haven't seen it happen in real time.
@@ -426,7 +426,7 @@ hint: Look at the fact box for how the volunteers did it.
 explain: The volunteers from the Cave Research Foundation used tape measures and compasses to map every inch of the cave.
 
 --- ⬇️
-p: The deepest known cave is Veryovkina, in Georgia. Its floor sits 7,257 feet below its entrance.
+p: The deepest known cave is Veryovkina, in the country of Georgia, on the Black Sea coast. Its floor sits 7,257 feet below its entrance.
 fact: When it was first written up in 1968, explorers thought Veryovkina was only 377 feet deep. Now we know it goes well over a mile straight down.
 p: The entrance is just a hole about 10 feet by 13 feet in a mountainside. Reaching the bottom takes days, and expeditions have been chased back out by floodwater rising up the shafts.
 
@@ -453,7 +453,7 @@ explain: The bacteria eat hydrogen sulfide and methane, not sunlight.
 
 --- 🌋
 p: On 19 March 1982, Mount St. Helens erupted and melted snow in its crater.
-fact: Close to a billion gallons of water burst out and tore down the North Fork Toutle River valley, carving as it went. Geologists had surveyed lines across the channel weeks before. By 20 March, ten miles downstream, the riverbed had dropped an average of 9 feet overnight.
+fact: A huge flood of water burst out and tore down the North Fork Toutle River valley, carving as it went. Geologists had surveyed lines across the channel weeks before. By 20 March, ten miles downstream, the riverbed had dropped an average of 9 feet overnight.
 p: Nobody watched the Grand Canyon get cut. People watched this one happen.
 
 --- 🏜️
@@ -522,7 +522,7 @@ explain: Thick ice looks blue because the light travels far enough inside to soa
 
 --- 🐌
 p: Jakobshavn Glacier in Greenland moves over 150 feet a day in summer.
-fact: That is about an inch and a half every minute, so a stake driven into the ice shifts several feet while you eat lunch.
+fact: That is about an inch and a quarter every minute, so a stake driven into the ice shifts several feet while you eat lunch.
 p: It moves that fast because meltwater gets down to the bottom and the whole slab slides on it. Most glaciers are much slower, moving only a few inches a day.
 
 --- 🌲
@@ -550,7 +550,7 @@ explain: The ice drifts about 33 feet a year, so the marker needs to be moved to
 --- 🏔️
 p: The thickest ice in Antarctica is almost 3 miles deep. It sits in a place called the Astrolabe Subglacial Basin.
 fact: Across the whole continent, ice covers about 98 percent of Antarctica. Most maps of it are really maps of the lid.
-p: Under all that ice, there are mountain ranges and lakes that no one has ever seen. Radar can map them, but no one has actually been there.
+p: Under all that ice, there are mountain ranges and lakes that almost no one has ever seen. Radar can map them. Only a few of the lakes have ever been drilled into.
 p: The pressure and warmth from the rock keep some of these lakes liquid, even under miles of ice.
 
 --- 🧮
@@ -599,7 +599,7 @@ p: Australia has summer while Canada has winter at the same time. The planet is 
 check: What makes summer?
 + Earth's tilt
 - Earth getting closer to the sun
-- Longer days
+- The sun giving off more heat in summer
 hint: Look at the fact about Australia and Canada having different seasons.
 explain: Tilt makes the light hit at a steeper angle, squeezing it onto less ground and making it warmer.
 
@@ -652,7 +652,7 @@ fact: Most shooting stars are made by something between a grain of sand and a pe
 p: The grain is not burning up from rubbing against the air, which is what people usually think. Instead, it is the air itself that gets compressed and superheated in front of it. About 48 tons of that dust hits the atmosphere every single day.
 check: What makes a shooting star glow?
 - The grain rubbing against the air
-- The grain catching fire from friction
+- The grain being melted by sunlight
 + Air crushed and heated in front of it
 hint: Look at the fact box for what happens to the air.
 explain: It is the air in front of the grain that gets crushed and heated until it glows.
@@ -697,13 +697,13 @@ explain: Nearly 69 percent of fresh water is locked up as ice, making it not ava
 
 --- 🏞️
 p: All the rivers on Earth together hold just a tiny bit of water.
-fact: Every river put together holds about one ten-thousandth of one percent of the planet's water. Nearly all the water we drink, wash in, and grow food with comes from it because rain refills it faster than we use it up.
+fact: Every river put together holds only about one millionth of the planet's water. Even so, rivers supply a large share of the water we drink, wash in, and grow food with, because rain keeps refilling them.
 p: The Amazon River is a giant. It pours about 7.6 million cubic feet of fresh water into the Atlantic every second, which is roughly one fifth of all river water reaching the sea.
 check: How much of the river water reaching the sea comes from the Amazon?
 - About one third
 + About one fifth
 - About half
-hint: Look at the first number on the page. It shows the amount of water the Amazon pours into the Atlantic every second.
+hint: Look at the end of the sentence about the Amazon. It says what share of all river water the Amazon carries.
 explain: The Amazon pours about 7.6 million cubic feet of fresh water into the Atlantic each second, which is roughly one fifth of all river water reaching the sea.
 
 --- 🌙
@@ -740,7 +740,7 @@ explain: The spheres are strong enough to withstand the immense pressure at the 
 
 --- 🗺️
 p: We know a lot about the ocean, but surprisingly little about the sea floor.
-fact: The ocean covers about 70 percent of Earth, yet only around 29 percent of the sea floor has been mapped in detail with modern sonar. The moon has been mapped in finer detail than our own sea floor.
+fact: The ocean covers about 70 percent of Earth, yet only about a quarter of the sea floor has been mapped in detail with modern sonar. The moon has been mapped in finer detail than our own sea floor.
 p: Mapping is not the same as seeing. A camera or a person has looked at less than one thousandth of one percent of the deep sea floor, which is an area about the size of Rhode Island.
 
 --- 🧭
@@ -751,7 +751,7 @@ check: Which part of the trench story is measured?
 + How deep it is
 - How it got there
 - Where it will be in 10 years
-hint: The earthquakes line up, but their depth and location are measured.
+hint: Look at the first sentence of the fact box. It names the part that is measured.
 explain: We measure how deep a trench is. The pattern of earthquakes helps us work out how it formed.
 
 --- 📜

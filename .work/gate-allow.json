@@ -4,13 +4,66 @@
   "64"
  ],
  "america-founding": [
-  "1820"
+  "1820",
+  "Joseph",
+  "Priestley"
  ],
  "world-builders": [
   "20",
-  "6"
+  "6",
+  "500",
+  "Istanbul"
  ],
  "america-machines": [
-  "DONE"
+  "DONE",
+  "Washington"
+ ],
+ "america-frontier": [
+  "California"
+ ],
+ "astro-rocky": [
+  "Marble"
+ ],
+ "astro-smallstuff": [
+  "Itokawa"
+ ],
+ "astro-deepsky": [
+  "Bibles"
+ ],
+ "earth-volcanoes": [
+  "Washington"
+ ],
+ "physical-energy": [
+  "1.8"
+ ],
+ "physical-electric": [
+  "1982"
+ ],
+ "physical-matter": [
+  "20"
+ ],
+ "plants-crops-3": [
+  "England"
+ ],
+ "world-discovery": [
+  "London",
+  "Principia"
+ ],
+ "world-faroff": [
+  "Mali",
+  "Kingdom",
+  "Nigeria",
+  "British"
+ ],
+ "world-middle": [
+  "Halley's"
+ ],
+ "america-inventors": [
+  "Alexander",
+  "Graham"
+ ],
+ "body-hands": [
+  "John",
+  "Napier"
  ]
 }

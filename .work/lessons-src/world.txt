@@ -10,7 +10,7 @@ check: Can you see the Great Wall from space with the naked eye?
 + No, it blends in too much
 - Yes, it stands out clearly
 - Only at night when it is lit up
-hint: Look at the second sentence on the page. It tells you the truth about the Great Wall.
+hint: Look at the fact box. It tells you why the wall is hard to see.
 explain: The Great Wall blends in with the ground too much to be seen from space without a camera.
 
 --- 🧗
@@ -22,7 +22,7 @@ check: What holds the Machu Picchu stones together?
 - A sticky tree sap spread between each stone
 + Nothing but their exact fit, no mortar
 hint: Look at the fact box. It tells you what holds the stones together.
-explain: The blocks jostle and settle back into place during an earthquake because they fit so well together with nothing but their exact fit, no mortar.
+explain: Because the blocks fit so exactly, they jostle and settle back into place in an earthquake instead of breaking apart.
 
 --- 🏜️
 p: In Petra, the carvers did not build up, they carved down. They started at the top of a solid sandstone cliff and worked their way down.
@@ -36,9 +36,9 @@ hint: Look at the fact box. It explains where they started and what they cut awa
 explain: By starting at the top and cutting down, they always had a solid surface to stand on as they worked.
 
 --- 🕌
-p: In Hagia Sophia, the dome is like a crown with forty windows around its base.
+p: In Istanbul, the dome of Hagia Sophia is like a crown with forty windows around its base.
 fact: From below, the roof looks as though it is resting on a ring of light because there are forty windows around the base of the dome.
-p: The dome partly fell in earthquakes more than once and was rebuilt each time, higher and stronger.
+p: The dome partly fell in earthquakes more than once and was rebuilt each time. The first rebuilding, in the 500s, made it taller and stronger.
 check: How many windows ring the dome of Hagia Sophia?
 - Twenty
 + Forty
@@ -58,12 +58,12 @@ explain: The lasers fired through the forest canopy revealed streets and structu
 
 --- 🌷
 p: About a quarter of the Netherlands sits below sea level, but it stays dry.
-fact: Dikes and pumps keep the water out. The legal system for maintaining them is older than the country's parliament. Water boards were electing officials in the Middle Ages.
+fact: Dikes, long walls of earth, and pumps keep the water out. The legal system for maintaining them is older than the country's parliament. Water boards were electing officials in the Middle Ages.
 check: What keeps the low Netherlands dry?
 + Dikes and pumps, kept up by a very old legal system
 - Deep tunnels that carry the sea away under the ground
 - Tall cliffs and rocky hills along the whole coast
-hint: Look at the second sentence. It tells you what keeps it dry and how long the system has been around.
+hint: Look at the fact box. It tells you what keeps it dry and who looks after it.
 explain: Dikes and pumps are crucial, but an old legal system helps keep them maintained and working properly.
 
 --- 🏗️
@@ -99,7 +99,7 @@ explain: The weight of the air holds up the column of mercury in the barometer.
 
 --- ⌚
 p: John Harrison spent decades building a clock that could keep time at sea. The one that finally passed the tests is a watch about 5 inches (13 cm) across, and it is kept in Greenwich.
-fact: A clock that loses just a few seconds a day piles up miles of error on a long voyage. Every four seconds wrong is a mile out of position.
+fact: A clock that loses just a few seconds a day piles up miles of error on a long voyage. Sailors find how far east or west they are by comparing noon where they are with the time at home. Every four seconds wrong is a mile out of position.
 check: How far out of position is a clock four seconds wrong?
 - Half a mile
 + A mile
@@ -109,7 +109,7 @@ explain: Every four seconds wrong on a clock means a mile out of position.
 
 --- 🏷️
 p: Carl Linnaeus had an idea to make talking about living things easier.
-fact: He decided every living thing should have exactly two Latin names. One name is the group, and the other is the kind. That's why a wolf is Canis lupus everywhere on earth, no matter what language you speak.
+fact: He decided every living thing should have exactly two Latin names. One name is the group, and the other is the kind. That's why a wolf is Canis lupus everywhere on Earth, no matter what language you speak.
 check: Why does every living thing get two names?
 - The first name is for the male and the second is for the female, so no one mixes them up
 + One name is its group and the other is its kind, so everyone can say which one they mean
@@ -118,7 +118,7 @@ hint: Look at the fact box. It explains why two names are used.
 explain: The first name tells you the group, and the second name tells you the specific kind within that group.
 
 --- 🧪
-p: The Royal Society had a motto in Latin that means take nobody's word for it.
+p: The Royal Society, a group of scientists in London, had a motto in Latin that means take nobody's word for it.
 fact: They did experiments in front of witnesses and then published what happened, including times when things did not work out as planned.
 check: What did the Royal Society do with its experiments?
 + Did them in front of witnesses and published the results, failures too
@@ -128,7 +128,7 @@ hint: Look at the fact box. It explains how they made sure everyone knew what ha
 explain: They did not hide anything, even if things did not work out as expected.
 
 --- 📚
-p: Newton's great book took about eighteen months to write, all in Latin.
+p: Isaac Newton's great book, the Principia, took about eighteen months to write, all in Latin.
 fact: The Royal Society could not help pay for printing it. They had already spent their whole book budget on a history of fishes that nobody bought.
 p: A friend, Edmond Halley, paid to print the book out of his own pocket.
 check: Who paid to print Newton's book?
@@ -140,7 +140,7 @@ explain: Edmond Halley put up the money, not the Royal Society or Newton.
 
 --- 🔭
 p: A telescope that sees more. A tube of mercury to weigh the air. A watch that tells time on the move. Two names that mean something, and a motto in Latin.
-p: Ways to see everything differently.
+p: Each one came from looking closely, testing, and writing down what really happened.
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
 === world-faroff
@@ -148,8 +148,8 @@ idea: Librarians hid books in rice sacks. Then see how the Aztecs farmed on a la
 game: Timbuktu = Kept hundreds of thousands of manuscripts | Silk Road = A shifting web of routes | Himeji Castle = Made of wood and white plaster on a stone base | Aztecs = Farmed on lake plots held by willow roots | quipu = Knotted cords used to record information | Benin plaques = Made by melting out wax inside clay
 
 --- 📚
-p: Timbuktu was a university city full of knowledge. Families kept hundreds of thousands of handwritten manuscripts on astronomy, medicine, law, and mathematics.
-fact: When the city was threatened, librarians smuggled these precious books out in rice sacks and fishing boats.
+p: Timbuktu, in the African country of Mali, was a university city full of knowledge. Families kept hundreds of thousands of handwritten manuscripts on astronomy, medicine, law, and mathematics.
+fact: In 2012, when armed fighters took over the city, librarians smuggled these precious books out in rice sacks and fishing boats.
 check: How were the manuscripts saved?
 - Carried out under piles of firewood on wagons
 + Smuggled out in rice sacks and fishing boats
@@ -169,7 +169,7 @@ explain: Very few people traveled the entire length of the Silk Road. Goods and 
 
 --- 🏯
 p: Himeji Castle in Japan is made of wood and white plaster on top of a stone base.
-fact: Inside, it is a deliberate maze with narrow twisting passages, some dead ends, and steps of different heights. An attacker cannot move fast or safely.
+fact: Inside, it is a deliberate maze with narrow twisting passages, some dead ends, and steps of different heights, which are said to trip up anyone rushing. An attacker cannot move fast or safely.
 check: Why are the steps different heights?
 - So the builders could save stone on the way up
 - So the castle looks taller from the outside
@@ -193,15 +193,15 @@ term: quipu = A set of knotted cords used by the Inca to record information.
 fact: The color of the cord, the kind of knot, and its position all carried meaning. Numbers can be read from surviving quipu with confidence, but whether they also recorded words is not settled.
 check: What three things carried meaning in a quipu?
 + The color, the kind of knot, and its position
-- The shape of the cord, the size of the knot, and the material
-- The length of the cord, the number of knots, and the weight
+- The sound of the knots, the age of the weaver, and the weather
+- The smell of the cord, the day of the week, and the weight
 hint: Look at the fact box. It lists three specific things that carried meaning.
 explain: The color, the kind of knot, and its position all held information in a quipu.
 
 --- 🗿
-p: The bronze plaques and heads made in Benin started as wax packed inside clay.
+p: The bronze plaques and heads made in the old Kingdom of Benin, in what is now Nigeria, started as wax packed inside clay.
 fact: The wax was melted out, and then metal was poured into the empty space it left behind. Some are cast so thin that they show skill equal to the best European foundries of the time.
-p: Thousands of these pieces were taken in 1897 and ended up in museums across Europe and America. Many are now being returned.
+p: Thousands of these pieces were taken by British soldiers in 1897 and ended up in museums across Europe and America. Many are now being returned.
 check: What was melted out of the clay to make space for the metal?
 - The clay
 + The wax
@@ -211,16 +211,16 @@ explain: The wax was melted out, leaving a space for the metal to be poured in.
 
 --- 👑
 p: Rice sacks of books. A web of roads. A maze of wood. Bronze plaques and heads. Wax packed inside clay.
-p: Each one a clue to the life and art of far-off places.
+p: Each one shows how clever people solved a problem with what they had.
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
 === world-medicine
 idea: Surgery used to be done on awake patients. Then see how X-rays, antiseptic spray, insulin, a circular chart, and vaccines changed medicine.
-game: Ether = The dentist gave it to the patient | Röntgen = Found new rays from equipment | Lister = Sprayed carbolic acid over tables | Carbolic acid = Washed instruments in it too | Florence Nightingale = Invented a circular chart | Smallpox = Wiped out by fast case finding
+game: Ether = The dentist gave it to the patient | Röntgen = Found new rays from equipment | Lister = Sprayed carbolic acid over tables | Carbolic acid = Washed instruments in it too | Florence Nightingale = Used a circular chart | Smallpox = Wiped out by fast case finding
 
 --- 😴
 p: Before 1846, surgery was done on people who were awake and held down, so the surgeon had to work as fast as possible.
-fact: In October 1846, a dentist in Boston gave ether to a patient and the surgeon removed a tumor from his neck while he lay still. The surgeon said afterwards: gentlemen, this is no humbug.
+fact: In October 1846, a dentist in Boston gave ether to a patient and the surgeon removed a tumor from his neck while he lay still. The surgeon said afterwards: gentlemen, this is no humbug, which means no trick.
 check: What did the dentist give the patient?
 + Ether
 - Morphine
@@ -229,7 +229,7 @@ hint: Look at the second sentence on the page. It mentions what the dentist gave
 explain: The dentist gave ether to the patient so the surgery could be done while the patient was unconscious.
 
 --- 🩻
-p: In 1895, Wilhelm Röntgen found a new kind of ray coming from his equipment.
+p: In 1895, Wilhelm Röntgen found a new kind of ray coming from his equipment. He called them X-rays, because X means unknown.
 term: photographed = To make a picture using light or other rays.
 fact: He used it to take a picture of his wife's hand. The bones and her wedding ring showed up clearly.
 check: Whose hand did Röntgen photograph?
@@ -240,7 +240,7 @@ hint: Look at the second sentence on the page. It mentions whose hand was photog
 explain: Röntgen photographed his wife’s hand to show how the new rays worked.
 
 --- 🧴
-p: Joseph Lister read that souring was caused by living things in the air and wondered if wounds might go bad the same way.
+p: Joseph Lister read that souring, the way milk and wine go bad, was caused by tiny living things in the air. He wondered if wounds might go bad the same way.
 fact: He began spraying carbolic acid over the operating table and washing his instruments in it too. Deaths after surgery on his ward fell sharply.
 p: He published the numbers before and after to show how much safer his methods were.
 check: What did Lister spray over the operating table?
@@ -252,18 +252,18 @@ explain: Lister sprayed carbolic acid over the operating table to keep the livin
 
 --- 💉
 p: In 1921, a surgeon and a student spent their summer in a borrowed lab in Toronto.
-fact: They worked out how to take a substance from the pancreas that lowered blood sugar. It is called insulin. After tests on dogs, a purified version made from cattle pancreas was given to a fourteen-year-old boy who was dying of diabetes. He got better.
-p: Then they sold the patent for this life-saving discovery to the university for one dollar each.
+fact: They worked out how to take a substance from the pancreas that lowered blood sugar. It is called insulin. After tests on dogs, a purified version made from cattle pancreas was given to a fourteen-year-old boy. He was dying of diabetes, a sickness in which the body cannot control its blood sugar. He got better.
+p: Then they sold their patent, the legal right to be the only makers of insulin, to the university for one dollar each.
 check: How much did they sell the patent for?
 - Ten dollars
 - Free, no money at all
 + One dollar each
 hint: Look at the last sentence on the page. It gives the amount.
-explain: They sold the patent for one dollar each so that nobody could hold it hostage.
+explain: They sold the patent for one dollar each so that no company could keep insulin for itself.
 
 --- 📊
 p: Florence Nightingale's lasting weapon was not the lamp. It was a diagram.
-fact: She invented a circular chart that laid out deaths month by month. It showed that far more soldiers were dying of disease in the hospital than of wounds.
+fact: She made a circular chart that laid out deaths month by month. It showed that far more soldiers were dying of disease in the hospital than of wounds.
 p: She put this chart in front of people who could make changes to save lives.
 check: What was Florence Nightingale's lasting weapon?
 + A diagram, a circular chart
@@ -283,7 +283,7 @@ hint: Look at the second sentence of the fact box. It explains the method used.
 explain: The key was finding each case quickly and vaccinating those nearby to stop the spread.
 
 --- ⚕️
-p: Ether to ease pain. Rays to see bones. Spray to stop infection. A dog's gift of insulin. A circular chart. Smallpox wiped out.
+p: Ether to ease pain. Rays to see bones. Spray to stop infection. Insulin for diabetes. A circular chart. Smallpox wiped out.
 p: Six ways to help sick people, and each one a step in healing.
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
@@ -296,7 +296,7 @@ p: Castles had arrow slits that were narrow on the outside but opened wide on th
 fact: This shape lets an archer swing his aim across a whole field through a tiny gap that attackers can barely hit.
 try: If you ever visit a castle, put your arm through a slit and feel how it works.
 check: Why is the slit wide on the inside?
-- So the room gets more light and the guards get fresh air from outside
+- So guards can drop stones on climbers through it
 + The archer can swing his aim across a whole field through a tiny gap
 - So the stone around the gap stays strong and does not crack under attack
 hint: Look at the fact box. It explains why the inside is wide.
@@ -304,7 +304,7 @@ explain: The wide inside lets the archer move freely while the narrow outside ma
 
 --- ⛪
 p: The spire of Salisbury Cathedral soars 404 feet into the sky, but its foundations are only 4 feet deep in wet gravel.
-fact: It leans, it has been braced repeatedly, and there is a medieval iron rod inside that somebody added when they realized something was amiss. Yet, it has not fallen down.
+fact: It leans, it has been braced repeatedly, and there is a medieval iron rod inside that somebody added when they saw something was going wrong. Yet, it has not fallen down.
 check: How deep are the spire's foundations?
 - About 10 feet
 + Only 4 feet
@@ -313,7 +313,7 @@ hint: Look at the first sentence. It gives the exact depth.
 explain: The foundations are only 4 feet deep in wet gravel, but the spire still stands.
 
 --- 📜
-p: Before printing, every book was copied by hand. A monk in a scriptorium, the room where books were copied, worked in daylight only — no candles near the parchment.
+p: Before printing, every book was copied by hand. A monk worked in a scriptorium, the room where books were copied. He worked in daylight only, with no candles near the parchment, the animal-skin pages. One flame or drop of hot wax could ruin months of work.
 fact: A good copyist produced just a few pages a day. Copying a Bible could take years of work.
 check: Why did monks copy books in daylight only?
 + No candles were allowed near the parchment
@@ -347,7 +347,7 @@ explain: A masterpiece was the qualifying test piece that allowed someone to bec
 --- 🧵
 p: The Bayeux Tapestry is 230 feet long, and it is not a tapestry at all.
 fact: It is embroidery — wool thread stitched onto linen, in eight colors. You can walk beside it along the wall of a museum in Normandy.
-p: There is even a comet stitched into the sky on it, as seen by someone back then.
+p: There is even a comet stitched into the sky on it. It is Halley's Comet, which people saw in 1066.
 check: What is the Bayeux Tapestry really?
 + Embroidery, wool thread stitched onto linen
 - A tapestry woven with colorful threads
@@ -362,11 +362,11 @@ p: Each one shows how people lived and worked in the Middle Ages.
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
 === world-modern
 idea: The sun appears on both sides of the courtyard due to hours-long exposure. Then follow the Atlantic cable, a radio signal across the ocean, the shipping container, the first mouse, and satellite clocks.
-game: pewter plate = The material used for the first photograph | telegraph = Sends messages along a wire as electric signals | Marconi = Claimed to hear three dots across the Atlantic | 58 boxes = Number on the first container voyage | pine box = Material of the first computer mouse | satellite clocks = Corrected constantly because time runs slightly different up there
+game: pewter plate = The material used for the first photograph | telegraph = Sends messages along a wire as electric signals | Marconi = Claimed to hear three dots across the Atlantic | 58 boxes = Number on the first container voyage | wooden box = Material of the first computer mouse | satellite clocks = Corrected constantly because time runs slightly different up there
 
 --- 📷
-p: The world's first photograph is a view from an upstairs window in France, made on a pewter plate.
-fact: The exposure took hours, which is why the sun appears to be shining on both sides of the courtyard at once.
+p: The world's first photograph is a view from an upstairs window in France, made on a pewter plate, a flat sheet of soft gray metal.
+fact: The exposure, the time the plate sat soaking up light, took hours, which is why the sun appears to be shining on both sides of the courtyard at once.
 check: Why does the sun seem to shine on both sides in the first photograph?
 - The camera was broken
 + The exposure took hours
@@ -375,7 +375,7 @@ hint: Look at the fact box. It explains why the sun appears on both sides.
 explain: The long exposure time allowed the sun to move across the sky, capturing its light on both sides of the courtyard.
 
 --- 🌊
-p: The first attempt to lay a telegraph cable across the Atlantic worked for three weeks in 1858, sending messages just a few words an hour.
+p: The first telegraph cable laid across the Atlantic worked for about three weeks in 1858, sending messages just a few words an hour.
 term: telegraph = A machine that sends messages along a wire as short and long electric signals.
 fact: After those three weeks, it died. It took eight more years, a bigger ship called the Great Eastern, and a stronger cable to get a permanent one working.
 check: How long did the first Atlantic telegraph cable work?
@@ -387,16 +387,16 @@ explain: The first cable worked for only three weeks before it stopped functioni
 
 --- 📻
 p: In 1901, Marconi claimed to have heard three faint dots — the letter S — sent from Cornwall to Newfoundland.
-fact: Physicists said it was impossible because radio waves travel in straight lines and the Earth curves. He had no recording and no witnesses outside his own team.
+fact: Physicists said it was impossible because radio waves travel in straight lines and the Earth curves. He had no recording and no witnesses outside his own team. Later tests showed that radio waves can bounce off the upper air and travel far around the curve of the Earth.
 check: Why did physicists say it was impossible for Marconi to hear a message across the Atlantic?
 - The radio machines were too weak to send signals that far
 - Storms over the ocean would drown out any signal sent across it
-+ Radio waves travel in straight lines and the earth curves
++ Radio waves travel in straight lines and the Earth curves
 hint: Look at the second sentence on the page. It explains why physicists thought it was impossible.
 explain: Physicists said radio waves travel in straight lines, so they could not curve around the Earth to reach Newfoundland.
 
 --- 📦
-p: A steel box of fixed size can go straight from ship to truck to train without being unpacked. That cut the cost of moving goods across an ocean to a tiny fraction of what it was.
+p: A steel box of fixed size can go straight from ship to truck to train without being unpacked. That cut the cost of loading a ship from about $6 a ton to about 16 cents a ton.
 fact(First voyage): The first container voyage was in 1956, with 58 boxes on a converted tanker.
 check: How many boxes were on the first container voyage?
 - 28
@@ -406,19 +406,19 @@ hint: Look at the fact box. It gives the number of boxes on the first voyage.
 explain: The first container voyage in 1956 carried exactly 58 boxes.
 
 --- 🖱️
-p: The first computer mouse was not what you think it would be.
-fact: It was a pine box with two wheels underneath and one button, shown off in 1968. It got its name from the cord coming out of the back.
-p: The same demonstration also showed windows on a screen, video calls, and clickable links. But nobody could buy any of it for decades.
+p: The first computer mouse was not a small plastic shape with a ball underneath.
+fact: It was a small wooden box with two wheels underneath and a button on top, shown off in 1968. It got its name from the cord coming out of the back.
+p: The same demonstration also showed windows on a screen, video calls, and clickable links. But nobody could buy any of it for more than ten years.
 check: What was the first computer mouse made of?
 - A rubber ball
 - Plastic and metal
-+ A pine box
++ A wooden box
 hint: Look at the fact box. It tells you what the first mouse was made of.
-explain: The first mouse was a pine box with two wheels and one button.
+explain: The first mouse was a wooden box with two wheels and a button.
 
 --- 🛰️
 p: The satellites up in space that tell your phone where you are have clocks inside them.
-fact: Time runs at a very slightly different rate up there, so those clocks need to be corrected constantly. Left uncorrected, your position would drift by about 6 miles a day.
+fact: Time runs at a very slightly different rate up there, because the satellites move fast and are far from Earth's pull, so those clocks need to be corrected constantly. Left uncorrected, your position would drift by about 6 miles a day.
 check: What would happen if the satellite clocks were not corrected?
 + Your position would drift about 6 miles a day
 - Your location would drift about 20 feet a day
@@ -427,8 +427,8 @@ hint: Look at the fact box. It tells you how far your position would drift each 
 explain: Left uncorrected, the position would drift by about 6 miles a day.
 
 --- 💡
-p: Hours of light on a plate. A cable under the sea. Three dots heard across an ocean. A steel box. A pine mouse. Clocks in the satellites.
-p: All of it, working to make our world run.
+p: Hours of light on a plate. A cable under the sea. Three dots heard across an ocean. A steel box. A wooden mouse. Clocks in the satellites.
+
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
 === world-printing
@@ -437,7 +437,7 @@ game: Gutenberg's great Bible = Has 42 lines per column | Buddhist scroll = Foun
 
 --- 📖
 p: Gutenberg's great Bible has 42 lines to the column, and about 180 copies were made. Forty-nine survive today.
-fact: The pages are so evenly printed that for a long time people could not believe they were not written by hand. His real invention was a mold that let him cast thousands of identical metal letters quickly.
+fact: The pages are so even that many people at first took them for handwriting. His real invention was a mold. He poured melted metal into it to cast thousands of identical metal letters quickly.
 check: What was Gutenberg's real invention?
 - A machine that pressed whole pages onto paper
 + A mold for casting identical metal letters
@@ -459,7 +459,7 @@ explain: The scroll was discovered sealed in a cave in western China.
 --- 📄
 p: Paper was invented in China and took about a thousand years to reach Europe, traveling west along the Silk Road through Samarkand and Baghdad.
 fact: Before paper arrived in Europe, most books were written on animal skin. A single large book could take the hides of a whole flock.
-check: What did Europe write on before paper?
+check: What were most books written on before paper arrived in Europe?
 + Animal skin
 - Stone tablets
 - Wooden blocks
@@ -469,7 +469,7 @@ explain: Before paper, Europe wrote on animal skin, and a large book could use h
 --- 🖤
 p: Ordinary ink runs right off metal type, so printers needed something new.
 fact: Printers invented a sticky paint made of soot ground into boiled linseed oil. It was more like artists' paint than anything in an inkwell.
-try: Try writing on a spoon with a felt pen, then with a smear of oil paint. Only one stays put.
+try: Try writing on a metal spoon with a pen that has watery ink, then with a smear of oil paint. Only the paint stays put.
 check: What was printer's ink made of?
 - Colored clay mixed into thick tree sap
 + Soot ground into boiled linseed oil
@@ -494,11 +494,11 @@ check: Why is English spelling so strange?
 - It was made up by one king who liked unusual letters
 - It was decided by a vote of all the people in England
 + It was fixed in print while pronunciation was still changing
-hint: Look at the fact box. It explains how the spelling was set before the way words were said changed.
+hint: Look at the last sentence in the fact box. It says when the spelling was fixed.
 explain: The spelling was fixed in print just as the pronunciation was still moving, which is why English spelling can seem so strange now.
 
 --- 📚
-p: Cast letters. Carved blocks. Rag paper. Ink from soot. An old wine press for printing.
+p: Cast letters. Carved blocks. Paper from China. Ink from soot. An old wine press for printing.
 p: Each part helped change how words were spread.
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
@@ -507,7 +507,7 @@ idea: Ships set out to sail around the world, but only one returned. Find out wh
 game: Elcano = Finished the round-the-world voyage | swells = The big waves that move across the ocean | Zheng He = Brought a giraffe for the emperor | Vasa = Sank because she was too tall and too narrow | oranges and lemons = Cured scurvy in days | Marco Polo = Dictated his account in prison
 
 --- ⛵
-p: Five ships set out to sail around the world. Only one finished the trip around the world, and Ferdinand Magellan was not on it.
+p: Five ships set out to sail around the world. Only one ship finished the trip, and Ferdinand Magellan was not on it.
 fact: Magellan was killed in the Philippines. The man who finished the voyage was Juan Sebastián Elcano, and his coat of arms showed a globe with the words "you went round me first."
 check: How many ships finished the trip around the world?
 - Two
@@ -532,15 +532,15 @@ p: Chinese fleets under Zheng He sailed as far as East Africa and brought back s
 fact: One of those gifts was a giraffe for the emperor. The size of his largest ships is disputed, but a stone pillar lists where he went.
 check: What did Zheng He bring back for the emperor?
 + A giraffe
-- A lion
-- An elephant
+- A polar bear
+- A penguin
 hint: Look at the fact box.
 explain: One of the gifts brought back was a giraffe.
 
 --- ⚓
 p: The warship Vasa sank after sailing only about 4,000 feet on her first voyage in 1628, right in front of Stockholm.
 fact: She went down because she was too tall and too narrow.
-p: The cold Baltic water had no wood-eating shipworms, so it preserved her. In 1961, they raised her and put her in a museum built around her.
+p: The cold, barely salty Baltic water had no wood-eating shipworms, so it preserved her. In 1961, they raised her and put her in a museum built around her.
 check: Why did the Vasa sink?
 + She was too tall and too narrow
 - Her sails were torn by the wind
@@ -549,9 +549,9 @@ hint: Look at the fact box. It tells you why she sank.
 explain: She was too tall and too narrow, which made her unstable in the water.
 
 --- 🍊
-p: In 1747, a naval surgeon had an idea to test what might cure scurvy.
+p: In 1747, a naval surgeon had an idea to test what might cure scurvy, the deadly sickness sailors got after months at sea without fresh fruit.
 fact: He took twelve sick sailors, split them into six pairs, and gave each pair a different remedy. The two given oranges and lemons recovered within days.
-p: It was one of the first controlled trials ever done. But the navy took over forty years to act on it.
+p: It was one of the first fair tests of its kind: each pair got a different remedy, so the results could be compared. But the navy took over forty years to act on it.
 check: Which remedy worked?
 - Vinegar by the spoon
 + Oranges and lemons
@@ -561,16 +561,16 @@ explain: The pair given oranges and lemons recovered within days.
 
 --- 📕
 p: Marco Polo did not write his account of China down himself.
-fact: He dictated it to a romance writer he shared a prison cell with. That is one reason people have argued about it for centuries.
+fact: He dictated it to a writer of adventure tales he shared a prison cell with. That is one reason people have argued about it for centuries.
 p: He describes paper money accurately, something Europe had never seen before, and black stones that people burned as fuel.
 check: Who wrote down Marco Polo's account?
 - A royal scribe sent by the Pope to write it down
 - A priest he shared a long sea voyage with
-+ A romance writer he shared a prison cell with
++ A writer of adventure tales he shared a prison cell with
 hint: Look at the first sentence in the fact box. It names who wrote it down.
-explain: The romance writer took down what Marco Polo told him in prison.
+explain: The adventure writer took down what Marco Polo told him in prison.
 
 --- ⛵
-p: Ships lost at sea. Stars read like a map. A giraffe in a city. A warship sunk by the sea. Lemons helped sailors. A book dictated in a prison cell.
+p: Ships lost at sea. Stars read like a map. A giraffe in a city. A warship that sank on her first trip. Lemons helped sailors. A book dictated in a prison cell.
 p: All of it part of the voyages that reshaped how people saw the world.
 

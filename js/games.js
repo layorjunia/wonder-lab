@@ -122,6 +122,8 @@ Object.assign(App, {
   },
   gameExit() {
     const g = this._game;
+    if (this._sortCleanup) { this._sortCleanup(); this._sortCleanup = null; }
+    if (g && g._raf) cancelAnimationFrame(g._raf);
     if (g && g.ctx === 'hub') {
       const el = document.getElementById('lessonOverlay');
       if (el) el.remove();
@@ -183,6 +185,8 @@ Object.assign(App, {
     } else if (kind === 'rank') {
       g.items = this.rankRounds(species, ctx === 'hub' ? 3 : 2);
       g.total = g.items.length;
+    } else if (this.GAMEX && this.GAMEX[kind]) {
+      this.GAMEX[kind].build.call(this, g, lessons, ctx);
     }
     if (!g.total) return ctx === 'lesson' ? this.lessonStartQuiz() : this.go('games');
     this.gameRender();
@@ -190,6 +194,7 @@ Object.assign(App, {
 
   gameRender() {
     const g = this._game;
+    if (this.GAMEX && this.GAMEX[g.kind]) return this.GAMEX[g.kind].render.call(this);
     ({ pairs: () => this.gmPairs(), bubbles: () => this.gmBubbles(),
        whoami: () => this.gmWho(), rank: () => this.gmRank() })[g.kind]();
   },

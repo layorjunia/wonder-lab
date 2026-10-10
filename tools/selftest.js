@@ -56,7 +56,27 @@ window.SelfTest = {
             App.gameStart(kind, [L], 'lesson');
             const g = App._game;
             if (!g || !g.total) { mark(L, `${kind} produced no rounds`); continue; }
-            if (kind === 'pairs') {
+            if (kind === 'sort') {
+              g.items.forEach((it, k) => { App.gmSortPlace(k, 1 - it.bin); App.gmSortPlace(k, it.bin); });
+              if (g.placed !== g.total) mark(L, `sort placed ${g.placed}/${g.total}`);
+            } else if (kind === 'hilo') {
+              for (let n = 0; n < g.total; n++) {
+                const r = g.items[g.idx];
+                const better = r.more ? (r.a.stats[r.stat] > r.b.stats[r.stat] ? 0 : 1) : (r.a.stats[r.stat] < r.b.stats[r.stat] ? 0 : 1);
+                App.gmHiloPick(better); await tick(); await tick();
+              }
+            } else if (kind === 'spell') {
+              for (let n = 0; n < g.total; n++) {
+                let guard2 = 0;
+                while (g.slots.some(x => !x.fixed && !x.done) && guard2++ < 40) {
+                  const pos = g.slots.findIndex(x => !x.fixed && !x.done);
+                  const k = g.tiles.findIndex(t => !t.used && t.ch === g.slots[pos].ch);
+                  if (n === 0 && guard2 === 1) App.gmSpellTap(g.tiles.findIndex(t => !t.used && t.ch !== g.slots[pos].ch));
+                  App.gmSpellTap(k);
+                }
+                await tick(); await tick();
+              }
+            } else if (kind === 'pairs') {
               for (let n = 0; n < g.n; n++) {
                 const a = g.cards.findIndex(c => c.side === 0 && c.i === g.cards.filter(x => x.side === 0)[n].i);
                 const left = g.cards.findIndex((c, k) => c.side === 0 && !g.done[k]);
@@ -76,6 +96,12 @@ window.SelfTest = {
                   App.gmWhoTap(r.opts.findIndex(o => o.id === r.a.id));
                 } else if (kind === 'rank') {
                   r.order.forEach(a => App.gmRankTap(a.id));
+                } else if (kind === 'catch' || kind === 'sling' || kind === 'slice') {
+                  const pick = { catch: 'gmCatchPick', sling: 'gmSlingPick', slice: 'gmSlicePick' }[kind];
+                  await tick();                      // the round sets its pick handler after layout
+                  const wrong = r.opts.findIndex((_, i) => i !== r.ans);
+                  if (kind !== 'slice') App[pick](wrong);
+                  App[pick](r.ans);
                 }
                 await tick(); await tick();
                 if (App._game === g && g.idx === before) { mark(L, `${kind} stuck on round ${before + 1}`); break; }
@@ -154,12 +180,49 @@ SelfTest.hub = async function () {
         if (kind === 'bubbles') App.gmBubbleTap(r.opts.indexOf(r.name));
         if (kind === 'whoami') App.gmWhoTap(r.opts.findIndex(o => o.id === r.a.id));
         if (kind === 'rank') r.order.forEach(a => App.gmRankTap(a.id));
+        if (kind === 'catch' || kind === 'sling' || kind === 'slice') {
+          await tick();
+          App[{ catch: 'gmCatchPick', sling: 'gmSlingPick', slice: 'gmSlicePick' }[kind]](r.ans);
+        }
+        if (kind === 'hilo') {
+          const better = r.more ? (r.a.stats[r.stat] > r.b.stats[r.stat] ? 0 : 1) : (r.a.stats[r.stat] < r.b.stats[r.stat] ? 0 : 1);
+          App.gmHiloPick(better);
+        }
+        if (kind === 'spell') {
+          let guard2 = 0;
+          while (g.slots.some(x => !x.fixed && !x.done) && guard2++ < 40) {
+            const pos = g.slots.findIndex(x => !x.fixed && !x.done);
+            App.gmSpellTap(g.tiles.findIndex(t => !t.used && t.ch === g.slots[pos].ch));
+          }
+        }
+        if (kind === 'sort') {
+          g.items.forEach((it, k) => App.gmSortPlace(k, it.bin));
+          await tick(); await tick();
+          break;
+        }
         await tick(); await tick();
         if (App._game === g && g.idx === before) { problems.push(`${kind}: stuck on round ${before + 1}`); break; }
       }
       await tick(); await tick();
       if (!document.querySelector('#lessonOverlay .rs')) problems.push(`${kind}: no hub result screen`);
       App.gameExit(); await tick();
+    }
+    // a boss battle (all earth lessons marked done so it is ready)
+    LESSONS.filter(l => l.course === 'earth').forEach(l => { Progress.p.lessons[l.id] = { stars: 3 }; });
+    if (!App.bossReady('earth')) problems.push('boss not ready for earth');
+    App.medalTap('earth'); await tick();
+    const bg = App._game;
+    if (!bg || bg.kind !== 'boss') problems.push('boss did not start');
+    else {
+      let guard = 0;
+      while (App._game === bg && bg.hp > 0 && bg.hearts > 0 && guard++ < 14) {
+        const r = bg.items[bg.idx];
+        App.gmBossPick(r.ans); await tick(); await tick();
+      }
+      await tick(); await tick();
+      if (!document.querySelector('#lessonOverlay .rs-medal')) problems.push('boss: no victory screen');
+      if (!(Progress.p.medals || {}).earth) problems.push('boss: medal not awarded');
+      App.bossQuit();
     }
     // daily challenge
     App.dailyStart(); await tick();
