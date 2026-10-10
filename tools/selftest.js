@@ -56,7 +56,15 @@ window.SelfTest = {
             App.gameStart(kind, [L], 'lesson');
             const g = App._game;
             if (!g || !g.total) { mark(L, `${kind} produced no rounds`); continue; }
-            if (kind === 'sort') {
+            if (kind === 'tapgroup') {
+              g.items.filter(a => a.group !== g.group).slice(0, 1).forEach(a => App.gmTapGroupPick(a.id));
+              g.good.forEach(a => App.gmTapGroupPick(a.id));
+              if (g.found !== g.need) mark(L, `tapgroup found ${g.found}/${g.need}`);
+            } else if (kind === 'catchpic') {
+              App.gmCatchPicPick(false);
+              for (let n = 0; n < g.need; n++) App.gmCatchPicPick(true);
+              if (g.found !== g.need) mark(L, `catchpic found ${g.found}/${g.need}`);
+            } else if (kind === 'sort') {
               g.items.forEach((it, k) => { App.gmSortPlace(k, 1 - it.bin); App.gmSortPlace(k, it.bin); });
               if (g.placed !== g.total) mark(L, `sort placed ${g.placed}/${g.total}`);
             } else if (kind === 'hilo') {
@@ -65,9 +73,6 @@ window.SelfTest = {
                 const better = r.more ? (r.a.stats[r.stat] > r.b.stats[r.stat] ? 0 : 1) : (r.a.stats[r.stat] < r.b.stats[r.stat] ? 0 : 1);
                 App.gmHiloPick(better); await tick(); await tick();
               }
-            } else if (kind === 'drag') {
-              g.items.forEach((_, k) => { App.gmDragPlace(k, (k + 1) % g.total); App.gmDragPlace(k, k); });
-              if (g.placed !== g.total) mark(L, `drag placed ${g.placed}/${g.total}`);
             } else if (kind === 'pairs') {
               for (let n = 0; n < g.n; n++) {
                 const a = g.cards.findIndex(c => c.side === 0 && c.i === g.cards.filter(x => x.side === 0)[n].i);
@@ -88,12 +93,13 @@ window.SelfTest = {
                   App.gmWhoTap(r.opts.findIndex(o => o.id === r.a.id));
                 } else if (kind === 'rank') {
                   r.order.forEach(a => App.gmRankTap(a.id));
-                } else if (kind === 'catch' || kind === 'sling' || kind === 'slice') {
-                  const pick = { catch: 'gmCatchPick', sling: 'gmSlingPick', slice: 'gmSlicePick' }[kind];
-                  await tick();                      // the round sets its pick handler after layout
-                  const wrong = r.opts.findIndex((_, i) => i !== r.ans);
-                  if (kind !== 'slice') App[pick](wrong);
-                  App[pick](r.ans);
+                } else if (kind === 'tapname') {
+                  App.gmTapNamePick(r.opts.find(o => o.id !== r.a.id).id);
+                  App.gmTapNamePick(r.a.id);
+                } else if (kind === 'slingpic') {
+                  const wrong = r.opts.findIndex(o => o.id !== r.a.id);
+                  App.gmSlingPicPick(wrong);
+                  App.gmSlingPicPick(r.opts.findIndex(o => o.id === r.a.id));
                 }
                 await tick(); await tick();
                 if (App._game === g && g.idx === before) { mark(L, `${kind} stuck on round ${before + 1}`); break; }
@@ -172,15 +178,17 @@ SelfTest.hub = async function () {
         if (kind === 'bubbles') App.gmBubbleTap(r.opts.indexOf(r.name));
         if (kind === 'whoami') App.gmWhoTap(r.opts.findIndex(o => o.id === r.a.id));
         if (kind === 'rank') r.order.forEach(a => App.gmRankTap(a.id));
-        if (kind === 'catch' || kind === 'sling' || kind === 'slice') {
-          await tick();
-          App[{ catch: 'gmCatchPick', sling: 'gmSlingPick', slice: 'gmSlicePick' }[kind]](r.ans);
+        if (kind === 'tapname') App.gmTapNamePick(r.a.id);
+        if (kind === 'slingpic') App.gmSlingPicPick(r.opts.findIndex(o => o.id === r.a.id));
+        if (kind === 'tapgroup' || kind === 'catchpic') {
+          if (kind === 'tapgroup') g.good.forEach(a => App.gmTapGroupPick(a.id));
+          else for (let n = 0; n < g.need; n++) App.gmCatchPicPick(true);
+          await tick(); await tick(); break;
         }
         if (kind === 'hilo') {
           const better = r.more ? (r.a.stats[r.stat] > r.b.stats[r.stat] ? 0 : 1) : (r.a.stats[r.stat] < r.b.stats[r.stat] ? 0 : 1);
           App.gmHiloPick(better);
         }
-        if (kind === 'drag') g.items.forEach((_, k) => App.gmDragPlace(k, k));
         if (kind === 'sort') {
           g.items.forEach((it, k) => App.gmSortPlace(k, it.bin));
           await tick(); await tick();

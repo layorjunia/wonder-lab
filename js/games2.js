@@ -1,11 +1,7 @@
 // More games — the arcade set, plus the world Boss Battle.
 //
-//   catch   Catch It     slide Pip under the falling right answer
-//   sling   Sling It     pull a rock back, aim, let go at the right answer
-//   slice   Slice It     answers fly up; swipe across the right one
 //   sort    Sort It      drag animals into "lighter / heavier than you"
 //   hilo    Which One?   two animals, one measurement, a streak
-//   drag    Drag It      drag each name onto the clue that fits it
 //   boss    Boss Battle  a whole world's questions against a boss (unlocks the medal)
 //
 // Same rules as js/games.js: the questions, answers, names and clues are lesson
@@ -13,12 +9,6 @@
 // Every engine has a `…Pick/…Place` entry point so tools/selftest.js can play it.
 
 Object.assign(App.GPHR, {
-  catchTitle: 'Catch it',
-  catchHelp: 'Slide Pip left and right to catch the right answer.',
-  slingTitle: 'Sling it',
-  slingHelp: 'Pull the rock back, aim, and let go to hit the right answer.',
-  sliceTitle: 'Slice it',
-  sliceHelp: 'Swipe across the right answer to slice it.',
   sortTitle: 'Sort it',
   sortHelp: 'Drag each one to the box where it belongs.',
   sortLess_weight: 'Lighter than you', sortMore_weight: 'Heavier than you',
@@ -31,8 +21,6 @@ Object.assign(App.GPHR, {
   hiloMore_speed: 'Which one is faster?', hiloLess_speed: 'Which one is slower?',
   hiloMore_life: 'Which one lives longer?', hiloLess_life: 'Which one lives a shorter time?',
   hiloMore_height: 'Which one is taller?', hiloLess_height: 'Which one is shorter?',
-  dragTitle: 'Drag it',
-  dragHelp: 'Drag each name onto the clue that fits it.',
   bossTitle: 'Boss battle',
   bossHelp: 'Answer questions to beat the boss. Three wrong answers and the boss wins.',
   bossWin: 'You beat the boss!',
@@ -49,12 +37,8 @@ const BOSS_ICON = { earth: '🌋', astro: '☄️', physical: '⚡', micro: '�
   world: '🧭', economics: '🪙', body: '🤧', animals: '🦖', plants: '🌵' };
 
 Object.assign(App.GAMES, {
-  catch: { name: 'Catch It', glyph: '🧺', blurb: 'Catch the right answer as it falls' },
-  sling: { name: 'Sling It', glyph: '🪨', blurb: 'Aim and fire at the right answer' },
-  slice: { name: 'Slice It', glyph: '🔪', blurb: 'Swipe through the right answer' },
   sort:  { name: 'Sort It',  glyph: '⚖️', blurb: 'Lighter or heavier than you?' },
   hilo:  { name: 'Which One?', glyph: '🆚', blurb: 'Two animals, one winner, a streak' },
-  drag:  { name: 'Drag It',  glyph: '👆', blurb: 'Drag each name onto its clue' },
 });
 
 App.GAMEX = {};     // kind -> { build(g, lessons, ctx), render() }
@@ -110,361 +94,14 @@ Object.assign(App, {
   // ── eligibility: extend js/games.js ──────────────────────────────────
   gameKinds(L) {
     const out = [];
-    if (this.gamePairs(L)) out.push('pairs', 'bubbles');
+    if (this.gamePairs(L)) out.push('pairs');
     const sp = this.gameSpecies(L);
     if (sp.length >= 3 && sp.filter(a => this.speciesClue(a)).length >= 3) out.push('whoami');
     if (this.rankStats(sp).length) out.push('rank');
-    if (this.qPool([L], false).length >= 3) out.push('catch', 'sling', 'slice');
     if (this.sortChoices(sp).stats.length) out.push('sort');
     if (this.hiloRounds(sp, 3).length >= 3) out.push('hilo');
-    if (this.gamePairs(L)) out.push('drag');
     return out;
   },
-});
-
-// ═════════════════════════════════════════════════════════════════════════
-// CATCH IT
-// ═════════════════════════════════════════════════════════════════════════
-App.GAMEX.catch = {
-  build(g, lessons, ctx) {
-    const pool = this.shuffle(this.qPool(lessons, ctx === 'hub'));
-    g.items = pool.slice(0, ctx === 'hub' ? 6 : 5).map(q => this.qItem(q));
-    g.total = g.items.length;
-  },
-  render() { this.gmCatch(); },
-};
-Object.assign(App, {
-  // shared question card at the top of the three question arcades
-  qHead(r, label) {
-    return `<div class="bb-clue"><div class="bb-kicker">${label}</div>
-      <p class="bb-text">${r.prompt}</p>
-      <div class="bb-listen">${this.listenLabel('Hear it', r.prompt, ...r.opts)}</div></div>`;
-  },
-  // a round's right/wrong outcome, shared by the arcades
-  qResolve(i, hit) {
-    const g = this._game, r = g.items[g.idx];
-    if (!r || g.locked) return false;
-    const ok = i === r.ans;
-    this.speakNow([r.opts[i]], true);
-    if (ok) {
-      g.locked = true;
-      Sfx.play('yes', 0.5); this.haptic(14); this.pipReact('happy'); this.confetti(12);
-      setTimeout(() => this.speakNow([this.PHR.right, r.explain]), 500);
-      this.gameNextRound(g.firstTry, r.explain ? 3200 : 1500);
-    } else {
-      g.firstTry = false;
-      Sfx.play('no', 0.35); this.haptic(30);
-    }
-    return ok;
-  },
-  qReveal(r) {
-    const g = this._game;
-    g.locked = true; g.firstTry = false;
-    Sfx.play('no', 0.3);
-    this.speakNow([this.PHR.miss, r.opts[r.ans], r.explain]);
-    this.gameNextRound(false, 3800);
-  },
-
-  gmCatch() {
-    const g = this._game, el = document.getElementById('lessonOverlay'), r = g.items[g.idx];
-    g.locked = false; g.firstTry = true; g.token = (g.token || 0) + 1;
-    el.innerHTML = `${this.gameTop(g, `${g.idx + 1} / ${g.total}`)}
-      <div class="gm-wrap ct-wrap">
-        ${g.idx === 0 ? `<p class="gm-help gm-help-in">${this.GPHR.catchHelp}</p>` : ''}
-        ${this.qHead(r, this.fx('🧺') + ' Catch the right answer')}
-        <div class="ct-arena" id="ctArena">
-          ${r.opts.map((o, i) => `<div class="ct-card" data-i="${i}">${o}</div>`).join('')}
-          <div class="ct-basket" id="ctBasket"><span class="ct-pip">${this.pip('')}</span><span class="ct-bowl"></span></div>
-        </div>
-        <div id="gmMsg"></div>
-      </div>`;
-    this.syncListen();
-    this.autoPlay('#lessonOverlay .bb-listen .listen');
-    const arena = document.getElementById('ctArena');
-    const token = g.token, idx = g.idx;
-    const W = arena.clientWidth, H = arena.clientHeight;
-    const cards = [...arena.querySelectorAll('.ct-card')];
-    const cw = Math.max(110, Math.min(230, W / 3 - 14));
-    const st = cards.map((c, i) => {
-      c.style.width = cw + 'px';
-      return { el: c, i, x: W * (i + 0.5) / 3 - cw / 2 + (Math.random() * 20 - 10), y: -90 - i * 150, h: c.offsetHeight || 70, done: false };
-    });
-    const basketW = 130, basketTop = H - 96;
-    let bx = W / 2, target = W / 2, last = performance.now();
-    const basket = document.getElementById('ctBasket');
-    const move = e => {
-      const rc = arena.getBoundingClientRect();
-      target = Math.max(basketW / 2, Math.min(W - basketW / 2, e.clientX - rc.left));
-    };
-    arena.addEventListener('pointerdown', move);
-    arena.addEventListener('pointermove', move);
-    const speed = H / 5.6;
-    const loop = now => {
-      if (this._game !== g || g.token !== token || g.idx !== idx) return;
-      const dt = Math.min(0.05, (now - last) / 1000); last = now;
-      bx += (target - bx) * Math.min(1, 14 * dt);
-      basket.style.transform = `translateX(${bx - basketW / 2}px)`;
-      let alive = 0;
-      st.forEach(c => {
-        if (c.done) return;
-        c.y += speed * dt;
-        c.el.style.transform = `translate(${c.x}px, ${c.y}px)`;
-        if (c.y + c.h >= basketTop && c.y < H) {
-          const cx = c.x + cw / 2;
-          if (Math.abs(cx - bx) < cw / 2 + basketW / 2 - 24 && !g.locked) {
-            c.done = true;
-            const ok = this.qResolve(c.i);
-            c.el.classList.add(ok ? 'right' : 'wrong');
-            if (!ok) setTimeout(() => { c.el.style.opacity = 0; }, 450);
-            return;
-          }
-        }
-        if (c.y > H) { c.done = true; c.el.style.opacity = 0; return; }
-        alive++;
-      });
-      if (!g.locked && alive === 0) { this.qReveal(r); return; }
-      if (!g.locked || alive > 0) g._raf = requestAnimationFrame(loop);
-    };
-    g._raf = requestAnimationFrame(loop);
-    g.pick = i => { // bot / keyboard entry
-      const c = st.find(x => x.i === i);
-      if (!c || c.done) return false;
-      c.done = true;
-      const ok = this.qResolve(i);
-      c.el.classList.add(ok ? 'right' : 'wrong');
-      return ok;
-    };
-  },
-  gmCatchPick(i) { const g = this._game; return g && g.pick ? g.pick(i) : false; },
-});
-
-// ═════════════════════════════════════════════════════════════════════════
-// SLING IT
-// ═════════════════════════════════════════════════════════════════════════
-App.GAMEX.sling = {
-  build(g, lessons, ctx) {
-    const pool = this.shuffle(this.qPool(lessons, ctx === 'hub'));
-    g.items = pool.slice(0, ctx === 'hub' ? 5 : 4).map(q => this.qItem(q));
-    g.total = g.items.length;
-  },
-  render() { this.gmSling(); },
-};
-Object.assign(App, {
-  gmSling() {
-    const g = this._game, el = document.getElementById('lessonOverlay'), r = g.items[g.idx];
-    g.locked = false; g.firstTry = true; g.token = (g.token || 0) + 1; g.shots = 3;
-    el.innerHTML = `${this.gameTop(g, `${g.idx + 1} / ${g.total}`)}
-      <div class="gm-wrap sl-wrap">
-        ${g.idx === 0 ? `<p class="gm-help gm-help-in">${this.GPHR.slingHelp}</p>` : ''}
-        ${this.qHead(r, this.fx('🪨') + ' Hit the right answer')}
-        <div class="sl-arena" id="slArena">
-          ${r.opts.map((o, i) => `<div class="sl-target" data-i="${i}">${o}</div>`).join('')}
-          <div class="sl-post"></div>
-          <div class="sl-band" id="slBand"></div>
-          <div class="sl-rock" id="slRock">${this.fx('🪨')}</div>
-          <div class="sl-dots" id="slDots"></div>
-          <div class="sl-shots" id="slShots">${'<i></i>'.repeat(3)}</div>
-        </div>
-        <div id="gmMsg"></div>
-      </div>`;
-    this.syncListen();
-    this.autoPlay('#lessonOverlay .bb-listen .listen');
-    const arena = document.getElementById('slArena');
-    const token = g.token, idx = g.idx;
-    const W = arena.clientWidth, H = arena.clientHeight;
-    const rock = document.getElementById('slRock'), dots = document.getElementById('slDots'), band = document.getElementById('slBand');
-    const R = { x: Math.max(54, W * 0.13), y: H - 74 };
-    const setRock = (x, y) => { rock.style.transform = `translate(${x - 22}px, ${y - 22}px)`; };
-    setRock(R.x, R.y);
-    const rect = () => arena.getBoundingClientRect();
-    // targets sit on the right, stacked
-    const tw = Math.max(130, Math.min(300, W * 0.42));
-    const tg = [...arena.querySelectorAll('.sl-target')].map((t, i) => {
-      t.style.width = tw + 'px';
-      const th = t.offsetHeight || 64;
-      const y = 10 + (H - 40 - th * 3) * (i / 2) + th * i;
-      const x = W - tw - 12 - (i === 1 ? 0 : 26);
-      t.style.transform = `translate(${x}px, ${y}px)`;
-      return { el: t, i, x, y, w: tw, h: th, gone: false };
-    });
-    let drag = null, flying = null, last = 0;
-    const useShot = () => {
-      g.shots--;
-      const s = document.querySelectorAll('#slShots i'); if (s[g.shots]) s[g.shots].classList.add('spent');
-    };
-    const hitTest = p => tg.find(t => !t.gone && p.x > t.x && p.x < t.x + t.w && p.y > t.y && p.y < t.y + t.h);
-    const settle = () => {
-      flying = null; setRock(R.x, R.y); rock.style.opacity = 1;
-      if (!g.locked && g.shots <= 0) this.qReveal(r);
-    };
-    const resolveHit = t => {
-      t.gone = true;
-      const ok = this.qResolve(t.i);
-      t.el.classList.add(ok ? 'right' : 'wrong');
-      if (!ok) setTimeout(() => { t.el.style.opacity = 0.25; }, 300);
-      return ok;
-    };
-    const fly = (vx, vy) => {
-      useShot();
-      flying = { x: R.x, y: R.y, vx, vy };
-      last = performance.now();
-      band.style.opacity = 0; dots.innerHTML = '';
-      const step = now => {
-        if (this._game !== g || g.token !== token || g.idx !== idx || !flying) return;
-        const dt = Math.min(0.033, (now - last) / 1000); last = now;
-        flying.vy += 1100 * dt; flying.x += flying.vx * dt; flying.y += flying.vy * dt;
-        setRock(flying.x, flying.y);
-        const t = hitTest(flying);
-        if (t) {
-          const ok = resolveHit(t);
-          flying = null; rock.style.opacity = 0;
-          if (!ok) setTimeout(() => { if (this._game === g && !g.locked) settle(); }, 500);
-          return;
-        }
-        if (flying.y > H + 60 || flying.x > W + 60 || flying.x < -60) { settle(); return; }
-        requestAnimationFrame(step);
-      };
-      requestAnimationFrame(step);
-    };
-    const pull = e => {
-      const rc = rect();
-      let dx = e.clientX - rc.left - R.x, dy = e.clientY - rc.top - R.y;
-      const len = Math.hypot(dx, dy), max = 120;
-      if (len > max) { dx *= max / len; dy *= max / len; }
-      setRock(R.x + dx, R.y + dy);
-      const vx = -dx * 7.5, vy = -dy * 7.5;
-      band.style.opacity = 1;
-      band.style.width = Math.hypot(dx, dy) + 'px';
-      band.style.transform = `translate(${R.x}px, ${R.y}px) rotate(${Math.atan2(dy, dx)}rad)`;
-      // a short dotted preview of the path
-      let html = '', x = R.x + dx, y = R.y + dy, ux = vx, uy = vy;
-      for (let k = 0; k < 14; k++) {
-        ux += 0; uy += 1100 * 0.07; x += ux * 0.07; y += uy * 0.07;
-        if (k % 2 === 0) html += `<i style="transform:translate(${x - 3}px,${y - 3}px)"></i>`;
-      }
-      dots.innerHTML = html;
-      return { dx, dy, vx, vy, len };
-    };
-    arena.addEventListener('pointerdown', e => {
-      if (flying || g.locked || g.shots <= 0) return;
-      arena.setPointerCapture && arena.setPointerCapture(e.pointerId);
-      drag = pull(e);
-    });
-    arena.addEventListener('pointermove', e => { if (drag) drag = pull(e); });
-    const release = () => {
-      if (!drag) return;
-      const d = drag; drag = null;
-      if (d.len < 14) { setRock(R.x, R.y); band.style.opacity = 0; dots.innerHTML = ''; return; }
-      fly(d.vx, d.vy);
-    };
-    arena.addEventListener('pointerup', release);
-    arena.addEventListener('pointercancel', release);
-    g.pick = i => { // bot entry: act as a perfect shot
-      const t = tg.find(x => x.i === i);
-      if (!t || t.gone || g.locked) return false;
-      useShot();
-      return resolveHit(t);
-    };
-  },
-  gmSlingPick(i) { const g = this._game; return g && g.pick ? g.pick(i) : false; },
-});
-
-// ═════════════════════════════════════════════════════════════════════════
-// SLICE IT
-// ═════════════════════════════════════════════════════════════════════════
-App.GAMEX.slice = {
-  build(g, lessons, ctx) {
-    const pool = this.shuffle(this.qPool(lessons, ctx === 'hub'));
-    g.items = pool.slice(0, ctx === 'hub' ? 5 : 4).map(q => this.qItem(q));
-    g.total = g.items.length;
-  },
-  render() { this.gmSlice(); },
-};
-Object.assign(App, {
-  gmSlice() {
-    const g = this._game, el = document.getElementById('lessonOverlay'), r = g.items[g.idx];
-    g.locked = false; g.firstTry = true; g.token = (g.token || 0) + 1; g.hearts = 3;
-    el.innerHTML = `${this.gameTop(g, `${g.idx + 1} / ${g.total}`)}
-      <div class="gm-wrap sc-wrap">
-        ${g.idx === 0 ? `<p class="gm-help gm-help-in">${this.GPHR.sliceHelp}</p>` : ''}
-        ${this.qHead(r, this.fx('🔪') + ' Slice the right answer')}
-        <div class="sc-arena" id="scArena">
-          ${r.opts.map((o, i) => `<div class="sc-card" data-i="${i}">${o}</div>`).join('')}
-          <div class="sc-hearts" id="scHearts">${'<i></i>'.repeat(3)}</div>
-        </div>
-        <div id="gmMsg"></div>
-      </div>`;
-    this.syncListen();
-    this.autoPlay('#lessonOverlay .bb-listen .listen');
-    const arena = document.getElementById('scArena');
-    const token = g.token, idx = g.idx;
-    const W = arena.clientWidth, H = arena.clientHeight;
-    const cw = Math.max(120, Math.min(250, W / 3 - 12));
-    const cs = [...arena.querySelectorAll('.sc-card')].map((c, i) => {
-      c.style.width = cw + 'px';
-      return { el: c, i, t: -i * 0.9, T: 3.6, x0: 0, peak: 0.74, gone: false, x: 0, y: H + 100, h: c.offsetHeight || 64 };
-    });
-    const relaunch = c => { c.t = 0; c.x0 = Math.max(4, Math.min(W - cw - 4, W * (c.i + 0.5) / 3 - cw / 2 + (Math.random() * 60 - 30))); };
-    cs.forEach(c => { c.x0 = Math.max(4, Math.min(W - cw - 4, W * (c.i + 0.5) / 3 - cw / 2)); });
-    let last = performance.now();
-    const loop = now => {
-      if (this._game !== g || g.token !== token || g.idx !== idx) return;
-      const dt = Math.min(0.05, (now - last) / 1000); last = now;
-      cs.forEach(c => {
-        if (c.gone) return;
-        c.t += dt;
-        if (c.t < 0) { c.y = H + 100; c.el.style.transform = `translate(${c.x0}px, ${c.y}px)`; return; }
-        const u = c.t / c.T;
-        if (u >= 1) { relaunch(c); return; }
-        c.x = c.x0 + Math.sin(u * 3.1) * 14;
-        c.y = H + 20 - (H * c.peak) * 4 * u * (1 - u) - 0;
-        c.el.style.transform = `translate(${c.x}px, ${c.y - c.h}px) rotate(${(u - .5) * 10}deg)`;
-      });
-      g._raf = requestAnimationFrame(loop);
-    };
-    g._raf = requestAnimationFrame(loop);
-    const cut = c => {
-      if (c.gone || g.locked) return false;
-      c.gone = true;
-      const ok = this.qResolve(c.i);
-      c.el.classList.add(ok ? 'right' : 'wrong', 'cut');
-      if (!ok) {
-        g.hearts--;
-        const h = document.querySelectorAll('#scHearts i'); if (h[g.hearts]) h[g.hearts].classList.add('spent');
-        if (g.hearts <= 0 && !g.locked) setTimeout(() => this.qReveal(r), 350);
-      }
-      return ok;
-    };
-    // the swipe: sample the finger's path and test each sample against the cards
-    let lastPt = null;
-    const trail = (x, y) => {
-      const d = document.createElement('i'); d.className = 'sc-trail';
-      d.style.transform = `translate(${x - 5}px, ${y - 5}px)`;
-      arena.appendChild(d); setTimeout(() => d.remove(), 380);
-    };
-    const test = (x, y) => {
-      cs.forEach(c => {
-        if (c.gone || c.t < 0) return;
-        if (x > c.x - 6 && x < c.x + cw + 6 && y > c.y - c.h - 6 && y < c.y + 6) cut(c);
-      });
-    };
-    const at = e => { const rc = arena.getBoundingClientRect(); return { x: e.clientX - rc.left, y: e.clientY - rc.top }; };
-    arena.addEventListener('pointerdown', e => { lastPt = at(e); arena.setPointerCapture && arena.setPointerCapture(e.pointerId); test(lastPt.x, lastPt.y); });
-    arena.addEventListener('pointermove', e => {
-      if (!lastPt) return;
-      const p = at(e);
-      const n = Math.max(1, Math.ceil(Math.hypot(p.x - lastPt.x, p.y - lastPt.y) / 10));
-      for (let k = 1; k <= n; k++) {
-        const x = lastPt.x + (p.x - lastPt.x) * k / n, y = lastPt.y + (p.y - lastPt.y) * k / n;
-        test(x, y); if (k === n) trail(x, y);
-      }
-      lastPt = p;
-    });
-    const up = () => { lastPt = null; };
-    arena.addEventListener('pointerup', up); arena.addEventListener('pointercancel', up);
-    g.pick = i => { const c = cs.find(x => x.i === i); return c ? cut(c) : false; };
-  },
-  gmSlicePick(i) { const g = this._game; return g && g.pick ? g.pick(i) : false; },
 });
 
 // ═════════════════════════════════════════════════════════════════════════
@@ -625,110 +262,6 @@ Object.assign(App, {
     else { g.streak = 0; Sfx.play('no', 0.35); this.haptic(30); }
     this.gameNextRound(win, 1700);
     return win;
-  },
-});
-
-// ═════════════════════════════════════════════════════════════════════════
-// DRAG IT   (drag each name onto the clue that fits it)
-// ═════════════════════════════════════════════════════════════════════════
-App.GAMEX.drag = {
-  build(g, lessons, ctx) {
-    const pairs = this.shuffle(lessons.flatMap(L => this.gamePairs(L) || []))
-      .filter((p, i, a) => a.findIndex(q => q[0] === p[0]) === i);
-    g.items = pairs.slice(0, ctx === 'hub' ? 5 : 4).map(([name, clue]) => ({ name, clue }));
-    g.total = g.items.length;
-    g.placed = 0; g.sel = null; g.miss = {};
-    g.order = this.shuffle(g.items.map((_, i) => i));
-  },
-  render() { this.gmDrag(); },
-};
-Object.assign(App, {
-  gmDrag() {
-    const g = this._game, el = document.getElementById('lessonOverlay');
-    el.innerHTML = `${this.gameTop(g, `${g.placed} / ${g.total}`)}
-      <div class="gm-wrap dg-wrap">
-        ${this.gameHead(this.GPHR.dragTitle, this.GPHR.dragHelp)}
-        <div class="dg-slots">${g.items.map((it, k) => `
-          <div class="dg-slot" id="dgs${k}" data-k="${k}" onclick="App.gmDragSlot(${k})">
-            <span class="dg-clue">${it.clue}</span>
-            <span class="dg-drop" id="dgd${k}">drop the name here</span>
-            ${this.listenLabel('', it.clue)}
-          </div>`).join('')}</div>
-        <div class="dg-tray" id="dgTray">${g.order.map(k => `
-          <button class="dg-chip" id="dgc${k}" data-k="${k}" onclick="App.gmDragChip(${k})">${g.items[k].name}</button>`).join('')}</div>
-        <div id="gmMsg"></div>
-      </div>`;
-    this.syncListen();
-    this.autoPlay('#lessonOverlay .gm-help .listen');
-    // real dragging: pick up a name, drop it on a clue
-    const tray = document.getElementById('dgTray');
-    let dragK = null, ghost = null;
-    tray.addEventListener('pointerdown', e => {
-      const c = e.target.closest('.dg-chip'); if (!c || c.disabled) return;
-      dragK = +c.dataset.k;
-      ghost = c.cloneNode(true); ghost.classList.add('dg-ghost'); ghost.removeAttribute('id');
-      document.body.appendChild(ghost);
-      ghost.style.transform = `translate(${e.clientX - 60}px, ${e.clientY - 26}px)`;
-      c.classList.add('lift');
-      this.speakNow([g.items[dragK].name], true);
-      e.preventDefault();
-    });
-    this._dgMove = e => { if (ghost) ghost.style.transform = `translate(${e.clientX - 60}px, ${e.clientY - 26}px)`; };
-    this._dgUp = e => {
-      if (dragK == null) return;
-      const k = dragK; dragK = null;
-      if (ghost) { ghost.remove(); ghost = null; }
-      const c = document.getElementById('dgc' + k); if (c) c.classList.remove('lift');
-      const slots = [...document.querySelectorAll('.dg-slot')];
-      const hit = slots.findIndex(s => { const b = s.getBoundingClientRect();
-        return e.clientX >= b.left && e.clientX <= b.right && e.clientY >= b.top && e.clientY <= b.bottom; });
-      if (hit >= 0) this.gmDragPlace(k, hit);
-    };
-    window.addEventListener('pointermove', this._dgMove);
-    window.addEventListener('pointerup', this._dgUp);
-    this._dragCleanup = () => {
-      window.removeEventListener('pointermove', this._dgMove);
-      window.removeEventListener('pointerup', this._dgUp);
-    };
-  },
-  gmDragChip(k) {            // tap a name, then tap the clue it belongs to
-    const g = this._game; if (!g || g.kind !== 'drag') return;
-    document.querySelectorAll('.dg-chip').forEach(c => c.classList.remove('sel'));
-    const c = document.getElementById('dgc' + k);
-    if (c && !c.disabled) { g.sel = k; c.classList.add('sel'); this.speakNow([g.items[k].name], true); }
-  },
-  gmDragSlot(k) {
-    const g = this._game; if (!g || g.kind !== 'drag' || g.sel == null) return;
-    this.gmDragPlace(g.sel, k);
-  },
-  gmDragPlace(chipK, slotK) {
-    const g = this._game;
-    const chip = document.getElementById('dgc' + chipK), slot = document.getElementById('dgs' + slotK);
-    if (!g || !chip || !slot || chip.disabled || slot.classList.contains('done')) return false;
-    g.sel = null;
-    document.querySelectorAll('.dg-chip').forEach(c => c.classList.remove('sel'));
-    if (chipK === slotK) {
-      chip.disabled = true; chip.style.display = 'none';
-      slot.classList.add('done');
-      document.getElementById('dgd' + slotK).textContent = g.items[slotK].name;
-      g.placed++;
-      if (!g.miss[chipK]) g.right++;
-      const c = document.querySelector('.pl-sp'); if (c) c.textContent = `${g.placed} / ${g.total}`;
-      Sfx.play('yes', 0.45); this.haptic(12); this.speakNow([g.items[slotK].name], true);
-      if (g.placed >= g.total) {
-        if (this._dragCleanup) { this._dragCleanup(); this._dragCleanup = null; }
-        g.idx = g.total;
-        document.getElementById('gmMsg').innerHTML = `<div class="gm-banner">${this.fx('🎉')} ${this.PHR.pairsDone}</div>`;
-        this.confetti(18); Sfx.play('tada', 0.4);
-        setTimeout(() => { if (this._game === g) this.gameFinish(); }, 1800);
-      }
-      return true;
-    }
-    g.miss[chipK] = true;
-    chip.classList.add('wrong'); slot.classList.add('wrong');
-    setTimeout(() => { chip.classList.remove('wrong'); slot.classList.remove('wrong'); }, 450);
-    Sfx.play('no', 0.35); this.haptic(30);
-    return false;
   },
 });
 

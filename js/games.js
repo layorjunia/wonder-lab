@@ -42,7 +42,6 @@ Object.assign(App, {
 
   GAMES: {
     pairs:   { name: 'Match Up',    glyph: '🧩', blurb: 'Match each name to its clue' },
-    bubbles: { name: 'Bubble Pop',  glyph: '🫧', blurb: 'Pop the bubble with the right name' },
     whoami:  { name: 'Who Am I?',   glyph: '🔍', blurb: 'Read the clue, find the picture' },
     rank:    { name: 'Line Up',     glyph: '📏', blurb: 'Put them in order, biggest to smallest' },
   },
@@ -83,7 +82,7 @@ Object.assign(App, {
   },
   gameKinds(L) {
     const out = [];
-    if (this.gamePairs(L)) out.push('pairs', 'bubbles');
+    if (this.gamePairs(L)) out.push('pairs');
     const sp = this.gameSpecies(L);
     if (sp.length >= 3 && sp.filter(a => this.speciesClue(a)).length >= 3) out.push('whoami');
     if (this.rankStats(sp).length) out.push('rank');

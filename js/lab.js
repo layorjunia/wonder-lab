@@ -216,9 +216,10 @@ Object.assign(App, {
       <span class="ic">${this.ico('speak')}</span><span class="lbl">${text}</span></button>`;
   },
   syncListen() {
-    document.querySelectorAll('.listen').forEach(b => {
+    document.querySelectorAll('.listen, .goal-bar').forEach(b => {
       const on = +b.dataset.say === this._saying;
       b.classList.toggle('on', on);
+      if (b.classList.contains('goal-bar')) return;
       const ic = b.querySelector('.ic');
       if (ic) ic.innerHTML = this.ico(on ? 'stop' : 'speak');
       const lbl = b.querySelector('.lbl');
