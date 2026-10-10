@@ -15,17 +15,38 @@
 // phrases in GPHR.
 
 Object.assign(App.GPHR, {
-  tapThe: 'Tap the',
-  tapAll: 'Tap all the',
-  catchAll: 'Catch all the',
-  hitThe: 'Hit the',
   tapTitle: 'Tap it',
   tapGroupTitle: 'Tap them all',
   catchPicTitle: 'Catch them',
   slingPicHelp: 'Tap a picture to fire at it, or pull the rock back and let go.',
-  tapNot: 'That one is',
   gotThemAll: 'You got them all!',
 });
+// Whole spoken sentences, one clip each ("Tap the sloth." is never two clips glued together):
+// one per species that is in a lesson, and one per group.
+(function () {
+  const G = App.GPHR;
+  const seen = {};
+  (typeof LESSONS !== 'undefined' ? LESSONS : []).forEach(L => {
+    if (L.kind !== 'species') return;
+    const plants = L.course === 'plants';
+    (L.items || []).forEach(id => {
+      if (seen[id]) return; seen[id] = 1;
+      const all = plants ? (typeof PLANTS !== 'undefined' ? PLANTS : []) : (typeof ANIMALS !== 'undefined' ? ANIMALS : []);
+      const a = all.find(x => x.id === id);
+      if (!a) return;
+      G['tapThe_' + id] = `Tap the ${a.name}.`;
+      G['hitThe_' + id] = `Hit the ${a.name}.`;
+    });
+  });
+  if (typeof GROUPS !== 'undefined') Object.entries(GROUPS).forEach(([k, v]) => {
+    G['tapAll_' + k] = `Tap all the ${v.name.toLowerCase()}.`;
+    G['catchAll_' + k] = `Catch all the ${v.name.toLowerCase()}.`;
+  });
+  if (typeof PLANT_GROUPS !== 'undefined') Object.entries(PLANT_GROUPS).forEach(([k, v]) => {
+    G['tapAll_p_' + k] = `Tap all the ${v.name.toLowerCase()}.`;
+    G['catchAll_p_' + k] = `Catch all the ${v.name.toLowerCase()}.`;
+  });
+})();
 
 Object.assign(App.GAMES, {
   tapname:  { name: 'Tap It',      glyph: '👆', blurb: 'Hear the name, tap the picture' },
@@ -34,20 +55,28 @@ Object.assign(App.GAMES, {
   slingpic: { name: 'Sling It',    glyph: '🪨', blurb: 'Hear the name, hit the picture' },
 });
 
+// pictures that are a scientific plate or a diagram, not something a child can recognise
+const PIC_BAD = ['trapdoor-spider'];
+
 Object.assign(App, {
 
   // ── data ─────────────────────────────────────────────────────────────
   picSpecies(lessons) {
-    return lessons.flatMap(L => this.gameSpecies(L)).filter((a, i, arr) => a && arr.findIndex(b => b.id === a.id) === i);
+    return lessons.flatMap(L => this.gameSpecies(L))
+      .filter((a, i, arr) => a && !PIC_BAD.includes(a.id) && arr.findIndex(b => b.id === a.id) === i);
   },
   // photos of OTHER things, to be wrong with: other groups of the same kingdom first
   picDecoys(species, n, exceptGroup) {
     const plants = typeof PLANTS !== 'undefined' && species.length && PLANTS.some(p => p.id === species[0].id);
     const all = plants ? PLANTS : ANIMALS;
     const ids = new Set(species.map(a => a.id));
-    let pool = all.filter(a => !ids.has(a.id) && (!exceptGroup || a.group !== exceptGroup));
-    if (pool.length < n) pool = all.filter(a => !ids.has(a.id));
+    let pool = all.filter(a => !ids.has(a.id) && !PIC_BAD.includes(a.id) && (!exceptGroup || a.group !== exceptGroup));
+    if (pool.length < n) pool = all.filter(a => !ids.has(a.id) && !PIC_BAD.includes(a.id));
     return this.shuffle(pool).slice(0, n);
+  },
+  groupKey(a) {
+    const plants = typeof PLANTS !== 'undefined' && PLANTS.some(p => p.id === a.id);
+    return (plants ? 'p_' : '') + a.group;
   },
   groupName(a) {
     const plants = typeof PLANTS !== 'undefined' && PLANTS.some(p => p.id === a.id);
@@ -94,12 +123,12 @@ Object.assign(App, {
     g.locked = false; g.firstTry = true;
     el.innerHTML = `${this.gameTop(g, `${g.idx + 1} / ${g.total}`)}
       <div class="gm-wrap pic-wrap">
-        ${this.goalBar([this.GPHR.tapThe, r.a.name], `${this.GPHR.tapThe} <b>${r.a.name}</b>`)}
+        ${this.goalBar([this.GPHR['tapThe_' + r.a.id]], `Tap the <b>${r.a.name}</b>`)}
         <div class="pic-grid">${r.opts.map(a => this.picBtn(a)).join('')}</div>
         <div id="gmMsg"></div>
       </div>`;
     this.syncListen();
-    this.speakNow([this.GPHR.tapThe, r.a.name]);
+    this.speakNow([this.GPHR['tapThe_' + r.a.id]]);
   },
   gmPicTap(id) {
     const g = this._game; if (!g) return false;
@@ -141,6 +170,7 @@ App.GAMEX.tapgroup = {
     const bad = this.picDecoys(sp, Math.max(4, good.length), grp);
     g.group = grp;
     g.groupName = good[0] ? this.groupName(good[0]) : '';
+    g.gkey = good[0] ? this.groupKey(good[0]) : '';
     g.good = good;
     g.items = this.shuffle([...good, ...bad]);
     g.need = good.length;
@@ -156,12 +186,12 @@ Object.assign(App, {
     const gn = g.groupName;
     el.innerHTML = `${this.gameTop(g, `${g.found} / ${g.need}`)}
       <div class="gm-wrap pic-wrap">
-        ${this.goalBar([this.GPHR.tapAll, gn], `${this.GPHR.tapAll} <b>${gn}</b>`)}
+        ${this.goalBar([this.GPHR['tapAll_' + g.gkey]], `Tap all the <b>${gn.toLowerCase()}</b>`)}
         <div class="pic-grid dense">${g.items.map(a => this.picBtn(a)).join('')}</div>
         <div id="gmMsg"></div>
       </div>`;
     this.syncListen();
-    this.speakNow([this.GPHR.tapAll, gn]);
+    this.speakNow([this.GPHR['tapAll_' + g.gkey]]);
   },
   gmTapGroupPick(id) {
     const g = this._game;
@@ -204,6 +234,7 @@ App.GAMEX.catchpic = {
     g.bad = this.picDecoys(sp, 6, grp);
     g.group = grp;
     g.groupName = g.good[0] ? this.groupName(g.good[0]) : '';
+    g.gkey = g.good[0] ? this.groupKey(g.good[0]) : '';
     g.need = 5; g.total = 5; g.found = 0; g.misses = 0; g.right = 0;
   },
   render() { this.gmCatchPic(); },
@@ -214,14 +245,14 @@ Object.assign(App, {
     g.locked = false; g.token = (g.token || 0) + 1;
     el.innerHTML = `${this.gameTop(g, `${g.found} / ${g.need}`)}
       <div class="gm-wrap pic-wrap">
-        ${this.goalBar([this.GPHR.catchAll, g.groupName], `${this.GPHR.catchAll} <b>${g.groupName}</b>`)}
+        ${this.goalBar([this.GPHR['catchAll_' + g.gkey]], `Catch all the <b>${g.groupName.toLowerCase()}</b>`)}
         <div class="ct-arena pic-arena" id="cpArena">
           <div class="ct-basket" id="cpBasket"><span class="ct-pip">${this.pip('')}</span><span class="ct-bowl"></span></div>
         </div>
         <div id="gmMsg"></div>
       </div>`;
     this.syncListen();
-    this.speakNow([this.GPHR.catchAll, g.groupName]);
+    this.speakNow([this.GPHR['catchAll_' + g.gkey]]);
     const arena = document.getElementById('cpArena');
     const token = g.token;
     const W = arena.clientWidth, H = arena.clientHeight;
@@ -236,10 +267,10 @@ Object.assign(App, {
       const wantGood = (flip++ % 3) !== 2 || g.found === 0;           // two good for every one other
       const a = wantGood ? g.good[goodIdx++ % g.good.length] : g.bad[badIdx++ % g.bad.length];
       const el2 = document.createElement('div');
-      el2.className = 'cp-thing'; el2.style.width = el2.style.height = size + 'px';
+      el2.className = 'cp-thing'; el2.style.width = (size * 1.3) + 'px'; el2.style.height = size + 'px';
       el2.innerHTML = `<img src="${this.pic(a)}" alt="">`;
       arena.appendChild(el2);
-      const x = 8 + Math.random() * (W - size - 16);
+      const x = 8 + Math.random() * (W - size * 1.3 - 16);
       things.push({ el: el2, a, good: wantGood, x, y: -size, done: false });
     };
     const speed = H / 4.6;
@@ -254,7 +285,7 @@ Object.assign(App, {
         if (c.done) return;
         c.y += speed * dt;
         c.el.style.transform = `translate(${c.x}px, ${c.y}px)`;
-        if (c.y + size >= basketTop && c.y < H - 20 && Math.abs(c.x + size / 2 - bx) < size / 2 + basketW / 2 - 30) {
+        if (c.y + size >= basketTop && c.y < H - 20 && Math.abs(c.x + size * 0.65 - bx) < size * 0.65 + basketW / 2 - 30) {
           c.done = true; this.cpCaught(c);
         } else if (c.y > H) { c.done = true; c.el.remove(); }
       });
@@ -313,7 +344,7 @@ Object.assign(App, {
     g.locked = false; g.firstTry = true; g.token = (g.token || 0) + 1; g.shots = 3;
     el.innerHTML = `${this.gameTop(g, `${g.idx + 1} / ${g.total}`)}
       <div class="gm-wrap pic-wrap">
-        ${this.goalBar([this.GPHR.hitThe, r.a.name], `${this.GPHR.hitThe} <b>${r.a.name}</b>`)}
+        ${this.goalBar([this.GPHR['hitThe_' + r.a.id]], `Hit the <b>${r.a.name}</b>`)}
         <div class="sl-arena pic-arena" id="spArena">
           ${r.opts.map((o, i) => `<div class="sl-target pic-target" data-i="${i}"><img src="${this.pic(o)}" alt=""><span class="pic-name"></span></div>`).join('')}
           <div class="sl-post"></div><div class="sl-band" id="spBand"></div>
@@ -325,7 +356,7 @@ Object.assign(App, {
         <div id="gmMsg"></div>
       </div>`;
     this.syncListen();
-    this.speakNow([this.GPHR.hitThe, r.a.name]);
+    this.speakNow([this.GPHR['hitThe_' + r.a.id]]);
     const arena = document.getElementById('spArena');
     const token = g.token, idx = g.idx;
     const W = arena.clientWidth, H = arena.clientHeight;
@@ -336,13 +367,14 @@ Object.assign(App, {
     setRock(R.x, R.y);
     // one column of big pictures down the right edge: nothing stands in front of anything else
     const n = r.opts.length;
-    const ts = Math.max(86, Math.min(136, (H - 28 - (n - 1) * 12) / n));
-    const slots = r.opts.map((_, i) => ({ x: W - ts - 16, y: 14 + i * (ts + 12) }));
+    const ts = Math.max(86, Math.min(136, (H - 28 - (n - 1) * 12) / n));          // height of a picture
+    const tw = Math.min(ts * 1.33, W * 0.4);                                       // 4:3, the whole photo fits
+    const slots = r.opts.map((_, i) => ({ x: W - tw - 16, y: 14 + i * (ts + 12) }));
     const tg = [...arena.querySelectorAll('.pic-target')].map((t, i) => {
       const sl = slots[i % slots.length];
-      t.style.width = t.style.height = ts + 'px';
+      t.style.width = tw + 'px'; t.style.height = ts + 'px';
       t.style.transform = `translate(${sl.x}px, ${sl.y}px)`;
-      return { el: t, i, x: sl.x, y: sl.y, w: ts, h: ts, gone: false };
+      return { el: t, i, x: sl.x, y: sl.y, w: tw, h: ts, gone: false };
     });
     const center = t => ({ x: t.x + t.w / 2, y: t.y + t.h / 2 });
     let flying = null, drag = null, last = 0;

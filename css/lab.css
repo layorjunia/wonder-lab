@@ -1066,3 +1066,33 @@ body[data-realm]:not([data-realm="base"])::after {
 .pic-target .pic-name { position: absolute; left: 4px; right: 4px; bottom: 8px; background: rgba(255,255,255,.9); border-radius: 10px; padding: 2px; font-size: 16px; min-height: 0; }
 .pic-target.aimed { box-shadow: 0 5px 0 var(--sun-d), 0 0 0 5px var(--sun); }
 @media (max-width: 560px) { .goal-bar { font-size: 22px; } .pic-grid.dense { grid-template-columns: repeat(3, 1fr); } }
+
+/* Every photo shows the WHOLE animal: never cropped to a square. Wide and tall photos
+   sit inside a frame (4:3) on a soft backdrop instead. */
+.pic img, .hl-card img, .gm-pic img, .pic-target img, .cp-thing img, .art-photo img {
+  object-fit: contain !important; background: #dfe7f3;
+}
+.pic img { aspect-ratio: 4 / 3; }
+.hl-card img { aspect-ratio: 4 / 3; }
+.gm-pic img { aspect-ratio: 4 / 3; }
+.pic-target img { height: calc(100% - 4px); }
+.gm-chip img, .so-chip img, .so-done img, .sh-meet img, .dcard-photo, .node-photo { object-fit: contain !important; background: #dfe7f3; }
+.gm-chip img, .so-chip img { width: 68px; height: 52px; }
+.so-done img { width: 52px; height: 40px; }
+.sh-meet img { width: 70px; height: 52px; }
+.cp-thing img { height: 100%; width: 100%; }
+.dcard-glyph.photo { background: #dfe7f3; }
+.art-photo img { background: #dfe7f3; }
+
+.pic-grid { grid-template-columns: repeat(2, 1fr); max-width: 780px; margin: 0 auto; width: 100%; }
+.pic-grid.dense { grid-template-columns: repeat(3, 1fr); max-width: 860px; }
+.hl-pair { width: 100%; max-width: 860px; margin-left: auto; margin-right: auto; }
+.hl-card { max-width: 420px; }
+
+.so-bin img.fx { width: 56px; height: 56px; filter: drop-shadow(0 3px 0 rgba(0,0,0,.25)); }
+.so-bin { min-height: 190px; }
+.so-chip { padding: 8px 16px 8px 8px; font-size: 22px; }
+.so-chip img { width: 120px !important; height: 90px !important; border-radius: 14px; }
+.gm-chip { font-size: 22px; padding: 10px 16px 10px 10px; }
+.gm-chip img { width: 110px !important; height: 82px !important; border-radius: 14px; }
+.so-done img { width: 64px !important; height: 48px !important; }

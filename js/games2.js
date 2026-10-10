@@ -135,8 +135,8 @@ Object.assign(App, {
       <div class="gm-wrap so-wrap">
         ${this.gameHead(this.GPHR.sortTitle, this.GPHR.sortHelp)}
         <div class="so-bins">
-          <button class="so-bin" data-bin="0" onclick="App.gmSortBin(0)"><b>${lessTxt}</b><small>than ${refTxt}</small><span class="so-pile" id="pile0"></span></button>
-          <button class="so-bin" data-bin="1" onclick="App.gmSortBin(1)"><b>${moreTxt}</b><small>than ${refTxt}</small><span class="so-pile" id="pile1"></span></button>
+          <button class="so-bin" data-bin="0" onclick="App.gmSortBin(0)">${this.fx('⬇️')}<b>${lessTxt}</b><small>than ${refTxt}</small><span class="so-pile" id="pile0"></span></button>
+          <button class="so-bin" data-bin="1" onclick="App.gmSortBin(1)">${this.fx('⬆️')}<b>${moreTxt}</b><small>than ${refTxt}</small><span class="so-pile" id="pile1"></span></button>
         </div>
         <div class="so-tray" id="soTray">${g.items.map((it, k) =>
           `<button class="so-chip" data-k="${k}" onclick="App.gmSortChip(${k})" id="chip${k}">
