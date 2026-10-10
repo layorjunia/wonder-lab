@@ -1,5 +1,31 @@
 # 🔬 Wonder Lab
 
+A homeschool science and history app for a 9–10 year old, rebuilt in October 2026
+(**Wonder Lab 2**) as a game: real authored lessons in colored worlds, a sprout
+mascot called Pip, Sparks and levels, daily streaks, Discovery Cards, and four
+games that are not quizzes.
+
+**Live:** https://wonder-lab-ecru.vercel.app (audio from https://layorjunia.github.io/wonder-lab/)
+
+## How it is built (2026-10)
+
+| Piece | Where |
+|---|---|
+| The whole look | `css/lab.css` (loaded after `style.css`, which now only styles the older field-guide screens) |
+| Journey map, lesson player, quiz, results | `js/lesson.js` |
+| Games: Match Up, Bubble Pop, Who Am I?, Line Up; Games tab; daily challenge | `js/games.js` |
+| Pip, world colors, HUD, levels, Fluent icons | `js/lab.js`, `js/fx.js`, `img/fx/` |
+| Welcome, nav, Games / Cards / Me tabs | `js/tabs.js` |
+| Lesson text (editable truth) | `.work/lessons-src/*.txt` → `tools/parse_lessons.py` → `tools/build_lessons.py` → `js/lessons.js` |
+| Quality gate | `tools/check_lessons.py`, `tools/option_balance.py stats` |
+| Voice | `tools/gen_audio.py` (Kokoro, one clip per string), `tools/check_norm.py`, `tools/audit_resolve.py` |
+| Test without a browser pane | `node tools/ui_shot.mjs .work/qa/selftest.json` (all lessons, every game) and `hubtest.json` |
+
+Lessons drafted by a local model are marked `# UNREVIEWED` above their `=== id` line until a
+person has read them.
+
+## The older description (before the rebuild)
+
 A science app for a 9–10 year old. First subject: **biology** — animals and the
 human body — built as thousands of short, true, surprising facts with real
 photographs.

@@ -81,6 +81,7 @@ load('js/expeditions.js');
 load('js/plants.js'); load('js/earth.js'); load('js/astro.js');
 ['ancient', 'america', 'world', 'micro', 'physical', 'economics'].forEach(f => load('js/' + f + '.js'));
 load('js/lessons.js');
+globalThis.App = {}; load('js/lesson.js'); load('js/games.js');   // Object.assign(App, {...}) — methods only
 const out = [];
 const push = (src, field, id, t) => { if (t && String(t).trim())
   out.push({ src, field, id, text: String(t) }); };
@@ -109,7 +110,16 @@ Object.values(GAME_PHRASES).forEach((t, i) => push('label', 'phrase', 'gp' + i, 
 // tools/apply_lesson_intros.py has written one, otherwise the plain count
 // tools/build_lessons.py defaults to. Narrated either way: lessonFrame() in
 // app.js only ever plays L.intro, never a string built at runtime.
-LESSONS.forEach(l => push('label', 'phrase', 'li-' + l.id, l.intro));
+// What a lesson speaks is decided by js/lesson.js itself (App.lessonStrings),
+// so a string cannot be shown, spoken, and missing a clip. Authored lessons
+// speak their pages, every question AND every answer, the feedback, the game
+// cards and the results; any lesson with a quiz speaks its questions, answers
+// and explanations. Lessons still on the old path keep their narrated intro.
+LESSONS.forEach(l => {
+  App.lessonStrings(l).forEach((t, i) => push('label', 'phrase', 'ls-' + l.id + '-' + i, t));
+  if (!l.pages && l.intro) push('label', 'phrase', 'li-' + l.id, l.intro);
+});
+App.lessonPhrases().forEach((t, i) => push('label', 'phrase', 'lph' + i, t));
 PLANTS.forEach(p => {
   push('plant', 'name',   p.id, p.name);
   push('plant', 'blurb',  p.id, p.blurb);

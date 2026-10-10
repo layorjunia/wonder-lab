@@ -1,0 +1,798 @@
+=== astro-sun
+idea: The sun is more than just a bright ball in the sky. Find out how its light travels and what happens when we look closely at its spots and colors.
+game: Carrington Event = 1859 solar flare that sparked telegraph wires | Helium = Named after the sun before found on Earth | Parker Solar Probe = NASA's fastest, closest spacecraft to the sun | Sunspot = Cooler area that looks dark | Aurora = Sky glow seen during solar storms
+
+--- 🕳️
+p: The sun is so bright that looking straight at it can damage your eyes, but you won’t feel any pain.
+fact: The retina in your eye has no pain nerves. So when sunlight burns it, nothing hurts while the damage happens.
+try: Poke a small hole in a card and stand with your back to the sun. Let the light fall onto another card on the ground. You will see a tiny round image of the sun.
+check: Why can staring at the sun do damage without any pain?
++ The retina has no pain nerves
+- The sun is too bright
+- Sunglasses block all the harmful rays
+hint: Look at the fact box. It explains why you feel no pain.
+explain: The retina in your eye has no pain nerves, so you won’t feel any pain even though the damage is happening.
+
+--- 📏
+p: The sun is huge, but we can work out just how big it is using simple geometry.
+fact: The sun is about 864,000 miles across. If you lined up Earths edge to edge along that width, you would need 109 of them.
+p: We know the distance to the sun because radar bounces off nearby planets, giving us precise distances in the solar system. Knowing how far away it is and how big it looks lets us measure its actual size.
+
+--- ⏱️
+p: Sunlight may seem to appear instantly, but it takes time to travel from the sun to Earth.
+fact: Sunlight takes about 8 minutes 20 seconds to cross the 93 million miles (150 million km) to Earth. Both the distance and the speed of light are measured precisely.
+check: How long does sunlight take to reach us?
+- About 3 minutes 45 seconds
+- About 14 minutes 30 seconds
++ About 8 minutes 20 seconds
+hint: Look at the fact box on this page.
+explain: Sunlight takes about 8 minutes 20 seconds to travel from the sun to Earth.
+
+--- 🌡️
+p: The sun has two temperatures that we talk about, but they are found in different ways.
+fact: The surface of the sun is about 10,000 °F (5,500 °C), and that temperature is measured directly. But the center is about 27 million °F (15 million °C), worked out from how the sun rings and wobbles, like telling a cracked bell from a whole one.
+check: Which sun temperature is measured directly?
+- The center
++ The surface
+- Both temperatures
+hint: The fact box tells you which temperature is measured directly and which one is worked out.
+explain: The surface temperature of about 10,000 °F is measured directly. The center's temperature is reasoned from how the sun moves.
+
+--- ⚫
+term: sunspot = A cooler patch on the sun's surface. It looks black in a photograph, but it is not.
+fact: A sunspot looks dark because it is cooler than the surface around it, about 6,300 °F compared to roughly 10,000 °F for the surface.
+p: People have been drawing sunspots since telescopes came along in 1610. In 1843, Heinrich Schwabe noticed that the number of sunspots rises and falls in an eleven-year cycle after he spent seventeen years counting them nearly every day.
+check: Why does a sunspot look dark?
+- It is much hotter than the area around it
++ It is cooler than the surface around it
+- It is a shadow made by a passing planet
+hint: The fact box explains why a sunspot looks dark.
+explain: A sunspot looks dark because it is cooler than the surface around it.
+
+--- 🌀
+p: The sun is not a solid ball like Earth. It moves differently at different spots.
+fact: The equator of the sun turns around in about 25 days, but regions near the poles take closer to 35 days to complete one turn.
+p: Watch a sunspot move across the face of the sun. At the equator, it takes about 25 days to come back around. Near the poles, it takes longer, about 35 days. Nothing solid can do that.
+
+--- ⚡
+p: On 1 September 1859, Richard Carrington was sketching sunspots when a patch of the sun flared white.
+fact(The Carrington Event): About 17 hours later, telegraph wires across Europe and North America sparked. Operators on the Boston-to-Portland line unhooked their batteries but kept sending messages using the current from the sky.
+p: Auroras were reported as far south as the Caribbean. Because so many people wrote it down at once, it is one of the best-documented things the sun has ever done.
+
+--- 🌈
+p: When the sun throws out a burst of particles, they light up the sky over the far north and far south.
+fact: The sky glows green and red. That is the aurora, and during the great storm of 1859 it was seen as far south as the Caribbean.
+try: Space weather forecasts are public. Search for the NOAA aurora forecast, and when the number called Kp climbs to 7 or higher, it is worth going somewhere dark and looking north.
+
+--- 🚀
+p: On December 24, 2024, NASA's Parker Solar Probe got really close to the sun.
+fact(Close and fast): The probe flew 3.8 million miles above the sun's surface at about 430,000 miles per hour. Nothing made by people has ever gone faster or closer.
+p: Two days later, it radioed back to say it was doing just fine.
+
+--- 🟡
+p: Helium was found in the sun before anyone found it on Earth. On August 18, 1868, Jules Janssen saw a strange yellow line during an eclipse.
+fact: Norman Lockyer saw the same yellow line and named the new element after the Greek word for the sun. It turned up on Earth in volcanic gas at Vesuvius fourteen years later in 1882.
+check: Where was helium found first?
+- In party balloons
+- At Vesuvius
++ In the sun
+hint: The yellow line in sunlight was seen before it was found on Earth.
+explain: Helium was first spotted as a yellow line in sunlight, not on Earth.
+
+--- 📜
+p: So why do we mark days and years?
+fact(The written account says): The lights in the sky were set for signs and seasons, and for days and years. The sun marks a day as Earth turns once, and a year as it circles the sun.
+p: Every calendar counts the sun. Whether it is on a wall or in a phone, it all comes back to the same star.
+
+=== astro-moon
+idea: The moon is visible during the day more often than you think, and it smells like gunpowder. Discover how we measure its distance with lasers, and why the temperature swings are so extreme.
+game: Moon = Visible during the day too | Gunpowder = How moon dust smelled | Laser = Measures moon's distance | Libration = Slight rocking of the moon | Corner-cube = Reflects laser beams back | Seismometer = A machine that records moonquakes
+
+--- 🌤️
+p: The moon is up in the daytime more often than you might think.
+fact: For most of the month, it is visible during daylight, pale blue-white against the blue sky. Most people never notice it because they never look.
+try: Look for the moon in the afternoon sky today. It is up in daytime more often than you think.
+check: When can you see the moon?
+- Only after the sun has set, and never in daylight
++ For most of the month it is up during the day too
+- Only in the morning, right before the sun comes up
+hint: Look at the first fact block on the page.
+explain: The moon is up in the sky for much of the day, but many people miss seeing it because they do not look for it.
+
+--- 📐
+p: The moon may look close up there, but it is really far away.
+fact: The moon is 2,159 miles across, a bit over a quarter of Earth's width. It sits an average of 238,855 miles away, about thirty Earths laid side by side.
+check: About how many Earths laid side by side reach the moon?
+- About five
+- About one hundred
++ About thirty
+hint: The moon is 238,855 miles away on average.
+explain: Thirty Earths laid side by side reach the moon. Lasers measure this distance on clear nights.
+
+--- 🪨
+p: Six Apollo crews landed on the moon and brought back a piece of it.
+fact: They carried back 842 pounds (382 kg) of rock, dust, and drilled cores, about 2,200 separate samples. All of them are kept in Houston.
+p: Some containers were sealed on purpose for later. Scientists wanted to study untouched moon material with better tools decades later.
+
+--- 👃
+p: When the Apollo astronauts took off their helmets inside the lunar module, they noticed something strange.
+fact: Moon dust smelled like spent gunpowder. Charlie Duke and Harrison Schmitt both said it, but the smell faded before the samples reached Earth.
+p: The bootprints the astronauts left are still there. No wind, no rain, nothing to sweep them away. Only slow dusting from tiny impacts will wear them down.
+check: What did Apollo crews say the moon dust smelled like?
++ Spent gunpowder
+- Freshly baked bread
+- Fresh grass after rain
+hint: Both Charlie Duke and Harrison Schmitt reported the same smell.
+explain: The moon dust smelled like spent gunpowder to the astronauts.
+
+--- 🌡️
+p: The temperature on the moon swings wildly because there is no air to move heat around.
+fact: Near the equator, the ground reaches about 250 °F (121 °C) in the sun and drops to around -207 °F (-133 °C) in the dark.
+p: Some polar craters never see sunlight at all. NASA's Lunar Reconnaissance Orbiter has measured spots inside those craters below -410 °F (-246 °C).
+check: Why are the temperature swings so brutal on the moon?
+- The sun burns far hotter on the moon
++ There is no air to move heat around
+- The moon spins much faster than Earth
+hint: Look at the first paragraph. It explains why the swings are so extreme.
+explain: Without air to spread heat, the temperature changes are very dramatic.
+
+--- 🔭
+p: The worst time to look at craters is when the moon is full.
+fact: At full moon, the sun is straight overhead, so nothing casts a shadow and the surface looks flat and washed out.
+term: terminator = The line dividing the lit side from the unlit side of the moon. Along this line, shadows are longest because the sun sits low.
+try: Look at the edge of the lit part through binoculars or just your eyes. The craters stand up in relief along the terminator.
+
+--- 🙈
+p: Until 7 October 1959, nobody had seen the far side of the moon.
+fact: That day, the Soviet probe Luna 3 looped behind it and took 29 photographs. The pictures showed almost no dark plains like those on the near side.
+p: The far side is not the dark side. It gets just as much sunlight as the side we see. When the moon looks black from Earth, the far side is in full daylight.
+check: When the moon looks black from Earth, what is the far side doing?
++ It is in full daylight
+- It looks black too
+- It is hidden by Earth
+hint: The far side gets just as much sunlight as the near side.
+explain: The far side of the moon is in full daylight when the moon appears black from Earth.
+
+--- 🎯
+p: The moon always shows us the same face, but it is not perfectly still.
+term: libration = The slight rocking and wobbling of the moon as it orbits Earth.
+fact: Over time, we can see 59 percent of the moon’s surface because of this rocking and wobbling. Not half, a bit more than half.
+p: Two things cause this wobble: the moon's orbit is not perfectly round, so it speeds up and slows down, and its axis is tilted about 6.7 degrees. This lets us peek slightly around each side, as well as over the top and under the bottom.
+
+--- 🪞
+p: Imagine if you could measure how fast something in space is moving with a laser.
+fact: Apollo 11, 14, and 15 left mirrored corner-cubes on the moon. Observatories fire lasers at them to time the round trip. This shows the moon drifting away at about 1.5 inches each year, which is roughly as fast as your fingernails grow.
+check: How fast is the moon drifting away?
++ About 1.5 inches a year
+- About 9 inches a year
+- About 2 feet each year
+hint: The fact box gives the exact speed.
+explain: The moon drifts away at about 1.5 inches each year, which is as fast as a fingernail grows.
+
+--- 〰️
+p: Apollo crews left seismometers on the moon between 1972 and 1977. These instruments recorded 28 shallow moonquakes.
+fact: The strongest measured about 5.5, and some kept shaking for over ten minutes. Dry cracked rock with no water in it rings on instead of settling down.
+p: Nobody has drilled into the moon, so what we know about its middle is worked out from seismometers and the laser wobble.
+check: How is the inside of the moon known?
+- Seen directly by a robot sent down a very deep hole
+- Known from X-ray pictures taken from the Earth
++ Worked out from seismometers and the laser wobble
+hint: The last paragraph explains how scientists figure it out.
+explain: Seismometers recorded the ground shaking, and mirrors let lasers measure the moon's wobble. Together, they give clues about what is inside.
+
+--- 📜
+p: The moon keeps track of time.
+fact(The written account says): In Genesis, the lesser light is set over the night to mark signs and seasons. The moon goes from new to full and back in about 29 and a half days. That is where the month came from.
+
+=== astro-rocky
+idea: Explore the planets and learn surprising facts about each one. Discover why Venus looks like a bright beacon in the sky.
+game: Mercury = Smaller than some moons | Olympus Mons = A volcano about 16 miles high | Venus = Hottest planet due to thick air | Venera 13 = First color photos from another planet's surface | MOXIE = Pulled oxygen from Martian air | Phobos = The moon that rises in the west
+
+--- 🌑
+p: Meet Mercury, the smallest planet. It is just 3,032 miles across.
+fact(Smaller than a moon): Two moons beat it in size. Ganymede, which orbits Jupiter, and Titan, which orbits Saturn, are both wider than Mercury.
+p: Mercury also has the widest temperature swing. Where the sun hits it, it is about 800 °F. On the dark side, it drops to about -290 °F.
+check: Why does Mercury have such a big temperature swing?
++ It has almost no atmosphere
+- It is too close to the Sun
+- It spins too fast
+hint: Look at the fact box. It mentions why the heat does not move around the planet.
+explain: Without an atmosphere, there is nothing to carry the heat from the sunny side to the dark side.
+
+--- 🔥
+p: Mercury is the closest planet to the sun, but it is not the hottest.
+fact(Hottest planet): Venus is the hottest planet. It sits much farther out than Mercury and still runs at roughly 870 °F (465 °C), hot enough to melt lead. A thick blanket of carbon-dioxide air traps the heat.
+p: Venus's air is about 96% carbon dioxide, and the pressure at its surface is around 93 times that of Earth’s.
+check: Which planet is the hottest?
+- Mercury
+- Mars
++ Venus
+hint: The fact box explains why Venus is hotter than Mercury.
+explain: Venus is the hottest because its thick blanket of carbon-dioxide air traps heat, making it much warmer than Mercury.
+
+--- 🔄
+p: Venus does something really strange: it turns backwards.
+fact: One rotation of Venus takes 243 Earth days, but one trip around the sun takes just 225 days. Its day is longer than its year.
+p: If you could stand on Venus and see through the clouds, the sun would come up in the west instead of the east.
+
+--- 📸
+p: In 1982, a Soviet lander named Venera 13 touched down on Venus.
+fact: It reached the surface on March 1st and was built to last about 30 minutes. Instead, it lasted 127 minutes and sent back the first color photographs from another planet's surface.
+p: The pictures show flat orange rock under a sky like weak tea. No mission has landed on Venus since, so those photos are still our only color views of that surface.
+check: How long did Venera 13 last on the surface of Venus?
+- About 30 minutes
++ 127 minutes
+- A full day
+hint: It was built to survive about 30 minutes but lasted much longer.
+explain: Venera 13 was designed for a short time on Venus, but it ended up lasting 127 minutes.
+
+--- 🌍
+p: Imagine seeing Earth from so far away that it just looks like a tiny dot.
+fact: The first whole-Earth photo was taken on 7 December 1972 by the Apollo 17 crew, outbound to the moon. It shows Africa and the Antarctic ice cap, and it became one of the most reproduced photographs ever.
+p: On 14 February 1990, Voyager 1 took a picture from 3.7 billion miles out. Earth was smaller than a single pixel in that photo.
+check: How big did Earth look to Voyager 1?
+- About as wide as ten pixels
++ Smaller than a single pixel
+- Larger than a hundred pixels
+hint: Look at the last paragraph for the size of Earth in the Voyager picture.
+explain: From Voyager's distance, Earth was smaller than a single pixel in the photo.
+
+--- 🧭
+p: Nobody has ever been to the middle of Earth. The deepest hole we dug, at Kola in Russia, went 7.6 miles down.
+fact(How deep): The Kola hole drilled down 40,230 feet, but that is only under a fifth of one percent of the way to the center.
+p: What we know about Earth's core is worked out from how earthquake waves bend and where they refuse to travel. Certain waves cannot pass through liquid. When some waves do not show up on the far side of a big quake, it means there is liquid in the middle.
+
+--- 🏔️
+p: Olympus Mons on Mars is a giant volcano. It stands about 16 miles high, which is three times taller than Mount Everest.
+fact: It also spreads roughly 370 miles across, wide enough to cover Arizona. The slope is so broad and gentle that you might not realize you were on a mountain if you stood there.
+check: How tall is Olympus Mons?
+- About 8 miles
++ About 16 miles
+- About 24 miles
+hint: Look at the first number on the page.
+explain: It stands about 16 miles high, three times the height of Everest.
+
+--- 💙
+p: Mars looks rusty orange all day, but its sunset turns a surprising color.
+fact: The sunset goes blue because fine iron-rich dust in the thin air scatters blue light forward, bunching it up around the sun while the rest of the sky stays butterscotch.
+p: Curiosity filmed this from Gale Crater on 15 April 2015. It is the exact reverse of Earth, where the sky is blue and the sunset is red.
+
+--- 🌗
+p: Mars has two small moons, both found by Asaph Hall in 1877.
+fact: Phobos goes around Mars in just 7 hours and 39 minutes, which means it circles the planet three times in one Martian day. It rises in the west and sets in the east because it moves faster than Mars spins.
+
+--- 🧪
+term: MOXIE = A small box that rode on the Perseverance rover and pulled oxygen out of Martian air.
+fact: Across 16 runs, MOXIE made about 4 ounces (122 grams) of oxygen. The last run finished on 7 August 2023, and the oxygen was at least 98% pure.
+p: Gravity on Mars is much less than on Earth, pulling at only about 38 percent of Earth's gravity. A kid who weighs 70 pounds on Earth would weigh about 26 pounds on Mars.
+check: How much would a 70-pound kid weigh on Mars?
+- About 40 pounds
++ About 26 pounds
+- About 100 pounds
+hint: Look at the last paragraph. It tells you how much less gravity pulls there.
+explain: On Mars, gravity is only about 38 percent of Earth's, so a 70-pound kid would weigh about 26 pounds.
+
+--- 📜
+p: So what about those lights in the sky? The written account says they were set for signs and seasons.
+fact(The written account says): The lights in the sky are set for signs and seasons, and Venus keeps that appointment very plainly.
+p: It is the brightest thing in the sky after the sun and the moon. It hangs in the evening for months on end, then swaps over and does the same before dawn.
+
+=== astro-giants
+idea: Jupiter has moons with surprising secrets, like volcanoes and oceans. Discover how a planet tipped on its side and an invisible planet found with math.
+game: Linda Morabito = Found a volcano on Io | Great Red Spot = Jupiter's giant shrinking storm | Enceladus = Moon with tiger stripes spewing water | Huygens = Probe that landed on Titan | Neptune = Planet found with calculations | Uranus = Planet rolling on its side
+
+--- 🔭
+p: On 7 January 1610, Galileo pointed his homemade telescope at Jupiter and saw three little stars beside it.
+fact: On 13 January a fourth appeared. Night after night, they shifted their positions around Jupiter.
+try: Steady a pair of binoculars against a wall or a fence and look at Jupiter. You will see four tiny points strung out in a line — just like Galileo did. Look again the next night and you will see them move.
+check: What did Galileo conclude the little stars were doing?
+- Floating away into space
++ Going round Jupiter
+- Moving closer to Earth
+hint: Look at the fact box. It says he saw them shifting their positions.
+explain: He noticed that these little stars changed position each night, which led him to conclude they were going round Jupiter.
+
+--- 🪐
+p: Jupiter is huge. Imagine eleven Earths lined up side by side. That is how wide Jupiter is.
+fact: Jupiter is 88,846 miles across at the equator and holds more than twice as much material as all the other planets combined.
+p: It spins really fast too. One full rotation takes just 9 hours and 55 minutes.
+p: Spinning that quickly has a noticeable effect. Jupiter is squashed at the poles, making it look a bit like a flattened ball. You can see this flattening in a good telescope.
+
+--- 🔴
+p: Jupiter has a giant storm that has lasted for centuries. It is called the Great Red Spot.
+fact: In the 1800s, the long axis of the Great Red Spot was about 24,000 miles. Hubble now measures it at about 10,250 miles.
+p: This shrinking happened while people watched. Amateur astronomers noticed the shrinking speeding up in 2012.
+check: What has the Great Red Spot been doing?
+- Growing bigger
+- Moving to a different spot
++ Shrinking
+hint: The measurements show it was much larger in the 1800s.
+explain: The Great Red Spot has been shrinking over time, and people have watched this happen.
+
+--- 🌋
+p: Linda Morabito was looking at navigation photos from Voyager 1 on March 9, 1979.
+fact: She noticed an odd bulge off the edge of Jupiter's moon Io. It was a plume from an erupting volcano, about 170 miles tall.
+term: plume = A tall cloud of gas and dust thrown up from a volcano.
+check: What did Linda Morabito find?
++ A volcano erupting on Io
+- A huge storm over Jupiter
+- A comet hitting Saturn
+hint: The bulge she noticed was actually a plume.
+explain: Linda Morabito found a volcanic plume over 170 miles tall. It was the first active volcano seen beyond Earth.
+
+--- 🌊
+p: Europa is one of Jupiter's moons, covered in cracked ice.
+fact(Worked out, not seen): Something under that ice bends Jupiter's magnetic field in a way that fits a salty ocean. Nobody has drilled through to see it. The ocean is worked out from a magnetic reading and the pattern of cracks.
+check: How do we know about Europa's ocean?
+- It was seen by cameras on a rover that drove across the ice
++ It is worked out from a magnetic reading and the pattern of cracks
+- A probe was lowered through the ice and sent back pictures
+hint: Look at the fact box. It tells you how scientists figured it out.
+explain: The best answer comes from how Jupiter's magnetic field bends and the way the ice cracks.
+
+--- 💍
+p: Saturn's rings stretch out to about 175,000 miles from the planet.
+fact: They are only around 30 feet thick and made up of over 99% water ice. Seen edge-on, something that wide thins out and nearly vanishes.
+p: Saturn itself is lighter than water for its size. Given a big enough ocean, it would float.
+check: About how thick are Saturn's rings?
+- A few miles
+- Several thousand feet
++ About 30 feet
+hint: The fact box tells you exactly how thick the rings are.
+explain: Saturn's rings are only about 30 feet thick.
+
+--- 💨
+p: Enceladus is a small icy moon of Saturn with four long cracks near its south pole, nicknamed the tiger stripes.
+fact: Jets of water vapor and ice grains fire out of those cracks into space. Cassini flew straight through the spray and analyzed it, which is like a spacecraft tasting a moon without ever landing on it.
+p: Cassini spent thirteen years at Saturn and was then destroyed on purpose. On 15 September 2017, it flew into Saturn's atmosphere and burned up.
+check: How did Cassini taste Enceladus?
++ It flew through the spray
+- It landed on the surface
+- It crashed into a moon
+hint: The fact box tells you exactly how Cassini analyzed the jets from Enceladus.
+explain: Cassini flew through the spray of water vapor and ice grains coming from Enceladus.
+
+--- 🧡
+p: On 14 January 2005, the Huygens probe parachuted down through Titan's orange haze and landed.
+fact: No spacecraft has ever landed farther from Earth than Huygens did on Titan. It transmitted for 72 minutes from the surface, sent back the sound of the wind, and photographed channels cut by flowing liquid methane.
+check: What liquid cut the channels on Titan?
+- Water
+- Acid rain
++ Methane
+hint: The fact box tells you the type of liquid that carved the channels.
+explain: On Titan, the liquid cutting channels is methane, not water.
+
+--- 🛞
+p: Imagine a planet that is tipped over so far it rolls around the sun on its side.
+fact: Uranus is tipped over by about 98 degrees, rolling on its side instead of spinning upright.
+p: Its rings circle its equator, but because it is tipped over, they stand up like a target aimed straight at you.
+
+--- 🔱
+p: Imagine finding a planet with just a pencil and paper.
+fact: Neptune was found this way. Uranus was not moving as it should, so Urbain Le Verrier worked out where an unseen planet would have to sit to tug it that way. Johann Galle aimed his telescope there on 23 September 1846 and found Neptune within one degree.
+p: Neptune gets very little sunlight, yet it has the fastest winds in our solar system. Voyager 2 flew past on 25 August 1989 and clocked them near 1,200 miles per hour around a storm called the Great Dark Spot.
+check: Which came first for Neptune?
++ The calculation
+- Seeing it through a telescope
+- Naming it
+hint: Look at the fact box. It explains how Neptune was found.
+explain: The calculation came first. Urbain Le Verrier figured out where Neptune should be, and then Johann Galle looked there.
+
+--- 📜
+p: The written account says the lights in the sky were set for signs and seasons.
+fact(The written account says): The lights in the sky are set for signs and seasons. Jupiter and Saturn are two of them, both bright enough to see without any equipment. On 21 December 2020, they came within a tenth of a degree of each other, a fifth of the moon's width apart, the closest since 1623.
+
+=== astro-smallstuff
+idea: The sky is full of small objects that follow their own schedules. Discover how a comet's tail points away from the sun and which mission first brought back asteroid samples.
+game: OSIRIS-REx = Grabbed samples from Bennu | Hayabusa2 = Dropped Ryugu samples in Australia | Philae = Bounced on a comet | Halley's Comet = Predicted return in 1758 | Perseids = Show up every August
+
+--- 🌌
+p: Films show the asteroid belt as a shooting gallery where you have to dodge rocks. The real belt is mostly empty space.
+fact: On average, asteroids are about 600,000 miles apart. That's more than twice the distance from Earth to the moon.
+check: How far apart are asteroids in the belt on average?
+- About 100 miles
++ About 600,000 miles
+- About 1 million miles
+hint: Look at the fact box. It gives the exact number.
+explain: The asteroids are about 600,000 miles apart, making the belt mostly empty space.
+
+--- 🪨
+p: The largest thing in the asteroid belt is Ceres, about 585 miles across.
+fact: Giuseppe Piazzi found it on the first night of 1801, making it the very first asteroid anyone spotted.
+p: In 2015, NASA's Dawn spacecraft arrived and went into orbit around Ceres. That made Ceres the first dwarf planet ever visited.
+p: Ceres holds two titles at once. It is both the biggest asteroid in the belt and the nearest dwarf planet to us.
+
+--- 🗳️
+p: In Prague on 24 August 2006, astronomers voted to define what a planet is. A planet must go around the sun, be round itself, and clear its orbital lane of other objects.
+term: dwarf planet = A world that goes around the sun, is round, but has not cleared its orbital lane.
+fact: Pluto passes the first two rules but fails the third, because it shares its region with Eris and many other bodies. So Pluto became a dwarf planet. On 14 July 2015, New Horizons flew past it at about 32,000 miles an hour, 7,800 miles above the surface.
+check: What makes Pluto a dwarf planet?
+- It has no moons circling around it
+- It circles the sun the wrong way
++ It has not cleared its orbital lane
+hint: The facts box tells you why Pluto is a dwarf planet.
+explain: Pluto shares its orbit with other bodies, so it has not cleared its orbital lane.
+
+--- ⚫
+p: The largest meteorite anyone has ever found is still right where it landed.
+fact: The Hoba meteorite, in Namibia, weighs over 60 tons and measures about 9 feet by 9 feet by 3 feet thick. A farmer's plow struck it in 1920, and nobody has ever moved it because nobody can.
+p: It is a slab of metal, mostly iron and nickel, with just a trace of cobalt. People have chipped pieces off over the years, so it weighs a little less now than when it was found. You can walk right up to it and touch it.
+
+--- 💥
+p: On 15 February 2013, a rock about 60 feet across came in over a city called Chelyabinsk in Russia.
+fact: The rock blew apart roughly 18 miles up. Nothing hit the city; the shock wave did. It blew in windows across a wide strip of ground and cut about 1,500 people with flying glass.
+p: Nobody was killed. The airburst released energy on the order of 400 to 600 kilotons of TNT, making it the largest such event over a populated place in living memory.
+check: What hurt people in Chelyabinsk?
++ The shock wave
+- Pieces of the rock falling
+- The heat from the explosion
+hint: The shock wave blew in windows and cut people with flying glass.
+explain: The shock wave from the explosion was what hurt people, not pieces of the rock or other effects.
+
+--- ✨
+p: Have you ever seen a shooting star? It looks like a quick streak of light across the sky.
+fact: A shooting star is usually just a grain of sand burning up 50 to 75 miles (80 to 120 km) above Earth.
+p: The bright streak happens because the air in front of it glows white as it moves so fast. Most burn out in under a second, and the whole thing happens way above where any airplane can fly.
+check: What is a shooting star usually?
+- A small rock
++ A grain of sand
+- A piece of metal
+hint: The streak of light comes from something tiny burning up high in the sky.
+explain: It’s usually a grain of sand, moving fast enough that the air ahead of it glows white.
+
+--- ☄️
+p: Have you ever seen a comet in the sky? It has a bright head and a long tail.
+fact: A comet’s tail does not trail behind it like smoke off a train. It points away from the sun, always.
+p: There are usually two tails on a comet, and they point slightly differently. The gas tail glows bluish and runs almost exactly away from the sun. The dust tail is broader, whiter, and curved.
+check: Which way does a comet's tail point?
++ Away from the sun
+- Behind the comet
+- Towards the comet
+hint: Look at the fact box. It says the tail points away from the sun.
+explain: The tail always points away from the sun because sunlight and the stream of particles blowing off the sun push the dust and gas straight outward.
+
+--- 🔄
+p: Edmond Halley noticed something special in 1705. He saw that bright comets seen in 1531, 1607, and 1682 all followed the same path.
+fact: Halley said it was one comet coming back and predicted its next return for 1758. It arrived sixteen years after he died.
+p: Chinese astronomers had logged the same comet as far back as 240 BC. It came again in 1835, 1910, and 1986.
+check: When did Halley predict the comet's return?
+- 1705
++ 1758
+- 1786
+hint: Look at the fact box. It says he predicted it would return in 1758.
+explain: In 1705, Halley predicted the comet would return in 1758, sixteen years after his death.
+
+--- 🚀
+p: On 12 November 2014, a lander named Philae tried to touch down on comet 67P.
+fact: Its harpoons failed to fire, so it bounced and drifted for nearly two hours before landing about half a mile away in shadow.
+p: Even though Philae ended up out of the sunlight, its solar panels could not keep the batteries charged. But it still worked for around 64 hours and sent its measurements home before it went quiet.
+p: It was the first landing on a comet ever. The mother ship Rosetta took ten years to get there.
+
+--- 🧪
+p: On 24 September 2023, a capsule landed in the Utah desert with 4.29 ounces (121.6 g) of asteroid Bennu inside.
+fact: OSIRIS-REx touched Bennu for just a few seconds and grabbed a handful. It needed at least 60 grams to count as a success, but it brought back twice that amount.
+p: Japan's Hayabusa2 mission did it first. On 6 December 2020, it dropped a capsule into the South Australian desert with 5.4 grams of Ryugu inside.
+check: Which mission brought asteroid samples home first?
+- NASA's OSIRIS-REx
+- Both at the same time
++ Japan's Hayabusa2
+hint: Look at the dates in the page text.
+explain: Hayabusa2 brought its samples home on 6 December 2020, before OSIRIS-REx's return in September 2023.
+
+--- 📜
+p: Comets come back on schedule, and meteor showers keep the calendar.
+fact(The written account says): Genesis 1:14 says the lights in the sky were set "for signs and for seasons, and for days and years."
+p: Edmond Halley predicted his comet's return decades ahead, and it arrived. The Perseids turn up in the same week of every August.
+
+=== astro-stars
+idea: Stars twinkle because they are faraway points of light, while planets stay steady. Discover why some stars look red and others blue, and why a star like Betelgeuse can suddenly dim.
+game: Parallax = The jump seen when switching eyes | Hipparchus = Sorted stars into six ranks | Algol = Star that dims every 2 days and 21 hours | Betelgeuse = Bright star that dimmed in 2019 | Gaia = Spacecraft measuring billions of stars
+
+--- ✨
+p: Have you ever wondered why stars twinkle, but planets do not?
+fact: Stars are so far away that they arrive as single points of light, and any wobble in the air shoves that whole point sideways, so they twinkle. Planets arrive as tiny discs, which means many points of light. The wobbles cancel each other out, so planets stay steady.
+try: Next clear night, look for a bright light low in the sky that does not flicker. It is likely a planet.
+check: Why do planets not twinkle?
+- They shine with their own steady glow, not sunlight
+- They are above the air, where nothing bends light
++ They arrive as tiny discs and the wobbles cancel out
+hint: Look at the fact box. It explains why the wobbles cancel for planets.
+explain: Planets appear as tiny discs made up of many points, so the air's wobbles cancel each other out.
+
+--- 🌡️
+p: Have you ever noticed that some stars look red and others look blue? The color of a star is like a thermometer reading.
+fact: Betelgeuse, the orange star on Orion's shoulder, is about 3,500 K. Rigel, the blue-white one at his foot, is around 12,000 K. Red is cool, blue is hot.
+try: On a winter evening, find Orion. Look at Betelgeuse at the top left of the four corners, then Rigel at the bottom right. Go back and forth a few times. Betelgeuse is clearly orange, Rigel is white with a blue edge.
+check: Which stars are hotter?
+- Red ones
++ Blue ones
+- Orange ones
+hint: Look at the fact box. It shows the temperatures of Betelgeuse and Rigel.
+explain: Blue stars like Rigel are much hotter than red stars like Betelgeuse.
+
+--- 🔆
+p: Look up at the night sky, and you will see a star that outshines all others. That's Sirius, the brightest star in the night sky, with a magnitude of minus 1.46.
+fact: The brightness scale runs backwards because of Hipparchus. He sorted stars into six ranks, calling the brightest ones first magnitude. So now, bigger numbers mean fainter stars.
+check: On the magnitude scale, what does a bigger number mean?
++ A fainter star
+- A brighter star
+- A closer star
+hint: Look at the fact box. It explains that Hipparchus sorted stars with bigger numbers for fainter stars.
+explain: Bigger numbers on the magnitude scale mean fainter stars, thanks to Hipparchus's system.
+
+--- 👆
+p: Here is how astronomers measure how far away a star is, and you can do it with one finger.
+term: parallax = The jump you see when you switch eyes. It is how astronomers measure the distance to nearby stars.
+try: Hold your thumb at arm’s length and blink one eye, then the other. Now bring it in to a foot away and try again. The nearer it is, the further it jumps.
+fact: Earth's position in January and its position in July are like two eyes, and the star appears to jump between them. Astronomers use this jump to measure the distance to nearby stars.
+
+--- 📐
+p: In 1838, Friedrich Bessel became the first person to measure the distance to a star.
+fact: He measured the parallax of 61 Cygni and found it was about 10 light-years away. The modern figure is 11.4 light-years, so he was very close.
+p: The nearest star to us is Proxima Centauri, which is 4.24 light-years away. But you cannot see it with your eyes alone. It is too faint, around magnitude 11.
+check: Who first measured the distance to a star?
++ Friedrich Bessel
+- Galileo Galilei
+- Johannes Kepler
+hint: The fact box says who was the first to measure the distance to 61 Cygni.
+explain: Friedrich Bessel was the first to measure the distance to a star, in 1838.
+
+--- 🛰️
+p: In 1838, Friedrich Bessel measured the distance to a star. Now, a spacecraft named Gaia has done the same for more than 1.8 billion stars.
+fact: Gaia measured positions and parallaxes for over 1.8 billion stars. Look up at almost any star you can see with your eyes. Its distance is now a measured number, not just a guess.
+p: Gaia had to measure angles smaller than a thousandth of an arcsecond. That is about the width of a human hair seen from ten miles away. It did this by scanning the entire sky over and over, comparing where every star appeared to sit.
+
+--- 🏹
+p: Orion is not a group of stars. It is a group of directions that we see from Earth.
+fact(Worked out): The three belt stars in Orion look evenly spaced, but they are at very different distances. Alnitak is around 1,260 light-years away, while Alnilam is nearly 2,000 light-years away. These distances are worked out based on how bright the stars appear.
+p: Move far enough sideways and the hunter falls apart. The pattern would change completely because its stars are at very different distances.
+check: Why would Orion fall apart if you moved sideways?
+- Its stars are all the same color
++ Its stars are at very different distances
+- Its stars move in circles around each other
+hint: Look at the worked out distances of Alnitak and Alnilam.
+explain: The stars that make up Orion are at very different distances from us, so moving sideways would change their apparent positions and the pattern of the constellation.
+
+--- 🔁
+p: Algol is a star that dims and brightens over and over again. It does this every 2 days and 21 hours.
+fact: Algol loses about two thirds of its light, and then gets it back, repeating this cycle every 2 days and 21 hours.
+p: In 1783, John Goodricke, a deaf teenager from York, figured out why. He said a second star was passing in front of the first one.
+check: What makes Algol dim?
+- A cloud of dust drifts in front of it
+- It spins and shows its dark side
++ A second star passes in front of it
+hint: Look at the fact box that explains the cycle.
+explain: John Goodricke figured out that a second star passes in front, causing Algol to dim.
+
+--- 😮
+p: Betelgeuse, one of the brightest stars in the sky, suddenly grew dimmer.
+fact: Between late 2019 and February 2020, Betelgeuse lost roughly two thirds of its brightness. The Very Large Telescope in Chile saw the star's disk go lopsided as a dark patch appeared.
+p: A cloud of dust that had been thrown off the star drifted across about a quarter of its face. This cloud was more than a hundred million miles wide.
+p: By the end of 2020, Betelgeuse was back to its usual brightness.
+
+--- 💥
+p: On July 4, 1054, Chinese astronomers saw a guest star near the southern horn of Taurus.
+fact: This star was bright enough to see in broad daylight for 23 days and visible at night for 653 days before it faded out.
+p: No European record of it survives. Now in that same spot, there is a faint tangle of glowing gas called the Crab Nebula.
+check: How long was the guest star visible in daylight in 1054?
+- 7 days
++ 23 days
+- 653 days
+hint: Look at the first number on the page.
+explain: The guest star was visible in broad daylight for exactly 23 days.
+
+--- 📜
+p: Under a truly dark sky, an ordinary eye can pick out about 9,100 stars across the whole sky.
+fact(The written account says): Psalm 147:4 says of God, "he determines the number of the stars; he gives to all of them their names."
+p: Somebody counted first. The figure comes from catalogues of everything brighter than magnitude 6.5, which totals 9,096 stars over the entire sky.
+
+=== astro-deepsky
+idea: Some of the lights in the winter sky are not stars at all. Find out what a nebula really is, and how a patch of sky that looked empty held about 3,000 galaxies.
+game: Pleiades = A small knot of stars | Orion = The brightest winter sky figure | Job 38:31 = An old verse asking about star clusters | Andromeda galaxy = Farthest thing seen without a telescope | Coalsack = A dark nebula blocking stars
+
+--- 🌌
+p: Step outside on a clear winter night. Some of the lights are not stars.
+fact(Why it looks like a band): The Milky Way looks like a band because we are inside it, looking along its flat part. You see more stars when you look along the disc than when you look out of it.
+p: In 1610, Galileo pointed his telescope at the Milky Way. He saw that the glow broke into separate stars. This proved that it was made of faint stars.
+check: Why does the Milky Way look like a band?
++ We are inside it, looking along its flat part
+- It is a thin layer of dust high in our air
+- The stars in it are all the same brightness
+hint: Look at the first fact on the page. It explains why we see a band.
+explain: We are inside the Milky Way and looking along its flat part, so we see more stars in that direction.
+
+--- ✨
+p: Look up at the night sky, and find a tiny group of stars that looks like a dipper.
+fact: Most people can see six or seven stars in it with just their eyes. Binoculars turn that into dozens.
+p: This cluster is called the Pleiades. It sits about 444 light-years away. That distance was measured by the Gaia spacecraft using a method called parallax.
+check: How many stars do most people pick out in the Pleiades?
+- Two or three
++ Six or seven
+- Forty or more
+hint: Most people see six or seven stars with just their eyes, but binoculars show dozens.
+explain: With your eyes alone, you can usually see six or seven stars in the Pleiades. Binoculars reveal many more.
+
+--- 🧭
+p: Hanging below Orion's belt is a fuzzy patch you can see with your eyes on a clear winter night. That is the Orion Nebula.
+fact: The Orion Nebula is about 1,344 light-years away. People call it a stellar nursery because they think stars form inside it, but nobody has watched a star form there.
+p: Right in the middle of the Orion Nebula, a small telescope shows four points of light in a tight lopsided box. They are called the Trapezium.
+check: What has nobody watched happen in the Orion Nebula?
+- A comet passing by
+- A planet appearing
++ A star forming
+hint: The nebula is thought to be a place where stars form, but no one has seen it happen.
+explain: While people think stars form inside the Orion Nebula, nobody has actually watched a star form there.
+
+--- ☁️
+p: The word nebula means cloud in Latin. A long time ago, it was used for any fuzzy patch seen through a telescope.
+term: nebula = Just Latin for cloud, once meaning any blurry spot in the sky.
+fact: Better telescopes sorted them out. Some turned out to be swarms of stars too close together to separate, and others were actually clouds of gas.
+p: Lord Rosse had a big 72-inch telescope in Ireland. In 1845, it showed a spiral shape inside M51, something nobody had seen before in one of these patches.
+
+--- 🎨
+p: Photos show nebulae in all sorts of colors, but through a telescope they look gray.
+fact: Your eye has two kinds of light sensor, and the one that works in the dark cannot see color at all. A camera can sit collecting light for an hour, but your eye starts over roughly every tenth of a second.
+check: Why does a nebula look gray through a telescope?
++ The part of your eye that works in the dark cannot see color
+- The mirrors inside a telescope can only show shades of gray
+- The light travels so far from a nebula that its color fades
+hint: Look at the fact box. It explains why your eye sees gray.
+explain: Your eye’s night vision sensor can’t see colors, so nebulae appear gray through a telescope.
+
+--- 🔵
+p: A globular cluster is a ball of stars packed so tight the middle looks solid.
+term: globular cluster = A ball of stars so tightly packed that it looks like a solid glow in the center.
+fact: M13, found by Halley in 1714, holds somewhere between a hundred thousand and six hundred thousand stars. It appears to the naked eye when the sky is clear and the moon is away.
+p: In a small telescope, the edge of the ball breaks into separate points, but the center stays a solid glow. The stars near the middle are really crowded much closer together than stars around here.
+
+--- 📖
+p: Charles Messier loved to hunt comets, but he kept getting fooled by fuzzy patches in the sky.
+fact: He wrote a list of those patches that just sat still, so he wouldn't waste another night on them. Now it is the favorite catalogue for amateur astronomers: 110 objects from M1 to M110.
+check: Why did Messier make his list?
+- So he could keep a record of the stars used to steer ships
+- Because the king asked him to count every star in the sky
++ So he would stop being fooled by fuzzy patches while hunting comets
+hint: Look at the first sentence of the page.
+explain: He wanted to know which objects were just sitting still, so he wouldn't waste time thinking they were comets.
+
+--- 🕳️
+p: In December 1995, Hubble was pointed at a scrap of sky that looked completely empty.
+fact: The spot was about as wide as a dime seen from 75 feet away. Hubble stared there for ten days and took 342 pictures. What they found: roughly 3,000 galaxies in what had looked like nothing at all.
+check: How many galaxies did Hubble find in the empty patch of sky?
+- About 342
++ About 3,000
+- About 75
+hint: The page says how many exposures were taken and how many galaxies were found.
+explain: Hubble found about 3,000 galaxies where it had looked like there was nothing at all.
+
+--- 🌑
+p: In the southern sky, some shapes are not made of stars at all.
+fact: The Coalsack, beside the Southern Cross, is a place where the Milky Way simply stops. It is a cloud of dust that blocks everything behind it. Aboriginal Australians mapped it as the head of an emu whose body stretches on toward Scorpius.
+p: The Coalsack is one of the few dark nebulae obvious to the unaided eye, and it is about 600 light-years away.
+check: What is the Coalsack?
+- A tight group of bright stars shaped like a sack
++ A cloud of dust that blocks the stars behind it
+- A faint galaxy hiding far beyond the Milky Way
+hint: The page describes what the Coalsack blocks.
+explain: The Coalsack is a cloud of dust that blocks the stars behind it, making it look like a dark shape in the sky.
+
+--- 🔭
+p: In the night sky, there is one thing so far away that it almost seems impossible to see without help. It's the Andromeda galaxy.
+fact(Worked out, not seen directly): The Andromeda galaxy is about 2.5 million light-years away. This distance is worked out by comparing how bright certain pulsing stars look with how bright they are taken to be.
+p: Edwin Hubble figured this out first in 1923 using a big telescope on Mount Wilson. He looked at stars whose brightness changes in a way that tells us how far away they are.
+check: How is Andromeda's distance worked out?
+- By sending a radio signal toward it and timing how long the echo takes to return
+- By counting how many stars it holds and comparing that number to the Milky Way
++ By comparing how bright certain pulsing stars look with how bright they are taken to be
+hint: Look at the fact box. It explains how the brightness of certain stars helps calculate the distance.
+explain: The distance is worked out by looking at how bright certain pulsing stars in Andromeda appear and comparing that to how bright they are assumed to be.
+
+--- 📜
+p: In the night sky, some things have carried the same names for a very long time.
+fact(The written account says): Job 38:31 asks, "Can you bind the chains of the Pleiades or loose the cords of Orion?" Both are still up there and still carry those names. You can go outside on a winter night and look at them.
+p: Very few old books can be checked this way. The Pleiades is a small knot of stars in Taurus, and Orion is the brightest figure in the winter sky. Neither one has moved.
+
+=== astro-looking
+idea: Your eyes are your best telescope, but using them right at night takes care. Discover how telescopes collect light and the surprising fix for Hubble's blurry vision.
+game: Red flashlight = Protects night vision | 6-inch mirror = Collects 500 times more light | William Herschel = The musician who found Uranus | Keck telescope = Uses 36 hexagons | Hubble's fix = Corrective optics like spectacles | Webb telescope = Looks in infrared
+
+--- 👀
+p: Your eyes are the best telescope you already own, but you have to treat them right.
+fact(Night mode): It takes half an hour for your eyes to switch over to night mode, and just one glance at a phone undoes all that. The sensors in your eyes rely on a special pigment that takes time to rebuild, and bright light bleaches it out in a second.
+p: Red light barely touches this pigment, so observers use red flashlights. This way they can see what they need to without ruining their night vision.
+check: Why do observers use red flashlights?
+- The color red helps the faint stars look brighter and clearer
+- Red light keeps telescope mirrors from getting too hot
++ Red light barely disturbs the pigment that works in the dark
+hint: Bright light bleaches out the pigment, but red light barely touches it.
+explain: Red light is gentle enough to let you see without disturbing your night vision.
+
+--- 🔭
+p: The best first instrument for looking at the night sky isn't a telescope. It's a pair of 10x50 binoculars.
+fact: In 10x50, the first number is ten times magnification and the second is the width of the front lenses in millimeters, which is how much light gets in.
+p: Astronomers often recommend 7x50 or 10x50 binoculars because anything above about 10x is hard to hold steady.
+check: What does the second number in 10x50 tell you?
++ The width of the front lenses in millimeters, how much light gets in
+- The power of the lenses, how many times they enlarge things
+- The weight of the whole binoculars in ounces, how heavy they are
+hint: Look at the fact box. It explains what each number means.
+explain: The second number is the width of the front lenses in millimeters. This tells you how much light gets in, which is really important for seeing well in the dark.
+
+--- 🪣
+p: A telescope's real job is not about making things look bigger. It is about collecting more light.
+fact: A 6-inch mirror gathers around 500 times as much light as your eye can on its own. That is why it shows you things your eye cannot see at all.
+p: Magnification is a separate setting. You change it by swapping the eyepiece. But too much magnification just gives you a big, dim, mushy blob.
+check: What is a telescope's real job?
+- Making things look bigger
++ Collecting light
+- Changing colors
+hint: Look at the first number on the page. It shows how much more light a 6-inch mirror can collect.
+explain: A telescope collects light, which is why it can show you things your eye cannot see at all.
+
+--- 🗜️
+p: Galileo's telescope was not fancy by today's standards. It magnified about twenty times and showed a tiny bit of sky at a time.
+fact: Yet with that, he found four points of light beside Jupiter that moved each night, mountains on the moon, and phases of Venus.
+p: He called those four points of light the Medicean Stars, but everyone else called them the Galilean moons. You can see them yourself with binoculars.
+try: Brace a pair of binoculars against a fence or door frame and look at Jupiter. Three or four tiny dots beside it are the Galilean moons. Look again another night and you'll see they have shuffled positions.
+
+--- 🎹
+p: William Herschel was a musician who made his own telescopes. On 13 March 1781, he was scanning the sky from his garden in Bath.
+fact: He found a small disk that was not a star. He thought it was a comet at first, but it turned out to be a planet, the first ever found with a telescope.
+check: What did Herschel find?
+- A comet, the first one seen through a telescope
++ A planet, the first found with a telescope
+- A new star, the closest one beyond the sun
+hint: Look at the fact box. It tells what he thought he saw at first.
+explain: He spotted a small disk and thought it was a comet, but it turned out to be a new planet.
+
+--- 🪞
+p: In 1948, the 200-inch Hale telescope opened on Palomar Mountain. Its mirror is a single disk of Pyrex, over 16 feet across and weighing 14.5 tons.
+fact: The Hale stayed the most capable telescope on Earth for 45 years. Each Keck telescope in Hawaii now uses 36 hexagons to make its mirror, along with lasers to cancel out the blur of the air.
+p: The Keck telescopes in Hawaii use a smart trick to see clearly. They fire a laser into the sky to light up sodium atoms about 56 miles up, creating an artificial star.
+check: How many hexagons make up a Keck mirror?
+- 16
++ 36
+- 45
+hint: Each Keck telescope uses 36 hexagons.
+explain: Each Keck mirror is made of 36 hexagonal pieces.
+
+--- 🛰️
+p: Hubble launched on 24 April 1990, but there was a problem. Its mirror was ground the wrong shape.
+fact: The edge of Hubble's mirror was too flat by about four microns, which is a fiftieth the thickness of a hair. Every picture came back blurry.
+p: In December 1993, astronauts flew up and fixed it. They fitted corrective optics to Hubble, like spectacles.
+check: How was Hubble fixed?
++ Astronauts fitted corrective optics, like spectacles
+- A new mirror was installed
+- The telescope was brought back to Earth for repairs
+hint: Look at the last paragraph. It says what the astronauts fitted, like a pair of spectacles.
+explain: Astronauts flew up and fitted corrective optics, like spectacles, to fix Hubble's blurry vision.
+
+--- 🌟
+p: Imagine a telescope so big that it has to fold up for its journey into space.
+fact: Webb's mirror is 21 feet 4 inches across and made of 18 gold-covered hexagons. It sits about a million miles from Earth behind a five-layer sunshield the size of a tennis court, looking in infrared.
+term: infrared = Heat you cannot see. Webb has to be colder than anything it looks at, so its sunshield holds about 570 degrees F between its hot side and its cold side.
+p: Every unfolding step had to work perfectly once it was launched. And they did.
+
+--- 📡
+p: Some telescopes have no lens and no eyepiece because they catch radio waves instead of light.
+fact: The Green Bank dish in West Virginia is 328 feet (100 m) across, covers over two acres, and steers to any part of the sky. What comes out is a measurement, not a picture.
+p: The Arecibo dish in Puerto Rico was once the largest single dish for over fifty years. But its support cables gave way, and the platform crashed into it on December 1, 2020.
+p: Now China's FAST is the biggest, at 1,640 feet. It can only aim about 1,000 feet (300 m) of itself at a time.
+
+--- 🏔️
+p: Big telescopes end up in awkward places because they need still, dry, dark air above them.
+fact: Mauna Kea in Hawaii sits at 13,800 feet, high enough to make people ill. The Atacama in Chile is one of the driest deserts on Earth. Both give sharper pictures.
+p: Water vapor in the air soaks up infrared, so dry sites see colors wet ones cannot. Height gets you above part of the atmosphere and most of the turbulence. Nobody builds a major observatory somewhere convenient.
+check: Why do big telescopes sit in awkward places?
+- They are cheaper to build on hills
+- They get free power from the wind
++ They need still, dry, dark air
+hint: Look at the first fact on the page about Mauna Kea and the Atacama.
+explain: Big telescopes need still, dry, and dark air for the best views.
+
+--- 📜
+p: So how do we look at the sky? Every instrument is an extension of one simple activity.
+fact(The written account says): In Genesis 1:14, the lights in the sky are "for signs and for seasons, and for days and years."
+p: Think of Galileo's little tube or the giant Webb telescope. Each one is just a tool to help us do what we have always done.
+p: The oldest working instrument is still the naked eye. It is not retired. Bessel’s parallax, Goodricke's timing of Algol, and the Chinese record of the guest star in 1054 all came from watching. So did every constellation ever named.
+

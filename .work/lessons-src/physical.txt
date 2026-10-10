@@ -1,0 +1,563 @@
+=== physical-forces
+idea: Gravity makes a hammer and feather fall together on the moon, but not on Earth. Learn how simple machines like levers help us lift heavy things.
+game: Lever = Moves one end to get more force at the other | Rocket = Throws gas out the back to move forward | Friction = Turns movement into heat | Hammer and Feather = Fall together with no air resistance | Brake Discs = Glow hot from friction | Nutcrackers = A kind of lever
+
+--- 🔨
+p: On the last Apollo 15 moonwalk, David Scott held out a geology hammer and a falcon feather.
+fact: He let go of both, and with no air in the way they hit the dust together. The camera was running, so everybody could see it happen.
+check: What happened when Scott let go of the hammer and the feather?
+- The hammer hit first
++ They hit the dust together
+- The feather floated away
+hint: Look at the fact box. It tells you what happened with no air in the way.
+explain: With no air resistance, both the hammer and the feather hit the ground at the same time.
+
+--- 🪶
+p: On Earth, a feather falls slower than a hammer because of air.
+fact: Air pushes back harder the faster you fall and the more spread out you are. When the push equals your weight, you stop speeding up. A skydiver levels off at about 120 mph.
+try: Drop two identical sheets of paper, one flat and one screwed into a ball. Same paper, same weight, but they will fall very differently.
+check: Why does a feather fall slower than a hammer on Earth?
++ The air pushes back on it
+- The feather is lighter
+- The hammer is heavier
+hint: Look at the fact box. It explains how air affects falling objects.
+explain: Air resistance slows down the feather because it pushes back harder, especially on something spread out like a feather.
+
+--- 🛷
+p: A moving thing keeps moving in a straight line unless something pushes it.
+fact: On Earth, friction and air are always pushing back. But on ice or in space, you can see it plainly.
+try: Slide a book across a smooth floor and then across a rug. Notice how the rug makes it stop faster.
+try: Put a card on a glass and a coin on the card. Flick the card sideways hard. The coin does not come with it — it drops straight into the glass.
+
+--- 🔥
+p: Friction stops everything by turning movement into heat.
+fact: Brake discs glow hot, and rubbing your hands warms them up. Rough surfaces make more friction, but so do some very smooth ones — two flat sheets of glass grip surprisingly hard.
+try: Rub your hands together fast. You will feel the heat.
+check: What does friction turn movement into?
+- Light
+- Sound
++ Heat
+hint: Look at the first fact on the page to see what happens when you rub your hands.
+explain: Friction turns movement into heat, which is why rubbing your hands together warms them up.
+
+--- ⚖️
+p: A lever is a simple machine that trades distance for force.
+term: lever = A tool that lets you push or pull one end to move something else with more force at the other end.
+fact: Push the far end of a long bar a long way, and the near end moves a short way but with much more force. Scissors, nutcrackers, wheelbarrows, your own forearm, and a seesaw are all levers.
+check: What does a lever trade?
+- Force for distance
++ Distance for force
+- Time for speed
+hint: Look at the first fact on the page to see how the ends of a lever move differently.
+explain: A lever moves one end a long way to get more force at the other end.
+
+--- 🚀
+p: Every push comes with an equal push the other way.
+fact: A rocket does not push against the air — it throws gas out of the back, and the gas pushes the rocket forward.
+p: That is why rockets work better in space. With nothing in the way, the gas still pushes the rocket forward without any resistance.
+check: What pushes a rocket forward?
+- The force of the engine
+- The air pushing against the rocket
++ The gas it throws out the back
+hint: Look at the first fact on the page to see what the rocket throws out.
+explain: The gas that comes out the back pushes the rocket forward.
+
+--- 🌙
+p: A hammer and a feather landing together. A brake glowing hot. A lever lifting something heavy. A rocket leaving the ground.
+p: Four different things, and every one of them follows the same few rules about pushes and motion.
+
+=== physical-energy
+idea: Energy changes form but is never lost. Find out how a rubber band warms up when stretched quickly.
+game: Pendulum = Trades height for speed | Cereal box number = Burned food's warmth measured | AA battery = About as much energy as a single peanut | Cycling = More efficient than walking
+
+--- 🎢
+p: Why does a pendulum never swing back higher than where you let it go?
+fact: A pendulum trades height for speed on the way down and speed for height on the way up, but it loses a little energy to the air each time.
+try: Tie a small weight to a string, hold the string up, and let the weight swing. Watch whether it ever swings back higher than where you let it go.
+check: Why does a pendulum never swing higher than where you let it go?
+- The string gets a bit shorter each time it swings
++ It loses a little energy to the air each swing
+- Gravity pulls a little less with each swing
+hint: Look at the fact box. It explains what happens each time the pendulum swings.
+explain: Each swing, the pendulum loses a little energy to the air, so it never quite reaches as high.
+
+--- ♾️
+p: Imagine a ball rolling down a hill. It loses height but gains speed, and then when it rolls back up, it slows down again. Energy changes form but is never lost.
+fact(Worked out): Energy is never made or destroyed, only changed from one form to another. Nobody has ever seen an exception, even though people have looked very hard.
+p: It is the most tested idea in physics. Every careful measurement anyone has ever made has agreed with it.
+check: Why do we trust that energy is never destroyed?
++ Every careful measurement has agreed with it
+- Great scientists long ago voted that it must be so
+- Nobody has ever tried to prove that it is false
+hint: Look at the fact box. It explains why this idea holds up.
+explain: Every careful measurement anyone has ever made agrees with the idea that energy changes form but is never destroyed.
+
+--- 🎈
+p: Take a rubber band and stretch it quickly. It gets warmer.
+fact: Stretch a rubber band fast and you can feel it warm up on your lip. Let it snap back and it cools down again.
+try: Touch a rubber band to your lip, then stretch it fast and touch it again. Wait for it to relax and touch one more time.
+check: What happens to a rubber band when you stretch it quickly?
+- It stays the same temperature
+- It gets cooler
++ It gets warmer
+hint: Stretch the rubber band fast and touch it to your lip.
+explain: When you stretch a rubber band quickly, it gets warmer, and you can feel that warmth on your lip.
+
+--- 🍎
+p: Have you ever wondered where the number on a cereal box comes from?
+term: Calorie = The heat needed to warm 1 kg of water by 1 degree Celsius.
+fact: To find the number on a cereal box, they burn the food in a sealed metal chamber sitting in water. They measure how much the water warms up.
+check: How does the number on a cereal box get found?
+- A scale weighs the food and the weight is turned into calories
++ The food is burned and the water's warming is measured
+- Testers taste the food and score how sweet it is
+hint: Look at the fact box. It tells you what they burn and measure.
+explain: The food is burned in a sealed chamber, and the amount of heat it gives off warms the water. That warmth is measured to find the calorie count.
+
+--- 🔋
+p: An AA battery holds about as much energy as a single peanut.
+fact(Worked out): A car's gasoline tank holds about as much energy as a hundred sticks of dynamite.
+p: Chemical fuels are very concentrated. That is why batteries are the hard part of every electric machine.
+
+--- 🚲
+p: Imagine the most efficient way to move from one place to another. It turns out, a person on a bicycle is the best.
+fact(Worked out): A person walking uses about three times as much energy per pound carried per mile compared to cycling.
+check: Which uses about three times as much energy as cycling?
++ Walking
+- Running
+- Swimming
+hint: Look at the fact box. It tells you how much more walking uses.
+explain: Walking uses about three times as much energy as cycling.
+
+--- ⚡
+p: Energy swings, stretches, burns and rolls. Through all of it, nobody has ever seen any of it lost.
+p: So when you pedal or walk, the energy you use does not vanish. It changes into something else.
+
+=== physical-light
+idea: Light travels from the sun to Earth in about 8 minutes. Discover how it bends, scatters, and reflects along the way.
+game: Sunlight = Takes 8 minutes to reach Earth | Prism = Spreads white light into colors | Air = Scatters blue light more than red | Mirror = Bounces light at the same angle | Water = Makes a pencil look broken | Paint = Takes colors away, making a muddy brown
+
+--- ☀️
+p: Have you ever thought about how long it takes for sunlight to reach us? The sun you see right now isn't exactly what’s happening there right now.
+fact: Light travels 186,282 miles every second. Sunlight takes 8 minutes and 20 seconds to reach you, so the sun you see is always the sun of eight minutes ago.
+p: The speed of light was first figured out by watching Jupiter's moons. Now, scientists use lasers to bounce light back and forth and measure it that way.
+check: How old is the sun you see right now?
+- About 8 seconds old
++ About 8 minutes old
+- About 8 hours old
+hint: Look at the first number on the page.
+explain: The sunlight you see took about 8 minutes and 20 seconds to reach you, so it shows you the sun as it was eight minutes ago.
+
+--- 🌈
+p: White light is actually every color mixed together. You can see all the colors when you use something called a prism.
+term: prism = A piece of glass or clear material that spreads light into its colors.
+fact: A prism spreads white light because each color bends a little differently. Newton put a second prism in the way and put the colors back into white light again.
+check: What did Newton's second prism do?
++ Put the colors back into white light
+- Turned the colors into shades of gray
+- Split each color into many smaller colors
+hint: Look at the fact box to see what the second prism did.
+explain: The second prism mixed all the colors back together to make white light again.
+
+--- 🌅
+p: The sky is blue because air scatters short waves, like blue, much more strongly than long ones, like red.
+fact(Worked out): Air bounces blue light all over while red light comes straight through. At sunset, the light travels through far more air, so the blue gets scattered away and you see red.
+try: Put a few drops of milk in a glass of water and shine a flashlight through it from the side. The water looks bluish from the side and orange from the end.
+check: Why is the sky blue?
+- Air scatters red light more strongly
+- The sun changes color during the day
++ Air scatters blue light more strongly
+hint: Look at the fact box to see how air affects different colors of light.
+explain: Air bounces blue light all over, making the sky look blue.
+
+--- 🪞
+p: When light hits a mirror, it bounces off at exactly the same angle it arrived, like a ball hitting a wall.
+fact: This one rule explains how every mirror, periscope, and reflector works.
+try: Shine a flashlight at a mirror from a slant in a dark room with a little dust or steam in the air so the beam shows. Change the angle and watch the reflection change by the same amount.
+
+--- 🥛
+p: Light does something surprising when it crosses from air into water.
+fact: Light bends as it moves between air and water. That's why a pencil in a glass of water looks broken, and why a pool is deeper than it seems.
+try: Stand a pencil in a glass of water and look at it from the side. You'll see the pencil appear to bend or break.
+check: Why does a pencil in water look broken?
++ Light bends as it crosses between water and air
+- The wood softens and bends where it touches the water
+- The water pushes up on the pencil and bends it
+hint: Look at the fact box. It explains why light bends between water and air.
+explain: Light bends as it moves between water and air, making the pencil look broken.
+
+--- 🎨
+p: Mixing light and mixing paint are opposites.
+fact: Red, green, and blue light together make white. But red, green, and blue paint together make a muddy brown because each paint takes colors away rather than adding them.
+try: Put a drop of water on a phone screen showing a white picture and look closely. You will see the red, green, and blue stripes the screen is really made of.
+check: What do red, green, and blue paint make together?
+- A bright yellow
+- A beautiful purple
++ A muddy brown
+hint: Look at the fact box. It explains how mixing paints takes colors away.
+explain: Red, green, and blue paint together make a muddy brown because each paint is taking colors away.
+
+--- 🔦
+p: A sun that is eight minutes old. White light split by a prism. A blue sky that turns red at sunset. A mirror, a pencil in water, a box of paints.
+p: One light, and so many ways to watch it change.
+
+=== physical-sound
+idea: Sound is a journey that can be fast or slow, loud or high-pitched. Discover how to measure distance with an echo and why children hear higher pitches than adults.
+game: Echo = Sound that comes back | Pitch = How many times something vibrates per second | Resonance = When sound makes an object vibrate | Speed of sound = About 767 mph in air | Whale communication = Uses fast sound travel in water
+
+--- 🔔
+p: Sound needs something to travel through. Put a ringing alarm inside a jar and pump the air out, and the ringing fades to nothing while you can still see the hammer moving.
+fact: Space is genuinely silent because there is nothing for sound to travel through.
+check: What happens to the ringing when the air is pumped out of the jar?
+- It gets much louder because the jar is now empty inside
++ It fades to nothing though you can still see the hammer move
+- The hammer stops moving and the ringing stops with it
+hint: Look at the first sentence on the page.
+explain: With no air in the jar, there's nothing for the sound to travel through, so it fades away even as the hammer keeps moving.
+
+--- ⏱️
+p: Sound moves about 767 mph through air, which means it takes roughly five seconds to travel a mile.
+fact: Light is so fast that it feels like it arrives instantly. That's why you can measure how far away a storm is by counting the seconds between seeing lightning and hearing thunder.
+try: When you see lightning, count the seconds until you hear the thunder. Divide that number by five, and you'll know how many miles away the storm struck.
+check: About how long does sound take to travel one mile?
++ About five seconds
+- About 10 seconds
+- About 20 seconds
+hint: Look at the first sentence on the page.
+explain: Sound takes about five seconds to travel a mile, so you can use this to estimate the distance of a storm.
+
+--- 🐋
+p: Sound moves much faster in water than in air, and even faster in steel.
+fact: In water, sound is more than four times faster than in air. In steel, it is even faster still.
+p: Whales use this to talk over long distances under the sea. People used to listen for trains by putting an ear to a metal rail.
+check: Where does sound travel fastest of these?
+- Air
+- Water
++ Steel
+hint: Look at the first fact on the page.
+explain: Sound travels fastest in steel, then water, and slowest in air.
+
+--- 🎼
+term: pitch = How many times a second something vibrates.
+fact: People hear from about 20 vibrations a second up to about 20,000. Children can hear the high end better than adults can.
+try: Run your fingernail slowly along a comb, then do it fast. Same comb, same teeth, but different pitch — only the rate changed.
+check: What is pitch?
+- How much space a sound fills up in a room
++ How many times a second something vibrates
+- How hard something is struck to make a sound
+hint: The definition of pitch is in the term box.
+explain: Pitch is how many times a second something vibrates.
+
+--- 🍷
+fact: Every object has a note it likes to vibrate at. Hit it, and it rings at that note. Sing that same note at it, and it starts to vibrate on its own. That is how a voice can shatter a wine glass.
+term: resonance = When something vibrates because the sound around it matches its own preferred note.
+try: Tap a glass and listen for its note. You can also wet your finger and run it slowly round the rim of a wine glass until it sings.
+check: How can a voice shatter a glass?
+- Shouting so loudly that the sound crushes the glass flat
+- Blowing a hot breath onto the glass until it heats and cracks
++ Singing the glass's own note makes it vibrate on its own
+hint: Look at the fact box. It explains how resonance works.
+explain: When you sing the exact note that the glass likes to vibrate at, it starts vibrating and can even shatter.
+
+--- 🦇
+p: An echo is sound that has gone somewhere and come back.
+fact: Time the round trip, halve it, then multiply by the speed of sound, and you measure a distance without touching it.
+p: Ships find the seabed this way and bats find moths.
+check: How do you measure distance with an echo?
++ Time the round trip, halve it, and multiply by the speed of sound
+- Measure the height of the wall and multiply it by how loud the echo is
+- Count how many echoes come back and multiply by the size of the room
+hint: Look at the fact box. It explains the steps to calculate the distance.
+explain: You time how long it takes for the sound to return, halve that time, and then multiply by the speed of sound to get the distance.
+
+--- 🎧
+p: Sound needs something to travel through. It moves faster in water and faster still in steel. Everything has a note it likes to ring at, and sometimes the sound comes back as an echo.
+p: So next time you hear a sound, think about its trip, its shake, and maybe even its return.
+
+=== physical-heat
+idea: Heat only ever moves from hotter to colder, and that one rule explains a fridge, a breeze and a frozen pond. Find out where cold stops.
+game: −459.67°F = The bottom of cold | Wet cloth = Cools a drink | Fridge = Takes heat out and dumps it behind | Warm air = Rises because it is thinner
+
+--- 🥄
+p: Take two spoons lying side by side in a drawer. They are at exactly the same temperature, but one feels much colder than the other.
+fact: A metal spoon feels colder because it carries heat away from your finger fast. Your skin does not measure temperature — it measures how quickly heat is leaving.
+try: Leave a metal spoon and a wooden one in the same drawer overnight, then touch both.
+check: Why does metal feel colder than wood at the same temperature?
+- Its shiny surface reflects your finger's warmth
++ It carries heat away from your finger faster
+- It soaks up cold from the air and holds it inside
+hint: Touch both spoons after leaving them in the same place.
+explain: Metal feels colder because it takes heat away from your skin quickly.
+
+--- ➡️
+p: Heat moves from hotter to colder, and that's all it does on its own.
+fact: A fridge does not make cold. It takes heat out of the inside and dumps it out of the back.
+try: Put your hand behind a fridge. That warmth is the heat that used to be in your food.
+check: Where does a fridge put the heat it takes out?
++ Out of the back
+- Inside the fridge
+- Up into the air
+hint: Feel the back or underneath of your fridge.
+explain: The warmth you feel there is the heat the fridge took out of your food.
+
+--- 🎈
+p: Warm air rises because it is thinner than cold air.
+fact: Warm air rises and cold air slides in underneath. This single fact drives every breeze, every cloud, every hot-air balloon, and even the draft under your door.
+try: Cut a paper spiral, hang it by a thread over a radiator or lamp, and watch it turn. Nothing is blowing on it.
+check: Why does warm air rise?
+- It is heavier than cold air
+- It sinks below cold air
++ It is thinner than cold air
+hint: Look at the first fact box. Warm air rises because it is thinner.
+explain: Warm air is thinner, so it rises and cold air slides in underneath.
+
+--- 🧊
+p: Most things shrink when they freeze, but water does something different.
+fact: Water expands by about nine percent when it freezes. That is why ice floats, pipes burst, and the top of a pond freezes while fish keep swimming underneath.
+check: Why do fish survive under a frozen pond?
+- Fish make their own heat to melt a hole in the ice
++ Ice floats, so the pond freezes from the top
+- Fish stay warm by swimming around very fast
+hint: Look at the first fact box. It tells you what happens when water freezes.
+explain: Ice floats because it is less dense than liquid water, so only the surface of a pond freezes, leaving fish safe below.
+
+--- 💦
+p: Have you ever felt cold getting out of a bath? There is a reason for that.
+fact: Evaporating water takes heat with it. That's why you feel cold after a bath, why sweating cools you down, and why a wet cloth around a bottle keeps the drink cool on a hot day.
+try: Wrap a wet cloth around a bottle and watch how it cools the drink.
+check: Why do you feel cold getting out of a bath?
++ Evaporating water takes heat with it
+- The room is colder than the water
+- The air dries your skin too quickly
+hint: Look at the first fact box. It tells you what happens when water evaporates.
+explain: Evaporating water takes heat with it, so as the water on your skin evaporates, it takes your body heat with it, making you feel cold.
+
+--- 🥶
+fact(absolute zero): There is a bottom to cold, at −459.67°F. At this point, nothing has any heat left to give up, and nothing can be colder.
+term: absolute zero = The coldest possible temperature, where nothing has any heat left to give up.
+p: Nobody has ever reached this temperature. Laboratories have gotten within a few billionths of a degree, but each step closer takes enormously more effort than the last.
+check: Is there a coldest possible temperature?
+- No, cold can go on forever
+- It changes depending on where you are
++ Yes, minus 459.67 F
+hint: Look at the fact box about absolute zero.
+explain: The coldest possible temperature is −459.67°F, known as absolute zero. At this point, nothing can be colder.
+
+--- 🔥
+p: Heat always moves from hotter to colder, like water flowing downhill.
+p: That is why a fridge is warm at the back, why warm air rises, and why a wet cloth cools a bottle.
+fact: Heat flows downhill. It moves from hot to cold, no matter what. This simple rule explains a lot about our world.
+
+=== physical-electric
+idea: Electricity is all around us, moving through wires and sometimes giving you a tiny shock. Find out what makes lightning so powerful and why plastic covers wires.
+game: Tiny charges = Move between two things | Switch = Breaks the loop to stop flow | Ammeter = Reads push on a magnet | Copper and zinc = Metals in the first battery | Plastic = Stops electricity from escaping | 30,000 amps = Current in a lightning bolt
+
+--- 🎈
+p: Have you ever rubbed a balloon on your hair and stuck it to the wall? Something moves when you do that.
+fact: Rubbing two things together moves tiny charges from one to the other, leaving one positive and one negative. They then pull toward each other.
+try: Rub a balloon on your hair and hold it near a thin stream of water from a faucet. The water bends toward the balloon.
+check: What moves when you rub two things together?
++ Tiny charges
+- Tiny hairs
+- Tiny dust particles
+hint: Look at the fact box. It tells you what moves between the two things.
+explain: When you rub the balloon on your hair, tiny charges move from your hair to the balloon.
+
+--- 🔁
+p: Electricity needs a complete loop to flow. Break the loop anywhere, and everything stops.
+fact: A switch breaks the loop so nothing flows. That is why one dead bulb used to kill a whole string of Christmas lights.
+try: With a battery, a wire, and a small bulb, find every arrangement that lights it. There are fewer than you expect.
+check: What does a switch do?
+- It makes the bulb shine much brighter
+- It pumps new electricity into the loop
++ It breaks the loop so nothing flows
+hint: The fact box explains what a switch does to the loop.
+explain: A switch breaks the loop, stopping the flow of electricity.
+
+--- 🧲
+term: electron = A particle far too small to see. Electrons are what flows in a wire.
+fact(Worked out): We know how many are flowing because a current pushes a magnet by a measurable amount. That push is what an ammeter reads.
+check: How do we know how much electricity is flowing?
+- A strong microscope lets us watch the electrons flow
++ A current pushes a magnet by a measurable amount
+- A tiny machine counts each electron that goes by
+hint: The fact box tells you how we measure the flow.
+explain: We cannot see the electrons, but we can measure the push on a magnet to know how much is flowing.
+
+--- 🍋
+p: A battery makes electricity from a chemical reaction between two different metals with something wet in between.
+fact: The first battery was a stack of copper and zinc discs, with brine-soaked cardboard between them.
+try: Push a galvanised nail and a copper coin into a lemon, not touching. Touch both with your tongue. That faint tingle is a working battery.
+check: What does a battery need?
+- Two same metals with something dry between them
+- One metal and a dry sponge
++ Two different metals with something wet between them
+hint: The fact box lists the materials in the first battery.
+explain: A battery needs two different metals with something wet in between to make electricity.
+
+--- 🔌
+p: Metals let electricity through, but glass, rubber, dry wood, and air do not.
+fact: Wires are made of copper wrapped in plastic because plastic stops electricity from escaping.
+p: Pure water does not conduct electricity well, but as soon as you add anything dissolved in it, like salt, it becomes a good conductor.
+check: Why are wires wrapped in plastic?
++ Plastic stops electricity
+- To make them look colorful
+- To make them heavier
+hint: The fact box explains what plastic does in wires.
+explain: Plastic stops electricity from escaping, keeping the flow inside the wire.
+
+--- ⚡
+p: Lightning is not just a pretty flash. A bolt carries around 30,000 amps and heats the air to about 50,000°F — that’s five times hotter than the surface of the sun.
+fact(Worked out): The temperature is worked out from the colors in the light. Thunder is that heated air exploding outward.
+check: What is thunder?
+- Clouds crashing together in the sky
++ Air exploding outward from the bolt
+- Strong wind rushing between two clouds
+hint: Look at the fact box to see what causes thunder.
+explain: Thunder happens when the heated air around the lightning bolt explodes outward.
+
+--- 🔋
+p: A spark from a balloon and a bolt from a cloud are the same kind of thing: tiny charges on the move.
+p: Break the loop and it stops. Close it and it flows.
+
+=== physical-magnets
+idea: Cut a magnet in half and you get two magnets. Find out why a compass does not point at the North Pole, and how a magnet switching on and off makes a motor spin.
+game: North Pole = Not where a compass needle points | Magnetic pole = Where a compass needle really points | Iron = Sticks to magnets | Electromagnet = Becomes magnetic with electricity | Compass = Points toward the magnetic pole
+
+--- 🧲
+p: Every magnet has two ends, but you can't have just one of those ends on its own.
+fact: Snap a bar magnet in half and you don’t get a north piece and a south piece — you get two smaller magnets, each with both ends.
+check: What do you get if you snap a bar magnet in half?
++ Two smaller magnets
+- One north end and one south end
+- A single piece with no magnetic ends
+hint: Each half still has both ends.
+explain: Both halves of the snapped magnet will still have a north and a south end.
+
+--- 🧭
+p: A compass needle does not point at the North Pole as you might think.
+fact: It points at the magnetic pole, which is somewhere else entirely. The difference can be tens of degrees depending on where you are standing.
+p: Maps print the correction for that spot so you can adjust and find your true direction.
+check: Where does a compass needle really point?
+- At the North Pole
+- Toward the North Star
++ At the magnetic pole
+hint: The needle points at the magnetic pole, not the North Pole.
+explain: The magnetic pole is different from the North Pole, and the difference can be tens of degrees.
+
+--- 🌐
+p: The magnetic north pole does not stay still. It moves around.
+fact: Since 1831, scientists have tracked its movement. Right now, it is crossing the Arctic toward Siberia.
+p: Recently, it moved so fast that navigation models had to be updated early.
+p: Survey aircraft and satellites measure where it is.
+
+--- 🔩
+p: Not everything is magnetic. Only a few things stick to a magnet.
+fact: Iron, nickel, and cobalt are magnetic, as well as mixtures that contain them. Aluminum, copper, gold, and silver are not.
+try: Grab a fridge magnet and test some coins and a spoon. See which ones stick.
+check: Which of these is magnetic?
+- Aluminum
++ Iron
+- Gold
+hint: Look at the fact box. It lists iron as one of the magnetic materials.
+explain: Iron sticks to magnets, but aluminum and gold do not.
+
+--- 🪛
+p: Electricity and magnetism are like twins wearing different hats. They are the same thing, just showing up in different ways.
+fact: Wrap wire around an iron nail, connect a battery, and the nail becomes a magnet. Disconnect it and the magnetism stops.
+term: electromagnet = A magnet that works only while electricity flows through a wire coiled around iron.
+check: What happens to the nail magnet when you disconnect the battery?
+- The magnet stays strong
++ The magnetism stops
+- The nail gets hot
+hint: Look at the fact box. It tells you what happens when you disconnect the battery.
+explain: When you disconnect the battery, the magnetism in the nail stops.
+
+--- 🌀
+p: Think about all the motors you use every day: fans, drills, washing machines, even the buzz in your phone.
+fact: Nearly every motor works by switching an electromagnet on and off. The moving part is always being pulled toward the next position but never quite arrives. A magnet that simply attracts would pull once and stop.
+check: Why do motors keep switching the magnet?
+- The magnet gets too hot and has to be turned off to cool
+- A fresh magnet is swapped in because the old one wears out
++ A magnet that only attracts would pull once and stop
+hint: Look at the fact box. It explains why a magnet that only attracts would pull once and stop.
+explain: A magnet that simply attracts would pull once and stop. The switching keeps it moving.
+
+--- 🚀
+p: Two ends that never come apart. A compass that points at the wrong pole. A nail that is a magnet only while a battery is connected.
+p: And inside every fan and drill, a magnet switching on and off, over and over.
+
+=== physical-matter
+idea: Water can be a solid, a liquid and a gas before lunch. Find out why a steel ship floats, why you cannot feel the air pressing on you, and how you can run across a liquid.
+game: Water = The one substance that is ice, water and steam | Denver = Where water boils at about 202°F | Steel ship = Floats because most of it is air | Cornflour and water = A liquid that goes hard when hit | Air = Presses 14.7 pounds on every square inch | Atom = Too small for any ordinary microscope
+
+--- 💧
+p: Which thing in your kitchen can be a solid, a liquid, and a gas all in the same day?
+fact: Water is the one substance that does it naturally — ice, water, steam. Everything else in your house stays as it is unless you do something drastic to it.
+try: Put some ice in a pan with a thermometer in it and heat it slowly. Watch for the pause in temperature while the ice melts.
+check: Which everyday substance can be ice, water, and steam?
+- Metal
++ Water
+- Wood
+hint: Look at the first fact box on the page.
+explain: Water can be ice, liquid water, and steam. It changes naturally throughout the day.
+
+--- ⛰️
+p: Water does not always boil at 212°F. Up in Denver, a mile up, it boils at about 202°F.
+fact: There is less air pressing down on it up there, so it boils cooler.
+p: Food takes longer to cook in Denver, and packet instructions say so. On high enough mountains, you can boil water that is not hot enough to make tea properly.
+check: Why does water boil cooler in Denver?
++ Less air is pressing down on it
+- The cold wind cools off the water
+- The water in Denver is much cleaner
+hint: Look at the fact box. It tells you why water boils cooler.
+explain: In Denver, less air presses down on the water, so it boils at a lower temperature.
+
+--- 🚢
+p: Whether something floats depends on how heavy it is for its size, not just how heavy it is.
+fact: A steel ship floats because most of it is air. A steel bolt does not float because it is all steel with no air.
+try: Take a bowl and a coin. Float the bowl, sink the coin.
+check: Why does a steel ship float?
+- The water is warmer
+- It is made of wood
++ Most of it is air
+hint: Look at the fact box. It explains what makes the difference for the ship.
+explain: Most of the ship is air, so it floats even though it is made of heavy steel.
+
+--- 🌬️
+p: You might think air is weightless, but it has heft.
+fact: At sea level, air presses on you at 14.7 pounds on every square inch. That is a few tons over your whole body.
+p: But you do not feel this heavy air pressing down because it pushes from inside you too.
+check: Why do you not feel the weight of the air?
++ It pushes from inside you too
+- The air weighs nothing at all
+- Your skin is too thick to feel it
+hint: Look at the paragraph before the check.
+explain: Air pressure pushes from inside you as well, so you do not feel its weight.
+
+--- 🥣
+p: Imagine a liquid you can run across. That sounds impossible, but mix cornflour and water and that is exactly what you get.
+fact: Hit it and it goes hard; leave your hand there and you sink. The grains jam together when pushed suddenly and slide when pushed slowly.
+try: Mix cornflour with water until it pours like cream. Punch it fast, then press slowly. Same bowl, two completely different substances.
+check: What happens if you hit cornflour and water?
+- You sink right in
+- It spills everywhere
++ It goes hard
+hint: Look at the fact above the try block.
+explain: When you hit it, the grains jam together, making it go hard.
+
+--- 🔬
+term: atom = The teeny-tiny bits that make up everything around us.
+fact(Worked out, not seen): Atoms are smaller than the waves light is made of. That means no ordinary microscope will ever show one.
+p: The first pictures of atoms were made by dragging an extremely fine needle across a surface and recording the bumps.
+check: How were the first pictures of atoms made?
+- By zooming a very powerful camera in close on a surface
++ By dragging an extremely fine needle across a surface
+- By soaking a surface in dye and looking at it under a lamp
+hint: Look at the fact above the check block.
+explain: The needle records the bumps as it drags across, showing us what the atoms look like.
+
+--- ⚛️
+p: One substance in three forms. Air that weighs something. A ship that floats because it is mostly air. A liquid that goes hard when you hit it.
+p: And all of it is built from atoms that no ordinary microscope will ever show.
+

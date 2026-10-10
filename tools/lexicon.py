@@ -73,6 +73,13 @@ WORDS = {
     'Othniel': 'ˈɑθniˌɛl',
     'Galapagos': 'ɡəlˈɑpəɡOs',
     'Galápagos': 'ɡəlˈɑpəɡOs',
+    # Wonder Lab's lesson rewrite: names the guess got wrong (checked by phonemizing
+    # each — Kokoro said "NAY-kuh", "kah-oh", "b-DEL-ee-um", "in-JEE").
+    'Naica': 'nˈIkə',                    # NYE-kuh, the Mexican crystal mine
+    'Khao': 'kˈW',                       # Mai Khao beach rhymes with "cow"
+    'Valdivia': 'vældˈiviə',             # val-DEE-vee-uh, Chile
+    'bdellium': 'dˈɛliəm',               # the b is silent, like bdelloid
+    'Inge': 'ˈɪŋə',                      # ING-uh, as in Inge Lehmann
 }
 
 _SIB, _VOICELESS = set('szʃʒʧʤ'), set('ptkfθ')

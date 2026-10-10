@@ -1,0 +1,569 @@
+=== micro-cell
+idea: Cells are the tiny rooms that make up everything living. Discover what's inside them and how they work.
+game: Robert Hooke = The man who saw cork cells | Antonie van Leeuwenhoek = Found swimming animalcules in pond water | DNA = The instructions inside your cells | Mitochondria = Bean-shaped energy releasers in cells | Cell skin = Made of fat, so soap breaks it up
+
+--- 🔬
+p: In 1665, Robert Hooke sliced a piece of cork so thin he could see through it.
+fact: He put the slice under his microscope and found it was full of tiny empty boxes.
+p: These boxes reminded him of the little rooms monks slept in. So he called them cells.
+check: Why did Hooke call them cells?
++ They reminded him of the little rooms monks slept in
+- He thought of the tiny windows in old stone churches
+- They looked like the tiny stones that paved old roads
+hint: The tiny empty boxes reminded him of something specific.
+explain: He named them after the small rooms because that's what they reminded him of.
+
+--- 💧
+p: Antonie van Leeuwenhoek, who made cloth, ground lenses better than anyone else.
+fact: He looked at a drop of pond water and found it full of tiny things swimming around. He called them animalcules.
+p: Nobody believed him until the Royal Society sent someone to check his work.
+check: What did Leeuwenhoek find in a drop of pond water?
+- Tiny flowers floating
++ Tiny things swimming
+- Pieces of cork
+hint: He saw living things moving around.
+explain: He found tiny things swimming, which he called animalcules.
+
+--- 🧮
+p: You are made of about 30 trillion cells. That is a lot, but nobody counted them all.
+fact(Worked out): The number comes from weighing organs and working out the typical size and weight of each kind of cell. Then someone did the math.
+p: In 2016, a correction was published that replaced an older figure which was several times too big. A number repeated in textbooks for decades turned out to have been a rough guess nobody had rechecked.
+check: How was the 30 trillion worked out?
+- By putting a body under a huge microscope and counting every last cell
+- By measuring the height of many people and guessing how many cells they have
++ By weighing organs and working out the typical size of each kind of cell
+hint: The fact box tells you how it was done.
+explain: The number comes from weighing organs and figuring out the typical size of cells, not by counting them all.
+
+--- 🧼
+p: Every cell is wrapped in a skin, just two molecules thick. It decides what gets in and out.
+fact: This skin is made of fat, which is why soap destroys germs and why your fingers wrinkle in the bath.
+try: Put a raw egg in vinegar for two days. The shell dissolves, and you are left with the membrane — a bare cell you can hold.
+check: Why does soap destroy germs?
+- Germs have thin skin made of salt that soap dissolves
+- Soap fills them with water until they burst open
++ Their skin is made of fat and soap breaks it up
+hint: Look at the fact box. It tells you what the skin is made of.
+explain: The skin of germs is made of fat, and soap breaks that up.
+
+--- 🧵
+p: Inside every cell is a long string of instructions called DNA.
+term: DNA = The instructions inside your cells that tell them what to do.
+fact(Worked out): If you pulled the DNA out of one of your cells and stretched it into a line, it would be about 6 feet long. It fits because it is wound round protein spools and coiled again and again, like a very long rope packed into a very small bag.
+check: About how long is the DNA in one cell if you stretch it out?
++ About 6 feet
+- About 1 foot
+- About 12 feet
+hint: The fact box tells you the exact length when stretched out.
+explain: The DNA is about 6 feet long when stretched out, but it's packed tightly inside the cell.
+
+--- 🔋
+p: Inside almost every cell, there are hundreds of bean-shaped parts that do nothing but release energy from food.
+term: mitochondria = The bean-shaped parts inside your cells that release energy from food.
+fact: Muscle cells that work hard are packed with them; a heart muscle cell can be a third mitochondria by volume.
+check: What do mitochondria do?
+- Make the cell grow bigger
++ Release energy from food
+- Carry instructions for the cell
+hint: The first paragraph explains what they do.
+explain: Mitochondria release energy from food, helping cells function.
+
+--- 🧬
+p: From a slice of cork in 1665 to the thirty trillion cells in you, each one is wrapped in a skin of fat, packed with DNA and tiny energy makers.
+p: Not bad for something nobody could see until someone ground a good lens.
+
+=== micro-bacteria
+idea: A thousand bacteria fit across the head of a pin, and one can become over a thousand in ten hours. Find out why most of them are on your side.
+game: Bacterium = A single tiny living thing | Twenty minutes = How often a common gut bacterium splits | Yellowstone = Where the heat-proof microbe was found | Large intestine = Home to trillions of bacteria | Finish course = Stops tough bacteria from breeding
+
+--- 📏
+p: Imagine something so tiny that you could lay a thousand of them across the head of a pin and still have room to spare.
+fact: A typical bacterium is about two thousandths of a millimeter long. You could fit a thousand of them across the head of a pin, with room left over.
+check: How many bacteria fit across the head of a pin?
++ About a thousand, with room to spare
+- About ten thousand, packed in tight
+- About a million, with no room to spare
+hint: The fact box says you can fit a thousand with room left over.
+explain: A thousand bacteria fit across the head of a pin, with some space still left.
+
+--- ✂️
+p: Bacteria multiply by splitting in two.
+term: bacterium = A single tiny living thing that splits into two to make more of itself.
+fact: In ideal conditions, a common gut bacterium can split every twenty minutes. That means one becomes eight in an hour and over a thousand in ten hours.
+check: If one bacterium splits every twenty minutes, how many will there be after an hour?
+- Four
+- Sixteen
++ Eight
+hint: Each split doubles the number. Start with one, double it three times (every twenty minutes).
+explain: One becomes two, then four, and finally eight in an hour.
+
+--- ♨️
+p: Some bacteria live where it is so hot that it could cook an egg.
+fact: One was pulled out of a pool at Yellowstone. It makes a heat-proof copying enzyme used in medical tests all over the world.
+check: Where was the heat-proof microbe found?
+- A cold lake in Alaska
++ A hot pool at Yellowstone
+- An ice cave in Iceland
+hint: The page mentions one specific place in Wyoming.
+explain: This microbe was found in a hot pool at Yellowstone, where it can survive extreme temperatures.
+
+--- 🕊️
+p: Most of the thousands of kinds of bacteria living on your skin and in your gut are not trying to hurt you.
+fact: Only a small handful cause disease. Many are actually useful.
+check: How many kinds of bacteria cause disease?
+- Nearly every single one
+- Thousands of them
++ Only a small handful
+hint: The page mentions that most do nothing to you and many are useful.
+explain: Only a small handful of the thousands of kinds of bacteria cause disease.
+
+--- ⚖️
+p: You may have heard that there are ten times more bacteria in your body than your own cells. That was a guess from 1972 that got repeated for forty years.
+fact(Worked out): When someone finally checked properly, they found it was about one to one. There are still tens of trillions of bacteria, mostly in your large intestine.
+check: When it was checked properly, how many bacteria are there per body cell?
++ About one
+- Ten times more
+- Half as many
+hint: The fact box says the proper check came out at about one to one.
+explain: The number one to one means for every one of your cells, there is about one bacterium.
+
+--- 💊
+p: When you take antibiotics to fight bacteria, a few of those bacteria survive by chance.
+fact: Those surviving bacteria breed, and their offspring also survive the drug. This has been watched happening in laboratories and hospitals.
+p: That is why doctors insist you finish a course of antibiotics.
+check: Why should you finish a course of antibiotics?
+- To keep the pharmacy from running out of it
++ The few that survive breed and pass it on
+- Your body gets used to it and stops needing it
+hint: Look at the fact box. It explains what happens when you do not finish the course.
+explain: Finishing the course stops the surviving bacteria from breeding and passing on their drug-resistant traits.
+
+--- 🦠
+p: A thousand across a pin. One becomes eight in an hour. A microbe from a hot pool in Yellowstone that helps with medical tests all over the world.
+p: Tiny, quick, and mostly on your side. And if you are ever given antibiotics, finish the course.
+
+=== micro-virus
+idea: A virus does not eat, grow or copy itself, and nobody agrees whether it counts as alive. Find out why there is no cure for the common cold.
+game: Edward Jenner = The doctor who tested cowpox on a boy | Antibiotics = Medicine that fights bacteria, not viruses | Smallpox = The only human disease ever wiped out | Common cold = Symptoms from over two hundred viruses | Cowpox = The illness that protects against smallpox
+
+--- 🧬
+p: Is a virus alive? It is a bundle of instructions in a coat and does not eat, grow or copy itself on its own.
+fact(Worked out): A virus only does anything at all once it is inside a living cell. Whether that counts as alive is argued about and not settled.
+check: Where does a virus only do anything?
++ Inside a living cell
+- Outside a living cell
+- On the surface of a rock
+hint: The fact box tells you where a virus acts.
+explain: A virus is just a bundle of instructions in a coat until it gets inside a living cell.
+
+--- 🔎
+p: Viruses are much smaller than bacteria. They can slip right through filters that catch every bacterium.
+fact: That is how people first worked out something else was there. Nobody saw one until the electron microscope came along in the 1930s.
+check: How were viruses first noticed?
+- They glowed bright green under a strong lamp
+- They turned dark red when mixed with warm water
++ They passed through filters that catch bacteria
+hint: Viruses are tiny enough to slip through filters that catch bacteria.
+explain: People knew something was there because it could pass through filters designed to catch bacteria.
+
+--- 🚀
+p: There is a virus that attacks bacteria, and it looks like a spacecraft. It has a head full of instructions and a straight body.
+term: bacteriophage = A virus that attacks bacteria, with a head full of instructions, a straight body, and spindly legs.
+fact: Spindly legs let it stand on the bacterium before it injects its contents. Photographs of it look invented, but they are real.
+p: There are thought to be more of these bacteriophages on Earth than any other kind of thing.
+
+--- 💊
+p: Antibiotics are great at fighting bacteria, but they do nothing to a virus. They attack machinery that bacteria have, and viruses don't.
+fact: Taking antibiotics for a cold cannot help. In fact, it makes resistant bacteria more likely.
+check: Do antibiotics work on a cold?
+- Yes, they make you feel better quickly
++ No, they do nothing to a virus
+- They shorten the duration of the cold
+hint: Antibiotics attack bacteria, not viruses.
+explain: Antibiotics do nothing to a virus, and taking them for a cold can make resistant bacteria more likely.
+
+--- 🐄
+p: In 1796, Edward Jenner noticed something curious about milkmaids.
+fact: Those who had caught cowpox did not catch smallpox. He put matter from a milkmaid's sore into a cut on an eight-year-old boy, waited, then deliberately exposed him to smallpox. The boy did not get it.
+p: It was a shocking thing to do to a child, but it worked. Smallpox is the only human disease ever wiped out, and it was declared gone in 1980.
+check: What did Jenner notice about milkmaids?
++ Those who had caught cowpox did not catch smallpox
+- Those who drank fresh milk every day never got sick
+- Those who worked in barns caught fewer colds all winter
+hint: Jenner saw a pattern with a specific illness.
+explain: Milkmaids who had cowpox did not get smallpox.
+
+--- 🤧
+p: You might think of a cold as one thing, but it is not.
+fact: More than two hundred different viruses produce the same set of symptoms we call a cold. Beat one virus and you still have to deal with the other one hundred and ninety-nine.
+check: Why is there no cure for the common cold?
+- One tough virus hides deep inside the body
++ More than two hundred different viruses cause it
+- Colds come from a germ that no medicine can kill
+hint: Each virus causes similar symptoms, but there are many of them.
+explain: There are more than two hundred different viruses that can cause a cold.
+
+--- 🦠
+p: Smaller than any bacterium, borrowing everything from the cell it gets into, and nobody agrees on whether it counts as alive.
+p: No wonder there is no cure for the cold. There are two hundred viruses behind it, and antibiotics do nothing to any of them.
+
+=== micro-fungi
+idea: Every hole in a slice of bread is a bubble of yeast breath. Find out where bread mold really comes from, and why a mushroom is only the fruit.
+game: Yeast = Makes bread rise | Mold = Grows on old bread | Alexander Fleming = Discovered mold kills bacteria | Honey fungus = Covers 3.4 square miles underground | Blue cheese = Has mold added on purpose
+
+--- 🍞
+p: Have you ever looked closely at a slice of bread? Every little hole is actually a bubble of gas.
+fact: Bread rises because yeast, a kind of fungus, eats the sugar in the dough and gives off carbon dioxide. The gas gets trapped in stretchy bubbles inside the bread.
+try: Look closely at the holes in a slice of bread. Each one is where a bubble of carbon dioxide was trapped.
+check: What makes bread rise?
+- Salt gives off oxygen gas as it melts
+- Butter melts and lifts the dough up
++ Yeast gives off carbon dioxide gas
+hint: Look at the fact box. It explains what yeast does with sugar.
+explain: When yeast eats sugar, it gives off carbon dioxide, and those bubbles get trapped in the dough, making it rise.
+
+--- 🧫
+term: spore = A tiny speck that a mold sends into the air. Mold starts out as spores.
+fact: Mold does not arrive on bread. It is already in the air of every room, as spores, waiting for something damp.
+try: Seal three slices of bread in bags: one untouched, one rubbed on the floor, and one wiped with a damp cloth. Leave them somewhere warm for a week and compare. Do not open them afterwards.
+check: Where does bread mold come from?
+- Germs that crawl up from the plate
++ Spores that are already in the air
+- Old dough that goes bad all by itself
+hint: Mold spores are floating in the air of every room, waiting for something damp.
+explain: When you leave bread out, you are not catching mold — you are giving it a place to grow.
+
+--- 🧪
+p: In 1928, Alexander Fleming came back from holiday to find something interesting in his lab.
+fact: One of his dishes had gone moldy, and in a clear ring around the mold, the bacteria were dead.
+p: He noticed this instead of just washing it up. Turning that observation into a usable drug took another twelve years and a different team as well.
+check: What did Fleming notice about the dish with the mold?
++ The bacteria were dead in a ring around the mold
+- The mold was growing much faster than the bacteria were
+- A thick ring of bacteria had grown around the mold
+hint: Look at the fact box. It says what he observed.
+explain: In the clear ring around the mold, the bacteria were dead.
+
+--- 🍄
+p: Fungi are not like plants at all. They have no chlorophyll and cannot make their own food.
+fact: Instead, they feed on things that are already dead or alive. Their walls are made of the same stuff as an insect's shell, which is closer to animals than to plants.
+p: A mushroom is only the fruit. The organism itself is a mat of threads spread through the soil or wood.
+check: What part of the fungus is a mushroom?
++ Only the fruit
+- The roots
+- The leaves
+hint: Look at the last paragraph. It tells you what a mushroom really is.
+explain: A mushroom is just the fruit. The rest of the fungus is a mat of threads hidden in the soil or wood.
+
+--- 🌲
+p: In a forest in Oregon, there is one honey fungus with threads spread across 3.4 square miles.
+fact: It is one organism, but above ground it shows up as scattered clumps of ordinary-looking mushrooms.
+check: How big is the Oregon honey fungus?
+- About 1 square mile
++ 3.4 square miles
+- Over 10 square miles
+hint: The fact box says how big it is.
+explain: The underground threads of this one organism cover 3.4 square miles.
+
+--- 🧀
+p: Some tasty things you eat depend on tiny living things doing something to the food.
+fact: Bread, cheese, yogurt, soy sauce, vinegar, chocolate, and beer all need microbes to do something on purpose. Blue cheese is mold that someone put there deliberately.
+check: Which cheese has mold put in it deliberately?
+- Cheddar
+- Mozzarella
++ Blue cheese
+hint: The fact box mentions which cheese has mold added.
+explain: Blue cheese has mold put in it on purpose.
+
+--- 🍄
+p: Yeast breathing in dough. Spores waiting in every room. A mold that killed bacteria in a dish. A mushroom that is only the fruit of a mat of threads.
+p: Fungi are not plants, and they do their work out of sight.
+
+=== micro-pond
+idea: You'll discover the hidden world in just one drop of pond water. Learn how each tiny creature moves, eats, and stays alive in its own unique way.
+game: Amoeba = One cell that moves by flowing | Paramecium = Covered in tiny hairs that beat like a wave | Volvox = Hollow ball with hundreds of cells | Diatoms = Build glass boxes with precise patterns | Testate amoeba = Builds cases from sand and diatom bits
+
+--- 🫧
+term: amoeba = One tiny cell with no fixed shape and no mouth. It does everything a whole animal does.
+fact: An amoeba is just one cell, but it does everything a whole animal does — moves, hunts, eats, and gets rid of waste. It moves by pouring part of itself forward, and the rest follows.
+p: It has no fixed shape and no mouth. When it finds food, it flows around it until the food is surrounded.
+check: How does an amoeba eat?
++ It flows around something until it is surrounded
+- It opens a tiny mouth and bites off small pieces
+- It shoots out sticky threads that pull the food in
+hint: Look at the sentence about how it surrounds its food.
+explain: The amoeba eats by flowing around food until it is completely surrounded.
+
+--- 🌊
+p: Next, a swimmer covered in hair: the paramecium.
+fact: A paramecium is covered in thousands of tiny hairs that beat in waves, like a crowd doing a Mexican wave. It shoots through the water with this motion.
+p: When it bumps into something, it reverses the beat of its hairs and backs up.
+check: How does a paramecium back up?
+- It uses its mouth to push backward
+- It grows a tail to swim backward
++ It reverses the beat of its hairs
+hint: Look at the sentence about reversing the beat.
+explain: When it bumps into something, it simply reverses the beat of its tiny hairs and backs up.
+
+--- 🟢
+p: Now a ball that rolls: Volvox.
+fact: Volvox is a hollow ball made up of hundreds of cells, each with two whips. They all beat together so the ball rolls through the water.
+p: Inside the ball are smaller balls — the next generation, growing.
+check: What is growing inside a Volvox ball?
+- Tiny hairs like on a paramecium
++ Smaller balls, the next generation
+- New sets of whips
+hint: The sentence mentions smaller balls inside as the next generation.
+explain: Inside the Volvox ball are smaller balls that are the next generation.
+
+--- 💎
+p: And now something that builds with glass: the diatoms.
+fact: Diatoms build themselves glass boxes with lids. Each kind has a different pattern of holes in their boxes.
+p: Victorian lens-makers lined them up to test their lenses because the patterns were so precise.
+check: What are diatom shells made of?
+- Wood
+- Metal
++ Glass
+hint: The fact mentions that diatoms build themselves glass boxes.
+explain: Diatoms make glass boxes for themselves.
+
+--- 🧱
+p: Some single cells in pond water build armor out of whatever is lying around.
+fact: A testate amoeba glues sand grains and bits of diatom shell into a case and carries it, leaving one opening to reach out through.
+p: Different kinds use different materials and build different cases. That is how you tell them apart.
+check: What does a testate amoeba build its case from?
+- Only thin flakes of metal that it picks up from the bottom of ponds
++ Whatever is lying around, like sand grains and bits of diatom shell
+- Only a thick jelly that it makes from its own body and nothing else
+hint: The fact mentions that it glues sand grains and bits of diatom shell.
+explain: A testate amoeba uses whatever is lying around to build its case.
+
+--- 🫙
+p: Any still water has a hidden world of tiny life.
+fact: Leave a jam jar of pond water on a windowsill for a week, and it will hold more than it did the day you collected it. You have just made a small pond with good light.
+try: Leave a jam jar of pond water on a windowsill for a week, then look at it again.
+
+--- 🔍
+p: An amoeba that flows round its food. A paramecium that backs up by reversing its hairs. A ball of cells that rolls. A glass box with a lid. A case made of sand.
+p: All of it in one jar of pond water.
+
+=== micro-helpers
+idea: Microbes are everywhere and do a lot of work, from making yogurt to helping plants grow. Find out which vitamin gut bacteria make and how microbes help turn milk into yogurt.
+game: Nitrogen-fixing bacteria = Give clover fertilizer | Fungi and bacteria = Take apart every fallen leaf | Yoghurt bacteria = Sour milk under control | Sourdough starter = Mix of flour and water with wild yeast | Gut bacteria = Make vitamin K in your large intestine
+
+--- 🌱
+p: Pull up a clover plant and take a close look at its roots. You will see little lumps all over them.
+fact: Those lumps are full of bacteria that pull nitrogen out of the air and give it to the plant as fertilizer. In return, the plant feeds them sugar.
+try: Dig up a clover from a lawn. Wash the roots gently in a bowl of water and look for tiny pink or white nodules on the roots.
+check: What do the bacteria in clover roots do for the plant?
+- They carry water up from the deep soil to the roots
+- They store sunlight inside the roots to make food
++ They pull nitrogen out of the air as fertilizer
+hint: Look at the fact box. It tells you what the bacteria give to the plant.
+explain: The bacteria pull nitrogen out of the air and give it to the plant, which helps the plant grow.
+
+--- 🌍
+term: microbe = A living thing too small to see without a microscope.
+fact(Worked out, not seen): A single teaspoon of healthy soil is estimated to hold more living organisms than there are people on Earth. The number comes from diluting soil, growing what is in it, and counting.
+p: But this count is probably too low because most soil microbes will not grow in a dish at all.
+check: Why is the soil count probably too low?
++ Most soil microbes will not grow in a dish
+- Only the top inch of soil was ever checked
+- Soil microbes are too big for the dishes
+hint: The fact box mentions that most soil microbes do not grow in a dish.
+explain: Most soil microbes will not grow in a dish, so the count is likely lower than the actual number.
+
+--- 🍂
+p: Think about every leaf that has ever fallen from a tree.
+fact: Fungi and bacteria have taken apart every one of those leaves. Without them, the ground would be meters deep in dead wood and leaves, and nothing new could grow.
+try: Bury a slice of apple and a piece of plastic in a pot of soil. Dig both up in a month to see what happens.
+check: What would happen without fungi and bacteria?
+- The leaves would all dry up and blow away and the soil would be bare
++ The ground would be deep in dead leaves and nothing new could grow
+- New trees would grow faster and the forests would be much bigger
+hint: The fact box says what the ground would look like without fungi and bacteria.
+explain: Without fungi and bacteria, the ground would be meters deep in dead leaves and nothing new could grow.
+
+--- 🥛
+p: Yoghurt is milk that bacteria have soured under control.
+fact: The bacteria turn the milk sugar into acid, which makes the milk proteins clump together and stops anything worse from growing.
+try: Warm milk to about 110°F, stir in two spoons of plain live yoghurt, wrap it up warm, and leave it overnight. In the morning, it will be yoghurt.
+check: What does the acid in yoghurt do?
+- It melts the milk fat and makes the yoghurt taste much sweeter
+- It breaks the milk proteins down into sugar and makes it thin
++ It clumps the milk proteins and stops anything worse growing
+hint: The fact box explains what the acid does to the milk proteins.
+explain: The acid clumps the milk proteins and keeps other bad bacteria from growing.
+
+--- 🍞
+p: Sourdough bread starts with a mix of flour and water left out until wild yeast and bacteria from the air and the flour move in.
+fact: Kept fed, a sourdough starter can be passed down for generations, and bakeries have starters older than the baker.
+try: Mix equal weights of flour and water in a jar. Throw half away and feed it again every day. By about day six it will be bubbling.
+check: Where do the microbes in a sourdough starter come from?
+- The milk in the kitchen
++ The air and the flour
+- The oven where bread is baked
+hint: Look at the first sentence on the page for where the microbes come from.
+explain: The wild yeast and bacteria from the air and the flour move into the mix.
+
+--- 🫃
+p: Inside your large intestine, there are lots of bacteria that help break down fiber you cannot digest.
+fact: These same bacteria also make vitamin K, which your blood needs to clot properly.
+check: Which vitamin do gut bacteria make?
++ Vitamin K
+- Vitamin C
+- Vitamin D
+hint: The page talks about a vitamin that helps your blood clot.
+explain: Gut bacteria make vitamin K, which is important for blood clotting.
+
+--- 🌿
+p: Lumps on clover roots. A teaspoon of soil crowded with life. Leaves taken apart, milk turned to yoghurt, dough that rises, and a gut that makes its own vitamin K.
+p: Microbes do all of it, and nobody ever thanks them.
+
+=== micro-scope
+idea: A drop of water can magnify print, just like a lens. Find out how a bead of glass and a beam of electrons each let us see smaller things.
+game: Water drop = Acts as a magnifying lens | Van Leeuwenhoek = Used tiny glass bead lenses | Electron microscope = Uses electrons instead of light | Petri dish = Flat round dish with loose lid
+
+--- 💧
+p: A single drop of water can do something surprising: it becomes a lens.
+fact: Hold a drop on a loop of wire over a printed page or put one on clear plastic, and it magnifies. The same principle is used in the glass bead that first showed anyone a bacterium.
+try: Put a drop of water on clear plastic over some writing and see what happens.
+check: What does a drop of water do to print under it?
+- It darkens it
++ It magnifies it
+- It blurs it
+hint: Look at the fact box. It says it magnifies.
+explain: A drop of water magnifies, making the print bigger and clearer.
+
+--- 🔬
+p: Van Leeuwenhoek's microscopes were not like the ones you might see today. They were small flat brass plates with one tiny glass bead in a hole.
+fact: The glass bead was held right up against the eye. About a dozen of these original microscopes still exist and they still work.
+check: What was the lens in Leeuwenhoek's microscope?
++ One tiny glass bead
+- A small drop of water
+- A curved metal mirror
+hint: Look at the fact box. It mentions one tiny glass bead.
+explain: The lens was just one tiny glass bead held right up against the eye.
+
+--- 🚧
+p: Every microscope that uses light has a hard limit.
+fact(Worked out): About two ten-thousandths of a millimeter. Below that, things are smaller than the light waves themselves.
+p: No lens, however good, can help you see past this limit. That is why viruses stayed invisible until people stopped using light.
+check: Why could light microscopes never show a virus?
+- A virus moves much too fast for lenses
+- Viruses are too heavy for lenses to focus on
++ A virus is smaller than the light waves
+hint: Look at the fact box. It mentions that things below two ten-thousandths of a millimeter are smaller than the light waves.
+explain: Light waves have a limit. Viruses are smaller than those light waves, so they stayed invisible.
+
+--- ⚡
+p: An electron microscope does not use light. Instead, it fires electrons, which behave like much shorter waves.
+term: electron microscope = A microscope that uses electrons instead of light to see tiny things.
+fact: The machine works in a vacuum, and everything has to be coated in metal first. This means nothing being looked at can be alive, so you can see a virus but never see it moving.
+check: What is the trade with an electron microscope?
+- You can see a virus but it is not colorful
+- You can see a virus but it is not clear
+- You can see a virus but it is very expensive
++ You can see a virus but never see it moving
+hint: Look at the fact box. It says that everything has to be coated in metal and nothing can be alive.
+explain: You get to see a virus, but you never get to see it moving because nothing seen is alive.
+
+--- 🎨
+p: Most cells are clear, like a drop of water. So microscopists dye them so they show up.
+fact: One old recipe, from Hans Christian Gram in 1884, splits bacteria into two groups based on whether the color washes out of their walls. This simple test still tells doctors which antibiotic to use.
+check: Why do microscopists dye cells?
++ Most cells are transparent
+- They look prettier in colors
+- It makes them bigger
+hint: Look at the first sentence on the page.
+explain: Most cells are see-through, so dyes help them stand out under a microscope.
+
+--- 🥣
+p: Before 1887, scientists grew tiny life forms on slices of potato. Not great, because potatoes rot.
+fact: In 1887, Julius Petri, an assistant in Robert Koch's lab, invented the flat round dish with a loose lid.
+p: The lid rests on top but does not seal. That way air gets in and dust stays out.
+check: Who invented the Petri dish?
+- Louis Pasteur, a chemist working in Paris
++ Julius Petri, an assistant in Koch's laboratory
+- Joseph Lister, a surgeon working in Edinburgh
+hint: Look at the fact box for the inventor's name.
+explain: Julius Petri came up with the dish while he was working in Koch's lab.
+
+--- 🔭
+p: A drop of water. A bead of glass. A beam of electrons. A dye. A dish with a loose lid.
+p: Each one let someone see a little more of the tiny world.
+
+=== micro-clean
+idea: Learn how simple actions like washing hands and chilling food help keep germs at bay. Discover that a fever is your body’s smart defense mechanism.
+game: Ignaz Semmelweis = Made doctors wash their hands | Chlorine = What Semmelweis made doctors wash in | Soap molecule = Grips grease and water | Twenty seconds = Time to wash hands | Fever = Your own body turning up the temperature | Bacteria = Slowed down in a fridge
+
+--- 🏥
+p: In 1847, a doctor named Ignaz Semmelweis noticed something that nobody wanted to hear.
+fact: Mothers in the doctors' ward were dying far more often than those in the midwives' ward. The doctors came straight from dissecting the dead.
+p: He made the doctors wash their hands in chlorine. The deaths dropped away.
+check: What did Semmelweis make the doctors do?
+- Wear gloves while dissecting
++ Wash their hands in chlorine
+- Change clothes between wards
+hint: Look at the fact box. It says what he made them wash their hands in.
+explain: Washing hands in chlorine helped drop the deaths, but he was ignored and mocked because germs were not yet shown.
+
+--- 🧼
+p: So how does soap help keep germs away? It’s not about poisoning them.
+fact: One end of a soap molecule grips grease, and the other grips water. This lifts off grease and everything stuck in it, sending it down the drain. A virus with a fatty coat simply falls apart when soap touches it.
+try: Sprinkle pepper on a bowl of water, then touch the surface with a soapy finger. The pepper will flee to the edges instantly.
+check: What does soap do to germs?
+- It poisons them with chemicals and kills them on the spot
+- It sucks all the water out of them until they shrivel up
++ It lifts them off with the grease and sends them down the drain
+hint: Look at the fact box. It says how soap molecules work.
+explain: Soap lifts off grease and everything stuck in it, including germs, and sends them down the drain.
+
+--- ⏱️
+p: You might wonder why we count to twenty when we wash our hands.
+fact: Twenty seconds is not just a number. It is about how long scrubbing takes to lift things off your skin, especially under nails and between fingers.
+try: Next time you wash your hands, count to twenty as you scrub.
+check: Why do we wash our hands for about twenty seconds?
++ That is how long it takes to physically lift things off your skin
+- Soap needs that long to kill every last germ on your skin
+- Because it takes that long for the water to get hot enough
+hint: Look at the fact box. It explains why scrubbing takes that long.
+explain: Twenty seconds gives the soap enough time to work and lift everything off your skin, especially in tricky spots like under your nails and between your fingers.
+
+--- 🌡️
+p: Have you ever felt really warm with a fever? That is your body doing something very smart.
+fact: A fever is not something germs do to you. Your own body turns up the temperature because most things that can make you sick grow worse when it gets hotter.
+p: This is why a mild fever is usually left alone. It is a weapon being used, not damage being done.
+check: Who turns the temperature up in a fever?
+- The germs making you sick
++ Your own body
+- The medicine you take
+hint: Look at the first fact box on this page. It explains who raises the temperature.
+explain: Your body raises its temperature to fight off what is making you sick.
+
+--- 🧊
+p: You know how your fridge keeps food fresh for longer? It does not kill the bacteria. It just slows them down a lot.
+fact: In a fridge, bacteria take days to reach numbers that could make you sick, instead of just hours.
+p: Freezing nearly stops bacteria altogether. But when it thaws, they start up again where they left off.
+check: Does a fridge kill bacteria?
+- Yes, it kills them completely
+- It speeds them up
++ No, it only slows them down
+hint: Look at the fact box on this page. It explains how long bacteria take to reach numbers that could make you sick.
+explain: A fridge does not kill bacteria; it just slows them down so much that they take days instead of hours to grow to levels that could make you sick.
+
+--- 🥛
+term: pasteurized = Heated to about 161°F for fifteen seconds and then chilled fast. That kills what causes disease without cooking the milk.
+fact: The method is named after Louis Pasteur and is on almost every carton you have ever opened.
+try: Look at a milk carton for the word pasteurized. Then find one that says UHT (ultra-high temperature) and compare the dates. Hotter treatment means much longer life, but a different taste.
+check: About how hot is milk heated to be pasteurized?
++ About 161°F
+- About 100°F
+- About 200°F
+hint: Look at the first number on the page.
+explain: Milk is heated to about 161°F for fifteen seconds, then quickly chilled. This kills harmful germs without cooking the milk.
+
+--- 🧽
+p: Wash for twenty seconds. Chill the food. Heat the milk. Let a fever do its work.
+p: Small habits, and your own body does the rest.
+

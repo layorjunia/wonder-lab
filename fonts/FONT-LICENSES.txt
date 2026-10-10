@@ -1,0 +1,5 @@
+Baloo 2 — Copyright 2020 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2). SIL Open Font License 1.1.
+Nunito — Copyright 2014 The Nunito Project Authors (https://github.com/googlefonts/nunito). SIL Open Font License 1.1.
+Fraunces — Copyright 2018 The Fraunces Project Authors. SIL Open Font License 1.1.
+Inter — Copyright 2020 The Inter Project Authors. SIL Open Font License 1.1.
+Full text: https://openfontlicense.org

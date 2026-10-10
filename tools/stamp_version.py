@@ -42,7 +42,7 @@ def main():
     if 'name="build"' not in html:
         html = html.replace('<title>', f'<meta name="build" content="{build}">\n  <title>', 1)
     html = re.sub(r'\.js\?v=[^"]*"', f'.js?v={build}"', html)
-    html = re.sub(r'style\.css\?v=[^"]*"', f'style.css?v={build}"', html)
+    html = re.sub(r'\.css\?v=[^"]*"', f'.css?v={build}"', html)
     open(idx, 'w').write(html)
 
     sw = os.path.join(ROOT, 'sw.js')

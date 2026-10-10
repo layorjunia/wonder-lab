@@ -24,3 +24,7 @@ tools/voices/
 
 # Vercel project link (ids, machine-local)
 .vercel/
+
+# Wonder Lab 2: lesson text is the editable truth, back it up with the code
+!.work/lessons-src/
+!.work/gate-allow.json

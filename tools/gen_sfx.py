@@ -107,4 +107,28 @@ chord = sum(np.sin(2 * np.pi * f * x) * (1 + 0.10 * np.sin(2 * np.pi * 5.2 * x))
 parts.append((env(chord, attack=0.01, release=0.38), 250))
 write('tada', mix(*parts), 0.6)
 
+# ── Wonder Lab 2 additions ──────────────────────────────────────────────
+# tap — a page turn / button: a very short, soft tick-blip.
+write('tap', env(sweep(700, 480, 45), release=0.045), 0.55)
+
+# star — a star landing on the results screen: bright three-partial bell.
+write('star', mix((env(tone(1318.5, 380, ((1, 1), (2.76, .3), (5.4, .1))), release=.34), 0),
+                  (env(tone(1975.5, 300, ((1, .6), (2.76, .2))), release=.26), 60)), 0.6)
+
+# levelup — a quick rising arpeggio C-E-G-C with a held shimmer on top.
+arp = [(523.25, 0), (659.25, 80), (783.99, 160), (1046.5, 240)]
+parts = [(env(tone(f, 140, ((1, 1), (2, .3))), release=.13), st) for f, st in arp]
+xx = t(520)
+shim = sum(np.sin(2 * np.pi * f * xx) * (1 + 0.12 * np.sin(2 * np.pi * 6 * xx)) for f in (1046.5, 1318.5, 1568))
+parts.append((env(shim, attack=0.012, release=0.46), 300))
+write('levelup', mix(*parts), 0.6)
+
+# flip — a card turning over: a soft airy whoosh.
+w = rng.standard_normal(int(SR * 0.22))
+sweep_env = np.hanning(len(w))
+write('flip', env(w * sweep_env, attack=0.01, release=0.2) * 0.6, 0.5)
+
+# whoosh — a bubble pop / page swish.
+write('whoosh', env(sweep(900, 220, 160), release=0.15) * 0.7, 0.45)
+
 print('done ->', OUT)

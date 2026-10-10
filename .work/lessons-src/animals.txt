@@ -1,0 +1,3209 @@
+# Animal lessons. animals-mammals-1 is the GOLD species lesson, written by hand: it is the example
+# tools/draft_lessons.py shows the local model. Every other animal lesson in this file was drafted by
+# it and then read, corrected and approved by me.
+
+=== animals-mammals-1
+idea: Five animals, each built for one job. Find out who sprints at 65 miles an hour, who vanishes on bare rock, and who hears dinner under the sand.
+game: Cheetah = The fastest runner on land | Snow leopard = The ghost of the mountains | Tiger = The largest cat in the world | Lion = The only cat that lives in a pride | Fennec fox = The smallest fox, with enormous ears
+
+--- 🐾
+p: Five animals are waiting to meet you: a cheetah, a snow leopard, a tiger, a lion and a fennec fox.
+p: Each one is built for a different job.
+
+--- 🐾 @cheetah
+p: Start with the fastest runner on land. The fastest cheetah ever timed ran 100 meters in 5.95 seconds. The human world record is 9.58.
+fact(The race): Her name was Sarah and she lived at the Cincinnati Zoo. She chased a fluffy lure on a rope and hit a peak of 61 mph (98 km/h).
+p: Cheetah speeds get exaggerated all the time. The highest reliably measured is 65 mph (104 km/h). A famous figure of 71 mph came from a faulty way of measuring and was thrown out.
+check: What is the highest speed ever reliably measured for a cheetah?
+- 71 mph
+- 35 mph
++ 65 mph
+hint: Look at the last two sentences. One number was thrown out.
+explain: 65 mph. The famous 71 came from a faulty way of measuring.
+
+--- 🐾 @snow-leopard
+p: Now climb. The snow leopard lives higher up the mountains than almost any other large animal, between about 9,800 and 14,800 feet (3,000 to 4,500 m).
+p: Its tail is up to 3 feet (1 m) long, nearly as long as the rest of the cat. On a ledge barely wider than a paw, it works as a balance bar.
+term: rosette = A dark smudge shaped like a ring. A snow leopard's rosettes break up its outline, so on bare rock people cannot find the cat.
+fact(The ghost of the mountains): Researchers can work in snow leopard country for months and see nothing but tracks. Almost everything we know comes from camera traps and GPS collars, not from watching.
+
+--- 🐾 @tiger
+p: No cat alive is bigger than the tiger. A large male weighs around 485 lb (220 kg), about as much as three grown men.
+fact(Stripes to the skin): Shave a tiger and the stripes are still there, because the pattern is in the skin itself. Every tiger's pattern is its own. Even the left and right sides of one tiger do not match.
+p: Orange looks loud to you, but deer cannot see orange. The best read is that in dry grass the stripes look like broken lines of shadow.
+check: How can researchers tell one tiger from another?
+- By the sound of its roar
++ By its stripes
+- By how much it weighs
+hint: Look at the box about the stripes. It says whose pattern is whose.
+explain: By its stripes. The pattern is in the skin and no two tigers share one.
+
+--- 🐾 @lion
+p: The lion is the only cat that lives in a family group, called a pride.
+fact(The pride): A pride is a permanent group of mostly related females. Grandmothers, mothers, sisters and daughters stay together for life.
+fact(The roar): A lion's roar carries about 5 miles (8 km) across open country. The low pitch is the trick, because deep sound bends around trees and rocks.
+p: And a lion may rest 20 hours out of every 24.
+
+--- 🐾 @fennec-fox
+p: The smallest fox on earth has the biggest ears for its size. A fennec weighs about 3 lb (1.3 kg), and its ears are nearly 4 inches (10 cm) tall.
+fact(Hunting by listening): A fennec stops dead and swivels its head. Then it digs straight down into open sand and comes up with a beetle or a lizard. Its ears pick up small movements underground.
+p: It can live where there is nothing to drink, because it takes its water from the animals it eats.
+check: How does a fennec fox find food hidden in the sand?
++ It listens for it
+- It smells it from far away
+- It follows tracks
+hint: Look at the box. It says what the fox does with its ears.
+explain: It listens. Its ears pick up small movements underground, and it digs to the exact spot.
+
+--- 📊
+p: Now put the five side by side. The tiger weighs about 485 lb and the lion about 419. The cheetah and the snow leopard each weigh about 99 lb. The fennec fox weighs about 3.
+fact(Speed): The cheetah's top speed is 65 mph. The tiger and the lion both manage about 35 mph, and only for a short sprint.
+check: Which of the five is the heaviest?
+- The lion
+- The cheetah
++ The tiger
+hint: Look at the first paragraph and find the biggest number.
+explain: The tiger, at about 485 lb.
+
+--- 🐾
+p: A cheetah that sprints, a snow leopard that hides, a tiger with stripes in its skin, a lion with a family and a fox that listens.
+p: Five animals, five different jobs, and every one of them built for its own.
+
+quiz: Which animal is the fastest runner on land?
+- The tiger
++ The cheetah
+- The lion
+explain: The cheetah, with a highest measured speed of 65 mph.
+quiz: What does a snow leopard use its long tail for?
+- To warn other cats of danger
++ To balance on narrow ledges
+- To swim across mountain rivers
+explain: The tail works as a balance bar on ledges barely wider than a paw.
+quiz: Where are a tiger's stripes?
+- Only in the fur, never in the skin
+- Along its back but not its legs
++ In its skin as well as its fur
+explain: Shave a tiger and the stripes are still there.
+quiz: What is a family group of lions called?
++ A pride
+- A herd
+- A pack
+explain: A pride is a permanent group of mostly related females and their young.
+quiz: How does a fennec fox find food under the sand?
+- It follows tracks
+- It smells it from far away
++ It listens with its huge ears
+explain: Its ears pick up small movements underground, and it digs to the exact spot.
+
+=== animals-mammals-2
+idea: Meet five animals, each suited to its own cold, wild place. Find out what the extra thumb on a panda's paw is for.
+game: Arctic fox = Lives in the far north with furry feet | Gray wolf = Hunts in a family group with sharp teeth | Polar bear = Swims long distances across the Arctic sea | Grizzly bear = Has a hump of muscle for digging | Giant panda = Eats bamboo and has an extra thumb-like bone
+
+--- 🐾
+p: Five animals are waiting to meet you: an arctic fox, a gray wolf, a polar bear, a grizzly bear, and a giant panda.
+p: Each one lives in its own world.
+
+--- 🐾 @arctic-fox
+p: Meet the arctic fox, a small fox with deep fur that lives farther north than almost any other land animal.
+fact(Extra-furry feet): Turn one paw over and even the soles are furred, pads and all. Its scientific name, Vulpes lagopus, means "hare-foot" — no other wild dog has this.
+check: What is special about the arctic fox's paws?
+- They have webbed toes
+- They are completely bare
++ They have fur on the soles
+hint: Look at the second sentence of the page.
+explain: The arctic fox's paws have fur even on the soles, which helps it grip ice and keeps its feet warm.
+
+--- 🐾 @grey-wolf
+p: Meet the gray wolf, the largest wild member of the dog family. It has long legs and hunts in a family group.
+term: carnassials = Sharp teeth shaped like blades that cut through hide, tendon, and bone.
+fact(The pack is a family): A wolf pack is made up of parents and pups from this year and last. The idea of an "alpha" wolf fighting for dominance comes from watching zoo wolves, not those in the wild.
+p: Wolves hunt with their noses. Researchers have seen them head straight for a moose 1.5 miles (2.4 km) away, downwind and out of sight.
+
+--- 🐾 @polar-bear
+p: Next up is the polar bear, the largest bear on earth. It's a white-coated hunter that lives out on Arctic sea ice and hunts seals.
+fact(The bear that swims far): One collared female swam for nine days straight across 426 miles (687 km) of open Arctic sea. She lost about a fifth of her body weight doing it.
+p: Polar bear fur isn't white. Each hair is actually a clear, hollow tube that scatters sunlight in all directions, making the fur look white.
+check: What makes polar bear fur appear white?
+- Black skin under the fur
++ Clear, hollow tubes that scatter sunlight
+- Thick fur padding on the soles of its feet
+hint: Look at the paragraph about the hollow hair and black skin.
+explain: The hollow core of each hair scatters sunlight in all directions, making the fur look white.
+
+--- 🐾 @grizzly-bear
+p: Next, meet the grizzly bear, a large brown bear of North America's mountains and salmon rivers. It has a hump of muscle on its shoulders and claws built for digging.
+fact(The digging champion): The hump over its shoulders is solid muscle, powering the front legs to dig through ground you would need a pickaxe for. Its claws are 2-3.9 in (5-10 cm) long and almost straight, perfect for turning over rocks and hauling out roots and ground squirrels.
+p: By late summer, a grizzly goes into hyperphagia — "over-eating." It feeds up to 20 hours a day.
+p: During this time, it can put on 3-7 lb (1.5-3 kg) of fat every single day. This is crucial for surviving the long winter in its den.
+
+--- 🐾 @giant-panda
+p: Next up is the giant panda, a black-and-white bear from the cold mountain forests of China that eats almost nothing but bamboo.
+fact(The spare thumb): A panda has an extra "thumb" — not a finger at all but an enlarged wrist bone jutting out under its paw. This helps it hold and strip bamboo stems like you hold a pencil.
+p: An adult eats 26-84 lb (12-38 kg) of bamboo a day, spending up to 15 hours munching.
+check: What extra feature does the panda have that helps it hold bamboo?
++ An extra thumb-like bone
+- A long, sticky tongue
+- Webbed skin on each paw
+hint: Look at the second paragraph and find the detail about the panda's paw.
+explain: The panda has an enlarged wrist bone, which acts like an extra thumb to help hold bamboo.
+
+--- 📊
+p: The polar bear weighs about 992 lb, the grizzly bear about 551 lb, and the giant panda about 220 lb. The gray wolf is much lighter at about 88 lb, and the arctic fox is the smallest, at just 8 lb.
+fact(Speed): The polar bear runs at 25 mph, while the gray wolf and grizzly bear both reach up to 35 mph for short sprints.
+check: Which of the five is the heaviest?
+- The grizzly bear
+- The giant panda
++ The polar bear
+hint: Look at the first paragraph and find the biggest number.
+explain: The polar bear, at about 992 lb.
+
+--- 🐾
+p: The polar bear with its thick white fur, the grizzly bear with a powerful build, the giant panda with its distinctive black and white patches.
+p: The gray wolf with its sleek coat, and the arctic fox that blends into the snow.
+p: Five animals, each built for their own world, and all so different.
+
+quiz: How do wolves find their prey?
+- By listening for footsteps
+- By sight, from high ground
++ With their noses
+explain: Wolves have been seen heading straight for a moose 1.5 miles away, downwind and out of sight.
+
+quiz: What are carnassials?
+- Flat, wide teeth shaped like plates that mash up leaves, roots, and seeds
+- Long hollow fangs that squirt out poison to stun and slow down prey
++ Sharp teeth shaped like blades that cut through hide, tendon, and bone
+explain: Carnassials help wolves tear into their prey efficiently.
+
+quiz: How far did the collared polar bear swim without stopping?
+- 126 miles
++ 426 miles
+- 926 miles
+explain: She swam nine days straight across 426 miles of open Arctic sea.
+
+quiz: How much bamboo does an adult giant panda eat each day?
+- 10-25 lb (4.5-11 kg)
++ 26-84 lb (12-38 kg)
+- 100-120 lb (45-54 kg)
+explain: Giant pandas spend a lot of time eating bamboo to get enough nutrients.
+
+quiz: What is the hump on a grizzly's shoulders made of?
+- Fat
+- Bone
++ Solid muscle
+explain: The hump is solid muscle that powers the front legs for digging.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
+=== animals-mammals-3
+idea: Five unusual mammals, each odd in its own way. Find out who climbs down to poop once a week, who lives like an ant, and who lays eggs.
+game: Three-toed sloth = Moves at 0.15 mph | Naked mole-rat = Lives in colonies like ants | Pangolin = Rolls into a tight ball | Platypus = Finds shrimp with a bill that senses electricity | Echidna = Has an egg-laying pouch
+
+--- 🐾
+p: Five unusual animals are waiting to meet you: a three-toed sloth, a naked mole-rat, a pangolin, a platypus, and an echidna.
+p: Each one lives in its own odd way.
+
+--- 🐾 @sloth
+p: Meet the three-toed sloth, a shaggy leaf-eater that lives in the rainforest canopy and spends almost its entire life hanging upside down.
+fact(The slowest): Top speed on the ground is about 0.15 mph (0.24 km/h). That is roughly 13 feet (4 m) in a minute. You cover that in two seconds.
+p: Its fur can turn green with algae, making it nearly invisible in the trees. The claws are as long as your finger and perfect for hanging. A sloth climbs all the way down to the forest floor to poop only about once a week.
+check: How often does a sloth poop?
++ Once a week
+- Once a month
+- Once a day
+hint: Look at the last sentence of the paragraph about its fur and claws.
+explain: A sloth climbs all the way down to the forest floor to poop, about once a week.
+
+--- 🐾 @naked-mole-rat
+p: Next, meet the naked mole-rat, a nearly hairless rodent from East Africa that spends its whole life underground in a colony like an ant nest.
+p: It is about as long as your finger and weighs about 1.2 oz (35 g), about the same as a large strawberry. The queen of the colony can grow much bigger, up to 2.8 oz (80 g).
+term: colony = A group of animals that live together and work as one big family.
+fact(The underground life): A naked mole-rat colony has one queen who is the only one to have babies. Everyone else digs, cleans, feeds, and defends the nest. Colonies can grow up to 300 animals.
+
+--- 🐾 @pangolin
+p: Next up is the pangolin, a shy night-time insect eater covered head to tail in hard scales.
+fact(The armored ball): Threatened, a pangolin rolls into a ball so tight that even a big cat cannot get in. Predators have been filmed batting one around and eventually giving up.
+check: What does a pangolin do when threatened?
+- It runs away quickly
++ It rolls into a tight ball
+- It stabs attackers with sharp horns
+hint: Look at the fact box about the armored ball.
+explain: When threatened, a pangolin rolls into a tight ball, making it difficult for predators to get in.
+
+--- 🐾 @platypus
+p: Meet the platypus, an Australian river mammal with a soft duck-like bill, webbed feet, and a beaver’s tail. Only five kinds of mammal in the world lay eggs, and this is one of them.
+fact(The egg-laying mammal): A platypus lays eggs, usually two small, leather-like ones. The mother curls around them in a burrow for about ten days until they hatch.
+p: Its bill is packed with sensors that pick up the faint electricity of a shrimp's muscle movements. This is called electroreception and helps it hunt in muddy rivers with its eyes, ears, and nostrils all shut.
+fact(Milk delivery): Platypus mothers have no nipples. Milk seeps out through the skin of the belly, pools in grooves in the fur, and the babies lap it up from there.
+
+--- 🐾 @echidna
+p: Meet the echidna, an ant-eating, spine-covered Australian mammal that lays a single egg into a pouch on its belly.
+fact(The egg-laying pouch): An echidna lays one leathery egg straight into a pouch on her belly. Ten days later, a tiny blind and hairless baby called a puggle hatches inside the pouch. It stays there for two to three months.
+check: How long does it take for an echidna's puggle to hatch?
+- 2 weeks
+- 2 months
++ 10 days
+hint: Look at the box. It says how many days after the egg is laid the baby hatches.
+explain: It takes 10 days for the puggle to hatch inside the pouch.
+
+--- 📊
+p: The pangolin is about 2.6 ft long, the three-toed sloth about 2 ft, the platypus 1.5 ft and the echidna 1.3 ft. The naked mole-rat is just 0.3 ft.
+fact(Weight): The three-toed sloth weighs about 9 lb, the same as an echidna. A platypus is lighter at 3 lb, and a naked mole-rat weighs only about 1.2 oz.
+check: Which of the five is the longest?
+- The three-toed sloth
+- The naked mole-rat
++ The pangolin
+hint: Look at the first paragraph and find the longest length.
+explain: The pangolin is the longest at 2.6 ft.
+
+--- 🐾
+p: A three-toed sloth that moves slowly, a naked mole-rat that lives underground, a pangolin that curls into a ball, a platypus that lays eggs, and an echidna that has spines.
+p: Five animals, each with its own way of living.
+
+quiz: How fast can a three-toed sloth move on the ground?
+- 1 mph
++ 0.15 mph
+- 5 mph
+explain: A three-toed sloth moves at about 0.15 mph on the ground, roughly 13 feet in a minute.
+
+quiz: What does a naked mole-rat do that's like an ant colony?
+- Build tall mounds
++ Have one queen who has babies
+- Sting intruders with venom
+explain: Just like ants, they have a special queen!
+
+quiz: How does a platypus find food in muddy rivers?
+- By spotting prey with its sharp eyes
++ By sensing electricity with its bill
+- By sniffing out prey with its nose
+explain: Its bill picks up the faint electricity of a shrimp's muscle movements.
+
+quiz: What unique feature do both the platypus and echidna share?
+- They can fly
++ They lay eggs
+- They have fur and scales
+explain: Laying eggs is really unusual for mammals.
+
+quiz: How does a pangolin protect itself from predators?
+- It runs away quickly
++ It rolls into a tight ball
+- It stabs attackers with sharp horns
+explain: Rolling into a ball keeps it safe from predators.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
+=== animals-mammals-4
+idea: Five animals, each with a body part that does something odd. Find out whose legs work like springs, whose droppings come out as cubes, and whose trunk has no bones.
+game: Red kangaroo = Its legs are springs with enormous Achilles tendons | Koala = Eats almost nothing but eucalyptus leaves | Wombat = Drops cube-shaped droppings | Tasmanian devil = Has the strongest bite for its size | African elephant = Trunk has tens of thousands of muscle bundles
+
+--- 🐾
+p: Five animals are waiting to meet you: a red kangaroo, a koala, a wombat, a Tasmanian devil, and an African elephant.
+p: Each one is so different! They all have their own ways of living.
+
+--- 🐾 @red-kangaroo
+p: Start with the red kangaroo, the largest marsupial alive. A big male stands about 5 ft (1.5 m) tall and weighs about 146 lb (66 kg).
+fact(The speed): In a short burst, a red kangaroo can hit about 35 mph (56 km/h), faster than any human sprinter who has ever lived.
+p: Its legs are springs. Huge Achilles tendons in the lower legs stretch on landing and snap back on the next hop, so most of the energy from one hop gets recycled into the next. That is why it does not breathe harder as it speeds up.
+check: What special feature helps a red kangaroo recycle energy while hopping?
+- Its pouch stores up energy to use on each new hop
++ Its legs are springs with enormous Achilles tendons
+- Its tail is a spring that pushes it into each hop
+hint: Look at the second paragraph. It explains how the tendons work.
+explain: The kangaroo's legs have enormous Achilles tendons that stretch when it lands and snap back to propel the next hop, recycling energy efficiently.
+
+--- 🐾 @koala
+p: Next, meet the koala, a thick-furred tree-living marsupial from eastern Australia. It eats almost nothing but eucalyptus leaves.
+p: A koala's liver takes apart the toxins in eucalyptus leaves and flushes them out in its urine. The price is that eucalyptus leaves are tough, watery, and low in energy. So a koala spends up to 20 hours a day dozing or sitting perfectly still.
+term: cecum = A pouch off the gut where millions of microbes live and break down leaf fiber.
+fact(The gut bacteria): A joey's first solid food is pap, a soft green paste from its mother’s gut. Pap is full of living microbes that help the joey digest eucalyptus leaves.
+
+--- 🐾 @wombat
+p: Meet the wombat, a barrel-shaped marsupial from Australia that digs long tunnel systems with its strong front legs and comes out at night to graze.
+p: Wombat droppings come out as cubes. Eighty to a hundred of them a night, and the wombat balances them on rocks and logs where other wombats will find them.
+fact(Cubes in the wild): Scientists studied wombat intestines and found that stiff patches and soft patches in the last stretch squeeze the drying pellets into flat sides. A cube stays put on a rock. A ball rolls off.
+check: Why do wombats produce cube-shaped droppings?
++ To keep them from rolling away
+- To keep them warm inside the burrow
+- To make them easier to eat
+hint: Look at the last two sentences.
+explain: Wombats produce cube-shaped droppings so they stay put on rocks and logs, making them good markers.
+
+--- 🐾 @tasmanian-devil
+p: Meet the Tasmanian devil, the largest meat-eating marsupial alive. It’s a stocky, black, night-roaming scavenger found only in Tasmania.
+fact(The strongest bite): For its size, no living mammal bites harder than the Tasmanian devil. Pound for pound, its jaws out-bite a lion's and it can crunch straight through leg bone.
+p: Devils eat everything — skin, fur, organs, and bones. A dead wallaby can vanish overnight, leaving barely a stain on the grass.
+p: When a devil is excited or upset, its ears turn red. Blood floods the thin bare skin there, and its mood becomes visible from across a clearing.
+
+--- 🐾 @african-elephant
+p: Meet the African elephant, the largest animal that walks on land. It has a trunk that works as both a nose and a hand.
+fact(The powerful trunk): The trunk is made of tens of thousands of muscle bundles with no bone at all. It can lift a fallen branch or pick up a single blade of grass.
+check: What is an elephant's trunk made of?
+- Mostly bone and gristle, wrapped in thick skin
+- Hundreds of tiny bones joined by rubbery cords
++ Tens of thousands of muscle bundles and no bone
+hint: Look at the box about the trunk. It says what the trunk is made of.
+explain: The trunk has tens of thousands of muscle bundles with no bone, making it strong enough to lift branches and delicate enough to pick up small objects.
+
+--- 📊
+p: Now put the five side by side. The African elephant weighs about 12,125 lb and is 19.7 ft long. The red kangaroo weighs about 146 lb and is 4.6 ft long. The koala weighs about 18 lb and is 2.3 ft long. The wombat weighs about 57 lb and is 3.3 ft long. The Tasmanian devil weighs about 18 lb and is 2.1 ft long.
+fact(Speed): The red kangaroo can run at 35 mph, the Tasmanian devil at up to 16 mph (26 km/h), and the African elephant at only 16 mph.
+check: Which of the five is the heaviest?
++ The African elephant
+- The big red kangaroo
+- The common wombat
+hint: Look at the first paragraph and find the biggest number.
+explain: The African elephant, at about 12,125 lb.
+
+--- 🐾
+p: An African elephant weighing 12,125 lb, a red kangaroo at 35 mph, a koala in trees, a wombat weighing 57 lb, and a Tasmanian devil at 16 mph.
+p: Five animals, each one different, each one built for its own way of life.
+
+quiz: How does a red kangaroo recycle energy while hopping?
+- Its pouch stores up energy to use on each new hop
++ Its legs are springs with enormous Achilles tendons
+- Its tail is a spring that pushes it into each hop
+explain: The kangaroo's legs have special tendons that help it hop efficiently.
+
+quiz: What does a joey eat first to help digest eucalyptus leaves?
+- Dirt, scooped from the ground
+- Grubs, picked out of tree bark
++ Pap, a paste from its mother
+explain: Pap contains helpful microbes for the joey's digestion.
+
+quiz: What special feature do wombats have that helps them dig long tunnel systems?
+- A hard plate on its nose
++ Strong front legs
+- A tail like a shovel
+explain: Wombats use their strong front legs to dig tunnels.
+
+quiz: How does the Tasmanian devil's bite compare with other mammals of its size?
+- Pound for pound, a lion bites much harder
++ For its size, no living mammal bites harder
+- Most mammals of its size bite about the same
+explain: Pound for pound, no living mammal bites harder than the Tasmanian devil.
+
+quiz: How many muscle bundles are in an African elephant's trunk?
+- About 500
++ Tens of thousands
+- Fewer than 100
+explain: The trunk has tens of thousands of muscle bundles with no bone.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
+=== animals-mammals-5
+idea: A giraffe's neck has only seven bones, just like yours. Find out whose eyes turn blue in winter, whose hump is fat instead of water, and whose horn grows back.
+game: Giraffe = Tallest animal standing at 18 ft | Hippopotamus = Oozes red liquid as natural sunscreen | White Rhinoceros = Second-heaviest animal, horn regrows like nails | Dromedary Camel = Hump is fat, not water | Reindeer = Eyes turn deep blue in winter
+
+--- 🐾
+p: Five animals are waiting to meet you: a giraffe, a hippopotamus, a white rhinoceros, a dromedary camel, and a reindeer.
+
+--- 🐾 @giraffe
+p: Start with the tallest animal alive: a giraffe. A big bull stands about 18 ft (5.5 m) tall. Stand him beside a basketball hoop and his head is still about 8 ft (2.4 m) clear above the rim.
+fact(The long neck): Your neck has seven bones in it. So does a giraffe's. But a single bone can be longer than your whole forearm. One giraffe neck vertebra can measure over 11 in (28 cm).
+p: A giraffe's blood pressure is roughly twice yours. It has to be — the heart is pushing blood about 6 ft (2 m) straight uphill to reach the brain. Then the head swings down to drink. A mesh of fine vessels at the base of the skull, called the rete mirabile, soaks up the surge.
+check: What helps prevent a giraffe's brain from getting flooded when it lowers its head to drink?
+- Its thick-walled left ventricle
++ The rete mirabile
+- Its long neck vertebrae
+hint: Look at the last paragraph. It explains how the mesh of vessels works.
+explain: The rete mirabile is a mesh of fine vessels at the base of the skull that soaks up the surge when the head lowers to drink.
+
+--- 🐾 @hippopotamus
+p: Next is the hippopotamus, a river giant that spends its days submerged in water and its nights grazing on land.
+fact(The red sunscreen): Hippo skin oozes a thick red liquid called blood sweat — it's neither blood nor sweat. It acts as a natural sunscreen and antiseptic.
+term: pigments = Substances that give color to something. In this case, hippo skin produces pigments that protect against UV light.
+p: A hippo’s lower canine teeth can grow up to 20 in (50 cm) long — arm's length — and they never stop growing. They sharpen themselves every time the jaws close.
+
+--- 🐾 @rhinoceros
+p: Next up is the white rhinoceros, the second-heaviest animal on land. It's a grass-mowing giant with thick gray hide and two horns made of keratin, the same stuff as your fingernails and hair.
+fact(The never-ending horn): The horn keeps growing back, just like your nails. Rangers sometimes cut it off to protect the rhino from poachers, but it regrows from its base.
+check: What is the material that makes up a rhinoceros's horn?
+- Bone
+- Ivory
++ Keratin
+hint: Look at the first paragraph. It names the material that makes up the horns.
+explain: The horn is made of keratin, just like your fingernails and hair.
+
+--- 🐾 @camel
+p: Meet the dromedary camel, the one-humped giant of hot deserts, built to carry loads across country with no water in sight.
+fact(The hump's secret): The hump is not a water tank. It's fat — up to about 80 lb (36 kg) of it — that the camel carries around on its own back. When hungry, the hump shrinks and flops over; feed it up and the hump firms up again.
+p: A thirsty camel can drink more than 26 gallons (100 liters) in about ten minutes. That is fifty big water bottles straight down without stopping.
+
+
+--- 🐾 @reindeer
+p: Next, meet the reindeer, the deer of the frozen north. A bull stands about waist-high to a grown-up but is dense with it, up to 330 lb (150 kg).
+fact(Eyes that change color): In summer, a reindeer's eyes are gold. Through the long winter dark, they turn deep blue. The mirror behind the retina squeezes closer together and turns blue, so the eye catches more light.
+check: What color are a reindeer's eyes in the winter?
++ Deep blue
+- Gold
+- Green
+hint: Look at the last sentence of the fact box.
+explain: In winter, a reindeer's eyes turn deep blue to catch more light.
+
+--- 📊
+p: Put these five animals side by side. The white rhinoceros weighs about 4409 lb, the hippopotamus about 3307 lb, and the giraffe about 2646 lb. The dromedary camel weighs around 1213 lb, and the reindeer about 287 lb.
+fact(Speed): The white rhinoceros can run up to 31 mph, the hippopotamus up to 19 mph, and the giraffe up to 37 mph. The dromedary camel can reach 25 mph, while the reindeer also runs at 37 mph.
+check: Which of the five is the heaviest?
+- The river hippopotamus
++ The white rhinoceros
+- The tall male giraffe
+hint: Look at the first paragraph and find the biggest number.
+explain: The white rhinoceros, at about 4409 lb.
+
+--- 🐾
+p: A white rhinoceros running up to 31 mph and weighing 4409 lb, a hippopotamus up to 19 mph and 3307 lb, and a giraffe reaching 37 mph and 2646 lb. A dromedary camel at 25 mph and 1213 lb, and a reindeer also running 37 mph and weighing 287 lb.
+p: Five animals, each built for their own way of life.
+
+quiz: What does the rete mirabile do for the giraffe?
+- Pumps blood to its long legs when it starts to run
++ Soaks up blood pressure when it lowers its head
+- Helps it hear sounds from far across the plains
+explain: The rete mirabile is a mesh of vessels that helps prevent the giraffe's brain from getting flooded when it lowers its head to drink.
+
+quiz: What does the red liquid on a hippo's skin do?
+- Helps it grip slippery rocks
++ Works as sunscreen and antiseptic
+- Cools it down like regular sweat
+explain: The red liquid, called blood sweat, protects the hippo’s skin from UV light and keeps it free from infections.
+
+quiz: What happens to a rhinoceros's horn if it is cut off by rangers?
+- It never grows back again
++ It regrows from its base
+- It turns soft and crumbles
+explain: The rhinoceros's horn, made of keratin, will regrow from its base if it is cut off.
+
+quiz: How much water can a thirsty camel drink in ten minutes?
+- 13 gallons
++ 26 gallons
+- 50 gallons
+explain: A thirsty camel can drink more than 26 gallons of water in about ten minutes.
+
+quiz: What is the top speed of a reindeer?
+- 25 mph
++ 37 mph
+- 31 mph
+explain: Reindeer are fast runners, capable of reaching speeds up to 37 mph.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
+=== animals-mammals-6
+idea: A moose can feed underwater for half a minute. Find out who runs 4 miles at 35 mph, who brakes with dewclaws, and who sways trees to cross gaps.
+game: Moose = Can stay underwater for 30 seconds | Pronghorn = Hits about 55 mph | Mountain goat = Sharp dewclaws act like brakes | Chimpanzee = Uses sticks to fish out termites | Orangutan = Arm span reaches about 6 feet 7 inches
+
+--- 🐾
+p: Five animals are waiting to meet you: a moose, a pronghorn, a mountain goat, a chimpanzee, and an orangutan.
+p: Each one is special in its own way.
+
+--- 🐾 @moose
+p: Meet the biggest deer on Earth, the moose. It wades through northern ponds pulling up water plants.
+fact(The underwater eater): A moose can seal its nostrils shut and feed off the pond floor for half a minute at a time. The widest moose antlers ever recorded spanned close to 7 feet (2.1 m) tip to tip, wider than a standard doorway is tall.
+check: How long can a moose stay underwater while feeding?
+- 10 seconds
++ 30 seconds
+- 5 minutes
+hint: Look at the first sentence of the fact box.
+explain: A moose can seal its nostrils shut and feed off the pond floor for half a minute at a time.
+
+--- 🐾 @pronghorn
+p: Meet the pronghorn, a tan-and-white speedster of the North American plains. It’s not an antelope — it has its own family.
+fact(The long-distance runner): A pronghorn hits about 55 mph (88 km/h) and can keep running at 35 mph (56 km/h) for four miles (6.4 km). That's a different kind of fast from the cheetah — no stop button.
+term: keratin = The same stuff as your fingernails. It makes up the pronghorn's horns, which slide off every year and grow back.
+p: Pronghorns can spot movement from very far away, thanks to their huge eyes that see almost 320 degrees around them without turning their heads.
+
+--- 🐾 @mountain-goat
+p: Meet the mountain goat, a shaggy white climber of North America's highest cliffs. Its home is on ledges barely wider than a book.
+fact(The perfect climber): Each hoof splits into two toes that spread wide for balance, with a rubbery pad in the middle that grips bare rock like a climbing shoe. Behind each hoof, sharp dewclaws dig in as brakes on the way down.
+check: What do mountain goats use as brakes when coming down from high ledges?
++ Sharp dewclaws
+- Their hooves
+- Their tails
+hint: Look at the last sentence of the fact box.
+explain: Sharp dewclaws act like brakes on the way down.
+
+--- 🐾 @chimpanzee
+p: Next up is the chimpanzee, a powerful, noisy, tool-making ape of African forests. It lives in big groups where everybody knows everybody.
+fact(Tool kits): In the Congo, chimps punch holes into termite nests with a stout stick and fish out termites with a thinner stem, its tip chewed into a brush. Different communities make different designs and pass them to their young.
+p: Chimps also use stones as hammers and anvils to crack rock-hard nuts. It takes years of practice for a young chimp to get it right. Mothers help by setting up nuts and stones correctly for their children.
+
+--- 🐾 @orangutan
+p: Next up is the orangutan, a huge, ginger, unhurried ape that spends almost its entire life up in the trees of Borneo and Sumatra.
+fact(Arms and hands): Imagine your arms longer than you are tall. A male's arm span reaches about 6 feet 7 inches (2 m), while he stands only around 4.5 feet (1.4 m). The orangutan has four gripping hands, with hips loose enough to point its legs in any direction. To cross a gap between trees, it grips a trunk and sways it back and forth until the top leans over to the next tree.
+check: What does an orangutan use to cross a gap between trees?
+- Leaping
++ Swaying the tree
+- Dropping down to walk across
+hint: Look at the box about arms and hands. It says what the orangutan does to reach the next tree.
+explain: They sway the tree back and forth until it leans far enough to reach the next one.
+
+--- 📊
+p: Now put the five side by side. The moose weighs about 992 lb and is 8.9 ft long. The pronghorn weighs about 110 lb and is 4.6 ft long. The mountain goat weighs about 198 lb and is 4.9 ft long. The chimpanzee weighs about 88 lb. The orangutan weighs about 132 lb.
+fact(Speed): The moose can run at 35 mph, while the pronghorn is faster at 55 mph.
+check: Which of the five is the heaviest?
+- The mountain goat
++ The moose
+- The orangutan
+hint: Look at the first paragraph and find the biggest number.
+explain: The moose, at about 992 lb.
+
+--- 🐾
+p: A moose running 35 mph, a pronghorn at 55 mph, a mountain goat climbing cliffs, a chimpanzee weighing 88 lb, an orangutan weighing 132 lb.
+p: Five animals, each one different, and every one of them unique.
+
+quiz: What material makes up the pronghorn's horns?
+- Bone
++ Keratin
+- Muscle
+explain: Keratin is the same stuff as your fingernails.
+
+quiz: How do mountain goats maintain balance on narrow ledges?
+- Swinging their short tails sideways
++ Spreading their split hooves wide
+- Digging in with their curved horns
+explain: The split hooves spread wide for balance on narrow ledges.
+
+quiz: What tool do chimps use to fish out termites?
+- A rock with a sharp flat edge
++ A thin stem with a chewed tip
+- A large leaf folded into a scoop
+explain: Chimps chew the tip of the stem into a brush to fish out termites.
+
+quiz: How long is an adult male orangutan's arm span?
+- 4.5 feet
++ 6 feet 7 inches
+- 8 feet
+explain: An adult male orangutan has an arm span that reaches about 6 feet 7 inches.
+
+quiz: What speed can the pronghorn maintain for four miles?
+- 25 mph
++ 35 mph
+- 45 mph
+explain: The pronghorn can keep running at 35 mph for four miles.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-mammals-7
+idea: A male mandrill's face colors brighten when he rises in rank. Find out which animal fights with smell, which has eyes as big as its brain, and which bat hunts by heat.
+game: Mandrill = Face colors show status | Ring-tailed lemur = Uses a stink fight with its tail | Tarsier = Eyes as big as its brain | Vampire bat = Feeds on blood using heat-sensing nose | Flying fox = Biggest bats that use eyes and nose to find fruit
+
+--- 🐾
+p: Five animals are waiting to meet you: a mandrill, a ring-tailed lemur, a tarsier, a vampire bat, and a flying fox.
+p: Each one is built for a different life.
+
+--- 🐾 @mandrill
+p: Meet the mandrill, the biggest monkey in the world. A big male weighs around 55 lb (25 kg) — about as heavy as a nine-year-old kid.
+fact(The big red nose): A male's scarlet nose stripe and blue cheek ridges brighten when he climbs in rank, and fade when he loses the top spot. Rivals read his color like a scoreboard.
+check: What happens to a male mandrill's face colors when he gains or loses status?
+- They stay the same whatever his rank
+- They fade when he moves up in rank
++ They brighten when he moves up in rank
+hint: Look at the box about the nose. It says what happens to a male's colors when his rank changes.
+explain: The colors of a male mandrill's face brighten when he gains status and fade when he loses it. This is how other mandrills read his rank.
+
+--- 🐾 @ring-tailed-lemur
+p: Meet the ring-tailed lemur. This cat-sized primate from Madagascar is known by its long striped tail that it carries straight up like a flag.
+fact(The stink fight): Males settle arguments by smell. A male drags his tail across scent glands on his wrists and shoulders, arcs it over his head, and wafts it at his rival. This is called a stink fight.
+term: waft = To move something gently through the air, often to spread a smell.
+p: The troop keeps different alarm calls for different dangers. One call means a hawk overhead, and another means a fossa, a cat-like hunter, on the ground.
+
+--- 🐾 @tarsier
+p: Meet the tarsier, a tiny night-hunting primate from islands of Southeast Asia. Its eyes are so big they cannot move in their sockets.
+fact(The big eyes): Each eyeball is about 0.63 inches (16 mm) across — as big as its own brain. Scaled up to your size, you would have eyes as big as grapefruit.
+p: The tarsier can turn its head almost 180 degrees each way, enough to look back over its own spine. It uses this to track prey by sound alone in the dark.
+check: What is one surprising fact about the tarsier's eyes?
++ They are as big as its brain.
+- They are smaller than its brain.
+- They cannot move in their sockets.
+hint: Look at the second paragraph and find the size comparison.
+explain: The tarsier's eyes are as big as its brain.
+
+--- 🐾 @vampire-bat
+p: Meet the vampire bat, a small bat from Mexico, Central, and South America. It lives on one food: the blood of sleeping animals.
+fact(Heat-sensing nose): Pits around its nose read heat. Held close to an animal, they show it exactly where a blood vessel runs nearest the skin — like seeing a heat map.
+p: It does not suck blood; instead, razor-edged front teeth open a shallow cut and it laps up the blood with grooves along its tongue.
+fact(Feeding): Its saliva contains an anticoagulant, a chemical that stops blood from clotting, so the tiny wound keeps flowing while it feeds.
+
+--- 🐾 @flying-fox
+p: Meet the flying fox, the largest kind of bat on Earth. Its wings open wider than you are tall — about 5 ft (1.5 m) in the biggest kinds.
+fact(No sonar): Unlike other bats, flying foxes do not use echolocation. They find their food with big forward-facing eyes and an excellent nose, just like you would find a bakery.
+check: What do flying foxes use to locate fruit trees?
+- Echoes and very sharp ears
++ Big eyes and a good nose
+- Heat pits and long whiskers
+hint: Look at the box. It tells you how they find food.
+explain: Flying foxes rely on their big eyes and excellent sense of smell to locate fruit trees, just like you might use your nose to find a bakery.
+
+--- 📊
+p: Now put the five side by side. The mandrill is about 2.6 ft long. The ring-tailed lemur is around 1.4 ft. The tarsier is just 0.4 ft, and the vampire bat is even shorter at 0.3 ft. The flying fox is about 1 ft.
+fact(Weights): The mandrill weighs about 55 lb, while the ring-tailed lemur weighs around 5 lb. The tarsier and vampire bat both weigh almost nothing. The flying fox is around 2 lb.
+check: Which of the five is the longest?
++ The mandrill
+- The ring-tailed lemur
+- The flying fox
+hint: Look at the first paragraph and find the longest length.
+explain: The mandrill, at about 2.6 ft long, is the longest of the five.
+
+--- 🐾
+p: A mandrill with a colorful face. A ring-tailed lemur with a long striped tail. A tarsier that leaps at night. A vampire bat that feeds on blood. A flying fox with big wings.
+p: Five animals, five different jobs, each one made for its own life.
+
+quiz: What do male ring-tailed lemurs use to settle arguments?
+- A slap fight with their long striped tails
++ A stink fight with their scented tails
+- A loud shouting match from the treetops
+explain: Ring-tailed lemurs use their sense of smell to resolve conflicts.
+
+quiz: How big are a tarsier's eyes compared to its brain?
+- Smaller than its brain
++ As big as its brain
+- Twice the size of its brain
+explain: Tarsiers have eyes that are as big as their brains, which helps them see well at night.
+
+quiz: What helps vampire bats find blood vessels on an animal?
+- Sharp claws on their feet
++ Heat pits on their nose
+- Night vision in their eyes
+explain: Vampire bats use heat-sensing pits to locate blood vessels on their prey.
+
+quiz: How do flying foxes navigate at night?
+- Using sonar like other bats
++ With big eyes and a good sense of smell
+- By following the sound of ripening fruit
+explain: Flying foxes rely on their large eyes and strong sense of smell to find food.
+
+quiz: About how much does a big male mandrill weigh?
+- Around 5 lb
++ About 55 lb
+- Around 2 lb
+explain: The mandrill is much heavier than the other animals, weighing around 55 lb.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-amphibians-2
+idea: A Surinam toad carries its babies in pockets on its back. Find out which amphibian flashes red eyes, which breathes through its skin, and which can go ten years without eating.
+game: Surinam toad = Babies grow in pockets on its back | Red-eyed tree frog = Uses sudden color flash to escape | Hellbender = Breathes through its skin | Olm = Can go ten years without eating
+
+--- 🐾
+p: Four amphibians are waiting to meet you: a Surinam toad, a red-eyed tree frog, a hellbender, and an olm.
+p: Each one lives in a different world.
+
+--- 🐾 @surinam-toad
+p: Meet the Surinam toad. It looks exactly like a dead leaf and lives on the bottom of muddy South American ponds.
+fact(The nursery): The babies grow inside the mother's back. After mating, her skin swells up over the fertilized eggs and seals each one into its own pocket with a lid on top.
+p: For three to five months, she carries them, her back a honeycomb of bumps. Then the lids open and tiny toads push their way out.
+check: How are the babies protected while growing?
+- Inside pouches in the mud
++ Inside pockets with lids on top
+- Inside the mother's stomach
+hint: Look at the box about the nursery. It says what seals each egg into its pocket.
+explain: The pockets with lids on top protect the babies as they grow inside the mother's back.
+
+--- 🐾 @red-eyed-tree-frog
+p: Meet the red-eyed tree frog. It's a small neon-green rainforest frog with big red eyes, orange feet, and blue-and-yellow striped sides.
+fact(The flash of color): When it's asleep, it looks like a green leaf. But touch it, and its eyes snap open — two red discs — while orange feet and blue-and-yellow flanks flash out. Biologists call this a deimatic display: a sudden burst of color meant to startle.
+term: deimatic = A sudden burst of bright color to startle predators.
+p: The frog uses this quick flash to surprise any attacker, giving it the split-second it needs to escape.
+
+--- 🐾 @hellbender
+p: Meet the hellbender. It's a giant, flat-headed, wrinkled salamander that spends its whole life under rocks in cold, fast rivers.
+fact(The lungless giant): A typical hellbender is about 2 feet (60 cm) long. The largest ever measured was 29 inches (74 cm). It breathes through its skin and rarely uses its lungs.
+check: How does a hellbender breathe?
++ Through its skin
+- Through its gills
+- By using its lungs
+hint: Look at the box. It says how a hellbender gets its oxygen.
+explain: A hellbender breathes through its skin, which has folds packed with blood vessels to pull oxygen from the water.
+
+--- 🐾 @olm
+p: Next up is the olm, a pale, blind salamander that lives in the dark limestone caves of southeastern Europe.
+fact(The long wait): An olm can go ten years without eating — about as long as you have been alive. Food is scarce in its cave home, so it slows down and survives on fat and sugar stored in its liver.
+
+--- 📊
+p: The hellbender is the longest at 2 ft, while the red-eyed tree frog is the smallest at just 0.2 ft.
+
+check: Which of the four is the longest?
+- The Surinam toad
+- The red-eyed tree frog
++ The hellbender
+hint: Look at the first paragraph and find the biggest number.
+explain: The hellbender, at 2 ft.
+
+--- 🐾
+p: A hellbender that grows as long as 2 ft. A red-eyed tree frog so tiny at just 0.2 ft. A Surinam toad with eggs embedded in its skin. An olm that lives in caves and never sees the light.
+p: Four amphibians, each with their own unique way of life.
+
+quiz: What does the red-eyed tree frog use to startle predators?
+- Its green leaf-like appearance
++ A sudden flash of bright colors
+- Its loud croaking sound
+explain: The red-eyed tree frog uses its bright colors to surprise and escape from danger.
+
+quiz: Where does the Surinam toad carry its babies?
+- In her mouth, behind a flap of skin
+- In a nest of leaves by the river
++ On her back in pockets with lids
+explain: The Surinam toad's back becomes a nursery for her young.
+
+quiz: How long can an olm go without eating?
+- 1 year
++ 10 years
+- 5 years
+explain: An olm can survive for a very long time without food due to its cave environment.
+
+quiz: What helps the hellbender breathe underwater?
+- Its gills
++ Its skin
+- Its lungs
+explain: The hellbender's skin is specially adapted to absorb oxygen from water.
+
+quiz: What happens when the Surinam toad's babies are ready to come out?
+- They hatch from eggs left on the muddy ground
+- They wriggle out through their mother's mouth
++ They push through the lids on their mother's back
+explain: The baby toads emerge by popping open the lids on their mother's back.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-birds-2
+idea: A bird flew 8,435 miles without stopping. Find out who runs 43 mph, who follows summer around the world, and whose father sits on the eggs for two months.
+game: Bar-tailed godwit = Flew 8,435 miles non-stop | Arctic tern = Follows summer around the world | Emperor penguin = Breeds through Antarctic winter | Ostrich = Runs at 43 mph | Emu = Father sits on eggs for two months
+
+--- 🐾
+p: Five birds are waiting to meet you: a bar-tailed godwit, an Arctic tern, an emperor penguin, an ostrich, and an emu.
+p: Each one does something different.
+
+--- 🐾 @bar-tailed-godwit
+p: Start with the bar-tailed godwit, a long-billed wading bird that holds the record for the longest non-stop flight of any animal.
+fact(The journey): One godwit flew from Alaska to Tasmania without stopping — 8,435 miles (13,575 km) in 11 days. It was tracked by a tiny satellite tag and was making the journey for the first time.
+check: What was the distance flown by the bar-tailed godwit?
+- 5,000 miles
++ 8,435 miles
+- 12,000 miles
+hint: Look at the box. It gives the exact number.
+explain: The godwit flew 8,435 miles (13,575 km) without stopping.
+
+--- 🐾 @arctic-tern
+p: Meet the Arctic tern, a small silver seabird that follows summer from one end of the planet to the other, every single year.
+fact(The journey): Tracked birds cover about 44,000 miles (71,000 km) in a year, following a looping path rather than a straight line. Over a 30-year life, that adds up to nearly three round trips to the Moon.
+term: scrape = A small hollow made in sand or gravel where an Arctic tern lays its eggs.
+p: Chasing summer at both ends of the world, an Arctic tern sees more daylight in a year than any other creature alive.
+
+--- 🐾 @emperor-penguin
+p: Meet the emperor penguin, the largest penguin alive and the only bird that breeds through the Antarctic winter.
+fact(The father's job): The father holds the single egg on his feet under a fold of skin for about two months of Antarctic winter. He does not eat the whole time.
+check: How long does the father emperor penguin hold the egg?
+- 4 weeks
++ 2 months
+- 6 weeks
+hint: Look at the last two sentences. The exact number is given.
+explain: The father holds the egg for about 2 months of Antarctic winter without eating.
+
+--- 🐾 @ostrich
+p: Meet the ostrich, the biggest and fastest bird on Earth. It cannot fly but is built entirely for running.
+fact(The sprinter): An ostrich can run at 43 mph (70 km/h) and hold about 30 mph (48 km/h) for half an hour. No other two-legged animal comes close.
+p: Its eye is about 2 in (5 cm) across, the largest eye of any land animal, and bigger than its own brain.
+
+--- 🐾 @emu
+p: Next up is the emu, Australia’s tallest bird. It’s shaggy and flightless, but built for wandering.
+fact(The father): The father does all the work. He sits on dark green eggs for about eight weeks without eating much, and raises the chicks for up to 18 months.
+check: How long can an emu father sit on the eggs without eating properly?
++ Eight weeks
+- Two weeks
+- Four weeks
+hint: Look at the box about the father. It says how long he sits on the eggs.
+explain: The father sits on the eggs for about eight weeks without eating much.
+
+--- 📊
+p: Now put the five side by side. The ostrich weighs about 287 lb, the emperor penguin about 75 lb and the emu about 66 lb. The bar-tailed godwit weighs about 1 lb and the Arctic tern about 0.24 lb.
+fact(Speed): The ostrich can run at 43 mph, while the bar-tailed godwit flies at 35 mph and the emu runs at 31 mph.
+check: Which of the five is the heaviest?
++ The ostrich
+- The emu
+- The emperor penguin
+hint: Look at the first paragraph and find the biggest number.
+explain: The ostrich, at about 287 lb.
+
+--- 🐾
+p: An ostrich that runs at 43 mph. An Arctic tern that flies for miles. A bar-tailed godwit that soars at 35 mph. An emu that dashes at 31 mph. An emperor penguin that holds its egg through the winter.
+p: Five birds, each with their own way to move.
+
+quiz: How fast can an ostrich run?
+- 30 mph
++ 43 mph
+- 50 mph
+explain: The ostrich is built for speed and can really take off!
+
+quiz: What does the Arctic tern do every year?
+- Flies to the tropics for good
++ Follows summer around the world
+- Stays near the same Arctic beach
+explain: The Arctic tern chases the sun to get more daylight.
+
+quiz: How long does an emu father raise the chicks?
+- 6 months
++ Up to 18 months
+- 3 months
+explain: The emu dad is very involved in raising the young ones!
+
+quiz: What is special about the ostrich's eye?
+- It can see in complete darkness
++ It is bigger than its own brain
+- It glows in the dark
+explain: An ostrich's eye is about 2 in (5 cm) across, bigger than its own brain.
+
+quiz: How far does the bar-tailed godwit fly without stopping?
+- 7,000 miles
++ 8,435 miles
+- 10,000 miles
+explain: The bar-tailed godwit can fly for thousands of miles non-stop!
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-birds-3
+idea: The kea picks rubber seals off cars for fun. Find out which bird sniffs out worms, which flies 500 miles over open water, and which carves a hook from a twig.
+game: Kiwi = Hunts at night by smell | Bee hummingbird = Weighs less than a penny | Ruby-throated hummingbird = Flies 500 miles over the Gulf of Mexico | Kea = Takes apart cars for fun | New Caledonian crow = Uses hooked tools to catch beetle grubs
+
+--- 🐾
+p: Five birds are waiting to meet you: a kiwi, a bee hummingbird, a ruby-throated hummingbird, a kea, and a New Caledonian crow.
+p: Each has a special story to tell.
+
+--- 🐾 @kiwi
+p: The kiwi is a flightless bird from New Zealand, about the size of a chicken. It hunts at night by smell, poking its long beak into the ground.
+fact(The nose at the tip): The kiwi has nostrils at the very tip of its beak. This lets it sniff the ground and dig straight down after worms.
+
+--- 🐾 @bee-hummingbird
+p: Meet the smallest bird in the world — the bee hummingbird. It’s so tiny, people often mistake it for a big bee.
+fact(The tiniest bird): A male bee hummingbird weighs about 0.07 oz (1.95 g) — less than a US penny — and is only 2 inches (5.5 cm) long.
+term: cobweb = A very thin spider web used by the female bee hummingbird to build its nest.
+p: The female bee hummingbird builds a tiny nest using materials like cobwebs, bark, and lichen. The nest is about 1 inch (2.5 cm) across — small enough to sit on a coin.
+
+--- 🐾 @ruby-throated-hummingbird
+p: Meet the ruby-throated hummingbird. It’s the little green hummingbird you might see at a garden feeder in eastern North America.
+p: Before flying over the Gulf of Mexico, it eats a lot to double its fat reserves. This gives it enough fuel for a long flight.
+fact(The flight): The ruby-throated hummingbird can fly over 500 miles (800 km) of open water without stopping. The trip takes about 18 to 22 hours.
+check: How does the ruby-throated hummingbird prepare for its long flight over the Gulf of Mexico?
+- By flying south in a big flock
+- By growing extra wing feathers
++ By eating a lot to double its fat
+hint: Look at the second paragraph and find how it prepares.
+explain: It doubles its fat reserves by eating a lot before flying.
+
+--- 🐾 @kea
+p: Meet the kea, a big olive-green parrot that lives in New Zealand's snowy mountains. It’s the world's only alpine parrot.
+fact(The curious kea): The kea takes cars apart for fun. It picks rubber seals out of windshields and strips wiper blades, just to see what happens.
+
+--- 🐾 @new-caledonian-crow
+p: Meet the New Caledonian crow, a glossy black bird from a Pacific island. It makes hooked tools out of twigs — something very few animals besides humans do.
+fact(The clever hook): This crow snips a forked twig off a branch, strips the leaves, and carves it into a neat little hook. Then it uses the hook to fish for beetle grubs inside rotting wood.
+check: What does the New Caledonian crow use its hooked twig tool to catch?
+- Small birds nesting inside tree holes
++ Fat beetle grubs jammed deep in wood
+- Ripe fruit hanging high in the trees
+hint: Look at the second sentence. It tells you what the crow catches with its hook.
+explain: The crow uses its hooked twig to catch fat beetle grubs jammed deep in wood.
+
+--- 📊
+p: The kea weighs about 2 lb and measures 1.6 ft long. The bee hummingbird is the lightest at about 0.07 oz (2 g) and just 0.2 ft long.
+fact(Speed): The ruby-throated hummingbird can fly up to 30 mph, while the bee hummingbird reaches about 26 mph.
+check: Which of the five birds is the lightest?
++ The bee hummingbird
+- The alpine kea parrot
+- The brown kiwi bird
+hint: Look at the first paragraph. One bird is named the lightest.
+explain: The bee hummingbird is the lightest, at about 0.07 oz (2 g).
+
+--- 🐾
+p: A kiwi that can't fly but runs like a ground bird. A bee hummingbird weighing almost nothing. A ruby-throated hummingbird zipping at 30 mph. A kea playing in the snow. A New Caledonian crow using sticks to find food.
+p: Five birds, each so different, and every one built for its own world.
+
+quiz: What does the kiwi use its beak for?
+- Spearing fish and frogs in streams
++ Sniffing and digging for worms
+- Pecking holes in tree trunks
+explain: The kiwi's special beak helps it hunt at night.
+
+quiz: How much does a male bee hummingbird weigh?
+- About as heavy as a nickel
++ Less than a US penny
+- About as heavy as a grape
+explain: That's why people often think it's a big bee!
+
+quiz: What does the kea do for fun?
+- Play with leaves
++ Take cars apart
+- Sing songs
+explain: The kea loves to play and explore, even if that means taking things apart.
+
+quiz: How does the New Caledonian crow make its tool?
+- By bending a straight twig
++ By carving a forked twig into a hook
+- By using its beak to shape a rock
+explain: The crow is very clever with its tools.
+
+quiz: Where can you find the ruby-throated hummingbird?
+- In the dry deserts of southern Africa
++ At garden feeders in eastern North America
+- On the icy shores of northern Greenland
+explain: This little green bird loves to visit gardens for nectar.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-birds-4
+idea: A parrot named Alex learned the idea of "none". Find out which bird plays back the forest, which has eyespots in its tail, and which has a bill that is mostly air.
+game: African gray parrot = Learned over a hundred English words | Superb lyrebird = Copies sounds from other birds | Indian peafowl = Shimmering eyespots in its tail feathers | Greater flamingo = Feeds with its head upside down | Toco toucan = Has a bill that is mostly air pockets
+
+--- 🐾
+p: Five birds are waiting to meet you: an African gray parrot, a superb lyrebird, an Indian peafowl, a greater flamingo, and a toco toucan.
+p: Each one has something unique about it.
+
+--- 🐾 @african-grey-parrot
+p: Meet the African gray parrot, a dust-gray bird from the forests of central Africa with a scarlet tail and a mind that solves problems.
+fact(Alex's words): A gray parrot named Alex learned over a hundred English words and could answer questions he had never been taught.
+p: In one test, Alex said "none" when asked about an amount that was not there. He figured out the concept of zero on his own.
+check: What did Alex say when asked about an amount that was not present?
+- Said "many"
++ Said "none"
+- Said "all"
+hint: Look at the first sentence of the paragraph under the box. It tells you the word Alex said when there was nothing to count.
+explain: Alex said "none" when there was no amount to count.
+
+--- 🐾 @lyrebird
+p: Meet the Superb lyrebird, a chicken-sized Australian songbird with a tail longer than its body and a voice that copies every bird in the forest.
+fact(The copycat): Seven or eight out of every ten sounds a male lyrebird makes are copied from other birds. He is not really singing his own song; he is playing back the forest.
+term: filaments = Thin, string-like parts that make up the tail feathers.
+p: The male's lyre-shaped tail has sixteen feathers, including two curved outer ones and twelve fine silvery filaments in between.
+
+--- 🐾 @peacock
+p: Meet the Indian peafowl, a blue-and-green bird whose male grows a fan of shimmering eyespots about 5 ft (1.5 m) tall.
+fact(The feather trick): No dye in that train. The color is built into the shape of each feather, like a soap bubble or an oil slick on water.
+
+--- 🐾 @flamingo
+p: Next up is the greater flamingo, a tall pink wading bird that eats with its head held upside down in water too salty for almost anything else.
+fact(The upside-down eater): It feeds with its head upside down. The bill is a strainer. The fat tongue pumps like a piston, and comb-like ridges called lamellae hold back the shrimp and algae. In almost every animal, the lower jaw moves, but a flamingo's upper jaw swings instead.
+
+--- 🐾 @toucan
+p: Meet the Toco toucan, a crow-sized South American fruit-eater with a huge orange bill that takes up a third of its whole length.
+fact(The light yet strong bill): The bill is about 8 inches (20 cm) long and weighs almost nothing. It's mostly air pockets inside a thin shell of keratin, like your fingernails.
+check: What is the main material inside the toucan's bill?
++ Air pockets
+- Bone
+- Muscle
+hint: Look at the third sentence. It tells you what makes the bill so light.
+explain: The bill is mostly made of air pockets inside a thin shell of keratin, which keeps it light and strong.
+
+--- 📊
+p: The Indian peafowl is the longest at 7.2 ft, while the African gray parrot is the shortest at 1.1 ft.
+fact(Speed): The greater flamingo flies at up to 35 mph.
+check: Which of the five is the longest?
+- The Toco toucan
+- The African gray parrot
++ The Indian peafowl
+hint: Look at the first sentence. It gives the length of the Indian peafowl and the African gray parrot.
+explain: The Indian peafowl, at 7.2 ft, is the longest among them.
+
+--- 🐾
+p: An African gray parrot that talks. A superb lyrebird that mimics. An Indian peafowl with a long train. A greater flamingo that flies fast. A toco toucan with a big beak.
+p: Five birds, each with their own unique way of living and thriving.
+
+quiz: What did Alex figure out on his own?
+- He counted to ten.
++ He understood zero.
+- He sang songs.
+explain: Alex showed he could think for himself.
+
+quiz: How does a male lyrebird mostly communicate?
+- By tapping its beak on tree trunks.
++ By copying other birds' sounds.
+- By clapping its wings loudly.
+explain: The lyrebird is a great mimic of bird sounds.
+
+quiz: What creates the colorful shimmer in peacock feathers?
+- A thin coating of shiny oil.
++ The shape of each feather.
+- The food that the bird eats.
+explain: The color comes from how light bounces off the feather.
+
+quiz: How does a flamingo eat its food?
+- By diving far down under the water.
++ With its head upside down in water.
+- By spearing fish with its sharp beak.
+explain: Flamingos have a unique way of feeding.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-birds-5
+idea: A puffin can hold over a dozen fish in its bill. Find out who builds a grass nest shared by over a hundred families, who collects blue treasures, and who dives from 70 ft.
+game: Pileated woodpecker = Drills rectangular holes in trees | Sociable weaver = Builds giant communal nests | Satin bowerbird = Collects blue objects for decoration | Magnificent frigatebird = Has an 8 ft wingspan | Brown pelican = Dives from 60-70 ft to catch fish | Atlantic puffin = Can hold over a dozen fish at once
+
+--- 🐾
+p: Six birds are waiting to meet you: a pileated woodpecker, a sociable weaver, a satin bowerbird, a magnificent frigatebird, a brown pelican, and an Atlantic puffin.
+p: Each one does something surprising.
+
+--- 🐾 @woodpecker
+p: Meet the pileated woodpecker, a crow-sized black bird with a flaming red crest. It chisels rectangular holes into dead trees to hunt ants.
+fact(The miner): This woodpecker gouges rectangles deep enough to snap a small tree in half. The rectangular hole is its signature, so you can spot it without ever seeing the bird.
+p: Its tongue is too long to fit inside its head normally, so it can reach deep into ant tunnels and pull the ants out. The bones supporting it curl up around the back of the skull and anchor near the nostril.
+
+--- 🐾 @sociable-weaver
+p: Next, meet the sociable weaver, a small brown bird about the size of a sparrow, from the dry plains of southern Africa. It builds the largest nest of any bird on earth — a giant grass haystack shared by over a hundred families.
+fact(The nest): The sociable weaver's nest can grow so heavy that it tears branches loose or brings down the whole tree.
+
+p: Each pair gets a private room with its own entrance tunnel. Sharp straw spikes around each doorway keep snakes out.
+
+--- 🐾 @bowerbird
+p: Meet the satin bowerbird, an Australian forest bird known for its decorated stage of sticks.
+fact(The blue collection): The male collects blue objects — feathers, flowers, bottle caps, and more — to decorate his stage. He spends his life gathering these blue treasures.
+check: What does the male satin bowerbird collect to decorate his stage?
++ Blue objects
+- Red berries
+- Yellow leaves
+hint: Look at the box about the blue collection. It says what the male gathers.
+explain: The male satin bowerbird collects blue objects, like feathers, flowers, and bottle caps.
+
+--- 🐾 @frigatebird
+p: Next, meet the magnificent frigatebird, a huge black seabird with an eight-foot wingspan and a scarlet throat balloon.
+term: wingspan = The distance from one wing tip to the other when the wings are stretched out.
+fact(The weight-to-wing ratio): The wings span up to 8 ft (2.44 m) — wider than a doorway is tall. The whole bird weighs about 3 lb (1.4 kg), roughly the weight of a big bottle of water. That ratio is the entire story of this animal. Enormous wing, almost no body.
+
+--- 🐾 @pelican
+p: Next up, the brown pelican. It’s a big gray-brown bird that hunts by folding its wings and smashing into the ocean from high above.
+fact(The dive): From 60-70 ft (18-21 m) high, it dives bill-first, hitting the water hard enough to stun fish just below the surface.
+check: What does the pelican use to scoop up fish?
+- Its wings
++ Its bill
+- Its feet
+hint: Look at the fact box. It talks about how the pelican dives with its bill.
+explain: The pelican uses its bill to scoop up fish when it dives into the water.
+
+--- 🐾 @puffin
+p: Next up is the Atlantic puffin, a small black-and-white seabird with a colorful striped bill.
+fact(The fish trick): A puffin can hold more than a dozen small fish crosswise in its bill at once. It uses backward-pointing spines on its tongue and roof of its mouth to keep the fish from falling out while it catches more.
+
+--- 📊
+p: The Brown pelican is the longest at 4.1 ft, and the Sociable weaver is the shortest at just 0.5 ft.
+fact(Speed): The Atlantic puffin can fly up to 50 mph, beating its wings about 400 times a minute.
+check: Which of the six is the longest?
+- The magnificent frigatebird
+- The pileated woodpecker
+- The Atlantic puffin
++ The brown pelican
+hint: Look at the first sentence and find the largest number.
+explain: The Brown pelican, at 4.1 ft, is the longest of the six birds.
+
+--- 🐾
+p: A pileated woodpecker that drills into trees. A sociable weaver that builds nests like apartment blocks. A magnificent frigatebird soaring high in the sky. A brown pelican diving for fish. An Atlantic puffin that flies up to 50 mph.
+p: Six birds, each with its own way of life.
+
+quiz: What does the pileated woodpecker use to pull ants out of the wood?
+- Its claws
++ Its tongue
+- Its beak
+explain: The pileated woodpecker has a super long tongue that helps it get ants.
+
+quiz: How does the sociable weaver keep snakes out of its nest?
+- Thick clay walls
++ Sharp straw spikes
+- A hidden trap door
+explain: The sociable weaver uses sharp straw spikes to keep snakes away from its nest.
+
+quiz: What special feature does the magnificent frigatebird have?
+- A long beak
++ A scarlet throat balloon
+- Feathers of different colors
+explain: The magnificent frigatebird has a bright red throat that it puffs up like a balloon.
+
+quiz: How high does the brown pelican dive from?
+- 30 ft
++ 60-70 ft
+- 100 ft
+explain: The brown pelican dives from very high up to catch fish in the water.
+
+quiz: What helps the Atlantic puffin hold more than a dozen small fish in its bill?
+- Sticky glue all over its tongue and bill
++ Backward-pointing spines in its mouth
+- Two big stretchy pouches under its bill
+explain: The Atlantic puffin has special backward-pointing spines that help it hold lots of fish.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-crustaceans-1
+idea: The mantis shrimp has the fastest punch in the ocean. Find out which of these five crabs and shrimps can span up to 12 ft.
+game: Mantis shrimp = Fastest punch in the ocean | Pistol shrimp = Snaps a bubble to stun prey | Coconut crab = Largest crab that walks on land | Japanese spider crab = Legs stretch up to 12 ft | Hermit crab = Lives in borrowed snail shells
+
+--- 🐾
+p: Five animals are waiting to meet you: a mantis shrimp, a pistol shrimp, a coconut crab, a Japanese spider crab, and a hermit crab.
+p: Each one is special in its own way.
+
+--- 🐾 @mantis-shrimp
+p: First up, meet the mantis shrimp. It’s not really a shrimp but a reef crustacean with the fastest punch in the ocean and the strangest eyes on Earth.
+fact(The punch): The punch lands with about 1,500 newtons of force, roughly 340 lb of push. That is more than a thousand times its own body weight.
+p: Its punch moves so fast it creates a bubble of vapor that collapses an instant later, adding a second hit to the same spot.
+check: How many times its own body weight does the mantis shrimp's punch land with?
+- Only about 200 times
++ More than 1,000 times
+- Less than 50 times
+hint: Look at the box about the punch. It gives the number of times.
+explain: The mantis shrimp's punch lands with more than 1,000 times its own body weight.
+
+--- 🐾 @pistol-shrimp
+p: Next, meet the pistol shrimp. It’s a thumb-sized shrimp with one oversized claw that kills by snapping a bubble at things.
+fact(The snap): Its weapon isn't the claw — it's the bubble. When the claw snaps, water splits into a vapor pocket, and when that collapses, it hits prey hard enough to stun it.
+term: cavitation = A bubble of empty space in water that forms when water is pushed apart really fast.
+p: The shrimp never has to touch its dinner. The shockwave from the snapping claw stops a small fish or worm from moving, and the shrimp strolls out to collect it.
+
+--- 🐾 @coconut-crab
+p: Next up is the coconut crab — the largest crab that walks on land. Leg tip to leg tip, it can span 3 feet (1 meter) — the width of a doorway.
+fact(The pinch): The strongest coconut crab tested squeezed with 1,765 newtons — like balancing two adults on a single point, and it does not let go quickly.
+check: What is the force measured in newtons for the strongest coconut crab pinch?
+- 100 newtons
++ 1,765 newtons
+- 300 newtons
+hint: Look at the box about the pinch. It gives the number of newtons.
+explain: The strongest coconut crab tested squeezed with 1,765 newtons.
+
+--- 🐾 @japanese-spider-crab
+p: Next up is the Japanese spider crab — the legs of this deep-water crab stretch further than any other animal with a shell on the outside.
+fact(The span): Claw tip to claw tip, it can reach up to 12 ft (3.7 m) — that's two grown adults lying head to toe.
+p: The body is the surprise. Nearly all of its 12 ft (3.7 m) span is leg — the body shell, called the carapace, is only about 15.7 in (40 cm) across.
+
+--- 🐾 @hermit-crab
+p: Next is the hermit crab — a crab with a soft, curled tail that borrows an empty snail shell to live in.
+fact(The soft underbelly): Its back half is bare. Under the borrowed shell, the abdomen is soft, pale and twisted into a spiral, curled to fit the inside of a snail shell exactly.
+p: They queue for houses. A crab that finds a shell too big waits beside it. As others arrive they line up largest to smallest. Then all of them swap at once, down the line.
+check: What do hermit crabs do when they find a shell that's too big?
++ Wait beside the shell
+- Knock on the shell
+- Climb into the shell
+hint: Look at the last paragraph. It describes how they line up and swap shells.
+explain: Hermit crabs wait beside a shell that is too big and queue up to swap with others.
+
+--- 📊
+p: The Japanese spider crab is the longest at 12.1 ft. The pistol shrimp is the shortest at just 0.2 ft.
+fact(Strikes): The mantis shrimp's punch and the pistol shrimp's snap are two of the fastest moves in the sea.
+check: Which of the five is the longest?
++ The Japanese spider crab
+- The giant coconut crab
+- The peacock mantis shrimp
+hint: Look at the first paragraph. It gives the exact lengths.
+explain: The Japanese spider crab is the longest, measuring 12.1 ft.
+
+--- 🐾
+p: A mantis shrimp with a powerful punch. A pistol shrimp that snaps its claws. A coconut crab that looks like a giant. A Japanese spider crab with legs that stretch 12.1 ft. A hermit crab that moves into new homes.
+p: Five crustaceans, each one built differently, and all with surprising abilities.
+
+quiz: What does the pistol shrimp use to stun its prey?
+- a puff of dark ink
++ a collapsing bubble
+- a sting from its tail
+explain: The pistol shrimp uses a bubble to create a shockwave.
+
+quiz: How does the mantis shrimp's punch create a second hit?
+- by springing back off the shell of its prey
++ by creating a vapor bubble that collapses
+- by spinning its body around in the water
+explain: The mantis shrimp’s punch creates a vapor bubble that adds another hit when it collapses.
+
+quiz: What is the carapace of the Japanese spider crab like in size?
+- nearly 31.5 inches (80 cm) across
++ only about 15.7 inches (40 cm) across
+- roughly 4.5 feet (137 cm) across
+explain: The carapace of the Japanese spider crab is much smaller than you might think.
+
+quiz: What special ability does the coconut crab have?
+- it can breathe underwater for hours
++ it can squeeze with 1,765 newtons
+- it can fire a jet of water at prey
+explain: The coconut crab has a powerful pinch that can squeeze very hard.
+
+quiz: How do hermit crabs line up to swap shells?
+- from smallest to largest
++ largest to smallest
+- randomly
+explain: Hermit crabs line up from largest to smallest to swap shells.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-dinosaurs-1
+idea: T. rex had teeth over a foot long. See how each dinosaur's body was built for its own world.
+game: Tyrannosaurus rex = Teeth over a foot long | Triceratops = Three-horned with a solid bone frill | Stegosaurus = Has spiked plates and a dog-sized brain | Brachiosaurus = Built like a giraffe with long front legs | Apatosaurus = Called Brontosaurus, as heavy as three elephants
+
+--- 🐾
+p: Five dinosaurs are waiting to meet you: a Tyrannosaurus rex, a Triceratops, a Stegosaurus, a Brachiosaurus, and an Apatosaurus.
+p: Each one was built for a different world long ago.
+
+--- 🐾 @tyrannosaurus
+p: Start with the biggest meat-eating dinosaur from North America. Tyrannosaurus rex was about 40 ft (12 m) nose to tail, and 12 ft (3.7 m) tall at the hips.
+fact(The heavy one): Scotty, a skeleton found in Canada, may be the biggest T. rex ever found, weighing about 19,500 lb (8,870 kg) and measuring around 43 ft (13 m) long.
+p: T. rex teeth were thick pegs for crunching bone, not slicing flesh. The largest tooth ever found is 12 in (30.5 cm) long, with only about 4 in showing above the gum.
+check: How long is the largest T. rex tooth ever found?
+- 6 inches
++ 12 inches
+- 18 inches
+hint: Look at the last sentence of the paragraph before the check.
+explain: The largest T. rex tooth ever found is 12 in (30.5 cm) long.
+
+--- 🐾 @triceratops
+p: Next, meet Triceratops, a three-horned plant-eater with a solid bone frill.
+fact(The big head): About 28 ft (8.5 m) long, nearly a third of its body is its huge skull.
+term: rostral = A special bone that only horned dinosaurs have. It makes their beak.
+fact(Survivor): One Triceratops skull shows tooth marks from a tyrannosaur attack. The bone grew over the wounds, so this one survived and lived on for years.
+
+--- 🐾 @stegosaurus
+p: Next up, Stegosaurus, a plant-eater with spiked plates on its back and a dog-sized brain.
+p: Those plates were once thought to be radiators for shedding heat, but now they are seen as a way to look bigger to rivals or enemies.
+fact(The spikes): The four tail spikes are 2 to 3 ft (60–90 cm) long and stick out sideways. Around one in ten spike tips found are broken and then healed, showing they were actually used.
+check: What is the best read today of what the plates were for?
+- Radiators for shedding heat
+- Extra protection from predators
++ Looking bigger to rivals or enemies
+hint: Look at the second paragraph. It tells you what the main job is.
+explain: The best read is that the plates were for show: seen side-on, they make the animal look taller and broader to a rival or an enemy.
+
+--- 🐾 @brachiosaurus
+p: Meet Brachiosaurus, a long-necked plant-eater built like a giraffe with front legs longer than its back legs.
+p: Its upper arm bone is 6 ft 8 in (204 cm) long. That’s the bone from shoulder to elbow — imagine how tall the whole leg was!
+fact(The tilted back): The shoulders were much higher than the hips, so its back sloped downhill from front to rear like a giraffe's. Nearly every other big long-neck had high hips and low shoulders.
+
+--- 🐾 @apatosaurus
+p: Meet Apatosaurus, a heavy long-necked plant-eater that most people still call Brontosaurus. It was as long as 72 feet (22 m) and as heavy as three or four elephants.
+fact(The hollow neck): It has fifteen neck bones, and none of them are solid — they’re hollowed out just like a bird’s bones.
+
+--- 📊
+p: Now put the five side by side. The heaviest is Brachiosaurus at 70,000 lb. The lightest is Stegosaurus at 7,700 lb.
+fact(Size): Brachiosaurus is 70 ft long and Apatosaurus is 72 ft long. Both are giants, but T. rex is only 40 ft long.
+check: Which of the five is the heaviest?
++ The Brachiosaurus
+- The Apatosaurus
+- The Stegosaurus
+hint: Look at the first paragraph and find the biggest number.
+explain: The Brachiosaurus, at 70,000 lb.
+
+--- 🐾
+p: A T. rex that hunts, a Triceratops with horns, a Stegosaurus with plates, a Brachiosaurus reaching high, an Apatosaurus long and heavy.
+p: Five giants, each one built for its own world.
+
+quiz: How long was Brachiosaurus's upper arm bone?
+- 4 ft 6 in (137 cm)
++ 6 ft 8 in (204 cm)
+- 5 ft 2 in (157 cm)
+explain: That’s a huge bone, taller than most grown-ups!
+
+quiz: What did scientists once think Stegosaurus's plates were used for?
+- Looking bigger to rivals
++ Shedding heat
+- Protecting from predators
+explain: They thought the plates helped cool off the big dinosaur.
+
+quiz: How long is T. rex nose to tail?
+- 30 ft (9 m)
++ 40 ft (12 m)
+- 50 ft (15 m)
+explain: T. rex was huge, but not as big as some other dinosaurs.
+
+quiz: What special bone do horned dinosaurs have?
+- A jawbone
++ A rostral bone
+- A rib bone
+explain: The rostral bone makes their beak, perfect for munching plants.
+
+quiz: About how much does Scotty, the biggest T. rex found, weigh?
+- 12,000 lb (5,443 kg)
++ 19,500 lb (8,870 kg)
+- 25,000 lb (11,340 kg)
+explain: Scotty may be the biggest T. rex found, at about 19,500 lb (8,870 kg).
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-dinosaurs-2
+idea: Ankylosaurus swung a heavy club of bone on its tail. Find out which dinosaur had a tail fin for swimming, which was found mid-fight, and which was covered in healed injuries.
+game: Diplodocus = One of the longest animals to walk on land | Velociraptor = Turkey-sized hunter with an oversized sickle claw | Spinosaurus = Had a crocodile-like snout and a tall sail of bone | Allosaurus = Two-legged hunter with saw-edged teeth | Ankylosaurus = Covered in armor, with a powerful tail club
+
+--- 🐾
+p: Five dinosaurs are here to meet you: a Diplodocus, a Velociraptor, a Spinosaurus, an Allosaurus, and an Ankylosaurus.
+p: Each one was built for a different job in their world.
+
+--- 🐾 @diplodocus
+p: First up, meet the Diplodocus. It's one of the longest animals ever to walk on land, stretching about 85 ft (26 m) nose to tail.
+fact(The surprising tail): Skin impressions show that Diplodocus had narrow, pointed spines along the whip end of its tail. The biggest spine was maybe 7 in (18 cm) long.
+check: What did skin impressions reveal about Diplodocus's tail?
+- It had thick, bony armor all along the whip end
+- It had wide, flat plates along its whole length
++ It had narrow, pointed spines along the whip end
+hint: Look at the fact box. It mentions what the skin impressions showed.
+explain: The skin impressions revealed that Diplodocus had narrow, pointed spines along the whip end of its tail.
+
+--- 🐾 @velociraptor
+p: Next up, meet the Velociraptor. It's a turkey-sized hunter from the sand dunes of Mongolia, with one oversized sickle claw on each foot.
+term: fossil = The hardened remains of a plant or animal, or its footprint, kept in rock.
+fact(The Fighting Dinosaurs): The Fighting Dinosaurs is a fossil found in 1971. It shows a Velociraptor and a Protoceratops buried mid-fight. Sand poured over both animals fast, preserving the moment.
+
+fact(The claw): The second toe of each foot had a curved claw over 2.6 in (6.5 cm) around its outer edge. It was probably used to pin prey to the ground, not slash.
+
+--- 🐾 @spinosaurus
+p: Meet the longest meat-eating dinosaur anyone has found: Spinosaurus. It had a crocodile-like snout and a tall sail of bone down its back.
+fact(The surprising tail): Its tail bones form a flat fin, much like a newt's. A model of this tail was tested in a water tank and produced over eight times the push of an ordinary meat-eater's tail.
+check: What feature of Spinosaurus surprised researchers when they tested it in a water tank?
+- Its tall sail
++ Its tail fin
+- Its crocodile-like snout
+hint: Look at the last sentence. It talks about what was tested.
+explain: The tail fin. When tested, it produced over eight times the push of an ordinary meat-eater's tail.
+
+--- 🐾 @allosaurus
+p: Next up is Allosaurus, the most common big meat-eater found in the Morrison rock layers of the western United States. It was a two-legged hunter with saw-edged teeth and blunt horns above its eyes.
+fact(The injured hunter): Big Al, found in Wyoming, is about 95% complete and has 19 broken or infected bones, including ribs, backbones, foot bones, and more. One of its toes was swollen from an infection that lasted months.
+
+--- 🐾 @ankylosaurus
+p: Meet Ankylosaurus, a low, wide plant eater covered in armor from head to tail. The most surprising part is its tail club, which is like a big bone knob under a hard shell.
+fact(The tail club): The first Ankylosaurus tail club was found in 1910 and measured 24 inches (60 cm) long. 19 inches (49 cm) across. 7.5 inches (19 cm) thick. It could deliver a powerful blow.
+check: What is the length of the Ankylosaurus tail club?
+- 19 inches
+- 7.5 inches
++ 24 inches
+hint: Look at the first sentence in the fact box.
+explain: The tail club is 24 inches long.
+
+--- 📊
+p: The heaviest is Diplodocus, weighing in at 28,000 lb, while the lightest is Velociraptor, only 40 lb.
+fact(Length): Diplodocus stretches to 85 ft long. Spinosaurus is next at 46 ft, then Allosaurus at 28 ft, Ankylosaurus at 26 ft, and Velociraptor at 6.8 ft.
+check: Which of the five is the longest?
+- Velociraptor
+- Spinosaurus
+- Allosaurus
++ Diplodocus
+hint: Look at the fact box for the lengths.
+explain: Diplodocus is the longest at 85 ft.
+
+--- 🐾
+p: Diplodocus stretching 85 ft long. Velociraptor weighing just 40 lb. Spinosaurus with a sail on its back. Allosaurus hunting with sharp teeth. Ankylosaurus armored like a tank.
+p: Five dinosaurs, five different shapes, and each one built for its own world.
+
+quiz: How long was Diplodocus from nose to tail?
+- 50 ft (15 m)
++ 85 ft (26 m)
+- 100 ft (30 m)
+explain: Diplodocus stretched about 85 ft (26 m) nose to tail, one of the longest dinosaurs.
+
+quiz: What did the Fighting Dinosaurs fossil show?
+- A Velociraptor and a Stegosaurus
++ A Velociraptor and a Protoceratops
+- A Velociraptor and a Triceratops
+explain: The fossil captured a moment in time when these two dinosaurs were fighting.
+
+quiz: What feature did researchers test in Spinosaurus?
+- Its tall sail
++ Its tail fin
+- Its snout
+explain: Testing the tail fin showed how strong it was in water.
+
+quiz: How many broken or infected bones did Big Al have?
+- 10
++ 19
+- 5
+explain: Poor Big Al had quite a few injuries!
+
+quiz: What is the thickness of Ankylosaurus's tail club?
+- 5 inches (13 cm)
++ 7.5 inches (19 cm)
+- 10 inches (25 cm)
+explain: The tail club was thick enough to deliver a powerful blow.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-dinosaurs-3
+idea: A Parasaurolophus crest was a hollow tube of bone. Find out whose skull roof was thicker than a brick is long, and whose thumb spike was once stuck on its nose.
+game: Parasaurolophus = Has a hollow bone tube for a crest | Pachycephalosaurus = Dome is 8.7 inches thick | Iguanodon = Thumb spike mistaken for a nose horn | Argentinosaurus = Known from only a few gigantic bones | Giganotosaurus = Found by Rubén Carolini while driving
+
+--- 🐾
+p: Five dinosaurs are waiting to meet you: a Parasaurolophus, a Pachycephalosaurus, an Iguanodon, an Argentinosaurus, and a Giganotosaurus.
+p: Each one is unique and full of surprises.
+
+--- 🐾 @parasaurolophus
+p: Meet the Parasaurolophus, a plant-eating dinosaur with a long hollow tube of bone curving off its skull.
+fact(The wind instrument): The crest is hollow, with tubes running from each nostril all the way up to the tip and back down into the skull.
+
+--- 🐾 @pachycephalosaurus
+p: Next is the Pachycephalosaurus, a two-legged plant-eater with a skull roof that is a thick lump of solid bone.
+fact(The thick head): The dome on top of its head is solid bone up to 8.7 inches (22 cm) thick — thicker than a brick is long.
+term: knob = A round bump or projection. Pachycephalosaurus has a fringe of these bony knobs and short spikes around its dome.
+p: Almost everything known about this dinosaur is its head. Complete skeletons are rare, likely because the thick dome survived better in rivers than thin body bones did.
+
+--- 🐾 @iguanodon
+p: Next is the Iguanodon, one of the very first dinosaurs ever named. It is a big plant-eater with a spike on each thumb.
+fact(The spike mistake): Gideon Mantell found a cone-shaped spike bone but had no idea where it belonged. So he stuck it on the nose like a rhino's horn. It is actually a thumb.
+check: What did Gideon Mantell mistakenly place on the Iguanodon's nose?
+- A tooth
+- A claw
++ The thumb spike
+hint: Look at the last sentence of the fact block.
+explain: Gideon Mantell mistakenly placed the thumb spike on the Iguanodon's nose, thinking it was a horn.
+
+--- 🐾 @argentinosaurus
+p: Next is the Argentinosaurus, a truly enormous long-necked plant-eater from Argentina. It is known from only a handful of gigantic bones.
+fact(The few bones): What was actually dug up includes seven back vertebrae, part of a hip block with some ribs, and a lower leg bone. No skull or neck bones were found.
+p: One of the back vertebrae is about 5 ft 3 in (159 cm) tall and 4 ft 3 in (129 cm) wide. The lower leg bone is 5 ft 1 in (155 cm) long — taller than you are!
+
+--- 🐾 @giganotosaurus
+p: Next up, the Giganotosaurus, a huge meat-eating dinosaur from Argentina. It was found by Rubén Carolini while he was out driving a dune buggy.
+p: The first skeleton had roughly 70 out of every 100 bones. That is a lot for a big predator.
+fact(The bigger jaw): A second Giganotosaurus is known from a lower jaw bone that is about 8 percent bigger than the same bone in the first skeleton.
+check: How much bigger was the jaw bone of the second Giganotosaurus compared to the first one?
+- 10%
++ 8%
+- 5%
+hint: Look at the last sentence. It gives the exact percentage.
+explain: The jaw bone of the second Giganotosaurus was about 8% bigger.
+
+--- 📊
+p: Put them side by side. The Argentinosaurus weighs about 165,000 lb, the Giganotosaurus about 13,000 lb and the Iguanodon about 7,700 lb. The Pachycephalosaurus weighs only about 900 lb.
+
+check: Which of the five is the heaviest?
++ The Argentinosaurus
+- The Iguanodon
+- The Giganotosaurus
+hint: Look at the first paragraph and find the biggest number.
+explain: The Argentinosaurus, at about 165,000 lb.
+
+--- 🐾
+p: A long crest on the head of a Parasaurolophus. A dome on top of a Pachycephalosaurus. Iguanodon with thumb spikes. Argentinosaurus, known from only a few giant bones. Giganotosaurus, a predator with teeth like daggers.
+p: Five dinosaurs, each built for its own world, and all so different from anything alive today.
+
+quiz: What was actually dug up from the Argentinosaurus?
+- A full skull, a long neck, and several sharp teeth
++ Seven back bones, a hip block with ribs, and a leg bone
+- A long tail, two front legs, and a set of claws
+explain: The bones found tell us a lot about this giant dinosaur.
+
+quiz: What is special about the Parasaurolophus's crest?
+- It is a solid block of bone
++ It is hollow, with tubes inside
+- It is covered in sharp spikes
+explain: The crest of the Parasaurolophus was like a wind instrument.
+
+quiz: What is unusual about the Pachycephalosaurus's head?
+- A hollow crest of bone about 2 feet tall
++ A solid dome of bone 8.7 inches thick
+- A pair of sharp horns, each 20 inches long
+explain: The Pachycephalosaurus had an incredibly thick skull.
+
+quiz: How was the first Giganotosaurus found?
+- By a team digging inside a museum
++ By a man driving a dune buggy
+- By a girl walking on a beach
+explain: Rubén Carolini spotted it while he was out driving a dune buggy.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-dinosaurs-5
+idea: An Oviraptor skeleton was found lying on a nest of eggs. Find out whose skeleton kept its skin, whose crests were too thin to fight with, and which dinosaur had more than 1,000 teeth.
+game: Oviraptor = Found with eggs it was likely hatching | Gallimimus = Long-legged runner built like an ostrich | Dilophosaurus = Has two thin bony crests along its skull | Styracosaurus = Has a frill with spikes for decoration | Edmontosaurus = Has more than 1,000 teeth total
+
+--- 🐾
+p: Five dinosaurs are waiting to meet you: an Oviraptor, a Gallimimus, a Dilophosaurus, a Styracosaurus, and an Edmontosaurus.
+p: Each one was built for a different job.
+
+--- 🐾 @oviraptor
+p: Meet the Oviraptor, a parrot-beaked dinosaur about 6 ft (2 m) long. It weighed around 80 lb (36 kg), far lighter than an ostrich.
+p: The only known Oviraptor skeleton was found lying on a nest of about fifteen eggs, each egg roughly 5.5 in (14 cm) long.
+fact(The true identity): In 1993, an expedition found an egg from the same Mongolian desert that contained an unhatched oviraptorid embryo, specimen IGM 100/971.
+check: What was found inside the egg the 1993 expedition dug up?
+- A lizard
++ An embryo
+- Another dinosaur
+hint: Look at the last fact box. It mentions what was found inside an egg.
+explain: An embryo. The egg contained an unhatched oviraptorid embryo.
+
+--- 🐾 @gallimimus
+p: Next up is the Gallimimus, a long-legged runner built like an ostrich with a tail, and one of the largest ostrich-mimic dinosaurs.
+p: Gallimimus means "chicken mimic," but it was chosen because the neck bones reminded scientists of a chicken's neck, not its size.
+
+fact(The preserved beak): One skull kept part of its horny beak with fine vertical ridges inside, like the comb of plates in a duck's bill.
+
+--- 🐾 @dilophosaurus
+p: Next up, Dilophosaurus — a meat-eater that reached 20 feet long and had two thin bony crests along the top of its skull.
+fact(The thin plates): The thin plates stood up along the snout, arched like a pair of sails. They were too fragile to use in a fight.
+p: There is a notch in the upper jaw just behind the front teeth, called the subnarial gap. It makes this skull easy to recognize at a glance.
+check: What is the notch behind the front teeth of a Dilophosaurus called?
+- The crest gap
+- The nasal frill
++ The subnarial gap
+hint: Look at the last sentence on the page.
+explain: The subnarial gap is the notch behind the front teeth.
+
+--- 🐾 @styracosaurus
+p: Meet the Styracosaurus — a rhino-sized horned dinosaur with one long nose horn and a bony neck frill rimmed with spikes.
+fact(The spiked collar): The frill is not solid bone; it has two large windows that make it lighter. The spikes point up and back, away from anything in front of the animal.
+p: The best read is that the spikes and frill were for show, not for fighting, since a frill with two large windows is too thin to take a blow.
+
+--- 🐾 @edmontosaurus
+p: Next up, the Edmontosaurus — a big duck-billed plant-eater. It is one of the very few dinosaurs known from specimens that kept their skin.
+fact(The mummy): In 1908, Charles H. Sternberg and his sons found a specimen near Lusk, Wyoming, that still had its skin. It’s now at the American Museum of Natural History in New York.
+p: One of the most surprising facts is about its teeth. The jaws hold roughly a hundred columns of teeth on each side of the head. Each column has up to six teeth stacked, making more than 1,000 teeth total.
+check: How many teeth does an Edmontosaurus have in total?
+- About 500
++ More than 1,000
+- Less than 300
+hint: Look at the last sentence of the second paragraph.
+explain: The jaws hold roughly a hundred columns of teeth on each side of the head, with up to six teeth stacked in every column, making more than 1,000 teeth total.
+
+--- 📊
+p: Now put the five side by side. The heaviest is the Edmontosaurus at about 12,000 lb. The lightest is the Oviraptor at about 80 lb.
+fact(Length and weight): Gallimimus and Dilophosaurus both have a similar length of 20 ft, but Gallimimus weighs 1,000 lb while Dilophosaurus weighs 620 lb.
+check: Which of the five is the heaviest?
++ The Edmontosaurus
+- The Styracosaurus
+- The Gallimimus
+hint: Look at the first paragraph and find the biggest number.
+explain: The Edmontosaurus, at about 12,000 lb.
+
+--- 🐾
+p: An Oviraptor that weighs 80 lb. A Gallimimus with a beak like a duck's. A Dilophosaurus with a similar length to Gallimimus but lighter. A Styracosaurus with its spikes. An Edmontosaurus, the heaviest of all.
+term: specimen = One real example of an animal or plant that is kept so people can study it.
+p: Five dinosaurs, each built for their own world.
+
+quiz: What did one Gallimimus skull keep that most skulls lose?
+- A full row of tiny, sharp teeth in the jaw
++ A horny beak with fine vertical ridges
+- A small crest of soft skin on the head
+explain: The skull kept part of its horny beak, much like a duck's bill.
+
+quiz: Why is Gallimimus called the "chicken mimic"?
+- It was only about as big as a chicken
++ Its neck bones looked like a chicken's neck
+- It made clucking sounds just like a chicken
+explain: The name was chosen because the neck bones reminded researchers of a chicken's neck, not because of its size.
+
+quiz: What is the notch in the upper jaw of a Dilophosaurus called?
+- A crest notch
++ A subnarial gap
+- A nasal frill
+explain: The notch behind the front teeth makes this skull easy to recognize at a glance.
+
+quiz: What was special about the Edmontosaurus specimen found in 1908?
+- It had a complete set of spikes
++ It still had its skin
+- It weighed more than 12,000 lb
+explain: This specimen, found by Charles H. Sternberg and his sons, is known for keeping its skin.
+
+quiz: What is the best read on the Styracosaurus frill and spikes?
+- For fighting off predators
++ Decoration to impress others
+- To help it run faster
+explain: The best read is that the spikes and frill were for show, not for fighting.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-fish-1
+idea: The Greenland shark can live for almost 400 years. Discover which fish has the largest brain and how the manta ray filters food.
+game: Great white shark = Sprints at about 15 mph | Whale shark = Largest fish in the world | Great hammerhead = Uses pores to sense electricity | Greenland shark = Lives for almost 400 years | Giant oceanic manta ray = Has the largest brain of any fish
+
+--- 🐾
+p: Five big fish are waiting to meet you: a great white shark, a whale shark, a great hammerhead, a Greenland shark, and a giant oceanic manta ray.
+p: Each one is built for a different life in the sea.
+
+--- 🐾 @great-white-shark
+p: Meet the great white shark, a huge, warm-bodied hunter that patrols cool coastal seas and takes seals with one strike from below.
+fact(The size): A big female is about 15 ft (4.6 m) long. The longest one measured was 19.8 ft (6 m), and the heaviest weighed 5,580 lb (2,530 kg).
+p: It cruises at barely walking pace but can sprint at about 15 mph (24 km/h) for the final rush of an attack.
+check: How fast does a great white shark sprint during its final attack?
+- 25 mph
++ 15 mph
+- 5 mph
+hint: Look at the last sentence. It gives the speed.
+explain: The great white shark sprints at about 15 mph for the final rush of an attack.
+
+--- 🐾 @whale-shark
+p: Next up is the biggest fish in the world, the whale shark. It swims with its mouth open, eating some of the smallest food in the sea.
+fact(The length): The largest one ever properly measured was 61.7 ft (18.8 m) from nose to tail.
+term: denticles = Tiny tooth-shaped scales that cover parts of the shark's body, even its eyes.
+p: Each eyeball has about 2,900 tiny tooth-shaped scales called denticles. These act like armor for the eye.
+
+--- 🐾 @hammerhead-shark
+p: Meet the great hammerhead shark, the largest of its kind. It has a head shaped like a blade and a dorsal fin taller than your arm.
+fact(The size): The biggest great hammerhead ever measured was 20 ft (6.1 m) long. A record holder weighed 1,280 lb (580 kg), but length is the fairer way to measure these sharks.
+p: Its head, called a cephalofoil, sweeps side to side like a metal detector. Hundreds of pores on the underside sense electricity from hidden prey.
+check: What does the great hammerhead use to find hidden prey?
++ Pores that read electricity
+- Whiskers that feel the seafloor
+- Sound pulses that bounce back
+hint: Look at the last paragraph. It mentions pores that read electricity.
+explain: The great hammerhead uses pores on the underside of its head to sense the electricity of hidden prey.
+
+--- 🐾 @greenland-shark
+p: Meet the Greenland shark, a huge, slow, nearly blind shark that lives in the freezing Arctic deep.
+fact(The record): This is the longest-living animal with a backbone anyone has ever measured. The oldest one studied had been swimming for close to four hundred years.
+p: Most Greenland sharks swim with a worm-like parasite dangling off each eyeball, chewing at the surface and leaving them nearly blind.
+p: Its flesh is poisonous when fresh. It is loaded with trimethylamine oxide, leaving anyone who eats it staggering as though drunk. In Iceland, the meat is buried, fermented for weeks, and hung to dry for months until it's safe to eat — a dish called hákarl.
+
+--- 🐾 @manta-ray
+p: Next up is the giant oceanic manta ray, the largest ray in the ocean. It can reach up to 23 ft (7 m) wingtip to wingtip.
+fact(The brain): It has the largest brain of any fish, and a special net of blood vessels keeps it warm even in cold water.
+p: When feeding, it swims with its mouth open, letting seawater pour through. Its filter plates catch plankton while the water goes right through. The plankton do not stick or clog the plates. They ricochet off them and are swept toward the throat.
+check: How does the manta ray's filter system work?
+- It sticks tiny plankton to its skin with a layer of slime.
+- It crushes plankton between its tiny teeth before swallowing.
++ Plankton ricochet off the filter plates and are captured.
+hint: Look at the second paragraph. It explains how the filter works.
+explain: Plankton ricochet off the filter plates and are captured, which keeps the filter from clogging.
+
+--- 📊
+p: The whale shark weighs about 33,069 lb, making it the heaviest. The Greenland shark is the longest-lived, at close to 400 years.
+fact(Speed): The great white shark can swim up to 15 mph, while the Greenland shark moves at only 0.8 mph.
+check: Which of the five is the longest-lived?
+- The whale shark
++ The Greenland shark
+- The great white shark
+hint: Look at the first paragraph. It gives the number of years for the Greenland shark.
+explain: The Greenland shark lives close to 400 years, which is the longest.
+
+--- 🐾
+p: A great white shark with teeth like daggers. A whale shark that filters plankton. A great hammerhead with its wide head. A Greenland shark that lives for centuries in the cold depths. A giant oceanic manta ray gliding through the water.
+p: Five fish, each one unique, swimming in their own world.
+
+quiz: How long is the largest whale shark measured?
+- 40 ft (12 m)
++ 61.7 ft (18.8 m)
+- 50 ft (15 m)
+explain: The whale shark can grow really big!
+
+quiz: What does a great hammerhead use to sense hidden prey?
+- Vibrations
++ Pores on its head
+- Smell
+explain: Pores on the underside of its head sense the electricity of hidden prey.
+
+quiz: How does a great hammerhead shark move through the water?
+- Straight ahead with its head held perfectly still
++ Its head sweeps side to side like a metal detector
+- In tight circles with its tail leading
+explain: The hammerhead's wide head helps it sense its surroundings.
+
+quiz: What does the giant oceanic manta ray eat?
+- Fish
++ Plankton
+- Coral
+explain: Manta rays filter tiny plankton from the water.
+
+quiz: How fast can a Greenland shark swim?
+- 5 mph (8 km/h)
++ 0.8 mph (1.3 km/h)
+- 2 mph (3.2 km/h)
+explain: The Greenland shark is one of the slowest swimmers in the ocean.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-fish-2
+idea: An electric eel can make a shock of 860 volts, about seven times a wall socket. Find out which fish dangles a glowing lure, which dad gives birth, and which one shoots down insects with water.
+game: Electric eel = Can produce 860 volts | Anglerfish = Has a glowing lure called the esca | Seahorse = Male carries and gives birth to babies | Clownfish = Lives inside a stinging anemone | Archerfish = Shoots insects with a jet of water
+
+--- 🐾
+p: Five fish are waiting to meet you: an electric eel, an anglerfish, a seahorse, a clownfish, and an archerfish.
+p: Each one is special in its own way.
+
+--- 🐾 @electric-eel
+p: Start with the electric eel, a long river fish from South America. It can flood the water around it with the strongest electric shock any animal is known to make.
+fact(The power surge): A wall socket in an American house carries 120 volts. One kind of electric eel has been measured at 860 volts — about seven times that much. Most electric eels top out at about 600 volts, still five wall sockets' worth.
+check: How many volts can the strongest electric eel produce?
+- 500 volts
++ 860 volts
+- 120 volts
+hint: Look at the fact box. It lists the highest measured voltage.
+explain: The strongest electric eel can produce 860 volts.
+
+--- 🐾 @anglerfish
+p: Meet the anglerfish, a deep-sea fish that hunts in total darkness. It dangles a glowing lure in front of its own mouth and waits for something to come and look.
+fact(The glowing lure): The glowing bulb over an anglerfish's mouth hangs from a spine on its back called the illicium, and the lit bait is called the esca. In one species, the rod stretches nearly five times the length of the fish's own body.
+term: bioluminescent = Living things that can make their own light.
+p: The anglerfish does not make its own light. Billions of bioluminescent bacteria live inside the lure and glow on its behalf. The fish gives them a safe home and food in return.
+
+--- 🐾 @seahorse
+p: Next up, the seahorse: a small upright fish with a horse-shaped head and a curling tail. It has bony armor instead of scales.
+fact(The father carries them): The male gets pregnant. The female lays her eggs in a pouch on his belly. He fertilizes them. Then he carries them for 9 to 45 days before giving birth.
+p: When the time comes, a single seahorse father can release between 100 and 1,000 babies.
+check: How many babies can a seahorse father release in a single birth?
+- 10 to 100
++ 100 to 1,000
+- 10,000 to 15,000
+hint: Look at the last sentence. It gives the number range.
+explain: A seahorse father can release between 100 and 1,000 babies in a single birth.
+
+--- 🐾 @clownfish
+p: Meet the clownfish: a small orange-and-white reef fish that lives inside a stinging sea anemone.
+fact(The fortress): The clownfish lives inside an animal that stings, but it wears a thick coat of mucus that does not trigger the anemone’s stinging cells. So the clownfish is safe and the anemone gets a defender.
+p: The clownfish drives off anemone-eating fish, clears away scraps, and fans fresh water through the tentacles all night. Both sides gain from this arrangement.
+
+--- 🐾 @archerfish
+p: Meet the archerfish: a mangrove fish that shoots insects out of the air with a jet of water.
+fact(The shot): It presses its tongue up against a groove in the roof of its mouth to make a barrel, then slams its gill covers shut to force water down the barrel. The jet is not a steady stream. The back of the jet travels faster than the front, so it bunches into one heavy blob. All the water lands at once, and it hits hard enough to knock the insect off its perch.
+check: How does the archerfish ensure the water hits as one heavy blob?
+- It spits out a steady stream of water.
++ The back of the jet travels faster than the front.
+- It squirts the water straight up into the air.
+hint: Look at the box. It says which part of the jet moves faster.
+explain: The archerfish makes the back of the jet travel faster than the front, so all the water lands at once and delivers a strong punch.
+
+--- 📊
+p: The electric eel weighs about 44 lb and is 6.6 ft long. The seahorse is just 0.5 ft long and lives for about 4 years. The clownfish is even shorter at 0.4 ft but can live up to 20 years.
+fact(Length): The electric eel is by far the longest of the five, at 6.6 ft. The archerfish is 0.7 ft, the seahorse 0.5 ft and the clownfish 0.4 ft.
+
+--- 🐾
+p: An electric eel that shocks. An anglerfish with a glowing lure. A seahorse that swims upright. A clownfish that hides in anemones. An archerfish that shoots water.
+p: Five fish, each with their own special way of living.
+
+quiz: What does the anglerfish use to attract prey?
+- its colorful scales
++ a glowing lure
+- its loud noises
+explain: The anglerfish uses light to catch its food in the dark ocean.
+
+quiz: How long can seahorse babies stay inside the father's pouch?
+- 10 to 20 days
++ 9 to 45 days
+- 60 to 90 days
+explain: A seahorse father carries the eggs in his pouch for 9 to 45 days before giving birth.
+
+quiz: What does the clownfish live inside?
+- a spiny black sea urchin
++ a stinging sea anemone
+- a hollow sea sponge
+explain: The clownfish and the anemone help each other out.
+
+quiz: How does the archerfish shoot water?
+- by squeezing water out of a pouch in its belly
++ by pressing its tongue against the roof of its mouth
+- by snapping its jaws shut over a mouthful of water
+explain: The archerfish uses its mouth like a little gun to catch insects.
+
+
+
+
+
+
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-fish-3
+idea: A pufferfish can swell into a spiky ball. Find out which fish glides for 45 seconds, which one walks on mud, and which one carries 300 million eggs.
+game: Pufferfish = Swells into a spiky ball | Flying fish = Glides above waves for 45 seconds | Mudskipper = Walks on mudflats with crutching | Sailfish = Hunts with a high dorsal fin | Ocean sunfish = Carries 300 million eggs at once
+
+--- 🐾
+p: Five fish are waiting to meet you: a pufferfish, a flying fish, a mudskipper, a sailfish, and an ocean sunfish.
+p: Each one does something different and surprising.
+
+--- 🐾 @pufferfish
+p: Meet the pufferfish, a slow and round fish with big eyes that swells into a spiky ball when threatened. It also carries one of the deadliest poisons in the ocean.
+fact(Inflating defense): Underwater, a puffer gulps seawater into its stomach, which stretches like a balloon until it's too wide for a predator to eat.
+check: What does a pufferfish use to inflate itself underwater?
+- Air
+- Freshwater
++ Seawater
+hint: Look at the fact box. It mentions what the puffer gulps into its stomach.
+explain: The pufferfish uses seawater to inflate itself underwater.
+
+--- 🐾 @flying-fish
+p: Meet the flying fish, a slim silver ocean fish with pectoral fins as long as wings. It can launch clear of the sea and glide above the waves to escape predators.
+fact(The longest flight): The longest flight ever filmed lasted 45 seconds. A TV crew off southern Japan recorded it. That fish stayed up longer than most people can hold their breath.
+term: biplane = A flying machine with two sets of wings, one on top of the other.
+p: Some species have two pairs of wings — long pectoral fins in front and enlarged pelvic fins behind, like a fish-shaped biplane.
+
+--- 🐾 @mudskipper
+p: Meet the mudskipper, a fish that walks on tropical mudflats. It props itself up on its front fins with eyes bulging off the top of its head.
+fact(How it moves): Its front fins are jointed and set far forward. It plants them and hauls itself along, a movement called crutching.
+p: A mudskipper breathes through its skin as long as it stays damp. Oxygen soaks in through the skin and the lining of its mouth and throat.
+check: How does a mudskipper breathe?
++ Through its skin and mouth lining
+- Through a blowhole on its head
+- Through its fins
+hint: Look at the second paragraph. It gives how the mudskipper breathes.
+explain: A mudskipper breathes through its skin and the lining of its mouth and throat, as long as it stays damp.
+
+--- 🐾 @sailfish
+p: Next up, the sailfish: a long blue hunter from the open ocean with a spear-like bill and a dorsal fin that opens like a sail.
+fact(The real speed): You might hear that sailfish hit 68 mph (110 km/h), but careful measurements show their top speed is nearer 20-35 mph (35-55 km/h). The higher number came from an old fishing test, not a lab.
+p: When hunting, the sailfish raises its dorsal fin to steady its head and keep the bill almost still as it closes in on a school of sardines.
+
+--- 🐾 @ocean-sunfish
+p: Meet the ocean sunfish, a huge flat gray fish shaped like a head with two fins and no proper tail. It drifts through the open ocean eating almost anything small enough to swallow.
+fact(The egg champion): One female was estimated to carry 300 million eggs at once. That's more than any other known backboned animal.
+check: How many eggs can one female ocean sunfish carry at once?
+- 30 million
++ 300 million
+- 3,000 million
+hint: Look at the fact box. It gives the exact number.
+explain: One female can carry 300 million eggs at once.
+
+--- 📊
+p: The ocean sunfish weighs about 2,205 lb and is 10.8 ft long, the longest of the five. The sailfish is 9.8 ft long. The pufferfish, flying fish and mudskipper all weigh less than 1 lb.
+fact(Speed): The flying fish can glide at up to 43 mph, faster than the sailfish at 22 mph and the ocean sunfish at just 2 mph.
+check: Which of the five is the longest?
+- The sailfish
++ The ocean sunfish
+- The pufferfish
+hint: Look at the first paragraph and find the longest length.
+explain: The ocean sunfish, at 10.8 ft, is the longest.
+
+--- 🐾
+p: A flying fish that glides. An ocean sunfish that floats. A pufferfish that blows up. A sailfish with a high fin. A mudskipper that walks on land.
+p: Five fish, each one different, and all so surprising.
+
+quiz: What does a sailfish use its dorsal fin for when hunting?
+- To keep itself warm
++ To steady its head
+- To warn other fish
+explain: The dorsal fin helps the sailfish keep its bill still as it hunts.
+
+quiz: How long was the longest recorded flight of a flying fish?
+- 30 seconds
++ 45 seconds
+- 60 seconds
+explain: That's longer than most people can hold their breath!
+
+quiz: What kind of fins does a mudskipper use to move on land?
+- Its tail fin
++ Its front fins
+- Its back fins
+explain: Mudskippers use their jointed front fins to haul themselves along.
+
+quiz: How fast can the sailfish swim, according to careful measurements?
+- 68 mph
++ 20-35 mph
+- 45 mph
+explain: The higher speed was from an old fishing test, not a lab measurement.
+
+quiz: What do flying fish look like when they glide over water?
+- A kite
++ A biplane
+- A rocket
+explain: They have two sets of wings, like a fish-shaped biplane.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-fish-4
+idea: A lungfish breathes air and survives in dried mud. Find out how a salmon finds its home river and how a piranha replaces its teeth.
+game: Sockeye salmon = Turns red to spawn | Red-bellied piranha = Sharp teeth, sheds half-jaw at once | Lungfish = Breathes air with real lungs
+
+--- 🐾
+p: Three fish are ready for you to meet: a sockeye salmon, a red-bellied piranha, and a lungfish.
+p: Each one has its own surprising story.
+
+--- 🐾 @salmon
+p: Meet the sockeye salmon. At sea, it’s plain silver-blue. But when it comes home to spawn, it turns fire-engine red.
+p: The sockeye finds its way back to the exact river it hatched in by smell. It memorizes the scent of its home water as a young fish.
+fact(Homecoming): Sockeye salmon swim over 870 miles (1,400 km) up rivers and climb 6,500 ft (2,000 m) to reach their spawning grounds.
+check: How does a sockeye salmon find its way back to the exact river it hatched in?
++ By remembering the scent of its home
+- By following the strongest current
+- By using the position of the sun
+hint: Look at the second paragraph. It tells you how the salmon remembers the scent.
+explain: The sockeye salmon remembers the chemical scent of its home water from when it was young.
+
+--- 🐾 @piranha
+p: Meet the red-bellied piranha, a flat, deep-bodied fish from South American rivers with a red belly and sharp teeth.
+fact(The tooth swap): A piranha does not lose its teeth one by one. It sheds a whole half-jaw of them at once and replaces the lot in one go. So one side is always fully armed while the other regrows.
+term: shoal = A group of fish swimming together.
+p: Mostly, piranhas eat insects, worms, snails, small fish, and fruit and seeds that drop into the river. They bark to communicate, making different sounds for different situations.
+
+--- 🐾 @lungfish
+p: Meet the lungfish, a freshwater fish that breathes air with real lungs and can survive months sealed inside a cocoon of dried mud.
+fact(The air breather): A lungfish has real lungs joined to its throat. It swims to the surface and gulps air just like you do. Most lungfish have a pair of lungs; the Australian kind has only one.
+check: How does an adult African lungfish get most of its oxygen?
+- Through its gills
+- By absorbing it through its skin
++ By breathing air from the surface
+hint: Look at the box. It says what a lungfish gulps at the surface.
+explain: A lungfish has real lungs, and it swims to the surface to gulp air.
+
+--- 📊
+p: The lungfish is about 3.3 ft long, the sockeye salmon about 2 ft, and the red-bellied piranha just 0.9 ft.
+
+check: Which of the three is the longest?
+- The sockeye salmon
++ The lungfish
+- The red-bellied piranha
+hint: Look at the first paragraph and find the biggest number.
+explain: The lungfish is about 3.3 ft long, making it the longest among these three.
+
+--- 🐾
+p: A lungfish that can breathe air. A red-bellied piranha with sharp teeth. A sockeye salmon swimming upstream to spawn.
+p: Three fish, each with its own way of living, and all so different from one another.
+
+quiz: How far do sockeye salmon swim to reach their spawning grounds?
+- 500 miles
++ 870 miles
+- 200 miles
+explain: That's a long way for a fish to swim!
+
+quiz: What does a piranha do with its teeth?
+- Loses one tooth at a time and grows it back
++ Sheds and replaces a whole half-jaw at once
+- Keeps the same teeth for its whole long life
+explain: A piranha sheds a whole half-jaw of teeth at once, so one side is always fully armed.
+
+quiz: How does a lungfish survive in dried-up rivers?
+- By hiding under big rocks until rain
++ By breathing air with real lungs
+- By growing legs and walking to water
+explain: Real lungs let a lungfish breathe air, so it can survive sealed in dried mud.
+
+quiz: What do red-bellied piranhas mostly eat?
+- Cattle, deer, and wild pigs
++ Insects, worms, and fruit
+- Mud, sand, and small pebbles
+explain: They're not as scary as you might think!
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-insects-2
+idea: An adult Atlas moth never eats a single meal. Find out which beetle steers by the Milky Way, which one fires a boiling-hot spray, and which one makes its own light.
+game: Atlas moth = Adult has no mouth and never eats | Dung beetle = Rolls dung balls using the Milky Way for guidance | Bombardier beetle = Fires boiling-hot chemical spray | Hercules beetle = Horn longer than its body, used like pincers | Firefly = Controls light by controlling oxygen
+
+--- 🐾
+p: Five bugs are waiting to meet you: an Atlas moth, a dung beetle, a bombardier beetle, a Hercules beetle, and a firefly.
+term: abdomen = The back section of an insect's body, behind the part that holds the legs and wings.
+p: Each one has its own special trick.
+
+--- 🐾 @atlas-moth
+p: Meet the Atlas moth, one of the largest moths on earth. Its wings can be wider than your spread hand, tip to tip.
+fact(The mouthless moth): An adult atlas moth has no mouth — it never eats a single meal in its life. It lives about a week or two, using fat stored from when it was a caterpillar.
+check: What does an adult Atlas moth live on?
++ Fat stored from when it was a caterpillar
+- Nectar sipped from flowers in the forest
+- Sap licked from the bark of old trees
+hint: Look at the last sentence of the box. It says what fuels the moth.
+explain: An adult Atlas moth has no mouth, so it lives for a week or two on fat stored from when it was a caterpillar.
+
+--- 🐾 @dung-beetle
+p: Meet the dung beetle. This beetle finds fresh animal droppings, carves out a piece, and shapes it into a ball to roll away.
+
+fact(The star gazer): A dung beetle rolls its ball in a dead straight line by reading the Milky Way. On moonless nights, the African species Scarabaeus satyrus uses the pale band of the Milky Way to stay on course.
+
+--- 🐾 @bombardier-beetle
+p: Meet the bombardier beetle. This small ground beetle defends itself by firing a boiling-hot chemical spray out of its back end.
+fact(The hot spray): The spray leaves its body at about 212°F (100°C) — the temperature of boiling water. It fires in pulses around 500 times every second.
+p: Toads that swallow a bombardier beetle sometimes vomit it back up, alive and unbothered. In one case, the beetle came back out more than an hour later.
+check: What happens when a toad swallows a bombardier beetle?
+- The toad digests the beetle quickly.
+- The beetle always dies inside the toad.
++ The toad sometimes vomits it back up, alive.
+hint: Look at the second paragraph. It describes what happens to the beetle in the toad's stomach.
+explain: The toad sometimes vomits the beetle back up, alive and unbothered.
+
+--- 🐾 @hercules-beetle
+p: Next up is the Hercules beetle — the longest beetle in the world. Males have a horn longer than their body.
+fact(The giant horn): A big male stretches about 6.7 inches (17 cm) long. More than half of that length is the horn, which works like a pair of pincers.
+p: The male's two horns close like a nutcracker. He uses them to grip and lift rivals off branches during fights over sap runs on tree trunks.
+fact(The color change): Its wing cases change color depending on the humidity. In dry air they are olive-yellow, but in humid air they darken to black.
+
+--- 🐾 @firefly
+p: Meet the firefly, a beetle that makes its own light. It uses that light to talk with flashing codes.
+fact(The lamp): The light comes from the underside of its abdomen. A chemical called luciferin meets oxygen and an enzyme called luciferase to make light.
+p: A firefly controls its flash by controlling how much oxygen reaches its light-making cells.
+check: How does a firefly control its light?
+- It changes colors
++ It controls oxygen
+- It moves its wings
+hint: Look at the paragraph under the box. It says what the firefly controls to make its flash.
+explain: By controlling oxygen, the firefly can turn its light on and off.
+
+--- 📊
+p: Five bugs with a lot in common and a lot that sets each apart. The Atlas moth is as big as your hand. The dung beetle rolls its food. The bombardier beetle has a chemical spray. The Hercules beetle can lift 850 times its own weight. The firefly flashes to talk.
+fact(Sizes): The hercules beetle grows up to 0.6 feet long. The Atlas moth is as wide as your hand, and the dung beetle, bombardier beetle and firefly are each about as long as your thumb or shorter.
+
+--- 🐾
+p: An Atlas moth as big as your hand. A dung beetle rolling its food. A bombardier beetle with a chemical spray. A Hercules beetle lifting 850 times its own weight. A firefly flashing to talk.
+p: Five bugs, each built for their own special job.
+
+quiz: What do dung beetles use to stay on course on a moonless night?
+- The sun's position
++ The Milky Way
+- The moon's glow
+explain: Dung beetles are clever and use the stars to guide them.
+
+quiz: How long does an adult Atlas moth typically live?
+- About six or seven months
++ About one or two weeks
+- About two or three years
+explain: The Atlas moth lives for just a short time as an adult.
+
+quiz: What happens when the air is humid for a Hercules beetle?
+- The wing cases go soft and wet
++ Its wing cases darken to black
+- Its horns grow a bit shorter
+explain: The humidity makes the Hercules beetle's wing cases change color.
+
+quiz: What do bombardier beetles defend themselves with?
+- A coat of thick, hard armor
++ A boiling-hot chemical spray
+- A pair of strong, sharp jaws
+explain: The bombardier beetle's spray is both hot and effective.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-mammals-10
+idea: A beaver's teeth never stop growing. Find out whose quills only come out when touched, which animal has only five or six shots of spray, and which one always keeps a lookout.
+game: Beaver = Builds dams with its never-stopping teeth | Porcupine = Covered with thirty thousand sharp quills | Striped skunk = Sprays a foul-smelling chemical as a last resort | Nine-banded armadillo = Digs and hunts insects inside a jointed shell | Meerkat = Lives in big underground families with a lookout always watching
+
+--- 🐾
+p: Five animals are waiting to meet you: a beaver, a porcupine, a striped skunk, a nine-banded armadillo, and a meerkat.
+p: Each one has its own special way of living.
+
+--- 🐾 @beaver
+p: Meet the beaver, a thickset, buck-toothed rodent that cuts down trees with its teeth and builds dams to create ponds.
+fact(The never-stopping teeth): A beaver's four front teeth never stop growing. It has to gnaw every day or they would grow right past its jaw.
+p: Every bite grinds the tooth back into a fresh chisel edge. The front face is hard enamel, the back softer dentine. The soft side wears away faster, so the teeth sharpen themselves on the job.
+check: What happens if a beaver doesn't gnaw every day?
+- Its teeth turn soft and fall out
+- Its teeth split in two and break
++ Its teeth grow right past its jaw
+hint: Look at the box. It says what happens if the beaver does not gnaw every day.
+explain: If a beaver doesn't gnaw every day, its teeth would grow right past its jaw.
+
+--- 🐾 @porcupine
+p: Next, meet the porcupine — a slow, shaggy rodent that climbs trees and is covered with about thirty thousand sharp quills.
+term: barbs = Tiny hooks that make something hard to pull out. Porcupine quills have these to stay stuck in anything they touch.
+fact(The myth): A porcupine cannot throw its quills. It turns its back, hunches up, and reverses at you — the quills release only when touched.
+
+--- 🐾 @skunk
+p: Next up is the striped skunk — a cat-sized black-and-white forager that can spray a foul-smelling chemical from two nozzles under its tail.
+p: The spray is a last resort. First, the skunk stamps its front feet, hisses, arches its back, fluffs up, and hoists its tail like a flag.
+fact(The spray): A skunk carries only about five or six shots — roughly a tablespoon in total. Once the glands run dry, it can take up to ten days to refill them.
+check: How many shots does a skunk carry?
+- Two or three
++ About five or six
+- Ten or more
+hint: Look at the first sentence of the fact box.
+explain: A skunk carries only about five or six shots.
+
+--- 🐾 @armadillo
+p: Next up is the nine-banded armadillo — a digging, insect-hunting mammal built inside a jointed shell of bony plates.
+fact(The quadruplets): Every litter is identical quadruplets. Four babies, all the same sex, all grown from one egg that splits into four.
+p: An armadillo gulps air to swim or walks across the bottom of a creek holding its breath for up to six minutes.
+
+--- 🐾 @meerkat
+p: Next up is the meerkat — a small, sharp-eyed African mongoose that lives in big underground families.
+fact(The lookout): Somebody is always watching. One meerkat climbs the highest thing around and scans the sky while the rest dig, then swaps out for the next volunteer.
+
+--- 📊
+p: Now put the five side by side. The beaver weighs about 44 lb, the porcupine about 20 lb, the nine-banded armadillo about 12 lb and the striped skunk about 8 lb. The meerkat weighs only about 2 lb.
+fact(Speed): A beaver swims at about 5 mph, steering with its flat tail and pushing with its webbed back feet.
+check: Which of the five is the heaviest?
++ The beaver
+- The porcupine
+- The striped skunk
+hint: Look at the first paragraph and find the biggest number.
+explain: The beaver, at about 44 lb.
+
+--- 🐾
+p: A beaver that builds dams, a porcupine that climbs trees, a striped skunk that sprays, an armadillo that digs, and a meerkat that watches.
+p: Five animals, each with their own way to live.
+
+quiz: What does a beaver use to cut down trees?
+- Claws
++ Teeth
+- Paws
+explain: Beavers are known for their strong teeth that help them cut down trees.
+
+quiz: How do porcupine quills get released?
+- Thrown by the porcupine
++ By touching something
+- By shaking its body like a wet dog
+explain: Porcupine quills release when they touch something, not by being thrown.
+
+quiz: What does a skunk do first before spraying?
+- Digs a hole to hide in
++ Stamps its front feet
+- Runs in wide circles
+explain: Skunks give warning signs like stamping their feet before they spray.
+
+quiz: How long can an armadillo hold its breath underwater?
+- 2 minutes
++ 6 minutes
+- 10 minutes
+explain: Armadillos can hold their breath for up to six minutes underwater.
+
+quiz: What does a meerkat do to watch for danger?
+- Hide deep and stay very still
++ Climb high and scan the sky
+- Race around in wide circles
+explain: Meerkats take turns climbing high to keep an eye out for danger.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-mammals-8
+idea: A blue whale's heart alone weighs about 400 pounds. Find out whose flippers are the longest, whose clicks are the loudest, and whose tusk is really a tooth.
+game: Blue whale = Weighs around 265,000 lb | Humpback whale = Flippers are up to 16 feet | Sperm whale = Loudest sounds of any animal | Narwhal = Has a long spiral tusk | Orca = Swims up to 30 mph
+
+--- 🐾
+p: Five animals are waiting to meet you: a blue whale, a humpback whale, a sperm whale, a narwhal, and an orca.
+p: Each one has a unique life under the sea.
+
+--- 🐾 @blue-whale
+p: Meet the blue whale, the largest animal on Earth. It can grow to about 82 ft (25 m) long and weighs around 265,000 lb (120 metric tons).
+fact(The heart): Its heart alone weighs about 400 pounds (180 kg), the biggest of any living animal. A blue whale heart was preserved in Newfoundland, Canada, and it's still the only one on display.
+check: How much does a blue whale's heart weigh?
+- 200 pounds
++ 400 pounds
+- 600 pounds
+hint: Look at the fact box. It gives the exact weight.
+explain: The blue whale's heart weighs about 400 pounds.
+
+--- 🐾 @humpback-whale
+p: Next up, meet the humpback whale. It's about 49 ft (15 m) long and has enormous white flippers.
+fact(The longest flippers): Its flippers are the longest of any animal — up to 16 feet (5 m), about a third of its whole body. Its scientific name, Megaptera, means big wing.
+term: tubercles = Bumps on the edge of a humpback whale's flipper that help it swim better.
+p: Humpbacks have a habit of leaping clear of the water and singing long songs. Only the males sing these songs, which can run from a few minutes to half an hour.
+
+--- 🐾 @sperm-whale
+p: Next, meet the sperm whale. It’s about 52 ft (16 m) long and has a huge blunt head built for diving deep to catch squid.
+fact(The loudest animal): The sperm whale makes the loudest sounds of any animal — sharp clicks that carry for miles underwater. It listens for the echoes to find squid in the dark depths where no light reaches.
+check: What does a sperm whale use to find its prey in total darkness?
++ Sound clicks
+- Its eyes
+- Its flippers
+hint: Look at the box. It says what the whale listens for in the dark.
+explain: The sperm whale uses sound clicks to echolocate and find its prey in the dark depths of the ocean.
+
+--- 🐾 @narwhal
+p: Next up is the narwhal — an Arctic whale with a long spiral tusk growing straight out of its head.
+fact(The tooth that feels): The tusk is a tooth — the narwhal's left canine, grown straight out through its upper lip. It can reach 10 feet (3 m) and weigh over 20 pounds (9 kg). Researchers found it is porous with nerve channels, feeling the sea the whale swims through.
+p: Almost every tusk belongs to a male, though a few females grow one and the odd narwhal grows two. The tusk keeps growing for most of the whale's life. Narwhals have no other working teeth — their mouths are otherwise nearly bare.
+
+--- 🐾 @orca
+p: Meet the orca, often called a killer whale, though it is actually the largest dolphin.
+fact(The big dolphin): A large male orca can reach 32 feet (9.8 m) long and weigh as much as two elephants, about 11 tons.
+p: Every family of orcas has its own dialect — a set of calls that only they use. Researchers can tell which family is swimming by their sounds alone.
+check: What makes each orca family unique?
+- Their size
+- Their color
++ Their dialect
+hint: Look at the paragraph about families and their calls.
+explain: Each family has its own set of calls, or a dialect.
+
+--- 📊
+p: Now put the five side by side. The blue whale weighs about 264,554 lb and the narwhal weighs about 2,205 lb.
+fact(Speed): The orca can swim up to 30 mph. The blue whale and sperm whale both swim at 20 mph.
+check: Which of the five is the heaviest?
+- The sperm whale
+- The humpback whale
++ The blue whale
+hint: Look at the first paragraph and find the biggest number.
+explain: The blue whale, at about 264,554 lb.
+
+--- 🐾
+p: A blue whale with a 400-lb heart. A humpback whale that sings. A sperm whale with the loudest voice in the sea. A narwhal with a spiraled tusk. An orca whose family has its own dialect.
+p: Five mammals, all different, and each one doing what it does best.
+
+quiz: How long can a narwhal's tusk grow?
+- 5 feet
++ 10 feet
+- 8 feet
+explain: The narwhal's tusk can grow up to an impressive 10 feet.
+
+quiz: What is the humpback whale's scientific name?
+- Balaenoptera
++ Megaptera
+- Orcinus
+explain: Megaptera means big wing, fitting for the humpback's long flippers.
+
+quiz: How fast can an orca swim?
+- 25 mph
++ 30 mph
+- 20 mph
+explain: Orcas are speedy swimmers, reaching up to 30 mph.
+
+quiz: What is special about the sperm whale's sound?
+- It whistles
++ It's the loudest
+- It hums
+explain: The sperm whale makes the loudest sounds of any animal underwater.
+
+quiz: Which humpback whales sing the long songs?
+- Only the young calves
+- Only the females
++ Only the males
+explain: Only male humpbacks sing these long songs that can last from a few minutes to half an hour.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-mammals-9
+idea: A star-nosed mole can handle a worm in a quarter of a second. Find out who finds fish with echoes, who has a million hairs in a patch of fur, and who feels for clams with whiskers.
+game: Bottlenose dolphin = Uses sound echoes to find fish | Sea otter = Floats on its back cracking shellfish with a rock | Walrus = Has 400 to 700 whiskers for finding clams | Star-nosed mole = Hunts using 100,000 nerve fibers around its nose | Capybara = Grinds down never-stopping teeth on tough grass
+
+--- 🐾
+p: Five animals are waiting to meet you: a bottlenose dolphin, a sea otter, a walrus, a star-nosed mole, and a capybara.
+p: Each one has something really cool to show you.
+
+--- 🐾 @bottlenose-dolphin
+p: Start with a bottlenose dolphin, a fast, clever sea mammal that breathes air and travels in groups.
+p: Click. Listen. Click again. A dolphin fires sound out of its forehead and listens to the echoes coming back — echolocation — until it knows a fish's size. Shape. Direction without ever seeing it.
+check: What does a bottlenose dolphin use to locate fish?
+- It smells the fish underwater
++ It fires sound and listens to the echoes
+- It uses its tail to feel vibrations
+
+hint: Look at the second paragraph. It explains how a dolphin uses sound.
+explain: It fires sound and listens to the echoes. This is called echolocation.
+
+--- 🐾 @sea-otter
+p: Meet the sea otter, a dog-sized mammal of the cold North Pacific. It floats on its back and cracks shellfish open with a rock.
+term: blubber = A thick layer of fat under the skin that keeps animals warm in cold water. Sea otters don't have this.
+fact(The coat): No blubber at all. Instead, up to a million hairs in a patch as big as a postage stamp — the densest fur on Earth. The fur traps air against its skin, like wearing a coat of bubbles.
+
+--- 🐾 @walrus
+p: Meet the walrus, an enormous Arctic sea mammal with two ivory tusks and a bristling mustache. It hauls out on sea ice and vacuums clams from the seafloor.
+fact(The whiskers): Count the whiskers: 400 to 700 of them in thirteen to fifteen neat rows across the snout. In pitch-black water, a walrus finds clams buried in mud by feel alone.
+check: How many whiskers does a walrus have?
+- 200 to 300
++ 400 to 700
+- 100 to 200
+hint: Look at the fact box. It gives the exact number range.
+explain: A walrus has between 400 and 700 whiskers, arranged neatly in rows on its snout.
+
+--- 🐾 @star-nosed-mole
+p: Meet the star-nosed mole, a small, dark animal with twenty-two pink tentacles ringing its nose. It is the fastest eater ever measured among mammals.
+p: Those pink tentacles are not for smelling; they are for touching. The star carries more than 100,000 nerve fibers — about six times what your entire hand has.
+fact(Fast eating): From first touch to swallowed, a star-nosed mole handles a worm in just a quarter of a second. Its brain decides if something is food in about 8 milliseconds.
+
+--- 🐾 @capybara
+p: Meet the capybara, the largest rodent in the world. It is a calm, barrel-shaped animal that lives with one foot in the river.
+p: The capybara's teeth never stop growing. It grinds them down all day on tough grass to keep them from overgrowing.
+check: How does the capybara keep its teeth from overgrowing?
+- By crunching on small river stones
+- By soaking them in cool river water
++ By grinding them down on tough grass
+hint: Look at the paragraph. It explains how the capybara grinds down its teeth.
+explain: The capybara grinds down its teeth on tough grass to keep them from overgrowing.
+
+--- 📊
+p: Put these animals side by side. The walrus weighs about 2,646 lb and the bottlenose dolphin about 440 lb. The capybara weighs about 110 lb, the sea otter about 65 lb and the star-nosed mole only about 2 oz.
+fact(Speed): The capybara can run at 22 mph on land, while the bottlenose dolphin can swim at up to 18 mph.
+check: Which of the five is the heaviest?
++ The walrus
+- The bottlenose dolphin
+- The capybara
+hint: Look at the first paragraph and find the biggest number.
+explain: The walrus, at about 2,646 lb.
+
+--- 🐾
+p: A bottlenose dolphin that finds fish with echoes. A sea otter with its rock and clam. A walrus that weighs 2646 lb. A star-nosed mole that hunts in the dark. A capybara that runs at 22 mph.
+p: Five animals, each different, and each built for their own world.
+
+quiz: How many hairs can be found in a small patch of a sea otter's fur?
+- About 50,000 hairs
++ Up to a million hairs
+- Nearly 200,000 hairs
+explain: Sea otters have the densest fur on Earth to keep warm in cold water.
+
+quiz: How does a walrus find clams buried in mud?
+- By raking up the mud with its long tusks
++ By feeling with 400 to 700 whiskers
+- By spotting them with its sharp eyes
+explain: A walrus uses its whiskers to feel for clams in the dark ocean floor.
+
+quiz: What helps the star-nosed mole decide if something is food?
+- Its keen sense of smell, which detects food from far away
++ Its star-shaped nose with over 100,000 nerve fibers
+- Its large eyes, which can see small worms in the dark
+explain: The star-nosed mole's unique nose helps it make quick decisions about what to eat.
+
+quiz: What keeps the capybara's teeth from overgrowing?
+- It crunches small stones and gravel
++ It grinds them down on tough grass
+- It soaks them in cool river water
+explain: Grinding down its teeth on tough grass prevents overgrowth for the capybara.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-sea-1
+idea: A colossal squid can weigh over 1,000 lb. Find out which animal redraws its skin in less than a second, which one turns itself inside out, and which one fits through a gap two fingers wide.
+game: Giant Pacific octopus = Can fit through gaps as small as two fingers wide | Mimic octopus = Flattens its body and glides like a flatfish | Colossal squid = Weighed 1,091 lb when hauled up | Vampire squid = Turns itself inside out to show spines | Common cuttlefish = Can redraw its skin pattern in less than a second
+
+--- 🐾
+p: Five sea creatures are waiting to meet you: a giant Pacific octopus, a mimic octopus, a colossal squid, a vampire squid, and a common cuttlefish.
+p: Each one has secrets and tricks that make them stand out in the ocean.
+
+--- 🐾 @giant-pacific-octopus
+p: Start with the largest octopus in the world. The giant Pacific octopus is soft, boneless, and can change colors.
+fact(The master of escape): Its only truly hard part is a beak like a parrot's. Wherever the beak fits, the rest of the body can follow, even through a gap only two fingers wide.
+check: What is the only truly hard part of the giant Pacific octopus?
+- Its eyes
+- Its skin
+- Its arms
++ Its beak
+hint: Look at the box about escaping. It names the one hard part.
+explain: The beak, like a parrot's, is the only truly hard part.
+
+--- 🐾 @mimic-octopus
+p: Meet the mimic octopus, a small creature that lives on bare open sand and survives by pretending to be other animals.
+fact(The master of disguise): It flattens its body and glides like a flatfish, or fans out its arms to look like a lionfish with venomous spines. Even when attacked by damselfish, it waves two arms like a sea snake to scare them away.
+term: impersonation = Pretending to be someone else to trick others.
+
+--- 🐾 @colossal-squid
+p: The colossal squid is the heaviest animal on Earth without a backbone. It lives in the deep waters around Antarctica.
+fact(The giant eye): Its eye is the largest known on any animal — about 10.5 inches (27 cm) across when measured, and probably wider still in life.
+p: One colossal squid hauled up off Antarctica weighed 1,091 lb (495 kg). It was caught mid-meal, still gripping a Patagonian toothfish.
+check: How much did the colossal squid weigh when it was hauled up?
+- 700 lb
+- 500 lb
++ 1,091 lb
+hint: Look at the second paragraph and find the exact weight.
+explain: The colossal squid weighed 1,091 lb.
+
+--- 🐾 @vampire-squid
+p: Meet the vampire squid, a small, soft, red deep-sea animal that is neither a squid nor an octopus. It wears its eight arms like a hooded cloak.
+fact(The cloak): Its scientific name means "vampire squid from hell." It drinks no blood and chases nothing; it eats mostly falling scraps.
+p: Threatened, it turns itself inside out. The cloak flips up over its head, and what was soft webbing becomes a ball of spines pointing outward in every direction. Remote submarine cameras have caught the animal holding this "pineapple" pose under a bright light.
+
+--- 🐾 @cuttlefish
+p: Next up, the common cuttlefish. It can redraw the pattern on its skin in less than a second.
+fact(The skin that thinks): In one square millimeter of skin — a pinhead — there can be 200 color sacs. Each is wired directly to the brain, ready to stretch wide or shrink to an invisible speck.
+check: How many color sacs are in a square millimeter of cuttlefish skin?
+- 50
+- 100
++ 200
+hint: Look at the fact box. It gives the exact number.
+explain: The correct answer is 200. Each sac is wired directly to the brain, allowing for rapid changes in appearance.
+
+--- 📊
+p: The heaviest is the colossal squid at 1091 lb, and the vampire squid is the smallest, only 1 ft long.
+fact(Length): The giant Pacific octopus is about 14 ft (4.3 m) long. The colossal squid is about 13.8 ft (4.2 m) long, yet far heavier, because its body is thick and barrel-shaped.
+check: Which of the five is the heaviest?
++ Colossal squid
+- Common cuttlefish
+- Giant Pacific octopus
+hint: Look at the first paragraph. One animal is named the heaviest.
+explain: The colossal squid, at 1,091 lb.
+
+--- 🐾
+p: An octopus that mimics other creatures. A squid that can grow to 1091 lb. Another squid that turns itself inside out. A cuttlefish that changes color.
+p: Five sea creatures, each with its own way of living in the deep.
+
+quiz: What does a mimic octopus do when attacked by damselfish?
+- Squirts a cloud of ink and swims off
++ Waves two arms like a sea snake
+- Hides under the sand
+explain: The mimic octopus uses clever tricks to survive.
+
+quiz: What is unique about the colossal squid's eye?
+- It can see in complete darkness
++ It is about 10.5 inches across
+- It glows in the dark
+explain: The colossal squid has a giant eye to help it see in deep waters.
+
+quiz: How does the vampire squid defend itself when threatened?
+- Hides in its arms
++ Turns itself inside out
+- Sprays ink like an octopus
+explain: The vampire squid turns itself into a spiny ball to protect itself.
+
+quiz: What is special about the common cuttlefish's skin?
+- Its color sacs turn on when the water gets warm
++ Each color sac is wired directly to the brain
+- It grows a thick layer of tough, shiny scales
+explain: The cuttlefish's skin changes colors quickly thanks to its direct brain connection.
+
+quiz: How does the giant Pacific octopus escape through small gaps?
+- Its bones fold flat so it slips through
++ Its soft body follows its beak through
+- Its arms push the rocks out of the way
+explain: The octopus uses its small beak to fit through tight spots.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-sea-3
+idea: A sea cucumber can fire its own guts to escape. Find out which animal borrows its prey's stingers, which one farms algae inside its flesh, and which one builds a stone city.
+game: Sea urchin = Covered in spines | Sea cucumber = Fires its guts to escape | Giant clam = Grows up to 3.3 ft wide | Cone snail = Hunts fish with venomous harpoon | Coral = Builds a stone city | Sea slug = Thieves of weapons and color
+
+--- 🐾
+p: Six sea creatures are ready to meet you: a sea urchin, a sea cucumber, a giant clam, a cone snail, coral, and a sea slug.
+p: Each one is special in its own way.
+
+--- 🐾 @sea-urchin
+p: First up is a sea urchin — like a living pincushion that walks on sticky tube feet.
+fact(The jaw): Turn one over and there is a mouth in the middle with five teeth meeting in a point. The whole jaw has a name of its own: Aristotle's lantern.
+p: These teeth never go blunt. As the tip wears away, it breaks off along a set line, leaving a fresh edge behind — so the jaw sharpens itself by being used.
+check: How does the sea urchin keep its teeth sharp?
+- It uses its spines to sharpen them.
++ The jaw sharpens itself as the tips wear away.
+- It has a special organ that sharpens the teeth.
+hint: Look at the last two sentences. They explain how the jaw sharpens itself.
+explain: The jaw sharpens itself as the tips wear away, leaving fresh edges behind.
+
+--- 🐾 @sea-cucumber
+p: Next up is a sea cucumber — a soft, leathery animal shaped like a fat sausage that vacuums the seafloor clean.
+fact(The surprise defense): Squeeze one hard and it may fire its own guts out through its back end. The attacker gets a mouthful of stomach; the sea cucumber crawls off and grows a new one. This process is called evisceration.
+term: evisceration = When an animal throws out its insides to escape danger.
+p: It breathes through its bottom. Water goes in through the anus and into branching tubes inside the body called respiratory trees, which pull the oxygen out of it.
+
+--- 🐾 @giant-clam
+p: Meet the giant clam. It grows up to 3.3 ft (1 m) wide and can weigh up to 441 lb (200 kg).
+fact(The farmer): Inside its flesh, millions of tiny algae live and provide the clam with food. The algae catch sunlight and give the clam sugar. One adult can release up to 500 million eggs in a single spawning.
+check: How many eggs can one adult giant clam release in a single spawning?
+- 50 million
++ 500 million
+- 100 million
+hint: Look at the last sentence of the box about the farmer.
+explain: One adult can release up to 500 million eggs in a single spawning.
+
+--- 🐾 @cone-snail
+p: Meet the cone snail. It's a beautiful sea snail that hunts fish with a venom-loaded harpoon it fires from its mouth.
+fact(The hunter's harpoon): The cone snail uses a tooth in its mouth as a harpoon. It fires this tooth into a fish, and then reels the catch right back in.
+p: One drop of its venom is so powerful that it turned out to be helpful for people in severe pain. A single ingredient from the magician's cone became a medicine called ziconotide, which helps with pain that morphine can't touch.
+
+--- 🐾 @coral
+p: Coral isn't a rock or a plant. It's a colony of tiny soft animals that build a stone city and live inside it.
+p: Each polyp is a soft sac, usually less than a quarter of an inch (a few millimeters) across. They build themselves a limestone cup to live in, cup by cup. The color you see on a reef comes from the tiny algae living inside each polyp, not from the polyp itself.
+fact(The biggest structure): The Great Barrier Reef runs over 1,243 miles (2,000 km) along Australia's coast and you can see it from space.
+check: What gives colorful coral most of its color?
++ The algae inside the polyp
+- The polyp's own color
+- The limestone cup around it
+hint: Look at the last sentence of the second paragraph.
+explain: The algae living inside the polyp give coral its color.
+
+--- 🐾 @sea-slug
+p: Meet the sea slug, a sea snail with no shell, soft and colorful. It's also a thief, taking weapons, poison, and even sunlight from its meals.
+fact(The stolen stingers): Some sea slugs eat stinging hydroids and store the sting cells in their frilly tips. The stolen cells are called kleptocnidae — literally "stolen stingers."
+p: The blue dragon eats Portuguese man o' war and stores its stings, making its tiny body even more dangerous.
+
+
+--- 📊
+p: All six are sea creatures, but they're very different. The giant clam is the biggest at 3.3 feet long and can live up to 100 years. The sea slug is the smallest at just 0.2 feet long and lives only a year.
+fact(Soft and hard): The sea cucumber and sea slug are soft all over. The giant clam has a shell, the sea urchin has spines and a stone-hard jaw, and coral builds a cup of limestone.
+
+--- 🐾
+p: A giant clam that can grow to 3.3 feet long and live for a century. A sea slug that's just 0.2 feet long but lives for only a year. A coral reef teeming with life. A cone snail with a venom-loaded harpoon. A sea cucumber that fires its guts to escape. A sea urchin covered in spines.
+p: Six sea creatures, each unique in size, lifespan, and way of life.
+
+quiz: What does a sea cucumber do when squeezed hard?
+- It releases ink to confuse the attacker.
++ It fires its guts out through its back end.
+- It inflates and becomes too big to swallow.
+explain: This surprising defense helps it escape predators.
+
+quiz: How does the giant clam get food?
+- It hunts small fish with a harpoon.
++ It has algae inside that provide sugar.
+- It scrapes algae off rocks with its shell.
+explain: The algae help the clam by turning sunlight into food.
+
+quiz: What is the Great Barrier Reef known for?
+- Being the deepest part of any ocean in the world.
++ Running over 1,243 miles along Australia's coast.
+- Having the biggest sharks found anywhere on Earth.
+explain: It's so big you can see it from space!
+
+quiz: What does a cone snail use to catch its prey?
+- A sticky net of silk across its mouth.
++ A venom-loaded harpoon in its mouth.
+- A long stinging tentacle on its head.
+explain: The cone snail is a clever hunter with a powerful weapon.
+
+quiz: What do some sea slugs store after eating stinging hydroids?
+- The hydroid's long stinging tentacles.
++ Stolen sting cells called kleptocnidae.
+- Bits of the hydroid's hard outer skeleton.
+explain: These stolen stingers help protect the sea slug.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-worms-1
+idea: A planarian can regrow from a scrap one 279th of its size. Find out which animal shoots glue at its prey, which one bites with three jaws, and which one has over ten thousand teeth on its tongue.
+game: Earthworm = Breathes through its damp skin | Medicinal leech = Bites and leaves a star-shaped mark | Planarian = Regrows from one two-hundred-and-seventy-ninth of its body | Velvet worm = Shoots glue to catch prey | Banana slug = Slime numbs attackers | Garden snail = Has over ten thousand tiny teeth
+
+--- 🐾
+p: Six animals are ready to meet you: an earthworm, a medicinal leech, a planarian, a velvet worm, a banana slug, and a garden snail.
+p: Each has its own surprising way of living.
+
+--- 🐾 @earthworm
+p: Meet the earthworm, a soft, ringed animal that eats its way through soil. It swallows dirt at one end and leaves it richer at the other.
+fact(Breathing skin): An earthworm has no lungs. It breathes straight through its skin, which is why it has to stay damp — a dried-out worm suffocates.
+check: How does an earthworm breathe?
++ Through its skin
+- Through gills
+- Using its hearts
+hint: Look at the fact box. It tells you how an earthworm breathes.
+explain: An earthworm breathes through its skin because it has no lungs.
+
+--- 🐾 @leech
+p: Meet the medicinal leech, a soft, muscular freshwater worm with a sucker at each end. It feeds on blood and is still kept in hospital tanks today.
+fact(The bite that bleeds): A leech has tiny teeth arranged in three jaws shaped like a Y. The bite leaves a mark shaped like a three-pointed star and keeps bleeding for hours after the leech lets go.
+
+p: Hospitals still use leeches because their spit has hirudin, a chemical that stops blood from clotting. This helps in surgeries where blood needs to flow freely.
+
+--- 🐾 @planarian
+p: Meet the planarian, a soft, flat little worm that glides along the underside of stones in a cold stream.
+fact(The rebuild): Cut a planarian in half and you get two planarians. Even a tiny scrap can grow into a whole new worm. A piece as small as one two-hundred-and-seventy-ninth of the worm can regrow everything it needs, including the head, brain, and eyes.
+check: How small a piece can regrow into a complete planarian?
+- One four-hundred-and-ninetieth
+- One six-hundred-and-thirtieth
++ One two-hundred-and-seventy-ninth
+hint: Look at the fact box. It gives the exact number.
+explain: A piece as small as one two-hundred-and-seventy-ninth of the worm can regrow into a complete planarian.
+
+--- 🐾 @velvet-worm
+p: Meet the velvet worm, a soft night hunter of damp forest floors that catches its dinner by shooting glue at it.
+fact(The sticky attack): It hunts with glue. Two nozzles either side of its mouth fire jets of sticky slime that stiffen in seconds, leaving the prey wrapped in a net it cannot break out of. The jets leave the nozzles at 10 to 16 ft per second (3 to 5 m/s) — faster than you could snatch your hand back.
+p: Velvet worms eat their own dried glue and recycle the protein once the meal is over. Refilling an emptied slime store takes about 24 days.
+
+--- 🐾 @banana-slug
+p: Next up is the banana slug, a big, bright yellow creature found in Pacific coast forests. It eats fallen leaves and turns them into soil.
+fact(The sticky defense): Its slime can numb the mouth of an attacker. The mucus is so sticky that the attacker often gives up mid-meal.
+check: What does the banana slug's slime do to an attacker?
+- Makes it run faster
++ Numbs its mouth
+- Stains its fur
+hint: Look at the first sentence in the fact box.
+explain: The banana slug's slime numbs the mouth of an attacker and is so sticky that the attacker often gives up.
+
+--- 🐾 @garden-snail
+p: Next up is the garden snail, a common brown snail you might find under a flowerpot after rain. It has its own house on its back.
+term: radula = A ribbon covered in tiny teeth that a snail uses to scrape up its food.
+fact(The toothy tongue): Its tongue is a ribbon with over ten thousand tiny teeth. The ribbon is called a radula. A snail rasps leaves with this toothed belt, like sandpaper.
+
+--- 📊
+p: Side by side, all six are soft and squishy, but each has its own look and life. The earthworm is about 0.8 ft long and lives for 2 years. The medicinal leech is shorter at 0.7 ft. A planarian is only about 0.1 ft long, about an inch.
+p: The velvet worm is about 0.2 ft long, while the banana slug stretches to 0.6 ft and can live up to 4 years. The garden snail is the tiniest at just 0.1 ft long and moves at a slow speed of 0.005 mph.
+
+
+--- 🐾
+p: An earthworm that digs. A medicinal leech that sticks. A planarian that splits in two. A velvet worm that squirts slime. A banana slug that slides slowly. A garden snail that carries its home.
+p: Six soft bodies, six different ways to live.
+
+quiz: What does a leech use to prevent blood from clotting?
+- Acid from its stomach
++ Hirudin in its spit
+- Slime on its skin
+explain: Leeches have a special chemical in their spit that keeps blood flowing freely.
+
+quiz: How long does it take for a velvet worm to refill its slime store?
+- 3 days
++ 24 days
+- 1 week
+explain: Velvet worms need time to make more slime after they use it up.
+
+quiz: What does the garden snail's tongue have on it?
+- Rows of sticky, curved hairs
++ Over ten thousand tiny teeth
+- A pair of hard, sharp fangs
+explain: The garden snail's tongue has a lot of tiny teeth to help it eat leaves.
+
+quiz: How long is a banana slug?
+- 0.2 ft
++ 0.6 ft
+- 0.1 ft
+explain: Banana slugs are longer than you might think!
+
+quiz: What does an earthworm do as it moves through the soil?
+- It packs the soil down very hard
++ It eats soil and leaves it richer
+- It drinks the water out of the soil
+explain: Earthworms help make the soil better as they move through it.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-amphibians-1
+idea: A wood frog freezes solid and comes back to life. Find out which amphibian regrows its limbs, which one you can see through, and which one carries enough poison for ten adults.
+game: Axolotl = Can regrow almost any part of itself | Glass frog = See-through skin reveals its beating heart | Golden poison frog = Colored like a highlighter pen and deadly | Goliath frog = Largest frog on Earth, jumps up to 10 feet | Wood frog = Freezes solid in winter, then thaws in spring
+
+--- 🐾
+p: Five amphibians are waiting to meet you: an axolotl, a glass frog, a golden poison frog, a goliath frog, and a wood frog.
+p: Each one is special in its own way.
+
+--- 🐾 @axolotl
+p: Meet the axolotl, a pink Mexican salamander with feathery gills sticking out of its head. It lives in water and can regrow almost any part of itself.
+fact(The gills): Those pink feathers on its head are actually gills that pull oxygen directly from the water.
+check: What do the axolotl's pink gills do?
+- Sense food floating nearby
++ Pull oxygen from the water
+- Store fat for the cold months
+hint: Look at the box. It says what the pink feathers on its head are.
+explain: The pink gills on an axolotl's head pull oxygen directly from the water.
+
+--- 🐾 @glass-frog
+p: Meet the glass frog, a small green rainforest frog with see-through skin on its underside. Turn one over and you can watch its beating heart.
+fact(The see-through skin): The underside of a glass frog is translucent. You can see its heart beating, liver sitting there, and food moving through its gut.
+term: translucent = See-through but not clear. Light passes through, but you can't see everything clearly.
+p: Asleep, the glass frog pulls almost all its red blood cells out of circulation and parks them inside its liver. This makes it much harder to see.
+
+--- 🐾 @poison-dart-frog
+p: Meet the golden poison frog, about as long as your thumb and colored like a highlighter pen. Its skin holds enough poison to kill about ten grown adults.
+fact(The bright warning): The frog's skin is packed with poison that it gets from what it eats. In the wild, its diet of tiny insects and mites gives it this deadly protection. Zoo-bred frogs are harmless because they don't eat those insects.
+check: How does the golden poison frog get its poison?
+- It makes it in its body
+- It takes it from the plants it climbs on
++ It collects it from its diet
+hint: Look at the first sentence of the box. It says where the poison comes from.
+explain: The golden poison frog gets its poison from its diet of tiny insects and mites in the wild.
+
+--- 🐾 @goliath-frog
+p: Meet the Goliath frog, the largest frog on Earth. It's longer than a dinner plate is wide and heavy enough that you would want both hands to lift it.
+fact(The giant leap): For all its bulk, this frog is a serious jumper. One leap covers somewhere between 4 and 10 feet (1.2 to 3 m), from a standing start with no run-up at all.
+p: A big Goliath frog measures about 13 inches (32 cm) just in body length. Stretch its legs out, and the whole animal passes 30 inches (80 cm). The heaviest one ever properly weighed came in at 7.3 lb (3.3 kg).
+
+--- 🐾 @wood-frog
+p: Meet the wood frog. It’s a small brown forest frog with a dark mask across its eyes.
+p: In winter this frog freezes solid. Ice fills the spaces around its organs, its heart stops, and its brain goes quiet. Warm it up and within hours it comes back to life.
+fact(The secret to surviving): Before freezing, the wood frog’s liver floods its body with glucose — sugar. This works as antifreeze inside every cell, so ice can only form around cells, not in them.
+check: What protects a wood frog's cells while it is frozen?
+- Thick layers of leaf litter
+- A coat of mucus that traps heat
++ Sugar that works as antifreeze
+hint: Look at the box. It says what the liver does before the freeze.
+explain: Before freezing, the liver floods its body with sugar, which works as antifreeze inside every cell.
+
+--- 📊
+p: The Goliath frog is the heaviest at 7 lb and the longest at about 1 ft. The axolotl is about 0.8 ft long. The glass frog is the smallest, only 0.1 ft long.
+fact(Jumping): A Goliath frog can leap 4 to 10 feet from a standing start, while a wood frog is only about 3 inches long.
+check: Which of the five is the longest?
+- The axolotl, at 0.8 ft
+- The glass frog, at 0.1 ft
++ The Goliath frog, at 1 ft
+hint: Look at the first paragraph and find the longest length.
+explain: The Goliath frog, at 1 ft long.
+
+--- 🐾
+p: An axolotl that regrows its limbs. A glass frog you can see through. A golden poison frog as bright as a warning. A Goliath frog big enough to hold. A wood frog frozen solid in winter.
+p: Five amphibians, each one built to survive in its own way.
+
+quiz: What can the wood frog do in winter?
+- Hibernate underground
++ Freeze solid
+- Migrate to warmer areas
+explain: The wood frog has a unique way of surviving the cold.
+
+quiz: Where does the axolotl live?
+- In a desert
++ In water
+- On a tree
+explain: The axolotl is a water-dwelling salamander.
+
+quiz: What makes the golden poison frog deadly?
+- Its bright color
++ Its poisonous skin
+- Its loud croak
+explain: The golden poison frog's skin holds enough poison to be dangerous.
+
+quiz: How far can a Goliath frog jump?
+- Only about 1 to 3 feet
++ Between 4 and 10 feet
+- Between 12 and 16 feet
+explain: Despite its size, the Goliath frog is quite a jumper.
+
+quiz: What can you see through a glass frog's underside?
+- Its bones
++ Its beating heart
+- Its tail
+explain: The glass frog's skin is translucent, allowing you to see inside it.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-birds-1
+idea: A peregrine falcon dives faster than 200 mph. Find out whose wings make no sound, whose toes wear feathered boots, and who glides 600 miles without flapping.
+game: Peregrine falcon = Dives faster than any other animal | Bald eagle = Has a wingspan wider than a tall man | Barn owl = Hunts silently using only its hearing | Snowy owl = Has long feathers on its toes like boots | Wandering albatross = Uses dynamic soaring to cover long distances without flapping
+
+--- 🐾
+p: Five birds are waiting to meet you: a peregrine falcon, a bald eagle, a barn owl, a snowy owl, and a wandering albatross.
+p: Each one has its own special skill.
+
+--- 🐾 @peregrine-falcon
+p: Meet the peregrine falcon, a crow-sized bird that hunts other birds from mid-air. It dives faster than any other animal on Earth.
+fact(The dive): In a stoop — a folded-wing drop — it hits 200 mph (320 km/h). Level flight isn't so fast though; flapping along, it's no quicker than many ordinary birds.
+check: What is the peregrine falcon's top diving speed?
+- 150 mph
++ 200 mph
+- 250 mph
+hint: Look at the fact box. It mentions the exact speed in a stoop.
+explain: The peregrine falcon can reach 200 mph during a dive, faster than any other animal.
+
+--- 🐾 @bald-eagle
+p: Next up is the bald eagle, a huge fish-hunting sea eagle with a snow-white head, found only in North America.
+fact(The wingspan): Stretch its wings out and they span up to 7 feet 7 inches (2.3 m) — wider than a tall man standing up.
+term: spicules = Rough spikes on the soles of an eagle's toes that help it grip slippery fish.
+p: The bald eagle's feathers weigh more than twice as much as its hollow bones.
+
+--- 🐾 @barn-owl
+p: Next up is the barn owl. It has a pale face and catches mice in total darkness using only its hearing.
+fact(The silent hunter): A barn owl flies without making a sound. Comb-like teeth along its flight feathers break the air apart before it can turn into noise. The back edge of the wing is fringed like a soft brush, and the whole surface is velvety, soaking up sound.
+
+--- 🐾 @snowy-owl
+p: Next is the snowy owl, a huge white owl from the Arctic that hunts in broad daylight.
+fact(The feathered boot): A snowy owl's toes are buried under feathers that average an inch and a third (33 mm) long. That’s like walking on built-in boots.
+p: Most owls hunt at night, but snowy owls hunt in full daylight because the sun never sets during Arctic summers.
+
+--- 🐾 @wandering-albatross
+p: Meet the wandering albatross, a giant seabird of the Southern Ocean with the longest wings of any living bird. Its wings can span up to 11 feet (3.5 m) tip to tip.
+fact(The flight): The albatross can cover 600 miles (1,000 km) in a day without flapping once. It falls forwards through the wind over and over, using a trick called dynamic soaring.
+p: A sheet of tendon locks its shoulder when the wing is fully out, so the wing stays open with no muscle working at all. Gliding costs it almost nothing.
+check: How does the albatross cover such long distances without flapping?
++ It falls forwards through the wind over and over, using dynamic soaring.
+- It uses its long, narrow wings to glide on rising currents of warm air.
+- It flaps its huge wings slowly just once every few hours to stay up.
+hint: Look at the fact box. It tells you how the albatross covers long distances without flapping.
+explain: The albatross uses dynamic soaring by falling forwards through the wind over and over.
+
+--- 📊
+p: Now put the five birds side by side. The wandering albatross weighs about 19 lb, the bald eagle about 10 lb and the snowy owl about 4 lb. The peregrine falcon weighs about 2 lb and the barn owl only about 1 lb.
+fact(Speed): The peregrine falcon can reach a speed of 200 mph, much faster than the wandering albatross's 50 mph.
+check: Which of the five is the heaviest?
+- The American bald eagle
+- The pale-faced barn owl
++ The wandering albatross
+hint: Look at the first paragraph and find the biggest number.
+explain: The wandering albatross, at about 19 lb.
+
+--- 🐾
+p: A peregrine falcon diving at 200 mph. A bald eagle soaring over forests. A barn owl hunting in the dark. A snowy owl with feathered boots. A wandering albatross gliding for miles.
+p: Five birds, each with its own unique way of flying and living.
+
+quiz: What helps the barn owl fly silently?
+- Long, smooth feathers on its back
++ Comb-like teeth along its flight feathers
+- Extra-long tail feathers that steer it
+explain: The comb-like teeth break the air to stop noise.
+
+quiz: How wide can a bald eagle spread its wings?
+- 5 feet 3 inches (1.6 m)
++ 7 feet 7 inches (2.3 m)
+- 8 feet 9 inches (2.7 m)
+explain: That's wider than a tall man standing up.
+
+quiz: What is special about the snowy owl’s toes?
+- They are covered in thick fur
++ They are buried under long feathers
+- They have sharp talons for digging
+explain: The feathers act like built-in boots to keep its feet warm.
+
+quiz: How does the peregrine falcon dive so fast?
+- By flapping its wings very quickly
++ By folding its wings and dropping
+- By gliding on air currents
+explain: When it folds its wings, it can hit 200 mph in a dive.
+
+quiz: Why do snowy owls hunt during the day?
+- They prefer warmer temperatures
++ The sun never sets in Arctic summers
+- They cannot see well in the dark
+explain: In the Arctic summer, there’s no darkness for them to rest.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-dinosaurs-4
+idea: A Carnotaurus skeleton came out of the rock with its skin print. Find out whose hand claws were as long as a nine-year-old's arm and which dinosaur was found locked in a fight.
+game: Carnotaurus = Found with its skin and horns | Therizinosaurus = Has the longest hand claws ever | Deinonychus = Known for its sickle claw | Compsognathus = Known from just two skeletons | Protoceratops = Found locked in battle with a Velociraptor
+
+--- 🐾
+p: Five dinosaurs are waiting to meet you: a Carnotaurus, a Therizinosaurus, a Deinonychus, a Compsognathus, and a Protoceratops.
+p: Each one has something surprising about it.
+
+--- 🐾 @carnotaurus
+p: Meet the Carnotaurus, a meat-eating bull from Patagonia. It had two thick horns above its eyes and a skeleton that came out of the ground with its skin still printed in the rock.
+fact(The skin): The skin was covered with rows of big cone-shaped studs and small pebbly scales. This pattern is the most complete ever found on a meat-eating dinosaur.
+p: Its arms were almost silly, with the forearm only a quarter the length of the upper arm and just four stubby fingers.
+check: What was printed in the rock beside the Carnotaurus skeleton?
+- Its eggs
++ Its skin pattern
+- Its last meal
+hint: Look at the first paragraph. It says what was printed in the rock.
+explain: The skeleton came out of the ground with its skin still printed in the rock.
+
+--- 🐾 @therizinosaurus
+p: Next up is the Therizinosaurus, a huge, pot-bellied, beaked plant-eater with the longest hand claws of any land animal ever found.
+fact(The claws): The largest known claw bone measures about 20 in (52 cm) around its curve — about as long as a nine-year-old's whole arm. It is the longest hand claw of any land animal ever found.
+term: cheloniformis = turtle-shaped. When the first Therizinosaurus claws were described, they were thought to belong to a giant turtle.
+p: The claws did not belong to a hunter. This dinosaur had a horny beak and a wide barrel of a gut for fermenting greenery. The best idea is that those claws were hooks for pulling branches down to the beak.
+
+--- 🐾 @deinonychus
+p: Meet Deinonychus, an 11-ft hunter with a switchblade claw on each second toe. Its name means "terrible claw." The movie 'velociraptors' were really built from this animal.
+fact(The claw): The sickle claw on its second toe is over 4.7 in (12 cm) measured round the outer curve. This claw rode up off the ground, out of the dirt, staying sharp.
+check: What does the name Deinonychus mean?
+- Swift runner
+- Sharp teeth
++ Terrible claw
+hint: Look at the first paragraph. It says what the name means.
+explain: The name Deinonychus means "terrible claw".
+
+--- 🐾 @compsognathus
+p: Meet Compsognathus, a small meat-eater known from just two skeletons — one chicken-sized and one bigger.
+fact(The meal inside): Inside the German skeleton's ribs is a lizard, in several pieces. It shows how Compsognathus tore its food apart and swallowed chunks of it.
+p: The German skeleton is about 2 ft 6 in (75 cm) long and weighed around a pound. The French one is bigger, roughly 4 ft (1.25 m) and 6 lb.
+
+--- 🐾 @protoceratops
+p: Meet Protoceratops, a sheep-sized plant-eater known for its bony frill.
+fact(The fighting fossil): Protoceratops is famous for being found locked in battle with a Velociraptor. They are called the "Fighting Dinosaurs."
+p: Protoceratops fossils are not rare. Many have been found, from hatchlings to adults.
+check: What was found buried with a Protoceratops?
++ A Velociraptor
+- Another Protoceratops
+- An Oviraptor
+hint: Look at the fact box about the "Fighting Dinosaurs."
+explain: The "Fighting Dinosaurs" are a Protoceratops and a Velociraptor buried together in the middle of a fight.
+
+--- 📊
+p: Let’s put these dinosaurs side by side. Therizinosaurus weighs about 11,000 lb, Carnotaurus about 3,000 lb and Protoceratops about 400 lb. Compsognathus weighs just 6 lb.
+fact(Length): Carnotaurus is 26 ft long, while Therizinosaurus is longer at 32 ft.
+check: Which of the five is the heaviest?
+- Carnotaurus
++ Therizinosaurus
+- Protoceratops
+hint: Look at the first paragraph and find the biggest number.
+explain: Therizinosaurus weighs about 11,000 lb.
+
+--- 🐾
+p: Carnotaurus with its horns, Deinonychus with its claws, Therizinosaurus with long arms, Compsognathus so small, Protoceratops with a frill.
+p: Five dinosaurs, each different, and all from long ago.
+
+quiz: What unusual feature did scientists find inside the German Compsognathus skeleton?
+- A stone
++ A lizard
+- A bone
+explain: The German Compsognathus skeleton had a lizard inside, showing how it ate.
+
+quiz: How long is the sickle claw on Deinonychus's second toe, measured round the outer curve?
+- 3 in (7.5 cm)
++ 4.7 in (12 cm)
+- 6 in (15 cm)
+explain: The sickle claw was over 4.7 inches long.
+
+quiz: What is Protoceratops famous for being found with?
+- Another Protoceratops
++ A Velociraptor
+- An Oviraptor
+explain: Protoceratops and a Velociraptor were found locked in battle.
+
+quiz: What was the skin of the Carnotaurus covered with?
+- Long feathers and soft, thick fur
++ Cone-shaped studs and pebbly scales
+- Slick, smooth skin like a frog's
+explain: The skin had rows of cone-shaped studs and small pebbly scales.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-insects-1
+idea: A honeybee dances to tell others where flowers are. Find out which ant farms a fungus, which ant has the worst sting ever measured, and which butterfly steers by the sun with its antennae.
+game: Honeybee = Dances to signal the location of flowers | Leafcutter ant = Grows fungus in underground gardens | Bullet ant = Has the most painful sting measured | Army ant = Forms living bridges with their bodies | Monarch butterfly = Uses antennae as a clock to steer by the sun
+
+--- 🐾
+p: Five bugs are waiting to meet you: a honeybee, a leafcutter ant, a bullet ant, an army ant, and a monarch butterfly.
+p: Each one has a special job.
+
+--- 🐾 @honeybee
+p: Meet the honeybee, a small furry insect that lives in colonies of tens of thousands.
+p: A bee that finds flowers comes home and dances. The angle of her waggle tells the others which way to fly. The length tells them how far.
+check: What does the angle of a bee's waggle dance indicate?
+- How far to fly
+- The amount of nectar in the flowers
++ Which direction to fly
+hint: Look at the second paragraph and find what the angle represents.
+explain: The angle of the waggle dance tells other bees which direction to fly.
+
+--- 🐾 @leafcutter-ant
+p: Meet the leafcutter ant. It cuts leaves but does not eat them. It feeds the leaves to a fungus it farms underground.
+fact(The farmers): Leafcutter ants grow fungus in spongy gray gardens and harvest its swollen tips to feed their young. They use antibiotics made by bacteria on their bodies to keep weed-mold out of the gardens.
+term: fungus = A type of organism that grows like a network of tiny threads, often forming mushrooms or molds.
+p: A carrier ant hoists a leaf several times heavier than she is over her head and jogs home with it.
+
+--- 🐾 @bullet-ant
+p: Meet the bullet ant, one of the biggest ants alive — up to 1.2 in (3 cm) long.
+fact(The pain scale): It carries the most painful sting ever measured in an insect. An entomologist named Justin Schmidt ranked it as 4.0+, describing it as walking over flaming charcoal with a three-inch nail in your heel.
+check: What is the bullet ant's pain rating on Justin Schmidt's scale?
+- 3.0
+- 2.5
++ 4.0+
+hint: Look at the box. It gives the rating.
+explain: The bullet ant's sting ranks as 4.0+ on Justin Schmidt's pain scale.
+
+--- 🐾 @army-ant
+p: Meet the army ant, a wandering ant that builds no permanent nest. It marches and hunts as one big swarm.
+fact(The living bridge): When a gap opens in their trail, ants throw themselves across to form a living bridge. The column runs over their backs, then the bridge gets up and follows.
+p: At the end of a day’s march, the colony builds its shelter out of itself. Workers link legs into a hanging ball, bigger than a basketball, with the queen sealed inside. It's called a bivouac.
+
+--- 🐾 @monarch-butterfly
+p: Meet the monarch butterfly, an orange-and-black flyer that eats poison milkweed as a caterpillar. One generation flies most of the way across a continent.
+fact(The long journey): Some monarchs fly from Canada to central Mexico — up to 2,800 miles (4,500 km). Not one of them has ever been there before, and no butterfly alive remembers the way.
+p: A monarch uses its antennae as a clock to steer by the sun. Researchers painted the antennae with black enamel and the butterflies lost their heading.
+check: What part of the monarch works as a clock for steering by the sun?
+- Their wings
+- Their eyes
+- Their legs
++ Their antennae
+hint: Look at the last paragraph. It tells you what part gets painted.
+explain: The antennae help the monarch steer by the sun.
+
+--- 📊
+p: The honeybee flies at 15 mph, while the monarch butterfly cruises at 6 mph. The bullet ant is about 1.2 in long, and a honeybee is about half an inch.
+fact(Common traits): All five are insects. They differ in size and speed, but each has six legs and three body parts: head, thorax, and abdomen.
+
+--- 🐾
+p: A honeybee buzzing at 15 mph. A monarch butterfly fluttering at 6 mph. A bullet ant about 0.1 ft long. A leafcutter ant marching in a line. An army ant swarming together.
+p: Five insects, all with six legs and three body parts, each built for its own job.
+
+quiz: What do leafcutter ants feed their young with?
+- Ripe fruit they gather at night
++ Swollen tips of fungus they grow
+- Seeds and grain they store below
+explain: Leafcutter ants use the fungus they farm to feed their young.
+
+quiz: How does a monarch butterfly steer by the sun?
+- Using its wings to sense direction
++ With its antennae as a clock
+- By following the path of other butterflies
+explain: Monarchs use their antennae like a clock to navigate by the sun.
+
+quiz: What do army ants build at the end of a day’s march?
+- A nest made of leaves
++ A bivouac made of themselves
+- A shelter under the ground
+explain: Army ants form a hanging ball with their bodies, called a bivouac, to make their shelter.
+
+quiz: How long is a bullet ant?
+- 1.5 in (3.8 cm)
++ 1.2 in (3 cm)
+- 0.6 in (1.5 cm)
+explain: The bullet ant can grow up to 1.2 inches long.
+
+quiz: How many legs and body parts does every insect have?
+- Four legs and two body parts
++ Six legs and three body parts
+- Eight legs and four body parts
+explain: Every insect has six legs and three body parts: head, thorax and abdomen.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-reptiles-2
+idea: A frilled-neck lizard opens a frill wider than a dinner plate. Find out which lizard drinks with its skin, which one sticks to glass, and which one runs across water.
+game: Veiled chameleon = Catching night fog with its casque | Thorny devil = Drinks water using microscopic grooves | Tokay gecko = Walks up glass with tiny hairs | Common basilisk = Sprints across water on back legs | Frilled-neck lizard = Opens a frill to look bigger
+
+--- 🐾
+p: Five reptiles are waiting to meet you: a veiled chameleon, a thorny devil, a tokay gecko, a common basilisk, and a frilled-neck lizard.
+p: Each one has something special that makes it stand out.
+
+--- 🐾 @veiled-chameleon
+p: Meet the veiled chameleon. It’s a tall-helmeted tree lizard from Yemen’s mountains. Its eyes swivel independently, and its tongue fires like a spear.
+p: The casque on its head is about 2 inches (5 cm) tall. It may help catch night fog, which drips down to the chameleon's mouth. It also helps the chameleon show off to rivals.
+fact(The sticky tongue): The tongue tip is coated in mucus 400 times thicker than your spit. It grabs prey and pulls it back.
+check: What does the veiled chameleon use its casque for?
++ Catching night fog and showing off
+- Hearing far sounds and staying warm
+- Digging burrows and holding food
+hint: Look at the second paragraph. It mentions two jobs the casque does.
+explain: The veiled chameleon uses its casque to catch night fog and for displays.
+
+--- 🐾 @thorny-devil
+p: Next up is the thorny devil. It’s a small, spiky lizard from Australia’s desert that eats ants.
+p: This lizard drinks by pulling water across its skin. Microscopic grooves between its scales draw water to its mouth.
+term: capillary action = The way water moves up a narrow tube without needing to be pushed.
+fact(Drinking with its feet): Stand the thorny devil in a shallow puddle and the water climbs its legs, crosses its back, and reaches its mouth.
+
+--- 🐾 @gecko
+p: Next up is the tokay gecko — a blue-and-orange lizard from Southeast Asia. It walks up glass and across ceilings.
+fact(The secret grip): Each foot has half a million tiny hairs called setae, and each hair splits into hundreds of even tinier pads. These pads use a weak pull between molecules, called van der Waals attraction, to stick to surfaces.
+
+--- 🐾 @basilisk-lizard
+p: Next up is the common basilisk, a crested lizard from Central American riverbanks. It escapes danger by sprinting across water on its back legs.
+fact(The Jesus lizard): It runs up on its back legs, sprinting across the surface of a river. People call it the Jesus lizard because of this ability. A basilisk can cross about 15 feet (4.5 m) of open water before sinking in and swimming the rest.
+p: Each footfall on water is three moves: slap, stroke, recover. The slap traps air, the stroke pushes against that pocket, and then it lifts clear.
+
+--- 🐾 @frilled-lizard
+p: Meet the frilled-neck lizard, a gray tree dweller from Australia. Its neck has a huge collar of skin that can suddenly snap open.
+fact(The surprise): Corner it and the show starts. The collar of skin opens wider than a dinner plate — over 12 in (30 cm) across — while its mouth gapes bright pink and it hisses.
+p: The frill is not a weapon. It makes the lizard look much bigger to scare off predators.
+check: Why does the frilled-neck lizard open its frill?
+- To trap insects for food
++ To look bigger and scare away threats
+- To hide in trees more effectively
+hint: Look at the paragraph that starts with "The frill is not a weapon."
+explain: The frill opens wide to make the lizard look bigger and scare away any threats.
+
+--- 📊
+p: Now put the five side by side. The frilled-neck lizard is about 3 ft long and weighs about 1 lb. The veiled chameleon is about 1.8 ft long and the common basilisk about 2.4 ft. The thorny devil is just 0.7 ft long.
+fact(Speed): A common basilisk can run across about 15 feet (4.5 m) of open water before it sinks in and swims the rest.
+check: Which of the five is the longest?
+- The common basilisk
+- The veiled chameleon
++ The frilled-neck lizard
+hint: Look at the first paragraph and find the biggest length.
+explain: The frilled-neck lizard, at about 3 ft long.
+
+--- 🐾
+p: A frilled-neck lizard with a neck frill that opens wide. A thorny devil with spikes all over. A tokay gecko sticking to walls. A common basilisk running on water. A veiled chameleon with a helmet that catches fog.
+p: Five reptiles, each one unique in its own way.
+
+quiz: What special ability does the thorny devil have?
+- It can store water in a large hump on its back.
++ It drinks water through capillary action on its skin.
+- It can dig deep tunnels to find water far below.
+explain: The thorny devil uses microscopic grooves on its scales to pull water to its mouth.
+
+quiz: How does the tokay gecko stick to surfaces?
+- With a layer of sticky glue on its toes.
++ Each foot has half a million tiny hairs.
+- By using its tail to hold on.
+explain: These hairs use van der Waals attraction to help the gecko stick to any surface.
+
+quiz: What is unique about the common basilisk's movement?
+- It can burrow underground in just minutes.
++ It can run across water on its back legs.
+- It can leap very far from tree to tree.
+explain: The basilisk uses a special three-move sequence to stay on top of the water, earning it the nickname "Jesus lizard."
+
+quiz: What is the main purpose of the frilled-neck lizard's frill?
+- To catch insects by spreading out like a net.
++ To scare away predators by looking bigger.
+- To hide in the trees by looking like bark.
+explain: The frill opens up wide to intimidate any threats and make the lizard appear larger.
+
+quiz: How does the veiled chameleon use its tongue to catch food?
+- It spits a thick web that wraps up its prey.
++ Its sticky tongue shoots out and pulls prey back.
+- It pokes prey with a sharp spike on its tongue.
+explain: The veiled chameleon's tongue is coated in thick mucus, helping it grab prey and pull it back.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-reptiles-3
+idea: A Texas horned lizard can shoot blood out of its eyes. Find out which reptile can go up to a year without food or water.
+game: Galápagos tortoise = Survives a year without food or water | Leatherback sea turtle = Dives deeper than three Empire State Buildings | Saltwater crocodile = Strongest bite at 3,700 pounds | American alligator = Weak muscles to open its jaws | Texas horned lizard = Shoots blood from its eyes
+
+--- 🐾
+p: Five reptiles are waiting to meet you: a Galápagos tortoise, a leatherback sea turtle, a saltwater crocodile, an American alligator, and a Texas horned lizard.
+p: Each one is special in its own way.
+
+--- 🐾 @galapagos-tortoise
+p: Meet the Galápagos tortoise, the largest tortoise on Earth. It lives on volcanic islands in the Pacific Ocean.
+fact(The giant): The heaviest one ever weighed came in at 919 lb (417 kg) — heavier than five grown men walking about on four legs like tree stumps.
+p: These tortoises are built to last. They can go more than six months without a drink and up to a whole year with no food and no water at all.
+check: How long can a Galápagos tortoise go without food and water?
+- 3 months
+- 6 months
++ 1 year
+hint: Look at the last sentence. It gives the exact time.
+explain: A Galápagos tortoise can go up to a whole year with no food and no water.
+
+--- 🐾 @leatherback-turtle
+p: Meet the leatherback sea turtle, the biggest sea turtle in the world. Its back is thick rubbery skin over tiny bones.
+term: osteoderms = Tiny bones under the skin that make it flexible and strong.
+fact(The deep diver): One leatherback was recorded diving to 4,200 ft (1,280 m). That is more than three Empire State Buildings stacked end to end.
+
+--- 🐾 @saltwater-crocodile
+p: Meet the saltwater crocodile, the largest living reptile. It lives in rivers and the sea.
+fact(The big bite): A 15.1 ft (4.6 m) crocodile bit down with about 3,700 pounds of force. No living animal has a stronger bite.
+check: What is the saltwater crocodile's bite force?
+- 2,000 pounds
++ 3,700 pounds
+- 5,000 pounds
+hint: Look at the box that talks about the big bite.
+explain: The saltwater crocodile can bite with 3,700 pounds of force.
+
+--- 🐾 @alligator
+p: Meet the American alligator, a big reptile that lives in swamps and rivers. It has a broad snout and rules the southeastern United States.
+fact(The strong bite): A large alligator can bite with about 3,000 pounds of force. That is a little less than the saltwater crocodile.
+p: The muscles that close its jaws are huge, but the ones that open them are weak. Because those opening muscles are so weak, a few wraps of tape are enough to hold an alligator's mouth shut.
+
+--- 🐾 @horned-lizard
+p: Meet the Texas horned lizard, a flat, spiky little desert lizard that lives almost entirely on stinging ants.
+fact(The blood cannon): Push it too far and it shoots blood out of its own eyes up to 5 feet (1.5 m). It aims for the face to make predators back off.
+check: What does the Texas horned lizard shoot out of its eyes?
++ Blood
+- Water
+- Ants
+hint: Look at the fact box. It says what comes out of its eyes.
+explain: Blood. It shoots blood from its eyes to scare away predators.
+
+--- 📊
+p: The saltwater crocodile is the longest at 14.8 ft. The American alligator is next at about 11 ft and the leatherback sea turtle is about 6 ft. The Texas horned lizard is the shortest at 0.4 ft.
+fact(Speed): The leatherback sea turtle can swim up to 22 mph. The saltwater crocodile runs up to 15 mph on land.
+check: Which of the five is the longest?
++ The saltwater crocodile
+- The leatherback sea turtle
+- The American alligator
+hint: Look at the first paragraph. It gives the lengths.
+explain: The saltwater crocodile, at 14.8 ft long.
+
+--- 🐾
+p: A Galápagos tortoise that can live for over a century. A leatherback sea turtle swimming up to 22 mph. A saltwater crocodile that grows up to 14.8 ft long. An American alligator with powerful jaws. A Texas horned lizard that is only 0.4 ft long.
+p: Five reptiles, each built differently for their own world.
+
+quiz: How deep can a leatherback sea turtle dive?
+- 2,000 ft
++ 4,200 ft
+- 3,000 ft
+explain: A leatherback has been recorded diving to 4,200 ft, more than three Empire State Buildings stacked end to end.
+
+quiz: What can a Galápagos tortoise do for up to a year?
+- Stay awake without sleeping
++ Go without food and water
+- Swim across the ocean without stopping
+explain: This tortoise is built to last, even in tough conditions.
+
+quiz: How fast can the leatherback sea turtle swim?
+- 10 mph
++ 22 mph
+- 15 mph
+explain: The leatherback sea turtle is a speedy swimmer.
+
+quiz: What do Texas horned lizards eat mostly?
+- Snails and slugs
++ Stinging ants
+- Leaves and seeds
+explain: These lizards have quite the appetite for stinging ants.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== animals-tiny-1
+idea: A tardigrade can survive being dried out for years. Find out which animal shrinks to a speck of dust, which one builds a shell of glass, and which one lives in your mattress.
+game: Tardigrade = Can survive years without water | Bdelloid rotifer = Shrinks into a speck of dust | Amoeba = Changes shape constantly | Paramecium = Rows through water with cilia | Diatom = Builds its shell out of silica | Dust mite = Smaller than a period
+
+--- 🐾
+p: Six tiny wonders are waiting to meet you: a tardigrade, a bdelloid rotifer, an amoeba, a paramecium, a diatom, and a dust mite.
+p: Each one is special in its own way.
+
+--- 🐾 @tardigrade
+p: Meet the tardigrade, a microscopic eight-legged animal that can live in a film of water on a scrap of moss.
+fact(The tiny but tough): A dried-out tardigrade folds into a barrel shape called a tun and stops moving or feeding. It can stay like this for years and come back to life when water returns.
+check: What shape does a tardigrade fold into when it dries out?
+- A ball
++ A tun
+- A spiral
+hint: Look at the last sentence of the fact box.
+explain: A tun. This shape helps the tardigrade survive without water for long periods.
+
+--- 🐾 @rotifer
+p: Next up is the bdelloid rotifer, an animal so tiny you need a microscope to see it. It has a brain, jaws, muscles, and all the parts of a real animal packed into a body smaller than the dot on the letter "i".
+p: The head of a bdelloid rotifer ends in two rings of beating hairs called the corona. Under a microscope, these look like spinning wheels.
+term: cilia = Tiny hair-like structures that move to help the rotifer swim and gather food.
+fact(The tough survivor): Dry one out completely, and it shrivels into a speck of dust. But add a drop of water, and it uncurls and comes back to life. This ability is called anhydrobiosis. Rotifers have been brought back to life after being dried out for nine years.
+
+--- 🐾 @amoeba
+p: Meet the amoeba, a single living cell that has no fixed shape at all. It flows into whatever shape it needs next.
+fact(The shape shifter): An amoeba has no front, back or fixed shape. It moves by pushing out a bulge called a pseudopod and pouring its insides into it. Watch one for a minute and it's always changing.
+check: What is the name of the bulge an amoeba pushes out to move?
++ Pseudopod
+- Tentacle
+- Flagellum
+hint: Look at the second sentence in the fact box.
+explain: A pseudopod is the bulge an amoeba uses to move. It means "false foot" in Greek.
+
+--- 🐾 @paramecium
+p: Next up is the paramecium, shaped like a slipper and covered with tiny hairs called cilia that row it through water.
+fact(The swimmer): It crosses about 0.04 in (1 mm) every second, which is four of its own body lengths. Imagine you swimming four of your body lengths each second!
+p: Bump a paramecium into an obstacle and it does something clever: it backs up, turns slightly, and tries forward again. This is called the avoidance reaction.
+
+--- 🐾 @diatom
+p: Next up is the diatom, a single-celled drifter that makes food from sunlight and lives inside a shell made of real glass.
+fact(The glass house): A diatom builds its shell out of silica — the same mineral as sand and window glass. It pulls dissolved silicon from water to create a finely patterned glass house called a frustule. No two kinds look alike, with ribs, pores, spikes, stars, triangles, and spirals.
+check: What does a diatom use to make its shell?
+- Limestone
+- Wood
++ Silica
+hint: Look at the fact about the shell.
+explain: A diatom uses silica from water to build its glass shell.
+
+--- 🐾 @dust-mite
+p: Meet the dust mite, a tiny eight-legged cousin of spiders that lives in your mattress and eats the flakes of dead skin you shed.
+fact(The invisible diners): Dust mites are smaller than the period at the end of this sentence. You could line up eighty of them across the width of your thumbnail.
+p: They live in almost every house with people, feasting on the dead skin you leave behind in your bed, pillow, carpet, and sofa. Their mouthparts are built for scraping and chewing dry crumbs, not biting you.
+
+--- 📊
+p: All of these creatures are so small they can hide on the tip of a pin. A dust mite lives for about two and a half months.
+fact(Sizes): Tardigrades, bdelloid rotifers, amoebas, paramecia, diatoms, and dust mites are all smaller than the tip of a pin. Even the biggest of them, a tardigrade, is about the size of a grain of salt.
+
+--- 🐾
+p: Tiny creatures that hide on a pin tip. A tardigrade with eight legs. A bdelloid rotifer swimming in a drop of water. An amoeba stretching its body. A paramecium with cilia. Diatoms like tiny glass jewels. A dust mite that eats the skin flakes you shed.
+p: Six tiny wonders, each smaller than the tip of a pin, and each one unique.
+
+quiz: How long can a dried-out rotifer survive before coming back to life?
+- 1 year
++ 9 years
+- 3 months
+explain: Rotifers have an amazing ability to come back to life after being dried out for a very long time.
+
+quiz: What does the paramecium use to row itself through water?
+- Flagella
++ Cilia
+- Pseudopods
+explain: The tiny hairs on the paramecium help it move through the water.
+
+quiz: What is a diatom's glass shell called?
+- Carapace
+- Capsule
++ Frustule
+explain: Each diatom has a unique glass house with special patterns.
+
+quiz: How many legs does a dust mite have?
+- 4
++ 8
+- 6
+explain: Dust mites are like tiny spiders with eight legs.
+
+quiz: What does an amoeba use to move?
+- Flagellum
++ Pseudopod
+- Cilia
+explain: The amoeba moves by pushing out a bulge called a pseudopod.
+

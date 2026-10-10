@@ -491,7 +491,14 @@ const Offline = {
     [CATEGORIES, KINDS, GROUPS, PLANT_GROUPS, BODY_SECTIONS, GAME_PHRASES]
       .forEach(m => { if (m) Object.values(m).forEach(v =>
         t.push(typeof v === 'string' ? v : v.name)); });
-    if (typeof LESSONS !== 'undefined') LESSONS.forEach(l => { if (l.intro) t.push(l.intro); });
+    // js/lesson.js decides what a lesson speaks; the offline pack asks it.
+    if (typeof LESSONS !== 'undefined' && typeof App !== 'undefined' && App.lessonStrings) {
+      LESSONS.forEach(l => {
+        t.push(...App.lessonStrings(l));
+        if (!l.pages && l.intro) t.push(l.intro);
+      });
+      t.push(...App.lessonPhrases());
+    }
     const facts = (a) => a.forEach(x => {
       ['name', 'blurb', 'size', 'wonder', 'text', 'more', 'tryit']
         .forEach(k => { if (x[k]) t.push(x[k]); });

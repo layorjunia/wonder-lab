@@ -1,0 +1,1364 @@
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
+=== body-bones
+idea: Your body starts with 300 bones but ends up with 206. The smallest bone sits in your ear, and one bone in your throat touches no other bone.
+game: Stapes = Inside your ear, looks like a stirrup | Hyoid = In your throat, shaped like a horseshoe | Collagen = Keeps bones tough and flexible | Thigh bone = About a quarter of your height | Donald Unger = Cracked knuckles for over 60 years without arthritis | Enamel = The hardest material in your body, can’t repair itself
+
+--- 🍼
+p: You were born with about 300 bones. By the time you are grown you have 206. Some of your bones fused together as you grew.
+fact: A baby's skull is made up of several separate plates with gaps between them. This lets the head flex during birth and keep growing after.
+check: How many bones does an adult have?
+- 300
++ 206
+- 150
+hint: Look at the second sentence on the page. It gives the number you have now.
+explain: The number dropped from about 300 at birth to 206 as some bones fused together.
+
+--- 🦴
+p: Bone is light, yet it holds up your whole body and takes hard knocks without breaking.
+fact: Bone manages that by being two things at once. Hard mineral makes it stiff. Stretchy collagen fibers make it tough. Pure mineral would shatter. Pure collagen would simply bend.
+term: collagen = The stretchy fibers in your bones that keep them from breaking easily.
+check: What makes bone tough instead of brittle?
++ Stretchy collagen fibers
+- Layers of dried marrow
+- Thin, smooth muscle fibers
+hint: Look at the fact box. It explains how hard mineral and stretchy collagen work together.
+explain: Stretchy collagen fibers make bone tough instead of brittle.
+
+--- 👂
+p: Your smallest bone is inside your ear.
+fact: It is called the stapes, or stirrup, because that is exactly what it looks like. Three tiny bones in a chain amplify the wobble of your eardrum and pass it inward.
+check: Where is your smallest bone?
+- In your foot
+- In your hand
++ Inside your ear
+hint: Look at the first sentence. It tells you where your smallest bone is.
+explain: Your smallest bone, the stapes or stirrup, is inside your ear.
+
+--- 🖐️
+p: Over half the bones in your body are tucked into your hands and feet.
+fact: Each hand has twenty-seven bones, and each foot has twenty-six bones. All those small bones let your hand wrap around a ball and your foot roll through a step.
+check: How many bones are in each hand?
++ Twenty-seven
+- Twenty
+- Thirty
+hint: Look at the fact box. It gives the exact number of bones in each hand.
+explain: Each hand has twenty-seven bones, making it easy for you to grip and move with precision.
+
+--- 🦒
+p: A giraffe's neck may look very different from yours, but it is built with the same number of bones.
+fact: A giraffe has exactly seven neck bones, just like you do. Almost every mammal, from a mouse to a whale, has seven neck bones too.
+check: How many neck bones does a giraffe have?
+- Five
++ Seven
+- Ten
+hint: Look at the fact box. It tells you that a giraffe has the same number of neck bones as you do.
+explain: Both a giraffe and you have exactly seven neck bones, even though the giraffe's are much longer.
+
+--- 🫳
+p: There's one bone in your body that doesn't touch any other bone.
+fact: It’s called the hyoid, a small horseshoe-shaped bone in your throat, hanging from muscles and ligaments, with no joint to any other bone, and anchoring your tongue.
+try: Rest a finger above your voice box and swallow. You'll feel it jump up and down under your finger.
+check: Which bone touches no other bone?
+- The jawbone in your face
+- The kneecap in your leg
++ The hyoid in your throat
+hint: Look at the fact box. It tells you about the small horseshoe-shaped bone in your throat.
+explain: The hyoid is the bone that hangs in place without touching any other bone.
+
+--- 💪
+p: Your jaw muscle is one of the strongest muscles in your body for its size.
+try: Put your fingers on your temples and bite down gently. Feel that bulge? That is your temporalis muscle — it runs up the side of your skull and pulls your jaw shut, so it bulges when you chew.
+fact: Your jaw muscles can press your back teeth together with a force of well over 100 pounds.
+
+--- 🦵
+p: Your thigh bone is the longest bone in your body, and it is close to a quarter of your height.
+fact: Take your height, divide by four, and you have roughly the length of your thigh bone.
+p: Your arm is joined to the rest of your skeleton by just one bone. Trace the ridge from the notch at the base of your throat out to the point of your shoulder: that collarbone is the only bony link.
+check: How long is your thigh bone compared with your height?
+- About half of it
++ About a quarter of it
+- About three-quarters of it
+hint: Look at the fact box. It tells you to divide your height by four.
+explain: Your thigh bone is about a quarter of your total height.
+
+--- 🦷
+p: Teeth are not bones. Enamel, the hard outer layer of your teeth, is actually the hardest material your body makes.
+fact: Unlike bone, enamel cannot repair itself, which is why brushing your teeth is so important.
+p: Cracking your knuckles does not give you arthritis. Donald Unger cracked the knuckles of his left hand at least twice a day for over 60 years and never did it with his right hand. After all that time, neither hand had arthritis.
+check: Does cracking your knuckles give you arthritis?
+- Yes, it wears down the joints
+- It only happens if you do it too much
++ No, Donald Unger found no difference
+hint: Look at the last two sentences of the paragraph. They tell what Donald Unger did and what he found.
+explain: Donald Unger cracked his left hand knuckles for over 60 years and saw no difference compared to his right hand.
+
+--- 🌀
+p: Your backbone is not a straight column.
+fact: It curves in at the neck, out at the chest, and in again at the waist. This S-shape turns every footfall into a spring, instead of sending jarring shocks up to your skull.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
+=== body-brain
+idea: Your brain fills in gaps so well you never see your blind spot. It also runs on about 20 watts and floats in fluid that makes it almost weightless.
+game: Blind spot = Where your brain hides the gap | Suzana Herculano-Houzel = Dissolved brains into soup | 86 billion = Neurons in a human brain | Pins and needles = A squashed nerve sends confused messages | Hypnic jerk = The jolt you feel when falling asleep | London taxi drivers = Need to know 25,000 streets
+
+--- 👁️
+p: Close one eye and there is a hole in what you see. Each eye has a spot where the nerve leaves it and nothing is sensed. Your brain paints over that gap, so smoothly that you never notice.
+try: Draw a cross, and a dot 6 inches (15 cm) to the left of it. Hold the paper at arm's length, close your right eye, and stare at the cross with your left. Slowly move the paper toward your face. The dot will vanish — that is your blind spot, where the nerve leaves the eye. 
+check: What does your brain do with the gap where the nerve leaves the eye?
+- It sends a bright flash to warn you of the gap
+- It leaves a small black spot in your sight all day
++ It paints over it so smoothly you never notice
+hint: Look at the box that tells you what to do. It explains what happens when you move the paper.
+explain: The dot vanishes because your brain fills in the gap so smoothly that you do not notice it.
+
+--- ⚡
+p: Signals race along your nerves at up to about 270 mph (430 km/h) — faster than a Formula 1 car.
+
+fact: Not all nerves are quick. The fibers that carry a sharp, sudden pain are fast. The ones carrying dull ache crawl along at about walking pace. That is why you snatch your hand back from something hot before it properly hurts.
+check: Why do you snatch your hand from something hot before it hurts?
+- Because your eyes see the danger before your skin can feel it
++ Because the fibers carrying sharp pain are fast
+- Because your muscles feel the heat before your skin does
+hint: Look at the fact box. It explains the speed of different nerve fibers.
+explain: The fast fibers for sharp pain make you react quickly, while the slow ones for dull ache take longer to send their signal.
+
+--- 🤯
+p: Your brain is about the size of two clenched fists held together.
+fact: About 60 percent of its dry weight is fat, which makes it your fattiest organ. That fat forms the insulating sheath around your nerve fibers and the membranes of your brain cells.
+fact: Your brain weighs about 2% of your total body weight but burns about 20% of your energy — that’s roughly 20 watts, about half of a 40-watt light bulb.
+check: About how much of your energy does the brain burn?
+- About 5 percent
++ About 20 percent
+- About 50 percent
+hint: Look at the last fact box. It gives the exact percentage.
+explain: The brain burns about 20% of your energy, even though it makes up only 2% of your weight.
+
+--- 🧮
+p: For a long time, nobody had actually counted the cells in a human brain.
+fact: Suzana Herculano-Houzel dissolved brains into a smooth soup and counted the nuclei floating in it. Each cell has one nucleus, so counting nuclei counts cells. The answer came out near 86 billion neurons, not the 100 billion that textbooks used to say.
+p: The idea that you use only 10% of your brain is simply wrong. Scans show activity all over it, and there is no spare, unused portion sitting idle.
+check: How were the brain's cells counted?
++ The brain was dissolved into soup and the nuclei were counted
+- A robot counted each cell one by one under a microscope
+- Its total weight was divided by the weight of one cell
+hint: Look at the fact box. It explains how the counting was done.
+explain: Suzana Herculano-Houzel dissolved brains into a smooth soup and counted the nuclei floating in it to get the number of neurons.
+
+--- 🍦
+p: Brain freeze is not your brain getting cold — your brain never cools that fast.
+fact(Worked out, not seen directly): When something very cold hits the roof of your mouth, a blood vessel there narrows and then widens again quickly. Nearby nerves report this change.
+p: Your brain misreads where that signal came from, so you feel it in your forehead instead of the roof of your mouth.
+check: Where does brain freeze really start?
+- In the muscles that move your jaw
+- In the nerves of your tongue and front teeth
++ In a blood vessel in the roof of your mouth
+hint: Look at the second sentence. It explains where the signal starts.
+explain: The signal starts in a blood vessel in the roof of your mouth, and your brain misreads its location.
+
+--- 🦶
+p: Sit down, lift your right foot off the floor and circle it clockwise.
+try: Keep circling your foot, and now draw a big number 6 in the air with your right hand. The foot will flip direction.
+fact: Both jobs are run from the same side of your brain, and the hand wins.
+check: Which one wins, the foot or the hand?
++ The hand
+- The foot
+- They both stop
+hint: Look at the fact box. It says which one wins.
+explain: The hand wins because both jobs are run from the same side of your brain.
+
+--- 🧷
+p: Have you ever felt a fizzing sensation in your arm or leg after sitting in an awkward position? That's what we call pins and needles.
+fact: Pins and needles happen when you squash a nerve, not because your foot "falls asleep". When the pressure lifts, the nerve fires off a burst of confused messages that feel like fizzing.
+p: Another strange feeling is the jolt you sometimes get just as you are falling asleep. It's called a hypnic jerk.
+check: What causes pins and needles?
+- Your foot falling asleep
++ A squashed nerve
+- A sudden muscle spasm
+hint: Look at the fact box. It explains what causes pins and needles.
+explain: When you squash a nerve, it sends confused messages that feel like fizzing.
+
+--- 🎈
+p: Stand in a doorway and push the backs of both hands outward against the frame for 45 seconds, as if you were trying to widen the doorway.
+fact: Step forward and relax, and your arms will drift up on their own. The muscles are still firing even after your brain stopped asking them to.
+
+
+--- 🚖
+p: London taxi drivers need to know 25,000 streets before they can get their license.
+term: hippocampus = A part deep in the brain that helps you remember places and events.
+fact: Scans show the back of their hippocampus — the brain's map room — is measurably larger than other drivers', and it grows while they learn.
+check: What grows larger in a taxi driver's brain?
++ The back of the hippocampus, the brain's map room
+- The cerebellum, the part that keeps you balanced
+- The visual cortex, the brain's picture screen
+hint: Look at the fact box. It tells you which part of the hippocampus grows.
+explain: The back of the hippocampus grows larger as they learn the streets.
+
+--- 🌊
+p: Your brain weighs about 3 pounds (1.4 kg), yet it feels like almost nothing inside your head.
+fact: Your brain sits in clear fluid that is almost exactly as dense as brain tissue itself. This makes its effective weight drop from about 3 lb (1.4 kg) to roughly 2 oz (50 g). It is like the difference between resting on bone and hanging weightlessly.
+
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
+=== body-cells
+idea: You are made up of trillions of cells, mostly red blood cells. Find out how long the DNA inside each cell is and why some cells never get replaced.
+game: 36 trillion = The estimated number of cells in an adult man | 6 feet = The length of DNA coiled up in one cell | mitochondria = Turn food and oxygen into energy | 78 percent = A baby's water content at birth | lens = Has cells that form before birth and are never replaced | gut lining = Swaps its whole surface every four or five days
+
+--- 🧮
+p: Nobody has ever counted all the cells in a human body. But scientists worked out an estimate.
+fact(How we know): The best estimate measures the size and packing of about 1,200 kinds of cell across 60 tissues and adds it up. Roughly 36 trillion cells in an adult man, 28 trillion in an adult woman, and about 17 trillion in a ten-year-old.
+p: Most of those cells are red blood cells, which are tiny.
+check: How was the number of cells found?
++ By measuring the size and packing of the kinds of cell in each tissue and adding it all up
+- By putting a whole person in a giant scanner that counts every cell one at a time
+- By reading the number of cells written in a person's DNA
+hint: Look at the fact box. It explains how the estimate was made.
+explain: The estimate measures the size and packing of about 1,200 kinds of cell across 60 tissues, then adds it all up.
+
+--- 🧵
+p: Inside almost every one of your cells is something very long. If you stretched it out, it would be about 6 feet (2 m) long.
+fact: This DNA is spelled out in an alphabet of four letters and is about six billion letters long, three billion from each parent. All of it is folded into a nucleus that is far too small to see with the naked eye.
+check: About how long is the DNA in one cell?
+- About 1 foot
++ About 6 feet
+- About 60 yards
+hint: The length is given right at the start of the page.
+explain: It's about 6 feet of DNA, all coiled up inside each cell.
+
+--- 📏
+p: Your longest cell runs from the base of your spine all the way down to your big toe. That's over 3 feet of one single cell.
+fact: At the other end of the scale, you could line about ten red blood cells side by side across the width of one hair from your head.
+check: How long is your longest cell?
+- About 1 foot
++ Over 3 feet
+- About 1 inch
+hint: The length is given right at the start of the page.
+explain: It runs over 3 feet from the base of your spine to your big toe.
+
+--- ♻️
+p: Every day, you throw away and rebuild around 330 billion cells. 
+fact: The lining of your gut is the quickest to swap out, changing its whole surface every four or five days.
+p: Red blood cells stick around for about four months before they need replacing.
+check: Which swaps faster, the gut lining or red blood cells?
+- Red blood cells
+- Both at the same rate
++ The gut lining
+hint: Look at the fact box. It gives how often the gut lining changes.
+explain: The gut lining swaps its whole surface every four or five days, much faster than red blood cells which last about four months.
+
+--- 💧
+p: You are made up of about 60 percent water. Your brain and heart are 73 percent water, your lungs are 83 percent, your skin is 64 percent, and even your bones are 31 percent water.
+fact: Babies are the wettest of all, coming in at roughly 78 percent water at birth. By their first birthday, they dry out to about 65 percent.
+p: Small children use up and replace a bigger share of their body water each day than adults do, so they need to drink often.
+
+--- 👁️
+p: Some of your cells go their whole lives without being replaced.
+fact: The cells in the middle of each eye's lens formed before you were born and are never swapped out. They have to stay perfectly see-through for a whole lifetime.
+check: Why are the cells in the middle of your eye's lens never swapped out?
++ They have to stay perfectly see-through for a whole lifetime
+- They are made too tough for anything in the body to break them down
+- They are kept safe by the bone around the eye and never get hurt
+hint: Look at the fact box. It explains why these cells must remain unchanged.
+explain: These cells need to stay clear so you can see clearly.
+
+--- 🔋
+p: Inside most of your cells are hundreds of tiny power plants. They are called mitochondria.
+term: mitochondria = The little power plants inside your cells that turn food and oxygen into energy.
+fact: A heart muscle cell crams in thousands of them, filling about a third of the cell. They never get a night off.
+check: What do mitochondria do?
+- Store extra water and salt that the cell can use
+- Send out messages and warnings that other cells can read
++ Turn food and oxygen into energy the cell can use
+hint: Look at the term box. It tells you what mitochondria do.
+explain: Mitochondria turn food and oxygen into energy that the cell can use.
+
+--- 😤
+p: Hold your breath for a moment. You will soon feel a desperate need to gasp.
+fact: That urge is mostly from carbon dioxide piling up in your blood, not from running out of oxygen.
+try: Breathe in and hold it, counting how long you can last. Then breathe all the way out and hold that, counting again. The empty one is far shorter because with no air in your lungs to hold it, the carbon dioxide builds up much faster.
+check: Why do you feel the need to gasp when you hold your breath?
++ Waste gas is piling up
+- You are running out of oxygen
+- Your lungs are getting tired
+hint: Look at the first sentence of the fact box. It tells you why you need to gasp.
+explain: The urge to gasp comes from waste gas building up in your lungs.
+
+--- 📖
+p: Almost every cell in your body holds a full instruction book.
+fact(How it works): Each cell reads only its own chapter. A skin cell has the directions for building a heart but never opens them. Tiny machines inside the cell copy the code and check its spelling.
+
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
+=== body-defence
+idea: Your body deliberately turns up the heat when you have a fever. Find out why your immune system raises your temperature and how it fights off germs.
+game: Fever = Body's way to slow down germs | Phagocytosis = White blood cells swallowing invaders | Pus = Dead white blood cells mixed with germs | Scab = Platelets forming a hard plug | Lysozyme = Germ-killer in your snot | Lymph nodes = Small firm beads under your jaw
+
+--- 🌡️
+p: When you have a fever, your body does it on purpose.
+fact: A fever is not the illness itself. It is your body deliberately turning up the heat.
+p: Many germs breed best at your normal temperature, and your immune cells work faster when it gets warmer.
+check: Why does your body turn up the heat?
+- Heat dries out the germs completely and your blood cells need warmth to carry oxygen
++ Many germs breed best at normal temperature and immune cells work faster when warm
+- Extra warmth helps your muscles heal faster and lets you sweat the germs out
+hint: Look at the last sentence. It explains why your body raises the temperature.
+explain: Your body raises the temperature to slow down germ breeding and speed up immune cell activity.
+
+--- 🛡️
+p: White blood cells are like tiny hunters in your body.
+term: phagocytosis = The process where a cell flows around an invader, engulfs it, and breaks it apart inside. It literally means "cell eating."
+fact: Some white blood cells chase bacteria down and swallow them whole by flowing around them. This is called phagocytosis.
+check: What does phagocytosis mean?
+- Cell splitting
+- Cell copying
++ Cell eating
+hint: Look at the term definition. It explains what phagocytosis means.
+explain: Phagocytosis literally means "cell eating." The cell flows around an invader, engulfs it, and breaks it apart inside.
+
+--- 💧
+p: Pus is mostly made of white blood cells that died doing their job, mixed with the germs they killed and the bits of tissue damaged in the fight.
+fact: Green snot does not mean you need antibiotics. The color comes from an enzyme inside your own white blood cells.
+check: Where does the green color of snot come from?
++ An enzyme in your own white blood cells
+- Germs that must be killed with antibiotics
+- Green dye left over from the food you eat
+hint: Look at the fact box. Its last sentence tells you where the green color comes from.
+explain: The green color is from an enzyme inside your white blood cells, not from bacteria that need antibiotics.
+
+--- 🩹
+p: A scab is like a temporary lid that your body builds to close up a cut.
+fact: Tiny cells called platelets clump at the tear and help lay down a mesh of fibers. Blood cells get caught in it, and the whole plug dries hard while new skin builds underneath.
+check: What builds a scab?
++ Platelets clumping and laying down a mesh of fibers
+- White blood cells swarming in and drying out the wound
+- Sweat drying and hardening over the cut like a crust
+hint: Look at the fact box. It tells you what platelets do.
+explain: Platelets clump at the tear, lay down fibers, and catch blood cells to form a hard plug.
+
+--- 🤧
+p: You cannot keep your eyes open when you sneeze.
+fact: The eye-closing is a reflex bundled with the sneeze. Nobody has found a good reason for it — your eyes would not pop out, despite the playground legend.
+p: Your immune system fights germs, but sometimes it mistakes harmless things like pollen or peanuts for threats.
+check: What is an allergy?
+- A germ that lives in the air and makes people sneeze
++ The immune system attacking something harmless by mistake
+- A sickness you catch from touching a sick animal's fur
+hint: Look at the last paragraph. It explains what an allergy is.
+explain: An allergy happens when your immune system mistakes something harmless like pollen or peanuts for a threat and overreacts.
+
+--- 🤢
+p: Throwing up is a defense. It is your body's way of getting poison out.
+fact: A small patch at the base of your brain samples your blood for poisons. If it finds one, it empties your stomach without asking you first.
+check: What samples your blood for poisons?
+- A thin valve at the bottom of your stomach
+- A pair of small glands above your kidneys
++ A small patch at the base of your brain
+hint: Look at the fact box. It explains where the sample happens.
+explain: The small patch at the base of your brain checks your blood for poisons and makes you sick if it finds one.
+
+--- 🫳
+p: You can feel your immune system's inspection points right under your jaw.
+fact: Press gently under your jaw, just behind the corner, and roll your fingers around. Small firm beads move under the skin: lymph nodes. Fluid from your head passes through them to be checked, and they swell when you are fighting something off.
+
+check: What are the small firm beads under your jaw?
++ Lymph nodes
+- Hair roots
+- Muscles
+hint: Look at the fact box. It explains what lymph nodes are.
+explain: The small firm beads you feel are lymph nodes, which check fluid from your head and swell when you are fighting off something.
+
+--- 👃
+p: Alexander Fleming had a cold one day, and he sneezed into a dish of bacteria.
+fact: Where the drop from his nose sat, the bacteria dissolved. He had stumbled on a germ-killer that your tears, spit, and snot make all the time. He named it lysozyme in 1922.
+check: What killed the bacteria Fleming saw?
+- Mold blown in from outside
++ Lysozyme from his own nose
+- Strong soap from his own sink
+hint: Look at the fact box. It names the germ-killer.
+explain: Lysozyme, a germ-killer in your tears, spit, and snot, is what dissolved the bacteria.
+
+--- 💉
+p: Milkmaids who had caught cowpox seemed never to catch smallpox.
+fact: In 1796, Edward Jenner scratched cowpox fluid into the arm of an eight-year-old named James Phipps. Later, he exposed Phipps to smallpox, and Phipps did not get ill. The word vaccine comes from vacca, the Latin for cow.
+check: Where does the word vaccine come from?
+- The name of the doctor who invented it
+- The name of the first patient
++ Vacca, the Latin for cow
+hint: Look at the last sentence on the page. It tells you where the word comes from.
+explain: The word vaccine comes from vacca, which is Latin for cow.
+
+--- 🚪
+try: Open wide in front of a mirror and look at the two lumps at the back on either side.
+fact: Air and food both enter through the same doorway, and a ring of immune tissue is stationed exactly there as guard posts. Your tonsils are part of it, constantly sampling what you breathe and swallow.
+
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
+=== body-growing
+idea: The tallest person ever was over 8 feet tall. Learn why your height changes throughout the day and how bones grow.
+game: Robert Wadlow = Tallest person ever measured | Growth hormone = Helps bones grow longer | Cartilage = The flexible material that turns into bone | Arm span = Usually within an inch of your height | Nine to twelve hours = Sleep needed for a nine-year-old | Kneecaps = Start as cartilage and harden over years
+
+--- 🌙
+fact: You grow fastest while you are asleep. Most of your growth hormone is released during deep sleep.
+fact: You are also measurably taller in the morning than at bedtime. The discs in your spine decompress overnight.
+try: Measure your height first thing in the morning, then again just before bed. Most people lose up to about half an inch (1 cm) over the day as the cushions between the bones of the spine squash down.
+check: When are you tallest?
+- At the end of a long day
++ First thing in the morning
+- Right after you eat dinner
+hint: Look at the second fact box. It says when you are measurably taller.
+explain: The discs in your spine decompress overnight, making you taller in the morning.
+
+--- 🦵
+p: Babies are born without kneecaps, at least not the bony kind.
+fact: At birth, their kneecaps start as cartilage — the same bendy stuff as the tip of your nose — and harden into bone over several years.
+term: cartilage = The bendy, flexible material that makes up parts of your body like the tip of your nose.
+check: What are a baby's kneecaps made of at first?
+- Bone
+- Skin
++ Cartilage
+hint: Look at the fact box. It says they start as cartilage.
+explain: At birth, a baby’s kneecaps are made of cartilage and harden into bone over several years.
+
+--- 🦷
+p: Take an x-ray of a six-year-old's jaw and you see two sets of teeth, one in place and one still forming.
+fact: The baby ones are in place, and the adult ones are stacked behind and below, waiting their turn.
+p: A baby tooth does not get pushed out with its roots intact. The roots dissolve away first, which is why a wobbly tooth comes out as a small hollow cap.
+check: What happens to a baby tooth's roots?
++ They dissolve away first
+- They get pushed out whole
+- They grow longer and stronger
+hint: Look at the second sentence in the last paragraph. It explains how the roots dissolve away.
+explain: The roots of a baby tooth dissolve away first, which is why a wobbly tooth comes out as a small hollow cap.
+
+--- 👟
+p: During a growth spurt, the ends grow first. Hands and feet reach their full adult size before the arms and legs.
+fact: That's why shoes stop fitting before pants do.
+check: Which parts of your body finish growing first during a growth spurt?
++ Hands and feet
+- Arms and legs
+- Chest and back
+hint: Look at the first paragraph. It says which parts reach full size first.
+explain: Hands and feet reach their full size before the arms and legs do, so shoes stop fitting first.
+
+--- 🧠
+p: A newborn's head is about a quarter of its whole length.
+fact: Yours is nearer an eighth. The head changes least because the brain does most of its growing earliest, and the rest of the body spends years catching up.
+check: How much of a newborn's length is its head?
+- About an eighth
+- Half
++ About a quarter
+hint: Look at the first sentence on this page.
+explain: A newborn's head is about a quarter of its whole length.
+
+--- 😢
+p: A newborn can cry hard without any tears.
+fact: At first, the glands make just enough to keep the eyes wet. The flood that runs down cheeks usually does not arrive for several weeks.
+
+--- 📏
+p: Your arm span comes out very close to your height.
+fact: For most people, the difference is within an inch (2-3 cm). Children usually measure a shade narrower than they are tall.
+try: Stand against a wall with your arms straight out to the sides and have someone mark where your fingertips reach. Measure between those marks and then measure your height.
+check: How does your arm span compare with your height?
+- It is usually much longer than your height
++ It is within an inch or so of each other
+- It is usually much shorter than your height
+hint: Look at the first sentence of the fact box. It tells you how close they are.
+explain: Most people's arm span and height are very close, usually within an inch.
+
+--- 😴
+p: How much sleep you need changes as you grow.
+fact(Worked out): Nine to twelve hours of sleep is right for a nine-year-old. It was worked out by testing how children think and feel with more or less sleep.
+p: As you become a teenager, your body clock shifts later. The urge to stay up late isn't laziness. Your body just wants to sleep at a different time.
+check: How much sleep does a nine-year-old need?
+- Six to eight hours
++ Nine to twelve hours
+- Fourteen to sixteen hours
+hint: Look at the fact box. It gives the exact range for nine-year-olds.
+explain: Nine to twelve hours is just right for a nine-year-old to think and feel their best.
+
+--- 📐
+p: The tallest person ever measured was Robert Wadlow.
+fact: He reached 8 feet 11.1 inches (2.72 m) by June 1940. His growing never switched off because a gland under his brain kept releasing growth hormone.
+
+--- 🌱
+p: Your long bones grow in a special way.
+fact: Each long bone has a thin plate of soft cartilage near its end. New bone is added there, so the shaft gets longer without being rebuilt. When you finish growing, the plate seals over.
+
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
+=== body-gut
+idea: Your stomach acid is strong enough to damage metal. Learn why it doesn't digest your stomach in the process.
+game: Alexis St Martin = Got shot and had an open stomach wound | corn = Helps you time your own digestion | small intestine = Narrow, not short | liver = Grows back to full size | appendix = Hides and protects good bacteria | William Beaumont = Lowered food on a string into the wound
+
+--- 🍪
+p: Chew a plain cracker slowly and hold it in your mouth for a whole minute without swallowing. It turns sweet because an enzyme in your saliva, a chemical that breaks food apart, cuts the starch into sugar.
+
+check: Why does the cracker turn sweet?
+- The cracker is flavored with sugar to begin with
++ An enzyme in your saliva cuts the starch into sugar
+- Your teeth grind out the sweetness
+hint: Look at the second sentence. It tells you what the enzyme in your saliva does.
+explain: The enzyme in your saliva starts cutting the starch into sugar right away, which makes the cracker taste sweet after a minute.
+
+--- 🎢
+p: Swallowing is not just gravity pulling food down.
+fact: Muscles squeeze food along in a wave, so you could swallow upside down. This wave runs the whole length of your gut.
+term: peristalsis = The wave of squeezing muscles that moves food through your gut.
+check: What moves food down your gut?
++ A wave of squeezing muscles
+- Gravity alone
+- The teeth grinding it down
+hint: Look at the term definition. It names what moves the food.
+explain: Muscles squeeze food along in a wave, and this wave is called peristalsis.
+
+--- 🔥
+p: Your stomach acid is strong enough to damage metal. But it does not digest you.
+fact: Your stomach relines itself with a layer of mucus and fresh cells, replacing the lining continuously.
+check: Why does your stomach not digest itself?
+- Its acid is too weak to hurt a living stomach wall
+- The food inside always coats and protects the lining
++ A layer of mucus and constant new lining cells
+hint: Look at the fact box. It says what keeps the acid from digesting the stomach wall.
+explain: A layer of mucus and a fresh supply of cells replace the lining continuously, protecting the stomach from its own acid.
+
+--- 🧪
+p: In 1822, Alexis St Martin got shot in the side and the wound left a hole into his stomach that never closed.
+fact: His doctor, William Beaumont, lowered food on a string into the hole more than 200 times to see how much of it had been digested. These experiments showed that the stomach works mostly by chemistry, with juices breaking the food down.
+check: What did these experiments show?
+- That the stomach grinds up food
+- That the stomach never needs to rest
++ That the stomach works by chemistry
+hint: Look at the fact box. It names what the experiments proved about how the stomach works.
+explain: The experiments showed that the stomach works by chemistry, not grinding.
+
+--- 🌽
+p: You can time your own digestion with corn.
+fact: Eat a good helping of corn and write down the time. The yellow skins are made of a fiber you cannot break down, so they come out looking exactly the same. For most people, they show up around a day to a day and a half later.
+
+check: About how long does corn take to pass through?
+- Only an hour to two hours
++ A day to a day and a half
+- A week to a week and a half
+hint: Look at the fact box. It gives the time range.
+explain: Most people see the sweetcorn skins around a day to a day and a half later.
+
+--- 📏
+p: Your small intestine is not actually small. Stretched out, it is about 20 feet (6 m) long.
+fact: It is called "small" because it is narrow, not short. Its inner surface is folded and fringed into millions of tiny projections.
+check: Why is it called the small intestine?
++ It is narrow
+- It is short
+- It is the smallest organ in your belly
+hint: Look at the fact box. It explains why it's called small.
+explain: The term "small" refers to its width, not its length.
+
+--- 🔊
+p: Your stomach does not rumble because it wants food.
+fact: About every 90 minutes, when there is nothing to digest, a slow wave sweeps down your gut clearing out leftovers. The noise you hear is gas and liquid being shoved along ahead of it.
+check: Why does your stomach rumble when empty?
+- Your stomach is calling for more food
++ A slow wave is clearing out leftovers
+- It is shrinking to squeeze out extra water
+hint: Look at the fact box. It describes what happens every 90 minutes.
+explain: The rumbling sound is from a slow wave pushing gas and liquid through your gut.
+
+--- 🧠
+p: Your gut has its own nerve network, made of about 500 million cells.
+fact: Cut the gut off from the brain, and it carries on digesting just fine. It has enough nerves to work on its own.
+p: Inside your gut are trillions of bacteria that help break down food your body can't handle and make vitamins for you.
+check: About how many cells are in the gut's nerve network?
+- About 50 million
++ About 500 million
+- About 5 billion
+hint: Look at the first sentence on the page. It gives the number of cells.
+explain: The gut's nerve network has about 500 million cells.
+
+--- 🫀
+p: Your liver does hundreds of jobs, from cleaning your blood to making bile, which helps you digest fat.
+fact: The liver is the one large organ inside you that grows back. Remove two thirds of it and the remaining part will grow back to full size.
+check: Which large organ grows back to full size after being partly removed?
+- The heart
+- The lungs
++ The liver
+hint: Look at the fact box. It names the organ that regrows.
+explain: The liver is unique in that it can grow back to its full size even after two thirds of it are removed.
+
+--- 🌿
+p: The appendix is often called a spare part, but it may have a real job.
+fact(Worked out, not seen directly): The appendix is a narrow dead-end pocket off the main gut tube. Researchers think that when illness flushes out the gut, useful bacteria hiding in that pocket are not swept away and can restock the gut after recovery.
+
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
+=== body-hands
+idea: Your ring finger is tied to your middle finger's tendon. Find out how much your little finger adds to your grip strength.
+game: Precision grip = Pinch something between thumb and fingertips | Power grip = Fingers wrap around like using a hammer | Wilder Penfield = Mapped the brain’s body map | Fingerprints = Form between tenth and sixteenth week in womb | Little fingernail = The slowest growing nail | Ring finger = Tied to middle finger's tendon
+
+--- 🤏
+p: There are no muscles inside your fingers.
+fact: Every bend and straighten is worked from a distance, by muscles in your palm and forearm hauling on cords called tendons that run down inside each finger.
+try: Wrap your left hand around your right forearm just below the elbow and wiggle your right fingers. You can feel the muscles doing the job several inches away from the fingers that are actually moving.
+check: Where are the muscles that move your fingers?
++ In your palm and forearm
+- Inside each of your fingers
+- In your shoulder and chest
+hint: Look at what you can feel when you wrap your hand around your forearm and wiggle your fingers.
+explain: The muscles in your palm and forearm do all the work.
+
+--- 🔒
+p: One of your fingers cannot move on its own, and it is not the one you would guess.
+fact: Put your palm flat on a table and fold your middle finger under, knuckle down on the wood. Now lift each finger in turn. The thumb, index, and little finger all come up easily. But the ring finger will not budge because its tendon is tied to the middle finger's.
+
+check: Which finger will not lift when your middle finger is folded down?
+- The thumb
+- The index finger
++ The ring finger
+hint: Look at what happens when you try to lift each finger after folding the middle finger down.
+explain: The ring finger's tendon is tied to the middle finger's, so it will not budge.
+
+--- 🖐️
+p: Your little finger is not just for looks. It actually adds a lot to your grip strength.
+fact: Measured on a grip meter, leaving out the little finger costs about a third of your grip strength. 
+check: What does leaving out your little finger cost?
+- About a tenth of your grip strength
++ About a third of your grip strength
+- About two-thirds of your grip strength
+hint: Look at the first sentence in the fact box.
+explain: Your little finger adds quite a bit to your grip strength. Leaving it out costs about a third.
+
+--- 👆
+p: Your fingerprints were finished before you were born. 
+fact: They buckle into place between about the tenth and sixteenth week in the womb. Once they form, those ridges never change. Even identical twins, with the same DNA, have different prints.
+try: Scribble a thick patch of pencil on paper, rub your fingertip in it, press clear tape onto the finger, and stick the tape down on white paper. You have just lifted your own print.
+check: When do fingerprint ridges form?
++ In the womb, between about the tenth and sixteenth week
+- Right after birth, during your first few days of life
+- Slowly over the first few years of your childhood
+hint: Look at the first sentence in the fact box.
+explain: Your fingerprints form in the womb, between about the tenth and sixteenth week.
+
+--- 💧
+p: Put your fingers in warm water for a while, and they get all wrinkly.
+fact: A finger whose nerve has been cut will not wrinkle in water. Doctors use that as a test: warm water for half an hour, and any fingertip that stays smooth has a nerve problem.
+p: Photograph a wrinkled finger, dry it off, and soak it again a day later. The loops and ridges land in the same places each time.
+check: What does a finger that stays smooth in water tell a doctor?
+- There is a bone problem
++ There is a nerve problem
+- There is a skin problem
+hint: Look at the second sentence in the fact box.
+explain: A finger that stays smooth in warm water for half an hour suggests there is a nerve problem.
+
+--- 🗺️
+p: Your brain has a map of your body, but it is wildly out of scale.
+fact: The hands take up more room on that map than your whole trunk and both legs together. It is drawn by how much control a part needs, not by how big the part is.
+p: A surgeon named Wilder Penfield mapped it during operations with awake patients. He touched the surface of the brain with a fine wire and asked what they felt or watched which part of them twitched.
+check: What takes up more of the brain's body map, the hands or the trunk and legs together?
+- The trunk and legs together
+- The feet
+- The back and belly
++ The hands
+hint: Look at the first sentence in the fact box.
+explain: The hands take up more room on the brain's map because they need more control.
+
+--- 🔨
+p: Every way you hold something is one of two grips. A surgeon figured that out in 1956.
+term: precision grip = When you pinch something between your thumb and fingertips, like holding a pencil.
+fact: In a power grip, your fingers wrap around and your palm joins in, like using a hammer. In a precision grip, you pinch with your thumb and fingertips, like holding a pencil.
+check: Which grip do you use for a pencil?
+- A power grip
+- Both grips
++ A precision grip
+hint: Look at the term box. It explains what a precision grip is.
+explain: You use a precision grip to hold a pencil, pinching it between your thumb and fingertips.
+
+--- 💅
+p: Fingernails grow about 0.14 inches a month, roughly twice as fast as toenails, which grow about 0.06 inches a month.
+fact: Your little fingernail is the slowest of the ten.
+check: Which fingernail grows the slowest?
+- The ring finger's
++ The little finger's
+- The middle finger's
+hint: Look at the second sentence. It tells you which nail grows the slowest.
+explain: Your little fingernail is the slowest of the ten.
+
+--- 👍
+p: Your thumb can reach around and touch the tip of every other finger.
+fact: Because of that one trick, your hand can grip tools instead of just pushing things around. It lets you thread a needle, hold a pen, or fasten a button.
+
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
+=== body-heart
+idea: Your heart beats about 100,000 times a day and keeps going because it rests between every beat. It moves about 5 quarts of blood a minute and sets its own rhythm.
+game: Aorta = The pipe leaving the heart, about an inch across | Harvey = Used arithmetic to show blood circulates | Capillaries = Counted in small pieces to work out total length | Veins = Appear blue due to light travel | Red blood cells = Carry oxygen using iron | Lub-dub sound = Four valves snapping shut
+
+--- 🫰
+p: You can find your own heartbeat in about five seconds. Put two fingers — not your thumb, it has its own pulse — on the thumb side of your wrist.
+try: Count the beats for 15 seconds and multiply by four to get beats per minute.
+check: How do you turn a 15-second count into beats a minute?
+- Divide by four
+- Add thirty
++ Multiply by four
+hint: Look at the box that tells you what to do. It tells you what to do with the count.
+explain: Count the beats for 15 seconds and then multiply that number by four.
+
+--- 👊
+p: Your heart is about the size of your closed fist and grows as you do.
+term: aorta = The pipe leaving the heart, about an inch across.
+fact: The aorta, the pipe leaving the heart, is about 1 inch (2.5 cm) across, almost like a garden hose. 
+check: What is the aorta?
+- The valve inside the heart
++ The pipe leaving the heart, about an inch across
+- A vein that brings blood back to the heart
+hint: Look at the term box. It says what the aorta is.
+explain: The aorta is the pipe leaving the heart and it is about an inch across.
+
+--- 🥁
+p: Your heart beats about 100,000 times a day and has never once taken a day off.
+fact: It manages that because it rests between every single beat. Add all those tiny pauses together and the heart is actually "off duty" for more than half of every day.
+check: How can the heart keep going all day?
++ It rests between every single beat
+- It gets an hour-long break in the middle
+- Each beat is so gentle that it uses almost no energy
+hint: Look at the fact box. It explains how the heart takes tiny breaks.
+explain: The heart rests between each beat, adding up to a lot of rest time throughout the day.
+
+--- 🧭
+p: Your heart moves about 5 quarts of blood every single minute. That is all the blood in your body, over and over again.
+fact: In just one day, your heart pumps roughly 2,000 gallons of blood through you.
+check: About how much blood does the heart move in a minute?
++ About 5 quarts, all of it
+- About 2 quarts, just a part
+- About 12 gallons, all of it
+hint: Look at the first sentence. It gives the number of quarts.
+explain: Your heart moves about 5 quarts each minute, which is your entire blood supply.
+
+--- 🔄
+p: In 1628, William Harvey figured out that blood circulates through your body.
+fact: He used arithmetic to show it. He worked out how much blood one heartbeat pushes, multiplied it by the number of beats in half an hour, and got far more blood than a whole body holds.
+check: How did Harvey show that blood goes round in a loop?
+- By finding tiny capillaries with a strong microscope
+- By watching the blood move through a glass window in the skin
++ By arithmetic, which gave more blood than a body holds
+hint: Look at the fact box. It explains how he used numbers to figure it out.
+explain: Harvey's numbers showed there was too much blood for it to just be used up, so it had to go round in a loop.
+
+--- 🩸
+p: Your veins look blue under your skin, but that is just an illusion.
+fact: Blood that has given up its oxygen is dark red. Veins only appear blue because of how light travels through your skin and bounces back to your eye.
+p: Red blood cells carry oxygen using iron, which is why blood tastes faintly metallic.
+check: What color is blood that has given up its oxygen?
+- Bright red
++ Dark red
+- Blue
+hint: Look at the first sentence of the fact box. It tells you what color blood is without oxygen.
+explain: Blood that has given up its oxygen is dark red.
+
+--- 🧵
+p: Nobody has ever laid one person's blood vessels end to end, but we can work out how long they are.
+fact(How we know): Count the capillaries in a small piece of tissue and multiply up. You get tens of thousands of miles.
+p: Almost all of that length is capillaries — tiny vessels so narrow that red blood cells have to squeeze through in single file.
+check: How do we know how long the blood vessels are?
+- By pulling them out of a body and laying them in a line
+- By following one blood drop with a stopwatch and a fast camera
++ By counting capillaries in a small piece and multiplying up
+hint: Look at the How we know box. It tells you how scientists work it out.
+explain: Scientists count capillaries in a small piece of tissue and then multiply up to get the total length.
+
+--- ⏱️
+p: You can watch your blood refill part of your body in under two seconds.
+fact: Press hard on a fingernail for five seconds, then let go. The nail will turn white, then color floods back — normally in under two seconds.
+
+check: How fast should the color come back?
++ In under two seconds
+- In over five seconds
+- It should stay white
+hint: Look at the fact box. It gives the time the color should return.
+explain: The color should flood back in under two seconds. This is how paramedics check that blood is reaching someone's hands and feet.
+
+--- 🎛️
+p: Your heart does not wait for instructions. A patch of cells at the top sets the beat.
+fact: Even single heart cells taken out and kept in a dish keep beating on their own. That is why a donated heart starts up again in a new chest.
+check: What sets the heartbeat?
+- The brain sends a signal every time
++ A patch of cells in the heart itself
+- The lungs tell it when to beat
+hint: Look at the second sentence. It names what sets the beat.
+explain: A patch of cells in the heart itself sets the beat, and even single heart cells kept in a dish continue to beat on their own.
+
+--- 🚪
+p: The lub-dub sound in your heart is not from the squeeze of the heartbeat.
+fact: It is four valves snapping shut, one after another. Each valve opens one way only, so blood goes forward and can never wash back.
+
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
+=== body-heat
+idea: You shiver at the start of a fever because your body's thermostat has reset higher. Find out how much of your skin is actually your head and why sweating cools you down.
+game: German doctor = Readings came from one German doctor | vapor = The gas form of water | 7 percent = About how much of your skin is your head | Anna Bagenholm = Pulled from under river ice and survived | brown fat = Newborns burn this to make heat | goosebump muscle = Holds a nerve against the cells that grow new hair
+
+--- 🌡️
+p: Have you ever heard that your body temperature should be 98.6°F (37°C)? 
+fact(Where did it come from?): 98.6°F (37°C) came from one German doctor's readings in 1851. Today, the average is closer to 97.9°F (36.6°C), and your temperature can shift by about a degree over the course of a day.
+try: Take your temperature first thing in the morning and again around six in the evening. The evening reading is usually higher.
+check: Where did the number 98.6 come from?
+- A big study across many countries
+- An ancient Chinese text
++ One German doctor's readings in 1851
+hint: Look at the fact box. It tells you where it came from.
+explain: The number 98.6°F (37°C) came from one German doctor's readings in 1851.
+
+--- 💦
+fact: Sweat cools you only when it turns into vapor. On a muggy day the air is already full of water, so your sweat has a harder time turning into vapor and cooling you off.
+try: Wet the back of one hand and leave the other dry, then blow steadily across both. The wet one will feel noticeably colder as the water steals heat from your skin to turn into vapor.
+term: vapor = The gas form of water, like steam.
+check: When does sweat cool you?
++ As it turns into vapor
+- While it sits on your skin
+- Just before you start sweating
+hint: Look at the first sentence. It tells you when the cooling happens.
+explain: The cooling happens as sweat turns into vapor and leaves your skin.
+
+--- 🧢
+p: You may have heard that you lose 40 percent of your body heat through your head. That is not right.
+fact: The idea comes from a US Army manual in the 1950s, after tests where people wore arctic suits with only their heads bare. Your head is about 7% of your skin and loses roughly that share.
+check: About how much of your skin is your head?
+- Almost all of it
++ About 7 percent
+- Less than 1 percent
+hint: The fact box gives the percentage of your skin that is your head.
+explain: Your head is about 7% of your skin, so it loses roughly that share of body heat.
+
+--- 🥶
+p: When you shiver, your muscles are firing against each other on purpose.
+fact: Shivering makes heat instead of movement and can lift your heat production to about five times its resting level.
+check: What does shivering make?
+- Sweating
++ Heat instead of movement
+- Colder body temperature
+hint: Look at the fact box. It explains what shivering does.
+explain: Shivering makes heat by firing muscles against each other, not movement.
+
+--- 🤒
+p: At the start of a fever you can shiver even though your temperature is going up.
+fact(Worked out, not seen directly): The best explanation is that your thermostat has been reset upward, so your ordinary temperature now reads as far too cold. You feel frozen while your body is deliberately running hot.
+check: Why do you shiver at the start of a fever?
+- Your body has stopped making heat and is cooling off too quickly
+- You have sweated out too much water and salt through your skin
++ Your thermostat has been reset upward so normal feels too cold
+hint: Look at the worked out fact box. It explains how your thermostat changes.
+explain: Your body's thermostat resets higher, so your normal temperature now feels too cold.
+
+--- 🪶
+p: Almost every hair on your body has a tiny muscle that yanks it upright, making a goosebump.
+fact: The same muscle fires for cold, fright, and even music. It also holds a nerve against the cells that grow new hair.
+check: What does the goosebump muscle also hold in place?
++ A nerve, against the cells that grow new hair
+- A tiny vein, against the fat under the skin
+- A sweat gland, against the bone beneath the skin
+hint: Look at the fact box. It gives the exact function of the muscle.
+explain: The muscle holds a nerve against the cells that grow new hair.
+
+--- 🧊
+p: The range of temperatures a person can survive is wider than you might think.
+fact: Anna Bagenholm was pulled from under river ice with her body temperature at 56.7°F (13.7°C) and no heartbeat, yet she lived. Willie Jones survived heatstroke when his body hit 115.7°F (46.5°C).
+check: Who was pulled from under river ice and survived?
+- Willie Jones
++ Anna Bagenholm
+- A person in the desert
+hint: Look at the first fact. It names who was found under the ice.
+explain: Anna Bagenholm's body temperature was very low, but she survived.
+
+--- 👶
+p: Newborns have a trick for staying warm. They do not shiver much, the way adults do.
+fact: Instead, they carry brown fat across their back and shoulders. This special fat is stuffed with power plants and burns purely to make heat.
+check: What do newborns burn to make heat?
+- White fat
+- Muscle
++ Brown fat
+hint: Look at the fact box. It mentions what kind of fat newborns have.
+explain: Newborns burn brown fat to keep warm. Most of this fat fades as a child grows.
+
+--- 🌞
+p: Your sweat glands and thermostat let you keep working through the middle of a hot day, while most animals have to find shade.
+fact(The written account says): Genesis puts people in a garden to work it and keep it.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
+=== body-lungs
+idea: Your lungs, spread out flat, would cover about a quarter of a tennis court. Learn why you take big sighs without even knowing it.
+game: Humming = Stops when your nose is pinched shut | sacs = Tiny air pockets where oxygen moves into your blood | cardiac notch = The spot where your heart sits in the left lung | sigh = A double-sized breath to pop open collapsed air sacs | dominant nostril = Takes about three quarters of the air | soapy film = Keeps the air sacs open on every breath
+
+--- 🤐
+p: Have you ever tried to hum with your nose pinched shut?
+try: Pinch your nose shut and try to hum. You will see that it stops the sound instantly.
+fact: Humming needs air moving out through your nose, so pinching it shut stops the sound right away. Also try humming while swallowing — that is also impossible.
+check: Why can you not hum with your nose pinched shut?
+- Your pinched nose squeezes your vocal cords shut
++ Humming needs air to move out through your nose
+- Your throat closes up whenever you pinch your nose
+hint: Look at the first sentence of the fact box. It tells you what humming needs.
+explain: When you pinch your nose, it stops the air from moving out through your nose, so you cannot hum.
+
+--- 🎾
+p: If you could unfold the inside of your lungs flat, they would cover about a quarter of a tennis court.
+term: sacs = Tiny air pockets where oxygen moves into your blood.
+fact: All that area is folded into your chest as hundreds of millions of tiny air sacs. The wall of each one is thinner than a sheet of tissue paper, so oxygen slips straight through into the blood.
+check: How thin is the wall of each air sac?
+- About as thick as a slice of bread
+- Thicker than a sheet of stiff cardboard
++ Thinner than a sheet of tissue paper
+hint: Look at the last sentence on the page. It gives the thickness.
+explain: The wall of each air sac is thinner than a sheet of tissue paper, which lets oxygen move into your blood easily.
+
+--- ❤️
+p: Your left lung is smaller than your right because your heart takes up some of that space.
+fact: The left lung has two lobes and the right has three. The spot where your heart sits in the left lung is called the cardiac notch.
+check: Why is the left lung smaller?
++ Your heart sits in the space
+- It needs more room for air
+- It helps you breathe faster
+hint: Look at the first sentence on the page. It tells you why the left lung is smaller.
+explain: Your heart takes up some of the space where your left lung would otherwise be.
+
+--- 😮
+p: Every five minutes or so, you take a big sigh without even deciding to do it.
+fact: A sigh is a double-sized breath. Its job is popping open air sacs in your lungs that have collapsed shut.
+p: Yawning is not about getting more oxygen. Robert Provine tested this by having people breathe pure oxygen and air with extra carbon dioxide. Neither changed how much they yawned.
+check: What does a sigh do?
+- Grabs extra oxygen and stores it for later
++ Pops open air sacs that have collapsed shut
+- Warms up the air before it reaches your lungs
+hint: Look at the fact box. It tells you what a sigh does.
+explain: A sigh helps pop open air sacs that have collapsed shut in your lungs.
+
+--- 🪞
+p: You are mostly breathing through just one nostril right now.
+fact: About three quarters of the air goes through the dominant nostril, and your nose swaps which one that is every couple of hours, all day long.
+try: Hold a cold mirror under your nose and breathe out. One patch of mist will be bigger than the other.
+
+--- 🌬️
+p: Your breath leaves at one temperature but can feel hot or cold depending on how you blow.
+fact: Hold your palm a few inches from your mouth. Breathe out slowly with your mouth wide open — it feels warm. Now purse your lips and blow hard at the same spot — it feels cold. The fast jet drags cool room air along with it, and that is most of what lands on your hand.
+
+check: Why does fast-blown breath feel cold?
++ The fast jet drags cool room air along with it
+- The air cools down quickly as it leaves your mouth
+- Your lips squeeze the breath and chill it as it goes
+hint: Look at the last sentence of the fact box. It explains why the fast jet feels cold.
+explain: When you blow hard with pursed lips, the fast jet of air drags in cool room air, making it feel cold on your hand.
+
+--- 😛
+p: Have you ever had a hiccup? 
+fact: A hiccup happens when your diaphragm, the big muscle under your lungs, twitches and makes you gulp air suddenly. About a thirty-fifth of a second later, your vocal cords snap shut, making the "hic" sound.
+check: What makes the hic sound?
+- Your tongue snapping back fast
+- Your lungs bursting open fast
++ Your vocal cords snapping shut
+hint: Look at the fact box. It explains the timing and what snaps shut.
+explain: When your vocal cords snap shut a thirty-fifth of a second after the twitch, that is what makes the "hic" sound.
+
+--- 🐦
+p: You breathe in and out through the same tubes, but a bird's air flows in one direction, in a loop.
+fact: In a bird, fresh air keeps moving across its lungs even while it breathes out. This helps some birds fly at heights where a person would black out.
+
+--- 🧹
+p: You have tiny hairs in your airways that row mucus upward, and you swallow around 3 pints of it every day without even noticing.
+fact: These tiny hairs carry trapped dust with the mucus and move it upward at about half an inch a minute.
+check: How fast do the airway hairs move mucus?
++ About half an inch a minute
+- About one inch a second
+- About one foot a minute
+hint: Look at the second sentence. It gives the speed of the movement.
+explain: The tiny hairs move mucus upward at about half an inch a minute, carrying dust with it.
+
+--- 🫧
+p: Imagine the tiny air sacs deep inside your lungs.
+fact: These air sacs are wet inside, and wet surfaces stick shut. Each one is coated in a soapy film that keeps them open, so every sac reopens on every breath.
+
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
+=== body-senses
+idea: Every part of your tongue can taste everything, and the old taste map was a mistake. Most of what you call taste is really smell.
+game: Smell = Most of what you call taste | Lukewarm water = Feels warm to a cold hand | Thumbnail = Sharp sight area size | Opposite color = After staring at a strong color | Million shades = Colors you can see | No change = Why you can't smell your own house
+
+--- 🫢
+p: Pinch your nose shut and eat a jelly bean without looking. You will get sweet, and almost nothing else.
+fact: Most of what you call taste is actually smell. Let go of your nose mid-chew and the flavor arrives all at once.
+
+check: What makes most of the flavor you taste?
+- The texture of the food
+- The sound it makes when you bite it
++ Smell
+hint: Look at the fact box. It says that letting go of your nose makes the flavor arrive all at once.
+explain: When you let go of your nose, the smell hits your senses and brings the full flavor with it.
+
+--- 👅
+p: Remember those old maps showing sweet at the tip and bitter at the back? They are wrong.
+fact: Every part of your tongue can detect every taste. The map came from a mistranslated German study and got copied for decades.
+term: mistranslated = Changed from one language into another by mistake.
+check: Is there a map of tastes on your tongue?
++ No, every part can taste everything
+- Yes, sweet at the tip and bitter at the back
+- Only salty is at the sides
+hint: Look at the fact box. It says that every part of your tongue can detect every taste.
+explain: The old maps were based on a mistake, but every part of your tongue can taste all flavors.
+
+--- 🌡️
+p: Your sense of temperature is relative, and you can fool it in under a minute.
+fact: Put one hand in cold water and one in warm for 30 seconds, then plunge both into lukewarm water. The same water feels hot to one hand and cold to the other.
+try: Fill three bowls with cold, lukewarm, and warm water. 
+check: Why does lukewarm water feel hot to one hand and cold to the other?
+- One hand has more nerves for feeling heat than the other
++ Temperature sense is relative to what it felt before
+- The water really is warmer next to one hand than the other
+hint: Look at the fact box. It explains how your hands can feel different temperatures in the same bowl.
+explain: Your sense of temperature depends on what you felt before, so one hand thinks it's hot and the other cold in the same water.
+
+--- 👁️
+p: Your sight seems sharp all over, but there's a trick to it.
+fact: The genuinely sharp part of your sight is about the size of your thumbnail held at arm's length.
+try: Hold a book at arm's length and stare hard at one word. Do not let your eyes drift. Now try to read the words on either side of it. You cannot.
+check: How big is the sharp part of your sight?
+- Roughly as wide as a dinner plate held at arm's length
++ About the size of your thumbnail held at arm's length
+- Nearly as large as a whole book page held at arm's length
+hint: Look at the fact box. It says how big the sharp part is.
+explain: Only a patch about the size of your thumbnail at arm's length is sharp. Everything outside it is rough, and your eyes hide that by darting around constantly.
+
+--- 🟥
+p: Stare at a strong color for 30 seconds and then look at a white wall. Your eye will print the opposite color there.
+fact: The cells in your eye that handle the first color get worn out for a moment, so you see the opposite one.
+try: Stare at something red for 30 seconds without moving your eyes, then look at a white wall and watch what happens.
+check: Why do you see the opposite color on the white wall?
+- The wall itself changes color when you stare at it
+- The light from the picture bounces back from the wall
++ The cells for the first color are worn out for a moment
+hint: Look at the fact box. It says what happens to the cells that handle the first color.
+explain: The cells that handle the first color get worn out, so you see the opposite one.
+
+--- 🎨
+p: How many colors do you think you can see? 
+fact(Worked out, not counted): By measuring the smallest change your eye can just catch and multiplying it up, scientists work out that you can probably see about a million shades.
+p: About 1 in 12 boys and 1 in 200 girls cannot tell certain reds and greens apart. The instructions for those color detectors sit on the X chromosome, and boys have only one X.
+check: How do we know about a million colors?
++ By measuring the smallest change you can catch and multiplying up
+- By having a computer print out every shade and counting them
+- By asking thousands of people to name every color they can see
+hint: Look at the fact box. It says how scientists work it out.
+explain: Scientists measure the smallest change your eye can just catch and multiply it up to get a rough number.
+
+--- 👃
+p: Your nose has about 400 different types of smell detector, but you can tell apart far more smells than that. Each smell must be a pattern across many detectors at once.
+fact: Your nose stops reporting any smell that does not change. That is why you cannot smell your own house, but other people can.
+check: Why can't you smell your own house?
+- Your nose has too few smell detectors to catch a familiar smell
+- The smells in your house are too faint for any nose to catch
++ Your nose stops reporting any smell that does not change
+hint: Look at the fact box. It explains why smells that do not change fade away.
+explain: Your nose stops reporting any smell that stays the same, so you stop noticing it.
+
+--- 🎧
+p: You can hear higher notes than most of the grown-ups around you.
+fact: By 50, most people have lost everything above about 12,000 vibrations a second. That is the top of their hearing range.
+p: Some shops have played a 17,000-per-second tone to move teenagers along. Most grown-ups will not hear it at all.
+check: Who can hear the 17,000-per-second tone?
+- Most grown-ups
++ Teenagers and young people
+- People over 50
+hint: Look at the last paragraph. It says who the tone is meant to move along.
+explain: Teenagers and young people can still hear higher frequencies that older folks cannot.
+
+--- 🚗
+p: Have you ever felt sick while reading in a car?
+fact(Worked out, not seen directly): Reading in a moving car gives your brain two different stories. Your eyes report a still page, but your inner ear reports the bouncing.
+check: Why does reading in a car make you feel ill?
++ Your eyes and ears give your brain contradictory stories
+- The strong smell inside the car upsets your stomach as you read
+- The car's speed squeezes the blood away from your stomach
+hint: Look at the fact box. It explains what your eyes and ears report differently.
+explain: Your eyes see a still page, but your inner ear feels the motion. Your brain gets confused by these conflicting signals.
+
+--- 🎹
+p: Inside your ear is a coiled tube laid out like a piano keyboard.
+fact: High notes shake the hairs at one end, low notes at the far end. Each spot along it has its own line reporting to the brain.
+
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
+=== body-skin
+idea: Your skin is waterproof in both directions, and your fingers wrinkle in water to grip better. The skin over your elbow barely notices a pinch.
+game: Finger wrinkle = Helps you grip wet things better | Tiny blood vessels = Narrow to make your fingers wrinkle | Sweat bacteria = Feed on what the sweat glands release | Elbow skin = Thicker, fattier and has fewer pain endings | Head heat loss = About 7 percent of your total heat loss | Outer skin layer = Dead flat cells stacked like bricks in greasy mortar
+
+--- 📎
+p: Your skin is not equally sensitive everywhere.
+try: Bend a paperclip into a U with the ends about half an inch (1 cm) apart. Touch both ends to your fingertip — you should feel two points. Now do the same on your forearm or back and it feels like one point because fewer touch sensors are packed in there.
+check: Why does it feel like one point on your forearm?
++ Fewer touch sensors are packed in there
+- Your skin there is too thick to feel it well
+- Nerves in your arm carry signals more slowly
+hint: Look at the box that tells you what to do. Its last sentence says why the forearm feels only one point.
+explain: Fingertips have far more touch sensors packed in, so they can feel each point clearly.
+
+--- 🏠
+p: Skin is your largest organ.
+fact: You shed skin cells constantly — some of the dust in your home is made up of these cells. The whole outer layer of your skin is replaced about once a month.
+term: organ = A part of your body that does a specific job, like your skin protecting you.
+check: About how often is your outer skin replaced?
+- About every two days
++ About once a month
+- Roughly once a year
+hint: Look at the fact box. It gives the replacement time.
+explain: Your outer layer of skin is replaced about once a month.
+
+--- 🛁
+p: Your fingers wrinkle when they stay in the bath for a while.
+fact(Worked out, not seen directly): Your nervous system triggers tiny blood vessels under the skin to narrow, pulling the surface into ridges.
+p: These wrinkles are like the tread on a tire. They may help you grip wet things better.
+check: What makes your fingers wrinkle in the bath?
+- Water soaks into the outer layer and swells it into folds
+- Bath soap dries the oils out and shrinks your skin tight
++ Nerves narrow tiny blood vessels and pull the skin into ridges
+hint: Look at the fact box. It explains what happens under the skin.
+explain: Your nervous system triggers the narrowing of tiny blood vessels, pulling the surface into gripping ridges.
+
+--- 🐈
+p: When you get goosebumps, your tiny muscles pull each hair straight up.
+fact(Worked out, not seen directly): The same reflex puffs a cat's coat right up, trapping warm air and making the cat look bigger.
+check: What does each tiny goosebump muscle pull?
++ A hair upright
+- The skin tight
+- The blood vessels narrow
+hint: Look at the first sentence on this page. It tells you what happens to the hair.
+explain: Each muscle pulls a hair upright, and that makes a small bump in the skin.
+
+--- 😖
+p: Itching has its own special nerve pathway in your body, separate from the one that feels pain.
+fact: Scratching works, but only briefly. It floods the spot with a different sensation, drowning out the itch signal for a moment.
+check: Why does scratching help only briefly?
+- It switches off the nerve that carries the itch so it cannot send signals for a while
++ It floods the spot with a different feeling that drowns out the itch for a moment
+- It heals the skin underneath right away and takes away what caused the itch
+hint: Look at the fact box. It explains what happens when you scratch.
+explain: Scratching brings a different feeling that temporarily blocks the itch.
+
+--- 🪒
+p: Many people believe that shaving makes hair grow back thicker, darker and faster.
+fact: Shaving does not make hair grow back thicker, darker or faster. Mildred Trotter tested it in 1928, and every careful study since has found the same result.
+p: An uncut hair tapers to a fine soft point, but shaving cuts it flat. So what you feel next is the blunt end, which feels stubbly and looks darker because it catches the light differently.
+check: Does shaving make hair grow back thicker?
+- Yes, it makes it darker too
+- Yes, it grows faster
++ No
+hint: Look at the first sentence in the fact box. It clearly states what happens when you shave.
+explain: Shaving does not change how thick or dark the hair grows. It just cuts off the soft tip, leaving a blunt end that feels stubbly.
+
+--- 🧢
+p: You do not lose most of your heat through your head. Your head is about 7 percent of your skin and loses roughly that share of your heat.
+fact: In an old cold-weather test, volunteers wore arctic suits with just their heads left bare. Of course the head lost more heat — it was the only part uncovered.
+check: Why did the head seem to lose most of the heat in the old test?
+- It is larger than a tenth of your skin
+- It has special heat-loss properties
++ It was the only part left uncovered
+hint: Look at the fact box. It explains what happened in the test.
+explain: The head seemed to lose more heat because it was the only part left bare in the arctic suits.
+
+--- 😅
+p: Sweat itself smells of almost nothing. The smell actually comes from bacteria living on your skin.
+fact: These bacteria feed on what the sweat glands release and give off the smelly chemicals themselves.
+
+--- 🦴
+p: There is a spot on your body where a hard pinch hurts much less.
+fact: Pinch the loose skin over the point of your elbow as hard as you like, then pinch the same amount of skin on your forearm. The elbow skin is thicker, fattier and much shorter on pain endings, so a pinch there hurts much less.
+try: Pinch the skin over your elbow and then your forearm to feel the difference.
+check: Why does a hard pinch on your elbow skin hurt so little?
++ The skin there is thicker and has fewer pain endings
+- The skin there is thinner than anywhere else on your arm
+- There are no nerves under the skin at your elbow
+hint: Look at the fact box. It says what the elbow skin is like.
+explain: The elbow skin is thicker, fattier and has fewer pain endings, so a pinch there hurts much less.
+
+--- 🧱
+p: Your skin is waterproof both ways at once.
+fact(How it works): Bath water stays out, and your own moisture stays in. The outer layer is dead flat cells stacked like bricks in greasy mortar.
+
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
+=== body-sleep
+idea: Michel Siffre's day in the cave was slightly longer than 24 hours. Find out how your body clock uses light to keep time.
+game: Michel Siffre = Spent two months alone in a cave | newborn = Sleeps 14 to 17 hours out of every 24 | teenager = Needs 8 to 10 hours in one block | melatonin = The hormone that tells your body it is night | memory = The strongest evidence for why we sleep
+
+--- 🕳️
+p: Michel Siffre spent two months alone in a cave with no clock and no sunlight.
+fact: His sleep-and-wake rhythm settled into a day slightly longer than 24 hours.
+check: How long was the day his body settled into?
+- Exactly 24 hours
++ Slightly longer than 24 hours
+- Much shorter than 24 hours
+hint: Look at the fact box. It tells you how his day changed.
+explain: His rhythm settled into a day slightly longer than 24 hours.
+
+--- ☀️
+p: Light sets your body clock, but not through the cells you see with.
+fact: A separate set of cells sits at the back of your eye. All they do is report how bright it is. They report straight to a small clump of cells in the middle of your brain that keeps the schedule.
+
+check: Which cells tell your body clock about light?
+- The same cells that you use to see colors and shapes in daytime
+- Small cells in your skin that feel the warmth of the sunlight
++ A separate set at the back of the eye that only report brightness
+hint: Look at the fact box. It tells you where those cells are.
+explain: Those cells at the back of your eye only report how bright it is to your body clock.
+
+--- 🧸
+p: Newborns sleep a lot, but not all at once.
+fact: A newborn sleeps 14 to 17 hours out of every 24, in scraps of two or three hours at a time. By the time you are a teenager, you need 8 to 10 hours in one block.
+p: The amount of sleep you need drops as you grow, and most adults settle at about 7 to 9 hours.
+check: How much sleep does a teenager need?
+- 14 to 17 hours in scraps
+- 6 to 8 hours in scraps
++ 8 to 10 hours in one block
+hint: Look at the fact box. Its last sentence gives the number of hours a teenager needs.
+explain: A teenager needs 8 to 10 hours all at once, not in small pieces like a newborn does.
+
+--- 🌙
+p: Melatonin is the hormone that tells your body it is night.
+term: hormone = A chemical messenger that travels in your blood and tells parts of your body what to do.
+fact: In a teenager, melatonin's evening rise arrives one to two hours later than in a younger child. So a teenager who is still wide awake at eleven is following a clock, not dodging one.
+
+--- 🧠
+p: Scientists have looked for a single reason why we sleep, but they do not have one yet.
+fact(The strongest evidence): The strongest evidence points to memory. The patterns your brain fired while learning get replayed overnight, and people tested after a night's sleep beat people tested after the same gap awake.
+check: What does the strongest evidence say sleep is for?
++ Memory
+- Growing taller
+- Staying warm
+hint: Look at the fact box. It talks about replaying patterns from the day.
+explain: The strongest evidence points to memory. Your brain replays what you learned during the day while you sleep.
+
+--- 🧼
+p: Overnight, your brain seems to clean itself.
+fact(Worked out, not seen directly): In mice, brain cells shrink back, the gaps between them widen, and fluid washes through carrying off the day's waste. The flow is far stronger when you are asleep than it ever is when you are awake.
+check: What happens in your brain overnight?
+- New brain cells grow in and replace the tired ones
++ Fluid washes through and carries off the day's waste
+- Blood stops flowing and lets the brain rest completely
+hint: Look at the fact box. It describes how the fluid washes through the wider gaps.
+explain: The fluid washes through and carries off the day's waste, which is far stronger when you are asleep.
+
+--- 👀
+p: Roughly every 90 minutes, your eyes start darting about under closed lids.
+fact: During these times, your brain runs almost as hard as when you are awake. Most dreaming happens then, about two hours a night, and your muscles are switched off so you cannot act it out.
+check: About how often do your eyes start darting in sleep?
++ Roughly every 90 minutes
+- Roughly every 20 minutes
+- Only once, just before dawn
+hint: Look at the first sentence on the page. It gives the time.
+explain: Your eyes start darting roughly every 90 minutes during sleep.
+
+--- 🥄
+p: Falling asleep for just fifteen seconds can help you solve a problem you could not crack awake.
+fact: Researchers gave volunteers a math puzzle with a hidden shortcut. Those who dozed into shallow sleep spotted the shortcut 83% of the time, while those who stayed awake only managed 30%.
+try: Try the spoon nap. Sit in a chair holding a spoon over a metal tray and let yourself doze off. The moment you drop off, your grip will go and the clatter will wake you.
+check: How often did the shallow sleepers spot the shortcut?
+- 30 percent of the time
++ 83 percent of the time
+- 50 percent of the time
+hint: Look at the second sentence in the fact box. It gives the percentage.
+explain: The shallow sleepers spotted the shortcut 83% of the time.
+
+--- 📖
+p: Your body needs rest every night, and it will not let you skip it for long.
+fact(The written account says): The first week in Genesis has six days of work and a seventh set aside for rest.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-07)
+=== body-voice
+idea: You can whisper without using your voice. Newborns cry in the tune of the language they heard before they were born.
+game: Whisper = Does not use vocal flaps | Puberty = Voice drops as flaps grow bigger | French newborns = Cries mostly rise in pitch | Yawning = Still a mystery why it's catching | Speaker = Laughs more than the audience | Joseph McGrail-Bateup = Shouted 'now' to set the record
+
+--- 🤫
+
+fact: A whisper does not use your voice at all. The vocal flaps in your throat hold still, and you shape the hiss of moving air instead.
+try: Rest two fingers lightly on the front of your throat and say your name out loud. You will feel a clear buzz. Now whisper it.
+check: What stops when you whisper?
+- The movement of your lips
++ The buzz of your vocal flaps
+- The air coming out of your mouth
+hint: When you whisper, the buzzing stops dead but the words still come through fine.
+explain: Your vocal flaps hold still when you whisper, so there is no buzz.
+
+--- 🎺
+p: Your voice is two small flaps in your throat slapping together. For a child, they slap about 285 times a second.
+term: slaps = The quick movements of the flaps in your throat that make sound.
+fact: A woman's voice runs around 250 slaps per second, while a man's is around 145. The lower the voice, the slower the flaps.
+check: What makes a voice sound lower?
++ Its flaps slap more slowly
+- Its flaps are smaller and lighter
+- Its flaps are closer together
+hint: Look at the fact box. It tells you that lower voices have slower slaps.
+explain: Slower slaps make a deeper sound, which is why a lower voice is lower.
+
+--- 📈
+p: During puberty, your vocal folds change a lot.
+fact: A boy's vocal folds can grow up to 60% longer and thicker. A girl's grow by about a third. Bigger, heavier flaps swing more slowly, so the voice drops.
+p: The cracking in a boy's voice is because the equipment changes size faster than the brain updates its aim.
+check: Why does the voice drop in puberty?
+- The smaller, tighter flaps swing more slowly
+- The flaps move up and down much more quickly
++ The bigger, heavier flaps swing more slowly
+hint: Look at the fact box. It explains that bigger, heavier flaps swing more slowly.
+explain: Bigger and heavier flaps cause the voice to drop because they move more slowly.
+
+--- 👶
+p: Newborns cry with an accent, even before they can speak.
+fact: Recordings made in the first days show that French babies' cries mostly rise in pitch, while German babies' cries mostly fall. Each matches the tune of the language they heard in the womb.
+p: Researchers recorded 1,254 cries from thirty French and thirty German newborns. None of them could babble yet, but the tune of their language was already there.
+check: How do French newborns' cries mostly move?
+- They stay at one pitch
++ They mostly rise in pitch
+- They sound like high-pitched laughter
+hint: Look at the fact box. It explains that French babies' cries mostly rise in pitch.
+explain: French babies' cries mostly rise in pitch to match the tune of the language they heard from inside.
+
+--- 😴
+p: Yawning is catching, but nobody has settled why.
+fact(Still argued): Cooling the brain, sharpening attention, and keeping a group in step have all been argued for, but none has enough evidence to close the case.
+try: Yawn deliberately in front of someone who is reading, and count how long until they yawn back. It works better on people who know you well.
+check: Do we know why yawning is catching?
++ No, it is not settled
+- Yes, it sharpens attention
+- Yes, it cools the brain
+hint: Look at the Worked out fact box. It says none of the arguments have enough evidence to close the case.
+explain: Nobody has settled why yawning is catching. The reasons are still being argued about.
+
+--- 😂
+p: Laughing is mostly not about jokes. Researchers recorded real conversations and counted.
+fact: People were around 30 times likelier to laugh with company than alone, and only about one line in eight that got a laugh was even remotely funny.
+p: The speaker usually laughs more than the audience does, dropping laughs into their own sentences like punctuation.
+check: Who laughs more, the speaker or the audience?
+- The audience
+- A dog watching the conversation
+- Nobody laughs
++ The speaker
+hint: Look at the last paragraph. It says the speaker drops laughs into their own sentences.
+explain: The speaker usually laughs more than the audience.
+
+--- 📢
+p: The loudest shout Guinness has measured is 122.4 decibels, set by Joseph McGrail-Bateup shouting the word 'now'.
+fact: It left him hoarse for days. The loudest scream on record is even louder at 129 decibels, and that belongs to Jill Drake.
+check: What word did Joseph McGrail-Bateup shout to set the record?
+- Quiet
+- Loud
++ Now
+hint: Look at the first sentence. It says he shouted one word.
+explain: He shouted 'now' to reach 122.4 decibels.
+
+--- 🐷
+p: Have you ever had a case of hiccups that just wouldn't stop? One way to stop them is to make your diaphragm pull hard while you swallow.
+fact: A stiff straw built to force exactly that stopped hiccups in nearly 92% of the people who tried it.
+p: An American farmer named Charles Osborne started hiccupping while trying to lift a hog. He did not stop for 68 years.
+check: How long did Charles Osborne hiccup?
+- 1 day
++ 68 years
+- 1 week
+hint: Look at the last sentence on the page. It tells you how long he hiccupped.
+explain: Charles Osborne hiccupped for 68 years, which is the longest bout on record.
+
+--- 🗣️
+p: In Genesis, a man's first job involves using his voice.
+fact(The written account says): In Genesis, the first job handed to a man is naming the animals one at a time. Speech turns up very early in that account.
+
+

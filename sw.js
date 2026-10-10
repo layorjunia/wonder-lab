@@ -6,10 +6,11 @@
 // cache not named here, which is what clears the old Piper clips off every
 // installed device. Offline.CACHE in js/audio.js must use the same name.
 const OFFLINE_CACHE = 'wonderlab-offline-v2';
-const CACHE = 'wonderlab-20261001-1931-57a887c6';
+const CACHE = 'wonderlab-20261010-1322-4dc1ccfe';
 const SHELL = [
-  '.', 'index.html', 'css/style.css', 'manifest.json',
+  '.', 'index.html', 'css/style.css', 'css/lab.css', 'manifest.json',
   'css/fonts.css',
+  'fonts/Baloo2-var-latin.woff2', 'fonts/Nunito-var-latin.woff2',
   // Self-hosted so the app has a voice offline too. ~380 KB, once.
   'fonts/Fraunces-600-latin.woff2', 'fonts/Fraunces-700-latin.woff2',
   'fonts/Inter-latin-1ab1ad55.woff2',
@@ -21,7 +22,8 @@ const SHELL = [
   // which is worse: it looks like the app, minus most of it.
   'js/cutouts.js', 'js/animals.js', 'js/body.js', 'js/plants.js', 'js/earth.js', 'js/astro.js',
   'js/ancient.js', 'js/america.js', 'js/world.js', 'js/micro.js', 'js/physical.js',
-  'js/economics.js', 'js/lessons.js',
+  'js/economics.js', 'js/lessons.js', 'js/lesson.js', 'js/updates.js',
+  'js/fx.js', 'js/lab.js', 'js/games.js', 'js/tabs.js',
   'img/credits.json',
   // Precached so the very first Listen tap resolves against a real manifest
   // rather than null. The player also awaits its own fetch now, so this is
@@ -87,7 +89,7 @@ self.addEventListener('fetch', e => {
   // never be precached, but a clip already heard has to come back instantly
   // and has to work on a tablet with no signal.
   if (/\/(img|audio)\//.test(url.pathname) &&
-      /\.(jpg|jpeg|png|m4a|mp3)$/.test(url.pathname)) {
+      /\.(jpg|jpeg|png|svg|m4a|mp3)$/.test(url.pathname)) {
     e.respondWith(caches.match(e.request).then((hit) => {
       if (hit) return hit;
       const net = sameOrigin ? fetch(e.request) : corsFetch(e.request);

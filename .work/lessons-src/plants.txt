@@ -1,0 +1,793 @@
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== plants-crops-1
+idea: Five crops feed billions of people, and each one has a surprising way of growing.
+game: Wheat = Covers more land than any other food crop | Rice = Has hollow stems to pipe air to its roots | Maize = Each silk thread guides pollen to a kernel | Potato = Eyes are buds that can grow shoots | Tomato = Botanically a fruit but taxed as a vegetable
+
+--- 🌿
+p: Five plants are here to meet you: wheat, rice, maize, potato, and tomato.
+p: Each one has its own way of growing and helping people.
+
+--- 🌿 @wheat
+p: Meet wheat, a grass grown for its seeds. It covers more land than any other food crop.
+fact(The world's top crop): In 2024, the world grew about 880 million tons of wheat on 542 million acres (219.5 million hectares). Russia sold the most wheat to other countries, about 32.7 million tons.
+check: Which country sold the most wheat to other countries in 2024?
++ Russia
+- India
+- China
+hint: Look at the second sentence of the fact box.
+explain: Russia sold the most wheat to other countries, about 32.7 million tons.
+
+--- 🌿 @rice
+p: Meet rice, a grass that grows standing in water. It's the main food for more than half of the people alive.
+fact(Water wonder): Rice has hollow stems that pipe air down to its roots. Most plants would drown in flooded mud, but rice thrives.
+term: spikelet = A tiny flower on the head of the rice plant. Each one can turn into a grain.
+
+--- 🌿 @maize
+p: Next up is maize, a giant grass that grows taller than an adult and carries its seeds on a cob.
+fact(Silk surprise): The silk on a cob is not just decoration. There is exactly one silk thread for each kernel, and a grain of pollen has to land on that thread and grow down it. A cob with gaps in the rows means some threads got missed.
+check: What does the silk thread do on a maize cob?
+- It's just decoration.
+- It holds the kernels together.
++ It guides pollen to each kernel.
+hint: Look at the fact box. It explains what the silk threads are for.
+explain: The silk thread guides pollen to each kernel.
+
+--- 🌿 @potato
+p: Meet the potato, a swollen underground stem from the Andes and the biggest food crop in the world that isn't a grain.
+fact(The eyes have it): The eyes on a potato are not just decoration. Each one is a bud, and if you leave a potato for a few weeks, shoots will come out of those eyes.
+p: Potatoes grow at the tips of stolons, which are underground stems running sideways from the base of the plant. One plant can make several potatoes, which is why you often find a whole nest of them under a single plant.
+
+--- 🌿 @tomato
+p: Meet the tomato, a berry from South America that most people call a vegetable.
+fact(The Supreme Court ruling): In 1893, the U.S. Supreme Court said tomatoes are vegetables, even though they are really fruits. A law of that time charged a tax on vegetables brought in from other countries, but not on fruits. The court said tomatoes are eaten like vegetables, so the tax applied.
+p: The fruit is sweet and packed with seeds meant to survive when eaten.
+check: Why did the Supreme Court say tomatoes are vegetables?
+- They taste like vegetables
++ They are taxed as vegetables
+- They look like vegetables
+hint: Look at the fact box. It says what the law charged on vegetables from other countries.
+explain: The Supreme Court ruled that tomatoes should be taxed as vegetables, even though they are botanically fruits.
+
+--- 📊
+p: Farmers plant all five fresh every year: wheat, rice, maize, potato, and tomato.
+fact(Common ground): Farmers plant all five fresh each year as annuals, which are plants that finish their whole life in one growing season. Potatoes and tomatoes could live longer in warm places, but farmers start them over every year.
+
+--- 🌿
+p: Wheat in a field. Rice growing tall. Maize with yellow ears. Potatoes underground. Tomatoes on a vine.
+p: Five plants, each doing its own job.
+
+quiz: What is the main reason rice can grow in flooded mud?
+- Rice has waxy leaves that shed the water like a coat.
++ Rice has hollow stems that pipe air to its roots.
+- Rice has long roots that reach down to dry ground.
+explain: This special feature lets rice thrive where other plants would drown.
+
+quiz: How many silks are there on a maize cob for each kernel?
+- Only one silk thread for every two kernels
++ Exactly one silk thread for each kernel
+- Several silk threads for each single kernel
+explain: Each silk guides pollen to its corresponding kernel, ensuring the cob fills out fully.
+
+quiz: What do the eyes on a potato actually do?
+- They are marks left by insect bites.
++ They are buds from which shoots can grow.
+- They take in sunlight to feed the potato.
+explain: These buds can sprout new plants when conditions are right.
+
+quiz: How long is the life cycle of an annual crop like wheat, rice, maize, potato, or tomato?
+- Two years
++ One year
+- Five years
+explain: All these plants are annuals, finishing their entire life cycle in just one growing season.
+
+quiz: Where do potatoes grow on the plant?
+- On branches high above the ground
++ At the tips of underground stems
+- At the very ends of the long roots
+explain: Potatoes form at the ends of stolons, which spread out below the soil.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== plants-crops-2
+idea: The vanilla orchid relies on a twelve-year-old boy’s discovery to be pollinated. Banana, coffee, pineapple, and strawberry each hide a surprise about what we are really eating.
+game: Banana = Largest herb with no wood inside | Coffee = Grown for seeds inside red cherries | Vanilla orchid = Edmond Albius figured out hand pollination | Pineapple = Up to two hundred flowers fused into one lump | Strawberry = 200 achenes on a red cushion
+
+--- 🌿
+p: Five plants are waiting to meet you: a banana, coffee, vanilla orchid, pineapple, and strawberry.
+p: Each one has something special about it.
+
+--- 🌿 @banana
+p: Meet the banana. It’s not a tree or a bush. It's the largest herb on Earth, which means a plant with no wood in its stem. The bananas we eat are berries with no seeds.
+fact(The giant herb): What looks like a trunk is a pseudostem made of tightly wrapped leaf stalks. There’s no wood in it at all — you can cut one through with a knife.
+term: pseudostem = A structure that looks like a stem but is made of tightly wrapped leaf stalks, not wood.
+check: What makes the banana plant so unusual?
+- It's a tall palm with a trunk of hard wood
+- It's a woody vine that climbs up trees
++ It's a giant herb with no wood inside
+hint: Look at the last sentence of the first paragraph and the fact box.
+explain: The banana plant is a giant herb with no wood inside.
+
+--- 🌿 @coffee
+p: Meet the coffee plant, a tropical shrub grown for its seeds inside small red fruits called cherries.
+fact(The seeds inside): Each cherry usually holds two flat-sided seeds, but about 5 to 10 percent hold just one round seed called a peaberry.
+
+p: Coffee leaves and seeds contain caffeine, a bitter chemical that keeps many insects from eating the plant. It is the same caffeine that helps people feel awake in the morning.
+
+--- 🌿 @vanilla
+p: Meet the vanilla orchid, the best-known orchid grown for food. It is a climbing vine that can grow up to 50 ft (15 m) long.
+fact(The flower's brief life): A vanilla flower lasts about one day. If you miss it, the flower drops off and no pod grows.
+p: In 1841, a twelve-year-old boy named Edmond Albius figured out how to pollinate vanilla flowers by hand on the island of Reunion.
+check: Who worked out how to pollinate vanilla by hand?
++ Edmond Albius
+- George Washington Carver
+- An orchid bee
+hint: Look at the last paragraph. It mentions the boy's name and what he did.
+explain: Edmond Albius, a twelve-year-old boy, figured out how to pollinate vanilla flowers by hand.
+
+--- 🌿 @pineapple
+p: Meet the pineapple. It's not one fruit but up to two hundred flowers grown into one lump.
+fact(The flower fusion): Every diamond-shaped eye on a pineapple is where one flower used to be. They all fused together to make the fruit.
+
+--- 🌿 @strawberry
+p: Meet the strawberry. The red part you eat is not the fruit, and those specks on top are not seeds.
+fact(The tiny fruits): Each speck on a strawberry is an achene, a dry fruit with one seed inside it. The red flesh is the swollen tip of the flower stalk.
+p: A medium strawberry carries around 200 achenes — tiny one-seeded fruits — on its surface. So a strawberry is about two hundred fruits sitting on a red cushion.
+check: How many achenes does a medium strawberry carry?
+- 50
++ 200
+- 500
+hint: Look at the last paragraph. It gives the number of tiny fruits.
+explain: A medium strawberry carries around 200 achenes on its surface.
+
+--- 📊
+p: Each of these five plants gives us a different part to eat: a fruit, a seed, a pod, a fused cluster of flowers, or a swollen stalk tip.
+fact(Unique parts): A banana gives us its peelable fruit. Coffee its seeds ground into a drink. Vanilla its orchid pod. Pineapple its spiky fruit. The strawberry its red cushion of achenes.
+
+--- 🌿
+p: A banana's peelable fruit. Coffee seeds ground into a drink. Vanilla's orchid pod. A pineapple's spiky fruit. A strawberry's red cushion of achenes.
+p: Five plants, each giving us something unique to eat.
+
+quiz: What is a vanilla flower's lifespan?
+- Two days
++ One day
+- Three days
+explain: A vanilla flower only blooms for one day, so you have to be quick.
+
+quiz: What part of the coffee plant do we use to make coffee?
+- The leaves
++ The seeds
+- The stem
+explain: Coffee is made from the seeds inside the small red fruits called cherries.
+
+quiz: What is the longest a vanilla orchid vine can grow?
+- 20 ft (6 m)
++ 50 ft (15 m)
+- 30 ft (9 m)
+explain: The vanilla orchid vine can grow up to 50 feet long, climbing other plants or structures.
+
+quiz: What does each diamond-shaped eye on a pineapple represent?
+- A leaf
++ A fused flower
+- A seed
+explain: Each eye on a pineapple is where one flower used to be before they all fused together.
+
+quiz: What looks like the trunk of a banana plant but isn't made of wood?
+- The fruit
++ The pseudostem
+- The roots
+explain: The banana plant’s “trunk” is actually a pseudostem made of tightly wrapped leaf stalks, not wood.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== plants-trees-1
+idea: A giant sequoia can weigh over 4 million pounds. Five trees show how heavy, how tall, how old, and how much water a tree can hold.
+game: Giant sequoia = Weighs about 4.2 million lb | Coast redwood = Tallest at 381.3 ft | Bristlecone pine = Oldest at 4,862 rings | Baobab = Holds about 36,000 gallons of water | English oak = Supports 2,300 species
+
+--- 🌿
+p: Five trees are waiting to meet you: a giant sequoia, a coast redwood, a bristlecone pine, a baobab, and an English oak.
+p: Each one lives in its own way.
+
+--- 🌿 @giant-sequoia
+p: The giant sequoia is the bulkiest tree on Earth. General Sherman, in Sequoia National Park, stands 275 ft (83.8 m) tall and is 102.6 ft around at the ground.
+fact(The heaviest tree): Its trunk alone holds 52,508 cubic feet of wood. A 1938 estimate put its weight at about 4.2 million lb.
+p: In January 2006, a branch over 6.6 ft (2 m) thick and more than 98 ft (30 m) long tore off the General Sherman tree. It smashed the perimeter fence and the sidewalk below.
+check: What happened to the General Sherman tree in January 2006?
+- A lightning strike split the trunk and burned off the top.
+- The tree was cut down and its rings counted by loggers.
++ A branch over 6.6 ft thick and more than 98 ft long tore off.
+hint: Look at the last paragraph. It describes what happened to the branch.
+explain: A branch over 6.6 ft thick and more than 98 ft long tore off, smashing the perimeter fence and the sidewalk below.
+
+--- 🌿 @coast-redwood
+p: Meet the coast redwood, the tallest tree on Earth. Hyperion, one of these giants, stands at 381.3 ft (116.22 m). That is taller than the Statue of Liberty, which is 305 ft (93 m) from the ground to the tip of the torch.
+fact(The tallest tree): Chris Atkins and Michael Taylor found Hyperion in Redwood National Park on August 25, 2006. It continues to grow taller every year.
+term: fog drip = When fog condenses on needles high in the tree's crown and drips down, supplying water to the roots.
+p: Fog drip can provide about 30 percent of the water a coast redwood needs each year. The tree combs water out of the air and waters its own roots with it.
+
+--- 🌿 @bristlecone-pine
+p: Meet the bristlecone pine, a short, twisted tree that grows on bare mountain rock where almost nothing else will.
+fact(The oldest tree): In 1957 Edmund Schulman counted the rings of a bristlecone in California's White Mountains. The count came to 4,789. He named it Methuselah.
+p: Another bristlecone, cut down in 1964, had at least 4,862 rings. It was later named Prometheus.
+check: How many rings did the oldest bristlecone pine ever counted have?
+- 3,000
++ 4,862
+- 2,500
+hint: Look at the last two sentences.
+explain: The tree that was cut down had at least 4,862 rings.
+
+--- 🌿 @baobab
+p: Next up, the baobab. This African tree is built like a water tank with a trunk you could park a car in and branches that look like roots waving in the air.
+fact(The water tank): A large baobab can hold as much as 36,000 gallons (136,400 liters) of water in its trunk. That's about the same as two backyard swimming pools stored inside the wood.
+p: The trunk shrinks during the dry season, shrinking by about 1 inch (2–3 cm) around and losing roughly a tenth of its stored water. When the rain returns, it swells back out again.
+
+--- 🌿 @oak
+p: Next is the English oak. It's a big, heavy tree that grows in Europe and supports more living things than any other tree in Britain.
+fact(The living library): A count put 2,300 different species living on or with English oak in the UK — insects, mosses, lichens, birds, mammals, and more.
+check: How many species live on or with the English oak in the UK?
+- 400
++ 2,300
+- 500
+hint: Look at the fact box. It gives the exact number.
+explain: The number is 2,300 species living on or with the English oak in the UK.
+
+--- 📊
+p: The giant sequoia weighs about 4,210,000 lb and can live for 3,000 years. The coast redwood lives up to 2,000 years. The bristlecone pine lives longest, at least 4,862 years. The baobab can live more than 1,000 years, and the English oak about 500 to 1,000.
+fact(Long lives): All of them are long-lived trees. The bristlecone pine lives longest of the five, and the giant sequoia and the coast redwood can reach thousands of years too.
+
+--- 🌿
+p: A giant sequoia weighing 4,210,000 lb. A coast redwood living up to 2,000 years. Bristlecone pine rings counting time. Baobab trunks holding water. An English oak standing strong for 500 years.
+p: Five trees, each in their own way, reaching through time and growth.
+
+quiz: How tall is Hyperion, the tallest coast redwood?
+- 354.7 ft (108.11 m)
++ 381.3 ft (116.22 m)
+- 412.6 ft (125.76 m)
+explain: That's taller than the Statue of Liberty.
+
+quiz: What does fog drip provide to a coast redwood?
+- 50% of its water needs
++ 30% of its water needs
+- 20% of its water needs
+explain: Fog drip supplies about 30 percent of the water a coast redwood needs each year.
+
+quiz: How much water can a large baobab hold in its trunk?
+- 13,200 gallons (50,000 liters)
++ 36,000 gallons (136,400 liters)
+- 26,400 gallons (100,000 liters)
+explain: That's about two backyard swimming pools stored inside the wood.
+
+quiz: What is the English oak known for supporting?
+- 1,000 species
++ 2,300 species
+- 1,500 species
+explain: About 2,300 species live on or with the English oak in the UK, more than on any other tree in Britain.
+
+quiz: What is the longest a bristlecone pine is known to have lived?
+- 3,000 years
++ 4,862 years
+- 2,000 years
+explain: One bristlecone cut down in 1964 had at least 4,862 rings.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
+=== plants-trees-2
+idea: A banyan can spread over three football fields. Meet five trees with odd ways of living, from a forest that is one plant to a seed that sprouts before it falls.
+game: Banyan = Spreads over 4.67 acres | Red mangrove = Sends ready-grown seedlings into the water | Quaking aspen = Weighs 13.2 million lb as one organism | Dragon's blood tree = Shaped like an open umbrella | Joshua tree = Depends on the yucca moth for seeds
+
+--- 🌿
+p: Five trees are waiting to meet you: a banyan, a red mangrove, a quaking aspen, a dragon's blood tree, and a Joshua tree.
+p: Each one has secrets hidden in its shape or where it lives.
+
+--- 🌿 @banyan
+p: Start with the banyan, a fig that starts high in another tree's branches and grows down to the ground.
+fact(The spread): The biggest banyan's canopy covers 4.67 acres, about three and a half football fields. The Great Banyan near Kolkata stands on 3,772 prop roots.
+term: prop root = A root that grows from a branch or trunk, reaches the ground, and holds the tree up.
+check: How many prop roots does the Great Banyan have?
+- 2,000
+- 5,000
++ 3,772
+hint: Look at the fact box. It gives the number of prop roots.
+explain: The Great Banyan has 3,772 prop roots.
+
+--- 🌿 @mangrove
+p: Next is the red mangrove, a tree that stands in salt water on stilts and sends its babies out already grown.
+fact(The stilt roots): The prop roots arch out of the trunk and branches and stab down into the mud, holding the tree above the water on a tangle of stilts. From below at low tide it looks like the tree is standing on its hands.
+term: vivipary = When a seed germinates while still attached to the parent and grows into a finished green seedling before dropping off.
+fact(The ready-grown seedlings): A red mangrove seed does not wait to fall before it sprouts. It germinates while still attached to the parent. It grows into a finished green seedling 8 to 10 in (20–25 cm) long, a living dart, before it drops off.
+
+--- 🌿 @aspen
+p: Meet the quaking aspen, a tree with white bark and leaves that shake in the faintest breeze. Often, what looks like a forest of aspens is actually one single plant.
+fact(The one plant): Pando, in Utah's Fishlake National Forest, is about 47,000 aspen stems spread over 106 acres (42.89 hectares). Every stem shares one root system and one set of DNA. Together they weigh roughly 13.2 million lb (6,000 metric tons), the heaviest known single organism.
+check: How many aspen stems make up Pando?
+- 1,000
++ 47,000
+- 470
+hint: Look at the first sentence of the fact box.
+explain: Pando consists of about 47,000 aspen stems.
+
+--- 🌿 @dragon-blood-tree
+p: Meet the dragon's blood tree, a tree shaped like an open umbrella that oozes dark red when cut. It grows wild only on one island group in the Arabian Sea.
+fact(The umbrella shape): The crown is up to 39 ft (12 m) across — wider than it is tall. Each branch splits into two, then each of those splits again.
+
+--- 🌿 @joshua-tree
+p: Meet the Joshua tree, a giant yucca of the Mojave Desert. It is not really a tree or a cactus.
+fact(The one moth): The yucca moth Tegeticula synthetica carries pollen from flower to flower while laying its eggs inside them. Its grubs eat some of the seeds and leave the rest. The tree has no other pollinator, so without the moth it sets no seed.
+check: What happens if the yucca moth does not show up?
+- The tree grows faster
+- The tree flowers more often
+- The tree's roots spread wider
++ The tree sets no seed
+hint: Look at the last sentence of the fact box.
+explain: Without the yucca moth, the Joshua tree sets no seed.
+
+--- 📊
+p: Side by side, the banyan, red mangrove, quaking aspen, dragon's blood tree, and Joshua tree all grow differently. The banyan spreads with its prop roots. The red mangrove thrives in saltwater. The quaking aspen grows in groves connected by one root system. The dragon's blood tree has a unique umbrella shape. The Joshua tree needs a moth to make seeds.
+fact(Shared trait): All five trees share one thing: they each have a unique way of adapting to their environment. Whether it’s aerial roots, saltwater tolerance, interconnected groves, distinctive shapes, or a moth partner, each tree is built for its own world.
+
+--- 🌿
+p: A banyan spreading wide with its aerial roots. A red mangrove standing in salty water. Aspen trees in groves connected underground. A dragon's blood tree shaped like an umbrella. A Joshua tree that needs a moth to make seeds.
+p: Five trees, each unique, each built for its own world.
+
+quiz: How much ground does the biggest banyan's canopy cover?
+- 2 acres
++ 4.67 acres
+- 6 acres
+explain: The biggest banyan's canopy covers 4.67 acres, about three and a half football fields.
+
+quiz: What is the widest the crown of a dragon's blood tree can be?
+- 15 ft (4.5 m)
++ 39 ft (12 m)
+- 25 ft (7.5 m)
+explain: The crown can be up to 39 ft (12 m) across, wider than the tree is tall.
+
+quiz: What does a red mangrove seed grow into before it drops off the parent tree?
+- A tough, hard brown seed
++ A finished green seedling
+- A dry pod full of seeds
+explain: The seed sprouts while still on the parent tree and becomes a green seedling shaped like a dart.
+
+quiz: How heavy is Pando, the quaking aspen grove in Utah?
+- 5 million lb (2,270 metric tons)
++ 13.2 million lb (6,000 metric tons)
+- 8 million lb (3,630 metric tons)
+explain: Pando is the heaviest known single organism.
+
+quiz: Where does the dragon's blood tree grow wild?
+- A dry plain in central Australia
++ One island group in the Arabian Sea
+- One river valley in southern Chile
+explain: It grows wild only on one island group in the Arabian Sea.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-10)
+=== plants-crops-3
+idea: A pumpkin can weigh over 2,800 pounds. Find out how one plant buries its own fruit, how a chili pepper tricks your nerves, and how a vine climbs without eyes.
+game: Pumpkin = Weighs up to 2,819 lb | Sugarcane = Grows up to 20 feet tall | Peanut = Buries its fruit underground (geocarpy) | Chili pepper = Tricks your nerves into feeling heat | Grapevine = Uses coiled tendrils to climb
+
+--- 🌿
+p: Five plants are waiting to meet you: a pumpkin, sugarcane, peanuts, chili peppers, and grapevines.
+p: Each one has a secret that makes them special.
+
+--- 🌿 @pumpkin
+p: Start with the pumpkin, a sprawling vine that grows the heaviest fruit on earth. The record pumpkin weighed 2,819 lb (1,278.8 kg), nicknamed Muggle.
+fact(The giant): Grown by twin brothers Ian and Stuart Paton, it was weighed at Wargrave in Berkshire on 6 October 2025.
+check: How much did the heaviest pumpkin weigh?
+- 2,907.85 lb
+- 1,000 lb
++ 2,819 lb
+hint: Look at the first paragraph. It gives the exact weight.
+explain: The heaviest pumpkin weighed 2,819 lb.
+
+--- 🌿 @sugarcane
+p: Meet the sugarcane, a towering grass that grows up to 20 ft (6 m) tall with sugar stored in its stem.
+fact(The giant crop): Sugarcane is the largest crop in the world by weight: 1.9 billion metric tons in 2020. Brazil grows about 40 percent of it, 724.4 million metric tons in 2022, with India next at 439.4 million.
+term: ratoon = New growth from a plant’s stump after the main stalk is cut. Sugarcane regrows this way and can be harvested several times.
+
+--- 🌿 @peanut
+p: Meet the peanut, a low bushy plant about 1 to 2 ft (30-60 cm) high. It's not a nut but a legume.
+fact(The hidden pod): The flower does its work above ground and then sends the job underground. A stalk called a peg turns downward, grows into the soil, and pushes the pod beneath it.
+p: This process of burying its own fruit is called geocarpy. Very few plants do this.
+check: What is the word for a plant burying its own fruit underground?
+- Pea pod
++ Geocarpy
+- Peg
+hint: Look at the last paragraph. It explains the term.
+explain: The term is geocarpy.
+
+--- 🌿 @chilli
+p: Meet the chili pepper, a bushy plant about 2 to 3 ft (60-90 cm) high that grows fruit from tiny to long.
+fact(The spicy trick): The burn comes from capsaicin, which tricks your nerves into feeling heat when nothing is actually hot. It's in the inner wall, not the seeds.
+p: Birds eat chilies without feeling the burn, but mammals feel it strongly.
+
+--- 🌿 @grape
+p: Meet the grapevine, a woody climber that hauls itself up trees using coiled tendrils and carries its fruit in bunches of berries.
+fact(The climbing trick): A tendril grows out, touches something, wraps around it, then coils itself into a spring. It does all this without eyes.
+check: How does a grapevine tendril find and grip a branch?
++ It grows out, touches something, wraps around it, and coils into a spring
+- It uses its leaves to feel around
+- It has tiny eyes to spot branches
+hint: Look at the fact box. It describes how the tendril works.
+explain: The tendril grows out, touches something, wraps around it, and coils into a spring.
+
+--- 📊
+p: The record pumpkin weighed 2,819 lb, the heaviest fruit ever grown.
+fact(Lifespans): The peanut and pumpkin last one year. The chili pepper lives for three years. Grapevines can live much longer, with the oldest reaching more than 100 years.
+
+--- 🌿
+p: A pumpkin that can grow up to 2819 lb. Sugarcane that regrows after it is cut. Peanuts that last a year. Chili peppers that live for three years. Grapevines reaching up to 100 years.
+p: Five plants, each built for its own life span and growth.
+
+quiz: What is the greatest height sugarcane reaches?
+- 10 feet
+- 30 feet
++ 20 feet
+explain: Sugarcane is a towering grass that grows up to 20 feet tall.
+
+quiz: What is capsaicin?
+- A type of seed in chili peppers
+- The part of a chili pepper that makes it sweet
++ The substance that tricks your nerves into feeling heat
+explain: Capsaicin is what gives chili peppers their spicy kick.
+
+quiz: About how long do the oldest grapevines live?
+- 10 years
+- 50 years
++ More than 100 years
+explain: Some grapevines are more than 100 years old.
+
+quiz: What term describes peanuts burying their fruit underground?
+- Pea pod
+- Peg
++ Geocarpy
+explain: Very few plants do this unique process of geocarpy.
+
+quiz: How many metric tons of sugarcane did Brazil grow in 2022?
+- 500 million metric tons
+- 600 million metric tons
++ 724.4 million metric tons
+explain: Brazil leads the world in sugarcane production.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-10)
+=== plants-desert-1
+idea: A welwitschia lives for 1,500 years but only has two leaves. Find out how these desert plants survive.
+game: Saguaro cactus = Grows its first arm at 75 years | Welwitschia = Only grows two leaves | Living stones = Looks like pebbles | Resurrection plant = Can lose 95% of water | Century plant = Flower stalk grows 6 to 9 inches a day
+
+--- 🌿
+p: Five desert plants are waiting to meet you: a saguaro cactus, a welwitschia, living stones, a resurrection plant, and a century plant.
+p: Each one has its own way of coping with the harsh desert.
+
+--- 🌿 @saguaro
+p: Meet the saguaro cactus, the tall branching giant of the Sonoran Desert. It grows wild nowhere else on Earth.
+fact(The slow grower): A big one stands 40 to 52 ft (12–16 m) tall and can weigh 4,800 lb (2,200 kg) full of water.
+p: Saguaros start slowly and stay slow. It takes about 75 years before the plant grows its first arm.
+check: How long does it take for a saguaro cactus to grow its first arm?
+- 10 years
+- 50 years
++ 75 years
+hint: Look at the last sentence on the page.
+explain: It takes about 75 years for a saguaro cactus to grow its first arm.
+
+--- 🌿 @welwitschia
+p: Next up is the Welwitschia, a plant that grows exactly two leaves when it sprouts and never grows another one.
+fact(The leaf keeper): The largest known welwitschia stands about 6 ft (1.8 m) high and sprawls 28 ft (8.7 m) wide — all of it made up of those same two leaves.
+
+p: Afrikaans speakers call it tweeblaarkanniedood — 'two leaves, cannot die'. The leaves never stop growing and are never replaced. They split and fray over time but keep pushing out new growth from the base.
+
+--- 🌿 @living-stones
+p: Meet the living stones, a plant that looks exactly like the pebbles around it. It's two fat leaves with a window on top.
+fact(The hidden green): Most of the plant is underground, and the green tissue for photosynthesis lines the inside walls of the buried leaves. The leaves are translucent to let light in.
+check: What part of the living stone does its photosynthesis?
+- The top surface
++ The inner wall
+- The outer surface
+hint: Look at the fact box called The hidden green.
+explain: The inner wall. The green tissue is inside the buried leaves and not on the outside.
+
+--- 🌿 @resurrection-plant
+p: Meet the resurrection plant, a Chihuahuan Desert plant that curls into a dead-looking brown ball and waits for rain.
+term: dormant = Resting and not growing, almost like a deep sleep, until the right conditions come back.
+fact(The hidden life): It can lose about 95 percent of its water and live. Dried right down, it simply stops for years at a stretch, with no damage done.
+p: Put a dry ball in a saucer of water and it starts opening within a few hours. The green comes back and it goes back to making sugar from light.
+
+--- 🌿 @agave
+p: Next up is the century plant. It makes a rosette of gray spiked leaves that spend their whole life saving up for one enormous flower stalk. Then it dies.
+fact(The fast growth): The flower stalk has been measured growing 6 to 9 inches (15–23 cm) in a day, sometimes close to a foot.
+check: How much can the flower stalk grow in a single day?
+- 2 to 3 feet
++ 6 to 9 inches
+- 3 to 4 feet
+hint: Look at the fact box. It gives the exact measurement.
+explain: The flower stalk grows 6 to 9 inches in a single day, sometimes close to a foot.
+
+--- 📊
+p: The saguaro cactus can live up to 175 years and weighs about 4,800 lb. The welwitschia can live for about 1,500 years.
+fact(The lives of plants): Despite its name, the century plant lives only about 30 years. Then it sends up one huge flower stalk and dies.
+
+--- 🌿
+p: A saguaro cactus that lives 175 years. A welwitschia that lasts 1,500 years. A century plant with a fast-growing flower stalk. Living stones and a resurrection plant that survive the desert.
+p: Each plant, in its own way, built to endure.
+
+quiz: How tall can a big saguaro cactus grow?
+- 20 to 30 ft (6–9 m) tall
++ 40 to 52 ft (12–16 m) tall
+- 60 to 70 ft (18–21 m) tall
+explain: Saguaros can grow really tall, but it takes them a long time.
+
+quiz: How wide does the largest known Welwitschia sprawl?
+- 15 ft (4.6 m) wide
++ 28 ft (8.7 m) wide
+- 20 ft (6.1 m) wide
+explain: The welwitschia is a big plant with just two leaves that keep growing.
+
+quiz: What is hidden underground in a living stone?
+- Only the window on top
++ Most of the plant
+- Just the roots
+explain: Most of a living stone is buried, and only the window on top shows.
+
+quiz: What is the largest share of its water the resurrection plant can lose and still live?
+- 75 percent of its water
++ 95 percent of its water
+- 80 percent of its water
+explain: The resurrection plant is really tough and can dry out almost completely.
+
+quiz: About how long do the oldest welwitschias live?
+- 500 years
++ 1,500 years
+- 1,000 years
+explain: Welwitschia plants are some of the longest-lived plants in the world.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-10)
+=== plants-flowers-2
+idea: Roses live up to 35 years. Find out why a rose has prickles, not thorns, how a dandelion seed flies, and how poppy seeds wait in the soil for decades.
+game: Rose = Lives up to 35 years | Tulip = A bulb plant from Central Asia | Dandelion = Seeds fly with bristles | Common poppy = Grows where ground is disturbed | Lavender = Smell stored in glands on leaves and stems
+
+--- 🌿
+p: Five flowers are waiting to meet you: a rose, a tulip, a dandelion, a common poppy, and lavender.
+p: Each one looks different and does its own job.
+
+--- 🌿 @rose
+p: First, meet the rose. It's a prickly shrub with 140 wild species and around 30,000 garden versions.
+p: Those spikes on a rose are not thorns but prickles. A prickle is just an outgrowth of the skin. You can snap one off a rose stem without hurting the plant.
+check: What are the spikes on a rose called?
++ Prickles, an outgrowth of the skin
+- Thorns, which are twigs that turned hard
+- Needles, which are leaves that turned hard
+hint: Look at the second paragraph and find the description.
+explain: The spikes on a rose are prickles, which are just an outgrowth of the skin.
+
+--- 🌿 @tulip
+p: Next up is the tulip. It’s a mountain plant from Central Asia that became so popular in Holland, a single rare bulb once sold for more than a house.
+term: bulb = A part of a plant that grows underground and stores food to help the plant grow.
+fact(The bulb's secret): A bulb grows small copies of itself, so one rare tulip can be multiplied into many that are exactly the same.
+
+--- 🌿 @dandelion
+p: Next up is the dandelion, a lawn weed that carries one of the best-studied flying machines in the plant world.
+fact(The seed head): The yellow head is not one flower. It's 40 to more than 100 little flowers packed side by side, each making a single seed.
+p: Each seed hangs beneath a pappus, a fluffy parachute of about 100 thin bristles. When they fly, a ring of spinning air sits above the bristles, keeping the seed steady.
+check: What keeps the dandelion seed steady while flying?
+- The stem
+- The leaves
++ The bristles
+hint: Look at the last paragraph and find what the seed hangs beneath.
+explain: The bristles keep the seed steady as it flies.
+
+--- 🌿 @poppy
+p: Next, meet the common poppy, a bright red flower that shows up where the ground has been disturbed.
+fact(The seed bank): The seeds can sit in the soil for decades, waiting for the ground to be turned over by a plow or even a shell. Then they come up everywhere at once.
+p: The petals are crumpled inside the bud and push out flat within a day of the bud splitting open.
+fact(Seed capsule): The seed capsule works like a pepper pot with small holes under a flat lid, shaking out seeds little by little when the wind rocks the dry stalk.
+
+--- 🌿 @lavender
+p: Meet lavender, a gray-green shrub in the mint family. It's grown for the oil that sits in tiny glands on its surface.
+fact(The square stem): Roll a lavender stem between finger and thumb and you'll notice it’s square, not round. Every plant in the mint family has this square stem.
+p: The smell is not in the petals but in small glands all over the outside of the plant. Brushing past a plant bursts them, which is why you can smell lavender from the path without touching a single flower.
+check: Where is the smell of lavender stored?
+- In the petals
++ In the glands on the leaves and stems
+- In the soil
+hint: Look at the last paragraph. It talks about where the smell comes from.
+explain: The smell is stored in the glands on the leaves and stems.
+
+--- 📊
+p: The rose lives up to 35 years, the dandelion about 10, and lavender about 15. The common poppy lasts just one year.
+fact(What they share): Each of these flowers has its own trick: prickles, a bulb that splits, seeds that fly, seeds that wait for years, and smell glands that burst when brushed.
+
+--- 🌿
+p: A rose that lives up to 35 years. A dandelion with seeds spread by the wind. Lavender that grows for about 15 years. A common poppy that lasts just one year. Tulip bulbs that split off copies of themselves.
+p: Five flowers, each built for its own way of growing and spreading seeds.
+
+quiz: What is the longest a rose can live?
+- 10 years
++ 35 years
+- 1 year
+explain: Roses can live up to 35 years.
+
+quiz: How does a tulip bulb make more tulips that are exactly like it?
+- It turns into a seed.
++ It splits off copies of itself.
+- It sends out runners above the ground.
+explain: The bulb of a tulip can split into new bulbs, which is why they spread so easily.
+
+quiz: How many little flowers make up the dandelion's yellow head?
+- 5 to 30
++ 40 to more than 100
+- 1 to 10
+explain: The dandelion's yellow head has between 40 and over 100 small flowers.
+
+quiz: How long does a common poppy last?
+- 5 years
++ 1 year
+- 10 years
+explain: The common poppy plant lasts just one year, although its seeds can wait in the soil for decades.
+
+quiz: What shape is the stem of lavender?
+- Round
++ Square
+- Oval
+explain: Every plant in the mint family, like lavender, has a square stem.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-10)
+=== plants-odd-1
+idea: The ghost plant has given up on sunlight and eats fungus instead. Four more plants do things that sound made up, like growing 36 inches in a day or throwing seeds 23 ft.
+game: Sensitive plant = Leaves fold shut quickly when touched | Bamboo = Grows up to 36 inches in a day | Strangler fig = Starts as a seed in another tree | Ghost plant = Lives off a fungus, not sunlight | Himalayan balsam = Seed pods explode, throwing seeds 23 ft
+
+--- 🌿
+p: Five plants are waiting to meet you: a sensitive plant, bamboo, a strangler fig, a ghost plant, and a Himalayan balsam.
+p: Each one does something surprising.
+
+--- 🌿 @mimosa
+p: Start with the sensitive plant. Its leaves fold shut the instant you touch them. They open again a few minutes later.
+fact(The surprising speed): Brush a leaf and the leaflets snap shut in pairs, starting from where you touched. The whole leaf stalk drops in just a second or two.
+check: What happens when you touch a sensitive plant's leaf?
+- It stays open for hours
+- It turns pink
++ It folds shut quickly
+hint: Look at the first paragraph. It tells you exactly what happens.
+explain: The leaves fold shut quickly after you touch them.
+
+--- 🌿 @bamboo
+p: Bamboo is a grass that can stand 151 ft (46 m) tall. It is so big you might think it’s a tree, but it isn’t.
+term: segment = A part of the bamboo stem divided by solid walls at every joint.
+fact(The surprising growth): The fastest-growing bamboo grows up to 36 in (91 cm) in just 24 hours. That's nearly 1.5 in (40 mm) every hour.
+
+--- 🌿 @strangler-fig
+p: Meet the strangler fig, a fig that starts life high up in another tree and ends up standing where its host used to be.
+fact(The surprising start): A strangler fig begins as a seed in a bird dropping, forty feet up in another tree. It sprouts there with no soil underneath it at all, living on rainwater and trapped leaf mold.
+check: How does the strangler fig start its life?
+- In the ground
++ High up in another tree
+- In the middle of a forest
+hint: Look at the second sentence. It tells you where the seed starts.
+explain: The strangler fig starts high up in another tree, from a seed in a bird dropping.
+
+--- 🌿 @corpse-lily
+p: Meet the ghost plant, a flowering plant with no green anywhere. It has given up sunlight and takes its food from a fungus instead.
+fact(No green at all): The ghost plant is white, not pale green — completely white, waxy, and slightly see-through. There is no chlorophyll in it anywhere, so it cannot make food from sunlight.
+
+--- 🌿 @touch-me-not
+p: Next up is the Himalayan balsam, a tall pink-flowered plant from the Himalayas. When its seed pods are ripe, they explode at a touch and throw seeds clear across a riverbank.
+fact(The explosive pods): A ripe pod can fire seeds as far as 23 ft (7 m) when touched by anything — a finger. A raindrop. Or even a passing sheep.
+check: What is the farthest the Himalayan balsam's seed pods can throw seeds?
+- 10 ft
+- 15 ft
++ 23 ft
+hint: Look at the first sentence of the fact box.
+explain: The pods can throw seeds up to 23 ft (7 m).
+
+--- 📊
+p: The sensitive plant folds its leaves when touched. Bamboo can grow 36 inches in a day. A strangler fig starts high in another tree. The ghost plant has no green and feeds on a fungus. Himalayan balsam throws its seeds as far as 23 ft.
+fact(Weights and tricks): Each plant breaks a rule. One moves when touched. One is a grass as tall as a tree. One starts life in the air. One is a flower with no green, and one has a pod that explodes.
+
+--- 🌿
+p: A sensitive plant that curls up when touched. Bamboo growing 36 inches in a day. Strangler figs growing around trees. Colorless ghost plants. Himalayan balsam seed pods exploding.
+p: Five plants, each with a unique trick, showing how different they can be.
+
+quiz: How much can the fastest-growing bamboo grow in 24 hours?
+- About 4 inches (10 cm)
++ Up to 36 inches (91 cm)
+- About 10 inches (25 cm)
+explain: Bamboo can grow up to 36 in (91 cm) in a single day.
+
+quiz: What is unique about the strangler fig’s starting point?
+- It starts from a seed planted by farmers
+- It begins as a small plant on the forest floor
++ It begins as a seed in a bird dropping high up in another tree
+explain: The strangler fig's journey starts way up in the canopy.
+
+quiz: Why is the ghost plant completely white?
+- Because it grows in the dark
++ Because it has no chlorophyll and relies on a fungus for food
+- Because it is covered in snow
+explain: Without chlorophyll, the ghost plant looks very different from other plants.
+
+quiz: What special feature does the sensitive plant have?
+- It produces a loud noise when touched
++ Its leaves fold shut quickly when touched
+- It changes color when touched
+explain: The sensitive plant reacts quickly to touch by folding its leaves.
+
+quiz: How does bamboo's stem structure differ from that of trees?
+- It has soft, spongy wood all the way through
++ It has solid walls at every joint
+- It is covered in thorns
+explain: Bamboo's segments are divided by solid walls at every joint.
+
+# UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-10)
+=== plants-trees-3
+idea: A cacao tree grows its fruit directly out of its trunk. A rainbow eucalyptus shows how old each patch of its bark is by its color.
+game: Cacao = Fruit grows straight from trunk | Rubber tree = Milky sap used for rubber products | Rainbow eucalyptus = Bark peels off in colorful strips | Date palm = Hand-pollinated by growers | Cedar of Lebanon = Valuable wood resists rot and insects
+
+--- 🌿
+p: Five trees are ready to meet you: a cacao tree, a rubber tree, a rainbow eucalyptus, a date palm, and a cedar of Lebanon.
+p: Each one has something special.
+
+--- 🌿 @cacao
+p: Start with the cacao tree. It grows its fruit straight out of its trunk, and is the only source of chocolate.
+fact(Fruit placement): Cacao flowers and fruits grow straight out of the trunk and old thick branches. This is called cauliflory. A cacao tree looks like someone glued the fruit on by hand.
+p: The flowers are tiny, less than an inch across, and pollinated by tiny midges only about one tenth of an inch (2–3 mm) long.
+check: What is the name for flowers and fruits growing straight out of the trunk?
++ Cauliflory
+- Branching
+- Leafing
+hint: Look at the first sentence of the fact box.
+explain: Cauliflory. That's the term for when flowers and fruits grow directly from the trunk or old branches.
+
+--- 🌿 @rubber-tree
+p: Next up is the rubber tree. This Amazon tree has milky sap that comes from its bark and can be turned into tires, gloves, and erasers.
+term: latex = The milky sap inside a rubber tree that is used to make rubber products.
+fact(The hidden network): The latex does not travel through the wood. It moves in its own vessels inside the bark. These vessels wind up the trunk in a slow spiral. A tapper cuts a thin, slanted groove across them so the latex drips out.
+
+--- 🌿 @eucalyptus
+p: Meet the rainbow eucalyptus, a rainforest tree whose bark peels off in strips, leaving its trunk streaked with green, blue, orange, and purple.
+fact(The colorful calendar): The colors are not paint or disease; they show when each strip of bark peeled off. Freshly exposed bark is bright green, then ages through blue, purple, orange, and reddish brown.
+check: What color is the bark when it first peels off?
+- Reddish brown
+- Blue
++ Bright green
+hint: Look at the fact box. It describes the colors as they age.
+explain: The freshly exposed bark is bright green.
+
+--- 🌿 @date-palm
+p: Meet the date palm, a desert tree that has fed people in dry lands for as long as we have records.
+fact(The hand-pollinated harvest): A grower climbs up and pollinates each female palm by hand. This job has been done for thousands of years.
+
+--- 🌿 @cedar-of-lebanon
+p: Meet the Cedar of Lebanon, a giant tree that can grow up to 130 ft (40 m) tall on a trunk as thick as 8 ft (2.5 m).
+fact(The valuable wood): The wood is fragrant and resists rot and insects, making it highly prized for building temples, palaces, and ships.
+p: Cedars of Lebanon are so special that they appear on the national flag of Lebanon and its coat of arms. Very few countries have a specific tree on their flag.
+check: What makes the wood of the Cedar of Lebanon so valuable?
+- It is colorful and decorative
++ It resists rot and insects
+- It is very flexible
+hint: Look at the fact box. It explains why the wood was highly valued.
+explain: The cedar's wood resists both rot and insects, making it perfect for long-lasting buildings.
+
+--- 📊
+p: Four of these trees give people something to use: chocolate, rubber, dates, and timber. The date palm lives about 100 years, while the cedar of Lebanon can live more than 1,000 years.
+fact(Lifespan): A rubber tree is usually tapped for its latex for about 30 years.
+
+--- 🌿
+p: A cacao tree that gives us chocolate. A rubber tree whose milky sap becomes tires and gloves. A rainbow eucalyptus whose bark shows its age in stripes of color. A date palm that lives for a century. A cedar of Lebanon that stands for a thousand years.
+p: Five trees, each one different.
+
+quiz: What do cacao flowers and fruits grow directly from?
+- roots
++ trunk and old branches
+- leaves
+explain: Cacao flowers and fruits grow straight from the trunk and old, thick branches, which is called cauliflory.
+
+quiz: What is the milky sap inside a rubber tree called?
+- resin
++ latex
+- sapwood
+explain: Latex is what we use to make things like tires and erasers.
+
+quiz: How do growers pollinate date palms?
+- by wind
++ by hand
+- by bees
+explain: Growers have been climbing up and pollinating each female palm by hand for thousands of years.
+
+quiz: Why is the wood of the Cedar of Lebanon highly prized?
+- it is colorful
++ it resists rot and insects
+- it is very flexible
+explain: This makes the wood perfect for building long-lasting structures like temples and palaces.
+

@@ -19,6 +19,7 @@ and Lamplight's own 6-11 page range both point at a lesson with 1 intro page
 so species lessons show 1 intro + 1 fact page per species (10 pages for 5) —
 right in Lamplight's band.
 """
+import glob
 import json
 import math
 import os
@@ -84,11 +85,16 @@ function chunkSpecies(course, rows, groups, chunk) {
     const members = rows.filter(r => r.group === gk);
     if (!members.length) return;
     const g = groups[gk];
-    const nChunks = Math.ceil(members.length / chunk);
+    // A leftover of one or two species is folded into the lesson before it (so a lesson holds
+    // 5 to 7): a matching game with a single pair is not a game.
+    let nChunks = Math.ceil(members.length / chunk);
+    if (nChunks > 1 && members.length - (nChunks - 1) * chunk <= 2) nChunks--;
     for (let i = 0; i < nChunks; i++) {
-      const items = members.slice(i * chunk, i * chunk + chunk).map(r => r.id);
+      const end = i === nChunks - 1 ? members.length : i * chunk + chunk;
+      const items = members.slice(i * chunk, end).map(r => r.id);
+      const names = members.slice(i * chunk, end).map(r => r.name);
       out.lessons.push({ id: course + '-' + gk + '-' + (i + 1), course, kind: 'species',
-        group: gk, title: g.name + (nChunks > 1 ? ' ' + romanNumeral(i + 1) : ''),
+        group: gk, title: g.name + (nChunks > 1 ? ' ' + romanNumeral(i + 1) : ''), names,
         glyph: g.glyph, tint: g.tint, items,
         // Each species page already opens with its own blurb — real local
         // context — so the lesson-level intro only needs to say what's ahead.
@@ -115,6 +121,26 @@ console.log(JSON.stringify(out));
 
 CURATION = os.path.join(ROOT, '.work', 'lesson-curation.json')
 QUIZ = os.path.join(ROOT, '.work', 'lesson-quiz.json')
+AUTHORED = os.path.join(ROOT, '.work', 'lessons')
+
+
+def species_title(names):
+    """'Sloth, Mole-rat & Pangolin' rather than 'Mammals III': a title says who you meet."""
+    n = [x.strip() for x in names if x]
+    if len(n) >= 3:
+        t3 = ', '.join(n[:2]) + ' & ' + n[2]
+        if len(t3) <= 32:
+            return t3
+    if len(n) >= 2:
+        if len(n) > 2:
+            t2 = ', '.join(n[:2]) + ' & more'
+            if len(t2) <= 34:
+                return t2
+        else:
+            t2 = ' & '.join(n[:2])
+            if len(t2) <= 32:
+                return t2
+    return (n[0] + ' & more') if len(n) > 1 else (n[0] if n else '')
 
 
 def main():
@@ -124,6 +150,31 @@ def main():
         raise SystemExit('node dump failed:\n' + r.stderr[:2000])
     data = json.loads(r.stdout)
 
+    # AUTHORED lessons (.work/lessons/*.json, written by hand): idea, pages of
+    # blocks, a matching game. These replace the fact-card path entirely for a
+    # lesson — see js/lesson.js. An authored lesson needs no curated intro or
+    # fact order, so those are skipped for it below.
+    authored = {}
+    for f in sorted(glob.glob(os.path.join(AUTHORED, '*.json'))):
+        authored.update(json.load(open(f, encoding='utf-8')))
+    wrote = 0
+    for lesson in data['lessons']:
+        a = authored.get(lesson['id'])
+        if a:
+            lesson['idea'] = a['idea']
+            lesson['pages'] = a['pages']
+            lesson['game'] = a['game']
+            if a.get('quiz'):
+                lesson['quiz'] = a['quiz']          # written into the lesson itself
+            lesson.pop('intro', None)
+            if lesson.get('kind') == 'species' and lesson.get('names'):
+                lesson['title'] = species_title(lesson['names'])
+            wrote += 1
+    unknown = sorted(set(authored) - {l['id'] for l in data['lessons']})
+    if unknown:
+        raise SystemExit('authored lessons with no matching lesson id: ' + ', '.join(unknown))
+    print(f'{wrote} lesson(s) are authored (pages + game + idea)')
+
     # Hand-curated teaching intros + fact ordering (tools/apply_lesson_intros.py),
     # tracked like .work/entries-*.json. Merged back in on every rebuild so a
     # content regeneration never silently drops them.
@@ -132,7 +183,7 @@ def main():
         curation = json.load(open(CURATION, encoding='utf-8'))
         for lesson in data['lessons']:
             c = curation.get(lesson['id'])
-            if c:
+            if c and 'pages' not in lesson:
                 lesson['intro'] = c['intro']
                 lesson['order'] = c['order']
                 curated += 1
@@ -148,7 +199,7 @@ def main():
         quizzes = json.load(open(QUIZ, encoding='utf-8'))
         for lesson in data['lessons']:
             q = quizzes.get(lesson['id'])
-            if q:
+            if q and 'quiz' not in lesson:
                 lesson['quiz'] = q
                 quizzed += 1
     print(f'{quizzed} lesson(s) carry a hand-written quiz')

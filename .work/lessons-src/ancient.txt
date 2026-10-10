@@ -1,0 +1,488 @@
+=== ancient-beginning
+idea: The oldest piece of the Bible fits in your palm. Find out how two different totals for the age of creation come from the same lists in Genesis, and why they differ.
+game: James Ussher = Added up ages to get 4004 BC | Greek Septuagint = Has longer gaps between generations | Leningrad Codex = Oldest complete Hebrew Bible kept in Russia | Ketef Hinnom = Burial cave where silver strips were found
+
+--- 🥈
+p: The oldest piece of the Bible is small enough to fit in your palm. In 1979, two silver strips were found in a burial cave at Ketef Hinnom in Jerusalem.
+fact: These silver strips have the priestly blessing from Numbers 6 scratched into the metal.
+p: They were so fragile that it took three years to figure out how to unroll them without destroying them. Today, they are in the Israel Museum.
+check: What is scratched into the silver strips?
++ The priestly blessing from Numbers 6
+- The Ten Commandments from Exodus 20
+- A song of praise from the Psalms
+hint: Look at the fact box. It names what is scratched into the metal.
+explain: The strips carry the priestly blessing from Numbers 6, carefully etched into the silver.
+
+--- 📚
+p: The oldest complete Hebrew Bible that still exists is called the Leningrad Codex.
+fact: It was copied by hand in AD 1008 and is kept in the Russian National Library in St Petersburg today.
+p: The scribe signed and dated the book at the back, which is how we know it was copied in AD 1008. An even older one, the Aleppo Codex, dates from around AD 930, but parts of it are missing now.
+check: How is the year of the Leningrad Codex known?
+- A dated coin was found tucked inside it
+- Scientists tested the ink in a lab
++ The scribe signed and dated the book
+hint: Look at the paragraph. It says where the date came from.
+explain: The scribe signed and dated the book at the back, which is how we know it was copied in AD 1008.
+
+--- 📜
+term: genealogy = A family list that names each man and his son, one generation after another.
+fact: In Genesis 5, ten men from Adam to Noah are listed. For each one, it gives the age he was when his son was born and how long he lived after. Genesis 11 does the same thing again from Noah's son Shem down to Abraham.
+check: What does the list give for each man?
+- The village where he was born and how much land he owned
++ His age when his son was born and how long he lived afterward
+- The names of his brothers and what jobs they each had
+hint: Look at the fact box. It lists exactly what is given for each man.
+explain: Each entry gives two pieces of information: the age of the father when his son was born and how long he lived afterward.
+
+--- 🧮
+p: In 1650, an Irish archbishop named James Ussher added up all the ages in Genesis 5 and 11.
+fact(Worked out): He said creation happened on the night before October 23rd, 4004 BC. That date is arithmetic, not a verse. Nowhere does the Bible say 4004 BC.
+p: Ussher anchored his total to a known Babylonian king's death and a dated eclipse.
+check: Is the date 4004 BC written in the Bible?
+- Yes, it is written in a verse of Genesis
++ No, it is arithmetic done on the lists
+- Only in a note added by early scribes
+hint: Look at the fact box. It states that 4004 BC is arithmetic, not a verse.
+explain: The date 4004 BC comes from adding up the ages listed in Genesis, not from any verse that says exactly that number.
+
+--- ⚖️
+p: The old copies of Genesis do not all carry the same numbers in their genealogies.
+fact: The Greek Septuagint, an ancient translation, gives longer gaps between generations. Add those up and creation lands nearer 5500 BC, about 1,500 years earlier than Ussher's 4004 BC.
+p: Both totals are honest arithmetic on a written list. They differ because the old copies carry different numbers in the lists.
+check: Why do the two totals for creation differ?
++ The old copies carry different numbers in the lists
+- One list counts in years, the other in months
+- Water damage wiped out some numbers in one list
+hint: Look at the fact box. It mentions that the Greek Septuagint gives longer gaps.
+explain: The difference comes from the old copies carrying different numbers in their genealogies.
+
+--- 🌅
+p: The beginning of Genesis tells about six days of making and a seventh of rest.
+fact(The written account says): Each day ends with an evening and a morning. Light, sky, sea and land, plants, sun and moon and stars, fish and birds, land animals and people. It is a written record you can read.
+p: Open it and you can check for yourself. A written record is a different kind of thing from a measurement or a calculation.
+
+=== ancient-flood
+idea: A boat 450 feet long, a broken clay tablet that tells of a flood, and a tower made of brick. Find out how languages sort into families, and what nobody has managed to join together.
+game: Ark = A big boat from the flood | Flood Tablet = Clay tablet with a flood story | George Smith = The man who discovered the Flood Tablet | Babel = City where languages mixed | Brick and tar = Materials used to build the tower | Language family = Group of languages that share words and patterns
+
+--- 🚢
+p: The written account gives us some exact numbers for the Ark. It was 300 cubits long, 50 cubits wide, and 30 cubits high.
+fact: A cubit is about 18 inches, so that works out to roughly 450 feet long, 75 feet wide, and 45 feet high. That is longer than a football field's 100 yards.
+try: Take a tape measure outside and mark out 450 feet. Walk from one end to the other and count your steps. That is how long the Ark was.
+check: About how long was the Ark in feet?
++ About 450 feet
+- About 100 feet
+- About 200 feet
+hint: The numbers are in the fact box above.
+explain: The Ark was about 450 feet long. That's longer than a football field.
+
+--- 🏺
+p: In the British Museum, there is a broken lump of clay with marks all over it. It tells of a great flood, a boat, and birds sent out to find land.
+fact: This tablet was dug up at Nineveh and is called the Flood Tablet. It is part of a Babylonian poem called the Epic of Gilgamesh.
+check: What does the Flood Tablet tell about?
+- A long war, a walled city, and a king who sought gold
++ A great flood, a boat, and birds sent out to find land
+- A hungry lion, a mountain, and a hero sent to hunt it
+hint: Look at the first sentence on the page.
+explain: The Flood Tablet tells about a great flood, a boat, and birds sent out to find land.
+
+--- 😲
+p: In 1872, George Smith was sorting tablets at the British Museum that nobody had read.
+fact: One day, he made out the flood lines on one of them and got so excited that he jumped up and started taking his clothes off.
+p: After that, he went to Iraq and found the missing piece of the tablet. That almost never happens.
+check: Who made out the flood lines on the tablet?
+- A colleague at the museum
+- The curator
++ George Smith
+hint: Look at the first sentence in the fact box.
+explain: George Smith made out the flood lines on the tablet and got very excited.
+
+--- 🌍
+p: Flood stories turn up in the written traditions of peoples all over the world.
+fact(Worked out, not seen directly): Many of those peoples had no contact with each other. The list includes Babylon, Greece, India, China, and people across the Americas and the Pacific.
+p: What this means is argued about. Some say it points back to one real event remembered everywhere; others say big floods happen everywhere and so do stories about them.
+check: What is true of the peoples who have flood accounts?
+- They all lived in the same place
+- They all wrote their stories at the same time
++ Many of them had no contact with each other
+hint: Look at the fact box to see which peoples are listed.
+explain: Many of those peoples had no contact with each other, yet they still have flood stories.
+
+--- 🧱
+p: After the flood, Genesis 11 tells us that everyone in the world spoke the same language.
+fact: At Babel, after people tried to build a tower, they could not understand one another and scattered across the earth.
+p: The written account says the tower was made of brick and tar, not stone. Southern Iraq, where this happened, has almost no building stone. Everything there was built of mud brick.
+check: What was the tower of Babel built of?
+- Stone blocks
++ Brick and tar
+- Wooden planks
+hint: Look at the first fact on the page to see what materials are mentioned.
+explain: The tower was made of brick and tar because southern Iraq has almost no building stone.
+
+--- 🗣️
+p: Languages are like big families. Some languages share so many words that they are grouped together.
+term: language family = A group of languages that share a lot of words and patterns.
+fact: English, Greek, Hindi, and Farsi share words and endings, making them one family. Hebrew and Arabic form another separate family.
+check: Has anyone linked all the language families to one root?
++ No
+- Yes, Latin
+- Yes, Ancient Egyptian
+hint: Look at the fact on the page to see what it says about linking families.
+explain: Nobody has shown that all language families come from one root. They are grouped based on shared words and patterns.
+
+--- 🌈
+p: A boat 450 feet long. A clay tablet from Nineveh. A tower of brick and tar. Languages sorted into families.
+p: All of it written down, and all of it something you can go and read.
+
+=== ancient-egypt
+idea: Ancient Egypt built massive pyramids and used careful methods to make mummies. Discover how a stone slab helped decipher their writing.
+game: Great Pyramid = Sides differ by less than 8 inches | Rosetta Stone = Key to understanding hieroglyphs | Cartouche = Oval loop around a king's name | Jean-François Champollion = Found foothold by looking for Ptolemy's name | Natron salt = Used to dry out the body | Heart = Kept inside the mummy
+
+--- 🔺
+p: The Great Pyramid is a giant stone building, and the surprise is not how big it is but how exact.
+fact(Astonishing precision): The base covers 13 acres, and its four sides differ in length by less than 8 inches. The ground it sits on was levelled to within about an inch across the whole area.
+p: It was built 455 feet high, but it has lost about 26 feet off the top over time.
+check: How much do the four sides of the Great Pyramid differ in length?
+- More than 80 inches
++ Less than 8 inches
+- Nearly 20 inches
+hint: The fact box says the difference is less than 8 inches.
+explain: The four sides are incredibly precise, differing by less than 8 inches.
+
+--- 🧱
+p: You may have heard that the Great Pyramid is made up of 2.3 million blocks.
+fact(Worked out, not counted): Nobody has actually counted them. The number comes from measuring the outside volume and dividing it by the average size of the blocks you can see.
+check: How was the 2.3 million blocks figure found?
+- By reading the number written in an old record by the builders
+- By adding up the loads that boats brought down the river
++ By working out the volume and dividing by the size of the blocks
+hint: The fact box explains how the volume is used to estimate the number.
+explain: The figure comes from the outside volume divided by the average block size.
+
+--- 📅
+p: You may wonder how we decide when the Great Pyramid was built.
+fact(Worked out, not directly seen): Most books say about 2560 BC. This date comes from Egyptian king-lists copied centuries later and lined up with carbon dates from mortar samples.
+p: Interestingly, nothing on the pyramid itself gives a year. The date is worked out, not read off any stone.
+check: Does the Great Pyramid itself give its date?
++ No, nothing on it gives a year
+- Yes, it has a plaque inside
+- It's written in hieroglyphs on a wall
+hint: Look at the fact box and see how the date was determined.
+explain: The pyramid does not have any markings that give a specific year. The date is worked out from other sources.
+
+--- 🪨
+p: In a room of the British Museum stands a dark stone slab with writing on it.
+fact: The Rosetta Stone has the same decree cut into it three times, each in a different script. French soldiers found it dug into a wall at Rashid in 1799.
+p: One of those scripts was Greek, which people could still read. This made the stone the key to understanding hieroglyphs.
+check: Why was the Rosetta Stone the key to deciphering hieroglyphs?
++ One of its three scripts was Greek, which people could still read
+- It was the largest stone carving ever found anywhere in Egypt
+- It was found sitting inside a tomb beside a book of signs
+hint: Look at the fact box and see what made it unique.
+explain: The Rosetta Stone had a script in Greek, which helped unlock the meaning of hieroglyphs.
+
+--- 🔤
+p: Hieroglyphs are not just pictures. Most signs stand for sounds, like letters in an alphabet.
+term: cartouche = The oval loop that surrounds a king's name.
+fact: Jean-François Champollion found his first foothold by looking for the name Ptolemy inside a cartouche.
+check: What is a cartouche?
+- The golden mask over a king's face
++ The oval loop around a king's name
+- A prayer carved on a king's coffin
+hint: It's the shape that encloses a king's name.
+explain: A cartouche is the oval loop that surrounds a king's name in hieroglyphs.
+
+--- 🏺
+p: Making a mummy was a long job. First, the body was packed in natron salt for about forty days to dry it out.
+fact: The lungs, liver, stomach, and intestines were taken out and stored separately. The brain was removed through the nose with a hooked rod and thrown away.
+p: But there was one organ they always left inside. The heart was kept right where it was because they believed that was where a person did their thinking.
+check: Why was the heart left in the body?
+- They thought it was too hard to remove
+- They thought it made the mummy look better
++ They thought a person did their thinking with it
+hint: Look at the last paragraph. It explains why the heart was left in.
+explain: They believed the heart was where a person did their thinking, so it had to stay inside.
+
+--- 🌅
+p: A pyramid level to within an inch. A block count nobody made. A stone with the same message in three scripts. A heart left inside the body.
+p: Each one something you can see, and each one something somebody had to work out.
+
+=== ancient-mesopot
+idea: The oldest writing we can read was pressed into wet clay, and a palace fire is the reason a whole library survived. Find out where a famous law code was found, and why it was not in Babylon.
+game: Ashurbanipal = King with a vast library | Hammurabi = Made the Code of Laws | Standard of Ur = A decorated wooden box | Leonard Woolley = Archaeologist who found the Standard of Ur
+
+--- ✍️
+term: cuneiform = The oldest writing we can still read, pressed into wet clay with a cut reed. It means wedge-shaped, because each press leaves a wedge.
+fact: Hundreds of thousands of these clay tablets have been dug up, and most have never been translated.
+try: Flatten a lump of modeling clay and press the end of a stick into it at different angles. Try to make marks you can tell apart from every other mark you've made.
+check: What does cuneiform mean?
++ Wedge-shaped
+- Circle-shaped
+- Star-shaped
+hint: Each press leaves a wedge shape, like the end of a cut reed.
+explain: Cuneiform means wedge-shaped because each press makes a wedge.
+
+--- 📚
+p: In Nineveh, archaeologists found a king's library that had about 30,000 clay tablets and fragments.
+fact: The library belonged to King Ashurbanipal and included letters, omens, medicine, word-lists, and even a poem with a flood story.
+p: The palace burned down, but the fire did not destroy the library. Fire bakes clay harder, so the tablets survived.
+check: Why did the library survive?
+- The tablets were made of metal
+- The building had a fireproof safe
++ The fire baked the clay harder
+hint: Look at the last paragraph. It explains what happened to the clay.
+explain: Fire bakes clay harder, so the tablets in the library survived the blaze.
+
+--- ⚖️
+p: In the Louvre stands a finger of black stone, 7 feet 5 inches tall, with 282 laws carved all around it.
+fact: It is the Code of Hammurabi, and the laws cover farm rent, wages, surgery gone wrong, and what happens if a house falls down and kills someone. One of the oldest legal documents still readable.
+p: This black stone finger was not found in Babylon but at Susa in Iran, in 1901, because somebody had carried it off as loot.
+check: Where was the Code of Hammurabi found?
+- In the old city of Ur, under a temple
++ At Susa in Iran, carried there as loot
+- Inside a tomb near Thebes in Egypt
+hint: Look at the last paragraph. It mentions where and when it was found.
+explain: The stone was discovered at Susa in Iran in 1901 after being carried off as loot.
+
+--- 🪜
+p: The ziggurat at Ur is a big stepped platform made of mud bricks.
+fact: It has three great staircases meeting at the top. The lowest stage still stands, and people can climb it today.
+p: Some of the bricks are stamped with a king's name, like finding a builder's mark on a brick.
+
+--- 📦
+p: The Standard of Ur is a wooden box about 19 inches long, covered in shell and blue lapis lazuli.
+fact: One side shows a feast, and the other side shows wagons with four solid wheels each, pulled by donkeys.
+p: It came out of a royal tomb dug up by Leonard Woolley in the 1920s. Today it is in the British Museum. Nobody knows what it was used for.
+
+--- ⚙️
+p: The earliest wheels that survive are not on carts at all.
+fact: They are potter's wheels — flat discs spun to shape clay. Wheels for carrying things show up later, made of three planks pegged together into a solid disc.
+p: A solid wooden wheel is enormously heavy. Spoked wheels came much later and changed everything.
+check: What were the earliest wheels used for?
++ Shaping clay into pots
+- Carrying heavy loads
+- Pulling wagons
+hint: The earliest wheels are potter's wheels used to shape clay.
+explain: The earliest wheels were flat discs used to shape clay on potter's wheels.
+
+--- 🏺
+p: Wedges pressed into wet clay. A library baked hard by a fire. Laws on a finger of black stone. A staircase people still climb.
+p: And before any cart, a flat disc for shaping pots.
+
+=== ancient-israel
+idea: A shepherd's thrown stone, a boy wading in a tunnel and a broken piece of black rock all turned up writing from long ago. Find out which of them names David.
+game: Shepherd = Threw a stone into a Dead Sea cave | Tel Dan stone = Mentions "House of David" | Isaiah scroll = 24 feet long on leather sheets | Cyrus Cylinder = Allowed captives to rebuild their temples | Lachish carving = Shows the town under siege | Boy wading = Found the inscription in Jerusalem's tunnel
+
+--- 🏺
+p: In 1947, a young shepherd was exploring caves near the Dead Sea. He threw a stone into one of them and heard pottery break.
+fact: Inside the cave were jars filled with scrolls. One of these scrolls is a complete book of Isaiah, 24 feet long, written on 17 sheets of leather sewn together.
+check: What did the shepherd hear when the stone landed?
+- A bat flying away
++ Pottery breaking
+- Rocks crumbling
+hint: Look at the fact box. It names what broke.
+explain: He heard pottery break because inside the cave were jars filled with scrolls.
+
+--- 👑
+p: In 1993, a broken piece of black basalt turned up in a wall at Tel Dan in northern Israel.
+fact: Cut into it, in Aramaic, is a boast by a king about defeating his enemies — and the phrase "House of David". It is the earliest mention of David found outside the Bible.
+check: What phrase is cut into the Tel Dan stone?
++ House of David
+- King Solomon's mines
+- Temple of Jerusalem
+hint: The fact box mentions the exact phrase.
+explain: The stone boasts in Aramaic about defeating enemies and includes the phrase "House of David".
+
+--- 💧
+p: Under Jerusalem, there is a tunnel 1,750 feet long, cut through solid rock, that still carries water.
+fact: Two teams dug it from opposite ends to bring a spring inside the city walls before a siege. The pick marks change direction where they met in the middle.
+try: Measure out 1,750 feet on a map of your own street. That is how far two teams cut through rock, in the dark, and still met.
+check: How did the two teams of diggers meet?
+- They started in the middle and dug toward both ends
+- One team dug while the other hauled away the rock
++ They cut from opposite ends and met in the middle
+hint: The fact box explains where they started and how they met.
+explain: They dug from opposite ends and met in the middle. The pick marks show where they joined.
+
+--- 🗣️
+p: In 1880, a boy was wading through the water tunnel under Jerusalem when he noticed something on the wall.
+term: inscription = Writing cut into a hard surface such as stone or a wall.
+fact: The writing described the last moments of the dig. Two teams called to each other as they cut from opposite ends, and then their pick-axes broke through.
+check: Who found the inscription in the tunnel?
++ A boy wading in the tunnel
+- An archaeologist with a flashlight
+- A tourist exploring the city
+hint: The fact box tells you who noticed the writing.
+explain: A boy was wading in the tunnel and spotted the writing on the wall.
+
+--- 🏹
+p: An Assyrian king once carved a battle scene along the walls of his palace in Nineveh.
+fact: The carving shows the town of Lachish under siege, with ramps for attackers, archers, battering rams, and people leaving the town. Today, the wall is in the British Museum.
+p: Excavators later dug at Lachish and found evidence that matched the carving: a siege ramp, a burned layer, and heaps of sling stones and arrowheads. The carving and the ground agree.
+check: What does the carving at Nineveh show?
+- A victory parade in the king's city
+- A festival in honor of the gods
++ The siege of the town of Lachish
+hint: Look at the fact box. It tells you what the carving shows.
+explain: The carving at Nineveh shows the siege of Lachish, with attackers and defenders, just as the excavations found evidence for it.
+
+--- 🛕
+p: Imagine a barrel of clay about 9 inches long, covered in ancient writing.
+fact: Dug up at Babylon in 1879, the Cyrus Cylinder tells us King Cyrus sent captured peoples back to their homes and let them rebuild their temples.
+p: This is the same policy described in the book of Ezra, but from a different perspective. The cylinder shows that Cyrus really did follow this practice.
+check: What does the Cyrus Cylinder say Cyrus let captive peoples do?
+- Stay in Babylon and work for the king
++ Go home and rebuild their temples
+- Build new palaces for themselves
+hint: Look at the fact box. It tells you what King Cyrus allowed.
+explain: The cylinder says that King Cyrus sent the captured peoples back to their homes and allowed them to rebuild their temples.
+
+--- 📜
+p: A jar of scrolls in a cave. A stone with a king's boast. A tunnel cut from both ends. A wall carved with a siege. A barrel of clay.
+p: Each one something you can go and see.
+
+=== ancient-greece
+idea: The most famous straight-line building in the world has almost no straight lines. Find out what a corroded green lump from a shipwreck turned out to hold.
+game: Parthenon = Floor rises 4 inches in the middle | Antikythera = Tracked the sun and moon, predicted eclipses | Archimedes' screw = Lifts water uphill when turned | Olympic Games prize = Wreath made of wild olive branches | Herodotus = Wrote closest to the event about Marathon | Phoenicians = Did not write down vowels
+
+--- 🏛️
+p: The Parthenon is the most famous straight-line building in the world, and it has almost no straight lines.
+fact: The floor rises about 4 inches in the middle of the long sides. The columns lean slightly inwards and bulge in the middle. Measure it and you find hardly anything is truly flat or upright.
+p: Why the builders did this is argued about — a correction for how eyes work, or simply how it looked best. But the measurements themselves are not in doubt; people have surveyed that building for two hundred years.
+check: How much does the Parthenon floor rise in the middle?
++ About 4 inches
+- About 1 inch
+- About 10 inches
+hint: Look at the first sentence of the fact box. It gives the number.
+explain: The floor rises about 4 inches in the middle, making it far from perfectly flat.
+
+--- ⚙️
+p: In 1901, sponge divers found a corroded green lump off Antikythera. Inside were at least thirty bronze gears.
+fact: X-rays and scans have read the inscriptions inside it. It tracked the sun and moon and predicted eclipses. Nothing else of that complexity survives from anywhere near its time.
+check: What did the Antikythera gears track?
+- The ocean tides and sea winds
+- The sailing days and sea storms
++ The sun and moon, and eclipses
+hint: Look at the fact box. It tells you what it tracked.
+explain: The inscriptions show that it tracked the sun and moon, and predicted eclipses.
+
+--- 🔩
+p: Archimedes figured out how levers make lifting easier, and he said that with a good place to stand, he could move Earth itself.
+fact: He also invented a screw inside a tube that lifts water uphill when you turn it. Farmers still use this design today.
+try: Balance a ruler on a pencil with a book on one end. Move the pencil closer to the book and press the other end. Notice how much less effort it takes the further away you push.
+check: What does Archimedes' screw do?
+- It grinds grain into flour
++ It lifts water uphill
+- It drills holes in wood
+hint: Look at the second sentence on this page. It tells you what the screw does.
+explain: The screw inside a tube lifts water uphill when you turn it.
+
+--- 🔤
+p: The Greeks got their letters from the Phoenicians, but they added something new.
+term: alphabet = The set of letters that make up a writing system. It comes from the first two Greek letters, alpha and beta.
+fact: The Greeks added vowels to the Phoenician letters. Our A, B, and E are those same letters, handed down through the Romans.
+check: What did the Greeks add to the Phoenician letters?
++ Vowels
+- Numbers
+- Pictures
+hint: Look at the second sentence on this page. It tells you what the Greeks added.
+explain: The Greeks added vowels, which the Phoenicians never wrote down.
+
+--- 🥇
+p: The Greeks kept careful lists of who won at the Olympic Games.
+fact: The prize was a wreath made of wild olive branches. There was no second place recorded.
+p: These winner-lists were useful for more than just sports. Greek writers dated other events by counting the number of games that had passed, giving historians a way to measure time.
+check: What was the prize at the Olympic Games?
+- A sack of silver coins
++ A wreath of wild olive
+- A bronze shield and sword
+hint: Look at the first fact box on this page. It tells you what the prize was.
+explain: The prize was a wreath made from wild olive branches.
+
+--- 🏃
+p: You may have heard a story about a runner carrying news from Marathon to Athens and then dying. That version came much later.
+fact(Worked out, not seen directly): Herodotus wrote closest to the event, and he describes a runner going to Sparta for help instead, which was a much longer run.
+p: The dying-messenger story turns up centuries later. It might be true, but it’s important to know what the earliest account actually says.
+check: Who wrote closest to the event?
+- Thucydides
+- Plato
++ Herodotus
+hint: Look at the fact box on this page. It tells you who wrote closest to the event.
+explain: Herodotus wrote closest to the event, and he described a different story than the famous one.
+
+--- 🏺
+p: Curves of columns holding up temples. Gears and screws for moving water. Letters on stone recording events. Wreaths for victors. Accounts written close to the event.
+p: Each piece tells a part of ancient history.
+
+=== ancient-rome
+idea: Roman concrete gets stronger in seawater, and one dome has stood open to the rain without any steel in it. Find out how a pour of plaster showed us a person from Pompeii.
+game: Roman concrete = Gets stronger with seawater | Pantheon dome = Largest unreinforced concrete dome | Nîmes aqueduct = Drops only one inch in 250 feet | Vesuvius = Buried Pompeii with hardened ash | Colosseum = Held about 50,000 people | House = Short blunt older English word
+
+--- 🏗️
+p: Have you ever wondered why some old buildings are still standing strong after all these years? Roman concrete harbors are a perfect example. They are still standing in seawater, which modern concrete cannot do.
+fact: The Romans mixed volcanic ash into their concrete. Seawater reacts with the ash and grows new crystals inside the concrete, making it stronger instead of letting it crumble.
+check: What did the Romans mix into their concrete?
+- Sand
++ Volcanic ash
+- Gravel
+hint: Look at the fact box. It tells you what they mixed in.
+explain: The volcanic ash reacts with seawater to grow new crystals inside the concrete, making it stronger over time.
+
+--- 🏛️
+p: The Pantheon in Rome has a huge concrete dome that is 142 feet across.
+fact: At the very top of the dome is a 27-foot hole open to the sky. There is no steel in the dome, and it is still the largest unreinforced concrete dome in the world.
+term: unreinforced = A structure made without any metal supports inside.
+check: What is at the top of the Pantheon's dome?
++ A 27-foot hole open to the sky
+- A bronze statue of a Roman god
+- A circle of colored glass windows
+hint: Look at the fact box. It tells you what is at the top.
+explain: The dome has a 27-foot hole in the middle, and rain still comes through it.
+
+--- 💧
+p: The aqueduct that brought water to Nîmes runs about 31 miles.
+fact: It drops only 41 feet over that whole distance, which is a slope of roughly one inch in every 250 feet.
+p: They surveyed it with water levels and sighting rods. Too steep and the water tears the channel apart; too flat and it stops.
+check: How steep is the Nîmes aqueduct?
++ About one inch in every 250 feet
+- About one foot in every 100 feet
+- About one inch in every 10 feet
+hint: Look at the fact box. It gives you the exact slope.
+explain: The aqueduct drops only 41 feet over 31 miles, so it is about one inch in every 250 feet.
+
+--- 🌋
+p: When Vesuvius buried Pompeii, bodies left holes in the hardened ash as they decayed.
+fact: In 1863 an excavator started pouring plaster into those holes before digging them out. What comes out is the shape of a person in their last moment.
+p: Pliny the Younger watched the eruption from across the bay as a teenager and wrote two letters describing it. His account matches the ash layers exactly.
+check: How were the body shapes made?
+- Stone carved by artists who copied the people they saw
+- Wax pressed over each body as soon as it was found
++ Plaster poured into the holes the bodies left in the ash
+hint: Look at the second sentence. It explains how the shapes were made.
+explain: The excavator poured plaster into the holes, and what came out was the shape of a person.
+
+--- 🏟️
+p: The Colosseum in ancient Rome held about 50,000 people and had 80 entrances.
+fact: Spectators were given numbered tokens telling them which arch to use and where to sit. The numbers are still carved above the arches today.
+check: What told spectators which arch to use?
+- Color-coded signs
+- Shapes carved into the seats
++ Numbered tokens
+hint: Look at the second sentence. It mentions the numbered tokens.
+explain: Each spectator got a numbered token that matched the numbers carved above the arches.
+
+--- 🔤
+p: Many of the words we use today have a surprising history.
+fact(Worked out, not seen directly): Animal, family, question, city, table, letter, number—all these came from Latin through French. The short blunt ones like house, food, eat, work are older English.
+try: Read a page of any book and try to sort the words into short blunt ones and longer smoother ones. The long ones are mostly Latin arriving late.
+check: Which of these is an older English word?
+- Animal
++ House
+- Number
+hint: Look at the example words given in the fact box.
+explain: Short blunt words like "house" are usually older English.
+
+--- 🏺
+p: Concrete that gets stronger in seawater. A dome with a hole in the top. A water channel that drops one inch in 250 feet. Plaster shapes of people, and numbered tokens for 50,000 seats.
+p: All of it, still here from Rome.
+

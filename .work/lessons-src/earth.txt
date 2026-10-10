@@ -1,0 +1,761 @@
+# Wonder Lab — Earth course, hand-written lessons.
+# earth-quakes and earth-rocks are the GOLD lessons: written by hand, they are
+# the examples tools/draft_lessons.py shows the local model. Everything else in
+# this file was drafted by it and then read, corrected and approved by me.
+
+=== earth-quakes
+idea: The ground under your feet never stops moving. Find out how we measure it, and how a ten-year-old on a beach used what she had learned.
+game: P wave = The push-pull wave that arrives first | S wave = The sideways wave that does more damage | Chile 1960 = The strongest earthquake ever measured | Tsunami in deep water = Moves over 500 mph, barely lifts the sea | Tilly Smith = The ten-year-old who cleared her beach | Kola borehole = The deepest hole ever drilled
+
+--- 🌍
+p: Stand still for a moment. It feels like you are not moving at all. But Earth's surface is cracked into giant slabs called plates, and they creep along at about the speed your fingernails grow.
+fact(How we know): Nobody has watched a plate move. But GPS receivers are bolted to bedrock all over the world, and each one reports its own position. Year after year, those positions keep changing by exactly those small amounts.
+try: Draw a line on paper 4 inches long. That is about as far as the quickest plates travel in a whole year. The slowest move about one inch.
+check: What shows us that the plates are moving?
+- Cameras that film the ground all year
+- Drills that measure how hot the rock is
++ GPS receivers bolted to bedrock
+hint: Look at the How we know box. It names what is bolted to the rock.
+explain: Each receiver reports its own position, and those positions keep shifting by a few inches a year.
+
+--- 📈
+p: Where plates grind past each other, the ground sometimes jerks. That is an earthquake. Most are far too small to feel, and thousands are recorded every single day.
+term: magnitude = The number that tells you how big an earthquake is. You may hear it called the Richter scale, but today's numbers come from a newer scale that agrees with it in the middle.
+fact(Big ones are rare): Across the years 2000 to 2021, the world averaged about 135 quakes of magnitude 6 a year, around 13 of magnitude 7, and roughly one of magnitude 8 or stronger.
+check: About how many magnitude 7 earthquakes happen in a typical year?
+- About 1
++ About 13
+- About 135
+hint: Each step up gets rarer. Magnitude 6 is about 135 a year, and magnitude 8 is about one.
+explain: Around 13 a year. Magnitude 6 is about 135, and 8 or stronger is about one.
+
+--- 🔟
+p: Here is the surprise about magnitude. The numbers do not climb like a ruler.
+fact: Every whole step up the scale means the ground shakes ten times as far, and about 32 times as much energy comes out.
+p: So a magnitude 7 is not a little worse than a 6. It would take roughly 32 sixes to add up to one seven.
+check: About how many magnitude 6 earthquakes would it take to match the energy of one magnitude 7?
+- About 10
++ About 32
+- About 100
+hint: One whole step up is about 32 times the energy.
+explain: About 32. That is why a single step up the scale is such a big jump.
+
+--- 🌊
+p: So how big can an earthquake get? The strongest ever measured struck southern Chile, near Valdivia, on 22 May 1960.
+fact(The record): Magnitude 9.5. The shaking lasted about ten minutes, and hundreds of miles of coastline tore at once.
+p: And it was not over. The tsunami it launched was still killing people in Hawaii and Japan a day later.
+
+--- ✈️
+p: A tsunami is a wave, but nothing like the ones you jump in at the beach.
+fact: In deep water it crosses the ocean at over 500 mph, about the speed of an airliner, while lifting the surface only a few feet.
+p: A ship sitting right on top of one feels nothing unusual. The wave only piles up into something terrible when it reaches shallow water. Buoys in the deep ocean feel it slip underneath and radio a warning to the coast.
+check: A ship is floating right on top of a tsunami, far out at sea. What does the crew notice?
+- A wall of water towering over the deck
++ Almost nothing
+- The sea draining away
+hint: In deep water the wave lifts the surface only a few feet.
+explain: Almost nothing. The wave only piles up when it reaches shallow water.
+
+--- 🏖️
+p: In 2004, a ten-year-old girl named Tilly Smith was standing on Mai Khao Beach in Thailand. The water looked wrong to her.
+fact(The warning signs): A tsunami announces itself. Sometimes the sea drains away first and leaves fish stranded. Sometimes the water comes in and in and never goes out, frothing oddly.
+p: Tilly knew those signs from a geography lesson two weeks earlier. She told her parents. Her father told a hotel security guard. The beach was cleared before the wave arrived, and Mai Khao was one of very few beaches on Phuket where nobody was killed.
+check: How did Tilly know that something was wrong with the water?
+- She had felt the ground shake beneath her feet
++ She had learned the signs in a geography lesson
+- A lifeguard on the beach warned her to run away
+hint: She had learned about it two weeks before.
+explain: A geography lesson, two weeks earlier. What she had learned protected a whole beach.
+
+--- 📈
+p: Every earthquake sends out two kinds of wave from the same spot at the same moment. One races ahead and one lags behind. The gap between them tells you how far away the quake was.
+term: P wave = The push-pull wave. It is the fastest through rock, so it always arrives first.
+term: S wave = The sideways wave. It lags behind the P wave, and it does more damage.
+check: What can you work out from the gap between the P wave and the S wave?
++ How far away the earthquake was
+- How many buildings it knocked down
+- How long the shaking lasted
+hint: One wave is faster than the other, so the gap grows with the distance they travel.
+explain: The farther away the quake, the longer the wait between the two waves.
+
+--- ⛏️
+p: Now a puzzle. How far down have people actually been? The deepest hole ever drilled is the Kola borehole in Russia, finished in 1989 at 40,230 feet (12,262 m). That is 7.6 miles straight down.
+fact: The rock at the bottom was around 356 degrees F (180 C), far hotter than planned, and the drilling stopped. Kola never came close to leaving the crust.
+p: Nobody has ever been below the crust, and nobody has seen the core. So what do we know about it?
+
+--- 🔔
+fact(Worked out, not dug up): Sideways S waves cannot travel through liquid, and they vanish partway down. So the outer core is reasoned to be molten.
+p: In 1936, a Danish seismologist named Inge Lehmann noticed waves arriving where a fully liquid core should have left silence. She argued there was a solid inner core inside the liquid one. No camera and no sample, just wiggles on a chart.
+check: Why do we think Earth's outer core is liquid?
+- A drill brought up melted rock
+- A camera was lowered into the core
++ Sideways waves vanish partway down
+hint: Nobody has been there. Think about what earthquake waves do.
+explain: S waves cannot pass through liquid, and they vanish partway down. It is worked out, not seen.
+
+--- 🏗️
+p: People do not just measure earthquakes. They build to survive them.
+fact: Some buildings do not sit on the ground at all. They sit on thick pads of rubber layered with steel and lead. When the ground jerks sideways, the pads squash and shear, and the building above lags behind, moving far less than the dirt under it.
+p: Hospitals, museums and emergency centers are built this way in Japan, New Zealand and California.
+
+--- 📜
+p: So where did the ground come from in the first place?
+fact(The written account says): On day three in Genesis, the waters under the sky are gathered into one place, and dry land appears. Water first, and then land standing out of it, which the account calls Earth.
+
+=== earth-rocks
+idea: Almost half of every rock is oxygen, and salt is a mineral. Look closer at the ground, and find out why a ruby and a sapphire are the same stone.
+game: Obsidian = Glass that a volcano made | Halite = Breaks into tiny cubes | Corundum = The mineral behind ruby and sapphire | Naica = The Mexican mine of giant crystals | Pumice = Full of bubbles, so it floats | Mica = Black flecks that peel in shiny sheets
+
+--- 🪨
+p: Pick up a rock and hold it. Here is a secret about what is inside. Nearly half of it, by weight, is oxygen, the same element you are breathing right now, locked into minerals instead of floating loose.
+fact(By weight): Oxygen makes up 46 percent of Earth's crust. Silicon is another 28 percent, and aluminum is about 8. Most rock is those three joined together, with some iron mixed in.
+check: Which element makes up the biggest share of Earth's crust?
+- Iron
+- Silicon
++ Oxygen
+hint: Look at the first number on the page. It is the same element you breathe.
+explain: Oxygen, at 46 percent. Together with silicon and aluminum, it makes up more than four fifths of everything you walk on.
+
+--- 🔍
+p: Look at a polished granite countertop. All those speckles look like one speckled stone. They are not.
+fact: Each speck is a separate mineral, grown together with its neighbors. Glassy gray grains are quartz. Blocky pink or white ones are feldspar. The black flecks are mica, and they peel off in shiny sheets.
+try: Put your eye close to a granite counter, step or gravestone. You can usually pick out three or four different kinds of grain without a magnifier.
+check: What are the speckles you see in granite?
++ Separate minerals grown together
+- Paint that was added to the stone
+- Tiny pieces of glass
+hint: Look at the page again. Quartz, feldspar and mica are all in there.
+explain: Granite is a mixture. You are looking at several minerals, each with its own look.
+
+--- 🧂
+p: Here is a mineral you have probably already eaten today.
+term: halite = The proper name for table salt. It is the one rock that people eat on purpose.
+fact: Halite always breaks along the same three directions, so its grains come apart into tiny cubes.
+try: Tip a little salt onto dark paper and look closely. The cubes are right there.
+
+--- ✋
+p: How do you tell one mineral from another? You find out what scratches what.
+fact(The hardness scale): A mineral's hardness is really a list of what it can scratch. Talc, number 1, gives way to a fingernail. Quartz, number 7, cuts glass. Diamond sits at 10, and the only thing that reliably scratches a diamond is another diamond.
+try: Your fingernail is about 2.5 on the scale, and a copper coin is about 3. A rock your nail marks is softer than calcite. A rock that shrugs off a steel key is harder than about 5.5.
+check: A rock shrugs off a steel key. What do you know about it?
+- It is softer than your fingernail
++ It is harder than about 5.5
+- It must be a diamond
+hint: Look at the try it box. The steel key sits at about 5.5.
+explain: It is harder than about 5.5. That is all the test says, which is why geologists carry a key.
+
+--- 📏
+p: The scale is named for Friedrich Mohs, a German mineral expert. In 1812 he lined up ten minerals in the order of which scratched which. He never measured a force or built a machine. He just made a ranking, and it is still in every geology kit.
+fact(Not a ruler): The scale looks like a ruler, but it is not one. Corundum is 9 and diamond is 10, one step apart. Yet measured properly with a hard point, diamond resists about five times better than corundum.
+check: Corundum is 9 and diamond is 10. How much harder is diamond, really?
+- Exactly one step harder
+- Just a tiny bit harder
++ About five times harder
+hint: The numbers are only an order of finish, not a measurement.
+explain: About five times better at resisting a hard point. The gaps between the ten steps are all different sizes.
+
+--- 💎
+p: Now a magic trick. Ruby and sapphire are the same mineral.
+term: corundum = The mineral that both rubies and sapphires are. It is aluminum and oxygen.
+fact: A trace of chromium turns it red, and it gets called ruby. Traces of iron and titanium turn it blue, and it gets called sapphire. Same hardness, same recipe, a different pinch of something extra, and a wildly different price.
+
+--- 🌋
+p: Volcanoes make rocks that do surprising things. Start with glass.
+fact: Obsidian is glass that a volcano made. The lava cooled so fast that its minerals never got to line up into crystals. With no grain to follow, a flake of obsidian can come to an edge a few nanometers across, thinner than the edge of a steel razor. People chipped it into knives and arrowheads.
+check: Why can obsidian get such a sharp edge?
+- It is the hardest mineral there is
++ It has no crystal grain to follow
+- It is heated until it is soft
+hint: Look at the second sentence. It says what the minerals never got to do.
+explain: The minerals never lined up into crystals, so it breaks to an edge only a few nanometers across.
+
+--- 🫧
+p: And here is a rock that floats.
+fact: Pumice is rock full of frozen gas bubbles. After some eruptions, whole rafts of it drift across the open sea, and ships and satellites track them for months. In the end the pumice waterlogs and sinks.
+try: Drop a piece in a glass of water and it bobs. Leave it long enough, and water works into the holes and it goes under.
+
+--- 🕳️
+p: Now the biggest crystals anyone has ever found.
+fact(Naica, Mexico): Miners at Naica in Mexico broke into a chamber packed with clear gypsum beams. The largest measure about 37 feet (11 m) long and 13 feet (4 m) thick, and weigh roughly 55 tons. They are single crystals.
+p: The chamber sits near 136 degrees F (58 C), and the air is almost completely saturated with water. Even in cooled suits, people could only stay a few minutes at a time. In October 2015 the mine's pumps were switched off, and the water came back and covered the crystals again.
+check: How long could people stay inside the Naica crystal chamber, even in cooled suits?
+- A whole working day
+- About an hour
++ Only a few minutes
+hint: The chamber sits near 136 degrees F, and the air is full of water.
+explain: Only a few minutes at a time. It was far too hot and wet to stay.
+
+--- 📜
+p: Genesis names minerals early. Describing the land of Havilah in chapter 2, it lists gold, bdellium and onyx stone.
+fact: Onyx is banded quartz, number 7 on the hardness scale, and people still cut and polish it.
+p: So the next time you pick up a rock, look closer. Grains, cubes, a pinch of chromium. There is a lot to read in one small stone.
+
+=== earth-volcanoes
+idea: Two words sound the same, and one of them is a trap. Find out how anyone knows what is hiding under a volcano when nobody has ever looked.
+game: Magma chamber = Worked out from earthquake waves | Plinian eruption = Named after Pliny the Younger's description | Ol Doinyo Lengai = Erupts coolest lava on Earth | Tambora = Caused the year without a summer | USGS = Keeps watch on volcanoes in the United States
+
+--- 🌋
+p: Two words that sound almost the same, and one of them is a trap: magma and lava.
+term: magma = The melted rock underground.
+term: lava = The melted rock once it comes out of the volcano.
+check: What is melted rock called once it comes out of the vent?
+- Magma
+- Rock
++ Lava
+hint: It changes its name when it leaves the ground.
+explain: Once the melted rock is out, it is called lava.
+
+--- 🏔️
+p: Here’s a surprise: measured from its base on the sea floor, Mauna Kea in Hawaii is taller than Mount Everest.
+fact: Mauna Kea rises about 30,610 feet (9,330 m) from the sea floor. Everest stands 29,032 feet (8,849 m) above sea level.
+p: But most of Mauna Kea is underwater. Only 13,803 feet (4,207 m) of it sticks out above the water.
+check: Measured from the sea floor, which mountain is taller?
+- Mount Everest
++ Mauna Kea
+- They are the same height
+hint: Look at the first number on the page.
+explain: Mauna Kea rises about 30,610 feet from the sea floor, making it taller than Everest.
+
+--- 🎬
+p: Films often get it wrong. Most lava flows creep along slower than you walk, and people stand next to them taking photographs.
+fact: The real killer is the pyroclastic flow: a ground-hugging cloud of hot ash and gas that comes down the slope faster than 50 mph (80 km/h).
+p: That is what reached Pompeii and Herculaneum. Volcanologists worry less about where the lava is going and more about whether the eruption column is about to collapse.
+check: Which one is the real killer?
++ The pyroclastic flow
+- The glowing lava river
+- The rising ash cloud
+hint: Look at the fact box for a description of the killer.
+explain: The pyroclastic flow moves faster than 50 mph and can devastate everything in its path.
+
+--- 🔥
+p: How hot is lava? At Kilauea in Hawaii, it comes out around 2,140 degrees F (1,170 C).
+fact: That temperature is not guessed at. Geologists walk up to the flow and push a metal probe called a thermocouple straight into it.
+p: Some flows cannot be safely reached. Then they point calibrated thermal cameras at those instead. The camera readings are checked against the ones taken with the probe.
+
+--- ⚫
+p: Most lava glows red hot, but one volcano spits out something much cooler.
+fact: Ol Doinyo Lengai in Tanzania erupts the coolest lava on Earth, about 930 to 1,110 degrees F (500 to 600 C). It is cool enough that it does not glow in daylight.
+p: This lava pours out looking like runny black oil. When rain hits it, the hardened flows turn chalk white.
+p: Most lava is made of silicate minerals. But Ol Doinyo Lengai's lava is made of sodium and potassium carbonates. That is why it is so runny and cool, and why water turns it white.
+
+--- 📜
+p: The eruption that buried Pompeii in AD 79 had an eyewitness. Pliny the Younger watched it from across the bay.
+term: Plinian = A type of eruption with a tall column punching straight up into the sky, named after Pliny the Younger's description.
+fact: Pliny the Younger wrote two letters to historian Tacitus describing a cloud shaped like an umbrella pine. It had a tall trunk with branches spreading at the top.
+check: What did Pliny say the cloud looked like?
+- A mushroom cloud
+- A volcanic cone
++ An umbrella pine
+hint: His description mentions a tall trunk with branches spreading at the top.
+explain: Pliny described the cloud as looking like an umbrella pine.
+
+--- 💥
+p: Krakatoa exploded on the morning of 27 August 1883.
+fact: People 3,000 miles away on Rodrigues Island heard a distant roar that sounded like heavy guns. Perth, Australia, heard it too, and it was 1,930 miles off.
+p: Barographs recorded something strange happening. These instruments scratch a line of air pressure onto paper. The lines showed the pressure wave passing seven times over five days.
+p: It went out to the far side of the world and back, out and back, until it faded. Nobody knew yet that Krakatoa had erupted.
+
+--- 🥶
+p: Tambora in Indonesia erupted in April 1815 and blew about 4,200 feet off its own summit.
+fact: The next year, farmers in New England wrote down frost in every single month and a snowstorm in June. They called 1816 the year without a summer, and also Eighteen Hundred and Froze to Death.
+check: What did people call 1816?
+- The year of the great flood
++ The year without a summer
+- The year of endless sunshine
+hint: People wrote down frost in every month that year.
+explain: They called it the year without a summer because there was frost in every single month and even snow in June.
+
+--- 📊
+p: How many volcanoes are out there? About 1,350 on land could erupt.
+fact: Of those, about 500 have actually erupted within written history. On a typical day, roughly 20 are erupting somewhere in the world.
+p: About 170 of those volcanoes sit in the United States and its territories. That is why the USGS keeps watch on them with volcano observatories in Hawaii, Alaska, California, and Yellowstone.
+
+--- 🔍
+p: Here is the puzzle: nobody has ever looked into a magma chamber.
+fact(Worked out, not seen): Their size and depth are worked out from how earthquake waves slow down when passing through melted rock and from the ground swelling by a few inches before an eruption.
+check: How do we know about magma chambers?
++ Worked out from earthquake waves slowing and swelling ground
+- By drilling down and sending a camera into each chamber
+- By melting a piece of cooled lava and timing how it hardens
+hint: Look at the fact box. It tells you what scientists measure.
+explain: Earthquake waves slow down in melted rock, and the ground swells before an eruption. These clues help scientists work out the details.
+
+--- 📜
+p: Volcanoes throw things up out of the ground. So where does the written account put the water of the Flood?
+fact(The written account says): In Genesis 7, the fountains of the great deep were broken up first, and then the windows of heaven were opened. Water out of the ground came before water out of the sky.
+
+=== earth-weather
+idea: Lightning heats the air five times hotter than the sun's surface. Find out how to measure the distance of a lightning strike by counting.
+game: Lightning bolt = Heats air five times hotter than the sun | Wilson Bentley = First to photograph a snow crystal | Vostok station = Coldest temperature recorded | Bridge Creek, Oklahoma = Fastest wind in a tornado measured | cumulus cloud = Holds about a million pounds of water
+
+--- ⚡
+p: A storm is coming. Imagine you see a lightning bolt flash across the sky.
+fact: A lightning bolt heats the air in its path to about 50,000 F (27,800 C). The surface of the sun is around 10,000 F (5,500 C). So the air inside a lightning channel is roughly five times hotter than the surface of the sun.
+p: But it only lasts for about a ten-thousandth of a second. Lightning is a huge current of electricity pushing through air, which resists it so much that it heats up the air around it.
+check: How hot is the air in a lightning bolt compared with the sun's surface?
+- About fifty times hotter
++ About five times hotter
+- Only about twice as hot
+hint: Look at the first fact on the page. It tells you the temperatures.
+explain: The air inside a lightning channel is about five times hotter than the surface of the sun.
+
+--- 🔊
+p: So what about that boom that follows lightning? Thunder is the sound of air superheated by a lightning bolt blowing outward.
+fact: Light gets to you almost instantly, but sound crawls at about one mile every five seconds. Count from the flash to the bang, divide by five, and that tells you roughly how many miles off the strike was.
+try: The next time there's a storm, count one-Mississippi, two-Mississippi from the flash until the thunder arrives. Divide by five for miles.
+check: You count ten seconds from the flash to the bang. How far away is the strike?
++ About two miles
+- About one mile
+- About five miles
+hint: Look at the fact box. It tells you how to work it out.
+explain: Counting ten seconds means the lightning strike was about two miles away.
+
+--- ☁️
+p: Look up at a puffy cumulus cloud. It holds around 1.1 million pounds of water, about as much as a loaded jumbo jet.
+fact: The water is chopped into droplets so small they cannot fall quickly. Rising air underneath keeps shoving them back up, and the droplets are falling extremely slowly.
+p: Rain starts when those tiny droplets bump into each other and merge. Once they get heavy enough, they win the battle and start to fall.
+
+--- 🧊
+p: Have you ever seen hail? The biggest one in the US fell on Vivian, South Dakota.
+fact: It was 8 inches across and weighed 1.94 pounds, about the size of a soccer ball made of ice.
+p: By the time it was measured, it had shrunk a little from sitting in a home freezer. So when it first landed, it was even bigger than that record.
+
+--- 🧅
+p: Cut a big hailstone open and you find layers, like an onion.
+fact(Worked out): The old idea that each layer is from a trip up and down inside the storm is wrong. Nobody can follow a hailstone around inside a thundercloud.
+p: The layers form as the stone drifts through patches of different temperature and wetness. Clear layers mean it was collecting water fast enough for slow freezing, squeezing out air bubbles. Cloudy white layers mean it froze on contact and trapped the bubbles.
+check: Why can we not say exactly how a hailstone grew?
+- Scientists have never found a hailstone that has layers
+- Hailstones are made on the ground, not in the clouds
++ Nobody can follow one around inside a thundercloud
+hint: Look at the Worked out box. It says nobody can follow a hailstone inside a thundercloud.
+explain: Nobody can follow a hailstone around inside a thundercloud, so we cannot track its exact path and growth.
+
+--- ❄️
+p: Have you ever tried to look at a snow crystal up close? Wilson Bentley did.
+fact: On 15 January 1885, he made the first photograph of a single snow crystal. He was nineteen years old and lived on a farm in Jericho, Vermont. It had taken him two winters of failures to get that one picture.
+p: Bentley kept going for the rest of his life. He photographed more than 5,000 snow crystals. His book "Snow Crystals" came out in 1931 with 2,453 pictures in it.
+
+--- ⛄
+p: Snow crystals have six sides for a reason.
+term: crystal = A solid made up of molecules that lock into a repeating pattern.
+fact: When water freezes, its molecules lock into a repeating six-sided pattern. The snow crystal grows outward on this frame, so it ends up with six sides.
+check: Why do snow crystals have six sides?
+- Because the wind carves every flake into six sharp points.
++ Because ice molecules lock into a six-sided pattern.
+- Because every snowflake grows from six drops of water.
+hint: The fact box tells you why the molecules form a six-sided pattern.
+explain: Ice molecules lock into a six-sided pattern, and the crystal grows outward from there.
+
+--- 🔥
+p: The hottest air temperature ever officially recorded is 134 F (56.7 C). It was read at Greenland Ranch in Death Valley, California, on 10 July 1913.
+fact(Still argued about): Some researchers say the observer might have misread the thermometer that week. But Death Valley still regularly gets past 125 F (52 C) today.
+
+--- 🥶
+p: At the other end, the coldest air temperature ever recorded was minus 128.6 F (minus 89.2 C).
+fact: This record was set at the Soviet Vostok station in Antarctica on 21 July 1983. July is midwinter there.
+p: If you throw a cup of boiling water into the air at that temperature, it can turn to ice crystals before it lands.
+check: Where was the coldest air ever recorded?
++ Vostok station in Antarctica
+- Greenland Ranch in Death Valley
+- The North Pole
+hint: The fact box tells you the exact location.
+explain: The coldest air was measured at Vostok station in Antarctica.
+
+--- 🌪️
+p: The fastest wind ever measured in a tornado was read by a radar mounted on a truck near Bridge Creek, Oklahoma.
+fact: On 3 May 1999, the first figure was about 301 mph (484 km/h). A careful re-check in 2021 raised it to 321 mph (517 km/h).
+p: The radar was looking at wind a few hundred feet up, not at ground level. No weather instrument on the ground survives a tornado, so tornado strength is normally rated afterward from what the damage looks like.
+check: How is a tornado's strength normally rated?
+- By the speed of the winds inside
+- By how long it lasts
++ Afterward, from the damage
+hint: The page says ground instruments do not survive.
+explain: Since no ground instruments survive a tornado, its strength is rated afterward by looking at the damage.
+
+--- 📜
+p: On day two, the written account says the waters were divided, with some below and some above.
+fact(The written account says): The water above is overhead right now. One ordinary afternoon cloud carries a million pounds of it.
+p: That a cloud holds about a million pounds of water is weighed and calculated. Where the water above came from is read out of Genesis.
+
+=== earth-caves
+idea: A hole can open under a house, and a cave can hold animals that never see the sun. Find out how big caves get, and what nobody has ever watched happen.
+game: Mammoth Cave = The longest cave known, 426 miles | Veryovkina = The deepest known cave on Earth | Winter Park = The sinkhole that swallowed a house | Ho Khanh = The man who found Hang Son Doong | Movile Cave = Home to animals with no eyes | Mount St. Helens = Caused a massive flood when it erupted
+
+--- 🕳️
+p: On 8 May 1981, the ground opened up in Winter Park, Florida.
+fact: Over two days, the hole widened to 320 feet across and 90 feet deep. It swallowed a three-bedroom house, a huge sycamore tree, five Porsches from a repair shop, a pickup truck, and even the town swimming pool.
+p: Florida is built on limestone riddled with holes. This particular hole let go during a stretch of record-low water in the aquifer underneath, when the water that had been helping hold the roof up was gone.
+check: How wide did the Winter Park hole grow?
+- 90 feet
++ 320 feet
+- 500 feet
+hint: The fact box gives you the width and depth of the hole.
+explain: The hole grew to 320 feet across.
+
+--- 💧
+p: Have you ever seen a cave grow? No, nobody has.
+fact(Worked out): Rain picks up carbon dioxide from the air and soil, turns into a weak acid, and slowly eats away at limestone along cracks. This is how caves form, but nobody has watched it happen.
+term: limestone = A type of rock that forms in layers under water and can be eaten away by acid.
+check: What has nobody ever done with a cave?
+- Dived into one
+- Filled one with water
++ Watched one form
+hint: The fact box talks about what nobody has witnessed directly.
+explain: Nobody has watched a cave actually form. We know the process, but we haven't seen it happen in real time.
+
+--- 🧪
+term: stalactite = A type of rock formation that hangs from the ceiling.
+term: stalagmite = A type of rock formation that stands on the ground.
+fact(How they start): A stalactite starts as a hollow tube about a fifth of an inch across, called a soda straw. When the tube gets clogged, water runs down the outside and the stalactite thickens. On average, it grows about 0.005 inches each year.
+check: Which one hangs from the ceiling?
++ The stalactite
+- The stalagmite
+- Both of them
+hint: Look at the term definitions.
+explain: Stalactites hang from the ceiling, while stalagmites stand on the ground.
+
+--- 📏
+p: Mammoth Cave in Kentucky is the longest cave known on Earth, with 426 miles of mapped passage.
+fact: No other cave comes close. The figure is not an estimate. Volunteers from the Cave Research Foundation crawled every inch with tape measures and compasses, survey station by survey station.
+check: How was Mammoth Cave measured?
++ Volunteers crawled it with tape measures and compasses
+- Pilots flew over the cave and mapped it from the air
+- Rangers walked above it and measured the ground with radar
+hint: Look at the fact box for how the volunteers did it.
+explain: The volunteers from the Cave Research Foundation used tape measures and compasses to map every inch of the cave.
+
+--- ⬇️
+p: The deepest known cave is Veryovkina, in Georgia. Its floor sits 7,257 feet below its entrance.
+fact: When it was first written up in 1968, explorers thought Veryovkina was only 377 feet deep. Now we know it goes well over a mile straight down.
+p: The entrance is just a hole about 10 feet by 13 feet in a mountainside. Reaching the bottom takes days, and expeditions have been chased back out by floodwater rising up the shafts.
+
+--- 🌿
+p: In 1990, a man named Ho Khanh was out in the jungle looking for agarwood to sell when he stumbled on something very big.
+fact: He found the entrance to Hang Son Doong, the largest cave passage ever measured. It is about 660 feet high and 490 feet wide, running for more than 3 miles. A Boeing 747 could fly down the middle without touching either wall.
+check: What was Ho Khanh looking for when he found Hang Son Doong?
+- Gold
+- Onyx
++ Agarwood
+hint: The page mentions what he was searching for to sell.
+explain: He was looking for agarwood in the jungle.
+
+--- 🦇
+p: In 1986, workers digging near the Black Sea stumbled on Movile Cave in Romania. It is sealed off from the surface.
+fact: Fifty-seven animal species live in Movile Cave, and thirty-seven of them are found nowhere else on Earth. Most do not have eyes.
+p: Nothing down there runs on sunlight. The bottom of the food chain is bacteria pulling energy out of hydrogen sulfide and methane in the water.
+check: What is at the bottom of the food chain in Movile Cave?
+- Sunlight
++ Bacteria
+- Fish
+hint: The page tells you what pulls energy from gases.
+explain: The bacteria eat hydrogen sulfide and methane, not sunlight.
+
+--- 🌋
+p: On 19 March 1982, Mount St. Helens erupted and melted snow in its crater.
+fact: Close to a billion gallons of water burst out and tore down the North Fork Toutle River valley, carving as it went. Geologists had surveyed lines across the channel weeks before. By 20 March, ten miles downstream, the riverbed had dropped an average of 9 feet overnight.
+p: Nobody watched the Grand Canyon get cut. People watched this one happen.
+
+--- 🏜️
+p: The Grand Canyon is so big you can measure it. It runs 278 river miles long, up to 18 miles wide, and about a mile deep.
+fact: The South Rim stands near 7,000 feet, and the North Rim stands near 8,000. From rim to river, it is about one mile straight down.
+p: But here's the thing: nobody watched the Grand Canyon get cut. We only know how big it is, not exactly how it got that way.
+check: Which part of the Grand Canyon story is measured?
++ How big it is
+- How it was cut
+- When it formed
+hint: Look at the fact box for the exact measurements.
+explain: The size of the Grand Canyon is measured with instruments. How it was cut is reasoned out from what we see now, and geologists still disagree about that part.
+
+--- 📜
+p: Standing on the rim of the Grand Canyon, you see flat stacked layers with a canyon cut down through them.
+fact(The written account says): The written account in Genesis says the fountains of the great deep burst open and the windows of heaven were opened, and water covered the whole earth.
+p: The layers are there and can be photographed. The canyon is a mile deep and can be measured. But which event laid the layers and cut the canyon is something no tape measure can settle.
+
+=== earth-ice
+idea: Ice floats, ice flows, and ice hides whole mountains. Find out what melting ice would do to the sea, and where the sun rises only once a year.
+game: Iceberg = Nine-tenths of it is underwater | Astrolabe Subglacial Basin = Where the ice is almost 3 miles thick | South Pole = Sun rises once a year | Antarctica melt = Sea level rise if ice melted | Permafrost = Frozen ground for at least two years | Jakobshavn Glacier = Moves over 150 feet daily in summer
+
+--- 🌬️
+p: Have you ever seen your breath on a cold day? It looks like a cloud coming from your mouth.
+fact: Your breath is full of invisible water vapor. When it hits something colder, it turns into fog on the glass. If it's below freezing, it skips being liquid and goes directly to ice crystals, which is frost.
+try: Breathe on a cold window or mirror and watch what happens.
+check: What is frost?
+- Drops of rain that froze into a thin layer of ice
++ Vapor that turned straight into ice crystals
+- Snow that melted a bit and froze again at night
+hint: Frost forms when water vapor turns directly into ice crystals.
+explain: Frost forms when water vapor hits something below freezing and turns directly into ice crystals.
+
+--- 🧊
+p: You have probably seen pictures of icebergs. They look like mountains of ice in the sea. But what you see is only the tip.
+fact: About nine-tenths of an iceberg is underwater. Ice is about nine-tenths as heavy as seawater, so it sinks until it has pushed aside its own weight in water.
+p: This is why icebergs can roll over without warning. As the underwater part melts unevenly, the whole berg becomes top-heavy and flips.
+check: How much of an iceberg is underwater?
+- About one-tenth
+- Almost all of it
++ About nine-tenths
+hint: The fact box tells you how much is underwater.
+explain: About nine-tenths. Only that last tenth sticks up where you can see it.
+
+--- 🥤
+p: Imagine you have an ice cube floating in a glass filled to the brim. When it melts, the water level stays exactly the same.
+fact: Floating sea ice melting does not raise sea level because it is already displacing its own weight in water. Ice sitting on land, however, is a different case. That water is not in the ocean yet and will raise the sea level when it melts.
+try: Float an ice cube in a glass filled to the brim and mark the level. When it melts, the glass still does not overflow. Now set a second cube on a saucer, let it melt, and pour that water into the glass. That one is land ice.
+check: Which melting would raise the sea?
++ Ice sitting on land
+- Ice floating at sea
+- Both of them equally
+hint: Look at the fact box to see where the ice starts.
+explain: Ice sitting on land raises the sea level when it melts because it was not in the ocean to begin with.
+
+--- 💙
+p: Snow is white and glacier ice is blue, but both are made of the same clear stuff.
+term: glacier = A huge mass of ice that slowly moves over land.
+fact: Snow is packed with tiny surfaces that bounce every color of light straight back out at you. Thick solid ice lets light travel far enough inside to soak up the reds, and blue is what comes back. Punch a deep hole into a glacier and the bottom goes blue.
+check: Why does thick ice look blue?
++ Light travels far inside it and the reds are soaked up
+- The deep cold of the ice turns the light a bluish color
+- The blue sky bounces off the ice and tints all of it
+hint: Look at the fact box. It explains how light travels through thick ice.
+explain: Thick ice looks blue because the light travels far enough inside to soak up the reds, leaving only the blue.
+
+--- 🐌
+p: Jakobshavn Glacier in Greenland moves over 150 feet a day in summer.
+fact: That is about an inch and a half every minute, so a stake driven into the ice shifts several feet while you eat lunch.
+p: It moves that fast because meltwater gets down to the bottom and the whole slab slides on it. Most glaciers are much slower, moving only a few inches a day.
+
+--- 🌲
+term: permafrost = Ground that has stayed at or below 32 F (0 C) for at least two years.
+fact: About a quarter of the land in the northern half of the world has this permafrost, and in some places it goes down more than 4,900 feet (1,500 m).
+p: The top layer thaws every summer and refreezes every winter. Trees, moss, and mosquitoes live on a thin lid over frozen ground. Houses are lifted off the ground to avoid sinking as the ground thaws.
+check: What is permafrost?
+- Giant chunks of ice drifting on the cold Arctic Ocean
+- Deep snow that never melts on the tops of high mountains
++ Ground that has stayed frozen for at least two years
+hint: Look at the definition of permafrost at the top of the page.
+explain: Permafrost is ground that stays at or below 32 F (0 C) for at least two years.
+
+--- 🧭
+p: At the South Pole, the ice is about 9,000 feet thick, nearly two miles of frozen water standing on the ground.
+fact: The rock under all that ice is close to sea level. So almost all of the Pole's 9,301-foot elevation is from the ice itself.
+p: Every New Year's Day, the marker at the geographic South Pole is dug up and moved. This is because the ice it stands on drifts about 33 feet a year toward the Weddell Sea.
+check: Why is the South Pole marker moved every year?
+- Warm summer sun melts the ice it stands on every year
++ The ice it stands on drifts about 33 feet a year
+- The spinning Earth slowly slides the pole sideways
+hint: Look at the paragraph that talks about how much the ice drifts each year.
+explain: The ice drifts about 33 feet a year, so the marker needs to be moved to stay at the exact South Pole.
+
+--- 🏔️
+p: The thickest ice in Antarctica is almost 3 miles deep. It sits in a place called the Astrolabe Subglacial Basin.
+fact: Across the whole continent, ice covers about 98 percent of Antarctica. Most maps of it are really maps of the lid.
+p: Under all that ice, there are mountain ranges and lakes that no one has ever seen. Radar can map them, but no one has actually been there.
+p: The pressure and warmth from the rock keep some of these lakes liquid, even under miles of ice.
+
+--- 🧮
+p: Imagine all of Antarctica's ice melted. What would that do to the sea?
+fact(Worked out): If every bit of Antarctica's ice melted, sea level would go up about 190 feet (58 m). Nobody has measured that, obviously. Those numbers are worked out from the measured volume of the ice and the measured area of the oceans.
+check: Is the 190 feet rise in sea level measured or worked out?
+- Measured directly by ships at sea
+- Taken from records of past floods
++ Worked out from the measured ice
+hint: The page says those numbers are sums, not measurements.
+explain: The number is worked out from the volume of ice and the area of oceans.
+
+--- 🌅
+p: At the South Pole, the sun rises once a year and sets once a year.
+fact: The sun comes up around late September, then circles round and round the sky without setting for six months, and goes down around late March. One day and one night, each lasting six months.
+p: It does not climb straight up or go straight down either. The sun spirals slowly to about 23 degrees above the horizon at midsummer, then spirals back down. Sunrise at the Pole takes days.
+
+--- 📜
+p: What tells day from night when there is no sunrise to count by? Look at where the written account puts it.
+fact(The written account says): On day one in Genesis, light is divided from darkness, and they are named Day and Night. All of that happens before the sun is made on day four. At the South Pole, Day and Night are six months long apiece.
+
+=== earth-sky
+idea: Your shadow moves like clock hands, and Earth's tilt makes seasons change. Find out why the moon looks the same size as the sun in our sky.
+game: Sunlight = Takes about 8 minutes to reach us | Luna 3 = Soviet probe that saw the far side | Auroras = Dancing curtains of color in the sky | Shooting star = Tiny grain of sand glowing in air | Aurora australis = Southern version of aurora borealis
+
+--- 🕰️
+p: Your shadow moves all day long like a big hand on a clock.
+fact: The Earth is spinning underneath you at about 1,000 mph near the equator. You do not feel it because you are moving with the Earth, just like in a smooth airplane ride.
+try: Stand in a sunny spot and have someone mark where your shadow points. Come back an hour later, stand in the same spot again, and mark where your shadow is now.
+check: Why does your shadow swing around during the day?
+- The sun moves across the sky
+- Your body changes shape
++ The Earth is turning
+hint: Mark where your shadow points in the morning and again in the afternoon. You will see it move as the Earth turns.
+explain: The Earth is spinning underneath you, which makes your shadow move like the hand of a clock.
+
+--- 🔄
+p: Earth turns once every 23 hours, 56 minutes, and 4 seconds against the stars.
+fact: Our day is 24 hours because we time it by the sun, not the stars. As Earth spins, it also moves along its orbit, so it needs to turn a little extra to face the sun again.
+p: Those four missing minutes each day add up. The stars come back around four minutes earlier each night. That is two hours a month. So the night sky in January is not the same as in July.
+
+--- 🌍
+p: So why do we have summer and winter?
+fact: Seasons come from Earth's 23.4-degree tilt, not how close the sun is. In early January, Earth is actually closest to the sun, right in the middle of northern winter.
+p: Australia has summer while Canada has winter at the same time. The planet is the same distance from the sun for both. It is the tilt that makes summer by leaning toward the sun and letting the light hit at a steeper angle.
+check: What makes summer?
++ Earth's tilt
+- Earth getting closer to the sun
+- Longer days
+hint: Look at the fact about Australia and Canada having different seasons.
+explain: Tilt makes the light hit at a steeper angle, squeezing it onto less ground and making it warmer.
+
+--- ☀️
+p: The sun you see out the window is actually a bit of history.
+fact: Sunlight takes about 8 minutes and 20 seconds to reach us, crossing roughly 93 million miles (150 million km). So the sunlight you see now left the sun about eight minutes ago.
+p: Moonlight takes only 1.3 seconds to get here. Light from the nearest star after the sun, though, takes over four years.
+check: How old is the sunlight you see out the window?
+- About forty minutes
++ About eight minutes
+- Nearly four years
+hint: The fact box tells you exactly how long sunlight takes to reach us.
+explain: Sunlight takes about 8 minutes and 20 seconds to travel from the sun to Earth.
+
+--- 🌕
+p: The moon does spin, but it spins very slowly, one full turn per orbit around Earth.
+fact: The moon takes about 27 days to complete one spin, so the same face always points at us.
+p: Its orbit is a bit lopsided and tilted, which makes the moon appear to rock slightly from our view. Over a month, this rocking lets us see about 59 percent of its surface.
+
+--- 🚀
+p: Before October 1959, nobody had seen the far side of the moon. Then a Soviet probe named Luna 3 flew past and sent back pictures.
+fact: Calling it the dark side is wrong. It gets as much sunlight as the side we see. It is the hidden side, not the dark one.
+p: The handful of grainy photos showed something surprising. The far side is covered in craters. It has almost none of the big dark smooth plains that make the near side look like a face.
+
+--- 🌘
+p: The sun is about 400 times wider than the moon, but it also sits about 400 times farther away from us.
+fact: Those two numbers cancel out, so the sun and the moon look almost exactly the same size in our sky. That is why the moon can cover the sun during a total eclipse.
+p: No other planet with moons gets such a neat fit. The moon drifts about an inch and a half further from Earth each year. One day it will look too small to cover the sun completely.
+check: Why can the moon cover the sun?
+- The moon is much larger than the sun and sits right beside it
++ The sun is about 400 times wider but about 400 times farther away
+- The moon's shadow is much wider than the moon, so it hides the sun
+hint: Look at the first fact on the page. It explains why they look the same size.
+explain: The sun is about 400 times wider but also about 400 times farther away, so they appear the same size in our sky.
+
+--- 🌊
+p: Most coasts get two high tides a day, not just one.
+term: tide = The regular rise and fall of the ocean level.
+fact(Worked out, not seen): The moon's pull heaps the ocean up on the side facing it, and also on the far side where the water gets left behind. Earth turns through both bulges daily.
+check: Why do we get two high tides a day?
++ The ocean bulges on the side facing the moon and the side away
+- The moon rises twice a day, so the ocean is pulled toward it twice
+- The water sloshes from side to side like a bathtub twice a day
+hint: Look at the fact box for the explanation.
+explain: The ocean bulges on the side facing the moon and also on the far side, which creates two high tides as Earth turns.
+
+--- ☄️
+p: Have you ever seen a shooting star streak across the sky?
+fact: Most shooting stars are made by something between a grain of sand and a pea. It is moving so fast that the air in front of it gets crushed and heated until the grain glows white.
+p: The grain is not burning up from rubbing against the air, which is what people usually think. Instead, it is the air itself that gets compressed and superheated in front of it. About 48 tons of that dust hits the atmosphere every single day.
+check: What makes a shooting star glow?
+- The grain rubbing against the air
+- The grain catching fire from friction
++ Air crushed and heated in front of it
+hint: Look at the fact box for what happens to the air.
+explain: It is the air in front of the grain that gets crushed and heated until it glows.
+
+--- 🌌
+p: Have you ever seen a sky light up with dancing curtains of color?
+fact(Worked out, not watched): Auroras are made when particles streaming off the sun get steered by Earth's magnetic field down toward the poles. They crash into oxygen and nitrogen high in the atmosphere and make them glow.
+p: Nobody can see the particles, but scientists have worked it out. Satellites measure the solar wind before it arrives, and lab tests show which gases glow what colors. Oxygen gives green from about 60 to 120 miles up, and red above that.
+p: The southern version is called the aurora australis. It often lights up at the same moment as the northern one, in a matching shape.
+
+--- 📜
+p: So what does the sky do in the written account?
+fact(The written account says): On day four, the sun, moon, and stars are set in place for signs and seasons, days and years. The sky is a calendar.
+p: Every piece of that calendar can be measured. A full turn takes 23 hours and 56 minutes. One full moon to the next is about 29 and a half days. The tilt is 23.4 degrees.
+p: The written account adds one thing to the numbers. They were put there on purpose, to be read.
+
+=== earth-water
+idea: Water covers most of Earth, but we know surprisingly little about the sea floor. Find out how deep the ocean can be and what lets people explore its lowest point.
+game: Bay of Fundy = Tides of about 52 feet twice a day | Amazon = About a fifth of the river water reaching the sea | Challenger Deep = The lowest point in the ocean | Tides = Rise and fall with the moon | Thick steel spheres = Protect divers from extreme pressure | Fresh water = Water without salt in it
+
+--- 🥤
+p: A cold glass of water looks like it is leaking on a warm day. But it is not leaking at all.
+fact: The water on the outside came out of the air in the room. Air carries invisible water, and chilling it makes the air let go.
+try: Fill a glass with ice water and leave it a few minutes. Wipe the outside completely dry, then watch it go wet again. Nothing came through the glass. The room handed it over.
+check: Where did the water on the outside of the cold glass come from?
+- Inside the glass
+- A leak in the glass
++ The air in the room
+hint: The glass was wiped dry and got wet again without any liquid inside leaking out.
+explain: The room's damp air condensed on the cold surface, making the glass look like it was leaking.
+
+--- 🌊
+p: Most of Earth's water is salt water in the oceans.
+fact: 96.5 percent of Earth’s water is salty ocean water. Of the fresh water, nearly 69 percent is locked up as ice and about 30 percent is underground. Lakes and rivers get the leftovers.
+term: fresh water = Water that does not have any salt in it. Lakes and rivers are full of fresh water.
+check: Where is most of the fresh water on Earth?
++ Locked up as ice
+- In lakes and rivers
+- Flowing underground
+hint: Look at the last two sentences of the fact box. One of them gives the biggest share.
+explain: Nearly 69 percent of fresh water is locked up as ice, making it not available for use.
+
+--- 🏞️
+p: All the rivers on Earth together hold just a tiny bit of water.
+fact: Every river put together holds about one ten-thousandth of one percent of the planet's water. Nearly all the water we drink, wash in, and grow food with comes from it because rain refills it faster than we use it up.
+p: The Amazon River is a giant. It pours about 7.6 million cubic feet of fresh water into the Atlantic every second, which is roughly one fifth of all river water reaching the sea.
+check: How much of the river water reaching the sea comes from the Amazon?
+- About one third
++ About one fifth
+- About half
+hint: Look at the first number on the page. It shows the amount of water the Amazon pours into the Atlantic every second.
+explain: The Amazon pours about 7.6 million cubic feet of fresh water into the Atlantic each second, which is roughly one fifth of all river water reaching the sea.
+
+--- 🌙
+p: High tide arrives about 50 minutes later each day, just like the moon.
+fact: The moon takes 24 hours and 50 minutes to come back to the same place in your sky. So does high tide.
+p: Tide tables are printed a year ahead. Boats stake their keels on those tables being right.
+
+--- ⚓
+p: In the Bay of Fundy, Canada, the tides rise and fall about 52 feet twice a day.
+fact: Boats that are floating at breakfast sit on mud by lunchtime.
+p: Around 100 billion tons of water move in and out with each tide cycle, more than all the rivers in the world combined.
+check: How far do the Fundy tides rise and fall?
+- About 26 feet
++ About 52 feet
+- About 71 feet
+hint: Look at the first number on the page.
+explain: The tides rise and fall about 52 feet twice a day in the Bay of Fundy.
+
+--- 🕳️
+p: The deepest spot in the ocean is called the Challenger Deep.
+term: Challenger Deep = The lowest point in the ocean, found in the Mariana Trench.
+fact: It is 35,876 feet (10,935 m) below the surface. Drop Mount Everest into it and more than a mile of water would still cover the summit.
+
+--- 🤿
+p: Imagine you are at the bottom of the Challenger Deep. The pressure there is over a thousand times what it is on the surface.
+fact: The pressure is about eight tons per square inch, enough to crush anything with air inside it, including a person.
+p: People have still been down there, but they go in thick steel spheres that can stand the crushing force.
+check: What lets people reach the bottom of the Challenger Deep?
+- Special diving suits made of rubber
+- Thin plastic bubbles
++ Thick steel spheres
+hint: The thick steel spheres keep the pressure from crushing the people inside.
+explain: The spheres are strong enough to withstand the immense pressure at the bottom.
+
+--- 🗺️
+p: We know a lot about the ocean, but surprisingly little about the sea floor.
+fact: The ocean covers about 70 percent of Earth, yet only around 29 percent of the sea floor has been mapped in detail with modern sonar. The moon has been mapped in finer detail than our own sea floor.
+p: Mapping is not the same as seeing. A camera or a person has looked at less than one thousandth of one percent of the deep sea floor, which is an area about the size of Rhode Island.
+
+--- 🧭
+p: A trench in the ocean can be very deep, but how it got there is a story we work out.
+fact(The measured part): The depth of a trench is measured, but how it formed is worked out from where earthquakes happen and line up.
+p: Earthquakes below a trench line up on a slanting sheet that runs down and away. This pattern tells us that one slab of sea floor bends under another.
+check: Which part of the trench story is measured?
++ How deep it is
+- How it got there
+- Where it will be in 10 years
+hint: The earthquakes line up, but their depth and location are measured.
+explain: We measure how deep a trench is. The pattern of earthquakes helps us work out how it formed.
+
+--- 📜
+p: In Genesis, water is there before anything has a shape.
+fact(The written account says): On day two, the waters are divided into water below and water above. On day three, the water below is gathered into one place so that dry land can appear.
+p: The written account makes water the setting everything else gets arranged in.
+
