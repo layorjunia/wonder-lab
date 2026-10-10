@@ -87,6 +87,7 @@ Object.assign(App, {
   },
   setWorldId(id) {
     this._worldId = id;
+    Progress.profile.settings = Progress.profile.settings || {};
     Progress.profile.settings.world = id;
     Progress.commit();
     this.closeSheet();
@@ -318,9 +319,10 @@ Object.assign(App, {
   },
 
   // Read to me: on by default, and a child can turn it off for the lesson player.
-  autoRead() { return Progress.profile.settings.autoRead !== false; },
+  autoRead() { return ((Progress.profile && Progress.profile.settings) || {}).autoRead !== false; },
   toggleAutoRead() {
     const on = !this.autoRead();
+    Progress.profile.settings = Progress.profile.settings || {};
     Progress.profile.settings.autoRead = on;
     Progress.commit();
     if (!on) { AudioLib.stop(); this._saying = null; this.syncListen(); }
