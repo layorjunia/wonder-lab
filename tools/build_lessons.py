@@ -170,6 +170,25 @@ def main():
             if lesson.get('kind') == 'species' and lesson.get('names'):
                 lesson['title'] = species_title(lesson['names'])
             wrote += 1
+    # PICTURE GAMES (.work/picgames/*.jsonl): one designed game per lesson for children who
+    # cannot read yet; validated by tools/check_picgames.py before it ships.
+    picgames = {}
+    for f in sorted(glob.glob(os.path.join(ROOT, '.work', 'picgames', '*.jsonl')), key=lambda x: ('fixes' in x, x)):
+        for line in open(f, encoding='utf-8'):
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                d = json.loads(line)
+                picgames[d['id']] = {k: v for k, v in d.items() if k != 'id'}
+            except Exception:
+                pass
+    pg = 0
+    for lesson in data['lessons']:
+        if lesson['id'] in picgames:
+            lesson['picgame'] = picgames[lesson['id']]
+            pg += 1
+    print(f'{pg} lesson(s) have a picture game')
     unknown = sorted(set(authored) - {l['id'] for l in data['lessons']})
     if unknown:
         raise SystemExit('authored lessons with no matching lesson id: ' + ', '.join(unknown))

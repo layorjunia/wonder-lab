@@ -56,7 +56,19 @@ window.SelfTest = {
             App.gameStart(kind, [L], 'lesson');
             const g = App._game;
             if (!g || !g.total) { mark(L, `${kind} produced no rounds`); continue; }
-            if (kind === 'tapgroup') {
+            if (kind === 'factall') {
+              g.items.filter(it => !it.good).slice(0, 1).forEach(it => App.gmPgTap(it.i));
+              g.items.filter(it => it.good).forEach(it => App.gmPgTap(it.i));
+              if (g.found !== g.need) mark(L, `factall found ${g.found}/${g.need}`);
+            } else if (kind === 'factcatch') {
+              App.gmPgCatchPick(false);
+              for (let n = 0; n < g.need; n++) App.gmPgCatchPick(true);
+              if (g.found !== g.need) mark(L, `factcatch found ${g.found}/${g.need}`);
+            } else if (kind === 'factsort') {
+              const its = L.picgame.items;
+              its.forEach((it, i) => { App.gmPgPlace(i, 1 - it.bin); App.gmPgPlace(i, it.bin); });
+              if (g.placed !== g.total) mark(L, `factsort placed ${g.placed}/${g.total}`);
+            } else if (kind === 'tapgroup') {
               g.items.filter(a => a.group !== g.group).slice(0, 1).forEach(a => App.gmTapGroupPick(a.id));
               g.good.forEach(a => App.gmTapGroupPick(a.id));
               if (g.found !== g.need) mark(L, `tapgroup found ${g.found}/${g.need}`);
@@ -178,6 +190,12 @@ SelfTest.hub = async function () {
         if (kind === 'bubbles') App.gmBubbleTap(r.opts.indexOf(r.name));
         if (kind === 'whoami') App.gmWhoTap(r.opts.findIndex(o => o.id === r.a.id));
         if (kind === 'rank') r.order.forEach(a => App.gmRankTap(a.id));
+        if (kind === 'factall' || kind === 'factcatch' || kind === 'factsort') {
+          if (kind === 'factall') g.items.filter(it => it.good).forEach(it => App.gmPgTap(it.i));
+          else if (kind === 'factcatch') for (let n = 0; n < g.need; n++) App.gmPgCatchPick(true);
+          else g.L.picgame.items.forEach((it, i) => App.gmPgPlace(i, it.bin));
+          await tick(); await tick(); break;
+        }
         if (kind === 'tapname') App.gmTapNamePick(r.a.id);
         if (kind === 'slingpic') App.gmSlingPicPick(r.opts.findIndex(o => o.id === r.a.id));
         if (kind === 'tapgroup' || kind === 'catchpic') {

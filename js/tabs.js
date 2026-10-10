@@ -68,7 +68,7 @@ Object.assign(App, {
     const accents = { pairs: ['#ff8a3d', '#d9602a'], bubbles: ['#35b6ff', '#1f86d6'],
       whoami: ['#9a7bff', '#6c4fe0'], rank: ['#3ec956', '#229a3a'],
       tapname: ['#ffb02e', '#d98a10'], tapgroup: ['#ff7aa8', '#d04a78'], catchpic: ['#2fe0b4', '#12a784'],
-      slingpic: ['#ff5a6e', '#c9304a'], sort: ['#45b9ff', '#1b86d6'], hilo: ['#a98bff', '#6c4fe0'] };
+      slingpic: ['#ff5a6e', '#c9304a'], factall: ['#ff8a3d', '#d9602a'], factcatch: ['#3ec956', '#229a3a'], factsort: ['#9a7bff', '#6c4fe0'], sort: ['#45b9ff', '#1b86d6'], hilo: ['#a98bff', '#6c4fe0'] };
     const tiles = Object.entries(this.GAMES).map(([k, g]) => {
       const n = done.filter(l => this.gameKinds(l).includes(k)).length;
       return `<button class="gtile ${n ? '' : 'locked'}" style="--t-acc:${(accents[k] || accents.pairs)[0]};--t-acc-d:${(accents[k] || accents.pairs)[1]}"

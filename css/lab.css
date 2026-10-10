@@ -1096,3 +1096,20 @@ body[data-realm]:not([data-realm="base"])::after {
 .gm-chip { font-size: 22px; padding: 10px 16px 10px 10px; }
 .gm-chip img { width: 110px !important; height: 82px !important; border-radius: 14px; }
 .so-done img { width: 64px !important; height: 48px !important; }
+
+/* picture games built from emoji art */
+.pg-pic img { aspect-ratio: 1 / 1 !important; object-fit: contain !important; background: transparent !important; padding: 8px; }
+.pg-pic { background: #fff; }
+.pg-grid { grid-template-columns: repeat(3, 1fr); max-width: 760px; }
+.pg-emoji { display: block; font-size: 64px; text-align: center; line-height: 1.4; }
+.pg-thing { display: grid; place-items: center; }
+.pg-thing img { object-fit: contain !important; background: transparent !important; padding: 4px; }
+.pg-bins { display: flex; gap: 12px; }
+.pg-bin { min-height: 220px; }
+.pg-bin-pic img { width: 92px; height: 92px; filter: drop-shadow(0 4px 0 rgba(0,0,0,.25)); }
+.pg-bin b { font-size: 26px; }
+.pg-chip img { width: 76px !important; height: 76px !important; object-fit: contain !important; background: transparent !important; }
+.pg-chip { font-size: 22px; }
+.pg-done { display: flex; align-items: center; gap: 8px; background: rgba(255,255,255,.92); color: var(--pink-ink); border-radius: 14px; padding: 4px 10px 4px 4px;
+  font-family: var(--f-display); font-weight: 800; font-size: 18px; animation: pop .35s; }
+.pg-done img { width: 44px; height: 44px; }
