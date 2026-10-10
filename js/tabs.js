@@ -151,7 +151,7 @@ Object.assign(App, {
       <div class="me-head">
         <div class="me-pip">${this.pip('happy')}</div>
         <div class="me-id">
-          <h1>${name}</h1>
+          <h1 onclick="App.previewTap()">${name}</h1>
           <div class="me-lv"><span class="lv-n">${lv.level}</span>
             <div style="flex:1"><small>Level ${lv.level} · ${lv.into} / ${lv.span} Sparks to level ${lv.level + 1}</small>
               <span class="lv-bar"><i style="width:${Math.round(lv.frac * 100)}%"></i></span></div></div>

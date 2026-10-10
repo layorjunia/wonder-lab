@@ -1028,3 +1028,10 @@ body[data-realm]:not([data-realm="base"])::after {
 .dg-chip.lift { opacity: .35; }
 .dg-chip.wrong { background: var(--rose); color: #fff; box-shadow: 0 6px 0 var(--rose-d); animation: shake .4s; }
 .dg-ghost { position: fixed; left: 0; top: 0; z-index: 99; pointer-events: none; transform: scale(1.08); box-shadow: 0 14px 26px rgba(0,0,0,.35); }
+
+/* preview mode */
+.pv-pill { position: fixed; left: 12px; bottom: calc(96px + var(--sa-b)); z-index: 45; border: 0; cursor: pointer; border-radius: 99px; padding: 8px 16px;
+  background: #7b4dff; color: #fff; font-family: var(--f-display); font-weight: 800; font-size: 16px; letter-spacing: .04em; box-shadow: 0 4px 0 #4a2fb8, 0 8px 16px rgba(0,0,0,.3); }
+.pv-h { color: #fff; margin: 24px 2px 8px; font-size: 26px; text-shadow: 0 2px 0 rgba(0,0,0,.25); }
+.pv-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+.pv-grid .btn { font-size: 18px; padding: 14px 12px; }
