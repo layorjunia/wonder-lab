@@ -3212,3 +3212,754 @@ quiz: What does an amoeba use to move?
 - Cilia
 explain: The amoeba moves by pushing out a bulge called a pseudopod.
 
+# UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
+=== animals-insects-3
+idea: A dragonfly can catch 95 of every 100 flies it chases. An orchid mantis looks like a flower. A cicada waits underground for 13 or 17 years. Meet five bugs with a trick.
+game: Dragonfly = Beats each wing on its own | Praying mantis = Strikes in under a tenth of a second | Orchid mantis = Looks like a flower to catch bees | Stick insect = Looks like a twig and holds still | Periodical cicada = Waits underground for 13 or 17 years
+
+--- 🐾
+p: Five bugs are waiting for you: a dragonfly, a praying mantis, an orchid mantis, a stick insect and a periodical cicada.
+
+p: Each one has its own special trick. Which one would you most like to meet first?
+
+--- 🐾 @dragonfly
+p: Meet the dragonfly. This long-bodied hunting insect has four glassy wings. It can flap them one at a time, which makes it one of the finest fliers alive.
+
+fact(Four controls): Four wings, four separate controls. A dragonfly can beat each wing on its own, which is how it hovers, flies backwards, and stops dead in mid-air.
+
+p: In laboratory tests, hunting dragonflies caught up to 95 out of every 100 flies they went after. No lion or shark comes anywhere near that strike rate.
+
+check: How many of every 100 flies did hunting dragonflies catch in the lab tests?
+- Only 25 of every 100
++ Up to 95 of every 100
+- About 50 of every 100
+hint: Look at the last paragraph. It gives the number of flies caught.
+explain: Hunting dragonflies caught up to 95 out of every 100 flies they went after.
+
+--- 🐾 @praying-mantis
+p: Meet the praying mantis, a long-necked ambush hunter. It sits perfectly still with its spined front legs folded, then grabs whatever walks past.
+
+fact(The lightning strike): The strike is over in less than a tenth of a second. You cannot blink that fast, and the mantis can still change its aim halfway through.
+
+term: raptorial = Built for catching prey, as a mantis's folded front legs are.
+
+p: A mantis hears with a single ear, sunk in a groove down the middle of its chest. It is tuned to a sound you cannot hear: the hunting calls of bats.
+
+--- 🐾 @orchid-mantis
+p: Meet the orchid mantis. This hunting insect lives in the rainforests of Southeast Asia. Its whole body is shaped and colored like a flower, and the flower is the trap.
+
+fact(Petal legs): Each of its four walking legs is flattened into a wide, curved lobe, the exact shape of a petal. The mantis is not sitting on a flower. It is the flower.
+
+p: Researchers set orchid mantises out in the rainforest, beside real flowers, and counted the visitors. More pollinating insects flew to the mantis than to the flowers.
+
+check: What did the researchers find when they counted visitors?
+- The real flowers won easily
++ The mantis got more visitors
+- No insects came near at all
+hint: Look at the last paragraph. It tells what the researchers counted.
+explain: More pollinating insects flew to the mantis than to the real flowers.
+
+--- 🐾 @stick-insect
+p: Meet the stick insect, a long, slow, leaf-eating insect shaped exactly like the twig it stands on.
+
+fact(The record): The longest insect ever measured is a stick insect. Front foot to back foot, it reached 24.6 in (62.4 cm), longer than two school rulers laid end to end.
+
+p: The disguise is not only the shape. It is the stillness. A stick insect can hold one position for hours, and a hunting bird's eye is built to catch movement.
+
+p: Many stick insects need no male at all. A female on her own lays eggs that hatch into daughters.
+
+--- 🐾 @cicada
+p: Meet the periodical cicada. This big, red-eyed insect spends 13 or 17 years underground, drinking from tree roots. Then it climbs out in millions, all at once, to sing.
+
+fact(Big numbers): More than 1.5 million cicadas per acre have been counted, around 370 in every square meter of forest floor.
+
+p: The chorus can reach 100 decibels, as loud as a chainsaw or a motorbike going past. Only the males sing.
+
+check: How long does a periodical cicada spend underground?
+- 3 or 7 years
++ 13 or 17 years
+- 30 or 70 years
+hint: Look at the first paragraph. It says how long the cicada waits underground.
+explain: A periodical cicada spends 13 or 17 years underground, feeding on fluid from tree roots.
+
+--- 📊
+p: Five insects, and every one has its own trick. The dragonfly flies with four separate wings. The mantis strikes in a flash. The orchid mantis looks like a flower. The stick insect looks like a twig. The cicada waits for years.
+
+fact(Sizes): A dragonfly's body is about as long as your finger, and the biggest spread about 6 in (16 cm) of wing. A big mantis is over 6 in (15 cm). A stick insect can stretch to 24.6 in (62.4 cm). A cicada is about 1.2 in (3 cm) long.
+
+--- 🐾
+p: A dragonfly with four wings. A mantis striking. An orchid mantis like a flower. A stick insect like a twig. A cicada climbing out after years underground.
+
+p: Five insects, each with its own trick.
+
+quiz: How does a dragonfly beat its wings?
+- Both wings on a side together
+- Only when it is hovering
++ Each wing on its own
+explain: A dragonfly can beat each wing on its own, which is how it hovers and flies backwards.
+
+quiz: What sound is a mantis's ear tuned to?
++ The hunting calls of bats
+- The loud buzzing of bees
+- The chirping of crickets
+explain: A mantis hears with one ear in its chest, tuned to the hunting calls of bats.
+
+quiz: Why do bees fly to an orchid mantis?
+- It hums like a bee
++ It looks like a flower
+- It carries a sweet drink
+explain: Its whole body is shaped and colored like a flower, and the flower is the trap.
+
+quiz: How long can a stick insect hold one position?
+- A few seconds
+- A whole year
++ For hours
+explain: A stick insect can hold one position for hours, and a hunting bird's eye is built to catch movement.
+
+quiz: How loud can a cicada chorus get?
+- As quiet as a whisper
+- As soft as falling rain
++ As loud as a chainsaw
+explain: The chorus can reach 100 decibels, as loud as a chainsaw or a motorbike going past.
+
+# UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
+=== animals-insects-4
+idea: A flea can jump 60 times its own body length. A termite queen lays an egg every four seconds. One bug stands on a pond and never sinks. Meet all three.
+game: Termite = Lives in a colony of millions and eats wood | Flea = Jumps 60 times its own body length | Water strider = Stands on the skin of the pond
+
+--- 🐾
+p: Three small bugs are waiting for you: a termite, a flea, and a water strider.
+
+p: Each one has its own special trick. Which one would you most like to meet first?
+
+--- 🐾 @termite
+p: Meet the termite. It is a small, pale, blind insect that eats wood and lives in a colony of millions.
+
+fact(The giant queen): A worker termite is tiny. The queen of the same colony can reach 4 in (11 cm), longer than your index finger. She cannot walk, so workers bring her food and carry off her eggs.
+
+p: A big queen can lay more than 20,000 eggs in a single day. That is about one egg every four seconds, all day and all night.
+
+check: How often can a big termite queen lay an egg?
+- Just one egg per day
+- About four eggs each hour
++ Once every four seconds
+hint: Look at the paragraph. It tells how fast a big queen lays eggs.
+explain: A big queen lays about one egg every four seconds, all day and all night.
+
+--- 🐾 @flea
+p: Meet the flea. This tiny, wingless insect drinks blood. For its size, it jumps farther than almost anything alive.
+
+fact(The jump): A flea can jump 7 in (18 cm) straight up. That is about 60 times its own body length. Sideways it can leap 13 in (33 cm).
+
+term: resilin = A rubbery protein that stores energy and gives it all back at once. A flea squeezes energy into a pad of it, then lets go.
+
+check: How high can a flea jump straight up?
+- Over 7 ft (2 m) straight up
++ About 7 in (18 cm) straight up
+- Less than 1 in (2.5 cm) up
+hint: Look at the box. It gives the height of the jump.
+explain: A flea can jump about 7 in (18 cm) straight up, around 60 times its own body length.
+
+--- 🐾 @water-strider
+p: Meet the water strider. This long-legged insect spends its whole life standing on top of the water without sinking.
+
+fact(The pond's skin): It is not swimming. It stands on the water, held up by surface tension, a thin, stretchy film across the top of the pond. Its feet dent the film but never break through.
+
+p: Its legs are furred with water-repelling hairs. More than a thousand are crammed into a single millimeter. They trap a layer of air, so the legs stay dry.
+
+check: What holds a water strider up on the pond?
+- Tiny wings that beat very fast
++ A thin, stretchy film on the pond
+- Big webbed feet like a duck's
+hint: Look at the box. It tells what the strider stands on.
+explain: Surface tension makes a thin, stretchy film across the pond, and the strider stands on it.
+
+--- 📊
+p: Three tiny insects, and each has its own tool. The queen termite lays eggs without stopping. The flea springs from a rubbery pad. The water strider stands on the skin of the pond.
+
+fact(Sizes): A termite queen reaches 4 in (11 cm). A flea is only 0.06 to 0.13 in (1.5 to 3.3 mm) long. A water strider has a tiny body, but its legs spread far wider than the body itself.
+
+--- 🐾
+p: A termite queen laying an egg every four seconds. A flea springing from a rubbery pad. A water strider standing on the skin of the pond.
+
+p: Three small bugs, each with its own special trick.
+
+quiz: How long can a termite queen grow?
++ About 4 inches (11 cm)
+- About 4 feet (1.2 m)
+- About half an inch (1.3 cm)
+explain: The queen of a termite colony can reach 4 in (11 cm), longer than your index finger.
+
+quiz: What does a flea use to make its jump?
+- Strong wings that flap very fast
+- Long, powerful muscles in its back
++ A rubbery pad that stores energy
+explain: A flea squeezes energy into a pad of resilin, then lets it go all at once.
+
+quiz: What keeps a water strider's legs dry?
+- A thick coat of waxy oil on top
++ Hairs that trap a layer of air
+- Tiny sponges growing on each foot
+explain: More than a thousand water-repelling hairs per millimeter hold a layer of air against the leg.
+
+quiz: How does a water strider sense a fly that has fallen in?
++ Ripples on the water reach its legs
+- It smells the fly from far away
+- It hears the splash with its ears
+explain: The ripples reach its legs, and the strider reads direction and distance from the waves.
+
+quiz: What do termites need in their gut to digest wood?
+- Strong stones they have swallowed
+- A special sticky juice from the queen
++ Tiny microbes that break the wood down
+explain: A termite cannot break down wood alone. Its gut is full of microbes that do the job for it.
+
+# UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
+=== animals-reptiles-1
+idea: A king cobra eats other snakes. A python is longer than a classroom. A Komodo dragon can eat 80 percent of its own weight in one meal. Meet five giant reptiles.
+game: King cobra = Longest venomous snake, eats other snakes | Reticulated python = Longest snake in the world | Gaboon viper = Longest fangs, hides in dead leaves | Western diamondback rattlesnake = Desert snake with a warning rattle | Komodo dragon = Heaviest lizard alive
+
+--- 🐾
+p: Five giant reptiles are waiting for you: a king cobra, a reticulated python, a gaboon viper, a western diamondback rattlesnake and a Komodo dragon.
+
+p: Each one has its own special trick. Which one would you most like to meet first?
+
+--- 🐾 @king-cobra
+p: Meet the king cobra, the longest venomous snake in the world. This tall, sharp-eyed forest snake hunts and eats other snakes.
+
+fact(Snake-eater): Most adults run 10 to 13 feet (3.2 to 4 m) long, and the record reached 19 feet (5.85 m). Its scientific name, Ophiophagus, means snake-eater.
+
+p: It is the only snake in the world that builds a nest. The mother rakes dead leaves into a mound with her own coils and lays her eggs inside.
+
+check: What does a mother king cobra build?
+- A burrow in the sand
++ A nest of dead leaves
+- A web of silk
+hint: Look at the last paragraph. It says what the mother builds for her eggs.
+explain: The king cobra is the only snake that builds a nest. She rakes dead leaves into a mound and lays her eggs inside.
+
+--- 🐾 @reticulated-python
+p: Meet the reticulated python, the longest snake in the world. This heavy, net-patterned constrictor lives in the forests and rivers of Southeast Asia.
+
+fact(The longest): A wild one caught in Borneo and measured with a tape came to 22 feet 10 inches (6.95 m), long enough to stretch across a classroom.
+
+term: reticulated = Marked with a pattern like a net.
+
+p: A python does not crush bones. It squeezes hard enough to stop the blood moving, and its prey goes unconscious in seconds. Rows of pits along its lips sense heat, so it can find a warm rat in the dark.
+
+--- 🐾 @gaboon-viper
+p: Meet the gaboon viper. This huge, heavy African viper lies motionless in dead leaves, wearing the best camouflage of any snake in the world.
+
+fact(The fangs): It has the longest fangs of any snake alive, up to 2 inches (5 cm). They lie flat against the roof of the mouth and swing forward when it strikes.
+
+p: Lying in leaf litter, it is hardly there at all. Its pale and dark pattern matches dead leaves so well that people walk over one without seeing it.
+
+check: How long can a gaboon viper's fangs be?
+- About a quarter inch long
+- Longer than a pencil
++ Up to 2 inches (5 cm)
+hint: Look at the box. It gives the length of the longest fangs.
+explain: The gaboon viper has the longest fangs of any snake alive, up to 2 inches (5 cm).
+
+--- 🐾 @rattlesnake
+p: Meet the western diamondback rattlesnake. This thick-bodied American desert snake has diamonds down its back and a warning rattle on its tail.
+
+fact(The rattle): Every time it sheds its skin, it adds a new segment to the rattle. But you cannot count the segments to find its age. That part is a myth.
+
+p: A small pit between each eye and nostril is a heat detector. It can register a temperature change of three thousandths of a degree.
+
+p: The young are born alive, about a dozen at a time, each up to a foot (30 cm) long and already venomous.
+
+--- 🐾 @komodo-dragon
+p: Meet the Komodo dragon, the biggest, heaviest lizard alive. This slow-walking hunter lives on a handful of Indonesian islands and brings down animals as large as deer.
+
+fact(The giant): The largest one ever properly measured stretched 10 feet 3 inches (3.13 m) and weighed 366 pounds (166 kg).
+
+p: It smells with its tongue. The yellow fork flicks out, catches scent from the air, and wipes it onto the roof of its mouth. One meal can be 80 percent of its own body weight.
+
+check: What does a Komodo dragon smell with?
+- Its short snout
++ Its forked tongue
+- Its large ears
+hint: Look at the last paragraph. It says what flicks out to catch scent.
+explain: A Komodo dragon smells with its forked tongue, which catches scent from the air.
+
+--- 📊
+p: Five reptiles, from the longest venomous snake to the heaviest lizard. The king cobra eats other snakes. The python is the longest snake. The gaboon viper hides in leaves. The rattlesnake warns. The Komodo dragon smells with its tongue.
+
+fact(Sizes): A king cobra can reach 19 feet (5.85 m). A reticulated python reached 22 feet 10 inches (6.95 m). A gaboon viper is about 4.6 ft (1.4 m) long. A Komodo dragon reached 10 feet 3 inches (3.13 m).
+
+--- 🐾
+p: A king cobra that eats snakes. A python longer than a classroom. A viper lying in leaves. A rattlesnake with its warning rattle. A Komodo dragon with a forked tongue.
+
+p: Five giant reptiles, each with its own special trick.
+
+quiz: What does the name Ophiophagus mean?
+- Tall hood
+- Forest king
++ Snake-eater
+explain: The king cobra's scientific name means snake-eater, and that is exactly its job.
+
+quiz: How does a python kill its prey?
+- It crushes every bone in the body
+- It bites with a strong, deadly venom
++ It squeezes until the blood stops moving
+explain: A python does not crush bones. It squeezes hard enough to stop the blood moving.
+
+quiz: How does a gaboon viper hide?
+- It buries itself deep in the sand
++ Its pattern matches dead leaves
+- It climbs high up into the trees
+explain: The pale and dark pattern matches dead leaves so well that people walk over one without seeing it.
+
+quiz: Can you tell a rattlesnake's age by counting its rattle segments?
+- Yes, one segment for each year
++ No, that is a myth
+- Yes, one segment for each month
+explain: A snake may shed several times in a good year, so the number of segments does not give its age.
+
+quiz: How much of its own weight can one Komodo dragon meal be?
+- About 8 percent
+- About 20 percent
++ About 80 percent
+explain: One meal can be 80 percent of its own body weight.
+
+# UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
+=== animals-spiders-1
+idea: The Goliath birdeater is as big as a dinner plate. The diving bell spider lives in a bubble of air. The horseshoe crab has blue blood. Meet seven spiders and their kin.
+game: Goliath birdeater = Heaviest spider on Earth | Jumping spider = Has the sharpest eyesight for its size | Trapdoor spider = Hides behind a door she built | Diving bell spider = Lives underwater in a bubble of air | Golden orb-weaver = Spins a web of golden silk | Horseshoe crab = Has blue blood and a spike for a tail
+
+--- 🐾
+p: Seven animals are waiting for you: a Goliath birdeater, a jumping spider, a trapdoor spider, a diving bell spider, a golden orb-weaver, an emperor scorpion and a horseshoe crab.
+
+p: Each one has its own special trick. Which one would you most like to meet first?
+
+--- 🐾 @goliath-birdeater
+p: Meet the Goliath birdeater, the heaviest spider on Earth. It is a rainforest tarantula big enough to cover a dinner plate.
+
+fact(The big spider): Its legs reach 12 in (30 cm) across, and it can weigh 6 oz (175 g), about the same as a large apple.
+
+p: It hardly ever eats birds. The real menu is earthworms, beetles, frogs, toads, lizards and now and then a small snake.
+
+check: What does the Goliath birdeater mostly eat?
+- Mostly hummingbirds and finches
++ Earthworms, beetles and frogs
+- Seeds and fallen fruit
+hint: Look at the last paragraph. It lists what the spider really eats.
+explain: Despite its name, it hardly ever eats birds. It mostly eats earthworms, beetles and frogs.
+
+--- 🐾 @jumping-spider
+p: Meet the jumping spider. This small, bright-eyed spider stalks its prey on foot and then pounces, instead of waiting in a web.
+
+fact(The headlights): Two huge front eyes and six smaller ones around the sides give it the sharpest eyesight of any animal near its size.
+
+p: The big front eyes cannot move, so the retinas inside them do. The dark spot behind each lens swivels and sweeps like a searchlight.
+
+term: retina = The part inside the eye that senses the picture behind the lens.
+
+--- 🐾 @trapdoor-spider
+p: Meet the trapdoor spider. This stout, burrowing spider spends its whole life in a silk-lined tunnel behind a hinged door she built herself.
+
+fact(The hidden door): The door is a thick plug of soil, plant fiber and silk that fits the burrow mouth exactly. She finishes the outside with the same moss, grit and dead leaf as the ground, so the burrow vanishes into the floor.
+
+p: She never chases anything. When a beetle walks over, the door flicks open and her legs and fangs shoot out. She always strikes upward from beneath.
+
+check: How does a trapdoor spider catch a beetle?
+- She chases it across the forest floor
++ The door flicks open and she strikes
+- She spins a sticky web in the trees
+hint: Look at the last paragraph. It says what happens when a beetle walks over the door.
+explain: The door flicks open and the spider strikes upward from beneath, all in a fraction of a second.
+
+--- 🐾 @diving-bell-spider
+p: Meet the diving bell spider. It is the only spider in the world that lives its whole life underwater, inside a bubble of air it builds itself.
+
+fact(The air house): It spins a silk dome between underwater plants. Then it ferries bubbles down from the surface one at a time until the dome inflates. The result looks like a small silver balloon.
+
+p: It is about as long as your thumbnail. It hunts by feel: when something bumps a silk thread, the spider feels the tug and shoots out to grab it.
+
+--- 🐾 @golden-orb-weaver
+p: Meet the golden orb-weaver, a big tropical spider that spins a wheel-shaped web of silk the color of real gold.
+
+fact(The gold silk): The gold is real color. Her silk carries a yellow pigment that she lays down as she spins. Her web can be about 5 ft (1.5 m) across.
+
+p: Weight for weight, her dragline silk is stronger than steel. Small birds and bats have been found tangled in golden orb webs.
+
+check: How wide can a golden orb-weaver's web be?
+- No wider than a dinner plate
+- Over 50 ft (15 m) across
++ About 5 ft (1.5 m) across
+hint: Look at the box. It gives the width of the web.
+explain: The web can be about 5 ft (1.5 m) across, wider than a child is tall.
+
+--- 🐾 @emperor-scorpion
+p: Meet the emperor scorpion, one of the largest scorpions in the world. It is a glossy black, heavy-clawed burrower from West Africa.
+
+fact(The glow): Shine ultraviolet light on one at night and it glows an eerie blue-green. It runs about 8 in (20 cm) long and weighs around 1 oz (30 g).
+
+p: The rule with scorpions is fat claws, mild venom. The emperor has enormous claws, and its sting is roughly a bee sting.
+
+--- 🐾 @horseshoe-crab
+p: Meet the horseshoe crab. It is a helmet-shaped sea animal with a spike for a tail. Despite the name, it is not a crab.
+
+fact(The blue blood): Its blood is blue. A horseshoe crab carries oxygen with copper, and copper turns blue when it grabs oxygen. Hospitals use the blood to check that vaccines are clean.
+
+p: A big female runs about 2 ft (60 cm) from front to tail tip. Its two big side eyes are built from about a thousand separate units.
+
+--- 📊
+p: Seven animals, all close kin of the spiders, and no two alike. The birdeater is the heaviest. The jumping spider sees the sharpest. The trapdoor spider hides behind a door. The diving bell spider lives in a bubble. The orb-weaver spins gold. The scorpion glows. The horseshoe crab has blue blood.
+
+fact(Sizes): The Goliath birdeater's legs span 12 in (30 cm). The emperor scorpion is about 8 in (20 cm) long. The horseshoe crab is about 2 ft (60 cm). The trapdoor spider is about 1.2 in (3 cm) long.
+
+--- 🐾
+p: A birdeater as big as a dinner plate. A jumping spider with the sharpest eyesight. A trapdoor spider behind its door. A diving bell spider in its bubble. A golden orb-weaver with gold silk. A scorpion that glows. A horseshoe crab with blue blood.
+
+p: Seven animals, each with its own special trick.
+
+quiz: How much can a Goliath birdeater weigh?
+- About the same as a small grape
+- About the same as a big pumpkin
++ About the same as a large apple
+explain: It can weigh 6 oz (175 g), about the same as a large apple.
+
+quiz: What does a jumping spider glue down before every leap?
++ A silk safety line
+- A sticky ball of mud
+- A tiny seed
+explain: If it misses, it swings on that line and then climbs calmly back up.
+
+quiz: What does a diving bell spider breathe from underwater?
+- Gills like a fish on its legs
+- A hollow reed that it holds
++ A bubble of air it builds
+explain: The air bubble works like a gill, letting oxygen seep in from the water.
+
+quiz: What color does an emperor scorpion glow under ultraviolet light?
+- Bright red
++ Blue-green
+- Pale yellow
+explain: Shine ultraviolet light on one at night and it glows an eerie blue-green.
+
+quiz: Why is a horseshoe crab's blood useful in hospitals?
+- It cures people of a bad cold fast
++ It helps check that vaccines are clean
+- It makes medicine taste a bit sweeter
+explain: The blood clots around bacterial poison, which shows whether a vaccine is clean.
+
+# UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
+=== animals-sea-2
+idea: A nautilus lives in a coiled shell. A box jellyfish has twenty-four eyes and no brain. An immortal jellyfish can start its life over. Meet five sea animals.
+game: Chambered nautilus = Lives inside a coiled shell | Box jellyfish = Cube-shaped and swims after prey | Lion's mane jellyfish = Largest jellyfish in the ocean | Immortal jellyfish = Turns back into a baby | Sea star = Five arms and tube feet
+
+--- 🐾
+p: Five sea animals are waiting for you: a chambered nautilus, a box jellyfish, a lion's mane jellyfish, an immortal jellyfish and a sea star.
+
+p: Each one has its own special trick. Which one would you most like to meet first?
+
+--- 🐾 @nautilus
+p: Meet the chambered nautilus, a cephalopod that lives inside a coiled shell. About ninety small tentacles and two pinhole eyes peer out of it.
+
+fact(The only one): Every other cephalopod alive, such as octopus, squid and cuttlefish, keeps its shell on the inside or has none at all. The nautilus is the only one that lives inside one.
+
+p: The shell is a spiral of sealed chambers, around thirty in a grown animal. The nautilus lives only in the outermost room, and the rest are empty and full of gas.
+
+check: Where does the nautilus live inside its shell?
+- In the innermost room
++ In the outermost room
+- In every single room
+hint: Look at the last paragraph. It says which room the nautilus lives in.
+explain: The nautilus lives only in the outermost room. The rest are empty and full of gas.
+
+--- 🐾 @box-jellyfish
+p: Meet the box jellyfish. This cube-shaped jellyfish has tentacles trailing from each corner. It swims after its prey instead of drifting.
+
+fact(Twenty-four eyes): It has twenty-four eyes, in four clusters of six, and no brain at all. A ring of nerve around the rim of the bell coordinates every pulse and every turn.
+
+term: stinging cell = A tiny coiled harpoon, held under pressure, that fires in less than a thousandth of a second.
+
+p: Every tentacle is carpeted in stinging cells. The jellyfish beats its bell and reaches about 1.5 meters a second (5.4 km/h, 3.4 mph), a brisk walking pace.
+
+--- 🐾 @lions-mane-jellyfish
+p: Meet the lion's mane jellyfish, the largest jellyfish in the ocean. A shaggy curtain of stinging tentacles hangs beneath its bell, and it drifts in cold water.
+
+fact(A giant): The biggest bells measured were over 7 ft (2 m) across, wider than a door is tall. The tentacles trailed more than 100 ft (30 m) behind.
+
+p: Around 1,200 tentacles hang in eight thick bunches, like eight mops under one umbrella. About 95% of a jellyfish is water.
+
+check: How are a lion's mane's tentacles grouped?
+- In one long single row
++ In eight thick bunches
+- In two very long braids
+hint: Look at the last paragraph. It says how the tentacles hang.
+explain: Around 1,200 tentacles hang in eight thick bunches, like eight mops under one umbrella.
+
+--- 🐾 @immortal-jellyfish
+p: Meet the immortal jellyfish. It is smaller than your fingernail. When it is injured or starving, it rewinds itself back into a baby and starts its life over.
+
+fact(Turning back): A full-grown adult is about 0.18 in (4.5 mm) across. Injure it, starve it, or chill the water, and instead of dying it sinks and turns into its own young stage.
+
+p: The shrunken blob settles on the seafloor and grows into a polyp, a tiny stalk. That polyp then buds off brand-new jellyfish.
+
+p: It is see-through except for one bright red stomach, glowing in the middle of the bell like a warning light.
+
+--- 🐾 @sea-star
+p: Meet the sea star. This five-armed animal walks on hundreds of tiny water-powered feet. It eats by pushing its stomach out through its own mouth.
+
+fact(Not a fish): It has no fins, no scales, no backbone, no bones at all. Sea stars are echinoderms, a word that means spiny skin.
+
+p: It eats by turning its stomach inside out. The stomach slides out of the mouth, wraps around the meal, digests it outside the body, then folds back in.
+
+check: How does a sea star eat?
+- It crushes food with teeth
++ It pushes its stomach out
+- It sucks food in like a straw
+hint: Look at the last paragraph. It says what the stomach does.
+explain: The stomach slides out of the mouth, wraps around the meal and digests it outside the body.
+
+--- 📊
+p: Five sea animals, each built in its own odd way. The nautilus lives in a coiled shell. The box jellyfish has twenty-four eyes and no brain. The lion's mane is the largest jellyfish in the ocean. The immortal jellyfish can start over. The sea star turns its stomach inside out.
+
+fact(Sizes): A nautilus shell is about as wide as a side plate. A lion's mane bell can reach 6.6 ft (2 m) across. The immortal jellyfish is about 0.18 in (4.5 mm) across. A box jellyfish's tentacles trail up to 9.8 ft (3 m).
+
+--- 🐾
+p: A nautilus in its coiled shell. A box jellyfish with its many eyes. A lion's mane with its long tentacles. A tiny jellyfish starting over. A sea star with its stomach outside.
+
+p: Five sea animals, each with its own special trick.
+
+quiz: Which cephalopod lives inside its shell?
+- The octopus
+- The squid
++ The nautilus
+explain: Octopus, squid and cuttlefish keep their shells inside or have none. The nautilus lives inside one.
+
+quiz: How does a box jellyfish move?
+- It drifts wherever the water goes
++ It swims after its prey
+- It crawls along the seabed
+explain: Most jellyfish go wherever the water goes. A box jellyfish beats its bell and hunts.
+
+quiz: How big can a lion's mane jellyfish bell get?
+- As big as a dinner plate
+- About 7 in (18 cm) across
++ Over 7 ft (2 m) across
+explain: The biggest bells measured were over 7 ft (2 m) across, wider than a door is tall.
+
+quiz: What does the immortal jellyfish do when it is injured?
++ It turns back into a baby
+- It sinks and dies
+- It floats up to the surface
+explain: Instead of dying, it sinks and turns into its own young stage, then starts its life over.
+
+quiz: How many arms does a sea star have?
+- Three
++ Five
+- Eight
+explain: A sea star is a five-armed animal that walks on hundreds of tiny water-powered feet.
+
+# UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
+=== animals-crustaceans-2
+idea: A male fiddler crab carries a claw that weighs half of him. A lobster chews with its stomach. A barnacle glues its head to a rock. Meet four small sea animals.
+game: Fiddler crab = Waves one giant claw like a flag | American lobster = Has teeth in its stomach | Barnacle = Glues its head to a rock | Antarctic krill = Swarms and makes its own light
+
+--- 🐾
+p: Four small sea animals are waiting for you: a fiddler crab, an American lobster, a barnacle, and an Antarctic krill.
+
+p: Each one has its own special tool. Which one would you most like to meet first?
+
+--- 🐾 @fiddler-crab
+p: Meet the fiddler crab. This small mudflat crab is only about 1.2 in (3 cm) across. The male has one ordinary claw and one huge one.
+
+fact(The giant claw): In a male, the big claw can reach half his total weight. He carries it everywhere and waves it like a flag.
+
+p: Females have two small claws, and both work as spoons. A male can feed with only one.
+
+check: How heavy can a male fiddler crab's big claw get?
+- About the weight of a pebble
++ Half of his whole weight
+- Only a few grains of sand
+hint: Look at the box. It says how heavy the big claw can get.
+explain: A male's big claw can reach half his total weight, and he carries it everywhere.
+
+--- 🐾 @american-lobster
+p: Meet the American lobster. This armored crawler walks the cold Atlantic seabed, hunting anything it can crack open.
+
+fact(Two different claws): The claws do not match. One is a fat crusher with blunt knobs for smashing shells. The other is a thin ripper with a jagged edge, like a steak knife.
+
+term: gastric mill = Three hard teeth in a lobster's stomach that grind up food after it is swallowed.
+
+check: Where does a lobster chew its food?
+- In its tail
++ In its stomach
+- In its claws
+hint: Look at the box with the new word. It tells where the teeth are.
+explain: A lobster chews with its stomach, where three hard teeth grind up the food.
+
+--- 🐾 @barnacle
+p: Meet the barnacle, a cousin of crabs and shrimp. When it is young, it glues its own head to a rock and stays there for life.
+
+fact(The glue): Barnacle glue sticks on a wet, dirty, moving surface, even underwater. Engineers copied it to make a paste that seals a bleeding wound in about fifteen seconds.
+
+p: A barnacle lies on its back inside its shell, head cemented down. Its feathery legs sweep out and haul food back inside.
+
+check: What did engineers copy from barnacles?
+- A shell that glows in the dark
+- A leg that grows back each year
++ A glue that sticks when wet
+hint: Look at the box. It tells what engineers copied.
+explain: Engineers copied barnacle glue, which sticks on wet, dirty surfaces, to seal wounds fast.
+
+--- 🐾 @krill
+p: Meet the Antarctic krill. This small, almost see-through animal swims in the freezing Southern Ocean. It is about as long as your little finger.
+
+fact(The swarm): At their thickest, 10,000 to 30,000 krill pack into one cubic meter of water. Whales, seals, penguins, squid and fish all hunt in the swarm.
+
+p: Krill make their own light. Glowing organs beneath the eyes shine yellow-green for two or three seconds at a time.
+
+--- 📊
+p: Four small sea animals, and four very different tools. The fiddler crab waves a giant claw. The lobster grinds food with teeth in its stomach. The barnacle glues itself to a rock. The krill swarms by the thousands and glows.
+
+fact(Sizes): A fiddler crab is about 1.2 in (3 cm) across. A barnacle is smaller than your thumbnail. A krill is about 2.4 in (6 cm) long. A common lobster is about as long as your forearm.
+
+--- 🐾
+p: A fiddler crab waving a giant claw. A lobster with teeth in its stomach. A barnacle glued to a rock. A krill swarm glowing in the dark.
+
+p: Four small sea animals, each with its own special tool.
+
+quiz: What is odd about a lobster's two claws?
+- They are both the same size
++ They are two different shapes
+- They fall off every day
+explain: One claw is a fat crusher and the other is a thin ripper, so they do not match.
+
+quiz: How does a fiddler crab stay safe at high tide?
+- It swims far out into the sea
+- It climbs up onto a tall rock
++ It seals its burrow with mud
+explain: At high tide the crab plugs its burrow with mud and breathes from a pocket of air.
+
+quiz: How does a barnacle feed?
++ Feathery legs comb food from the water
+- It chases small fish through the sea
+- It digs for worms in the soft mud
+explain: A barnacle sweeps its feathery legs out and hauls plankton back inside.
+
+quiz: What do krill do each night?
+- Dive down deep to sleep
++ Climb up to feed
+- Walk across the ice
+explain: Krill drop deep by day, where it is dark and safer, then climb back up at night to feed.
+
+quiz: What makes krill glow?
+- Glow-worms they have swallowed
+- Sunlight stored in their shells
++ Light organs they can aim
+explain: Krill have light organs that glow yellow-green, and they can rotate them to aim the light.
+
+# UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
+=== animals-dinosaurs-6
+idea: Five giants of the air and sea, and not one was a dinosaur. One had a neck with about 40 bones, and one stood as tall as a basketball hoop.
+game: Pteranodon = Flying reptile with a toothless beak | Quetzalcoatlus = Largest flying animal ever found | Plesiosaurus = Long neck, short tail, four flippers | Mosasaurus = Sea lizard with paddles and a shark-like tail | Ichthyosaurus = Dolphin-shaped swimming reptile
+
+--- 🐾
+p: Five giants of the air and the sea are waiting: the Pteranodon, the Quetzalcoatlus, the Plesiosaurus, the Mosasaurus and the Ichthyosaurus.
+
+p: Not one of them was a dinosaur. Which one would you most like to meet?
+
+--- 🐾 @pteranodon
+p: Meet the Pteranodon. This large flying reptile had a toothless beak and a long, backswept crest. It was not a dinosaur, and not a bird.
+
+fact(The wings): Its wings were about 20 ft (6 m) from tip to tip. The body was only about 6 ft (1.8 m) from beak to tail.
+
+p: The name means wing without tooth. The beak was completely empty: two long, pointed jaws with nothing in them.
+
+check: What does the name Pteranodon mean?
+- Giant bird of the chalk
+- Lizard with long legs
++ Wing without tooth
+hint: Look at the paragraph. It explains the meaning of the name.
+explain: Pteranodon means wing without tooth, because its long beak had no teeth at all.
+
+--- 🐾 @quetzalcoatlus
+p: Meet the Quetzalcoatlus. It is the largest flying animal ever found. It was a toothless flying reptile that stalked river shallows on all fours.
+
+fact(The giant wings): Its wings spanned about 33 to 36 ft (10 to 11 m), the wingspan of a small airplane. Standing on the ground, it held its head more than 13 ft (4 m) up.
+
+p: To get into the air, it jumped. Researchers worked out that it leaped at least 8 ft (2.4 m) straight up, then swept its wings down.
+
+term: wingspan = How far a pair of wings reaches, from one tip to the other.
+
+--- 🐾 @plesiosaurus
+p: Meet the Plesiosaurus. This swimming reptile had a long neck, a short tail and four big flippers. It was not a dinosaur.
+
+fact(The neck): The neck alone held about 40 separate bones. A giraffe manages its whole neck with seven.
+
+p: It was about 10 ft (3 m) long from nose to tail, and roughly a third of that was neck.
+
+check: About how many bones were in its neck?
+- Over 400 bones
+- Just 7 bones, like a giraffe
++ Around 40 bones
+hint: Look at the box. It counts the bones in the neck.
+explain: The neck alone held about 40 separate bones, far more than a giraffe's seven.
+
+--- 🐾 @mosasaurus
+p: Meet the Mosasaurus. This enormous sea-going lizard had paddles instead of feet and a shark-like tail.
+
+fact(The size): About 40 ft (12 m) long, worked out from the skull. The skull alone measures over 4 ft 9 in (145 cm).
+
+p: The name means lizard of the Meuse, after a river. The jaws carry 14 to 16 teeth along each upper edge.
+
+--- 🐾 @ichthyosaurus
+p: Meet the Ichthyosaurus. This dolphin-shaped reptile swam off the Dorset coast. It was shaped like a fish, but it breathed air.
+
+fact(The size): About 6 to 7 ft (2 m) long. The largest one ever found reached nearly 11 ft (3.3 m).
+
+p: It had the same shape as a dolphin: a pointed snout, a back fin and a crescent tail. Its huge eye held a ring of bony plates.
+
+check: Which animal alive today has the same shape as an Ichthyosaurus?
+- A crocodile
++ A dolphin
+- A giant turtle
+hint: Look at the paragraph. It says which animal has the same shape.
+explain: Ichthyosaurus had the same shape as a dolphin, with a pointed snout, a back fin and a crescent tail.
+
+--- 📊
+p: Five reptiles, and not one was a dinosaur. Two flew on wings of skin. Three swam, and all three came up to breathe air.
+
+fact(Sizes): Pteranodon wings reached about 20 ft (6 m). Quetzalcoatlus spread 33 to 36 ft (10 to 11 m). Plesiosaurus was about 10 ft (3 m) long, Mosasaurus about 40 ft (12 m), and Ichthyosaurus 6 to 7 ft (2 m).
+
+--- 🐾
+p: A Pteranodon with a toothless beak. A Quetzalcoatlus jumping into the air. A Plesiosaurus with a long neck. A Mosasaurus with paddles. An Ichthyosaurus shaped like a dolphin.
+
+p: Five giants of the air and the sea, and not one was a dinosaur.
+
+quiz: What was special about the Pteranodon's beak?
+- It was full of sharp teeth
+- It could crack open shells
++ It had no teeth at all
+explain: The name means wing without tooth, and the long beak was completely empty.
+
+quiz: How did the Quetzalcoatlus get into the air?
++ It jumped first, then swept its wings down
+- It ran along the ground, then took off
+- It dropped from a tall tree and glided
+explain: Researchers worked out that it leaped at least 8 ft (2.4 m) straight up, then swept its wings down.
+
+quiz: Who dug up the first complete Plesiosaurus?
+- A farmer in Kansas
+- Georges Cuvier
++ Mary Anning
+explain: Mary Anning dug the first complete Plesiosaurus out of the cliffs at Lyme Regis in 1823.
+
+quiz: What does the name Mosasaurus mean?
+- Lizard of the sea
++ Lizard of the Meuse
+- Giant sea snake
+explain: It is named after the Meuse, the river at Maastricht, where the first skull was found.
+
+quiz: How did Ichthyosaurus babies come into the world?
+- They hatched from eggs on a beach
+- They dropped down from the air
++ They were born alive in the water
+explain: Ichthyosaurs gave birth in the water, and they bore live young instead of laying eggs.
+

@@ -792,3 +792,1122 @@ quiz: Why is the wood of the Cedar of Lebanon highly prized?
 - it is very flexible
 explain: This makes the wood perfect for building long-lasting structures like temples and palaces.
 
+# UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
+=== plants-trees-4
+idea: An olive is too bitter to eat fresh. A fig is a bag of flowers turned inside out. An apple never grows true from seed. Meet five trees that are not what they seem.
+game: Olive tree = Fruit too bitter to eat fresh | Common fig = Fruit is really a bag of flowers | Apple tree = Never grows true from seed | Weeping willow = Bark gave us the idea for aspirin | Silver birch = First tree on bare or burned ground
+
+--- 🌿
+p: Five trees are waiting for you: an olive tree, a common fig, an apple tree, a weeping willow and a silver birch.
+
+p: Each one hides a surprise. Which one would you most like to meet first?
+
+--- 🌿 @olive
+p: Meet the olive tree. This slow, gnarled tree of the Mediterranean grows a fruit you cannot eat straight off the branch.
+
+fact(Too bitter): A young olive is savagely bitter. To make it edible it must be cured, for a few days in lye or a few months in brine.
+
+p: The written account of the flood says that Noah's dove came back with a fresh olive leaf in her beak.
+
+check: What has to be done to a fresh olive before it can be eaten?
+- Roast it over a fire
++ Cure it in lye or brine
+- Rinse it in fresh milk
+hint: Look at the box. It tells how the bitter fruit is made edible.
+explain: A fresh olive is savagely bitter, so it has to be cured in lye or brine first.
+
+--- 🌿 @fig
+p: Meet the common fig. This tree of the Mediterranean grows a fruit that is not a fruit at all, but a bag of flowers turned inside out.
+
+fact(Inside a fig): Cut one in half and look. A fig is a hollow, fleshy pouch lined on the inside with hundreds of tiny flowers, all facing inward.
+
+term: syconium = A hollow, fleshy pouch with tiny flowers lined up on the inside.
+
+p: There is one way in, a pinhole at the tip. The fig wasp squeezes through to reach the flowers, and she generally loses her wings on the way.
+
+--- 🌿 @apple
+p: Meet the apple tree. It refuses to copy itself from seed. Every apple variety you have eaten is a cutting off one original plant.
+
+fact(No copies): Plant a pip from a Gala and you do not get a Gala. The seedling comes out different from both parents, usually small and sour.
+
+p: So every Granny Smith is a cutting. A shoot from the original plant is grafted onto a rootstock. There are more than 7,500 named apple varieties.
+
+check: What do you get if you plant a pip from a Gala apple?
+- A Gala tree just like its parent
++ A tree with different apples
+- A tree that grows pears
+hint: Look at the box. It says what comes out of a planted pip.
+explain: Apple seedlings come out different from both parents, so a Gala pip does not give a Gala.
+
+--- 🌿 @willow
+p: Meet the weeping willow, the drooping tree by the water. Its branchlets hang straight down to the ground like a curtain.
+
+fact(The medicine): In 1763 the Reverend Edward Stone reported that powdered white willow bark cured shivering fevers. In 1899 Bayer began selling Aspirin.
+
+p: There is no aspirin in a willow. Aspirin is a made compound that does not occur in the bark at all.
+
+p: Push a cut willow stick into wet ground and it roots. Willows are among the easiest trees on Earth to grow from a piece.
+
+--- 🌿 @birch
+p: Meet the silver birch. This white-barked tree gets to burned ground first. Its bark works as a waterproof sheet.
+
+fact(The white powder): The outer bark is up to 20 percent betulin, the white powder that comes off on your fingers. Betulin is waxy and water-repellent.
+
+p: Birch is a pioneer, one of the first trees to come up on bare or burned land. But it cannot stand shade, so slower trees grow up past it.
+
+check: What makes birch bark waterproof?
+- A thick layer of sap
+- Tiny hairs that trap air
++ Betulin, a waxy powder
+hint: Look at the box. It names the white powder on the bark.
+explain: The bark is up to 20 percent betulin, a waxy, water-repellent powder.
+
+--- 📊
+p: Five trees, five surprises. The olive makes a fruit too bitter to eat. The fig hides its flowers inside. The apple never copies itself from seed. The willow gave us the idea behind aspirin. The birch is first to a burned field.
+
+fact(Sizes): A birch grows 49 to 82 ft (15 to 25 m) tall. A weeping willow reaches 66 to 82 ft (20 to 25 m). A common fig reaches 23 to 33 ft (7 to 10 m). One olive trunk measures 82 ft (25 m) around, and it would take a dozen children with their arms out to circle it.
+
+--- 🌿
+p: An olive too bitter to eat. A fig full of flowers. An apple that never copies itself. A willow by the water. A birch on burned ground.
+
+p: Five trees, each with a surprise.
+
+quiz: What is a fig really?
+- A seed pod full of nuts
++ A bag of tiny flowers
+- A cluster of berries
+explain: A fig is a hollow pouch lined with hundreds of tiny flowers, all facing inward.
+
+quiz: How is a Granny Smith apple tree made?
+- Its seeds are planted in long rows
+- A branch is dipped in sticky glue
++ A shoot is grafted onto a rootstock
+explain: Apple seeds never repeat their parent, so every Granny Smith is a cutting of the original plant.
+
+quiz: What did the Reverend Edward Stone give people for fevers?
+- Crushed leaves from an olive tree
++ Powdered white willow bark
+- Warm tea made from fig leaves
+explain: In 1763 he reported that powdered white willow bark cured shivering fevers.
+
+quiz: Where does a birch tree grow first?
+- Deep inside an old forest
+- In the shade of big trees
++ On bare or burned ground
+explain: Birch is a pioneer, one of the first trees to come up on bare or burned land.
+
+quiz: How many children would it take to circle the biggest olive trunk?
+- Only one child
++ About a dozen children
+- More than a hundred children
+explain: The trunk measures 82 ft (25 m) around, so a dozen children with their arms out could just circle it.
+
+# UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
+=== plants-flowers-1
+idea: A sunflower is hundreds of tiny flowers. A corpse flower smells of rotting meat. A rafflesia has no leaves, stem or roots. Meet five flowers with a trick.
+game: Sunflower = Hundreds of tiny flowers on one stalk | Corpse flower = Smells of rotting meat and heats itself | Rafflesia = Largest single flower, no leaves or roots | Bee orchid = Has a lip shaped like a bee | Sacred lotus = Leaves that shed dirt
+
+--- 🌿
+p: Five flowers are waiting for you: a sunflower, a corpse flower, a rafflesia, a bee orchid and a sacred lotus.
+
+p: Each one has its own special trick. Which one would you most like to meet first?
+
+--- 🌿 @sunflower
+p: Meet the sunflower. What looks like a big flower is really a packed disc of hundreds of tiny separate flowers on a stalk.
+
+fact(Pull it apart): The yellow outer blades are ray florets. The whole brown center is packed with disc florets. Each disc floret is a complete little flower, and each one makes exactly one seed.
+
+p: A garden sunflower stands about 10 ft (3 m) tall, with a head the width of a dinner plate. The record holder reached 35 ft 9 in (10.9 m).
+
+check: How many seeds does each tiny disc floret make?
+- Two seeds each
++ Exactly one seed
+- A whole handful of seeds
+hint: Look at the box. It says how many seeds each little flower makes.
+explain: Each disc floret is a complete little flower, and each one makes exactly one seed.
+
+--- 🌿 @corpse-flower
+p: Meet the corpse flower. This Sumatran plant banks food underground for years, then spends the lot on one enormous bloom that smells of rotting meat.
+
+fact(The giant corm): The underground store can top 200 lb (90 kg), the largest of any flowering plant. One grown in Edinburgh reached 339 lb (153.9 kg) after seven years.
+
+term: corm = An underground food store, a swollen stem rather than a root.
+
+p: The spike heats itself to about 99°F (37°C), which is human body temperature. Put a hand near it and you can feel the warmth.
+
+--- 🌿 @rafflesia
+p: Meet the rafflesia, the largest single flower there is. It grows straight out of a jungle vine with no leaves, no stem and no roots of its own.
+
+fact(The giant bloom): A bloom measured in West Sumatra in January 2020 came to 3 ft 7.7 in (111 cm) across, the widest reliably recorded. That is about as wide as a car tire laid flat.
+
+p: It has no chlorophyll, so there is nothing green anywhere on it. Everything you can see of the plant is the flower. The rest lives as threads inside a jungle vine.
+
+check: Why is there nothing green on a rafflesia?
+- Its leaves are underground
++ It has no chlorophyll
+- Rain washes the green away
+hint: Look at the last paragraph. It says what the plant does not have.
+explain: A rafflesia has no chlorophyll, the green machinery that turns sunlight into sugar, so nothing on it is green.
+
+--- 🌿 @orchid-bee
+p: Meet the bee orchid. This small European orchid has a furry, brown lower lip shaped so much like a bee that people look twice.
+
+fact(The look-alike): The lip is velvety chestnut brown with a yellow-edged pattern. Two narrow inner petals stand up above it like antennae, and three broad pink sepals spread out behind like a propeller.
+
+p: In Britain, its pollinating bee is scarce, so the orchid mostly pollinates itself. Its pollen sacs hang on long, flexible stalks that gradually bend down until they touch the flower's own sticky part.
+
+--- 🌿 @lotus
+p: Meet the sacred lotus, a water plant whose leaves shed dirt completely. Paint and fabric makers copied the surface.
+
+fact(The lotus effect): Water will not wet a lotus leaf. It balls up and rolls straight off, picking up dust on the way.
+
+p: The flower runs a heater. It holds itself between 86 and 95°F (30 to 35°C) inside for about two days, even when the air around it falls to 50°F (10°C).
+
+check: What happens to a drop of water on a lotus leaf?
+- It soaks straight into the leaf
++ It balls up and rolls off
+- It spreads out in a thin film
+hint: Look at the box. It tells what water does on the leaf.
+explain: Water balls up and rolls straight off the leaf, picking up dust on the way.
+
+--- 📊
+p: Five flowers, and five very different tricks. The sunflower is hundreds of flowers in one. The corpse flower smells of rotting meat. The rafflesia is the largest single flower. The bee orchid looks like a bee. The lotus leaf sheds dirt.
+
+fact(Sizes): A garden sunflower stands about 10 ft (3 m) tall. A rafflesia is about 3 ft 3 in (1 m) across. A bee orchid is 6 to 20 in (15 to 50 cm) tall. A lotus leaf is 2 ft 7 in to 3 ft 3 in (80 to 100 cm) across.
+
+--- 🌿
+p: A sunflower of hundreds of tiny flowers. A corpse flower that smells of rotting meat. A rafflesia, the largest single flower. A bee orchid that looks like a bee. A lotus leaf that sheds dirt.
+
+p: Five flowers, each with its own special trick.
+
+quiz: What is a corm?
+- A kind of petal on the bloom
++ An underground food store
+- A sweet nectar that bees drink
+explain: The corm is an underground store of food, and a corpse flower's can top 200 lb (90 kg).
+
+quiz: How wide is a big rafflesia bloom?
+- As wide as a dinner plate
++ About as wide as a car tire
+- As wide as a football pitch
+explain: The widest bloom reliably recorded was 3 ft 7.7 in (111 cm) across.
+
+quiz: How does a bee orchid get pollinated in Britain?
+- A moth carries its pollen
+- The wind blows it away
++ It pollinates itself
+explain: In Britain its pollinating bee is scarce, so the orchid mostly pollinates itself.
+
+quiz: Why is a lotus leaf self-cleaning?
+- Morning dew washes it clean each day
++ Water rolls off and takes dust with it
+- It sheds its dirty skin every night
+explain: Water balls up and rolls straight off, picking up dust on the way.
+
+quiz: How warm does a corpse flower's spike get?
+- Cold as a glass of ice
+- Hot as a boiling kettle
++ Warm as your own body
+explain: At its peak the tip reaches about 99°F (37°C), which is human body temperature.
+
+# UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
+=== plants-flowers-3
+idea: A bird of paradise flower splits open under a bird's weight. A giant water lily leaf can hold a child. A snapdragon's seed pod looks like a skull. Meet five flowers with a trick.
+game: Bird of paradise flower = Splits open under a bird's weight | Passionflower = Flower built in rings of threads | Snapdragon = Mouth snaps shut, seed pod looks like a skull | Giant water lily = Leaf strong enough to hold a child | Edelweiss = Wooly flower that soaks up ultraviolet
+
+--- 🌿
+p: Five flowers are waiting for you: a bird of paradise flower, a passionflower, a snapdragon, a giant water lily and an edelweiss.
+
+p: Each one has its own special trick. Which one would you most like to meet first?
+
+--- 🌿 @bird-of-paradise
+p: Meet the bird of paradise flower. This South African plant's flowers open sideways out of a hard beak and look like the head of a crested bird.
+
+fact(The crest): Each flower has three orange sepals standing up like a crest and three blue-purple petals below. Two of the blue petals are fused into an arrow shape, with the pollen hidden inside.
+
+p: A bird landing on the blue arrow makes it split open along its length, and the pollen presses onto the bird's feet. Almost nothing else in the plant world moves pollen by foot.
+
+check: What splits the blue arrow open?
+- A gust of wind
++ A bird landing on it
+- A bee buzzing near it
+hint: Look at the last paragraph. It says what makes the arrow split open.
+explain: A bird landing on the blue arrow makes it split open, and the pollen presses onto the bird's feet.
+
+--- 🌿 @passionflower
+p: Meet the passionflower, a climbing vine with a flower built in rings. Missionaries gave the plant its name, because they saw the story of the cross in its parts.
+
+fact(The corona): The ring of colored threads inside the flower is called the corona. Some species stack as many as eight rings of it in a single flower.
+
+term: corona = The ring of colored threads inside a passionflower.
+
+p: The vine makes nectar outside its flowers too, from small glands on the leaf stalks. Ants find the sugar and stay on the plant.
+
+--- 🌿 @snapdragon
+p: Meet the snapdragon, a Mediterranean garden flower with a mouth that snaps shut and a seed pod that dries into a tiny skull.
+
+fact(The snap): Pinch the sides of the flower and it gapes open like a jaw. Let go and it snaps shut. The seed capsule later dries into a skull, with two hollow eye sockets and an open mouth.
+
+p: The flower is shut. A bumblebee has to land on the lower lip, force it down and climb inside to reach the nectar, collecting pollen on its back as it goes.
+
+check: What does a snapdragon's dried seed pod look like?
+- A small star
++ A tiny skull
+- A little bell
+hint: Look at the first paragraph. It says what the seed pod dries into.
+explain: The seed capsule dries into the shape of a skull, with two hollow eye sockets and an open mouth.
+
+--- 🌿 @water-lily
+p: Meet the giant water lily. This Amazon water plant has leaves 10 ft (3 m) across, strong enough to hold a child standing up.
+
+fact(Strong leaf): A leaf tested at Ghent measured 8 ft 6 in (2.6 m) across and weighed 13 lb (6.1 kg). Loaded with weights, it carried 498 lb (226 kg) before it gave way, about 38 times its own weight.
+
+p: Turn one over. Thick ribs radiate from the center with cross-braces between them, and every rib is covered in sharp spines.
+
+p: The flower opens white on the first night, then closes with beetles shut inside. The next night it reopens, and the petals have turned pink.
+
+--- 🌿 @edelweiss
+p: Meet the edelweiss, a wooly Alpine flower of high limestone rock. Its hairs soak up ultraviolet light.
+
+fact(White hairs): The white star is not petals. Those are bracts, which are modified leaves, arranged in a double star around five or six small yellow flower heads. Every white surface is packed with dense white hairs.
+
+p: Researchers shone light through a pad of the white hairs. The hairs absorb near-ultraviolet light before it reaches the living tissue underneath. They do not simply bounce it away.
+
+check: What do the white hairs do with ultraviolet light?
+- Bounce it all away
++ Soak it up
+- Turn it into nectar
+hint: Look at the last paragraph. It says what the hairs do with ultraviolet light.
+explain: The hairs absorb near-ultraviolet light before it reaches the living tissue underneath.
+
+--- 📊
+p: Five flowers, five ways of working. The bird of paradise opens for a bird's weight. The passionflower stacks rings of threads. The snapdragon snaps its mouth shut. The giant water lily carries a child. The edelweiss soaks up ultraviolet light.
+
+fact(Sizes): The bird of paradise plant reaches about 6 ft 6 in (2 m). A passionflower vine climbs 20 to 30 ft (6 to 9 m). A snapdragon stands 1 ft 8 in to 3 ft 3 in (0.5 to 1 m) tall. An edelweiss is 1 to 8 in (3 to 20 cm) tall in the wild.
+
+--- 🌿
+p: A bird of paradise that splits for a bird's weight. A passionflower with rings of threads. A snapdragon that snaps shut. A water lily leaf holding a child. A wooly edelweiss.
+
+p: Five flowers, each with its own way of working.
+
+quiz: What colors are the bird of paradise flower's crest and arrow?
+- Bright red crest, deep green arrow
+- Pale yellow crest, snow white arrow
++ Orange crest, blue-purple arrow
+explain: Three orange sepals stand up like a crest, and the blue-purple petals form the arrow.
+
+quiz: How many rings of threads can some passionflowers stack?
+- Just a single ring
++ As many as eight
+- Exactly three rings
+explain: Some species stack as many as eight rings of the corona in a single flower.
+
+quiz: Which insect has to climb inside a snapdragon to reach the nectar?
+- A tiny fly
++ A bumblebee
+- A small ant
+explain: The flower is shut, so a bumblebee has to land, force the lip down and climb inside.
+
+quiz: How much weight did a giant water lily leaf carry before it gave way?
+- About the weight of a coin
+- Only its own weight
++ About 38 times its own weight
+explain: A leaf that weighed 13 lb (6.1 kg) carried 498 lb (226 kg) before it gave way.
+
+quiz: Where does edelweiss grow?
+- In a warm, wet swamp
+- On sandy sea beaches
++ On high limestone rock
+explain: Edelweiss is a wooly Alpine flower of high limestone rock.
+
+# UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
+=== plants-flowers-4
+idea: A hibiscus flower lasts about one day. A foxglove can poison or heal. A bluebell takes five years to bloom. Meet three flowers with very different lives.
+game: Hibiscus = Flowers that last just one day | Foxglove = Poisonous bells that can steady a heart | Bluebell = Turns woods blue for a few weeks
+
+--- 🌿
+p: Three flowers are waiting for you: a hibiscus, a foxglove and a bluebell.
+
+p: Each one lives its life in a different way. Which one would you most like to meet first?
+
+--- 🌿 @hibiscus
+p: Meet the hibiscus. This tropical shrub has big trumpet flowers that open in the morning and are finished by evening.
+
+fact(A single day): A hibiscus flower lasts about one day. It opens in the morning and is limp by late afternoon. One species is even called flower-of-an-hour.
+
+p: The flowers run from 1.5 to 7 in (4 to 18 cm) across. The big ones are wider than an adult's outstretched hand.
+
+check: How long does a hibiscus flower last?
+- About one month
++ About one day
+- About one week
+hint: Look at the box. It tells how long the flower lasts.
+explain: A hibiscus flower lasts about one day. It opens in the morning and is limp by late afternoon.
+
+--- 🌿 @foxglove
+p: Meet the foxglove. It is a tall spike of speckled purple bells. It is poisonous to eat, yet measured out carefully it steadies a failing heart.
+
+fact(Two years): It is a biennial. The first year is a flat rosette of leaves and nothing else. The second year it throws up the spike, flowers, sets seed and dies.
+
+term: biennial = A plant that grows only leaves in its first year, then flowers and dies in its second.
+
+check: What does a foxglove grow in its first year?
+- A tall spike of purple bells
++ A flat rosette of leaves
+- Seeds ready to scatter
+hint: Look at the box. It tells what the plant grows in its first year.
+explain: In its first year a foxglove is just a flat rosette of leaves. The spike comes in the second year.
+
+--- 🌿 @bluebell
+p: Meet the bluebell. This woodland bulb turns British woods solid blue for a few weeks in spring, then disappears underground for the rest of the year.
+
+fact(Slow growers): A bluebell seed takes at least five years to build a bulb big enough to flower. A wood does not gain a bluebell carpet in a hurry.
+
+p: The British Isles hold roughly half of all the native bluebells in the world. The bulbs are poisonous, which is one reason deer and rabbits leave them alone.
+
+check: How long does a bluebell seed take to grow a bulb big enough to flower?
+- About five days
++ At least five years
+- About five weeks
+hint: Look at the box. It says how long the seed takes to build a bulb.
+explain: A bluebell seed takes at least five years to build a bulb big enough to flower.
+
+--- 📊
+p: Three flowers, three very different lives. The hibiscus lives for one day. The foxglove waits two years. The bluebell waits five. All three are lovely, and two are poisonous.
+
+fact(Sizes): A hibiscus flower is 1.5 to 7 in (4 to 18 cm) across. A foxglove stands 3 ft 3 in to 6 ft 6 in (1 to 2 m) tall in its second year. A bluebell reaches about 18 in (45 cm).
+
+--- 🌿
+p: A hibiscus lasting one day. A foxglove waiting two years. A bluebell waiting five.
+
+p: Three flowers, each very different.
+
+quiz: How wide can the biggest hibiscus flowers get?
+- About 1 in (2.5 cm)
++ About 7 in (18 cm)
+- About 2 ft (60 cm)
+explain: The flowers run from 1.5 to 7 in (4 to 18 cm) across, wider than an adult's outstretched hand.
+
+quiz: In which year does a foxglove flower?
+- The first year
++ The second year
+- Every single month
+explain: The first year is only leaves. In the second year it throws up the spike and flowers.
+
+quiz: What can foxglove help with, if it is measured out carefully?
+- A broken bone in the arm
+- A bad toothache or sore gum
++ A weak, failing heart
+explain: Foxglove is poisonous to eat, but measured out carefully it steadies a failing heart.
+
+quiz: Why do deer and rabbits leave bluebells alone?
+- They taste too sweet
++ The bulbs are poisonous
+- The flowers smell like smoke
+explain: The bulbs are poisonous, which is one reason a bluebell wood is not grazed flat.
+
+quiz: Where do roughly half of the world's native bluebells grow?
+- Tropical Africa
+- Northern Canada
++ The British Isles
+explain: The British Isles hold roughly half of all the native bluebells in the world.
+
+# UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
+=== plants-carnivores-1
+idea: A Venus flytrap counts to two before it shuts. A sundew makes fake dew. A bladderwort traps a water flea faster than you can blink. Meet six plants that eat animals.
+game: Venus flytrap = Snaps shut after two touches | Tropical pitcher plant = Lidded jug with a slippery rim | Sundew = Leaf covered in beads of glue | Bladderwort = Rootless water plant with tiny bladders | Cobra lily = Hood with see-through windows | Butterwort = Greasy leaf that thickens milk
+
+--- 🌿
+p: Six plants that eat animals are waiting for you: a Venus flytrap, a tropical pitcher plant, a sundew, a bladderwort, a cobra lily and a butterwort.
+
+p: Each one has its own kind of trap. Which one would you most like to meet first?
+
+--- 🌿 @venus-flytrap
+p: Meet the Venus flytrap. This bog plant has hinged leaves that snap shut on insects, and it will not close for a raindrop.
+
+fact(The trigger): Each half of a trap has three stiff hairs. Touch one and nothing happens. Touch a second one within 20 seconds, and the trap shuts. One touch is a raindrop. Two is something walking.
+
+p: The snap takes about one tenth of a second. Digestion takes about ten days, and then the trap opens and the empty husk blows away.
+
+check: How many touches does it take to shut a Venus flytrap?
+- One light touch of a leaf
++ Two touches within 20 seconds
+- Ten touches in a single row
+hint: Look at the box. It tells how many touches the trigger hairs need.
+explain: One touch is a raindrop. Two touches within 20 seconds mean something is walking, so the trap shuts.
+
+--- 🌿 @pitcher-plant
+p: Meet the tropical pitcher plant. This climbing vine grows a lidded jug at the tip of every leaf and lets things fall in.
+
+fact(The slide): The rim is the trap. Wet it and the surface turns into a water slide, so insects slip over the edge. The record pitcher stood 16 in (41 cm) tall.
+
+p: One mountain kind gets help from a tree shrew. The shrew perches on the lid, licks something sweet, and leaves its droppings in the jug.
+
+term: pitcher = A leaf tip that has grown into a lidded jug.
+
+--- 🌿 @sundew
+p: Meet the sundew. Every stalk on its leaf ends in a bead of clear glue that looks like dew and does not dry out in the sun.
+
+fact(Sticky leaf): Once an insect sticks to the glue, the neighboring stalks bend over and press onto it, adding their own glue.
+
+p: Darwin tested what the stalks answer to. Bits of glass, hair and sand got a weak reaction or none. Meat and insects got a strong one.
+
+check: What did Darwin find the sundew's stalks answer to?
+- Bits of glass and sand
++ Meat and insects
+- Drops of rain
+hint: Look at the paragraph. It tells what got a strong reaction.
+explain: Glass and sand got a weak reaction or none. Meat and insects got a strong one.
+
+--- 🌿 @bladderwort
+p: Meet the bladderwort. This rootless water plant is strung with tiny bladders that swallow a water flea faster than anything else in the plant world.
+
+fact(Faster than a blink): A bladderwort trap opens in about 0.5 milliseconds. It is the fastest movement known in any plant.
+
+p: The plant pumps water out of the sealed bladder until the walls cave inward. Brush a trigger hair and the door lets go, and water rushes in with the prey.
+
+p: After a catch, the bladder pumps the water back out over roughly 15 to 30 minutes and is armed again.
+
+--- 🌿 @cobra-lily
+p: Meet the cobra lily. This plant is shaped like a rearing snake, with a hood full of skylights. It grows in northern California and Oregon.
+
+fact(The skylights): The hood is peppered with see-through patches, like windows. They fool the insect inside: it flies at the bright spots, hits leaf and drops back. The real exit is a small hole under the hood, in shadow.
+
+p: Below the opening the tube is lined with hairs that all point down. Walking in is easy. Walking back up is not.
+
+check: What do the see-through patches in the hood do?
+- They collect the rainwater
++ They fool the insect inside
+- They let the plant breathe
+hint: Look at the box. It says what the bright patches do to an insect.
+explain: The patches fool the insect, which flies at the bright spots and drops back instead of finding the real exit.
+
+--- 🌿 @butterwort
+p: Meet the butterwort. This flat rosette of leaves feels buttery to the touch, and that greasy film is the trap.
+
+fact(Greasy slime): The leaf is covered in tiny stalked glands, each carrying a droplet of clear slime. A small fly lands and cannot get a grip, because the whole surface is glue.
+
+p: In Norway and Sweden, the leaves were used to set milk. Pour warm milk over butterwort leaves and it thickens.
+
+--- 📊
+p: Six plants that eat animals, and each has its own trap. The Venus flytrap snaps shut. The pitcher plant is a slippery jug. The sundew is covered in glue. The bladderwort sucks its prey in. The cobra lily has false windows. The butterwort is a greasy leaf.
+
+fact(Sizes): A flytrap trap is about 1 in (2.5 cm) long. A bladderwort trap runs from about 1/100 in to 1/2 in (0.2 to 12 mm). The record pitcher stood 16 in (41 cm) tall. A tall cobra lily stands about 3 ft (1 m).
+
+--- 🌿
+p: A trap that snaps shut. A jug with a slippery rim. A leaf covered in glue. A bladder that swallows a water flea. A hood full of windows. A leaf as greasy as butter.
+
+p: Six plants that eat animals, each with its own trap.
+
+quiz: How long does a Venus flytrap take to digest a meal?
+- About ten minutes
++ About ten days
+- About ten weeks
+explain: Digestion takes about ten days, and then the trap opens and the empty husk blows away.
+
+quiz: How does a pitcher plant's rim trap insects?
+- It snaps shut like a jaw
+- It shoots out sticky threads
++ It turns slippery when wet
+explain: Wet the rim and it becomes a water slide, so insects slip over the edge and fall in.
+
+quiz: What is the fastest movement known in any plant?
++ A bladderwort trap opening
+- A sunflower turning
+- A leaf curling in the cold
+explain: A bladderwort trap opens in about 0.5 milliseconds.
+
+quiz: Where does a cobra lily grow?
+- The hot rainforests of Brazil
++ Northern California and Oregon
+- The dry deserts of North Africa
+explain: The cobra lily grows only in northern California and southwest Oregon.
+
+quiz: What does a sundew's glue look like?
+- Drops of rain
+- Tiny drops of nectar
++ Beads of dew
+explain: Each bead catches the light like a dewdrop, but unlike dew it is still there at noon in full sun.
+
+# UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
+=== plants-desert-2
+idea: A barrel cactus leans south like a compass. A prickly pear is a pile of flat stems. An aloe is not a cactus at all. Meet three desert survivors.
+game: Barrel cactus = Leans south and carries hooked spines | Prickly pear = Flat pads with fine barbed hairs | Aloe vera = Succulent with clear gel in its leaves
+
+--- 🌿
+p: Three desert survivors are waiting for you: a barrel cactus, a prickly pear and an aloe vera.
+
+p: Each one has its own way to live with little water. Which one would you most like to meet first?
+
+--- 🌿 @barrel-cactus
+p: Meet the barrel cactus. This squat, ribbed cactus is armed with hooked spines, and it leans toward the sun as it ages.
+
+fact(Fishhooks): The spines are thick, stiff and curved back on themselves, like fish hooks. That is where the fishhook barrel gets its name.
+
+p: Mature barrels lean toward the south or southwest, and desert hikers call it the compass barrel. The best reading is that the side facing the hot afternoon sun grows more slowly.
+
+check: Which way does a mature fishhook barrel cactus lean?
++ South or southwest
+- North or northeast
+- Straight up and tall
+hint: Look at the last paragraph. It says which way the cactus leans.
+explain: Mature barrels lean toward the south or southwest, which is why hikers call it the compass barrel.
+
+--- 🌿 @prickly-pear
+p: Meet the prickly pear. This cactus is built out of flat pads, with edible fruit and edible pads, and fine hairs that get into your skin and stay there.
+
+fact(Not leaves): The flat green pads are not leaves. They are stems, the plant's trunk and branches flattened out. Young pads, called nopales, are eaten in tacos and with eggs.
+
+term: glochids = Fine, barbed hairs around the spines that come off the plant and lodge in skin.
+
+check: What are the flat green pads of a prickly pear?
+- Leaves, folded flat
++ Its trunk and branches
+- Fruit, grown very large
+hint: Look at the box. It tells what the pads really are.
+explain: The pads are not leaves. They are the plant's trunk and branches, flattened out.
+
+--- 🌿 @aloe
+p: Meet the aloe vera. This succulent has thick, spiky leaves full of clear gel. It grows on windowsills worldwide and wild in almost nowhere.
+
+fact(Not a cactus): Aloe vera is not a cactus. It is a succulent, closer kin to a daylily than to anything with spines. Cacti are almost all American. Aloes are African and Arabian.
+
+p: Cut a leaf across and you get two things: the clear gel in the middle, and a thin layer of bitter yellow sap just under the green skin.
+
+check: What is just under the green skin of an aloe leaf?
+- A layer of clear gel
+- A row of tiny seeds
++ A bitter yellow sap
+hint: Look at the paragraph. It says what lies just under the skin.
+explain: Under the green skin is a thin layer of bitter yellow sap. The clear gel is in the middle.
+
+--- 📊
+p: Three desert survivors, and no two are alike. The barrel cactus leans south. The prickly pear is a pile of flat stems. The aloe is not a cactus at all.
+
+fact(Sizes): A fishhook barrel usually stands 3 to 6 ft (0.9 to 1.8 m) tall. An aloe vera plant stands about 2 to 3 ft (60 to 100 cm) tall. A prickly pear pad runs from hand-sized to dinner-plate size.
+
+--- 🌿
+p: A barrel cactus leaning south. A prickly pear of flat stems. An aloe with gel in its leaves.
+
+p: Three desert survivors, each different.
+
+quiz: Why is the fishhook barrel named that?
+- It grows beside rivers full of fish
++ Its spines are curved like fish hooks
+- It is shaped like a fishing reel
+explain: The spines are thick, stiff and curved back on themselves, like fish hooks.
+
+quiz: What are glochids?
+- Sweet red fruits that people eat
++ Fine, barbed hairs that lodge in skin
+- Flat green pads that hold water
+explain: Glochids are fine barbed hairs that come off the plant and stay in skin.
+
+quiz: What do people call young prickly pear pads that they eat?
++ Nopales
+- Tortillas
+- Glochids
+explain: Young pads are called nopales, and they are eaten in tacos and with eggs.
+
+quiz: What is the aloe closer kin to?
+- A barrel cactus
+- A prickly pear
++ A daylily
+explain: Aloe is a succulent, closer kin to a daylily than to anything with spines.
+
+quiz: How do desert hikers use a mature barrel cactus?
+- As a shade from the sun
++ As a rough compass
+- As a jug of water
+explain: The lean is steady enough to take a rough bearing from, so hikers call it the compass barrel.
+
+# UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
+=== plants-water-1
+idea: Giant kelp can grow two feet in one day. Duckweed is the smallest flowering plant. Papyrus became the first paper. Meet four plants of the water, and one that is not a plant.
+game: Giant kelp = Brown seaweed that is not a plant | Duckweed = Smallest flowering plant, a floating green speck | Papyrus = Stem pressed into the first paper | Seagrass = Flowering plant that lives underwater
+
+--- 🌿
+p: Four plants of the water are waiting for you: a giant kelp, a duckweed, a papyrus and a seagrass.
+
+p: One of them is not a plant at all. Which one would you most like to meet first?
+
+--- 🌿 @giant-kelp
+p: Meet the giant kelp. This brown seaweed grows in underwater forests off rocky coasts. It runs from the seabed to the surface, and it is not a plant.
+
+fact(Fast growing): Giant kelp can grow two feet (60 cm) in a single day, among the fastest-growing living things anywhere.
+
+p: Divers have measured it at more than 150 ft (45 m) from the rock it grips to the surface. Its holdfast, the knobbly tangle at the bottom, is only for grip.
+
+check: How much can giant kelp grow in one day?
+- About two inches (5 cm)
++ About two feet (60 cm)
+- About two yards (180 cm)
+hint: Look at the box. It tells how much kelp grows in a day.
+explain: Giant kelp can grow about two feet (60 cm) in a single day.
+
+--- 🌿 @duckweed
+p: Meet the duckweed. These are the smallest flowering plants there are. They are green specks that cover a still pond so completely it looks like spilled paint.
+
+fact(Tiny and fast): One watermeal, the smallest duckweed, is about 0.6 mm long, small enough to pass through the eye of a sewing needle. One kind doubles itself in 29.3 hours, the fastest growth measured in any flowering plant.
+
+term: watermeal = The smallest kind of duckweed, a floating green crumb with no roots at all.
+
+check: About how long does it take one kind of duckweed to double itself?
+- About 29 days
++ About 29 hours
+- About 29 minutes
+hint: Look at the box. It tells how fast the duckweed doubles.
+explain: One duckweed doubles itself in 29.3 hours, the fastest growth measured in any flowering plant.
+
+--- 🌿 @papyrus
+p: Meet the papyrus. This giant African wetland sedge had its stem sliced, layered and pressed into the world's first paper.
+
+fact(Three sides): Roll a papyrus stem between your fingers and you feel three flat sides. It is a triangle, not a tube. Stems of 13 to 16 ft (4 to 5 m) are ordinary.
+
+p: To make a sheet, strips of the white pith are laid side by side, with a second layer across them at right angles, and hammered together.
+
+check: How many flat sides does a papyrus stem have?
+- Four flat sides
+- No sides, it is round
++ Three flat sides
+hint: Look at the box. It describes the shape of the stem.
+explain: A papyrus stem is a triangle, not a tube, so it has three flat sides.
+
+--- 🌿 @seagrass
+p: Meet the seagrass. This true flowering plant lives underwater in the sea. It flowers, sheds pollen and sets seed without ever coming up for air.
+
+fact(Not a seaweed): Seagrass is not seaweed. It has roots, a creeping underground stem, veined leaves, flowers, pollen and seeds.
+
+p: One seagrass meadow in Shark Bay, Western Australia, covers about 77 square miles (200 km2). Shoots 110 miles (180 km) apart turned out to be the same plant.
+
+--- 📊
+p: Four water plants, and one is not a plant at all. The giant kelp is an alga. The duckweed is the smallest flowering plant. The papyrus became paper. The seagrass flowers underwater.
+
+fact(Sizes): Giant kelp can reach more than 150 ft (45 m). Papyrus stems are 13 to 16 ft (4 to 5 m). A watermeal is about 0.6 mm long. A seagrass meadow can cover 77 square miles (200 km2).
+
+--- 🌿
+p: A kelp forest reaching for the light. A duckweed smaller than a needle's eye. A papyrus stem pressed into paper. A seagrass meadow flowering under the sea.
+
+p: Four plants of the water, each different.
+
+quiz: What is the holdfast of giant kelp for?
+- Taking in water like a root
++ Only for grip
+- Making its flowers
+explain: A holdfast absorbs nothing. Its only job is to grip the rock.
+
+quiz: How small is a watermeal?
+- It is as big as a small coin
++ It fits through a needle's eye
+- It is as big as your whole hand
+explain: A watermeal is about 0.6 mm long, small enough to pass through the eye of a sewing needle.
+
+quiz: What was papyrus pressed into?
+- Bricks for building houses
+- Cloth for making clothes
++ The world's first paper
+explain: The stem was sliced, layered and pressed into the world's first paper.
+
+quiz: Why is seagrass not a seaweed?
++ It is a flowering plant with roots and seeds
+- It lives only on dry sandy beaches
+- It is a kind of alga with no roots
+explain: Seagrass has roots, veined leaves, flowers, pollen and seeds, the full kit of a flowering plant.
+
+quiz: What is the largest known living thing on Earth by area?
+- A kelp forest
+- A duckweed pond
++ A seagrass meadow
+explain: One seagrass in Shark Bay, Western Australia, covers about 77 square miles (200 km2).
+
+# UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
+=== plants-moss-1
+idea: Sphagnum can hold 16 to 26 times its own weight in water. A lichen is two living things in one body. A moss has no roots at all. Meet three small green things.
+game: Sphagnum moss = Soaks up water like a sponge | Lichen = A fungus and a green partner in one body | Common moss = Has no flowers, seeds or proper roots
+
+--- 🌿
+p: Three small green things are waiting for you: a sphagnum moss, a lichen and a common moss.
+
+p: Each one is built in its own way. Which one would you most like to meet first?
+
+--- 🌿 @sphagnum
+p: Meet the sphagnum moss. This bog moss is built like a sponge. It soaks up water, turns the ground sour, and slowly turns into peat.
+
+fact(A living sponge): Sphagnum can hold 16 to 26 times its own dry weight in water. Lift a handful out of a bog and it runs like a squeezed sponge.
+
+p: Most of a leaf is dead on purpose. Big empty cells hold the water, and the living green cells make the food. Peat is mostly dead sphagnum that never rotted.
+
+check: How much water can sphagnum hold?
+- Only half of its dry weight
++ 16 to 26 times its dry weight
+- A few drops of water at most
+hint: Look at the box. It gives the number of times its own weight.
+explain: Sphagnum can hold 16 to 26 times its own dry weight in water.
+
+--- 🌿 @lichen
+p: Meet the lichen. It is not a plant at all. A fungus and a green partner live together as one organism, growing on bare rock where nothing else will start.
+
+fact(Two in one): The fungus makes the structure and catches the water. The alga inside it makes the food. Lichens grow on bare rock, roof tiles and tree bark.
+
+term: alga = The green partner in a lichen, which makes the food.
+
+check: What does the fungus do in a lichen?
+- Makes the food from the sunlight
++ Makes the structure, catches water
+- Grows the flowers and the seeds
+hint: Look at the box. It says what the fungus does for the lichen.
+explain: The fungus makes the structure and catches the water. The alga inside it makes the food.
+
+--- 🌿 @moss
+p: Meet the common moss. This plant has no flowers, no seeds and no proper roots. It covers damp ground, walls and rock in a low green mat.
+
+fact(No roots): The hairs holding it down are called rhizoids, and they are only for grip. Water and food go in through the leaves, across the whole surface at once.
+
+p: Moss makes spores, not seeds. The green cushion sends up a bare stalk with a capsule on top. A moss can dry to a brown crisp and stay that way for months. Water it and it turns green within hours.
+
+check: What does a moss make instead of seeds?
+- Fruit with pips
++ Spores in a capsule
+- Flowers with petals
+hint: Look at the last paragraph. It says what the moss makes.
+explain: Moss makes spores in a capsule on a bare stalk, not seeds.
+
+--- 📊
+p: Three small green things, and each is different. Sphagnum holds water like a sponge. A lichen is a fungus and a green partner living as one. Moss is a true plant with no roots, flowers or seeds.
+
+fact(Sizes): Most mosses stand between a tenth of an inch and 4 in (0.2 to 10 cm) tall. The tallest of all reaches about 20 in (50 cm). A crust lichen spreads by 1 to 2 mm a year.
+
+--- 🌿
+p: A sphagnum sponge in a bog. A lichen on bare rock. A moss mat on damp ground.
+
+p: Three small green things, each different.
+
+quiz: What is peat mostly made of?
+- Crushed rock mixed with sand
+- Old burned wood from forests
++ Dead sphagnum that never rotted
+explain: Peat is mostly dead sphagnum that never rotted.
+
+quiz: What two living things make one lichen?
++ A fungus and an alga
+- A moss and a fern
+- A seed and a root
+explain: A lichen is a fungus and an alga living inside one body.
+
+quiz: Where can lichens grow?
+- Only in rich garden soil
++ On bare rock and tree bark
+- Only underwater
+explain: Lichens grow on bare rock, roof tiles and tree bark.
+
+quiz: What do a moss's rhizoids do?
+- Take in water for it
++ Only grip the ground
+- Make the moss spores
+explain: The hairs that hold a moss down are only for grip. Water and food go in through the leaves.
+
+quiz: What happens when you water a dried-out moss?
+- It crumbles away into brown dust
+- It grows bright flowers right away
++ It turns green again within hours
+explain: A moss can dry to a brown crisp for months, then turn green and start working again within hours.
+
+# UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
+=== plants-ferns-1
+idea: A tree fern's trunk has no wood in it. Bracken spreads under a whole hillside. Horsetail is stiff with real grit. Meet three ferns and fern kin that never make a flower.
+game: Tree fern = Stands on a trunk that is not wood | Bracken = Spreads far underground over hillsides | Horsetail = Jointed stems stiff with grit
+
+--- 🌿
+p: Three plants with no flowers are waiting for you: a tree fern, a bracken and a horsetail.
+
+p: Each one has its own odd habit. Which one would you most like to meet first?
+
+--- 🌿 @tree-fern
+p: Meet the tree fern. This fern stands on a trunk like a tree, but the trunk is not wood. It is an upright stem wrapped in its own roots.
+
+fact(Not wood): There is no wood in the trunk at all. What holds it up is stiff cell walls and a thick felt of tiny roots grown down around it.
+
+p: The Norfolk Island tree fern reaches about 66 ft (20 m), with fronds 16 ft (5 m) long. It is probably the largest fern in the world.
+
+check: What holds a tree fern's trunk up?
+- A core of solid wood
++ Stiff cells and tiny roots
+- Hard, thick bark outside
+hint: Look at the box. It tells what holds the trunk up.
+explain: There is no wood in the trunk. Stiff cell walls and a thick felt of tiny roots hold it up.
+
+--- 🌿 @bracken
+p: Meet the bracken. This coarse fern spreads by underground stems and takes over whole hillsides. It is one of the most widespread plants there is.
+
+fact(Underground): The fronds are the small end of it. Its underground stem is about 2 in (5 cm) thick and runs up to 50 ft (15 m) sideways. Bracken is poisonous to cattle and sheep that eat enough of it.
+
+term: rhizome = An underground stem that runs sideways below the ground.
+
+check: How far sideways can bracken's underground stem run?
+- Only about 5 in (13 cm)
++ As far as 50 ft (15 m)
+- More than 500 ft (150 m)
+hint: Look at the box. It gives how far the underground stem runs.
+explain: The underground stem is about 2 in (5 cm) thick and runs up to 50 ft (15 m) sideways.
+
+--- 🌿 @horsetail
+p: Meet the horsetail. This jointed plant has hollow stems stiffened with real grit. People used it for centuries to scour pots and polish wood.
+
+fact(Gritty stems): Rub a horsetail stem and it is rough, like fine sandpaper. The plant loads silica, the stuff of sand and glass, into its stem.
+
+p: The stems are hollow and jointed, and they pull apart at the joints with a small pop.
+
+check: What makes a horsetail stem rough like sandpaper?
+- Tiny thorns along each stem
++ Silica, the stuff of glass
+- A coat of dried-up salt
+hint: Look at the box. It names what the plant loads into its stem.
+explain: The plant loads silica, the stuff of sand and glass, into its stem, so it feels like fine sandpaper.
+
+--- 📊
+p: Three green plants with no flowers and no seeds. The tree fern stands on a trunk with no wood in it. The bracken spreads far under the ground. The horsetail is stiff with grit. The tree fern and the horsetail make spores instead of seeds.
+
+fact(Sizes): The Norfolk Island tree fern reaches about 66 ft (20 m). Bracken fronds stand 1 to 3.5 ft (0.3 to 1 m) tall. Most horsetails are knee-high.
+
+--- 🌿
+p: A tree fern on its felt of roots. A bracken taking a hillside. A gritty horsetail.
+
+p: Three green plants with no flowers, each with its own odd habit.
+
+quiz: What is a tree fern's trunk made of?
+- Solid, hard wood like an oak tree
+- Leaves rolled tightly into a tube
++ An upright stem wrapped in roots
+explain: The trunk is not wood. It is an upright stem wrapped in a thick felt of its own roots.
+
+quiz: How do tree ferns and horsetails spread, since they have no seeds?
++ By tiny spores
+- By flower pollen
+- By juicy fruit
+explain: They have no flowers, seeds or fruit. They make spores instead.
+
+quiz: What happens to cattle and sheep that eat a lot of bracken?
+- They grow much stronger
+- Nothing happens at all
++ They get seriously ill
+explain: Bracken is poisonous to cattle and sheep that eat enough of it.
+
+quiz: What was horsetail used for?
+- Making sweet syrup for pancakes
+- Weaving cloth and thick rope
++ Scouring pots and polishing wood
+explain: The silica grit in its stems made it good for scouring pots and polishing wood.
+
+quiz: How tall is the Norfolk Island tree fern?
+- About 6 ft (2 m) tall
++ About 66 ft (20 m) tall
+- About 600 ft (180 m) tall
+explain: The Norfolk Island tree fern reaches about 66 ft (20 m), probably the largest fern in the world.
+
+# UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
+=== plants-fungi-1
+idea: A fly agaric is not a plant. A honey fungus covers 3.5 square miles of forest. A stinkhorn smells like rotting meat on purpose. Meet six fungi.
+game: Fly agaric = Scarlet toadstool with white flecks | Honey fungus = Tree killer that spreads on black cords | Stinkhorn = Smells like rotting meat to call flies | Giant puffball = White ball that turns to spore dust | Bracket fungus = Shelves growing out of tree trunks | Truffle = Fungus that fruits underground
+
+--- 🌿
+p: Six fungi are waiting for you: a fly agaric, a honey fungus, a stinkhorn, a giant puffball, a bracket fungus and a truffle.
+
+p: Not one of them is a plant. Which one would you most like to meet first?
+
+--- 🌿 @fly-agaric
+p: Meet the fly agaric. This is the storybook toadstool, with a scarlet cap and white flecks, growing under birches and pines. It is not a plant at all.
+
+fact(Not a plant): A fungus has no leaves and no green, and it never makes food from sunlight. What you see is only the fruiting body, the spore-making part.
+
+p: The white flecks are not painted on. A young fly agaric comes up wrapped in a white skin, and as the cap swells the skin tears into patches. It is poisonous, so never taste one.
+
+check: Where do the white flecks on a fly agaric come from?
+- Drops of white paint
++ A white skin that tears
+- Bits of chalky stone
+hint: Look at the last paragraph. It tells what the flecks are.
+explain: A young fly agaric comes up wrapped in a white skin, and the skin tears into patches as the cap swells.
+
+--- 🌿 @honey-fungus
+p: Meet the honey fungus. This tree-killing fungus spreads underground on black bootlaces. In Oregon, one has grown into one of the largest single living things known.
+
+fact(A giant): In the Malheur National Forest in eastern Oregon, one honey fungus covers 3.5 square miles (9.1 km²). That is about 1,600 football fields.
+
+term: rhizomorph = A tough black cord of fungus, like a bootlace, that runs under bark and through soil.
+
+p: The honey-colored mushrooms at the foot of a tree are only the fruit. The fungus itself is a web of fine threads, hidden in the wood and soil.
+
+--- 🌿 @stinkhorn
+p: Meet the stinkhorn. This fungus smells like rotting meat on purpose, because it sends its spores out by fly instead of by wind.
+
+fact(Fast growing): It starts as a white egg buried in leaf litter. The stalk then pushes up about 5 mm a minute, a fifth of an inch, quick enough to see against a marked stick.
+
+p: The slime on the cap smells of dead animal and dung. Flies land, feed, and leave carrying the spores on their feet.
+
+check: Why does a stinkhorn smell like rotting meat?
+- To scare off deer
++ To attract flies
+- To keep rain away
+hint: Look at the last paragraph. It tells who visits the smelly slime.
+explain: The smell brings flies. They land, feed and carry the spores away on their feet.
+
+--- 🌿 @puffball
+p: Meet the giant puffball. This smooth white ball sits in a meadow and, when it ripens, turns entirely into spore dust.
+
+fact(Big ones): They run from 4 to 20 in (10 to 50 cm) across. One found at Thunder Bay in Ontario weighed 51 lb (23 kg).
+
+p: A ripe one falls apart at a touch. A kick sends up a cloud like a bag of soot, and that cloud is the spores leaving.
+
+--- 🌿 @bracket-fungus
+p: Meet the bracket fungus. These are shelves of fungus growing straight out of tree trunks, some as hard as the wood itself, adding a fresh layer every year.
+
+fact(Pores): Turn one over. Instead of gills there are pores, thousands of tiny tube mouths packed together like a honeycomb, and the spores fall out of the tubes.
+
+p: Some brackets live on year after year, adding a fresh layer of tubes each season. The layers show as rings, and can be counted like tree rings.
+
+check: What can you count on an old bracket fungus?
+- Leaves along the top
+- Seeds in the pores
++ The rings of its layers
+hint: Look at the last paragraph. It says what shows on top of the layers.
+explain: Each season adds a fresh layer, and the layers show as rings that can be counted like tree rings.
+
+--- 🌿 @truffle
+p: Meet the truffle. This fungus fruits underground, smells strongly enough to be dug up, and is the most expensive food on earth by weight.
+
+fact(Found by nose): Pigs were the old method, but a pig that finds a truffle wants to eat it. Italy banned truffle pigs in 1985, so dogs are trained instead.
+
+p: Voles, squirrels, deer and wild boar dig truffles up and eat them, and the spores come out somewhere else.
+
+--- 📊
+p: Six fungi, and not one is a plant. The fly agaric wears white flecks. The honey fungus is huge. The stinkhorn smells to call flies. The puffball turns to dust. The bracket makes shelves. The truffle hides underground.
+
+fact(Sizes): A fly agaric cap is 2 to 12 in (5 to 30 cm) across. A giant puffball is 4 to 20 in (10 to 50 cm) across. An artist's conk can reach 30 in (75 cm). One truffle weighed 4 lb 3 oz (1.89 kg).
+
+--- 🌿
+p: A scarlet toadstool with white flecks. A honey fungus spreading through a forest. A stinkhorn calling the flies. A puffball full of dust. A bracket shelf on a trunk. A truffle underground.
+
+p: Six fungi, and not one of them is a plant.
+
+quiz: Why is a fly agaric not a plant?
+- It has no stem or cap at all
+- It grows only in the winter months
++ It never makes food from sunlight
+explain: A fungus has no green and never makes a scrap of food from sunlight.
+
+quiz: How much forest does the honey fungus in Oregon cover?
++ About 3.5 square miles
+- About 3.5 square feet
+- About 3.5 acres
+explain: One honey fungus in the Malheur National Forest covers 3.5 square miles (9.1 km²).
+
+quiz: How does a stinkhorn spread its spores?
+- The wind blows them off
++ Flies carry them away
+- Rain washes them off
+explain: Flies land, feed and leave carrying the spores on their feet.
+
+quiz: What happens when you kick a ripe giant puffball?
+- It bounces like a ball
++ A cloud of spores puffs out
+- It splits into thin slices
+explain: A ripe puffball is brown powder inside, and a kick sends up a cloud like soot.
+
+quiz: How are truffles usually found?
+- By their bright color
+- By their loud noise
++ By trained dogs sniffing
+explain: Dogs are trained to find truffles by smell, because pigs wreck the fungus digging.
+
+# UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
+=== plants-odd-2
+idea: A telegraph plant's leaflets swing in circles. A squirting cucumber fires its seeds like a jet. A tumbleweed dies on purpose and rolls away. Meet three plants that move in odd ways.
+game: Telegraph plant = Leaflets swing round in circles | Squirting cucumber = Fires its seeds out in a jet | Tumbleweed = Snaps off and rolls, scattering seed
+
+--- 🌿
+p: Three odd plants are waiting for you: a telegraph plant, a squirting cucumber and a tumbleweed.
+
+p: Each one moves in its own strange way. Which one would you most like to meet first?
+
+--- 🌿 @telegraph-plant
+p: Meet the telegraph plant. This tropical shrub has two small leaflets on every leaf that swing round in circles all day, fast enough to watch.
+
+fact(Round and round): The small leaflets rotate in jerky steps along an oval path. One full circuit takes about three to five minutes.
+
+p: It only moves in daylight, and only when the air is above 72°F (22°C). Cold stops it. Night stops it.
+
+check: When do the telegraph plant's leaflets move?
+- Only at night, when it is cold
++ In daylight, when it is warm
+- Only when someone touches it
+hint: Look at the paragraph. It says when the leaflets move and when they stop.
+explain: The leaflets move only in daylight and only when the air is above 72°F (22°C).
+
+--- 🌿 @squirting-cucumber
+p: Meet the squirting cucumber. This Mediterranean weed has a fruit that builds up pressure for days, blows itself off its own stalk and fires its seeds out in a jet.
+
+fact(The jet): When the fruit is ripe it snaps off its stalk, and the hole becomes a nozzle. It fires a jet of slime and seeds as far as 23 to 26 ft (7 to 8 m).
+
+term: elaterium = The dried juice of this fruit, once a strong medicine, no longer used because it is too dangerous.
+
+check: How far can a squirting cucumber fire its seeds?
+- Only a few inches
++ Up to 26 ft (8 m)
+- About half a mile
+hint: Look at the box. It tells how far the jet of seeds goes.
+explain: The fruit fires a jet of slime and seeds as far as 23 to 26 ft (7 to 8 m).
+
+--- 🌿 @tumbleweed
+p: Meet the tumbleweed. This plant dies on purpose, snaps itself off at the ground, and rolls across the desert scattering seed the whole way.
+
+fact(Built to break): Once the seed is ripe, the stem gives way at one spot just above the root. The root stays in the ground and the whole round bush leaves.
+
+p: One large Russian thistle, the classic tumbleweed, carries about 200,000 seeds. The ball shakes a few seeds loose with every bounce.
+
+check: How does a tumbleweed spread its seeds?
+- All of the seeds fall out at once
++ A few seeds shake loose each bounce
+- The seeds stay inside the dead bush
+hint: Look at the last paragraph. It says what happens with every bounce.
+explain: The ball shakes a few seeds loose with every bounce, so one plant seeds a long line of ground.
+
+--- 📊
+p: Three plants that move in odd ways. The telegraph plant swings its leaflets in circles. The squirting cucumber fires its seeds in a jet. The tumbleweed rolls away across the desert.
+
+fact(Sizes): A squirting cucumber fruit is about 2 in (5 cm) long. A big tumbleweed is a tangled ball more than 3 ft (1 m) across. A telegraph plant leaflet makes a full circle in about three to five minutes.
+
+--- 🌿
+p: A telegraph plant swinging its leaflets. A squirting cucumber firing its seeds. A tumbleweed rolling across the desert.
+
+p: Three plants that move in odd ways.
+
+quiz: What do the telegraph plant's small leaflets do?
+- Open only at night
+- Fold up when touched
++ Swing round in circles
+explain: The two small leaflets at the base of each leaf rotate along a path, round and round.
+
+quiz: What stops the telegraph plant's leaflets from moving?
+- Wind and rain
++ Cold and night
+- Hot sunshine
+explain: It moves only in daylight and only when the air is warm. Cold stops it. Night stops it.
+
+quiz: What makes a squirting cucumber shoot its seeds?
+- A strong gust of wind from the sea
+- A hungry bird tugging at the stalk
++ Pressure built up inside the fruit
+explain: The pressure builds up over days and is spent in a fraction of a second.
+
+quiz: How does a tumbleweed come away from its root?
++ The stem snaps just above the root
+- Animals pull it out of the ground
+- Farmers cut it down with a blade
+explain: There is a weak spot just above the root, and when the seed is ripe the stem gives way there.
+
+quiz: About how many seeds can one big Russian thistle carry?
+- About 200
+- About 2 million
++ About 200,000
+explain: One large Russian thistle carries about 200,000 seeds.
+
