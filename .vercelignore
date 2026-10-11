@@ -14,3 +14,11 @@ tools/
 # Docs
 SYNC.md
 NEURAL-NARRATION.md
+
+# The iPad wrapper (Xcode project, build output, .ipa copies) and Claude Code's
+# scratch worktrees are NOT part of the site. They were being uploaded with every
+# deploy (~565 MB of a ~585 MB deployment) and filled the free 10 GB
+# Deployment Storage cap. The iPad app ships via Firebase OTA, not from here.
+ios-app/
+.claude/
+.git/
