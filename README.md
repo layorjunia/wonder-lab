@@ -82,6 +82,29 @@ python3 tools/build_animals.py .work/entries-*.json          # validate + emit j
 python3 tools/review_photos.py                               # contact sheet to eyeball
 ```
 
+## Writing and releasing lessons (2026-10)
+
+All 131 lessons are authored (`.work/lessons-src/*.txt`, one `=== id` block each).
+
+```bash
+# write a lesson by hand into .work/lessons-draft/<id>.txt, then run every check on it
+python3 tools/lint_draft.py <id>
+python3 tools/promote_lessons.py <id>           # appends it to .work/lessons-src/<course>.txt
+python3 tools/parse_lessons.py && python3 tools/check_lessons.py && python3 tools/build_lessons.py
+.venv-tts/bin/python tools/check_norm.py && .venv-tts/bin/python tools/audit_resolve.py
+bash tools/render_voice.sh af_heart audio/heart  # only the missing clips are rendered
+```
+
+Release (a `git push` does NOT deploy to Vercel any more: `vercel.json` turns Git deploys off,
+because every push used to upload the whole repo and filled the free 10 GB deployment storage):
+
+```bash
+python3 tools/stamp_version.py
+git add -A && git commit && git push origin main    # GitHub Pages serves audio/
+bash tools/vercel_deploy.sh                          # size guard (max 100 MB) + ONE deploy + waits for the build id
+bash ios-app/scripts/deploy-ota.sh                   # iPad over-the-air update (Firebase)
+```
+
 ## Photos
 
 All 180 photos come from Wikimedia under licences that permit redistribution
@@ -95,4 +118,5 @@ every image in `img/credits.json`, and the app shows the full credits list.
   is not loaded yet: it needs the Firestore rule widened from
   `match /profiles/{uid}` to `match /profiles/{uid}/{document=**}` so each app
   can own a sub-document, plus a sign-in screen.
+- Economics has no lessons yet (the world stays hidden until it has some).
 - Remaining subjects beyond biology.
