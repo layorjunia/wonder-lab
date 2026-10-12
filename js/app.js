@@ -39,7 +39,9 @@ const App = {
   // An installed service worker plus Pages' HTML caching can pin a device to
   // an old build for hours with no error anywhere. Compare the id baked into
   // the page against version.json fetched with no-store; on a mismatch, bin
-  // every cache and reload exactly once. Web PWA only — see init().
+  // the app-code cache and reload exactly once. Web PWA only — see init().
+  // Photos and the offline packs are NOT binned: they never change, and
+  // re-downloading them on every release was most of the site's bandwidth.
   async checkForUpdate() {
     try {
       const meta = document.querySelector('meta[name="build"]');
@@ -50,7 +52,8 @@ const App = {
       if (!build || !running || build === running) return;
       if (sessionStorage.getItem('wonderlab-updating') === build) return;   // never loop
       sessionStorage.setItem('wonderlab-updating', build);
-      for (const k of await caches.keys()) await caches.delete(k);
+      const keep = ['wonderlab-offline-v2', 'wonderlab-media-v1', (window.Offline && Offline.CACHE) || ''];
+      for (const k of await caches.keys()) if (!keep.includes(k)) await caches.delete(k);
       const regs = await navigator.serviceWorker.getRegistrations();
       for (const r of regs) await r.unregister();
       location.replace(location.pathname + '?b=' + build);

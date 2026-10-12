@@ -6,7 +6,13 @@
 // cache not named here, which is what clears the old Piper clips off every
 // installed device. Offline.CACHE in js/audio.js must use the same name.
 const OFFLINE_CACHE = 'wonderlab-offline-v2';
-const CACHE = 'wonderlab-20261011-1527-eff74fe3';
+// Photos (and clips) never change once published, so they live in a cache that
+// is NOT named after the build. Before this, every release threw every cached
+// photo away and each device downloaded them all again from Vercel; with
+// several releases a day that was most of the site's bandwidth.
+const MEDIA_CACHE = 'wonderlab-media-v1';
+const IS_MEDIA = /\/(img|audio)\/[^?]*\.(jpg|jpeg|png|svg|m4a|mp3)$/;
+const CACHE = 'wonderlab-20261012-1611-cdb2e86f';
 const SHELL = [
   '.', 'index.html', 'css/style.css', 'css/lab.css', 'manifest.json',
   'css/fonts.css',
@@ -45,12 +51,29 @@ self.addEventListener('install', e => {
 });
 
 self.addEventListener('activate', e => {
-  e.waitUntil(caches.keys()
+  e.waitUntil(caches.keys().then(async ks => {
+    const stale = ks.filter(k => k !== CACHE && k !== OFFLINE_CACHE && k !== MEDIA_CACHE);
+    // Carry already-downloaded photos forward so the first release after this
+    // change does not make every device fetch them again. Best effort only:
+    // a failure here must never block the update.
+    try {
+      const media = await caches.open(MEDIA_CACHE);
+      for (const k of stale) {
+        if (!k.startsWith('wonderlab-')) continue;
+        const old = await caches.open(k);
+        for (const req of await old.keys()) {
+          if (!IS_MEDIA.test(new URL(req.url).pathname)) continue;
+          if (await media.match(req)) continue;
+          const res = await old.match(req);
+          if (res && res.status === 200 && res.type !== 'opaque') await media.put(req, res);
+        }
+      }
+    } catch (err) { /* ignore */ }
     // Keep the offline packs. Without this exclusion every deploy silently
     // deletes what the child deliberately downloaded for a car journey.
-    .then(ks => Promise.all(ks.filter(k => k !== CACHE && k !== OFFLINE_CACHE)
-      .map(k => caches.delete(k))))
-    .then(() => self.clients.claim()));
+    await Promise.all(stale.map(k => caches.delete(k)));
+    await self.clients.claim();
+  }));
 });
 
 // The app is served from Vercel; the 194 MB of voice clips stay in the GitHub
@@ -88,8 +111,7 @@ self.addEventListener('fetch', e => {
   // lazily on first use: the voice corpus is ~194 MB on the server and must
   // never be precached, but a clip already heard has to come back instantly
   // and has to work on a tablet with no signal.
-  if (/\/(img|audio)\//.test(url.pathname) &&
-      /\.(jpg|jpeg|png|svg|m4a|mp3)$/.test(url.pathname)) {
+  if (IS_MEDIA.test(url.pathname)) {
     e.respondWith(caches.match(e.request).then((hit) => {
       if (hit) return hit;
       const net = sameOrigin ? fetch(e.request) : corsFetch(e.request);
@@ -99,7 +121,7 @@ self.addEventListener('fetch', e => {
         // poisons the cache for good.
         if (res.status === 200 && res.type !== 'opaque') {
           const c = res.clone();
-          caches.open(CACHE).then(k => k.put(e.request, c));
+          caches.open(MEDIA_CACHE).then(k => k.put(e.request, c));
         }
         return res;
       // Last resort: hand back the untouched request rather than an error, so
@@ -109,11 +131,14 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // App code is network-first so updates land. cache:'reload' matters: a plain
+  // App code is network-first so updates land. cache:'no-cache' matters: a plain
   // fetch here can be answered from the browser's own HTTP cache, which silently
-  // keeps serving the old index.html after a deploy.
+  // keeps serving the old index.html after a deploy. It revalidates every time,
+  // but sends If-None-Match, so an unchanged file comes back as an empty 304.
+  // (It used to be cache:'reload', which skips validators and re-downloaded all
+  // ~3.7 MB of app code from Vercel on every single app open.)
   e.respondWith(
-    fetch(e.request, { cache: 'reload' })
+    fetch(e.request, { cache: 'no-cache' })
       .then(res => { const c = res.clone();
                      caches.open(CACHE).then(k => k.put(e.request, c)); return res; })
       .catch(() => fetch(e.request).catch(() => caches.match(e.request, { ignoreSearch: true })))

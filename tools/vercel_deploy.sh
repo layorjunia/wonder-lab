@@ -22,7 +22,7 @@ echo "waiting for the live site to report build $want ..."
 for i in 1 2 3 4 5 6 7 8; do
   got=$(curl -fsS -m 15 "https://wonder-lab-ecru.vercel.app/version.json?$(date +%s)" 2>/dev/null \
         | python3 -c "import sys,json;print(json.load(sys.stdin)['build'])" 2>/dev/null || true)
-  if [ "$got" = "$want" ]; then echo "live: $got"; exit 0; fi
+  if [ "$got" = "$want" ]; then echo "live: $got"; python3 tools/verify_live.py; exit $?; fi
   sleep 5
 done
 echo "WARNING: the live site reports '${got:-nothing}', expected '$want'" >&2
