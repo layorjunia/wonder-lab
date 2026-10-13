@@ -203,34 +203,30 @@ const AudioLib = {
     return this._lookup(this.norm(text));
   },
 
-  // Resolve text to playable items and report HOW it was resolved.
-  //   'clip'     one pre-generated recording — the good case
-  //   'stitched' several word clips concatenated — acceptable only for a bare
-  //              word list, never for prose (it sounds robotic and chopped)
-  //   'tts'      browser fallback — should never happen for shipped content
+  // Resolve text to its ONE pre-recorded clip. There is no fallback voice:
+  // before 2026-10-13 a string without a clip was stitched together from word
+  // clips or read by the browser's built-in voice, and both sound robotic.
+  // Neither exists any more. A string with no recording is simply silent, and
+  // is reported once to the console so a missing clip is a build defect that
+  // tools/audit_resolve.py and the bot run catch, not something a child hears.
+  //   'clip'     one pre-generated recording — the only way anything is spoken
+  //   'missing'  no recording: nothing plays
   resolve(text) {
     const f = this.fileFor(text);
     if (f) return { kind: 'clip', items: [{ file: f }] };
-
-    const words = this.norm(text).split(/[^a-z']+/).filter(Boolean);
-    const found = words.map(w => this.manifest && this._lookup(w));
-    // length >= 1 so trailing punctuation ("cat!") still finds the word clip
-    // instead of silently dropping to browser speech.
-    if (words.length >= 1 && found.every(Boolean)) {
-      const items = [];
-      found.forEach((file, i) => {
-        if (i) items.push({ gap: 90 });
-        items.push({ file });
-      });
-      return { kind: 'stitched', items };
+    if (this.manifest) {
+      this._missed = this._missed || {};
+      const k = this.norm(text);
+      if (!this._missed[k]) {
+        this._missed[k] = 1;
+        try { console.warn('[AudioLib] no recording for:', String(text).slice(0, 100)); } catch (e) { /* ignore */ }
+      }
     }
-    return { kind: 'tts', items: [{ tts: text }] };
+    return { kind: 'missing', items: [] };
   },
 
   _itemsFor(text, opts) {
-    const r = this.resolve(text);
-    if (r.kind === 'tts' && opts && opts.rate) r.items[0].rate = opts.rate;
-    return r.items;
+    return this.resolve(text).items;
   },
 
   stop() {
@@ -242,7 +238,6 @@ const AudioLib = {
     // never settles and _done hangs forever — every later screen change then
     // waits on a promise that will not resolve.
     if (this._fin) { const f = this._fin; this._fin = null; f(); }
-    if (window.speechSynthesis) speechSynthesis.cancel();
   },
 
   _playFile(file) {
@@ -294,7 +289,6 @@ const AudioLib = {
         if (token !== this._queueToken) return;
         if (it.gap) { await new Promise(r => setTimeout(r, it.gap)); continue; }
         if (it.file) { await this._playFile(it.file); continue; }
-        if (it.tts != null) { await this._tts(it.tts, it.rate); }
       }
     })();
     return this._done;
@@ -308,24 +302,9 @@ const AudioLib = {
         if (token !== this._queueToken) return;
         if (it.gap) { await new Promise(r => setTimeout(r, it.gap)); continue; }
         if (it.file) { await this._playFile(it.file); continue; }
-        if (it.tts != null) { await this._tts(it.tts, it.rate); }
       }
     })();
     return this._done;
-  },
-
-  _tts(text, rate) {
-    return new Promise(resolve => {
-      if (!window.speechSynthesis) return resolve();
-      const u = new SpeechSynthesisUtterance(text);
-      const vs = speechSynthesis.getVoices().filter(v => v.lang && v.lang.startsWith('en'));
-      const v = vs.find(x => /Samantha/i.test(x.name)) || vs[0];
-      if (v) u.voice = v;
-      u.rate = rate || 0.92; u.pitch = 1.05;
-      u.onend = resolve; u.onerror = resolve;
-      speechSynthesis.speak(u);
-      setTimeout(resolve, 8000);
-    });
   },
 
   speak(text, opts) { return this._playLater(() => this._itemsFor(text, opts)); },

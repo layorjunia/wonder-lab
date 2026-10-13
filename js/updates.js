@@ -1,26 +1,38 @@
-// Updates — lets the native iPad app pull new content and code without a
-// reinstall. Pattern copied from Lamplight (Bible App, Web/src/45-updates.js):
-// each build is published to Firebase Hosting with a version.json listing
-// every shipped file's build id and a short hash. The app compares that with
-// its own version.json, copies forward whatever didn't change from the build
-// it is already running, downloads only what did, and points Capacitor's web
-// view at the new folder — all through Capacitor's OWN WebView and
-// Filesystem plugins, no custom native code required.
+// Over-the-air updates for the native iPad app. The app updates ITSELF: nobody
+// taps anything, and a new lesson or fix reaches the iPads without a reinstall
+// or a new link.
 //
-// Runs only inside the native app. The Vercel-hosted PWA updates itself the
-// ordinary way (a fresh page load gets the new files; sw.js's network-first
-// app-shell fetch is what notices on a repeat visit).
+// How it works (the same mechanics as Lamplight's js/45-updates.js, which is
+// proven on the family's iPads):
+//   * deploy-ota.sh puts each build on Firebase Hosting (wonder-lab-ota.web.app)
+//     with a version.json listing every shipped file and a short hash of it;
+//   * the app compares that with the version.json it is running, copies the
+//     files that did not change from the build it is running, downloads only
+//     the rest into Library/NoCloud/ionic_built_snapshots/<build>, and points
+//     Capacitor's web view at that folder;
+//   * the switch happens at the next SAFE moment: at launch (before a screen is
+//     shown), when the app goes to the background, or when the child is on a
+//     top-level screen. Never in the middle of a lesson, game or quiz;
+//   * a build that was switched to but did not come up is marked bad and never
+//     offered again, so a broken build cannot loop.
+//
+// Runs only inside the native app. The Vercel-hosted web app updates itself the
+// ordinary way (see App.checkForUpdate and sw.js).
 const Updates = {
-  // The Firebase Hosting site this build's OTA content is published to. Kept
-  // a plain constant (like Lamplight's VOICE_BASE) — no reason to branch on
-  // environment, since the native app always wants the same source.
   BASE: 'https://wonder-lab-ota.web.app/',
+  // Capacitor's own live-update location, under Library/ (not backed up to iCloud).
+  DIR: 'NoCloud/ionic_built_snapshots',
+  busy: false,
+  _lastCheck: 0,
+  _applyTimer: null,
 
   native() {
     const C = window.Capacitor;
     return !!(C && C.isNativePlatform && C.isNativePlatform()
               && C.Plugins && C.Plugins.Filesystem && C.Plugins.WebView);
   },
+  fs() { return window.Capacitor.Plugins.Filesystem; },
+  wv() { return window.Capacitor.Plugins.WebView; },
 
   async fetchJSON(url) {
     const r = await fetch(url, { cache: 'no-store' });
@@ -28,139 +40,187 @@ const Updates = {
     return r.json();
   },
 
-  // Compares the running build's version.json (bundled at the app root —
-  // whichever folder the web view is actually serving from right now) with
-  // the one published at BASE. Returns null if already current, otherwise
-  // {build, changed:[path...], bytes}.
+  // The version.json of the build running right now (bundled, or a snapshot).
+  async current() {
+    return this.fetchJSON('version.json').catch(() => ({ build: '', files: {} }));
+  },
+
+  // Asks the OTA site for its newest build. Returns null if there is nothing
+  // new, otherwise {build, remote, cur, changed, bytes}.
   async check() {
     if (!this.native()) return null;
     const [cur, remote] = await Promise.all([
-      this.fetchJSON('version.json').catch(() => null),
+      this.current(),
       this.fetchJSON(this.BASE + 'version.json?t=' + Date.now()).catch(() => null),
     ]);
-    if (!remote || !cur || remote.build === cur.build) return null;
-    // Never go backward: a fresh install from Xcode carries a newer build
-    // than any OTA download in progress, and an older download still sitting
-    // on disk from before that reinstall must not reappear and win.
-    if (remote.build <= cur.build) return null;
+    if (!remote || !remote.build || !remote.files) return null;
+    // Never go backward: a fresh install carries a newer build than an OTA
+    // download still sitting on disk from before that reinstall.
+    if (remote.build <= (cur.build || '')) return null;
+    // A build that was applied but never came up is not offered again.
+    if (remote.build === localStorage.getItem('wonderlab:ota-bad')) return null;
     const changed = Object.keys(remote.files).filter(
-      f => !cur.files[f] || cur.files[f].h !== remote.files[f].h);
+      f => f !== 'version.json' && !(cur.files && cur.files[f] && cur.files[f].h === remote.files[f].h));
+    if (!changed.length) return null;
     const bytes = changed.reduce((s, f) => s + (remote.files[f].n || 0), 0);
     return { build: remote.build, remote, cur, changed, bytes };
   },
 
-  // Builds the new version on disk: unchanged files copied forward from the
-  // build currently running (no re-download), changed files fetched fresh.
-  // version.json is written LAST, so a folder without one is an unfinished
-  // download and never gets applied.
-  async download(diff, onProgress) {
-    const { Filesystem } = window.Capacitor.Plugins;
-    const DIR = 'NoCloud';
-    const curDir = 'ionic_built_snapshots/' + diff.cur.build;
-    const newDir = 'ionic_built_snapshots/' + diff.build;
-    const changedSet = new Set(diff.changed);
-    const all = Object.keys(diff.remote.files);
+  // Builds the new version in its own folder: unchanged files are copied from
+  // the running build, the rest are downloaded. version.json is written LAST,
+  // so a folder without it is an unfinished download and is never applied.
+  async download(diff) {
+    const fs = this.fs();
+    const R = diff.remote, cur = diff.cur;
+    const dest = `${this.DIR}/${R.build}`;
+    const base = (await this.wv().getServerBasePath()).path;
+    const files = Object.keys(R.files).filter(f => f !== 'version.json');
 
-    for (const f of all) {
-      const from = (newDir + '/' + f).split('/');
-      const dirPath = from.slice(0, -1).join('/');
-      try { await Filesystem.mkdir({ path: dirPath, directory: DIR, recursive: true }); }
-      catch (e) { /* already exists */ }
+    try { await fs.rmdir({ path: dest, directory: 'LIBRARY', recursive: true }); } catch (e) { /* none yet */ }
+    const dirs = new Set(files.map(f => f.split('/').slice(0, -1).join('/')));
+    for (const d of dirs) {
+      await fs.mkdir({ path: d ? `${dest}/${d}` : dest, directory: 'LIBRARY', recursive: true }).catch(() => {});
     }
-
-    let done = 0;
-    for (const f of all) {
-      if (changedSet.has(f)) {
-        await Filesystem.downloadFile({
-          url: this.BASE + f + '?v=' + diff.remote.files[f].h,
-          path: newDir + '/' + f, directory: DIR,
-        });
+    for (const f of files) {
+      if (cur.files && cur.files[f] && cur.files[f].h === R.files[f].h) {
+        await fs.copy({ from: 'file://' + base + '/' + f, to: `${dest}/${f}`, toDirectory: 'LIBRARY' });
       } else {
-        try {
-          await Filesystem.copy({
-            from: curDir + '/' + f, to: newDir + '/' + f,
-            directory: DIR, toDirectory: DIR,
-          });
-        } catch (e) {
-          // Not on disk to copy forward (first OTA ever, or a pruned old
-          // snapshot) — fall back to downloading it like a changed file.
-          await Filesystem.downloadFile({
-            url: this.BASE + f + '?v=' + diff.remote.files[f].h,
-            path: newDir + '/' + f, directory: DIR,
-          });
-        }
+        await fs.downloadFile({ url: `${this.BASE}${f}?v=${R.files[f].h}`,
+                                path: `${dest}/${f}`, directory: 'LIBRARY', recursive: true });
       }
-      done++;
-      if (onProgress) onProgress(done, all.length);
     }
-
-    // Last, and only after every file above has actually landed.
-    await Filesystem.writeFile({
-      path: newDir + '/version.json', directory: DIR,
-      data: JSON.stringify(diff.remote), encoding: 'utf8',
-    });
-    return newDir;
+    await fs.downloadFile({ url: `${this.BASE}version.json?t=${Date.now()}`,
+                            path: `${dest}/version.json`, directory: 'LIBRARY' });
+    return R.build;
   },
 
-  // Points the web view at the freshly downloaded build. The reload happens
-  // immediately; persistServerBasePath (called on the NEXT boot, once we know
-  // the new build actually started up rather than crash-looping) is what
-  // makes it survive a native relaunch.
-  async apply(newDir) {
-    const { Filesystem, WebView } = window.Capacitor.Plugins;
-    const { uri } = await Filesystem.getUri({ path: newDir, directory: 'NoCloud' });
-    localStorage.setItem('wonderlab:ota-pending', uri);
-    await WebView.setServerBasePath({ path: uri });
+  async complete(build) {
+    try { await this.fs().stat({ path: `${this.DIR}/${build}/version.json`, directory: 'LIBRARY' }); return true; }
+    catch (e) { return false; }
   },
 
-  async tidy() {
-    const { Filesystem, WebView } = window.Capacitor.Plugins;
+  // Switches the web view to a downloaded build. The web view reloads at once;
+  // boot() then makes it permanent (persistServerBasePath) once it has come up.
+  async apply(build) {
+    const { uri } = await this.fs().getUri({ path: `${this.DIR}/${build}`, directory: 'LIBRARY' });
+    localStorage.setItem('wonderlab:ota-applied', build);
+    localStorage.removeItem('wonderlab:ota-ready');
+    await this.wv().setServerBasePath({ path: decodeURI(uri.replace(/^file:\/\//, '')) });
+  },
+
+  // Removes older downloaded builds, keeping the one now in use.
+  async tidy(keep) {
     try {
-      const { files } = await Filesystem.readdir({ path: 'ionic_built_snapshots', directory: 'NoCloud' });
-      const { path: livePath } = await WebView.getServerBasePath();
+      const { files } = await this.fs().readdir({ path: this.DIR, directory: 'LIBRARY' });
       for (const f of files) {
-        if (livePath && livePath.includes(f.name)) continue;
-        try { await Filesystem.rmdir({ path: 'ionic_built_snapshots/' + f.name, directory: 'NoCloud', recursive: true }); }
-        catch (e) { /* in use or already gone */ }
+        const name = f.name || f;
+        if (name !== keep) {
+          await this.fs().rmdir({ path: `${this.DIR}/${name}`, directory: 'LIBRARY', recursive: true }).catch(() => {});
+        }
       }
     } catch (e) { /* nothing to tidy on a fresh install */ }
   },
 
-  // Called once at boot. If a download from last session finished applying
-  // and this IS that new build running successfully, persist it (so a native
-  // relaunch keeps using it without this app.js even having to ask again)
-  // and tidy old snapshots. Then, if auto-update is on, quietly check and
-  // download in the background — never apply automatically, so a child is
-  // never mid-card when the ground shifts under them.
-  async boot(autoUpdate) {
-    if (!this.native()) return;
-    const { WebView } = window.Capacitor.Plugins;
-    const pending = localStorage.getItem('wonderlab:ota-pending');
-    if (pending) {
-      try {
-        const { path: liveBase } = await WebView.getServerBasePath();
-        if (liveBase && pending.includes(liveBase.split('/').pop())) {
-          await WebView.persistServerBasePath();
-          localStorage.removeItem('wonderlab:ota-pending');
-          localStorage.setItem('wonderlab:just-updated', '1');
-          this.tidy();
-        }
-      } catch (e) { /* ignore — try again next boot */ }
+  // ── automatic updates ─────────────────────────────────────────────────
+
+  // Switch to a finished download if it is newer than what is running.
+  // Returns true if the switch was started.
+  async applyIfReady() {
+    if (!this.native()) return false;
+    const ready = localStorage.getItem('wonderlab:ota-ready');
+    if (!ready) return false;
+    const cur = await this.current();
+    const base = ((await this.wv().getServerBasePath()).path) || '';
+    if (ready <= (cur.build || '') || base.endsWith('/' + ready)
+        || ready === localStorage.getItem('wonderlab:ota-bad')) {
+      localStorage.removeItem('wonderlab:ota-ready');
+      return false;
     }
-    if (autoUpdate) {
-      setTimeout(() => this.checkAndDownload().catch(() => {}), 8000);
+    if (!(await this.complete(ready))) return false;        // still downloading
+    await this.apply(ready);
+    return true;
+  },
+
+  // True when swapping builds cannot interrupt anything: no lesson, game, quiz
+  // or result screen is open, and the child is on a top-level tab.
+  safeToApply() {
+    if (document.getElementById('lessonOverlay') || document.getElementById('introSheet')) return false;
+    const tab = (typeof App !== 'undefined') ? App.tab : '';
+    return !tab || ['journey', 'games', 'collection', 'notes'].includes(tab);
+  },
+
+  scheduleApply() {
+    if (this._applyTimer) return;
+    this._applyTimer = setInterval(async () => {
+      if (!this.safeToApply()) return;
+      try {
+        const started = await this.applyIfReady();
+        if (started || !localStorage.getItem('wonderlab:ota-ready')) {
+          clearInterval(this._applyTimer); this._applyTimer = null;
+        }
+      } catch (e) { /* try again on the next tick */ }
+    }, 4000);
+  },
+
+  // Download only; applying is applyIfReady / scheduleApply.
+  async checkAndDownload() {
+    if (!this.native() || this.busy) return null;
+    this.busy = true;
+    try {
+      const diff = await this.check();
+      if (!diff) return null;
+      const build = await this.download(diff);
+      localStorage.setItem('wonderlab:ota-ready', build);
+      return diff;
+    } finally {
+      this.busy = false;
     }
   },
 
-  // Download only — never applies. Used for the silent background check and
-  // for a "Download update" settings button; applying is a separate explicit
-  // step (see App.applyUpdate in js/app.js) so a reload never happens while a
-  // child is mid-card.
-  async checkAndDownload() {
-    const diff = await this.check();
-    if (!diff) return null;
-    const dir = await this.download(diff);
-    localStorage.setItem('wonderlab:ota-ready', JSON.stringify({ build: diff.build, dir }));
-    return diff;
+  async checkAndApply() {
+    this._lastCheck = Date.now();
+    try {
+      const diff = await this.checkAndDownload();
+      if (diff || localStorage.getItem('wonderlab:ota-ready')) this.scheduleApply();
+    } catch (e) { /* offline or interrupted: try again next time */ }
+  },
+
+  // Called once at boot (js/app.js init, before anything is on screen).
+  async boot() {
+    if (!this.native()) return;
+    const base = ((await this.wv().getServerBasePath()).path) || '';
+    const applied = localStorage.getItem('wonderlab:ota-applied');
+    if (applied) {
+      localStorage.removeItem('wonderlab:ota-applied');
+      if (base.endsWith('/' + applied)) {
+        // The new build is running: keep it for later launches, tidy old ones.
+        await this.wv().persistServerBasePath();
+        localStorage.setItem('wonderlab:just-updated', '1');
+        this.tidy(applied);
+      } else {
+        // We switched to it but the shell is not serving it: it did not come up.
+        localStorage.setItem('wonderlab:ota-bad', applied);
+      }
+    }
+
+    // A download finished earlier: switch to it NOW, before the child sees a
+    // screen, so launching the app is what updates it.
+    if (await this.applyIfReady().catch(() => false)) return;
+    if (!base.includes('ionic_built_snapshots')) this.tidy(null);
+
+    setTimeout(() => this.checkAndApply(), 3000);
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) {
+        this.applyIfReady().catch(() => {});                // leaving the app: swap now
+      } else if (Date.now() - this._lastCheck > 10 * 60 * 1000) {
+        this.checkAndApply();
+      }
+    });
   },
 };
+
+// `const Updates` is a LEXICAL binding, not a property of window. Everything that
+// asks `window.Updates && Updates.native()` therefore saw undefined, and the
+// whole over-the-air path (boot check, download, apply, the Me-tab card) silently
+// never ran on any iPad. Same trap as window.Sync. Do not remove this line.
+window.Updates = Updates;

@@ -34,7 +34,7 @@ CHUNK = 5
 # Fact-based subjects: course id -> (TOPIC_SETS key or 'body', display handled
 # by TOPIC_SETS/BODY_SECTIONS already in schema.js — nothing new to author).
 FACT_COURSES = ['earth', 'astro', 'physical', 'micro',
-                 'ancient', 'america', 'world', 'economics']
+                 'ancient', 'america', 'utah', 'world', 'economics']
 
 _DUMP = r'''
 const fs = require('fs');
@@ -42,7 +42,7 @@ const load = f => { const s = fs.readFileSync(f, 'utf8')
   .replace(/^const (\w+)/gm, 'globalThis.$1'); eval(s); };
 load('js/schema.js'); load('js/animals.js'); load('js/body.js');
 load('js/plants.js'); load('js/earth.js'); load('js/astro.js');
-['ancient', 'america', 'world', 'micro', 'physical', 'economics']
+['ancient', 'america', 'utah', 'world', 'micro', 'physical', 'economics']
   .forEach(f => load('js/' + f + '.js'));
 
 const out = { courses: [], lessons: [] };

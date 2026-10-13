@@ -24,7 +24,7 @@
 
 Object.assign(App.GAMES, {
   factall:   { name: 'Picture Hunt',  glyph: '🔎', blurb: 'Tap everything that belongs' },
-  factcatch: { name: 'Picture Catch', glyph: '🧺', blurb: 'Pip catches the right ones' },
+  factcatch: { name: 'Picture Catch', glyph: '🧺', blurb: 'Your buddy catches the right ones' },
   factsort:  { name: 'Two Boxes',     glyph: '📦', blurb: 'Put each one in the right box' },
 });
 

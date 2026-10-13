@@ -27,13 +27,13 @@ Object.assign(App.GPHR, {
   bossLose: 'The boss won this time. Try again!',
   bossName_earth: 'Rumble the Volcano', bossName_astro: 'Comet Crusher',
   bossName_physical: 'Static the Spark', bossName_micro: 'Germ Gloop',
-  bossName_ancient: 'The Stone Guardian', bossName_america: 'Eagle Eye',
+  bossName_ancient: 'The Stone Guardian', bossName_america: 'Eagle Eye', bossName_utah: 'The Queen Bee',
   bossName_world: 'Captain Compass', bossName_economics: 'The Coin Dragon',
   bossName_body: 'Sneezy the Germ', bossName_animals: 'The Great Beast',
   bossName_plants: 'Thorn the Tangle',
 });
 
-const BOSS_ICON = { earth: '🌋', astro: '☄️', physical: '⚡', micro: '🦠', ancient: '🗿', america: '🦅',
+const BOSS_ICON = { earth: '🌋', astro: '☄️', physical: '⚡', micro: '🦠', ancient: '🗿', america: '🦅', utah: '🐝',
   world: '🧭', economics: '🪙', body: '🤧', animals: '🦖', plants: '🌵' };
 
 Object.assign(App.GAMES, {

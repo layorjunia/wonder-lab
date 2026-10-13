@@ -277,6 +277,17 @@ const AMERICA_SECTIONS = {
   everyday:  { name: 'Everyday Life',     glyph: '🏠' },
 };
 
+const UTAH_SECTIONS = {
+  peoples:   { name: 'The First Peoples',    glyph: '🪶' },
+  explorers: { name: 'Explorers & Trappers', glyph: '🧭' },
+  land:      { name: 'Lake, Desert & Peak',  glyph: '🏜️' },
+  pioneers:  { name: 'The Pioneer Trail',    glyph: '🐂' },
+  building:  { name: 'Building Towns',       glyph: '🐝' },
+  rails:     { name: 'Rails & Mines',        glyph: '🚂' },
+  statehood: { name: 'Becoming a State',     glyph: '⭐' },
+  wonders:   { name: 'Wonders of Stone',     glyph: '🏞️' },
+};
+
 const WORLD_SECTIONS = {
   middle:    { name: 'The Middle Ages',   glyph: '🏰' },
   voyages:   { name: 'Great Voyages',     glyph: '🗺️' },
@@ -298,6 +309,7 @@ const TOPIC_SETS = {
   micro:    { name: 'Microbiology',     glyph: '🦠', pat: 'cell',   data: 'MICRO',    secs: 'MICRO_SECTIONS' },
   ancient:  { name: 'Ancient History',  glyph: '🏺', pat: 'brick',  data: 'ANCIENT',  secs: 'ANCIENT_SECTIONS' },
   america:  { name: 'American History', glyph: '🦅', pat: 'scroll', data: 'AMERICA',  secs: 'AMERICA_SECTIONS' },
+  utah:     { name: 'Utah History',      glyph: '🐝', pat: 'topo',   data: 'UTAH',     secs: 'UTAH_SECTIONS' },
   world:    { name: 'World History',    glyph: '🌐', pat: 'star2',  data: 'WORLD',    secs: 'WORLD_SECTIONS' },
   economics: { name: 'Economics',       glyph: '🪙', pat: 'coin',   data: 'ECONOMICS', secs: 'ECONOMICS_SECTIONS' },
 };
@@ -324,7 +336,7 @@ const WINGS = {
   expedition: {
     name: 'The Expedition', verb: 'Travel', glyph: '🧭', tint: '#ffc94a',
     line: 'Maps of real places. Walk them a stop at a time.',
-    sources: [{ topic: 'ancient' }, { topic: 'america' }, { topic: 'world' },
+    sources: [{ topic: 'ancient' }, { topic: 'america' }, { topic: 'utah' }, { topic: 'world' },
               { topic: 'earth' }, { topic: 'astro' }],
   },
   lab: {
@@ -358,6 +370,6 @@ const FAMILIES = [
    error anywhere. */
 [['EARTH_SECTIONS', EARTH_SECTIONS], ['ASTRO_SECTIONS', ASTRO_SECTIONS],
  ['PHYSICAL_SECTIONS', PHYSICAL_SECTIONS], ['MICRO_SECTIONS', MICRO_SECTIONS],
- ['ANCIENT_SECTIONS', ANCIENT_SECTIONS], ['AMERICA_SECTIONS', AMERICA_SECTIONS],
+ ['ANCIENT_SECTIONS', ANCIENT_SECTIONS], ['AMERICA_SECTIONS', AMERICA_SECTIONS], ['UTAH_SECTIONS', UTAH_SECTIONS],
  ['WORLD_SECTIONS', WORLD_SECTIONS], ['BODY_SECTIONS', BODY_SECTIONS],
 ].forEach(([n, v]) => { globalThis[n] = v; });

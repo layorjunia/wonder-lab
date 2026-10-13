@@ -1,0 +1,797 @@
+# UNREVIEWED: written by hand (Claude) from verified Utah history facts, passed every automatic check, not yet read by a person (2026-10-13)
+=== utah-peoples
+idea: A canyon wall is covered in giant painted figures, and nobody knows who painted them. Meet the people who lived in Utah first, and who live here today.
+game: Great Gallery = Wall of giant painted figures | Fremont = Built stone granaries in cliffs | Ute = The people Utah is named for | Goshute = Gathered pine nuts in the desert | Navajo = Weave rugs on upright looms
+
+--- 🎨
+p: In Horseshoe Canyon, in southern Utah, a long sandstone wall called the Great Gallery is covered with painted figures.
+
+fact: Some stand taller than a grown man, with wide shoulders and hollow eyes, and many have no legs. Nobody knows for certain who painted them.
+
+check: What is the Great Gallery?
+- A cave filled with old stone tools
++ A wall covered with painted figures
+- A tall tower made of piled-up stone
+hint: Look at the paragraph. It says what the Great Gallery is.
+explain: The Great Gallery is a long sandstone wall in Horseshoe Canyon, covered with painted figures.
+
+--- 🏚️
+p: High on a cliff in Capitol Reef National Park, a small stone storehouse still stands. The Fremont people built little granaries like it.
+
+term: granary = A small storehouse for keeping grain and seeds.
+
+fact: They kept corn and seeds dry and safe from mice, and the rock above worked as a roof.
+
+check: What did the Fremont keep in their granaries?
+- Water and fish
++ Corn and seeds
+- Tools and blankets
+hint: Look at the box. It says what the Fremont kept dry and safe.
+explain: The Fremont kept corn and seeds in granaries, dry and safe from mice.
+
+--- 🪶
+p: The word Utah comes from the Ute people. The Ute lived in the mountains and valleys of this land and moved with the seasons, hunting, fishing and gathering.
+
+fact: Spanish travelers wrote their name as Yuta, and English speakers later turned it into Utah. The Ute call themselves Nuche, which means the People.
+
+check: Where does the name Utah come from?
+- From a Spanish king
++ From the Ute people
+- From a mountain range
+hint: Look at the first paragraph. It names where Utah comes from.
+explain: The word Utah comes from the Ute people.
+
+--- 🌲
+p: The Goshute lived in the dry western desert near the Great Salt Lake, where water is scarce. They knew where every spring was.
+
+fact: They gathered pine nuts, seeds and roots, and they hunted rabbits and birds. In autumn, families gathered to harvest pine nuts from the piñon pines and stored them for winter.
+
+--- 🧶
+p: In the red-rock country of southeastern Utah live the Navajo, who call themselves Diné. Monument Valley sits on the border of Utah and Arizona, inside the Navajo Nation.
+
+fact: Navajo weavers are famous for rugs woven on upright looms. A large rug can take months to weave.
+
+check: What do Navajo weavers make rugs on?
+- Flat wooden tables
++ Upright looms
+- Spinning wheels
+hint: Look at the box. It names what the rugs are woven on.
+explain: Navajo weavers make their rugs on upright looms, and a large rug can take months.
+
+--- 🏜️
+p: Utah is home to eight federally recognized tribes. They include the Ute, Paiute, Goshute, Northwestern Shoshone and Navajo peoples.
+
+fact: They have their own governments, languages and ceremonies, and they are living in Utah today. Many of the names on a Utah map began as words from these languages.
+
+--- 🪶
+p: A painted wall. A stone storehouse. The Ute, the Goshute and the Navajo.
+
+p: People have lived in Utah for a very long time, and they are here today.
+
+quiz: Who painted the figures in the Great Gallery?
+- Early Spanish travelers
++ Nobody knows for certain
+- The Goshute families
+explain: Nobody knows for certain who painted the figures.
+
+quiz: What does Nuche mean?
+- The Mountains
+- The Desert
++ The People
+explain: The Ute call themselves Nuche, which means the People.
+
+quiz: What did the Goshute gather in autumn?
++ Pine nuts
+- Corn kernels
+- Wild apples
+explain: In autumn, families gathered to harvest pine nuts from the piñon pines.
+
+quiz: How many federally recognized tribes live in Utah today?
+- Two
+- Twenty
++ Eight
+explain: Utah is home to eight federally recognized tribes.
+
+# UNREVIEWED: written by hand (Claude) from verified Utah history facts, passed every automatic check, not yet read by a person (2026-10-13)
+=== utah-explorers
+idea: Two friars set out for California, got lost in Utah, and wrote everything down. Then a trapper found a lake so salty he thought it was the ocean.
+game: Domínguez and Escalante = Friars who kept a diary | Utah Lake = Green valley lake the Ute fished | Jim Bridger = Trapper who tasted the salty lake | Bear Lake = Where trappers held a summer fair | John C. Frémont = Mapped the Great Basin
+
+--- 🧭
+p: In July 1776, two Spanish friars, Domínguez and Escalante, left Santa Fe to find a route to California. They never got there.
+
+fact: They wandered through Utah and wrote a daily diary. They came home after about 1,700 miles (2,700 km) in five months. When winter closed in, they cast lots to decide whether to keep going, and the lots said to go home.
+
+check: How long were the friars gone?
+- About five days
++ About five months
+- About five years
+hint: Look at the box. It tells how long the trip took.
+explain: They came home after about 1,700 miles in five months.
+
+--- 🐟
+p: On their way, the friars came down into a green valley with a big freshwater lake, now called Utah Lake.
+
+fact: They wrote that the Ute people living there fished the lake and were friendly. Their diary gave the first written description of the valley.
+
+check: What did the Ute people do at the lake?
+- They sold beaver furs
++ They fished in it
+- They sailed across it
+hint: Look at the box. It says what the Ute people did at the lake.
+explain: The friars wrote that the Ute people living there fished the lake and were friendly.
+
+--- 🧂
+p: In the winter of 1824 to 1825, a fur trapper tasted the water of a huge lake and spat it out. It was salty, so he told people he had found an arm of the ocean.
+
+term: trapper = Someone who catches animals for their fur, like the one who tasted the lake.
+
+fact: The trapper is usually said to be Jim Bridger, and the lake was the Great Salt Lake. Later trappers went all the way around it and found no outlet to the sea.
+
+check: Who is usually said to be the trapper?
+- Jedediah Smith
++ Jim Bridger
+- Brigham Young
+hint: Look at the box. It names the trapper.
+explain: The trapper is usually said to be Jim Bridger, and the lake was the Great Salt Lake.
+
+--- 🏕️
+p: Each summer, trappers met at a rendezvous to trade beaver furs for supplies. Bear Lake, on the Utah and Idaho border, hosted the rendezvous in 1827 and 1828.
+
+fact: Trappers and Native families camped there, traded, wrestled and raced horses. A whole year of beaver furs might be traded away in a week.
+
+--- 🏜️
+p: In 1827, a trapper named Jedediah Smith and two companions crossed Utah's western desert on their way back from California. There was almost no water.
+
+fact: Their horses gave out, and they walked, sometimes for days without a drink, until they reached the Great Salt Lake. They were the first non-Native travelers known to cross that desert.
+
+check: What was almost impossible to find in that desert?
+- Sand
++ Water
+- Rocks
+hint: Look at the first paragraph. It says what there was almost none of.
+explain: There was almost no water, and the travelers walked for days without a drink.
+
+--- 🗺️
+p: In the 1840s, the explorer John C. Frémont mapped much of this region. He found that its rivers never reach any ocean.
+
+term: basin = A place where water cannot get out to the sea: it ends in lakes or sinks into the sand.
+
+fact: They end in lakes or sink into the sand. He named the region the Great Basin, because water that falls here never flows to the sea.
+
+check: What did Frémont name the region?
+- Salt Plain
++ Great Basin
+- Red Desert
+hint: Look at the box. It gives the name he chose.
+explain: He named it the Great Basin, because water that falls there never flows to the sea.
+
+--- 🧭
+p: Two friars with a diary. A lake that tasted of salt. A summer fair for trappers. A walk across a dry desert. A map of a basin with no way to the sea.
+
+p: Each one found out a little more about the land.
+
+quiz: What did the friars do when winter closed in?
+- Built a fort and stayed
++ Cast lots and went home
+- Sailed across the lake
+explain: They cast lots to decide whether to keep going, and the lots said to go home.
+
+quiz: Why did the trapper think he had found an arm of the ocean?
+- The shore was sandy
++ The water was salty
+- The lake had tides
+explain: The water was salty, so he told people he had found an arm of the ocean.
+
+quiz: Where was the rendezvous held in 1827 and 1828?
+- Utah Lake
+- Great Salt Lake
++ Bear Lake
+explain: Bear Lake, on the Utah and Idaho border, hosted the rendezvous in 1827 and 1828.
+
+quiz: What is special about water that falls in the Great Basin?
+- It always freezes in winter
++ It never flows to the sea
+- It flows north to the ocean
+explain: The rivers there end in lakes or sink into the sand, so the water never reaches the sea.
+
+# UNREVIEWED: written by hand (Claude) from verified Utah history facts, passed every automatic check, not yet read by a person (2026-10-13)
+=== utah-land
+idea: A lake with no way out, a plain of salt where cars race, and a mountain range that runs the wrong way. Meet the land of Utah.
+game: Great Salt Lake = Salty enough to float on | Brine shrimp = Live in the lake by the billions | Salt Flats = White plain where cars race | Uinta Mountains = Range that runs east to west | Kings Peak = Highest point in Utah
+
+--- 🧂
+p: The Great Salt Lake is so salty that swimmers float like corks. In some parts it is several times saltier than the ocean.
+
+fact: Few fish can live in it, but brine shrimp and brine flies thrive there by the billions. Birds travel from far away to feed on them.
+
+check: What lives in the lake by the billions?
+- Trout, bass and catfish
++ Brine shrimp and flies
+- Crabs, clams and oysters
+hint: Look at the box. It names what lives in the lake.
+explain: Brine shrimp and brine flies thrive in the lake by the billions.
+
+--- 💧
+p: No river flows out of the Great Salt Lake. Rivers flow in, bringing a little salt each day.
+
+term: evaporate = To turn from water into air you cannot see.
+
+fact: Water can leave only by rising into the air. The water evaporates and the salt stays behind. That is why the lake stays salty.
+
+check: Why does the lake stay salty?
+- Ships bring in new salt daily
++ Water leaves but the salt stays
+- Ocean tides carry the salt in
+hint: Look at the box. It says what happens to the water and the salt.
+explain: Water leaves by evaporating into the air, and the salt stays behind.
+
+--- 🩷
+p: A railroad causeway built of rock divides the lake in two. The south arm gets fresh river water.
+
+fact: The north arm does not, so it is much saltier, and salt-loving microbes turn its water pink or red. From the air the two arms are two different colors.
+
+--- 🏁
+p: West of the lake lie the Bonneville Salt Flats, a flat white plain of hard salt that looks like a frozen lake.
+
+fact: It is so smooth that racers have driven cars there to set land speed records for more than a hundred years. The salt crust is only a few feet thick, and mud lies below it.
+
+check: What do racers set on the salt flats?
+- Swimming records
++ Land speed records
+- High jump records
+hint: Look at the box. It tells what racers set there.
+explain: The salt is so smooth that racers set land speed records there.
+
+--- ⛰️
+p: The Uinta Mountains are unusual. They run east to west, while most mountain ranges run north to south.
+
+fact: Utah's tallest peak, Kings Peak, rises there to 13,534 feet (4,125 m). From the top you can look across the whole high desert.
+
+check: Which way do the Uinta Mountains run?
+- North to south
++ East to west
+- Round in a circle
+hint: Look at the first paragraph. It says which way the range runs.
+explain: The Uinta Mountains run east to west, which is unusual for a mountain range.
+
+--- ❄️
+p: Utah is one of the driest states in the country. Most of it gets only about a foot of rain a year.
+
+fact: But the mountains catch heavy winter snow, and the melting snow runs down in streams. Most of Utah's water begins as mountain snow. That is why Utahns watch the snowpack all winter long.
+
+--- 🏜️
+p: A salty lake. A pink arm. A white plain. A range that runs east to west. A dry land that gets its water from snow.
+
+p: Each one makes Utah look like no other place.
+
+quiz: How salty can the Great Salt Lake be?
+- Just as salty as a pond
++ Several times saltier than the ocean
+- A little less salty than tap water
+explain: In some parts it is several times saltier than the ocean.
+
+quiz: What color is the north arm of the lake?
+- Bright blue
++ Pink or red
+- Pure white
+explain: Salt-loving microbes turn the water of the north arm pink or red.
+
+quiz: How tall is Kings Peak?
+- Only 3,534 feet
++ About 13,534 feet
+- Over 23,000 feet
+explain: Kings Peak rises to 13,534 feet (4,125 m), the tallest point in Utah.
+
+quiz: How much rain does most of Utah get each year?
+- About ten feet
++ About a foot
+- Almost none at all
+explain: Most of Utah gets only about a foot of rain a year.
+
+# UNREVIEWED: written by hand (Claude) from verified Utah history facts, passed every automatic check, not yet read by a person (2026-10-13)
+=== utah-pioneers
+idea: A sick leader looked over a dry valley and said it was the right place. See how the pioneers got there, and what happened when the crickets came.
+game: Pioneer Day = July 24, a Utah holiday | Roadometer = Counted the turns of a wheel | Handcart = Two-wheeled cart pushed by hand | California gull = Ate the crickets | Brigham Young = Leader who chose the valley
+
+--- 🐂
+p: On July 24, 1847, a company of pioneers rolled into the Salt Lake Valley. Their leader, Brigham Young, had been sick with a fever and came in a few days later.
+
+fact: Looking out over the valley, he is remembered to have said, "This is the right place." July 24 is still a state holiday in Utah. It is called Pioneer Day.
+
+check: What is July 24 called in Utah?
+- Gull Day
++ Pioneer Day
+- Harvest Day
+hint: Look at the box. It names the holiday.
+explain: July 24 is called Pioneer Day, and it is still a state holiday in Utah.
+
+--- 🚶
+p: The pioneers were members of The Church of Jesus Christ of Latter-day Saints, looking for a place of their own. The first company was small: 148 people and 73 wagons.
+
+fact: They left Winter Quarters, in what is now Nebraska, in April and traveled about 1,000 miles (1,600 km). The trip took a little over three months.
+
+check: How many people were in the first company?
+- 73
++ 148
+- 1,000
+hint: Look at the first paragraph. It gives the number of people.
+explain: The first company was small: 148 people and 73 wagons.
+
+--- ⚙️
+p: To count the miles, William Clayton and Appleton Harmon made a roadometer.
+
+term: roadometer = A wooden device on a wagon wheel that counts each turn.
+
+fact: It had gears that clicked once for each turn of the wheel. Clayton added up the clicks and wrote the distances in a guidebook.
+
+check: What did the roadometer count?
+- Steps of the oxen
++ Turns of a wheel
+- Days on the trail
+hint: Look at the box. It says what the gears clicked for.
+explain: The gears clicked once for each turn of the wagon wheel.
+
+--- 🥔
+p: When the pioneers arrived, the valley soil was dry and hard as brick.
+
+fact: Within hours they dammed a stream, let the water spread over the ground to soften it, and planted potatoes. It was the settlers' first irrigation in the valley.
+
+p: Their way of sharing water ditches spread to every town they founded.
+
+--- 🛒
+p: From 1856 to 1860, about 3,000 pioneers crossed the plains pushing and pulling handcarts, two-wheeled wooden carts.
+
+fact: They used handcarts because they could not afford wagons and oxen. Most companies arrived on time. Two arrived late in 1856 and were caught by early snow until rescuers reached them.
+
+check: Why did they use handcarts?
+- Handcarts were faster than wagons
++ They could not afford wagons and oxen
+- Oxen were not allowed on the trail
+hint: Look at the box. It gives the reason.
+explain: They could not afford wagons and oxen, so they pushed and pulled handcarts.
+
+--- 🐦
+p: In 1848, swarms of crickets began eating the settlers' first crops. People fought them with fire and shovels, but nothing worked.
+
+fact: Then flocks of California gulls came and ate the crickets. A monument to the seagulls stands in Salt Lake City today. The California gull is now Utah's state bird.
+
+check: What ate the crickets?
+- Hungry coyotes
++ California gulls
+- Barn owls
+hint: Look at the box. It names who ate them.
+explain: Flocks of California gulls came and ate the crickets.
+
+--- 🐂
+p: A leader with a fever. A wooden roadometer. Potatoes in dry ground. Handcarts on the plains. Gulls on the crickets.
+
+p: The pioneers worked together to make a home.
+
+quiz: What did the first pioneers do within hours of arriving?
+- Built a high stone fort for safety
++ Dammed a stream and planted potatoes
+- Dug a mine looking for silver ore
+explain: Within hours they dammed a stream, soaked the hard ground and planted potatoes.
+
+quiz: About how far did the first company travel?
+- About 100 miles
++ About 1,000 miles
+- About 10,000 miles
+explain: They traveled about 1,000 miles (1,600 km) from Winter Quarters.
+
+quiz: What is the state bird of Utah?
+- The soaring bald eagle
++ The California gull
+- The little blue jay
+explain: The California gull saved the crops, and it is now Utah's state bird.
+
+quiz: What was the roadometer made of?
+- Iron and steam
++ Wood and gears
+- Rope and stone
+explain: The roadometer was a wooden device with gears that clicked for each turn of the wheel.
+
+# UNREVIEWED: written by hand (Claude) from verified Utah history facts, passed every automatic check, not yet read by a person (2026-10-13)
+=== utah-building
+idea: Streets wide enough for oxen to turn around, a beehive on the seal, and a temple that took 40 years. Find out how the pioneers built their towns.
+game: Beehive = Symbol of steady, hard work | Deseret = Settlers' name meaning honeybee | Zero point = Corner of Main Street and South Temple | Salt Lake Temple = Took 40 years to build | St. George = Town settled to grow cotton
+
+--- 🛣️
+p: Salt Lake City was laid out in a grid with very wide streets, 132 feet (40 m) from edge to edge.
+
+fact: Brigham Young wanted streets wide enough for a team of oxen and a wagon to turn around without backing up. Those wide streets are why the city still feels so open today.
+
+check: How wide were the streets?
+- Only 32 feet, like a lane
++ 132 feet from edge to edge
+- Over 232 feet, wider than a field
+hint: Look at the first paragraph. It gives the width of the streets.
+explain: The streets are 132 feet (40 m) from edge to edge, wide enough for oxen to turn around.
+
+--- 🔢
+p: Addresses in Salt Lake City count out from the middle of town. The corner of Main Street and South Temple is the zero point.
+
+fact: An address like 400 South 300 West means four blocks south and three blocks west of that corner. Once you learn the system, you can find any address with no map.
+
+check: Where do the address numbers start?
+- The shore of the Great Salt Lake
++ Main Street and South Temple
+- The steps of the State Capitol
+hint: Look at the first paragraph. It names the zero point.
+explain: The numbers count out from the corner of Main Street and South Temple.
+
+--- 🐝
+p: The beehive became the symbol of Utah. Bees work together, build a home and store up for winter, and the settlers hoped to do the same.
+
+term: industry = Steady, hard work.
+
+fact: Utah is the Beehive State, its motto is Industry, and a beehive is on its seal.
+
+check: What is Utah's motto?
+- Freedom
++ Industry
+- Honor
+hint: Look at the box. It gives the motto.
+explain: Utah's motto is Industry, which means steady, hard work.
+
+--- ⛪
+p: The Salt Lake Temple took 40 years to build, from 1853 to 1893.
+
+fact: The granite blocks came from a canyon about 20 miles (32 km) away. At first, oxen pulled each block on a wagon, and one round trip could take four days. Later a railroad carried the stone.
+
+--- 📜
+p: The settlers named their land Deseret, a word they took from their scripture that means honeybee.
+
+fact: In 1850, Congress made it a territory instead and gave it the name Utah, after the Ute people. The Territory of Utah was much bigger than the state is today.
+
+check: What does Deseret mean?
+- Red rock
++ Honeybee
+- Salt lake
+hint: Look at the paragraph. It says what the word means.
+explain: Deseret means honeybee.
+
+--- 🍑
+p: Within a few years settlers built dozens of towns, some hundreds of miles from Salt Lake City: Provo, Ogden, Manti and Cedar City.
+
+fact: In 1861 families were sent to the hot southwest corner to grow cotton. They built St. George, still known as Utah's Dixie. Winters there are mild, and peaches and grapes grow well.
+
+--- 🐝
+p: Wide streets. A grid of numbers. A beehive. A temple of granite. A name that means honeybee. A town in the warm southwest.
+
+p: The settlers built a home together.
+
+quiz: Why were the streets so wide?
+- Trains needed room to pass each other
++ A team of oxen could turn around
+- Boats used them as little canals
+explain: Brigham Young wanted streets wide enough for oxen and a wagon to turn around.
+
+quiz: How long did the Salt Lake Temple take to build?
+- Only 4 years
++ About 40 years
+- More than 100 years
+explain: The temple took 40 years to build, from 1853 to 1893.
+
+quiz: What did the families sent to St. George grow?
+- Rice
++ Cotton
+- Tea
+explain: In 1861 families were sent to the hot southwest corner to grow cotton.
+
+quiz: What is Utah's nickname?
+- The Eagle State
++ The Beehive State
+- The Sunflower State
+explain: Utah is the Beehive State, and a beehive is on its seal.
+
+quiz: What does Industry mean on Utah's seal?
+- A day of rest
++ Steady, hard work
+- Big factories only
+explain: Industry means steady, hard work, like the bees in a beehive.
+
+# UNREVIEWED: written by hand (Claude) from verified Utah history facts, passed every automatic check, not yet read by a person (2026-10-13)
+=== utah-rails
+idea: A golden spike joined two railroads at Promontory Summit. Then follow the rails to copper, silver and uranium.
+game: Promontory Summit = Where two railroads met | Lucin Cutoff = Trestle across the Great Salt Lake | Bingham Canyon = Giant open-pit copper mine | Park City = Silver camp turned ski town | Charlie Steen = Found uranium near Moab
+
+--- 🚂
+p: On May 10, 1869, at Promontory Summit in northern Utah, two railroads met. A golden spike was set in a special tie.
+
+fact: Telegraph wires carried the news across the country in one word: "Done." The two steam engines stood nose to nose. A trip that took months by wagon now took about a week.
+
+check: What word did the telegraph send?
+- Finished
++ Done
+- Hurrah
+hint: Look at the box. It gives the one word.
+explain: The telegraph sent one word across the country: "Done."
+
+--- 🧱
+p: Thousands of Chinese workers built the Central Pacific line through mountains and desert.
+
+fact: On April 28, 1869, in Utah, crews laid 10 miles of track in a single day. It was a record that stood for many years. It began as a bet between two railroad bosses.
+
+check: How many miles of track were laid in one day?
+- 2 miles
++ 10 miles
+- 50 miles
+hint: Look at the box. It gives the number of miles.
+explain: Crews laid 10 miles of track in a single day.
+
+--- 🌉
+p: In 1904, a railroad shortcut called the Lucin Cutoff opened across the Great Salt Lake.
+
+term: trestle = A wooden frame, built on piles, that carries a railroad across a lake.
+
+fact: Trains rode on a wooden trestle almost 12 miles (19 km) long, built on piles driven into the lake bottom. Trains still cross the lake there, on a rock causeway.
+
+check: What held the trestle up?
+- Floating barrels tied together
++ Piles driven into the lake bottom
+- Ropes pulled tight to the shore
+hint: Look at the box. It says what the trestle was built on.
+explain: The trestle was built on piles driven into the lake bottom.
+
+--- ⛏️
+p: Bingham Canyon Mine, near Salt Lake City, is a copper mine dug as a giant open pit, started in 1906.
+
+fact: It is about three-quarters of a mile (1.2 km) deep and 2.5 miles (4 km) wide, one of the largest holes ever dug by people. Giant trucks with tires taller than a man haul the rock out.
+
+check: What metal comes out of Bingham Canyon Mine?
+- Iron ore
++ Copper
+- Coal dust
+hint: Look at the first paragraph. It names the metal.
+explain: Bingham Canyon Mine is a copper mine.
+
+--- 🪙
+p: Silver was found in the mountains near Park City in the 1860s, and a mining camp grew up.
+
+fact: Miners dug tunnels deep into the mountain and sent silver ore out by wagon and rail. Today those same mountains hold ski runs. Some old mine tunnels are still under the slopes.
+
+check: What do those mountains hold today?
+- Wheat farms
++ Ski runs
+- Railroad yards
+hint: Look at the box. It tells what the mountains hold now.
+explain: Today the same mountains hold ski runs.
+
+--- ☢️
+p: In 1952, a prospector named Charlie Steen found a rich uranium deposit near Moab.
+
+fact: Within a few years, hundreds of people rushed to southeastern Utah with Geiger counters to stake claims, and Moab became a boom town. A Geiger counter clicks faster near uranium.
+
+--- 🚂
+p: A spike of gold. Ten miles of track in a day. A trestle across a lake. A copper pit. A silver camp. A boom town.
+
+p: Each one started with a railroad or a mine.
+
+quiz: Where did the two railroads meet?
+- Bear Lake, on the border
++ Promontory Summit
+- Moab, near the red rocks
+explain: The two railroads met at Promontory Summit in northern Utah.
+
+quiz: How long was the Lucin Cutoff trestle?
+- About one mile
++ Almost 12 miles
+- Over 100 miles
+explain: The wooden trestle was almost 12 miles (19 km) long.
+
+quiz: How deep is Bingham Canyon Mine?
+- Only about ten feet deep, like a pool
++ About three-quarters of a mile
+- More than ten miles straight down
+explain: The pit is about three-quarters of a mile (1.2 km) deep.
+
+quiz: What does a Geiger counter help people find?
+- Silver
++ Uranium
+- Salt
+explain: A Geiger counter clicks faster near uranium.
+
+# UNREVIEWED: written by hand (Claude) from verified Utah history facts, passed every automatic check, not yet read by a person (2026-10-13)
+=== utah-statehood
+idea: Bells rang when Utah became the 45th state. Meet the first woman to vote, a doctor who beat her own husband, and a state with its own cooking pot.
+game: January 4, 1896 = The day Utah became a state | Seraph Young = Cast an early woman's vote | Sego lily = The state flower | Dutch oven = Utah's state cooking pot | Martha Hughes Cannon = First woman state senator
+
+--- ⭐
+p: On January 4, 1896, President Grover Cleveland signed the paper that made Utah the 45th state.
+
+fact: Bells rang, whistles blew, and a parade filled the streets of Salt Lake City. Utah had asked to become a state many times before it got a yes.
+
+check: Which number state is Utah?
+- The 5th
++ The 45th
+- The 50th
+hint: Look at the first paragraph. It gives the number.
+explain: Utah became the 45th state on January 4, 1896.
+
+--- 🗳️
+p: On February 14, 1870, a young woman named Seraph Young cast her vote in Salt Lake City. She is usually counted as the first woman in the United States to vote under an equal-suffrage law.
+
+fact: Congress took the vote away in 1887, and Utah's new constitution gave it back in 1896.
+
+check: What did Seraph Young do?
+- Signed a law
++ Cast a vote
+- Built a school
+hint: Look at the first paragraph. It says what she did in 1870.
+explain: Seraph Young cast her vote in Salt Lake City on February 14, 1870.
+
+--- 🌷
+p: Utah's state seal shows a beehive, sego lilies, an eagle and two flags, with the word Industry across the top.
+
+term: sego lily = The state flower of Utah, with a bulb that can be eaten.
+
+fact: The sego lily is the state flower. Pioneers dug up sego lily bulbs to eat when food ran short.
+
+check: What did pioneers eat from the sego lily?
+- Petals
++ Bulbs
+- Seeds
+hint: Look at the box. It says what they dug up.
+explain: Pioneers dug up sego lily bulbs to eat when food ran short.
+
+--- 🍲
+p: Utah has some unusual state symbols. The state bird is the California gull. The state animal is the Rocky Mountain elk.
+
+fact: The state cooking pot is the Dutch oven. The state fossil is Allosaurus, a meat-eating dinosaur. Very few states have chosen a cooking pot.
+
+check: What is Utah's state cooking pot?
+- Frying pan
++ Dutch oven
+- Tea kettle
+hint: Look at the box. It names the state cooking pot.
+explain: Utah's state cooking pot is the Dutch oven.
+
+--- 👩
+p: Martha Hughes Cannon, a doctor, ran for the Utah state senate in 1896 against her own husband. She won.
+
+fact: She became the first woman state senator in the United States. She also kept working as a physician.
+
+check: Whom did Martha Hughes Cannon run against?
+- Her sister
++ Her own husband
+- A famous judge
+hint: Look at the first paragraph. It says who she ran against.
+explain: She ran against her own husband, and she won.
+
+--- 🗺️
+p: In 1850, the Territory of Utah was much larger than the state is now. It stretched from California's mountains to the Rocky Mountains and included most of what is now Nevada.
+
+fact: Over the next years Congress cut off pieces to make other territories and states. Utah's borders took their final shape in 1868.
+
+--- ⭐
+p: A bell for statehood. A vote cast by a young woman. A beehive and a lily. A Dutch oven. A senator who beat her husband.
+
+p: Utah has many firsts.
+
+quiz: In which year did Utah become a state?
+- 1847
++ 1896
+- 1950
+explain: Utah became a state on January 4, 1896.
+
+quiz: What did Congress do in 1887?
+- Gave Utah a new state seal
++ Took the vote away from women
+- Built a railroad across the lake
+explain: Congress took the vote away in 1887, and Utah's new constitution gave it back in 1896.
+
+quiz: What is Utah's state fossil?
+- Stegosaurus
++ Allosaurus
+- Triceratops
+explain: The state fossil is Allosaurus, a meat-eating dinosaur.
+
+quiz: What is Utah's state animal?
+- The giant grizzly bear
++ The Rocky Mountain elk
+- The howling gray wolf
+explain: The state animal is the Rocky Mountain elk.
+
+# UNREVIEWED: written by hand (Claude) from verified Utah history facts, passed every automatic check, not yet read by a person (2026-10-13)
+=== utah-wonders
+idea: Five national parks, a wall of dinosaur bones and the Greatest Snow on Earth. See the wonders of Utah's red-rock country.
+game: Mighty Five = Utah's five national parks | Hoodoo = Tall thin spire of rock | The Narrows = Slot where hikers wade a river | Delicate Arch = On Utah's license plates | Earl Douglass = Found the huge dinosaur bones
+
+--- 🏞️
+p: Utah has five national parks, called the Mighty Five: Zion, Bryce Canyon, Capitol Reef, Arches and Canyonlands.
+
+fact: Each one shows a different side of the red-rock desert. Together they cover more than a thousand square miles of canyons and cliffs.
+
+check: How many national parks does Utah have?
+- Three
++ Five
+- Ten
+hint: Look at the first paragraph. It gives the number.
+explain: Utah has five national parks, called the Mighty Five.
+
+--- 🗿
+p: Bryce Canyon is full of hoodoos, tall thin spires of orange and pink rock that stand in rows like a crowd.
+
+term: hoodoo = A tall, thin spire of rock.
+
+fact: Bryce has more hoodoos than any other place on Earth. Water freezes and thaws in the cracks of the rock more than 200 nights a year.
+
+check: What are hoodoos?
+- Deep caves in a cliff
++ Tall thin spires of rock
+- Flat rocks like tables
+hint: Look at the paragraph. It says what hoodoos are.
+explain: Hoodoos are tall, thin spires of orange and pink rock.
+
+--- 🌊
+p: In Zion Canyon the Virgin River has carved a slot so narrow that hikers wade in the river itself.
+
+fact: In the Narrows, the walls rise up to 1,000 feet (300 m), and in places the gap is only about 20 feet (6 m) wide. After a storm upstream, the river can rise fast.
+
+check: How tall are the walls of the Narrows?
+- Only about 10 feet
++ As much as 1,000 feet
+- Roughly 100 feet
+hint: Look at the box. It gives the height of the walls.
+explain: In the Narrows the walls rise up to 1,000 feet (300 m).
+
+--- 🌉
+p: Delicate Arch stands alone on a bare rock ridge, 52 feet (16 m) tall, and it is on Utah's license plates.
+
+fact: Arches National Park holds more than 2,000 natural stone arches, more than anywhere else in the world. Wind, water and frost slowly wear the rock away.
+
+--- 🦕
+p: In Dinosaur National Monument in northeastern Utah, a whole wall of rock is full of dinosaur bones. There are about 1,500 of them, left where they were found so visitors can see them.
+
+fact: Earl Douglass found the first huge bones there in 1909. You can touch the bones on the wall.
+
+check: Who found the first huge bones?
+- Jim Bridger
++ Earl Douglass
+- Brigham Young
+hint: Look at the box. It names the man who found them.
+explain: Earl Douglass found the first huge bones there in 1909.
+
+--- ⛷️
+p: In 2002, Salt Lake City hosted the Winter Olympics. Utah's snow is famous because it falls light and dry, and ski towns call it the Greatest Snow on Earth.
+
+fact: Some mountain resorts get more than 500 inches (12.7 m) of snow in a year. Skiers come from all over the world to try it.
+
+check: In which year did Salt Lake City host the Winter Olympics?
+- 1896
++ 2002
+- 1869
+hint: Look at the first paragraph. It gives the year.
+explain: Salt Lake City hosted the Winter Olympics in 2002.
+
+--- 🏞️
+p: Five parks. A crowd of hoodoos. A slot with a river in it. An arch on a license plate. A wall of bones. A mountain of dry, light snow.
+
+p: Utah is full of stone and snow.
+
+quiz: Which river carved Zion Canyon?
+- The Green River
++ The Virgin River
+- The Snake River
+explain: The Virgin River has carved a slot so narrow that hikers wade in it.
+
+quiz: About how many dinosaur bones are on the wall at Dinosaur National Monument?
+- About 15
++ About 1,500
+- About 150,000
+explain: A whole wall of rock holds about 1,500 dinosaur bones, left where they were found.
+
+quiz: How tall is Delicate Arch?
+- 5 feet
++ 52 feet
+- 520 feet
+explain: Delicate Arch stands 52 feet (16 m) tall.
+
+quiz: What do ski towns call Utah's snow?
+- The Wettest Snow in the World
++ The Greatest Snow on Earth
+- The Whitest Rain on Earth
+explain: Utah's snow falls light and dry, and ski towns call it the Greatest Snow on Earth.
+

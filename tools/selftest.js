@@ -24,6 +24,22 @@ window.SelfTest = {
     Sfx.play = () => {};
     AudioLib.speakSeq = () => Promise.resolve();
     AudioLib.stop = () => {};
+    // Every string a Listen button / goal bar would speak must have its OWN
+    // recording. The player has no fallback voice (no browser TTS, no stitched
+    // words), so a string without a clip is silence for the child: a defect.
+    try { await (AudioLib.loading || Promise.resolve()); } catch (e) { /* ignore */ }
+    const noClip = new Set();
+    const realMk = App._mkListen;
+    if (AudioLib.manifest) {
+      App._mkListen = function (label, parts) {
+        (parts || []).forEach(t => {
+          if (t && String(t).trim() && AudioLib.resolve(t).kind !== 'clip') noClip.add(String(t).slice(0, 90));
+        });
+        return realMk.call(this, label, parts);
+      };
+    } else {
+      problems.push('audio manifest did not load, so recordings could not be checked');
+    }
     const lessons = LESSONS.filter(l => !only || only.includes(l.id));
     const tick = () => new Promise(r => realSetTimeout(r, 12));
     const mark = (L, msg) => problems.push(`${L.id}: ${msg}`);
@@ -144,6 +160,8 @@ window.SelfTest = {
     } finally {
       window.setTimeout = realSetTimeout;
       Sfx.play = realSfx; AudioLib.speakSeq = realSpeak; AudioLib.stop = realStop;
+      App._mkListen = realMk;
+      [...noClip].slice(0, 12).forEach(t => problems.push('no recording (would be silent): ' + t));
       window.removeEventListener('error', onerr);
       window.removeEventListener('unhandledrejection', onerr);
       Progress.data = JSON.parse(savedProgress);

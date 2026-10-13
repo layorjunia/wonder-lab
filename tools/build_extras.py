@@ -38,6 +38,8 @@ ANCIENT_SECTIONS = {'beginning', 'flood', 'egypt', 'mesopot', 'israel',
                     'greece', 'rome'}
 AMERICA_SECTIONS = {'explorers', 'colonies', 'founding', 'inventors',
                     'frontier', 'machines', 'flight', 'everyday'}
+UTAH_SECTIONS = {'peoples', 'explorers', 'land', 'pioneers', 'building', 'rails',
+                 'statehood', 'wonders'}
 WORLD_SECTIONS = {'middle', 'voyages', 'printing', 'discovery', 'builders',
                   'faroff', 'medicine', 'modern'}
 ECONOMICS_SECTIONS = {'money', 'trade', 'work', 'business', 'choices',
@@ -291,6 +293,7 @@ def main():
     NEW = [
         ('ancient',  'ANCIENT',  ANCIENT_SECTIONS,  'Ancient history', True),
         ('america',  'AMERICA',  AMERICA_SECTIONS,  'American history', True),
+        ('utah',     'UTAH',     UTAH_SECTIONS,     'Utah history', True),
         ('world',    'WORLD',    WORLD_SECTIONS,    'World history', True),
         ('micro',    'MICRO',    MICRO_SECTIONS,    'Microbiology', False),
         ('physical', 'PHYSICAL', PHYSICAL_SECTIONS, 'Physical science', False),

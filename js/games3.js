@@ -51,7 +51,7 @@ Object.assign(App.GPHR, {
 Object.assign(App.GAMES, {
   tapname:  { name: 'Tap It',      glyph: '👆', blurb: 'Hear the name, tap the picture' },
   tapgroup: { name: 'Tap Them All', glyph: '🖐️', blurb: 'Tap every bird, every fish...' },
-  catchpic: { name: 'Catch Them',  glyph: '🧺', blurb: 'Pip catches the right animals' },
+  catchpic: { name: 'Catch Them',  glyph: '🧺', blurb: 'Your buddy catches the right animals' },
   slingpic: { name: 'Sling It',    glyph: '🪨', blurb: 'Hear the name, hit the picture' },
 });
 

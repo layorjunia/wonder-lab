@@ -79,9 +79,9 @@ const load = f => { const s = fs.readFileSync(f, 'utf8')
 load('js/schema.js'); load('js/animals.js'); load('js/body.js');
 load('js/expeditions.js');
 load('js/plants.js'); load('js/earth.js'); load('js/astro.js');
-['ancient', 'america', 'world', 'micro', 'physical', 'economics'].forEach(f => load('js/' + f + '.js'));
+['ancient', 'america', 'utah', 'world', 'micro', 'physical', 'economics'].forEach(f => load('js/' + f + '.js'));
 load('js/lessons.js');
-globalThis.App = {}; load('js/lesson.js'); load('js/games.js'); load('js/games2.js'); load('js/games3.js'); load('js/games4.js');   // Object.assign(App, {...}) — methods only
+globalThis.App = {}; load('js/lesson.js'); load('js/games.js'); load('js/games2.js'); load('js/games3.js'); load('js/games4.js'); load('js/buddies.js');   // Object.assign(App, {...}) — methods only
 const out = [];
 const push = (src, field, id, t) => { if (t && String(t).trim())
   out.push({ src, field, id, text: String(t) }); };

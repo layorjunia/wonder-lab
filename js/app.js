@@ -22,9 +22,7 @@ const App = {
     // inside the native shell's bundled index.html, and the native OTA
     // downloader has nothing to do on the web (there is no Capacitor).
     if (window.Updates && Updates.native()) {
-      const autoUpdate = !Progress.profile || Progress.profile.settings === undefined
-        || Progress.profile.settings.autoUpdate !== false;
-      Updates.boot(autoUpdate);
+      Updates.boot();           // always automatic: see js/updates.js
     } else {
       this.checkForUpdate();        // unawaited on purpose — never blocks boot
       if ('serviceWorker' in navigator && location.protocol === 'https:') {
@@ -287,6 +285,12 @@ const App = {
   start() {
     const n = (document.getElementById('nm').value || '').trim() || 'Explorer';
     Progress.create(n);
+    if (this._wbuddy && Progress.profile) {
+      Progress.profile.settings = Progress.profile.settings || {};
+      Progress.profile.settings.buddy = this._wbuddy;
+      Progress.commit();
+    }
+    this._wbuddy = null;
     this.go('journey');
   },
 
@@ -1395,24 +1399,12 @@ const App = {
   // simply never renders, same as cloudCard hiding when Sync isn't configured.
   updateCard() {
     if (!window.Updates || !Updates.native()) return '';
-    const ready = JSON.parse(localStorage.getItem('wonderlab:ota-ready') || 'null');
-    const auto = !Progress.profile || !Progress.profile.settings
-               || Progress.profile.settings.autoUpdate !== false;
     return `<div class="card" style="margin-top:16px" id="update-card">
       <h2>App updates</h2>
-      ${ready
-        ? `<p class="dim small" style="margin-top:6px">A new version is downloaded and
-             ready.</p>
-           <button class="btn wide" style="margin-top:10px" onclick="App.applyUpdate()">
-             Use it now</button>`
-        : `<p class="dim small" style="margin-top:6px" id="update-status">
-             Lessons and fixes arrive automatically, over wifi.</p>
-           <button class="btn ghost wide" style="margin-top:10px" onclick="App.checkNow()">
-             Check for updates</button>`}
-      <label class="row" style="margin-top:12px;display:flex;align-items:center;gap:10px;cursor:pointer">
-        <input type="checkbox" ${auto ? 'checked' : ''} onchange="App.toggleAutoUpdate(this.checked)">
-        <span class="dim small">Download updates automatically</span>
-      </label>
+      <p class="dim small" style="margin-top:6px" id="update-status">
+        New lessons and fixes arrive by themselves while the app is open on wifi. Nothing to do.</p>
+      <button class="btn ghost wide" style="margin-top:10px" onclick="App.checkNow()">
+        Check now</button>
     </div>`;
   },
 
@@ -1428,7 +1420,11 @@ const App = {
     if (status) status.textContent = 'Checking…';
     try {
       const diff = await Updates.checkAndDownload();
-      if (diff) { this.go('notes'); return; }
+      if (diff) {
+        if (status) status.textContent = 'A new version was downloaded. It will switch on in a moment.';
+        Updates.scheduleApply();
+        return;
+      }
       if (status) status.textContent = "You're on the latest version.";
     } catch (e) {
       if (status) status.textContent = 'Could not check for updates — try again later.';
@@ -1436,12 +1432,8 @@ const App = {
   },
 
   async applyUpdate() {
-    const ready = JSON.parse(localStorage.getItem('wonderlab:ota-ready') || 'null');
-    if (!ready) return;
     AudioLib.stop();
-    await Updates.apply(ready.dir);
-    localStorage.removeItem('wonderlab:ota-ready');
-    location.reload();
+    try { await Updates.applyIfReady(); } catch (e) { /* the next launch will try again */ }
   },
 
   _pin: [],

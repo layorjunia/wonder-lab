@@ -54,6 +54,8 @@ Object.assign(App, {
         <div class="wl-card">
           <h2>What should we call you?</h2>
           <input id="nm" maxlength="18" placeholder="Your name" autocomplete="off" class="wl-input">
+          <h2 class="wl-h2">${this.GPHR.buddyTitle}</h2>
+          ${this.welcomeBuddies()}
           <button class="cta pulse" onclick="App.start()">Let's go!</button>
         </div>
       </div>`);
@@ -165,6 +167,7 @@ Object.assign(App, {
         ${stat(cards, 'Cards', '🃏')}
         ${stat(Object.keys(p.medals || {}).length, 'Medals', '🏅')}
       </div>
+      ${this.buddyCard()}
       ${this.voiceCard()}
       ${this.updateCard()}
       ${this.cloudCard()}
