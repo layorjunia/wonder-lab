@@ -105,6 +105,14 @@ bash tools/vercel_deploy.sh                          # size guard (max 100 MB) +
 bash ios-app/scripts/deploy-ota.sh                   # iPad over-the-air update (Firebase)
 ```
 
+## Buddies, Utah, updates (2026-10-13)
+
+- Buddies live in `js/buddies.js` (Pip and ten more); `App.pip()` draws the chosen one everywhere.
+- Utah History is a normal world (`utah`): see the Utah notes in `js/schema.js`, `.work/entries-utah-1.json`, `.work/lessons-src/utah.txt`.
+- The player has no fallback voice: a string without its own recording is silent, and `tools/selftest.js` fails on it.
+- iPad updates are automatic (`js/updates.js`): `bash ios-app/scripts/deploy-ota.sh` for every content release;
+  `bash ios-app/scripts/publish-adhoc.sh` only for native changes (icon, plugins, a new iPad).
+
 ## Photos
 
 All 180 photos come from Wikimedia under licences that permit redistribution
