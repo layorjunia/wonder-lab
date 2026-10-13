@@ -1,0 +1,338 @@
+[
+ {
+  "id": "algae-1",
+  "section": "algae",
+  "cat": "size",
+  "kind": "found",
+  "text": "Algae range from microscopic one-celled microalgae to giant seaweeds. Some seaweeds may grow up to 160 ft (50 m) long.",
+  "more": ""
+ },
+ {
+  "id": "algae-2",
+  "section": "algae",
+  "cat": "home",
+  "kind": "found",
+  "text": "Most algae live in water, especially in the sea. Most are plankton, carried along by the water, though some big seaweeds hold themselves in place with holdfasts.",
+  "more": ""
+ },
+ {
+  "id": "algae-3",
+  "section": "algae",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Phytoplankton get their energy from sunlight, by photosynthesis, as trees and other plants do on land. So they live in the sunlit surface of oceans and lakes.",
+  "more": ""
+ },
+ {
+  "id": "algae-4",
+  "section": "algae",
+  "cat": "size",
+  "kind": "found",
+  "text": "Phytoplankton are only about 1% of all the plant material on Earth. Yet they do about half of all photosynthesis and make at least half of the oxygen.",
+  "more": ""
+ },
+ {
+  "id": "algae-5",
+  "section": "algae",
+  "cat": "size",
+  "kind": "found",
+  "text": "About 12,000 species of diatoms have been documented. Diatoms are phytoplankton, the most common kind of plankton.",
+  "more": ""
+ },
+ {
+  "id": "algae-6",
+  "section": "algae",
+  "cat": "size",
+  "kind": "found",
+  "text": "Diatoms are tiny, generally 20 to 200 micrometers across. They form huge blooms each spring and fall, and make about half of the photosynthesis in the oceans.",
+  "more": ""
+ },
+ {
+  "id": "food-1",
+  "section": "food",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Fermentation is a change made by tiny yeasts or bacteria. They turn sugars and starches into acids and other chemicals.",
+  "more": ""
+ },
+ {
+  "id": "food-2",
+  "section": "food",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Yeast makes carbon dioxide gas that makes bread rise. Bacteria make lactic acid that helps keep sour foods like sauerkraut and yogurt from spoiling.",
+  "more": ""
+ },
+ {
+  "id": "food-3",
+  "section": "food",
+  "cat": "people",
+  "kind": "record",
+  "text": "In 1856, the French chemist Louis Pasteur showed that yeast is connected to fermentation.",
+  "more": ""
+ },
+ {
+  "id": "food-4",
+  "section": "food",
+  "cat": "food",
+  "kind": "found",
+  "text": "Cheese is made by curdling milk, usually from cows, goats or sheep. Over a thousand types of cheese exist.",
+  "more": ""
+ },
+ {
+  "id": "food-5",
+  "section": "food",
+  "cat": "food",
+  "kind": "found",
+  "text": "Yogurt is most often made from cow's milk, but milk from water buffalo, goats, ewes, mares, camels and yaks can be used too.",
+  "more": ""
+ },
+ {
+  "id": "food-6",
+  "section": "food",
+  "cat": "when",
+  "kind": "record",
+  "text": "Sourdough bread was carried into Alaska and the Yukon in Canada during the Klondike Gold Rush of 1898.",
+  "more": ""
+ },
+ {
+  "id": "hunters-1",
+  "section": "hunters",
+  "cat": "people",
+  "kind": "record",
+  "text": "Antonie van Leeuwenhoek made his own microscopes, each with a single lens. He was the first person to observe and experiment with microbes.",
+  "more": ""
+ },
+ {
+  "id": "hunters-2",
+  "section": "hunters",
+  "cat": "people",
+  "kind": "record",
+  "text": "Antonie van Leeuwenhoek wrote some 190 letters to the Royal Society about his findings. He wrote them in Dutch.",
+  "more": ""
+ },
+ {
+  "id": "hunters-3",
+  "section": "hunters",
+  "cat": "people",
+  "kind": "record",
+  "text": "In 1665, Robert Hooke was one of the first scientists to study living things at microscopic scale. He used a compound microscope that he designed.",
+  "more": ""
+ },
+ {
+  "id": "hunters-4",
+  "section": "hunters",
+  "cat": "people",
+  "kind": "record",
+  "text": "Louis Pasteur invented a way to treat milk so that bacteria cannot spoil it. The process is now called pasteurization.",
+  "more": ""
+ },
+ {
+  "id": "hunters-5",
+  "section": "hunters",
+  "cat": "people",
+  "kind": "record",
+  "text": "Louis Pasteur's work is credited with saving millions of lives, through vaccines for rabies and anthrax.",
+  "more": ""
+ },
+ {
+  "id": "hunters-6",
+  "section": "hunters",
+  "cat": "people",
+  "kind": "record",
+  "text": "In 1928, Alexander Fleming found penicillin in a mold. It has been called the greatest victory ever won over disease.",
+  "more": ""
+ },
+ {
+  "id": "tiny-1",
+  "section": "tiny",
+  "cat": "size",
+  "kind": "found",
+  "text": "Tardigrades are usually about 0.02 in (0.5 mm) long when fully grown. Most range from 0.002 to 0.02 in (0.05 to 0.5 mm).",
+  "more": ""
+ },
+ {
+  "id": "tiny-2",
+  "section": "tiny",
+  "cat": "people",
+  "kind": "record",
+  "text": "In 1773, a German scientist called them 'little water bears'. In 1776, an Italian scientist named them Tardigrada, which means 'slow walkers'.",
+  "more": ""
+ },
+ {
+  "id": "tiny-3",
+  "section": "tiny",
+  "cat": "home",
+  "kind": "found",
+  "text": "About 1,500 species of tardigrades are known. They live on land, in fresh water and in the sea.",
+  "more": ""
+ },
+ {
+  "id": "tiny-4",
+  "section": "tiny",
+  "cat": "size",
+  "kind": "found",
+  "text": "A typical house dust mite is only about 0.01 in long.",
+  "more": ""
+ },
+ {
+  "id": "tiny-5",
+  "section": "tiny",
+  "cat": "home",
+  "kind": "found",
+  "text": "Dust mites live in the dust in homes. In a survey, dust mite allergen was found in the beds of about 84% of U.S. homes.",
+  "more": ""
+ },
+ {
+  "id": "tiny-6",
+  "section": "tiny",
+  "cat": "people",
+  "kind": "record",
+  "text": "Rotifers are tiny animals with many cells. Scientists did not recognize them as animals until 1838, and now about 2,200 species of rotifers are known.",
+  "more": ""
+ },
+ {
+  "id": "water-1",
+  "section": "water",
+  "cat": "people",
+  "kind": "record",
+  "text": "Dr. John Snow traced a cholera outbreak in London's Soho back to one public water pump. His work helped start the study of how diseases spread.",
+  "more": ""
+ },
+ {
+  "id": "water-2",
+  "section": "water",
+  "cat": "people",
+  "kind": "record",
+  "text": "Snow's findings changed how London handled its water and waste. Other cities made the same changes, and public health improved around the world.",
+  "more": ""
+ },
+ {
+  "id": "water-3",
+  "section": "water",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "The first step in cleaning surface water is to take out big things like sticks, leaves and rubbish. They would get in the way of the later steps.",
+  "more": ""
+ },
+ {
+  "id": "water-4",
+  "section": "water",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "People clean water in many ways: filters, slow sand filters, chlorine, and even ultraviolet light.",
+  "more": ""
+ },
+ {
+  "id": "water-5",
+  "section": "water",
+  "cat": "daily",
+  "kind": "found",
+  "text": "Chlorine is a common disinfectant. It is used in swimming pools to keep them sanitary.",
+  "more": ""
+ },
+ {
+  "id": "water-6",
+  "section": "water",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Boiling or a home filter is not always enough. Water from an unknown place can hold things that they do not remove.",
+  "more": ""
+ },
+ {
+  "id": "extremes-1",
+  "section": "extremes",
+  "cat": "home",
+  "kind": "found",
+  "text": "Microbes have been found in sediment as hot as 248°F (120°C), 0.75 mi (1.2 km) below the sea floor.",
+  "more": ""
+ },
+ {
+  "id": "extremes-2",
+  "section": "extremes",
+  "cat": "home",
+  "kind": "found",
+  "text": "Some microbes thrive inside rocks up to 1,900 ft (580 m) below the sea floor. Over them sits 8,500 ft (2,600 m) of ocean.",
+  "more": ""
+ },
+ {
+  "id": "extremes-3",
+  "section": "extremes",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Spores from a kind of Bacillus bacteria were still alive after being heated to 788°F (420°C).",
+  "more": ""
+ },
+ {
+  "id": "extremes-4",
+  "section": "extremes",
+  "cat": "when",
+  "kind": "record",
+  "text": "In the 1960s, scientists thought bacteria could not live above about 131°F (55°C). Soon they found many bacteria that survived and even thrived at higher temperatures.",
+  "more": ""
+ },
+ {
+  "id": "extremes-5",
+  "section": "extremes",
+  "cat": "build",
+  "kind": "found",
+  "text": "A hot-spring bacterium called Thermus aquaticus makes an enzyme that handles heat. Scientists use it in PCR, a way to copy DNA.",
+  "more": ""
+ },
+ {
+  "id": "extremes-6",
+  "section": "extremes",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Some microbes, called halophiles, grow best in very salty water, with 50 grams of salt per liter or more. A coral reef has about 35 grams per liter.",
+  "more": ""
+ },
+ {
+  "id": "vaccines-1",
+  "section": "vaccines",
+  "cat": "people",
+  "kind": "record",
+  "text": "Edward Jenner, an English doctor, created the smallpox vaccine. It was the world's first vaccine.",
+  "more": ""
+ },
+ {
+  "id": "vaccines-2",
+  "section": "vaccines",
+  "cat": "size",
+  "kind": "record",
+  "text": "In Jenner's time, smallpox killed around 10% of the world's people. In towns and cities, it killed as many as 20%.",
+  "more": ""
+ },
+ {
+  "id": "vaccines-3",
+  "section": "vaccines",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "A vaccine trains the body's immune system to see a germ as a threat. Then the body can destroy that germ if it meets it later.",
+  "more": ""
+ },
+ {
+  "id": "vaccines-4",
+  "section": "vaccines",
+  "cat": "when",
+  "kind": "record",
+  "text": "In 1798, Edward Jenner wrote about the protective effect of cowpox against smallpox.",
+  "more": ""
+ },
+ {
+  "id": "vaccines-5",
+  "section": "vaccines",
+  "cat": "people",
+  "kind": "record",
+  "text": "Penicillin was one of the first medicines that worked against many bacterial infections. In 1945, three men shared a Nobel Prize for it.",
+  "more": ""
+ },
+ {
+  "id": "vaccines-6",
+  "section": "vaccines",
+  "cat": "people",
+  "kind": "record",
+  "text": "The word antibiotic was first used in 1942 by Selman Waksman and his team. They used it for any substance made by a microorganism that works against the growth of other microorganisms.",
+  "more": ""
+ }
+]

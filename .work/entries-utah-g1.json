@@ -1,0 +1,338 @@
+[
+ {
+  "id": "cities-1",
+  "section": "cities",
+  "cat": "when",
+  "kind": "record",
+  "text": "Salt Lake City was founded in 1847 by settlers led by Brigham Young.",
+  "more": ""
+ },
+ {
+  "id": "cities-2",
+  "section": "cities",
+  "cat": "size",
+  "kind": "found",
+  "text": "Salt Lake City is part of a long line of cities along the Wasatch Front. This urban corridor is a 120-mile (190 km) stretch, with about 2.8 million people.",
+  "more": ""
+ },
+ {
+  "id": "cities-3",
+  "section": "cities",
+  "cat": "when",
+  "kind": "record",
+  "text": "Four days after arriving in the Salt Lake Valley, Brigham Young marked the building site for the Salt Lake Temple. It took 40 years to finish.",
+  "more": ""
+ },
+ {
+  "id": "cities-4",
+  "section": "cities",
+  "cat": "when",
+  "kind": "record",
+  "text": "Ogden is the closest sizable city to the Golden Spike site at Promontory Summit, Utah. That is where the first transcontinental railroad was joined in 1869.",
+  "more": ""
+ },
+ {
+  "id": "cities-5",
+  "section": "cities",
+  "cat": "people",
+  "kind": "record",
+  "text": "Fort Utah was renamed Provo in 1850. It was named for Étienne Provost, a French-Canadian trapper who arrived in the region in 1825.",
+  "more": ""
+ },
+ {
+  "id": "cities-6",
+  "section": "cities",
+  "cat": "weird",
+  "kind": "found",
+  "text": "The highest temperature ever recorded in Utah was 118°F (48°C). It was recorded in south St. George.",
+  "more": ""
+ },
+ {
+  "id": "people-1",
+  "section": "people",
+  "cat": "people",
+  "kind": "record",
+  "text": "Philo Farnsworth was an American inventor. He was granted the first patent for the television.",
+  "more": ""
+ },
+ {
+  "id": "people-2",
+  "section": "people",
+  "cat": "people",
+  "kind": "record",
+  "text": "Philo Farnsworth was born on August 19, 1906, in a small log cabin near Beaver, Utah. He was the oldest of five children.",
+  "more": ""
+ },
+ {
+  "id": "people-3",
+  "section": "people",
+  "cat": "when",
+  "kind": "record",
+  "text": "On September 7, 1927, Philo Farnsworth's camera tube sent its first image, a simple straight line. It went to a receiver in another room of his laboratory.",
+  "more": ""
+ },
+ {
+  "id": "people-4",
+  "section": "people",
+  "cat": "people",
+  "kind": "record",
+  "text": "John Browning made his first gun at age 13, in his father's gun shop. He received the first of his 128 patents at age 24.",
+  "more": ""
+ },
+ {
+  "id": "people-5",
+  "section": "people",
+  "cat": "people",
+  "kind": "record",
+  "text": "John Browning's father, Jonathan, was one of the pioneers who came to Utah. In 1852 he set up a gunsmith shop in Ogden.",
+  "more": ""
+ },
+ {
+  "id": "people-6",
+  "section": "people",
+  "cat": "people",
+  "kind": "record",
+  "text": "Butch Cassidy was born Robert LeRoy Parker on April 13, 1866, in Beaver, Utah Territory. He was the first of thirteen children.",
+  "more": ""
+ },
+ {
+  "id": "animals-1",
+  "section": "animals",
+  "cat": "size",
+  "kind": "found",
+  "text": "A Rocky Mountain elk weighs 500 to 750 lb (230 to 340 kg). Males are about 7.9 ft (2.4 m) long and females about 6.6 ft (2 m).",
+  "more": ""
+ },
+ {
+  "id": "animals-2",
+  "section": "animals",
+  "cat": "home",
+  "kind": "found",
+  "text": "In the mountains, Rocky Mountain elk often stay in higher places in the warmer months. They move down lower in the winter.",
+  "more": ""
+ },
+ {
+  "id": "animals-3",
+  "section": "animals",
+  "cat": "size",
+  "kind": "found",
+  "text": "Male Utah prairie dogs weigh 0.66 to 1.98 lb (0.3 to 0.9 kg) in the spring. In the summer they weigh 1.1 to 3.3 lb (0.5 to 1.5 kg).",
+  "more": ""
+ },
+ {
+  "id": "animals-4",
+  "section": "animals",
+  "cat": "babies",
+  "kind": "found",
+  "text": "A Utah prairie dog mother has only one litter a year, usually one to eight pups. She carries the pups for about 28 days before they are born.",
+  "more": ""
+ },
+ {
+  "id": "animals-5",
+  "section": "animals",
+  "cat": "size",
+  "kind": "found",
+  "text": "A male bighorn sheep's horns can weigh up to 30 lb (14 kg). That is as much as all the bones in his body.",
+  "more": ""
+ },
+ {
+  "id": "animals-6",
+  "section": "animals",
+  "cat": "babies",
+  "kind": "found",
+  "text": "A desert tortoise lives 70 to 80 years on average. It grows slowly, and it has few young.",
+  "more": ""
+ },
+ {
+  "id": "dinos-1",
+  "section": "dinos",
+  "cat": "size",
+  "kind": "found",
+  "text": "More than 16,200 bones have been dug up at the Cleveland-Lloyd Dinosaur Quarry in Utah. Many thousands more are waiting to be dug up and studied.",
+  "more": ""
+ },
+ {
+  "id": "dinos-2",
+  "section": "dinos",
+  "cat": "artifact",
+  "kind": "found",
+  "text": "Skeletons made from Cleveland-Lloyd bones are on show in more than 65 museums around the world.",
+  "more": ""
+ },
+ {
+  "id": "dinos-3",
+  "section": "dinos",
+  "cat": "size",
+  "kind": "found",
+  "text": "Utahraptor is the largest known member of its dinosaur family. It was about 20 to 23 ft (6 to 7 m) long and weighed around 1,100 lb (500 kg).",
+  "more": ""
+ },
+ {
+  "id": "dinos-4",
+  "section": "dinos",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Utahraptor had a big claw that may have been about 9.4 in (24 cm) long. Its feet seem to have had a very tight grip.",
+  "more": ""
+ },
+ {
+  "id": "dinos-5",
+  "section": "dinos",
+  "cat": "size",
+  "kind": "found",
+  "text": "Allosaurus averaged about 25 to 26 ft (7.5 to 8 m) long. The largest ones were estimated at about 30 ft (9 m) long.",
+  "more": ""
+ },
+ {
+  "id": "dinos-6",
+  "section": "dinos",
+  "cat": "record",
+  "kind": "record",
+  "text": "Earl Douglass and his team dug up over 700,000 lb (320,000 kg) of fossils from a single quarry at what became Dinosaur National Monument.",
+  "more": ""
+ },
+ {
+  "id": "lakes-1",
+  "section": "lakes",
+  "cat": "size",
+  "kind": "found",
+  "text": "Bear Lake covers about 109 sq mi (280 km2). It is split about equally between Utah and Idaho. The Utah part is the second-largest natural freshwater lake in Utah, after Utah Lake.",
+  "more": ""
+ },
+ {
+  "id": "lakes-2",
+  "section": "lakes",
+  "cat": "when",
+  "kind": "record",
+  "text": "Jedediah Smith arrived at Bear Lake in June 1827. That marked the completion of the first overland round trip to California from the United States.",
+  "more": ""
+ },
+ {
+  "id": "lakes-3",
+  "section": "lakes",
+  "cat": "when",
+  "kind": "record",
+  "text": "The south end of Bear Lake, near Laketown, was the site of two annual Rocky Mountain Rendezvous. They were held in the summers of 1827 and 1828.",
+  "more": ""
+ },
+ {
+  "id": "lakes-4",
+  "section": "lakes",
+  "cat": "size",
+  "kind": "found",
+  "text": "The Glen Canyon Dam that makes Lake Powell is 710 ft (216 m) high. When the lake is full, its surface is about 3,700 ft (1,100 m) above sea level.",
+  "more": ""
+ },
+ {
+  "id": "lakes-5",
+  "section": "lakes",
+  "cat": "when",
+  "kind": "record",
+  "text": "Lake Powell took sixteen years to fill to the 3,700 ft (1,100 m) level. It got there on June 22, 1980.",
+  "more": ""
+ },
+ {
+  "id": "lakes-6",
+  "section": "lakes",
+  "cat": "size",
+  "kind": "found",
+  "text": "Utah Lake is shallow. Its deepest spot is just under 14 ft (4.3 m), and its average depth is about 10.5 ft (3.2 m).",
+  "more": ""
+ },
+ {
+  "id": "redrock-1",
+  "section": "redrock",
+  "cat": "home",
+  "kind": "found",
+  "text": "The most famous butte formations of Monument Valley are along the Utah–Arizona state line.",
+  "more": ""
+ },
+ {
+  "id": "redrock-2",
+  "section": "redrock",
+  "cat": "people",
+  "kind": "record",
+  "text": "Director John Ford filmed a number of Westerns in Monument Valley. A critic wrote that its five square miles (13 km2) define the American West for moviegoers.",
+  "more": ""
+ },
+ {
+  "id": "redrock-3",
+  "section": "redrock",
+  "cat": "size",
+  "kind": "found",
+  "text": "Goblin Valley State Park and Bryce Canyon National Park have some of the largest groups of hoodoos in the world.",
+  "more": ""
+ },
+ {
+  "id": "redrock-4",
+  "section": "redrock",
+  "cat": "built",
+  "kind": "found",
+  "text": "Natural Bridges has three bridges. Their names are Kachina, Owachomo and Sipapu. Sipapu is the largest. All three are Hopi names.",
+  "more": ""
+ },
+ {
+  "id": "redrock-5",
+  "section": "redrock",
+  "cat": "senses",
+  "kind": "found",
+  "text": "Natural Bridges has the darkest sky ever assessed by the National Park Service Night Sky Team. It rates a Class 2 on the Bortle Dark-Sky Scale.",
+  "more": ""
+ },
+ {
+  "id": "redrock-6",
+  "section": "redrock",
+  "cat": "size",
+  "kind": "found",
+  "text": "Rainbow Bridge has a span of 275 ft (84 m) and a height of 290 ft (88 m). It is one of the largest natural arches in the world.",
+  "more": ""
+ },
+ {
+  "id": "ski-1",
+  "section": "ski",
+  "cat": "when",
+  "kind": "record",
+  "text": "Alta opened its first lift on January 15, 1939. It is one of the oldest ski resorts in the country.",
+  "more": ""
+ },
+ {
+  "id": "ski-2",
+  "section": "ski",
+  "cat": "size",
+  "kind": "found",
+  "text": "Alta gets more snow than most Utah resorts. Its average annual snowfall is 543 inches (13.8 m).",
+  "more": ""
+ },
+ {
+  "id": "ski-3",
+  "section": "ski",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Alta is one of just three ski areas in the U.S. that do not allow snowboarders.",
+  "more": ""
+ },
+ {
+  "id": "ski-4",
+  "section": "ski",
+  "cat": "size",
+  "kind": "found",
+  "text": "Park City lies mostly higher than 7,000 ft (2,100 m), so it is usually cooler than Salt Lake City. Salt Lake City sits at about 4,300 ft (1,300 m).",
+  "more": ""
+ },
+ {
+  "id": "ski-5",
+  "section": "ski",
+  "cat": "when",
+  "kind": "record",
+  "text": "In 2015, Park City Ski Resort and Canyons resorts merged. That created the largest ski area in the U.S.",
+  "more": ""
+ },
+ {
+  "id": "ski-6",
+  "section": "ski",
+  "cat": "size",
+  "kind": "record",
+  "text": "The 2002 Winter Olympics in Salt Lake City had 2,399 athletes from 78 nations. They took part in 78 events in 15 disciplines.",
+  "more": ""
+ }
+]

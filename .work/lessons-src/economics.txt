@@ -1,0 +1,760 @@
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== economics-money
+idea: Money is anything people accept as payment. Learn about barter, the shekel and coins.
+
+game: Money = Anything people accept as payment | Barter = Swapping goods and services without money | Shekel = A Mesopotamian unit of weight | Mint = Where coins are made in large numbers
+
+--- 🪙
+p: Money is anything that people accept as payment for goods and services.
+
+term: debts = Money that people owe and must repay.
+
+fact: People also use it to repay debts.
+
+check: What is money?
+- A thing only a king may own
++ Anything people accept as payment
+- A kind of paper made at home
+hint: Look at the paragraph. The answer is there.
+explain: Money is anything that people accept as payment for goods and services.
+
+--- ⚙️
+p: Most modern textbooks list three jobs of money.
+
+fact: They are a medium of exchange, a unit of account and a store of value.
+
+check: How many jobs of money do most textbooks list?
+- Seven
++ Three
+- Twelve
+hint: Look at the paragraph. The answer is there.
+explain: Most modern textbooks list three jobs of money.
+
+--- 📅
+p: The Mesopotamian shekel was a unit of weight.
+
+fact: It relied on the mass of something like 160 grains of barley.
+
+check: What was the Mesopotamian shekel?
+- A kind of coin
++ A unit of weight
+- A type of boat
+hint: Look at the paragraph. The answer is there.
+explain: The Mesopotamian shekel was a unit of weight.
+
+--- 🔧
+p: Barter is a way of trading in which people directly swap goods or services for other goods or services.
+
+fact: They do not use money.
+
+check: What do people not use when they barter?
+- Goods
++ Money
+- Services
+hint: Look at the box. The answer is there.
+explain: They do not use money.
+
+--- 🏗️
+p: Coins are standardized in weight.
+
+fact: They are made in large numbers at a mint to make trade easier.
+
+--- 📏
+p: Coins last longer than banknotes.
+
+fact: Banknotes last only about four years, compared with 30 years for a coin.
+
+--- 🔎
+p: Money as payment. Three jobs of money. A shekel of weight. Barter without money. Coins from a mint.
+
+p: Money is useful.
+
+quiz: What do people swap when they barter?
+- Coins or notes
++ Goods or services
+- Land or houses
+explain: People directly swap goods or services for other goods or services.
+
+quiz: Where are coins made in large numbers?
+- At a farm
++ At a mint
+- At a bank
+explain: They are made in large numbers at a mint to make trade easier.
+
+quiz: How long do banknotes last?
+- About thirty years
++ About four years
+- About one week
+explain: Banknotes last only about four years, compared with 30 years for a coin.
+
+quiz: What was the shekel based on the mass of?
+- About 16 pounds of silver
++ About 160 grains of barley
+- About 6 loaves of bread
+explain: It relied on the mass of something like 160 grains of barley.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== economics-trade
+idea: Trade is an exchange of goods or services. Meet markets, merchants and the people who traded purple dye.
+
+game: Transaction = An exchange of goods or services | Market = Lets people compare and set prices | Merchant = A person or company in trade | Phoenicians = Traders in purple dye
+
+--- 🤝
+p: A transaction is an exchange of goods or services.
+
+fact: It can be done with money or without it.
+
+check: What do we call an exchange of goods or services?
+- A purple dye
++ A transaction
+- A price list
+hint: Look at the paragraph. The answer is there.
+explain: A transaction is an exchange of goods or services.
+
+--- ⚙️
+p: Markets make trading easier.
+
+term: market = A place where people compare and set prices for the things they trade.
+
+fact: They let people compare and set prices for the things they trade.
+
+check: What do markets let people do with things they trade?
+- Plant and grow crops
++ Compare and set prices
+- Dig and carry stones
+hint: Look at the box. The answer is there.
+explain: They let people compare and set prices for the things they trade.
+
+--- 🧑
+p: A merchant is a person or company that is engaged in trade.
+
+fact: Merchants sell through stores or online platforms.
+
+check: What is a merchant?
+- A tool for making clay pots
++ A person or company in trade
+- A ship used for fishing
+hint: Look at the paragraph. The answer is there.
+explain: A merchant is a person or company that is engaged in trade.
+
+--- 👤
+p: Merchants worked in ancient Egypt, Greece, China and India.
+
+fact: They also worked in Babylonia, Persia, Phoenicia and Rome.
+
+check: Which ancient land had merchants and merchant networks?
+- Iceland
++ Egypt
+- Brazil
+hint: Look at the paragraph. The answer is there.
+explain: Merchants worked in ancient Egypt, Greece, China and India.
+
+--- 👑
+p: The Phoenicians were well known as traders in purple.
+
+fact: They controlled the purple dye made from the murex shell.
+
+--- 🧭
+p: The Sari-i-Sang mine is in the mountains of Afghanistan.
+
+fact: It was the largest source for trade of lapis lazuli.
+
+--- 🔎
+p: An exchange of goods. A market for prices. A merchant in trade. Merchants in Egypt and Rome. Purple dye. A mine in the mountains.
+
+p: Trade is old.
+
+quiz: What did the Phoenicians control that was made from the murex shell?
+- The red silk
++ The purple dye
+- The green glass
+explain: They controlled the purple dye made from the murex shell.
+
+quiz: How do merchants sell?
+- Only on the top of hills
++ In stores or online platforms
+- Just inside deep caves
+explain: Merchants sell through stores or online platforms.
+
+quiz: What was the Sari-i-Sang mine the largest source of for trade?
+- Purple dye
++ Lapis lazuli
+- Silk cloth
+explain: It was the largest source for trade of lapis lazuli.
+
+quiz: Can a transaction be done without money?
+- No
++ Yes
+- Only on Sundays
+explain: It can be done with money or without it.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== economics-work
+idea: Clocks gave us hourly wages. Learn how wages are set, and how a group gets more done when each worker does one task.
+
+game: Hourly wage = Began when clocks divided work time | Labor union = Negotiates for the workers | Minimum wage = Set at the federal level | Division of labor = Each worker does a single task
+
+--- 🛠️
+p: Clocks led people to divide work time into hours.
+
+term: wage = The pay a worker gets, like an hourly wage.
+
+fact: That is how the idea of an hourly wage began.
+
+check: What did clocks lead to dividing work time into?
+- Meals
++ Hours
+- Seasons
+hint: Look at the paragraph. The answer is there.
+explain: Clocks led people to divide work time into hours.
+
+--- 📅
+p: Wages were paid in the Middle Kingdom of ancient Egypt, ancient Greece and ancient Rome.
+
+fact: So workers in these lands were paid wages.
+
+check: Where were wages paid in ancient times?
+- Ancient Spain, Peru and Fiji
++ Ancient Egypt, Greece and Rome
+- Ancient Iceland and Canada
+hint: Look at the paragraph. The answer is there.
+explain: Wages were paid in the Middle Kingdom of ancient Egypt, ancient Greece and ancient Rome.
+
+--- 📏
+p: Seventy-five million workers earned hourly wages in the United States in 2012.
+
+fact: They made up 59% of employees.
+
+check: What share of employees earned hourly wages in 2012?
+- 5.9%
++ 59%
+- 95%
+hint: Look at the box. The answer is there.
+explain: They made up 59% of employees.
+
+--- ⚙️
+p: Wages for most workers are set by market forces.
+
+fact: Others are set by collective bargaining, where a labor union negotiates for the workers.
+
+check: Who negotiates for workers in collective bargaining?
+- A rich owner
++ A labor union
+- A tax office
+hint: Look at the box. The answer is there.
+explain: Others are set by collective bargaining, where a labor union negotiates for the workers.
+
+--- 🔧
+p: The Fair Labor Standards Act sets a minimum wage at the federal level.
+
+fact: All states must follow it.
+
+--- 🧩
+p: When each worker does a single task, a group gets more done.
+
+fact: This is called division of labor.
+
+--- 🔎
+p: Clocks and hours. Wages in ancient Egypt. Workers paid by the hour. A labor union. A minimum wage. Each worker with a single task.
+
+p: Work earns wages.
+
+quiz: How many workers earned hourly wages in the United States in 2012?
+- Seven million
++ Seventy-five million
+- Seventy-five thousand
+explain: Seventy-five million workers earned hourly wages in the United States in 2012.
+
+quiz: What does the Fair Labor Standards Act set?
+- A maximum price
++ A minimum wage
+- A clock rule
+explain: The Fair Labor Standards Act sets a minimum wage at the federal level.
+
+quiz: What is it called when each worker does a single task?
+- Collective bargaining
++ Division of labor
+- Market forces
+explain: When each worker does a single task, a group gets more done. This is called division of labor.
+
+quiz: Who must follow the minimum wage set at the federal level?
+- Only big cities
++ All states
+- Just one state
+explain: All states must follow it.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== economics-business
+idea: A business is an activity done for profit. Meet the entrepreneur who takes the risks, and a business owned by one person.
+
+game: Business = An activity done for profit | Entrepreneur = Bears most of the risks | Sole proprietorship = Owned by one person | Franchise = One out of twelve retail businesses
+
+--- 🏭
+p: Think about a business.
+
+fact: A business is any activity that is done for profit.
+
+check: What is a business entered into for?
+- A day of fun
++ Profit
+- A long rest
+hint: Look at the box. The answer is there.
+explain: A business is any activity that is done for profit.
+
+--- 🧑
+p: An entrepreneur is a person who creates or invests in one or more businesses.
+
+term: entrepreneur = A person who creates or invests in a business.
+
+fact: The entrepreneur bears most of the risks and enjoys most of the rewards.
+
+check: Who bears most of the risks of a business?
+- The shopping customer
++ The entrepreneur
+- The delivery driver
+hint: Look at the paragraph. The answer is there.
+explain: The entrepreneur bears most of the risks and enjoys most of the rewards.
+
+--- ⚙️
+p: Starting a new business takes effort.
+
+fact: It also takes new ideas and a willingness to take risks.
+
+check: What does starting a new business take besides effort?
+- Free land
++ New ideas
+- A big ship
+hint: Look at the paragraph. The answer is there.
+explain: It also takes new ideas and a willingness to take risks.
+
+--- 🏠
+p: Most people have jobs.
+
+fact: In almost all countries, most people are employed by businesses.
+
+check: Who employs most people in almost all countries?
+- Local farmers
++ Businesses
+- Public schools
+hint: Look at the box. The answer is there.
+explain: In almost all countries, most people are employed by businesses.
+
+--- 🔧
+p: A sole proprietorship, also called a sole trader, is owned by one person.
+
+fact: It operates for that person's benefit.
+
+--- 📏
+p: One out of twelve retail businesses in the United States is franchised.
+
+fact: 8 million people are employed in a franchised business.
+
+--- 🔎
+p: A business done for profit. An entrepreneur with risks. New ideas and effort. Businesses that employ people. A sole proprietorship. A franchise.
+
+p: Businesses do much.
+
+quiz: What is a sole proprietorship owned by?
+- A whole town
++ One person
+- Ten workers
+explain: A sole proprietorship is owned by one person.
+
+quiz: What does the entrepreneur enjoy most of?
+- The risks
++ The rewards
+- The rules
+explain: The entrepreneur bears most of the risks and enjoys most of the rewards.
+
+quiz: How many people are employed in a franchised business?
+- 8 thousand
++ 8 million
+- 80 million
+explain: 8 million people are employed in a franchised business.
+
+quiz: How many retail businesses in the United States are franchised?
+- Nearly half of them
++ One out of twelve
+- Only a handful
+explain: One out of twelve retail businesses in the United States is franchised.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== economics-choices
+idea: Every choice has a cost: the thing you give up. Meet opportunity cost, and a science people once called dismal.
+
+game: Opportunity cost = The benefit you give up | Jean-Baptiste Say = Defined economics in 1803 | Thomas Carlyle = Called economics the dismal science | Scarcity = Linked to choice by opportunity cost
+
+--- ⚖️
+p: Opportunity cost shows the link between scarcity and choice.
+
+term: scarce = Hard to find, like the scarce resources opportunity cost helps us use well.
+
+fact: Its aim is to make sure scarce resources are used well.
+
+check: What does opportunity cost link scarcity to?
+- Chance
++ Choice
+- Change
+hint: Look at the paragraph. The answer is there.
+explain: Opportunity cost shows the link between scarcity and choice.
+
+--- ⚙️
+p: Opportunity costs are not only about money.
+
+fact: The real cost can also be lost time, pleasure, or any other benefit that you give up.
+
+check: Are opportunity costs only about money?
+- Yes
++ No
+- Only on weekends
+hint: Look at the box. The answer is there.
+explain: No
+
+--- 🔧
+p: Say a person leaves work for an hour to buy $200 of office supplies.
+
+fact: Their hourly rate is $25. The $25 they could have earned instead is an opportunity cost.
+
+check: How much could the person have earned instead?
+- $2
++ $25
+- $200
+hint: Look at the box. The answer is there.
+explain: Their hourly rate is $25.
+
+--- 📅
+p: In 1803, Jean-Baptiste Say defined economics.
+
+fact: He called it the science of how wealth is made, shared and used.
+
+check: Who defined economics in 1803?
+- Thomas Carlyle
++ Jean-Baptiste Say
+- Albert Einstein
+hint: Look at the paragraph. The answer is there.
+explain: In 1803, Jean-Baptiste Say defined economics.
+
+--- 🧑
+p: In 1849, Thomas Carlyle spoke about classical economics.
+
+fact: He called it the dismal science.
+
+--- 🧩
+p: Building one aircraft costs a lot of money.
+
+fact: But when a company builds a hundred, the cost of the 100th is much lower.
+
+--- 🔎
+p: A link between scarcity and choice. A cost that is not only money. $25 not earned. A thinker named Say. A name for economics. An aircraft.
+
+p: Every choice has a cost.
+
+quiz: What can the real cost of a choice be, besides money?
+- A bigger bank loan
++ Lost time or pleasure
+- A newer set of shoes
+explain: The real cost can also be lost time, pleasure, or any other benefit that you give up.
+
+quiz: In 1849, who called classical economics the dismal science?
+- Jean-Baptiste Say
++ Thomas Carlyle
+- Adam Smith
+explain: In 1849, Thomas Carlyle called classical economics the dismal science.
+
+quiz: What is the hourly rate in the example?
+- $250
++ $25
+- $2.50
+explain: Their hourly rate is $25.
+
+quiz: What happens to the cost when a company builds a hundred aircraft?
+- Each one costs much more
++ The 100th costs much less
+- Every one costs the same
+explain: When a company builds a hundred, the cost of the 100th is much lower.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== economics-saving
+idea: Saving is income that is not spent. Meet interest, bank deposits and the oldest existing bank.
+
+game: Saving = Income that is not spent | Interest = A payment from a borrower to a lender | Deposit = Insured up to $250,000 | Bank = Accepts deposits and makes loans
+
+--- 🐷
+p: Saving is income that is not spent.
+
+term: deferred = Put off until later, as in deferred consumption.
+
+fact: It is also called deferred consumption.
+
+check: What is saving?
+- Money you borrow from a bank
++ Income that is not spent
+- A gift that you must return
+hint: Look at the paragraph. The answer is there.
+explain: Saving is income that is not spent.
+
+--- ⚙️
+p: In economics, interest is a payment from a borrower to a lender.
+
+fact: It is an amount above what was borrowed, at a particular rate.
+
+check: Who pays interest?
+- The lender
++ The borrower
+- The banker
+hint: Look at the paragraph. The answer is there.
+explain: In economics, interest is a payment from a borrower to a lender.
+
+--- 🔧
+p: In personal finance, saving usually means keeping money safe at low risk, as in a deposit account.
+
+fact: Investing is a lot riskier.
+
+check: Which is riskier, saving or investing?
+- Saving
++ Investing
+- Neither one
+hint: Look at the box. The answer is there.
+explain: Investing is a lot riskier.
+
+--- 📏
+p: In the United States, a bank deposit is insured up to at least $250,000 for each person at each bank.
+
+fact: The bank needs FDIC insurance.
+
+check: How much of a deposit is insured at an FDIC-insured bank?
+- $25,000
++ $250,000
+- $2,500,000
+hint: Look at the paragraph. The answer is there.
+explain: In the United States, a bank deposit is insured up to at least $250,000 for each person at each bank.
+
+--- 🧩
+p: A bank is a financial institution that accepts deposits from the public.
+
+fact: It also makes loans.
+
+--- 📅
+p: The oldest existing retail bank is Banca Monte dei Paschi di Siena.
+
+fact: It was founded in 1472.
+
+--- 🔎
+p: Income that is not spent. A payment from a borrower. Money kept at low risk. A deposit that is insured. A bank with loans. The oldest bank.
+
+p: Saving is safe.
+
+quiz: What is interest, in economics?
+- A gift from a lender to a borrower
++ A payment from a borrower to a lender
+- A fee from a shop to a buyer
+explain: In economics, interest is a payment from a borrower to a lender.
+
+quiz: In what year was the Banca Monte dei Paschi di Siena founded?
+- 1427
++ 1472
+- 1742
+explain: It was founded in 1472.
+
+quiz: What does a bank accept from the public?
+- Donations
++ Deposits
+- Mortgages
+explain: A bank is a financial institution that accepts deposits from the public.
+
+quiz: What does a bank make besides taking deposits?
+- Coins
++ Loans
+- Stamps
+explain: A bank is a financial institution that accepts deposits from the public and makes loans.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== economics-supply
+idea: Supply and demand explains how prices are set, and inflation is when prices rise.
+
+game: Supply and demand = Explains how prices are set | Price = What buyers are willing to pay | Inflation = An increase in the average price | Deflation = A drop in the general price level
+
+--- 📈
+p: Supply and demand is a model that explains how prices are set in a market.
+
+term: model = A way to explain how something works, like supply and demand.
+
+fact: It is the basis of modern economics.
+
+check: What does the model of supply and demand explain?
+- How leaves change color
++ How prices are set
+- How clouds hold water
+hint: Look at the paragraph. The answer is there.
+explain: Supply and demand is a model that explains how prices are set in a market.
+
+--- ⚙️
+p: A price is also the amount that sellers are willing to accept.
+
+fact: It is the amount of money that buyers are willing and able to pay for a good or service.
+
+check: Who must be willing to accept a price?
+- The buyers
++ The sellers
+- The makers
+hint: Look at the paragraph. The answer is there.
+explain: A price is also the amount that sellers are willing to accept.
+
+--- 🔧
+p: The cost of a loan is expressed as the percentage rate of interest.
+
+fact: The most obvious example of a price is the cost of a loan.
+
+check: How is the cost of a loan expressed?
+- As a number of days in a month
++ As a percentage rate of interest
+- As a weight in pounds and ounces
+hint: Look at the paragraph. The answer is there.
+explain: The cost of a loan is expressed as the percentage rate of interest.
+
+--- 🧩
+p: Inflation is about prices.
+
+fact: It is an increase in the average price of goods and services.
+
+check: What is inflation?
+- A drop in the general price level
++ An increase in the average price
+- A rise in the lowest wages
+hint: Look at the box. The answer is there.
+explain: It is an increase in the average price of goods and services.
+
+--- 💡
+p: When prices rise, each dollar buys less.
+
+fact: So inflation lowers the buying power of money.
+
+--- 🔎
+p: The opposite of inflation is deflation.
+
+fact: Deflation is a drop in the general price level.
+
+--- 🎈
+p: A model for prices. A price for buyers and sellers. A loan with interest. Prices that rise. Prices that drop.
+
+p: Prices change.
+
+quiz: What is the opposite of inflation?
+- Interest
++ Deflation
+- Barter
+explain: The opposite of inflation is deflation.
+
+quiz: When prices rise, what does each dollar buy?
+- More
++ Less
+- The same
+explain: When prices rise, each dollar buys less.
+
+quiz: What do buyers have to be willing and able to do with a price?
+- Break it
++ Pay it
+- Write it
+explain: A price is the amount of money that buyers are willing and able to pay.
+
+quiz: What does inflation lower?
+- The number of banks
++ The buying power of money
+- The speed of trains
+explain: So inflation lowers the buying power of money.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== economics-world
+idea: Ships carry goods around the world in big steel boxes called shipping containers.
+
+game: International trade = Mostly trade in goods and services | Cargo ship = Built for one kind of cargo | Container ship = Carries goods in 20-foot or 40-foot containers | Shipping container = A box strong enough for shipment
+
+--- 🌍
+p: International trade is mostly trade in goods and services.
+
+term: international = Between countries, like international trade.
+
+fact: There is much less trade in capital, labor or other factors of production.
+
+check: What is international trade mostly trade in?
+- Stones and sand
++ Goods and services
+- Lakes and rivers
+hint: Look at the paragraph. The answer is there.
+explain: International trade is mostly trade in goods and services.
+
+--- 📏
+p: Each cargo ship is usually built for one kind of cargo.
+
+fact: Cargo ships come in many sizes, from small coastal ships to huge ocean-going carriers.
+
+check: How many kinds of cargo is each cargo ship usually built for?
+- Ten kinds of cargo
++ One kind of cargo
+- Every kind of cargo
+hint: Look at the paragraph. The answer is there.
+explain: Each cargo ship is usually built for one kind of cargo.
+
+--- ⚙️
+p: Container ships carry general cargo in 20-foot or 40-foot (6.1 or 12.2 m) containers.
+
+fact: They call at a regularly published schedule of ports.
+
+check: What size containers do container ships carry?
+- Tiny boxes of 2 feet
++ 20-foot or 40-foot
+- Giant boxes of 200 feet
+hint: Look at the paragraph. The answer is there.
+explain: Container ships carry general cargo in 20-foot or 40-foot (6.1 or 12.2 m) containers.
+
+--- 🔧
+p: A shipping container is a box.
+
+fact: It is strong enough to withstand shipment, storage and handling.
+
+check: What must a shipping container withstand?
+- Rain, snow, wind and bright sunshine
++ Shipment, storage and handling
+- Sand, wind and waves
+hint: Look at the box. The answer is there.
+explain: It is strong enough to withstand shipment, storage and handling.
+
+--- 📐
+p: About seventeen million intermodal containers are in use around the world.
+
+fact: A large share of the freight shipped over long distances travels in them.
+
+--- 📅
+p: Shipping containers are reusable steel boxes.
+
+fact: They first came into use around 1956.
+
+--- 🔎
+p: Trade in goods. Ships for one kind of cargo. Boxes of 20 or 40 feet. A box that can take handling. Seventeen million containers.
+
+p: Ships carry the world's goods.
+
+quiz: About how many intermodal containers are in use around the world?
+- About seventy thousand
++ About seventeen million
+- About seven billion
+explain: About seventeen million intermodal containers are in use around the world.
+
+quiz: When did reusable steel boxes first come into use as shipping containers?
+- Around 1665
++ Around 1956
+- Around 1965
+explain: They first came into use around 1956.
+
+quiz: How do container ships call at ports?
+- At whatever time the crew likes
++ On a regularly published schedule
+- Only once every ten years
+explain: They call at a regularly published schedule of ports.
+
+quiz: What are shipping containers made of?
+- Woven grass rope
++ Reusable steel
+- Folded thin paper
+explain: Shipping containers are reusable steel boxes.

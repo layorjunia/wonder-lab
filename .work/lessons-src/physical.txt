@@ -561,3 +561,667 @@ explain: The needle records the bumps as it drags across, showing us what the at
 p: One substance in three forms. Air that weighs something. A ship that floats because it is mostly air. A liquid that goes hard when you hit it.
 p: And all of it is built from atoms that no ordinary microscope will ever show.
 
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== physical-machines
+idea: A simple machine can make a hard job easier. Meet the lever, the pulley and the ramp, and the trade every machine makes.
+
+game: Lever = A beam that pivots on a fulcrum | Pulley = A wheel on an axle | Ramp = Helps move heavy loads up | Archimedes = Pulled a ship with pulleys
+
+--- 🔧
+p: A simple machine uses one force to move one load.
+
+fact: It can make the force bigger, but then the load moves a shorter distance.
+
+check: What do you give up when a machine makes a force bigger?
+- The weight
++ Distance
+- The load
+hint: Look at the box. The answer is there.
+explain: It can make the force bigger, but then the load moves a shorter distance.
+
+--- ⚙️
+p: A lever is a beam or rod that pivots on a point called a fulcrum.
+
+term: fulcrum = The point a lever pivots on.
+
+fact: It is one of six simple machines. A lever makes a small input force into a greater output force.
+
+check: What is the pivot point of a lever called?
+- A ramp
++ A fulcrum
+- A pulley
+hint: Look at the paragraph. The answer is there.
+explain: A lever is a beam or rod that pivots on a point called a fulcrum.
+
+--- 🧑
+p: In ancient Egypt, workers used levers to move and lift obelisks.
+
+fact: The obelisks weighed more than 100 tons.
+
+check: What did workers in ancient Egypt lift with levers?
+- Wagons
++ Obelisks
+- Pulleys
+hint: Look at the paragraph. The answer is there.
+explain: In ancient Egypt, workers used levers to move and lift obelisks.
+
+--- 🧩
+p: A pulley is a wheel on an axle.
+
+fact: A cable or belt passes over the wheel, so it can move and change direction.
+
+check: What is a pulley?
+- A beam on a hinge
++ A wheel on an axle
+- A sloping road
+hint: Look at the paragraph. The answer is there.
+explain: A pulley is a wheel on an axle.
+
+--- 👤
+p: Plutarch wrote that Archimedes used a system of pulleys to pull a fully loaded ship toward him.
+
+fact: The ship moved as if it were gliding through water.
+
+--- 🧰
+p: An inclined plane, or ramp, helps move heavy loads over a vertical obstacle.
+
+fact: It takes less force to move an object up a ramp than to lift it straight up. The cost is a longer distance.
+
+--- 🔎
+p: A trade of force for distance. A lever on a fulcrum. A wheel with a cable. A ramp for heavy loads.
+
+p: Simple machines help.
+
+quiz: Which simple machine is a wheel on an axle with a cable?
+- A lever
++ A pulley
+- A ramp
+explain: A pulley is a wheel on an axle.
+
+quiz: What does a ramp let you use less of?
+- Distance
++ Force
+- Time
+explain: It takes less force to move an object up a ramp than to lift it straight up.
+
+quiz: A lever is one of how many simple machines?
+- Two
++ Six
+- Sixty
+explain: A lever is one of six simple machines.
+
+quiz: How heavy were the obelisks lifted in ancient Egypt?
+- Only 10 tons
++ More than 100 tons
+- About 1 ton
+explain: The obelisks weighed more than 100 tons.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== physical-air
+idea: Air is all around you, and it has weight. Find out what air is made of and how far up it goes.
+
+game: Nitrogen = Most of the air | Karman line = The edge of space | Air pressure = The weight of air | Wind = Air moving to lower pressure
+
+--- 💨
+p: Dry air is 78.08% nitrogen and 20.95% oxygen.
+
+fact: Air also holds water vapor, on average around 1% at sea level.
+
+check: What is most of the air made of?
+- Oxygen
++ Nitrogen
+- Water vapor
+hint: Look at the paragraph. The answer is there.
+explain: Dry air is 78.08% nitrogen and 20.95% oxygen.
+
+--- 📏
+p: Three-quarters of the air is within about 6.8 mi (11 km) of the ground.
+
+fact: The air gets thinner the higher you go, and there is no clear edge where it ends.
+
+check: What distance above the ground holds three-quarters of the air?
+- 68 mi
++ 6.8 mi
+- 680 mi
+hint: Look at the paragraph. The answer is there.
+explain: Three-quarters of the air is within about 6.8 mi (11 km) of the ground.
+
+--- 📐
+p: The edge of space is often drawn at the Karman line.
+
+fact: It is 62 mi (100 km) above the ground.
+
+check: How high is the Karman line?
+- 6.2 mi
++ 62 mi
+- 620 mi
+hint: Look at the box. The answer is there.
+explain: It is 62 mi (100 km) above the ground.
+
+--- ⚙️
+p: Air has weight.
+
+term: pressure = The weight of air pushing on every square inch.
+
+fact: A column of air 1 square inch wide, from sea level to the top of the atmosphere, weighs about 14.7 lb. That is 14.7 pounds of pressure on every square inch.
+
+check: How much does a column of air 1 square inch wide weigh?
+- About 147 lb
++ About 14.7 lb
+- About 1.47 lb
+hint: Look at the box. The answer is there.
+explain: A column of air 1 square inch wide, from sea level to the top of the atmosphere, weighs about 14.7 lb.
+
+--- 🔧
+p: Wind is air moving.
+
+fact: It moves from a place with higher pressure to a place with lower pressure.
+
+--- 🧩
+p: Up to about 62 mi (100 km) high, the air keeps the same mix of gases.
+
+fact: Turbulence stirs the air, so the mix stays the same.
+
+--- 🔎
+p: Air with nitrogen and oxygen. Air that thins out. A line for the edge of space. Air with weight. Wind.
+
+p: Air is all around.
+
+quiz: How much of dry air is nitrogen?
+- 7.8%
++ 78.08%
+- 20.95%
+explain: Dry air is 78.08% nitrogen.
+
+quiz: What is wind?
+- Air standing still
++ Air moving to lower pressure
+- Air getting colder
+explain: Wind is air moving from higher pressure to lower pressure.
+
+quiz: What stirs the air so the gases stay mixed?
+- Sunlight
++ Turbulence
+- Gravity
+explain: Turbulence stirs the air, so the mix stays the same.
+
+quiz: What does the air get as you go higher?
+- Thicker
++ Thinner
+- Wetter
+explain: The air gets thinner the higher you go.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== physical-water
+idea: Plain water can do tricks no other common liquid can do. It floats when it freezes, and it can hold up an insect.
+
+game: Water = Solid, liquid and gas on Earth's surface | Ice = Less dense than liquid water | Water strider = Floats on water | Universal solvent = What water is called
+
+--- 💧
+p: Water is the most abundant substance on Earth's surface.
+
+fact: It is also the only common substance that exists as a solid, a liquid and a gas there.
+
+check: What three forms does water take on Earth's surface?
+- Rock, sand and mud
++ Solid, liquid and gas
+- Steam, smoke and fog
+hint: Look at the box. The answer is there.
+explain: It is also the only common substance that exists as a solid, a liquid and a gas there.
+
+--- 🤔
+p: Ice is an unusual solid because it is less dense than liquid water, by about 8.3%.
+
+fact: Water expands about 9% when it freezes.
+
+check: Is ice more or less dense than liquid water?
+- More dense
++ Less dense
+- Just the same
+hint: Look at the paragraph. The answer is there.
+explain: Ice is an unusual solid because it is less dense than liquid water, by about 8.3%.
+
+--- ⚙️
+p: Water is at its densest at 39°F (4°C).
+
+fact: As it gets colder and starts to freeze, it becomes less dense.
+
+check: At what temperature is water densest?
+- 32°F
++ 39°F
+- 93°F
+hint: Look at the paragraph. The answer is there.
+explain: Water is at its densest at 39°F (4°C).
+
+--- 🔧
+p: Water molecules pull on each other strongly, so water has a high surface tension.
+
+term: surface tension = The strong pull water molecules have on each other.
+
+fact: That lets razor blades and insects called water striders float on top of it.
+
+check: What insect can float on the surface of water?
+- Grasshoppers
++ Water striders
+- Dragonflies
+hint: Look at the paragraph. The answer is there.
+explain: That lets razor blades and insects called water striders float on top of it.
+
+--- 🧩
+p: Water is called the universal solvent and the solvent of life.
+
+fact: It is the most studied chemical compound there is.
+
+--- 💡
+p: Ice is water frozen into a solid.
+
+fact: It forms at or below 32°F (0°C).
+
+--- 🔎
+p: Water as a solid, a liquid and a gas. Ice that is less dense. Water that is densest when cold. A strong pull on the surface.
+
+p: Water is special.
+
+quiz: What happens to water when it freezes?
+- It shrinks a lot
++ It expands about 9%
+- It turns to steam
+explain: Water expands about 9% when it freezes.
+
+quiz: At what temperature does water freeze?
+- 39°F
++ 32°F
+- 93°F
+explain: Ice forms at or below 32°F (0°C).
+
+quiz: What is water called because it can mix with so much?
+- The common metal
++ The universal solvent
+- The heavy gas
+explain: Water is called the universal solvent.
+
+quiz: What lets insects float on water?
+- Strong wind
++ Surface tension
+- Hot sunlight
+explain: Water molecules pull on each other strongly, so water has a high surface tension.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== physical-flight
+idea: Birds, airplanes and helicopters all stay in the air. Find out about the biggest wingspan and the push called lift.
+
+game: Wandering albatross = Greatest wingspan of a living flier | Lift = Push at right angles to the flow | Wright brothers = Flew the first airplane | Helicopter = Spinning rotors give lift and thrust
+
+--- ✈️
+p: The wandering albatross has the greatest wingspan of any living animal that flies, up to 11 ft (3.5 m).
+
+fact: The great bustard is the heaviest flier, up to 46 lb (21 kg).
+
+check: Which flying animal has the greatest wingspan?
+- The great bustard
++ The wandering albatross
+- The tiny hummingbird
+hint: Look at the paragraph. The answer is there.
+explain: The wandering albatross has the greatest wingspan of any living animal that flies, up to 11 ft (3.5 m).
+
+--- 🏆
+p: Some fish can fly.
+
+fact: The longest flight ever recorded for a flying fish lasted 45 seconds.
+
+check: How long was the longest flight of a flying fish?
+- 4 seconds
++ 45 seconds
+- 45 minutes
+hint: Look at the box. The answer is there.
+explain: The longest flight ever recorded for a flying fish lasted 45 seconds.
+
+--- ⚙️
+p: When air flows around a wing, the air pushes on the wing.
+
+term: lift = The part of the push that is at right angles to the flow.
+
+fact: The part of that push that is at right angles to the flow is called lift. Lift usually acts upward, to work against gravity.
+
+check: What do we call the part of the push that points across the airflow?
+- Drag
++ Lift
+- Weight
+hint: Look at the box. The answer is there.
+explain: The part of that push that is at right angles to the flow is called lift.
+
+--- 📅
+p: The Wright brothers invented and flew the first airplane in 1903.
+
+fact: It was the first sustained, controlled flight of a powered machine heavier than air.
+
+check: Who invented and flew the first airplane?
+- The Boeing brothers
++ The Wright brothers
+- The Comet brothers
+hint: Look at the paragraph. The answer is there.
+explain: The Wright brothers invented and flew the first airplane in 1903.
+
+--- ⏳
+p: The first jet aircraft was the German Heinkel He 178, in 1939.
+
+fact: The first jet airliner, the de Havilland Comet, was introduced in 1952. The Boeing 707 flew for more than 60 years.
+
+--- 🔧
+p: A helicopter gets its lift and thrust from spinning rotors.
+
+fact: That lets it take off and land straight up, hover, and fly forward, backward and sideways.
+
+--- 🔎
+p: A big wingspan. A fish that flies. Lift on a wing. A first airplane. A jet. A helicopter with rotors.
+
+p: Flight is big.
+
+quiz: Which animal that flies is the heaviest?
+- The wandering albatross
++ The great bustard
+- The flying fish
+explain: The great bustard is the heaviest flier, up to 46 lb (21 kg).
+
+quiz: What gives a helicopter its lift and thrust?
+- Flapping wings
++ Spinning rotors
+- A big balloon
+explain: A helicopter gets its lift and thrust from spinning rotors.
+
+quiz: In what year did the Wright brothers fly the first airplane?
+- 1093
++ 1903
+- 1930
+explain: The Wright brothers flew the first airplane in 1903.
+
+quiz: How long did the Boeing 707 fly?
+- Only 6 years
++ More than 60 years
+- About 600 years
+explain: The Boeing 707 flew for more than 60 years.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== physical-reactions
+idea: Rust, fire and the fizz of baking soda are all one thing: one substance turning into another.
+
+game: Rust = Iron, oxygen and water | Combustion = Does not always make a flame | Lavoisier = Found that burning uses oxygen | Baking soda = Gives off carbon dioxide
+
+--- ⚗️
+p: Rust is a reddish-brown substance made when iron reacts with oxygen and water.
+
+term: rust = A reddish-brown substance made when iron reacts with oxygen and water.
+
+fact: Given enough time, an iron object can turn entirely to rust.
+
+check: What makes iron rust?
+- Sunlight and sand
++ Oxygen and water
+- Cold and snow
+hint: Look at the paragraph. The answer is there.
+explain: Rust is a reddish-brown substance made when iron reacts with oxygen and water.
+
+--- ⚙️
+p: Combustion does not always make a flame.
+
+fact: A flame is only visible when the burning substances turn to vapor.
+
+check: When can you see a flame?
+- When the air around the fire is perfectly still
++ When the burning substances turn to vapor
+- When the sky behind the fire is completely dark
+hint: Look at the box. The answer is there.
+explain: A flame is only visible when the burning substances turn to vapor.
+
+--- 🔧
+p: Wood and coal do not burn as solids.
+
+fact: First heat turns them into gases, and then those gases burn. That burning makes the heat that turns more of the solid into gas.
+
+check: What do wood and coal turn into before they burn?
+- Liquids
++ Gases
+- Powders
+hint: Look at the box. The answer is there.
+explain: First heat turns them into gases, and then those gases burn.
+
+--- 📅
+p: In 1785, Antoine Lavoisier found the correct explanation of burning.
+
+fact: It is a reaction with oxygen from the air.
+
+check: What did Lavoisier find burning to be?
+- A trick of the light
++ A reaction with oxygen
+- A cooling of the air
+hint: Look at the box. The answer is there.
+explain: It is a reaction with oxygen from the air.
+
+--- 🧩
+p: Baking soda reacts with acids.
+
+fact: When it does, it gives off carbon dioxide gas.
+
+--- 💡
+p: Heat alone can make baking soda work as a raising agent in baking.
+
+fact: Above 180°F (80°C), it releases carbon dioxide.
+
+--- 🔎
+p: Rust from oxygen and water. A flame from vapor. Wood that turns to gas. Oxygen from the air. Baking soda and carbon dioxide.
+
+p: Things change.
+
+quiz: What gas does baking soda release?
+- Water vapor
++ Carbon dioxide
+- Pure oxygen
+explain: Baking soda gives off carbon dioxide gas.
+
+quiz: Where does the oxygen for burning come from?
+- The water
++ The air
+- The wood
+explain: Lavoisier found that burning is a reaction with oxygen from the air.
+
+quiz: When does baking soda release carbon dioxide from heat alone?
+- Below 32°F
++ Above 180°F
+- Only in water
+explain: Above 180°F (80°C), it releases carbon dioxide.
+
+quiz: What can an iron object turn entirely into?
+- Gas
++ Rust
+- Water
+explain: Given enough time, an iron object can turn entirely to rust.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== physical-gravity
+idea: Gravity is the pull that keeps your feet on the floor. A hammer and a feather fell together on the Moon.
+
+game: Albert Einstein = Said gravity curves space and time | Simon Stevin = Dropped two cannonballs from a tower | David Scott = Dropped a hammer and a feather | Terminal velocity = A skydiver's top speed
+
+--- 🍎
+p: Every object with mass pulls on every other object.
+
+fact: The more mass an object has, the stronger its pull. The farther apart the objects are, the weaker the pull.
+
+check: What makes the pull of gravity stronger?
+- More distance
++ More mass
+- More wind
+hint: Look at the paragraph. The answer is there.
+explain: The more mass an object has, the stronger its pull.
+
+--- 🧑
+p: Albert Einstein described gravity in 1915.
+
+fact: He described it as a curving of space and time caused by mass.
+
+check: Who described gravity as the curving of space and time?
+- Simon Stevin
++ Albert Einstein
+- Galileo Galilei
+hint: Look at the paragraph. The answer is there.
+explain: Albert Einstein described gravity in 1915.
+
+--- 👤
+p: In 1586, Simon Stevin dropped two cannonballs of different sizes and weights from a tower.
+
+fact: They fell at the same rate.
+
+check: What did Simon Stevin drop from a tower?
+- A hammer and feather
++ Two cannonballs
+- Two feathers
+hint: Look at the paragraph. The answer is there.
+explain: In 1586, Simon Stevin dropped two cannonballs of different sizes and weights from a tower.
+
+--- 💨
+p: Near Earth's surface, an object falling in a vacuum speeds up by about 32 ft per second, every second (9.8 m/s2).
+
+fact: That is true no matter how heavy it is.
+
+check: Does a heavy object fall faster than a light one in a vacuum?
+- Yes, it does
++ No
+- Only on the Moon
+hint: Look at the box. The answer is there.
+explain: That is true no matter how heavy it is.
+
+--- 👑
+p: On August 2, 1971, astronaut David Scott dropped a hammer and a feather on the Moon.
+
+fact: They fell at the same rate and hit the ground together. On the Moon, gravity is only about one-sixth as strong as on Earth.
+
+--- 🏃
+p: Air pushes back on a falling object.
+
+term: terminal velocity = The top speed a falling skydiver reaches.
+
+fact: A skydiver reaches a top speed, called terminal velocity, of around 118 mph (190 km/h).
+
+--- 🔎
+p: A pull between objects. A curve of space and time. Cannonballs that fall together. A hammer and a feather. A top speed.
+
+p: Gravity pulls.
+
+quiz: What fell at the same rate on the Moon?
+- A rock and a leaf
++ A hammer and a feather
+- A ball and a bat
+explain: David Scott dropped a hammer and a feather, and they fell at the same rate.
+
+quiz: How strong is gravity on the Moon compared with Earth?
+- About double
++ About one-sixth
+- Exactly the same
+explain: On the Moon, gravity is only about one-sixth as strong as on Earth.
+
+quiz: What do we call a skydiver's top speed?
+- Vacuum speed
++ Terminal velocity
+- Lift speed
+explain: A skydiver reaches a top speed, called terminal velocity.
+
+quiz: In which year did Albert Einstein describe gravity as curved space and time?
+- 1195
++ 1915
+- 1951
+explain: In 1915, Albert Einstein described gravity as a curving of space and time.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== physical-atoms
+idea: Everything you can touch is built from atoms too small to see, and there are only 118 kinds.
+
+game: Atom = Extremely small, about 100 picometers across | Proton = Decides which element an atom is | Copper = Atoms with 29 protons | Mendeleev = Made the first accepted periodic table | Francium = Element 87, so rare
+
+--- ⚛️
+p: Atoms are extremely small, typically around 100 picometers across.
+
+fact: More than 99.94% of an atom's mass is in its nucleus.
+
+check: Where is most of an atom's mass?
+- In the outer shell
++ In the nucleus
+- In the empty space
+hint: Look at the box. The answer is there.
+explain: More than 99.94% of an atom's mass is in its nucleus.
+
+--- ⚙️
+p: What makes one element different from another is the number of protons in its atoms.
+
+term: proton = The number of these in an atom makes it one element.
+
+fact: Any atom with 11 protons is sodium. Any atom with 29 protons is copper.
+
+check: What element has atoms with 29 protons?
+- Sodium
++ Copper
+- Oxygen
+hint: Look at the box. The answer is there.
+explain: Any atom with 29 protons is copper.
+
+--- 🔧
+p: Oxygen has 8 protons in each atom.
+
+fact: So oxygen is number 8 on the list of elements.
+
+check: How many protons does an oxygen atom have?
+- 80
++ 8
+- 18
+hint: Look at the paragraph. The answer is there.
+explain: Oxygen has 8 protons in each atom.
+
+--- 📏
+p: Today 118 elements are known.
+
+fact: The first 94 occur naturally on Earth. The other 24 only occur when scientists make them in laboratories.
+
+check: How many elements occur naturally on Earth?
+- 24
++ 94
+- 118
+hint: Look at the box. The answer is there.
+explain: The first 94 occur naturally on Earth.
+
+--- 🧑
+p: Dmitri Mendeleev was a Russian chemist.
+
+fact: In 1869, he made the first periodic table that people widely accepted.
+
+--- 🤔
+p: Francium, element 87, is so rare.
+
+fact: It has only been photographed as light from tiny amounts.
+
+--- 🔎
+p: Atoms that are very small. Protons that decide the element. Oxygen with 8 protons. 118 elements. A table of elements. A rare element.
+
+p: Atoms make everything.
+
+quiz: Which element has atoms with 11 protons?
+- Copper
++ Sodium
+- Oxygen
+explain: Any atom with 11 protons is sodium.
+
+quiz: How many elements are known today?
+- 18
++ 118
+- 1,180
+explain: Today 118 elements are known.
+
+quiz: Who made the first periodic table that people widely accepted?
+- David Scott
++ Dmitri Mendeleev
+- Albert Einstein
+explain: In 1869, Dmitri Mendeleev made the first periodic table that people widely accepted.
+
+quiz: How many of the 118 elements occur naturally on Earth?
+- 24
++ 94
+- 11
+explain: The first 94 occur naturally on Earth.

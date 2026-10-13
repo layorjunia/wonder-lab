@@ -573,3 +573,667 @@ explain: Both Bell and Elisha Gray filed descriptions of something very similar 
 p: Failures in notebooks. Words by wire. A rope cut on purpose. A patent race on the same day.
 p: Each invention, a step built from what was learned.
 
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== america-revolution
+idea: Tea in a harbor, a midnight ride and a Declaration of Independence: how a new country began.
+
+game: Dartmouth = Ship that carried the tea | Sons of Liberty = Threw chests of tea into the harbor | Paul Revere = Rang the new bells at Old North Church | Longfellow = Wrote the poem Paul Revere's Ride | Washington = Chosen to lead the Continental Army
+
+--- 🔔
+p: On the night of December 16, members of the Sons of Liberty boarded the ship Dartmouth in Boston.
+
+term: harbor = A place where a ship like the Dartmouth stays, as in Boston Harbor.
+
+fact: They threw 340 or 342 chests of tea into Boston Harbor.
+
+check: How many chests of tea were thrown into Boston Harbor?
+- Only 34
++ 340 or 342
+- More than 3,400
+hint: Look at the box. The answer is there.
+explain: They threw 340 or 342 chests of tea into Boston Harbor.
+
+--- 📅
+p: In November 1773 the merchant ship Dartmouth arrived in Boston harbor.
+
+fact: It carried the first shipment of tea made under the terms of the Tea Act.
+
+check: What was the name of the merchant ship that carried the tea?
+- Mayflower
++ Dartmouth
+- Santa Maria
+hint: Look at the paragraph. The answer is there.
+explain: In November 1773 the merchant ship Dartmouth arrived in Boston harbor.
+
+--- 🧑
+p: In 1750, Paul Revere was 15 years old.
+
+fact: He was part of the first group to ring the new bells at Christ Church in Boston, the Old North Church.
+
+check: How old was Paul Revere when he rang the new bells?
+- Just 5 years
++ 15 years old
+- Nearly 50 years
+hint: Look at the paragraph. The answer is there.
+explain: In 1750, Paul Revere was 15 years old.
+
+--- 👤
+p: Paul Revere's midnight ride made him an American folk hero.
+
+fact: Henry Wadsworth Longfellow told the story in his 1861 poem Paul Revere's Ride.
+
+check: Who wrote the poem about Paul Revere's ride?
+- Elizabeth Cady Stanton
++ Henry Wadsworth Longfellow
+- Ralph Waldo Emerson
+hint: Look at the box. The answer is there.
+explain: Henry Wadsworth Longfellow told the story in his 1861 poem Paul Revere's Ride.
+
+--- ⏳
+p: The Declaration of Independence was first read in public on July 8, 1776.
+
+fact: It was read at noon in three places: Trenton, Easton and Philadelphia.
+
+--- 👑
+p: In 1775, the Second Continental Congress made an army, the Continental Army.
+
+fact: It chose George Washington to lead it.
+
+--- 🔎
+p: Chests of tea in the harbor. A ship named Dartmouth. Bells in Boston. A midnight ride. A Declaration read at noon. An army with Washington.
+
+p: The tea, the ride and the Declaration.
+
+quiz: Where did the Sons of Liberty throw the tea?
+- Into a muddy river
++ Into Boston Harbor
+- Onto the busy docks
+explain: They threw 340 or 342 chests of tea into Boston Harbor.
+
+quiz: Who was chosen to lead the Continental Army?
+- Henry Wadsworth Longfellow
++ George Washington
+- Abraham Lincoln
+explain: It chose George Washington to lead it.
+
+quiz: In what year did Longfellow's poem about Paul Revere's ride come out?
+- 1681
++ 1861
+- 1816
+explain: Henry Wadsworth Longfellow told the story in his 1861 poem Paul Revere's Ride.
+
+quiz: On what date was the Declaration of Independence first read in public?
+- May 1, 1776
++ July 8, 1776
+- October 31, 1776
+explain: The Declaration of Independence was first read in public on July 8, 1776.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== america-constitution
+idea: The Constitution was written in Philadelphia, and George Washington was the first president.
+
+game: Constitution = Oldest written national constitution still in use | Bill of Rights = The first ten amendments to the Constitution | Philadelphia = Where the Constitution was written | Washington = First U.S. president
+
+--- 📜
+p: In 1787, men met at Independence Hall in Philadelphia.
+
+fact: They wrote the Constitution there.
+
+check: In which city was the Constitution drafted?
+- New York City
++ Philadelphia
+- Washington
+hint: Look at the paragraph. The answer is there.
+explain: In 1787, men met at Independence Hall in Philadelphia.
+
+--- 🏆
+p: The U.S. Constitution is still in use.
+
+fact: It is the oldest written national constitution still in use in the world.
+
+check: Among written national constitutions still in use, the U.S. Constitution is which?
+- The newest
++ The oldest
+- The longest
+hint: Look at the paragraph. The answer is there.
+explain: It is the oldest written national constitution still in use in the world.
+
+--- ⚙️
+p: The Bill of Rights is part of the Constitution.
+
+term: amendment = A change or addition to the Constitution.
+
+fact: It is the first ten amendments to the United States Constitution.
+
+check: How many amendments are in the Bill of Rights?
+- Six
++ Ten
+- Twenty
+hint: Look at the box. The answer is there.
+explain: It is the first ten amendments to the United States Constitution.
+
+--- 🧑
+p: 55 delegates drafted the Constitution.
+
+fact: They are among the men known as the Founding Fathers of the new nation.
+
+check: How many delegates drafted the Constitution?
+- 5
++ 55
+- 550
+hint: Look at the paragraph. The answer is there.
+explain: 55 delegates drafted the Constitution.
+
+--- 🔧
+p: The 9th Amendment is about rights.
+
+fact: It says that a right is not missing just because it is not listed in the Bill of Rights.
+
+--- 👤
+p: George Washington was the first U.S. president.
+
+fact: Every vote of the Electoral College elected him in 1789 and again in 1792.
+
+--- 🔎
+p: Men in Philadelphia. The oldest written constitution. Ten amendments. 55 delegates. The first president.
+
+p: The Constitution is still in use.
+
+quiz: In what year did men meet at Independence Hall in Philadelphia?
+- 1778
++ 1787
+- 1877
+explain: In 1787, men met at Independence Hall in Philadelphia.
+
+quiz: Who was the first U.S. president?
+- Abraham Lincoln
++ George Washington
+- Theodore Roosevelt
+explain: George Washington was the first U.S. president.
+
+quiz: In which years did the Electoral College elect George Washington?
+- Only in 1801
++ 1789 and 1792
+- In 1776 and 1783
+explain: Every vote of the Electoral College elected him in 1789 and again in 1792.
+
+quiz: What is the Bill of Rights?
+- A list of all the states
++ The first ten amendments
+- The names of the delegates
+explain: The Bill of Rights is the first ten amendments to the United States Constitution.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== america-presidents
+idea: A president born in a log cabin, and one who became president at 42, the youngest ever.
+
+game: Lincoln = Born in a one-room log cabin | Roosevelt = Youngest person to hold the office | White House = Built between 1792 and 1800 | Nobel Peace Prize = Won in 1906 by Roosevelt
+
+--- 🎩
+p: Abraham Lincoln was born in a one-room log cabin in Kentucky.
+
+term: log cabin = A small house made from logs, like the cabin where Lincoln was born.
+
+fact: He was born on February 12, 1809.
+
+check: What kind of house was Lincoln born in?
+- A tall brick mansion
++ A one-room log cabin
+- A big stone castle
+hint: Look at the paragraph. The answer is there.
+explain: Abraham Lincoln was born in a one-room log cabin in Kentucky.
+
+--- 📅
+p: On January 1, 1863, Lincoln said that slaves in the rebel states were free.
+
+fact: This was the Emancipation Proclamation.
+
+check: What did the Emancipation Proclamation declare?
+- Soldiers in the northern states were paid
++ Slaves in the rebel states were free
+- Farmers in the western states were rich
+hint: Look at the paragraph. The answer is there.
+explain: On January 1, 1863, Lincoln said that slaves in the rebel states were free.
+
+--- 🏆
+p: Theodore Roosevelt was 42 years old when he was first inaugurated.
+
+fact: That made him the youngest person to hold the office of president.
+
+check: How old was Theodore Roosevelt at his first inauguration?
+- Just 24
++ 42 years old
+- About 62 years
+hint: Look at the paragraph. The answer is there.
+explain: Theodore Roosevelt was 42 years old when he was first inaugurated.
+
+--- 🥇
+p: Theodore Roosevelt won the 1906 Nobel Peace Prize.
+
+fact: It was for his efforts to end the Russo-Japanese War. He was the first non-European to win a Nobel Prize.
+
+check: What prize did Theodore Roosevelt win in 1906?
+- A gold medal of honor
++ The Nobel Peace Prize
+- A big trophy cup
+hint: Look at the paragraph. The answer is there.
+explain: Theodore Roosevelt won the 1906 Nobel Peace Prize.
+
+--- 🧑
+p: Theodore Roosevelt went hiking with his family in the Alps in 1869.
+
+fact: He found that exercise helped his asthma and lifted his spirits.
+
+--- 🏗️
+p: The White House was built between 1792 and 1800.
+
+fact: Its outside walls are Aquia Creek sandstone painted white.
+
+--- 🔎
+p: A log cabin. A proclamation that said slaves were free. A young president. A Nobel Peace Prize. A house painted white.
+
+p: Presidents did big things.
+
+quiz: In which state was Lincoln born?
+- Boston
++ Kentucky
+- Virginia
+explain: Abraham Lincoln was born in a one-room log cabin in Kentucky.
+
+quiz: What did Theodore Roosevelt find helped his asthma?
+- Medicine
++ Exercise
+- Sleeping
+explain: He found that exercise helped his asthma and lifted his spirits.
+
+quiz: What are the outside walls of the White House made of?
+- Red brick from Virginia
++ Aquia Creek sandstone
+- White painted wood
+explain: Its outside walls are Aquia Creek sandstone painted white.
+
+quiz: Which president was the youngest person to hold the office?
+- Abraham Lincoln
++ Theodore Roosevelt
+- George Washington
+explain: That made him the youngest person to hold the office of president.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== america-civilwar
+idea: A very short speech, a surrender at Appomattox, and a woman who rescued enslaved people.
+
+game: Lincoln = Elected president in 1860 | Lee = Surrendered to General Grant | Gettysburg Address = Only 271 words long | Tubman = Rescued about 70 enslaved people
+
+--- 🛡️
+p: Americans argued about slavery for years.
+
+term: elected = Chosen by votes, like Abraham Lincoln when he was elected president.
+
+fact: In 1860, Abraham Lincoln was elected president. He did not want slavery to spread.
+
+check: Who won the 1860 presidential election?
+- George Washington
++ Abraham Lincoln
+- Theodore Roosevelt
+hint: Look at the box. The answer is there.
+explain: In 1860, Abraham Lincoln was elected president.
+
+--- 📅
+p: On April 9, 1865, General Lee surrendered to General Grant at Appomattox Court House.
+
+fact: That began the end of the war.
+
+check: Who surrendered to Grant on April 9, 1865?
+- General Custer
++ General Lee
+- General Sherman
+hint: Look at the paragraph. The answer is there.
+explain: On April 9, 1865, General Lee surrendered to General Grant at Appomattox Court House.
+
+--- 🏆
+p: Lincoln's Gettysburg Address was only 271 words long and ten sentences.
+
+fact: The speaker before him talked for two hours and used 13,607 words.
+
+check: How many words was Lincoln's Gettysburg Address?
+- Over 2,000
++ 271 words
+- Only 27
+hint: Look at the paragraph. The answer is there.
+explain: Lincoln's Gettysburg Address was only 271 words long and ten sentences.
+
+--- 🧑
+p: Harriet Tubman escaped slavery.
+
+fact: Then she made some 13 trips to rescue about 70 enslaved people.
+
+check: About how many people did Harriet Tubman rescue?
+- Just 7
++ About 70
+- Nearly 7,000
+hint: Look at the box. The answer is there.
+explain: Then she made some 13 trips to rescue about 70 enslaved people.
+
+--- 👤
+p: Harriet Tubman guided a raid at Combahee Ferry.
+
+fact: It freed more than 700 enslaved people.
+
+--- ⏳
+p: The Emancipation Proclamation changed the lives of more than 3.5 million enslaved people.
+
+fact: It made them free.
+
+--- 🔎
+p: An election in 1860. A surrender at Appomattox. A short address. Harriet Tubman and her trips. A raid at a ferry.
+
+p: Freedom came to many.
+
+quiz: Who guided a raid at Combahee Ferry?
+- Abraham Lincoln
++ Harriet Tubman
+- General Grant
+explain: Harriet Tubman guided a raid at Combahee Ferry.
+
+quiz: How long did the speaker before Lincoln talk?
+- Ten minutes
++ Two hours
+- A whole week
+explain: The speaker before him talked for two hours and used 13,607 words.
+
+quiz: Where did General Lee surrender to General Grant?
+- Gettysburg battlefield
++ Appomattox Court House
+- Independence Hall
+explain: General Lee surrendered to General Grant at Appomattox Court House.
+
+quiz: How many enslaved people did the Emancipation Proclamation change the lives of?
+- Fewer than 350,000 people
++ More than 3.5 million
+- Around 35,000 people in all
+explain: The Emancipation Proclamation changed the lives of more than 3.5 million enslaved people.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== america-gold
+idea: Gold was found in California in 1848, and many people headed west by wagon trail and Pony Express.
+
+game: Marshall = Found gold in California in 1848 | San Francisco = Became a boomtown of about 36,000 | Oregon Trail = A wagon route 2,170 mi long | Pony Express = Riders could not weigh more than 125 lb
+
+--- ⛏️
+p: The California gold rush began on January 24, 1848.
+
+term: gold rush = A rush of many people to a place where gold was found.
+
+fact: Gold was found by James W. Marshall.
+
+check: When did the California gold rush begin?
+- February 14, 1858
++ January 24, 1848
+- September 4, 1749
+hint: Look at the paragraph. The answer is there.
+explain: The California gold rush began on January 24, 1848.
+
+--- 📏
+p: The news of gold brought about 300,000 people to California.
+
+fact: They came from the rest of the United States and from other countries.
+
+check: About how many people came to California for gold?
+- 30,000
++ 300,000
+- 3 million
+hint: Look at the paragraph. The answer is there.
+explain: The news of gold brought about 300,000 people to California.
+
+--- 📐
+p: San Francisco grew from a small settlement of about 200 people in 1846.
+
+fact: By 1852 it was a boomtown of about 36,000 people.
+
+check: How many people lived in San Francisco by 1852?
+- Only 360
++ About 36,000
+- Nearly 3,600
+hint: Look at the paragraph. The answer is there.
+explain: By 1852 it was a boomtown of about 36,000 people.
+
+--- ⚖️
+p: The Oregon Trail was a wagon route 2,170 mi (3,490 km) long.
+
+fact: It connected the Missouri River to valleys in Oregon Territory.
+
+check: What was the length of the Oregon Trail?
+- About 217 miles
++ 2,170 mi (3,490 km)
+- Over 21,700 miles
+hint: Look at the paragraph. The answer is there.
+explain: The Oregon Trail was a wagon route 2,170 mi (3,490 km) long.
+
+--- 📅
+p: Use of the Oregon Trail declined after the first transcontinental railroad was completed in 1869.
+
+fact: The railroad made the trip west faster, cheaper and safer.
+
+--- 🏠
+p: Pony Express riders could not weigh more than 125 lb (57 kg).
+
+fact: The riders changed about every 75 to 100 mi (120 to 160 km), and they rode day and night.
+
+--- 🔎
+p: Gold found in 1848. People coming to California. A boomtown. A long wagon trail. A railroad. Riders day and night.
+
+p: The West grew fast.
+
+quiz: Who found gold and began the California gold rush?
+- George Washington
++ James W. Marshall
+- Theodore Roosevelt
+explain: The California gold rush began when gold was found by James W. Marshall.
+
+quiz: What did the railroad make the trip west?
+- Slower and more costly
++ Faster, cheaper and safer
+- Longer and much harder
+explain: The railroad made the trip west faster, cheaper and safer.
+
+quiz: How much could Pony Express riders weigh at most?
+- Under 12 lb
++ 125 lb (57 kg)
+- Over 1,250 lb
+explain: Pony Express riders could not weigh more than 125 lb (57 kg).
+
+quiz: When did Pony Express riders change?
+- Once every day at the same noon hour
++ Every 75 to 100 mi (120 to 160 km)
+- Just once at the end of each month
+explain: The riders changed about every 75 to 100 mi (120 to 160 km), and they rode day and night.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== america-coming
+idea: Ships and an island brought new people to America: the Pilgrims on the Mayflower, and millions through Ellis Island.
+
+game: Ellis Island = Where about 12 million immigrants were processed | Samuel Ellis = A Welshman who bought the island | Statue of Liberty = Dedicated on October 28, 1886 | Mayflower = Carried the Pilgrims to the New World
+
+--- 🗽
+p: Ellis Island is a place where immigrants were processed.
+
+term: immigrants = People who arrived at the Port of New York to live in a new country.
+
+fact: From 1892 to 1954, about 12 million immigrants who arrived at the Port of New York and New Jersey were processed there.
+
+check: How many immigrants were processed at Ellis Island?
+- Only about 12,000 people
++ About 12 million
+- Nearly 1,200 people
+hint: Look at the box. The answer is there.
+explain: From 1892 to 1954, about 12 million immigrants who arrived at the Port of New York and New Jersey were processed there.
+
+--- 🧑
+p: Ellis Island is named after Samuel Ellis.
+
+fact: He was a Welshman who bought the island in 1774.
+
+check: Who is Ellis Island named after?
+- Samuel Adams
++ Samuel Ellis
+- George Washington
+hint: Look at the paragraph. The answer is there.
+explain: Ellis Island is named after Samuel Ellis.
+
+--- 📅
+p: The Statue of Liberty was dedicated on October 28, 1886.
+
+fact: In her left hand she carries a tablet marked July 4, 1776, in Roman numerals.
+
+check: When was the Statue of Liberty dedicated?
+- April 12, 1861
++ October 28, 1886
+- March 8, 1688
+hint: Look at the paragraph. The answer is there.
+explain: The Statue of Liberty was dedicated on October 28, 1886.
+
+--- 🧭
+p: The Mayflower was an English sailing ship.
+
+fact: It was 110 ft (34 m) long and 25 ft (7.5 m) wide. In 1620 she carried a group of English families, known today as the Pilgrims, to the New World.
+
+check: What were the English families on the Mayflower known as?
+- The Patriots
++ The Pilgrims
+- The Pioneers
+hint: Look at the paragraph. The answer is there.
+explain: In 1620 she carried a group of English families, known today as the Pilgrims, to the New World.
+
+--- 🗺️
+p: After 10 weeks at sea, the Mayflower reached what is now the United States.
+
+fact: It carried 102 passengers and a crew of about 30. It dropped anchor near the tip of Cape Cod in November 1620.
+
+--- ⏳
+p: The first inspection station on Ellis Island opened in 1892.
+
+fact: A fire destroyed it in 1897.
+
+--- 🔎
+p: Millions of immigrants. A Welshman and an island. A statue with a tablet. A ship called the Mayflower. Ten weeks at sea.
+
+p: People came to a new land.
+
+quiz: How many passengers did the Mayflower carry?
+- 12
++ 102
+- 1,020
+explain: It carried 102 passengers and a crew of about 30.
+
+quiz: Where did the Mayflower drop anchor in November 1620?
+- Inside the Port of New York
++ Near the tip of Cape Cod
+- Along the shores of Florida
+explain: It dropped anchor near the tip of Cape Cod in November 1620.
+
+quiz: What destroyed the first inspection station on Ellis Island?
+- A flood
++ A fire
+- A storm
+explain: A fire destroyed it in 1897.
+
+quiz: How many weeks was the Mayflower at sea?
+- Only 2
++ 10 weeks
+- Nearly 20
+explain: After 10 weeks at sea, the Mayflower reached what is now the United States.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== america-parks
+idea: A canyon over a mile deep, a geyser that erupts about every 92 minutes, and the first public park.
+
+game: Yellowstone = First public park for the people | Bison = Oldest and largest public herd | Grand Canyon = Over a mile deep | Old Faithful = Erupts on average every 92 minutes
+
+--- 🏞️
+p: In 1872, the United States set up Yellowstone National Park.
+
+term: national park = A park set up by the country for the benefit of its people.
+
+fact: It was the first public park for the benefit and enjoyment of the people.
+
+check: In what year was Yellowstone National Park established?
+- 1827
++ 1872
+- 1782
+hint: Look at the paragraph. The answer is there.
+explain: In 1872, the United States set up Yellowstone National Park.
+
+--- 📏
+p: Yellowstone has a bison herd.
+
+fact: It is the oldest and largest public bison herd in the United States.
+
+check: Which animal herd in Yellowstone is the oldest and largest public herd?
+- Elk
++ Bison
+- Moose
+hint: Look at the paragraph. The answer is there.
+explain: Yellowstone has a bison herd.
+
+--- 📐
+p: The Grand Canyon is 277 mi (446 km) long and up to 18 mi (29 km) wide.
+
+fact: It is over a mile deep, at 6,093 ft (1,857 m).
+
+check: What is the length of the Grand Canyon?
+- About 27 miles
++ 277 mi (446 km)
+- Over 2,700 miles
+hint: Look at the paragraph. The answer is there.
+explain: The Grand Canyon is 277 mi (446 km) long and up to 18 mi (29 km) wide.
+
+--- ⚙️
+p: The North Rim of the Grand Canyon is cooler than the South Rim, because it is higher.
+
+fact: It averages 8,000 ft (2,400 m) above sea level.
+
+check: Which rim of the Grand Canyon is higher?
+- The South Rim
++ The North Rim
+- The Inner Rim
+hint: Look at the paragraph. The answer is there.
+explain: The North Rim of the Grand Canyon is cooler than the South Rim, because it is higher.
+
+--- 💨
+p: Old Faithful erupts on average every 92 minutes.
+
+fact: The time between eruptions can be as short as 35 minutes or as long as 120 minutes.
+
+--- ⚖️
+p: An eruption of Old Faithful can shoot 3,700 to 8,400 gallons of boiling water.
+
+fact: The water reaches a height of 106 to 185 ft (32 to 56 m).
+
+--- 🔎
+p: A park for the people. A herd of bison. A deep canyon. A cooler rim. A geyser that erupts.
+
+p: Parks are for everyone.
+
+quiz: How often does Old Faithful erupt on average?
+- Once each hour on the hour
++ Every 92 minutes
+- About twice in a whole year
+explain: Old Faithful erupts on average every 92 minutes.
+
+quiz: What does the North Rim average above sea level?
+- About 80 ft
++ 8,000 ft (2,400 m)
+- Nearly 80,000 feet
+explain: It averages 8,000 ft (2,400 m) above sea level.
+
+quiz: What is shot out in an eruption of Old Faithful?
+- Melted snow
++ Boiling water
+- Cold mud
+explain: An eruption of Old Faithful can shoot 3,700 to 8,400 gallons of boiling water.
+
+quiz: How tall is the water when Old Faithful erupts?
+- Only 10 to 18 ft
++ 106 to 185 ft (32 to 56 m)
+- Nearly 1,060 ft
+explain: The water reaches a height of 106 to 185 ft (32 to 56 m).

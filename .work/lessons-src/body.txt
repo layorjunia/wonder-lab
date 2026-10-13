@@ -1361,4 +1361,382 @@ explain: Charles Osborne hiccupped for 68 years, which is the longest bout on re
 p: In Genesis, one of a man's early jobs involves using his voice.
 fact(The written account says): In Genesis, after the man is put in the garden to work it and keep it, he is given the job of naming the animals one at a time. Speech turns up very early in that account.
 
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== body-eyes
+idea: Your eyes have cells for dim light and cells for color, and a spot where you cannot see at all.
 
+game: Retina = The light-sensitive layer of the eye | Rods = Work mainly in dim light | Cones = Let you see color | Orbits = Bony cavities that hold the eyes
+
+--- 👁️
+p: Your eyeball grows fast.
+
+fact: It is about 0.63 to 0.67 in (16 to 17 mm) wide at birth. By age three it is 0.89 to 0.91 in (22.5 to 23 mm), and it reaches full size by age 12.
+
+check: At what age does the eyeball reach full size?
+- Age 6
++ Age 12
+- Age 20
+hint: Look at the box. The answer is there.
+explain: By age three it is 0.89 to 0.91 in (22.5 to 23 mm), and it reaches full size by age 12.
+
+--- ⚙️
+p: The retina is the innermost, light-sensitive layer of the eye.
+
+term: retina = The light-sensitive inner layer of the eye, like film in a camera.
+
+fact: It does a job much like the film or image sensor in a camera.
+
+check: What is the light-sensitive layer of the eye called?
+- The lens
++ The retina
+- The pupil
+hint: Look at the paragraph. The answer is there.
+explain: The retina is the innermost, light-sensitive layer of the eye.
+
+--- 🔧
+p: Rods work mainly in dim light and give you black-and-white vision.
+
+fact: Cones work in bright light. They let you see color, and they give the sharp vision you use for reading.
+
+check: Which cells let you see color?
+- Rods
++ Cones
+- Lenses
+hint: Look at the box. The answer is there.
+explain: Cones work in bright light.
+
+--- 👀
+p: One part of the retina has no light-sensing cells. That part gives rise to the blind spot.
+
+fact: Rods and cones are the cells that sense light.
+
+check: What does the part of the retina with no light-sensing cells cause?
+- The black pupil
++ The blind spot
+- The tear duct
+hint: Look at the paragraph. The answer is there.
+explain: That part gives rise to the blind spot.
+
+--- 👂
+p: The light you can see ranges from about 380 to 740 nanometers.
+
+fact: Violet is at the short end, 380 to 450 nm. Red is at the long end, 625 to 740 nm.
+
+--- 🧰
+p: The eyes sit in bony cavities in the skull.
+
+fact: These cavities are called the orbits.
+
+--- 🔎
+p: An eyeball that grows. A layer like film. Rods and cones. A blind spot. Colors of light. Orbits in the skull.
+
+p: Your eyes do a lot.
+
+quiz: Which cells work mainly in dim light?
+- Cones
++ Rods
+- Lenses
+explain: Rods work mainly in dim light and give you black-and-white vision.
+
+quiz: What are the bony cavities that hold the eyes called?
+- The valves
++ The orbits
+- The ridges
+explain: These cavities are called the orbits.
+
+quiz: What do cones give you the sharp vision to do?
+- Sleeping
++ Reading
+- Swimming
+explain: They give the sharp vision you use for reading.
+
+quiz: Which color is at the short end of the light you can see?
+- Red
++ Violet
+- Green
+explain: Violet is at the short end, 380 to 450 nm.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== body-ears
+idea: Your ear hears and keeps your balance, and tiny bones inside it make sound stronger.
+
+game: Ossicles = The three smallest bones in the body | Cochlea = A spiral-shaped part of the inner ear | Earwax = Cleans the ear canal | Ear = Lets you hear and keep balance
+
+--- 👂
+p: In mammals, the ear lets you hear.
+
+fact: It also helps your body keep its balance.
+
+check: What two jobs does the ear do in mammals?
+- Smelling and tasting
++ Hearing and balance
+- Seeing and touching
+hint: Look at the box. The answer is there.
+explain: It also helps your body keep its balance.
+
+--- 🔧
+p: The middle ear holds the three smallest bones in your body, called the ossicles.
+
+term: ossicles = The three smallest bones in your body, in the middle ear.
+
+fact: They are the malleus, incus and stapes, also called the hammer, anvil and stirrup.
+
+check: What are the three smallest bones in your body called?
+- The vertebrae
++ The ossicles
+- The ribs
+hint: Look at the paragraph. The answer is there.
+explain: The middle ear holds the three smallest bones in your body, called the ossicles.
+
+--- ⚙️
+p: The ossicles make sound waves stronger.
+
+fact: They make them nearly 15 to 20 times stronger.
+
+check: How much do the ossicles make sound waves stronger?
+- Only about twice
++ Nearly 15 to 20 times
+- Almost a thousand times
+hint: Look at the box. The answer is there.
+explain: They make them nearly 15 to 20 times stronger.
+
+--- 🧩
+p: The ear canal stretches for about 1 inch (2.5 cm).
+
+fact: It is cleaned by earwax, which naturally moves out toward the outer ear.
+
+check: What is the length of the ear canal?
+- About 10 inches
++ About 1 inch
+- Nearly 1 foot
+hint: Look at the paragraph. The answer is there.
+explain: The ear canal stretches for about 1 inch (2.5 cm).
+
+--- 🧰
+p: The cochlea is the part of the inner ear involved in hearing.
+
+fact: It is a spiral-shaped cavity that makes 2.75 turns in humans.
+
+--- 💡
+p: Your brain compares when a sound reaches each ear and how loud it is in each ear.
+
+fact: That helps it work out where the sound came from.
+
+--- 🔎
+p: An ear for hearing and balance. Three small bones. Sound waves made stronger. An ear canal with earwax. A spiral cochlea.
+
+p: Your ears help you.
+
+quiz: What cleans the ear canal?
+- Fresh water
++ Earwax
+- Plain soap
+explain: It is cleaned by earwax, which naturally moves out toward the outer ear.
+
+quiz: What shape is the cochlea?
+- Square
++ Spiral
+- Flat
+explain: It is a spiral-shaped cavity that makes 2.75 turns in humans.
+
+quiz: How many turns does the cochlea make in humans?
+- 27.5 turns
++ 2.75 turns
+- 0.25 turns
+explain: It is a spiral-shaped cavity that makes 2.75 turns in humans.
+
+quiz: How many bones are the ossicles?
+- Two
++ Three
+- Twelve
+explain: The middle ear holds the three smallest bones in your body, called the ossicles.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== body-teeth
+idea: Your teeth are covered in the hardest substance in your body, but sugar can still harm them.
+
+game: Enamel = The hardest substance in the human body | Dentin = Supports the enamel | Baby teeth = The first set of teeth | Bacteria = Use simple sugars in food for energy
+
+--- 🦷
+p: A baby's first set of teeth is called baby teeth or milk teeth.
+
+term: milk teeth = A baby's first set of teeth.
+
+fact: They normally start to appear at about six months of age.
+
+check: At about what age do baby teeth start to appear?
+- About six years
++ About six months
+- About sixty days
+hint: Look at the box. The answer is there.
+explain: They normally start to appear at about six months of age.
+
+--- 📏
+p: Enamel is the hardest substance in the human body.
+
+fact: It is 96% mineral. The rest is water and organic material.
+
+check: What is the hardest substance in the human body?
+- Bone
++ Enamel
+- Dentin
+hint: Look at the paragraph. The answer is there.
+explain: Enamel is the hardest substance in the human body.
+
+--- ⚙️
+p: The large amount of mineral in enamel makes it strong.
+
+fact: It also makes it brittle.
+
+check: What does the mineral in enamel make it besides strong?
+- Soft
++ Brittle
+- Stretchy
+hint: Look at the box. The answer is there.
+explain: It also makes it brittle.
+
+--- 🔧
+p: Under the enamel is dentin.
+
+fact: It is less mineralized and less brittle, and it supports the enamel.
+
+check: What layer supports the enamel?
+- Plaque
++ Dentin
+- Gum
+hint: Look at the paragraph. The answer is there.
+explain: Under the enamel is dentin.
+
+--- 🍽️
+p: Bacteria in the mouth use the simple sugars in food for energy.
+
+fact: A diet high in simple sugar raises the risk of tooth decay.
+
+--- 📐
+p: As of 2016, about 3.6 billion people had cavities in their permanent teeth.
+
+fact: That is 48% of all the people in the world.
+
+--- 🔎
+p: Baby teeth at six months. Enamel, the hardest layer. Dentin under it. Bacteria and sugar. Billions with cavities.
+
+p: Teeth need care.
+
+quiz: How much of enamel is mineral?
+- 9.6%
++ 96%
+- 66%
+explain: It is 96% mineral.
+
+quiz: What do bacteria in the mouth use for energy?
+- Plain water and air
++ Simple sugars in food
+- Clean salt and milk
+explain: Bacteria in the mouth use the simple sugars in food for energy.
+
+quiz: About how many people had cavities in their permanent teeth as of 2016?
+- About 36 million
++ About 3.6 billion
+- About 360 thousand
+explain: As of 2016, about 3.6 billion people had cavities in their permanent teeth.
+
+quiz: What does a diet high in simple sugar raise the risk of?
+- Hair loss
++ Tooth decay
+- Bad eyesight
+explain: A diet high in simple sugar raises the risk of tooth decay.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== body-blood
+idea: Blood is about 7% of your body weight, and its watery plasma and its cells each have a job.
+
+game: Plasma = Makes up 55% of blood | Platelets = Take part in blood clotting | Red blood cells = Take up oxygen in the lungs | Capillaries = Where red blood cells squeeze through the body
+
+--- 🩸
+p: Think about the blood in a person's body.
+
+fact: Blood is about 7% of a person's body weight.
+
+check: What share of body weight is blood?
+- About 70%
++ About 7%
+- Nearly half
+hint: Look at the paragraph. The answer is there.
+explain: Blood is about 7% of a person's body weight.
+
+--- ⚙️
+p: Plasma makes up 55% of blood.
+
+term: plasma = The liquid part of blood, mostly water.
+
+fact: It is mostly water, 92% by volume. It also holds proteins, glucose, mineral ions and hormones.
+
+check: What is plasma mostly made of?
+- Protein
++ Water
+- Sugar
+hint: Look at the box. The answer is there.
+explain: It is mostly water, 92% by volume.
+
+--- 🔧
+p: Platelets are also called thrombocytes.
+
+fact: They take part in blood clotting. Platelets help your blood clot.
+
+check: What do platelets help your blood do?
+- Boil
++ Clot
+- Freeze
+hint: Look at the box. The answer is there.
+explain: Platelets help your blood clot.
+
+--- 💨
+p: Platelets circulate in your blood.
+
+fact: Their average life span is 8 to 9 days.
+
+check: How long do platelets live?
+- 8 to 9 years
++ 8 to 9 days
+- 80 to 90 days
+hint: Look at the box. The answer is there.
+explain: Their average life span is 8 to 9 days.
+
+--- 🏃
+p: Red blood cells travel all around the body.
+
+fact: A red blood cell takes about 60 seconds to go once around the body.
+
+--- 🧩
+p: Red blood cells take up oxygen in the lungs.
+
+fact: They release it into the tissues while squeezing through the body's capillaries.
+
+--- 🔎
+p: Blood in your body. Plasma made of water. Platelets that clot. A red blood cell around the body. Oxygen from the lungs.
+
+p: Blood is in your body.
+
+quiz: What share of blood does plasma make up?
+- 5.5%
++ 55%
+- 95%
+explain: Plasma makes up 55% of blood.
+
+quiz: Where do red blood cells take up oxygen?
+- In the skin
++ In the lungs
+- In the feet
+explain: Red blood cells take up oxygen in the lungs.
+
+quiz: About how long does a red blood cell take to go once around the body?
+- About 60 minutes
++ About 60 seconds
+- About 6 days
+explain: A red blood cell takes about 60 seconds to go once around the body.
+
+quiz: What are platelets also called?
+- Lymphocytes
++ Thrombocytes
+- Erythrocytes
+explain: Platelets are also called thrombocytes.

@@ -796,3 +796,674 @@ fact(The written account says): In Genesis 1:14, the lights in the sky are "for 
 p: Think of Galileo's little tube or the giant Webb telescope. Each one is just a tool to help us do what we have always done.
 p: The oldest working instrument is still the naked eye. It is not retired. Bessel’s parallax, Goodricke's timing of Algol, and the Chinese record of the guest star in 1054 all came from watching. So did every constellation ever named.
 
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== astro-astronauts
+idea: A house in space as big as a football field, and the first person ever to travel into space. Meet the astronauts.
+game: Space station = As big as a football field | Yuri Gagarin = First person to travel into space | Gemini 8 = Made the first docking of two spacecraft | Karman line = The international rule for the edge of space
+
+--- 👨‍🚀
+p: The International Space Station is as big as a football field.
+
+fact: It is 358 ft (109 m) by 239 ft (73 m). Inside, it has about as much room as a Boeing 747 airliner.
+
+check: How big is the space station?
+- A tennis court
++ A football field
+- A basketball hoop
+hint: Look at the paragraph. It says how big the station is.
+explain: The International Space Station is as big as a football field.
+
+--- 💨
+p: The space station circles the Earth about every 93 minutes.
+
+fact: It moves at 17,200 mph (27,600 km/h). That is 15.5 trips around the planet every day.
+
+check: How often does the space station circle the Earth?
+- Once each day
++ Every 93 minutes
+- Once each week
+hint: Look at the paragraph. It says how often.
+explain: The space station circles the Earth about every 93 minutes.
+
+--- 🏆
+p: People have lived on the International Space Station without a break since November 2, 2000.
+
+fact: It is the longest continuous human presence in space. Visitors from 26 countries, 290 people in all, have come aboard.
+
+check: How many countries have sent visitors to the space station?
+- 6
++ 26
+- 260
+hint: Look at the box. It gives the number of countries.
+explain: Visitors from 26 countries have come aboard.
+
+--- 📅
+p: On April 12, 1961, Yuri Gagarin became the first person to travel into space.
+
+fact: He circled the Earth one time, and the flight took 108 minutes.
+
+check: How long was Gagarin's flight?
+- 10 minutes
++ 108 minutes
+- 8 hours
+hint: Look at the box. It tells how long the flight took.
+explain: Gagarin's flight took 108 minutes.
+
+--- 🧭
+p: In March 1966, Neil Armstrong flew Gemini 8 with David Scott.
+
+term: docking = Joining two spacecraft together in space.
+
+fact: They made the first docking of two spacecraft in space. A stuck thruster then sent them into a dangerous roll, so the mission ended early.
+
+--- 🥇
+p: In the United States, a person earns astronaut wings by flying above 50 miles (80 km).
+
+fact: The international rule is higher: the Karman line, at 62 miles (100 km).
+
+--- 🔎
+p: A big house in space. A first flight around the Earth. A docking of two spacecraft. Wings for flying high.
+
+p: Astronauts fly higher than 50 miles.
+
+quiz: Who was the first person to travel into space?
+- Neil Armstrong
++ Yuri Gagarin
+- David Scott
+explain: Yuri Gagarin became the first person to travel into space on April 12, 1961.
+
+quiz: How many trips around the Earth does the space station make every day?
+- 1.5
++ 15.5
+- 155
+explain: The space station makes 15.5 trips around the planet every day.
+
+quiz: How high is the Karman line?
+- 6 miles
++ 62 miles
+- 620 miles
+explain: The Karman line is at 62 miles (100 km).
+
+quiz: What did Armstrong and Scott make on Gemini 8?
+- The first space walk
++ The first docking
+- The first moon landing
+explain: They made the first docking of two spacecraft in space.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== astro-jupiter
+idea: Jupiter has nearly 2.5 times the mass of all the other planets put together. Meet its giant storm and its four big moons.
+game: Great Red Spot = Giant storm on Jupiter | Hydrogen = Most of Jupiter's air | Ganymede = One of the four big moons | Binoculars = Show you the four big moons
+
+--- 🟤
+p: Jupiter is 11 times as wide as Earth.
+
+fact: It has nearly 2.5 times the mass of all the other planets put together.
+
+check: How many times wider than Earth is Jupiter?
+- 2 times
++ 11 times
+- 100 times
+hint: Look at the paragraph. It gives the number.
+explain: Jupiter is 11 times as wide as Earth.
+
+--- 🌀
+p: The Great Red Spot is a giant storm on Jupiter.
+
+fact: Its winds blow up to 308 mph (496 km/h). People first saw it in September 1831.
+
+check: How fast do the winds blow in the Great Red Spot?
+- 30 mph
++ 308 mph
+- 3,080 mph
+hint: Look at the box. It gives the speed of the wind.
+explain: The winds in the Great Red Spot blow up to 308 mph (496 km/h).
+
+--- ☀️
+p: The Great Red Spot is red-orange because of a kind of sunburn.
+
+fact: Sunlight blasts chemicals high up in Jupiter's clouds.
+
+check: What makes the Great Red Spot red-orange?
+- Red sand blowing around
++ A kind of sunburn
+- Hot red lava
+hint: Look at the paragraph. It says what makes the color.
+explain: The Great Red Spot is red-orange because of a kind of sunburn.
+
+--- 🧪
+p: Jupiter's air is 76% hydrogen and 24% helium.
+
+term: helium = A gas that makes up 24% of Jupiter's air.
+
+fact: It also has a little ammonia, water vapor and other gases.
+
+check: How much of Jupiter's air is hydrogen?
+- 7%
++ 76%
+- 24%
+hint: Look at the paragraph. It gives the share of hydrogen.
+explain: Jupiter's air is 76% hydrogen.
+
+--- 🌙
+p: Jupiter has four big moons.
+
+fact: Their names are Ganymede, Callisto, Io and Europa. You can see them with binoculars. Astronomers found them in 1610.
+
+check: In what year did astronomers find Jupiter's four big moons?
+- 1010
++ 1610
+- 1910
+hint: Look at the box. It gives the year.
+explain: Astronomers found the four big moons in 1610.
+
+--- 📅
+p: One year on Jupiter is 11.86 Earth years long.
+
+fact: That is how long Jupiter takes to go once around the Sun.
+
+--- 🔎
+p: A giant planet. A giant storm. A red-orange glow. Gas and four big moons.
+
+p: Jupiter is big.
+
+quiz: What is the Great Red Spot?
+- A moon of Jupiter
++ A giant storm on Jupiter
+- A mountain on Jupiter
+explain: The Great Red Spot is a giant storm on Jupiter.
+
+quiz: Which gas is 76% of Jupiter's air?
+- Helium
++ Hydrogen
+- Ammonia
+explain: Jupiter's air is 76% hydrogen and 24% helium.
+
+quiz: Which is one of Jupiter's four big moons?
+- Saturn
++ Europa
+- Mars
+explain: Their names are Ganymede, Callisto, Io and Europa.
+
+quiz: How long is one year on Jupiter?
+- 1.86 Earth years
++ 11.86 Earth years
+- 118.6 Earth years
+explain: One year on Jupiter is 11.86 Earth years long.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== astro-mars
+idea: Mars is called the Red Planet because it looks orange-red. It is a desert-like world with a giant volcano and a very long canyon.
+game: Red Planet = Mars looks orange-red | Olympus Mons = Giant volcano on Mars | Valles Marineris = Very long canyon on Mars | Phobos = Tiny moon of Mars | Thin air = Only a few thousandths as heavy as Earth's
+
+--- 🔴
+p: Mars is called the Red Planet because it looks orange-red.
+
+fact: It is a rocky, desert-like world with very thin air, mostly carbon dioxide.
+
+check: Why is Mars called the Red Planet?
+- It is covered with red water
++ It looks orange-red
+- It is the closest planet to the Sun
+hint: Look at the paragraph. It says why.
+explain: Mars is called the Red Planet because it looks orange-red.
+
+--- 📏
+p: Mars is about half as wide as Earth. It is 4,212 mi (6,779 km) across.
+
+fact: Its gravity is only about a third of Earth's.
+
+check: How strong is the gravity on Mars compared with Earth's?
+- Twice as strong
++ A third
+- The same
+hint: Look at the box. It tells how strong the gravity is.
+explain: The gravity on Mars is only about a third of Earth's.
+
+--- 🌡️
+p: The air on Mars can be as cold as -243°F (-153°C) and as warm as 68°F (20°C).
+
+fact: The air is very thin, only a few thousandths as heavy as Earth's.
+
+check: How thick is the air on Mars compared with Earth's?
+- About half as thick
++ A few thousandths
+- Twice as thick
+hint: Look at the box. It gives the exact comparison.
+explain: The air on Mars is only a few thousandths as heavy as Earth's.
+
+--- 🌋
+p: Olympus Mons is a giant volcano on Mars.
+
+fact: It is 69,840 ft (21.287 km) high, about 2.5 times as tall as Mount Everest.
+
+check: What is the tallest volcano on Mars called?
+- Mount Everest
++ Olympus Mons
+- Valles Marineris
+hint: Look at the paragraph. It names the volcano.
+explain: Olympus Mons is a giant volcano on Mars.
+
+--- 🏜️
+p: Mars has a canyon called Valles Marineris.
+
+term: canyon = A very long place in the ground, like Valles Marineris.
+
+fact: It is 2,500 mi (4,000 km) long. It is one of the largest canyons in the Solar System.
+
+--- 🌙
+p: Phobos is a tiny moon of Mars.
+
+fact: It races around Mars in just 7 hours and 39 minutes. From Mars, it rises in the west and sets in the east, twice every Martian day.
+
+check: Where does Phobos set?
+- In the west
++ In the east
+- It never sets
+hint: Look at the box. It says where Phobos sets.
+explain: From Mars, Phobos rises in the west and sets in the east.
+
+--- 🔎
+p: A red planet. Thin air. A giant volcano. A long canyon. A tiny moon that races.
+
+p: Mars is a world with a lot to see.
+
+quiz: How wide is Mars compared with Earth?
+- Twice as wide
++ About half as wide
+- The same width
+explain: Mars is about half as wide as Earth.
+
+quiz: What is Olympus Mons?
+- A moon of Mars
++ A giant volcano on Mars
+- A canyon on Mars
+explain: Olympus Mons is a giant volcano on Mars.
+
+quiz: How long is Valles Marineris?
+- 25 miles
++ 2,500 miles
+- 250,000 miles
+explain: Valles Marineris is 2,500 mi (4,000 km) long.
+
+quiz: How long does Phobos take to go around Mars?
+- 7 days
++ 7 hours and 39 minutes
+- 39 hours
+explain: Phobos races around Mars in just 7 hours and 39 minutes.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== astro-saturn
+idea: Saturn is almost as big as Jupiter, but it has only an eighth of Earth's density. Meet its rings and its giant moon Titan.
+game: Rings = Made mostly of ice | Galileo = First person to see the rings | Christiaan Huygens = First to describe the rings as a disk | Titan = Bigger than the planet Mercury
+
+--- 🪐
+p: Saturn has only an eighth of Earth's density.
+
+fact: But it is over 95 times more massive than Earth. It is almost as big as Jupiter, with less than a third of Jupiter's mass.
+
+check: How much of Earth's density does Saturn have?
+- Twice as much
++ An eighth
+- The same
+hint: Look at the paragraph. It gives the share.
+explain: Saturn has only an eighth of Earth's density.
+
+--- 🌬️
+p: The wind blows hard on Saturn.
+
+fact: Winds on Saturn can blow as fast as 1,100 mph (1,800 km/h).
+
+check: How fast can the winds on Saturn blow?
+- 11 mph
++ 1,100 mph
+- 110,000 mph
+hint: Look at the box. It gives the speed.
+explain: Winds on Saturn can blow as fast as 1,100 mph (1,800 km/h).
+
+--- 💍
+p: Saturn has a system of rings.
+
+term: rings = Flat bands of ice and dust that circle Saturn.
+
+fact: Its rings are made mostly of ice, with some rocky bits and dust. At least 293 moons orbit Saturn, and 63 of them have official names.
+
+check: What are Saturn's rings made of?
+- Gold
++ Ice
+- Sand
+hint: Look at the box. It says what the rings are made of.
+explain: The rings are made mostly of ice, with some rocky bits and dust.
+
+--- 🔭
+p: In 1610, Galileo became the first person to see Saturn's rings.
+
+fact: But he could not see them well enough to tell what they were. In 1655, Christiaan Huygens was the first to describe them as a disk around Saturn.
+
+check: Who first described the rings as a disk?
+- Galileo Galilei
++ Christiaan Huygens
+- Nobody ever did
+hint: Look at the box. It names the person.
+explain: In 1655, Christiaan Huygens was the first to describe the rings as a disk.
+
+--- 🌫️
+p: Titan is Saturn's largest moon.
+
+fact: It is bigger than the planet Mercury. It is the only moon in the Solar System with a thick atmosphere.
+
+--- ⏳
+p: A year on Saturn is 29.45 Earth years long.
+
+fact: That is how long Saturn takes to go once around the Sun.
+
+--- 🔎
+p: A planet that is light for its size. Fast winds. Rings of ice. A big moon with thick air.
+
+p: Saturn is big.
+
+quiz: How many times more massive than Earth is Saturn?
+- 9 times
++ Over 95 times
+- 950 times
+explain: Saturn is over 95 times more massive than Earth.
+
+quiz: What are the rings mostly made of?
+- Gas
++ Ice
+- Rock
+explain: The rings are made mostly of ice.
+
+quiz: Which is Saturn's largest moon?
+- Mercury
++ Titan
+- Jupiter
+explain: Titan is Saturn's largest moon.
+
+quiz: How long is one year on Saturn?
+- 2.945 Earth years
++ 29.45 Earth years
+- 294.5 Earth years
+explain: A year on Saturn is 29.45 Earth years long.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== astro-venus
+idea: Venus is the hottest planet, even though Mercury is closer to the Sun. Meet two small planets close to the Sun.
+game: Venus = The hottest planet | Mercury = The smallest planet | Morning star = What people call Venus | Atmosphere = The air around a planet
+
+--- 🔥
+p: Venus is the hottest planet.
+
+term: atmosphere = The air around a planet.
+
+fact: The atmosphere at its surface is 867°F (464°C), and the pressure is 92 times greater than Earth's.
+
+check: Which planet is the hottest?
+- Mercury
++ Venus
+- Earth
+hint: Look at the paragraph. It names the planet.
+explain: Venus is the hottest planet.
+
+--- ⏳
+p: A day on Venus lasts 116.75 Earth days.
+
+fact: That is about half of a Venus year, which is 224.7 Earth days long.
+
+check: How long is a day on Venus?
+- 11.675 Earth days
++ 116.75 Earth days
+- 1,167 Earth days
+hint: Look at the paragraph. It gives the length of a day.
+explain: A day on Venus lasts 116.75 Earth days.
+
+--- 🙃
+p: Venus has no moons.
+
+fact: It also spins very slowly, and backward.
+
+check: How many moons does Venus have?
+- Two moons
++ No moons
+- Many moons
+hint: Look at the paragraph. It says how many.
+explain: Venus has no moons.
+
+--- ⭐
+p: People call Venus the morning star or the evening star.
+
+fact: Venus shines brighter than any other point of light in the sky.
+
+check: What do people call Venus in the morning?
+- A very big moon
++ The morning star
+- A tiny red sun
+hint: Look at the paragraph. It gives the name.
+explain: People call Venus the morning star or the evening star.
+
+--- 📏
+p: Mercury is the smallest planet in the Solar System.
+
+fact: It is 3,030 mi (4,880 km) across, and its biggest crater is about a third as wide as the whole planet.
+
+--- 🥶
+p: Mercury is the closest planet to the Sun, but Venus is hotter.
+
+fact: Mercury has no air to hold heat, so near its equator it goes from -270°F at night to 790°F in sunlight (-170°C to 420°C).
+
+--- 🔎
+p: A very hot planet. A long day. No moons. A bright star. A small planet.
+
+p: Venus is hotter than Mercury.
+
+quiz: Which planet is the smallest in the Solar System?
+- Venus
++ Mercury
+- Earth
+explain: Mercury is the smallest planet in the Solar System.
+
+quiz: How many moons does Venus have?
+- One
++ None
+- Two
+explain: Venus has no moons.
+
+quiz: Why is Mercury cooler than Venus?
+- It has no sunlight
++ It has no air to hold heat
+- It spins backward
+explain: Mercury has no air to hold heat.
+
+quiz: How long is a Venus year?
+- 22.47 Earth days
++ 224.7 Earth days
+- 2,247 Earth days
+explain: A Venus year is 224.7 Earth days long.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== astro-eclipses
+idea: A total solar eclipse can last over 7 minutes, but in any one place you would wait 360 to 410 years to see one. Find out about solar and lunar eclipses.
+game: Solar eclipse = Seen from only a small part of the world | Lunar eclipse = The Moon looks orange or red | Totality = Can last over 7 minutes | Shadow track = Up to 166 mi (267 km) wide
+
+--- 🌑
+p: A total solar eclipse happens somewhere on Earth about every 18 months.
+
+fact: But in any one place, you would wait 360 to 410 years to see one.
+
+check: About how often does a total solar eclipse happen somewhere on Earth?
+- Several times a year
++ Every 18 months
+- Once each decade
+hint: Look at the paragraph. It says how often.
+explain: A total solar eclipse happens somewhere on Earth about every 18 months.
+
+--- 🤔
+p: A solar eclipse can only be seen from a small part of the world.
+
+fact: That is why most people never see one.
+
+check: How much of the world can see a solar eclipse?
+- All of it
++ A small part
+- Half of it
+hint: Look at the paragraph. It says how much.
+explain: A solar eclipse can only be seen from a small part of the world.
+
+--- 📏
+p: A total solar eclipse can last over 7 minutes.
+
+term: track = The path the Moon's shadow makes on Earth.
+
+fact: The Moon's shadow track on Earth can be up to 166 mi (267 km) wide.
+
+check: How long can a total solar eclipse last?
+- Only 7 seconds
++ Over 7 minutes
+- Nearly 7 hours
+hint: Look at the paragraph. It says how long.
+explain: A total solar eclipse can last over 7 minutes.
+
+--- 🔴
+p: During a lunar eclipse, the Moon looks orange or red.
+
+fact: The sunlight reaching it first passes through Earth's air, which removes blue and violet light.
+
+check: What color does the Moon turn in a lunar eclipse?
+- Bright blue
++ Orange or red
+- Pure white
+hint: Look at the paragraph. It names the color.
+explain: During a lunar eclipse, the Moon looks orange or red.
+
+--- 👀
+p: You can watch a lunar eclipse without eye protection.
+
+fact: It can be seen from anywhere on the night side of Earth, and it often lasts an hour or longer.
+
+--- 💨
+p: The Moon moves about 2,300 mph (1.03 km/s) around Earth.
+
+fact: That is why a total lunar eclipse can last up to nearly 107 minutes.
+
+--- 🔎
+p: A dark day. A small part of the world. A red Moon. An hour or longer.
+
+p: An eclipse is a big show.
+
+quiz: What color does the Moon look in a lunar eclipse?
+- Green
++ Orange or red
+- Black
+explain: During a lunar eclipse, the Moon looks orange or red.
+
+quiz: How long can a total lunar eclipse last?
+- 10 minutes
++ Up to 107 minutes
+- 7 minutes
+explain: A total lunar eclipse can last up to nearly 107 minutes.
+
+quiz: How wide can the Moon's shadow track be?
+- 16 mi
++ 166 mi
+- 1,660 mi
+explain: The Moon's shadow track can be up to 166 mi (267 km) wide.
+
+quiz: How long would you wait in one place to see a total solar eclipse?
+- 3 to 4 years
++ 360 to 410 years
+- 36 to 41 years
+explain: In any one place, you would wait 360 to 410 years.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== astro-rockets
+idea: From gunpowder rockets in China to a spacecraft that has entered interstellar space. See how rockets took people to the Moon.
+game: Gunpowder = Powered the first rockets | Saturn V = Carried Apollo 11 to the Moon | Command module = The part that came back to Earth | Voyager 1 = First to enter interstellar space | Space Shuttle = Flew 135 missions
+
+--- 🚀
+p: Rockets powered by gunpowder were used in China by the 13th century, under the Song dynasty.
+
+fact: The idea then spread to the Middle East and to Europe.
+
+check: Where were gunpowder rockets first used?
+- Europe
++ China
+- Florida
+hint: Look at the paragraph. It names the country.
+explain: Rockets powered by gunpowder were used in China by the 13th century.
+
+--- 🌕
+p: Apollo 11 was the spaceflight that first landed people on the Moon.
+
+fact: It lifted off on a Saturn V rocket from Florida on July 16, 1969, and returned on July 24.
+
+check: What rocket carried Apollo 11 into space?
+- A Space Shuttle
++ A Saturn V
+- A gunpowder rocket
+hint: Look at the box. It names the rocket.
+explain: Apollo 11 lifted off on a Saturn V rocket.
+
+--- 🧩
+p: Only the command module, which held the three astronauts, came back to Earth.
+
+fact: The Apollo spacecraft had three parts.
+
+check: Which part of the Apollo spacecraft came back to Earth?
+- The whole rocket
++ The command module
+- The flag
+hint: Look at the paragraph. It names the part.
+explain: Only the command module came back to Earth.
+
+--- 👨‍🚀
+p: Neil Armstrong and Buzz Aldrin spent about two and a half hours walking on the Moon.
+
+fact: They planted a flag, set up science instruments, and collected 47.5 lb (21.5 kg) of Moon material.
+
+check: How long did Armstrong and Aldrin walk on the Moon?
+- A few short minutes
++ Two and a half hours
+- Almost two whole days
+hint: Look at the paragraph. It tells how long.
+explain: They spent about two and a half hours walking on the Moon.
+
+--- 🛸
+p: Voyager 1 is the most distant human-made object.
+
+term: interstellar = The kind of space that Voyager 1 entered in 2012.
+
+fact: In 2026 it was 15.9 billion mi (25.6 billion km) from Earth. On August 25, 2012, it became the first spacecraft to enter interstellar space.
+
+--- 🛰️
+p: The Space Shuttle program built five orbiters and flew them on 135 missions from 1981 to 2011.
+
+fact: They launched satellites, space probes and the Hubble Space Telescope.
+
+--- 🔎
+p: A gunpowder rocket. A trip to the Moon. A far spacecraft. Shuttles with a telescope.
+
+p: Rockets have come a long way.
+
+quiz: Which spacecraft was the first to enter interstellar space?
+- Apollo 11
++ Voyager 1
+- The Space Shuttle
+explain: Voyager 1 became the first spacecraft to enter interstellar space.
+
+quiz: How many missions did the Space Shuttles fly?
+- 13
++ 135
+- 1,350
+explain: The Space Shuttle program flew 135 missions from 1981 to 2011.
+
+quiz: What did Armstrong and Aldrin plant on the Moon?
+- A tent
++ A flag
+- A tree
+explain: They planted a flag on the Moon.
+
+quiz: What powered the first rockets in China?
+- Steam
++ Gunpowder
+- Wind
+explain: Rockets powered by gunpowder were used in China by the 13th century.

@@ -574,3 +574,667 @@ explain: The adventure writer took down what Marco Polo told him in prison.
 p: Ships lost at sea. Stars read like a map. A giraffe in a city. A warship that sank on her first trip. Lemons helped sailors. A book dictated in a prison cell.
 p: All of it part of the voyages that reshaped how people saw the world.
 
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== world-vikings
+idea: The Vikings sailed in longships far from home, and some of them even reached North America.
+
+game: Vikings = First Europeans to reach North America | Vinland = Where the Vikings briefly settled in Newfoundland | Longships = Long slender ships built for speed | Leif Erikson = Gathered a crew of thirty-five men | Erik the Red = Founded the first Norse settlement in Greenland
+
+--- ⚓
+p: The Vikings sailed far from home.
+
+term: voyaged = Went as far as the Mediterranean by ship, like the Vikings.
+
+fact: They voyaged as far as the Mediterranean, North Africa, the Middle East, Greenland, and Vinland, in present-day Newfoundland.
+
+check: Which land did the Vikings call Vinland?
+- Greenland
++ Newfoundland
+- North Africa
+hint: Look at the box. The answer is there.
+explain: They voyaged as far as the Mediterranean, North Africa, the Middle East, Greenland, and Vinland, in present-day Newfoundland.
+
+--- 📅
+p: The Vikings were the first Europeans to reach North America.
+
+fact: They briefly settled in Newfoundland, which they called Vinland.
+
+check: Who were the first Europeans to reach North America?
+- The Romans
++ The Vikings
+- The Greeks
+hint: Look at the paragraph. The answer is there.
+explain: The Vikings were the first Europeans to reach North America.
+
+--- 🏗️
+p: Longships were long, slender ships built for speed.
+
+fact: They could carry a large crew of warriors.
+
+check: What were longships built for?
+- Storage
++ Speed
+- Fishing
+hint: Look at the paragraph. The answer is there.
+explain: Longships were long, slender ships built for speed.
+
+--- 🧑
+p: Leif Erikson bought a ship from Bjarni and gathered a crew of thirty-five men.
+
+fact: Then he set off to find the lands Bjarni had described.
+
+check: How many men were in Leif's crew?
+- Fifteen men
++ Thirty-five men
+- Fifty-five men
+hint: Look at the paragraph. The answer is there.
+explain: Leif Erikson bought a ship from Bjarni and gathered a crew of thirty-five men.
+
+--- 👤
+p: Erik the Red, the father of Leif Erikson, founded the first Norse settlement in Greenland.
+
+fact: Leif was raised there.
+
+--- 🍽️
+p: After wintering in Vinland, Leif returned to Greenland in the spring.
+
+fact: He brought back a cargo of grapes and timber.
+
+--- 🔎
+p: Ships that sailed far. A land called Vinland. Longships built for speed. A crew of thirty-five. A cargo of grapes and timber.
+
+p: The Vikings were bold.
+
+quiz: What did Leif bring back from Vinland?
+- Gold and silver
++ Grapes and timber
+- Wool and cloth
+explain: He brought back a cargo of grapes and timber.
+
+quiz: Who founded the first Norse settlement in Greenland?
+- Leif Erikson
++ Erik the Red
+- Bjarni
+explain: Erik the Red founded the first Norse settlement in Greenland.
+
+quiz: When did Leif return to Greenland?
+- In the autumn
++ In the spring
+- In midwinter
+explain: After wintering in Vinland, Leif returned to Greenland in the spring.
+
+quiz: What kind of ships could carry a large crew of warriors?
+- Rowboats
++ Longships
+- Barges
+explain: Longships could carry a large crew of warriors.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== world-castles
+idea: Castles had walls, arrowslits and gates, and knights wore armor made to fit them.
+
+game: Portcullis = A gate that could be lowered | Knight = A mounted warrior who served a lord | King William = Set up 36 castles | Armorers = Fitted armor to the person who would wear it | Lames = Smaller individual plates of armor
+
+--- 🏰
+p: A castle was a fortified building made in the Middle Ages.
+
+fact: It was built mostly by nobles or royalty, and by military orders.
+
+check: Who built most castles?
+- Farmers and fishers
++ Nobles and royalty
+- Monks and merchants
+hint: Look at the box. The answer is there.
+explain: It was built mostly by nobles or royalty, and by military orders.
+
+--- 🏗️
+p: Castles took many forms in the Middle Ages.
+
+fact: Some parts, such as curtain walls, arrowslits and portcullises, were common. A portcullis was a gate that could be lowered.
+
+check: Which castle part was a gate that could be lowered?
+- A curtain wall
++ A portcullis
+- An arrowslit
+hint: Look at the box. The answer is there.
+explain: A portcullis was a gate that could be lowered.
+
+--- 📅
+p: Between 1066 and 1087, King William set up 36 castles, such as Warwick Castle.
+
+fact: He used them to guard against rebellion in the English Midlands.
+
+check: How many castles did King William set up between 1066 and 1087?
+- 3
++ 36
+- 360
+hint: Look at the paragraph. The answer is there.
+explain: Between 1066 and 1087, King William set up 36 castles, such as Warwick Castle.
+
+--- 🧑
+p: Knights were mounted warriors.
+
+term: vassal = A person who served a lord.
+
+fact: Often a knight was a vassal who served a lord as an elite fighter or a bodyguard. His payment was land.
+
+check: How was a knight often paid?
+- With gold coins
++ With land
+- With fine horses
+hint: Look at the box. The answer is there.
+explain: His payment was land.
+
+--- ⏳
+p: Plate armor was developed in Europe.
+
+fact: By about 1420, complete suits of plate armor had been developed.
+
+--- 🧱
+p: Armorers fitted armor to the person who would wear it, like a tailor.
+
+fact: They made parts that needed to bend from smaller individual plates called lames.
+
+--- 🔎
+p: A fortified building. A gate that could be lowered. Castles for a king. A knight paid with land. Plate armor made by armorers.
+
+p: Castles and knights.
+
+quiz: What did King William use his castles to guard against?
+- Bad weather
++ Rebellion
+- Heavy floods
+explain: He used them to guard against rebellion in the English Midlands.
+
+quiz: What were the smaller individual plates of armor called?
+- Helms
++ Lames
+- Greaves
+explain: They made parts that needed to bend from smaller individual plates called lames.
+
+quiz: What did armorers fit armor to?
+- The horse that would carry it
++ The person who would wear it
+- The castle that would hold it
+explain: Armorers fitted armor to the person who would wear it, like a tailor.
+
+quiz: What was a knight, often, to a lord?
+- A farmer
++ A vassal
+- A baker
+explain: Often a knight was a vassal who served a lord.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== world-silkroad
+idea: The Silk Road got its name from trade in silk. Meet Marco Polo, and a camel that can drink up to 53 gallons in a day.
+
+game: Silk Road = Named for the trade in silk | Richthofen = Made the name Silk Road popular | Marco Polo = Lived 17 years in the emperor's lands | Bactrian camel = The largest mammal in its native range
+
+--- 🐫
+p: The Silk Road got its name from the valuable trade in silk.
+
+term: silk = A valuable cloth that was first developed in China.
+
+fact: Silk was first developed in China.
+
+check: What gave the Silk Road its name?
+- The color of the road
++ The trade in silk
+- The shape of the mountains
+hint: Look at the paragraph. The answer is there.
+explain: The Silk Road got its name from the valuable trade in silk.
+
+--- 🧑
+p: The name Silk Road was made popular in 1877 by Ferdinand von Richthofen.
+
+fact: He made seven expeditions to China from 1868 to 1872.
+
+check: Who made the name Silk Road popular in 1877?
+- Marco Polo of Venice
++ Ferdinand von Richthofen
+- Leif Erikson of Greenland
+hint: Look at the paragraph. The answer is there.
+explain: The name Silk Road was made popular in 1877 by Ferdinand von Richthofen.
+
+--- 👤
+p: Marco Polo traveled widely inside China.
+
+fact: He lived in the emperor's lands for 17 years and saw many things that Europeans had never known.
+
+check: How many years did Marco Polo live in the emperor's lands?
+- 7 years
++ 17 years
+- 70 years
+hint: Look at the box. The answer is there.
+explain: He lived in the emperor's lands for 17 years and saw many things that Europeans had never known.
+
+--- 👑
+p: In 1269, Niccolò and Maffeo Polo came home to Venice and met young Marco for the first time.
+
+fact: By then Marco was 21 years old.
+
+check: How old was Marco Polo when he met Niccolò and Maffeo for the first time?
+- 12 years old
++ 21 years old
+- 31 years old
+hint: Look at the box. The answer is there.
+explain: By then Marco was 21 years old.
+
+--- 📏
+p: The Bactrian camel is the largest mammal in its native range.
+
+fact: At the top of the humps, its average height is 6.99 ft (213 cm).
+
+--- 👀
+p: A thirsty camel can drink in a hot, dry season.
+
+fact: It can drink up to 53 US gallons (200 L) of water in one day.
+
+--- 🔎
+p: A name from silk. A man who made it popular. Marco Polo in China. A camel with humps. A thirsty camel.
+
+p: The Silk Road was long.
+
+quiz: In what year did Ferdinand von Richthofen make the name Silk Road popular?
+- 1787
++ 1877
+- 1778
+explain: The name Silk Road was made popular in 1877 by Ferdinand von Richthofen.
+
+quiz: How tall is a Bactrian camel at the top of the humps, on average?
+- About 2 ft
++ 6.99 ft (213 cm)
+- Nearly 12 feet
+explain: At the top of the humps, its average height is 6.99 ft (213 cm).
+
+quiz: How much water can a thirsty camel drink in one day?
+- Only about 5 gallons
++ Up to 53 US gallons (200 L)
+- Over 530 gallons in total
+explain: It can drink up to 53 US gallons (200 L) of water in one day.
+
+quiz: How many expeditions did Richthofen make to China from 1868 to 1872?
+- Three
++ Seven
+- Twelve
+explain: He made seven expeditions to China from 1868 to 1872.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== world-china
+idea: The Great Wall, the Terracotta Army and the first paper money.
+
+game: Great Wall = A series of fortifications in China | Terracotta Army = More than 8,000 soldiers in three pits | Generals = The tallest Terracotta Army figures | Song dynasty = First government to issue paper currency
+
+--- 🐉
+p: The Great Wall of China is a series of fortifications in China.
+
+term: fortifications = A series of walls and towers built to protect, like the Great Wall.
+
+fact: They were built across the northern borders of ancient Chinese states, to protect against nomadic groups.
+
+check: What was the Great Wall built to protect against?
+- Rising floods
++ Nomadic groups
+- Strong winds
+hint: Look at the box. The answer is there.
+explain: They were built across the northern borders of ancient Chinese states, to protect against nomadic groups.
+
+--- 🏗️
+p: The Great Wall had watchtowers, troop barracks and garrison stations.
+
+fact: It could send signals with smoke or fire.
+
+check: What did the Great Wall use to send signals?
+- Flags or drums
++ Smoke or fire
+- Birds or mirrors
+hint: Look at the box. The answer is there.
+explain: It could send signals with smoke or fire.
+
+--- 📏
+p: The three pits of the Terracotta Army hold more than 8,000 soldiers.
+
+fact: There are also 130 chariots with 520 horses, and 150 cavalry horses.
+
+check: How many soldiers do the pits of the Terracotta Army hold?
+- Fewer than 800
++ More than 8,000
+- About 80,000
+hint: Look at the paragraph. The answer is there.
+explain: The three pits of the Terracotta Army hold more than 8,000 soldiers.
+
+--- 🏺
+p: The tallest figures in the Terracotta Army are the generals.
+
+fact: The figures vary in height according to their rank.
+
+check: Which figures in the Terracotta Army are the tallest?
+- The soldiers
++ The generals
+- The horses
+hint: Look at the paragraph. The answer is there.
+explain: The tallest figures in the Terracotta Army are the generals.
+
+--- 📅
+p: Meet the Song dynasty.
+
+fact: It was the first government to issue paper currency.
+
+--- 🧱
+p: A Song dynasty book describes a magnetic navigation device.
+
+fact: It was an iron south-pointing fish floating in a bowl of water.
+
+--- 🔎
+p: A long wall. Smoke signals. Soldiers in pits. Tall generals. Paper money. A fish in water.
+
+p: China had big ideas.
+
+quiz: How many chariots are there at the Terracotta Army?
+- 13
++ 130
+- 1,300
+explain: There are also 130 chariots with 520 horses, and 150 cavalry horses.
+
+quiz: What did the Song dynasty issue first?
+- Silver coins
++ Paper currency
+- Bronze bells
+explain: It was the first government to issue paper currency.
+
+quiz: What was the south-pointing fish made of?
+- Wood
++ Iron
+- Clay
+explain: It was an iron south-pointing fish floating in a bowl of water.
+
+quiz: What did the Great Wall have?
+- Windmills
++ Watchtowers
+- Lighthouses
+explain: The Great Wall had watchtowers, troop barracks and garrison stations.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== world-renaissance
+idea: An artist who filled notebooks, a sculptor, and a man who built a telescope.
+
+game: Leonardo = Painted the Mona Lisa | Michelangelo = Sculpted the Pietà and David | Galileo = Built a telescope | Apprentice = Leonardo was one by the age of 17
+
+--- 🎨
+p: Leonardo da Vinci was a painter.
+
+term: notebooks = Books where Leonardo drew and wrote about what he saw.
+
+fact: He also kept notebooks. In them he drew and wrote about the body, the stars, plants and maps.
+
+check: What is Leonardo da Vinci known for besides painting?
+- His sculptures
++ His notebooks
+- His violins
+hint: Look at the box. The answer is there.
+explain: He also kept notebooks.
+
+--- 🏺
+p: Leonardo painted the Mona Lisa.
+
+fact: It is regarded as the world's most famous painting. His Last Supper is the most reproduced religious painting.
+
+check: What is the world's most famous painting?
+- The Last Supper
++ The Mona Lisa
+- The Sistine Ceiling
+hint: Look at the paragraph. The answer is there.
+explain: Leonardo painted the Mona Lisa.
+
+--- 🧑
+p: Leonardo became an apprentice by the age of 17.
+
+fact: He remained in training for seven years.
+
+check: At what age did Leonardo become an apprentice?
+- Age 7
++ Age 17
+- Age 27
+hint: Look at the paragraph. The answer is there.
+explain: Leonardo became an apprentice by the age of 17.
+
+--- 👤
+p: Michelangelo was a sculptor.
+
+fact: Two of his best-known works, the Pietà and David, were sculpted before he was 30.
+
+check: Which two famous sculptures did Michelangelo make before he was 30?
+- The Mona Lisa and Last Supper
++ The Pietà and David
+- The telescope and the notebooks
+hint: Look at the box. The answer is there.
+explain: Two of his best-known works, the Pietà and David, were sculpted before he was 30.
+
+--- 🪙
+p: Michelangelo did not think of himself as a painter.
+
+fact: Still, he painted scenes from Genesis on the ceiling of the Sistine Chapel in Rome, and The Last Judgment on its altar wall.
+
+--- 👑
+p: Galileo built a telescope.
+
+fact: He saw the stars of the Milky Way, the phases of Venus and the four largest moons of Jupiter. He also saw Saturn's rings and sunspots.
+
+--- 🔎
+p: Notebooks full of drawings. The Mona Lisa. An apprentice of 17. The Pietà and David. A ceiling in Rome. A telescope.
+
+p: Artists and thinkers.
+
+quiz: What did Galileo build?
+- A printing press
++ A telescope
+- A sailing ship
+explain: Galileo built a telescope.
+
+quiz: Where is the Sistine Chapel?
+- In Paris
++ In Rome
+- In Venice
+explain: He painted scenes from Genesis on the ceiling of the Sistine Chapel in Rome.
+
+quiz: What did Michelangelo paint on the altar wall?
+- The Mona Lisa and more
++ The Last Judgment
+- A scene of the Milky Way
+explain: He painted The Last Judgment on the altar wall.
+
+quiz: For how many years did Leonardo remain in training?
+- Two years
++ Seven years
+- Seventeen years
+explain: He remained in training for seven years.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== world-factories
+idea: Machines and steam engines changed how things were made, starting in Great Britain around 1760.
+
+game: Great Britain = Where the Industrial Revolution began | Textiles = The first industry to use modern methods | Newcomen = Built an engine that sold well | James Watt = Developed the idea of horsepower
+
+--- 🏭
+p: The Industrial Revolution began in Great Britain around 1760.
+
+term: revolution = A time of big change, like the Industrial Revolution that began in Great Britain.
+
+fact: By about 1840 it had spread to Europe and the United States.
+
+check: Where did the Industrial Revolution begin?
+- The United States
++ Great Britain
+- Northern Europe
+hint: Look at the paragraph. The answer is there.
+explain: The Industrial Revolution began in Great Britain around 1760.
+
+--- 📅
+p: The textile industry was the first to use modern production methods.
+
+fact: Textiles became the main industry in jobs, in value of output and in money invested.
+
+check: Which industry was the first to use modern production methods?
+- The shipping industry
++ The textile industry
+- The farming industry
+hint: Look at the paragraph. The answer is there.
+explain: The textile industry was the first to use modern production methods.
+
+--- 📏
+p: Mechanized cotton spinning was powered by water and later by steam.
+
+fact: It increased output per worker by a factor of around 500.
+
+check: By about how much did cotton spinning machines increase output per worker?
+- Only twice as much
++ A factor of around 500
+- Nearly a million times
+hint: Look at the box. The answer is there.
+explain: It increased output per worker by a factor of around 500.
+
+--- ⏳
+p: In 1712, Thomas Newcomen built an engine that sold well.
+
+fact: It could give steady power to a machine.
+
+check: Who built an engine that sold well in 1712?
+- Richard Arkwright
++ Thomas Newcomen
+- George Stephenson
+hint: Look at the paragraph. The answer is there.
+explain: In 1712, Thomas Newcomen built an engine that sold well.
+
+--- 🧑
+p: James Watt saw that engines of his day wasted a lot of energy.
+
+fact: They cooled and reheated the cylinder again and again. His separate condenser avoided this waste.
+
+--- 👤
+p: James Watt developed the idea of horsepower.
+
+fact: The unit of power called the watt is named after him.
+
+--- 🔎
+p: A revolution that began in Great Britain. Textiles and cotton spinning. An engine that sold well. A condenser that saved energy. Horsepower and the watt.
+
+p: Machines changed work.
+
+quiz: What powered mechanized cotton spinning?
+- Wind and later oil
++ Water and later steam
+- Horses and later wind
+explain: Mechanized cotton spinning was powered by water and later by steam.
+
+quiz: What unit of power is named after James Watt?
+- The pound
++ The watt
+- The volt
+explain: The unit of power called the watt is named after him.
+
+quiz: What did Watt's separate condenser avoid?
+- Noise
++ Waste
+- Smoke
+explain: His separate condenser avoided this waste.
+
+quiz: In what year did Thomas Newcomen build an engine that sold well?
+- 1721
++ 1712
+- 1172
+explain: In 1712, Thomas Newcomen built an engine that sold well.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== world-africa
+idea: Gold, a king's journey to Mecca, a rich city of books, and a great stone wall in Africa.
+
+game: Mali = Largest empire in West Africa | Mansa Musa = Made a famous pilgrimage to Mecca | Timbuktu = Traded in salt, gold and ivory | Great Zimbabwe = Has walls as high as 36 ft
+
+--- 🌍
+p: At its peak, Mali was the largest empire in West Africa.
+
+term: empire = A large area with one ruler, like the largest empire in West Africa.
+
+fact: It spread its language, laws and customs across the region.
+
+check: What was the largest empire in West Africa at its peak?
+- Egypt
++ Mali
+- Persia
+hint: Look at the paragraph. The answer is there.
+explain: At its peak, Mali was the largest empire in West Africa.
+
+--- 🏆
+p: About two thirds of the gold that moved around the Mediterranean in medieval times came from West Africa.
+
+fact: That was almost half of the Old World's gold.
+
+check: About how much of the Mediterranean's gold came from West Africa?
+- About one tenth
++ About two thirds
+- Almost all of it
+hint: Look at the paragraph. The answer is there.
+explain: About two thirds of the gold that moved around the Mediterranean in medieval times came from West Africa.
+
+--- 🧑
+p: Mansa Musa made a famous pilgrimage to Mecca from 1324 to 1326.
+
+fact: He gave away so much gold that prices went up in Egypt.
+
+check: Where did Mansa Musa make a famous pilgrimage?
+- Rome
++ Mecca
+- Athens
+hint: Look at the paragraph. The answer is there.
+explain: Mansa Musa made a famous pilgrimage to Mecca from 1324 to 1326.
+
+--- 📅
+p: After the visit by Mansa Musa around 1325, Timbuktu flourished.
+
+fact: Its trade in salt, gold and ivory made it rich.
+
+check: What did Timbuktu trade in?
+- Wool, silk and cotton
++ Salt, gold and ivory
+- Tea, sugar and rice
+hint: Look at the box. The answer is there.
+explain: Its trade in salt, gold and ivory made it rich.
+
+--- 🏗️
+p: In its golden age, Timbuktu had a big book trade.
+
+fact: It also had a university, the Sankoré Madrasah.
+
+--- 📏
+p: The Great Enclosure at Great Zimbabwe has walls as high as 36 ft (11 m).
+
+fact: They extend about 820 ft (250 m).
+
+--- 🔎
+p: An empire in West Africa. Gold from the south. A pilgrimage to Mecca. Timbuktu with books and salt. A wall at Great Zimbabwe.
+
+p: Africa had rich kingdoms.
+
+quiz: What did Mansa Musa give away so much of that prices went up in Egypt?
+- Salt
++ Gold
+- Ivory
+explain: He gave away so much gold that prices went up in Egypt.
+
+quiz: What was the name of the university in Timbuktu?
+- The Great Enclosure
++ The Sankoré Madrasah
+- The Old World School
+explain: It also had a university, the Sankoré Madrasah.
+
+quiz: How high are the walls of the Great Enclosure at Great Zimbabwe?
+- Only about 3 ft (1 m) tall
++ As high as 36 ft (11 m)
+- Close to 360 ft (110 m)
+explain: The Great Enclosure at Great Zimbabwe has walls as high as 36 ft (11 m).
+
+quiz: What did Mali spread across the region?
+- Its ships, bridges and roads
++ Its language, laws and customs
+- Its gold, salt and ivory
+explain: It spread its language, laws and customs across the region.

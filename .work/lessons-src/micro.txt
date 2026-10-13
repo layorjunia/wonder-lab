@@ -567,3 +567,669 @@ explain: Milk is heated to about 161°F for fifteen seconds, then quickly chille
 p: Wash for twenty seconds. Chill the food. Heat the milk. Let a fever do its work.
 p: Small habits, and your own body does the rest.
 
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== micro-hunters
+idea: Meet the people who first looked at microbes, and the ones who found ways to fight them.
+
+game: Leeuwenhoek = First person to observe microbes | Hooke = Designed a compound microscope | Pasteur = Invented a way to treat milk | Fleming = Found penicillin in a mold
+
+--- 🔬
+p: Antonie van Leeuwenhoek made his own microscopes, each with a single lens.
+
+term: microscope = A tool with a lens, like the single lens Leeuwenhoek used.
+
+fact: He was the first person to observe and experiment with microbes.
+
+check: Who was the first person to observe microbes?
+- Christopher Columbus
++ Antonie van Leeuwenhoek
+- Alexander Graham Bell
+hint: Look at the paragraph. The answer is there.
+explain: Antonie van Leeuwenhoek made his own microscopes, each with a single lens.
+
+--- 🧑
+p: Antonie van Leeuwenhoek wrote some 190 letters to the Royal Society about his findings.
+
+fact: He wrote them in Dutch.
+
+check: How many letters did Van Leeuwenhoek write to the Royal Society?
+- About 19
++ About 190
+- About 1,900
+hint: Look at the paragraph. The answer is there.
+explain: Antonie van Leeuwenhoek wrote some 190 letters to the Royal Society about his findings.
+
+--- 👤
+p: In 1665, Robert Hooke was one of the first scientists to study living things at microscopic scale.
+
+fact: He used a compound microscope that he designed.
+
+check: Who designed a compound microscope in 1665?
+- Louis Pasteur
++ Robert Hooke
+- Isaac Newton
+hint: Look at the paragraph. The answer is there.
+explain: In 1665, Robert Hooke was one of the first scientists to study living things at microscopic scale.
+
+--- 👑
+p: Louis Pasteur invented a way to treat milk so that bacteria cannot spoil it.
+
+fact: The process is now called pasteurization.
+
+check: What is the process Pasteur invented called?
+- Fermentation
++ Pasteurization
+- Evaporation
+hint: Look at the box. The answer is there.
+explain: The process is now called pasteurization.
+
+--- 🧑‍🔬
+p: Louis Pasteur's work is credited with saving millions of lives.
+
+fact: It saved lives through vaccines for rabies and anthrax.
+
+--- 🔎
+p: In 1928, Alexander Fleming found penicillin in a mold.
+
+fact: It has been called the greatest victory ever won over disease.
+
+--- 🎈
+p: A single lens. Letters in Dutch. A compound microscope. Milk made safe. Vaccines. A mold with penicillin.
+
+p: Microbes were found.
+
+quiz: What was in each of Leeuwenhoek's microscopes?
+- Two mirrors
++ A single lens
+- A tiny flame
+explain: Leeuwenhoek made his own microscopes, each with a single lens.
+
+quiz: What language did Leeuwenhoek write his letters in?
+- French
++ Dutch
+- Latin
+explain: He wrote them in Dutch.
+
+quiz: What did Pasteur invent a way to treat so that bacteria could not spoil it?
+- Bread
++ Milk
+- Water
+explain: Louis Pasteur invented a way to treat milk so that bacteria cannot spoil it.
+
+quiz: In what year did Alexander Fleming find penicillin in a mold?
+- 1298
++ 1928
+- 1982
+explain: In 1928, Alexander Fleming found penicillin in a mold.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== micro-tiny
+idea: Meet tiny animals that live in the sea, in fresh water and even in the dust in homes.
+
+game: Tardigrade = Called little water bears | Tardigrada = Means slow walkers | Dust mite = Lives in the dust in homes | Rotifer = Tiny animal with many cells
+
+--- 🐛
+p: Tardigrades are usually about 0.02 in (0.5 mm) long when fully grown.
+
+term: tardigrade = The tiny animal usually about 0.02 in long when fully grown.
+
+fact: Most range from 0.002 to 0.02 in (0.05 to 0.5 mm).
+
+check: What is the length of a fully grown tardigrade?
+- About 0.2 in
++ About 0.02 in
+- About 2 in
+hint: Look at the paragraph. The answer is there.
+explain: Tardigrades are usually about 0.02 in (0.5 mm) long when fully grown.
+
+--- 🧑
+p: In 1773, a German scientist called them 'little water bears'.
+
+fact: In 1776, an Italian scientist named them Tardigrada, which means slow walkers.
+
+check: What does the name Tardigrada mean?
+- Tiny swimmers
++ Slow walkers
+- Fast runners
+hint: Look at the box. The answer is there.
+explain: In 1776, an Italian scientist named them Tardigrada, which means slow walkers.
+
+--- 🏡
+p: About 1,500 species of tardigrades are known.
+
+fact: They live on land, in fresh water and in the sea.
+
+check: About how many species of tardigrades are known?
+- 150
++ 1,500
+- 15,000
+hint: Look at the paragraph. The answer is there.
+explain: About 1,500 species of tardigrades are known.
+
+--- 📏
+p: Now meet the house dust mite.
+
+fact: A typical one is only about 0.01 in long.
+
+check: What is the length of a typical house dust mite?
+- About 0.1 in
++ About 0.01 in
+- About 1 in
+hint: Look at the box. The answer is there.
+explain: A typical one is only about 0.01 in long.
+
+--- 🌍
+p: Dust mites live in the dust in homes.
+
+fact: In a survey, dust mite allergen was found in the beds of about 84% of U.S. homes.
+
+--- 👤
+p: Rotifers are tiny animals with many cells.
+
+fact: Scientists did not recognize them as animals until 1838, and now about 2,200 species of rotifers are known.
+
+--- 🔎
+p: A tiny water bear. A mite in house dust. A rotifer with many cells.
+
+p: Tiny animals are all around.
+
+quiz: In what year did a German scientist call them 'little water bears'?
+- 1377
++ 1773
+- 1737
+explain: In 1773, a German scientist called them 'little water bears'.
+
+quiz: How many species of rotifers are known now?
+- About 22
++ About 2,200
+- About 220,000
+explain: Now about 2,200 species of rotifers are known.
+
+quiz: What did scientists not recognize rotifers as until 1838?
+- Plants
++ Animals
+- Rocks
+explain: Scientists did not recognize them as animals until 1838.
+
+quiz: What share of U.S. homes had dust mite allergen in the beds in a survey?
+- About 8%
++ About 84%
+- About 48%
+explain: Dust mite allergen was found in the beds of about 84% of U.S. homes.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== micro-algae
+idea: Some algae are giant seaweeds, and the tiny ones called phytoplankton make at least half of the oxygen.
+
+game: Seaweed = May grow up to 160 ft | Plankton = Carried along by the water | Phytoplankton = Get their energy from sunlight | Diatom = Most common kind of plankton
+
+--- 🌿
+p: Algae can be microscopic one-celled microalgae or giant seaweeds.
+
+term: seaweed = The giant kind of algae, which may grow up to 160 ft long.
+
+fact: Some seaweeds may grow up to 160 ft (50 m) long.
+
+check: How long can giant seaweeds grow?
+- Only 16 ft
++ Up to 160 ft
+- Nearly 1,600 ft
+hint: Look at the box. The answer is there.
+explain: Some seaweeds may grow up to 160 ft (50 m) long.
+
+--- 🏡
+p: Most algae live in water, especially in the sea.
+
+fact: Most are plankton, carried along by the water, though some big seaweeds hold themselves in place with holdfasts.
+
+check: Where do most algae live?
+- On dry sand
++ In water
+- In tall trees
+hint: Look at the paragraph. The answer is there.
+explain: Most algae live in water, especially in the sea.
+
+--- ⚙️
+p: Phytoplankton get their energy from sunlight, by photosynthesis.
+
+fact: Trees and other plants do the same on land. So they live in the sunlit surface of oceans and lakes.
+
+check: Where do phytoplankton live?
+- The dark floor of the deepest caves
++ The sunlit surface of oceans and lakes
+- The dry soil under the trees
+hint: Look at the box. The answer is there.
+explain: So they live in the sunlit surface of oceans and lakes.
+
+--- 📏
+p: Phytoplankton are only about 1% of all the plant material on Earth.
+
+fact: Yet they do about half of all photosynthesis and make at least half of the oxygen.
+
+check: How much of Earth's oxygen do phytoplankton make?
+- About 1%
++ At least half
+- Almost none
+hint: Look at the box. The answer is there.
+explain: Yet they do about half of all photosynthesis and make at least half of the oxygen.
+
+--- 📐
+p: About 12,000 species of diatoms have been documented.
+
+fact: Diatoms are phytoplankton, the most common kind of plankton.
+
+--- ⚖️
+p: Diatoms are tiny, generally 20 to 200 micrometers across.
+
+fact: They form huge blooms each spring and fall, and make about half of the photosynthesis in the oceans.
+
+--- 🔎
+p: A giant seaweed. Algae in the sea. Phytoplankton that use sunlight. Half of the oxygen. Diatoms in blooms.
+
+p: Algae are in the water.
+
+quiz: What do some big seaweeds use to hold themselves in place?
+- Branches
++ Holdfasts
+- Pebbles
+explain: Some big seaweeds hold themselves in place with holdfasts.
+
+quiz: About how many species of diatoms have been documented?
+- About 120
++ About 12,000
+- About 1,200,000
+explain: About 12,000 species of diatoms have been documented.
+
+quiz: When do diatoms form huge blooms?
+- Only on cold nights
++ Each spring and fall
+- Just once in a century
+explain: They form huge blooms each spring and fall.
+
+quiz: How much of the plant material on Earth are phytoplankton?
+- About half
++ About 1%
+- Almost all
+explain: Phytoplankton are only about 1% of all the plant material on Earth.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== micro-food
+idea: Tiny yeasts and bacteria help make bread rise and keep sour foods like yogurt from spoiling.
+
+game: Yeast = Makes bread rise | Bacteria = Make lactic acid | Fermentation = A change made by tiny yeasts | Cheese = Made by curdling milk
+
+--- 🧀
+p: Fermentation is a change made by tiny yeasts or bacteria.
+
+term: fermentation = A change made when yeasts or bacteria turn sugars into acids.
+
+fact: They turn sugars and starches into acids and other chemicals.
+
+check: What causes fermentation?
+- Bright light from the sun
++ Yeasts or bacteria
+- Cold wind off the sea
+hint: Look at the paragraph. The answer is there.
+explain: Fermentation is a change made by tiny yeasts or bacteria.
+
+--- ⚙️
+p: Yeast makes carbon dioxide gas that makes bread rise.
+
+fact: Bacteria make lactic acid that helps keep sour foods like sauerkraut and yogurt from spoiling.
+
+check: What makes bread rise?
+- Lactic acid and sugar
++ Carbon dioxide gas
+- Cold water and flour
+hint: Look at the paragraph. The answer is there.
+explain: Yeast makes carbon dioxide gas that makes bread rise.
+
+--- 🧑
+p: Louis Pasteur was a French chemist.
+
+fact: In 1856, he showed that yeast is connected to fermentation.
+
+check: Who connected yeast to fermentation in 1856?
+- Edward Jenner
++ Louis Pasteur
+- Robert Hooke
+hint: Look at the paragraph. The answer is there.
+explain: Louis Pasteur was a French chemist.
+
+--- 🍽️
+p: Cheese is made by curdling milk, usually from cows, goats or sheep.
+
+fact: Over a thousand types of cheese exist.
+
+check: What do you curdle to make cheese?
+- Flour
++ Milk
+- Water
+hint: Look at the paragraph. The answer is there.
+explain: Cheese is made by curdling milk, usually from cows, goats or sheep.
+
+--- 🍎
+p: Yogurt is most often made from cow's milk.
+
+fact: Milk from water buffalo, goats, ewes, mares, camels and yaks can be used too.
+
+--- 📅
+p: Sourdough bread was carried into Alaska and the Yukon in Canada.
+
+fact: It went there during the Klondike Gold Rush of 1898.
+
+--- 🔎
+p: Yeasts that make bread rise. Bacteria that keep yogurt from spoiling. Cheese from milk. Bread in the Gold Rush.
+
+p: Tiny life makes food.
+
+quiz: What gas does yeast make that makes bread rise?
+- Pure oxygen
++ Carbon dioxide
+- Plain helium
+explain: Yeast makes carbon dioxide gas that makes bread rise.
+
+quiz: What do bacteria make that helps keep yogurt from spoiling?
+- Carbon dioxide
++ Lactic acid
+- Cold water
+explain: Bacteria make lactic acid that helps keep sour foods like yogurt from spoiling.
+
+quiz: In what year did Louis Pasteur show that yeast is connected to fermentation?
+- 1658
++ 1856
+- 1865
+explain: In 1856, Louis Pasteur showed that yeast is connected to fermentation.
+
+quiz: Where was sourdough bread carried during the Klondike Gold Rush?
+- Texas and New Mexico
++ Alaska and the Yukon
+- Mexico and Peru
+explain: Sourdough bread was carried into Alaska and the Yukon in Canada.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== micro-water
+idea: A doctor followed a sickness back to one water pump, and that changed how cities handle water.
+
+game: Snow = Traced an outbreak in London | Cholera = Traced back to one public pump | Chlorine = A common disinfectant | Filters = Clean water in many ways
+
+--- 🚰
+p: Dr. John Snow traced a cholera outbreak in London's Soho back to one public water pump.
+
+term: cholera = The sickness Dr. Snow traced back to one public water pump.
+
+fact: His work helped start the study of how diseases spread.
+
+check: What did John Snow trace the cholera outbreak to?
+- One crowded city street
++ One public water pump
+- One busy fish market
+hint: Look at the paragraph. The answer is there.
+explain: John Snow traced a cholera outbreak in London's Soho back to one public water pump.
+
+--- 🧑
+p: Snow's findings changed how London handled its water and waste.
+
+fact: Other cities made the same changes, and public health improved around the world.
+
+check: Which city changed its water and waste systems because of Snow?
+- Paris
++ London
+- Rome
+hint: Look at the paragraph. The answer is there.
+explain: Snow's findings changed how London handled its water and waste.
+
+--- ⚙️
+p: The first step in cleaning surface water is to take out big things like sticks, leaves and rubbish.
+
+fact: They would get in the way of the later steps.
+
+check: What is the first step in cleaning surface water?
+- Heating all of the water until it is boiling
++ Taking out big things like sticks and leaves
+- Adding a lot of salt to the water supply
+hint: Look at the paragraph. The answer is there.
+explain: The first step in cleaning surface water is to take out big things like sticks, leaves and rubbish.
+
+--- 🔧
+p: People clean water in many ways.
+
+fact: They use filters, slow sand filters, chlorine, and even ultraviolet light.
+
+check: What kind of light can clean water?
+- Bright candle light
++ Ultraviolet light
+- Warm yellow light
+hint: Look at the box. The answer is there.
+explain: They use filters, slow sand filters, chlorine, and even ultraviolet light.
+
+--- 🏠
+p: Chlorine is a common disinfectant.
+
+term: disinfectant = Something used in swimming pools to keep them sanitary.
+
+fact: It is used in swimming pools to keep them sanitary.
+
+--- 🧩
+p: Boiling or a home filter is not always enough.
+
+fact: Water from an unknown place can hold things that they do not remove.
+
+--- 🔎
+p: A pump in London. A big step with sticks and leaves. Filters, chlorine and ultraviolet light.
+
+p: Clean water takes care.
+
+quiz: What kind of sickness did Dr. John Snow trace to a water pump?
+- Smallpox
++ Cholera
+- Rabies
+explain: Dr. John Snow traced a cholera outbreak to one public water pump.
+
+quiz: What is chlorine used in swimming pools to do?
+- Make the water look blue
++ Keep them sanitary
+- Keep the water warm all year
+explain: Chlorine is used in swimming pools to keep them sanitary.
+
+quiz: What did Snow's work help start the study of?
+- How rivers are formed
++ How diseases spread
+- How clouds make rain
+explain: His work helped start the study of how diseases spread.
+
+quiz: Is boiling or a home filter always enough for water from an unknown place?
+- Yes, always enough
++ No, not always
+- Yes, in most homes
+explain: Boiling or a home filter is not always enough.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== micro-extremes
+idea: Microbes live where it is far too hot for you, deep below the sea floor and in hot springs.
+
+game: Microbes = Found below the sea floor | Spores = Alive after heating to 788°F | Thermus = Makes an enzyme that handles heat | Halophiles = Grow best in very salty water
+
+--- 🌋
+p: Microbes have been found below the sea floor.
+
+fact: They were in sediment as hot as 248°F (120°C), 0.75 mi (1.2 km) down.
+
+check: How hot was the sediment where microbes were found?
+- 128°F
++ 248°F
+- 842°F
+hint: Look at the box. The answer is there.
+explain: They were in sediment as hot as 248°F (120°C), 0.75 mi (1.2 km) down.
+
+--- 🏡
+p: Some microbes thrive inside rocks.
+
+fact: They have been found up to 1,900 ft (580 m) below the sea floor, under 8,500 ft (2,600 m) of ocean.
+
+check: How far below the sea floor were microbes found inside rocks?
+- 190 ft
++ 1,900 ft
+- 19,000 ft
+hint: Look at the box. The answer is there.
+explain: They have been found up to 1,900 ft (580 m) below the sea floor, under 8,500 ft (2,600 m) of ocean.
+
+--- 🤔
+p: Spores from a kind of Bacillus bacteria were still alive after being heated.
+
+term: spore = A tough form of bacteria that stays alive after being heated.
+
+fact: They were heated to 788°F (420°C).
+
+check: How hot were the Bacillus spores heated?
+- 478°F
++ 788°F
+- 88°F
+hint: Look at the box. The answer is there.
+explain: They were heated to 788°F (420°C).
+
+--- 📅
+p: In the 1960s, scientists thought bacteria could not live above about 131°F (55°C).
+
+fact: Soon they found many bacteria that survived and even thrived at higher temperatures.
+
+check: What temperature did scientists in the 1960s think bacteria could not live above?
+- 311°F
++ 131°F
+- 113°F
+hint: Look at the paragraph. The answer is there.
+explain: In the 1960s, scientists thought bacteria could not live above about 131°F (55°C).
+
+--- 🔧
+p: A hot-spring bacterium called Thermus aquaticus makes an enzyme that handles heat.
+
+fact: Scientists use it in PCR, a way to copy DNA.
+
+--- 😮
+p: Some microbes, called halophiles, grow best in very salty water.
+
+fact: That means 50 grams of salt per liter or more. A coral reef has about 35 grams per liter.
+
+--- 🔎
+p: Microbes below the sea floor. Spores still alive after heat. Bacteria in hot springs. Microbes that like salt.
+
+p: Microbes live in many places.
+
+quiz: What distance below the sea floor were microbes found in the hot sediment?
+- 7.5 mi
++ 0.75 mi
+- 0.075 mi
+explain: Microbes have been found in sediment 0.75 mi (1.2 km) below the sea floor.
+
+quiz: What does Thermus aquaticus make that handles heat?
+- A mineral
++ An enzyme
+- A pigment
+explain: A hot-spring bacterium called Thermus aquaticus makes an enzyme that handles heat.
+
+quiz: What is PCR a way to do?
+- Clean water
++ Copy DNA
+- Make bread
+explain: Scientists use it in PCR, a way to copy DNA.
+
+quiz: Which kind of water do halophiles grow best in?
+- Very cold water
++ Very salty water
+- Very clean water
+explain: Some microbes, called halophiles, grow best in very salty water.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== micro-vaccines
+idea: A vaccine trains the body to spot a germ, and the first one was made against smallpox.
+
+game: Jenner = Created the smallpox vaccine | Vaccine = Trains the immune system | Cowpox = Protected people from smallpox | Penicillin = One of the first medicines
+
+--- 💉
+p: Edward Jenner was an English doctor.
+
+fact: He created the smallpox vaccine. It was the world's first vaccine.
+
+check: What was the world's first vaccine for?
+- Measles
++ Smallpox
+- Cholera
+hint: Look at the box. The answer is there.
+explain: He created the smallpox vaccine.
+
+--- 📏
+p: In Jenner's time, smallpox killed around 10% of the world's people.
+
+fact: In towns and cities, it killed as many as 20%.
+
+check: What share of the world's people did smallpox kill in Jenner's time?
+- Around 1%
++ Around 10%
+- Around 50%
+hint: Look at the paragraph. The answer is there.
+explain: In Jenner's time, smallpox killed around 10% of the world's people.
+
+--- ⚙️
+p: A vaccine trains the body's immune system to see a germ as a threat.
+
+term: vaccine = Something that trains the body's immune system to see a germ as a threat.
+
+fact: Then the body can destroy that germ if it meets it later.
+
+check: What does a vaccine train?
+- The heart muscles
++ The immune system
+- The leg bones
+hint: Look at the paragraph. The answer is there.
+explain: A vaccine trains the body's immune system to see a germ as a threat.
+
+--- 📅
+p: Edward Jenner wrote about cowpox in 1798.
+
+fact: He wrote about its protective effect against smallpox.
+
+check: What protected people from smallpox in Jenner's study?
+- Measles
++ Cowpox
+- Chickenpox
+hint: Look at the paragraph. The answer is there.
+explain: Edward Jenner wrote about cowpox in 1798.
+
+--- 🧑
+p: Penicillin was one of the first medicines that worked against many bacterial infections.
+
+fact: In 1945, three men shared a Nobel Prize for it.
+
+--- 👤
+p: The word antibiotic was first used in 1942 by Selman Waksman and his team.
+
+fact: They used it for any substance made by a microorganism that works against the growth of other microorganisms.
+
+--- 🔎
+p: A doctor and a first vaccine. Smallpox in towns and cities. A body that learns to see a germ. Cowpox. Penicillin and a Nobel Prize.
+
+p: Medicine began.
+
+quiz: What did Edward Jenner create?
+- A strong new microscope
++ The smallpox vaccine
+- The first steam engine
+explain: Edward Jenner created the smallpox vaccine.
+
+quiz: How much of the world's people did smallpox kill, at most, in towns and cities?
+- As many as 2%
++ As many as 20%
+- As many as 90%
+explain: In towns and cities, it killed as many as 20%.
+
+quiz: In 1945, what did three men share for penicillin?
+- A gold medal
++ A Nobel Prize
+- A large trophy
+explain: In 1945, three men shared a Nobel Prize for it.
+
+quiz: Who first used the word antibiotic in 1942?
+- Edward Jenner and his team
++ Selman Waksman and his team
+- Louis Pasteur and his team
+explain: The word antibiotic was first used in 1942 by Selman Waksman and his team.

@@ -1,0 +1,338 @@
+[
+ {
+  "id": "vikings-1",
+  "section": "vikings",
+  "cat": "travel",
+  "kind": "record",
+  "text": "The Vikings sailed far from home. They voyaged as far as the Mediterranean, North Africa, the Middle East, Greenland, and Vinland, in present-day Newfoundland.",
+  "more": ""
+ },
+ {
+  "id": "vikings-2",
+  "section": "vikings",
+  "cat": "when",
+  "kind": "record",
+  "text": "The Vikings were the first Europeans to reach North America. They briefly settled in Newfoundland, which they called Vinland.",
+  "more": ""
+ },
+ {
+  "id": "vikings-3",
+  "section": "vikings",
+  "cat": "built",
+  "kind": "record",
+  "text": "Longships were long, slender ships built for speed. They could carry a large crew of warriors.",
+  "more": ""
+ },
+ {
+  "id": "vikings-4",
+  "section": "vikings",
+  "cat": "people",
+  "kind": "record",
+  "text": "Leif Erikson bought a ship from Bjarni and gathered a crew of thirty-five men. Then he set off to find the lands Bjarni had described.",
+  "more": ""
+ },
+ {
+  "id": "vikings-5",
+  "section": "vikings",
+  "cat": "people",
+  "kind": "record",
+  "text": "Erik the Red, the father of Leif Erikson, founded the first Norse settlement in Greenland. Leif was raised there.",
+  "more": ""
+ },
+ {
+  "id": "vikings-6",
+  "section": "vikings",
+  "cat": "food",
+  "kind": "record",
+  "text": "After wintering in Vinland, Leif returned to Greenland in the spring. He brought back a cargo of grapes and timber.",
+  "more": ""
+ },
+ {
+  "id": "castles-1",
+  "section": "castles",
+  "cat": "built",
+  "kind": "record",
+  "text": "A castle was a fortified building made in the Middle Ages. It was built mostly by nobles or royalty, and by military orders.",
+  "more": ""
+ },
+ {
+  "id": "castles-2",
+  "section": "castles",
+  "cat": "built",
+  "kind": "record",
+  "text": "Castles took many forms in the Middle Ages. Some parts, such as curtain walls, arrowslits and portcullises, were common.",
+  "more": ""
+ },
+ {
+  "id": "castles-3",
+  "section": "castles",
+  "cat": "when",
+  "kind": "record",
+  "text": "Between 1066 and 1087, King William set up 36 castles, such as Warwick Castle. He used them to guard against rebellion in the English Midlands.",
+  "more": ""
+ },
+ {
+  "id": "castles-4",
+  "section": "castles",
+  "cat": "people",
+  "kind": "record",
+  "text": "Knights were mounted warriors. Often a knight was a vassal who served a lord as an elite fighter or a bodyguard. His payment was land.",
+  "more": ""
+ },
+ {
+  "id": "castles-5",
+  "section": "castles",
+  "cat": "when",
+  "kind": "record",
+  "text": "By about 1420, complete suits of plate armor had been developed in Europe.",
+  "more": ""
+ },
+ {
+  "id": "castles-6",
+  "section": "castles",
+  "cat": "built",
+  "kind": "record",
+  "text": "Armorers fitted armor to the person who would wear it, like a tailor. They made parts that needed to bend from smaller individual plates called lames.",
+  "more": ""
+ },
+ {
+  "id": "silkroad-1",
+  "section": "silkroad",
+  "cat": "travel",
+  "kind": "record",
+  "text": "The Silk Road got its name from the valuable trade in silk, which was first developed in China.",
+  "more": ""
+ },
+ {
+  "id": "silkroad-2",
+  "section": "silkroad",
+  "cat": "people",
+  "kind": "record",
+  "text": "The name Silk Road was made popular in 1877 by Ferdinand von Richthofen. He made seven expeditions to China from 1868 to 1872.",
+  "more": ""
+ },
+ {
+  "id": "silkroad-3",
+  "section": "silkroad",
+  "cat": "people",
+  "kind": "record",
+  "text": "Marco Polo traveled widely inside China. He lived in the emperor's lands for 17 years and saw many things that Europeans had never known.",
+  "more": ""
+ },
+ {
+  "id": "silkroad-4",
+  "section": "silkroad",
+  "cat": "people",
+  "kind": "record",
+  "text": "In 1269, Niccolò and Maffeo Polo came home to Venice and met young Marco for the first time. By then Marco was 21 years old.",
+  "more": ""
+ },
+ {
+  "id": "silkroad-5",
+  "section": "silkroad",
+  "cat": "size",
+  "kind": "found",
+  "text": "The Bactrian camel is the largest mammal in its native range. At the top of the humps, its average height is 6.99 ft (213 cm).",
+  "more": ""
+ },
+ {
+  "id": "silkroad-6",
+  "section": "silkroad",
+  "cat": "senses",
+  "kind": "found",
+  "text": "A thirsty camel in a hot, dry season can drink up to 53 US gallons (200 L) of water in one day.",
+  "more": ""
+ },
+ {
+  "id": "china-1",
+  "section": "china",
+  "cat": "built",
+  "kind": "record",
+  "text": "The Great Wall of China is a series of fortifications in China. They were built across the northern borders of ancient Chinese states, to protect against nomadic groups.",
+  "more": ""
+ },
+ {
+  "id": "china-2",
+  "section": "china",
+  "cat": "built",
+  "kind": "record",
+  "text": "The Great Wall had watchtowers, troop barracks and garrison stations. It could send signals with smoke or fire.",
+  "more": ""
+ },
+ {
+  "id": "china-3",
+  "section": "china",
+  "cat": "size",
+  "kind": "found",
+  "text": "The three pits of the Terracotta Army hold more than 8,000 soldiers. There are also 130 chariots with 520 horses, and 150 cavalry horses.",
+  "more": ""
+ },
+ {
+  "id": "china-4",
+  "section": "china",
+  "cat": "artifact",
+  "kind": "found",
+  "text": "The Terracotta Army figures vary in height according to their rank. The tallest are the generals.",
+  "more": ""
+ },
+ {
+  "id": "china-5",
+  "section": "china",
+  "cat": "when",
+  "kind": "record",
+  "text": "The Song dynasty was the first government to issue paper currency.",
+  "more": ""
+ },
+ {
+  "id": "china-6",
+  "section": "china",
+  "cat": "built",
+  "kind": "record",
+  "text": "A Song dynasty book describes a magnetic navigation device. It was an iron south-pointing fish floating in a bowl of water.",
+  "more": ""
+ },
+ {
+  "id": "renaissance-1",
+  "section": "renaissance",
+  "cat": "people",
+  "kind": "record",
+  "text": "Leonardo da Vinci was a painter. He also kept notebooks. In them he drew and wrote about the body, the stars, plants and maps.",
+  "more": ""
+ },
+ {
+  "id": "renaissance-2",
+  "section": "renaissance",
+  "cat": "artifact",
+  "kind": "record",
+  "text": "Leonardo painted the Mona Lisa. It is regarded as the world's most famous painting. His Last Supper is the most reproduced religious painting.",
+  "more": ""
+ },
+ {
+  "id": "renaissance-3",
+  "section": "renaissance",
+  "cat": "people",
+  "kind": "record",
+  "text": "Leonardo became an apprentice by the age of 17. He remained in training for seven years.",
+  "more": ""
+ },
+ {
+  "id": "renaissance-4",
+  "section": "renaissance",
+  "cat": "people",
+  "kind": "record",
+  "text": "Two of Michelangelo's best-known works, the Pietà and David, were sculpted before he was 30.",
+  "more": ""
+ },
+ {
+  "id": "renaissance-5",
+  "section": "renaissance",
+  "cat": "artifact",
+  "kind": "record",
+  "text": "Michelangelo did not think of himself as a painter. Still, he painted scenes from Genesis on the ceiling of the Sistine Chapel in Rome, and The Last Judgment on its altar wall.",
+  "more": ""
+ },
+ {
+  "id": "renaissance-6",
+  "section": "renaissance",
+  "cat": "people",
+  "kind": "record",
+  "text": "Galileo built a telescope. He saw the stars of the Milky Way, the phases of Venus and the four largest moons of Jupiter. He also saw Saturn's rings and sunspots.",
+  "more": ""
+ },
+ {
+  "id": "factories-1",
+  "section": "factories",
+  "cat": "when",
+  "kind": "record",
+  "text": "The Industrial Revolution began in Great Britain around 1760. By about 1840 it had spread to Europe and the United States.",
+  "more": ""
+ },
+ {
+  "id": "factories-2",
+  "section": "factories",
+  "cat": "when",
+  "kind": "record",
+  "text": "The textile industry was the first to use modern production methods. Textiles became the main industry in jobs, in value of output and in money invested.",
+  "more": ""
+ },
+ {
+  "id": "factories-3",
+  "section": "factories",
+  "cat": "size",
+  "kind": "record",
+  "text": "Mechanized cotton spinning was powered by water and later by steam. It increased output per worker by a factor of around 500.",
+  "more": ""
+ },
+ {
+  "id": "factories-4",
+  "section": "factories",
+  "cat": "when",
+  "kind": "record",
+  "text": "In 1712, Thomas Newcomen built an engine that sold well. It could give steady power to a machine.",
+  "more": ""
+ },
+ {
+  "id": "factories-5",
+  "section": "factories",
+  "cat": "people",
+  "kind": "record",
+  "text": "James Watt saw that engines of his day wasted a lot of energy. They cooled and reheated the cylinder again and again. His separate condenser avoided this waste.",
+  "more": ""
+ },
+ {
+  "id": "factories-6",
+  "section": "factories",
+  "cat": "people",
+  "kind": "record",
+  "text": "James Watt developed the idea of horsepower. The unit of power called the watt is named after him.",
+  "more": ""
+ },
+ {
+  "id": "africa-1",
+  "section": "africa",
+  "cat": "size",
+  "kind": "record",
+  "text": "At its peak, Mali was the largest empire in West Africa. It spread its language, laws and customs across the region.",
+  "more": ""
+ },
+ {
+  "id": "africa-2",
+  "section": "africa",
+  "cat": "record",
+  "kind": "record",
+  "text": "About two thirds of the gold that moved around the Mediterranean in medieval times came from West Africa. That was almost half of the Old World's gold.",
+  "more": ""
+ },
+ {
+  "id": "africa-3",
+  "section": "africa",
+  "cat": "people",
+  "kind": "record",
+  "text": "Mansa Musa made a famous pilgrimage to Mecca from 1324 to 1326. He gave away so much gold that prices went up in Egypt.",
+  "more": ""
+ },
+ {
+  "id": "africa-4",
+  "section": "africa",
+  "cat": "when",
+  "kind": "record",
+  "text": "After the visit by Mansa Musa around 1325, Timbuktu flourished. Its trade in salt, gold and ivory made it rich.",
+  "more": ""
+ },
+ {
+  "id": "africa-5",
+  "section": "africa",
+  "cat": "built",
+  "kind": "record",
+  "text": "In its golden age, Timbuktu had a big book trade. It also had a university, the Sankoré Madrasah.",
+  "more": ""
+ },
+ {
+  "id": "africa-6",
+  "section": "africa",
+  "cat": "size",
+  "kind": "found",
+  "text": "The Great Enclosure at Great Zimbabwe has walls as high as 36 ft (11 m). They extend about 820 ft (250 m).",
+  "more": ""
+ }
+]

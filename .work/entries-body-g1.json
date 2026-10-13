@@ -1,0 +1,194 @@
+[
+ {
+  "id": "eyes-1",
+  "section": "eyes",
+  "cat": "size",
+  "kind": "found",
+  "text": "Your eyeball grows fast. It is about 0.63 to 0.67 in (16 to 17 mm) wide at birth. By age three it is 0.89 to 0.91 in (22.5 to 23 mm), and it reaches full size by age 12.",
+  "more": ""
+ },
+ {
+  "id": "eyes-2",
+  "section": "eyes",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "The retina is the innermost, light-sensitive layer of the eye. It does a job much like the film or image sensor in a camera.",
+  "more": ""
+ },
+ {
+  "id": "eyes-3",
+  "section": "eyes",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Rods work mainly in dim light and give you black-and-white vision. Cones work in bright light. They let you see color, and they give the sharp vision you use for reading.",
+  "more": ""
+ },
+ {
+  "id": "eyes-4",
+  "section": "eyes",
+  "cat": "senses",
+  "kind": "found",
+  "text": "One part of the retina has no light-sensing cells. That part gives rise to the blind spot.",
+  "more": ""
+ },
+ {
+  "id": "eyes-5",
+  "section": "eyes",
+  "cat": "senses",
+  "kind": "found",
+  "text": "The light you can see ranges from about 380 to 740 nanometers. Violet is at the short end, 380 to 450 nm. Red is at the long end, 625 to 740 nm.",
+  "more": ""
+ },
+ {
+  "id": "eyes-6",
+  "section": "eyes",
+  "cat": "build",
+  "kind": "found",
+  "text": "The eyes sit in bony cavities in the skull. These cavities are called the orbits.",
+  "more": ""
+ },
+ {
+  "id": "ears-1",
+  "section": "ears",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "In mammals, the ear lets you hear. It also helps your body keep its balance.",
+  "more": ""
+ },
+ {
+  "id": "ears-2",
+  "section": "ears",
+  "cat": "build",
+  "kind": "found",
+  "text": "The middle ear holds the three smallest bones in your body, called the ossicles. They are the malleus, incus and stapes, also called the hammer, anvil and stirrup.",
+  "more": ""
+ },
+ {
+  "id": "ears-3",
+  "section": "ears",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "The ossicles make sound waves nearly 15 to 20 times stronger.",
+  "more": ""
+ },
+ {
+  "id": "ears-4",
+  "section": "ears",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "The ear canal stretches for about 1 inch (2.5 cm). It is cleaned by earwax, which naturally moves out toward the outer ear.",
+  "more": ""
+ },
+ {
+  "id": "ears-5",
+  "section": "ears",
+  "cat": "build",
+  "kind": "found",
+  "text": "The cochlea is the part of the inner ear involved in hearing. It is a spiral-shaped cavity that makes 2.75 turns in humans.",
+  "more": ""
+ },
+ {
+  "id": "ears-6",
+  "section": "ears",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Your brain compares when a sound reaches each ear and how loud it is in each ear. That helps it work out where the sound came from.",
+  "more": ""
+ },
+ {
+  "id": "teeth-1",
+  "section": "teeth",
+  "cat": "when",
+  "kind": "found",
+  "text": "A baby's first set of teeth, called baby or milk teeth, normally starts to appear at about six months of age.",
+  "more": ""
+ },
+ {
+  "id": "teeth-2",
+  "section": "teeth",
+  "cat": "size",
+  "kind": "found",
+  "text": "Enamel is the hardest substance in the human body. It is 96% mineral. The rest is water and organic material.",
+  "more": ""
+ },
+ {
+  "id": "teeth-3",
+  "section": "teeth",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "The large amount of mineral in enamel makes it strong. It also makes it brittle.",
+  "more": ""
+ },
+ {
+  "id": "teeth-4",
+  "section": "teeth",
+  "cat": "build",
+  "kind": "found",
+  "text": "Under the enamel is dentin. It is less mineralized and less brittle, and it supports the enamel.",
+  "more": ""
+ },
+ {
+  "id": "teeth-5",
+  "section": "teeth",
+  "cat": "food",
+  "kind": "found",
+  "text": "Bacteria in the mouth use the simple sugars in food for energy. A diet high in simple sugar raises the risk of tooth decay.",
+  "more": ""
+ },
+ {
+  "id": "teeth-6",
+  "section": "teeth",
+  "cat": "size",
+  "kind": "found",
+  "text": "As of 2016, about 3.6 billion people had cavities in their permanent teeth. That is 48% of all the people in the world.",
+  "more": ""
+ },
+ {
+  "id": "blood-1",
+  "section": "blood",
+  "cat": "size",
+  "kind": "found",
+  "text": "Blood is about 7% of a person's body weight.",
+  "more": ""
+ },
+ {
+  "id": "blood-2",
+  "section": "blood",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Plasma makes up 55% of blood. It is mostly water, 92% by volume. It also holds proteins, glucose, mineral ions and hormones.",
+  "more": ""
+ },
+ {
+  "id": "blood-3",
+  "section": "blood",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Platelets are also called thrombocytes. They take part in blood clotting.",
+  "more": ""
+ },
+ {
+  "id": "blood-4",
+  "section": "blood",
+  "cat": "speed",
+  "kind": "found",
+  "text": "The average life span of circulating platelets is 8 to 9 days.",
+  "more": ""
+ },
+ {
+  "id": "blood-5",
+  "section": "blood",
+  "cat": "speed",
+  "kind": "found",
+  "text": "A red blood cell takes about 60 seconds to go once around the body.",
+  "more": ""
+ },
+ {
+  "id": "blood-6",
+  "section": "blood",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Red blood cells take up oxygen in the lungs. They release it into the tissues while squeezing through the body's capillaries.",
+  "more": ""
+ }
+]

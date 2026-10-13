@@ -1,0 +1,338 @@
+[
+ {
+  "id": "astronauts-1",
+  "section": "astronauts",
+  "cat": "size",
+  "kind": "found",
+  "text": "The International Space Station is as big as a football field: 358 ft (109 m) by 239 ft (73 m). Inside, it has about as much room as a Boeing 747 airliner.",
+  "more": ""
+ },
+ {
+  "id": "astronauts-2",
+  "section": "astronauts",
+  "cat": "speed",
+  "kind": "found",
+  "text": "The space station circles the Earth about every 93 minutes, at 17,200 mph (27,600 km/h). That is 15.5 trips around the planet every day.",
+  "more": ""
+ },
+ {
+  "id": "astronauts-3",
+  "section": "astronauts",
+  "cat": "record",
+  "kind": "record",
+  "text": "People have lived on the International Space Station without a break since November 2, 2000. It is the longest continuous human presence in space. Visitors from 26 countries, 290 people in all, have come aboard.",
+  "more": ""
+ },
+ {
+  "id": "astronauts-4",
+  "section": "astronauts",
+  "cat": "when",
+  "kind": "record",
+  "text": "On April 12, 1961, Yuri Gagarin became the first person to travel into space. He circled the Earth one time, and the flight took 108 minutes.",
+  "more": ""
+ },
+ {
+  "id": "astronauts-5",
+  "section": "astronauts",
+  "cat": "travel",
+  "kind": "record",
+  "text": "In March 1966, Neil Armstrong flew Gemini 8 with David Scott. They made the first docking of two spacecraft in space. A stuck thruster then sent them into a dangerous roll, so the mission ended early.",
+  "more": ""
+ },
+ {
+  "id": "astronauts-6",
+  "section": "astronauts",
+  "cat": "record",
+  "kind": "record",
+  "text": "In the United States, a person earns astronaut wings by flying above 50 miles (80 km). The international rule is higher: the Karman line, at 62 miles (100 km).",
+  "more": ""
+ },
+ {
+  "id": "jupiter-1",
+  "section": "jupiter",
+  "cat": "size",
+  "kind": "found",
+  "text": "Jupiter is 11 times as wide as Earth. It has nearly 2.5 times the mass of all the other planets put together.",
+  "more": ""
+ },
+ {
+  "id": "jupiter-2",
+  "section": "jupiter",
+  "cat": "speed",
+  "kind": "found",
+  "text": "The Great Red Spot is a giant storm on Jupiter. Its winds blow up to 308 mph (496 km/h). People first saw it in September 1831.",
+  "more": ""
+ },
+ {
+  "id": "jupiter-3",
+  "section": "jupiter",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "The Great Red Spot is red-orange because of a kind of sunburn. Sunlight blasts chemicals high up in Jupiter's clouds.",
+  "more": ""
+ },
+ {
+  "id": "jupiter-4",
+  "section": "jupiter",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Jupiter's air is 76% hydrogen and 24% helium. It also has a little ammonia, water vapor and other gases.",
+  "more": ""
+ },
+ {
+  "id": "jupiter-5",
+  "section": "jupiter",
+  "cat": "people",
+  "kind": "record",
+  "text": "Jupiter has four big moons. Their names are Ganymede, Callisto, Io and Europa. You can see them with binoculars. Astronomers found them in 1610.",
+  "more": ""
+ },
+ {
+  "id": "jupiter-6",
+  "section": "jupiter",
+  "cat": "when",
+  "kind": "found",
+  "text": "One year on Jupiter is 11.86 Earth years long. That is how long Jupiter takes to go once around the Sun.",
+  "more": ""
+ },
+ {
+  "id": "mars-1",
+  "section": "mars",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Mars is called the Red Planet because it looks orange-red. It is a rocky, desert-like world with very thin air, mostly carbon dioxide.",
+  "more": ""
+ },
+ {
+  "id": "mars-2",
+  "section": "mars",
+  "cat": "size",
+  "kind": "found",
+  "text": "Mars is about half as wide as Earth: 4,212 mi (6,779 km) across. Its gravity is only about a third of Earth's.",
+  "more": ""
+ },
+ {
+  "id": "mars-3",
+  "section": "mars",
+  "cat": "weird",
+  "kind": "found",
+  "text": "The air on Mars can be as cold as -243°F (-153°C) and as warm as 68°F (20°C). The air is very thin, only a few thousandths as heavy as Earth's.",
+  "more": ""
+ },
+ {
+  "id": "mars-4",
+  "section": "mars",
+  "cat": "size",
+  "kind": "found",
+  "text": "Olympus Mons is a giant volcano on Mars. It is 69,840 ft (21.287 km) high, about 2.5 times as tall as Mount Everest.",
+  "more": ""
+ },
+ {
+  "id": "mars-5",
+  "section": "mars",
+  "cat": "size",
+  "kind": "found",
+  "text": "Mars has a canyon called Valles Marineris that is 2,500 mi (4,000 km) long. It is one of the largest canyons in the Solar System.",
+  "more": ""
+ },
+ {
+  "id": "mars-6",
+  "section": "mars",
+  "cat": "speed",
+  "kind": "found",
+  "text": "Phobos is a tiny moon of Mars. It races around Mars in just 7 hours and 39 minutes. From Mars, it rises in the west and sets in the east, twice every Martian day.",
+  "more": ""
+ },
+ {
+  "id": "saturn-1",
+  "section": "saturn",
+  "cat": "size",
+  "kind": "found",
+  "text": "Saturn has only an eighth of Earth's density, but it is over 95 times more massive than Earth. It is almost as big as Jupiter, with less than a third of Jupiter's mass.",
+  "more": ""
+ },
+ {
+  "id": "saturn-2",
+  "section": "saturn",
+  "cat": "speed",
+  "kind": "found",
+  "text": "Winds on Saturn can blow as fast as 1,100 mph (1,800 km/h).",
+  "more": ""
+ },
+ {
+  "id": "saturn-3",
+  "section": "saturn",
+  "cat": "build",
+  "kind": "found",
+  "text": "Saturn's rings are made mostly of ice, with some rocky bits and dust. At least 293 moons orbit Saturn, and 63 of them have official names.",
+  "more": ""
+ },
+ {
+  "id": "saturn-4",
+  "section": "saturn",
+  "cat": "when",
+  "kind": "record",
+  "text": "In 1610, Galileo became the first person to see Saturn's rings, but he could not see them well enough to tell what they were. In 1655, Christiaan Huygens was the first to describe them as a disk around Saturn.",
+  "more": ""
+ },
+ {
+  "id": "saturn-5",
+  "section": "saturn",
+  "cat": "size",
+  "kind": "found",
+  "text": "Titan, Saturn's largest moon, is bigger than the planet Mercury. It is the only moon in the Solar System with a thick atmosphere.",
+  "more": ""
+ },
+ {
+  "id": "saturn-6",
+  "section": "saturn",
+  "cat": "when",
+  "kind": "found",
+  "text": "A year on Saturn is 29.45 Earth years long. That is how long Saturn takes to go once around the Sun.",
+  "more": ""
+ },
+ {
+  "id": "venus-1",
+  "section": "venus",
+  "cat": "record",
+  "kind": "found",
+  "text": "Venus is the hottest planet. The atmosphere at its surface is 867°F (464°C), and the pressure is 92 times greater than Earth's.",
+  "more": ""
+ },
+ {
+  "id": "venus-2",
+  "section": "venus",
+  "cat": "when",
+  "kind": "found",
+  "text": "A day on Venus lasts 116.75 Earth days. That is about half of a Venus year, which is 224.7 Earth days long.",
+  "more": ""
+ },
+ {
+  "id": "venus-3",
+  "section": "venus",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Venus has no moons. It also spins very slowly, and backward.",
+  "more": ""
+ },
+ {
+  "id": "venus-4",
+  "section": "venus",
+  "cat": "senses",
+  "kind": "found",
+  "text": "Venus shines brighter than any other point of light in the sky. People call it the morning star or the evening star.",
+  "more": ""
+ },
+ {
+  "id": "venus-5",
+  "section": "venus",
+  "cat": "size",
+  "kind": "found",
+  "text": "Mercury is the smallest planet in the Solar System. It is 3,030 mi (4,880 km) across, and its biggest crater is about a third as wide as the whole planet.",
+  "more": ""
+ },
+ {
+  "id": "venus-6",
+  "section": "venus",
+  "cat": "weird",
+  "kind": "found",
+  "text": "Mercury is the closest planet to the Sun, but Venus is hotter. Mercury has no air to hold heat, so near its equator it goes from -270°F at night to 790°F in sunlight (-170°C to 420°C).",
+  "more": ""
+ },
+ {
+  "id": "eclipses-1",
+  "section": "eclipses",
+  "cat": "when",
+  "kind": "found",
+  "text": "A total solar eclipse happens somewhere on Earth about every 18 months. But in any one place, you would wait 360 to 410 years to see one.",
+  "more": ""
+ },
+ {
+  "id": "eclipses-2",
+  "section": "eclipses",
+  "cat": "weird",
+  "kind": "found",
+  "text": "A solar eclipse can only be seen from a small part of the world. That is why most people never see one.",
+  "more": ""
+ },
+ {
+  "id": "eclipses-3",
+  "section": "eclipses",
+  "cat": "size",
+  "kind": "found",
+  "text": "A total solar eclipse can last over 7 minutes. The Moon's shadow track on Earth can be up to 166 mi (267 km) wide.",
+  "more": ""
+ },
+ {
+  "id": "eclipses-4",
+  "section": "eclipses",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "During a lunar eclipse, the Moon looks orange or red. The sunlight reaching it first passes through Earth's air, which removes blue and violet light.",
+  "more": ""
+ },
+ {
+  "id": "eclipses-5",
+  "section": "eclipses",
+  "cat": "senses",
+  "kind": "found",
+  "text": "You can watch a lunar eclipse without eye protection. It can be seen from anywhere on the night side of Earth, and it often lasts an hour or longer.",
+  "more": ""
+ },
+ {
+  "id": "eclipses-6",
+  "section": "eclipses",
+  "cat": "speed",
+  "kind": "found",
+  "text": "The Moon moves about 2,300 mph (1.03 km/s) around Earth. That is why a total lunar eclipse can last up to nearly 107 minutes.",
+  "more": ""
+ },
+ {
+  "id": "rockets-1",
+  "section": "rockets",
+  "cat": "when",
+  "kind": "record",
+  "text": "Rockets powered by gunpowder were used in China by the 13th century, under the Song dynasty. The idea then spread to the Middle East and to Europe.",
+  "more": ""
+ },
+ {
+  "id": "rockets-2",
+  "section": "rockets",
+  "cat": "when",
+  "kind": "record",
+  "text": "Apollo 11 was the spaceflight that first landed people on the Moon. It lifted off on a Saturn V rocket from Florida on July 16, 1969, and returned on July 24.",
+  "more": ""
+ },
+ {
+  "id": "rockets-3",
+  "section": "rockets",
+  "cat": "build",
+  "kind": "record",
+  "text": "The Apollo spacecraft had three parts. Only the command module, which held the three astronauts, came back to Earth.",
+  "more": ""
+ },
+ {
+  "id": "rockets-4",
+  "section": "rockets",
+  "cat": "record",
+  "kind": "record",
+  "text": "Neil Armstrong and Buzz Aldrin spent about two and a half hours walking on the Moon. They planted a flag, set up science instruments, and collected 47.5 lb (21.5 kg) of Moon material.",
+  "more": ""
+ },
+ {
+  "id": "rockets-5",
+  "section": "rockets",
+  "cat": "record",
+  "kind": "record",
+  "text": "Voyager 1 is the most distant human-made object. In 2026 it was 15.9 billion mi (25.6 billion km) from Earth. On August 25, 2012, it became the first spacecraft to enter interstellar space.",
+  "more": ""
+ },
+ {
+  "id": "rockets-6",
+  "section": "rockets",
+  "cat": "record",
+  "kind": "record",
+  "text": "The Space Shuttle program built five orbiters and flew them on 135 missions from 1981 to 2011. They launched satellites, space probes and the Hubble Space Telescope.",
+  "more": ""
+ }
+]

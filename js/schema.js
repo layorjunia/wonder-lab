@@ -61,6 +61,13 @@ const EARTH_SECTIONS = {
   caves:     { name: 'Caves & Canyons',   glyph: '🕳️' },
   ice:       { name: 'Ice & Poles',       glyph: '🧊' },
   sky:       { name: 'Sun, Moon & Sky',   glyph: '🌙' },
+  deserts: { name: "Deserts & Dunes", glyph: "🏜️" },
+  islands: { name: "Islands & Reefs", glyph: "🏝️" },
+  mountains: { name: "Mountains", glyph: "🏔️" },
+  lakes: { name: "Lakes & Waterfalls", glyph: "💦" },
+  rivers: { name: "Great Rivers", glyph: "🏞️" },
+  storms: { name: "Tornadoes & Hurricanes", glyph: "🌪️" },
+  lightning: { name: "Lightning & Thunder", glyph: "⚡" },
 };
 
 /* Astronomy. Its own section rather than more Earth `sky` facts: those are
@@ -75,6 +82,13 @@ const ASTRO_SECTIONS = {
   stars:      { name: 'Stars',           glyph: '⭐' },
   deepsky:    { name: 'Deep Sky',        glyph: '🌌' },
   looking:    { name: 'How We Look',     glyph: '🔭' },
+  astronauts: { name: "Astronauts", glyph: "👨‍🚀" },
+  jupiter: { name: "Jupiter", glyph: "🟤" },
+  mars: { name: "Mars", glyph: "🔴" },
+  saturn: { name: "Saturn & Its Rings", glyph: "🪐" },
+  venus: { name: "Venus & Mercury", glyph: "🌕" },
+  eclipses: { name: "Eclipses", glyph: "🌑" },
+  rockets: { name: "Rockets & Spacecraft", glyph: "🚀" },
 };
 
 const HABITATS = {
@@ -193,6 +207,10 @@ const BODY_SECTIONS = {
   hands:    { name: 'Hands & Grip',    glyph: '✋' },
   heat:     { name: 'Hot & Cold',      glyph: '🌡️' },
   growing:  { name: 'Growing Up',     glyph: '📈', tint: '#7fe3a0' },
+  eyes: { name: "Eyes & Seeing", glyph: "👁️", tint: '#8fb8ff' },
+  ears: { name: "Ears & Hearing", glyph: "👂", tint: '#8fb8ff' },
+  teeth: { name: "Teeth", glyph: "🦷", tint: '#8fb8ff' },
+  blood: { name: "Blood", glyph: "🩸", tint: '#8fb8ff' },
 };
 
 // Spoken game phrases.
@@ -237,6 +255,13 @@ const PHYSICAL_SECTIONS = {
   electric: { name: 'Electricity',      glyph: '💡' },
   magnets:  { name: 'Magnets',          glyph: '🧲' },
   matter:   { name: 'States of Matter', glyph: '🧊' },
+  machines: { name: "Simple Machines", glyph: "🔧" },
+  air: { name: "Air & Pressure", glyph: "💨" },
+  water: { name: "Water's Tricks", glyph: "💧" },
+  flight: { name: "How Things Fly", glyph: "✈️" },
+  reactions: { name: "Mixing & Changing", glyph: "⚗️" },
+  gravity: { name: "Gravity", glyph: "🍎" },
+  atoms: { name: "Atoms & Elements", glyph: "⚛️" },
 };
 
 const MICRO_SECTIONS = {
@@ -248,6 +273,13 @@ const MICRO_SECTIONS = {
   helpers:  { name: 'Helpful Microbes', glyph: '🥛' },
   clean:    { name: 'Staying Well',     glyph: '🧼' },
   scope:    { name: 'The Microscope',   glyph: '🔬' },
+  algae: { name: "Algae & Plankton", glyph: "🌿" },
+  food: { name: "Microbes in Food", glyph: "🧀" },
+  hunters: { name: "Microbe Hunters", glyph: "🔬" },
+  tiny: { name: "Tiny Animals", glyph: "🐛" },
+  water: { name: "Clean Water", glyph: "🚰" },
+  extremes: { name: "Microbes Everywhere", glyph: "🌋" },
+  vaccines: { name: "Vaccines & Medicine", glyph: "💉" },
 };
 
 /* Ancient history runs on the Bible's own timeline. See
@@ -264,6 +296,12 @@ const ANCIENT_SECTIONS = {
   israel:    { name: 'Israel',            glyph: '🕎' },
   greece:    { name: 'Greece',            glyph: '🏛️' },
   rome:      { name: 'Rome',              glyph: '🦅' },
+  patriarchs: { name: "Abraham & His Family", glyph: "🐪" },
+  exodus: { name: "The Exodus", glyph: "🔥" },
+  kings: { name: "David & Solomon", glyph: "👑" },
+  babylon: { name: "Babylon", glyph: "🏛️" },
+  persia: { name: "Persia", glyph: "🏹" },
+  sea: { name: "Sea Traders", glyph: "⛵" },
 };
 
 const AMERICA_SECTIONS = {
@@ -275,6 +313,13 @@ const AMERICA_SECTIONS = {
   machines:  { name: 'Rails & Machines',  glyph: '🚂' },
   flight:    { name: 'Flight',            glyph: '✈️' },
   everyday:  { name: 'Everyday Life',     glyph: '🏠' },
+  revolution: { name: "The Revolution", glyph: "🔔" },
+  constitution: { name: "The Constitution", glyph: "📜" },
+  presidents: { name: "Presidents", glyph: "🎩" },
+  civilwar: { name: "The Civil War", glyph: "🛡️" },
+  gold: { name: "Gold & Trails", glyph: "⛏️" },
+  coming: { name: "Coming to America", glyph: "🗽" },
+  parks: { name: "National Parks", glyph: "🏞️" },
 };
 
 const UTAH_SECTIONS = {
@@ -286,6 +331,13 @@ const UTAH_SECTIONS = {
   rails:     { name: 'Rails & Mines',        glyph: '🚂' },
   statehood: { name: 'Becoming a State',     glyph: '⭐' },
   wonders:   { name: 'Wonders of Stone',     glyph: '🏞️' },
+  cities: { name: "Cities & Towns", glyph: "🏙️" },
+  people: { name: "Famous Utahns", glyph: "🌟" },
+  animals: { name: "Utah Animals", glyph: "🦌" },
+  dinos: { name: "Dinosaur Country", glyph: "🦕" },
+  lakes: { name: "Lakes of Utah", glyph: "🏖️" },
+  redrock: { name: "Red Rock Country", glyph: "🪨" },
+  ski: { name: "Skiing & Snow", glyph: "🎿" },
 };
 
 const WORLD_SECTIONS = {
@@ -297,6 +349,13 @@ const WORLD_SECTIONS = {
   faroff:    { name: 'Far-Off Kingdoms',  glyph: '🐘' },
   medicine:  { name: 'Medicine',          glyph: '💊' },
   modern:    { name: 'The Modern World',  glyph: '🌐' },
+  vikings: { name: "Vikings", glyph: "⚓" },
+  castles: { name: "Castles & Knights", glyph: "🏰" },
+  silkroad: { name: "The Silk Road", glyph: "🐫" },
+  china: { name: "Ancient China", glyph: "🐉" },
+  renaissance: { name: "The Renaissance", glyph: "🎨" },
+  factories: { name: "Factories & Steam", glyph: "🏭" },
+  africa: { name: "Kingdoms of Africa", glyph: "🌍" },
 };
 
 /* One registry, so adding a subject is a data change. `data` and `secs` are

@@ -486,3 +486,572 @@ explain: Short blunt words like "house" are usually older English.
 p: Concrete that gets stronger in seawater. A dome with a hole in the top. A water channel that drops one inch in 250 feet. Plaster shapes of people, and numbered tokens for 50,000 seats.
 p: All of it, still here from Rome.
 
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== ancient-patriarchs
+idea: The written account follows Abram, who left his country, and the family that came from him.
+
+game: Abram = Told to leave his country | Canaan = Where Abram lived | Lot = Moved his tent as far as Sodom | Joseph = Given a coat of many colors
+
+--- 🐪
+p: The written account says Yahweh told Abram to leave his country and his father's house.
+
+fact: Abram was to go to a land that Yahweh would show him. Yahweh promised to make of him a great nation.
+
+check: What did Yahweh tell Abram to leave?
+- His small flock
++ His country
+- His old tent
+hint: Look at the paragraph. The answer is there.
+explain: The written account says Yahweh told Abram to leave his country and his father's house.
+
+--- 🧑
+p: The written account says Abram was very rich.
+
+term: livestock = Animals kept on a farm. Abram had livestock, silver and gold.
+
+fact: He had livestock, silver and gold.
+
+check: What was Abram rich in?
+- Boats, wheat and cloth
++ Livestock, silver and gold
+- Houses, wagons and tools
+hint: Look at the box. The answer is there.
+explain: He had livestock, silver and gold.
+
+--- 🧭
+p: Abram lived in the land of Canaan, and Lot lived in the cities of the plain.
+
+fact: Lot moved his tent as far as Sodom.
+
+check: Where did Abram live?
+- The cities of the plain
++ The land of Canaan
+- The city of Sodom
+hint: Look at the paragraph. The answer is there.
+explain: Abram lived in the land of Canaan, and Lot lived in the cities of the plain.
+
+--- 🗺️
+p: Abraham split the wood for the offering and went to the place God had told him about.
+
+fact: On the third day, he looked up and saw the place far off.
+
+check: On which day did Abraham see the place far off?
+- The first day
++ The third day
+- The seventh day
+hint: Look at the paragraph. The answer is there.
+explain: On the third day, he looked up and saw the place far off.
+
+--- 👤
+p: God said that all the nations of the earth would be blessed through Abraham's offspring.
+
+fact: Then Abraham returned to his young men, and they went together to Beersheba.
+
+--- 👑
+p: The written account says Joseph was seventeen years old when he was feeding the flock with his brothers.
+
+fact: Their father Israel loved Joseph more than all his children and made him a coat of many colors.
+
+--- 🔎
+p: Abram and a land to go to. A rich man with livestock, silver and gold. Lot and Sodom. The third day. Joseph and a coat.
+
+p: The written account goes on.
+
+quiz: Who did Yahweh tell to leave his country and his father's house?
+- Lot
++ Abram
+- Joseph
+explain: The written account says Yahweh told Abram to leave his country and his father's house.
+
+quiz: What did Israel make for Joseph?
+- A tent of many poles
++ A coat of many colors
+- A staff of gold
+explain: Their father Israel loved Joseph more than all his children and made him a coat of many colors.
+
+quiz: How old was Joseph when he was feeding the flock with his brothers?
+- Seven years old
++ Seventeen years old
+- Seventy years old
+explain: The written account says Joseph was seventeen years old when he was feeding the flock with his brothers.
+
+quiz: Where did Abraham go together with his young men?
+- To Sodom
++ To Beersheba
+- To Jerusalem
+explain: Then Abraham returned to his young men, and they went together to Beersheba.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== ancient-exodus
+idea: The written account tells how Israel left Egypt: a lamb, a meal eaten in haste, a dry path through the sea and food called manna.
+
+game: Moses = Stretched out his hand over the sea | Lamb = A male a year old | Passover = The meal eaten ready to go | Manna = White like coriander seed
+
+--- 🔥
+p: The written account says Yahweh spoke to Moses and Aaron in Egypt.
+
+fact: He said this month would be the first month of the year to them.
+
+check: Who did Yahweh speak to in the land of Egypt?
+- Abram and Lot
++ Moses and Aaron
+- Joseph and Israel
+hint: Look at the paragraph. The answer is there.
+explain: The written account says Yahweh spoke to Moses and Aaron in Egypt.
+
+--- 🏠
+p: Each family's lamb had to be without defect, a male a year old.
+
+fact: They kept it until the fourteenth day of the month.
+
+check: How old was the lamb to be?
+- A day old
++ A year old
+- Ten years old
+hint: Look at the paragraph. The answer is there.
+explain: Each family's lamb had to be without defect, a male a year old.
+
+--- 🍞
+p: Israel took blood from each family's lamb.
+
+term: lintel = The beam across the top of the door posts.
+
+fact: Israel was told to put some of the lamb's blood on the two door posts and the lintel of their houses.
+
+check: Where was the blood to be put?
+- Over the roof and the walls of the house
++ On the two door posts and the lintel
+- Under the bed and the floor of the tent
+hint: Look at the box. The answer is there.
+explain: Israel was told to put some of the lamb's blood on the two door posts and the lintel of their houses.
+
+--- 🧺
+p: Israel was to eat the Passover meal ready to go.
+
+fact: They wore belts on their waists and shoes on their feet, with a staff in the hand. They ate it in haste.
+
+check: What were they to have in their hand when they ate?
+- A basket
++ A staff
+- A torch
+hint: Look at the box. The answer is there.
+explain: They wore belts on their waists and shoes on their feet, with a staff in the hand.
+
+--- 🧭
+p: Moses stretched out his hand over the sea.
+
+fact: Yahweh caused the sea to go back by a strong east wind all night. The waters were divided, and the sea became dry land.
+
+--- 🍽️
+p: The people called the food manna.
+
+fact: It was white like coriander seed, and it tasted like wafers with honey. They ate it for forty years, until they came to the borders of Canaan.
+
+--- 🔎
+p: Moses and Aaron. A lamb a year old. Blood on the door posts. A meal in haste. A sea turned to dry land. Manna to eat.
+
+p: Israel was led out.
+
+quiz: How long did the people eat manna?
+- For four days
++ For forty years
+- For one week
+explain: They ate it for forty years, until they came to the borders of Canaan.
+
+quiz: What color was manna?
+- Red
++ White
+- Blue
+explain: It was white like coriander seed, and it tasted like wafers with honey.
+
+quiz: What did Yahweh cause to go back by a strong east wind?
+- The river
++ The sea
+- The cloud
+explain: Yahweh caused the sea to go back by a strong east wind all night.
+
+quiz: Until which day of the month did each family keep its lamb?
+- The fourth day
++ The fourteenth day
+- The fortieth day
+explain: They kept it until the fourteenth day of the month.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== ancient-kings
+idea: A very tall champion, a shepherd with five smooth stones, and a king who built a house for Yahweh.
+
+game: Goliath = Philistine champion from Gath | David = Chose five smooth stones | Solomon = Spent seven years building the house | Sheba = Queen who came to test Solomon
+
+--- 👑
+p: Goliath of Gath, the Philistine champion, was six cubits and a span tall.
+
+term: cubit = A length measure. Goliath was six cubits and a span tall.
+
+fact: He wore a brass helmet and a coat of mail that weighed five thousand shekels.
+
+check: Who was the Philistine champion from Gath?
+- Jonathan
++ Goliath
+- Samson
+hint: Look at the paragraph. The answer is there.
+explain: Goliath of Gath, the Philistine champion, was six cubits and a span tall.
+
+--- 🧑
+p: David took his staff in his hand and chose five smooth stones out of the brook.
+
+fact: He put them in the pouch of his shepherd's bag.
+
+check: How many smooth stones did David choose?
+- Ten
++ Five
+- Three
+hint: Look at the paragraph. The answer is there.
+explain: David took his staff in his hand and chose five smooth stones out of the brook.
+
+--- 📏
+p: The house that King Solomon built for Yahweh was sixty cubits long.
+
+fact: It was twenty cubits wide and thirty cubits high.
+
+check: How many cubits long was the house King Solomon built?
+- Twenty cubits
++ Sixty cubits
+- Thirty cubits
+hint: Look at the paragraph. The answer is there.
+explain: The house that King Solomon built for Yahweh was sixty cubits long.
+
+--- 🏗️
+p: King Solomon spent seven years building the house of Yahweh.
+
+fact: In the end it was finished throughout all its parts, just as planned.
+
+check: How many years did Solomon spend building the house?
+- Three years
++ Seven years
+- Twelve years
+hint: Look at the paragraph. The answer is there.
+explain: King Solomon spent seven years building the house of Yahweh.
+
+--- 👤
+p: The queen of Sheba heard about Solomon's fame and came to test him with hard questions.
+
+fact: She came to Jerusalem with a very great caravan, with camels carrying spices, a lot of gold and precious stones.
+
+--- 🧭
+p: Once every three years the fleet of Tarshish came to King Solomon.
+
+fact: It brought gold, silver, ivory, apes and peacocks.
+
+--- 🔎
+p: A tall champion. Five smooth stones. A house for Yahweh. A queen with a caravan. A fleet with gold and ivory.
+
+p: Kings and champions.
+
+quiz: What did David put his five stones in?
+- The helmet of a Philistine soldier
++ The pouch of his shepherd's bag
+- The coat of a mighty king
+explain: He put them in the pouch of his shepherd's bag.
+
+quiz: Who came to Jerusalem with a very great caravan to test Solomon?
+- The king of Tarshish
++ The queen of Sheba
+- The priest of Gath
+explain: The queen of Sheba heard about Solomon's fame and came to test him with hard questions.
+
+quiz: How often did the fleet of Tarshish come to King Solomon?
+- Every single morning
++ Once every three years
+- Just one time ever
+explain: Once every three years the fleet of Tarshish came to King Solomon.
+
+quiz: What animals did the fleet of Tarshish bring?
+- Lions and bears
++ Apes and peacocks
+- Camels and goats
+explain: It brought gold, silver, ivory, apes and peacocks.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== ancient-babylon
+idea: Babylon was a very big ancient city with a great gate, a road lined with lions, and famous hanging gardens.
+
+game: Babylon = Ancient city on the Euphrates | Ishtar Gate = Was 49 ft high | Processional Way = Ran through the Ishtar Gate | Hanging Gardens = One of the Seven Wonders
+
+--- 🏛️
+p: Babylon was an ancient city on the Euphrates river in Mesopotamia.
+
+term: ruins = What is left of Babylon, an ancient city in Iraq.
+
+fact: Its ruins are in Iraq, about 53 mi (85 km) south of Baghdad.
+
+check: On which river was Babylon?
+- The Mississippi
++ The Euphrates
+- The Jordan
+hint: Look at the paragraph. The answer is there.
+explain: Babylon was an ancient city on the Euphrates river in Mesopotamia.
+
+--- 📏
+p: Babylon may have been the first city with more than 200,000 people.
+
+fact: It covered an area of about 3.5 sq mi (900 ha).
+
+check: How many people may have lived in Babylon?
+- Fewer than 2,000
++ More than 200,000
+- About 20
+hint: Look at the paragraph. The answer is there.
+explain: Babylon may have been the first city with more than 200,000 people.
+
+--- 📐
+p: The Ishtar Gate was 49 ft (15 m) high.
+
+fact: Its foundations went another 46 ft (14 m) underground.
+
+check: How high was the Ishtar Gate?
+- 29 ft (9 m)
++ 49 ft (15 m)
+- 94 ft (29 m)
+hint: Look at the paragraph. The answer is there.
+explain: The Ishtar Gate was 49 ft (15 m) high.
+
+--- 🏺
+p: The Processional Way ran through the Ishtar Gate.
+
+fact: Its walls showed about 120 lions, bulls, dragons and flowers on yellow and black glazed bricks.
+
+check: What was the road through the Ishtar Gate called?
+- The Royal Highway
++ The Processional Way
+- The Golden Bridge
+hint: Look at the paragraph. The answer is there.
+explain: The Processional Way ran through the Ishtar Gate.
+
+--- 🏗️
+p: The Hanging Gardens of Babylon were one of the Seven Wonders of the Ancient World.
+
+fact: They were described as rising tiers of gardens with many trees, shrubs and vines, like a large green mountain.
+
+--- 🧑
+p: The written account says Daniel was taken up out of the den of lions.
+
+fact: No kind of harm was found on him, because he had trusted in his God.
+
+--- 🔎
+p: A city on the Euphrates. Ruins in Iraq. A gate and a Processional Way. Gardens like a green mountain. Daniel and the lions.
+
+p: Babylon was great.
+
+quiz: Which country are the ruins of Babylon in?
+- Egypt
++ Iraq
+- Italy
+explain: Its ruins are in Iraq, about 53 mi (85 km) south of Baghdad.
+
+quiz: How many Wonders of the Ancient World are there?
+- Three
++ Seven
+- Ten
+explain: The Hanging Gardens of Babylon were one of the Seven Wonders of the Ancient World.
+
+quiz: What was found on Daniel when he was taken up out of the den of lions?
+- A deep wound
++ No harm
+- A heavy chain
+explain: No kind of harm was found on him, because he had trusted in his God.
+
+quiz: About how many lions, bulls, dragons and flowers did the walls show?
+- About 12
++ About 120
+- About 1,200
+explain: Its walls showed about 120 lions, bulls, dragons and flowers on yellow and black glazed bricks.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== ancient-persia
+idea: The Persian empire was the largest of its time, and its Royal Road let couriers cross it in nine days.
+
+game: Persia = Largest empire of its time | Darius = Empire stretched from Southeast Europe to the Indus Valley | Cyrus = Freed the Jewish people | Royal Road = Built for fast communication
+
+--- 🏹
+p: At its peak, the Persian empire covered about 2.1 million sq mi (5.5 million square kilometers).
+
+fact: It was the largest empire of its time.
+
+check: What was the area of the Persian empire at its peak?
+- 21,000 sq mi
++ 2.1 million sq mi
+- Just 2,100 square miles
+hint: Look at the paragraph. The answer is there.
+explain: At its peak, the Persian empire covered about 2.1 million sq mi (5.5 million square kilometers).
+
+--- 📏
+p: Darius the Great was a king of the Persian empire.
+
+fact: Under him, the empire stretched from Southeast Europe and Northeast Africa in the west to the Indus Valley in the east.
+
+check: Under which king did the empire stretch from Southeast Europe to the Indus Valley?
+- Alexander the Great
++ Darius the Great
+- Peter the Great
+hint: Look at the paragraph. The answer is there.
+explain: Darius the Great was a king of the Persian empire.
+
+--- 🧑
+p: Cyrus is honored in Judaism for freeing the Jewish people from captivity in Babylon.
+
+term: captivity = Being held as a prisoner, like the Jewish people in Babylon.
+
+fact: He did it by issuing the Edict of Restoration.
+
+check: What did Cyrus do for the Jewish people?
+- Taught them to read and write
++ Freed them from captivity in Babylon
+- Gave them a new king to follow
+hint: Look at the paragraph. The answer is there.
+explain: Cyrus is honored in Judaism for freeing the Jewish people from captivity in Babylon.
+
+--- 👤
+p: According to the Book of Isaiah, Yahweh anointed Cyrus for this task and called him a messiah.
+
+fact: Cyrus is the only non-Jewish person honored in this way.
+
+check: Which book says Yahweh anointed Cyrus?
+- A letter from Darius
++ The Book of Isaiah
+- A song by King David
+hint: Look at the paragraph. The answer is there.
+explain: According to the Book of Isaiah, Yahweh anointed Cyrus for this task and called him a messiah.
+
+--- 💨
+p: Mounted couriers were supposed to travel the 1,677 miles (2,699 km) from Susa to Sardis in nine days.
+
+fact: On foot the trip took ninety days.
+
+--- 🏗️
+p: The Royal Road was built for fast communication across the western part of the empire, from Susa to Sardis.
+
+fact: It was probably perfected under Darius I.
+
+--- 🔎
+p: A huge empire. Darius the Great. Cyrus and the Jewish people. Couriers on the Royal Road.
+
+p: Persia was large.
+
+quiz: How many days did mounted couriers take to travel from Susa to Sardis?
+- Ninety days
++ Nine days
+- Nineteen days
+explain: Mounted couriers were supposed to travel from Susa to Sardis in nine days.
+
+quiz: Where did the Royal Road run from?
+- From Tyre to Babylon
++ From Susa to Sardis
+- From Egypt to Persia
+explain: The Royal Road was built for fast communication, from Susa to Sardis.
+
+quiz: What was the Persian empire, for its time?
+- The tiniest empire
++ The largest empire
+- A very young empire
+explain: It was the largest empire of its time.
+
+quiz: What did Cyrus issue to free the Jewish people?
+- The Code of Laws
++ The Edict of Restoration
+- The Book of Wonders
+explain: He did it by issuing the Edict of Restoration.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== ancient-sea
+idea: The Phoenicians sailed and traded all over the Mediterranean, and their alphabet had one symbol for each sound.
+
+game: Phoenicians = Traded all over the Mediterranean | Tyre = One of the oldest cities | Alphabet = One symbol for each sound | Consonants = All 22 Phoenician letters
+
+--- ⛵
+p: The Phoenicians were an ancient people who lived in city-states along the eastern Mediterranean coast.
+
+fact: Most of their land was in what is now Lebanon.
+
+check: Where did the Phoenicians live?
+- Across the dry southern desert near the river
++ Along the eastern Mediterranean coast
+- Beside the cold northern forests and the lakes
+hint: Look at the paragraph. The answer is there.
+explain: The Phoenicians were an ancient people who lived in city-states along the eastern Mediterranean coast.
+
+--- 🧭
+p: The Phoenicians traded all over the Mediterranean Sea.
+
+fact: They went from Cyprus to the Iberian Peninsula. They left thousands of inscriptions.
+
+check: What did the Phoenicians leave behind in many places?
+- Hundreds of tall towers
++ Thousands of inscriptions
+- Millions of gold coins
+hint: Look at the box. The answer is there.
+explain: They left thousands of inscriptions.
+
+--- 🏡
+p: Tyre juts out from the coast of the Mediterranean Sea, about 50 mi (80 km) south of Beirut.
+
+fact: It is one of the oldest cities in the world that people have lived in without a break.
+
+check: Which sea is Tyre on?
+- The Caribbean Sea
++ The Mediterranean Sea
+- The Southern Ocean
+hint: Look at the paragraph. The answer is there.
+explain: Tyre juts out from the coast of the Mediterranean Sea, about 50 mi (80 km) south of Beirut.
+
+--- ✍️
+p: The Phoenician alphabet was one of the first alphabets.
+
+fact: It was written horizontally, from right to left, and was the first to have a fixed writing direction.
+
+check: Which way was Phoenician written?
+- From top to bottom
++ From right to left
+- Around in a big circle
+hint: Look at the box. The answer is there.
+explain: It was written horizontally, from right to left, and was the first to have a fixed writing direction.
+
+--- 📖
+p: The Phoenician alphabet used one symbol for each sound.
+
+fact: That meant there were only a few dozen symbols to learn.
+
+--- 🖋️
+p: The Phoenician alphabet used 22 letters, all of them consonants.
+
+term: consonants = Letters for sounds that are not vowel sounds.
+
+fact: It left the vowel sounds for the reader to supply.
+
+--- 🔎
+p: A people on the eastern coast. Ships to Cyprus. Tyre on the sea. An alphabet from right to left. 22 letters.
+
+p: The sea made them traders.
+
+quiz: How many letters did the Phoenician alphabet use?
+- 2
++ 22
+- 220
+explain: The Phoenician alphabet used 22 letters, all of them consonants.
+
+quiz: How many symbols did the Phoenician alphabet use for each sound?
+- Two
++ One
+- Ten
+explain: The Phoenician alphabet used one symbol for each sound.
+
+quiz: Where did the Phoenicians go from Cyprus?
+- The Indus Valley
++ The Iberian Peninsula
+- The Black Forest
+explain: They went from Cyprus to the Iberian Peninsula.
+
+quiz: Which country is where most Phoenician land was?
+- Argentina
++ Lebanon
+- Australia
+explain: Most of their land was in what is now Lebanon.

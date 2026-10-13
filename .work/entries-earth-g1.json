@@ -1,0 +1,338 @@
+[
+ {
+  "id": "deserts-1",
+  "section": "deserts",
+  "cat": "size",
+  "kind": "found",
+  "text": "About one-third of the land on Earth is very dry. That includes polar lands, which are sometimes called cold deserts.",
+  "more": ""
+ },
+ {
+  "id": "deserts-2",
+  "section": "deserts",
+  "cat": "weird",
+  "kind": "found",
+  "text": "In the Atacama Desert in Chile, the average rainfall in one region is just 0.039 in (1 mm) a year. Some weather stations there have never received any rain.",
+  "more": ""
+ },
+ {
+  "id": "deserts-3",
+  "section": "deserts",
+  "cat": "size",
+  "kind": "found",
+  "text": "The Atacama Desert is a strip of land about 1,000 mi (1,600 km) long in northern Chile. It covers about 41,000 sq mi (105,000 km2).",
+  "more": ""
+ },
+ {
+  "id": "deserts-4",
+  "section": "deserts",
+  "cat": "size",
+  "kind": "found",
+  "text": "The Sahara in North Africa is the largest hot desert in the world. It covers 3,600,000 sq mi (9,200,000 square kilometers). Only the deserts of Antarctica and the Arctic are bigger.",
+  "more": ""
+ },
+ {
+  "id": "deserts-5",
+  "section": "deserts",
+  "cat": "size",
+  "kind": "found",
+  "text": "Many sand dunes in the Sahara rise over 590 ft (180 m). The desert also has rocky plateaus, gravel plains, dry lakes and salt flats.",
+  "more": ""
+ },
+ {
+  "id": "deserts-6",
+  "section": "deserts",
+  "cat": "speed",
+  "kind": "found",
+  "text": "A group of sand dunes in China moved more than 328 ft (100 m) every year from 1954 to 1959. Dunes in the Western Desert of Egypt move that fast too.",
+  "more": ""
+ },
+ {
+  "id": "islands-1",
+  "section": "islands",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "An island is a piece of land completely surrounded by water. Some islands were once part of a continent. Others, called oceanic islands, never were.",
+  "more": ""
+ },
+ {
+  "id": "islands-2",
+  "section": "islands",
+  "cat": "daily",
+  "kind": "found",
+  "text": "Up to 10% of the world's people live on islands. Many people also visit islands for their natural beauty and their unique cultures.",
+  "more": ""
+ },
+ {
+  "id": "islands-3",
+  "section": "islands",
+  "cat": "size",
+  "kind": "found",
+  "text": "The Great Barrier Reef is the world's largest coral reef system. It has over 2,900 individual reefs and 900 islands, and it stretches for over 1,400 mi (2,300 km).",
+  "more": ""
+ },
+ {
+  "id": "islands-4",
+  "section": "islands",
+  "cat": "build",
+  "kind": "found",
+  "text": "The Great Barrier Reef can be seen from outer space. Billions of tiny animals called coral polyps built it. It is the biggest single structure made by living things.",
+  "more": ""
+ },
+ {
+  "id": "islands-5",
+  "section": "islands",
+  "cat": "size",
+  "kind": "found",
+  "text": "The state of Hawaii is made of 137 volcanic islands. They stretch for 1,500 mi (2,400 km).",
+  "more": ""
+ },
+ {
+  "id": "islands-6",
+  "section": "islands",
+  "cat": "home",
+  "kind": "found",
+  "text": "Hawaii is in the Pacific Ocean, about 2,000 mi (3,200 km) southwest of the U.S. mainland. It is the only state that is not on the North American mainland, and the only state that is an archipelago.",
+  "more": ""
+ },
+ {
+  "id": "mountains-1",
+  "section": "mountains",
+  "cat": "size",
+  "kind": "found",
+  "text": "Mount Everest in the Himalayas is the highest mountain on Earth. Its top is 29,035 ft (8,850 m) above sea level.",
+  "more": ""
+ },
+ {
+  "id": "mountains-2",
+  "section": "mountains",
+  "cat": "size",
+  "kind": "found",
+  "text": "Mauna Kea in Hawaii rises 30,610 ft (9,330 m) from its base at the bottom of the ocean. Measured from base to peak, some scientists say it is the tallest mountain on Earth.",
+  "more": ""
+ },
+ {
+  "id": "mountains-3",
+  "section": "mountains",
+  "cat": "travel",
+  "kind": "record",
+  "text": "The closest sea to Mount Everest's summit is the Bay of Bengal, almost 430 mi (700 km) away. In 1990, a team led by Tim Macartney-Snape climbed the whole height, from the coast. Most climbers start at base camps above 16,404 ft (5,000 m).",
+  "more": ""
+ },
+ {
+  "id": "mountains-4",
+  "section": "mountains",
+  "cat": "size",
+  "kind": "found",
+  "text": "More than 100 peaks in the Himalayas rise above 23,600 ft (7,200 m). The range spans five countries: Nepal, India, China, Bhutan and Pakistan.",
+  "more": ""
+ },
+ {
+  "id": "mountains-5",
+  "section": "mountains",
+  "cat": "size",
+  "kind": "found",
+  "text": "The Andes are the longest mountain range on land in the world. They run along the western edge of South America and are 5,500 mi (8,900 km) long.",
+  "more": ""
+ },
+ {
+  "id": "mountains-6",
+  "section": "mountains",
+  "cat": "weird",
+  "kind": "found",
+  "text": "The peak of Chimborazo in Ecuador is farther from the center of the Earth than any other place on its surface. The Earth bulges at the equator because it spins.",
+  "more": ""
+ },
+ {
+  "id": "lakes-1",
+  "section": "lakes",
+  "cat": "size",
+  "kind": "found",
+  "text": "Lake Baikal is the deepest lake in the world, 5,387 ft (1,642 m) deep. It holds 22 to 23% of the world's fresh surface water, more than all the North American Great Lakes combined.",
+  "more": ""
+ },
+ {
+  "id": "lakes-2",
+  "section": "lakes",
+  "cat": "senses",
+  "kind": "found",
+  "text": "In winter, the water in Lake Baikal is so clear that you can see down 100 to 130 ft (30 to 40 m). In summer you can see 15 to 25 ft (5 to 8 m).",
+  "more": ""
+ },
+ {
+  "id": "lakes-3",
+  "section": "lakes",
+  "cat": "weird",
+  "kind": "found",
+  "text": "More than 1,000 species of plants and 2,500 species of animals live in Lake Baikal.",
+  "more": ""
+ },
+ {
+  "id": "lakes-4",
+  "section": "lakes",
+  "cat": "speed",
+  "kind": "found",
+  "text": "Niagara Falls is huge. In busy hours, more than 5.9 million cubic feet (168,000 cubic meters) of water goes over the top each minute.",
+  "more": ""
+ },
+ {
+  "id": "lakes-5",
+  "section": "lakes",
+  "cat": "size",
+  "kind": "found",
+  "text": "Angel Falls is the world's tallest waterfall with no break in the drop. It is 3,212 ft (979 m) high, and the main plunge is 2,648 ft (807 m).",
+  "more": ""
+ },
+ {
+  "id": "lakes-6",
+  "section": "lakes",
+  "cat": "people",
+  "kind": "record",
+  "text": "Angel Falls is named after Jimmie Angel, a U.S. pilot. He was the first person to fly over the falls, on November 16, 1933.",
+  "more": ""
+ },
+ {
+  "id": "rivers-1",
+  "section": "rivers",
+  "cat": "size",
+  "kind": "found",
+  "text": "The Nile is the longest river in the world, 4,404 mi (7,088 km) long. It flows north into the Mediterranean Sea.",
+  "more": ""
+ },
+ {
+  "id": "rivers-2",
+  "section": "rivers",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Eleven countries share the Nile's basin. Most of its water comes from rain in Ethiopia, Kenya, Tanzania and Uganda.",
+  "more": ""
+ },
+ {
+  "id": "rivers-3",
+  "section": "rivers",
+  "cat": "size",
+  "kind": "found",
+  "text": "The Amazon River carries more water than the next seven biggest rivers put together. It delivers 20% of all the river water that flows into the world's oceans.",
+  "more": ""
+ },
+ {
+  "id": "rivers-4",
+  "section": "rivers",
+  "cat": "size",
+  "kind": "found",
+  "text": "The Amazon River is about 4,000 mi (6,400 km) long. Its drainage basin is the largest in the world, about 2,700,000 sq mi (7,000,000 square kilometers).",
+  "more": ""
+ },
+ {
+  "id": "rivers-5",
+  "section": "rivers",
+  "cat": "size",
+  "kind": "found",
+  "text": "The Mississippi River is 2,340 mi (3,766 km) long. It starts at Lake Itasca in Minnesota and ends in the Gulf of Mexico. It is the second-longest river in the U.S.",
+  "more": ""
+ },
+ {
+  "id": "rivers-6",
+  "section": "rivers",
+  "cat": "size",
+  "kind": "found",
+  "text": "The Mississippi collects water from all or part of 32 U.S. states. Two Canadian provinces drain into it too.",
+  "more": ""
+ },
+ {
+  "id": "storms-1",
+  "section": "storms",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "A tornado is a column of air that spins very fast, from the ground up to a cloud. Most have winds under 110 mph (180 km/h) and are about 250 ft (80 m) across.",
+  "more": ""
+ },
+ {
+  "id": "storms-2",
+  "section": "storms",
+  "cat": "speed",
+  "kind": "found",
+  "text": "The strongest tornadoes can have winds of more than 300 mph (480 km/h). They can be more than 2 mi (3 km) wide and stay on the ground for more than 62 mi (100 km).",
+  "more": ""
+ },
+ {
+  "id": "storms-3",
+  "section": "storms",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "The Enhanced Fujita Scale rates tornadoes by the damage they cause. An EF0, the weakest, damages trees but not buildings. An EF5, the strongest, rips buildings off their foundations.",
+  "more": ""
+ },
+ {
+  "id": "storms-4",
+  "section": "storms",
+  "cat": "record",
+  "kind": "found",
+  "text": "Around 80 to 90 named tropical cyclones form around the world each year. More than half of them reach hurricane-force winds of 75 mph (120 km/h) or more.",
+  "more": ""
+ },
+ {
+  "id": "storms-5",
+  "section": "storms",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Hurricanes form over warm ocean water. They get their energy from water that evaporates off the sea.",
+  "more": ""
+ },
+ {
+  "id": "storms-6",
+  "section": "storms",
+  "cat": "size",
+  "kind": "found",
+  "text": "A tropical cyclone is typically between 62 and 1,243 mi (100 and 2,000 km) wide. That is much wider than a tornado.",
+  "more": ""
+ },
+ {
+  "id": "lightning-1",
+  "section": "lightning",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Lightning heats the air around it to about 54,000°F (30,000°C) in an instant.",
+  "more": ""
+ },
+ {
+  "id": "lightning-2",
+  "section": "lightning",
+  "cat": "size",
+  "kind": "found",
+  "text": "An average bolt of negative lightning carries 30,000 amperes of electric current. The biggest positive bolts can carry up to 120 kA.",
+  "more": ""
+ },
+ {
+  "id": "lightning-3",
+  "section": "lightning",
+  "cat": "howworks",
+  "kind": "found",
+  "text": "Thunder is a shock wave. Lightning heats the air so fast that the air blasts outward faster than sound would normally travel.",
+  "more": ""
+ },
+ {
+  "id": "lightning-4",
+  "section": "lightning",
+  "cat": "senses",
+  "kind": "found",
+  "text": "Close to the lightning, thunder is usually 165 to 180 decibels loud. Sometimes it is over 200 decibels.",
+  "more": ""
+ },
+ {
+  "id": "lightning-5",
+  "section": "lightning",
+  "cat": "speed",
+  "kind": "found",
+  "text": "You see lightning before you hear thunder. Light travels much faster than sound. In dry air, sound goes about 1,130 ft (343 m) every second.",
+  "more": ""
+ },
+ {
+  "id": "lightning-6",
+  "section": "lightning",
+  "cat": "size",
+  "kind": "found",
+  "text": "A thunderstorm cloud, called a cumulonimbus, can reach more than 12 mi (20 km) high. It grows when warm, moist air moves up and cools.",
+  "more": ""
+ }
+]

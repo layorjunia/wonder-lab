@@ -1,0 +1,90 @@
+{
+ "_about": "New sections for the fact courses. Each section becomes ONE lesson of 6 sourced facts. `sources` are Wikipedia article titles (en), https URLs, or bible:<passage> (World English Bible via bible-api.com). `angle` steers the extractor. Wave 1.",
+ "earth": [
+  {"id": "deserts", "name": "Deserts & Dunes", "glyph": "🏜️", "sources": ["Desert", "Sand dune", "Sahara", "Atacama Desert"], "angle": "what a desert is, how hot or cold, dunes, the biggest deserts, how little rain falls"},
+  {"id": "mountains", "name": "Mountains", "glyph": "🏔️", "sources": ["Mountain", "Mount Everest", "Himalayas", "Andes"], "angle": "heights, the tallest peaks, ranges, how climbers deal with thin air"},
+  {"id": "islands", "name": "Islands & Reefs", "glyph": "🏝️", "sources": ["Island", "Coral reef", "Great Barrier Reef", "Hawaii"], "angle": "biggest islands, reefs, what lives in a reef, island chains"},
+  {"id": "rivers", "name": "Great Rivers", "glyph": "🏞️", "sources": ["River", "Nile", "Amazon River", "Mississippi River"], "angle": "lengths, how much water they carry, where they start and end"},
+  {"id": "lakes", "name": "Lakes & Waterfalls", "glyph": "💦", "sources": ["Lake", "Lake Baikal", "Waterfall", "Niagara Falls", "Angel Falls"], "angle": "deepest and biggest lakes, tallest and widest waterfalls, how much water falls"},
+  {"id": "storms", "name": "Tornadoes & Hurricanes", "glyph": "🌪️", "sources": ["Tornado", "Tropical cyclone", "Wind"], "angle": "wind speeds, sizes, how they are measured, where they happen, staying safe"},
+  {"id": "lightning", "name": "Lightning & Thunder", "glyph": "⚡", "sources": ["Lightning", "Thunder", "Thunderstorm"], "angle": "how hot, how fast, how far thunder carries, how many strikes, staying safe"}
+ ],
+ "astro": [
+  {"id": "mars", "name": "Mars", "glyph": "🔴", "sources": ["Mars", "Olympus Mons", "Phobos (moon)"], "angle": "size, day length, temperature, the tallest volcano, its two moons, rovers"},
+  {"id": "venus", "name": "Venus & Mercury", "glyph": "🌕", "sources": ["Venus", "Mercury (planet)"], "angle": "heat, pressure, day length, size, distance from the Sun; avoid any claim about how old they are"},
+  {"id": "jupiter", "name": "Jupiter", "glyph": "🟤", "sources": ["Jupiter", "Great Red Spot", "Galilean moons"], "angle": "size, the Great Red Spot, moons, storms, day length"},
+  {"id": "saturn", "name": "Saturn & Its Rings", "glyph": "🪐", "sources": ["Saturn", "Rings of Saturn", "Titan (moon)"], "angle": "rings width and thickness, density, moons, Titan, wind speeds"},
+  {"id": "eclipses", "name": "Eclipses", "glyph": "🌑", "sources": ["Solar eclipse", "Lunar eclipse"], "angle": "what lines up, how long totality lasts, how often, how to watch safely"},
+  {"id": "rockets", "name": "Rockets & Spacecraft", "glyph": "🚀", "sources": ["Rocket", "Apollo 11", "Voyager 1", "Space Shuttle"], "angle": "speeds, heights, distances travelled, what they carried, first flights"},
+  {"id": "astronauts", "name": "Astronauts", "glyph": "👨‍🚀", "sources": ["Astronaut", "International Space Station", "Yuri Gagarin", "Neil Armstrong"], "angle": "living in space, the first flights, the space station's size and speed, spacesuits"}
+ ],
+ "physical": [
+  {"id": "machines", "name": "Simple Machines", "glyph": "🔧", "sources": ["Simple machine", "Lever", "Pulley", "Inclined plane", "Wheel and axle"], "angle": "what each machine does, everyday examples, how they make work easier"},
+  {"id": "air", "name": "Air & Pressure", "glyph": "💨", "sources": ["Atmosphere of Earth", "Atmospheric pressure", "Wind"], "angle": "what air is made of, how much it weighs, pressure, altitude"},
+  {"id": "water", "name": "Water's Tricks", "glyph": "💧", "sources": ["Properties of water", "Surface tension", "Ice"], "angle": "freezing, boiling, floating ice, surface tension, water as a solvent"},
+  {"id": "flight", "name": "How Things Fly", "glyph": "✈️", "sources": ["Flight", "Lift (force)", "Airplane", "Helicopter"], "angle": "lift, thrust, drag, weight, how wings and rotors work"},
+  {"id": "reactions", "name": "Mixing & Changing", "glyph": "⚗️", "sources": ["Chemical reaction", "Rust", "Combustion", "Sodium bicarbonate"], "angle": "what a chemical change is, rust, fire, baking soda and vinegar, signs of a reaction"},
+  {"id": "gravity", "name": "Gravity", "glyph": "🍎", "sources": ["Gravity", "Isaac Newton", "Free fall"], "angle": "what gravity does, falling objects, weight on other worlds, Newton and Galileo"},
+  {"id": "atoms", "name": "Atoms & Elements", "glyph": "⚛️", "sources": ["Atom", "Chemical element", "Periodic table"], "angle": "how small atoms are, the elements, what everything is made of, common elements"}
+ ],
+ "micro": [
+  {"id": "hunters", "name": "Microbe Hunters", "glyph": "🔬", "sources": ["Antonie van Leeuwenhoek", "Louis Pasteur", "Robert Hooke", "Alexander Fleming"], "angle": "who first saw microbes, what they discovered, their tools and their experiments"},
+  {"id": "tiny", "name": "Tiny Animals", "glyph": "🐛", "sources": ["Tardigrade", "Dust mite", "Rotifer"], "angle": "sizes, what they eat, how they survive, where they live"},
+  {"id": "algae", "name": "Algae & Plankton", "glyph": "🌿", "sources": ["Algae", "Phytoplankton", "Diatom"], "angle": "what algae are, how much oxygen they make, sizes, where they live"},
+  {"id": "food", "name": "Microbes in Food", "glyph": "🧀", "sources": ["Cheese", "Yogurt", "Sourdough", "Fermentation in food processing"], "angle": "which foods are made with microbes, how bread rises, how cheese and yogurt are made"},
+  {"id": "water", "name": "Clean Water", "glyph": "🚰", "sources": ["Water purification", "John Snow", "Chlorine"], "angle": "how water is made safe, the cholera pump story, boiling and filtering"},
+  {"id": "extremes", "name": "Microbes Everywhere", "glyph": "🌋", "sources": ["Extremophile", "Hot spring", "Thermus aquaticus"], "angle": "microbes in hot springs, ice, salt lakes; how many live on your body"},
+  {"id": "vaccines", "name": "Vaccines & Medicine", "glyph": "💉", "sources": ["Vaccine", "Edward Jenner", "Penicillin", "Antibiotic"], "angle": "how vaccines work, Jenner's first vaccine, the discovery of penicillin"}
+ ],
+ "ancient": [
+  {"id": "patriarchs", "name": "Abraham & His Family", "glyph": "🐪", "sources": ["bible:Genesis 12-13", "bible:Genesis 22", "bible:Genesis 37", "Hebron"], "angle": "the written account of Abraham, Isaac, Jacob and Joseph; mark facts as written down, no dates"},
+  {"id": "exodus", "name": "The Exodus", "glyph": "🔥", "sources": ["bible:Exodus 12", "bible:Exodus 14", "bible:Exodus 16", "Mount Sinai"], "angle": "the written account: Passover, the sea crossing, manna, Sinai; no dates"},
+  {"id": "kings", "name": "David & Solomon", "glyph": "👑", "sources": ["bible:1 Samuel 17", "bible:1 Kings 6", "bible:1 Kings 10", "Jerusalem"], "angle": "David and Goliath, the temple's size and building, the Queen of Sheba; no dates"},
+  {"id": "babylon", "name": "Babylon", "glyph": "🏛️", "sources": ["Babylon", "Ishtar Gate", "Hanging Gardens of Babylon", "bible:Daniel 6"], "angle": "walls, gates, gardens, Nebuchadnezzar, Daniel in the lions' den; avoid dates"},
+  {"id": "persia", "name": "Persia", "glyph": "🏹", "sources": ["Cyrus the Great", "Achaemenid Empire", "Royal Road"], "angle": "the Persian king's kindness, the Royal Road, how big the empire was; avoid dates"},
+  {"id": "sea", "name": "Sea Traders", "glyph": "⛵", "sources": ["Phoenicia", "Tyre, Lebanon", "Phoenician alphabet"], "angle": "ships, purple dye, cedar, the alphabet; avoid dates"}
+ ],
+ "america": [
+  {"id": "revolution", "name": "The Revolution", "glyph": "🔔", "sources": ["American Revolution", "Boston Tea Party", "Paul Revere", "United States Declaration of Independence"], "angle": "what happened, who, where, numbers of tea chests, ride distance, what the Declaration says"},
+  {"id": "constitution", "name": "The Constitution", "glyph": "📜", "sources": ["United States Constitution", "United States Bill of Rights", "George Washington"], "angle": "how it was written, how many words and pages, the first ten amendments, the first president"},
+  {"id": "presidents", "name": "Presidents", "glyph": "🎩", "sources": ["Abraham Lincoln", "Theodore Roosevelt", "White House"], "angle": "childhoods, famous acts, the White House's rooms and size"},
+  {"id": "civilwar", "name": "The Civil War", "glyph": "🛡️", "sources": ["American Civil War", "Gettysburg Address", "Harriet Tubman", "Emancipation Proclamation"], "angle": "what divided the country, Gettysburg, the Underground Railroad, freedom"},
+  {"id": "gold", "name": "Gold & Trails", "glyph": "⛏️", "sources": ["California Gold Rush", "Oregon Trail", "Pony Express"], "angle": "numbers of travelers, miles, riders and horses, how long trips took"},
+  {"id": "coming", "name": "Coming to America", "glyph": "🗽", "sources": ["Ellis Island", "Statue of Liberty", "Mayflower"], "angle": "ship journeys, what Ellis Island was, the Statue's size, how many people came"},
+  {"id": "parks", "name": "National Parks", "glyph": "🏞️", "sources": ["National park", "Yellowstone National Park", "Grand Canyon", "Old Faithful"], "angle": "first national park, sizes, geysers, the canyon's depth and length"}
+ ],
+ "utah": [
+  {"id": "cities", "name": "Cities & Towns", "glyph": "🏙️", "sources": ["Salt Lake City", "Ogden, Utah", "Provo, Utah", "St. George, Utah", "Moab, Utah"], "angle": "what each is known for, how people use them, sizes; avoid dates before 1847 and politics"},
+  {"id": "people", "name": "Famous Utahns", "glyph": "🌟", "sources": ["Philo Farnsworth", "John Browning", "Butch Cassidy", "Roy Halladay"], "angle": "what each invented or did, in kid terms; skip anything about crimes beyond a mention"},
+  {"id": "animals", "name": "Utah Animals", "glyph": "🦌", "sources": ["Rocky Mountain elk", "Utah prairie dog", "Bighorn sheep", "Greater sage-grouse", "Desert tortoise"], "angle": "sizes, what they eat, where they live in Utah"},
+  {"id": "ski", "name": "Skiing & Snow", "glyph": "🎿", "sources": ["Alta Ski Area", "Park City, Utah", "2002 Winter Olympics"], "angle": "snowfall, first lifts, the Olympics in Utah, light powder"},
+  {"id": "redrock", "name": "Red Rock Country", "glyph": "🪨", "sources": ["Monument Valley", "Goblin Valley State Park", "Natural Bridges National Monument", "Rainbow Bridge National Monument"], "angle": "buttes, hoodoos, bridges, sizes, who lives or lived there"},
+  {"id": "dinos", "name": "Dinosaur Country", "glyph": "🦕", "sources": ["Cleveland-Lloyd Dinosaur Quarry", "Utahraptor", "Allosaurus"], "angle": "what bones were found, how many, how big the animals were; NEVER give ages or era names"},
+  {"id": "lakes", "name": "Lakes of Utah", "glyph": "🏖️", "sources": ["Bear Lake (Idaho–Utah)", "Lake Powell", "Utah Lake"], "angle": "size, depth, color, boating, fish, what each lake is used for"}
+ ],
+ "world": [
+  {"id": "vikings", "name": "Vikings", "glyph": "⚓", "sources": ["Vikings", "Longship", "Leif Erikson"], "angle": "ships, voyages, where they sailed, daily life; avoid scholarly dating debates"},
+  {"id": "castles", "name": "Castles & Knights", "glyph": "🏰", "sources": ["Castle", "Knight", "Plate armour"], "angle": "parts of a castle, thickness of walls, armor weight, how a knight trained"},
+  {"id": "silkroad", "name": "The Silk Road", "glyph": "🐫", "sources": ["Silk Road", "Marco Polo", "Bactrian camel"], "angle": "what was traded, how far, who traveled it, camels"},
+  {"id": "china", "name": "Ancient China", "glyph": "🐉", "sources": ["Great Wall of China", "Terracotta Army", "Four Great Inventions"], "angle": "length of the wall, number of soldiers, inventions: paper, printing, gunpowder, compass"},
+  {"id": "renaissance", "name": "The Renaissance", "glyph": "🎨", "sources": ["Leonardo da Vinci", "Michelangelo", "Galileo Galilei"], "angle": "what they made and invented, the Sistine ceiling, notebooks, telescopes"},
+  {"id": "factories", "name": "Factories & Steam", "glyph": "🏭", "sources": ["Industrial Revolution", "Steam engine", "James Watt"], "angle": "how steam power worked, what factories made, how life changed"},
+  {"id": "africa", "name": "Kingdoms of Africa", "glyph": "🌍", "sources": ["Mali Empire", "Mansa Musa", "Timbuktu", "Great Zimbabwe"], "angle": "gold, trade, libraries, stone walls and towers"}
+ ],
+ "body": [
+  {"id": "eyes", "name": "Eyes & Seeing", "glyph": "👁️", "sources": ["Human eye", "Retina", "Color vision"], "angle": "parts of the eye, how big, how it focuses, colors, blinking"},
+  {"id": "ears", "name": "Ears & Hearing", "glyph": "👂", "sources": ["Ear", "Cochlea", "Hearing"], "angle": "parts of the ear, smallest bones, how sound becomes signals, balance"},
+  {"id": "teeth", "name": "Teeth", "glyph": "🦷", "sources": ["Tooth", "Tooth enamel", "Dental caries"], "angle": "how many teeth, enamel, baby teeth, brushing"},
+  {"id": "blood", "name": "Blood", "glyph": "🩸", "sources": ["Blood", "Red blood cell", "Platelet"], "angle": "how much blood, what is in it, how fast it travels, blood cells numbers"}
+ ],
+ "economics": [
+  {"id": "money", "name": "What Money Is", "glyph": "🪙", "sources": ["Money", "Barter", "Coin", "Banknote"], "angle": "what money does, barter, first coins and notes, why we use it", "existing": true},
+  {"id": "trade", "name": "Trading & Markets", "glyph": "🤝", "sources": ["Trade", "Market (economics)", "Merchant"], "angle": "why people trade, what a market is, what merchants do", "existing": true},
+  {"id": "work", "name": "Jobs & Work", "glyph": "🛠️", "sources": ["Occupation", "Wage", "Division of labour"], "angle": "why people work, wages, specialization, kinds of jobs", "existing": true},
+  {"id": "business", "name": "Starting a Business", "glyph": "🏭", "sources": ["Entrepreneurship", "Business", "Profit (economics)"], "angle": "what a business does, profit, costs, risks", "existing": true},
+  {"id": "choices", "name": "Scarcity & Choices", "glyph": "⚖️", "sources": ["Scarcity", "Opportunity cost", "Economics"], "angle": "why we have to choose, what opportunity cost means with examples", "existing": true},
+  {"id": "saving", "name": "Saving & Spending", "glyph": "🐷", "sources": ["Saving", "Interest", "Bank"], "angle": "why save, how banks pay interest, spending wisely", "existing": true},
+  {"id": "supply", "name": "Supply & Demand", "glyph": "📈", "sources": ["Supply and demand", "Price", "Inflation"], "angle": "why prices change, what supply and demand mean, simple examples", "existing": true},
+  {"id": "world", "name": "Trade Around The World", "glyph": "🌍", "sources": ["International trade", "Cargo ship", "Shipping container"], "angle": "what countries trade, ships and containers, why trade matters", "existing": true}
+ ]
+}

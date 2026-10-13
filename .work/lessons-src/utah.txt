@@ -757,7 +757,7 @@ explain: Earl Douglass found the first huge bones there in 1909.
 --- ⛷️
 p: In 2002, Salt Lake City hosted the Winter Olympics. Utah's snow falls light and dry, and Utah calls it the Greatest Snow on Earth.
 
-fact: Some mountain resorts get more than 500 inches (12.7 m) of snow in a year. Alta, a ski area near Salt Lake City, averages about 546 inches (13.9 m).
+fact: Some mountain resorts get more than 500 inches (12.7 m) of snow in a year. Alta, a ski area near Salt Lake City, averages more than 540 inches (13.7 m).
 
 check: In which year did Salt Lake City host the Winter Olympics?
 - 1896
@@ -794,3 +794,668 @@ quiz: What does Utah call its snow?
 + The Greatest Snow on Earth
 - The Whitest Rain on Earth
 explain: Utah's snow falls light and dry, and Utah calls it the Greatest Snow on Earth.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== utah-cities
+idea: Utah's cities began with settlers led by Brigham Young, and they now form a long line along the Wasatch Front.
+
+game: Salt Lake City = Founded in 1847 by Brigham Young | Wasatch Front = A long line of cities in Utah | Ogden = Closest sizable city to the Golden Spike site | Provo = Named for Étienne Provost
+
+--- 🏙️
+p: Salt Lake City was founded in 1847.
+
+term: settlers = The people led by Brigham Young who founded Salt Lake City.
+
+fact: Settlers led by Brigham Young founded it.
+
+check: Who led the settlers who founded Salt Lake City?
+- Philo Farnsworth
++ Brigham Young
+- Butch Cassidy
+hint: Look at the box. The answer is there.
+explain: Settlers led by Brigham Young founded it.
+
+--- 📏
+p: Salt Lake City is part of a long line of cities along the Wasatch Front.
+
+fact: This urban corridor is a 120-mile (190 km) stretch, with about 2.8 million people.
+
+check: About how many people live in the urban corridor along the Wasatch Front?
+- Only 28,000
++ About 2.8 million
+- Nearly 280 million
+hint: Look at the box. The answer is there.
+explain: This urban corridor is a 120-mile (190 km) stretch, with about 2.8 million people.
+
+--- 📅
+p: Four days after arriving in the Salt Lake Valley, Brigham Young marked the building site for the Salt Lake Temple.
+
+fact: It took 40 years to finish.
+
+check: How many days after arriving did Young mark the temple site?
+- Ten days
++ Four days
+- Forty days
+hint: Look at the paragraph. The answer is there.
+explain: Four days after arriving in the Salt Lake Valley, Brigham Young marked the building site for the Salt Lake Temple.
+
+--- ⏳
+p: Ogden is the closest big city to the Golden Spike site at Promontory Summit, Utah.
+
+fact: That is where the first railroad across the country was joined in 1869.
+
+check: What famous spike site is closest to Ogden?
+- The Silver Nail site
++ The Golden Spike site
+- The Copper Rail site
+hint: Look at the paragraph. The answer is there.
+explain: Ogden is the closest big city to the Golden Spike site at Promontory Summit, Utah.
+
+--- 🧑
+p: Fort Utah was renamed Provo in 1850.
+
+fact: It was named for Étienne Provost, a French-Canadian trapper who arrived in the region in 1825.
+
+--- 🤔
+p: The highest temperature ever recorded in Utah was 118°F (48°C).
+
+fact: It was recorded in south St. George.
+
+--- 🔎
+p: Settlers on the Wasatch Front. A temple site marked in four days. A golden spike near Ogden. A fort renamed Provo. A hot day in St. George.
+
+p: Utah has cities.
+
+quiz: What year was Salt Lake City founded?
+- 1874
++ 1847
+- 1748
+explain: Salt Lake City was founded in 1847.
+
+quiz: What was Fort Utah renamed in 1850?
+- Ogden
++ Provo
+- Alta
+explain: Fort Utah was renamed Provo in 1850.
+
+quiz: How hot was the highest temperature ever recorded in Utah?
+- Only 81°F
++ 118°F
+- Nearly 181°F
+explain: The highest temperature ever recorded in Utah was 118°F (48°C).
+
+quiz: Where was the highest temperature in Utah recorded?
+- Central Provo
++ South St. George
+- Northern Ogden
+explain: It was recorded in south St. George.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== utah-people
+idea: A television inventor, a gun maker with 128 patents and Butch Cassidy all have roots in Utah.
+
+game: Farnsworth = Granted the first patent for television | Browning = Made his first gun at age 13 | Jonathan Browning = Set up a gunsmith shop in Ogden | Cassidy = Born Robert LeRoy Parker
+
+--- 🌟
+p: Philo Farnsworth was an American inventor.
+
+term: patent = A right the government grants to an inventor, like the first one for the television.
+
+fact: He was granted the first patent for the television.
+
+check: Who was granted the first patent for the television?
+- John Moses Browning
++ Philo Farnsworth
+- Robert LeRoy Parker
+hint: Look at the paragraph. The answer is there.
+explain: Philo Farnsworth was an American inventor.
+
+--- 🧑
+p: Philo Farnsworth was born on August 19, 1906, in a small log cabin near Beaver, Utah.
+
+fact: He was the oldest of five children.
+
+check: Where was Philo Farnsworth born?
+- Near Ogden, Utah
++ Near Beaver, Utah
+- Near Provo, Utah
+hint: Look at the paragraph. The answer is there.
+explain: Philo Farnsworth was born on August 19, 1906, in a small log cabin near Beaver, Utah.
+
+--- 📅
+p: On September 7, 1927, Philo Farnsworth's camera tube sent its first image, a simple straight line.
+
+fact: It went to a receiver in another room of his laboratory.
+
+check: What was the first image Farnsworth's camera tube sent?
+- A smiling face
++ A straight line
+- A tall tower
+hint: Look at the paragraph. The answer is there.
+explain: On September 7, 1927, Philo Farnsworth's camera tube sent its first image, a simple straight line.
+
+--- 👤
+p: John Browning made his first gun at age 13, in his father's gun shop.
+
+fact: He received the first of his 128 patents at age 24.
+
+check: At what age did John Browning make his first gun?
+- At age 3
++ At age 13
+- At age 30
+hint: Look at the paragraph. The answer is there.
+explain: John Browning made his first gun at age 13, in his father's gun shop.
+
+--- 👑
+p: John Browning's father, Jonathan, was one of the pioneers who came to Utah.
+
+fact: In 1852 he set up a gunsmith shop in Ogden.
+
+--- 🧑‍🔬
+p: Butch Cassidy was born Robert LeRoy Parker on April 13, 1866, in Beaver, Utah Territory.
+
+fact: He was the first of thirteen children.
+
+--- 🔎
+p: A television patent. A log cabin in Beaver. A straight line sent to a receiver. A first gun at age 13. A shop in Ogden.
+
+p: Utah people made things.
+
+quiz: Where did the first image from Farnsworth's camera tube go?
+- Onto a big screen at a theater
++ To a receiver in another room
+- Into a camera on the street
+explain: It went to a receiver in another room of his laboratory.
+
+quiz: How many patents did John Browning receive?
+- 12
++ 128
+- 1,280
+explain: He received the first of his 128 patents at age 24.
+
+quiz: Where did Jonathan Browning set up a gunsmith shop in 1852?
+- In Beaver
++ In Ogden
+- In Provo
+explain: In 1852 he set up a gunsmith shop in Ogden.
+
+quiz: How many children was Butch Cassidy the first of?
+- Three children
++ Thirteen children
+- Thirty children
+explain: He was the first of thirteen children.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== utah-animals
+idea: Elk that move down the mountain in winter, prairie dogs, a sheep with heavy horns and a tortoise that lives 70 to 80 years.
+
+game: Elk = Moves down lower in the winter | Prairie dog = Has one litter a year | Bighorn sheep = Horns weigh up to 30 lb | Desert tortoise = Lives 70 to 80 years
+
+--- 🦌
+p: A Rocky Mountain elk weighs 500 to 750 lb (230 to 340 kg).
+
+fact: Males are about 7.9 ft (2.4 m) long and females about 6.6 ft (2 m).
+
+check: How much does a Rocky Mountain elk weigh?
+- Only 50 to 75 pounds
++ 500 to 750 lb
+- Over 5,000 pounds
+hint: Look at the paragraph. The answer is there.
+explain: A Rocky Mountain elk weighs 500 to 750 lb (230 to 340 kg).
+
+--- 🏡
+p: In the mountains, Rocky Mountain elk often stay in higher places in the warmer months.
+
+fact: They move down lower in the winter.
+
+check: When do mountain elk move down lower?
+- During summer
++ In the winter
+- Every spring
+hint: Look at the paragraph. The answer is there.
+explain: They move down lower in the winter.
+
+--- 📏
+p: Male Utah prairie dogs weigh 0.66 to 1.98 lb (0.3 to 0.9 kg) in the spring.
+
+fact: In the summer they weigh 1.1 to 3.3 lb (0.5 to 1.5 kg).
+
+check: How much does a male Utah prairie dog weigh in the summer?
+- Up to 33 pounds
++ 1.1 to 3.3 lb
+- Only 0.11 pounds
+hint: Look at the paragraph. The answer is there.
+explain: Male Utah prairie dogs weigh 0.66 to 1.98 lb (0.3 to 0.9 kg) in the spring.
+
+--- 🐣
+p: A Utah prairie dog mother has only one litter a year, usually one to eight pups.
+
+term: litter = The group of pups a mother has at one time.
+
+fact: She carries the pups for about 28 days before they are born.
+
+check: How many days does a Utah prairie dog mother carry her pups?
+- Just 2
++ About 28 days
+- Nearly 280 days
+hint: Look at the box. The answer is there.
+explain: She carries the pups for about 28 days before they are born.
+
+--- 📐
+p: A male bighorn sheep's horns can weigh up to 30 lb (14 kg).
+
+fact: That is as much as all the bones in his body.
+
+--- 🍼
+p: A desert tortoise lives 70 to 80 years on average.
+
+fact: It grows slowly, and it has few young.
+
+--- 🔎
+p: An elk down in winter. A prairie dog with pups. Horns that weigh as much as bones. A tortoise that lives long.
+
+p: Utah has many animals.
+
+quiz: How many pups does a Utah prairie dog mother usually have in a litter?
+- Ten to twenty
++ One to eight
+- Twenty to thirty
+explain: A Utah prairie dog mother has only one litter a year, usually one to eight pups.
+
+quiz: How long does a desert tortoise live on average?
+- Only 7 or 8
++ 70 to 80 years
+- Nearly 700 years
+explain: A desert tortoise lives 70 to 80 years on average.
+
+quiz: A bighorn sheep's horns can weigh as much as what?
+- A whole herd of prairie dogs
++ All the bones in his body
+- The weight of one small feather
+explain: That is as much as all the bones in his body.
+
+quiz: Where do Rocky Mountain elk stay in the warmer months?
+- In lower valleys
++ In higher places
+- In deep caves
+explain: Rocky Mountain elk often stay in higher places in the warmer months.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== utah-dinos
+idea: Thousands of dinosaur bones have been dug up in Utah, and one raptor had a big claw.
+
+game: Cleveland-Lloyd = Quarry with over 16,200 bones dug up | Utahraptor = Largest known member of its dinosaur family | Allosaurus = Averaged about 25 to 26 ft long | Earl Douglass = Dug up over 700,000 lb of fossils
+
+--- 🦕
+p: More than 16,200 bones have been dug up at the Cleveland-Lloyd Dinosaur Quarry in Utah.
+
+term: quarry = A place where bones are dug up, like the Cleveland-Lloyd Dinosaur Quarry.
+
+fact: Many thousands more are waiting to be dug up and studied.
+
+check: How many bones have been dug up at the Cleveland-Lloyd Dinosaur Quarry?
+- Fewer than 1,620
++ More than 16,200
+- About 162,000
+hint: Look at the paragraph. The answer is there.
+explain: More than 16,200 bones have been dug up at the Cleveland-Lloyd Dinosaur Quarry in Utah.
+
+--- 🏺
+p: Skeletons made from Cleveland-Lloyd bones are on show.
+
+fact: They are in more than 65 museums around the world.
+
+check: In how many museums can you see skeletons made from Cleveland-Lloyd bones?
+- Fewer than 6
++ More than 65
+- About 650
+hint: Look at the box. The answer is there.
+explain: They are in more than 65 museums around the world.
+
+--- 📏
+p: Utahraptor is the largest known member of its dinosaur family.
+
+fact: It was about 20 to 23 ft (6 to 7 m) long and weighed around 1,100 lb (500 kg).
+
+check: What was the length of a Utahraptor?
+- About 2 to 3 feet in all
++ 20 to 23 ft (6 to 7 m)
+- Over 200 feet from end to end
+hint: Look at the box. The answer is there.
+explain: It was about 20 to 23 ft (6 to 7 m) long and weighed around 1,100 lb (500 kg).
+
+--- 🤔
+p: Utahraptor had a big claw that may have been about 9.4 in (24 cm) long.
+
+fact: Its feet seem to have had a very tight grip.
+
+check: What length may a Utahraptor's big claw have been?
+- Only about 0.94 inches
++ About 9.4 in (24 cm)
+- Nearly 94 inches
+hint: Look at the paragraph. The answer is there.
+explain: Utahraptor had a big claw that may have been about 9.4 in (24 cm) long.
+
+--- 📐
+p: Allosaurus averaged about 25 to 26 ft (7.5 to 8 m) long.
+
+fact: The largest ones were estimated at about 30 ft (9 m) long.
+
+--- 🏆
+p: Earl Douglass and his team dug up over 700,000 lb (320,000 kg) of fossils.
+
+fact: They dug them from a single quarry at what became Dinosaur National Monument.
+
+--- 🔎
+p: A quarry with thousands of bones. Skeletons in museums. A raptor with a big claw. An Allosaurus. Fossils from one quarry.
+
+p: Utah has dinosaur bones.
+
+quiz: How heavy was a Utahraptor?
+- Only a few pounds
++ Around 1,100 lb
+- Over ten tons
+explain: It was about 20 to 23 ft (6 to 7 m) long and weighed around 1,100 lb (500 kg).
+
+quiz: What did Earl Douglass and his team dig up?
+- A few boxes of old coins
++ Over 700,000 lb of fossils
+- Some jars of dried seeds
+explain: Earl Douglass and his team dug up over 700,000 lb (320,000 kg) of fossils.
+
+quiz: About how long were the largest Allosaurus ones estimated to be?
+- Only 3 ft
++ About 30 ft (9 m)
+- Nearly 300 feet
+explain: The largest ones were estimated at about 30 ft (9 m) long.
+
+quiz: What seem to have had a very tight grip?
+- Its tail
++ Its feet
+- Its teeth
+explain: Its feet seem to have had a very tight grip.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== utah-lakes
+idea: Lakes in Utah: a big lake shared with Idaho, a lake made by a dam, and a shallow lake.
+
+game: Bear Lake = Split between Utah and Idaho | Laketown = Near the Rocky Mountain Rendezvous site | Glen Canyon Dam = The dam that makes Lake Powell | Utah Lake = Shallow with an average depth of about 10.5 ft
+
+--- 🏖️
+p: Bear Lake covers about 109 sq mi (280 km2).
+
+fact: It is split about equally between Utah and Idaho. The Utah part is the second-largest natural freshwater lake in Utah, after Utah Lake.
+
+check: What area does Bear Lake cover?
+- Only 10 sq mi
++ About 109 sq mi (280 km2)
+- Over 1,900 square miles
+hint: Look at the paragraph. The answer is there.
+explain: Bear Lake covers about 109 sq mi (280 km2).
+
+--- 📅
+p: Jedediah Smith arrived at Bear Lake in June 1827.
+
+term: overland = By land, like the first overland round trip to California.
+
+fact: That marked the completion of the first overland round trip to California from the United States.
+
+check: What did Smith's arrival in June 1827 complete?
+- A boat race down the Mississippi River
++ The first overland round trip to California
+- Another long railroad across the West
+hint: Look at the box. The answer is there.
+explain: That marked the completion of the first overland round trip to California from the United States.
+
+--- ⏳
+p: The south end of Bear Lake, near Laketown, was the site of two annual Rocky Mountain Rendezvous.
+
+fact: They were held in the summers of 1827 and 1828.
+
+check: Which town is near the rendezvous site at Bear Lake?
+- Park City
++ Laketown
+- Salt Lake City
+hint: Look at the paragraph. The answer is there.
+explain: The south end of Bear Lake, near Laketown, was the site of two annual Rocky Mountain Rendezvous.
+
+--- 📏
+p: The Glen Canyon Dam that makes Lake Powell is 710 ft (216 m) high.
+
+fact: When the lake is full, its surface is about 3,700 ft (1,100 m) above sea level.
+
+check: What is the height of the dam that holds back Lake Powell?
+- About 71 feet
++ 710 ft (216 m)
+- Over 7,100 feet
+hint: Look at the paragraph. The answer is there.
+explain: The Glen Canyon Dam that makes Lake Powell is 710 ft (216 m) high.
+
+--- 🕰️
+p: Lake Powell took sixteen years to fill to the 3,700 ft (1,100 m) level.
+
+fact: It got there on June 22, 1980.
+
+--- 📐
+p: Utah Lake is shallow.
+
+fact: Its deepest spot is just under 14 ft (4.3 m), and its average depth is about 10.5 ft (3.2 m).
+
+--- 🔎
+p: A lake shared with Idaho. A trip to California. A rendezvous near Laketown. A dam on Lake Powell. A shallow lake.
+
+p: Lakes fill Utah.
+
+quiz: How many years did Lake Powell take to fill?
+- Sixty years
++ Sixteen years
+- Six years
+explain: Lake Powell took sixteen years to fill to the 3,700 ft (1,100 m) level.
+
+quiz: On what date did Lake Powell reach its 3,700 ft level?
+- August 2, 1890
++ June 22, 1980
+- May 22, 1908
+explain: It got there on June 22, 1980.
+
+quiz: How deep is the deepest spot of Utah Lake?
+- Well over 140 feet deep
++ Just under 14 ft (4.3 m)
+- Nearly 1.4 feet deep
+explain: Its deepest spot is just under 14 ft (4.3 m).
+
+quiz: Which two states is Bear Lake split between?
+- Nevada and Oregon
++ Utah and Idaho
+- Arizona and Colorado
+explain: It is split about equally between Utah and Idaho.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== utah-redrock
+idea: Tall red buttes, hoodoos, stone bridges and the darkest sky ever assessed by the Park Service.
+
+game: Monument Valley = Famous buttes along the state line | John Ford = Filmed Westerns in Monument Valley | Hoodoos = Large groups at Goblin Valley | Sipapu = Largest of the three bridges | Rainbow Bridge = A span of 275 ft
+
+--- 🪨
+p: Monument Valley is famous for its buttes.
+
+term: butte = A rock formation, like the famous butte formations of Monument Valley.
+
+fact: The most famous butte formations are along the Utah–Arizona state line.
+
+check: Along what line are the famous Monument Valley buttes?
+- A line of old railroad tracks
++ The Utah–Arizona state line
+- The edge of the Great Salt Lake
+hint: Look at the box. The answer is there.
+explain: The most famous butte formations are along the Utah–Arizona state line.
+
+--- 🧑
+p: Director John Ford filmed a number of Westerns in Monument Valley.
+
+fact: A critic wrote that its five square miles (13 km2) define the American West for moviegoers.
+
+check: Which director filmed Westerns in Monument Valley?
+- Steven Spielberg
++ John Ford
+- Walt Disney
+hint: Look at the paragraph. The answer is there.
+explain: Director John Ford filmed a number of Westerns in Monument Valley.
+
+--- 📏
+p: Goblin Valley State Park has hoodoos.
+
+fact: It and Bryce Canyon National Park have some of the largest groups of hoodoos in the world.
+
+check: What does Goblin Valley State Park have many of?
+- Geysers
++ Hoodoos
+- Glaciers
+hint: Look at the paragraph. The answer is there.
+explain: Goblin Valley State Park has hoodoos.
+
+--- 🏗️
+p: Natural Bridges has three bridges.
+
+fact: Their names are Kachina, Owachomo and Sipapu. Sipapu is the largest. All three are Hopi names.
+
+check: Which of the three bridges is the largest?
+- Kachina
++ Sipapu
+- Owachomo
+hint: Look at the box. The answer is there.
+explain: Their names are Kachina, Owachomo and Sipapu.
+
+--- 👀
+p: Natural Bridges has the darkest sky ever assessed by the National Park Service Night Sky Team.
+
+fact: It rates a Class 2 on the Bortle Dark-Sky Scale.
+
+--- 📐
+p: Rainbow Bridge has a span of 275 ft (84 m) and a height of 290 ft (88 m).
+
+fact: It is one of the largest natural arches in the world.
+
+--- 🔎
+p: Buttes on the state line. Westerns filmed by a director. Groups of hoodoos. Three bridges. A dark sky. A big arch.
+
+p: Red rock country is big.
+
+quiz: What kind of names are the three bridge names at Natural Bridges?
+- Navajo names
++ Hopi names
+- Spanish names
+explain: All three are Hopi names.
+
+quiz: How tall is Rainbow Bridge?
+- About 29 feet
++ 290 ft (88 m)
+- Nearly 2,900 feet
+explain: Rainbow Bridge has a span of 275 ft (84 m) and a height of 290 ft (88 m).
+
+quiz: What class does the sky at Natural Bridges rate on the Bortle Dark-Sky Scale?
+- Level 9
++ Class 2
+- Grade 5
+explain: It rates a Class 2 on the Bortle Dark-Sky Scale.
+
+quiz: Which park has some of the largest groups of hoodoos, along with Goblin Valley?
+- Yellowstone National Park
++ Bryce Canyon National Park
+- Everglades National Park
+explain: It and Bryce Canyon National Park have some of the largest groups of hoodoos in the world.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== utah-ski
+idea: Skiing in Utah: a resort with lots of snow, the largest ski area in the U.S., and the 2002 Winter Olympics.
+
+game: Alta = Opened its first lift in 1939 | Park City = Lies mostly higher than 7,000 ft | Snowboarders = Not allowed at Alta | Olympics = Held in Salt Lake City in 2002
+
+--- 🎿
+p: Alta opened its first lift on January 15, 1939.
+
+term: resort = A place for skiing, like Alta, one of the oldest ski resorts in the country.
+
+fact: It is one of the oldest ski resorts in the country.
+
+check: When did Alta open its first lift?
+- November 5, 1993
++ January 15, 1939
+- March 15, 1989
+hint: Look at the paragraph. The answer is there.
+explain: Alta opened its first lift on January 15, 1939.
+
+--- 📏
+p: Alta gets more snow than most Utah resorts.
+
+fact: Its average annual snowfall is 543 inches (13.8 m).
+
+check: How much snow does Alta get in an average year?
+- Only 54 inches
++ 543 inches (13.8 m)
+- Over 5,000 inches
+hint: Look at the box. The answer is there.
+explain: Its average annual snowfall is 543 inches (13.8 m).
+
+--- 🤔
+p: Alta does not allow snowboarders.
+
+fact: It is one of just three ski areas in the U.S. that do not.
+
+check: How many U.S. ski areas do not allow snowboarders?
+- Thirty
++ Three
+- Thirteen
+hint: Look at the box. The answer is there.
+explain: It is one of just three ski areas in the U.S.
+
+--- 📐
+p: Park City lies mostly higher than 7,000 ft (2,100 m), so it is usually cooler than Salt Lake City.
+
+fact: Salt Lake City sits at about 4,300 ft (1,300 m).
+
+check: What is the height of most of Park City?
+- About 700 feet above the sea
++ Higher than 7,000 ft
+- Under 70 feet above the sea
+hint: Look at the paragraph. The answer is there.
+explain: Park City lies mostly higher than 7,000 ft (2,100 m), so it is usually cooler than Salt Lake City.
+
+--- 📅
+p: In 2015, Park City Ski Resort and Canyons resorts merged.
+
+fact: That created the largest ski area in the U.S.
+
+--- ⚖️
+p: The 2002 Winter Olympics in Salt Lake City had 2,399 athletes from 78 nations.
+
+fact: They took part in 78 events in 15 disciplines.
+
+--- 🔎
+p: A lift from 1939. Lots of snow. No snowboards. A cool town up high. A large ski area. A Winter Olympics.
+
+p: Utah is great for skiing.
+
+quiz: How many athletes took part in the 2002 Winter Olympics in Salt Lake City?
+- 239
++ 2,399
+- 23,990
+explain: The 2002 Winter Olympics in Salt Lake City had 2,399 athletes from 78 nations.
+
+quiz: How many nations did the athletes come from?
+- 8
++ 78
+- 780
+explain: The 2002 Winter Olympics in Salt Lake City had 2,399 athletes from 78 nations.
+
+quiz: What happened to Park City Ski Resort and Canyons resorts in 2015?
+- They closed
++ They merged
+- They moved
+explain: In 2015, Park City Ski Resort and Canyons resorts merged.
+
+quiz: How many disciplines were in the 2002 Winter Olympics?
+- 5
++ 15
+- 150
+explain: They took part in 78 events in 15 disciplines.

@@ -759,3 +759,667 @@ p: In Genesis, water is there before anything has a shape.
 fact(The written account says): On day two, the waters are divided into water below and water above. On day three, the water below is gathered into one place so that dry land can appear.
 p: The written account makes water the setting everything else gets arranged in.
 
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== earth-deserts
+idea: Some places are so dry that weather stations there have never caught a drop of rain. Visit the biggest deserts and the sand dunes that move.
+
+game: Atacama = Weather stations that never got rain | Sahara = The largest hot desert | Dune = A hill made of sand | Cold deserts = Polar lands that are very dry
+
+--- 🏜️
+p: About one-third of the land on Earth is very dry.
+
+fact: That includes polar lands, which are sometimes called cold deserts.
+
+check: How much of Earth's land is very dry?
+- Almost none
++ One-third
+- Nearly all
+hint: Look at the paragraph. The answer is there.
+explain: About one-third of the land on Earth is very dry.
+
+--- 🤔
+p: In the Atacama Desert in Chile, the average rainfall in one region is just 0.039 in (1 mm) a year.
+
+fact: Some weather stations there have never received any rain.
+
+check: How much rain falls each year in the driest part of the Atacama?
+- 0.39 in
++ 0.039 in
+- 0.0039 in
+hint: Look at the paragraph. The answer is there.
+explain: In the Atacama Desert in Chile, the average rainfall in one region is just 0.039 in (1 mm) a year.
+
+--- 📏
+p: The Atacama Desert is a strip of land about 1,000 mi (1,600 km) long in northern Chile.
+
+fact: It covers about 41,000 sq mi (105,000 km2).
+
+check: Where is the Atacama Desert?
+- Southern Peru
++ Northern Chile
+- Western Egypt
+hint: Look at the paragraph. The answer is there.
+explain: The Atacama Desert is a strip of land about 1,000 mi (1,600 km) long in northern Chile.
+
+--- 📐
+p: The Sahara in North Africa is the largest hot desert in the world.
+
+fact: It covers 3,600,000 sq mi (9,200,000 square kilometers). Only the deserts of Antarctica and the Arctic are bigger.
+
+check: What is the largest hot desert in the world?
+- The Atacama
++ The Sahara
+- The Arctic
+hint: Look at the paragraph. The answer is there.
+explain: The Sahara in North Africa is the largest hot desert in the world.
+
+--- ⚖️
+p: Many sand dunes in the Sahara rise over 590 ft (180 m).
+
+term: dune = A hill made of sand, like the dunes in the Sahara.
+
+fact: The desert also has rocky plateaus, gravel plains, dry lakes and salt flats.
+
+--- 💨
+p: A group of sand dunes in China moved more than 328 ft (100 m) every year from 1954 to 1959.
+
+fact: Dunes in the Western Desert of Egypt move that fast too.
+
+--- 🔎
+p: A dry land. A strip of desert in Chile. A huge hot desert. Dunes that move.
+
+p: Deserts are big.
+
+quiz: What have some weather stations in the Atacama never received?
+- Sun
++ Rain
+- Wind
+explain: Some weather stations in the Atacama have never received any rain.
+
+quiz: How far did a group of dunes in China move each year?
+- Only 3 ft
++ More than 328 ft
+- About 30 ft
+explain: A group of sand dunes in China moved more than 328 ft (100 m) every year.
+
+quiz: Which country is the Atacama Desert in?
+- Egypt
++ Chile
+- China
+explain: The Atacama Desert is in northern Chile.
+
+quiz: What are sand dunes made of?
+- Ice
++ Sand
+- Salt
+explain: A dune is a hill made of sand.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== earth-islands
+idea: An island has water on every side. Meet a whole chain of volcanic islands, and a reef you can see from space.
+
+game: Island = Land surrounded by water | Great Barrier Reef = Seen from outer space | Coral polyps = Tiny animals that built the reef | Hawaii = 137 volcanic islands
+
+--- 🏝️
+p: An island is a piece of land completely surrounded by water.
+
+fact: Some islands were once part of a continent. Others, called oceanic islands, never were.
+
+check: What is an island?
+- A tall hill that rises above a flat plain
++ A piece of land completely surrounded by water
+- A wide river with a low bank on each side
+hint: Look at the paragraph. The answer is there.
+explain: An island is a piece of land completely surrounded by water.
+
+--- 🏠
+p: Up to 10% of the world's people live on islands.
+
+fact: Many people also visit islands for their natural beauty and their unique cultures.
+
+check: How much of the world's population lives on islands?
+- 1%
++ 10%
+- 90%
+hint: Look at the paragraph. The answer is there.
+explain: Up to 10% of the world's people live on islands.
+
+--- 📏
+p: The Great Barrier Reef is the world's largest coral reef system.
+
+fact: It has over 2,900 individual reefs and 900 islands, and it stretches for over 1,400 mi (2,300 km).
+
+check: How many individual reefs make up the Great Barrier Reef?
+- Only 29
++ Over 2,900
+- About 290
+hint: Look at the box. The answer is there.
+explain: It has over 2,900 individual reefs and 900 islands, and it stretches for over 1,400 mi (2,300 km).
+
+--- 🔧
+p: Billions of tiny animals called coral polyps built the Great Barrier Reef.
+
+term: reef = A long line of coral in the sea.
+
+fact: It can be seen from outer space. It is the biggest single structure made by living things.
+
+check: What tiny animals built the Great Barrier Reef?
+- Little fish
++ Coral polyps
+- Sea turtles
+hint: Look at the paragraph. The answer is there.
+explain: Billions of tiny animals called coral polyps built the Great Barrier Reef.
+
+--- 📐
+p: The state of Hawaii is made of 137 volcanic islands.
+
+fact: They stretch for 1,500 mi (2,400 km).
+
+--- 🏡
+p: Hawaii is in the Pacific Ocean, about 2,000 mi (3,200 km) southwest of the U.S. mainland.
+
+fact: It is the only state that is not on the North American mainland, and the only state that is an archipelago.
+
+--- 🔎
+p: Land with water around it. A huge reef built by tiny animals. A chain of volcanic islands.
+
+p: Islands are great.
+
+quiz: How many volcanic islands make up Hawaii?
+- 13
++ 137
+- 1,370
+explain: The state of Hawaii is made of 137 volcanic islands.
+
+quiz: How much of the world's population lives on islands?
+- About 1%
++ Up to 10%
+- Over 90%
+explain: Up to 10% of the world's people live on islands.
+
+quiz: What built the Great Barrier Reef?
+- Big whales
++ Coral polyps
+- Sea birds
+explain: Billions of tiny animals called coral polyps built it.
+
+quiz: How far is Hawaii from the U.S. mainland?
+- About 20 mi
++ About 2,000 mi
+- About 200 mi
+explain: Hawaii is about 2,000 mi (3,200 km) southwest of the U.S. mainland.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== earth-mountains
+idea: Mountains stand thousands of feet high. Climb with us from the top of Mount Everest to the farthest point from the center of the Earth.
+
+game: Mount Everest = Highest mountain on Earth | Mauna Kea = Rises from the ocean floor | Himalayas = Five countries and over 100 peaks | Andes = The longest mountain range on land | Chimborazo = Farthest from the Earth's center
+
+--- 🏔️
+p: Mount Everest in the Himalayas is the highest mountain on Earth.
+
+fact: Its top is 29,035 ft (8,850 m) above sea level.
+
+check: What is the highest mountain on Earth?
+- Chimborazo
++ Mount Everest
+- Mauna Kea in Hawaii
+hint: Look at the paragraph. The answer is there.
+explain: Mount Everest in the Himalayas is the highest mountain on Earth.
+
+--- 📏
+p: Mauna Kea in Hawaii rises 30,610 ft (9,330 m) from its base at the bottom of the ocean.
+
+fact: Measured from base to peak, some scientists say it is the tallest mountain on Earth.
+
+check: Where is Mauna Kea?
+- Nepal
++ Hawaii
+- Ecuador
+hint: Look at the paragraph. The answer is there.
+explain: Mauna Kea in Hawaii rises 30,610 ft (9,330 m) from its base at the bottom of the ocean.
+
+--- 🧭
+p: The closest sea to Mount Everest's summit is the Bay of Bengal, almost 430 mi (700 km) away.
+
+term: summit = The very top of a mountain.
+
+fact: In 1990, a team led by Tim Macartney-Snape climbed the whole height, from the coast. Most climbers start at base camps above 16,404 ft (5,000 m).
+
+check: What is the distance from the top of Mount Everest to the closest sea?
+- 43 mi
++ 430 mi
+- 4,300 mi
+hint: Look at the paragraph. The answer is there.
+explain: The closest sea to Mount Everest's summit is the Bay of Bengal, almost 430 mi (700 km) away.
+
+--- 📐
+p: More than 100 peaks in the Himalayas rise above 23,600 ft (7,200 m).
+
+fact: The range spans five countries: Nepal, India, China, Bhutan and Pakistan.
+
+check: How many countries does the Himalayas range span?
+- Two
++ Five
+- Nine
+hint: Look at the box. The answer is there.
+explain: The range spans five countries: Nepal, India, China, Bhutan and Pakistan.
+
+--- ⚖️
+p: The Andes are the longest mountain range on land in the world.
+
+fact: They run along the western edge of South America and are 5,500 mi (8,900 km) long.
+
+--- 🤔
+p: The peak of Chimborazo in Ecuador is farther from the center of the Earth than any other place on its surface.
+
+fact: The Earth bulges at the equator because it spins.
+
+--- 🔎
+p: The highest mountain. A mountain rising from the sea. Peaks in five countries. The longest range.
+
+p: Mountains are tall.
+
+quiz: How high is the top of Mount Everest above sea level?
+- 2,903 ft
++ 29,035 ft
+- 290 ft
+explain: Mount Everest's top is 29,035 ft (8,850 m) above sea level.
+
+quiz: Which mountain range is the longest on land?
+- The Himalayas
++ The Andes
+- The Rockies
+explain: The Andes are the longest mountain range on land in the world.
+
+quiz: Why does the Earth bulge at the equator?
+- It is flat
++ It spins
+- It melts
+explain: The Earth bulges at the equator because it spins.
+
+quiz: In which year did a team climb the whole height of Everest from the coast?
+- 1790
++ 1990
+- 1890
+explain: In 1990, a team led by Tim Macartney-Snape climbed the whole height, from the coast.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== earth-lakes
+idea: Lake Baikal is the deepest lake in the world, and Angel Falls is the tallest waterfall. See how deep, how clear and how tall water can get.
+
+game: Lake Baikal = The deepest lake | Niagara Falls = Over 5.9 million cubic feet a minute | Angel Falls = The tallest waterfall | Jimmie Angel = First person to fly over the falls
+
+--- 💦
+p: Lake Baikal is the deepest lake in the world, 5,387 ft (1,642 m) deep.
+
+fact: It holds 22 to 23% of the world's fresh surface water, more than all the North American Great Lakes combined.
+
+check: Which lake is the deepest in the world?
+- Lake Powell
++ Lake Baikal
+- Lake Erie
+hint: Look at the paragraph. The answer is there.
+explain: Lake Baikal is the deepest lake in the world, 5,387 ft (1,642 m) deep.
+
+--- 👀
+p: In winter, the water in Lake Baikal is so clear that you can see down 100 to 130 ft (30 to 40 m).
+
+fact: In summer you can see 15 to 25 ft (5 to 8 m).
+
+check: How far can you see down into Lake Baikal in winter?
+- 10 to 13 ft
++ 100 to 130 ft
+- 1 to 3 ft
+hint: Look at the paragraph. The answer is there.
+explain: In winter, the water in Lake Baikal is so clear that you can see down 100 to 130 ft (30 to 40 m).
+
+--- 🤔
+p: Many kinds of living things live in Lake Baikal.
+
+term: species = The kinds of plants and animals, like those in Lake Baikal.
+
+fact: More than 1,000 species of plants and 2,500 species of animals live there.
+
+check: How many species of animals live in Lake Baikal?
+- 25,000
++ 2,500
+- 250
+hint: Look at the box. The answer is there.
+explain: More than 1,000 species of plants and 2,500 species of animals live there.
+
+--- 💨
+p: Niagara Falls is huge.
+
+fact: In busy hours, more than 5.9 million cubic feet (168,000 cubic meters) of water goes over the top each minute.
+
+check: How much water goes over Niagara Falls every minute?
+- About 5.9 thousand cubic feet
++ Over 5.9 million cubic feet
+- Nearly 59,000 cubic feet
+hint: Look at the box. The answer is there.
+explain: In busy hours, more than 5.9 million cubic feet (168,000 cubic meters) of water goes over the top each minute.
+
+--- 📏
+p: Angel Falls is the world's tallest waterfall with no break in the drop.
+
+fact: It is 3,212 ft (979 m) high, and the main plunge is 2,648 ft (807 m).
+
+--- 🧑
+p: Angel Falls is named after Jimmie Angel, a U.S. pilot.
+
+fact: He was the first person to fly over the falls, on November 16, 1933.
+
+--- 🔎
+p: A deep lake. Clear water. Many kinds of plants and animals. A huge waterfall.
+
+p: Water is big.
+
+quiz: How deep is Lake Baikal?
+- 538 ft
++ 5,387 ft
+- 53 ft
+explain: Lake Baikal is the deepest lake in the world, 5,387 ft (1,642 m) deep.
+
+quiz: How many species of plants live in Lake Baikal?
+- About 10
++ More than 1,000
+- Only 100
+explain: More than 1,000 species of plants live in Lake Baikal.
+
+quiz: How high is Angel Falls?
+- 321 ft
++ 3,212 ft
+- 32 ft
+explain: Angel Falls is 3,212 ft (979 m) high.
+
+quiz: Who was Angel Falls named after?
+- Tim Angel
++ Jimmie Angel
+- Sam Niagara
+explain: Angel Falls is named after Jimmie Angel, a U.S. pilot.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== earth-rivers
+idea: The Nile is the longest river in the world, and the Amazon carries more water than the next seven rivers put together. Follow the great rivers.
+
+game: Nile = Longest river in the world | Amazon = Carries 20% of the river water into the oceans | Mississippi = Second-longest river in the U.S. | Basin = Land that drains into a river
+
+--- 🏞️
+p: The Nile is the longest river in the world, 4,404 mi (7,088 km) long.
+
+fact: It flows north into the Mediterranean Sea.
+
+check: What is the longest river in the world?
+- The Amazon
++ The Nile
+- The Missouri
+hint: Look at the paragraph. The answer is there.
+explain: The Nile is the longest river in the world, 4,404 mi (7,088 km) long.
+
+--- ⚙️
+p: Eleven countries share the Nile's basin.
+
+term: basin = The land where the water of the Nile comes from.
+
+fact: Most of its water comes from rain in Ethiopia, Kenya, Tanzania and Uganda.
+
+check: Where does most of the Nile's water come from?
+- Springs
++ Rain
+- Glaciers
+hint: Look at the box. The answer is there.
+explain: Most of its water comes from rain in Ethiopia, Kenya, Tanzania and Uganda.
+
+--- 📏
+p: The Amazon River carries more water than the next seven biggest rivers put together.
+
+fact: It delivers 20% of all the river water that flows into the world's oceans.
+
+check: How much of the world's river water flows from the Amazon?
+- 2%
++ 20%
+- 80%
+hint: Look at the box. The answer is there.
+explain: It delivers 20% of all the river water that flows into the world's oceans.
+
+--- 📐
+p: The Amazon River is about 4,000 mi (6,400 km) long.
+
+fact: Its drainage basin is the largest in the world, about 2,700,000 sq mi (7,000,000 square kilometers).
+
+check: What is the length of the Amazon River?
+- About 400 mi
++ About 4,000 mi
+- About 14,000 mi
+hint: Look at the paragraph. The answer is there.
+explain: The Amazon River is about 4,000 mi (6,400 km) long.
+
+--- ⚖️
+p: The Mississippi River is 2,340 mi (3,766 km) long.
+
+fact: It starts at Lake Itasca in Minnesota and ends in the Gulf of Mexico. It is the second-longest river in the U.S.
+
+--- 🔭
+p: The Mississippi collects water from all or part of 32 U.S. states.
+
+fact: Two Canadian provinces drain into it too.
+
+--- 🔎
+p: A very long river. A basin of rain. A river with a lot of water. A river that ends in the Gulf of Mexico.
+
+p: Rivers are long.
+
+quiz: Which sea does the Nile flow into?
+- The Gulf of Mexico
++ The Mediterranean Sea
+- The Pacific Ocean
+explain: The Nile flows north into the Mediterranean Sea.
+
+quiz: How many countries share the Nile's basin?
+- Two
++ Eleven
+- Forty
+explain: Eleven countries share the Nile's basin.
+
+quiz: Where does the Mississippi River start?
+- Lake Baikal
++ Lake Itasca
+- Niagara Falls
+explain: The Mississippi starts at Lake Itasca in Minnesota.
+
+quiz: How many U.S. states does the Mississippi collect water from?
+- 3
++ 32
+- 320
+explain: The Mississippi collects water from all or part of 32 U.S. states.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== earth-storms
+idea: A tornado is a column of air that spins fast enough to rip buildings off their foundations. Find out how big tornadoes and hurricanes get.
+
+game: Tornado = A spinning column of air | EF5 = The strongest tornado rating | Hurricane = Forms over warm ocean water | Tropical cyclone = Between 62 and 1,243 mi wide
+
+--- 🌪️
+p: A tornado is a column of air that spins very fast, from the ground up to a cloud.
+
+term: tornado = A column of air that spins very fast.
+
+fact: Most have winds under 110 mph (180 km/h) and are about 250 ft (80 m) across.
+
+check: How wide is a typical tornado?
+- About 25 ft
++ About 250 ft
+- About 2,500 ft
+hint: Look at the box. The answer is there.
+explain: Most have winds under 110 mph (180 km/h) and are about 250 ft (80 m) across.
+
+--- 💨
+p: The strongest tornadoes can have winds of more than 300 mph (480 km/h).
+
+fact: They can be more than 2 mi (3 km) wide and stay on the ground for more than 62 mi (100 km).
+
+check: How fast can the winds of the strongest tornadoes blow?
+- Only about 30 mph
++ More than 300 mph
+- Barely over 3 mph
+hint: Look at the paragraph. The answer is there.
+explain: The strongest tornadoes can have winds of more than 300 mph (480 km/h).
+
+--- ⚙️
+p: The Enhanced Fujita Scale rates tornadoes by the damage they cause.
+
+fact: An EF0, the weakest, damages trees but not buildings. An EF5, the strongest, rips buildings off their foundations.
+
+check: What does the Enhanced Fujita Scale measure?
+- The speed of sound
++ The damage
+- The size of clouds
+hint: Look at the paragraph. The answer is there.
+explain: The Enhanced Fujita Scale rates tornadoes by the damage they cause.
+
+--- 🏆
+p: Around 80 to 90 named tropical cyclones form around the world each year.
+
+fact: More than half of them reach hurricane-force winds of 75 mph (120 km/h) or more.
+
+check: About how many named tropical cyclones form each year?
+- 8 to 9
++ 80 to 90
+- 800 to 900
+hint: Look at the paragraph. The answer is there.
+explain: Around 80 to 90 named tropical cyclones form around the world each year.
+
+--- 🔧
+p: Hurricanes form over warm ocean water.
+
+fact: They get their energy from water that evaporates off the sea.
+
+--- 📏
+p: A tropical cyclone is typically between 62 and 1,243 mi (100 and 2,000 km) wide.
+
+fact: That is much wider than a tornado.
+
+--- 🔎
+p: A spinning column of air. Winds over 300 mph. A scale for damage. Storms over warm water.
+
+p: Storms are big.
+
+quiz: What does an EF5 tornado do?
+- Only bends the trees
++ Rips buildings off their foundations
+- Does no damage at all
+explain: An EF5, the strongest, rips buildings off their foundations.
+
+quiz: Where do hurricanes form?
+- Over cold land
++ Over warm ocean water
+- Inside tall clouds
+explain: Hurricanes form over warm ocean water.
+
+quiz: Where do hurricanes get their energy?
+- From the wind alone
++ From water that evaporates
+- From the ground
+explain: They get their energy from water that evaporates off the sea.
+
+quiz: How wide can the strongest tornadoes be?
+- Less than 2 ft
++ More than 2 mi
+- About 20 ft
+explain: They can be more than 2 mi (3 km) wide.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== earth-lightning
+idea: Lightning heats the air to about 54,000°F in an instant. Learn why thunder booms and why you see the flash first.
+
+game: Lightning = Heats the air to about 54,000°F | Thunder = A shock wave | Decibels = How loud thunder is | Cumulonimbus = A thunderstorm cloud
+
+--- ⚡
+p: Lightning heats the air around it.
+
+fact: It heats it to about 54,000°F (30,000°C) in an instant.
+
+check: How hot does the air around lightning get?
+- 5,400°F
++ 54,000°F
+- 540°F
+hint: Look at the box. The answer is there.
+explain: It heats it to about 54,000°F (30,000°C) in an instant.
+
+--- 📏
+p: An average bolt of negative lightning carries 30,000 amperes of electric current.
+
+fact: The biggest positive bolts can carry up to 120 kA.
+
+check: How much electric current does an average bolt carry?
+- 3,000 amperes
++ 30,000 amperes
+- 300,000 amperes
+hint: Look at the paragraph. The answer is there.
+explain: An average bolt of negative lightning carries 30,000 amperes of electric current.
+
+--- ⚙️
+p: Thunder is a shock wave.
+
+term: shock wave = A fast push of air, like thunder.
+
+fact: Lightning heats the air so fast that the air blasts outward faster than sound would normally travel.
+
+check: What is thunder?
+- A flash of light
++ A shock wave
+- A kind of wind
+hint: Look at the paragraph. The answer is there.
+explain: Thunder is a shock wave.
+
+--- 👀
+p: Close to the lightning, thunder is usually 165 to 180 decibels loud.
+
+fact: Sometimes it is over 200 decibels.
+
+check: How loud is thunder close to the lightning?
+- 16 to 18 decibels
++ 165 to 180 decibels
+- 1 to 2 decibels
+hint: Look at the paragraph. The answer is there.
+explain: Close to the lightning, thunder is usually 165 to 180 decibels loud.
+
+--- 💨
+p: You see lightning before you hear thunder. Light travels much faster than sound.
+
+fact: In dry air, sound goes about 1,130 ft (343 m) every second.
+
+--- 📐
+p: A thunderstorm cloud, called a cumulonimbus, can reach more than 12 mi (20 km) high.
+
+fact: It grows when warm, moist air moves up and cools.
+
+--- 🔎
+p: A very hot flash. A big electric current. A shock wave. A loud boom. A tall cloud.
+
+p: Lightning is hot.
+
+quiz: What do you see before you hear thunder?
+- A cloud
++ Lightning
+- A rainbow
+explain: You see lightning before you hear thunder.
+
+quiz: Why do you see lightning first?
+- Sound travels faster than light
++ Light travels faster than sound
+- Thunder happens later
+explain: Light travels much faster than sound.
+
+quiz: How high can a thunderstorm cloud reach?
+- Only 12 ft
++ More than 12 mi
+- About 120 ft
+explain: A thunderstorm cloud can reach more than 12 mi (20 km) high.
+
+quiz: How fast does sound travel in dry air?
+- About 11 ft each second
++ About 1,130 ft each second
+- About 113 ft each second
+explain: In dry air, sound goes about 1,130 ft (343 m) every second.
