@@ -1345,11 +1345,9 @@ const App = {
   },
 
   // ── CLOUD ──
-  // One account across every homeschool app. The sign-in is a name and four
-  // pictures because the child using this cannot type a password, and the
+  // One account across every homeschool app. The sign-in is a name and a
+  // four-digit PIN because the child using this cannot type a password, and the
   // derivation lives in HOMESCHOOL_AUTH so it cannot drift between apps.
-  CLOUD_EMOJI: ['🦖', '🐙', '🦋', '🐝', '🦉', '🐢', '🦈', '🐸',
-                '🌋', '⭐', '🌈', '🍄', '🔬', '🧪', '🦴', '🪐'],
 
   cloudCard() {
     const on = window.Sync && Sync.uid;
@@ -1453,7 +1451,7 @@ const App = {
           <h2 style="margin-top:8px">Signed in</h2>
           <p class="dim" style="margin-top:8px">Progress for
             <b>${Progress.profile ? Progress.profile.name : 'you'}</b> is backed up,
-            and the same name and pictures work in the other homeschool apps.</p>
+            and the same name and PIN work in the other homeschool apps.</p>
           <button class="btn ghost wide" style="margin-top:16px" onclick="App.cloudOut()">Sign out</button>
           <button class="btn ghost wide" style="margin-top:10px" onclick="App.go('notes')">Back</button>
         </div>`);
@@ -1467,12 +1465,15 @@ const App = {
           style="width:100%;margin-top:12px;padding:14px;border-radius:12px;
                  background:var(--ink-3);border:1px solid var(--line);
                  color:var(--text);font:inherit;font-size:1.05rem">
-        <h2 style="margin-top:20px">Tap four pictures</h2>
-        <p class="dim small" style="margin-top:4px">The same four, in the same order, every time.</p>
+        <h2 style="margin-top:20px">Tap your PIN</h2>
+        <p class="dim small" style="margin-top:4px">Four numbers. The same four, every time.</p>
         <div id="pin" class="pin-row"></div>
-        <div class="emoji-grid" style="margin-top:12px">
-          ${this.CLOUD_EMOJI.map(e => `<button class="emoji-btn"
-            onclick="App.cloudTap('${e}')">${e}</button>`).join('')}
+        <div class="pad">
+          ${[1, 2, 3, 4, 5, 6, 7, 8, 9].map(d => `<button class="pad-btn"
+            onclick="App.cloudTap('${d}')">${d}</button>`).join('')}
+          <button class="pad-btn alt" onclick="App.cloudBack()" aria-label="Delete">⌫</button>
+          <button class="pad-btn" onclick="App.cloudTap('0')">0</button>
+          <span></span>
         </div>
         <div id="cloud-msg" class="dim small" style="margin-top:12px;min-height:1.2em"></div>
         <button class="btn wide big" style="margin-top:8px" onclick="App.cloudIn()">Sign in</button>
@@ -1485,12 +1486,17 @@ const App = {
     const el = document.getElementById('pin');
     if (!el) return;
     el.innerHTML = [0, 1, 2, 3].map(i =>
-      `<span class="pin-slot ${this._pin[i] ? 'filled' : ''}">${this._pin[i] || ''}</span>`).join('');
+      `<span class="pin-slot ${this._pin[i] ? 'filled' : ''}">${this._pin[i] ? '●' : ''}</span>`).join('');
   },
 
-  cloudTap(e) {
-    if (this._pin.length >= 4) this._pin = [];
-    this._pin.push(e);
+  cloudTap(d) {
+    if (this._pin.length >= 4) return;
+    this._pin.push(d);
+    this.drawPin();
+  },
+
+  cloudBack() {
+    this._pin.pop();
     this.drawPin();
   },
 
@@ -1498,10 +1504,10 @@ const App = {
     const name = (document.getElementById('cn').value || '').trim();
     const msg = document.getElementById('cloud-msg');
     if (!name) { msg.textContent = 'Type your name first.'; return; }
-    if (this._pin.length !== 4) { msg.textContent = 'Tap four pictures.'; return; }
+    if (this._pin.length !== 4) { msg.textContent = 'Tap four numbers for your PIN.'; return; }
     msg.textContent = 'Connecting…';
     try {
-      await Sync.signIn(name, this._pin);
+      await Sync.signIn(name, this._pin.join(''));
       const cloud = await Sync.pull();
       // Newer wins. A child who played on the tablet this morning should not
       // lose it by opening the laptop this afternoon.
@@ -1521,7 +1527,10 @@ const App = {
         }
       });
       await Sync.push(Progress.profile);
-      this.cloud();
+      // Straight back to the Me page, which shows "Backed up" in its cloud card —
+      // a full-screen "Signed in" page in the way hid the rest of the page.
+      this.go('notes');
+      this.toast('☁️ Signed in. Your progress is backed up.', 2800);
     } catch (err) {
       msg.textContent = err.message || 'Could not sign in.';
     }

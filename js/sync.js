@@ -1,9 +1,10 @@
 // Cloud sync — one account across every homeschool app.
 //
-// A child signs in once with their name plus four pictures and their progress
+// A child signs in once with their name plus a four-digit PIN and their progress
 // follows them to any device and any app. The credentials are derived in
 // js/firebase-config.js (HOMESCHOOL_AUTH) precisely so that derivation cannot
-// drift apart between apps.
+// drift apart between apps. (Each digit stands for one of the four pictures the
+// older sign-in screens use, so a PIN and a set of pictures are the same login.)
 //
 // Storage: profiles/{uid}/apps/wonder-lab
 //   { name, progress, updatedAt: serverTimestamp, deviceId }
@@ -77,15 +78,16 @@ const Sync = {
   },
 
   // ── auth ──
-  async signIn(name, emojis) {
+  async signIn(name, pin) {
     await this.ensureLoaded();
     const email = HOMESCHOOL_AUTH.email(name);
-    const pass = HOMESCHOOL_AUTH.password(emojis);
+    const pass = HOMESCHOOL_AUTH.passwordFromPin(pin);
+    if (!pass) throw new Error('Tap four numbers for your PIN.');
     try {
       const cred = await this.auth.signInWithEmailAndPassword(email, pass);
       this.uid = cred.user.uid;
     } catch (e) {
-      // First time on this account: the same name + pictures creates it.
+      // First time on this account: the same name + PIN creates it.
       // Any other failure is a real one and must surface.
       if (e.code === 'auth/user-not-found' || e.code === 'auth/invalid-credential') {
         try {
@@ -110,10 +112,10 @@ const Sync = {
   explain(e) {
     const c = (e && e.code) || '';
     if (c.includes('network')) return "Can't reach the cloud. Check the wifi.";
-    if (c.includes('email-already-in-use')) return 'That name is taken — check the pictures.';
+    if (c.includes('email-already-in-use')) return 'That name is taken — check the PIN.';
     if (c.includes('wrong-password') || c.includes('invalid-credential'))
-      return "Those pictures don't match that name.";
-    if (c.includes('weak-password')) return 'Pick four pictures.';
+      return "That PIN doesn't match that name.";
+    if (c.includes('weak-password')) return 'Tap four numbers for your PIN.';
     if (c.includes('too-many-requests')) return 'Too many tries — wait a minute.';
     return (e && e.message || 'Something went wrong.')
       .replace(/^Firebase:\s*/, '').replace(/\s*\(auth\/[^)]+\)\.?$/, '');

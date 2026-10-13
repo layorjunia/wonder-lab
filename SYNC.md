@@ -2,13 +2,24 @@
 
 ## One account, every app
 
-A child types their name and taps four pictures. That becomes a Firebase Auth
+A child types their name and taps a four-digit PIN. That becomes a Firebase Auth
 email/password login, derived in `js/firebase-config.js`:
 
 ```js
 HOMESCHOOL_AUTH.email('Lael')                  // lael@homeschool.family
 HOMESCHOOL_AUTH.password(['🦖','🐙','🦋','🐝']) // 🦖🐙🦋🐝-homeschool-v1
+HOMESCHOOL_AUTH.passwordFromPin('0123')        // the same thing: 0🦖 1🐙 2🦋 3🐝
 ```
+
+Each digit stands for one picture (`pinPictures`: 0🦖 1🐙 2🦋 3🐝 4🦉 5🐢 6🦈
+7🐸 8🌋 9⭐), so an app that still shows the picture grid and an app that shows a
+number pad open the **same** account. A PIN of `9999` is the star four times.
+Wonder Lab shows the number pad. Math Lab and the Reading Star apps still show
+pictures until they are switched over.
+
+On 2026-10-13 the two existing `@homeschool.family` accounts (griffin, chloe)
+were set to PIN `9999` with `firebase auth:import` (HMAC_SHA256, uids kept).
+The `@readingstar.family` accounts belong to the Reading Star app and were left alone.
 
 **This derivation must be byte-identical in every homeschool app.** It is the
 entire mechanism by which one login is shared. If two apps disagree, the same

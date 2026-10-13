@@ -62,7 +62,7 @@ Object.assign(App, {
       <div class="jy pip-react">
         ${this.hud()}
         <section class="wh">
-          <button class="wh-arrow" ${wi === 0 ? 'disabled' : ''} onclick="App.worldGo(-1)" aria-label="Previous world">‹</button>
+          <button class="wh-arrow" onclick="App.worldGo(-1)" aria-label="Previous world">‹</button>
           <div class="wh-mid" onclick="App.worldPicker()" role="button">
             <div class="wh-kicker">World ${wi + 1} of ${worlds.length}</div>
             <h1 class="wh-title">${course.name}</h1>
@@ -72,7 +72,7 @@ Object.assign(App, {
               <span class="wh-pill">${this.fx('⭐')} ${stars} / ${lessons.length * 3}</span>
             </div>
           </div>
-          <button class="wh-arrow" ${wi === worlds.length - 1 ? 'disabled' : ''} onclick="App.worldGo(1)" aria-label="Next world">›</button>
+          <button class="wh-arrow" onclick="App.worldGo(1)" aria-label="Next world">›</button>
         </section>
         <div class="wh-dots">${worlds.map((c, i) => `<i class="${i === wi ? 'on' : ''}"></i>`).join('')}</div>
         ${this.journeyPath(course, lessons, nextIdx, done.length)}
@@ -82,7 +82,9 @@ Object.assign(App, {
 
   worldGo(d) {
     const worlds = this.worlds();
-    const i = Math.max(0, Math.min(worlds.length - 1, worlds.findIndex(c => c.id === this._worldId) + d));
+    // The worlds form a loop: past the last one comes the first, and back from the first is the last.
+    const n = worlds.length;
+    const i = (Math.max(0, worlds.findIndex(c => c.id === this._worldId)) + d + n) % n;
     this.setWorldId(worlds[i].id);
   },
   setWorldId(id) {

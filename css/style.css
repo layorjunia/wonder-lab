@@ -6,6 +6,7 @@
    using. */
 
 * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body { touch-action: manipulation; -webkit-text-size-adjust: 100%; }
 
 /* A <button> does not inherit colour. The UA sheet sets `color: buttontext`,
    which is BLACK — so every button-shaped control that did not name a colour
@@ -351,6 +352,14 @@ h3 { font-weight: 700; font-size: var(--fs-md); }
   display: flex; align-items: center; justify-content: center; font-size: 1.6rem;
 }
 .pin-slot.filled { border-color: var(--cyan); background: rgba(79,214,232,.10); }
+.pad { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; max-width: 320px; margin: 14px auto 0; }
+.pad-btn {
+  height: 62px; font: inherit; font-size: 1.7rem; font-weight: 700; cursor: pointer;
+  color: var(--text); background: var(--ink-3); border: 1px solid var(--line);
+  border-radius: 14px; transition: border-color .12s, transform .08s;
+}
+.pad-btn:active { transform: scale(.94); border-color: var(--cyan); }
+.pad-btn.alt { font-size: 1.3rem; color: var(--text-dim); }
 /* ── narration voice chooser (Field Notes) ── */
 .voice-row { display: flex; gap: 10px; margin-top: 12px; }
 .voice-opt {

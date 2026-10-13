@@ -44,4 +44,15 @@ const HOMESCHOOL_AUTH = {
     return (Array.isArray(emojis) ? emojis.join('') : String(emojis || ''))
       + this.passwordSalt;
   },
+
+  // A four-digit PIN is the same login as four pictures: each digit stands for
+  // one picture, so an app that still shows the picture grid and an app that
+  // shows a number pad open the SAME account. 9999 is the same as tapping the
+  // star four times. Returns null unless the PIN is exactly four digits.
+  pinPictures: ['🦖', '🐙', '🦋', '🐝', '🦉', '🐢', '🦈', '🐸', '🌋', '⭐'],
+  passwordFromPin(pin) {
+    const s = Array.isArray(pin) ? pin.join('') : String(pin == null ? '' : pin);
+    if (!/^\d{4}$/.test(s)) return null;
+    return this.password(s.split('').map(d => this.pinPictures[+d]));
+  },
 };

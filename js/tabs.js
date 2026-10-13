@@ -194,3 +194,22 @@ Object.assign(App, {
       </div>`);
   },
 });
+
+// No zooming. A stray double-tap or pinch zoomed the page in with no way back out.
+// The viewport meta and `touch-action: manipulation` stop the double-tap; this stops
+// the pinch, and puts the page back at 100% if it ever does end up zoomed.
+(function () {
+  const stop = (e) => { if (e.cancelable) e.preventDefault(); };
+  ['gesturestart', 'gesturechange', 'gestureend'].forEach(t =>
+    document.addEventListener(t, stop, { passive: false }));
+  if (window.visualViewport) {
+    window.visualViewport.addEventListener('resize', () => {
+      if (window.visualViewport.scale <= 1.001) return;
+      const m = document.querySelector('meta[name="viewport"]');
+      if (!m) return;
+      const was = m.content;
+      m.content = 'width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover';
+      setTimeout(() => { m.content = was; }, 60);
+    });
+  }
+})();
