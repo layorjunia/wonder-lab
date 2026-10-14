@@ -1244,7 +1244,7 @@ fact: Its deepest spot is just under 14 ft (4.3 m), and its average depth is abo
 --- 🔎
 p: A lake shared with Idaho. A trip to California. A rendezvous near Laketown. A dam on Lake Powell. A shallow lake.
 
-p: Lakes fill Utah.
+p: Utah has lakes.
 
 quiz: How many years did Lake Powell take to fill?
 - Sixty years

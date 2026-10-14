@@ -48,6 +48,18 @@ WORDS = {
     'ichthyosaur': 'ˈɪkθiəsˌɔɹ',
     'ichthyosaurs': 'ˈɪkθiəsˌɔɹz',
 
+    # ── people and places the guess gets wrong (found by Whisper over the 2026-10 lessons) ──
+    'Mansa': 'mˈɑnsə',                   # MAHN-suh
+    'Musa': 'mˈusə',                     # MOO-suh, not "YOU-suh"
+    'Valles': 'vˈælᵻs',                  # VAL-iss Marineris, not "voles"
+    'Étienne': 'ˌAtiˈɛn',                # ay-tee-EN; the accent made it spell out "E-T-N"
+    'Sankoré': 'sˌɑnkəɹˈA',               # SAHN-kuh-RAY
+    'Huygens': 'hˈɔɪɡənz',               # HOY-genz
+    'Banca': 'bˈɑŋkə',
+    'Paschi': 'pˈɑski',
+    'Siena': 'siˈɛnə',
+    'dei': 'dˈA',                        # "Monte dei Paschi di Siena"
+
     # ── plants ──
     'vera': 'vˈɛɹə',                     # "aloe vera", not "veer-a"
     'oleuropein': 'ˌOliuɹˈOpiᵻn',

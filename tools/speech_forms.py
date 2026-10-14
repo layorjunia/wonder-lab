@@ -78,7 +78,14 @@ _ASIDE_BODY = re.compile(
     r'^(?:about|roughly|around|up\s+to|nearly|over)?\s*'
     r'[\d][\d,.\s]*'
     r'(?:(?:to|–|—|-|/|by|x|×)\s*[\d,.]*\s*[a-z°]{0,6}\s*)*'
-    r'[a-z°/]{0,8}\s*$', re.I)
+    r'[a-z°/]{0,8}\d?\s*$', re.I)      # "(105,000 km2)": a squared unit is still just a unit
+
+
+# "(5.5 million square kilometers)": a metric AREA or VOLUME spelled out. Kept separate from
+# _ASIDE_BODY so "(3 million people)" is never mistaken for a unit.
+_ASIDE_AREA = re.compile(
+    r'^(?:about|roughly|around|nearly|over)?\s*[\d][\d,.]*\s*(?:million|billion|thousand)?\s*'
+    r'(?:square|cubic)\s+(?:kilometers?|kilometres?|meters?|metres?|centimeters?|centimetres?|hectares?)\s*$', re.I)
 
 
 def _drop_asides(t):
@@ -86,7 +93,7 @@ def _drop_asides(t):
         body = m.group(1).strip()
         if not re.search(r'\d', body):
             return m.group(0)
-        return '' if _ASIDE_BODY.match(body) else m.group(0)
+        return '' if (_ASIDE_BODY.match(body) or _ASIDE_AREA.match(body)) else m.group(0)
     return re.sub(r'\s*\(([^()]*)\)', keep, t)
 
 ORD_SUFFIX = re.compile(r'\b(\d+)(st|nd|rd|th)\b', re.I)
@@ -151,6 +158,14 @@ def _spell(word):
 def for_speech(text):
     """The only function callers need. Idempotent enough to run twice safely."""
     t = str(text)
+
+    # 0. Area units. "sq mi" is "square miles" (a bare "mi" is only expanded straight after a
+    #    number, so "million sq mi" and "109 sq mi" used to come out "square mi"). Done first so the
+    #    bracketed "(280 km2)" that follows is recognised as a conversion aside and dropped.
+    _AREA = {'mi': 'miles', 'ft': 'feet', 'in': 'inches', 'yd': 'yards', 'km': 'kilometers',
+             'm': 'meters', 'cm': 'centimeters', 'mm': 'millimeters'}
+    t = re.sub(r'\bsq\.?\s*(mi|ft|in|yd|km|m|cm|mm)\b\.?(?!\w)',
+               lambda m: 'square ' + _AREA[m.group(1)], t)
 
     # 1. Celsius-first with Fahrenheit in brackets is the one aside worth
     #    keeping rather than dropping — this app speaks imperial, so promote
