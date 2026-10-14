@@ -1,25 +1,39 @@
 #!/usr/bin/env python3
-"""Compact lesson writing. Reads .work/lessons-hand/<course>.dsl, writes .work/lessons-hand/<course>.txt
+"""Compact lesson writing (v2). Reads .work/lessons-hand/<course>.dsl, writes .work/lessons-hand/<course>.txt
 
   @ <lesson id>
   idea: ...
-  game: Name = clue | Name = clue | ...
-  <icon> | p: sentence(s) | [p: second paragraph] | [term: word = definition] | fact: sentence(s) | [? question = right ~ wrong ~ wrong]
+  game: Name = clue (4+ words) | Name = clue | ...
+  <n> <icon> | p: sentence(s) | [p: more] | [term: word = definition] | [fact(Label): sentence(s)]
+              | [? question = right ~ wrong ~ wrong] | [hint: ...] | [why: ...]
   close <icon> | p: ... | p: ...
   quiz: question = right ~ wrong ~ wrong => explanation
 
-The converter adds the hint (paragraph or box, whichever holds the answer) and the explanation (the sentence
-containing the answer). Then run sync_icons.py and lint_hand.py.
+Page rules this converter relies on (they are what a child actually sees):
+  * p     the page's idea, complete on its own — never a teaser that the box has to finish.
+  * fact  a "look at this" callout with its OWN label ("The four needs") and sentences that name
+          their subject (no "It/They/He" opening). Optional: a page may be a paragraph alone.
+  * ?     the question must make sense with NO page in front of it — the games and the boss battle
+          show it alone — so never "the example" or "this".
+  * the right answer is placed in slot 1, 2 or 3 in a shuffled-but-balanced order (never always 2nd).
+  * hint  says where to look AND what to look for. why: is the explanation read after the answer.
 """
-import os, re, sys
+import os, random, re, sys, zlib
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 c = sys.argv[1]
 src = open(os.path.join(ROOT, '.work', 'lessons-hand', c + '.dsl'), encoding='utf-8').read()
-MARK = '# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)'
+MARK = '# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)'
+STOP = set('a an the and or but if so as at by for from in into of on to with is are was were be it its this that these those '
+           'they them their he she his her we you your i not no what who when where why how which do does did can could will would '
+           'there here more most some any all each every than then also just only about over one two'.split())
 
 
 def toks(s):
     return set(re.findall(r"[a-z0-9]+", s.lower().replace(',', '')))
+
+
+def words(s):
+    return re.findall(r"[A-Za-z0-9$%'’-]+", s)
 
 
 def sentences(s):
@@ -37,10 +51,57 @@ def explain_for(right, texts):
     return best or right
 
 
+def hint_for(q, where, texts):
+    """'Look at the paragraph. Find where it says "textbooks list".' — a place AND a thing to find."""
+    body = ' '.join(texts).lower()
+    qw = [w for w in words(q.rstrip('?')) if w]
+    best = ''
+    for n in range(min(5, len(qw)), 1, -1):
+        for i in range(0, len(qw) - n + 1):
+            seg = qw[i:i + n]
+            if all(w.lower() in STOP for w in seg):
+                continue
+            ph = ' '.join(seg).lower()
+            if ph in body and len(ph) > len(best):
+                best = ph
+        if best:
+            break
+    if not best:
+        cand = [w for w in qw if w.lower() not in STOP and len(w) > 3 and w.lower() in body]
+        best = max(cand, key=len).lower() if cand else ''
+    place = 'the ' + where
+    return ('Look at %s. Find where it says "%s".' % (place, best)) if best else ('Look at %s. The answer is there.' % place)
+
+
+def slots(lid, n):
+    """Balanced, non-repeating slots 0/1/2 for the n questions of one lesson, seeded by its id."""
+    r = random.Random(zlib.crc32(lid.encode()))
+    out, last = [], None
+    while len(out) < n:
+        blk = [0, 1, 2]
+        r.shuffle(blk)
+        if blk[0] == last:
+            blk.append(blk.pop(0))
+        out.extend(blk)
+        last = out[-1]
+    return out[:n]
+
+
+def place(opts, slot):
+    right, wrong = opts[0], opts[1:]
+    wrong = wrong[:2]
+    out = wrong[:]
+    out.insert(min(slot, len(out)), right)
+    return out
+
+
 out = []
 for block in re.split(r'^@ ', src, flags=re.M)[1:]:
     lines = [l.rstrip() for l in block.split('\n')]
     lid = lines[0].strip()
+    nq = sum(1 for l in lines[1:] if re.match(r'^\d ', l) and ' ? ' in l.replace('| ?', ' ? ')) + sum(1 for l in lines[1:] if l.startswith('quiz:'))
+    sl = slots(lid, nq + 2)
+    qi = 0
     out.append(MARK)
     out.append('=== ' + lid)
     quiz = []
@@ -67,7 +128,8 @@ for block in re.split(r'^@ ', src, flags=re.M)[1:]:
         icon = head.split(None, 1)[1] if ' ' in head and head.split()[0].isdigit() else head
         out.append('--- ' + icon.strip())
         ps = [x[2:].strip() for x in parts[1:] if x.startswith('p:')]
-        fact = next((x[5:].strip() for x in parts[1:] if x.startswith('fact:')), '')
+        fm = next((re.match(r'^fact(?:\(([^)]*)\))?:\s*(.*)$', x) for x in parts[1:] if x.startswith('fact')), None)
+        fact, label = (fm.group(2).strip(), (fm.group(1) or '').strip()) if fm else ('', '')
         for pt in ps:
             out.append('p: ' + pt)
             out.append('')
@@ -76,27 +138,32 @@ for block in re.split(r'^@ ', src, flags=re.M)[1:]:
                 out.append(x)
                 out.append('')
         if fact:
-            out.append('fact: ' + fact)
+            out.append(('fact(%s): ' % label if label else 'fact: ') + fact)
             out.append('')
+        term_text = ' '.join(x[5:] for x in parts[1:] if x.startswith('term:'))
         for x in parts[1:]:
             if x.startswith('?'):
                 m = re.match(r'\?\s*(.*?)\s*=\s*(.*)$', x)
                 q, opts = m.group(1), [o.strip() for o in m.group(2).split('~')]
                 right = opts[0]
-                where = 'paragraph' if toks(right) & toks(' '.join(ps)) else 'box'
+                texts = ps + ([term_text] if term_text else []) + ([fact] if fact else [])
+                inp = toks(right) & toks(' '.join(ps))
+                inf = toks(right) & toks(fact + ' ' + term_text)
+                where = 'paragraph' if inp and len(inp) >= len(inf) else 'box'
                 if where == 'paragraph' and len(ps) > 1:
                     where = 'first paragraph'
-                # options: right is listed first here; the file keeps it second so it is not always on top
-                order = [opts[1], opts[0]] + opts[2:]
+                hint = next((y[5:].strip() for y in parts[1:] if y.startswith('hint:')), '') or hint_for(q, where, texts)
+                why = next((y[4:].strip() for y in parts[1:] if y.startswith('why:')), '') or explain_for(right, ps + [fact])
+                order = place(opts, sl[qi % len(sl)]); qi += 1
                 out.append('check: ' + q)
                 for o in order:
                     out.append(('+ ' if o == right else '- ') + o)
-                out.append('hint: Look at the %s. The answer is there.' % where)
-                out.append('explain: ' + explain_for(right, ps + [fact]))
+                out.append('hint: ' + hint)
+                out.append('explain: ' + why)
                 out.append('')
     for q, opts, ex in quiz:
         right = opts[0]
-        order = [opts[1], opts[0]] + opts[2:]
+        order = place(opts, sl[qi % len(sl)]); qi += 1
         out.append('quiz: ' + q)
         for o in order:
             out.append(('+ ' if o == right else '- ') + o)

@@ -244,11 +244,15 @@ SelfTest.hub = async function () {
     const bg = App._game;
     if (!bg || bg.kind !== 'boss') problems.push('boss did not start');
     else {
+      // the battle is a state machine: ask -> (strike) -> anim -> fb -> ask ... -> end
       let guard = 0;
-      while (App._game === bg && bg.hp > 0 && bg.hearts > 0 && guard++ < 14) {
-        const r = bg.items[bg.idx];
-        App.gmBossPick(r.ans); await tick(); await tick();
+      while (App._game === bg && bg.phase !== 'end' && guard++ < 200) {
+        if (bg.phase === 'ask') App.gmBossPick(bg.items[bg.idx].ans);
+        else if (bg.phase === 'strike') App.bossStrike();
+        else if (bg.phase === 'fb') App.bossNext();
+        await tick();
       }
+      if (guard >= 200) problems.push('boss: battle never ended (phase ' + bg.phase + ')');
       await tick(); await tick();
       if (!document.querySelector('#lessonOverlay .rs-medal')) problems.push('boss: no victory screen');
       if (!(Progress.p.medals || {}).earth) problems.push('boss: medal not awarded');

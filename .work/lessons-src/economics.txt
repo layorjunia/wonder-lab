@@ -1,644 +1,859 @@
 
 # UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
-=== economics-money
-idea: Money is anything people accept as payment. Learn about barter, the shekel and coins.
+=== economics-needs
+idea: A person needs water but only wants cake. Learn what a need is, what a want is, and what economics studies.
 
-game: Money = Anything people accept as payment | Barter = Swapping goods and services without money | Shekel = A Mesopotamian unit of weight | Mint = Where coins are made in large numbers
+game: Need = Something a living thing must have to live | Want = A wish a person can live without | Water = The most important of all the needs | Economics = The study of how people make choices
 
---- 🪙
-p: Money is anything that people accept as payment for goods and services.
+--- 🍞
+p: A need is something a living thing must have to be able to live.
 
-term: debts = Money that people owe and must repay.
+fact(Not only people): Plants and animals have needs too.
 
-fact: People also use it to repay debts.
+check: What do we call something a living thing must have to be able to live?
+- A want
+- A game
++ A need
+hint: Look at the paragraph. It says what a need is.
+explain: A need is something a living thing must have to be able to live.
 
-check: What is money?
-- A thing only a king may own
-+ Anything people accept as payment
-- A kind of paper made at home
-hint: Look at the paragraph. The answer is there.
-explain: Money is anything that people accept as payment for goods and services.
+--- 🧥
+p: People need water, food, clothing and shelter to live.
 
---- ⚙️
-p: Most modern textbooks list three jobs of money.
+fact(The same for everyone): Every person has the same basic needs for the body.
 
-fact: They are a medium of exchange, a unit of account and a store of value.
+check: What four things do people need to live?
++ Water, food, clothing and shelter
+- Toys, games, books and music
+- Cake, candy, juice and cookies
+hint: Look at the paragraph. It lists four things people need.
+explain: People need water, food, clothing and shelter to live.
 
-check: How many jobs of money do most textbooks list?
-- Seven
-+ Three
-- Twelve
-hint: Look at the paragraph. The answer is there.
-explain: Most modern textbooks list three jobs of money.
+--- 💧
+p: The need for water is the most important, because a person will die very quickly without drinking water.
 
---- 📅
-p: The Mesopotamian shekel was a unit of weight.
+fact(Next in line): In a warm place, food is the next most important need.
 
-fact: It relied on the mass of something like 160 grains of barley.
+check: Without which need will a person die very quickly?
+- Food
++ Water
+- Clothing
+hint: Look at the paragraph. It says what a person cannot go without for long.
+explain: A person will die very quickly without drinking water.
 
-check: What was the Mesopotamian shekel?
-- A kind of coin
-+ A unit of weight
-- A type of boat
-hint: Look at the paragraph. The answer is there.
-explain: The Mesopotamian shekel was a unit of weight.
+--- 🎂
+p: A want is a wish or a desire for something.
 
---- 🔧
-p: Barter is a way of trading in which people directly swap goods or services for other goods or services.
+term: want = A wish for something that a person can live without.
 
-fact: They do not use money.
+fact(Living without it): A person could choose not to have a want, and still be able to live.
 
-check: What do people not use when they barter?
-- Goods
-+ Money
-- Services
-hint: Look at the box. The answer is there.
-explain: They do not use money.
+check: What do we call something a person wishes for but can live without?
+- A need
+- A rule
++ A want
+hint: Look at the paragraph. It says what a want is.
+explain: A want is a wish for something that a person can live without.
 
---- 🏗️
-p: Coins are standardized in weight.
+--- 🍰
+p: A person can need to eat food and can want to eat cake.
 
-fact: They are made in large numbers at a mint to make trade easier.
+fact(No cake?): If there is no cake, the person may eat bread. The person is no longer hungry, but the want for cake may still be there.
 
---- 📏
-p: Coins last longer than banknotes.
+check: A person can need to eat food and can want to eat cake. Which one is the need?
++ To eat food
+- To eat cake
+- To eat candy
+hint: Look at the paragraph. It says which one a person needs.
+explain: A person needs to eat food, but only wants to eat cake.
 
-fact: Banknotes last only about four years, compared with 30 years for a coin.
+--- 🧠
+p: Economics is the study of how people make choices to get what they want.
 
---- 🔎
-p: Money as payment. Three jobs of money. A shekel of weight. Barter without money. Coins from a mint.
+fact(Scarcity and choice): Economics has been called the study of scarcity and choice. Scarcity is when there is not a lot of something.
 
-p: Money is useful.
-
-quiz: What do people swap when they barter?
-- Coins or notes
-+ Goods or services
-- Land or houses
-explain: People directly swap goods or services for other goods or services.
-
-quiz: Where are coins made in large numbers?
-- At a farm
-+ At a mint
-- At a bank
-explain: They are made in large numbers at a mint to make trade easier.
-
-quiz: How long do banknotes last?
-- About thirty years
-+ About four years
-- About one week
-explain: Banknotes last only about four years, compared with 30 years for a coin.
-
-quiz: What was the shekel based on the mass of?
-- About 16 pounds of silver
-+ About 160 grains of barley
-- About 6 loaves of bread
-explain: It relied on the mass of something like 160 grains of barley.
-
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
-=== economics-trade
-idea: Trade is an exchange of goods or services. Meet markets, merchants and the people who traded purple dye.
-
-game: Transaction = An exchange of goods or services | Market = Lets people compare and set prices | Merchant = A person or company in trade | Phoenicians = Traders in purple dye
-
---- 🤝
-p: A transaction is an exchange of goods or services.
-
-fact: It can be done with money or without it.
-
-check: What do we call an exchange of goods or services?
-- A purple dye
-+ A transaction
-- A price list
-hint: Look at the paragraph. The answer is there.
-explain: A transaction is an exchange of goods or services.
-
---- ⚙️
-p: Markets make trading easier.
-
-term: market = A place where people compare and set prices for the things they trade.
-
-fact: They let people compare and set prices for the things they trade.
-
-check: What do markets let people do with things they trade?
-- Plant and grow crops
-+ Compare and set prices
-- Dig and carry stones
-hint: Look at the box. The answer is there.
-explain: They let people compare and set prices for the things they trade.
-
---- 🧑
-p: A merchant is a person or company that is engaged in trade.
-
-fact: Merchants sell through stores or online platforms.
-
-check: What is a merchant?
-- A tool for making clay pots
-+ A person or company in trade
-- A ship used for fishing
-hint: Look at the paragraph. The answer is there.
-explain: A merchant is a person or company that is engaged in trade.
-
---- 👤
-p: Merchants worked in ancient Egypt, Greece, China and India.
-
-fact: They also worked in Babylonia, Persia, Phoenicia and Rome.
-
-check: Which ancient land had merchants and merchant networks?
-- Iceland
-+ Egypt
-- Brazil
-hint: Look at the paragraph. The answer is there.
-explain: Merchants worked in ancient Egypt, Greece, China and India.
-
---- 👑
-p: The Phoenicians were well known as traders in purple.
-
-fact: They controlled the purple dye made from the murex shell.
-
---- 🧭
-p: The Sari-i-Sang mine is in the mountains of Afghanistan.
-
-fact: It was the largest source for trade of lapis lazuli.
+check: What does economics study?
+- How rocks are formed
++ How people make choices
+- How plants grow
+hint: Look at the paragraph. It says what economics studies.
+explain: Economics is the study of how people make choices to get what they want.
 
 --- 🔎
-p: An exchange of goods. A market for prices. A merchant in trade. Merchants in Egypt and Rome. Purple dye. A mine in the mountains.
+p: A need to live. Water, food, clothing and shelter. A want you can live without. Cake or bread. Choices.
 
-p: Trade is old.
+p: Needs come first.
 
-quiz: What did the Phoenicians control that was made from the murex shell?
-- The red silk
-+ The purple dye
-- The green glass
-explain: They controlled the purple dye made from the murex shell.
+quiz: Which of these does a person need to live?
++ Water
+- Cake
+- A new toy
+explain: People have bodily needs of water, food, clothing and shelter to live.
 
-quiz: How do merchants sell?
-- Only on the top of hills
-+ In stores or online platforms
-- Just inside deep caves
-explain: Merchants sell through stores or online platforms.
+quiz: What do plants and animals have, just like people?
+- Wants
++ Needs
+- Money
+explain: A need is something that a living being, plant or animal must have to be able to live.
 
-quiz: What was the Sari-i-Sang mine the largest source of for trade?
-- Purple dye
-+ Lapis lazuli
-- Silk cloth
-explain: It was the largest source for trade of lapis lazuli.
-
-quiz: Can a transaction be done without money?
+quiz: Can a person live without something that is only a want?
 - No
+- Only in winter
 + Yes
-- Only on Sundays
-explain: It can be done with money or without it.
+explain: A want is something a person is able to live without.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
-=== economics-work
-idea: Clocks gave us hourly wages. Learn how wages are set, and how a group gets more done when each worker does one task.
-
-game: Hourly wage = Began when clocks divided work time | Labor union = Negotiates for the workers | Minimum wage = Set at the federal level | Division of labor = Each worker does a single task
-
---- 🛠️
-p: Clocks led people to divide work time into hours.
-
-term: wage = The pay a worker gets, like an hourly wage.
-
-fact: That is how the idea of an hourly wage began.
-
-check: What did clocks lead to dividing work time into?
-- Meals
-+ Hours
-- Seasons
-hint: Look at the paragraph. The answer is there.
-explain: Clocks led people to divide work time into hours.
-
---- 📅
-p: Wages were paid in the Middle Kingdom of ancient Egypt, ancient Greece and ancient Rome.
-
-fact: So workers in these lands were paid wages.
-
-check: Where were wages paid in ancient times?
-- Ancient Spain, Peru and Fiji
-+ Ancient Egypt, Greece and Rome
-- Ancient Iceland and Canada
-hint: Look at the paragraph. The answer is there.
-explain: Wages were paid in the Middle Kingdom of ancient Egypt, ancient Greece and ancient Rome.
-
---- 📏
-p: Seventy-five million workers earned hourly wages in the United States in 2012.
-
-fact: They made up 59% of employees.
-
-check: What share of employees earned hourly wages in 2012?
-- 5.9%
-+ 59%
-- 95%
-hint: Look at the box. The answer is there.
-explain: They made up 59% of employees.
-
---- ⚙️
-p: Wages for most workers are set by market forces.
-
-fact: Others are set by collective bargaining, where a labor union negotiates for the workers.
-
-check: Who negotiates for workers in collective bargaining?
-- A rich owner
-+ A labor union
-- A tax office
-hint: Look at the box. The answer is there.
-explain: Others are set by collective bargaining, where a labor union negotiates for the workers.
-
---- 🔧
-p: The Fair Labor Standards Act sets a minimum wage at the federal level.
-
-fact: All states must follow it.
-
---- 🧩
-p: When each worker does a single task, a group gets more done.
-
-fact: This is called division of labor.
-
---- 🔎
-p: Clocks and hours. Wages in ancient Egypt. Workers paid by the hour. A labor union. A minimum wage. Each worker with a single task.
-
-p: Work earns wages.
-
-quiz: How many workers earned hourly wages in the United States in 2012?
-- Seven million
-+ Seventy-five million
-- Seventy-five thousand
-explain: Seventy-five million workers earned hourly wages in the United States in 2012.
-
-quiz: What does the Fair Labor Standards Act set?
-- A maximum price
-+ A minimum wage
-- A clock rule
-explain: The Fair Labor Standards Act sets a minimum wage at the federal level.
-
-quiz: What is it called when each worker does a single task?
-- Collective bargaining
-+ Division of labor
-- Market forces
-explain: When each worker does a single task, a group gets more done. This is called division of labor.
-
-quiz: Who must follow the minimum wage set at the federal level?
-- Only big cities
-+ All states
-- Just one state
-explain: All states must follow it.
-
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
-=== economics-business
-idea: A business is an activity done for profit. Meet the entrepreneur who takes the risks, and a business owned by one person.
-
-game: Business = An activity done for profit | Entrepreneur = Bears most of the risks | Sole proprietorship = Owned by one person | Franchise = One out of twelve retail businesses
-
---- 🏭
-p: Think about a business.
-
-fact: A business is any activity that is done for profit.
-
-check: What is a business entered into for?
-- A day of fun
-+ Profit
-- A long rest
-hint: Look at the box. The answer is there.
-explain: A business is any activity that is done for profit.
-
---- 🧑
-p: An entrepreneur is a person who creates or invests in one or more businesses.
-
-term: entrepreneur = A person who creates or invests in a business.
-
-fact: The entrepreneur bears most of the risks and enjoys most of the rewards.
-
-check: Who bears most of the risks of a business?
-- The shopping customer
-+ The entrepreneur
-- The delivery driver
-hint: Look at the paragraph. The answer is there.
-explain: The entrepreneur bears most of the risks and enjoys most of the rewards.
-
---- ⚙️
-p: Starting a new business takes effort.
-
-fact: It also takes new ideas and a willingness to take risks.
-
-check: What does starting a new business take besides effort?
-- Free land
-+ New ideas
-- A big ship
-hint: Look at the paragraph. The answer is there.
-explain: It also takes new ideas and a willingness to take risks.
-
---- 🏠
-p: Most people have jobs.
-
-fact: In almost all countries, most people are employed by businesses.
-
-check: Who employs most people in almost all countries?
-- Local farmers
-+ Businesses
-- Public schools
-hint: Look at the box. The answer is there.
-explain: In almost all countries, most people are employed by businesses.
-
---- 🔧
-p: A sole proprietorship, also called a sole trader, is owned by one person.
-
-fact: It operates for that person's benefit.
-
---- 📏
-p: One out of twelve retail businesses in the United States is franchised.
-
-fact: 8 million people are employed in a franchised business.
-
---- 🔎
-p: A business done for profit. An entrepreneur with risks. New ideas and effort. Businesses that employ people. A sole proprietorship. A franchise.
-
-p: Businesses do much.
-
-quiz: What is a sole proprietorship owned by?
-- A whole town
-+ One person
-- Ten workers
-explain: A sole proprietorship is owned by one person.
-
-quiz: What does the entrepreneur enjoy most of?
-- The risks
-+ The rewards
-- The rules
-explain: The entrepreneur bears most of the risks and enjoys most of the rewards.
-
-quiz: How many people are employed in a franchised business?
-- 8 thousand
-+ 8 million
-- 80 million
-explain: 8 million people are employed in a franchised business.
-
-quiz: How many retail businesses in the United States are franchised?
-- Nearly half of them
-+ One out of twelve
-- Only a handful
-explain: One out of twelve retail businesses in the United States is franchised.
+quiz: Why is water the most important need?
++ A person dies very quickly without it
+- It is the easiest thing to carry around
+- It is always sold in the biggest stores
+explain: A person will die very quickly without drinking water.
 
 # UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
 === economics-choices
-idea: Every choice has a cost: the thing you give up. Meet opportunity cost, and a science people once called dismal.
+idea: There is never enough of everything, so every choice gives something up. Learn what scarcity and opportunity cost mean.
 
-game: Opportunity cost = The benefit you give up | Jean-Baptiste Say = Defined economics in 1803 | Thomas Carlyle = Called economics the dismal science | Scarcity = Linked to choice by opportunity cost
+game: Scarcity = When there is not a lot of something | Gold = Costs more than iron because it is scarce | Opportunity cost = The next best thing you give up | Free time = What a person gives up by going to work
+
+--- 📉
+p: Scarcity is when there is not a lot of something.
+
+fact(Things that cause it): Drought, floods, storms and fire can make things scarce.
+
+check: What is scarcity?
+- Having far more than anyone needs
+- Getting something for free
++ When there is not a lot of something
+hint: Look at the paragraph. It says what scarcity is.
+explain: Scarcity is when there is not a lot of something.
+
+--- 🔁
+p: Scarcity happens because people always want something new, but resources are limited.
+
+fact(Never enough): There are never enough resources for every want and need.
+
+check: Why does scarcity happen?
++ Resources are limited
+- Nobody wants anything
+- Everything is free
+hint: Look at the paragraph. It says why scarcity happens.
+explain: Scarcity happens because people always want something new, but resources are limited.
+
+--- ⚠️
+p: Scarcity is called the basic problem of economics. It never goes away.
+
+fact(What follows): Economics is about the choices people make.
+
+check: What is scarcity called, because it never goes away?
+- The easiest rule of money
++ The basic problem of economics
+- The last page of a book
+hint: Look at the paragraph. It says what scarcity is called.
+explain: Scarcity is called the basic problem of economics, because it never goes away.
+
+--- 🥇
+p: Scarce things have higher prices. Gold costs much more than iron, because gold is more scarce.
+
+term: scarce = Not much of it is around, so it costs more, like gold.
+
+fact(Gold and iron): Gold is used less than iron, but the price of gold is much higher.
+
+check: Why does gold cost much more than iron?
+- Gold is easier to find
+- Gold is cheaper to make
++ Gold is more scarce
+hint: Look at the paragraph. It says why gold costs more.
+explain: Gold costs much more than iron, because gold is more scarce.
 
 --- ⚖️
-p: Opportunity cost shows the link between scarcity and choice.
+p: Opportunity cost is the value of the next best thing you give up whenever you make a decision.
 
-term: scarce = Hard to find, like the scarce resources opportunity cost helps us use well.
+check: What is opportunity cost?
++ The next best thing you give up
+- The price tag on something you buy
+- The money you get as a birthday gift
+hint: Look at the paragraph. It says what opportunity cost is.
+explain: Opportunity cost is the value of the next best thing you give up whenever you make a decision.
 
-fact: Its aim is to make sure scarce resources are used well.
+--- ⏳
+p: Going to work means more income but less free time. Staying at home means more free time but less income.
 
-check: What does opportunity cost link scarcity to?
-- Chance
-+ Choice
-- Change
-hint: Look at the paragraph. The answer is there.
-explain: Opportunity cost shows the link between scarcity and choice.
-
---- ⚙️
-p: Opportunity costs are not only about money.
-
-fact: The real cost can also be lost time, pleasure, or any other benefit that you give up.
-
-check: Are opportunity costs only about money?
-- Yes
-+ No
-- Only on weekends
-hint: Look at the box. The answer is there.
-explain: No
-
---- 🔧
-p: Say a person leaves work for an hour to buy $200 of office supplies.
-
-fact: Their hourly rate is $25. The $25 they could have earned instead is an opportunity cost.
-
-check: How much could the person have earned instead?
-- $2
-+ $25
-- $200
-hint: Look at the box. The answer is there.
-explain: Their hourly rate is $25.
-
---- 📅
-p: In 1803, Jean-Baptiste Say defined economics.
-
-fact: He called it the science of how wealth is made, shared and used.
-
-check: Who defined economics in 1803?
-- Thomas Carlyle
-+ Jean-Baptiste Say
-- Albert Einstein
-hint: Look at the paragraph. The answer is there.
-explain: In 1803, Jean-Baptiste Say defined economics.
-
---- 🧑
-p: In 1849, Thomas Carlyle spoke about classical economics.
-
-fact: He called it the dismal science.
-
---- 🧩
-p: Building one aircraft costs a lot of money.
-
-fact: But when a company builds a hundred, the cost of the 100th is much lower.
+check: What does a person give up by going to work instead of staying at home?
+- A place to live
++ Free time
+- Their income
+hint: Look at the paragraph. It says what a person has less of at work.
+explain: Going to work means more income but less free time.
 
 --- 🔎
-p: A link between scarcity and choice. A cost that is not only money. $25 not earned. A thinker named Say. A name for economics. An aircraft.
+p: Not a lot of something. Limited resources. A problem that never goes away. Gold and iron. The next best thing. Free time.
 
-p: Every choice has a cost.
+p: Every choice gives something up.
 
-quiz: What can the real cost of a choice be, besides money?
-- A bigger bank loan
-+ Lost time or pleasure
-- A newer set of shoes
-explain: The real cost can also be lost time, pleasure, or any other benefit that you give up.
+quiz: Which of these can make things scarce?
++ A drought
+- A birthday
+- A song
+explain: Scarcity exists due to the effects of nature, such as drought, floods, storms and fire.
 
-quiz: In 1849, who called classical economics the dismal science?
-- Jean-Baptiste Say
-+ Thomas Carlyle
-- Adam Smith
-explain: In 1849, Thomas Carlyle called classical economics the dismal science.
+quiz: Which costs more because it is more scarce?
+- Iron
+- Air
++ Gold
+explain: Gold is used less than iron, but the price of gold is much higher, because gold is more scarce.
 
-quiz: What is the hourly rate in the example?
-- $250
-+ $25
-- $2.50
-explain: Their hourly rate is $25.
+quiz: What does staying at home give a person, compared with going to work?
+- More income
++ More free time
+- A new job
+explain: Staying at home means more free time but less income.
 
-quiz: What happens to the cost when a company builds a hundred aircraft?
-- Each one costs much more
-+ The 100th costs much less
-- Every one costs the same
-explain: When a company builds a hundred, the cost of the 100th is much lower.
+quiz: What is economics about, when there is never enough?
++ The choices people make
+- The names of the planets
+- The shapes of the clouds
+explain: Economics is about the choices people make.
 
 # UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
-=== economics-saving
-idea: Saving is income that is not spent. Meet interest, bank deposits and the oldest existing bank.
+=== economics-goods
+idea: Some things you can hold and some things people do for you. Meet goods, services, producers and consumers.
 
-game: Saving = Income that is not spent | Interest = A payment from a borrower to a lender | Deposit = Insured up to $250,000 | Bank = Accepts deposits and makes loans
+game: Good = A physical thing that can be handed to a buyer | Service = An action that helps someone | Producer = A person who makes things | Consumer = A person who buys things | Capital = Machines and buildings used to make things
 
---- 🐷
-p: Saving is income that is not spent.
+--- 📦
+p: A good is a physical thing that can be handed to a buyer.
 
-term: deferred = Put off until later, as in deferred consumption.
+term: service = An action that helps someone, not a thing.
 
-fact: It is also called deferred consumption.
+fact(What about services?): A service is not a thing. It is an action that helps someone.
 
-check: What is saving?
-- Money you borrow from a bank
-+ Income that is not spent
-- A gift that you must return
-hint: Look at the paragraph. The answer is there.
-explain: Saving is income that is not spent.
+check: What is a service?
+- A thing that people can hold and carry
+- A place where people go to shop
++ An action that helps someone
+hint: Look at the box. It says what a service is.
+explain: A service is not a thing. It is an action that helps someone.
 
---- ⚙️
-p: In economics, interest is a payment from a borrower to a lender.
+--- 🚲
+p: A bicycle is a good. The work of a doctor is a service.
 
-fact: It is an amount above what was borrowed, at a particular rate.
-
-check: Who pays interest?
-- The lender
-+ The borrower
-- The banker
-hint: Look at the paragraph. The answer is there.
-explain: In economics, interest is a payment from a borrower to a lender.
-
---- 🔧
-p: In personal finance, saving usually means keeping money safe at low risk, as in a deposit account.
-
-fact: Investing is a lot riskier.
-
-check: Which is riskier, saving or investing?
-- Saving
-+ Investing
+check: Is the work of a doctor a good or a service?
+- A good
++ A service
 - Neither one
-hint: Look at the box. The answer is there.
-explain: Investing is a lot riskier.
+hint: Look at the paragraph. It says what a doctor's work is.
+explain: The work of a doctor is a service.
 
---- 📏
-p: In the United States, a bank deposit is insured up to at least $250,000 for each person at each bank.
+--- 🧑‍🏭
+p: People who make things are called producers. People who buy things are called consumers.
 
-fact: The bank needs FDIC insurance.
+fact(Everyone): Everyone buys things, so everyone is a consumer.
 
-check: How much of a deposit is insured at an FDIC-insured bank?
-- $25,000
-+ $250,000
-- $2,500,000
-hint: Look at the paragraph. The answer is there.
-explain: In the United States, a bank deposit is insured up to at least $250,000 for each person at each bank.
+check: What are people who make things called?
++ Producers
+- Consumers
+- Teachers
+hint: Look at the paragraph. It names the people who make things.
+explain: People who make things are called producers.
 
---- 🧩
-p: A bank is a financial institution that accepts deposits from the public.
+--- 🛒
+p: Without people who want to buy, producers have no reason to make things.
 
-fact: It also makes loans.
+fact(Why producers make things): A producer makes things mainly to sell them to consumers.
 
---- 📅
-p: The oldest existing retail bank is Banca Monte dei Paschi di Siena.
+check: Who do producers mainly make things to sell to?
+- Other producers
+- Their own families
++ Consumers
+hint: Look at the box. It says who producers sell things to.
+explain: A producer makes things mainly to sell them to consumers.
 
-fact: It was founded in 1472.
+--- 🧰
+p: Making things takes four kinds of help.
+
+fact(The four kinds): Labor (work), land, capital and enterprise. Capital means machines and buildings. Enterprise means people who make the decisions.
+
+check: What does capital mean when it comes to making things?
+- Cash in a wallet
++ Machines and buildings
+- The people who work
+hint: Look at the box. It says what capital means.
+explain: Capital means machines and buildings.
+
+--- 🏗️
+p: Capital goods are goods that are needed to produce other goods.
+
+fact(Examples): Buildings, equipment and machines are capital goods.
+
+check: What are capital goods needed for?
++ To produce other goods
+- To pay the taxes
+- To feed the animals
+hint: Look at the paragraph. It says what capital goods are needed for.
+explain: Capital goods are goods that are needed to produce other goods.
 
 --- 🔎
-p: Income that is not spent. A payment from a borrower. Money kept at low risk. A deposit that is insured. A bank with loans. The oldest bank.
+p: A good you can hand over. A service that helps. Producers and consumers. Labor, land and capital. Machines and buildings.
 
-p: Saving is safe.
+p: Goods and services are made and bought.
 
-quiz: What is interest, in economics?
-- A gift from a lender to a borrower
-+ A payment from a borrower to a lender
-- A fee from a shop to a buyer
-explain: In economics, interest is a payment from a borrower to a lender.
+quiz: Which of these is a good?
+- The work of a doctor
+- A haircut
++ A bicycle
+explain: A bicycle is a good.
 
-quiz: In what year was the Banca Monte dei Paschi di Siena founded?
-- 1427
-+ 1472
-- 1742
-explain: It was founded in 1472.
+quiz: Which of these is a service?
+- A bicycle
++ The work of a doctor
+- A house
+explain: The work of a doctor is a service.
 
-quiz: What does a bank accept from the public?
-- Donations
-+ Deposits
-- Mortgages
-explain: A bank is a financial institution that accepts deposits from the public.
+quiz: Who is a consumer?
++ Everyone who buys things
+- Only rich people
+- Only people who make things
+explain: Everyone buys things, so everyone is a consumer.
 
-quiz: What does a bank make besides taking deposits?
-- Coins
-+ Loans
-- Stamps
-explain: A bank is a financial institution that accepts deposits from the public and makes loans.
+quiz: Which of these is capital?
+- A loaf of bread
++ A machine in a factory
+- A haircut
+explain: Capital means things like machines and buildings.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== economics-money
+idea: Before there was money, people traded cows for wheat. Find out why that got tricky and what money fixed.
+
+game: Money = Anything people use to buy goods and services | Barter = Trading things without using money | Lydia = Where the first metal coins were made | Banknote = A paper promise to give precious metal
+
+--- 🪙
+p: Money is anything that people use to buy goods and services.
+
+fact(Many kinds): There are lots of different kinds of money in the world. Most countries have their own kind of money.
+
+check: What is money?
+- Something that only kings may own
++ Anything that people use to buy things
+- A thing that grows on a tree
+hint: Look at the paragraph. It says what money is.
+explain: Money is anything that people use to buy goods and services.
+
+--- 🥚
+p: Barter means trading things directly. It works when each person wants what the other person has.
+
+term: barter = Trading things directly, without using money.
+
+fact(A problem): Bob needs shoes and John has shoes, but Bob has eggs and John needs milk. Money fixes that, because anything can be traded for a set amount of money.
+
+check: What fixes the problem when two people do not want each other's things?
++ Money
+- Barter
+- A bigger farm
+hint: Look at the box. It says what fixes the problem.
+explain: Money fixes that, because anything can be traded for a set amount of money.
+
+--- 🐄
+p: Money is easier to divide than cows.
+
+fact(Half a cow?): A person who wants only half a cow's worth of wheat does not want to cut a cow in half.
+
+check: Why is money easier to use than a cow?
+- It can give milk and cream
+- It eats a lot less grass
++ It is easier to divide
+hint: Look at the paragraph. It says why money is easier to use than a cow.
+explain: Money is easier to divide than cows.
+
+--- ⏳
+p: Cows die and wheat rots, but money lasts longer than most trade goods.
+
+fact(Saving it): A person who sells a cow for money can save the money until it is needed.
+
+check: What lasts longer than cows and wheat?
++ Money
+- Fresh eggs
+- Fresh milk
+hint: Look at the paragraph. It says what lasts longer than cows and wheat.
+explain: Money lasts longer than cows and wheat.
+
+--- 🦁
+p: The first metal coins were made in a country called Lydia, in the western part of what is now Turkey.
+
+fact(A lion): The coins were stamped with a picture of a lion.
+
+check: What picture was stamped on the first Lydian coins?
+- A king
+- A ship
++ A lion
+hint: Look at the box. It says what picture was on the coins.
+explain: The coins were stamped with a picture of a lion.
+
+--- 📜
+p: Carrying a lot of silver or gold was hard and dangerous, so banknotes were made.
+
+fact(A promise): A banknote was a promise to give an amount of precious metal to anyone who brought the paper.
+
+check: What did the first banknotes promise?
+- A free meal every single day
++ An amount of precious metal
+- A house in the middle of town
+hint: Look at the box. It says what a banknote promised.
+explain: A banknote was a promise to give an amount of precious metal to anyone who brought the paper.
+
+--- 🔎
+p: Money for goods and services. Eggs, milk and shoes. A cow cut in half. A coin with a lion. A paper promise.
+
+p: Money lasts.
+
+quiz: What do people not use when they barter?
++ Money
+- Goods
+- Services
+explain: Barter is trading goods or services directly, without using money.
+
+quiz: Where were the first metal coins made?
+- Egypt
++ Lydia
+- Rome
+explain: The first country in the world to make metal coins was called Lydia.
+
+quiz: Money is easier to divide than what?
+- A coin
+- A banknote
++ A cow
+explain: Money is easier to divide than cows.
+
+quiz: Why did people start to use banknotes?
++ Heavy metal was hard to carry
+- Paper was more beautiful
+- Coins were against the law
+explain: Carrying around a lot of precious metal was hard and dangerous, so banknotes were made.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== economics-trade
+idea: Every trade works because both people think they come out ahead. Learn about markets and about trading between countries.
+
+game: Trade = Giving things and getting things in return | Market = A place where trading takes place | Export = Goods a business sells to another country | Import = Goods a business buys from another country | Tariff = A tax on trade between countries
+
+--- 🤝
+p: To trade is to willingly give things or services and get other things or services in return.
+
+fact(Other names): Exchange and swap mean the same thing.
+
+check: What do we call it when people willingly give things and get other things in return?
+- A gift
++ A trade
+- A loan
+hint: Look at the paragraph. It says what a trade is.
+explain: To trade is to willingly give things or services and get other things or services in return.
+
+--- 🏪
+p: A place where trading takes place is called a market.
+
+check: What is a place where trading takes place called?
++ A market
+- A garden
+- A library
+hint: Look at the paragraph. It names the place where trading takes place.
+explain: A place where trading takes place is called a market.
+
+--- 💵
+p: When money is part of a trade, the person who gives the money is buying, and the person who gets the money is selling.
+
+fact(Without money): When there is no money in a trade, the trade is called barter.
+
+check: In a trade with money, what is the person who gets the money doing?
+- Buying
+- Borrowing
++ Selling
+hint: Look at the paragraph. It says what the person who gets the money is doing.
+explain: The person who gets the money is selling.
+
+--- 🚢
+p: International trade is trade between countries.
+
+term: exports = Goods that a business sells to another country.
+
+fact(Imports and exports): A business in one country can sell goods to other countries (exports) or buy goods from them (imports).
+
+check: What are goods called that a business sells to another country?
+- Imports
++ Exports
+- Markets
+hint: Look at the box. It names the goods a business sells to another country.
+explain: A business in one country can sell goods to other countries. Those goods are called exports.
+
+--- 🏷️
+p: Governments sometimes take some of the money or goods in a trade between countries.
+
+fact(What it is called): This kind of tax is called a tariff.
+
+check: What is a tax on trade between countries called?
+- A market
+- A wage
++ A tariff
+hint: Look at the box. It names the tax.
+explain: A tax on trade between countries is called a tariff.
+
+--- 📦
+p: A shipping container is a large steel box.
+
+fact(One box, many rides): A shipping container can go from a ship to a train to a truck without anyone unloading and reloading the cargo.
+
+check: A shipping container can ride on ships, and on what two other kinds of transport?
++ Trains and trucks
+- Planes and balloons
+- Bikes and horses
+hint: Look at the box. It says what a container can go from a ship to.
+explain: A shipping container can go from a ship to a train to a truck without being unloaded.
+
+--- 🔎
+p: A trade. A market. Buying and selling. Exports and imports. A tariff. A box on a ship, a train and a truck.
+
+p: Every trade has two sides.
+
+quiz: What is it called when a business buys goods from another country?
+- Exporting
++ Importing
+- Bartering
+explain: A business in one country can buy goods from other countries, which are called imports.
+
+quiz: When no money is part of a trade, what is the trade called?
+- A purchase
+- A tariff
++ Barter
+explain: When there is no money in a trade, the trade is called barter.
+
+quiz: Who gives the money in a trade that uses money?
++ The buyer
+- The seller
+- The market
+explain: The person who gives the money is buying.
+
+quiz: Which of these can a shipping container travel on without being unloaded?
+- A bike, a kite and a boat
++ A ship, a train and a truck
+- A horse, a cart and a sled
+explain: A shipping container can go from a ship to a train to a truck without anyone unloading and reloading the cargo.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== economics-work
+idea: People trade their time and skills for pay. See what a wage is, and why sharing the work makes more.
+
+game: Job = Work a person does to earn money | Wage = Money paid by an employer for work | Minimum wage = The lowest wage a law allows | Specialised = Doing only one kind of task very well
+
+--- 🛠️
+p: A job is work that a person does to earn money.
+
+fact(Jobs at home): A job can also mean some work that has to be done, like washing up or mending things that are broken.
+
+check: What do we call work that a person does to earn money?
++ A job
+- A hobby
+- A holiday
+hint: Look at the paragraph. It says what a job is.
+explain: A job is work that a person does to earn money.
+
+--- 🚒
+p: A teacher's job is to teach. A taxi driver's job is to drive people. A firefighter rescues people from burning buildings and puts out fires.
+
+check: What does a firefighter do for people?
+- Teaches them to read and write
+- Drives them around in a taxi
++ Rescues them from burning buildings
+hint: Look at the paragraph. It says what a firefighter does.
+explain: A firefighter rescues people from burning buildings and puts out fires.
+
+--- 💰
+p: A wage is money that is paid by an employer to an employee in exchange for work.
+
+term: wage = Money that an employer pays an employee for work.
+
+fact(Another kind of pay): A salary is an arranged amount that an employer pays at regular times, such as every week or month.
+
+check: What is a wage?
+- Cash that a person finds on the street
++ Money paid by an employer for work
+- Coins that a bank keeps safe for you
+hint: Look at the paragraph. It says what a wage is.
+explain: A wage is money that is paid by an employer to an employee in exchange for work.
+
+--- ⏰
+p: In many countries, laws set a minimum wage that all employers must pay their workers.
+
+fact(Paid by the hour): Wages are usually paid by the hour, which is called an hourly wage.
+
+check: What do we call the lowest wage that a law says employers must pay?
+- A tip from a customer
+- A gift from the boss
++ The minimum wage
+hint: Look at the paragraph. It names the lowest wage a law allows.
+explain: In many countries, laws set a minimum wage that all employers must pay their workers.
+
+--- 👞
+p: Xenophon wrote about large cities, where a single worker may earn a living by mending shoes.
+
+fact(Xenophon's idea): A person who does only one very specialised task will do it best.
+
+check: Who does a very specialised task well, according to Xenophon?
+- Someone who tries many things
++ A person who does only one task
+- Whoever works the longest hours
+hint: Look at the box. It says who does a specialised task well.
+explain: A person who does only one very specialised task will do it best.
+
+--- 📌
+p: Adam Smith wrote about a small pin factory where ten workers shared the job of making pins.
+
+fact(The result): Together they could make upwards of forty-eight thousand pins in a day. Working separately, each could not make twenty pins in a day, perhaps not even one.
+
+check: When each worker did one small step, how many pins could ten workers make in a day?
++ Upwards of forty-eight thousand
+- A few dozen, working all day long
+- About two hundred if they hurried
+hint: Look at the box. It says how many pins they could make.
+explain: Together the ten workers could make upwards of forty-eight thousand pins in a day.
+
+--- 🔎
+p: A job. A wage. An hourly wage. A minimum wage. One person mending shoes. Ten workers making pins.
+
+p: Work can be shared.
+
+quiz: A wage is money that an employer pays an employee for what?
+- Gifts
+- Rent
++ Work
+explain: A wage is money that is paid by an employer to an employee in exchange for work.
+
+quiz: What is an hourly wage?
++ Pay for each hour worked
+- Pay for a whole year
+- A free gift from the boss
+explain: Wages are usually paid by the hour, which is called an hourly wage.
+
+quiz: What do laws in many countries set for workers?
+- A maximum age
++ A minimum wage
+- A bedtime
+explain: In many countries, laws set a minimum wage that all employers must pay their workers.
+
+quiz: How many workers shared the job in the pin factory that Adam Smith wrote about?
+- Two
+- A hundred
++ Ten
+explain: Adam Smith wrote about a small pin factory where ten workers shared the job of making pins.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== economics-business
+idea: A lemonade stand is a business: spend a little, sell for more and keep the difference. Learn about entrepreneurs, profit and risk.
+
+game: Business = A place where people make and sell things | Entrepreneur = A person who starts a business | Profit = Money brought in minus money spent | Risk = What an entrepreneur takes on with the rewards
+
+--- 🏭
+p: A business is a place where people work together to make and sell products or services.
+
+fact(Who buys): Other people buy the products and services.
+
+check: What do people in a business work to make and sell?
+- Weather and seasons
+- Roads and bridges
++ Products or services
+hint: Look at the paragraph. It says what people in a business make and sell.
+explain: People in a business work together to make and sell products or services.
+
+--- 🧑‍💼
+p: An entrepreneur is a person who starts a business instead of working for someone else.
+
+fact(Making decisions): The entrepreneur makes the main decisions for the business.
+
+check: What do we call a person who starts a business instead of working for someone else?
+- An employee at a store
++ An entrepreneur
+- A customer in a shop
+hint: Look at the paragraph. It says what that person is called.
+explain: An entrepreneur is a person who starts a business instead of working for someone else.
+
+--- ⚠️
+p: An entrepreneur takes on the risks and the rewards of a business.
+
+fact(Risk): Many new businesses fail, lose money, and close.
+
+check: What does an entrepreneur take on besides the rewards?
++ The risks
+- The taxes
+- The wages
+hint: Look at the paragraph. It says what an entrepreneur takes on.
+explain: An entrepreneur takes on the risks and the rewards of a business.
+
+--- 🧮
+p: Profit is what a business makes.
+
+term: profit = The money brought in minus the money spent.
+
+fact(How to find it): Profit is found by subtracting how much money was spent from how much money was brought in.
+
+check: How is profit found?
+- By adding up the prices of everything
+- By counting all of the customers each day
++ By subtracting how much money was spent
+hint: Look at the box. It says how profit is found.
+explain: Profit is found by subtracting how much money was spent from how much money was brought in.
+
+--- 🍦
+p: John spends $15 on ice cream cones and sells them for $20.
+
+fact(His profit): John has made a profit of $5.
+
+check: John spends $15 on ice cream cones and sells them for $20. How much profit does he make?
++ $5
+- $15
+- $20
+hint: Look at the box. It says how much profit John made.
+explain: John spent $15 and sold the cones for $20, so he made a profit of $5.
+
+--- 🏬
+p: A business can be small or big. One person can open a small barber-shop.
+
+fact(Big ones): A big business can employ thousands of people all over the world.
+
+check: How many people can a big business employ?
+- Only one person
++ Thousands of people
+- Never more than ten
+hint: Look at the box. It says how many people a big business can employ.
+explain: A big business can employ thousands of people all over the world.
+
+--- 🔎
+p: People who make and sell. An entrepreneur. Risks and rewards. Profit from ice cream cones. A small shop and a big business.
+
+p: Businesses make and sell.
+
+quiz: What is profit?
++ Money brought in minus money spent
+- All the money a bank holds
+- The price of one ice cream cone
+explain: Profit is found by subtracting how much money was spent from how much money was brought in.
+
+quiz: A business brings in $20 and spends $15. What is its profit?
+- $35
+- $15
++ $5
+explain: $20 brought in, minus $15 spent, leaves a profit of $5.
+
+quiz: What happens to many new businesses?
+- They never sell anything
++ They fail and close
+- They always make a profit
+explain: Many new businesses fail, lose money, and close.
+
+quiz: Which person starts a business to make use of an opportunity?
+- A consumer
+- An employee
++ An entrepreneur
+explain: An entrepreneur is a person who starts a business instead of working for someone else.
 
 # UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
 === economics-supply
-idea: Supply and demand explains how prices are set, and inflation is when prices rise.
+idea: Why does a rare card cost so much? Prices go up and down with how much there is and how many people want it.
 
-game: Supply and demand = Explains how prices are set | Price = What buyers are willing to pay | Inflation = An increase in the average price | Deflation = A drop in the general price level
+game: Price = The value of a product or service | Supply = The number of things people can buy | Demand = The number of things people want to buy | Shortage = Too little supply for what people want | Inflation = Prices going up in general
+
+--- 🏷️
+p: Price is the value of a product or service.
+
+fact(In money or goods): A price can be expressed in other goods, in services, or in money.
+
+check: What is a price?
+- The weight of a heavy shipping box
+- The color on a label or a sign
++ The value of a product or service
+hint: Look at the paragraph. It says what a price is.
+explain: Price is the value of a product or service.
+
+--- 🐑
+p: Peter has wool and Sally has eggs. Peter will not trade his wool for eggs if he does not need eggs.
+
+fact(The price): So Sally sells her eggs for money and gives Peter money for the wool. How much money Peter wants for his wool is the price.
+
+check: How much money Peter wants for his wool is called what?
+- The profit
++ The price
+- The wage
+hint: Look at the box. It says what Peter's price is.
+explain: How much money Peter wants for his wool is the price.
+
+--- ⚖️
+p: Two things make a price go up or down.
+
+term: demand = The number of things that people want to buy.
+
+fact(Supply and demand): One is the number of things people can buy (supply). The other is the number of things people want to buy (demand).
+
+check: What do we call the number of things that people want to buy?
++ Demand
+- Supply
+- Profit
+hint: Look at the box. It names the number of things people want to buy.
+explain: The number of things people want to buy is called demand.
 
 --- 📈
-p: Supply and demand is a model that explains how prices are set in a market.
+p: If more people want to buy something but the supply stays the same, there will be a shortage. Then the price will go up.
 
-term: model = A way to explain how something works, like supply and demand.
+fact(Why): Many people want the same thing, but there is not enough of it.
 
-fact: It is the basis of modern economics.
+check: What happens to the price when more people want something and the supply stays the same?
+- Sellers must give things away
++ The price will go up
+- Nothing changes at all
+hint: Look at the paragraph. It says what happens to the price.
+explain: When more people want something and the supply stays the same, the price will go up.
 
-check: What does the model of supply and demand explain?
-- How leaves change color
-+ How prices are set
-- How clouds hold water
-hint: Look at the paragraph. The answer is there.
-explain: Supply and demand is a model that explains how prices are set in a market.
+--- 📉
+p: If the supply goes up and the demand stays the same, there will be a surplus. Then the price will go down.
 
---- ⚙️
-p: A price is also the amount that sellers are willing to accept.
+fact(Why the price falls): People do not want to pay more for things that they can easily buy somewhere else.
 
-fact: It is the amount of money that buyers are willing and able to pay for a good or service.
+check: What happens to the price when the supply goes up and the demand stays the same?
+- Sellers can charge much more
+- Nothing changes at all
++ The price will go down
+hint: Look at the paragraph. It says what happens to the price.
+explain: When the supply goes up and the demand stays the same, the price will go down.
 
-check: Who must be willing to accept a price?
-- The buyers
-+ The sellers
-- The makers
-hint: Look at the paragraph. The answer is there.
-explain: A price is also the amount that sellers are willing to accept.
+--- 🍞
+p: Inflation means that prices are going up. More money is needed to pay for goods, like a loaf of bread.
 
---- 🔧
-p: The cost of a loan is expressed as the percentage rate of interest.
+fact(The opposite): The opposite of inflation is deflation.
 
-fact: The most obvious example of a price is the cost of a loan.
-
-check: How is the cost of a loan expressed?
-- As a number of days in a month
-+ As a percentage rate of interest
-- As a weight in pounds and ounces
-hint: Look at the paragraph. The answer is there.
-explain: The cost of a loan is expressed as the percentage rate of interest.
-
---- 🧩
-p: Inflation is about prices.
-
-fact: It is an increase in the average price of goods and services.
-
-check: What is inflation?
-- A drop in the general price level
-+ An increase in the average price
-- A rise in the lowest wages
-hint: Look at the box. The answer is there.
-explain: It is an increase in the average price of goods and services.
-
---- 💡
-p: When prices rise, each dollar buys less.
-
-fact: So inflation lowers the buying power of money.
+check: What does inflation mean?
++ Prices are going up
+- Everything is on sale forever
+- Shops are closing early
+hint: Look at the paragraph. It says what inflation means.
+explain: Inflation means that prices are going up.
 
 --- 🔎
-p: The opposite of inflation is deflation.
-
-fact: Deflation is a drop in the general price level.
-
---- 🎈
-p: A model for prices. A price for buyers and sellers. A loan with interest. Prices that rise. Prices that drop.
+p: A price. Wool and eggs. Supply and demand. A shortage and a surplus. Prices going up.
 
 p: Prices change.
+
+quiz: What are the two things that make a price go up or down?
+- Profit and wages
++ Supply and demand
+- Cost and rent
+explain: Two things make a price go up or down: supply and demand.
+
+quiz: What is there when more people want something than there is supply?
++ A shortage
+- A surplus
+- A tariff
+explain: If the demand increases and the supply stays the same, there will be a shortage.
+
+quiz: What does a surplus do to the price?
+- It makes the price go up
+- It stops all trading
++ It makes the price go down
+explain: If the supply increases and the demand stays the same, there will be a surplus, and the price will go down.
 
 quiz: What is the opposite of inflation?
 - Interest
@@ -646,115 +861,216 @@ quiz: What is the opposite of inflation?
 - Barter
 explain: The opposite of inflation is deflation.
 
-quiz: When prices rise, what does each dollar buy?
-- More
-+ Less
-- The same
-explain: When prices rise, each dollar buys less.
-
-quiz: What do buyers have to be willing and able to do with a price?
-- Break it
-+ Pay it
-- Write it
-explain: A price is the amount of money that buyers are willing and able to pay.
-
-quiz: What does inflation lower?
-- The number of banks
-+ The buying power of money
-- The speed of trains
-explain: So inflation lowers the buying power of money.
-
 # UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
-=== economics-world
-idea: Ships carry goods around the world in big steel boxes called shipping containers.
+=== economics-saving
+idea: Saving is money you do not spend. See what a bank does, what interest is, and how a budget helps.
 
-game: International trade = Mostly trade in goods and services | Cargo ship = Built for one kind of cargo | Container ship = Carries goods in 20-foot or 40-foot containers | Shipping container = A box strong enough for shipment
+game: Saving = Money that is not spent | Bank = A place to save or borrow money | Interest = The cost of borrowing money | Budget = A plan for the money a person will spend | Loan = A debt that the borrower pays back
 
---- 🌍
-p: International trade is mostly trade in goods and services.
+--- 🐷
+p: Saving is money that is not spent.
 
-term: international = Between countries, like international trade.
+fact(One way to save): One way to save is to put money in a savings account.
 
-fact: There is much less trade in capital, labor or other factors of production.
+check: What is saving?
+- Cash handed out to friends
+- A loan from the bank
++ Money that is not spent
+hint: Look at the paragraph. It says what saving is.
+explain: Saving is money that is not spent.
 
-check: What is international trade mostly trade in?
-- Stones and sand
-+ Goods and services
-- Lakes and rivers
-hint: Look at the paragraph. The answer is there.
-explain: International trade is mostly trade in goods and services.
+--- 🏦
+p: A bank is a place where customers can save or borrow money.
 
---- 📏
-p: Each cargo ship is usually built for one kind of cargo.
+fact(Safekeeping): Customers can put their money in the bank for safekeeping.
 
-fact: Cargo ships come in many sizes, from small coastal ships to huge ocean-going carriers.
+check: What can customers do at a bank?
+- Plant seeds or crops
++ Save or borrow money
+- Fix cars or bicycles
+hint: Look at the paragraph. It says what customers can do at a bank.
+explain: Customers can save or borrow money at a bank.
 
-check: How many kinds of cargo is each cargo ship usually built for?
-- Ten kinds of cargo
-+ One kind of cargo
-- Every kind of cargo
-hint: Look at the paragraph. The answer is there.
-explain: Each cargo ship is usually built for one kind of cargo.
+--- 💹
+p: Interest is the cost for borrowing money or the payment for lending money.
 
---- ⚙️
-p: Container ships carry general cargo in 20-foot or 40-foot (6.1 or 12.2 m) containers.
+term: interest = The cost of borrowing money.
 
-fact: They call at a regularly published schedule of ports.
+fact(How it is set): Interest is usually a percentage of the money borrowed.
 
-check: What size containers do container ships carry?
-- Tiny boxes of 2 feet
-+ 20-foot or 40-foot
-- Giant boxes of 200 feet
-hint: Look at the paragraph. The answer is there.
-explain: Container ships carry general cargo in 20-foot or 40-foot (6.1 or 12.2 m) containers.
+check: What is interest?
++ The cost for borrowing money
+- The color of a shiny coin or note
+- A special kind of savings box
+hint: Look at the paragraph. It says what interest is.
+explain: Interest is the cost for borrowing money or the payment for lending money.
 
---- 🔧
-p: A shipping container is a box.
+--- 💲
+p: If the interest on $100 is 1 percent per year, then every year the borrower must pay $1.
 
-fact: It is strong enough to withstand shipment, storage and handling.
+check: The interest on $100 is 1 percent per year. How much interest must the borrower pay each year?
+- $10
+- $100
++ $1
+hint: Look at the paragraph. It says how much the borrower pays each year.
+explain: On $100 at 1 percent per year, the borrower must pay $1 every year.
 
-check: What must a shipping container withstand?
-- Rain, snow, wind and bright sunshine
-+ Shipment, storage and handling
-- Sand, wind and waves
-hint: Look at the box. The answer is there.
-explain: It is strong enough to withstand shipment, storage and handling.
+--- 📋
+p: A budget is a plan for the money a person or group will spend.
 
---- 📐
-p: About seventeen million intermodal containers are in use around the world.
+fact(What it lists): A budget lists what to spend money on and how much to spend on each.
 
-fact: A large share of the freight shipped over long distances travels in them.
+check: What does a budget say about each thing to spend money on?
+- How tall each one is
++ How much to spend on each
+- Where each one was made
+hint: Look at the box. It says what a budget lists.
+explain: A budget lists what to spend money on and how much to spend on each.
 
---- 📅
-p: Shipping containers are reusable steel boxes.
+--- 🤝
+p: A loan is a type of debt.
 
-fact: They first came into use around 1956.
+fact(Paying back): The borrower agrees to pay the lender back at a particular time.
+
+check: Who agrees to pay the money back in a loan?
++ The borrower
+- The lender
+- The banker
+hint: Look at the box. It says who pays the lender back.
+explain: In a loan, the borrower agrees to pay the lender back at a particular time.
 
 --- 🔎
-p: Trade in goods. Ships for one kind of cargo. Boxes of 20 or 40 feet. A box that can take handling. Seventeen million containers.
+p: Money put aside. A bank for safekeeping. Interest on a loan. A plan for spending. A borrower and a lender.
 
-p: Ships carry the world's goods.
+p: Saving is planning.
 
-quiz: About how many intermodal containers are in use around the world?
-- About seventy thousand
-+ About seventeen million
-- About seven billion
-explain: About seventeen million intermodal containers are in use around the world.
+quiz: Which of these is a way to save?
+- Spending it on a toy right away
++ Putting money in a savings account
+- Giving it all to a friend
+explain: One way to save is to put money in a savings account.
 
-quiz: When did reusable steel boxes first come into use as shipping containers?
-- Around 1665
-+ Around 1956
-- Around 1965
-explain: They first came into use around 1956.
+quiz: Why might a customer put money in a bank?
+- To make it heavier
+- To change its color
++ For safekeeping
+explain: Customers can put their money in the bank for safekeeping.
 
-quiz: How do container ships call at ports?
-- At whatever time the crew likes
-+ On a regularly published schedule
-- Only once every ten years
-explain: They call at a regularly published schedule of ports.
+quiz: What do we call a plan for the money a person will spend?
++ A budget
+- A market
+- A tariff
+explain: A budget is a plan for the money a person or group will spend.
 
-quiz: What are shipping containers made of?
-- Woven grass rope
-+ Reusable steel
-- Folded thin paper
-explain: Shipping containers are reusable steel boxes.
+quiz: In a loan, who pays the money back?
+- The lender
+- The bank teller
++ The borrower
+explain: The borrower agrees to pay the lender back at a particular time.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+=== economics-taxes
+idea: Roads, police and schools are paid for by everyone together. That is what taxes are for.
+
+game: Tax = Money people have to pay to the government | Sales tax = A tax based on how much a person buys | Income tax = A tax based on how much a person earns | Public goods = Things like street lights for everyone
+
+--- 🏛️
+p: Tax is money that people have to pay to the government.
+
+fact(What it is used for): The government uses the money it gets from taxes to pay for things.
+
+check: Who do people pay taxes to?
+- A bank in the city
++ The government
+- A shop on the corner
+hint: Look at the paragraph. It says who people pay taxes to.
+explain: Tax is money that people have to pay to the government.
+
+--- 🛣️
+p: Taxes pay for people who work for the government, such as the military and police.
+
+fact(And more): Taxes also pay for services such as education and health care, and for roads, bridges and sewers.
+
+check: What can taxes be used to build or fix?
+- Toys, games and cards
+- Cakes, pies and bread
++ Roads, bridges and sewers
+hint: Look at the box. It says what taxes also pay for.
+explain: Taxes also pay for roads, bridges and sewers.
+
+--- 🛒
+p: A sales tax is based on how much a person buys.
+
+term: property tax = A tax based on how much a person owns, like a house.
+
+fact(Two more kinds): An income tax is based on how much a person earns. A property tax is based on how much a person owns.
+
+check: What is a tax based on how much a person buys called?
++ A sales tax
+- An income tax
+- A property tax
+hint: Look at the paragraph. It names the tax based on what a person buys.
+explain: A sales tax is based on how much a person buys.
+
+--- 🏺
+p: The earliest known taxes were those of the Egyptian Old Kingdom.
+
+check: Where were the earliest known taxes?
+- The Roman Empire
++ The Egyptian Old Kingdom
+- The American colonies
+hint: Look at the paragraph. It says where the earliest known taxes were.
+explain: The earliest known taxes were those of the Egyptian Old Kingdom.
+
+--- 💡
+p: Governments use some tax money to pay for public goods.
+
+fact(Public goods): Public goods, like street lights, are available for everyone.
+
+check: What are things like street lights, available for everyone, called?
+- Private toys
+- Sales items
++ Public goods
+hint: Look at the paragraph. It names the things that governments pay for with tax money.
+explain: Public goods, like street lights, are available for everyone.
+
+--- 🇺🇸
+p: In the United States, the national government has an income tax.
+
+fact(Other levels): Most states have an income tax or a sales tax, or both. Cities and towns may have a sales tax or a property tax.
+
+check: In the United States, which kind of government has an income tax?
++ The national government
+- Only the neighborhood club
+- No government at all
+hint: Look at the paragraph. It says which government has an income tax.
+explain: In the United States, the national government has an income tax.
+
+--- 🔎
+p: Money for the government. Roads, police and schools. A sales tax and an income tax. Street lights for everyone.
+
+p: Taxes are shared.
+
+quiz: Which of these is paid for with taxes?
+- A birthday party
+- A video game
++ The police
+explain: Taxes pay for people who work for the government, such as the military and police.
+
+quiz: What is an income tax based on?
++ How much a person earns
+- How tall a person is
+- How old a person is
+explain: An income tax is based on how much a person earns.
+
+quiz: What is a tax based on how much a person owns called?
+- A sales tax
++ A property tax
+- An income tax
+explain: A property tax is based on how much a person owns.
+
+quiz: What are street lights an example of?
+- Private toys
+- Sales items
++ Public goods
+explain: Public goods, like street lights, are available for everyone.

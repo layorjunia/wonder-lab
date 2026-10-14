@@ -1,194 +1,50 @@
 [
  {
-  "id": "money-1",
-  "section": "money",
+  "id": "needs-1",
+  "section": "needs",
   "cat": "howworks",
   "kind": "record",
-  "text": "Money is anything that people accept as payment for goods and services. People also use it to repay debts.",
+  "text": "A need is something a living thing must have to be able to live.",
   "more": ""
  },
  {
-  "id": "money-2",
-  "section": "money",
+  "id": "needs-2",
+  "section": "needs",
   "cat": "howworks",
   "kind": "record",
-  "text": "Most modern textbooks list three jobs of money: a medium of exchange, a unit of account and a store of value.",
+  "text": "Humans have bodily needs of water, food, clothing and shelter to live.",
   "more": ""
  },
  {
-  "id": "money-3",
-  "section": "money",
-  "cat": "when",
-  "kind": "record",
-  "text": "The Mesopotamian shekel was a unit of weight. It relied on the mass of something like 160 grains of barley.",
-  "more": ""
- },
- {
-  "id": "money-4",
-  "section": "money",
+  "id": "needs-3",
+  "section": "needs",
   "cat": "howworks",
   "kind": "record",
-  "text": "Barter is a way of trading in which people directly swap goods or services for other goods or services. They do not use money.",
+  "text": "The need for water is the most important, because a person will die very quickly without drinking water.",
   "more": ""
  },
  {
-  "id": "money-5",
-  "section": "money",
-  "cat": "built",
-  "kind": "record",
-  "text": "Coins are standardized in weight. They are made in large numbers at a mint to make trade easier.",
-  "more": ""
- },
- {
-  "id": "money-6",
-  "section": "money",
-  "cat": "size",
-  "kind": "found",
-  "text": "Coins last longer than banknotes. Banknotes last only about four years, compared with 30 years for a coin.",
-  "more": ""
- },
- {
-  "id": "trade-1",
-  "section": "trade",
+  "id": "needs-4",
+  "section": "needs",
   "cat": "howworks",
   "kind": "record",
-  "text": "A transaction is an exchange of goods or services. It can be done with money or without it.",
+  "text": "A want is a wish or a desire for something. A person could choose not to have a want.",
   "more": ""
  },
  {
-  "id": "trade-2",
-  "section": "trade",
+  "id": "needs-5",
+  "section": "needs",
   "cat": "howworks",
   "kind": "record",
-  "text": "Markets make trading easier. They let people compare and set prices for the things they trade.",
+  "text": "A person can need to eat food and can want to eat cake. If there is no cake, the person may eat bread.",
   "more": ""
  },
  {
-  "id": "trade-3",
-  "section": "trade",
-  "cat": "people",
-  "kind": "record",
-  "text": "A merchant is a person or company that is engaged in trade. Merchants sell through stores or online platforms.",
-  "more": ""
- },
- {
-  "id": "trade-4",
-  "section": "trade",
-  "cat": "people",
-  "kind": "record",
-  "text": "Merchants worked in ancient Egypt, Greece, China and India. They also worked in Babylonia, Persia, Phoenicia and Rome.",
-  "more": ""
- },
- {
-  "id": "trade-5",
-  "section": "trade",
-  "cat": "people",
-  "kind": "record",
-  "text": "The Phoenicians were well known as traders in purple. They controlled the purple dye made from the murex shell.",
-  "more": ""
- },
- {
-  "id": "trade-6",
-  "section": "trade",
-  "cat": "travel",
-  "kind": "record",
-  "text": "The Sari-i-Sang mine in the mountains of Afghanistan was the largest source for trade of lapis lazuli.",
-  "more": ""
- },
- {
-  "id": "work-1",
-  "section": "work",
-  "cat": "when",
-  "kind": "record",
-  "text": "Clocks led people to divide work time into hours. That is how the idea of an hourly wage began.",
-  "more": ""
- },
- {
-  "id": "work-2",
-  "section": "work",
-  "cat": "when",
-  "kind": "record",
-  "text": "Wages were paid in the Middle Kingdom of ancient Egypt, ancient Greece and ancient Rome.",
-  "more": ""
- },
- {
-  "id": "work-3",
-  "section": "work",
-  "cat": "size",
-  "kind": "record",
-  "text": "Seventy-five million workers earned hourly wages in the United States in 2012. They made up 59% of employees.",
-  "more": ""
- },
- {
-  "id": "work-4",
-  "section": "work",
+  "id": "needs-6",
+  "section": "needs",
   "cat": "howworks",
   "kind": "record",
-  "text": "Wages for most workers are set by market forces. Others are set by collective bargaining, where a labor union negotiates for the workers.",
-  "more": ""
- },
- {
-  "id": "work-5",
-  "section": "work",
-  "cat": "howworks",
-  "kind": "record",
-  "text": "The Fair Labor Standards Act sets a minimum wage at the federal level. All states must follow it.",
-  "more": ""
- },
- {
-  "id": "work-6",
-  "section": "work",
-  "cat": "howworks",
-  "kind": "record",
-  "text": "When each worker does a single task, a group gets more done. This is called division of labor.",
-  "more": ""
- },
- {
-  "id": "business-1",
-  "section": "business",
-  "cat": "howworks",
-  "kind": "record",
-  "text": "A business is any activity that is done for profit.",
-  "more": ""
- },
- {
-  "id": "business-2",
-  "section": "business",
-  "cat": "people",
-  "kind": "record",
-  "text": "An entrepreneur is a person who creates or invests in one or more businesses. The entrepreneur bears most of the risks and enjoys most of the rewards.",
-  "more": ""
- },
- {
-  "id": "business-3",
-  "section": "business",
-  "cat": "howworks",
-  "kind": "record",
-  "text": "Starting a new business takes new ideas, effort and a willingness to take risks.",
-  "more": ""
- },
- {
-  "id": "business-4",
-  "section": "business",
-  "cat": "daily",
-  "kind": "record",
-  "text": "In almost all countries, most people are employed by businesses.",
-  "more": ""
- },
- {
-  "id": "business-5",
-  "section": "business",
-  "cat": "howworks",
-  "kind": "record",
-  "text": "A sole proprietorship, also called a sole trader, is owned by one person. It operates for that person's benefit.",
-  "more": ""
- },
- {
-  "id": "business-6",
-  "section": "business",
-  "cat": "size",
-  "kind": "record",
-  "text": "One out of twelve retail businesses in the United States is franchised. 8 million people are employed in a franchised business.",
+  "text": "Economics is the study of how people make choices to get what they want.",
   "more": ""
  },
  {
@@ -196,7 +52,7 @@
   "section": "choices",
   "cat": "howworks",
   "kind": "record",
-  "text": "Opportunity cost shows the link between scarcity and choice. Its aim is to make sure scarce resources are used well.",
+  "text": "Scarcity is when there is not a lot of something.",
   "more": ""
  },
  {
@@ -204,7 +60,7 @@
   "section": "choices",
   "cat": "howworks",
   "kind": "record",
-  "text": "Opportunity costs are not only about money. The real cost can also be lost time, pleasure, or any other benefit that you give up.",
+  "text": "Scarcity happens because people always want something new, but resources are limited.",
   "more": ""
  },
  {
@@ -212,79 +68,271 @@
   "section": "choices",
   "cat": "howworks",
   "kind": "record",
-  "text": "Say a person leaves work for an hour to buy $200 of office supplies. Their hourly rate is $25. The $25 they could have earned instead is an opportunity cost.",
+  "text": "Scarcity is called the basic problem of economics. It never goes away.",
   "more": ""
  },
  {
   "id": "choices-4",
   "section": "choices",
-  "cat": "when",
+  "cat": "howworks",
   "kind": "record",
-  "text": "In 1803, Jean-Baptiste Say defined economics as the science of how wealth is made, shared and used.",
+  "text": "Scarce things have higher prices. Gold costs much more than iron, because gold is more scarce.",
   "more": ""
  },
  {
   "id": "choices-5",
   "section": "choices",
-  "cat": "people",
+  "cat": "howworks",
   "kind": "record",
-  "text": "In 1849, Thomas Carlyle called classical economics \"the dismal science\".",
+  "text": "Opportunity cost is the value of the next best thing you give up whenever you make a decision.",
   "more": ""
  },
  {
   "id": "choices-6",
   "section": "choices",
   "cat": "howworks",
-  "kind": "found",
-  "text": "Building one aircraft costs a lot of money. But when a company builds a hundred, the cost of the 100th is much lower.",
+  "kind": "record",
+  "text": "Going to work means more income but less free time. Staying at home means more free time but less income.",
   "more": ""
  },
  {
-  "id": "saving-1",
-  "section": "saving",
+  "id": "goods-1",
+  "section": "goods",
   "cat": "howworks",
   "kind": "record",
-  "text": "Saving is income that is not spent. It is also called deferred consumption.",
+  "text": "A good is a physical thing that can be handed to a buyer. A service is not a thing, but an action that helps someone.",
   "more": ""
  },
  {
-  "id": "saving-2",
-  "section": "saving",
+  "id": "goods-2",
+  "section": "goods",
   "cat": "howworks",
   "kind": "record",
-  "text": "In economics, interest is a payment from a borrower to a lender. It is an amount above what was borrowed, at a particular rate.",
+  "text": "A bicycle is a good. The work of a doctor is a service.",
   "more": ""
  },
  {
-  "id": "saving-3",
-  "section": "saving",
+  "id": "goods-3",
+  "section": "goods",
   "cat": "howworks",
   "kind": "record",
-  "text": "In personal finance, saving usually means keeping money safe at low risk, as in a deposit account. Investment is a lot riskier.",
+  "text": "People who make things are called producers. People who buy things are called consumers. Everyone buys things, so everyone is a consumer.",
   "more": ""
  },
  {
-  "id": "saving-4",
-  "section": "saving",
-  "cat": "size",
-  "kind": "record",
-  "text": "In the United States, a bank deposit is insured up to at least $250,000 for each person at each bank. The bank needs FDIC insurance.",
-  "more": ""
- },
- {
-  "id": "saving-5",
-  "section": "saving",
+  "id": "goods-4",
+  "section": "goods",
   "cat": "howworks",
   "kind": "record",
-  "text": "A bank is a financial institution that accepts deposits from the public and makes loans.",
+  "text": "Without people who want to buy, producers have no reason to make things. A producer makes things mainly to sell them to consumers.",
   "more": ""
  },
  {
-  "id": "saving-6",
-  "section": "saving",
-  "cat": "when",
+  "id": "goods-5",
+  "section": "goods",
+  "cat": "howworks",
   "kind": "record",
-  "text": "The oldest existing retail bank is Banca Monte dei Paschi di Siena. It was founded in 1472.",
+  "text": "Making things takes four kinds of help: labor (work), land, capital (machines and buildings) and enterprise (people who make the decisions).",
+  "more": ""
+ },
+ {
+  "id": "goods-6",
+  "section": "goods",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "Capital goods are goods that are needed to produce other goods. Buildings, equipment and machines are examples.",
+  "more": ""
+ },
+ {
+  "id": "money-1",
+  "section": "money",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "Money is anything that people use to buy goods and services.",
+  "more": ""
+ },
+ {
+  "id": "money-2",
+  "section": "money",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "Barter means trading things directly, without using money. Bob needs shoes and John has shoes, but Bob has eggs and John needs milk. Money fixes that, because anything can be traded for a set amount of money.",
+  "more": ""
+ },
+ {
+  "id": "money-3",
+  "section": "money",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "Money is easier to divide than cows. A person who wants only half a cow's worth of wheat does not want to cut a cow in half.",
+  "more": ""
+ },
+ {
+  "id": "money-4",
+  "section": "money",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "Cows die and wheat rots, but money lasts longer than most trade goods.",
+  "more": ""
+ },
+ {
+  "id": "money-5",
+  "section": "money",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "The first metal coins were made in a country called Lydia, in the western part of what is now Turkey. They were stamped with a picture of a lion.",
+  "more": ""
+ },
+ {
+  "id": "money-6",
+  "section": "money",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "Carrying a lot of silver or gold was hard and dangerous, so banknotes were made. A banknote was a promise to give an amount of precious metal to anyone who brought the paper.",
+  "more": ""
+ },
+ {
+  "id": "trade-1",
+  "section": "trade",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "To trade is to willingly give things or services and get other things or services in return.",
+  "more": ""
+ },
+ {
+  "id": "trade-2",
+  "section": "trade",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "A place where trading takes place is called a market.",
+  "more": ""
+ },
+ {
+  "id": "trade-3",
+  "section": "trade",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "When money is part of a trade, the person who gives the money is buying, and the person who gets the money is selling.",
+  "more": ""
+ },
+ {
+  "id": "trade-4",
+  "section": "trade",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "International trade is trade between countries. A business in one country can sell goods to other countries (exports) or buy goods from them (imports).",
+  "more": ""
+ },
+ {
+  "id": "trade-5",
+  "section": "trade",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "Governments sometimes take some of the money or goods in a trade between countries. This is a kind of tax called a tariff.",
+  "more": ""
+ },
+ {
+  "id": "trade-6",
+  "section": "trade",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "A shipping container is a large steel box. It can go from a ship to a train to a truck without anyone unloading and reloading the cargo.",
+  "more": ""
+ },
+ {
+  "id": "work-1",
+  "section": "work",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "A job is work that a person does to earn money.",
+  "more": ""
+ },
+ {
+  "id": "work-2",
+  "section": "work",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "A teacher's job is to teach. A taxi driver's job is to drive people. A firefighter rescues people from burning buildings and puts out fires.",
+  "more": ""
+ },
+ {
+  "id": "work-3",
+  "section": "work",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "A wage is money that is paid by an employer to an employee in exchange for work.",
+  "more": ""
+ },
+ {
+  "id": "work-4",
+  "section": "work",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "Wages are usually paid by the hour, which is called an hourly wage. In many countries, laws set a minimum wage that all employers must pay their workers.",
+  "more": ""
+ },
+ {
+  "id": "work-5",
+  "section": "work",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "The writer Xenophon said that in large cities, one person may earn a living just by mending shoes. A person who does only one very specialised task will do it best.",
+  "more": ""
+ },
+ {
+  "id": "work-6",
+  "section": "work",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "Adam Smith described a small pin factory where ten workers shared the job of making pins. Together they could make upwards of forty-eight thousand pins in a day. Working separately, each could not make twenty pins in a day, perhaps not even one.",
+  "more": ""
+ },
+ {
+  "id": "business-1",
+  "section": "business",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "A business is a place where people work together to make and sell products or services.",
+  "more": ""
+ },
+ {
+  "id": "business-2",
+  "section": "business",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "An entrepreneur is a person who starts a business instead of working for someone else.",
+  "more": ""
+ },
+ {
+  "id": "business-3",
+  "section": "business",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "Many new businesses fail, lose money, and close. An entrepreneur takes on the risks and the rewards of a business.",
+  "more": ""
+ },
+ {
+  "id": "business-4",
+  "section": "business",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "Profit is found by subtracting how much money was spent from how much money was brought in.",
+  "more": ""
+ },
+ {
+  "id": "business-5",
+  "section": "business",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "If John spends $15 on ice cream cones and sells them for $20, he has made a profit of $5.",
+  "more": ""
+ },
+ {
+  "id": "business-6",
+  "section": "business",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "A business can be small or big. One person can open a small barber-shop, and a big business can employ thousands of people all over the world.",
   "more": ""
  },
  {
@@ -292,7 +340,7 @@
   "section": "supply",
   "cat": "howworks",
   "kind": "record",
-  "text": "Supply and demand is a model that explains how prices are set in a market. It is the basis of modern economics.",
+  "text": "Price is the value of a product or service. A price can be expressed in other goods, in services, or in money.",
   "more": ""
  },
  {
@@ -300,7 +348,7 @@
   "section": "supply",
   "cat": "howworks",
   "kind": "record",
-  "text": "A price is the amount of money that buyers are willing and able to pay for a good or service. It is also the amount that sellers are willing to accept.",
+  "text": "Peter will not trade his wool for eggs if he does not need eggs. So Sally sells her eggs for money and gives Peter money for the wool. How much money Peter wants for his wool is the price.",
   "more": ""
  },
  {
@@ -308,7 +356,7 @@
   "section": "supply",
   "cat": "howworks",
   "kind": "record",
-  "text": "The most obvious example of a price is the cost of a loan. Its cost is expressed as the percentage rate of interest.",
+  "text": "Two things make a price go up or down. One is the number of things people can buy (supply). The other is the number of things people want to buy (demand).",
   "more": ""
  },
  {
@@ -316,7 +364,7 @@
   "section": "supply",
   "cat": "howworks",
   "kind": "record",
-  "text": "Inflation is an increase in the average price of goods and services.",
+  "text": "If more people want to buy something but the supply stays the same, there will be a shortage, and the price will go up.",
   "more": ""
  },
  {
@@ -324,7 +372,7 @@
   "section": "supply",
   "cat": "howworks",
   "kind": "record",
-  "text": "When prices rise, each dollar buys less. So inflation lowers the buying power of money.",
+  "text": "If the supply goes up and the demand stays the same, there will be a surplus, and the price will go down.",
   "more": ""
  },
  {
@@ -332,55 +380,103 @@
   "section": "supply",
   "cat": "howworks",
   "kind": "record",
-  "text": "The opposite of inflation is deflation, a drop in the general price level.",
+  "text": "Inflation means that prices are going up. More money is needed to pay for goods, like a loaf of bread.",
   "more": ""
  },
  {
-  "id": "world-1",
-  "section": "world",
+  "id": "saving-1",
+  "section": "saving",
   "cat": "howworks",
   "kind": "record",
-  "text": "International trade is mostly trade in goods and services. There is much less trade in capital, labor or other factors of production.",
+  "text": "Saving is money that is not spent. One way to save is to put money in a savings account.",
   "more": ""
  },
  {
-  "id": "world-2",
-  "section": "world",
-  "cat": "size",
-  "kind": "found",
-  "text": "Cargo ships come in many sizes, from small coastal ships to huge ocean-going carriers. Each is usually built for one kind of cargo.",
-  "more": ""
- },
- {
-  "id": "world-3",
-  "section": "world",
+  "id": "saving-2",
+  "section": "saving",
   "cat": "howworks",
-  "kind": "found",
-  "text": "Container ships carry general cargo in 20-foot or 40-foot (6.1 or 12.2 m) containers. They call at a regularly published schedule of ports.",
-  "more": ""
- },
- {
-  "id": "world-4",
-  "section": "world",
-  "cat": "build",
-  "kind": "found",
-  "text": "A shipping container is a box that is strong enough to withstand shipment, storage and handling.",
-  "more": ""
- },
- {
-  "id": "world-5",
-  "section": "world",
-  "cat": "size",
-  "kind": "found",
-  "text": "About seventeen million intermodal containers are in use around the world. A large share of the freight shipped over long distances travels in them.",
-  "more": ""
- },
- {
-  "id": "world-6",
-  "section": "world",
-  "cat": "when",
   "kind": "record",
-  "text": "Reusable steel boxes for use as truck-sized shipping containers first came into use around 1956.",
+  "text": "A bank is a place where customers can save or borrow money. Customers can put their money in the bank for safekeeping.",
+  "more": ""
+ },
+ {
+  "id": "saving-3",
+  "section": "saving",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "Interest is the cost for borrowing money or the payment for lending money. It is usually a percentage of the money borrowed.",
+  "more": ""
+ },
+ {
+  "id": "saving-4",
+  "section": "saving",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "If the interest on $100 is 1 percent per year, then every year the borrower must pay $1.",
+  "more": ""
+ },
+ {
+  "id": "saving-5",
+  "section": "saving",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "A budget is a plan for the money a person or group will spend. It lists what to spend money on and how much to spend on each.",
+  "more": ""
+ },
+ {
+  "id": "saving-6",
+  "section": "saving",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "A loan is a type of debt. The borrower agrees to pay the lender back at a particular time.",
+  "more": ""
+ },
+ {
+  "id": "taxes-1",
+  "section": "taxes",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "Tax is money that people have to pay to the government.",
+  "more": ""
+ },
+ {
+  "id": "taxes-2",
+  "section": "taxes",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "Taxes pay for people who work for the government, such as the military and police. They also pay for services such as education and health care, and for roads, bridges and sewers.",
+  "more": ""
+ },
+ {
+  "id": "taxes-3",
+  "section": "taxes",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "A sales tax is based on how much a person buys. An income tax is based on how much a person earns. A property tax is based on how much a person owns.",
+  "more": ""
+ },
+ {
+  "id": "taxes-4",
+  "section": "taxes",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "The earliest known taxes were those of the Egyptian Old Kingdom.",
+  "more": ""
+ },
+ {
+  "id": "taxes-5",
+  "section": "taxes",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "Governments use some tax money to pay for public goods, like street lights, that are available for everyone.",
+  "more": ""
+ },
+ {
+  "id": "taxes-6",
+  "section": "taxes",
+  "cat": "howworks",
+  "kind": "record",
+  "text": "In the United States, the national government has an income tax. Most states have an income tax or a sales tax, or both. Cities and towns may have a sales tax or a property tax.",
   "more": ""
  }
 ]

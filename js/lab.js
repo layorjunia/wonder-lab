@@ -117,6 +117,7 @@ Object.assign(App, {
     return `<span class="pip-wrap ${cls || ''}" ${style ? `style="${style}"` : ''}>${this.pip(state)}</span>`;
   },
   // animate the Pip(s) currently on screen
+  _sleep(ms) { return new Promise(r => setTimeout(r, ms)); },
   pipReact(state, ms) {
     document.querySelectorAll('.pip-react .mascot').forEach(p => {
       p.classList.remove('happy', 'oops', 'wow', 'cheer', 'jump', 'shake');

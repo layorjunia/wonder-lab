@@ -22,7 +22,11 @@ Object.assign(App.GPHR, {
   hiloMore_life: 'Which one lives longer?', hiloLess_life: 'Which one lives a shorter time?',
   hiloMore_height: 'Which one is taller?', hiloLess_height: 'Which one is shorter?',
   bossTitle: 'Boss battle',
-  bossHelp: 'Answer questions to beat the boss. Three wrong answers and the boss wins.',
+  bossHelp: 'Answer questions to hit the boss. Three wrong answers and the boss wins.',
+  bossStrike: 'Tap Strike when the star is in the green!',
+  bossCrit: 'Critical hit!',
+  bossSuper: 'Super attack!',
+  bossAngry: 'Watch out! The boss is getting angry!',
   bossWin: 'You beat the boss!',
   bossLose: 'The boss won this time. Try again!',
   bossName_earth: 'Rumble the Volcano', bossName_astro: 'Comet Crusher',
@@ -267,7 +271,24 @@ Object.assign(App, {
 
 // ═════════════════════════════════════════════════════════════════════════
 // BOSS BATTLE
+//
+// A turn is: read the question -> tap an answer -> (right) power-strike meter,
+// Pip attacks, the boss reels; (wrong) the boss attacks Pip. Every third right
+// answer in a row is a Super Attack; tapping Strike with the star in the green
+// is a critical hit. The boss gets angry at half health. Win = boss at 0,
+// lose = Pip out of hearts (or the questions run out first).
+//
+// phases: ask -> strike (right answers only) -> anim -> fb -> (next) ask | end
 // ═════════════════════════════════════════════════════════════════════════
+const BOSS_ACC = { earth: 'horns', astro: 'antenna', physical: 'antenna', micro: 'antenna', ancient: 'crown',
+  america: 'crown', utah: 'horns', world: 'horns', economics: 'crown', body: 'horns', animals: 'horns', plants: 'antenna' };
+// body colours chosen to stand OUT from each world's background, not match it
+const BOSS_COLOR = { earth: ['#b78bff', '#6a3ad0'], astro: ['#ffb347', '#e0701a'], physical: ['#ffe066', '#e0a010'],
+  micro: ['#ff8ec4', '#d03a86'], ancient: ['#5fe0cc', '#1f9a8a'], america: ['#6fa8ff', '#2a62d9'],
+  utah: ['#ffd95a', '#e0a010'], world: ['#ff9a73', '#e0502e'], economics: ['#ffd84a', '#e8a317'],
+  body: ['#5fe0cc', '#1f9a8a'], animals: ['#b78bff', '#6a3ad0'], plants: ['#ff7a96', '#d03050'] };
+const BOSS_HP = 12, BOSS_QS = 12;
+
 Object.assign(App, {
   bossReady(courseId) {
     const ls = this.lessonsFor(courseId);
@@ -287,77 +308,306 @@ Object.assign(App, {
     const wrap = document.createElement('div');
     wrap.className = 'pl pip-react'; wrap.id = 'lessonOverlay';
     document.body.appendChild(wrap);
-    const items = pool.slice(0, 10).map(q => {
-      const it = this.qItem({ ...q, options: q.options.slice(0, 4) });
-      return it;
-    });
+    const items = pool.slice(0, BOSS_QS).map(q => this.qItem({ ...q, options: q.options.slice(0, 4) }));
     this._lesson = null;
     this._game = { kind: 'boss', ctx: 'hub', course: courseId, items, idx: 0, total: items.length, right: 0,
-      hearts: 3, hp: 8, hpMax: 8, locked: false, lessons: [] };
+      hearts: 3, hp: BOSS_HP, hpMax: BOSS_HP, locked: false, lessons: [], combo: 0, rage: false,
+      phase: 'ask', crits: 0, supers: 0, strikeDmg: 1 };
     this.gmBoss();
   },
   bossName(courseId) { return this.GPHR['bossName_' + courseId] || 'The Boss'; },
+
+  // The boss itself: a round body in the world's colours with a face, arms, an
+  // accessory, and the world's emblem on its belly. The mood is a CSS class, so
+  // the face changes (grin / ouch / angry / laughing / knocked out) with no redraw.
+  bossArt(courseId) {
+    const col = BOSS_COLOR[courseId] || ['#ffd84a', '#e8a317'], acc = BOSS_ACC[courseId] || 'horns';
+    const t = { acc: col[0], accD: col[1] };
+    const dark = '#2b1a3a', gid = 'bbg' + courseId;
+    const ACC = {
+      horns: `<path d="M50 62 L34 14 L82 46Z" fill="#fff6d8" stroke="${dark}" stroke-width="5" stroke-linejoin="round"/>
+              <path d="M150 62 L166 14 L118 46Z" fill="#fff6d8" stroke="${dark}" stroke-width="5" stroke-linejoin="round"/>`,
+      crown: `<path d="M56 56 L58 14 L80 36 L100 6 L120 36 L142 14 L144 56Z" fill="#ffc933" stroke="#9a5a10" stroke-width="5" stroke-linejoin="round"/>
+              <circle cx="58" cy="14" r="6" fill="#ff5360"/><circle cx="100" cy="7" r="6" fill="#45b9ff"/><circle cx="142" cy="14" r="6" fill="#ff5360"/>`,
+      antenna: `<path d="M78 50 Q66 22 48 16" fill="none" stroke="${dark}" stroke-width="6" stroke-linecap="round"/>
+                <circle cx="46" cy="14" r="10" fill="#ffd84a" stroke="${dark}" stroke-width="4"/>
+                <path d="M122 50 Q134 22 152 16" fill="none" stroke="${dark}" stroke-width="6" stroke-linecap="round"/>
+                <circle cx="154" cy="14" r="10" fill="#ffd84a" stroke="${dark}" stroke-width="4"/>`,
+    }[acc];
+    const eye = (cx) => `<g class="b-eye"><ellipse cx="${cx}" cy="104" rx="19" ry="22" fill="#fff" stroke="${dark}" stroke-width="4"/>
+        <ellipse class="b-pupil" cx="${cx - 4}" cy="108" rx="9" ry="12" fill="#1d2b3a"/>
+        <circle cx="${cx - 1}" cy="102" r="3.4" fill="#fff"/></g>`;
+    return `<svg class="boss-art" viewBox="0 0 200 224" aria-hidden="true">
+      <defs><radialGradient id="${gid}" cx="36%" cy="28%" r="88%">
+        <stop offset="0" stop-color="#fff" stop-opacity=".7"/><stop offset=".3" stop-color="${t.acc}"/><stop offset="1" stop-color="${t.accD}"/>
+      </radialGradient></defs>
+      <ellipse cx="100" cy="212" rx="64" ry="9" fill="rgba(0,0,0,.3)"/>
+      <g class="b-body">
+        <ellipse cx="62" cy="202" rx="24" ry="12" fill="${t.accD}" stroke="${dark}" stroke-width="5"/>
+        <ellipse cx="138" cy="202" rx="24" ry="12" fill="${t.accD}" stroke="${dark}" stroke-width="5"/>
+        <g class="b-arm l"><ellipse cx="22" cy="138" rx="17" ry="12" transform="rotate(-32 22 138)" fill="${t.acc}" stroke="${dark}" stroke-width="5"/></g>
+        <g class="b-arm r"><ellipse cx="178" cy="138" rx="17" ry="12" transform="rotate(32 178 138)" fill="${t.acc}" stroke="${dark}" stroke-width="5"/></g>
+        ${ACC}
+        <path d="M100 40 C154 40 188 84 188 136 C188 184 152 208 100 208 C48 208 12 184 12 136 C12 84 46 40 100 40Z"
+              fill="url(#${gid})" stroke="${dark}" stroke-width="6"/>
+        <ellipse cx="100" cy="164" rx="50" ry="36" fill="#fff" opacity=".3"/>
+        <g class="b-face">
+          ${eye(68)}${eye(132)}
+          <path class="b-ko" d="M54 90 L82 118 M82 90 L54 118 M118 90 L146 118 M146 90 L118 118" stroke="${dark}" stroke-width="7" stroke-linecap="round" fill="none"/>
+          <path class="b-brow l" d="M46 76 L88 90" stroke="${dark}" stroke-width="8" stroke-linecap="round"/>
+          <path class="b-brow r" d="M154 76 L112 90" stroke="${dark}" stroke-width="8" stroke-linecap="round"/>
+          <path class="b-m idle" d="M72 140 Q100 166 128 140" fill="#7a1d2a" stroke="${dark}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path class="b-m angry" d="M68 150 L80 136 L92 150 L104 136 L116 150 L128 136 L134 150" fill="none" stroke="${dark}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse class="b-m hurt" cx="100" cy="148" rx="13" ry="16" fill="#7a1d2a" stroke="${dark}" stroke-width="5"/>
+          <path class="b-m laugh" d="M64 136 Q100 190 136 136Z" fill="#7a1d2a" stroke="${dark}" stroke-width="5" stroke-linejoin="round"/>
+          <path class="b-m ko" d="M70 150 Q85 140 100 150 T130 150" fill="none" stroke="${dark}" stroke-width="5" stroke-linecap="round"/>
+        </g>
+      </g>
+    </svg>`;
+  },
+
+  bossHpHTML(g) {
+    return Array.from({ length: g.hpMax }, (_, k) => `<i class="${k < g.hp ? '' : 'off'}"></i>`).join('');
+  },
+  bossHeartsHTML(g) {
+    return [0, 1, 2].map(k => `<i class="${k < g.hearts ? '' : 'spent'}">${this.fx('❤️')}</i>`).join('');
+  },
+
   gmBoss() {
     const g = this._game, el = document.getElementById('lessonOverlay'), r = g.items[g.idx];
-    g.locked = false;
-    const course = COURSES.find(c => c.id === g.course);
+    g.locked = false; g.phase = 'ask';
+    const t = this.theme(g.course);
+    const props = (WORLD_PROPS[g.course] || []).slice(0, 4).map((e, k) =>
+      `<span class="bb-prop p${k}">${this.fx(e)}</span>`).join('');
     el.innerHTML = `
       <div class="pl-top"><button class="pl-x" onclick="App.bossQuit()" aria-label="Close">✕</button>
-        <div class="boss-hp"><i id="bossHp" style="width:${g.hp / g.hpMax * 100}%"></i><span>${this.bossName(g.course)}</span></div>
-        ${this.autoBtn()}
-        <span class="pl-sp boss-hearts" id="bossHearts">${[0, 1, 2].map(k => `<i class="${k < g.hearts ? '' : 'spent'}">${this.fx('❤️')}</i>`).join('')}</span></div>
-      <div class="gm-wrap boss-wrap">
-        <div class="boss-stage"><div class="boss-body" id="bossBody">${this.fx(BOSS_ICON[g.course] || '👾')}</div>
-          <div class="boss-pip">${this.pip('')}</div></div>
-        <div class="gm-stage boss-q">
+        <div class="bb-title">${this.GPHR.bossTitle}</div>${this.autoBtn()}</div>
+      <div class="bb" style="--b-top:${t.top};--b-mid:${t.mid};--b-bot:${t.bot};--b-acc:${t.acc}">
+        <div class="bb-arena ${g.rage ? 'rage' : ''}" id="bbArena">
+          ${props}
+          <div class="bb-hud"><span class="bb-name">${this.bossName(g.course)}</span>
+            <div class="bb-hp" id="bbHp">${this.bossHpHTML(g)}</div></div>
+          <div class="bb-boss ${g.idx === 0 ? 'enter' : ''}" id="bbBoss" data-mood="${g.rage ? 'angry' : 'idle'}">
+            ${this.bossArt(g.course)}<div class="bb-emblem">${this.fx(BOSS_ICON[g.course] || '👾')}</div></div>
+          <div class="bb-pip pip-react" id="bbPip">${this.pip('')}</div>
+          <div class="bb-hearts" id="bbHearts">${this.bossHeartsHTML(g)}</div>
+          <div class="bb-fx" id="bbFx"></div>
+          <div class="bb-banner" id="bbBanner"></div>
+        </div>
+        <div class="bb-card" id="bbCard">
+          <div class="bb-turn">Your move · ${g.idx + 1} of ${g.total}</div>
           <p class="gm-q">${r.prompt}</p>
           <div class="bb-listen">${this.listenLabel('Hear it', r.prompt, ...r.opts)}</div>
           <div class="answer-list" style="margin-top:12px">
             ${r.opts.map((o, i) => `<div class="answer-row"><button class="answer" id="ba${i}" onclick="App.gmBossPick(${i})">${o}</button>${this.listenLabel('', o)}</div>`).join('')}
           </div>
-          <div class="check-fb" id="bossFb"></div>
         </div>
       </div>`;
     this.syncListen();
-    if (g.idx === 0) this.speakNow([this.GPHR.bossTitle, this.bossName(g.course)]);
-    else this.autoPlay('#lessonOverlay .bb-listen .listen');
+    if (g.idx === 0) {
+      Sfx.play('whoosh', 0.5);
+      this.speakNow([this.GPHR.bossTitle, this.bossName(g.course)]);
+    } else this.autoPlay('#lessonOverlay .bb-listen .listen');
   },
+
+  // ── little helpers for the show ──────────────────────────────────────
+  bossMood(m) { const b = document.getElementById('bbBoss'); if (b) b.dataset.mood = m; },
+  bossBanner(text, cls) {
+    const b = document.getElementById('bbBanner'); if (!b) return;
+    b.className = 'bb-banner'; void b.offsetWidth;
+    b.textContent = text; b.classList.add('show', cls || '');
+  },
+  bossPop(text, anchorId, cls) {
+    const fx = document.getElementById('bbFx'), a = document.getElementById(anchorId);
+    if (!fx || !a) return;
+    const f = fx.getBoundingClientRect(), r = a.getBoundingClientRect();
+    const d = document.createElement('div');
+    d.className = 'bb-pop ' + (cls || ''); d.textContent = text;
+    d.style.left = (r.left - f.left + r.width / 2) + 'px'; d.style.top = (r.top - f.top + r.height * 0.2) + 'px';
+    fx.appendChild(d); setTimeout(() => d.remove(), 1200);
+  },
+  // a projectile from one element's centre to another's
+  bossFly(fromId, toId, html, ms) {
+    const fx = document.getElementById('bbFx'), a = document.getElementById(fromId), b = document.getElementById(toId);
+    if (!fx || !a || !b) return;
+    const f = fx.getBoundingClientRect(), ra = a.getBoundingClientRect(), rb = b.getBoundingClientRect();
+    const x0 = ra.left - f.left + ra.width / 2, y0 = ra.top - f.top + ra.height / 2;
+    const x1 = rb.left - f.left + rb.width / 2, y1 = rb.top - f.top + rb.height / 2;
+    const p = document.createElement('div');
+    p.className = 'bb-proj'; p.innerHTML = html;
+    p.style.left = x0 + 'px'; p.style.top = y0 + 'px';
+    fx.appendChild(p);
+    if (p.animate) {
+      p.animate([
+        { transform: 'translate(-50%,-50%) scale(.5) rotate(0)', opacity: 1 },
+        { transform: `translate(calc(-50% + ${(x1 - x0) / 2}px), calc(-50% + ${(y1 - y0) / 2 - 46}px)) scale(1.2) rotate(180deg)`, opacity: 1, offset: .5 },
+        { transform: `translate(calc(-50% + ${x1 - x0}px), calc(-50% + ${y1 - y0}px)) scale(1) rotate(360deg)`, opacity: 1 }
+      ], { duration: ms || 520, easing: 'ease-in', fill: 'forwards' });
+    }
+    setTimeout(() => p.remove(), (ms || 520) + 40);
+  },
+  _bossShake() {
+    const a = document.getElementById('bbArena'); if (!a) return;
+    a.classList.remove('shake'); void a.offsetWidth; a.classList.add('shake');
+  },
+
   gmBossPick(i) {
-    const g = this._game; if (!g || g.kind !== 'boss' || g.locked) return false;
+    const g = this._game; if (!g || g.kind !== 'boss' || g.phase !== 'ask' || g.locked) return false;
     const r = g.items[g.idx], ok = i === r.ans;
-    g.locked = true;
-    document.querySelectorAll('.boss-q .answer').forEach((b, k) => {
+    g.locked = true; g.lastOk = ok;
+    document.querySelectorAll('.bb-card .answer').forEach((b, k) => {
       b.disabled = true; if (k === r.ans) b.classList.add('right'); else if (k === i) b.classList.add('wrong');
     });
-    const body = document.getElementById('bossBody');
     if (ok) {
-      g.right++; g.hp--;
+      g.right++; g.combo++;
       Sfx.play('yes', 0.5); this.haptic(20);
-      if (body) { body.classList.remove('hit'); void body.offsetWidth; body.classList.add('hit'); }
-      const bar = document.getElementById('bossHp'); if (bar) bar.style.width = (g.hp / g.hpMax * 100) + '%';
+      g.phase = 'strike';
+      this.bossShowStrike(g);
     } else {
-      g.hearts--;
-      Sfx.play('no', 0.4); this.haptic(35);
-      const hs = document.querySelectorAll('#bossHearts i'); if (hs[g.hearts]) hs[g.hearts].classList.add('spent');
-      if (body) { body.classList.remove('laugh'); void body.offsetWidth; body.classList.add('laugh'); }
+      g.combo = 0;
+      Sfx.play('no', 0.4);
+      g.phase = 'anim';
+      this.bossHitsPip(g, r);
     }
-    const fb = document.getElementById('bossFb');
-    const lead = this.explainLeadsWith(r, r.opts[r.ans]);
-    fb.innerHTML = `<div class="fb ${ok ? 'ok' : 'no'}"><span class="fb-pip">${this.pip(ok ? 'happy' : 'oops')}</span>
-      <div><b>${ok ? this.PHR.right : this.PHR.miss}</b><p>${ok || lead ? '' : this.PHR.answerIs + ' ' + r.opts[r.ans] + '. '}${r.explain}</p></div></div>`;
-    this.speakNow(ok ? [this.PHR.right, r.explain] : lead ? [this.PHR.miss, r.explain] : [this.PHR.miss, this.PHR.answerIs, r.opts[r.ans], r.explain]);
-    g.idx++;
-    const done = g.hp <= 0 || g.hearts <= 0 || g.idx >= g.total;
-    setTimeout(() => {
-      if (this._game !== g) return;
-      if (done) this.bossEnd(); else this.gmBoss();
-    }, 3600);
     return ok;
   },
+
+  // right answer -> the power meter: tap Strike while the star is in the green
+  bossShowStrike(g) {
+    const card = document.getElementById('bbCard'); if (!card) return;
+    const supercharged = g.combo > 0 && g.combo % 3 === 0;
+    const extra = card.querySelector('.bb-strike-box'); if (extra) extra.remove();
+    const box = document.createElement('div');
+    box.className = 'bb-strike-box';
+    box.innerHTML = `
+      <div class="bb-strike-msg">${supercharged ? this.fx('🌟') + ' ' + this.GPHR.bossSuper : this.fx('⚡') + ' ' + this.GPHR.bossStrike}</div>
+      <div class="bb-track" id="bbTrack"><i class="zone" id="bbZone"></i><b class="marker" id="bbMarker">${this.fx('⭐')}</b></div>
+      <button class="cta pulse bb-strike" id="bbStrikeBtn" onclick="App.bossStrike()">Strike!</button>`;
+    card.appendChild(box);
+    this.pipReact('happy');
+    if (g.idx === 0 || !g.explainedStrike) { g.explainedStrike = true; this.speakNow([supercharged ? this.GPHR.bossSuper : this.GPHR.bossStrike]); }
+    else if (supercharged) this.speakNow([this.GPHR.bossSuper]);
+  },
+  bossStrike() {
+    const g = this._game; if (!g || g.kind !== 'boss' || g.phase !== 'strike') return;
+    g.phase = 'anim';
+    let crit = false;
+    const m = document.getElementById('bbMarker'), z = document.getElementById('bbZone');
+    if (m && z) {
+      const a = m.getBoundingClientRect(), b = z.getBoundingClientRect(), c = a.left + a.width / 2;
+      crit = c >= b.left && c <= b.right;
+    }
+    const btn = document.getElementById('bbStrikeBtn'); if (btn) btn.disabled = true;
+    this.bossAttack(g, crit);
+  },
+
+  async bossAttack(g, crit) {
+    const supercharged = g.combo > 0 && g.combo % 3 === 0;
+    const dmg = 1 + (crit ? 1 : 0) + (supercharged ? 1 : 0);
+    g.hp = Math.max(0, g.hp - dmg);
+    if (crit) g.crits++; if (supercharged) g.supers++;
+    const pip = document.getElementById('bbPip');
+    if (pip) { pip.classList.remove('lunge'); void pip.offsetWidth; pip.classList.add('lunge'); }
+    Sfx.play('whoosh', 0.55);
+    this.bossFly('bbPip', 'bbBoss', this.fx(supercharged ? '🌟' : crit ? '💥' : '⭐'), 480);
+    await this._sleep(430);
+    if (this._game !== g) return;
+    // impact
+    const boss = document.getElementById('bbBoss');
+    if (boss) { boss.classList.remove('hit'); void boss.offsetWidth; boss.classList.add('hit'); }
+    this.bossMood('hurt'); this._bossShake();
+    Sfx.play(crit || supercharged ? 'stamp' : 'pop', 0.7); this.haptic(supercharged ? 40 : 22);
+    const hp = document.getElementById('bbHp');
+    if (hp) hp.querySelectorAll('i').forEach((s, k) => s.classList.toggle('off', k >= g.hp));
+    this.bossPop('-' + dmg, 'bbBoss', crit || supercharged ? 'big' : '');
+    if (supercharged) { this.bossBanner(this.GPHR.bossSuper, 'super'); this.confetti(14); }
+    else if (crit) { this.bossBanner(this.GPHR.bossCrit, 'crit'); }
+    await this._sleep(supercharged || crit ? 900 : 650);
+    if (this._game !== g) return;
+    if (g.hp <= 0) return this.bossKO(g);
+    if (!g.rage && g.hp <= g.hpMax / 2) {
+      g.rage = true;
+      document.getElementById('bbArena') && document.getElementById('bbArena').classList.add('rage');
+      this.bossMood('angry');
+      this.bossBanner(this.GPHR.bossAngry, 'angry');
+      Sfx.play('no', 0.35);
+      this.speakNow([this.GPHR.bossAngry]);
+      await this._sleep(1100);
+      if (this._game !== g) return;
+    } else this.bossMood(g.rage ? 'angry' : 'idle');
+    this.bossFeedback(g);
+  },
+
+  async bossKO(g) {
+    this.bossMood('ko');
+    const boss = document.getElementById('bbBoss'); if (boss) boss.classList.add('ko');
+    const pip = document.getElementById('bbPip'); this.pipReact('cheer', 2000);
+    Sfx.play('tada', 0.6); this.confetti(30);
+    await this._sleep(1500);
+    if (this._game !== g) return;
+    this.bossEnd();
+  },
+
+  // wrong answer -> the boss fires back
+  async bossHitsPip(g, r) {
+    this.bossMood('laugh');
+    const boss = document.getElementById('bbBoss');
+    if (boss) { boss.classList.remove('charge'); void boss.offsetWidth; boss.classList.add('charge'); }
+    await this._sleep(380);
+    if (this._game !== g) return;
+    Sfx.play('whoosh', 0.55);
+    this.bossFly('bbBoss', 'bbPip', this.fx(BOSS_ICON[g.course] || '💥'), 480);
+    await this._sleep(430);
+    if (this._game !== g) return;
+    g.hearts = Math.max(0, g.hearts - 1);
+    this.pipReact('oops', 1200); this._bossShake(); this.haptic(35);
+    Sfx.play('no', 0.45);
+    const hs = document.getElementById('bbHearts'); if (hs) hs.innerHTML = this.bossHeartsHTML(g);
+    this.bossPop('💔', 'bbPip', 'heart');
+    await this._sleep(750);
+    if (this._game !== g) return;
+    this.bossMood(g.rage ? 'angry' : 'idle');
+    if (g.hearts <= 0) { this.bossBanner('', ''); return this.bossEnd(); }
+    this.bossFeedback(g);
+  },
+
+  // what the answer was and why — read in full before anything moves on
+  bossFeedback(g) {
+    const r = g.items[g.idx], ok = g.lastOk;
+    g.phase = 'fb';
+    const card = document.getElementById('bbCard'); if (!card) return;
+    const sb = card.querySelector('.bb-strike-box'); if (sb) sb.remove();
+    const lead = this.explainLeadsWith(r, r.opts[r.ans]);
+    const last = g.idx + 1 >= g.total;
+    const fb = document.createElement('div');
+    fb.className = 'check-fb';
+    fb.innerHTML = `<div class="fb ${ok ? 'ok' : 'no'}"><span class="fb-pip">${this.pip(ok ? 'happy' : 'oops')}</span>
+      <div><b>${ok ? this.PHR.right : this.PHR.miss}</b><p>${ok || lead ? '' : this.PHR.answerIs + ' ' + r.opts[r.ans] + '. '}${r.explain}</p></div></div>
+      <button class="cta pulse bb-next" onclick="App.bossNext()">${last ? 'Finish' : 'Next'}</button>`;
+    card.appendChild(fb);
+    const say = ok ? [this.PHR.right, r.explain] : lead ? [this.PHR.miss, r.explain] : [this.PHR.miss, this.PHR.answerIs, r.opts[r.ans], r.explain];
+    this.speakNow(say);
+    // read-to-me on: move on once the whole explanation has been heard (never on a timer)
+    if (this.autoRead()) {
+      Promise.race([AudioLib.done(), this._sleep(20000)]).then(() => this._sleep(900)).then(() => {
+        if (this._game === g && g.phase === 'fb' && g.idx === g._fbIdx) this.bossNext();
+      });
+    }
+    g._fbIdx = g.idx;
+  },
+  bossNext() {
+    const g = this._game; if (!g || g.kind !== 'boss' || g.phase !== 'fb') return;
+    g.phase = 'anim';
+    g.idx++;
+    if (g.hp <= 0 || g.hearts <= 0 || g.idx >= g.total) return this.bossEnd();
+    this.gmBoss();
+  },
+
   bossEnd() {
     const g = this._game, won = g.hp <= 0;
+    g.phase = 'end';
     const course = COURSES.find(c => c.id === g.course);
-    let xp = 10 + g.right * 2, firstMedal = false;
+    let xp = 10 + g.right * 2 + g.crits + g.supers * 2, firstMedal = false;
     const before = this.levelInfo(Progress.p.xp || 0);
     if (won) {
       Progress.p.medals = Progress.p.medals || {};
@@ -377,9 +627,11 @@ Object.assign(App, {
         <div class="rs-pip">${this.pip(won ? 'happy cheer jump' : 'oops')}</div>
         <div class="rs-kicker">${this.GPHR.bossTitle} · ${course.name}</div>
         <h1>${won ? this.GPHR.bossWin : this.GPHR.bossLose}</h1>
-        ${won ? `<div class="rs-medal">${this.fx('🏅')}</div>` : `<div class="boss-body lost">${this.fx(BOSS_ICON[g.course] || '👾')}</div>`}
+        ${won ? `<div class="rs-medal">${this.fx('🏅')}</div>`
+              : `<div class="bb-boss lost" data-mood="laugh">${this.bossArt(g.course)}<div class="bb-emblem">${this.fx(BOSS_ICON[g.course] || '👾')}</div></div>`}
         <div class="rs-stats">
           <div class="rs-stat"><b>${g.right}</b><span>Right</span></div>
+          <div class="rs-stat"><b>${g.crits + g.supers}</b><span>Big hits</span></div>
           <div class="rs-stat"><b>+<span id="rsXp">0</span></b><span>${this.fx('⚡')} Sparks</span></div>
         </div>
         ${after.level > before.level ? `<div class="rs-levelup">${this.fx('🎉')} ${this.PHR.levelUp} You are level ${after.level}</div>` : ''}

@@ -231,14 +231,16 @@ const GAME_PHRASES = {
 };
 
 const ECONOMICS_SECTIONS = {
-  money:    { name: 'What Money Is',       glyph: '🪙' },
-  trade:    { name: 'Trading & Markets',   glyph: '🤝' },
-  work:     { name: 'Jobs & Work',         glyph: '🛠️' },
-  business: { name: 'Starting a Business', glyph: '🏭' },
-  choices:  { name: 'Scarcity & Choices',  glyph: '⚖️' },
-  saving:   { name: 'Saving & Spending',   glyph: '🐷' },
-  supply:   { name: 'Supply & Demand',     glyph: '📈' },
-  world:    { name: 'Trade Around The World', glyph: '🌍' },
+  needs: { name: "Needs & Wants", glyph: "🍞" },
+  choices: { name: "Scarcity & Choices", glyph: "⚖️" },
+  goods: { name: "Goods & Services", glyph: "📦" },
+  money: { name: "What Money Is", glyph: "🪙" },
+  trade: { name: "Trading & Markets", glyph: "🤝" },
+  work: { name: "Jobs & Pay", glyph: "🛠️" },
+  business: { name: "Starting a Business", glyph: "🏭" },
+  supply: { name: "Prices & Supply", glyph: "📈" },
+  saving: { name: "Saving & Banks", glyph: "🐷" },
+  taxes: { name: "Taxes & Shared Things", glyph: "🏛️" },
 };
 
 /* ── The five new subjects ──────────────────────────────────────────────

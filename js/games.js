@@ -204,10 +204,13 @@ Object.assign(App, {
     const g = this._game;
     if (ok) g.right++;
     g.idx++;
-    setTimeout(() => {
-      if (this._game !== g) return;
-      if (g.idx >= g.total) this.gameFinish(); else this.gameRender();
-    }, delay || 1100);
+    // Never move on while the answer is still being read out: wait for the narration to end
+    // (at least `delay`, at most 15 s) and a short breath, so nothing is cut off mid-sentence.
+    Promise.race([Promise.all([this._sleep(delay || 1100), AudioLib.done()]), this._sleep(15000)])
+      .then(() => this._sleep(350)).then(() => {
+        if (this._game !== g) return;
+        if (g.idx >= g.total) this.gameFinish(); else this.gameRender();
+      });
   },
 
   gameFinish() {

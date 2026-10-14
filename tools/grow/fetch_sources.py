@@ -64,10 +64,10 @@ def clean_wiki(text):
     return t
 
 
-def wikipedia(title):
+def wikipedia(title, host='en.wikipedia.org', limit=None):
     q = urllib.parse.urlencode({'action': 'query', 'prop': 'extracts|info', 'explaintext': 1,
                                 'redirects': 1, 'format': 'json', 'inprop': 'url', 'titles': title})
-    d = json.loads(get('https://en.wikipedia.org/w/api.php?' + q))
+    d = json.loads(get('https://%s/w/api.php?' % host + q))
     pages = d['query']['pages']
     p = list(pages.values())[0]
     if 'missing' in p or not p.get('extract'):
@@ -75,8 +75,8 @@ def wikipedia(title):
     text = clean_wiki(p['extract'])
     if re.search(r'may refer to:?$', text[:400], re.M) or len(text) < 400:
         raise RuntimeError(f'"{title}" looks like a disambiguation or stub page')
-    return {'title': p['title'], 'url': p.get('fullurl') or 'https://en.wikipedia.org/wiki/' + title.replace(' ', '_'),
-            'text': text[:PER_SOURCE], 'kind': 'wikipedia'}
+    return {'title': p['title'], 'url': p.get('fullurl') or 'https://%s/wiki/' % host + title.replace(' ', '_'),
+            'text': text[:limit or PER_SOURCE], 'kind': 'wikipedia'}
 
 
 def bible(ref):
@@ -109,6 +109,11 @@ def fetch(src):
         return bible(src[6:])
     if src.startswith('http'):
         return webpage(src)
+    if src.startswith('simple:'):          # Simple English Wikipedia: plain words a 9-year-old can read
+        return wikipedia(src[7:], 'simple.wikipedia.org')
+    if '@' in src:                          # "Title@30000": keep more than the default 7000 characters
+        t, n = src.rsplit('@', 1)
+        return wikipedia(t, limit=int(n))
     return wikipedia(src)
 
 
