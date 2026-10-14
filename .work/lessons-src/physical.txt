@@ -5,10 +5,10 @@ game: Lever = Moves one end to get more force at the other | Rocket = Throws gas
 --- 🔨
 p: On the last Apollo 15 moonwalk, David Scott held out a geology hammer and a falcon feather.
 fact: He let go of both, and with no air in the way they hit the dust together. The camera was running, so everybody could see it happen.
-check: What happened when Scott let go of the hammer and the feather?
+check: On the Moon, David Scott let go of a hammer and a feather at the same time. What happened?
 - The hammer hit first
-+ They hit the dust together
 - The feather floated away
++ They hit the dust together
 hint: Look at the fact box. It tells you what happened with no air in the way.
 explain: With no air resistance, both the hammer and the feather hit the ground at the same time.
 
@@ -35,8 +35,8 @@ fact: Brake discs glow hot, and rubbing your hands warms them up. Rough surfaces
 try: Rub your hands together fast. You will feel the heat.
 check: What does friction turn movement into?
 - Wind
-- Cold
 + Heat
+- Cold
 hint: Look at the first fact on the page to see what happens when you rub your hands.
 explain: Friction turns movement into heat, which is why rubbing your hands together warms them up.
 
@@ -46,8 +46,8 @@ term: lever = A tool that lets you push or pull one end to move something else w
 fact: Push the far end of a long bar a long way, and the near end moves a short way but with much more force. Scissors, nutcrackers, wheelbarrows, and a seesaw are all levers.
 check: What does a lever trade?
 - Weight for speed
-+ Distance for force
 - Time for speed
++ Distance for force
 hint: Look at the first fact on the page to see how the ends of a lever move differently.
 explain: A lever moves one end a long way to get more force at the other end.
 
@@ -57,8 +57,8 @@ fact: A rocket does not push against the air — it throws gas out of the back, 
 p: That is why rockets work better in space. With nothing in the way, the gas still pushes the rocket forward without any resistance.
 check: What pushes a rocket forward?
 - The pull of the moon
-- The air pushing against the rocket
 + The gas it throws out the back
+- The air pushing against the rocket
 hint: Look at the first fact on the page to see what the rocket throws out.
 explain: The gas that comes out the back pushes the rocket forward.
 
@@ -76,8 +76,8 @@ fact: A pendulum trades height for speed on the way down and speed for height on
 try: Tie a small weight to a string, hold the string up, and let the weight swing. Watch whether it ever swings back higher than where you let it go.
 check: Why does a pendulum never swing higher than where you let it go?
 - The string gets a bit shorter each time it swings
-+ It hands a little energy to the air each swing
 - Gravity pulls a little less with each swing
++ It hands a little energy to the air each swing
 hint: Look at the fact box. It explains what happens each time the pendulum swings.
 explain: Each swing, the pendulum hands a little energy to the air, so it never quite reaches as high.
 
@@ -107,9 +107,9 @@ explain: When you stretch a rubber band quickly, it gets warmer, and you can fee
 p: Have you ever wondered where the number on a cereal box comes from?
 term: Calorie = The heat needed to warm 1 kg (2.2 pounds) of water by 1 degree Celsius (1.8 degrees F).
 fact: The numbers behind a cereal box label come from burning food in a sealed metal chamber sitting in water. They measure how much the water warms up.
-check: How does the number on a cereal box get found?
-- A scale weighs the food and the weight is turned into calories
+check: How is the calorie number on a cereal box found?
 + The food is burned and the water's warming is measured
+- A scale weighs the food and the weight is turned into calories
 - Testers taste the food and score how sweet it is
 hint: Look at the fact box. It tells you what they burn and measure.
 explain: The food is burned in a sealed chamber, and the amount of heat it gives off warms the water. That warmth is measured to find the calorie count.
@@ -122,10 +122,10 @@ p: Chemical fuels are very concentrated. That is why batteries are the hard part
 --- 🚲
 p: Imagine the most efficient way to move from one place to another. It turns out, a person on a bicycle is the best.
 fact(Worked out): A person walking uses about three times as much energy per pound carried per mile compared to cycling.
-check: Which uses about three times as much energy as cycling?
-+ Walking
+check: Which way of moving uses about three times as much energy as cycling?
 - Sitting still
 - Swimming
++ Walking
 hint: Look at the fact box. It tells you how much more walking uses.
 explain: Walking uses about three times as much energy as cycling.
 
@@ -142,8 +142,8 @@ p: Have you ever thought about how long it takes for sunlight to reach us? The s
 fact: Light travels 186,282 miles every second. Sunlight takes 8 minutes and 20 seconds to reach you, so the sun you see is always the sun of eight minutes ago.
 p: The speed of light was first figured out by watching Jupiter's moons. Now, scientists use lasers to bounce light back and forth and measure it that way.
 check: How old is the sun you see right now?
-- About 8 seconds old
 + About 8 minutes old
+- About 8 seconds old
 - About 8 hours old
 hint: Look at the fact box. It says how long sunlight takes to reach you.
 explain: The sunlight you see took about 8 minutes and 20 seconds to reach you, so it shows you the sun as it was eight minutes ago.
@@ -153,8 +153,8 @@ p: White light is actually every color mixed together. You can see all the color
 term: prism = A piece of glass or clear material that spreads light into its colors.
 fact: A prism spreads white light because each color bends a little differently. Newton put a second prism in the way and put the colors back into white light again.
 check: What did Newton's second prism do?
-+ Put the colors back into white light
 - Turned the colors into shades of gray
++ Put the colors back into white light
 - Split each color into many smaller colors
 hint: Look at the fact box to see what the second prism did.
 explain: The second prism mixed all the colors back together to make white light again.
@@ -180,8 +180,8 @@ p: Light does something surprising when it crosses from air into water.
 fact: Light bends as it moves between air and water. That's why a pencil in a glass of water looks broken, and why a pool is deeper than it seems.
 try: Stand a pencil in a glass of water and look at it from the side. You'll see the pencil appear to bend or break.
 check: Why does a pencil in water look broken?
-+ Light bends as it crosses between water and air
 - The wood softens and bends where it touches the water
++ Light bends as it crosses between water and air
 - The water pushes up on the pencil and bends it
 hint: Look at the fact box. It explains why light bends between water and air.
 explain: Light bends as it moves between water and air, making the pencil look broken.
@@ -191,9 +191,9 @@ p: Mixing light and mixing paint are opposites.
 fact: Red, green, and blue light together make white. But red, green, and blue paint together make a muddy brown because each paint takes colors away rather than adding them.
 try: Put a drop of water on a phone screen showing a white picture and look closely. You will see the red, green, and blue stripes the screen is really made of.
 check: What do red, green, and blue paint make together?
++ A muddy brown
 - A bright yellow
 - A beautiful purple
-+ A muddy brown
 hint: Look at the fact box. It explains how mixing paints takes colors away.
 explain: Red, green, and blue paint together make a muddy brown because each paint is taking colors away.
 
@@ -208,9 +208,9 @@ game: Echo = Sound that comes back | Pitch = How many times something vibrates p
 --- 🔔
 p: Sound needs something to travel through. Put a ringing alarm inside a jar and pump the air out, and the ringing fades to nothing while you can still see the hammer moving.
 fact: Space is genuinely silent because there is nothing for sound to travel through.
-check: What happens to the ringing when the air is pumped out of the jar?
-- It gets much louder because the jar is now empty inside
+check: A bell rings inside a jar. What happens to the ringing when the air is pumped out of the jar?
 + It fades to nothing though you can still see the hammer move
+- It gets much louder because the jar is now empty inside
 - The hammer stops moving and the ringing stops with it
 hint: Look at the first sentence on the page.
 explain: With no air in the jar, there's nothing for the sound to travel through, so it fades away even as the hammer keeps moving.
@@ -220,9 +220,9 @@ p: Sound moves about 767 mph through air, which means it takes roughly five seco
 fact: Light is so fast that it feels like it arrives instantly. That's why you can measure how far away a storm is by counting the seconds between seeing lightning and hearing thunder.
 try: When you see lightning, count the seconds until you hear the thunder. Divide that number by five, and you'll know how many miles away the storm struck.
 check: About how long does sound take to travel one mile?
-+ About five seconds
 - About 10 seconds
 - About 20 seconds
++ About five seconds
 hint: Look at the first sentence on the page.
 explain: Sound takes about five seconds to travel a mile, so you can use this to estimate the distance of a storm.
 
@@ -232,8 +232,8 @@ fact: In water, sound is more than four times faster than in air. In steel, it i
 p: Whales use this to talk over long distances under the sea. People used to listen for trains by putting an ear to a metal rail.
 check: Where does sound travel fastest of these?
 - Air
-- Water
 + Steel
+- Water
 hint: Look at the first fact on the page.
 explain: Sound travels fastest in steel, then water, and slowest in air.
 
@@ -243,8 +243,8 @@ fact: People hear from about 20 vibrations a second up to about 20,000. Children
 try: Run your fingernail slowly along a comb, then do it fast. Same comb, same teeth, but different pitch — only the rate changed.
 check: What is pitch?
 - How much space a sound fills up in a room
-+ How many times a second something vibrates
 - How hard something is struck to make a sound
++ How many times a second something vibrates
 hint: The definition of pitch is in the term box.
 explain: Pitch is how many times a second something vibrates.
 
@@ -254,8 +254,8 @@ term: resonance = When something vibrates because the sound around it matches it
 try: Tap a glass and listen for its note. You can also wet your finger and run it slowly round the rim of a wine glass until it sings.
 check: How can a voice shatter a glass?
 - Shouting so loudly that the sound crushes the glass flat
-- Blowing a hot breath onto the glass until it heats and cracks
 + Singing the glass's own note makes it vibrate on its own
+- Blowing a hot breath onto the glass until it heats and cracks
 hint: Look at the fact box. It explains how resonance works.
 explain: When you sing the exact note that the glass likes to vibrate at, it starts vibrating and can even shatter.
 
@@ -283,8 +283,8 @@ p: Take two spoons lying side by side in a drawer. They are at exactly the same 
 fact: A metal spoon feels colder because it carries heat away from your finger fast. Your skin does not measure temperature — it measures how quickly heat is leaving.
 try: Leave a metal spoon and a wooden one in the same drawer overnight, then touch both.
 check: Why does metal feel colder than wood at the same temperature?
-- Its shiny surface reflects your finger's warmth
 + It carries heat away from your finger faster
+- Its shiny surface reflects your finger's warmth
 - It soaks up cold from the air and holds it inside
 hint: Touch both spoons after leaving them in the same place.
 explain: Metal feels colder because it takes heat away from your skin quickly.
@@ -294,8 +294,8 @@ p: Heat moves from hotter to colder, and that's all it does on its own.
 fact: A fridge does not make cold. It takes heat out of the inside and dumps it out of the back.
 try: Put your hand behind a fridge. That warmth is the heat that used to be in your food.
 check: Where does a fridge put the heat it takes out?
-+ Out of the back
 - Inside the fridge
++ Out of the back
 - Into the water pipes
 hint: Feel the back or underneath of your fridge.
 explain: The warmth you feel there is the heat the fridge took out of your food.
@@ -357,9 +357,9 @@ p: Have you ever rubbed a balloon on your hair and stuck it to the wall? Somethi
 fact: Rubbing two things together moves tiny charges from one to the other, leaving one positive and one negative. They then pull toward each other.
 try: Rub a balloon on your hair and hold it near a thin stream of water from a faucet. The water bends toward the balloon.
 check: What moves when you rub two things together?
-+ Tiny charges
 - Tiny hairs
 - Tiny dust particles
++ Tiny charges
 hint: Look at the fact box. It tells you what moves between the two things.
 explain: When you rub the balloon on your hair, tiny charges move from your hair to the balloon.
 
@@ -368,9 +368,9 @@ p: Electricity needs a complete loop to flow. Break the loop anywhere, and every
 fact: A switch breaks the loop so nothing flows. That is why one dead bulb used to kill a whole string of Christmas lights.
 try: With a battery, a wire, and a small bulb, find every arrangement that lights it. There are fewer than you expect.
 check: What does a switch do?
++ It opens and closes the loop
 - It makes the bulb shine much brighter
 - It pumps new electricity into the loop
-+ It opens and closes the loop
 hint: The fact box explains what a switch does to the loop.
 explain: A switch breaks the loop, stopping the flow of electricity.
 
@@ -466,9 +466,9 @@ explain: Iron sticks to magnets, but aluminum and gold do not.
 p: Electricity and magnetism are like twins wearing different hats. They are the same thing, just showing up in different ways.
 fact: Wrap wire around an iron nail, connect a battery, and the nail becomes a magnet. Disconnect it and the magnetism stops.
 term: electromagnet = A magnet that works only while electricity flows through a wire coiled around iron.
-check: What happens to the nail magnet when you disconnect the battery?
-- The magnet stays strong
+check: A nail wrapped in wire becomes a magnet when it is joined to a battery. What happens when you disconnect the battery?
 + The magnetism stops
+- The magnet stays strong
 - The nail gets hot
 hint: Look at the fact box. It tells you what happens when you disconnect the battery.
 explain: When you disconnect the battery, the magnetism in the nail stops.
@@ -478,8 +478,8 @@ p: Think about all the motors you use every day: fans, drills, washing machines,
 fact: Nearly every motor works by switching an electromagnet on and off. The moving part is always being pulled toward the next position but never quite arrives. A magnet that simply attracts would pull once and stop.
 check: Why do motors keep switching the magnet?
 - The magnet gets too hot and has to be turned off to cool
-- A fresh magnet is swapped in because the old one wears out
 + A magnet that only attracts would pull once and stop
+- A fresh magnet is swapped in because the old one wears out
 hint: Look at the fact box. It explains why a magnet that only attracts would pull once and stop.
 explain: A magnet that simply attracts would pull once and stop. The switching keeps it moving.
 
@@ -497,8 +497,8 @@ fact: Water is the one substance that does it naturally — ice, water, steam. E
 try: Put some ice in a pan with a thermometer in it and heat it slowly. Watch for the pause in temperature while the ice melts.
 check: Which kitchen substance can be a solid, a liquid, and a gas in one day?
 - Metal
-+ Water
 - Wood
++ Water
 hint: Look at the first fact box on the page.
 explain: Water can be ice, liquid water, and steam. It changes naturally throughout the day.
 
@@ -519,8 +519,8 @@ fact: A steel ship floats because most of it is air. A steel bolt does not float
 try: Take a bowl and a coin. Float the bowl, sink the coin.
 check: Why does a steel ship float?
 - The water is warmer
-- It is made of wood
 + Most of it is air
+- It is made of wood
 hint: Look at the fact box. It explains what makes the difference for the ship.
 explain: Most of the ship is air, so it floats even though it is made of heavy steel.
 
@@ -529,9 +529,9 @@ p: You might think air is weightless, but it has heft.
 fact: At sea level, air presses on you at 14.7 pounds on every square inch. That adds up to about 20 tons over your whole body.
 p: But you do not feel this heavy air pressing down because it pushes from inside you too.
 check: Why do you not feel the weight of the air?
-+ It pushes from inside you too
 - The air weighs nothing at all
 - Your skin is too thick to feel it
++ It pushes from inside you too
 hint: Look at the paragraph before the check.
 explain: Air pressure pushes from inside you as well, so you do not feel its weight.
 
@@ -540,9 +540,9 @@ p: Imagine a liquid you can run across. That sounds impossible, but mix cornstar
 fact: Hit it and it goes hard; leave your hand there and you sink. The grains jam together when pushed suddenly and slide when pushed slowly.
 try: Mix cornstarch with water until it pours like cream. Punch it fast, then press slowly. Same bowl, two completely different substances.
 check: What happens if you hit cornflour and water?
++ It goes hard
 - You sink right in
 - It spills everywhere
-+ It goes hard
 hint: Look at the fact above the try block.
 explain: When you hit it, the grains jam together, making it go hard.
 
@@ -561,82 +561,96 @@ explain: The needle records the bumps as it drags across, showing us what the at
 p: One substance in three forms. Air that weighs something. A ship that floats because it is mostly air. A liquid that goes hard when you hit it.
 p: And all of it is built from atoms that no ordinary microscope will ever show.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === physical-machines
-idea: A simple machine can make a hard job easier. Meet the lever, the pulley and the ramp, and the trade every machine makes.
+idea: A lever, a pulley and a ramp can make a hard job easier, but every machine makes a trade.
 
 game: Lever = A beam that pivots on a fulcrum | Pulley = A wheel on an axle | Ramp = Helps move heavy loads up | Archimedes = Pulled a ship with pulleys
 
 --- 🔧
 p: A simple machine uses one force to move one load.
 
-fact: It can make the force bigger, but then the load moves a shorter distance.
+fact(The trade): A machine can make the force bigger, but then the load moves a shorter distance.
 
 check: What do you give up when a machine makes a force bigger?
 - The weight
 + Distance
-- The load
-hint: Look at the box. The answer is there.
-explain: It can make the force bigger, but then the load moves a shorter distance.
+- The color
+hint: Look at the box. It says what happens to the load.
+explain: A machine can make the force bigger, but then the load moves a shorter distance.
 
 --- ⚙️
 p: A lever is a beam or rod that pivots on a point called a fulcrum.
 
 term: fulcrum = The point a lever pivots on.
 
-fact: It is one of six simple machines. A lever makes a small input force into a greater output force.
+fact(How it helps): A lever makes a small input force into a greater output force. It is one of six simple machines.
 
 check: What is the pivot point of a lever called?
 - A ramp
-+ A fulcrum
 - A pulley
-hint: Look at the paragraph. The answer is there.
-explain: A lever is a beam or rod that pivots on a point called a fulcrum.
++ A fulcrum
+hint: Look at the paragraph. It names the pivot point.
+explain: A lever pivots on a point called a fulcrum.
 
 --- 🧑
 p: In ancient Egypt, workers used levers to move and lift obelisks.
 
-fact: The obelisks weighed more than 100 tons.
+fact(How heavy): The obelisks weighed more than 100 tons.
 
 check: What did workers in ancient Egypt lift with levers?
-- Wagons
 + Obelisks
-- Pulleys
-hint: Look at the paragraph. The answer is there.
+- Wagons of grain
+- Wooden boats
+hint: Look at the paragraph. It says what the workers moved.
 explain: In ancient Egypt, workers used levers to move and lift obelisks.
 
 --- 🧩
 p: A pulley is a wheel on an axle.
 
-fact: A cable or belt passes over the wheel, so it can move and change direction.
+fact(How it works): A cable or belt passes over the wheel, so the cable can move and change direction.
 
 check: What is a pulley?
 - A beam on a hinge
 + A wheel on an axle
 - A sloping road
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It says what a pulley is.
 explain: A pulley is a wheel on an axle.
 
 --- 👤
 p: Plutarch wrote that Archimedes used a system of pulleys to pull a fully loaded ship toward him.
 
-fact: The ship moved as if it were gliding through water.
+fact(How it looked): The ship moved as if it were gliding through water.
+
+check: According to Plutarch, what did Archimedes use to pull a fully loaded ship?
+- A giant lever
+- A team of horses
++ A system of pulleys
+hint: Look at the paragraph. It says what Archimedes used.
+explain: Plutarch wrote that Archimedes used a system of pulleys to pull a fully loaded ship toward him.
 
 --- 🧰
 p: An inclined plane, or ramp, helps move heavy loads over a vertical obstacle.
 
-fact: It takes less force to move an object up a ramp than to lift it straight up. The cost is a longer distance.
+fact(The cost): It takes less force to move an object up a ramp than to lift it straight up. The cost is a longer distance.
+
+check: What does a ramp let you use less of to move a heavy object?
++ Force
+- Distance
+- Time
+hint: Look at the box. It says what a ramp takes less of.
+explain: It takes less force to move an object up a ramp than to lift it straight up.
 
 --- 🔎
 p: A trade of force for distance. A lever on a fulcrum. A wheel with a cable. A ramp for heavy loads.
 
 p: Simple machines help.
 
-quiz: Which simple machine is a wheel on an axle with a cable?
+quiz: Which simple machine is a wheel on an axle with a cable going over it?
 - A lever
-+ A pulley
 - A ramp
-explain: A pulley is a wheel on an axle.
++ A pulley
+explain: A pulley is a wheel on an axle, and a cable passes over the wheel.
 
 quiz: What does a ramp let you use less of?
 - Distance
@@ -645,18 +659,18 @@ quiz: What does a ramp let you use less of?
 explain: It takes less force to move an object up a ramp than to lift it straight up.
 
 quiz: A lever is one of how many simple machines?
-- Two
 + Six
+- Two
 - Sixty
 explain: A lever is one of six simple machines.
 
-quiz: How heavy were the obelisks lifted in ancient Egypt?
+quiz: How heavy were the obelisks that workers lifted in ancient Egypt?
 - Only 10 tons
-+ More than 100 tons
 - About 1 ton
++ More than 100 tons
 explain: The obelisks weighed more than 100 tons.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === physical-air
 idea: Air is all around you, and it has weight. Find out what air is made of and how far up it goes.
 
@@ -665,62 +679,76 @@ game: Nitrogen = Most of the air | Karman line = The edge of space | Air pressur
 --- 💨
 p: Dry air is 78.08% nitrogen and 20.95% oxygen.
 
-fact: Air also holds water vapor, on average around 1% at sea level.
+fact(And water): Air also holds water vapor, on average around 1% at sea level.
 
-check: What is most of the air made of?
-- Oxygen
+check: What gas is most of the air made of?
 + Nitrogen
+- Oxygen
 - Water vapor
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the share of each gas.
 explain: Dry air is 78.08% nitrogen and 20.95% oxygen.
 
 --- 📏
 p: Three-quarters of the air is within about 6.8 mi (11 km) of the ground.
 
-fact: The air gets thinner the higher you go, and there is no clear edge where it ends.
+fact(No edge): The air gets thinner the higher you go, and there is no clear edge where it ends.
 
-check: What distance above the ground holds three-quarters of the air?
+check: How high above the ground is three-quarters of the air found?
 - 68 mi
-+ 6.8 mi
 - 680 mi
-hint: Look at the paragraph. The answer is there.
++ 6.8 mi
+hint: Look at the paragraph. It gives a distance above the ground.
 explain: Three-quarters of the air is within about 6.8 mi (11 km) of the ground.
 
 --- 📐
 p: The edge of space is often drawn at the Karman line.
 
-fact: It is 62 mi (100 km) above the ground.
+fact(How high): The Karman line is 62 mi (100 km) above the ground.
 
-check: How high is the Karman line?
+check: How high above the ground is the Karman line?
 - 6.2 mi
 + 62 mi
 - 620 mi
-hint: Look at the box. The answer is there.
-explain: It is 62 mi (100 km) above the ground.
+hint: Look at the box. It gives the height of the line.
+explain: The Karman line is 62 mi (100 km) above the ground.
 
 --- ⚙️
 p: Air has weight.
 
 term: pressure = The weight of air pushing on every square inch.
 
-fact: A column of air 1 square inch wide, from sea level to the top of the atmosphere, weighs about 14.7 lb. That is 14.7 pounds of pressure on every square inch.
+fact(How much): A column of air 1 square inch wide, from sea level to the top of the atmosphere, weighs about 14.7 lb. That is 14.7 pounds of pressure on every square inch.
 
-check: How much does a column of air 1 square inch wide weigh?
+check: How much does a column of air 1 square inch wide weigh, from sea level to the top of the atmosphere?
 - About 147 lb
-+ About 14.7 lb
 - About 1.47 lb
-hint: Look at the box. The answer is there.
++ About 14.7 lb
+hint: Look at the box. It gives the weight of the column of air.
 explain: A column of air 1 square inch wide, from sea level to the top of the atmosphere, weighs about 14.7 lb.
 
 --- 🔧
-p: Wind is air moving.
+p: Wind is air that is moving.
 
-fact: It moves from a place with higher pressure to a place with lower pressure.
+fact(Where it goes): Air moves from a place with higher pressure to a place with lower pressure.
+
+check: Wind is air moving from a place with higher pressure to where?
+- Somewhere with no air at all
++ A place with lower pressure
+- The highest clouds in the sky
+hint: Look at the box. It says where the air moves to.
+explain: Air moves from a place with higher pressure to a place with lower pressure.
 
 --- 🧩
 p: Up to about 62 mi (100 km) high, the air keeps the same mix of gases.
 
-fact: Turbulence stirs the air, so the mix stays the same.
+fact(Why): Turbulence stirs the air, so the mix stays the same.
+
+check: What stirs the air so that the mix of gases stays the same?
++ Turbulence
+- Moonlight
+- Raindrops
+hint: Look at the box. It says what stirs the air.
+explain: Turbulence stirs the air, so the mix of gases stays the same.
 
 --- 🔎
 p: Air with nitrogen and oxygen. Air that thins out. A line for the edge of space. Air with weight. Wind.
@@ -729,68 +757,68 @@ p: Air is all around.
 
 quiz: How much of dry air is nitrogen?
 - 7.8%
-+ 78.08%
 - 20.95%
++ 78.08%
 explain: Dry air is 78.08% nitrogen.
 
 quiz: What is wind?
-- Air standing still
-+ Air moving to lower pressure
-- Air getting colder
-explain: Wind is air moving from higher pressure to lower pressure.
++ Air moving to a place with lower pressure
+- Air standing perfectly still
+- Air getting colder at night
+explain: Wind is air moving from a place with higher pressure to a place with lower pressure.
 
-quiz: What stirs the air so the gases stay mixed?
-- Sunlight
-+ Turbulence
-- Gravity
-explain: Turbulence stirs the air, so the mix stays the same.
-
-quiz: What does the air get as you go higher?
+quiz: What does the air get like as you go higher?
 - Thicker
 + Thinner
 - Wetter
 explain: The air gets thinner the higher you go.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: Where is the edge of space often drawn?
+- At the top of a hill
+- At the clouds
++ At the Karman line
+explain: The edge of space is often drawn at the Karman line, 62 mi (100 km) above the ground.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === physical-water
 idea: Plain water can do tricks no other common liquid can do. It floats when it freezes, and it can hold up an insect.
 
-game: Water = Solid, liquid and gas on Earth's surface | Ice = Less dense than liquid water | Water strider = Floats on water | Universal solvent = What water is called
+game: Water = Solid, liquid and gas on Earth's surface | Ice = Less dense than liquid water | Water strider = An insect that floats on water | Universal solvent = What water is called
 
 --- 💧
 p: Water is the most abundant substance on Earth's surface.
 
-fact: It is also the only common substance that exists as a solid, a liquid and a gas there.
+fact(Three forms): Water is also the only common substance that exists as a solid, a liquid and a gas there.
 
 check: What three forms does water take on Earth's surface?
-- Rock, sand and mud
 + Solid, liquid and gas
+- Rock, sand and mud
 - Steam, smoke and fog
-hint: Look at the box. The answer is there.
-explain: It is also the only common substance that exists as a solid, a liquid and a gas there.
+hint: Look at the box. It lists the forms water takes.
+explain: Water is the only common substance that exists as a solid, a liquid and a gas on Earth's surface.
 
 --- 🤔
 p: Ice is an unusual solid because it is less dense than liquid water, by about 8.3%.
 
-fact: Water expands about 9% when it freezes.
+fact(When it freezes): Water expands about 9% when it freezes.
 
-check: Is ice more or less dense than liquid water?
+check: Is ice more dense or less dense than liquid water?
 - More dense
 + Less dense
 - Just the same
-hint: Look at the paragraph. The answer is there.
-explain: Ice is an unusual solid because it is less dense than liquid water, by about 8.3%.
+hint: Look at the paragraph. It compares ice with liquid water.
+explain: Ice is less dense than liquid water, by about 8.3%.
 
 --- ⚙️
 p: Water is at its densest at 39°F (4°C).
 
-fact: As it gets colder and starts to freeze, it becomes less dense.
+fact(Colder than that): As water gets colder and starts to freeze, it becomes less dense.
 
-check: At what temperature is water densest?
+check: At what temperature is water at its densest?
 - 32°F
-+ 39°F
 - 93°F
-hint: Look at the paragraph. The answer is there.
++ 39°F
+hint: Look at the paragraph. It gives a temperature.
 explain: Water is at its densest at 39°F (4°C).
 
 --- 🔧
@@ -798,24 +826,38 @@ p: Water molecules pull on each other strongly, so water has a high surface tens
 
 term: surface tension = The strong pull water molecules have on each other.
 
-fact: That lets razor blades and insects called water striders float on top of it.
+fact(What floats): Surface tension lets razor blades and insects called water striders float on top of water.
 
-check: What insect can float on the surface of water?
-- Grasshoppers
-+ Water striders
-- Dragonflies
-hint: Look at the paragraph. The answer is there.
-explain: That lets razor blades and insects called water striders float on top of it.
+check: What kind of insect can float on top of water?
+- Insects called grasshoppers
++ Insects called water striders
+- Insects called dragonflies
+hint: Look at the box. It names the insects that float.
+explain: Surface tension lets razor blades and insects called water striders float on top of water.
 
 --- 🧩
 p: Water is called the universal solvent and the solvent of life.
 
-fact: It is the most studied chemical compound there is.
+fact(Studied most): Water is the most studied chemical compound there is.
+
+check: What is water called because so many things dissolve in it?
++ The universal solvent
+- The common shiny metal
+- The heaviest of all gases
+hint: Look at the paragraph. It gives water's special name.
+explain: Water is called the universal solvent.
 
 --- 💡
 p: Ice is water frozen into a solid.
 
-fact: It forms at or below 32°F (0°C).
+fact(When it forms): Ice forms at or below 32°F (0°C).
+
+check: At what temperature does ice form?
+- Only above 39°F
+- Never, at any temperature
++ 32°F or below
+hint: Look at the box. It gives the temperature.
+explain: Ice forms at or below 32°F (0°C).
 
 --- 🔎
 p: Water as a solid, a liquid and a gas. Ice that is less dense. Water that is densest when cold. A strong pull on the surface.
@@ -828,52 +870,52 @@ quiz: What happens to water when it freezes?
 - It turns to steam
 explain: Water expands about 9% when it freezes.
 
-quiz: At what temperature does water freeze?
-- 39°F
-+ 32°F
-- 93°F
-explain: Ice forms at or below 32°F (0°C).
-
 quiz: What is water called because it can mix with so much?
-- The common metal
 + The universal solvent
+- The common metal
 - The heavy gas
 explain: Water is called the universal solvent.
 
-quiz: What lets insects float on water?
+quiz: What lets insects float on top of water?
 - Strong wind
-+ Surface tension
 - Hot sunlight
++ Surface tension
 explain: Water molecules pull on each other strongly, so water has a high surface tension.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: Is ice more dense or less dense than liquid water?
+- More dense
++ Less dense
+- The same
+explain: Ice is less dense than liquid water.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === physical-flight
 idea: Birds, airplanes and helicopters all stay in the air. Find out about the biggest wingspan and the push called lift.
 
-game: Wandering albatross = Greatest wingspan of a living flier | Lift = Push at right angles to the flow | Wright brothers = Flew the first airplane | Helicopter = Spinning rotors give lift and thrust
+game: Wandering albatross = Greatest wingspan of a living flier | Lift = The push at right angles to the flow | Wright brothers = Flew the first airplane | Helicopter = Spinning rotors give lift and thrust
 
 --- ✈️
 p: The wandering albatross has the greatest wingspan of any living animal that flies, up to 11 ft (3.5 m).
 
-fact: The great bustard is the heaviest flier, up to 46 lb (21 kg).
+fact(The heaviest): The great bustard is the heaviest flier, up to 46 lb (21 kg).
 
 check: Which flying animal has the greatest wingspan?
 - The great bustard
-+ The wandering albatross
 - The tiny hummingbird
-hint: Look at the paragraph. The answer is there.
-explain: The wandering albatross has the greatest wingspan of any living animal that flies, up to 11 ft (3.5 m).
++ The wandering albatross
+hint: Look at the paragraph. It names the flier with the greatest wingspan.
+explain: The wandering albatross has the greatest wingspan of any living animal that flies.
 
 --- 🏆
-p: Some fish can fly.
+p: A flying fish can stay in the air for a short time.
 
-fact: The longest flight ever recorded for a flying fish lasted 45 seconds.
+fact(The record): The longest flight ever recorded for a flying fish lasted 45 seconds.
 
-check: How long was the longest flight of a flying fish?
+check: How long was the longest flight ever recorded for a flying fish?
 - 4 seconds
 + 45 seconds
 - 45 minutes
-hint: Look at the box. The answer is there.
+hint: Look at the box. It gives the length of the flight.
 explain: The longest flight ever recorded for a flying fish lasted 45 seconds.
 
 --- ⚙️
@@ -881,36 +923,50 @@ p: When air flows around a wing, the air pushes on the wing.
 
 term: lift = The part of the push that is at right angles to the flow.
 
-fact: The part of that push that is at right angles to the flow is called lift. Lift usually acts upward, to work against gravity.
+fact(Lift): The part of that push that is at right angles to the flow is called lift. Lift usually acts upward, to work against gravity.
 
-check: What do we call the part of the push that points across the airflow?
-- Drag
+check: When air flows around a wing, what is the part of the push at right angles to the flow called?
 + Lift
+- Drag
 - Weight
-hint: Look at the box. The answer is there.
-explain: The part of that push that is at right angles to the flow is called lift.
+hint: Look at the box. It names the part of the push.
+explain: The part of the push that is at right angles to the flow is called lift.
 
 --- 📅
 p: The Wright brothers invented and flew the first airplane in 1903.
 
-fact: It was the first sustained, controlled flight of a powered machine heavier than air.
+fact(The first): It was the first sustained, controlled flight of a powered machine heavier than air.
 
 check: Who invented and flew the first airplane?
 - The Boeing brothers
-+ The Wright brothers
 - The Comet brothers
-hint: Look at the paragraph. The answer is there.
++ The Wright brothers
+hint: Look at the paragraph. It names who flew the first airplane.
 explain: The Wright brothers invented and flew the first airplane in 1903.
 
 --- ⏳
 p: The first jet aircraft was the German Heinkel He 178, in 1939.
 
-fact: The first jet airliner, the de Havilland Comet, was introduced in 1952. The Boeing 707 flew for more than 60 years.
+fact(Jet airliners): The first jet airliner, the de Havilland Comet, was introduced in 1952. The Boeing 707 flew for more than 60 years.
+
+check: What was the first jet aircraft?
+- The de Havilland Comet
++ The German Heinkel He 178
+- The Boeing 707
+hint: Look at the paragraph. It names the first jet aircraft.
+explain: The first jet aircraft was the German Heinkel He 178, in 1939.
 
 --- 🔧
 p: A helicopter gets its lift and thrust from spinning rotors.
 
-fact: That lets it take off and land straight up, hover, and fly forward, backward and sideways.
+fact(What that allows): A helicopter can take off and land straight up, hover, and fly forward, backward and sideways.
+
+check: What gives a helicopter its lift and thrust?
++ Spinning rotors
+- Flapping wings
+- A big balloon
+hint: Look at the paragraph. It says where a helicopter gets its lift.
+explain: A helicopter gets its lift and thrust from spinning rotors.
 
 --- 🔎
 p: A big wingspan. A fish that flies. Lift on a wing. A first airplane. A jet. A helicopter with rotors.
@@ -923,215 +979,243 @@ quiz: Which animal that flies is the heaviest?
 - The flying fish
 explain: The great bustard is the heaviest flier, up to 46 lb (21 kg).
 
-quiz: What gives a helicopter its lift and thrust?
-- Flapping wings
-+ Spinning rotors
-- A big balloon
-explain: A helicopter gets its lift and thrust from spinning rotors.
-
 quiz: In what year did the Wright brothers fly the first airplane?
-- 1093
 + 1903
+- 1093
 - 1930
 explain: The Wright brothers flew the first airplane in 1903.
 
-quiz: How long did the Boeing 707 fly?
+quiz: For how many years did the Boeing 707 fly?
 - Only 6 years
-+ More than 60 years
 - About 600 years
++ More than 60 years
 explain: The Boeing 707 flew for more than 60 years.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: What can a helicopter do that an airplane cannot?
+- Fly through clouds
++ Hover in one place
+- Carry passengers
+explain: A helicopter can take off and land straight up, hover, and fly forward, backward and sideways.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === physical-reactions
 idea: Rust, fire and the fizz of baking soda are all one thing: one substance turning into another.
 
-game: Rust = Iron, oxygen and water | Combustion = Does not always make a flame | Lavoisier = Found that burning uses oxygen | Baking soda = Gives off carbon dioxide
+game: Rust = Made from iron, oxygen and water | Combustion = Burning, which does not always make a flame | Lavoisier = Found that burning uses oxygen | Baking soda = Gives off carbon dioxide gas
 
 --- ⚗️
 p: Rust is a reddish-brown substance made when iron reacts with oxygen and water.
 
 term: rust = A reddish-brown substance made when iron reacts with oxygen and water.
 
-fact: Given enough time, an iron object can turn entirely to rust.
+fact(Given time): Given enough time, an iron object can turn entirely to rust.
 
-check: What makes iron rust?
+check: What makes iron turn to rust?
 - Sunlight and sand
 + Oxygen and water
 - Cold and snow
-hint: Look at the paragraph. The answer is there.
-explain: Rust is a reddish-brown substance made when iron reacts with oxygen and water.
+hint: Look at the paragraph. It says what iron reacts with.
+explain: Rust is made when iron reacts with oxygen and water.
 
 --- ⚙️
-p: Combustion does not always make a flame.
+p: Combustion, or burning, does not always make a flame.
 
-fact: A flame is only visible when the burning substances turn to vapor.
+fact(Seeing a flame): A flame is only visible when the burning substances turn to vapor.
 
 check: When can you see a flame?
 - When the air around the fire is perfectly still
-+ When the burning substances turn to vapor
 - When the sky behind the fire is completely dark
-hint: Look at the box. The answer is there.
++ When the burning substances turn to vapor
+hint: Look at the box. It says when a flame is visible.
 explain: A flame is only visible when the burning substances turn to vapor.
 
 --- 🔧
 p: Wood and coal do not burn as solids.
 
-fact: First heat turns them into gases, and then those gases burn. That burning makes the heat that turns more of the solid into gas.
+fact(How they burn): First heat turns them into gases, and then those gases burn. The burning makes the heat that turns more of the solid into gas.
 
 check: What do wood and coal turn into before they burn?
-- Liquids
 + Gases
+- Liquids
 - Powders
-hint: Look at the box. The answer is there.
-explain: First heat turns them into gases, and then those gases burn.
+hint: Look at the box. It says what heat turns them into.
+explain: First heat turns wood and coal into gases, and then those gases burn.
 
 --- 📅
 p: In 1785, Antoine Lavoisier found the correct explanation of burning.
 
-fact: It is a reaction with oxygen from the air.
+fact(What he found): Burning is a reaction with oxygen from the air.
 
-check: What did Lavoisier find burning to be?
+check: What did Antoine Lavoisier find burning to be?
 - A trick of the light
 + A reaction with oxygen
 - A cooling of the air
-hint: Look at the box. The answer is there.
-explain: It is a reaction with oxygen from the air.
+hint: Look at the box. It says what burning is.
+explain: Antoine Lavoisier found that burning is a reaction with oxygen from the air.
 
 --- 🧩
 p: Baking soda reacts with acids.
 
-fact: When it does, it gives off carbon dioxide gas.
+fact(What it gives off): When baking soda reacts with an acid, it gives off carbon dioxide gas.
+
+check: What gas does baking soda give off when it reacts with an acid?
+- Plain water vapor
+- Pure bottled oxygen
++ Carbon dioxide
+hint: Look at the box. It names the gas.
+explain: When baking soda reacts with an acid, it gives off carbon dioxide gas.
 
 --- 💡
 p: Heat alone can make baking soda work as a raising agent in baking.
 
-fact: Above 180°F (80°C), it releases carbon dioxide.
+fact(How hot): Above 180°F (80°C), baking soda releases carbon dioxide.
+
+check: Above what temperature does baking soda release carbon dioxide from heat alone?
++ 180°F
+- 18°F
+- 810°F
+hint: Look at the box. It gives the temperature.
+explain: Above 180°F (80°C), baking soda releases carbon dioxide.
 
 --- 🔎
 p: Rust from oxygen and water. A flame from vapor. Wood that turns to gas. Oxygen from the air. Baking soda and carbon dioxide.
 
 p: Things change.
 
-quiz: What gas does baking soda release?
-- Water vapor
-+ Carbon dioxide
-- Pure oxygen
-explain: Baking soda gives off carbon dioxide gas.
-
-quiz: Where does the oxygen for burning come from?
-- The water
-+ The air
-- The wood
-explain: Lavoisier found that burning is a reaction with oxygen from the air.
-
-quiz: When does baking soda release carbon dioxide from heat alone?
-- Below 32°F
-+ Above 180°F
-- Only in water
-explain: Above 180°F (80°C), it releases carbon dioxide.
-
-quiz: What can an iron object turn entirely into?
+quiz: What can an iron object turn entirely into, given enough time?
 - Gas
-+ Rust
 - Water
++ Rust
 explain: Given enough time, an iron object can turn entirely to rust.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: Where does the oxygen for burning come from?
++ The air
+- The water
+- The wood
+explain: Burning is a reaction with oxygen from the air.
+
+quiz: What do we call a baking soda reaction that makes bread rise?
+- Giving off pure sugar
++ Giving off carbon dioxide
+- Giving off salt water
+explain: When baking soda reacts with an acid, it gives off carbon dioxide gas.
+
+quiz: In what year did Antoine Lavoisier find the correct explanation of burning?
++ 1785
+- 1578
+- 1857
+explain: In 1785, Antoine Lavoisier found the correct explanation of burning.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === physical-gravity
 idea: Gravity is the pull that keeps your feet on the floor. A hammer and a feather fell together on the Moon.
 
-game: Albert Einstein = Said gravity curves space and time | Simon Stevin = Dropped two cannonballs from a tower | David Scott = Dropped a hammer and a feather | Terminal velocity = A skydiver's top speed
+game: Albert Einstein = Said gravity is a curving of space and time | Simon Stevin = Dropped two cannonballs from a tower | David Scott = Dropped a hammer and a feather | Terminal velocity = The top speed of a falling skydiver
 
 --- 🍎
-p: Every object with mass pulls on every other object.
+p: Every object pulls on every other object.
 
-fact: The more mass an object has, the stronger its pull. The farther apart the objects are, the weaker the pull.
+fact(Stronger and weaker): An object with more mass pulls harder. The more mass an object has, the stronger its pull. The farther apart the objects are, the weaker the pull.
 
-check: What makes the pull of gravity stronger?
-- More distance
+check: What makes the pull of gravity from an object stronger?
 + More mass
+- More distance
 - More wind
-hint: Look at the paragraph. The answer is there.
+hint: Look at the box. It says what makes the pull stronger.
 explain: The more mass an object has, the stronger its pull.
 
 --- 🧑
 p: Albert Einstein described gravity in 1915.
 
-fact: He described it as a curving of space and time caused by mass.
+fact(What he said): Albert Einstein described gravity as a curving of space and time caused by mass.
 
-check: Who described gravity as the curving of space and time?
+check: Who described gravity as a curving of space and time?
 - Simon Stevin
 + Albert Einstein
 - Galileo Galilei
-hint: Look at the paragraph. The answer is there.
-explain: Albert Einstein described gravity in 1915.
+hint: Look at the paragraph. It names the person.
+explain: Albert Einstein described gravity as a curving of space and time caused by mass.
 
 --- 👤
 p: In 1586, Simon Stevin dropped two cannonballs of different sizes and weights from a tower.
 
-fact: They fell at the same rate.
+fact(The result): The two cannonballs fell at the same rate.
 
-check: What did Simon Stevin drop from a tower?
-- A hammer and feather
-+ Two cannonballs
+check: What did Simon Stevin drop from a tower in 1586?
+- A hammer and a feather
 - Two feathers
-hint: Look at the paragraph. The answer is there.
++ Two cannonballs
+hint: Look at the paragraph. It says what he dropped.
 explain: In 1586, Simon Stevin dropped two cannonballs of different sizes and weights from a tower.
 
 --- 💨
 p: Near Earth's surface, an object falling in a vacuum speeds up by about 32 ft per second, every second (9.8 m/s2).
 
-fact: That is true no matter how heavy it is.
+fact(Heavy or light): This is true no matter how heavy the object is.
 
 check: Does a heavy object fall faster than a light one in a vacuum?
-- Yes, it does
 + No
+- Yes, it does
 - Only on the Moon
-hint: Look at the box. The answer is there.
-explain: That is true no matter how heavy it is.
+hint: Look at the box. It says whether weight matters.
+explain: An object falling in a vacuum speeds up the same amount, no matter how heavy it is.
 
 --- 👑
 p: On August 2, 1971, astronaut David Scott dropped a hammer and a feather on the Moon.
 
-fact: They fell at the same rate and hit the ground together. On the Moon, gravity is only about one-sixth as strong as on Earth.
+fact(What happened): The hammer and the feather fell at the same rate and hit the ground together. On the Moon, gravity is only about one-sixth as strong as on Earth.
+
+check: What did astronaut David Scott drop on the Moon in 1971?
+- A rock and a leaf from a tree
++ A hammer and a feather
+- A ball and a bat from home
+hint: Look at the paragraph. It says what he dropped.
+explain: On August 2, 1971, astronaut David Scott dropped a hammer and a feather on the Moon.
 
 --- 🏃
 p: Air pushes back on a falling object.
 
 term: terminal velocity = The top speed a falling skydiver reaches.
 
-fact: A skydiver reaches a top speed, called terminal velocity, of around 118 mph (190 km/h).
+fact(The top speed): A skydiver reaches a top speed, called terminal velocity, of around 118 mph (190 km/h).
+
+check: What do we call the top speed that a falling skydiver reaches?
+- Gravity velocity
+- Vacuum acceleration
++ Terminal velocity
+hint: Look at the box. It names the top speed.
+explain: A skydiver reaches a top speed, called terminal velocity.
 
 --- 🔎
 p: A pull between objects. A curve of space and time. Cannonballs that fall together. A hammer and a feather. A top speed.
 
 p: Gravity pulls.
 
-quiz: What fell at the same rate on the Moon?
-- A rock and a leaf
-+ A hammer and a feather
-- A ball and a bat
-explain: David Scott dropped a hammer and a feather, and they fell at the same rate.
-
 quiz: How strong is gravity on the Moon compared with Earth?
-- About double
-+ About one-sixth
+- About twice as strong
++ About one-sixth as strong
 - Exactly the same
 explain: On the Moon, gravity is only about one-sixth as strong as on Earth.
 
-quiz: What do we call a skydiver's top speed?
-- Vacuum speed
-+ Terminal velocity
-- Lift speed
-explain: A skydiver reaches a top speed, called terminal velocity.
-
-quiz: In which year did Albert Einstein describe gravity as curved space and time?
-- 1195
+quiz: In which year did Albert Einstein describe gravity as a curving of space and time?
 + 1915
+- 1195
 - 1951
 explain: In 1915, Albert Einstein described gravity as a curving of space and time.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: About how fast does a skydiver fall at top speed?
+- Around 18 mph
+- Around 1,180 mph
++ Around 118 mph
+explain: A skydiver reaches a top speed, called terminal velocity, of around 118 mph (190 km/h).
+
+quiz: What makes a pull of gravity weaker?
++ The objects being farther apart
+- The objects being closer together
+- The objects being warmer
+explain: The farther apart the objects are, the weaker the pull.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === physical-atoms
 idea: Everything you can touch is built from atoms too small to see, and there are only 118 kinds.
 
@@ -1140,13 +1224,13 @@ game: Atom = Extremely small, about 100 picometers across | Proton = Decides whi
 --- ⚛️
 p: Atoms are extremely small, typically around 100 picometers across.
 
-fact: More than 99.94% of an atom's mass is in its nucleus.
+fact(Where the mass is): More than 99.94% of an atom's mass is in its nucleus.
 
 check: Where is most of an atom's mass?
 - In the outer shell
 + In the nucleus
 - In the empty space
-hint: Look at the box. The answer is there.
+hint: Look at the box. It says where the mass is.
 explain: More than 99.94% of an atom's mass is in its nucleus.
 
 --- ⚙️
@@ -1154,48 +1238,62 @@ p: What makes one element different from another is the number of protons in its
 
 term: proton = The number of these in an atom makes it one element.
 
-fact: Any atom with 11 protons is sodium. Any atom with 29 protons is copper.
+fact(Two examples): Any atom with 11 protons is sodium. Any atom with 29 protons is copper.
 
 check: What element has atoms with 29 protons?
-- Sodium
 + Copper
+- Sodium
 - Oxygen
-hint: Look at the box. The answer is there.
+hint: Look at the box. It names the element with 29 protons.
 explain: Any atom with 29 protons is copper.
 
 --- 🔧
 p: Oxygen has 8 protons in each atom.
 
-fact: So oxygen is number 8 on the list of elements.
+fact(Its number): Oxygen is number 8 on the list of elements.
 
 check: How many protons does an oxygen atom have?
 - 80
-+ 8
 - 18
-hint: Look at the paragraph. The answer is there.
++ 8
+hint: Look at the paragraph. It gives the number of protons.
 explain: Oxygen has 8 protons in each atom.
 
 --- 📏
 p: Today 118 elements are known.
 
-fact: The first 94 occur naturally on Earth. The other 24 only occur when scientists make them in laboratories.
+fact(Natural and made): The first 94 occur naturally on Earth. The other 24 only occur when scientists make them in laboratories.
 
 check: How many elements occur naturally on Earth?
-- 24
 + 94
+- 24
 - 118
-hint: Look at the box. The answer is there.
-explain: The first 94 occur naturally on Earth.
+hint: Look at the box. It says how many occur naturally.
+explain: Of the 118 elements, the first 94 occur naturally on Earth.
 
 --- 🧑
 p: Dmitri Mendeleev was a Russian chemist.
 
-fact: In 1869, he made the first periodic table that people widely accepted.
+fact(1869): In 1869, Dmitri Mendeleev made the first periodic table that people widely accepted.
+
+check: What kind of scientist was Dmitri Mendeleev?
+- A French painter
++ A Russian chemist
+- An English sailor
+hint: Look at the paragraph. It says who Dmitri Mendeleev was.
+explain: Dmitri Mendeleev was a Russian chemist.
 
 --- 🤔
 p: Francium, element 87, is so rare.
 
-fact: It has only been photographed as light from tiny amounts.
+fact(Seen only as light): Francium has only been photographed as light from tiny amounts.
+
+check: Which element is number 87?
+- The element copper
+- The element sodium
++ Francium
+hint: Look at the paragraph. It names element 87.
+explain: Francium is element 87.
 
 --- 🔎
 p: Atoms that are very small. Protons that decide the element. Oxygen with 8 protons. 118 elements. A table of elements. A rare element.
@@ -1203,25 +1301,25 @@ p: Atoms that are very small. Protons that decide the element. Oxygen with 8 pro
 p: Atoms make everything.
 
 quiz: Which element has atoms with 11 protons?
-- Copper
 + Sodium
+- Copper
 - Oxygen
 explain: Any atom with 11 protons is sodium.
 
 quiz: How many elements are known today?
 - 18
-+ 118
 - 1,180
++ 118
 explain: Today 118 elements are known.
 
-quiz: Who made the first periodic table that people widely accepted?
-- David Scott
-+ Dmitri Mendeleev
-- Albert Einstein
+quiz: In what year did Dmitri Mendeleev make the first widely accepted periodic table?
+- 1698
++ 1869
+- 1986
 explain: In 1869, Dmitri Mendeleev made the first periodic table that people widely accepted.
 
 quiz: How many of the 118 elements occur naturally on Earth?
-- 24
 + 94
+- 24
 - 11
 explain: The first 94 occur naturally on Earth.

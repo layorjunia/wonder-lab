@@ -8,8 +8,8 @@ p: You were born with about 300 bones. By the time you are grown you have 206. S
 fact: A baby's skull is made up of several separate plates with gaps between them. This lets the head flex during birth and keep growing after.
 check: How many bones does an adult have?
 - 300
-+ 206
 - 150
++ 206
 hint: Look at the second sentence on the page. It gives the number you have now.
 explain: The number dropped from about 300 at birth to 206 as some bones fused together.
 
@@ -18,8 +18,8 @@ p: Bone is light, yet it holds up your whole body and takes hard knocks without 
 fact: Bone manages that by being two things at once. Hard mineral makes it stiff. Stretchy collagen fibers make it tough. Pure mineral would shatter. Pure collagen would simply bend.
 term: collagen = The stretchy fibers in your bones that keep them from breaking easily.
 check: What makes bone tough instead of brittle?
-+ Stretchy collagen fibers
 - Layers of dried marrow
++ Stretchy collagen fibers
 - Thin, smooth muscle fibers
 hint: Look at the fact box. It explains how hard mineral and stretchy collagen work together.
 explain: Stretchy collagen fibers make bone tough instead of brittle.
@@ -28,9 +28,9 @@ explain: Stretchy collagen fibers make bone tough instead of brittle.
 p: Your smallest bone is inside your ear.
 fact: It is called the stapes, or stirrup, because that is exactly what it looks like. Three tiny bones in a chain amplify the wobble of your eardrum and pass it inward.
 check: Where is your smallest bone?
++ Inside your ear
 - In your foot
 - In your hand
-+ Inside your ear
 hint: Look at the first sentence. It tells you where your smallest bone is.
 explain: Your smallest bone, the stapes or stirrup, is inside your ear.
 
@@ -38,8 +38,8 @@ explain: Your smallest bone, the stapes or stirrup, is inside your ear.
 p: Over half the bones in your body are tucked into your hands and feet.
 fact: Each hand has twenty-seven bones, and each foot has twenty-six bones. All those small bones let your hand wrap around a ball and your foot roll through a step.
 check: How many bones are in each hand?
-+ Twenty-seven
 - Twenty
++ Twenty-seven
 - Thirty
 hint: Look at the fact box. It gives the exact number of bones in each hand.
 explain: Each hand has twenty-seven bones, making it easy for you to grip and move with precision.
@@ -48,8 +48,8 @@ explain: Each hand has twenty-seven bones, making it easy for you to grip and mo
 p: A giraffe's neck may look very different from yours, but it is built with the same number of bones.
 fact: A giraffe has exactly seven neck bones, just like you do. Almost every mammal, from a mouse to a whale, has seven neck bones too.
 check: How many neck bones does a giraffe have?
-- Five
 + Seven
+- Five
 - Ten
 hint: Look at the fact box. It tells you that a giraffe has the same number of neck bones as you do.
 explain: Both a giraffe and you have exactly seven neck bones, even though the giraffe's are much longer.
@@ -75,8 +75,8 @@ p: Your thigh bone is the longest bone in your body, and it is close to a quarte
 fact: Take your height, divide by four, and you have roughly the length of your thigh bone.
 p: Your arm is joined to the rest of your skeleton by just one bone. Trace the ridge from the notch at the base of your throat out to the point of your shoulder: that collarbone is the only bony link.
 check: How long is your thigh bone compared with your height?
-- About half of it
 + About a quarter of it
+- About half of it
 - About three-quarters of it
 hint: Look at the fact box. It tells you to divide your height by four.
 explain: Your thigh bone is about a quarter of your total height.
@@ -104,10 +104,10 @@ game: Blind spot = Where your brain hides the gap | Suzana Herculano-Houzel = Di
 --- 👁️
 p: Close one eye and there is a hole in what you see. Each eye has a spot where the nerve leaves it and nothing is sensed. Your brain paints over that gap, so smoothly that you never notice.
 try: Draw a cross, and a dot 6 inches (15 cm) to the left of it. Hold the paper at arm's length, close your right eye, and stare at the cross with your left. Slowly move the paper toward your face. The dot will vanish — that is your blind spot, where the nerve leaves the eye. 
-check: What does your brain do with the gap where the nerve leaves the eye?
+check: What does your brain do about the blind spot, the gap where the nerve leaves your eye?
++ It paints over it so smoothly you never notice
 - It sends a bright flash to warn you of the gap
 - It leaves a small black spot in your sight all day
-+ It paints over it so smoothly you never notice
 hint: Look at the box that tells you what to do. It explains what happens when you move the paper.
 explain: The dot vanishes because your brain fills in the gap so smoothly that you do not notice it.
 
@@ -128,8 +128,8 @@ fact: About 60 percent of its dry weight is fat, which makes it your fattiest or
 fact: Your brain weighs about 2% of your total body weight but burns about 20% of your energy — that’s roughly 20 watts, about half of a 40-watt light bulb.
 check: About how much of your energy does the brain burn?
 - About 5 percent
-+ About 20 percent
 - About 50 percent
++ About 20 percent
 hint: Look at the last fact box. It gives the exact percentage.
 explain: The brain burns about 20% of your energy, even though it makes up only 2% of your weight.
 
@@ -137,9 +137,9 @@ explain: The brain burns about 20% of your energy, even though it makes up only 
 p: For a long time, nobody had actually counted the cells in a human brain.
 fact: Suzana Herculano-Houzel dissolved brains into a smooth soup and counted the nuclei floating in it. Each cell has one nucleus, so counting nuclei counts cells. The answer came out near 86 billion neurons, not the 100 billion that textbooks used to say.
 p: The idea that you use only 10% of your brain is simply wrong. Scans show activity all over it, and there is no spare, unused portion sitting idle.
-check: How were the brain's cells counted?
-+ The brain was dissolved into soup and the nuclei were counted
+check: How were the cells in a human brain counted?
 - A robot counted each cell one by one under a microscope
++ The brain was dissolved into soup and the nuclei were counted
 - Its total weight was divided by the weight of one cell
 hint: Look at the fact box. It explains how the counting was done.
 explain: Suzana Herculano-Houzel dissolved brains into a smooth soup and counted the nuclei floating in it to get the number of neurons.
@@ -159,7 +159,7 @@ explain: The signal starts in a blood vessel in the roof of your mouth, and your
 p: Sit down, lift your right foot off the floor and circle it clockwise.
 try: Keep circling your foot, and now draw a big number 6 in the air with your right hand. The foot will flip direction.
 fact: Both jobs are run from the same side of your brain, and the hand wins.
-check: Which one wins, the foot or the hand?
+check: You circle one foot, then draw a number 6 in the air with the hand on the same side. Which one wins: the foot or the hand?
 + The hand
 - The foot
 - They both stop
@@ -172,8 +172,8 @@ fact: Pins and needles happen when you squash a nerve, not because your foot "fa
 p: Another strange feeling is the jolt you sometimes get just as you are falling asleep. It's called a hypnic jerk. Nobody is sure why it happens; one idea is that your brain mistakes your muscles relaxing for a fall.
 check: What causes pins and needles?
 - Your foot falling asleep
-+ A squashed nerve
 - A sudden muscle spasm
++ A squashed nerve
 hint: Look at the fact box. It explains what causes pins and needles.
 explain: When you squash a nerve, it sends confused messages that feel like fizzing.
 
@@ -187,8 +187,8 @@ p: London taxi drivers need to know 25,000 streets before they can get their lic
 term: hippocampus = A part deep in the brain that helps you remember places and events.
 fact: Scans show the back of their hippocampus — the brain's map room — is measurably larger than other drivers', and it grows while they learn.
 check: What grows larger in a taxi driver's brain?
-+ The back of the hippocampus, the brain's map room
 - The cerebellum, the part that keeps you balanced
++ The back of the hippocampus, the brain's map room
 - The visual cortex, the brain's picture screen
 hint: Look at the fact box. It tells you which part of the hippocampus grows.
 explain: The back of the hippocampus grows larger as they learn the streets.
@@ -207,7 +207,7 @@ game: 36 trillion = The estimated number of cells in an adult man | 6 feet = The
 p: Nobody has ever counted all the cells in a human body. But scientists worked out an estimate.
 fact(How we know): The best estimate measures the size and packing of about 1,200 kinds of cell across 60 tissues and adds it up. Roughly 36 trillion cells in an adult man, 28 trillion in an adult woman, and about 17 trillion in a ten-year-old.
 p: Most of those cells are red blood cells, which are tiny.
-check: How was the number of cells found?
+check: How was the number of cells in a human body worked out?
 + By measuring the size and packing of the kinds of cell in each tissue and adding it all up
 - By putting a whole person in a giant scanner that counts every cell one at a time
 - By reading the number of cells written in a person's DNA
@@ -217,7 +217,7 @@ explain: The estimate measures the size and packing of about 1,200 kinds of cell
 --- 🧵
 p: Inside almost every one of your cells is something very long. If you stretched it out, it would be about 6 feet (2 m) long.
 fact: This DNA is spelled out in an alphabet of four letters and is about six billion letters long, three billion from each parent. All of it is folded into a nucleus that is far too small to see with the naked eye.
-check: About how long is the DNA in one cell?
+check: About how long is the DNA inside one human cell, if you stretch it out?
 - About 1 foot
 + About 6 feet
 - About 60 yards
@@ -227,10 +227,10 @@ explain: It's about 6 feet of DNA, all coiled up inside each cell.
 --- 📏
 p: Your longest cell runs from the base of your spine all the way down to your big toe. That's over 3 feet of one single cell.
 fact: At the other end of the scale, you could line about ten red blood cells side by side across the width of one hair from your head.
-check: How long is your longest cell?
+check: How long is the longest cell in your body?
 - About 1 foot
-+ Over 3 feet
 - About 1 inch
++ Over 3 feet
 hint: The length is given right at the start of the page.
 explain: It runs over 3 feet from the base of your spine to your big toe.
 
@@ -254,9 +254,9 @@ p: Small children use up and replace a bigger share of their body water each day
 p: Some of your cells go their whole lives without being replaced.
 fact: The cells in the middle of each eye's lens formed before you were born and are never swapped out. They have to stay perfectly see-through for a whole lifetime.
 check: Why are the cells in the middle of your eye's lens never swapped out?
-+ They have to stay perfectly see-through for a whole lifetime
 - They are made too tough for anything in the body to break them down
 - They are kept safe by the bone around the eye and never get hurt
++ They have to stay perfectly see-through for a whole lifetime
 hint: Look at the fact box. It explains why these cells must remain unchanged.
 explain: These cells need to stay clear so you can see clearly.
 
@@ -265,9 +265,9 @@ p: Inside most of your cells are hundreds of tiny power plants. They are called 
 term: mitochondria = The little power plants inside your cells that turn food and oxygen into energy.
 fact: A heart muscle cell crams in thousands of them, filling about a third of the cell. They never get a night off.
 check: What do mitochondria do?
++ Turn food and oxygen into energy the cell can use
 - Store extra water and salt that the cell can use
 - Send out messages and warnings that other cells can read
-+ Turn food and oxygen into energy the cell can use
 hint: Look at the term box. It tells you what mitochondria do.
 explain: Mitochondria turn food and oxygen into energy that the cell can use.
 
@@ -276,8 +276,8 @@ p: Hold your breath for a moment. You will soon feel a desperate need to gasp.
 fact: That urge is mostly from carbon dioxide piling up in your blood, not from running out of oxygen.
 try: Breathe in and hold it, counting how long you can last (no deep breathing first, and stop if you feel dizzy). Then breathe all the way out and hold that, counting again. The empty one is far shorter because your lungs have less air to spare, so the carbon dioxide builds up faster.
 check: Why do you feel the need to gasp when you hold your breath?
-+ Waste gas is piling up
 - You are running out of oxygen
++ Waste gas is piling up
 - Your lungs are getting tired
 hint: Look at the first sentence of the fact box. It tells you why you need to gasp.
 explain: The urge to gasp comes from waste gas building up in your blood.
@@ -296,9 +296,9 @@ game: Fever = Body's way to slow down germs | Phagocytosis = White blood cells s
 p: When you have a fever, your body does it on purpose.
 fact: A fever is not the illness itself. It is your body deliberately turning up the heat.
 p: Many germs breed best at your normal temperature, and your immune cells work faster when it gets warmer.
-check: Why does your body turn up the heat?
-- Heat dries out the germs completely and your blood cells need warmth to carry oxygen
+check: Why does your body raise its temperature when you have a fever?
 + Many germs breed best at normal temperature and immune cells work faster when warm
+- Heat dries out the germs completely and your blood cells need warmth to carry oxygen
 - Extra warmth helps your muscles heal faster and lets you sweat the germs out
 hint: Look at the last sentence. It explains why your body raises the temperature.
 explain: Your body raises the temperature to slow down germ breeding and speed up immune cell activity.
@@ -318,8 +318,8 @@ explain: Phagocytosis literally means "cell eating." The cell flows around an in
 p: Pus is mostly made of white blood cells that died doing their job, mixed with the germs they killed and the bits of tissue damaged in the fight.
 fact: Green snot does not mean you need antibiotics. The color comes from an enzyme inside your own white blood cells.
 check: Where does the green color of snot come from?
-+ An enzyme in your own white blood cells
 - Germs that must be killed with antibiotics
++ An enzyme in your own white blood cells
 - Green dye left over from the food you eat
 hint: Look at the fact box. Its last sentence tells you where the green color comes from.
 explain: The green color is from an enzyme inside your white blood cells, not from bacteria that need antibiotics.
@@ -340,8 +340,8 @@ fact: The eye-closing is a reflex bundled with the sneeze. Nobody has found a go
 p: Your immune system fights germs, but sometimes it mistakes harmless things like pollen or peanuts for threats.
 check: What is an allergy?
 - A germ that lives in the air and makes people sneeze
-+ The immune system attacking something harmless by mistake
 - A sickness you catch from touching a sick animal's fur
++ The immune system attacking something harmless by mistake
 hint: Look at the last paragraph. It explains what an allergy is.
 explain: An allergy happens when your immune system mistakes something harmless like pollen or peanuts for a threat and overreacts.
 
@@ -350,8 +350,8 @@ p: Throwing up is a defense. It is your body's way of getting poison out.
 fact: A small patch at the base of your brain samples your blood for poisons. If it finds one, it empties your stomach without asking you first.
 check: What samples your blood for poisons?
 - A thin valve at the bottom of your stomach
-- A pair of small glands above your kidneys
 + A small patch at the base of your brain
+- A pair of small glands above your kidneys
 hint: Look at the fact box. It explains where the sample happens.
 explain: The small patch at the base of your brain checks your blood for poisons and makes you sick if it finds one.
 
@@ -359,7 +359,7 @@ explain: The small patch at the base of your brain checks your blood for poisons
 p: You can feel your immune system's inspection points right under your jaw.
 fact: Press gently under your jaw, just behind the corner, and roll your fingers around. Small firm beads move under the skin: lymph nodes. Fluid from your head passes through them to be checked, and they swell when you are fighting something off.
 
-check: What are the small firm beads under your jaw?
+check: What are the small firm beads you can feel under your jaw?
 + Lymph nodes
 - Hair roots
 - Muscles
@@ -369,10 +369,10 @@ explain: The small firm beads you feel are lymph nodes, which check fluid from y
 --- 👃
 p: Alexander Fleming had a cold one day, and he sneezed into a dish of bacteria.
 fact: Where the drop from his nose sat, the bacteria dissolved. He had stumbled on a germ-killer that your tears, spit, and snot make all the time. He named it lysozyme in 1922.
-check: What killed the bacteria Fleming saw?
+check: What killed the bacteria in the dish when Alexander Fleming sneezed into it?
 - Mold blown in from outside
-+ Lysozyme from his own nose
 - Strong soap from his own sink
++ Lysozyme from his own nose
 hint: Look at the fact box. It names the germ-killer.
 explain: Lysozyme, a germ-killer in your tears, spit, and snot, is what dissolved the bacteria.
 
@@ -381,8 +381,8 @@ p: Milkmaids who had caught cowpox seemed never to catch smallpox.
 fact: In 1796, Edward Jenner scratched cowpox fluid into the arm of an eight-year-old named James Phipps. Later, he exposed Phipps to smallpox, and Phipps did not get ill. The word vaccine comes from vacca, the Latin for cow.
 check: Where does the word vaccine come from?
 - The name of the doctor who invented it
-- The name of the first patient
 + Vacca, the Latin for cow
+- The name of the first patient
 hint: Look at the last sentence on the page. It tells you where the word comes from.
 explain: The word vaccine comes from vacca, which is Latin for cow.
 
@@ -400,10 +400,10 @@ game: Robert Wadlow = Tallest person ever measured | Growth hormone = Helps bone
 fact: Your body makes most of its growth hormone during deep sleep, so sleep matters for growing.
 fact: You are also measurably taller in the morning than at bedtime. The discs in your spine decompress overnight.
 try: Measure your height first thing in the morning, then again just before bed. Most people lose up to about half an inch (1 cm) over the day as the cushions between the bones of the spine squash down.
-check: When are you tallest?
+check: At what time of day are you tallest?
 - At the end of a long day
-+ First thing in the morning
 - Right after you eat dinner
++ First thing in the morning
 hint: Look at the second fact box. It says when you are measurably taller.
 explain: The discs in your spine decompress overnight, making you taller in the morning.
 
@@ -412,9 +412,9 @@ p: Babies are born without kneecaps, at least not the bony kind.
 fact: At birth, their kneecaps start as cartilage — the same bendy stuff as the tip of your nose — and harden into bone over several years.
 term: cartilage = The bendy, flexible material that makes up parts of your body like the tip of your nose.
 check: What are a baby's kneecaps made of at first?
++ Cartilage
 - Bone
 - Skin
-+ Cartilage
 hint: Look at the fact box. It says they start as cartilage.
 explain: At birth, a baby’s kneecaps are made of cartilage and harden into bone over several years.
 
@@ -423,8 +423,8 @@ p: Take an x-ray of a six-year-old's jaw and you see two sets of teeth, one in p
 fact: The baby ones are in place, and the adult ones are stacked behind and below, waiting their turn.
 p: A baby tooth does not get pushed out with its roots intact. The roots dissolve away first, which is why a wobbly tooth comes out as a small hollow cap.
 check: What happens to a baby tooth's roots?
-+ They dissolve away first
 - They get pushed out whole
++ They dissolve away first
 - They grow longer and stronger
 hint: Look at the second sentence in the last paragraph. It explains how the roots dissolve away.
 explain: The roots of a baby tooth dissolve away first, which is why a wobbly tooth comes out as a small hollow cap.
@@ -433,9 +433,9 @@ explain: The roots of a baby tooth dissolve away first, which is why a wobbly to
 p: During a growth spurt, the ends grow first. Hands and feet reach their full adult size before the arms and legs.
 fact: That's why shoes stop fitting before pants do.
 check: Which parts of your body finish growing first during a growth spurt?
-+ Hands and feet
 - Arms and legs
 - Chest and back
++ Hands and feet
 hint: Look at the first paragraph. It says which parts reach full size first.
 explain: Hands and feet reach their full size before the arms and legs do, so shoes stop fitting first.
 
@@ -443,9 +443,9 @@ explain: Hands and feet reach their full size before the arms and legs do, so sh
 p: A newborn's head is about a quarter of its whole length.
 fact: Yours is nearer an eighth. The head changes least because the brain does most of its growing earliest, and the rest of the body spends years catching up.
 check: How much of a newborn's length is its head?
++ About a quarter
 - About an eighth
 - Half
-+ About a quarter
 hint: Look at the first sentence on this page.
 explain: A newborn's head is about a quarter of its whole length.
 
@@ -469,8 +469,8 @@ p: How much sleep you need changes as you grow.
 fact(Worked out): Nine to twelve hours of sleep is right for a nine-year-old. It was worked out by testing how children think and feel with more or less sleep.
 p: As you become a teenager, your body clock shifts later. The urge to stay up late isn't laziness. Your body just wants to sleep at a different time.
 check: How much sleep does a nine-year-old need?
-- Six to eight hours
 + Nine to twelve hours
+- Six to eight hours
 - Fourteen to sixteen hours
 hint: Look at the fact box. It gives the exact range for nine-year-olds.
 explain: Nine to twelve hours is just right for a nine-year-old to think and feel their best.
@@ -492,7 +492,7 @@ game: Alexis St Martin = Got shot and had an open stomach wound | corn = Helps y
 --- 🍪
 p: Chew a plain cracker slowly and hold it in your mouth for a whole minute without swallowing. It turns sweet because an enzyme in your saliva, a chemical that breaks food apart, cuts the starch into sugar.
 
-check: Why does the cracker turn sweet?
+check: Why does a cracker turn sweet if you hold it in your mouth for a minute?
 - The cracker is flavored with sugar to begin with
 + An enzyme in your saliva cuts the starch into sugar
 - Your teeth grind out the sweetness
@@ -523,10 +523,10 @@ explain: A layer of mucus and a fresh supply of cells replace the lining continu
 --- 🧪
 p: In 1822, Alexis St Martin got shot in the side and the wound left a hole into his stomach that never closed.
 fact: His doctor, William Beaumont, lowered food on a string into the hole more than 200 times to see how much of it had been digested. These experiments showed that the stomach works mostly by chemistry, with juices breaking the food down.
-check: What did these experiments show?
+check: What did Dr. William Beaumont learn about the stomach by lowering food into a hole in a man's stomach?
++ That the stomach works by chemistry
 - That the stomach only stores food until it moves on
 - That the stomach never needs to rest
-+ That the stomach works by chemistry
 hint: Look at the fact box. It names what the experiments proved about how the stomach works.
 explain: The experiments showed that the stomach works by chemistry, not grinding.
 
@@ -534,7 +534,7 @@ explain: The experiments showed that the stomach works by chemistry, not grindin
 p: You can time your own digestion with corn.
 fact: Eat a good helping of corn and write down the time. The yellow skins are made of a fiber you cannot break down, so they come out looking exactly the same. For most people, they show up around a day to a day and a half later.
 
-check: About how long does corn take to pass through?
+check: About how long does a piece of corn take to pass through your gut?
 - Only an hour to two hours
 + A day to a day and a half
 - A week to a week and a half
@@ -545,9 +545,9 @@ explain: Most people see the corn skins around a day to a day and a half later.
 p: Your small intestine is not actually small. Stretched out, it is about 20 feet (6 m) long.
 fact: It is called "small" because it is narrow, not short. Its inner surface is folded and fringed into millions of tiny projections.
 check: Why is it called the small intestine?
-+ It is narrow
 - It is short
 - It is the smallest organ in your belly
++ It is narrow
 hint: Look at the fact box. It explains why it's called small.
 explain: The term "small" refers to its width, not its length.
 
@@ -555,8 +555,8 @@ explain: The term "small" refers to its width, not its length.
 p: Your stomach does not rumble because it wants food.
 fact: About every 90 minutes, when there is nothing to digest, a slow wave sweeps down your gut clearing out leftovers. The noise you hear is gas and liquid being shoved along ahead of it.
 check: Why does your stomach rumble when empty?
-- Your stomach is calling for more food
 + A slow wave is clearing out leftovers
+- Your stomach is calling for more food
 - It is shrinking to squeeze out extra water
 hint: Look at the fact box. It describes what happens every 90 minutes.
 explain: The rumbling sound is from a slow wave pushing gas and liquid through your gut.
@@ -565,10 +565,10 @@ explain: The rumbling sound is from a slow wave pushing gas and liquid through y
 p: Your gut has its own nerve network, made of about 500 million cells.
 fact: Cut the gut off from the brain, and it carries on digesting just fine. It has enough nerves to work on its own.
 p: Inside your gut are trillions of bacteria that help break down food your body can't handle and make vitamins for you.
-check: About how many cells are in the gut's nerve network?
+check: About how many nerve cells are in the nerve network of the gut?
 - About 50 million
-+ About 500 million
 - About 5 billion
++ About 500 million
 hint: Look at the first sentence on the page. It gives the number of cells.
 explain: The gut's nerve network has about 500 million cells.
 
@@ -577,8 +577,8 @@ p: Your liver does hundreds of jobs, from cleaning your blood to making bile, wh
 fact: The liver is the one large organ inside you that grows back. Remove two thirds of it and the remaining part will grow back to full size.
 check: Which large organ grows back to full size after being partly removed?
 - The heart
-- The lungs
 + The liver
+- The lungs
 hint: Look at the fact box. It names the organ that regrows.
 explain: The liver is unique in that it can grow back to its full size even after two thirds of it are removed.
 
@@ -597,9 +597,9 @@ p: There are no muscles inside your fingers.
 fact: Every bend and straighten is worked from a distance, by muscles in your palm and forearm hauling on cords called tendons that run down inside each finger.
 try: Wrap your left hand around your right forearm just below the elbow and wiggle your right fingers. You can feel the muscles doing the job several inches away from the fingers that are actually moving.
 check: Where are the muscles that move your fingers?
-+ In your palm and forearm
 - Inside each of your fingers
 - In your shoulder and chest
++ In your palm and forearm
 hint: Look at what you can feel when you wrap your hand around your forearm and wiggle your fingers.
 explain: The muscles in your palm and forearm do all the work.
 
@@ -608,16 +608,16 @@ p: One of your fingers cannot move on its own, and it is not the one you would g
 fact: Put your palm flat on a table and fold your middle finger under, knuckle down on the wood. Now lift each finger in turn. The thumb, index, and little finger all come up easily. But the ring finger will not budge because its tendon is tied to the middle finger's.
 
 check: Which finger will not lift when your middle finger is folded down?
++ The ring finger
 - The thumb
 - The index finger
-+ The ring finger
 hint: Look at what happens when you try to lift each finger after folding the middle finger down.
 explain: The ring finger's tendon is tied to the middle finger's, so it will not budge.
 
 --- 🖐️
 p: Your little finger is not just for looks. It actually adds a lot to your grip strength.
 fact: Measured on a grip meter, leaving out the little finger costs about a third of your grip strength. 
-check: What does leaving out your little finger cost?
+check: How much grip strength do you lose if you leave out your little finger?
 - About a tenth of your grip strength
 + About a third of your grip strength
 - About two-thirds of your grip strength
@@ -653,8 +653,8 @@ p: A surgeon named Wilder Penfield mapped it during operations with awake patien
 check: What takes up more of the brain's body map, the hands or the trunk and legs together?
 - The trunk and legs together
 - The feet
-- The back and belly
 + The hands
+- The back and belly
 hint: Look at the first sentence in the fact box.
 explain: The hands take up more room on the brain's map because they need more control.
 
@@ -673,8 +673,8 @@ explain: You use a precision grip to hold a pencil, pinching it between your thu
 p: Fingernails grow about 0.14 inches a month, roughly twice as fast as toenails, which grow about 0.06 inches a month.
 fact: Your little fingernail is the slowest of the ten.
 check: Which fingernail grows the slowest?
-- The ring finger's
 + The little finger's
+- The ring finger's
 - The middle finger's
 hint: Look at the second sentence. It tells you which nail grows the slowest.
 explain: Your little fingernail is the slowest of the ten.
@@ -692,10 +692,10 @@ game: Aorta = The pipe leaving the heart, about an inch across | Harvey = Used a
 --- 🫰
 p: You can find your own heartbeat in about five seconds. Put two fingers — not your thumb, it has its own pulse — on the thumb side of your wrist.
 try: Count the beats for 15 seconds and multiply by four to get beats per minute.
-check: How do you turn a 15-second count into beats a minute?
+check: How do you turn a 15-second pulse count into beats a minute?
 - Divide by four
-- Add thirty
 + Multiply by four
+- Add thirty
 hint: Look at the box that tells you what to do. It tells you what to do with the count.
 explain: Count the beats for 15 seconds and then multiply that number by four.
 
@@ -705,15 +705,15 @@ term: aorta = The pipe leaving the heart, about an inch across.
 fact: The aorta, the pipe leaving the heart, is about 1 inch (2.5 cm) across, almost like a garden hose. 
 check: What is the aorta?
 - The valve inside the heart
-+ The pipe leaving the heart, about an inch across
 - A vein that brings blood back to the heart
++ The pipe leaving the heart, about an inch across
 hint: Look at the term box. It says what the aorta is.
 explain: The aorta is the pipe leaving the heart and it is about an inch across.
 
 --- 🥁
 p: Your heart beats about 100,000 times a day and has never once taken a day off.
 fact: It manages that because it rests between every single beat. Add all those tiny pauses together and the heart is actually "off duty" for more than half of every day.
-check: How can the heart keep going all day?
+check: How can the heart keep going all day without getting tired?
 + It rests between every single beat
 - It gets an hour-long break in the middle
 - Each beat is so gentle that it uses almost no energy
@@ -735,8 +735,8 @@ p: In 1628, William Harvey figured out that blood circulates through your body.
 fact: He used arithmetic to show it. He worked out how much blood one heartbeat pushes, multiplied it by the number of beats in half an hour, and got far more blood than a whole body holds.
 check: How did Harvey show that blood goes round in a loop?
 - By finding tiny capillaries with a strong microscope
-- By watching the blood move through a glass window in the skin
 + By arithmetic, which gave more blood than a body holds
+- By watching the blood move through a glass window in the skin
 hint: Look at the fact box. It explains how he used numbers to figure it out.
 explain: Harvey's numbers showed there was too much blood for it to just be used up, so it had to go round in a loop.
 
@@ -745,8 +745,8 @@ p: Your veins look blue under your skin, but that is just an illusion.
 fact: Blood that has given up its oxygen is dark red. Veins only appear blue because of how light travels through your skin and bounces back to your eye.
 p: Red blood cells carry oxygen using iron, which is why blood tastes faintly metallic.
 check: What color is blood that has given up its oxygen?
-- Bright red
 + Dark red
+- Bright red
 - Blue
 hint: Look at the first sentence of the fact box. It tells you what color blood is without oxygen.
 explain: Blood that has given up its oxygen is dark red.
@@ -755,7 +755,7 @@ explain: Blood that has given up its oxygen is dark red.
 p: Nobody has ever laid one person's blood vessels end to end, but we can work out how long they are.
 fact(How we know): Count the capillaries in a small piece of tissue and multiply up. You get somewhere between ten and sixty thousand miles, and scientists still argue about the exact number.
 p: Almost all of that length is capillaries — tiny vessels so narrow that red blood cells have to squeeze through in single file.
-check: How do we know how long the blood vessels are?
+check: How do we know how long all the blood vessels in a body are?
 - By pulling them out of a body and laying them in a line
 - By following one blood drop with a stopwatch and a fast camera
 + By counting capillaries in a small piece and multiplying up
@@ -766,9 +766,9 @@ explain: Scientists count capillaries in a small piece of tissue and then multip
 p: You can watch your blood refill part of your body in under two seconds.
 fact: Press hard on a fingernail for five seconds, then let go. The nail will turn white, then color floods back — normally in under two seconds.
 
-check: How fast should the color come back?
-+ In under two seconds
+check: After you press a fingernail white for five seconds and let go, how fast should the color come back?
 - In over five seconds
++ In under two seconds
 - It should stay white
 hint: Look at the fact box. It gives the time the color should return.
 explain: The color should flood back in under two seconds. This is how paramedics check that blood is reaching someone's hands and feet.
@@ -777,8 +777,8 @@ explain: The color should flood back in under two seconds. This is how paramedic
 p: Your heart does not wait for instructions. A patch of cells at the top sets the beat.
 fact: Even single heart cells taken out and kept in a dish keep beating on their own. That is why a donated heart starts up again in a new chest.
 check: What sets the heartbeat?
-- The brain sends a signal every time
 + A patch of cells in the heart itself
+- The brain sends a signal every time
 - The lungs tell it when to beat
 hint: Look at the second sentence. It names what sets the beat.
 explain: A patch of cells in the heart itself sets the beat, and even single heart cells kept in a dish continue to beat on their own.
@@ -799,8 +799,8 @@ fact(Where did it come from?): 98.6°F (37°C) came from one German doctor's rea
 try: Take your temperature first thing in the morning and again around six in the evening. The evening reading is usually higher.
 check: Where did the number 98.6 come from?
 - A big study across many countries
-- An ancient Chinese text
 + One German doctor's readings in 1851
+- An ancient Chinese text
 hint: Look at the fact box. It tells you where it came from.
 explain: The number 98.6°F (37°C) came from one German doctor's readings in 1851.
 
@@ -809,9 +809,9 @@ fact: Sweat cools you only when it turns into vapor. On a muggy day the air is a
 try: Wet the back of one hand and leave the other dry, then blow steadily across both. The wet one will feel noticeably colder as the water steals heat from your skin to turn into vapor.
 term: vapor = The gas form of water, like steam.
 check: When does sweat cool you?
-+ As it turns into vapor
 - While it sits on your skin
 - Just before you start sweating
++ As it turns into vapor
 hint: Look at the first sentence. It tells you when the cooling happens.
 explain: The cooling happens as sweat turns into vapor and leaves your skin.
 
@@ -828,7 +828,7 @@ explain: Your head is about 7% of your skin, so it loses roughly that share of b
 --- 🥶
 p: When you shiver, your muscles are firing against each other on purpose.
 fact: Shivering makes heat instead of movement and can lift your heat production to about five times its resting level.
-check: What does shivering make?
+check: What do your muscles make when you shiver?
 - Sweating
 + Heat instead of movement
 - Colder body temperature
@@ -858,7 +858,7 @@ explain: In mice, the muscle holds a nerve against the cells that grow new hair.
 --- 🧊
 p: The range of temperatures a person can survive is wider than you might think.
 fact: Anna Bagenholm was pulled from under river ice with her body temperature at 56.7°F (13.7°C) and no heartbeat, yet she lived. Willie Jones survived heatstroke when his body hit 115.7°F (46.5°C).
-check: Who was pulled from under river ice and survived?
+check: Which person was pulled from under river ice with no heartbeat, and survived?
 - Willie Jones
 + Anna Bagenholm
 - A person in the desert
@@ -868,7 +868,7 @@ explain: Anna Bagenholm's body temperature was very low, but she survived.
 --- 👶
 p: Newborns have a trick for staying warm. They do not shiver much, the way adults do.
 fact: Instead, they carry brown fat across their back and shoulders. This special fat is stuffed with power plants and burns purely to make heat.
-check: What do newborns burn to make heat?
+check: What do newborn babies burn to make heat?
 - White fat
 - Muscle
 + Brown fat
@@ -899,10 +899,10 @@ explain: When you pinch your nose, it stops the air from moving out through your
 p: If you could unfold the inside of your lungs flat, they would cover about a quarter of a tennis court.
 term: sacs = Tiny air pockets where oxygen moves into your blood.
 fact: All that area is folded into your chest as hundreds of millions of tiny air sacs. The wall of each one is thinner than a sheet of tissue paper, so oxygen slips straight through into the blood.
-check: How thin is the wall of each air sac?
+check: How thin is the wall of each air sac in your lungs?
++ Thinner than a sheet of tissue paper
 - About as thick as a slice of bread
 - Thicker than a sheet of stiff cardboard
-+ Thinner than a sheet of tissue paper
 hint: Look at the last sentence on the page. It gives the thickness.
 explain: The wall of each air sac is thinner than a sheet of tissue paper, which lets oxygen move into your blood easily.
 
@@ -910,9 +910,9 @@ explain: The wall of each air sac is thinner than a sheet of tissue paper, which
 p: Your left lung is smaller than your right because your heart takes up some of that space.
 fact: The left lung has two lobes and the right has three. The spot where your heart sits in the left lung is called the cardiac notch.
 check: Why is the left lung smaller?
-+ Your heart sits in the space
 - It needs more room for air
 - It helps you breathe faster
++ Your heart sits in the space
 hint: Look at the first sentence on the page. It tells you why the left lung is smaller.
 explain: Your heart takes up some of the space where your left lung would otherwise be.
 
@@ -946,7 +946,7 @@ explain: When you blow hard with pursed lips, the fast jet of air drags in cool 
 --- 😛
 p: Have you ever had a hiccup? 
 fact: A hiccup happens when your diaphragm, the big muscle under your lungs, twitches and makes you gulp air suddenly. About a thirty-fifth of a second later, your vocal cords snap shut, making the "hic" sound.
-check: What makes the hic sound?
+check: What makes the 'hic' sound of a hiccup?
 - Your tongue snapping back fast
 - Your lungs bursting open fast
 + Your vocal cords snapping shut
@@ -960,9 +960,9 @@ fact: In a bird, fresh air keeps moving across its lungs even while it breathes 
 --- 🧹
 p: You have tiny hairs in your airways that row mucus upward, and you swallow around 3 pints of it every day without even noticing.
 fact: These tiny hairs carry trapped dust with the mucus and move it upward at about half an inch a minute.
-check: How fast do the airway hairs move mucus?
-+ About half an inch a minute
+check: How fast do the tiny hairs in your airways move mucus?
 - About one inch a second
++ About half an inch a minute
 - About one foot a minute
 hint: Look at the second sentence. It gives the speed of the movement.
 explain: The tiny hairs move mucus upward at about half an inch a minute, carrying dust with it.
@@ -993,8 +993,8 @@ p: Remember those old maps showing sweet at the tip and bitter at the back? They
 fact: Every part of your tongue can detect every taste. The map came from a mistranslated German study and got copied for decades.
 term: mistranslated = Changed from one language into another by mistake.
 check: Is there a map of tastes on your tongue?
-+ No, every part can taste everything
 - Yes, sweet at the tip and bitter at the back
++ No, every part can taste everything
 - Only salty is at the sides
 hint: Look at the fact box. It says that every part of your tongue can detect every taste.
 explain: The old maps were based on a mistake, but every part of your tongue can taste all flavors.
@@ -1004,8 +1004,8 @@ p: Your sense of temperature is relative, and you can fool it in under a minute.
 fact: Put one hand in cold water and one in warm for 30 seconds, then plunge both into lukewarm water. The same water feels warm to one hand and cool to the other.
 try: Fill three bowls with cold, lukewarm, and comfortably warm water (never hot). 
 check: Why does lukewarm water feel warm to one hand and cool to the other?
-- One hand has more nerves for feeling heat than the other
 + Temperature sense is relative to what it felt before
+- One hand has more nerves for feeling heat than the other
 - The water really is warmer next to one hand than the other
 hint: Look at the fact box. It explains how your hands can feel different temperatures in the same bowl.
 explain: Your sense of temperature depends on what you felt before, so one hand thinks it's warm and the other cool in the same water.
@@ -1014,7 +1014,7 @@ explain: Your sense of temperature depends on what you felt before, so one hand 
 p: Your sight seems sharp all over, but there's a trick to it.
 fact: The genuinely sharp part of your sight is about the size of your thumbnail held at arm's length.
 try: Hold a book at arm's length and stare hard at one word. Do not let your eyes drift. Now try to read the words on either side of it. You cannot.
-check: How big is the sharp part of your sight?
+check: How big is the small, sharp part of your sight?
 - Roughly as wide as a dinner plate held at arm's length
 + About the size of your thumbnail held at arm's length
 - Nearly as large as a whole book page held at arm's length
@@ -1025,7 +1025,7 @@ explain: Only a patch about the size of your thumbnail at arm's length is sharp.
 p: Stare at a strong color for 30 seconds and then look at a white wall. Your eye will print the opposite color there.
 fact: The cells in your eye that handle the first color get worn out for a moment, so you see the opposite one.
 try: Stare at something red for 30 seconds without moving your eyes, then look at a white wall and watch what happens.
-check: Why do you see the opposite color on the white wall?
+check: After you stare at a bright color and then look at a white wall, why do you see the opposite color?
 - The wall itself changes color when you stare at it
 - The light from the picture bounces back from the wall
 + The cells for the first color are worn out for a moment
@@ -1036,7 +1036,7 @@ explain: The cells that handle the first color get worn out, so you see the oppo
 p: How many colors do you think you can see? 
 fact(Worked out, not counted): By measuring the smallest change your eye can just catch and multiplying it up, scientists work out that you can probably see about a million shades.
 p: About 1 in 12 boys and 1 in 200 girls cannot tell certain reds and greens apart. The instructions for those color detectors sit on the X chromosome, and boys have only one X.
-check: How do we know about a million colors?
+check: How do scientists know that people can tell apart about a million colors?
 + By measuring the smallest change you can catch and multiplying up
 - By having a computer print out every shade and counting them
 - By asking thousands of people to name every color they can see
@@ -1057,9 +1057,9 @@ explain: Your nose stops reporting any smell that stays the same, so you stop no
 p: You can hear higher notes than most of the grown-ups around you.
 fact: By 50, most people have lost everything above about 12,000 vibrations a second. That is the top of their hearing range.
 p: Some shops have played a 17,000-per-second tone to move teenagers along. Most grown-ups will not hear it at all.
-check: Who can hear the 17,000-per-second tone?
-- Most grown-ups
+check: Who can usually hear a very high tone of 17,000 vibrations a second?
 + Teenagers and young people
+- Most grown-ups
 - People over 50
 hint: Look at the last paragraph. It says who the tone is meant to move along.
 explain: Teenagers and young people can still hear higher frequencies that older folks cannot.
@@ -1068,8 +1068,8 @@ explain: Teenagers and young people can still hear higher frequencies that older
 p: Have you ever felt sick while reading in a car?
 fact(Worked out, not seen directly): Reading in a moving car gives your brain two different stories. Your eyes report a still page, but your inner ear reports the bouncing.
 check: Why does reading in a car make you feel ill?
-+ Your eyes and ears give your brain contradictory stories
 - The strong smell inside the car upsets your stomach as you read
++ Your eyes and ears give your brain contradictory stories
 - The car's speed squeezes the blood away from your stomach
 hint: Look at the fact box. It explains what your eyes and ears report differently.
 explain: Your eyes see a still page, but your inner ear feels the motion. Your brain gets confused by these conflicting signals.
@@ -1087,10 +1087,10 @@ game: Finger wrinkle = Helps you grip wet things better | Tiny blood vessels = N
 --- 📎
 p: Your skin is not equally sensitive everywhere.
 try: Bend a paperclip into a U with the ends about half an inch (1 cm) apart. Touch both ends to your fingertip — you should feel two points. Now do the same on your forearm or back and it feels like one point because fewer touch sensors are packed in there.
-check: Why does it feel like one point on your forearm?
-+ Fewer touch sensors are packed in there
+check: Why does a paperclip with two ends touched to your forearm feel like only one point?
 - Your skin there is too thick to feel it well
 - Nerves in your arm carry signals more slowly
++ Fewer touch sensors are packed in there
 hint: Look at the box that tells you what to do. Its last sentence says why the forearm feels only one point.
 explain: Fingertips have far more touch sensors packed in, so they can feel each point clearly.
 
@@ -1099,8 +1099,8 @@ p: Skin is your largest organ.
 fact: You shed skin cells constantly — some of the dust in your home is made up of these cells. The whole outer layer of your skin is replaced about once a month.
 term: organ = A part of your body that does a specific job, like your skin protecting you.
 check: About how often is your outer skin replaced?
-- About every two days
 + About once a month
+- About every two days
 - Roughly once a year
 hint: Look at the fact box. It gives the replacement time.
 explain: Your outer layer of skin is replaced about once a month.
@@ -1111,8 +1111,8 @@ fact(Worked out, not seen directly): Your nervous system triggers tiny blood ves
 p: These wrinkles are like the tread on a tire. They may help you grip wet things better.
 check: What makes your fingers wrinkle in the bath?
 - Water soaks into the outer layer and swells it into folds
-- Bath soap dries the oils out and shrinks your skin tight
 + Nerves narrow tiny blood vessels and pull the skin into ridges
+- Bath soap dries the oils out and shrinks your skin tight
 hint: Look at the fact box. It explains what happens under the skin.
 explain: Your nervous system triggers the narrowing of tiny blood vessels, pulling the surface into gripping ridges.
 
@@ -1131,8 +1131,8 @@ p: Itching has its own special nerve pathway in your body, separate from the one
 fact: Scratching works, but only briefly. It floods the spot with a different sensation, drowning out the itch signal for a moment.
 check: Why does scratching help only briefly?
 - It switches off the nerve that carries the itch so it cannot send signals for a while
-+ It floods the spot with a different feeling that drowns out the itch for a moment
 - It heals the skin underneath right away and takes away what caused the itch
++ It floods the spot with a different feeling that drowns out the itch for a moment
 hint: Look at the fact box. It explains what happens when you scratch.
 explain: Scratching brings a different feeling that temporarily blocks the itch.
 
@@ -1142,15 +1142,15 @@ fact: Shaving does not make hair grow back thicker, darker or faster. Mildred Tr
 p: An uncut hair tapers to a fine soft point, but shaving cuts it flat. So what you feel next is the blunt end, which feels stubbly and looks darker because it catches the light differently.
 check: Does shaving make hair grow back thicker?
 - Yes, it makes it darker too
-- Yes, it grows faster
 + No
+- Yes, it grows faster
 hint: Look at the first sentence in the fact box. It clearly states what happens when you shave.
 explain: Shaving does not change how thick or dark the hair grows. It just cuts off the soft tip, leaving a blunt end that feels stubbly.
 
 --- 🧢
 p: You do not lose most of your heat through your head. Your head is about 7 percent of your skin and loses roughly that share of your heat.
 fact: In an old cold-weather test, volunteers wore arctic suits with just their heads left bare. Of course the head lost more heat — it was the only part uncovered.
-check: Why did the head seem to lose most of the heat in the old test?
+check: Why did the head seem to lose most of the heat in the old arctic-suit test?
 - It is larger than a tenth of your skin
 - It has special heat-loss properties
 + It was the only part left uncovered
@@ -1185,9 +1185,9 @@ game: Michel Siffre = Spent two months alone in a cave | newborn = Sleeps 14 to 
 --- 🕳️
 p: Michel Siffre spent two months alone in a cave with no clock and no sunlight.
 fact: His sleep-and-wake rhythm settled into a day slightly longer than 24 hours.
-check: How long was the day his body settled into?
-- Exactly 24 hours
+check: Michel Siffre lived in a cave with no clock or sunlight. How long was the day his body settled into?
 + Slightly longer than 24 hours
+- Exactly 24 hours
 - Much shorter than 24 hours
 hint: Look at the fact box. It tells you how his day changed.
 explain: His rhythm settled into a day slightly longer than 24 hours.
@@ -1234,8 +1234,8 @@ p: Overnight, your brain seems to clean itself.
 fact(Worked out, not seen directly): In mice, brain cells shrink back, the gaps between them widen, and fluid washes through carrying off the day's waste. The flow is far stronger when you are asleep than it ever is when you are awake.
 check: What did scientists see happening in the brains of sleeping mice?
 - New brain cells grow in and replace the tired ones
-+ Fluid washes through and carries off the day's waste
 - Blood stops flowing and lets the brain rest completely
++ Fluid washes through and carries off the day's waste
 hint: Look at the fact box. It describes how the fluid washes through the wider gaps.
 explain: The fluid washes through and carries off the day's waste, which is far stronger when you are asleep.
 
@@ -1243,8 +1243,8 @@ explain: The fluid washes through and carries off the day's waste, which is far 
 p: Roughly every 90 minutes, your eyes start darting about under closed lids.
 fact: During these times, your brain runs almost as hard as when you are awake. Most dreaming happens then, about two hours a night, and your muscles are switched off so you cannot act it out.
 check: About how often do your eyes start darting in sleep?
-+ Roughly every 90 minutes
 - Roughly every 20 minutes
++ Roughly every 90 minutes
 - Only once, just before dawn
 hint: Look at the first sentence on the page. It gives the time.
 explain: Your eyes start darting roughly every 90 minutes during sleep.
@@ -1253,9 +1253,9 @@ explain: Your eyes start darting roughly every 90 minutes during sleep.
 p: Falling asleep for just fifteen seconds can help you solve a problem you could not crack awake.
 fact: Researchers gave volunteers a math puzzle with a hidden shortcut. Those who dozed into shallow sleep spotted the shortcut 83% of the time, while those who stayed awake only managed 30%.
 try: Try the spoon nap. Sit in a chair holding a spoon over a metal tray and let yourself doze off. The moment you drop off, your grip will go and the clatter will wake you.
-check: How often did the shallow sleepers spot the shortcut?
-- 30 percent of the time
+check: In the puzzle test, how often did people who dozed into shallow sleep spot the hidden shortcut?
 + 83 percent of the time
+- 30 percent of the time
 - 50 percent of the time
 hint: Look at the second sentence in the fact box. It gives the percentage.
 explain: The shallow sleepers spotted the shortcut 83% of the time.
@@ -1275,8 +1275,8 @@ fact: A whisper does not use your voice at all. The vocal flaps in your throat h
 try: Rest two fingers lightly on the front of your throat and say your name out loud. You will feel a clear buzz. Now whisper it.
 check: What stops when you whisper?
 - The movement of your lips
-+ The buzz of your vocal flaps
 - The air coming out of your mouth
++ The buzz of your vocal flaps
 hint: Try the finger test on your throat and notice what you feel when you whisper.
 explain: Your vocal flaps hold still when you whisper, so there is no buzz.
 
@@ -1285,8 +1285,8 @@ p: Your voice is two small flaps in your throat slapping together. For a child, 
 term: slaps = The quick movements of the flaps in your throat that make sound.
 fact: A woman's voice runs around 250 slaps per second, while a man's is around 145. The lower the voice, the slower the flaps.
 check: What makes a voice sound lower?
-+ Its flaps slap more slowly
 - Its flaps are smaller and lighter
++ Its flaps slap more slowly
 - Its flaps are closer together
 hint: Look at the fact box. It tells you that lower voices have slower slaps.
 explain: The slower the flaps slap, the lower the sound.
@@ -1296,9 +1296,9 @@ p: During puberty, your vocal flaps change a lot.
 fact: A boy's vocal flaps can grow up to 60% longer and thicker. A girl's grow by about a third. Bigger, heavier flaps swing more slowly, so the voice drops.
 p: The cracking in a boy's voice is probably because the equipment changes size faster than the brain can adjust its aim.
 check: Why does the voice drop in puberty?
++ The bigger, heavier flaps swing more slowly
 - The smaller, tighter flaps swing more slowly
 - The flaps move up and down much more quickly
-+ The bigger, heavier flaps swing more slowly
 hint: Look at the fact box. It explains that bigger, heavier flaps swing more slowly.
 explain: Bigger and heavier flaps cause the voice to drop because they move more slowly.
 
@@ -1318,9 +1318,9 @@ p: Yawning is catching, but nobody has settled why.
 fact(Still argued): Cooling the brain, sharpening attention, and keeping a group in step have all been argued for, but none has enough evidence to close the case.
 try: Yawn deliberately in front of someone who is reading, and count how long until they yawn back. It works better on people who know you well.
 check: Do we know why yawning is catching?
-+ No, it is not settled
 - Yes, it sharpens attention
 - Yes, it cools the brain
++ No, it is not settled
 hint: Look at the Still argued fact box. It says none of the arguments have enough evidence to close the case.
 explain: Nobody has settled why yawning is catching. The reasons are still being argued about.
 
@@ -1328,11 +1328,11 @@ explain: Nobody has settled why yawning is catching. The reasons are still being
 p: Laughing is mostly not about jokes. Researchers recorded real conversations and counted.
 fact: People were around 30 times likelier to laugh with company than alone, and only about one line in eight that got a laugh was even remotely funny.
 p: The speaker usually laughs more than the audience does, dropping laughs into their own sentences like punctuation.
-check: Who laughs more, the speaker or the audience?
+check: Who laughs more in a conversation, the speaker or the audience?
++ The speaker
 - The audience
 - A dog watching the conversation
 - Nobody laughs
-+ The speaker
 hint: Look at the last paragraph. It says the speaker drops laughs into their own sentences.
 explain: The speaker usually laughs more than the audience.
 
@@ -1351,8 +1351,8 @@ p: Have you ever had a case of hiccups that just wouldn't stop? One way to stop 
 fact: A stiff straw built to force exactly that stopped hiccups for nearly 92% of the people who tried it in one survey of its users.
 p: An American farmer named Charles Osborne started hiccupping while trying to lift a hog. He did not stop for 68 years.
 check: How long did Charles Osborne hiccup?
-- 1 day
 + 68 years
+- 1 day
 - 1 week
 hint: Look at the last sentence on the page. It tells you how long he hiccupped.
 explain: Charles Osborne hiccupped for 68 years, which is the longest bout on record.
@@ -1361,7 +1361,7 @@ explain: Charles Osborne hiccupped for 68 years, which is the longest bout on re
 p: In Genesis, one of a man's early jobs involves using his voice.
 fact(The written account says): In Genesis, after the man is put in the garden to work it and keep it, he is given the job of naming the animals one at a time. Speech turns up very early in that account.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === body-eyes
 idea: Your eyes have cells for dim light and cells for color, and a spot where you cannot see at all.
 
@@ -1370,62 +1370,76 @@ game: Retina = The light-sensitive layer of the eye | Rods = Work mainly in dim 
 --- 👁️
 p: Your eyeball grows fast.
 
-fact: It is about 0.63 to 0.67 in (16 to 17 mm) wide at birth. By age three it is 0.89 to 0.91 in (22.5 to 23 mm), and it reaches full size by age 12.
+fact(Eyeball size): The eyeball is about 0.63 to 0.67 in (16 to 17 mm) wide at birth. By age three it is 0.89 to 0.91 in (22.5 to 23 mm), and it reaches full size by age 12.
 
 check: At what age does the eyeball reach full size?
 - Age 6
 + Age 12
 - Age 20
-hint: Look at the box. The answer is there.
-explain: By age three it is 0.89 to 0.91 in (22.5 to 23 mm), and it reaches full size by age 12.
+hint: Look at the box. It gives the age.
+explain: The eyeball reaches full size by age 12.
 
 --- ⚙️
 p: The retina is the innermost, light-sensitive layer of the eye.
 
 term: retina = The light-sensitive inner layer of the eye, like film in a camera.
 
-fact: It does a job much like the film or image sensor in a camera.
+fact(Like a camera): The retina does a job much like the film or image sensor in a camera.
 
 check: What is the light-sensitive layer of the eye called?
 - The lens
-+ The retina
 - The pupil
-hint: Look at the paragraph. The answer is there.
++ The retina
+hint: Look at the paragraph. It names the layer.
 explain: The retina is the innermost, light-sensitive layer of the eye.
 
 --- 🔧
 p: Rods work mainly in dim light and give you black-and-white vision.
 
-fact: Cones work in bright light. They let you see color, and they give the sharp vision you use for reading.
+fact(Cones): Cones work in bright light. They let you see color, and they give the sharp vision you use for reading.
 
 check: Which cells let you see color?
-- Rods
 + Cones
+- Rods
 - Lenses
-hint: Look at the box. The answer is there.
-explain: Cones work in bright light.
+hint: Look at the box. It names the cells.
+explain: Cones let you see color.
 
 --- 👀
 p: One part of the retina has no light-sensing cells. That part gives rise to the blind spot.
 
-fact: Rods and cones are the cells that sense light.
+fact(Light-sensing cells): Rods and cones are the cells that sense light.
 
 check: What does the part of the retina with no light-sensing cells cause?
 - The black pupil
-+ The blind spot
 - The tear duct
-hint: Look at the paragraph. The answer is there.
-explain: That part gives rise to the blind spot.
++ The blind spot
+hint: Look at the paragraph. It names what the part causes.
+explain: The part of the retina with no light-sensing cells gives rise to the blind spot.
 
---- 👂
+--- 🌈
 p: The light you can see ranges from about 380 to 740 nanometers.
 
-fact: Violet is at the short end, 380 to 450 nm. Red is at the long end, 625 to 740 nm.
+fact(The ends): Violet is at the short end, 380 to 450 nm. Red is at the long end, 625 to 740 nm.
+
+check: Which color is at the short end of the light you can see?
++ Violet
+- Red
+- Green
+hint: Look at the box. It names the color at the short end.
+explain: Violet is at the short end, 380 to 450 nm.
 
 --- 🧰
 p: The eyes sit in bony cavities in the skull.
 
-fact: These cavities are called the orbits.
+fact(Their name): These cavities are called the orbits.
+
+check: What are the bony cavities that hold the eyes called?
+- Valves
++ Orbits
+- Ridges
+hint: Look at the box. It gives their name.
+explain: The bony cavities that hold the eyes are called the orbits.
 
 --- 🔎
 p: An eyeball that grows. A layer like film. Rods and cones. A blind spot. Colors of light. Orbits in the skull.
@@ -1433,30 +1447,30 @@ p: An eyeball that grows. A layer like film. Rods and cones. A blind spot. Color
 p: Your eyes do a lot.
 
 quiz: Which cells work mainly in dim light?
-- Cones
 + Rods
+- Cones
 - Lenses
 explain: Rods work mainly in dim light and give you black-and-white vision.
-
-quiz: What are the bony cavities that hold the eyes called?
-- The valves
-+ The orbits
-- The ridges
-explain: These cavities are called the orbits.
 
 quiz: What do cones give you the sharp vision to do?
 - Sleeping
 + Reading
 - Swimming
-explain: They give the sharp vision you use for reading.
+explain: Cones give the sharp vision you use for reading.
 
-quiz: Which color is at the short end of the light you can see?
-- Red
-+ Violet
+quiz: Which color is at the long end of the light you can see?
+- Violet
 - Green
-explain: Violet is at the short end, 380 to 450 nm.
++ Red
+explain: Red is at the long end, 625 to 740 nm.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: The retina does a job much like what part of a camera?
++ The film or image sensor
+- The shiny lens cap
+- The flash and the strap
+explain: The retina does a job much like the film or image sensor in a camera.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === body-ears
 idea: Your ear hears and keeps your balance, and tiny bones inside it make sound stronger.
 
@@ -1465,62 +1479,76 @@ game: Ossicles = The three smallest bones in the body | Cochlea = A spiral-shape
 --- 👂
 p: In mammals, the ear lets you hear.
 
-fact: It also helps your body keep its balance.
+fact(Balance): The ear also helps your body keep its balance.
 
 check: What two jobs does the ear do in mammals?
 - Smelling and tasting
-+ Hearing and balance
 - Seeing and touching
-hint: Look at the box. The answer is there.
-explain: It also helps your body keep its balance.
++ Hearing and balance
+hint: Look at the box. It says what else the ear does.
+explain: The ear lets you hear, and it also helps your body keep its balance.
 
 --- 🔧
 p: The middle ear holds the three smallest bones in your body, called the ossicles.
 
 term: ossicles = The three smallest bones in your body, in the middle ear.
 
-fact: They are the malleus, incus and stapes, also called the hammer, anvil and stirrup.
+fact(Their names): The ossicles are the malleus, incus and stapes, also called the hammer, anvil and stirrup.
 
 check: What are the three smallest bones in your body called?
-- The vertebrae
 + The ossicles
+- The vertebrae
 - The ribs
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It names the bones.
 explain: The middle ear holds the three smallest bones in your body, called the ossicles.
 
 --- ⚙️
 p: The ossicles make sound waves stronger.
 
-fact: They make them nearly 15 to 20 times stronger.
+fact(How much): The ossicles make sound waves nearly 15 to 20 times stronger.
 
 check: How much do the ossicles make sound waves stronger?
 - Only about twice
 + Nearly 15 to 20 times
 - Almost a thousand times
-hint: Look at the box. The answer is there.
-explain: They make them nearly 15 to 20 times stronger.
+hint: Look at the box. It gives the amount.
+explain: The ossicles make sound waves nearly 15 to 20 times stronger.
 
 --- 🧩
 p: The ear canal stretches for about 1 inch (2.5 cm).
 
-fact: It is cleaned by earwax, which naturally moves out toward the outer ear.
+fact(Earwax): The ear canal is cleaned by earwax, which naturally moves out toward the outer ear.
 
 check: What is the length of the ear canal?
-- About 10 inches
 + About 1 inch
+- About 10 inches
 - Nearly 1 foot
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the length.
 explain: The ear canal stretches for about 1 inch (2.5 cm).
 
 --- 🧰
 p: The cochlea is the part of the inner ear involved in hearing.
 
-fact: It is a spiral-shaped cavity that makes 2.75 turns in humans.
+fact(Its shape): The cochlea is a spiral-shaped cavity that makes 2.75 turns in humans.
+
+check: What shape is the cochlea?
+- Square
+- Flat
++ Spiral
+hint: Look at the box. It gives the shape.
+explain: The cochlea is a spiral-shaped cavity.
 
 --- 💡
 p: Your brain compares when a sound reaches each ear and how loud it is in each ear.
 
-fact: That helps it work out where the sound came from.
+fact(Where from): That helps it work out where the sound came from.
+
+check: What does the brain work out by comparing the sound at each ear?
+- How far the sound will go
++ Where the sound came from
+- What the sound will mean
+hint: Look at the box. It says what the brain works out.
+explain: Comparing the sound at each ear helps the brain work out where the sound came from.
 
 --- 🔎
 p: An ear for hearing and balance. Three small bones. Sound waves made stronger. An ear canal with earwax. A spiral cochlea.
@@ -1529,29 +1557,29 @@ p: Your ears help you.
 
 quiz: What cleans the ear canal?
 - Fresh water
-+ Earwax
 - Plain soap
-explain: It is cleaned by earwax, which naturally moves out toward the outer ear.
-
-quiz: What shape is the cochlea?
-- Square
-+ Spiral
-- Flat
-explain: It is a spiral-shaped cavity that makes 2.75 turns in humans.
++ Earwax
+explain: The ear canal is cleaned by earwax, which naturally moves out toward the outer ear.
 
 quiz: How many turns does the cochlea make in humans?
-- 27.5 turns
 + 2.75 turns
+- 27.5 turns
 - 0.25 turns
-explain: It is a spiral-shaped cavity that makes 2.75 turns in humans.
+explain: The cochlea is a spiral-shaped cavity that makes 2.75 turns in humans.
 
-quiz: How many bones are the ossicles?
-- Two
-+ Three
-- Twelve
+quiz: In which part of the ear are the ossicles?
+- The outer ear
++ The middle ear
+- The inner ear
 explain: The middle ear holds the three smallest bones in your body, called the ossicles.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: What are the malleus, incus and stapes also called?
+- The drum, bell and string
+- The hook, nail and spoon
++ The hammer, anvil and stirrup
+explain: The ossicles are the malleus, incus and stapes, also called the hammer, anvil and stirrup.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === body-teeth
 idea: Your teeth are covered in the hardest substance in your body, but sugar can still harm them.
 
@@ -1562,60 +1590,74 @@ p: A baby's first set of teeth is called baby teeth or milk teeth.
 
 term: milk teeth = A baby's first set of teeth.
 
-fact: They normally start to appear at about six months of age.
+fact(When they appear): Baby teeth normally start to appear at about six months of age.
 
 check: At about what age do baby teeth start to appear?
 - About six years
-+ About six months
 - About sixty days
-hint: Look at the box. The answer is there.
-explain: They normally start to appear at about six months of age.
++ About six months
+hint: Look at the box. It gives the age.
+explain: Baby teeth normally start to appear at about six months of age.
 
 --- 📏
 p: Enamel is the hardest substance in the human body.
 
-fact: It is 96% mineral. The rest is water and organic material.
+fact(What it is made of): Enamel is 96% mineral. The rest is water and organic material.
 
 check: What is the hardest substance in the human body?
 - Bone
 + Enamel
 - Dentin
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It names the substance.
 explain: Enamel is the hardest substance in the human body.
 
 --- ⚙️
 p: The large amount of mineral in enamel makes it strong.
 
-fact: It also makes it brittle.
+fact(But also): The mineral also makes enamel brittle.
 
 check: What does the mineral in enamel make it besides strong?
-- Soft
 + Brittle
+- Soft
 - Stretchy
-hint: Look at the box. The answer is there.
-explain: It also makes it brittle.
+hint: Look at the box. It says what else the mineral does.
+explain: The mineral also makes enamel brittle.
 
 --- 🔧
 p: Under the enamel is dentin.
 
-fact: It is less mineralized and less brittle, and it supports the enamel.
+fact(Dentin): Dentin is less mineralized and less brittle, and it supports the enamel.
 
 check: What layer supports the enamel?
 - Plaque
 + Dentin
 - Gum
-hint: Look at the paragraph. The answer is there.
-explain: Under the enamel is dentin.
+hint: Look at the paragraph. It names the layer.
+explain: Dentin is under the enamel, and it supports the enamel.
 
 --- 🍽️
 p: Bacteria in the mouth use the simple sugars in food for energy.
 
-fact: A diet high in simple sugar raises the risk of tooth decay.
+fact(Tooth decay): A diet high in simple sugar raises the risk of tooth decay.
+
+check: What does a diet high in simple sugar raise the risk of?
+- Hair loss
+- Bad eyesight
++ Tooth decay
+hint: Look at the box. It names the risk.
+explain: A diet high in simple sugar raises the risk of tooth decay.
 
 --- 📐
 p: As of 2016, about 3.6 billion people had cavities in their permanent teeth.
 
-fact: That is 48% of all the people in the world.
+fact(The share): That is 48% of all the people in the world.
+
+check: What share of all the people in the world had cavities in their permanent teeth as of 2016?
++ 48%
+- 4.8%
+- 84%
+hint: Look at the box. It gives the share.
+explain: That is 48% of all the people in the world.
 
 --- 🔎
 p: Baby teeth at six months. Enamel, the hardest layer. Dentin under it. Bacteria and sugar. Billions with cavities.
@@ -1624,9 +1666,9 @@ p: Teeth need care.
 
 quiz: How much of enamel is mineral?
 - 9.6%
-+ 96%
 - 66%
-explain: It is 96% mineral.
++ 96%
+explain: Enamel is 96% mineral.
 
 quiz: What do bacteria in the mouth use for energy?
 - Plain water and air
@@ -1635,33 +1677,33 @@ quiz: What do bacteria in the mouth use for energy?
 explain: Bacteria in the mouth use the simple sugars in food for energy.
 
 quiz: About how many people had cavities in their permanent teeth as of 2016?
-- About 36 million
 + About 3.6 billion
+- About 36 million
 - About 360 thousand
 explain: As of 2016, about 3.6 billion people had cavities in their permanent teeth.
 
-quiz: What does a diet high in simple sugar raise the risk of?
-- Hair loss
-+ Tooth decay
-- Bad eyesight
-explain: A diet high in simple sugar raises the risk of tooth decay.
+quiz: Besides baby teeth, what else is a baby's first set of teeth called?
+- Wisdom teeth
++ Milk teeth
+- Eye teeth
+explain: A baby's first set of teeth is called baby teeth or milk teeth.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === body-blood
 idea: Blood is about 7% of your body weight, and its watery plasma and its cells each have a job.
 
 game: Plasma = Makes up 55% of blood | Platelets = Take part in blood clotting | Red blood cells = Take up oxygen in the lungs | Capillaries = Where red blood cells squeeze through the body
 
 --- 🩸
-p: Think about the blood in a person's body.
+p: Think of the blood in a person's body.
 
-fact: Blood is about 7% of a person's body weight.
+fact(Its weight): Blood is about 7% of a person's body weight.
 
 check: What share of body weight is blood?
 - About 70%
-+ About 7%
 - Nearly half
-hint: Look at the paragraph. The answer is there.
++ About 7%
+hint: Look at the box. It gives the share.
 explain: Blood is about 7% of a person's body weight.
 
 --- ⚙️
@@ -1669,48 +1711,62 @@ p: Plasma makes up 55% of blood.
 
 term: plasma = The liquid part of blood, mostly water.
 
-fact: It is mostly water, 92% by volume. It also holds proteins, glucose, mineral ions and hormones.
+fact(What it holds): Plasma is mostly water, 92% by volume. It also holds proteins, glucose, mineral ions and hormones.
 
 check: What is plasma mostly made of?
-- Protein
 + Water
+- Protein
 - Sugar
-hint: Look at the box. The answer is there.
-explain: It is mostly water, 92% by volume.
+hint: Look at the box. It says what plasma is mostly made of.
+explain: Plasma is mostly water, 92% by volume.
 
 --- 🔧
 p: Platelets are also called thrombocytes.
 
-fact: They take part in blood clotting. Platelets help your blood clot.
+fact(Clotting): Platelets take part in blood clotting. They help your blood clot.
 
 check: What do platelets help your blood do?
 - Boil
 + Clot
 - Freeze
-hint: Look at the box. The answer is there.
+hint: Look at the box. It says what platelets help blood do.
 explain: Platelets help your blood clot.
 
 --- 💨
 p: Platelets circulate in your blood.
 
-fact: Their average life span is 8 to 9 days.
+fact(Life span): The average life span of platelets is 8 to 9 days.
 
 check: How long do platelets live?
-- 8 to 9 years
 + 8 to 9 days
+- 8 to 9 years
 - 80 to 90 days
-hint: Look at the box. The answer is there.
-explain: Their average life span is 8 to 9 days.
+hint: Look at the box. It gives the life span.
+explain: The average life span of platelets is 8 to 9 days.
 
 --- 🏃
 p: Red blood cells travel all around the body.
 
-fact: A red blood cell takes about 60 seconds to go once around the body.
+fact(One trip): A red blood cell takes about 60 seconds to go once around the body.
+
+check: About how long does a red blood cell take to go once around the body?
+- About 60 minutes
+- About 6 days
++ About 60 seconds
+hint: Look at the box. It gives the time.
+explain: A red blood cell takes about 60 seconds to go once around the body.
 
 --- 🧩
 p: Red blood cells take up oxygen in the lungs.
 
-fact: They release it into the tissues while squeezing through the body's capillaries.
+fact(Letting go): Red blood cells release the oxygen into the tissues while squeezing through the body's capillaries.
+
+check: Red blood cells release oxygen into what?
+- Plasma
++ Tissues
+- Lungs
+hint: Look at the box. It says where the oxygen goes.
+explain: Red blood cells release the oxygen into the tissues.
 
 --- 🔎
 p: Blood in your body. Plasma made of water. Platelets that clot. A red blood cell around the body. Oxygen from the lungs.
@@ -1719,24 +1775,24 @@ p: Blood is in your body.
 
 quiz: What share of blood does plasma make up?
 - 5.5%
-+ 55%
 - 95%
++ 55%
 explain: Plasma makes up 55% of blood.
 
 quiz: Where do red blood cells take up oxygen?
-- In the skin
 + In the lungs
+- In the skin
 - In the feet
 explain: Red blood cells take up oxygen in the lungs.
 
-quiz: About how long does a red blood cell take to go once around the body?
-- About 60 minutes
-+ About 60 seconds
-- About 6 days
-explain: A red blood cell takes about 60 seconds to go once around the body.
+quiz: How much of plasma is water, by volume?
+- 29%
++ 92%
+- 52%
+explain: Plasma is mostly water, 92% by volume.
 
 quiz: What are platelets also called?
 - Lymphocytes
-+ Thrombocytes
 - Erythrocytes
++ Thrombocytes
 explain: Platelets are also called thrombocytes.

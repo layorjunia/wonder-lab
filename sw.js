@@ -12,7 +12,7 @@ const OFFLINE_CACHE = 'wonderlab-offline-v2';
 // several releases a day that was most of the site's bandwidth.
 const MEDIA_CACHE = 'wonderlab-media-v1';
 const IS_MEDIA = /\/(img|audio)\/[^?]*\.(jpg|jpeg|png|svg|m4a|mp3)$/;
-const CACHE = 'wonderlab-20261014-1007-2bffdb15';
+const CACHE = 'wonderlab-20261014-1100-26c36df8';
 const SHELL = [
   '.', 'index.html', 'css/style.css', 'css/lab.css', 'manifest.json',
   'css/fonts.css',

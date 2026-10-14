@@ -11,8 +11,8 @@ p: Each one has its own way of growing and helping people.
 p: Meet wheat, a grass grown for its seeds. It covers more land than any other food crop.
 fact(The world's top crop): In 2024, the world grew about 880 million U.S. tons (about 800 million metric tons) of wheat on 542 million acres (219.5 million hectares). Russia sold the most wheat to other countries, about 32.7 million tons.
 check: Which country sold the most wheat to other countries in 2024?
-+ Russia
 - India
++ Russia
 - China
 hint: Look at the second sentence of the fact box.
 explain: Russia sold the most wheat to other countries, about 32.7 million tons.
@@ -43,8 +43,8 @@ p: Meet the tomato, a berry from South America that most people call a vegetable
 fact(The Supreme Court ruling): In 1893, the U.S. Supreme Court said tomatoes are vegetables, even though they are really fruits. A law of that time charged a tax on vegetables brought in from other countries, but not on fruits. The court said tomatoes are eaten like vegetables, so the tax applied.
 p: The fruit is juicy and packed with seeds that can survive being eaten by an animal.
 check: Why did the Supreme Court say tomatoes are vegetables?
-- They grow underground like potatoes
 + They are eaten like vegetables
+- They grow underground like potatoes
 - They have no seeds inside
 hint: Look at the last sentence of the fact box. It says how the court said tomatoes are eaten.
 explain: The court said tomatoes are eaten like vegetables, so the vegetable tax applied, even though botanically they are fruits.
@@ -59,8 +59,8 @@ p: Five plants, and each one grows in a way that surprises people.
 
 quiz: What is the main reason rice can grow in flooded mud?
 - Rice has waxy leaves that shed the water like a coat.
-+ Rice has hollow stems that pipe air to its roots.
 - Rice has long roots that reach down to dry ground.
++ Rice has hollow stems that pipe air to its roots.
 explain: This special feature lets rice thrive where other plants would drown.
 
 quiz: How many silks are there on a maize cob for each kernel?
@@ -70,15 +70,15 @@ quiz: How many silks are there on a maize cob for each kernel?
 explain: Each silk guides pollen to its corresponding kernel, ensuring the cob fills out fully.
 
 quiz: What do the eyes on a potato actually do?
-- They are marks left by insect bites.
 + They are buds from which shoots can grow.
+- They are marks left by insect bites.
 - They take in sunlight to feed the potato.
 explain: These buds can sprout new plants when conditions are right.
 
 quiz: How long is the life cycle of an annual crop like wheat, rice, maize, potato, or tomato?
 - Two years
-+ One year
 - Five years
++ One year
 explain: All these plants are annuals, finishing their entire life cycle in just one growing season.
 
 quiz: Where do potatoes grow on the plant?
@@ -101,9 +101,9 @@ p: Meet the banana. It’s not a tree or a bush. It's the largest herb on Earth,
 fact(The giant herb): What looks like a trunk is a pseudostem made of tightly wrapped leaf stalks. There’s no wood in it at all — you can cut one through with a knife.
 term: pseudostem = A structure that looks like a stem but is made of tightly wrapped leaf stalks, not wood.
 check: What makes the banana plant so unusual?
++ It's a giant herb with no wood inside
 - It's a tall palm with a trunk of hard wood
 - It's a woody vine that climbs up trees
-+ It's a giant herb with no wood inside
 hint: Look at the third sentence of the paragraph and at the fact box.
 explain: The banana plant is a giant herb with no wood inside.
 
@@ -118,9 +118,9 @@ p: Meet the vanilla orchid, the best-known orchid grown for food. It is a climbi
 fact(The flower's brief life): A vanilla flower lasts about one day. If you miss it, the flower drops off and no pod grows.
 p: Outside Mexico, the insect that pollinates vanilla does not live there. In 1841, a twelve-year-old boy named Edmond Albius figured out how to pollinate vanilla flowers by hand on the island of Reunion.
 check: Who worked out how to pollinate vanilla by hand?
-+ Edmond Albius
 - George Washington Carver
 - An orchid bee
++ Edmond Albius
 hint: Look at the last paragraph. It mentions the boy's name and what he did.
 explain: Edmond Albius, a twelve-year-old boy, figured out how to pollinate vanilla flowers by hand.
 
@@ -148,15 +148,15 @@ p: A banana's peelable fruit. Coffee seeds ground into a drink. Vanilla's orchid
 p: Five plants, each giving us something unique to eat.
 
 quiz: What is a vanilla flower's lifespan?
-- Two days
 + One day
+- Two days
 - Three days
 explain: A vanilla flower only blooms for one day, so you have to be quick.
 
 quiz: What part of the coffee plant do we use to make coffee?
 - The leaves
-+ The seeds
 - The stem
++ The seeds
 explain: Coffee is made from the seeds inside the small red fruits called cherries.
 
 quiz: What is the longest a vanilla orchid vine can grow?
@@ -166,15 +166,15 @@ quiz: What is the longest a vanilla orchid vine can grow?
 explain: The vanilla orchid vine can grow up to 50 feet long, climbing other plants or structures.
 
 quiz: What does each diamond-shaped eye on a pineapple represent?
-- A leaf
 + A fused flower
+- A leaf
 - A seed
 explain: Each eye on a pineapple is where one flower used to be before they all fused together.
 
 quiz: What looks like the trunk of a banana plant but isn't made of wood?
 - The fruit
-+ The pseudostem
 - The roots
++ The pseudostem
 explain: The banana plant’s “trunk” is actually a pseudostem made of tightly wrapped leaf stalks, not wood.
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
@@ -191,9 +191,9 @@ p: The giant sequoia is the bulkiest tree on Earth. General Sherman, in Sequoia 
 fact(The heaviest tree): Its trunk alone holds 52,508 cubic feet of wood. A 1938 estimate put its weight at about 4.2 million lb.
 p: In January 2006, a branch over 6.6 ft (2 m) thick and more than 98 ft (30 m) long tore off the General Sherman tree. It smashed the perimeter fence and the sidewalk below.
 check: What happened to the General Sherman tree in January 2006?
++ A branch over 6.6 ft thick and more than 98 ft long tore off.
 - A lightning strike split the trunk and burned off the top.
 - The tree was cut down and its rings counted by loggers.
-+ A branch over 6.6 ft thick and more than 98 ft long tore off.
 hint: Look at the last paragraph. It describes what happened to the branch.
 explain: A branch over 6.6 ft thick and more than 98 ft long tore off, smashing the perimeter fence and the sidewalk below.
 
@@ -209,8 +209,8 @@ fact(The oldest tree): In 1957 Edmund Schulman counted the rings of a bristlecon
 p: Another bristlecone, cut down in 1964, had at least 4,862 rings. It was later named Prometheus.
 check: How many rings did the oldest bristlecone pine ever counted have?
 - 3,000
-+ 4,862
 - 2,500
++ 4,862
 hint: Look at the last two sentences.
 explain: The tree that was cut down had at least 4,862 rings.
 
@@ -239,13 +239,13 @@ p: Five trees, each in their own way, reaching through time and growth.
 
 quiz: How tall is Hyperion, the tallest coast redwood?
 - 354.7 ft (108.11 m)
-+ 381.3 ft (116.22 m)
 - 412.6 ft (125.76 m)
++ 381.3 ft (116.22 m)
 explain: That's taller than the Statue of Liberty.
 
 quiz: What does fog drip provide to a coast redwood?
-- 50% of its water needs
 + 30% of its water needs
+- 50% of its water needs
 - 20% of its water needs
 explain: Fog drip supplies about 30 percent of the water a coast redwood needs each year.
 
@@ -256,8 +256,8 @@ quiz: How much water can a large baobab hold in its trunk?
 explain: That's about two backyard swimming pools stored inside the wood.
 
 quiz: What is the English oak known for supporting?
-- 1,000 species
 + 2,300 species
+- 1,000 species
 - 1,500 species
 explain: About 2,300 species live on or with the English oak in the UK, more than on any other tree in Britain.
 
@@ -281,9 +281,9 @@ p: Start with the banyan, a fig that starts high in another tree's branches and 
 fact(The spread): The biggest banyan's canopy covers 4.67 acres, about three and a half football fields. The Great Banyan near Kolkata stands on 3,772 prop roots.
 term: prop root = A root that grows from a branch or trunk, reaches the ground, and holds the tree up.
 check: How many prop roots does the Great Banyan have?
++ 3,772
 - 2,000
 - 5,000
-+ 3,772
 hint: Look at the fact box. It gives the number of prop roots.
 explain: The Great Banyan has 3,772 prop roots.
 
@@ -298,8 +298,8 @@ p: Meet the quaking aspen, a tree with white bark and leaves that shake in the f
 fact(The one plant): Pando, in Utah's Fishlake National Forest, is about 47,000 aspen stems spread over 106 acres (42.89 hectares). Every stem shares one root system and one set of DNA. Together they weigh roughly 13.2 million lb (6,000 metric tons), the heaviest known single organism.
 check: How many aspen stems make up Pando?
 - 1,000
-+ 47,000
 - 470
++ 47,000
 hint: Look at the first sentence of the fact box.
 explain: Pando consists of about 47,000 aspen stems.
 
@@ -312,9 +312,9 @@ p: Meet the Joshua tree, a giant yucca of the Mojave Desert. It is not really a 
 fact(The one moth): The yucca moth Tegeticula synthetica carries pollen from flower to flower while laying its eggs inside them. Its grubs eat some of the seeds and leave the rest. The tree has no other pollinator, so without the moth it sets no seed.
 check: What happens if the yucca moth does not show up?
 - The tree grows faster
++ The tree sets no seed
 - The tree flowers more often
 - The tree's roots spread wider
-+ The tree sets no seed
 hint: Look at the last sentence of the fact box.
 explain: Without the yucca moth, the Joshua tree sets no seed.
 
@@ -327,15 +327,15 @@ p: A banyan spreading wide with its aerial roots. A red mangrove standing in sal
 p: Five trees, each unique, each built for its own world.
 
 quiz: How much ground does the biggest banyan's canopy cover?
-- 2 acres
 + 4.67 acres
+- 2 acres
 - 6 acres
 explain: The biggest banyan's canopy covers 4.67 acres, about three and a half football fields.
 
 quiz: What is the widest the crown of a dragon's blood tree can be?
 - 15 ft (4.5 m)
-+ 39 ft (12 m)
 - 25 ft (7.5 m)
++ 39 ft (12 m)
 explain: The crown can be up to 39 ft (12 m) across, wider than the tree is tall.
 
 quiz: What does a red mangrove seed grow into before it drops off the parent tree?
@@ -345,15 +345,15 @@ quiz: What does a red mangrove seed grow into before it drops off the parent tre
 explain: The seed sprouts while still on the parent tree and becomes a green seedling shaped like a dart.
 
 quiz: How heavy is Pando, the quaking aspen grove in Utah?
-- 5 million lb (2,270 metric tons)
 + 13.2 million lb (6,000 metric tons)
+- 5 million lb (2,270 metric tons)
 - 8 million lb (3,630 metric tons)
 explain: Pando is the heaviest known single organism.
 
 quiz: Where does the dragon's blood tree grow wild?
 - A dry plain in central Australia
-+ One island group in the Arabian Sea
 - One river valley in southern Chile
++ One island group in the Arabian Sea
 explain: It grows wild only on one island group in the Arabian Sea.
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-10)
@@ -369,9 +369,9 @@ p: Each one has a secret that makes them special.
 p: Start with the pumpkin, a sprawling vine that grows the heaviest fruit on Earth. The record pumpkin weighed 2,819 lb (1,278.8 kg), nicknamed Muggle.
 fact(The giant): Grown by twin brothers Ian and Stuart Paton, it was weighed at Wargrave in Berkshire, England, on October 6, 2025.
 check: How much did the heaviest pumpkin weigh?
++ 2,819 lb
 - 2,907.85 lb
 - 1,000 lb
-+ 2,819 lb
 hint: Look at the first paragraph. It gives the exact weight.
 explain: The heaviest pumpkin weighed 2,819 lb.
 
@@ -386,8 +386,8 @@ fact(The hidden pod): The flower does its work above ground and then sends the j
 p: This process of burying its own fruit is called geocarpy. Very few plants do this.
 check: What is the word for a plant burying its own fruit underground?
 - Pea pod
-+ Geocarpy
 - Peg
++ Geocarpy
 hint: Look at the last paragraph. It explains the term.
 explain: The term is geocarpy.
 
@@ -400,8 +400,8 @@ p: Birds eat chilies without feeling the burn, but mammals feel it strongly.
 p: Meet the grapevine, a woody climber that hauls itself up trees using coiled tendrils and carries its fruit in bunches of berries.
 fact(The climbing trick): A tendril grows out, touches something, wraps around it, then coils itself into a spring. It does all this without eyes.
 check: How does a grapevine tendril find and grip a branch?
-+ It grows out, touches something, wraps around it, and coils into a spring
 - It uses its leaves to feel around
++ It grows out, touches something, wraps around it, and coils into a spring
 - It has tiny eyes to spot branches
 hint: Look at the fact box. It describes how the tendril works.
 explain: The tendril grows out, touches something, wraps around it, and coils into a spring.
@@ -421,15 +421,15 @@ quiz: What is the greatest height sugarcane reaches?
 explain: Sugarcane is a towering grass that grows up to 20 feet tall.
 
 quiz: What is capsaicin?
++ The substance that tricks your nerves into feeling heat
 - A type of seed in chili peppers
 - The part of a chili pepper that makes it sweet
-+ The substance that tricks your nerves into feeling heat
 explain: Capsaicin is what gives chili peppers their spicy kick.
 
 quiz: About how long do the oldest grapevines live?
 - 10 years
-- 50 years
 + More than 100 years
+- 50 years
 explain: Some grapevines are more than 100 years old.
 
 quiz: What term describes peanuts burying their fruit underground?
@@ -440,8 +440,8 @@ explain: Very few plants do this unique process of geocarpy.
 
 quiz: How many metric tons of sugarcane did Brazil grow in 2022?
 - 500 million metric tons
-- 600 million metric tons
 + 724.4 million metric tons
+- 600 million metric tons
 explain: Brazil leads the world in sugarcane production.
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-10)
@@ -458,9 +458,9 @@ p: Meet the saguaro cactus, the tall branching giant of the Sonoran Desert. It g
 fact(The slow grower): A big one stands 40 to 52 ft (12–16 m) tall and can weigh 4,800 lb (2,200 kg) full of water.
 p: Saguaros start slowly and stay slow. It takes about 75 years before the plant grows its first arm.
 check: How long does it take for a saguaro cactus to grow its first arm?
++ 75 years
 - 10 years
 - 50 years
-+ 75 years
 hint: Look at the last sentence on the page.
 explain: It takes about 75 years for a saguaro cactus to grow its first arm.
 
@@ -473,10 +473,10 @@ p: Afrikaans speakers call it tweeblaarkanniedood — 'two leaves, cannot die'. 
 --- 🌿 @living-stones
 p: Meet the living stones, a plant that looks exactly like the pebbles around it. It's two fat leaves with a window on top.
 fact(The hidden green): Most of the plant is underground, and the green tissue for photosynthesis lines the inside walls of the buried leaves. The leaves are translucent to let light in.
-check: What part of the living stone does its photosynthesis?
+check: What part of a living stone plant does its photosynthesis?
 - The top surface
-+ The inner wall
 - The outer surface
++ The inner wall
 hint: Look at the fact box called The hidden green.
 explain: The inner wall. The green tissue is inside the buried leaves and not on the outside.
 
@@ -505,15 +505,15 @@ p: A saguaro cactus that lives 175 years. A welwitschia that lasts 1,500 years. 
 p: Each plant, in its own way, built to endure.
 
 quiz: How tall can a big saguaro cactus grow?
-- 20 to 30 ft (6–9 m) tall
 + 40 to 52 ft (12–16 m) tall
+- 20 to 30 ft (6–9 m) tall
 - 60 to 70 ft (18–21 m) tall
 explain: Saguaros can grow really tall, but it takes them a long time.
 
 quiz: How wide does the largest known Welwitschia sprawl?
 - 15 ft (4.6 m) wide
-+ 28 ft (8.7 m) wide
 - 20 ft (6.1 m) wide
++ 28 ft (8.7 m) wide
 explain: The welwitschia is a big plant with just two leaves that keep growing.
 
 quiz: What is hidden underground in a living stone?
@@ -523,15 +523,15 @@ quiz: What is hidden underground in a living stone?
 explain: Most of a living stone is buried, and only the window on top shows.
 
 quiz: What is the largest share of its water the resurrection plant can lose and still live?
-- 75 percent of its water
 + 95 percent of its water
+- 75 percent of its water
 - 80 percent of its water
 explain: The resurrection plant is really tough and can dry out almost completely.
 
 quiz: About how long do the oldest welwitschias live?
 - 500 years
-+ 1,500 years
 - 1,000 years
++ 1,500 years
 explain: Welwitschia plants are some of the longest-lived plants in the world.
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-10)
@@ -564,8 +564,8 @@ fact(The seed head): The yellow head is not one flower. It's 40 to more than 100
 p: Each seed hangs beneath a pappus, a fluffy parachute of about 100 thin bristles. When they fly, a ring of spinning air sits above the bristles, keeping the seed steady.
 check: What keeps the dandelion seed steady while flying?
 - The stem
-- The leaves
 + A ring of spinning air above the bristles
+- The leaves
 hint: Look at the last sentence of the last paragraph. It says what sits above the bristles.
 explain: A ring of spinning air that forms above the bristles keeps the seed steady as it flies.
 
@@ -581,8 +581,8 @@ fact(The square stem): Roll a lavender stem between finger and thumb and you'll 
 p: The smell is not in the petals but in small glands all over the outside of the plant. Brushing past a plant bursts them, which is why you can smell lavender from the path without touching a single flower.
 check: Where is the smell of lavender stored?
 - In the petals
-+ In the glands on the leaves and stems
 - In the soil
++ In the glands on the leaves and stems
 hint: Look at the last paragraph. It talks about where the smell comes from.
 explain: The smell is stored in the glands on the leaves and stems.
 
@@ -602,13 +602,13 @@ explain: Garden roses can live up to about 35 years, though a few very old roses
 
 quiz: How does a tulip bulb make more tulips that are exactly like it?
 - It turns into a seed.
-+ It splits off copies of itself.
 - It sends out runners above the ground.
++ It splits off copies of itself.
 explain: The bulb of a tulip can split into new bulbs, which is why they spread so easily.
 
 quiz: How many little flowers make up the dandelion's yellow head?
-- 5 to 30
 + 40 to more than 100
+- 5 to 30
 - 1 to 10
 explain: The dandelion's yellow head has between 40 and over 100 small flowers.
 
@@ -620,8 +620,8 @@ explain: The common poppy plant lasts just one year, although its seeds can wait
 
 quiz: What shape is the stem of lavender?
 - Round
-+ Square
 - Oval
++ Square
 explain: Nearly every plant in the mint family, like lavender, has a square stem.
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-10)
@@ -638,8 +638,8 @@ p: Start with the sensitive plant. Its leaves fold shut the instant you touch th
 fact(The surprising speed): Brush a leaf and the leaflets snap shut in pairs, starting from where you touched. The whole leaf stalk drops in just a second or two.
 check: What happens when you touch a sensitive plant's leaf?
 - It stays open for hours
-- It turns pink
 + It folds shut quickly
+- It turns pink
 hint: Look at the first paragraph. It tells you exactly what happens.
 explain: The leaves fold shut quickly after you touch them.
 
@@ -652,8 +652,8 @@ fact(The surprising growth): The fastest-growing bamboo grows up to 36 in (91 cm
 p: Meet the strangler fig, a fig that starts life high up in another tree and ends up standing where its host used to be.
 fact(The surprising start): A strangler fig begins as a seed in a bird dropping, forty feet up in another tree. It sprouts there with no soil underneath it at all, living on rainwater and trapped leaf mold.
 check: How does the strangler fig start its life?
-- In the ground
 + High up in another tree
+- In the ground
 - In the middle of a forest
 hint: Look at the second sentence. It tells you where the seed starts.
 explain: The strangler fig starts high up in another tree, from a seed in a bird dropping.
@@ -687,15 +687,15 @@ quiz: How much can the fastest-growing bamboo grow in 24 hours?
 explain: Bamboo can grow up to 36 in (91 cm) in a single day.
 
 quiz: What is unique about the strangler fig’s starting point?
++ It begins as a seed in a bird dropping high up in another tree
 - It starts from a seed planted by farmers
 - It begins as a small plant on the forest floor
-+ It begins as a seed in a bird dropping high up in another tree
 explain: The strangler fig's journey starts way up in the canopy.
 
 quiz: Why is the ghost plant completely white?
 - Because it grows in the dark
-+ Because it has no chlorophyll and relies on a fungus for food
 - Because it is covered in snow
++ Because it has no chlorophyll and relies on a fungus for food
 explain: Without chlorophyll, the ghost plant looks very different from other plants.
 
 quiz: What special feature does the sensitive plant have?
@@ -705,8 +705,8 @@ quiz: What special feature does the sensitive plant have?
 explain: The sensitive plant reacts quickly to touch by folding its leaves.
 
 quiz: How does bamboo's stem structure differ from that of trees?
-- It has soft, spongy wood all the way through
 + It has solid walls at every joint
+- It has soft, spongy wood all the way through
 - It is covered in thorns
 explain: Bamboo's segments are divided by solid walls at every joint.
 
@@ -724,9 +724,9 @@ p: Start with the cacao tree. It grows its fruit straight out of its trunk, and 
 fact(Fruit placement): Cacao flowers and fruits grow straight out of the trunk and old thick branches. This is called cauliflory. A cacao tree looks like someone glued the fruit on by hand.
 p: The flowers are tiny, less than an inch across, and pollinated by tiny midges only about one tenth of an inch (2–3 mm) long.
 check: What is the name for flowers and fruits growing straight out of the trunk?
-+ Cauliflory
 - Branching
 - Leafing
++ Cauliflory
 hint: Look at the second sentence of the fact box.
 explain: Cauliflory. That's the term for when flowers and fruits grow directly from the trunk or old branches.
 
@@ -738,10 +738,10 @@ fact(The hidden network): The latex does not travel through the wood. It moves i
 --- 🌿 @eucalyptus
 p: Meet the rainbow eucalyptus, a rainforest tree whose bark peels off in strips, leaving its trunk streaked with green, blue, orange, and purple.
 fact(The colorful calendar): The colors are not paint or disease; they show when each strip of bark peeled off. Freshly exposed bark is bright green, then ages through blue, purple, orange, and reddish brown.
-check: What color is the bark when it first peels off?
+check: What color is the bark of the rainbow eucalyptus when it first peels off?
++ Bright green
 - Reddish brown
 - Blue
-+ Bright green
 hint: Look at the fact box. It describes the colors as they age.
 explain: The freshly exposed bark is bright green.
 
@@ -770,13 +770,13 @@ p: Five trees, each one different.
 
 quiz: What do cacao flowers and fruits grow directly from?
 - roots
-+ trunk and old branches
 - leaves
++ trunk and old branches
 explain: Cacao flowers and fruits grow straight from the trunk and old, thick branches, which is called cauliflory.
 
 quiz: What is the milky sap inside a rubber tree called?
-- resin
 + latex
+- resin
 - sapwood
 explain: Latex is what we use to make things like tires and erasers.
 
@@ -787,8 +787,8 @@ quiz: How do growers pollinate date palms?
 explain: Growers have been climbing up and pollinating each female palm by hand for thousands of years.
 
 quiz: Why is the wood of the Cedar of Lebanon highly prized?
-- it is colorful
 + it resists rot and insects
+- it is colorful
 - it is very flexible
 explain: This makes the wood perfect for building long-lasting structures like temples and palaces.
 
@@ -810,8 +810,8 @@ fact(Too bitter): A young olive is savagely bitter. To make it edible it must be
 p: The written account of the flood says that Noah's dove came back with a fresh olive leaf in her beak.
 
 check: What has to be done to a fresh olive before it can be eaten?
-- Roast it over a fire
 + Cure it in lye or brine
+- Roast it over a fire
 - Rinse it in fresh milk
 hint: Look at the box. It tells how the bitter fruit is made edible.
 explain: A fresh olive is savagely bitter, so it has to be cured in lye or brine first.
@@ -834,8 +834,8 @@ p: So every Granny Smith is a cutting. A shoot from the original plant is grafte
 
 check: What do you get if you plant a pip from a Gala apple?
 - A Gala tree just like its parent
-+ A tree with different apples
 - A tree that grows pears
++ A tree with different apples
 hint: Look at the box. It says what comes out of a planted pip.
 explain: Apple seedlings come out different from both parents, so a Gala pip does not give a Gala.
 
@@ -857,8 +857,8 @@ p: Birch is a pioneer, one of the first trees to come up on bare or burned land.
 
 check: What makes birch bark waterproof?
 - A thick layer of sap
-- Tiny hairs that trap air
 + Betulin, a waxy powder
+- Tiny hairs that trap air
 hint: Look at the box. It names the white powder on the bark.
 explain: The bark is up to 20 percent betulin, a waxy, water-repellent powder.
 
@@ -873,8 +873,8 @@ p: An olive too bitter to eat. A fig full of flowers. An apple that never copies
 p: Five trees, each with a surprise.
 
 quiz: What is a fig really?
-- A seed pod full of nuts
 + A bag of tiny flowers
+- A seed pod full of nuts
 - A cluster of berries
 explain: A fig is a hollow pouch lined with hundreds of tiny flowers, all facing inward.
 
@@ -891,15 +891,15 @@ quiz: What did the Reverend Edward Stone give people for fevers?
 explain: In 1763 he reported that powdered white willow bark cured shivering fevers.
 
 quiz: Where does a birch tree grow first?
++ On bare or burned ground
 - Deep inside an old forest
 - In the shade of big trees
-+ On bare or burned ground
 explain: Birch is a pioneer, one of the first trees to come up on bare or burned land.
 
 quiz: How many children would it take to circle the biggest olive trunk?
 - Only one child
-+ About a dozen children
 - More than a hundred children
++ About a dozen children
 explain: The trunk measures 82 ft (25 m) around, so a dozen children with their arms out could just circle it.
 
 # UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
@@ -944,8 +944,8 @@ p: It has no chlorophyll, so there is nothing green anywhere on it. Everything y
 
 check: Why is there nothing green on a rafflesia?
 - Its leaves are underground
-+ It has no chlorophyll
 - Rain washes the green away
++ It has no chlorophyll
 hint: Look at the last paragraph. It says what the plant does not have.
 explain: A rafflesia has no chlorophyll, the green machinery that turns sunlight into sugar, so nothing on it is green.
 
@@ -964,8 +964,8 @@ fact(The lotus effect): Water will not wet a lotus leaf. It balls up and rolls s
 p: The flower runs a heater. It holds itself between 86 and 95°F (30 to 35°C) inside for about two days, even when the air around it falls to 50°F (10°C).
 
 check: What happens to a drop of water on a lotus leaf?
-- It soaks straight into the leaf
 + It balls up and rolls off
+- It soaks straight into the leaf
 - It spreads out in a thin film
 hint: Look at the box. It tells what water does on the leaf.
 explain: Water balls up and rolls straight off the leaf, picking up dust on the way.
@@ -988,14 +988,14 @@ explain: The corm is an underground store of food, and a corpse flower's can top
 
 quiz: How wide is a big rafflesia bloom?
 - As wide as a dinner plate
-+ About as wide as a car tire
 - As wide as a football pitch
++ About as wide as a car tire
 explain: The widest bloom reliably recorded was 3 ft 7.7 in (111 cm) across.
 
 quiz: How does a bee orchid get pollinated in Britain?
++ It pollinates itself
 - A moth carries its pollen
 - The wind blows it away
-+ It pollinates itself
 explain: In Britain its pollinating bee is scarce, so the orchid mostly pollinates itself.
 
 quiz: Why is a lotus leaf self-cleaning?
@@ -1027,10 +1027,10 @@ fact(The crest): Each flower has three orange sepals standing up like a crest an
 
 p: A bird landing on the blue arrow makes it split open along its length, and the pollen presses onto the bird's feet. Almost nothing else in the plant world moves pollen by foot.
 
-check: What splits the blue arrow open?
+check: What splits open the blue arrow of a bird of paradise flower?
 - A gust of wind
-+ A bird landing on it
 - A bee buzzing near it
++ A bird landing on it
 hint: Look at the last paragraph. It says what makes the arrow split open.
 explain: A bird landing on the blue arrow makes it split open, and the pollen presses onto the bird's feet.
 
@@ -1073,9 +1073,9 @@ fact(White hairs): The white star is not petals. Those are bracts, which are mod
 
 p: Researchers shone light through a pad of the white hairs. The hairs absorb near-ultraviolet light before it reaches the living tissue underneath. They do not simply bounce it away.
 
-check: What do the white hairs do with ultraviolet light?
-- Bounce it all away
+check: What do the white hairs of the edelweiss do with ultraviolet light?
 + Soak it up
+- Bounce it all away
 - Turn it into nectar
 hint: Look at the last paragraph. It says what the hairs do with ultraviolet light.
 explain: The hairs absorb near-ultraviolet light before it reaches the living tissue underneath.
@@ -1103,21 +1103,21 @@ quiz: How many rings of threads can some passionflowers stack?
 explain: Some species stack as many as eight rings of the corona in a single flower.
 
 quiz: Which insect has to climb inside a snapdragon to reach the nectar?
-- A tiny fly
 + A bumblebee
+- A tiny fly
 - A small ant
 explain: The flower is shut, so a bumblebee has to land, force the lip down and climb inside.
 
 quiz: How much weight did a giant water lily leaf carry before it gave way?
 - About the weight of a coin
-- Only its own weight
 + About 38 times its own weight
+- Only its own weight
 explain: A leaf that weighed 13 lb (6.1 kg) carried 498 lb (226 kg) before it gave way.
 
 quiz: Where does edelweiss grow?
++ On high limestone rock
 - In a warm, wet swamp
 - On sandy sea beaches
-+ On high limestone rock
 explain: Edelweiss is a wooly Alpine flower of high limestone rock.
 
 # UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
@@ -1138,8 +1138,8 @@ fact(A single day): A hibiscus flower lasts about one day. It opens in the morni
 p: The flowers run from 1.5 to 7 in (4 to 18 cm) across. The big ones are wider than an adult's outstretched hand.
 
 check: How long does a hibiscus flower last?
-- About one month
 + About one day
+- About one month
 - About one week
 hint: Look at the box. It tells how long the flower lasts.
 explain: A hibiscus flower lasts about one day. It opens in the morning and is limp by late afternoon.
@@ -1153,8 +1153,8 @@ term: biennial = A plant that grows only leaves in its first year, then flowers 
 
 check: What does a foxglove grow in its first year?
 - A tall spike of purple bells
-+ A flat rosette of leaves
 - Seeds ready to scatter
++ A flat rosette of leaves
 hint: Look at the box. It tells what the plant grows in its first year.
 explain: In its first year a foxglove is just a flat rosette of leaves. The spike comes in the second year.
 
@@ -1183,26 +1183,26 @@ p: A hibiscus lasting one day. A foxglove waiting two years. A bluebell waiting 
 p: Three flowers, each very different.
 
 quiz: How wide can the biggest hibiscus flowers get?
-- About 1 in (2.5 cm)
 + About 7 in (18 cm)
+- About 1 in (2.5 cm)
 - About 2 ft (60 cm)
 explain: The flowers run from 1.5 to 7 in (4 to 18 cm) across, wider than an adult's outstretched hand.
 
 quiz: In which year does a foxglove flower?
 - The first year
-+ The second year
 - Every single month
++ The second year
 explain: The first year is only leaves. In the second year it throws up the spike and flowers.
 
 quiz: What can foxglove help with, if it is measured out carefully?
 - A broken bone in the arm
-- A bad toothache or sore gum
 + A weak, failing heart
+- A bad toothache or sore gum
 explain: Foxglove is poisonous to eat, but measured out carefully it steadies a failing heart.
 
 quiz: Why do deer and rabbits leave bluebells alone?
-- They taste too sweet
 + The bulbs are poisonous
+- They taste too sweet
 - The flowers smell like smoke
 explain: The bulbs are poisonous, which is one reason a bluebell wood is not grazed flat.
 
@@ -1231,8 +1231,8 @@ p: The snap takes about one tenth of a second. Digestion takes about ten days, a
 
 check: How many touches does it take to shut a Venus flytrap?
 - One light touch of a leaf
-+ Two touches within 20 seconds
 - Ten touches in a single row
++ Two touches within 20 seconds
 hint: Look at the box. It tells how many touches the trigger hairs need.
 explain: One touch is a raindrop. Two touches within 20 seconds mean something is walking, so the trap shuts.
 
@@ -1275,9 +1275,9 @@ fact(The skylights): The hood is peppered with see-through patches, like windows
 
 p: Below the opening the tube is lined with hairs that all point down. Walking in is easy. Walking back up is not.
 
-check: What do the see-through patches in the hood do?
-- They collect the rainwater
+check: What do the see-through patches in a cobra lily's hood do?
 + They fool the insect inside
+- They collect the rainwater
 - They let the plant breathe
 hint: Look at the box. It says what the bright patches do to an insect.
 explain: The patches fool the insect, which flies at the bright spots and drops back instead of finding the real exit.
@@ -1319,14 +1319,14 @@ explain: A bladderwort trap opens in about 0.5 milliseconds.
 
 quiz: Where does a cobra lily grow?
 - The hot rainforests of Brazil
-+ Northern California and Oregon
 - The dry deserts of North Africa
++ Northern California and Oregon
 explain: The cobra lily grows only in northern California and southwest Oregon.
 
 quiz: What does a sundew's glue look like?
 - Drops of rain
-- Tiny drops of nectar
 + Beads of dew
+- Tiny drops of nectar
 explain: Each bead catches the light like a dewdrop, but unlike dew it is still there at noon in full sun.
 
 # UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
@@ -1347,9 +1347,9 @@ fact(Fishhooks): The spines are thick, stiff and curved back on themselves, like
 p: Mature barrels lean toward the south or southwest, and desert hikers call it the compass barrel. The best reading is that the side facing the hot afternoon sun grows more slowly.
 
 check: Which way does a mature fishhook barrel cactus lean?
-+ South or southwest
 - North or northeast
 - Straight up and tall
++ South or southwest
 hint: Look at the last paragraph. It says which way the cactus leans.
 explain: Mature barrels lean toward the south or southwest, which is why hikers call it the compass barrel.
 
@@ -1375,9 +1375,9 @@ fact(Not a cactus): Aloe vera is not a cactus. It is a succulent, closer kin to 
 p: Cut a leaf across and you get two things: the clear gel in the middle, and a thin layer of bitter yellow sap just under the green skin.
 
 check: What is just under the green skin of an aloe leaf?
++ A bitter yellow sap
 - A layer of clear gel
 - A row of tiny seeds
-+ A bitter yellow sap
 hint: Look at the paragraph. It says what lies just under the skin.
 explain: Under the green skin is a thin layer of bitter yellow sap. The clear gel is in the middle.
 
@@ -1393,26 +1393,26 @@ p: Three desert survivors, each different.
 
 quiz: Why is the fishhook barrel named that?
 - It grows beside rivers full of fish
-+ Its spines are curved like fish hooks
 - It is shaped like a fishing reel
++ Its spines are curved like fish hooks
 explain: The spines are thick, stiff and curved back on themselves, like fish hooks.
 
 quiz: What are glochids?
-- Sweet red fruits that people eat
 + Fine, barbed hairs that lodge in skin
+- Sweet red fruits that people eat
 - Flat green pads that hold water
 explain: Glochids are fine barbed hairs that come off the plant and stay in skin.
 
 quiz: What do people call young prickly pear pads that they eat?
-+ Nopales
 - Tortillas
++ Nopales
 - Glochids
 explain: Young pads are called nopales, and they are eaten in tacos and with eggs.
 
 quiz: What is the aloe closer kin to?
++ A daylily
 - A barrel cactus
 - A prickly pear
-+ A daylily
 explain: Aloe is a succulent, closer kin to a daylily than to anything with spines.
 
 quiz: How do desert hikers use a mature barrel cactus?
@@ -1454,8 +1454,8 @@ term: watermeal = The smallest kind of duckweed, a floating green crumb with no 
 
 check: About how long does it take one kind of duckweed to double itself?
 - About 29 days
-+ About 29 hours
 - About 29 minutes
++ About 29 hours
 hint: Look at the box. It tells how fast the duckweed doubles.
 explain: One duckweed doubles itself in 29.3 hours, the fastest growth measured in any flowering plant.
 
@@ -1467,9 +1467,9 @@ fact(Three sides): Roll a papyrus stem between your fingers and you feel three f
 p: To make a sheet, strips of the white pith are laid side by side, with a second layer across them at right angles, and hammered together.
 
 check: How many flat sides does a papyrus stem have?
++ Three flat sides
 - Four flat sides
 - No sides, it is round
-+ Three flat sides
 hint: Look at the box. It describes the shape of the stem.
 explain: A papyrus stem is a triangle, not a tube, so it has three flat sides.
 
@@ -1492,8 +1492,8 @@ p: Four plants of the water, each different.
 
 quiz: What is the holdfast of giant kelp for?
 - Taking in water like a root
-+ Only for grip
 - Making its flowers
++ Only for grip
 explain: A holdfast absorbs nothing. Its only job is to grip the rock.
 
 quiz: How small is a watermeal?
@@ -1503,21 +1503,21 @@ quiz: How small is a watermeal?
 explain: A watermeal is about 0.6 mm long, small enough to pass through the eye of a sewing needle.
 
 quiz: What was papyrus pressed into?
++ The world's first paper
 - Bricks for building houses
 - Cloth for making clothes
-+ The world's first paper
 explain: The stem was sliced, layered and pressed into the world's first paper.
 
 quiz: Why is seagrass not a seaweed?
-+ It is a flowering plant with roots and seeds
 - It lives only on dry sandy beaches
 - It is a kind of alga with no roots
++ It is a flowering plant with roots and seeds
 explain: Seagrass has roots, veined leaves, flowers, pollen and seeds, the full kit of a flowering plant.
 
 quiz: What is the largest known living thing on Earth by area?
 - A kelp forest
-- A duckweed pond
 + A seagrass meadow
+- A duckweed pond
 explain: One seagrass in Shark Bay, Western Australia, covers about 77 square miles (200 km2).
 
 # UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
@@ -1539,8 +1539,8 @@ p: Most of a leaf is dead on purpose. Big empty cells hold the water, and the li
 
 check: How much water can sphagnum hold?
 - Only half of its dry weight
-+ 16 to 26 times its dry weight
 - A few drops of water at most
++ 16 to 26 times its dry weight
 hint: Look at the box. It gives the number of times its own weight.
 explain: Sphagnum can hold 16 to 26 times its own dry weight in water.
 
@@ -1552,8 +1552,8 @@ fact(Two in one): The fungus makes the structure and catches the water. The alga
 term: alga = The green partner in a lichen, which makes the food.
 
 check: What does the fungus do in a lichen?
-- Makes the food from the sunlight
 + Makes the structure, catches water
+- Makes the food from the sunlight
 - Grows the flowers and the seeds
 hint: Look at the box. It says what the fungus does for the lichen.
 explain: The fungus makes the structure and catches the water. The alga inside it makes the food.
@@ -1589,27 +1589,27 @@ quiz: What is peat mostly made of?
 explain: Peat is mostly dead sphagnum that never rotted.
 
 quiz: What two living things make one lichen?
-+ A fungus and an alga
 - A moss and a fern
++ A fungus and an alga
 - A seed and a root
 explain: A lichen is a fungus and an alga living inside one body.
 
 quiz: Where can lichens grow?
-- Only in rich garden soil
 + On bare rock and tree bark
+- Only in rich garden soil
 - Only underwater
 explain: Lichens grow on bare rock, roof tiles and tree bark.
 
 quiz: What do a moss's rhizoids do?
 - Take in water for it
-+ Only grip the ground
 - Make the moss spores
++ Only grip the ground
 explain: The hairs that hold a moss down are only for grip. Water and food go in through the leaves.
 
 quiz: What happens when you water a dried-out moss?
 - It crumbles away into brown dust
-- It grows bright flowers right away
 + It turns green again within hours
+- It grows bright flowers right away
 explain: A moss can dry to a brown crisp for months, then turn green and start working again within hours.
 
 # UNREVIEWED: written by hand (Claude) from the species facts, passed every automatic check, not yet read by a person (2026-10-11)
@@ -1645,8 +1645,8 @@ term: rhizome = An underground stem that runs sideways below the ground.
 
 check: How far sideways can bracken's underground stem run?
 - Only about 5 in (13 cm)
-+ As far as 50 ft (15 m)
 - More than 500 ft (150 m)
++ As far as 50 ft (15 m)
 hint: Look at the box. It gives how far the underground stem runs.
 explain: The underground stem is about 2 in (5 cm) thick and runs up to 50 ft (15 m) sideways.
 
@@ -1658,8 +1658,8 @@ fact(Gritty stems): Rub a horsetail stem and it is rough, like fine sandpaper. T
 p: The stems are hollow and jointed, and they pull apart at the joints with a small pop.
 
 check: What makes a horsetail stem rough like sandpaper?
-- Tiny thorns along each stem
 + Silica, the stuff of glass
+- Tiny thorns along each stem
 - A coat of dried-up salt
 hint: Look at the box. It names what the plant loads into its stem.
 explain: The plant loads silica, the stuff of sand and glass, into its stem, so it feels like fine sandpaper.
@@ -1676,20 +1676,20 @@ p: Three green plants with no flowers, each with its own odd habit.
 
 quiz: What is a tree fern's trunk made of?
 - Solid, hard wood like an oak tree
-- Leaves rolled tightly into a tube
 + An upright stem wrapped in roots
+- Leaves rolled tightly into a tube
 explain: The trunk is not wood. It is an upright stem wrapped in a thick felt of its own roots.
 
 quiz: How do tree ferns and horsetails spread, since they have no seeds?
-+ By tiny spores
 - By flower pollen
 - By juicy fruit
++ By tiny spores
 explain: They have no flowers, seeds or fruit. They make spores instead.
 
 quiz: What happens to cattle and sheep that eat a lot of bracken?
++ They get seriously ill
 - They grow much stronger
 - Nothing happens at all
-+ They get seriously ill
 explain: Bracken is poisonous to cattle and sheep that eat enough of it.
 
 quiz: What was horsetail used for?
@@ -1699,8 +1699,8 @@ quiz: What was horsetail used for?
 explain: The silica grit in its stems made it good for scouring pots and polishing wood.
 
 quiz: How tall is the Norfolk Island tree fern?
-- About 6 ft (2 m) tall
 + About 66 ft (20 m) tall
+- About 6 ft (2 m) tall
 - About 600 ft (180 m) tall
 explain: The Norfolk Island tree fern reaches about 66 ft (20 m), probably the largest fern in the world.
 
@@ -1746,8 +1746,8 @@ p: The slime on the cap smells of dead animal and dung. Flies land, feed, and le
 
 check: Why does a stinkhorn smell like rotting meat?
 - To scare off deer
-+ To attract flies
 - To keep rain away
++ To attract flies
 hint: Look at the last paragraph. It tells who visits the smelly slime.
 explain: The smell brings flies. They land, feed and carry the spores away on their feet.
 
@@ -1766,9 +1766,9 @@ fact(Pores): Turn one over. Instead of gills there are pores, thousands of tiny 
 p: Some brackets live on year after year, adding a fresh layer of tubes each season. The layers show as rings, and can be counted like tree rings.
 
 check: What can you count on an old bracket fungus?
++ The rings of its layers
 - Leaves along the top
 - Seeds in the pores
-+ The rings of its layers
 hint: Look at the last paragraph. It says what shows on top of the layers.
 explain: Each season adds a fresh layer, and the layers show as rings that can be counted like tree rings.
 
@@ -1791,19 +1791,19 @@ p: Six fungi, and not one of them is a plant.
 
 quiz: Why is a fly agaric not a plant?
 - It has no stem or cap at all
-- It grows only in the winter months
 + It never makes food from sunlight
+- It grows only in the winter months
 explain: A fungus has no green and never makes a scrap of food from sunlight.
 
 quiz: How much forest does the honey fungus in Oregon cover?
-+ About 3.5 square miles
 - About 3.5 square feet
 - About 3.5 acres
++ About 3.5 square miles
 explain: One honey fungus in the Malheur National Forest covers 3.5 square miles (9.1 km²).
 
 quiz: How does a stinkhorn spread its spores?
-- The wind blows them off
 + Flies carry them away
+- The wind blows them off
 - Rain washes them off
 explain: Flies land, feed and leave carrying the spores on their feet.
 
@@ -1837,8 +1837,8 @@ fact(Round and round): The small leaflets rotate in jerky steps along an oval pa
 p: It only moves in daylight, and only when the air is above 72°F (22°C). Cold stops it. Night stops it.
 
 check: When do the telegraph plant's leaflets move?
-- Only at night, when it is cold
 + In daylight, when it is warm
+- Only at night, when it is cold
 - Only when someone touches it
 hint: Look at the paragraph. It says when the leaflets move and when they stop.
 explain: The leaflets move only in daylight and only when the air is above 72°F (22°C).
@@ -1882,21 +1882,21 @@ p: A telegraph plant swinging its leaflets. A squirting cucumber firing its seed
 p: Three plants that move in odd ways.
 
 quiz: What do the telegraph plant's small leaflets do?
++ Swing round in circles
 - Open only at night
 - Fold up when touched
-+ Swing round in circles
 explain: The two small leaflets at the base of each leaf rotate along a path, round and round.
 
 quiz: What stops the telegraph plant's leaflets from moving?
 - Wind and rain
-+ Cold and night
 - Hot sunshine
++ Cold and night
 explain: It moves only in daylight and only when the air is warm. Cold stops it. Night stops it.
 
 quiz: What makes a squirting cucumber shoot its seeds?
 - A strong gust of wind from the sea
-- A hungry bird tugging at the stalk
 + Pressure built up inside the fruit
+- A hungry bird tugging at the stalk
 explain: The pressure builds up over days and is spent in a fraction of a second.
 
 quiz: How does a tumbleweed come away from its root?

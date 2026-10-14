@@ -7,8 +7,8 @@ game: Great Wall = Long but blends in too much | Machu Picchu = Stones fit witho
 p: Have you ever heard that you can see the Great Wall of China from space? It is actually not true.
 fact: The Great Wall is long, but it is only about 20 ft (6 m) wide. Much of it is made of the same earth and stone as the ground beside it. Astronauts have said so repeatedly, and photographs back them up.
 check: Can you see the Great Wall from space with the naked eye?
-+ No, it blends in too much
 - Yes, it stands out clearly
++ No, it blends in too much
 - Only at night when it is lit up
 hint: Look at the fact box. It tells you why the wall is hard to see.
 explain: The Great Wall blends in with the ground too much to be seen from space without a camera.
@@ -29,8 +29,8 @@ p: In Petra, the carvers did not build up, they carved down. They started at the
 fact: The great fronts were carved straight into the cliff from the top down. They needed little or no scaffolding because they cut away the rock beneath their own feet as they went.
 p: Unfinished tombs still show where the work stopped partway down, revealing how the method was done.
 check: Why did the Petra carvers need no scaffolding?
-- They stood on tall wooden platforms that were later taken away
 + They started at the top and cut away the rock under their own feet
+- They stood on tall wooden platforms that were later taken away
 - They hung from long ropes tied to the top and carved from there
 hint: Look at the fact box. It explains where they started and what they cut away.
 explain: By starting at the top and cutting down, they always had a solid surface to stand on as they worked.
@@ -41,18 +41,18 @@ fact: From below, the roof looks as though it is resting on a ring of light beca
 p: The dome partly fell in earthquakes more than once and was rebuilt each time. The first rebuilding, in the 500s, made it taller and stronger.
 check: How many windows ring the dome of Hagia Sophia?
 - Twenty
-+ Forty
 - Sixty
++ Forty
 hint: Look at the fact box. It gives the exact number of windows.
 explain: The dome has forty windows around its base, creating a ring of light from below.
 
 --- 🌴
 p: Angkor Wat is the largest religious building in the world by area, with a moat that goes over 3 miles all the way around.
 fact: Aircraft have surveyed the forest with lasers, and they found an entire city laid out around the temple, complete with roads and reservoirs.
-check: What did the laser survey find?
+check: What did the laser survey of the forest around Angkor Wat find?
 - A long network of tunnels and caves under the temple
-- A secret vault full of gold behind the temple walls
 + A whole city of roads and reservoirs around the temple
+- A secret vault full of gold behind the temple walls
 hint: Look at the second sentence. It gives what the lasers found.
 explain: The lasers fired through the forest canopy revealed streets and structures that had been hidden for centuries.
 
@@ -79,9 +79,9 @@ game: Galileo = Saw moons orbiting Jupiter | Torricelli = Built the first barome
 p: In the winter of 1610, Galileo pointed his homemade telescope at Jupiter and saw something odd.
 fact: Four little stars beside it that moved from night to night. He drew them every night, and those drawings still exist today. They are moons going round something that is not the Earth.
 try: You can try this too. Brace binoculars against a wall and look at Jupiter two nights in a row.
-check: What did Galileo's four little stars turn out to be?
-+ Moons going round Jupiter
+check: What did Galileo's four little stars near Jupiter turn out to be?
 - Planets going round the sun
++ Moons going round Jupiter
 - Stars that moved closer each night
 hint: Look at the first fact on the page. It tells you what they turned out to be.
 explain: They are moons, going around something that is not Earth.
@@ -90,20 +90,20 @@ explain: They are moons, going around something that is not Earth.
 p: Evangelista Torricelli took a glass tube, filled it with mercury, and turned it upside down in a dish.
 fact: The column of mercury dropped to about 30 inches and then stopped. Something was holding it up: the weight of the air. He had just built the first barometer. The empty space at the top of the tube was a vacuum.
 term: vacuum = A space with nothing in it at all, not even air.
-check: What held the mercury column up?
+check: In Torricelli's glass tube, what held the mercury column up?
++ The weight of the air
 - The bottom of the dish
 - The glass tube
-+ The weight of the air
 hint: Look at the fact box. It tells you what is holding the mercury up.
 explain: The weight of the air holds up the column of mercury in the barometer.
 
 --- ⌚
 p: John Harrison spent decades building a clock that could keep time at sea. The one that finally passed the tests is a watch about 5 inches (13 cm) across, and it is kept in Greenwich.
 fact: A clock that loses just a few seconds a day piles up miles of error on a long voyage. Sailors find how far east or west they are by comparing noon where they are with the time at home. Every four seconds wrong is a mile out of position.
-check: How far out of position is a clock four seconds wrong?
+check: On a long sea voyage, how far out of position is a ship's clock that is four seconds wrong?
 - Half a mile
-+ A mile
 - Two miles
++ A mile
 hint: Look at the fact box. It gives the number of seconds and the distance.
 explain: Every four seconds wrong on a clock means a mile out of position.
 
@@ -111,8 +111,8 @@ explain: Every four seconds wrong on a clock means a mile out of position.
 p: Carl Linnaeus had an idea to make talking about living things easier.
 fact: He decided every living thing should have exactly two Latin names. One name is the group, and the other is the kind. That's why a wolf is Canis lupus everywhere on Earth, no matter what language you speak.
 check: Why does every living thing get two names?
-- The first name is for the male and the second is for the female, so no one mixes them up
 + One name is its group and the other is its kind, so everyone can say which one they mean
+- The first name is for the male and the second is for the female, so no one mixes them up
 - Each name belongs to a different stage, young or grown, so people know which stage they mean
 hint: Look at the fact box. It explains why two names are used.
 explain: The first name tells you the group, and the second name tells you the specific kind within that group.
@@ -121,9 +121,9 @@ explain: The first name tells you the group, and the second name tells you the s
 p: The Royal Society, a group of scientists in London, had a motto in Latin that means take nobody's word for it.
 fact: They did experiments in front of witnesses and then published what happened, including times when things did not work out as planned.
 check: What did the Royal Society do with its experiments?
-+ Did them in front of witnesses and published the results, failures too
 - Ran them in private rooms and shared only the results that worked out well
 - Locked each result in a vault until the king gave permission to share it
++ Did them in front of witnesses and published the results, failures too
 hint: Look at the fact box. It explains how they made sure everyone knew what happened.
 explain: They did not hide anything, even if things did not work out as expected.
 
@@ -133,8 +133,8 @@ fact: The Royal Society could not help pay for printing it. They had already spe
 p: A friend, Edmond Halley, paid to print the book out of his own pocket.
 check: Who paid to print Newton's book?
 - His teacher Isaac Barrow
-- The king of England himself
 + His friend Edmond Halley
+- The king of England himself
 hint: Look at the last paragraph. It names the friend who paid.
 explain: Edmond Halley put up the money, not the Royal Society or Newton.
 
@@ -150,9 +150,9 @@ game: Timbuktu = Kept hundreds of thousands of manuscripts | Silk Road = A shift
 --- 📚
 p: Timbuktu, in the African country of Mali, was a university city full of knowledge. Families kept hundreds of thousands of handwritten manuscripts on astronomy, medicine, law, and mathematics.
 fact: In 2012, when armed fighters took over the city, librarians smuggled these precious books out in rice sacks and fishing boats.
-check: How were the manuscripts saved?
-- Carried out under piles of firewood on wagons
+check: In 2012, when armed fighters took over Timbuktu, how were the old manuscripts saved?
 + Smuggled out in rice sacks and fishing boats
+- Carried out under piles of firewood on wagons
 - Locked in a steel vault and flown out by plane
 hint: Look at the fact box. It gives the method used.
 explain: The librarians smuggled the manuscripts out in rice sacks and fishing boats to keep them safe.
@@ -161,8 +161,8 @@ explain: The librarians smuggled the manuscripts out in rice sacks and fishing b
 p: The Silk Road was not a road at all, but a shifting web of routes across deserts and mountains.
 fact: Almost nobody traveled the whole length. Goods, paper, gunpowder, printing, and diseases were handed on town to town.
 check: Did anyone travel the whole Silk Road?
-+ Almost nobody did
 - Everyone did
++ Almost nobody did
 - Only traders did
 hint: Look at the first sentence in the fact box.
 explain: Very few people traveled the entire length of the Silk Road. Goods and ideas were passed from one town to another along the way.
@@ -170,7 +170,7 @@ explain: Very few people traveled the entire length of the Silk Road. Goods and 
 --- 🏯
 p: Himeji Castle in Japan is made of wood and white plaster on top of a stone base.
 fact: Inside, it is a deliberate maze with narrow twisting passages, some dead ends, and steps of different heights, which are said to trip up anyone rushing. An attacker cannot move fast or safely.
-check: Why are the steps different heights?
+check: Why are the steps inside Himeji Castle different heights?
 - So the builders could save stone on the way up
 - So the castle looks taller from the outside
 + So an attacker cannot move fast or safely
@@ -181,9 +181,9 @@ explain: Steps of different heights make it hard for an attacker to move quickly
 p: The Aztecs farmed on the lake itself by staking out rectangles in the shallows.
 fact: They filled these plots with mud and reeds until they rose above the water. Willows planted at the corners held the whole thing together with their roots, and several crops a year were harvested.
 check: What held the Aztec garden plots together?
++ The roots of willow trees at the corners
 - Heavy stones piled up at each corner
 - Large baskets of clay sunk beneath the plots
-+ The roots of willow trees at the corners
 hint: Look at the second sentence in the fact box.
 explain: The willows planted at the corners kept everything from falling apart.
 
@@ -192,8 +192,8 @@ p: The Inca kept records without writing, using knotted cords called quipu.
 term: quipu = A set of knotted cords used by the Inca to record information.
 fact: The color of the cord, the kind of knot, and its position all carried meaning. Numbers can be read from surviving quipu with confidence, but whether they also recorded words is not settled.
 check: What three things carried meaning in a quipu?
-+ The color, the kind of knot, and its position
 - The sound of the knots, the age of the weaver, and the weather
++ The color, the kind of knot, and its position
 - The smell of the cord, the day of the week, and the weight
 hint: Look at the fact box. It lists three specific things that carried meaning.
 explain: The color, the kind of knot, and its position all held information in a quipu.
@@ -202,10 +202,10 @@ explain: The color, the kind of knot, and its position all held information in a
 p: The bronze plaques and heads made in the old Kingdom of Benin, in what is now Nigeria, started as wax packed inside clay.
 fact: The wax was melted out, and then metal was poured into the empty space it left behind. Some are cast so thin that they show skill equal to the best European foundries of the time.
 p: Thousands of these pieces were taken by British soldiers in 1897 and ended up in museums across Europe and America. Many are now being returned.
-check: What was melted out of the clay to make space for the metal?
+check: To make a bronze head in the old Kingdom of Benin, what was melted out of the clay to make space for the metal?
 - The clay
-+ The wax
 - The bronze
++ The wax
 hint: Look at the fact box. It tells you what was melted out.
 explain: The wax was melted out, leaving a space for the metal to be poured in.
 
@@ -221,9 +221,9 @@ game: Ether = The dentist gave it to the patient | Röntgen = Found new rays fro
 --- 😴
 p: Before 1846, surgery was done on people who were awake and held down, so the surgeon had to work as fast as possible.
 fact: In October 1846, a dentist in Boston gave ether to a patient and the surgeon removed a tumor from his neck while he lay still. The surgeon said afterwards: gentlemen, this is no humbug, which means no trick.
-check: What did the dentist give the patient?
-+ Ether
+check: In October 1846, what did a Boston dentist give a patient before surgery?
 - Morphine
++ Ether
 - Alcohol
 hint: Look at the second sentence on the page. It mentions what the dentist gave the patient.
 explain: The dentist gave ether to the patient so the surgery could be done while the patient was unconscious.
@@ -234,8 +234,8 @@ term: photographed = To make a picture using light or other rays.
 fact: He used it to take a picture of his wife's hand. The bones and her wedding ring showed up clearly.
 check: Whose hand did Röntgen photograph?
 - His own
-+ His wife's
 - A patient's
++ His wife's
 hint: Look at the second sentence on the page. It mentions whose hand was photographed.
 explain: Röntgen photographed his wife’s hand to show how the new rays worked.
 
@@ -244,9 +244,9 @@ p: Joseph Lister read that souring, the way milk and wine go bad, was caused by 
 fact: He began spraying carbolic acid over the operating table and washing his instruments in it too. Deaths after surgery on his ward fell sharply.
 p: He published the numbers before and after to show how much safer his methods were.
 check: What did Lister spray over the operating table?
++ Carbolic acid
 - Alcohol
 - Mercury
-+ Carbolic acid
 hint: Look at the second sentence. It mentions what he sprayed over the operating table.
 explain: Lister sprayed carbolic acid over the operating table to keep the living things in the air from causing infections.
 
@@ -254,10 +254,10 @@ explain: Lister sprayed carbolic acid over the operating table to keep the livin
 p: In 1921, a surgeon and a student spent their summer in a borrowed lab in Toronto.
 fact: They worked out how to take a substance from the pancreas that lowered blood sugar. It is called insulin. After tests on dogs, a purified version made from cattle pancreas was given to a fourteen-year-old boy. He was dying of diabetes, a sickness in which the body cannot control its blood sugar. He got better.
 p: Then they sold their patent, the legal right to be the only makers of insulin, to the university for one dollar each.
-check: How much did they sell the patent for?
+check: How much did the discoverers of insulin sell their patent for?
 - Ten dollars
-- Free, no money at all
 + One dollar each
+- Free, no money at all
 hint: Look at the last sentence on the page. It gives the amount.
 explain: They sold the patent for one dollar each so that no company could keep insulin for itself.
 
@@ -266,9 +266,9 @@ p: Florence Nightingale's lasting weapon was not the lamp. It was a diagram.
 fact: She made a circular chart that laid out deaths month by month. It showed that far more soldiers were dying of disease in the hospital than of wounds.
 p: She put this chart in front of people who could make changes to save lives.
 check: What was Florence Nightingale's lasting weapon?
-+ A diagram, a circular chart
 - A lamp, a small brass lantern
 - A song, a hymn sung to soldiers
++ A diagram, a circular chart
 hint: Look at the fact box. It describes what her lasting weapon was.
 explain: Her circular chart showed that more soldiers died of disease than wounds, and it convinced people to make changes.
 
@@ -295,9 +295,9 @@ game: Arrow slit = Narrow on the outside, wide on the inside | Salisbury Cathedr
 p: Castles had arrow slits that were narrow on the outside but opened wide on the inside.
 fact: This shape lets an archer swing his aim across a whole field through a tiny gap that attackers can barely hit.
 try: If you ever visit a castle, put your arm through a slit and feel how it works.
-check: Why is the slit wide on the inside?
-- So guards can drop stones on climbers through it
+check: Why is the slit in a castle wall wide on the inside?
 + The archer can swing his aim across a whole field through a tiny gap
+- So guards can drop stones on climbers through it
 - So the stone around the gap stays strong and does not crack under attack
 hint: Look at the fact box. It explains why the inside is wide.
 explain: The wide inside lets the archer move freely while the narrow outside makes it hard to hit.
@@ -305,10 +305,10 @@ explain: The wide inside lets the archer move freely while the narrow outside ma
 --- ⛪
 p: The spire of Salisbury Cathedral soars 404 feet into the sky, but its foundations are only 4 feet deep in wet gravel.
 fact: It leans, it has been braced repeatedly, and there is a medieval iron rod inside that somebody added when they saw something was going wrong. Yet, it has not fallen down.
-check: How deep are the spire's foundations?
+check: How deep are the foundations of the spire of Salisbury Cathedral?
 - About 10 feet
-+ Only 4 feet
 - About 20 feet
++ Only 4 feet
 hint: Look at the first sentence. It gives the exact depth.
 explain: The foundations are only 4 feet deep in wet gravel, but the spire still stands.
 
@@ -316,8 +316,8 @@ explain: The foundations are only 4 feet deep in wet gravel, but the spire still
 p: Before printing, every book was copied by hand. A monk worked in a scriptorium, the room where books were copied. He worked in daylight only, with no candles near the parchment, the animal-skin pages. One flame or drop of hot wax could ruin months of work.
 fact: A good copyist produced just a few pages a day. Copying a Bible could take years of work.
 check: Why did monks copy books in daylight only?
-+ No candles were allowed near the parchment
 - To save on candle wax
++ No candles were allowed near the parchment
 - Because the parchment was too thick to see through
 hint: Look at the second sentence. It explains why no candles were used.
 explain: No candles were allowed near the parchment to protect it from damage.
@@ -326,7 +326,7 @@ explain: No candles were allowed near the parchment to protect it from damage.
 p: In 1086, the King of England ordered a big survey to find out who owned what. It went down to every plow, mill, and even pig.
 fact: The survey filled two volumes written in abbreviated Latin that you can still read today at the National Archives.
 p: People called it Domesday, after the day of judgment. There was no appealing against what it said you owned.
-check: What did the survey count?
+check: In 1086, the King of England ordered a big survey called Domesday. What did the survey count?
 - Only the number of castles, towers, and walls
 - Only the length of every road and river
 + Who owned what, down to plows, mills and pigs
@@ -339,8 +339,8 @@ fact: A boy would be apprenticed for around seven years. Then he worked for wage
 term: masterpiece = The qualifying test piece that earned you master status in the guild.
 check: What did masterpiece originally mean?
 - The finest work of art that a student ever made
-- A special gift made for the king by the best workers
 + A qualifying test piece that earned you master status
+- A special gift made for the king by the best workers
 hint: Look at the term box. It defines what a masterpiece was.
 explain: A masterpiece was the qualifying test piece that allowed someone to become a master in their trade.
 
@@ -367,9 +367,9 @@ game: pewter plate = The material used for the first photograph | telegraph = Se
 --- 📷
 p: The world's first photograph is a view from an upstairs window in France, made on a pewter plate, a flat sheet of soft gray metal.
 fact: The exposure, the time the plate sat soaking up light, took hours, which is why the sun appears to be shining on both sides of the courtyard at once.
-check: Why does the sun seem to shine on both sides in the first photograph?
-- The camera was broken
+check: Why does the sun seem to shine on both sides of the courtyard in the world's first photograph?
 + The exposure took hours
+- The camera was broken
 - The photographer used a flash
 hint: Look at the fact box. It explains why the sun appears on both sides.
 explain: The long exposure time allowed the sun to move across the sky, capturing its light on both sides of the courtyard.
@@ -379,8 +379,8 @@ p: The first telegraph cable laid across the Atlantic worked for about three wee
 term: telegraph = A machine that sends messages along a wire as short and long electric signals.
 fact: After those three weeks, it died. It took eight more years, a bigger ship called the Great Eastern, and a stronger cable to get a permanent one working.
 check: How long did the first Atlantic telegraph cable work?
-+ Three weeks
 - Eight years
++ Three weeks
 - One day
 hint: Look at the first sentence on the page. It gives the number of weeks.
 explain: The first cable worked for only three weeks before it stopped functioning.
@@ -398,9 +398,9 @@ explain: Physicists said radio waves travel in straight lines, so they could not
 --- 📦
 p: A steel box of fixed size can go straight from ship to truck to train without being unpacked. That cut the cost of loading a ship from about $6 a ton to about 16 cents a ton.
 fact(First voyage): The first container voyage was in 1956, with 58 boxes on a converted tanker.
-check: How many boxes were on the first container voyage?
-- 28
+check: How many boxes were on the first container ship voyage?
 + 58
+- 28
 - 108
 hint: Look at the fact box. It gives the number of boxes on the first voyage.
 explain: The first container voyage in 1956 carried exactly 58 boxes.
@@ -420,8 +420,8 @@ explain: The first mouse was a wooden box with two wheels and a button.
 p: The satellites up in space that tell your phone where you are have clocks inside them.
 fact: Time runs at a very slightly different rate up there, because the satellites move fast and are far from Earth's pull, so those clocks need to be corrected constantly. Left uncorrected, your position would drift by about 6 miles a day.
 check: What would happen if the satellite clocks were not corrected?
-+ Your position would drift about 6 miles a day
 - Your location would drift about 20 feet a day
++ Your position would drift about 6 miles a day
 - The satellites would fall from the sky within weeks
 hint: Look at the fact box. It tells you how far your position would drift each day.
 explain: Left uncorrected, the position would drift by about 6 miles a day.
@@ -440,8 +440,8 @@ p: Gutenberg's great Bible has 42 lines to the column, and about 180 copies were
 fact: The pages are so even that many people at first took them for handwriting. His real invention was a mold. He poured melted metal into it to cast thousands of identical metal letters quickly.
 check: What was Gutenberg's real invention?
 - A machine that pressed whole pages onto paper
-+ A mold for casting identical metal letters
 - A special paper made from plant fiber and glue
++ A mold for casting identical metal letters
 hint: Look at the fact box. It says his mold let him cast thousands of identical metal letters quickly.
 explain: His mold made it possible to cast thousands of identical metal letters, which was key to the printing process.
 
@@ -450,9 +450,9 @@ p: The oldest dated printed book is not European. It is a Buddhist scroll printe
 fact: This scroll was found sealed in a cave in western China and is now kept in the British Library.
 term: Buddhist = Having to do with Buddhism, a religion that teaches people to find peace through meditation and good actions.
 check: Where was the oldest dated printed book found?
++ Sealed in a cave in western China
 - Found inside an old library in Europe
 - Under the floor of a temple in India
-+ Sealed in a cave in western China
 hint: Look at the fact box. It says it was found sealed in a cave in western China.
 explain: The scroll was discovered sealed in a cave in western China.
 
@@ -460,8 +460,8 @@ explain: The scroll was discovered sealed in a cave in western China.
 p: Paper was invented in China and took about a thousand years to reach Europe, traveling west along the Silk Road through Samarkand and Baghdad.
 fact: Before paper arrived in Europe, most books were written on animal skin. A single large book could take the hides of a whole flock.
 check: What were most books written on before paper arrived in Europe?
-+ Animal skin
 - Stone tablets
++ Animal skin
 - Wooden blocks
 hint: Look at the second sentence. It tells you what Europe used to write on before paper.
 explain: Before paper, Europe wrote on animal skin, and a large book could use hides from an entire flock.
@@ -472,8 +472,8 @@ fact: Printers invented a sticky paint made of soot ground into boiled linseed o
 try: Try writing on a metal spoon with a pen that has watery ink, then with a smear of oil paint. Only the paint stays put.
 check: What was printer's ink made of?
 - Colored clay mixed into thick tree sap
-+ Soot ground into boiled linseed oil
 - Crushed berries stirred into beeswax
++ Soot ground into boiled linseed oil
 hint: Look at the fact box. It tells you exactly what printer's ink was made of.
 explain: Printer's ink was a sticky paint made from soot mixed with boiled linseed oil.
 
@@ -492,8 +492,8 @@ p: Once printing arrived, spelling started to settle down. Every copy of a word 
 fact(Worked out): English spelling froze at an awkward moment. Words like knight and through were once said roughly as they look. The spelling was fixed in print just as the pronunciation was still changing.
 check: Why is English spelling so strange?
 - It was made up by one king who liked unusual letters
-- It was decided by a vote of all the people in England
 + It was fixed in print while pronunciation was still changing
+- It was decided by a vote of all the people in England
 hint: Look at the last sentence in the fact box. It says when the spelling was fixed.
 explain: The spelling was fixed in print just as the pronunciation was still moving, which is why English spelling can seem so strange now.
 
@@ -509,10 +509,10 @@ game: Elcano = Finished the round-the-world voyage | swells = The big waves that
 --- ⛵
 p: Five ships set out to sail around the world. Only one ship finished the trip, and Ferdinand Magellan was not on it.
 fact: Magellan was killed in the Philippines. The man who finished the voyage was Juan Sebastián Elcano, and his coat of arms showed a globe with the words "you went round me first."
-check: How many ships finished the trip around the world?
+check: How many of the five ships that set out to sail around the world finished the trip?
 - Two
-+ One
 - Five
++ One
 hint: Look at the second sentence on the page.
 explain: Only one ship, the Victoria, finished the trip around the world.
 
@@ -522,8 +522,8 @@ term: swells = The big waves that move across the ocean.
 fact: They steered by the stars, read the direction of the swells, watched cloud shapes over islands they could not yet see, and followed the flight paths of birds.
 check: How did Polynesian navigators find their way?
 - By iron compasses, paper maps, and clocks
-- By following whales and sharks at sea
 + By the stars, swells, clouds, and birds
+- By following whales and sharks at sea
 hint: Look at the fact box on the page.
 explain: They used the stars, the direction of the swells, cloud shapes, and bird flights to navigate.
 
@@ -542,8 +542,8 @@ p: The warship Vasa sank after sailing only about 4,000 feet on her first voyage
 fact: She went down because she was too tall and too narrow.
 p: The cold, barely salty Baltic water had no wood-eating shipworms, so it preserved her. In 1961, they raised her and put her in a museum built around her.
 check: Why did the Vasa sink?
-+ She was too tall and too narrow
 - Her sails were torn by the wind
++ She was too tall and too narrow
 - She hit a rock
 hint: Look at the fact box. It tells you why she sank.
 explain: She was too tall and too narrow, which made her unstable in the water.
@@ -552,10 +552,10 @@ explain: She was too tall and too narrow, which made her unstable in the water.
 p: In 1747, a naval surgeon had an idea to test what might cure scurvy, the deadly sickness sailors got after months at sea without fresh fruit.
 fact: He took twelve sick sailors, split them into six pairs, and gave each pair a different remedy. The two given oranges and lemons recovered within days.
 p: It was one of the first fair tests of its kind: each pair got a different remedy, so the results could be compared. But the navy took over forty years to act on it.
-check: Which remedy worked?
+check: In 1747, a naval surgeon tested remedies for scurvy on sailors. Which remedy worked?
 - Vinegar by the spoon
-+ Oranges and lemons
 - Sea water by the cup
++ Oranges and lemons
 hint: Look at the fact box. It names what helped the sailors recover quickly.
 explain: The pair given oranges and lemons recovered within days.
 
@@ -564,9 +564,9 @@ p: Marco Polo did not write his account of China down himself.
 fact: He dictated it to a writer of adventure tales he shared a prison cell with. That is one reason people have argued about it for centuries.
 p: He describes paper money accurately, something Europe had never seen before, and black stones that people burned as fuel.
 check: Who wrote down Marco Polo's account?
++ A writer of adventure tales he shared a prison cell with
 - A royal scribe sent by the Pope to write it down
 - A priest he shared a long sea voyage with
-+ A writer of adventure tales he shared a prison cell with
 hint: Look at the first sentence in the fact box. It names who wrote it down.
 explain: The adventure writer took down what Marco Polo told him in prison.
 
@@ -574,7 +574,7 @@ explain: The adventure writer took down what Marco Polo told him in prison.
 p: Ships lost at sea. Stars read like a map. A giraffe in a city. A warship that sank on her first trip. Lemons helped sailors. A book dictated in a prison cell.
 p: All of it part of the voyages that reshaped how people saw the world.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === world-vikings
 idea: The Vikings sailed in longships far from home, and some of them even reached North America.
 
@@ -585,71 +585,79 @@ p: The Vikings sailed far from home.
 
 term: voyaged = Went as far as the Mediterranean by ship, like the Vikings.
 
-fact: They voyaged as far as the Mediterranean, North Africa, the Middle East, Greenland, and Vinland, in present-day Newfoundland.
+fact(Where they went): The Vikings voyaged as far as the Mediterranean, North Africa, the Middle East, Greenland, and Vinland, in present-day Newfoundland.
 
 check: Which land did the Vikings call Vinland?
 - Greenland
-+ Newfoundland
 - North Africa
-hint: Look at the box. The answer is there.
-explain: They voyaged as far as the Mediterranean, North Africa, the Middle East, Greenland, and Vinland, in present-day Newfoundland.
++ Newfoundland
+hint: Look at the box. It names the land.
+explain: Vinland was in present-day Newfoundland.
 
 --- 📅
 p: The Vikings were the first Europeans to reach North America.
 
-fact: They briefly settled in Newfoundland, which they called Vinland.
+fact(Vinland): The Vikings briefly settled in Newfoundland, which they called Vinland.
 
 check: Who were the first Europeans to reach North America?
 - The Romans
 + The Vikings
 - The Greeks
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It names who they were.
 explain: The Vikings were the first Europeans to reach North America.
 
 --- 🏗️
 p: Longships were long, slender ships built for speed.
 
-fact: They could carry a large crew of warriors.
+fact(Their crews): Longships could carry a large crew of warriors.
 
 check: What were longships built for?
-- Storage
 + Speed
+- Storage
 - Fishing
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It says what they were built for.
 explain: Longships were long, slender ships built for speed.
 
 --- 🧑
 p: Leif Erikson bought a ship from Bjarni and gathered a crew of thirty-five men.
 
-fact: Then he set off to find the lands Bjarni had described.
+fact(His plan): Then he set off to find the lands Bjarni had described.
 
-check: How many men were in Leif's crew?
+check: How many men were in the crew of Leif Erikson?
 - Fifteen men
-+ Thirty-five men
 - Fifty-five men
-hint: Look at the paragraph. The answer is there.
-explain: Leif Erikson bought a ship from Bjarni and gathered a crew of thirty-five men.
++ Thirty-five men
+hint: Look at the paragraph. It gives the number.
+explain: Leif Erikson gathered a crew of thirty-five men.
 
 --- 👤
 p: Erik the Red, the father of Leif Erikson, founded the first Norse settlement in Greenland.
 
-fact: Leif was raised there.
+fact(Where Leif grew up): Leif was raised there.
+
+check: Where was Leif Erikson raised?
+- Newfoundland
++ Greenland
+- North Africa
+hint: Look at the paragraph. It names the land where his father founded a settlement.
+explain: Erik the Red founded the first Norse settlement in Greenland, and Leif was raised there.
 
 --- 🍽️
 p: After wintering in Vinland, Leif returned to Greenland in the spring.
 
-fact: He brought back a cargo of grapes and timber.
+fact(His cargo): He brought back a cargo of grapes and timber.
+
+check: What did Leif bring back from Vinland?
++ Grapes and timber
+- Gold and silver
+- Wool and cloth
+hint: Look at the box. It names the cargo.
+explain: Leif brought back a cargo of grapes and timber.
 
 --- 🔎
 p: Ships that sailed far. A land called Vinland. Longships built for speed. A crew of thirty-five. A cargo of grapes and timber.
 
 p: The Vikings were bold.
-
-quiz: What did Leif bring back from Vinland?
-- Gold and silver
-+ Grapes and timber
-- Wool and cloth
-explain: He brought back a cargo of grapes and timber.
 
 quiz: Who founded the first Norse settlement in Greenland?
 - Leif Erikson
@@ -659,17 +667,23 @@ explain: Erik the Red founded the first Norse settlement in Greenland.
 
 quiz: When did Leif return to Greenland?
 - In the autumn
-+ In the spring
 - In midwinter
++ In the spring
 explain: After wintering in Vinland, Leif returned to Greenland in the spring.
 
 quiz: What kind of ships could carry a large crew of warriors?
-- Rowboats
 + Longships
+- Rowboats
 - Barges
 explain: Longships could carry a large crew of warriors.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: From whom did Leif Erikson buy a ship?
+- Erik the Red
+- Leif Erikson
++ Bjarni
+explain: Leif Erikson bought a ship from Bjarni.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === world-castles
 idea: Castles had walls, arrowslits and gates, and knights wore armor made to fit them.
 
@@ -678,62 +692,76 @@ game: Portcullis = A gate that could be lowered | Knight = A mounted warrior who
 --- 🏰
 p: A castle was a fortified building made in the Middle Ages.
 
-fact: It was built mostly by nobles or royalty, and by military orders.
+fact(Who built them): Castles were built mostly by nobles or royalty, and by military orders.
 
 check: Who built most castles?
 - Farmers and fishers
-+ Nobles and royalty
 - Monks and merchants
-hint: Look at the box. The answer is there.
-explain: It was built mostly by nobles or royalty, and by military orders.
++ Nobles and royalty
+hint: Look at the box. It says who built them.
+explain: Castles were built mostly by nobles or royalty, and by military orders.
 
 --- 🏗️
 p: Castles took many forms in the Middle Ages.
 
-fact: Some parts, such as curtain walls, arrowslits and portcullises, were common. A portcullis was a gate that could be lowered.
+fact(Common parts): Some parts, such as curtain walls, arrowslits and portcullises, were common. A portcullis was a gate that could be lowered.
 
 check: Which castle part was a gate that could be lowered?
-- A curtain wall
 + A portcullis
+- A curtain wall
 - An arrowslit
-hint: Look at the box. The answer is there.
+hint: Look at the box. It names the part.
 explain: A portcullis was a gate that could be lowered.
 
 --- 📅
 p: Between 1066 and 1087, King William set up 36 castles, such as Warwick Castle.
 
-fact: He used them to guard against rebellion in the English Midlands.
+fact(Why): King William used them to guard against rebellion in the English Midlands.
 
 check: How many castles did King William set up between 1066 and 1087?
 - 3
 + 36
 - 360
-hint: Look at the paragraph. The answer is there.
-explain: Between 1066 and 1087, King William set up 36 castles, such as Warwick Castle.
+hint: Look at the paragraph. It gives the number.
+explain: Between 1066 and 1087, King William set up 36 castles.
 
 --- 🧑
 p: Knights were mounted warriors.
 
 term: vassal = A person who served a lord.
 
-fact: Often a knight was a vassal who served a lord as an elite fighter or a bodyguard. His payment was land.
+fact(Their pay): Often a knight was a vassal who served a lord as an elite fighter or a bodyguard. His payment was land.
 
 check: How was a knight often paid?
 - With gold coins
-+ With land
 - With fine horses
-hint: Look at the box. The answer is there.
-explain: His payment was land.
++ With land
+hint: Look at the box. It says what the payment was.
+explain: A knight's payment was land.
 
 --- ⏳
 p: Plate armor was developed in Europe.
 
-fact: By about 1420, complete suits of plate armor had been developed.
+fact(By about 1420): By about 1420, complete suits of plate armor had been developed.
+
+check: By about what year had complete suits of plate armor been developed?
+- 1240
++ 1420
+- 1024
+hint: Look at the box. It gives the year.
+explain: By about 1420, complete suits of plate armor had been developed.
 
 --- 🧱
 p: Armorers fitted armor to the person who would wear it, like a tailor.
 
-fact: They made parts that needed to bend from smaller individual plates called lames.
+fact(Lames): Armorers made parts that needed to bend from smaller individual plates called lames.
+
+check: What were the smaller individual plates of armor called?
++ Lames
+- Helms
+- Greaves
+hint: Look at the box. It names the plates.
+explain: The smaller individual plates were called lames.
 
 --- 🔎
 p: A fortified building. A gate that could be lowered. Castles for a king. A knight paid with land. Plate armor made by armorers.
@@ -742,29 +770,29 @@ p: Castles and knights.
 
 quiz: What did King William use his castles to guard against?
 - Bad weather
-+ Rebellion
 - Heavy floods
-explain: He used them to guard against rebellion in the English Midlands.
-
-quiz: What were the smaller individual plates of armor called?
-- Helms
-+ Lames
-- Greaves
-explain: They made parts that needed to bend from smaller individual plates called lames.
++ Rebellion
+explain: King William used them to guard against rebellion in the English Midlands.
 
 quiz: What did armorers fit armor to?
-- The horse that would carry it
 + The person who would wear it
+- The horse that would carry it
 - The castle that would hold it
 explain: Armorers fitted armor to the person who would wear it, like a tailor.
 
-quiz: What was a knight, often, to a lord?
+quiz: What was a knight, often, to the lord he served?
 - A farmer
 + A vassal
 - A baker
 explain: Often a knight was a vassal who served a lord.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: Between which years did King William set up 36 castles?
+- 1166 and 1187
+- 1006 and 1078
++ 1066 and 1087
+explain: Between 1066 and 1087, King William set up 36 castles.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === world-silkroad
 idea: The Silk Road got its name from trade in silk. Meet Marco Polo, and a camel that can drink up to 53 gallons in a day.
 
@@ -773,62 +801,76 @@ game: Silk Road = Named for the trade in silk | Richthofen = Made the name Silk 
 --- 🐫
 p: The Silk Road got its name from the valuable trade in silk.
 
-term: silk = A valuable cloth that was first developed in China.
+term: silk = A valuable cloth that people traded along the Silk Road.
 
-fact: Silk was first developed in China.
+fact(Where it began): Silk was first developed in China.
 
 check: What gave the Silk Road its name?
 - The color of the road
-+ The trade in silk
 - The shape of the mountains
-hint: Look at the paragraph. The answer is there.
++ The trade in silk
+hint: Look at the paragraph. It says what gave the road its name.
 explain: The Silk Road got its name from the valuable trade in silk.
 
 --- 🧑
 p: The name Silk Road was made popular in 1877 by Ferdinand von Richthofen.
 
-fact: He made seven expeditions to China from 1868 to 1872.
+fact(His trips): He made seven expeditions to China from 1868 to 1872.
 
 check: Who made the name Silk Road popular in 1877?
-- Marco Polo of Venice
 + Ferdinand von Richthofen
+- Marco Polo of Venice
 - Leif Erikson of Greenland
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It names the man.
 explain: The name Silk Road was made popular in 1877 by Ferdinand von Richthofen.
 
 --- 👤
 p: Marco Polo traveled widely inside China.
 
-fact: He lived in the emperor's lands for 17 years and saw many things that Europeans had never known.
+fact(Years in China): He lived in the emperor's lands for 17 years.
 
 check: How many years did Marco Polo live in the emperor's lands?
 - 7 years
 + 17 years
 - 70 years
-hint: Look at the box. The answer is there.
-explain: He lived in the emperor's lands for 17 years and saw many things that Europeans had never known.
+hint: Look at the box. It gives the number of years.
+explain: Marco Polo lived in the emperor's lands for 17 years.
 
 --- 👑
 p: In 1269, Niccolò and Maffeo Polo came home to Venice and met young Marco for the first time.
 
-fact: By then Marco was 21 years old.
+fact(His age): By then Marco was 21 years old.
 
 check: How old was Marco Polo when he met Niccolò and Maffeo for the first time?
 - 12 years old
-+ 21 years old
 - 31 years old
-hint: Look at the box. The answer is there.
++ 21 years old
+hint: Look at the box. It gives his age.
 explain: By then Marco was 21 years old.
 
 --- 📏
 p: The Bactrian camel is the largest mammal in its native range.
 
-fact: At the top of the humps, its average height is 6.99 ft (213 cm).
+fact(Its height): At the top of the humps, its average height is 6.99 ft (213 cm).
+
+check: How tall is a Bactrian camel at the top of the humps, on average?
++ 6.99 ft (213 cm)
+- About 2 ft
+- Nearly 12 feet
+hint: Look at the box. It gives the height.
+explain: At the top of the humps, its average height is 6.99 ft (213 cm).
 
 --- 👀
 p: A thirsty camel can drink in a hot, dry season.
 
-fact: It can drink up to 53 US gallons (200 L) of water in one day.
+fact(How much): A thirsty camel can drink up to 53 US gallons (200 L) of water in one day.
+
+check: How much water can a thirsty camel drink in one day?
+- Only about 5 gallons
++ Up to 53 US gallons (200 L)
+- Over 530 gallons in total
+hint: Look at the box. It gives the amount.
+explain: A thirsty camel can drink up to 53 US gallons (200 L) of water in one day.
 
 --- 🔎
 p: A name from silk. A man who made it popular. Marco Polo in China. A camel with humps. A thirsty camel.
@@ -837,29 +879,29 @@ p: The Silk Road was long.
 
 quiz: In what year did Ferdinand von Richthofen make the name Silk Road popular?
 - 1787
-+ 1877
 - 1778
++ 1877
 explain: The name Silk Road was made popular in 1877 by Ferdinand von Richthofen.
 
-quiz: How tall is a Bactrian camel at the top of the humps, on average?
-- About 2 ft
-+ 6.99 ft (213 cm)
-- Nearly 12 feet
-explain: At the top of the humps, its average height is 6.99 ft (213 cm).
-
-quiz: How much water can a thirsty camel drink in one day?
-- Only about 5 gallons
-+ Up to 53 US gallons (200 L)
-- Over 530 gallons in total
-explain: It can drink up to 53 US gallons (200 L) of water in one day.
-
 quiz: How many expeditions did Richthofen make to China from 1868 to 1872?
-- Three
 + Seven
+- Three
 - Twelve
 explain: He made seven expeditions to China from 1868 to 1872.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: In what year did Niccolò and Maffeo Polo come home to Venice?
+- 1296
++ 1269
+- 1629
+explain: In 1269, Niccolò and Maffeo Polo came home to Venice and met young Marco for the first time.
+
+quiz: Where was silk first developed?
+- Venice
+- Mecca
++ China
+explain: Silk was first developed in China.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === world-china
 idea: The Great Wall, the Terracotta Army and the first paper money.
 
@@ -870,91 +912,105 @@ p: The Great Wall of China is a series of fortifications in China.
 
 term: fortifications = A series of walls and towers built to protect, like the Great Wall.
 
-fact: They were built across the northern borders of ancient Chinese states, to protect against nomadic groups.
+fact(Why it was built): The walls were built across the northern borders of ancient Chinese states, to protect against nomadic groups.
 
 check: What was the Great Wall built to protect against?
 - Rising floods
-+ Nomadic groups
 - Strong winds
-hint: Look at the box. The answer is there.
-explain: They were built across the northern borders of ancient Chinese states, to protect against nomadic groups.
++ Nomadic groups
+hint: Look at the box. It says who the walls protected against.
+explain: The walls were built to protect against nomadic groups.
 
 --- 🏗️
 p: The Great Wall had watchtowers, troop barracks and garrison stations.
 
-fact: It could send signals with smoke or fire.
+fact(Signals): The Great Wall could send signals with smoke or fire.
 
 check: What did the Great Wall use to send signals?
 - Flags or drums
 + Smoke or fire
 - Birds or mirrors
-hint: Look at the box. The answer is there.
-explain: It could send signals with smoke or fire.
+hint: Look at the box. It says how signals were sent.
+explain: The Great Wall could send signals with smoke or fire.
 
 --- 📏
 p: The three pits of the Terracotta Army hold more than 8,000 soldiers.
 
-fact: There are also 130 chariots with 520 horses, and 150 cavalry horses.
+fact(More figures): There are also 130 chariots with 520 horses, and 150 cavalry horses.
 
 check: How many soldiers do the pits of the Terracotta Army hold?
-- Fewer than 800
 + More than 8,000
+- Fewer than 800
 - About 80,000
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the number of soldiers.
 explain: The three pits of the Terracotta Army hold more than 8,000 soldiers.
 
 --- 🏺
 p: The tallest figures in the Terracotta Army are the generals.
 
-fact: The figures vary in height according to their rank.
+fact(Rank): The figures vary in height according to their rank.
 
 check: Which figures in the Terracotta Army are the tallest?
 - The soldiers
-+ The generals
 - The horses
-hint: Look at the paragraph. The answer is there.
++ The generals
+hint: Look at the paragraph. It names the tallest figures.
 explain: The tallest figures in the Terracotta Army are the generals.
 
 --- 📅
 p: Meet the Song dynasty.
 
-fact: It was the first government to issue paper currency.
+fact(Paper money): The Song dynasty was the first government to issue paper currency.
+
+check: What was the first thing the Song dynasty government issued?
+- Silver coins
++ Paper currency
+- Bronze bells
+hint: Look at the box. It says what the government issued.
+explain: The Song dynasty was the first government to issue paper currency.
 
 --- 🧱
 p: A Song dynasty book describes a magnetic navigation device.
 
-fact: It was an iron south-pointing fish floating in a bowl of water.
+fact(The fish): The device was an iron south-pointing fish floating in a bowl of water.
+
+check: What was the magnetic navigation device in the Song dynasty book made of?
++ Iron
+- Wood
+- Clay
+hint: Look at the box. It says what the fish was made of.
+explain: The device was an iron south-pointing fish floating in a bowl of water.
 
 --- 🔎
 p: A long wall. Smoke signals. Soldiers in pits. Tall generals. Paper money. A fish in water.
 
 p: China had big ideas.
 
-quiz: How many chariots are there at the Terracotta Army?
+quiz: How many chariots are at the Terracotta Army?
 - 13
 + 130
 - 1,300
 explain: There are also 130 chariots with 520 horses, and 150 cavalry horses.
 
-quiz: What did the Song dynasty issue first?
-- Silver coins
-+ Paper currency
-- Bronze bells
-explain: It was the first government to issue paper currency.
-
-quiz: What was the south-pointing fish made of?
-- Wood
-+ Iron
-- Clay
-explain: It was an iron south-pointing fish floating in a bowl of water.
+quiz: How many horses are with the 130 chariots at the Terracotta Army?
+- 52 horses
+- 5,200 horses
++ 520 horses
+explain: There are also 130 chariots with 520 horses, and 150 cavalry horses.
 
 quiz: What did the Great Wall have?
-- Windmills
 + Watchtowers
+- Windmills
 - Lighthouses
 explain: The Great Wall had watchtowers, troop barracks and garrison stations.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: What did the south-pointing fish float in?
+- A jar of wine
++ A bowl of water
+- A pit of sand
+explain: The device was an iron south-pointing fish floating in a bowl of water.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === world-renaissance
 idea: An artist who filled notebooks, a sculptor, and a man who built a telescope.
 
@@ -965,91 +1021,105 @@ p: Leonardo da Vinci was a painter.
 
 term: notebooks = Books where Leonardo drew and wrote about what he saw.
 
-fact: He also kept notebooks. In them he drew and wrote about the body, the stars, plants and maps.
+fact(His notebooks): Leonardo also kept notebooks. In them he drew and wrote about the body, the stars, plants and maps.
 
-check: What is Leonardo da Vinci known for besides painting?
+check: Besides painting, what is Leonardo da Vinci known for?
 - His sculptures
-+ His notebooks
 - His violins
-hint: Look at the box. The answer is there.
-explain: He also kept notebooks.
++ His notebooks
+hint: Look at the box. It names what he kept.
+explain: Leonardo also kept notebooks, where he drew and wrote about the body, the stars, plants and maps.
 
 --- 🏺
 p: Leonardo painted the Mona Lisa.
 
-fact: It is regarded as the world's most famous painting. His Last Supper is the most reproduced religious painting.
+fact(Famous works): The Mona Lisa is regarded as the world's most famous painting. His Last Supper is the most reproduced religious painting.
 
 check: What is the world's most famous painting?
-- The Last Supper
 + The Mona Lisa
+- The Last Supper
 - The Sistine Ceiling
-hint: Look at the paragraph. The answer is there.
-explain: Leonardo painted the Mona Lisa.
+hint: Look at the paragraph. It names the painting.
+explain: The Mona Lisa is regarded as the world's most famous painting.
 
 --- 🧑
 p: Leonardo became an apprentice by the age of 17.
 
-fact: He remained in training for seven years.
+fact(Training): He remained in training for seven years.
 
 check: At what age did Leonardo become an apprentice?
 - Age 7
 + Age 17
 - Age 27
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the age.
 explain: Leonardo became an apprentice by the age of 17.
 
 --- 👤
 p: Michelangelo was a sculptor.
 
-fact: Two of his best-known works, the Pietà and David, were sculpted before he was 30.
+fact(Two famous works): Two of his best-known works, the Pietà and David, were sculpted before he was 30.
 
 check: Which two famous sculptures did Michelangelo make before he was 30?
-- The Mona Lisa and Last Supper
 + The Pietà and David
+- The Mona Lisa and Last Supper
 - The telescope and the notebooks
-hint: Look at the box. The answer is there.
+hint: Look at the box. It names the two works.
 explain: Two of his best-known works, the Pietà and David, were sculpted before he was 30.
 
 --- 🪙
 p: Michelangelo did not think of himself as a painter.
 
-fact: Still, he painted scenes from Genesis on the ceiling of the Sistine Chapel in Rome, and The Last Judgment on its altar wall.
+fact(Sistine Chapel): Still, he painted scenes from Genesis on the ceiling of the Sistine Chapel in Rome, and The Last Judgment on its altar wall.
+
+check: What did Michelangelo paint on the altar wall of the Sistine Chapel?
+- The Mona Lisa
+- A scene of the Milky Way
++ The Last Judgment
+hint: Look at the box. It names the painting on the altar wall.
+explain: Michelangelo painted The Last Judgment on the altar wall of the Sistine Chapel.
 
 --- 👑
 p: Galileo built a telescope.
 
-fact: He saw the stars of the Milky Way, the phases of Venus and the four largest moons of Jupiter. He also saw Saturn's rings and sunspots.
+fact(What he saw): Galileo saw the stars of the Milky Way, the phases of Venus and the four largest moons of Jupiter. He also saw Saturn's rings and sunspots.
+
+check: Which of Jupiter's moons did Galileo see through his telescope?
+- The two smallest
++ The four largest
+- Only the biggest one
+hint: Look at the box. It says which moons he saw.
+explain: Galileo saw the four largest moons of Jupiter.
 
 --- 🔎
 p: Notebooks full of drawings. The Mona Lisa. An apprentice of 17. The Pietà and David. A ceiling in Rome. A telescope.
 
 p: Artists and thinkers.
 
-quiz: What did Galileo build?
-- A printing press
-+ A telescope
-- A sailing ship
-explain: Galileo built a telescope.
-
 quiz: Where is the Sistine Chapel?
-- In Paris
 + In Rome
+- In Paris
 - In Venice
-explain: He painted scenes from Genesis on the ceiling of the Sistine Chapel in Rome.
-
-quiz: What did Michelangelo paint on the altar wall?
-- The Mona Lisa and more
-+ The Last Judgment
-- A scene of the Milky Way
-explain: He painted The Last Judgment on the altar wall.
+explain: Michelangelo painted scenes from Genesis on the ceiling of the Sistine Chapel in Rome.
 
 quiz: For how many years did Leonardo remain in training?
 - Two years
-+ Seven years
 - Seventeen years
-explain: He remained in training for seven years.
++ Seven years
+explain: Leonardo remained in training for seven years.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: Which painting by Leonardo is the most reproduced religious painting?
+- The Mona Lisa
++ The Last Supper
+- The Sistine Ceiling
+explain: His Last Supper is the most reproduced religious painting.
+
+quiz: What did Galileo build?
+- A printing press
+- A sailing ship
++ A telescope
+explain: Galileo built a telescope.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === world-factories
 idea: Machines and steam engines changed how things were made, starting in Great Britain around 1760.
 
@@ -1060,60 +1130,74 @@ p: The Industrial Revolution began in Great Britain around 1760.
 
 term: revolution = A time of big change, like the Industrial Revolution that began in Great Britain.
 
-fact: By about 1840 it had spread to Europe and the United States.
+fact(Spread): By about 1840 it had spread to Europe and the United States.
 
 check: Where did the Industrial Revolution begin?
-- The United States
 + Great Britain
+- The United States
 - Northern Europe
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It names the place.
 explain: The Industrial Revolution began in Great Britain around 1760.
 
 --- 📅
 p: The textile industry was the first to use modern production methods.
 
-fact: Textiles became the main industry in jobs, in value of output and in money invested.
+fact(Main industry): Textiles became the main industry in jobs, in value of output and in money invested.
 
 check: Which industry was the first to use modern production methods?
 - The shipping industry
 + The textile industry
 - The farming industry
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It names the industry.
 explain: The textile industry was the first to use modern production methods.
 
 --- 📏
 p: Mechanized cotton spinning was powered by water and later by steam.
 
-fact: It increased output per worker by a factor of around 500.
+fact(Output): Mechanized cotton spinning increased output per worker by a factor of around 500.
 
 check: By about how much did cotton spinning machines increase output per worker?
 - Only twice as much
-+ A factor of around 500
 - Nearly a million times
-hint: Look at the box. The answer is there.
-explain: It increased output per worker by a factor of around 500.
++ A factor of around 500
+hint: Look at the box. It gives the number.
+explain: Mechanized cotton spinning increased output per worker by a factor of around 500.
 
 --- ⏳
 p: In 1712, Thomas Newcomen built an engine that sold well.
 
-fact: It could give steady power to a machine.
+fact(Steady power): Newcomen's engine could give steady power to a machine.
 
 check: Who built an engine that sold well in 1712?
-- Richard Arkwright
 + Thomas Newcomen
+- Richard Arkwright
 - George Stephenson
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It names the builder.
 explain: In 1712, Thomas Newcomen built an engine that sold well.
 
 --- 🧑
 p: James Watt saw that engines of his day wasted a lot of energy.
 
-fact: They cooled and reheated the cylinder again and again. His separate condenser avoided this waste.
+fact(His fix): The engines cooled and reheated the cylinder again and again. His separate condenser avoided this waste.
+
+check: What did James Watt's separate condenser avoid?
+- Noise
++ Waste
+- Smoke
+hint: Look at the box. It says what the condenser avoided.
+explain: His separate condenser avoided this waste.
 
 --- 👤
 p: James Watt developed the idea of horsepower.
 
-fact: The unit of power called the watt is named after him.
+fact(The watt): The unit of power called the watt is named after James Watt.
+
+check: What idea did James Watt develop?
+- Steam power
+- Water power
++ Horsepower
+hint: Look at the paragraph. It names the idea.
+explain: James Watt developed the idea of horsepower.
 
 --- 🔎
 p: A revolution that began in Great Britain. Textiles and cotton spinning. An engine that sold well. A condenser that saved energy. Horsepower and the watt.
@@ -1121,8 +1205,8 @@ p: A revolution that began in Great Britain. Textiles and cotton spinning. An en
 p: Machines changed work.
 
 quiz: What powered mechanized cotton spinning?
-- Wind and later oil
 + Water and later steam
+- Wind and later oil
 - Horses and later wind
 explain: Mechanized cotton spinning was powered by water and later by steam.
 
@@ -1130,21 +1214,21 @@ quiz: What unit of power is named after James Watt?
 - The pound
 + The watt
 - The volt
-explain: The unit of power called the watt is named after him.
-
-quiz: What did Watt's separate condenser avoid?
-- Noise
-+ Waste
-- Smoke
-explain: His separate condenser avoided this waste.
+explain: The unit of power called the watt is named after James Watt.
 
 quiz: In what year did Thomas Newcomen build an engine that sold well?
 - 1721
-+ 1712
 - 1172
++ 1712
 explain: In 1712, Thomas Newcomen built an engine that sold well.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: By about what year had the Industrial Revolution spread to Europe and the United States?
+- 1480
++ 1840
+- 1804
+explain: The Industrial Revolution had spread to Europe and the United States by about 1840.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === world-africa
 idea: Gold, a king's journey to Mecca, a rich city of books, and a great stone wall in Africa.
 
@@ -1155,60 +1239,74 @@ p: At its peak, Mali was the largest empire in West Africa.
 
 term: empire = A large area with one ruler, like the largest empire in West Africa.
 
-fact: It spread its language, laws and customs across the region.
+fact(Its reach): Mali spread its language, laws and customs across the region.
 
 check: What was the largest empire in West Africa at its peak?
-- Egypt
 + Mali
+- Egypt
 - Persia
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It names the empire.
 explain: At its peak, Mali was the largest empire in West Africa.
 
 --- 🏆
 p: About two thirds of the gold that moved around the Mediterranean in medieval times came from West Africa.
 
-fact: That was almost half of the Old World's gold.
+fact(Old World gold): That was almost half of the Old World's gold.
 
 check: About how much of the Mediterranean's gold came from West Africa?
 - About one tenth
 + About two thirds
 - Almost all of it
-hint: Look at the paragraph. The answer is there.
-explain: About two thirds of the gold that moved around the Mediterranean in medieval times came from West Africa.
+hint: Look at the paragraph. It gives the amount.
+explain: About two thirds of the gold around the Mediterranean came from West Africa.
 
 --- 🧑
 p: Mansa Musa made a famous pilgrimage to Mecca from 1324 to 1326.
 
-fact: He gave away so much gold that prices went up in Egypt.
+fact(His gold): Mansa Musa gave away so much gold that prices went up in Egypt.
 
 check: Where did Mansa Musa make a famous pilgrimage?
 - Rome
-+ Mecca
 - Athens
-hint: Look at the paragraph. The answer is there.
++ Mecca
+hint: Look at the paragraph. It names the place.
 explain: Mansa Musa made a famous pilgrimage to Mecca from 1324 to 1326.
 
 --- 📅
 p: After the visit by Mansa Musa around 1325, Timbuktu flourished.
 
-fact: Its trade in salt, gold and ivory made it rich.
+fact(Its trade): Its trade in salt, gold and ivory made it rich.
 
 check: What did Timbuktu trade in?
-- Wool, silk and cotton
 + Salt, gold and ivory
+- Wool, silk and cotton
 - Tea, sugar and rice
-hint: Look at the box. The answer is there.
-explain: Its trade in salt, gold and ivory made it rich.
+hint: Look at the box. It names the goods.
+explain: Timbuktu's trade in salt, gold and ivory made it rich.
 
 --- 🏗️
 p: In its golden age, Timbuktu had a big book trade.
 
-fact: It also had a university, the Sankoré Madrasah.
+fact(A university): Timbuktu also had a university, the Sankoré Madrasah.
+
+check: What was the name of the university in Timbuktu?
+- The Great Enclosure
++ The Sankoré Madrasah
+- The Old World School
+hint: Look at the box. It names the university.
+explain: Timbuktu also had a university, the Sankoré Madrasah.
 
 --- 📏
 p: The Great Enclosure at Great Zimbabwe has walls as high as 36 ft (11 m).
 
-fact: They extend about 820 ft (250 m).
+fact(How long): The walls extend about 820 ft (250 m).
+
+check: How high are the walls of the Great Enclosure at Great Zimbabwe?
+- Only about 3 ft (1 m) tall
+- Close to 360 ft (110 m)
++ As high as 36 ft (11 m)
+hint: Look at the paragraph. It gives the height.
+explain: The walls of the Great Enclosure are as high as 36 ft (11 m).
 
 --- 🔎
 p: An empire in West Africa. Gold from the south. A pilgrimage to Mecca. Timbuktu with books and salt. A wall at Great Zimbabwe.
@@ -1219,22 +1317,22 @@ quiz: What did Mansa Musa give away so much of that prices went up in Egypt?
 - Salt
 + Gold
 - Ivory
-explain: He gave away so much gold that prices went up in Egypt.
-
-quiz: What was the name of the university in Timbuktu?
-- The Great Enclosure
-+ The Sankoré Madrasah
-- The Old World School
-explain: It also had a university, the Sankoré Madrasah.
-
-quiz: How high are the walls of the Great Enclosure at Great Zimbabwe?
-- Only about 3 ft (1 m) tall
-+ As high as 36 ft (11 m)
-- Close to 360 ft (110 m)
-explain: The Great Enclosure at Great Zimbabwe has walls as high as 36 ft (11 m).
+explain: Mansa Musa gave away so much gold that prices went up in Egypt.
 
 quiz: What did Mali spread across the region?
-- Its ships, bridges and roads
 + Its language, laws and customs
+- Its ships, bridges and roads
 - Its gold, salt and ivory
-explain: It spread its language, laws and customs across the region.
+explain: Mali spread its language, laws and customs across the region.
+
+quiz: How far do the walls of the Great Enclosure extend?
+- About 82 ft (25 m)
+- Over 8,200 ft (2,500 m)
++ About 820 ft (250 m)
+explain: The walls extend about 820 ft (250 m).
+
+quiz: How much of the Old World's gold came from West Africa, at that time?
+- Only one tenth
++ Almost half
+- Nearly all of it
+explain: That was almost half of the Old World's gold.

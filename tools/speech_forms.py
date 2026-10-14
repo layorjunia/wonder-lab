@@ -167,6 +167,11 @@ def for_speech(text):
     t = re.sub(r'\bsq\.?\s*(mi|ft|in|yd|km|m|cm|mm)\b\.?(?!\w)',
                lambda m: 'square ' + _AREA[m.group(1)], t)
 
+    # 0b. "15.9 billion mi (25.6 billion km)": the unit after a big-number word is spelled out (a bare
+    #     "mi" is spoken "me"), and the bracketed metric twin is dropped like any other conversion aside.
+    t = re.sub(r'\b(thousand|million|billion|trillion)\s+mi\b', r'\1 miles', t)
+    t = re.sub(r'\s*\(\s*[\d.,]+\s*(?:thousand|million|billion|trillion)\s+(?:km|kilometers)\s*\)', '', t)
+
     # 1. Celsius-first with Fahrenheit in brackets is the one aside worth
     #    keeping rather than dropping — this app speaks imperial, so promote
     #    the bracketed value instead of deleting it.

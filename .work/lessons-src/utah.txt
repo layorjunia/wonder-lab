@@ -10,8 +10,8 @@ fact: The life-size figures are tapered, with no arms or legs. Many have detaile
 
 check: What is the Great Gallery?
 - A cave filled with old stone tools
-+ A wall covered with painted figures
 - A tall tower made of piled-up stone
++ A wall covered with painted figures
 hint: Look at the paragraph. It says what the Great Gallery is.
 explain: The Great Gallery is a long sandstone wall in Horseshoe Canyon, covered with painted figures.
 
@@ -35,8 +35,8 @@ p: The word Utah comes from the Ute people. The Ute lived in the mountains and v
 fact: Spanish travelers wrote their name as Yuta, and English speakers later turned it into Utah. The Ute call themselves Nuche, which means the People.
 
 check: Where does the name Utah come from?
-- From a Spanish king
 + From the Ute people
+- From a Spanish king
 - From a mountain range
 hint: Look at the first paragraph. It names where Utah comes from.
 explain: The word Utah comes from the Ute people.
@@ -53,8 +53,8 @@ fact: Navajo weavers are famous for rugs woven on upright looms. A rug can take 
 
 check: What do Navajo weavers make rugs on?
 - Flat wooden tables
-+ Upright looms
 - Spinning wheels
++ Upright looms
 hint: Look at the box. It names what the rugs are woven on.
 explain: Navajo weavers make their rugs on upright looms, and a rug can take months.
 
@@ -69,15 +69,15 @@ p: A painted wall. A stone storehouse. The Ute, the Goshute and the Navajo.
 p: People have lived in Utah for a very long time, and they are here today.
 
 quiz: Who painted the figures in the Great Gallery?
-- Spanish friars who kept a diary
 + Hunters and gatherers, long ago
+- Spanish friars who kept a diary
 - Pioneers who drove covered wagons
 explain: They were painted long ago by people who hunted and gathered their food.
 
 quiz: What does Nuche mean?
 - The Mountains
-- The Desert
 + The People
+- The Desert
 explain: The Ute call themselves Nuche, which means the People.
 
 quiz: What did the Goshute gather in autumn?
@@ -88,8 +88,8 @@ explain: In autumn, families went to the mountains to harvest pine nuts from the
 
 quiz: How many federally recognized tribes live in Utah today?
 - Two
-- Twenty
 + Eight
+- Twenty
 explain: Utah is home to eight federally recognized tribes.
 
 # UNREVIEWED: fact-checked by hand (Claude) against NPS, Utah State History, Utah Geological Survey and other sources (2026-10-13), passed every automatic check, not yet read by a person
@@ -102,10 +102,10 @@ p: In July 1776, two Spanish friars, Domínguez and Escalante, left Santa Fe to 
 
 fact: They wandered through Utah and wrote a daily diary. They came home after about 1,700 miles (2,700 km) in five months. When winter closed in, they cast lots to decide whether to keep going, and the lots said to go home.
 
-check: How long were the friars gone?
+check: In 1776, two Spanish friars left Santa Fe to find a route to California. How long were they gone?
 - About five days
-+ About five months
 - About five years
++ About five months
 hint: Look at the box. It tells how long the trip took.
 explain: They came home after about 1,700 miles in five months.
 
@@ -114,7 +114,7 @@ p: On their way, the friars came down into a valley with a big freshwater lake, 
 
 fact: The people there, called the Timpanogots, fished the lake. They traded dried fish to the friars. The friars were the first Europeans known to visit the valley.
 
-check: What did the Timpanogots do at the lake?
+check: What did the Timpanogots do at Utah Lake?
 - They sold beaver furs
 + They fished in it
 - They sailed across it
@@ -128,9 +128,9 @@ term: trapper = Someone who catches animals for their fur, like the one who tast
 
 fact: Most accounts name Jim Bridger, and the lake was the Great Salt Lake. Later trappers went all the way around it and found no outlet to the sea.
 
-check: Who do most accounts name as the trapper?
-- Jedediah Smith
+check: Late in 1824, a fur trapper tasted the water of a huge salty lake. Who do most accounts name as the trapper?
 + Jim Bridger
+- Jedediah Smith
 - Brigham Young
 hint: Look at the box. It names the trapper.
 explain: Most accounts name Jim Bridger, and the lake was the Great Salt Lake.
@@ -145,7 +145,7 @@ p: In 1827, a trapper named Jedediah Smith and two companions crossed Utah's wes
 
 fact: The lack of water made the trip very hard. Smith may have been the first non-Native traveler to cross that desert. He went on to the rendezvous at Bear Lake.
 
-check: What was hard to find in that desert?
+check: When Jedediah Smith crossed Utah's western desert in 1827, what was hard to find?
 - Sand
 + Water
 - Rocks
@@ -159,10 +159,10 @@ term: basin = A place where water cannot get out to the sea: it ends in lakes or
 
 fact: They end in lakes or sink into the sand. He named the region the Great Basin, because water that falls here never flows to the sea.
 
-check: What did Frémont name the region?
+check: What did John C. Frémont name the region where the rivers never reach the sea?
 - Salt Plain
-+ Great Basin
 - Red Desert
++ Great Basin
 hint: Look at the box. It gives the name he chose.
 explain: He named it the Great Basin, because water that falls there never flows to the sea.
 
@@ -171,22 +171,22 @@ p: Two friars with a diary. A lake that tasted of salt. A summer fair for trappe
 
 p: Each one found out a little more about the land.
 
-quiz: What did the friars do when winter closed in?
-- Built a fort and stayed
+quiz: What did the Spanish friars do when winter closed in?
 + Cast lots and went home
+- Built a fort and stayed
 - Sailed across the lake
 explain: They cast lots to decide whether to keep going, and the lots said to go home.
 
-quiz: Why did the trapper think he had found an arm of the ocean?
+quiz: Why did the fur trapper think he had found an arm of the ocean?
 - The shore was sandy
-+ The water was salty
 - The lake had tides
++ The water was salty
 explain: The water was salty, so he thought he had found an arm of the ocean.
 
 quiz: Where was the rendezvous held in 1827 and 1828?
++ Bear Lake
 - Utah Lake
 - Great Salt Lake
-+ Bear Lake
 explain: Bear Lake, on the Utah and Idaho border, hosted the rendezvous in 1827 and 1828.
 
 quiz: What is special about water that falls in the Great Basin?
@@ -205,9 +205,9 @@ p: The Great Salt Lake is so salty that swimmers float like corks. In some parts
 
 fact: No fish can live in it, but brine shrimp and brine flies thrive there. The flies number in the billions. Millions of migrating birds stop to feed on them.
 
-check: What lives in the lake?
-- Trout, bass and catfish
+check: What lives in the Great Salt Lake?
 + Brine shrimp and flies
+- Trout, bass and catfish
 - Crabs, clams and oysters
 hint: Look at the box. It names what lives in the lake.
 explain: Brine shrimp and brine flies thrive in the lake, but no fish can live there.
@@ -219,10 +219,10 @@ term: evaporate = To turn from water into air you cannot see.
 
 fact: Water can leave only by rising into the air. The water evaporates and the salt stays behind. That is why the lake stays salty.
 
-check: Why does the lake stay salty?
+check: Why does the Great Salt Lake stay salty?
 - Ships bring in new salt daily
-+ Water leaves but the salt stays
 - Ocean tides carry the salt in
++ Water leaves but the salt stays
 hint: Look at the box. It says what happens to the water and the salt.
 explain: Water leaves by evaporating into the air, and the salt stays behind.
 
@@ -236,7 +236,7 @@ p: West of the lake lie the Bonneville Salt Flats, a flat white plain of hard sa
 
 fact: It is so smooth that people have raced cars there to set land speed records since 1914. The salt crust is less than an inch thick in places and about six feet thick in others.
 
-check: What do people set on the salt flats?
+check: What do people set on the Bonneville salt flats?
 - Swimming records
 + Land speed records
 - High jump records
@@ -250,8 +250,8 @@ fact: Utah's tallest peak, Kings Peak, rises there to 13,528 feet (4,123 m). The
 
 check: Which way do the Uinta Mountains run?
 - North to south
-+ East to west
 - Round in a circle
++ East to west
 hint: Look at the first paragraph. It says which way the range runs.
 explain: The Uinta Mountains run east to west.
 
@@ -266,27 +266,27 @@ p: A salty lake. A pink arm. A white plain. A range that runs east to west. A dr
 p: Each one makes Utah look like no other place.
 
 quiz: How salty can the Great Salt Lake be?
-- Just as salty as a pond
 + Several times saltier than the ocean
+- Just as salty as a pond
 - A little less salty than tap water
 explain: In some parts it is several times saltier than the ocean.
 
-quiz: What color is the north arm of the lake?
+quiz: What color is the north arm of the Great Salt Lake?
 - Bright blue
 + Pink or red
 - Pure white
 explain: Salt-loving microbes turn the water of the north arm pink or red.
 
 quiz: How tall is Kings Peak?
-- Only 3,528 feet
 + About 13,528 feet
+- Only 3,528 feet
 - Over 23,000 feet
 explain: Kings Peak rises to 13,528 feet (4,123 m), the tallest point in Utah.
 
 quiz: How much rain and snow does Utah get in a year?
 - About ten feet
-+ A little over a foot
 - Almost none at all
++ A little over a foot
 explain: On average Utah gets only a little over a foot of rain and snow a year.
 
 # UNREVIEWED: fact-checked by hand (Claude) against NPS, Utah State History, Utah Geological Survey and other sources (2026-10-13), passed every automatic check, not yet read by a person
@@ -300,8 +300,8 @@ p: On July 24, 1847, Brigham Young reached the Salt Lake Valley. He had been sic
 fact: Years later, a pioneer named Wilford Woodruff remembered him saying, "This is the right place." July 24 is still a state holiday in Utah. It is called Pioneer Day.
 
 check: What is July 24 called in Utah?
-- Gull Day
 + Pioneer Day
+- Gull Day
 - Harvest Day
 hint: Look at the box. It names the holiday.
 explain: July 24 is called Pioneer Day, and it is still a state holiday in Utah.
@@ -311,7 +311,7 @@ p: The pioneers were members of The Church of Jesus Christ of Latter-day Saints,
 
 fact: They left Winter Quarters, in what is now Nebraska, in April and traveled more than 1,000 miles (1,600 km). The trip took more than three months.
 
-check: How many people were in the first company?
+check: How many people were in the first company of pioneers?
 - About 15 people
 + About 150 people
 - About 1,500 people
@@ -327,8 +327,8 @@ fact: Its gears counted the turns of the wheel. It took 360 turns to make one mi
 
 check: What did the roadometer count?
 - Steps of the oxen
-+ Turns of a wheel
 - Days on the trail
++ Turns of a wheel
 hint: Look at the box. It says what the gears counted.
 explain: The gears counted the turns of the wagon wheel.
 
@@ -344,7 +344,7 @@ p: From 1856 to 1860, about 3,000 pioneers crossed the plains pushing and pullin
 
 fact: Handcarts cost much less than wagons and oxen. Eight of the ten companies arrived safely. Two arrived late in 1856 and were caught by early snow until rescuers reached them.
 
-check: Why did they use handcarts?
+check: Why did some pioneers cross the plains with handcarts?
 - Handcarts were faster than wagons
 + Handcarts cost much less
 - Oxen were not allowed on the trail
@@ -356,10 +356,10 @@ p: In 1848, swarms of crickets began eating the settlers' crops. People fought t
 
 fact: Then flocks of California gulls came and ate the crickets. A monument to the seagulls stands in Salt Lake City today. The California gull is now Utah's state bird.
 
-check: What ate the crickets?
+check: What ate the crickets that were eating the settlers' crops in 1848?
 - Hungry coyotes
-+ California gulls
 - Barn owls
++ California gulls
 hint: Look at the box. It names who ate them.
 explain: Flocks of California gulls came and ate the crickets.
 
@@ -369,8 +369,8 @@ p: A leader with a fever. A wooden roadometer. Potatoes in dry ground. Handcarts
 p: The pioneers worked together to make a home.
 
 quiz: What did the first pioneers do soon after arriving?
-- Built a high stone fort for safety
 + Dug ditches and planted potatoes
+- Built a high stone fort for safety
 - Dug a mine looking for silver ore
 explain: They sent creek water into ditches and planted potatoes and turnips.
 
@@ -382,13 +382,13 @@ explain: They traveled more than 1,000 miles (1,600 km) from Winter Quarters.
 
 quiz: What is the state bird of Utah?
 - The soaring bald eagle
-+ The California gull
 - The little blue jay
++ The California gull
 explain: The California gull saved the crops, and it is now Utah's state bird.
 
 quiz: What was the roadometer made of?
-- Iron and steam
 + Wood and gears
+- Iron and steam
 - Rope and stone
 explain: The roadometer was a wooden device with gears that counted the turns of the wheel.
 
@@ -402,10 +402,10 @@ p: Salt Lake City was laid out in a grid with very wide streets, 132 feet (40 m)
 
 fact: The plan came from the Plat of Zion, a city plan Joseph Smith wrote down years before. A story says the streets were wide so oxen could turn around, but nobody has found proof.
 
-check: How wide were the streets?
+check: How wide were the streets of Salt Lake City, from edge to edge?
 - Only 32 feet, like a lane
-+ 132 feet from edge to edge
 - Over 232 feet, wider than a field
++ 132 feet from edge to edge
 hint: Look at the first paragraph. It gives the width of the streets.
 explain: The streets are 132 feet (40 m) from edge to edge.
 
@@ -414,7 +414,7 @@ p: Addresses in Salt Lake City count out from the middle of town. The corner of 
 
 fact: Each 100 numbers is one block. An address like 400 South 300 West means four blocks south and three blocks west of that corner.
 
-check: Where do the address numbers start?
+check: Where do the address numbers in Salt Lake City start?
 - The shore of the Great Salt Lake
 + Main Street and South Temple
 - The steps of the State Capitol
@@ -429,8 +429,8 @@ term: industry = Steady, hard work.
 fact: Utah is the Beehive State, its motto is Industry, and a beehive is on its seal.
 
 check: What is Utah's motto?
-- Freedom
 + Industry
+- Freedom
 - Honor
 hint: Look at the box. It gives the motto.
 explain: Utah's motto is Industry, which means steady, hard work.
@@ -447,8 +447,8 @@ fact: In 1850, Congress made it a territory instead and gave it the name Utah, a
 
 check: What does Deseret mean?
 - Red rock
-+ Honeybee
 - Salt lake
++ Honeybee
 hint: Look at the paragraph. It says what the word means.
 explain: Deseret means honeybee.
 
@@ -469,8 +469,8 @@ quiz: What was the Plat of Zion?
 explain: The Plat of Zion was a city plan that Joseph Smith wrote down, and Salt Lake City followed it.
 
 quiz: How long did the Salt Lake Temple take to build?
-- Only 4 years
 + About 40 years
+- Only 4 years
 - More than 100 years
 explain: The temple took 40 years to build, from 1853 to 1893.
 
@@ -481,15 +481,15 @@ quiz: What did the families called to St. George grow?
 explain: In 1861 families were called to the hot southwest corner to grow cotton.
 
 quiz: What is Utah's nickname?
-- The Eagle State
 + The Beehive State
+- The Eagle State
 - The Sunflower State
 explain: Utah is the Beehive State, and a beehive is on its seal.
 
 quiz: What does Industry mean on Utah's seal?
 - A day of rest
-+ Steady, hard work
 - Big factories only
++ Steady, hard work
 explain: Industry means steady, hard work, like the bees in a beehive.
 
 # UNREVIEWED: fact-checked by hand (Claude) against NPS, Utah State History, Utah Geological Survey and other sources (2026-10-13), passed every automatic check, not yet read by a person
@@ -502,9 +502,9 @@ p: On May 10, 1869, at Promontory Summit in northern Utah, two railroads met. A 
 
 fact: Telegraph wires carried the news across the country in one word: "Done." The two steam engines stood nose to nose. A trip across the country that once took months now took days.
 
-check: What word did the telegraph send?
-- Finished
+check: What word did the telegraph send when the last spike of the first railroad across the country was driven?
 + Done
+- Finished
 - Hurrah
 hint: Look at the box. It gives the one word.
 explain: The telegraph sent one word across the country: "Done."
@@ -514,7 +514,7 @@ p: About 10,000 Chinese workers built the Central Pacific line through mountains
 
 fact: On April 28, 1869, in Utah, crews laid 10 miles of track in a single day. No crew has equaled that record since. Central Pacific boss Charles Crocker wanted to beat the Union Pacific's record of 8.5 miles in a day.
 
-check: How many miles of track were laid in one day?
+check: In one day in 1869, how many miles of track did the Central Pacific crews lay?
 - 2 miles
 + 10 miles
 - 50 miles
@@ -528,10 +528,10 @@ term: trestle = A wooden frame, built on piles, that carries a railroad across a
 
 fact: Trains rode on a wooden trestle nearly 12 miles (19 km) long, built on piles driven into the lake bottom. In 1959 a rock causeway replaced it, and trains still cross the lake there.
 
-check: What held the trestle up?
+check: What held the Lucin Cutoff trestle up across the Great Salt Lake?
 - Floating barrels tied together
-+ Piles driven into the lake bottom
 - Ropes pulled tight to the shore
++ Piles driven into the lake bottom
 hint: Look at the box. It says what the trestle was built on.
 explain: The trestle was built on piles driven into the lake bottom.
 
@@ -552,9 +552,9 @@ p: Silver was found in the mountains near Park City in 1868, and a mining camp g
 
 fact: Miners dug tunnels deep into the mountains for silver ore. About a hundred years later, the old mining company started a ski area there. Today those same mountains hold ski runs.
 
-check: What do those mountains hold today?
-- Wheat farms
+check: Miners dug silver tunnels in the mountains near Park City. What do those mountains hold today?
 + Ski runs
+- Wheat farms
 - Railroad yards
 hint: Look at the box. It tells what the mountains hold now.
 explain: Today the same mountains hold ski runs.
@@ -571,8 +571,8 @@ p: Each one started with a railroad or a mine.
 
 quiz: Where did the two railroads meet?
 - Bear Lake, on the border
-+ Promontory Summit
 - Moab, near the red rocks
++ Promontory Summit
 explain: The two railroads met at Promontory Summit in northern Utah.
 
 quiz: How long was the Lucin Cutoff trestle?
@@ -583,13 +583,13 @@ explain: The wooden trestle was nearly 12 miles (19 km) long.
 
 quiz: How deep is Bingham Canyon Mine?
 - Only about ten feet deep, like a pool
-+ About 3,650 feet
 - More than ten miles straight down
++ About 3,650 feet
 explain: The pit is about 3,650 feet (1.1 km) deep.
 
 quiz: What does a Geiger counter help people find?
-- Silver
 + Uranium
+- Silver
 - Salt
 explain: A Geiger counter clicks faster near radioactive rock such as uranium.
 
@@ -615,10 +615,10 @@ p: On February 14, 1870, a young woman named Seraph Young cast her vote in Salt 
 
 fact: Congress took the vote away in 1887, and Utah's new constitution gave it back in 1896.
 
-check: What did Seraph Young do?
+check: On February 14, 1870, what did Seraph Young do in Salt Lake City?
 - Signed a law
-+ Cast a vote
 - Built a school
++ Cast a vote
 hint: Look at the first paragraph. It says what she did in 1870.
 explain: Seraph Young cast her vote in Salt Lake City on February 14, 1870.
 
@@ -630,8 +630,8 @@ term: sego lily = The state flower of Utah, with a bulb that can be eaten.
 fact: The sego lily is the state flower. Pioneers dug up sego lily bulbs to eat when food ran short.
 
 check: What did pioneers eat from the sego lily?
-- Petals
 + Bulbs
+- Petals
 - Seeds
 hint: Look at the box. It says what they dug up.
 explain: Pioneers dug up sego lily bulbs to eat when food ran short.
@@ -643,8 +643,8 @@ fact: The state cooking pot is the Dutch oven. The state fossil is Allosaurus, a
 
 check: What is Utah's state cooking pot?
 - Frying pan
-+ Dutch oven
 - Tea kettle
++ Dutch oven
 hint: Look at the box. It names the state cooking pot.
 explain: Utah's state cooking pot is the Dutch oven.
 
@@ -653,7 +653,7 @@ p: Martha Hughes Cannon, a doctor, ran for the Utah state senate in 1896 against
 
 fact: She became the first woman state senator in the United States. She also introduced a bill to create a state board of health, and it passed.
 
-check: Whom did Martha Hughes Cannon run against?
+check: In 1896, Martha Hughes Cannon ran for the Utah state senate. Whom did she run against?
 - Her sister
 + Her own husband
 - A famous judge
@@ -671,20 +671,20 @@ p: A bell for statehood. A vote cast by a young woman. A beehive and a lily. A D
 p: Utah has many firsts.
 
 quiz: In which year did Utah become a state?
-- 1847
 + 1896
+- 1847
 - 1950
 explain: Utah became a state on January 4, 1896.
 
 quiz: What did Congress do in 1887?
 - Gave Utah a new state seal
-+ Took the vote away from women
 - Built a railroad across the lake
++ Took the vote away from women
 explain: Congress took the vote away in 1887, and Utah's new constitution gave it back in 1896.
 
 quiz: What is Utah's state fossil?
-- Stegosaurus
 + Allosaurus
+- Stegosaurus
 - Triceratops
 explain: The state fossil is Allosaurus, a meat-eating dinosaur.
 
@@ -720,8 +720,8 @@ fact: Bryce has the largest collection of hoodoos in the world. Frost may help s
 
 check: What are hoodoos?
 - Deep caves in a cliff
-+ Tall thin spires of rock
 - Flat rocks like tables
++ Tall thin spires of rock
 hint: Look at the paragraph. It says what hoodoos are.
 explain: Hoodoos are tall, thin spires of rock.
 
@@ -730,9 +730,9 @@ p: In Zion Canyon the Virgin River has carved a slot so narrow that hikers wade 
 
 fact: In the Narrows, the walls rise up to 1,000 feet (300 m), and in places the gap is only about 30 feet (9 m) wide. After a storm upstream, the river can rise fast.
 
-check: How tall are the walls of the Narrows?
-- Only about 10 feet
+check: How tall are the walls of the Narrows in Zion National Park?
 + As much as 1,000 feet
+- Only about 10 feet
 - Roughly 100 feet
 hint: Look at the box. It gives the height of the walls.
 explain: In the Narrows the walls rise up to 1,000 feet (300 m).
@@ -747,10 +747,10 @@ p: In Dinosaur National Monument in northeastern Utah, a whole wall of rock is f
 
 fact: Earl Douglass found the first huge bones there in 1909. There are a few places where visitors can touch real dinosaur bones.
 
-check: Who found the first huge bones?
+check: Who found the first huge dinosaur bones at what is now Dinosaur National Monument?
 - Jim Bridger
-+ Earl Douglass
 - Brigham Young
++ Earl Douglass
 hint: Look at the box. It names the man who found them.
 explain: Earl Douglass found the first huge bones there in 1909.
 
@@ -760,8 +760,8 @@ p: In 2002, Salt Lake City hosted the Winter Olympics. Utah's snow falls light a
 fact: Some mountain resorts get more than 500 inches (12.7 m) of snow in a year. Alta, a ski area near Salt Lake City, averages more than 540 inches (13.7 m).
 
 check: In which year did Salt Lake City host the Winter Olympics?
-- 1896
 + 2002
+- 1896
 - 1869
 hint: Look at the first paragraph. It gives the year.
 explain: Salt Lake City hosted the Winter Olympics in 2002.
@@ -779,13 +779,13 @@ explain: The Virgin River has carved a slot so narrow that hikers wade in it.
 
 quiz: About how many dinosaur bones are on the wall at Dinosaur National Monument?
 - About 15
-+ About 1,500
 - About 150,000
++ About 1,500
 explain: A whole wall of rock holds about 1,500 dinosaur bones, left where they were found.
 
 quiz: How high is the opening under Delicate Arch?
-- 4 feet
 + 46 feet
+- 4 feet
 - 460 feet
 explain: The opening under Delicate Arch is 46 feet (14 m) high.
 
@@ -795,7 +795,7 @@ quiz: What does Utah call its snow?
 - The Whitest Rain on Earth
 explain: Utah's snow falls light and dry, and Utah calls it the Greatest Snow on Earth.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === utah-cities
 idea: Utah's cities began with settlers led by Brigham Young, and they now form a long line along the Wasatch Front.
 
@@ -806,60 +806,74 @@ p: Salt Lake City was founded in 1847.
 
 term: settlers = The people led by Brigham Young who founded Salt Lake City.
 
-fact: Settlers led by Brigham Young founded it.
+fact(Who founded it): Settlers led by Brigham Young founded the city.
 
 check: Who led the settlers who founded Salt Lake City?
-- Philo Farnsworth
 + Brigham Young
+- Philo Farnsworth
 - Butch Cassidy
-hint: Look at the box. The answer is there.
-explain: Settlers led by Brigham Young founded it.
+hint: Look at the box. It names the leader.
+explain: Settlers led by Brigham Young founded Salt Lake City.
 
 --- 📏
 p: Salt Lake City is part of a long line of cities along the Wasatch Front.
 
-fact: This urban corridor is a 120-mile (190 km) stretch, with about 2.8 million people.
+fact(How big): This urban corridor is a 120-mile (190 km) stretch with about 2.8 million people.
 
 check: About how many people live in the urban corridor along the Wasatch Front?
 - Only 28,000
-+ About 2.8 million
 - Nearly 280 million
-hint: Look at the box. The answer is there.
-explain: This urban corridor is a 120-mile (190 km) stretch, with about 2.8 million people.
++ About 2.8 million
+hint: Look at the box. It gives the number of people.
+explain: The urban corridor along the Wasatch Front has about 2.8 million people.
 
 --- 📅
 p: Four days after arriving in the Salt Lake Valley, Brigham Young marked the building site for the Salt Lake Temple.
 
-fact: It took 40 years to finish.
+fact(How long it took): The Salt Lake Temple took 40 years to finish.
 
-check: How many days after arriving did Young mark the temple site?
+check: How many days after arriving in the Salt Lake Valley did Brigham Young mark the temple site?
 - Ten days
 + Four days
 - Forty days
-hint: Look at the paragraph. The answer is there.
-explain: Four days after arriving in the Salt Lake Valley, Brigham Young marked the building site for the Salt Lake Temple.
+hint: Look at the paragraph. It gives the number of days.
+explain: Four days after arriving in the Salt Lake Valley, Brigham Young marked the building site.
 
 --- ⏳
 p: Ogden is the closest big city to the Golden Spike site at Promontory Summit, Utah.
 
-fact: That is where the first railroad across the country was joined in 1869.
+fact(1869): The first railroad across the country was joined there in 1869.
 
 check: What famous spike site is closest to Ogden?
 - The Silver Nail site
-+ The Golden Spike site
 - The Copper Rail site
-hint: Look at the paragraph. The answer is there.
++ The Golden Spike site
+hint: Look at the paragraph. It names the site.
 explain: Ogden is the closest big city to the Golden Spike site at Promontory Summit, Utah.
 
 --- 🧑
 p: Fort Utah was renamed Provo in 1850.
 
-fact: It was named for Étienne Provost, a French-Canadian trapper who arrived in the region in 1825.
+fact(The name): It was named for Étienne Provost, a French-Canadian trapper who arrived in the region in 1825.
+
+check: Who was Provo named for?
+- Brigham Young
++ Étienne Provost
+- Butch Cassidy
+hint: Look at the box. It names the person.
+explain: Provo was named for Étienne Provost, a French-Canadian trapper.
 
 --- 🤔
 p: The highest temperature ever recorded in Utah was 118°F (48°C).
 
-fact: It was recorded in south St. George.
+fact(Where): It was recorded in south St. George.
+
+check: Where in Utah was the highest temperature ever recorded?
++ South St. George
+- Central Provo
+- Northern Ogden
+hint: Look at the box. It names the place.
+explain: The highest temperature in Utah was recorded in south St. George.
 
 --- 🔎
 p: Settlers on the Wasatch Front. A temple site marked in four days. A golden spike near Ogden. A fort renamed Provo. A hot day in St. George.
@@ -868,29 +882,29 @@ p: Utah has cities.
 
 quiz: What year was Salt Lake City founded?
 - 1874
-+ 1847
 - 1748
++ 1847
 explain: Salt Lake City was founded in 1847.
 
-quiz: What was Fort Utah renamed in 1850?
-- Ogden
-+ Provo
-- Alta
-explain: Fort Utah was renamed Provo in 1850.
+quiz: In what year was the first railroad across the country joined at Promontory Summit?
+- 1896
++ 1869
+- 1689
+explain: The first railroad across the country was joined at Promontory Summit in 1869.
 
 quiz: How hot was the highest temperature ever recorded in Utah?
-- Only 81°F
 + 118°F
+- Only 81°F
 - Nearly 181°F
 explain: The highest temperature ever recorded in Utah was 118°F (48°C).
 
-quiz: Where was the highest temperature in Utah recorded?
-- Central Provo
-+ South St. George
-- Northern Ogden
-explain: It was recorded in south St. George.
+quiz: How many years did the Salt Lake Temple take to finish?
+- 4 years
++ 40 years
+- 400 years
+explain: The Salt Lake Temple took 40 years to finish.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === utah-people
 idea: A television inventor, a gun maker with 128 patents and Butch Cassidy all have roots in Utah.
 
@@ -901,60 +915,74 @@ p: Philo Farnsworth was an American inventor.
 
 term: patent = A right the government grants to an inventor, like the first one for the television.
 
-fact: He was granted the first patent for the television.
+fact(His patent): Philo Farnsworth was granted the first patent for the television.
 
 check: Who was granted the first patent for the television?
 - John Moses Browning
 + Philo Farnsworth
 - Robert LeRoy Parker
-hint: Look at the paragraph. The answer is there.
-explain: Philo Farnsworth was an American inventor.
+hint: Look at the paragraph. It names the inventor.
+explain: Philo Farnsworth was granted the first patent for the television.
 
 --- 🧑
 p: Philo Farnsworth was born on August 19, 1906, in a small log cabin near Beaver, Utah.
 
-fact: He was the oldest of five children.
+fact(His family): He was the oldest of five children.
 
 check: Where was Philo Farnsworth born?
-- Near Ogden, Utah
 + Near Beaver, Utah
+- Near Ogden, Utah
 - Near Provo, Utah
-hint: Look at the paragraph. The answer is there.
-explain: Philo Farnsworth was born on August 19, 1906, in a small log cabin near Beaver, Utah.
+hint: Look at the paragraph. It names the place.
+explain: Philo Farnsworth was born in a small log cabin near Beaver, Utah.
 
 --- 📅
 p: On September 7, 1927, Philo Farnsworth's camera tube sent its first image, a simple straight line.
 
-fact: It went to a receiver in another room of his laboratory.
+fact(Where it went): The image went to a receiver in another room of his laboratory.
 
 check: What was the first image Farnsworth's camera tube sent?
 - A smiling face
-+ A straight line
 - A tall tower
-hint: Look at the paragraph. The answer is there.
-explain: On September 7, 1927, Philo Farnsworth's camera tube sent its first image, a simple straight line.
++ A straight line
+hint: Look at the paragraph. It says what the image was.
+explain: Farnsworth's camera tube sent its first image, a simple straight line.
 
 --- 👤
 p: John Browning made his first gun at age 13, in his father's gun shop.
 
-fact: He received the first of his 128 patents at age 24.
+fact(His patents): John Browning received the first of his 128 patents at age 24.
 
 check: At what age did John Browning make his first gun?
-- At age 3
 + At age 13
+- At age 3
 - At age 30
-hint: Look at the paragraph. The answer is there.
-explain: John Browning made his first gun at age 13, in his father's gun shop.
+hint: Look at the paragraph. It gives his age.
+explain: John Browning made his first gun at age 13.
 
 --- 👑
 p: John Browning's father, Jonathan, was one of the pioneers who came to Utah.
 
-fact: In 1852 he set up a gunsmith shop in Ogden.
+fact(His shop): In 1852 Jonathan Browning set up a gunsmith shop in Ogden.
+
+check: Where did Jonathan Browning set up a gunsmith shop in 1852?
+- In Beaver
++ In Ogden
+- In Provo
+hint: Look at the box. It names the city.
+explain: In 1852 Jonathan Browning set up a gunsmith shop in Ogden.
 
 --- 🧑‍🔬
 p: Butch Cassidy was born Robert LeRoy Parker on April 13, 1866, in Beaver, Utah Territory.
 
-fact: He was the first of thirteen children.
+fact(His family): Butch Cassidy was the first of thirteen children.
+
+check: What was Butch Cassidy's name at birth?
+- John Moses Browning
+- Philo Farnsworth
++ Robert LeRoy Parker
+hint: Look at the paragraph. It gives his birth name.
+explain: Butch Cassidy was born Robert LeRoy Parker.
 
 --- 🔎
 p: A television patent. A log cabin in Beaver. A straight line sent to a receiver. A first gun at age 13. A shop in Ogden.
@@ -962,30 +990,30 @@ p: A television patent. A log cabin in Beaver. A straight line sent to a receive
 p: Utah people made things.
 
 quiz: Where did the first image from Farnsworth's camera tube go?
-- Onto a big screen at a theater
 + To a receiver in another room
+- Onto a big screen at a theater
 - Into a camera on the street
-explain: It went to a receiver in another room of his laboratory.
+explain: The image went to a receiver in another room of his laboratory.
 
 quiz: How many patents did John Browning receive?
 - 12
 + 128
 - 1,280
-explain: He received the first of his 128 patents at age 24.
+explain: John Browning received the first of his 128 patents at age 24.
 
-quiz: Where did Jonathan Browning set up a gunsmith shop in 1852?
-- In Beaver
-+ In Ogden
-- In Provo
-explain: In 1852 he set up a gunsmith shop in Ogden.
+quiz: Who set up a gunsmith shop in Ogden in 1852?
+- Philo Farnsworth
+- Butch Cassidy
++ Jonathan Browning
+explain: In 1852 Jonathan Browning set up a gunsmith shop in Ogden.
 
 quiz: How many children was Butch Cassidy the first of?
 - Three children
 + Thirteen children
 - Thirty children
-explain: He was the first of thirteen children.
+explain: Butch Cassidy was the first of thirteen children.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === utah-animals
 idea: Elk that move down the mountain in winter, prairie dogs, a sheep with heavy horns and a tortoise that lives 70 to 80 years.
 
@@ -994,93 +1022,107 @@ game: Elk = Moves down lower in the winter | Prairie dog = Has one litter a year
 --- 🦌
 p: A Rocky Mountain elk weighs 500 to 750 lb (230 to 340 kg).
 
-fact: Males are about 7.9 ft (2.4 m) long and females about 6.6 ft (2 m).
+fact(Length): Males are about 7.9 ft (2.4 m) long and females about 6.6 ft (2 m).
 
 check: How much does a Rocky Mountain elk weigh?
 - Only 50 to 75 pounds
-+ 500 to 750 lb
 - Over 5,000 pounds
-hint: Look at the paragraph. The answer is there.
++ 500 to 750 lb
+hint: Look at the paragraph. It gives the weight.
 explain: A Rocky Mountain elk weighs 500 to 750 lb (230 to 340 kg).
 
 --- 🏡
 p: In the mountains, Rocky Mountain elk often stay in higher places in the warmer months.
 
-fact: They move down lower in the winter.
+fact(Winter): They move down lower in the winter.
 
-check: When do mountain elk move down lower?
-- During summer
-+ In the winter
-- Every spring
-hint: Look at the paragraph. The answer is there.
-explain: They move down lower in the winter.
+check: In which season do mountain elk move down to lower places?
+- Summer
++ Winter
+- Spring
+hint: Look at the box. It names the season.
+explain: Rocky Mountain elk move down lower in the winter.
 
 --- 📏
-p: Male Utah prairie dogs weigh 0.66 to 1.98 lb (0.3 to 0.9 kg) in the spring.
+p: In the summer, male Utah prairie dogs weigh 1.1 to 3.3 lb (0.5 to 1.5 kg).
 
-fact: In the summer they weigh 1.1 to 3.3 lb (0.5 to 1.5 kg).
+fact(In spring): In the spring they weigh 0.66 to 1.98 lb (0.3 to 0.9 kg).
 
 check: How much does a male Utah prairie dog weigh in the summer?
-- Up to 33 pounds
 + 1.1 to 3.3 lb
+- Up to 33 pounds
 - Only 0.11 pounds
-hint: Look at the paragraph. The answer is there.
-explain: Male Utah prairie dogs weigh 0.66 to 1.98 lb (0.3 to 0.9 kg) in the spring.
+hint: Look at the paragraph. It gives the summer weight.
+explain: In the summer, male Utah prairie dogs weigh 1.1 to 3.3 lb.
 
 --- 🐣
 p: A Utah prairie dog mother has only one litter a year, usually one to eight pups.
 
 term: litter = The group of pups a mother has at one time.
 
-fact: She carries the pups for about 28 days before they are born.
+fact(Before birth): She carries the pups for about 28 days before they are born.
 
 check: How many days does a Utah prairie dog mother carry her pups?
 - Just 2
-+ About 28 days
 - Nearly 280 days
-hint: Look at the box. The answer is there.
-explain: She carries the pups for about 28 days before they are born.
++ About 28 days
+hint: Look at the box. It gives the number of days.
+explain: A Utah prairie dog mother carries the pups for about 28 days before they are born.
 
 --- 📐
 p: A male bighorn sheep's horns can weigh up to 30 lb (14 kg).
 
-fact: That is as much as all the bones in his body.
+fact(As heavy as bones): That is as much as all the bones in his body.
+
+check: A male bighorn sheep's horns can weigh as much as what?
+- A whole herd of prairie dogs
++ All the bones in his body
+- One small white feather
+hint: Look at the box. It says what the horns weigh as much as.
+explain: The horns weigh as much as all the bones in his body.
 
 --- 🍼
 p: A desert tortoise lives 70 to 80 years on average.
 
-fact: It grows slowly, and it has few young.
+fact(How it grows): A desert tortoise grows slowly, and it has few young.
+
+check: How does a desert tortoise grow?
++ Slowly
+- Quickly
+- Suddenly
+hint: Look at the box. It says how it grows.
+explain: A desert tortoise grows slowly, and it has few young.
 
 --- 🔎
 p: An elk down in winter. A prairie dog with pups. Horns that weigh as much as bones. A tortoise that lives long.
 
 p: Utah has many animals.
 
+quiz: About how long is a male Rocky Mountain elk?
+- Only about 0.79 ft
++ About 7.9 ft (2.4 m)
+- Nearly 79 ft long
+explain: Males are about 7.9 ft (2.4 m) long and females about 6.6 ft (2 m).
+
 quiz: How many pups does a Utah prairie dog mother usually have in a litter?
 - Ten to twenty
-+ One to eight
 - Twenty to thirty
++ One to eight
 explain: A Utah prairie dog mother has only one litter a year, usually one to eight pups.
 
 quiz: How long does a desert tortoise live on average?
-- Only 7 or 8
 + 70 to 80 years
+- Only 7 or 8
 - Nearly 700 years
 explain: A desert tortoise lives 70 to 80 years on average.
 
-quiz: A bighorn sheep's horns can weigh as much as what?
-- A whole herd of prairie dogs
-+ All the bones in his body
-- The weight of one small feather
-explain: That is as much as all the bones in his body.
+quiz: How much can a male bighorn sheep's horns weigh at most?
+- Only 3 lb (1.4 kg)
++ Up to 30 lb (14 kg)
+- Up to 300 lb (140 kg)
+explain: A male bighorn sheep's horns can weigh up to 30 lb (14 kg).
 
-quiz: Where do Rocky Mountain elk stay in the warmer months?
-- In lower valleys
-+ In higher places
-- In deep caves
-explain: Rocky Mountain elk often stay in higher places in the warmer months.
-
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === utah-dinos
 idea: Thousands of dinosaur bones have been dug up in Utah, and one raptor had a big claw.
 
@@ -1091,60 +1133,74 @@ p: More than 16,200 bones have been dug up at the Cleveland-Lloyd Dinosaur Quarr
 
 term: quarry = A place where bones are dug up, like the Cleveland-Lloyd Dinosaur Quarry.
 
-fact: Many thousands more are waiting to be dug up and studied.
+fact(Still more): Many thousands more bones are waiting to be dug up and studied.
 
 check: How many bones have been dug up at the Cleveland-Lloyd Dinosaur Quarry?
 - Fewer than 1,620
-+ More than 16,200
 - About 162,000
-hint: Look at the paragraph. The answer is there.
++ More than 16,200
+hint: Look at the paragraph. It gives the number of bones.
 explain: More than 16,200 bones have been dug up at the Cleveland-Lloyd Dinosaur Quarry in Utah.
 
 --- 🏺
 p: Skeletons made from Cleveland-Lloyd bones are on show.
 
-fact: They are in more than 65 museums around the world.
+fact(Where): They are in more than 65 museums around the world.
 
 check: In how many museums can you see skeletons made from Cleveland-Lloyd bones?
 - Fewer than 6
 + More than 65
 - About 650
-hint: Look at the box. The answer is there.
-explain: They are in more than 65 museums around the world.
+hint: Look at the box. It gives the number of museums.
+explain: Skeletons made from Cleveland-Lloyd bones are in more than 65 museums around the world.
 
 --- 📏
 p: Utahraptor is the largest known member of its dinosaur family.
 
-fact: It was about 20 to 23 ft (6 to 7 m) long and weighed around 1,100 lb (500 kg).
+fact(Size): It was about 20 to 23 ft (6 to 7 m) long and weighed around 1,100 lb (500 kg).
 
 check: What was the length of a Utahraptor?
-- About 2 to 3 feet in all
 + 20 to 23 ft (6 to 7 m)
+- About 2 to 3 feet in all
 - Over 200 feet from end to end
-hint: Look at the box. The answer is there.
-explain: It was about 20 to 23 ft (6 to 7 m) long and weighed around 1,100 lb (500 kg).
+hint: Look at the box. It gives the length.
+explain: A Utahraptor was about 20 to 23 ft (6 to 7 m) long.
 
 --- 🤔
 p: Utahraptor had a big claw that may have been about 9.4 in (24 cm) long.
 
-fact: Its feet seem to have had a very tight grip.
+fact(Its feet): Its feet seem to have had a very tight grip.
 
 check: What length may a Utahraptor's big claw have been?
 - Only about 0.94 inches
 + About 9.4 in (24 cm)
 - Nearly 94 inches
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the length.
 explain: Utahraptor had a big claw that may have been about 9.4 in (24 cm) long.
 
 --- 📐
-p: Allosaurus averaged about 25 to 26 ft (7.5 to 8 m) long.
+p: The largest Allosaurus were estimated at about 30 ft (9 m) long.
 
-fact: The largest ones were estimated at about 30 ft (9 m) long.
+fact(On average): Allosaurus averaged about 25 to 26 ft (7.5 to 8 m) long.
+
+check: How long did Allosaurus average?
+- Only 2 to 3 ft (0.6 to 0.9 m)
+- Nearly 250 to 260 ft (76 to 79 m)
++ 25 to 26 ft (7.5 to 8 m)
+hint: Look at the box. It gives the average length.
+explain: Allosaurus averaged about 25 to 26 ft (7.5 to 8 m) long.
 
 --- 🏆
 p: Earl Douglass and his team dug up over 700,000 lb (320,000 kg) of fossils.
 
-fact: They dug them from a single quarry at what became Dinosaur National Monument.
+fact(Where from): They dug the fossils from a single quarry at what became Dinosaur National Monument.
+
+check: Where did Earl Douglass and his team dig up over 700,000 lb of fossils?
++ From a single quarry
+- From many small caves
+- From a deep lake bed
+hint: Look at the box. It says where they dug.
+explain: They dug the fossils from a single quarry at what became Dinosaur National Monument.
 
 --- 🔎
 p: A quarry with thousands of bones. Skeletons in museums. A raptor with a big claw. An Allosaurus. Fossils from one quarry.
@@ -1153,29 +1209,29 @@ p: Utah has dinosaur bones.
 
 quiz: How heavy was a Utahraptor?
 - Only a few pounds
-+ Around 1,100 lb
 - Over ten tons
++ Around 1,100 lb (500 kg)
 explain: It was about 20 to 23 ft (6 to 7 m) long and weighed around 1,100 lb (500 kg).
 
-quiz: What did Earl Douglass and his team dig up?
-- A few boxes of old coins
-+ Over 700,000 lb of fossils
-- Some jars of dried seeds
+quiz: How many pounds of fossils did Earl Douglass and his team dig up?
+- Fewer than 7,000 lb
++ Over 700,000 lb
+- Nearly 70,000 lb
 explain: Earl Douglass and his team dug up over 700,000 lb (320,000 kg) of fossils.
 
-quiz: About how long were the largest Allosaurus ones estimated to be?
-- Only 3 ft
+quiz: About how long were the largest Allosaurus estimated to be?
 + About 30 ft (9 m)
+- Only 3 ft
 - Nearly 300 feet
-explain: The largest ones were estimated at about 30 ft (9 m) long.
+explain: The largest Allosaurus were estimated at about 30 ft (9 m) long.
 
-quiz: What seem to have had a very tight grip?
+quiz: What part of a Utahraptor seems to have had a very tight grip?
 - Its tail
 + Its feet
 - Its teeth
 explain: Its feet seem to have had a very tight grip.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === utah-lakes
 idea: Lakes in Utah: a big lake shared with Idaho, a lake made by a dam, and a shallow lake.
 
@@ -1184,13 +1240,13 @@ game: Bear Lake = Split between Utah and Idaho | Laketown = Near the Rocky Mount
 --- 🏖️
 p: Bear Lake covers about 109 sq mi (280 km2).
 
-fact: It is split about equally between Utah and Idaho. The Utah part is the second-largest natural freshwater lake in Utah, after Utah Lake.
+fact(Shared): Bear Lake is split about equally between Utah and Idaho. The Utah part is the second-largest natural freshwater lake in Utah, after Utah Lake.
 
 check: What area does Bear Lake cover?
-- Only 10 sq mi
 + About 109 sq mi (280 km2)
+- Only 10 sq mi
 - Over 1,900 square miles
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the area.
 explain: Bear Lake covers about 109 sq mi (280 km2).
 
 --- 📅
@@ -1198,48 +1254,62 @@ p: Jedediah Smith arrived at Bear Lake in June 1827.
 
 term: overland = By land, like the first overland round trip to California.
 
-fact: That marked the completion of the first overland round trip to California from the United States.
+fact(What it completed): That marked the completion of the first overland round trip to California from the United States.
 
-check: What did Smith's arrival in June 1827 complete?
+check: What did Jedediah Smith's arrival at Bear Lake in June 1827 complete?
 - A boat race down the Mississippi River
 + The first overland round trip to California
 - Another long railroad across the West
-hint: Look at the box. The answer is there.
-explain: That marked the completion of the first overland round trip to California from the United States.
+hint: Look at the box. It says what was completed.
+explain: His arrival marked the completion of the first overland round trip to California from the United States.
 
 --- ⏳
 p: The south end of Bear Lake, near Laketown, was the site of two annual Rocky Mountain Rendezvous.
 
-fact: They were held in the summers of 1827 and 1828.
+fact(When): They were held in the summers of 1827 and 1828.
 
-check: Which town is near the rendezvous site at Bear Lake?
+check: Near which town was the Rocky Mountain Rendezvous site at Bear Lake?
 - Park City
-+ Laketown
 - Salt Lake City
-hint: Look at the paragraph. The answer is there.
++ Laketown
+hint: Look at the paragraph. It names the town.
 explain: The south end of Bear Lake, near Laketown, was the site of two annual Rocky Mountain Rendezvous.
 
 --- 📏
 p: The Glen Canyon Dam that makes Lake Powell is 710 ft (216 m) high.
 
-fact: When the lake is full, its surface is about 3,700 ft (1,100 m) above sea level.
+fact(The lake): When the lake is full, its surface is about 3,700 ft (1,100 m) above sea level.
 
 check: What is the height of the dam that holds back Lake Powell?
-- About 71 feet
 + 710 ft (216 m)
+- About 71 feet
 - Over 7,100 feet
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the height.
 explain: The Glen Canyon Dam that makes Lake Powell is 710 ft (216 m) high.
 
 --- 🕰️
 p: Lake Powell took sixteen years to fill to the 3,700 ft (1,100 m) level.
 
-fact: It got there on June 22, 1980.
+fact(The date): It got there on June 22, 1980.
+
+check: On what date did Lake Powell reach its 3,700 ft level?
+- August 2, 1890
++ June 22, 1980
+- May 22, 1908
+hint: Look at the box. It gives the date.
+explain: Lake Powell got to that level on June 22, 1980.
 
 --- 📐
 p: Utah Lake is shallow.
 
-fact: Its deepest spot is just under 14 ft (4.3 m), and its average depth is about 10.5 ft (3.2 m).
+fact(How deep): Its deepest spot is just under 14 ft (4.3 m), and its average depth is about 10.5 ft (3.2 m).
+
+check: How deep is the deepest spot of Utah Lake?
+- Well over 140 feet deep
+- Nearly 1.4 feet deep
++ Just under 14 ft (4.3 m)
+hint: Look at the box. It gives the depth.
+explain: The deepest spot of Utah Lake is just under 14 ft (4.3 m).
 
 --- 🔎
 p: A lake shared with Idaho. A trip to California. A rendezvous near Laketown. A dam on Lake Powell. A shallow lake.
@@ -1252,25 +1322,25 @@ quiz: How many years did Lake Powell take to fill?
 - Six years
 explain: Lake Powell took sixteen years to fill to the 3,700 ft (1,100 m) level.
 
-quiz: On what date did Lake Powell reach its 3,700 ft level?
-- August 2, 1890
-+ June 22, 1980
-- May 22, 1908
-explain: It got there on June 22, 1980.
-
-quiz: How deep is the deepest spot of Utah Lake?
-- Well over 140 feet deep
-+ Just under 14 ft (4.3 m)
-- Nearly 1.4 feet deep
-explain: Its deepest spot is just under 14 ft (4.3 m).
+quiz: How high above sea level is the surface of Lake Powell when it is full?
++ About 3,700 ft (1,100 m)
+- About 370 feet
+- Over 37,000 feet
+explain: When the lake is full, its surface is about 3,700 ft (1,100 m) above sea level.
 
 quiz: Which two states is Bear Lake split between?
 - Nevada and Oregon
-+ Utah and Idaho
 - Arizona and Colorado
-explain: It is split about equally between Utah and Idaho.
++ Utah and Idaho
+explain: Bear Lake is split about equally between Utah and Idaho.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: In which summers were the two Rocky Mountain Rendezvous held at Bear Lake?
+- 1872 and 1882
++ 1827 and 1828
+- 1727 and 1728
+explain: The two Rocky Mountain Rendezvous were held in the summers of 1827 and 1828.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === utah-redrock
 idea: Tall red buttes, hoodoos, stone bridges and the darkest sky ever assessed by the Park Service.
 
@@ -1281,60 +1351,74 @@ p: Monument Valley is famous for its buttes.
 
 term: butte = A rock formation, like the famous butte formations of Monument Valley.
 
-fact: The most famous butte formations are along the Utah–Arizona state line.
+fact(Where): The most famous butte formations are along the Utah–Arizona state line.
 
 check: Along what line are the famous Monument Valley buttes?
 - A line of old railroad tracks
-+ The Utah–Arizona state line
 - The edge of the Great Salt Lake
-hint: Look at the box. The answer is there.
++ The Utah–Arizona state line
+hint: Look at the box. It names the line.
 explain: The most famous butte formations are along the Utah–Arizona state line.
 
 --- 🧑
 p: Director John Ford filmed a number of Westerns in Monument Valley.
 
-fact: A critic wrote that its five square miles (13 km2) define the American West for moviegoers.
+fact(The critic): A critic wrote that its five square miles (13 km2) define the American West for moviegoers.
 
 check: Which director filmed Westerns in Monument Valley?
 - Steven Spielberg
 + John Ford
 - Walt Disney
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It names the director.
 explain: Director John Ford filmed a number of Westerns in Monument Valley.
 
 --- 📏
 p: Goblin Valley State Park has hoodoos.
 
-fact: It and Bryce Canyon National Park have some of the largest groups of hoodoos in the world.
+fact(Bryce Canyon too): Goblin Valley and Bryce Canyon National Park have some of the largest groups of hoodoos in the world.
 
 check: What does Goblin Valley State Park have many of?
-- Geysers
 + Hoodoos
+- Geysers
 - Glaciers
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It names what the park has.
 explain: Goblin Valley State Park has hoodoos.
 
 --- 🏗️
 p: Natural Bridges has three bridges.
 
-fact: Their names are Kachina, Owachomo and Sipapu. Sipapu is the largest. All three are Hopi names.
+fact(Their names): The bridges are called Kachina, Owachomo and Sipapu. Sipapu is the largest. All three are Hopi names.
 
-check: Which of the three bridges is the largest?
+check: Which of the three bridges at Natural Bridges is the largest?
 - Kachina
-+ Sipapu
 - Owachomo
-hint: Look at the box. The answer is there.
-explain: Their names are Kachina, Owachomo and Sipapu.
++ Sipapu
+hint: Look at the box. It names the largest.
+explain: Sipapu is the largest of the three bridges.
 
 --- 👀
 p: Natural Bridges has the darkest sky ever assessed by the National Park Service Night Sky Team.
 
-fact: It rates a Class 2 on the Bortle Dark-Sky Scale.
+fact(Its rating): The sky at Natural Bridges rates a Class 2 on the Bortle Dark-Sky Scale.
+
+check: What class does the sky at Natural Bridges rate on the Bortle Dark-Sky Scale?
+- Level 9
++ Class 2
+- Grade 5
+hint: Look at the box. It gives the class.
+explain: The sky at Natural Bridges rates a Class 2 on the Bortle Dark-Sky Scale.
 
 --- 📐
 p: Rainbow Bridge has a span of 275 ft (84 m) and a height of 290 ft (88 m).
 
-fact: It is one of the largest natural arches in the world.
+fact(Big arch): Rainbow Bridge is one of the largest natural arches in the world.
+
+check: What is the height of Rainbow Bridge?
++ 290 ft (88 m)
+- About 29 feet
+- Nearly 2,900 feet
+hint: Look at the paragraph. It gives the height.
+explain: Rainbow Bridge has a height of 290 ft (88 m).
 
 --- 🔎
 p: Buttes on the state line. Westerns filmed by a director. Groups of hoodoos. Three bridges. A dark sky. A big arch.
@@ -1345,27 +1429,27 @@ quiz: What kind of names are the three bridge names at Natural Bridges?
 - Navajo names
 + Hopi names
 - Spanish names
-explain: All three are Hopi names.
+explain: All three bridge names at Natural Bridges are Hopi names.
 
-quiz: How tall is Rainbow Bridge?
-- About 29 feet
-+ 290 ft (88 m)
-- Nearly 2,900 feet
-explain: Rainbow Bridge has a span of 275 ft (84 m) and a height of 290 ft (88 m).
+quiz: Which place has the darkest sky ever assessed by the National Park Service Night Sky Team?
+- Monument Valley
+- Rainbow Bridge
++ Natural Bridges
+explain: Natural Bridges has the darkest sky ever assessed by the National Park Service Night Sky Team.
 
-quiz: What class does the sky at Natural Bridges rate on the Bortle Dark-Sky Scale?
-- Level 9
-+ Class 2
-- Grade 5
-explain: It rates a Class 2 on the Bortle Dark-Sky Scale.
+quiz: What is the span of Rainbow Bridge?
++ 275 ft (84 m)
+- About 27 feet
+- Nearly 2,750 feet
+explain: Rainbow Bridge has a span of 275 ft (84 m).
 
-quiz: Which park has some of the largest groups of hoodoos, along with Goblin Valley?
+quiz: Which national park, along with Goblin Valley, has some of the largest groups of hoodoos?
 - Yellowstone National Park
-+ Bryce Canyon National Park
 - Everglades National Park
-explain: It and Bryce Canyon National Park have some of the largest groups of hoodoos in the world.
++ Bryce Canyon National Park
+explain: Goblin Valley and Bryce Canyon National Park have some of the largest groups of hoodoos in the world.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === utah-ski
 idea: Skiing in Utah: a resort with lots of snow, the largest ski area in the U.S., and the 2002 Winter Olympics.
 
@@ -1376,86 +1460,100 @@ p: Alta opened its first lift on January 15, 1939.
 
 term: resort = A place for skiing, like Alta, one of the oldest ski resorts in the country.
 
-fact: It is one of the oldest ski resorts in the country.
+fact(Old resort): Alta is one of the oldest ski resorts in the country.
 
 check: When did Alta open its first lift?
-- November 5, 1993
 + January 15, 1939
+- November 5, 1993
 - March 15, 1989
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the date.
 explain: Alta opened its first lift on January 15, 1939.
 
 --- 📏
 p: Alta gets more snow than most Utah resorts.
 
-fact: Its average annual snowfall is 543 inches (13.8 m).
+fact(Snowfall): Its average annual snowfall is 543 inches (13.8 m).
 
 check: How much snow does Alta get in an average year?
 - Only 54 inches
 + 543 inches (13.8 m)
 - Over 5,000 inches
-hint: Look at the box. The answer is there.
-explain: Its average annual snowfall is 543 inches (13.8 m).
+hint: Look at the box. It gives the amount of snow.
+explain: Alta has an average annual snowfall of 543 inches (13.8 m).
 
 --- 🤔
 p: Alta does not allow snowboarders.
 
-fact: It is one of just three ski areas in the U.S. that do not.
+fact(Only three): Alta is one of just three ski areas in the U.S. that do not allow snowboarders.
 
 check: How many U.S. ski areas do not allow snowboarders?
 - Thirty
-+ Three
 - Thirteen
-hint: Look at the box. The answer is there.
-explain: It is one of just three ski areas in the U.S.
++ Three
+hint: Look at the box. It gives the number.
+explain: Alta is one of just three ski areas in the U.S. that do not allow snowboarders.
 
 --- 📐
 p: Park City lies mostly higher than 7,000 ft (2,100 m), so it is usually cooler than Salt Lake City.
 
-fact: Salt Lake City sits at about 4,300 ft (1,300 m).
+fact(Salt Lake City): Salt Lake City sits at about 4,300 ft (1,300 m).
 
 check: What is the height of most of Park City?
 - About 700 feet above the sea
 + Higher than 7,000 ft
 - Under 70 feet above the sea
-hint: Look at the paragraph. The answer is there.
-explain: Park City lies mostly higher than 7,000 ft (2,100 m), so it is usually cooler than Salt Lake City.
+hint: Look at the paragraph. It gives the height.
+explain: Park City lies mostly higher than 7,000 ft (2,100 m).
 
 --- 📅
 p: In 2015, Park City Ski Resort and Canyons resorts merged.
 
-fact: That created the largest ski area in the U.S.
+fact(The result): That created the largest ski area in the U.S.
+
+check: What did the merger of Park City Ski Resort and Canyons create?
+- The oldest ski lift in Utah
+- The tallest mountain in the nation
++ The largest ski area in the U.S.
+hint: Look at the box. It says what was created.
+explain: The merger created the largest ski area in the U.S.
 
 --- ⚖️
 p: The 2002 Winter Olympics in Salt Lake City had 2,399 athletes from 78 nations.
 
-fact: They took part in 78 events in 15 disciplines.
+fact(Events): The athletes took part in 78 events in 15 disciplines.
+
+check: How many disciplines were in the 2002 Winter Olympics in Salt Lake City?
++ 15
+- 5
+- 150
+hint: Look at the box. It gives the number.
+explain: The athletes took part in 78 events in 15 disciplines.
 
 --- 🔎
 p: A lift from 1939. Lots of snow. No snowboards. A cool town up high. A large ski area. A Winter Olympics.
 
 p: Utah is great for skiing.
 
+quiz: In what year did Park City Ski Resort and Canyons resorts merge?
+- 2051
++ 2015
+- 2005
+explain: In 2015, Park City Ski Resort and Canyons resorts merged.
+
+quiz: At about what height does Salt Lake City sit?
+- About 430 feet
+- Over 43,000 feet
++ About 4,300 ft (1,300 m)
+explain: Salt Lake City sits at about 4,300 ft (1,300 m).
+
 quiz: How many athletes took part in the 2002 Winter Olympics in Salt Lake City?
-- 239
 + 2,399
+- 239
 - 23,990
 explain: The 2002 Winter Olympics in Salt Lake City had 2,399 athletes from 78 nations.
 
-quiz: How many nations did the athletes come from?
+quiz: How many nations did the athletes at the 2002 Winter Olympics come from?
 - 8
-+ 78
 - 780
++ 78
 explain: The 2002 Winter Olympics in Salt Lake City had 2,399 athletes from 78 nations.
-
-quiz: What happened to Park City Ski Resort and Canyons resorts in 2015?
-- They closed
-+ They merged
-- They moved
-explain: In 2015, Park City Ski Resort and Canyons resorts merged.
-
-quiz: How many disciplines were in the 2002 Winter Olympics?
-- 5
-+ 15
-- 150
-explain: They took part in 78 events in 15 disciplines.

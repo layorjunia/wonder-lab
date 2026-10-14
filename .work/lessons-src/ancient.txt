@@ -7,9 +7,9 @@ p: The oldest piece of the Bible is small enough to fit in your palm. In 1979, t
 fact: These silver strips have the priestly blessing from Numbers 6 scratched into the metal.
 p: They were so fragile that it took three years to figure out how to unroll them without destroying them. Today, they are in the Israel Museum.
 check: What is scratched into the silver strips?
-+ The priestly blessing from Numbers 6
 - The Ten Commandments from Exodus 20
 - A song of praise from the Psalms
++ The priestly blessing from Numbers 6
 hint: Look at the fact box. It names what is scratched into the metal.
 explain: The strips carry the priestly blessing from Numbers 6, carefully etched into the silver.
 
@@ -18,16 +18,16 @@ p: The oldest complete Hebrew Bible that still exists is called the Leningrad Co
 fact: It was copied by hand in AD 1008 and is kept in the Russian National Library in St Petersburg today.
 p: The scribe signed and dated the book at the back, which is how we know it was copied in AD 1008. An even older one, the Aleppo Codex, dates from around AD 930, but parts of it are missing now.
 check: How is the year of the Leningrad Codex known?
++ The scribe signed and dated the book
 - A dated coin was found tucked inside it
 - Scientists tested the ink in a lab
-+ The scribe signed and dated the book
 hint: Look at the paragraph. It says where the date came from.
 explain: The scribe signed and dated the book at the back, which is how we know it was copied in AD 1008.
 
 --- 📜
 term: genealogy = A family list that names each man and his son, one generation after another.
 fact: In Genesis 5, ten men from Adam to Noah are listed. For each one, it gives the age he was when his son was born and how long he lived after. Genesis 11 does the same thing again from Noah's son Shem down to Abraham.
-check: What does the list give for each man?
+check: In the family lists of Genesis 5, what does the list give for each man?
 - The village where he was born and how much land he owned
 + His age when his son was born and how long he lived afterward
 - The names of his brothers and what jobs they each had
@@ -38,10 +38,10 @@ explain: Each entry gives two pieces of information: the age of the father when 
 p: In 1650, an Irish archbishop named James Ussher added up all the ages in Genesis 5 and 11.
 fact(Worked out): He said creation happened on the night before October 23rd, 4004 BC. That date is arithmetic, not a verse. Nowhere does the Bible say 4004 BC.
 p: Ussher anchored his total to a known Babylonian king's death and a dated eclipse.
-check: Is the date 4004 BC written in the Bible?
+check: Is the date 4004 BC for creation written in the Bible?
 - Yes, it is written in a verse of Genesis
-+ No, it is arithmetic done on the lists
 - Only in a note added by early scribes
++ No, it is arithmetic done on the lists
 hint: Look at the fact box. It states that 4004 BC is arithmetic, not a verse.
 explain: The date 4004 BC comes from adding up the ages listed in Genesis, not from any verse that says exactly that number.
 
@@ -49,9 +49,9 @@ explain: The date 4004 BC comes from adding up the ages listed in Genesis, not f
 p: The old copies of Genesis do not all carry the same numbers in their genealogies.
 fact: The Greek Septuagint, an ancient translation, gives longer gaps between generations. Add those up and creation lands nearer 5500 BC, about 1,500 years earlier than Ussher's 4004 BC.
 p: Both totals are honest arithmetic on a written list. They differ because the old copies carry different numbers in the lists.
-check: Why do the two totals for creation differ?
-+ The old copies carry different numbers in the lists
+check: Why do two old totals for the years since creation differ?
 - One list counts in years, the other in months
++ The old copies carry different numbers in the lists
 - Water damage wiped out some numbers in one list
 hint: Look at the fact box. It mentions that the Greek Septuagint gives longer gaps.
 explain: The difference comes from the old copies carrying different numbers in their genealogies.
@@ -69,7 +69,7 @@ game: Ark = A big boat from the flood | Flood Tablet = Clay tablet with a flood 
 p: The written account gives us some exact numbers for the Ark. It was 300 cubits long, 50 cubits wide, and 30 cubits high.
 fact: A cubit is about 18 inches, so that works out to roughly 450 feet long, 75 feet wide, and 45 feet high. That is longer than a football field's 100 yards.
 try: Take a tape measure outside and mark out 450 feet. Walk from one end to the other and count your steps. That is how long the Ark was.
-check: About how long was the Ark in feet?
+check: About how long was the Ark, in feet?
 + About 450 feet
 - About 100 feet
 - About 200 feet
@@ -81,8 +81,8 @@ p: In the British Museum, there is a broken lump of clay with marks all over it.
 fact: This tablet was dug up at Nineveh and is called the Flood Tablet. It is part of a Babylonian poem called the Epic of Gilgamesh.
 check: What does the Flood Tablet tell about?
 - A long war, a walled city, and a king who sought gold
-+ A great flood, a boat, and birds sent out to find land
 - A hungry lion, a mountain, and a hero sent to hunt it
++ A great flood, a boat, and birds sent out to find land
 hint: Look at the first sentence on the page.
 explain: The Flood Tablet tells about a great flood, a boat, and birds sent out to find land.
 
@@ -90,10 +90,10 @@ explain: The Flood Tablet tells about a great flood, a boat, and birds sent out 
 p: In 1872, George Smith was sorting tablets at the British Museum that nobody had read.
 fact: One day, he made out the flood lines on one of them and got so excited that he jumped up and started taking his clothes off.
 p: After that, he went to Iraq and found the missing piece of the tablet. That almost never happens.
-check: Who made out the flood lines on the tablet?
+check: Who made out the flood lines on a tablet in the British Museum in 1872?
 - A colleague at the museum
-- The curator
 + George Smith
+- The curator
 hint: Look at the first sentence in the fact box.
 explain: George Smith made out the flood lines on the tablet and got very excited.
 
@@ -114,8 +114,8 @@ fact: At Babel, after people tried to build a tower, they could not understand o
 p: The written account says the tower was made of brick and tar, not stone. Southern Iraq, where this happened, has almost no building stone. Everything there was built of mud brick.
 check: What was the tower of Babel built of?
 - Stone blocks
-+ Brick and tar
 - Wooden planks
++ Brick and tar
 hint: Look at the second paragraph. It says what the tower was made of.
 explain: The tower was made of brick and tar because southern Iraq has almost no building stone.
 
@@ -124,8 +124,8 @@ p: Languages are like big families. Some languages share so many words that they
 term: language family = A group of languages that share a lot of words and patterns.
 fact: English, Greek, Hindi, and Farsi share words and endings, making them one family. Hebrew and Arabic form another separate family. Nobody has been able to show that these families, and the many others, all trace back to one root language.
 check: Has anyone linked all the language families to one root?
-+ No
 - Yes, Latin
++ No
 - Yes, Ancient Egyptian
 hint: Look at the fact on the page to see what it says about linking families.
 explain: Nobody has shown that all language families come from one root. They are grouped based on shared words and patterns.
@@ -152,10 +152,10 @@ explain: The four sides are incredibly precise, differing by less than 8 inches.
 --- 🧱
 p: You may have heard that the Great Pyramid is made up of 2.3 million blocks.
 fact(Worked out, not counted): Nobody has actually counted them. The number comes from measuring the outside volume and dividing it by the average size of the blocks you can see.
-check: How was the 2.3 million blocks figure found?
+check: How was the figure of 2.3 million blocks in the Great Pyramid found?
++ By working out the volume and dividing by the size of the blocks
 - By reading the number written in an old record by the builders
 - By adding up the loads that boats brought down the river
-+ By working out the volume and dividing by the size of the blocks
 hint: The fact box explains how the volume is used to estimate the number.
 explain: The figure comes from the outside volume divided by the average block size.
 
@@ -164,9 +164,9 @@ p: You may wonder how we decide when the Great Pyramid was built.
 fact(Worked out, not directly seen): Most books say about 2560 BC. This date comes from Egyptian king-lists copied centuries later and lined up with carbon dates from mortar samples.
 p: Nothing on the pyramid gives its date in our calendar. The workers' marks name the king, but the year in BC is worked out, not read off any stone.
 check: Does the Great Pyramid itself give its date?
-+ No, nothing on it gives a year
 - Yes, it has a plaque inside
 - A date in BC is carved over the door
++ No, nothing on it gives a year
 hint: Look at the fact box and see how the date was determined.
 explain: The pyramid does not have any markings that give a specific year. The date is worked out from other sources.
 
@@ -187,8 +187,8 @@ term: cartouche = The oval loop that surrounds a king's name.
 fact: Jean-François Champollion found his first foothold by looking for the name Ptolemy inside a cartouche.
 check: What is a cartouche?
 - The golden mask over a king's face
-+ The oval loop around a king's name
 - A prayer carved on a king's coffin
++ The oval loop around a king's name
 hint: It's the shape that encloses a king's name.
 explain: A cartouche is the oval loop that surrounds a king's name in hieroglyphs.
 
@@ -196,10 +196,10 @@ explain: A cartouche is the oval loop that surrounds a king's name in hieroglyph
 p: Making a mummy was a long job. First, the body was packed in natron salt for about forty days to dry it out.
 fact: The lungs, liver, stomach, and intestines were taken out and stored separately. The brain was removed through the nose with a hooked rod and thrown away.
 p: But there was one organ they always left inside. The heart was kept right where it was because they believed that was where a person did their thinking.
-check: Why was the heart left in the body?
+check: When the Egyptians made a mummy, why was the heart left in the body?
 - They thought it was too hard to remove
-- They thought it made the mummy look better
 + They thought a person did their thinking with it
+- They thought it made the mummy look better
 hint: Look at the last paragraph. It explains why the heart was left in.
 explain: They believed the heart was where a person did their thinking, so it had to stay inside.
 
@@ -216,9 +216,9 @@ term: cuneiform = The oldest writing we can still read, pressed into wet clay wi
 fact: Hundreds of thousands of these clay tablets have been dug up, and most have never been translated.
 try: Flatten a lump of modeling clay and press the end of a stick into it at different angles. Try to make marks you can tell apart from every other mark you've made.
 check: What does cuneiform mean?
-+ Wedge-shaped
 - Circle-shaped
 - Star-shaped
++ Wedge-shaped
 hint: Each press leaves a wedge shape, like the end of a cut reed.
 explain: Cuneiform means wedge-shaped because each press makes a wedge.
 
@@ -226,10 +226,10 @@ explain: Cuneiform means wedge-shaped because each press makes a wedge.
 p: In Nineveh, archaeologists found a king's library that had about 30,000 clay tablets and fragments.
 fact: The library belonged to King Ashurbanipal and included letters, omens, medicine, word-lists, and even a poem with a flood story.
 p: The palace burned down, but the fire did not destroy the library. Fire bakes clay harder, so the tablets survived.
-check: Why did the library survive?
+check: Why did the clay tablets of King Ashurbanipal's library survive the fire?
 - The tablets were made of metal
-- The building had a fireproof safe
 + The fire baked the clay harder
+- The building had a fireproof safe
 hint: Look at the last paragraph. It explains what happened to the clay.
 explain: Fire bakes clay harder, so the tablets in the library survived the blaze.
 
@@ -238,8 +238,8 @@ p: In the Louvre stands a finger of black stone, 7 feet 5 inches tall, with 282 
 fact: It is the Code of Hammurabi, and the laws cover farm rent, wages, surgery gone wrong, and what happens if a house falls down and kills someone. One of the oldest legal documents still readable.
 p: This black stone finger was not found in Babylon but at Susa in Iran, in 1901, because somebody had carried it off as loot.
 check: Where was the Code of Hammurabi found?
-- In the old city of Ur, under a temple
 + At Susa in Iran, carried there as loot
+- In the old city of Ur, under a temple
 - Inside a tomb near Thebes in Egypt
 hint: Look at the last paragraph. It mentions where and when it was found.
 explain: The stone was discovered at Susa in Iran in 1901 after being carried off as loot.
@@ -259,9 +259,9 @@ p: Some of the earliest wheels we know of were not on carts at all.
 fact: They are potter's wheels — flat discs spun to shape clay. Wheels for carrying things show up later, made of three planks pegged together into a solid disc.
 p: A solid wooden wheel is enormously heavy. Spoked wheels came much later and changed everything.
 check: What were some of the earliest wheels used for?
-+ Shaping clay into pots
 - Carrying heavy loads
 - Pulling wagons
++ Shaping clay into pots
 hint: The earliest wheels are potter's wheels used to shape clay.
 explain: The earliest wheels were flat discs used to shape clay on potter's wheels.
 
@@ -276,10 +276,10 @@ game: Shepherd = Threw a stone into a Dead Sea cave | Tel Dan stone = Mentions "
 --- 🏺
 p: In 1947, a young shepherd was exploring caves near the Dead Sea. He threw a stone into one of them and heard pottery break.
 fact: Inside the cave were jars filled with scrolls. One of these scrolls is a complete book of Isaiah, 24 feet long, written on 17 sheets of leather sewn together.
-check: What did the shepherd hear when the stone landed?
+check: In 1947, a shepherd threw a stone into a cave near the Dead Sea. What did he hear when the stone landed?
 - A bat flying away
-+ Pottery breaking
 - Rocks crumbling
++ Pottery breaking
 hint: Look at the fact box. It names what broke.
 explain: He heard pottery break because inside the cave were jars filled with scrolls.
 
@@ -287,8 +287,8 @@ explain: He heard pottery break because inside the cave were jars filled with sc
 p: In 1993, a broken piece of black basalt turned up in a wall at Tel Dan in northern Israel.
 fact: Cut into it, in Aramaic, is a boast by a king about defeating his enemies — and the phrase "House of David". It is the earliest mention of David found outside the Bible.
 check: What phrase is cut into the Tel Dan stone?
-+ House of David
 - King Solomon's mines
++ House of David
 - Temple of Jerusalem
 hint: The fact box mentions the exact phrase.
 explain: The stone boasts in Aramaic about defeating enemies and includes the phrase "House of David".
@@ -297,7 +297,7 @@ explain: The stone boasts in Aramaic about defeating enemies and includes the ph
 p: Under Jerusalem, there is a tunnel 1,750 feet long, cut through solid rock, that still carries water.
 fact: Two teams dug it from opposite ends to bring a spring inside the city walls before a siege. The pick marks change direction where they met in the middle.
 try: Measure out 1,750 feet on a map of your own street. That is how far two teams cut through rock, in the dark, and still met.
-check: How did the two teams of diggers meet?
+check: How did the two teams of diggers of the tunnel under Jerusalem meet?
 - They started in the middle and dug toward both ends
 - One team dug while the other hauled away the rock
 + They cut from opposite ends and met in the middle
@@ -308,9 +308,9 @@ explain: They dug from opposite ends and met in the middle. The pick marks show 
 p: In 1880, a boy was wading through the water tunnel under Jerusalem when he noticed something on the wall.
 term: inscription = Writing cut into a hard surface such as stone or a wall.
 fact: The writing described the last moments of the dig. Two teams called to each other as they cut from opposite ends, and then their pick-axes broke through.
-check: Who found the inscription in the tunnel?
-+ A boy wading in the tunnel
+check: Who found the inscription in the tunnel under Jerusalem?
 - An archaeologist with a flashlight
++ A boy wading in the tunnel
 - A tourist exploring the city
 hint: The fact box tells you who noticed the writing.
 explain: A boy was wading in the tunnel and spotted the writing on the wall.
@@ -331,8 +331,8 @@ p: Imagine a barrel of clay about 9 inches long, covered in ancient writing.
 fact: Dug up at Babylon in 1879, the Cyrus Cylinder tells us King Cyrus sent captured peoples back to their homes and let them rebuild their temples.
 p: This is the same policy described in the book of Ezra, but from a different perspective. The cylinder shows that Cyrus really did follow this practice.
 check: What does the Cyrus Cylinder say Cyrus let captive peoples do?
-- Stay in Babylon and work for the king
 + Go home and rebuild their temples
+- Stay in Babylon and work for the king
 - Build new palaces for themselves
 hint: Look at the fact box. It tells you what King Cyrus allowed.
 explain: The cylinder says that King Cyrus sent the captured peoples back to their homes and allowed them to rebuild their temples.
@@ -361,8 +361,8 @@ p: In 1901, sponge divers found a corroded green lump off Antikythera. Inside we
 fact: X-rays and scans have read the inscriptions inside it. It tracked the sun and moon and predicted eclipses. Nothing else of that complexity survives from anywhere near its time.
 check: What did the Antikythera gears track?
 - The ocean tides and sea winds
-- The sailing days and sea storms
 + The sun and moon, and eclipses
+- The sailing days and sea storms
 hint: Look at the fact box. It tells you what it tracked.
 explain: The inscriptions show that it tracked the sun and moon, and predicted eclipses.
 
@@ -372,8 +372,8 @@ fact: He also invented a screw inside a tube that lifts water uphill when you tu
 try: Balance a ruler on a pencil with a book on one end. Move the pencil closer to the book and press the other end. Notice how much less effort it takes the further away you push.
 check: What does Archimedes' screw do?
 - It grinds grain into flour
-+ It lifts water uphill
 - It drills holes in wood
++ It lifts water uphill
 hint: Look at the second sentence on this page. It tells you what the screw does.
 explain: The screw inside a tube lifts water uphill when you turn it.
 
@@ -382,8 +382,8 @@ p: The Greeks got their letters from the Phoenicians, but they added something n
 term: alphabet = The set of letters that make up a writing system. It comes from the first two Greek letters, alpha and beta.
 fact: The Greeks added vowels to the Phoenician letters. Our A, B, and E are those same letters, handed down through the Romans.
 check: What did the Greeks add to the Phoenician letters?
-+ Vowels
 - Numbers
++ Vowels
 - Pictures
 hint: Look at the second sentence on this page. It tells you what the Greeks added.
 explain: The Greeks added vowels, which the Phoenicians never wrote down.
@@ -393,8 +393,8 @@ p: The Greeks kept careful lists of who won at the Olympic Games.
 fact: The prize was a wreath made of wild olive branches. There was no second place recorded.
 p: These winner-lists were useful for more than just sports. Greek writers dated other events by counting the number of games that had passed, giving historians a way to measure time.
 check: What was the prize at the Olympic Games?
-- A sack of silver coins
 + A wreath of wild olive
+- A sack of silver coins
 - A bronze shield and sword
 hint: Look at the first fact box on this page. It tells you what the prize was.
 explain: The prize was a wreath made from wild olive branches.
@@ -403,7 +403,7 @@ explain: The prize was a wreath made from wild olive branches.
 p: You may have heard a story about a runner carrying news from Marathon to Athens and then dying. That version came much later.
 fact(Worked out, not seen directly): Herodotus wrote closest to the event, and he describes a runner going to Sparta for help instead, which was a much longer run.
 p: The dying-messenger story turns up centuries later. It might be true, but it’s important to know what the earliest account actually says.
-check: Who wrote closest to the event?
+check: Who wrote closest to the time of the battle of Marathon?
 - Thucydides
 - Plato
 + Herodotus
@@ -422,8 +422,8 @@ game: Roman concrete = Gets stronger with seawater | Pantheon dome = Largest unr
 p: Have you ever wondered why some old buildings are still standing strong after all these years? Roman concrete harbors are a perfect example. They are still standing in seawater, where modern concrete often wears out within a few decades.
 fact: The Romans mixed volcanic ash into their concrete. Seawater reacts with the ash and grows new crystals inside the concrete, making it stronger instead of letting it crumble.
 check: What did the Romans mix into their concrete?
-- Iron filings
 + Volcanic ash
+- Iron filings
 - Crushed glass
 hint: Look at the fact box. It tells you what they mixed in.
 explain: The volcanic ash reacts with seawater to grow new crystals inside the concrete, making it stronger over time.
@@ -433,8 +433,8 @@ p: The Pantheon in Rome has a huge concrete dome that is 142 feet across.
 fact: At the very top of the dome is a 27-foot hole open to the sky. There is no steel in the dome, and it is still the largest unreinforced concrete dome in the world.
 term: unreinforced = A structure made without any metal supports inside.
 check: What is at the top of the Pantheon's dome?
-+ A 27-foot hole open to the sky
 - A bronze statue of a Roman god
++ A 27-foot hole open to the sky
 - A circle of colored glass windows
 hint: Look at the fact box. It tells you what is at the top.
 explain: The dome has a 27-foot hole in the middle, and rain still comes through it.
@@ -444,9 +444,9 @@ p: The aqueduct that brought water to Nîmes runs about 31 miles.
 fact: It drops only about 55 feet over that whole distance, which is a slope of roughly one inch in every 250 feet.
 p: They surveyed it with water levels and sighting rods. Too steep and the water tears the channel apart; too flat and it stops.
 check: How steep is the Nîmes aqueduct?
-+ About one inch in every 250 feet
 - About one foot in every 100 feet
 - About one inch in every 10 feet
++ About one inch in every 250 feet
 hint: Look at the fact box. It gives you the exact slope.
 explain: The aqueduct drops only about 55 feet over 31 miles, so it is about one inch in every 250 feet.
 
@@ -454,17 +454,17 @@ explain: The aqueduct drops only about 55 feet over 31 miles, so it is about one
 p: When Vesuvius buried Pompeii, bodies left holes in the hardened ash as they decayed.
 fact: In 1863 an excavator started pouring plaster into those holes before digging them out. What comes out is the shape of a person in their last moment.
 p: Pliny the Younger watched the eruption from across the bay as a teenager and wrote two letters describing it. His account fits the ash layers closely.
-check: How were the body shapes made?
+check: How were the body shapes found at Pompeii made?
++ Plaster poured into the holes the bodies left in the ash
 - Stone carved by artists who copied the people they saw
 - Wax pressed over each body as soon as it was found
-+ Plaster poured into the holes the bodies left in the ash
 hint: Look at the second sentence. It explains how the shapes were made.
 explain: The excavator poured plaster into the holes, and what came out was the shape of a person.
 
 --- 🏟️
 p: The Colosseum in ancient Rome held about 50,000 people and had 80 entrances.
 fact: Spectators were given numbered tokens telling them which arch to use and where to sit. The numbers are still carved above the arches today.
-check: What told spectators which arch to use?
+check: What told spectators in the Colosseum which arch to use?
 - Color-coded signs
 - Shapes carved into the seats
 + Numbered tokens
@@ -486,7 +486,7 @@ explain: Short blunt words like "house" are usually older English.
 p: Concrete that gets stronger in seawater. A dome with a hole in the top. A water channel that drops one inch in 250 feet. Plaster shapes of people, and numbered tokens for 50,000 seats.
 p: All of it, still here from Rome.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === ancient-patriarchs
 idea: The written account follows Abram, who left his country, and the family that came from him.
 
@@ -495,13 +495,13 @@ game: Abram = Told to leave his country | Canaan = Where Abram lived | Lot = Mov
 --- 🐪
 p: The written account says Yahweh told Abram to leave his country and his father's house.
 
-fact: Abram was to go to a land that Yahweh would show him. Yahweh promised to make of him a great nation.
+fact(The promise): Abram was to go to a land that Yahweh would show him. Yahweh promised to make of Abram a great nation.
 
 check: What did Yahweh tell Abram to leave?
 - His small flock
-+ His country
 - His old tent
-hint: Look at the paragraph. The answer is there.
++ His country
+hint: Look at the paragraph. It says what Abram was told to leave.
 explain: The written account says Yahweh told Abram to leave his country and his father's house.
 
 --- 🧑
@@ -509,48 +509,62 @@ p: The written account says Abram was very rich.
 
 term: livestock = Animals kept on a farm. Abram had livestock, silver and gold.
 
-fact: He had livestock, silver and gold.
+fact(What he had): Abram had livestock, silver and gold.
 
 check: What was Abram rich in?
-- Boats, wheat and cloth
 + Livestock, silver and gold
+- Boats, wheat and cloth
 - Houses, wagons and tools
-hint: Look at the box. The answer is there.
-explain: He had livestock, silver and gold.
+hint: Look at the box. It lists what Abram had.
+explain: Abram had livestock, silver and gold.
 
 --- 🧭
 p: Abram lived in the land of Canaan, and Lot lived in the cities of the plain.
 
-fact: Lot moved his tent as far as Sodom.
+fact(Lot's tent): Lot moved his tent as far as Sodom.
 
 check: Where did Abram live?
 - The cities of the plain
 + The land of Canaan
 - The city of Sodom
-hint: Look at the paragraph. The answer is there.
-explain: Abram lived in the land of Canaan, and Lot lived in the cities of the plain.
+hint: Look at the paragraph. It says where Abram lived.
+explain: Abram lived in the land of Canaan.
 
 --- 🗺️
-p: Abraham split the wood for the offering and went to the place God had told him about.
+p: Abraham split wood for an offering and went to a place that God had told him about.
 
-fact: On the third day, he looked up and saw the place far off.
+fact(The third day): On the third day, Abraham looked up and saw the place far off.
 
 check: On which day did Abraham see the place far off?
 - The first day
-+ The third day
 - The seventh day
-hint: Look at the paragraph. The answer is there.
-explain: On the third day, he looked up and saw the place far off.
++ The third day
+hint: Look at the box. It says which day it was.
+explain: On the third day, Abraham looked up and saw the place far off.
 
 --- 👤
 p: God said that all the nations of the earth would be blessed through Abraham's offspring.
 
-fact: Then Abraham returned to his young men, and they went together to Beersheba.
+fact(Going home): Then Abraham returned to his young men, and they went together to Beersheba.
+
+check: Where did Abraham go together with his young men?
++ To Beersheba
+- To Sodom
+- To Jerusalem
+hint: Look at the box. It names the place.
+explain: Abraham returned to his young men, and they went together to Beersheba.
 
 --- 👑
 p: The written account says Joseph was seventeen years old when he was feeding the flock with his brothers.
 
-fact: Their father Israel loved Joseph more than all his children and made him a coat of many colors.
+fact(A coat): Their father Israel loved Joseph more than all his children and made him a coat of many colors.
+
+check: What did Israel make for his son Joseph?
+- A tent of many poles
++ A coat of many colors
+- A staff of gold
+hint: Look at the box. It says what Israel made for Joseph.
+explain: Israel loved Joseph more than all his children and made him a coat of many colors.
 
 --- 🔎
 p: Abram and a land to go to. A rich man with livestock, silver and gold. Lot and Sodom. The third day. Joseph and a coat.
@@ -558,30 +572,30 @@ p: Abram and a land to go to. A rich man with livestock, silver and gold. Lot an
 p: The written account goes on.
 
 quiz: Who did Yahweh tell to leave his country and his father's house?
-- Lot
 + Abram
+- Lot
 - Joseph
 explain: The written account says Yahweh told Abram to leave his country and his father's house.
 
-quiz: What did Israel make for Joseph?
-- A tent of many poles
-+ A coat of many colors
-- A staff of gold
-explain: Their father Israel loved Joseph more than all his children and made him a coat of many colors.
-
 quiz: How old was Joseph when he was feeding the flock with his brothers?
 - Seven years old
-+ Seventeen years old
 - Seventy years old
++ Seventeen years old
 explain: The written account says Joseph was seventeen years old when he was feeding the flock with his brothers.
 
-quiz: Where did Abraham go together with his young men?
-- To Sodom
-+ To Beersheba
-- To Jerusalem
-explain: Then Abraham returned to his young men, and they went together to Beersheba.
+quiz: What did Abraham split for the offering?
+- The stones
++ The wood
+- The bread
+explain: Abraham split the wood for the offering.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: Who moved his tent as far as Sodom?
+- Abram
+- Israel
++ Lot
+explain: Lot moved his tent as far as Sodom.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === ancient-exodus
 idea: The written account tells how Israel left Egypt: a lamb, a meal eaten in haste, a dry path through the sea and food called manna.
 
@@ -590,93 +604,107 @@ game: Moses = Stretched out his hand over the sea | Lamb = A male a year old | P
 --- 🔥
 p: The written account says Yahweh spoke to Moses and Aaron in Egypt.
 
-fact: He said this month would be the first month of the year to them.
+fact(A new year): Yahweh said this month would be the first month of the year to them.
 
 check: Who did Yahweh speak to in the land of Egypt?
-- Abram and Lot
 + Moses and Aaron
+- Abram and Lot
 - Joseph and Israel
-hint: Look at the paragraph. The answer is there.
-explain: The written account says Yahweh spoke to Moses and Aaron in Egypt.
+hint: Look at the paragraph. It names who Yahweh spoke to.
+explain: Yahweh spoke to Moses and Aaron in Egypt.
 
 --- 🏠
 p: Each family's lamb had to be without defect, a male a year old.
 
-fact: They kept it until the fourteenth day of the month.
+fact(How long): The families kept the lamb until the fourteenth day of the month.
 
-check: How old was the lamb to be?
+check: How old was each family's lamb to be?
 - A day old
 + A year old
 - Ten years old
-hint: Look at the paragraph. The answer is there.
-explain: Each family's lamb had to be without defect, a male a year old.
+hint: Look at the paragraph. It gives the age.
+explain: Each family's lamb had to be a male a year old.
 
 --- 🍞
 p: Israel took blood from each family's lamb.
 
 term: lintel = The beam across the top of the door posts.
 
-fact: Israel was told to put some of the lamb's blood on the two door posts and the lintel of their houses.
+fact(Where): Israel was told to put some of the lamb's blood on the two door posts and the lintel of their houses.
 
-check: Where was the blood to be put?
+check: Where was the lamb's blood to be put?
 - Over the roof and the walls of the house
-+ On the two door posts and the lintel
 - Under the bed and the floor of the tent
-hint: Look at the box. The answer is there.
++ On the two door posts and the lintel
+hint: Look at the box. It says where the blood went.
 explain: Israel was told to put some of the lamb's blood on the two door posts and the lintel of their houses.
 
 --- 🧺
 p: Israel was to eat the Passover meal ready to go.
 
-fact: They wore belts on their waists and shoes on their feet, with a staff in the hand. They ate it in haste.
+fact(What they wore): They wore belts on their waists and shoes on their feet, with a staff in the hand. They ate it in haste.
 
-check: What were they to have in their hand when they ate?
-- A basket
+check: What were they to have in their hand when they ate the Passover meal?
 + A staff
+- A basket
 - A torch
-hint: Look at the box. The answer is there.
-explain: They wore belts on their waists and shoes on their feet, with a staff in the hand.
+hint: Look at the box. It says what was in their hand.
+explain: They wore belts and shoes, with a staff in the hand.
 
 --- 🧭
-p: Moses stretched out his hand over the sea.
+p: Yahweh caused the sea to go back by a strong east wind all night.
 
-fact: Yahweh caused the sea to go back by a strong east wind all night. The waters were divided, and the sea became dry land.
+fact(Moses and the sea): Moses stretched out his hand over the sea. The waters were divided, and the sea became dry land.
+
+check: What did Yahweh cause to go back by a strong east wind all night?
+- The river
+- The cloud
++ The sea
+hint: Look at the paragraph. It says what went back.
+explain: Yahweh caused the sea to go back by a strong east wind all night.
 
 --- 🍽️
 p: The people called the food manna.
 
-fact: It was white like coriander seed, and it tasted like wafers with honey. They ate it for forty years, until they came to the borders of Canaan.
+fact(Its taste): Manna was white like coriander seed, and it tasted like wafers with honey. The people ate it for forty years, until they came to the borders of Canaan.
+
+check: What color was manna?
+- Bright red
++ White
+- Deep blue
+hint: Look at the box. It says what color manna was.
+explain: Manna was white like coriander seed.
 
 --- 🔎
 p: Moses and Aaron. A lamb a year old. Blood on the door posts. A meal in haste. A sea turned to dry land. Manna to eat.
 
 p: Israel was led out.
 
-quiz: How long did the people eat manna?
+quiz: For how long did the people eat manna?
 - For four days
-+ For forty years
 - For one week
-explain: They ate it for forty years, until they came to the borders of Canaan.
++ For forty years
+explain: The people ate manna for forty years, until they came to the borders of Canaan.
 
-quiz: What color was manna?
-- Red
-+ White
-- Blue
-explain: It was white like coriander seed, and it tasted like wafers with honey.
+quiz: What did manna taste like?
++ Wafers with honey
+- Salty fish
+- Sour fruit
+explain: Manna tasted like wafers with honey.
 
-quiz: What did Yahweh cause to go back by a strong east wind?
-- The river
-+ The sea
-- The cloud
-explain: Yahweh caused the sea to go back by a strong east wind all night.
+quiz: What did Moses stretch out over the sea?
+- A rope
++ His hand
+- A wool blanket
+explain: Moses stretched out his hand over the sea.
 
 quiz: Until which day of the month did each family keep its lamb?
-- The fourth day
 + The fourteenth day
+- The fourth day
 - The fortieth day
-explain: They kept it until the fourteenth day of the month.
+explain: The families kept the lamb until the fourteenth day of the month.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === ancient-kings
 idea: A very tall champion, a shepherd with five smooth stones, and a king who built a house for Yahweh.
 
@@ -687,60 +715,74 @@ p: Goliath of Gath, the Philistine champion, was six cubits and a span tall.
 
 term: cubit = A length measure. Goliath was six cubits and a span tall.
 
-fact: He wore a brass helmet and a coat of mail that weighed five thousand shekels.
+fact(His armor): Goliath wore a brass helmet and a coat of mail that weighed five thousand shekels.
 
 check: Who was the Philistine champion from Gath?
 - Jonathan
-+ Goliath
 - Samson
-hint: Look at the paragraph. The answer is there.
-explain: Goliath of Gath, the Philistine champion, was six cubits and a span tall.
++ Goliath
+hint: Look at the paragraph. It names the champion.
+explain: Goliath of Gath was the Philistine champion.
 
 --- 🧑
 p: David took his staff in his hand and chose five smooth stones out of the brook.
 
-fact: He put them in the pouch of his shepherd's bag.
+fact(In his bag): David put the stones in the pouch of his shepherd's bag.
 
-check: How many smooth stones did David choose?
-- Ten
+check: How many smooth stones did David choose out of the brook?
 + Five
+- Ten
 - Three
-hint: Look at the paragraph. The answer is there.
-explain: David took his staff in his hand and chose five smooth stones out of the brook.
+hint: Look at the paragraph. It gives the number of stones.
+explain: David chose five smooth stones out of the brook.
 
 --- 📏
 p: The house that King Solomon built for Yahweh was sixty cubits long.
 
-fact: It was twenty cubits wide and thirty cubits high.
+fact(The rest): The house was twenty cubits wide and thirty cubits high.
 
-check: How many cubits long was the house King Solomon built?
+check: How many cubits long was the house that King Solomon built for Yahweh?
 - Twenty cubits
 + Sixty cubits
 - Thirty cubits
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives how long the house was.
 explain: The house that King Solomon built for Yahweh was sixty cubits long.
 
 --- 🏗️
 p: King Solomon spent seven years building the house of Yahweh.
 
-fact: In the end it was finished throughout all its parts, just as planned.
+fact(Finished): In the end the house was finished throughout all its parts, just as planned.
 
-check: How many years did Solomon spend building the house?
-- Three years
+check: How many years did Solomon spend building the house of Yahweh?
 + Seven years
+- Three years
 - Twelve years
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the number of years.
 explain: King Solomon spent seven years building the house of Yahweh.
 
 --- 👤
 p: The queen of Sheba heard about Solomon's fame and came to test him with hard questions.
 
-fact: She came to Jerusalem with a very great caravan, with camels carrying spices, a lot of gold and precious stones.
+fact(Her caravan): She came to Jerusalem with a very great caravan, with camels carrying spices, a lot of gold and precious stones.
+
+check: Who came to Jerusalem with a very great caravan to test Solomon?
+- The king of Tarshish
+- The priest of Gath
++ The queen of Sheba
+hint: Look at the paragraph. It names who came to test him.
+explain: The queen of Sheba heard about Solomon's fame and came to test him with hard questions.
 
 --- 🧭
 p: Once every three years the fleet of Tarshish came to King Solomon.
 
-fact: It brought gold, silver, ivory, apes and peacocks.
+fact(What it brought): The fleet brought gold, silver, ivory, apes and peacocks.
+
+check: What animals did the fleet of Tarshish bring to King Solomon?
+- Lions and bears
++ Apes and peacocks
+- Camels and goats
+hint: Look at the box. It lists what the fleet brought.
+explain: The fleet of Tarshish brought gold, silver, ivory, apes and peacocks.
 
 --- 🔎
 p: A tall champion. Five smooth stones. A house for Yahweh. A queen with a caravan. A fleet with gold and ivory.
@@ -749,29 +791,29 @@ p: Kings and champions.
 
 quiz: What did David put his five stones in?
 - The helmet of a Philistine soldier
-+ The pouch of his shepherd's bag
 - The coat of a mighty king
-explain: He put them in the pouch of his shepherd's bag.
-
-quiz: Who came to Jerusalem with a very great caravan to test Solomon?
-- The king of Tarshish
-+ The queen of Sheba
-- The priest of Gath
-explain: The queen of Sheba heard about Solomon's fame and came to test him with hard questions.
++ The pouch of his shepherd's bag
+explain: David put the stones in the pouch of his shepherd's bag.
 
 quiz: How often did the fleet of Tarshish come to King Solomon?
-- Every single morning
 + Once every three years
+- Every single morning
 - Just one time ever
 explain: Once every three years the fleet of Tarshish came to King Solomon.
 
-quiz: What animals did the fleet of Tarshish bring?
-- Lions and bears
-+ Apes and peacocks
-- Camels and goats
-explain: It brought gold, silver, ivory, apes and peacocks.
+quiz: How tall was Goliath of Gath?
+- Three cubits
++ Six cubits and a span
+- One span
+explain: Goliath of Gath was six cubits and a span tall.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: What did King Solomon build for Yahweh?
++ A house
+- A bridge
+- A stone wall
+explain: King Solomon built a house for Yahweh.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === ancient-babylon
 idea: Babylon was a very big ancient city with a great gate, a road lined with lions, and famous hanging gardens.
 
@@ -782,60 +824,74 @@ p: Babylon was an ancient city on the Euphrates river in Mesopotamia.
 
 term: ruins = What is left of Babylon, an ancient city in Iraq.
 
-fact: Its ruins are in Iraq, about 53 mi (85 km) south of Baghdad.
+fact(Today): The ruins of Babylon are in Iraq, about 53 mi (85 km) south of Baghdad.
 
 check: On which river was Babylon?
 - The Mississippi
 + The Euphrates
 - The Jordan
-hint: Look at the paragraph. The answer is there.
-explain: Babylon was an ancient city on the Euphrates river in Mesopotamia.
+hint: Look at the paragraph. It names the river.
+explain: Babylon was an ancient city on the Euphrates river.
 
 --- 📏
 p: Babylon may have been the first city with more than 200,000 people.
 
-fact: It covered an area of about 3.5 sq mi (900 ha).
+fact(Its size): Babylon covered an area of about 3.5 sq mi (900 ha).
 
 check: How many people may have lived in Babylon?
 - Fewer than 2,000
-+ More than 200,000
 - About 20
-hint: Look at the paragraph. The answer is there.
++ More than 200,000
+hint: Look at the paragraph. It gives the number of people.
 explain: Babylon may have been the first city with more than 200,000 people.
 
 --- 📐
 p: The Ishtar Gate was 49 ft (15 m) high.
 
-fact: Its foundations went another 46 ft (14 m) underground.
+fact(Underground): The gate's foundations went another 46 ft (14 m) underground.
 
 check: How high was the Ishtar Gate?
-- 29 ft (9 m)
 + 49 ft (15 m)
+- 29 ft (9 m)
 - 94 ft (29 m)
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the height.
 explain: The Ishtar Gate was 49 ft (15 m) high.
 
 --- 🏺
 p: The Processional Way ran through the Ishtar Gate.
 
-fact: Its walls showed about 120 lions, bulls, dragons and flowers on yellow and black glazed bricks.
+fact(Its walls): The walls of the Processional Way showed about 120 lions, bulls, dragons and flowers on yellow and black glazed bricks.
 
 check: What was the road through the Ishtar Gate called?
 - The Royal Highway
-+ The Processional Way
 - The Golden Bridge
-hint: Look at the paragraph. The answer is there.
++ The Processional Way
+hint: Look at the paragraph. It names the road.
 explain: The Processional Way ran through the Ishtar Gate.
 
 --- 🏗️
 p: The Hanging Gardens of Babylon were one of the Seven Wonders of the Ancient World.
 
-fact: They were described as rising tiers of gardens with many trees, shrubs and vines, like a large green mountain.
+fact(How they looked): The gardens were described as rising tiers of gardens with many trees, shrubs and vines, like a large green mountain.
+
+check: How many wonders are on the famous list of Wonders of the Ancient World?
+- Three
++ Seven
+- Ten
+hint: Look at the paragraph. It gives the number of wonders.
+explain: The Hanging Gardens of Babylon were one of the Seven Wonders of the Ancient World.
 
 --- 🧑
 p: The written account says Daniel was taken up out of the den of lions.
 
-fact: No kind of harm was found on him, because he had trusted in his God.
+fact(Unharmed): No kind of harm was found on Daniel, because he had trusted in his God.
+
+check: What was found on Daniel when he was taken up out of the den of lions?
++ No harm
+- A deep wound
+- A heavy chain
+hint: Look at the box. It says what was found on Daniel.
+explain: No kind of harm was found on Daniel, because he had trusted in his God.
 
 --- 🔎
 p: A city on the Euphrates. Ruins in Iraq. A gate and a Processional Way. Gardens like a green mountain. Daniel and the lions.
@@ -846,27 +902,27 @@ quiz: Which country are the ruins of Babylon in?
 - Egypt
 + Iraq
 - Italy
-explain: Its ruins are in Iraq, about 53 mi (85 km) south of Baghdad.
+explain: The ruins of Babylon are in Iraq, about 53 mi (85 km) south of Baghdad.
 
-quiz: How many Wonders of the Ancient World are there?
-- Three
-+ Seven
-- Ten
-explain: The Hanging Gardens of Babylon were one of the Seven Wonders of the Ancient World.
+quiz: Which gate had a road called the Processional Way running through it?
+- The Golden Gate
+- The Lion Gate
++ The Ishtar Gate
+explain: The Processional Way ran through the Ishtar Gate.
 
-quiz: What was found on Daniel when he was taken up out of the den of lions?
-- A deep wound
-+ No harm
-- A heavy chain
-explain: No kind of harm was found on him, because he had trusted in his God.
+quiz: What did the walls of the Processional Way show?
++ Lions, bulls, dragons and flowers
+- Ships, wagons and horses
+- Kings, queens and soldiers
+explain: The walls showed about 120 lions, bulls, dragons and flowers.
 
-quiz: About how many lions, bulls, dragons and flowers did the walls show?
-- About 12
-+ About 120
-- About 1,200
-explain: Its walls showed about 120 lions, bulls, dragons and flowers on yellow and black glazed bricks.
+quiz: What did the Hanging Gardens look like, like a large what?
+- Stone tower
++ Green mountain
+- Blue lake
+explain: The gardens were described as like a large green mountain.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === ancient-persia
 idea: The Persian empire was the largest of its time, and its Royal Road let couriers cross it in nine days.
 
@@ -875,93 +931,107 @@ game: Persia = Largest empire of its time | Darius = Empire stretched from South
 --- 🏹
 p: At its peak, the Persian empire covered about 2.1 million sq mi (5.5 million square kilometers).
 
-fact: It was the largest empire of its time.
+fact(The largest): The Persian empire was the largest empire of its time.
 
 check: What was the area of the Persian empire at its peak?
 - 21,000 sq mi
-+ 2.1 million sq mi
 - Just 2,100 square miles
-hint: Look at the paragraph. The answer is there.
-explain: At its peak, the Persian empire covered about 2.1 million sq mi (5.5 million square kilometers).
++ 2.1 million sq mi
+hint: Look at the paragraph. It gives the area.
+explain: At its peak, the Persian empire covered about 2.1 million sq mi.
 
 --- 📏
 p: Darius the Great was a king of the Persian empire.
 
-fact: Under him, the empire stretched from Southeast Europe and Northeast Africa in the west to the Indus Valley in the east.
+fact(How far): Under Darius the Great, the empire stretched from Southeast Europe and Northeast Africa in the west to the Indus Valley in the east.
 
 check: Under which king did the empire stretch from Southeast Europe to the Indus Valley?
 - Alexander the Great
 + Darius the Great
 - Peter the Great
-hint: Look at the paragraph. The answer is there.
-explain: Darius the Great was a king of the Persian empire.
+hint: Look at the paragraph. It names the king.
+explain: Under Darius the Great, the empire stretched from Southeast Europe and Northeast Africa to the Indus Valley.
 
 --- 🧑
 p: Cyrus is honored in Judaism for freeing the Jewish people from captivity in Babylon.
 
 term: captivity = Being held as a prisoner, like the Jewish people in Babylon.
 
-fact: He did it by issuing the Edict of Restoration.
+fact(How he did it): Cyrus freed them by issuing the Edict of Restoration.
 
 check: What did Cyrus do for the Jewish people?
-- Taught them to read and write
 + Freed them from captivity in Babylon
+- Taught them to read and write
 - Gave them a new king to follow
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It says what Cyrus did.
 explain: Cyrus is honored in Judaism for freeing the Jewish people from captivity in Babylon.
 
 --- 👤
 p: According to the Book of Isaiah, Yahweh anointed Cyrus for this task and called him a messiah.
 
-fact: Cyrus is the only non-Jewish person honored in this way.
+fact(Honored): Cyrus is the only non-Jewish person honored in this way.
 
 check: Which book says Yahweh anointed Cyrus?
 - A letter from Darius
 + The Book of Isaiah
 - A song by King David
-hint: Look at the paragraph. The answer is there.
-explain: According to the Book of Isaiah, Yahweh anointed Cyrus for this task and called him a messiah.
+hint: Look at the paragraph. It names the book.
+explain: According to the Book of Isaiah, Yahweh anointed Cyrus for this task.
 
 --- 💨
 p: Mounted couriers were supposed to travel the 1,677 miles (2,699 km) from Susa to Sardis in nine days.
 
-fact: On foot the trip took ninety days.
+fact(On foot): On foot, the same trip took ninety days.
+
+check: How many days were mounted couriers supposed to take to travel from Susa to Sardis?
+- Ninety days
+- Nineteen days
++ Nine days
+hint: Look at the paragraph. It gives the number of days.
+explain: Mounted couriers were supposed to travel from Susa to Sardis in nine days.
 
 --- 🏗️
 p: The Royal Road was built for fast communication across the western part of the empire, from Susa to Sardis.
 
-fact: It was probably perfected under Darius I.
+fact(Its builders): The Royal Road was probably perfected under Darius I.
+
+check: Between which two cities did the Royal Road run?
++ Susa and Sardis
+- Tyre and Babylon
+- Egypt and Persia
+hint: Look at the paragraph. It names the two cities.
+explain: The Royal Road ran from Susa to Sardis.
 
 --- 🔎
 p: A huge empire. Darius the Great. Cyrus and the Jewish people. Couriers on the Royal Road.
 
 p: Persia was large.
 
-quiz: How many days did mounted couriers take to travel from Susa to Sardis?
-- Ninety days
-+ Nine days
-- Nineteen days
-explain: Mounted couriers were supposed to travel from Susa to Sardis in nine days.
-
-quiz: Where did the Royal Road run from?
-- From Tyre to Babylon
-+ From Susa to Sardis
-- From Egypt to Persia
-explain: The Royal Road was built for fast communication, from Susa to Sardis.
-
 quiz: What was the Persian empire, for its time?
 - The tiniest empire
-+ The largest empire
 - A very young empire
-explain: It was the largest empire of its time.
++ The largest empire
+explain: The Persian empire was the largest empire of its time.
 
 quiz: What did Cyrus issue to free the Jewish people?
-- The Code of Laws
 + The Edict of Restoration
+- The Code of Laws
 - The Book of Wonders
-explain: He did it by issuing the Edict of Restoration.
+explain: Cyrus freed them by issuing the Edict of Restoration.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: How long did the trip from Susa to Sardis take on foot?
+- Nine days
++ Ninety days
+- Nineteen days
+explain: On foot, the same trip took ninety days.
+
+quiz: Who is the only non-Jewish person honored in this way in the Book of Isaiah?
++ Cyrus
+- Darius
+- Xerxes
+explain: Cyrus is the only non-Jewish person honored in this way.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === ancient-sea
 idea: The Phoenicians sailed and traded all over the Mediterranean, and their alphabet had one symbol for each sound.
 
@@ -970,88 +1040,102 @@ game: Phoenicians = Traded all over the Mediterranean | Tyre = One of the oldest
 --- ⛵
 p: The Phoenicians were an ancient people who lived in city-states along the eastern Mediterranean coast.
 
-fact: Most of their land was in what is now Lebanon.
+fact(Their land): Most of the Phoenicians' land was in what is now Lebanon.
 
 check: Where did the Phoenicians live?
 - Across the dry southern desert near the river
-+ Along the eastern Mediterranean coast
 - Beside the cold northern forests and the lakes
-hint: Look at the paragraph. The answer is there.
-explain: The Phoenicians were an ancient people who lived in city-states along the eastern Mediterranean coast.
++ Along the eastern Mediterranean coast
+hint: Look at the paragraph. It says where the Phoenicians lived.
+explain: The Phoenicians lived in city-states along the eastern Mediterranean coast.
 
 --- 🧭
 p: The Phoenicians traded all over the Mediterranean Sea.
 
-fact: They went from Cyprus to the Iberian Peninsula. They left thousands of inscriptions.
+fact(Far and wide): The Phoenicians went from Cyprus to the Iberian Peninsula. They left thousands of inscriptions.
 
 check: What did the Phoenicians leave behind in many places?
 - Hundreds of tall towers
 + Thousands of inscriptions
 - Millions of gold coins
-hint: Look at the box. The answer is there.
-explain: They left thousands of inscriptions.
+hint: Look at the box. It says what they left behind.
+explain: The Phoenicians left thousands of inscriptions.
 
 --- 🏡
 p: Tyre juts out from the coast of the Mediterranean Sea, about 50 mi (80 km) south of Beirut.
 
-fact: It is one of the oldest cities in the world that people have lived in without a break.
+fact(Very old): Tyre is one of the oldest cities in the world that people have lived in without a break.
 
 check: Which sea is Tyre on?
-- The Caribbean Sea
 + The Mediterranean Sea
+- The Caribbean Sea
 - The Southern Ocean
-hint: Look at the paragraph. The answer is there.
-explain: Tyre juts out from the coast of the Mediterranean Sea, about 50 mi (80 km) south of Beirut.
+hint: Look at the paragraph. It names the sea.
+explain: Tyre juts out from the coast of the Mediterranean Sea.
 
 --- ✍️
 p: The Phoenician alphabet was one of the first alphabets.
 
-fact: It was written horizontally, from right to left, and was the first to have a fixed writing direction.
+fact(Which way): The Phoenician alphabet was written horizontally, from right to left. It was the first to have a fixed writing direction.
 
 check: Which way was Phoenician written?
 - From top to bottom
 + From right to left
 - Around in a big circle
-hint: Look at the box. The answer is there.
-explain: It was written horizontally, from right to left, and was the first to have a fixed writing direction.
+hint: Look at the box. It says which way it was written.
+explain: The Phoenician alphabet was written horizontally, from right to left.
 
 --- 📖
 p: The Phoenician alphabet used one symbol for each sound.
 
-fact: That meant there were only a few dozen symbols to learn.
+fact(Easy to learn): There were only a few dozen symbols to learn.
+
+check: How many symbols did the Phoenician alphabet use for each sound?
+- Two
+- Ten
++ One
+hint: Look at the paragraph. It says how many symbols for each sound.
+explain: The Phoenician alphabet used one symbol for each sound.
 
 --- 🖋️
 p: The Phoenician alphabet used 22 letters, all of them consonants.
 
 term: consonants = Letters for sounds that are not vowel sounds.
 
-fact: It left the vowel sounds for the reader to supply.
+fact(Vowels): The alphabet left the vowel sounds for the reader to supply.
+
+check: How many letters did the Phoenician alphabet use?
++ 22
+- 2
+- 220
+hint: Look at the paragraph. It gives the number of letters.
+explain: The Phoenician alphabet used 22 letters, all of them consonants.
 
 --- 🔎
 p: A people on the eastern coast. Ships to Cyprus. Tyre on the sea. An alphabet from right to left. 22 letters.
 
 p: The sea made them traders.
 
-quiz: How many letters did the Phoenician alphabet use?
-- 2
-+ 22
-- 220
-explain: The Phoenician alphabet used 22 letters, all of them consonants.
-
-quiz: How many symbols did the Phoenician alphabet use for each sound?
-- Two
-+ One
-- Ten
-explain: The Phoenician alphabet used one symbol for each sound.
-
-quiz: Where did the Phoenicians go from Cyprus?
-- The Indus Valley
-+ The Iberian Peninsula
-- The Black Forest
-explain: They went from Cyprus to the Iberian Peninsula.
-
 quiz: Which country is where most Phoenician land was?
 - Argentina
 + Lebanon
 - Australia
-explain: Most of their land was in what is now Lebanon.
+explain: Most of the Phoenicians' land was in what is now Lebanon.
+
+quiz: Where did the Phoenicians go from Cyprus?
+- The Indus Valley
+- The Black Forest
++ The Iberian Peninsula
+explain: The Phoenicians went from Cyprus to the Iberian Peninsula.
+
+quiz: What did the Phoenician alphabet leave for the reader to supply?
++ The vowel sounds
+- The capital letters
+- The numbers
+explain: The alphabet left the vowel sounds for the reader to supply.
+
+quiz: What did the Phoenicians leave thousands of?
+- Gardens
++ Inscriptions
+- Ships
+explain: The Phoenicians left thousands of inscriptions.

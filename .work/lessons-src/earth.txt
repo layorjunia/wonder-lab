@@ -13,8 +13,8 @@ fact(How we know): Nobody has watched a plate move. But GPS receivers are bolted
 try: Draw a line on paper 4 inches long. That is about as far as the quickest plates travel in a whole year. The slowest move about one inch.
 check: What shows us that the plates are moving?
 - Cameras that film the ground all year
-- Drills that measure how hot the rock is
 + GPS receivers bolted to bedrock
+- Drills that measure how hot the rock is
 hint: Look at the How we know box. It names what is bolted to the rock.
 explain: Each receiver reports its own position, and those positions keep shifting by a few inches a year.
 
@@ -24,8 +24,8 @@ term: magnitude = The number that tells you how big an earthquake is. You may he
 fact(Big ones are rare): Across the years 2000 to 2021, the world averaged about 135 quakes of magnitude 6 a year, around 13 of magnitude 7, and roughly one of magnitude 8 or stronger.
 check: About how many magnitude 7 earthquakes happen in a typical year?
 - About 1
-+ About 13
 - About 135
++ About 13
 hint: Each step up gets rarer. Magnitude 6 is about 135 a year, and magnitude 8 is about one.
 explain: Around 13 a year. Magnitude 6 is about 135, and 8 or stronger is about one.
 
@@ -34,8 +34,8 @@ p: Here is the surprise about magnitude. The numbers do not climb like a ruler.
 fact: Every whole step up the scale means the shaking is ten times bigger, and about 32 times as much energy comes out.
 p: So a magnitude 7 is not a little worse than a 6. It would take roughly 32 sixes to add up to one seven.
 check: About how many magnitude 6 earthquakes would it take to match the energy of one magnitude 7?
-- About 10
 + About 32
+- About 10
 - About 100
 hint: One whole step up is about 32 times the energy.
 explain: About 32. That is why a single step up the scale is such a big jump.
@@ -51,8 +51,8 @@ fact: In deep water it crosses the ocean at over 500 mph, about the speed of an 
 p: A ship sitting right on top of one feels nothing unusual. The wave only piles up into something terrible when it reaches shallow water. Buoys in the deep ocean feel it slip underneath and radio a warning to the coast.
 check: A ship is floating right on top of a tsunami, far out at sea. What does the crew notice?
 - A wall of water towering over the deck
-+ Almost nothing
 - The sea draining away
++ Almost nothing
 hint: In deep water the wave lifts the surface only a few feet.
 explain: Almost nothing. The wave only piles up when it reaches shallow water.
 
@@ -60,7 +60,7 @@ explain: Almost nothing. The wave only piles up when it reaches shallow water.
 p: In 2004, a ten-year-old girl named Tilly Smith was standing on Mai Khao Beach in Thailand. The water looked wrong to her.
 fact(The warning signs): A tsunami announces itself. Sometimes the sea drains away first and leaves fish stranded. Sometimes the water comes in and in and never goes out, frothing oddly.
 p: Tilly knew those signs from a geography lesson two weeks earlier. She told her parents. Her father told a hotel security guard. The beach was cleared before the wave arrived, and Mai Khao was one of very few beaches on Phuket where nobody was killed.
-check: How did Tilly know that something was wrong with the water?
+check: In 2004, ten-year-old Tilly Smith saw that the water at a beach in Thailand looked wrong. How did she know something was wrong?
 - She had felt the ground shake beneath her feet
 + She had learned the signs in a geography lesson
 - A lifeguard on the beach warned her to run away
@@ -88,8 +88,8 @@ fact(Worked out, not dug up): Sideways S waves cannot travel through liquid, and
 p: In 1936, a Danish seismologist named Inge Lehmann noticed waves arriving where a fully liquid core should have left silence. She argued there was a solid inner core inside the liquid one. No camera and no sample, just wiggles on a chart.
 check: Why do we think Earth's outer core is liquid?
 - A drill brought up melted rock
-- A camera was lowered into the core
 + Sideways waves vanish partway down
+- A camera was lowered into the core
 hint: Nobody has been there. Think about what earthquake waves do.
 explain: S waves cannot pass through liquid, and they vanish partway down. It is worked out, not seen.
 
@@ -110,9 +110,9 @@ game: Obsidian = Glass that a volcano made | Halite = Breaks into tiny cubes | C
 p: Pick up a rock and hold it. Here is a secret about what is inside. Nearly half of it, by weight, is oxygen, the same element you are breathing right now, locked into minerals instead of floating loose.
 fact(By weight): Oxygen makes up 46 percent of Earth's crust. Silicon is another 28 percent, and aluminum is about 8. Most rock is those three joined together, with some iron mixed in.
 check: Which element makes up the biggest share of Earth's crust?
++ Oxygen
 - Iron
 - Silicon
-+ Oxygen
 hint: Look at the first number on the page. It is the same element you breathe.
 explain: Oxygen, at 46 percent. Together with silicon and aluminum, it makes up more than four fifths of everything you walk on.
 
@@ -121,9 +121,9 @@ p: Look at a polished granite countertop. All those speckles look like one speck
 fact: Each speck is a separate mineral, grown together with its neighbors. Glassy gray grains are quartz. Blocky pink or white ones are feldspar. The black flecks are mica, and they peel off in shiny sheets.
 try: Put your eye close to a granite counter, step or gravestone. You can usually pick out three or four different kinds of grain without a magnifier.
 check: What are the speckles you see in granite?
-+ Separate minerals grown together
 - Paint that was added to the stone
 - Tiny pieces of glass
++ Separate minerals grown together
 hint: Look at the page again. Quartz, feldspar and mica are all in there.
 explain: Granite is a mixture. You are looking at several minerals, each with its own look.
 
@@ -163,8 +163,8 @@ fact: A trace of chromium turns it red, and it gets called ruby. Traces of iron 
 p: Volcanoes make rocks that do surprising things. Start with glass.
 fact: Obsidian is glass that a volcano made. The lava cooled so fast that its minerals never got to line up into crystals. With no grain to follow, a flake of obsidian can come to an edge a few nanometers across. A nanometer is a billionth of a meter, and that edge is far thinner than a steel razor's. People chipped it into knives and arrowheads.
 check: Why can obsidian get such a sharp edge?
-- It is the hardest mineral there is
 + It has no crystal grain to follow
+- It is the hardest mineral there is
 - It is heated until it is soft
 hint: Look at the second sentence. It says what the minerals never got to do.
 explain: The minerals never lined up into crystals, so it breaks to an edge only a few nanometers across.
@@ -180,8 +180,8 @@ fact(Naica, Mexico): Miners at Naica in Mexico broke into a chamber packed with 
 p: The chamber sits near 136 degrees F (58 C), and the air is almost completely saturated with water. Even in cooled suits, people could only stay for a short time, well under an hour. In October 2015 the mine's pumps were switched off, and the water came back and covered the crystals again.
 check: How long could people stay inside the Naica crystal chamber, even in cooled suits?
 - A whole working day
-- Several hours
 + Well under an hour
+- Several hours
 hint: The chamber sits near 136 degrees F, and the air is full of water.
 explain: Well under an hour at a time. It was far too hot and wet to stay longer.
 
@@ -198,10 +198,10 @@ game: Magma chamber = Worked out from earthquake waves | Plinian eruption = Name
 p: Two words that mean almost the same thing, and mixing them up is a trap: magma and lava.
 term: magma = The melted rock underground.
 term: lava = The melted rock once it comes out of the volcano.
-check: What is melted rock called once it comes out of the vent?
+check: What is melted rock called once it comes out of a volcano's vent?
++ Lava
 - Magma
 - Rock
-+ Lava
 hint: It changes its name when it leaves the ground.
 explain: Once the melted rock is out, it is called lava.
 
@@ -221,8 +221,8 @@ p: Films often get it wrong. Most lava flows creep along slower than you walk, a
 fact: The real killer is the pyroclastic flow: a ground-hugging cloud of hot ash and gas that comes down the slope faster than 50 mph (80 km/h).
 p: That is what reached Pompeii and Herculaneum. Volcanologists worry less about where the lava is going and more about whether the eruption column is about to collapse.
 check: Which volcano hazard is the real killer?
-+ The pyroclastic flow
 - The glowing lava river
++ The pyroclastic flow
 - The small earthquakes before the eruption
 hint: Look at the fact box for a description of the killer.
 explain: The pyroclastic flow moves faster than 50 mph and can devastate everything in its path.
@@ -242,10 +242,10 @@ p: Most lava is made of the same minerals as ordinary rock. Ol Doinyo Lengai's l
 p: The eruption that buried Pompeii in AD 79 had an eyewitness. Pliny the Younger watched it from across the bay.
 term: Plinian = A type of eruption with a tall column punching straight up into the sky, named after Pliny the Younger's description.
 fact: Pliny the Younger wrote two letters to historian Tacitus describing a cloud shaped like an umbrella pine. It had a tall trunk with branches spreading at the top.
-check: What did Pliny say the cloud looked like?
+check: What did Pliny say the cloud over the erupting volcano looked like?
++ An umbrella pine
 - A tall wall of water
 - A volcanic cone
-+ An umbrella pine
 hint: His description mentions a tall trunk with branches spreading at the top.
 explain: Pliny described the cloud as looking like an umbrella pine.
 
@@ -258,10 +258,10 @@ p: It went out to the far side of the world and back, out and back, until it fad
 --- 🥶
 p: Tambora in Indonesia erupted in April 1815 and blew about 4,200 feet off its own summit.
 fact: The next year, farmers in New England wrote down frost in every single month and a snowstorm in June. They called 1816 the year without a summer, and also Eighteen Hundred and Froze to Death.
-check: What did people call 1816?
+check: What did people call the year 1816, after a huge volcano erupted?
 - The year of the great flood
-+ The year without a summer
 - The year of endless sunshine
++ The year without a summer
 hint: People wrote down frost in every month that year.
 explain: They called it the year without a summer because there was frost in every single month and even snow in June.
 
@@ -274,8 +274,8 @@ p: About 160 of those volcanoes sit in the United States and its territories. Th
 p: Here is the puzzle: nobody has ever looked into a magma chamber.
 fact(Worked out, not seen): Their size and depth are worked out from how earthquake waves slow down when passing through melted rock and from the ground swelling by a few inches before an eruption.
 check: How do we know about magma chambers?
-+ Worked out from earthquake waves slowing and swelling ground
 - By drilling down and sending a camera into each chamber
++ Worked out from earthquake waves slowing and swelling ground
 - By melting a piece of cooled lava and timing how it hardens
 hint: Look at the fact box. It tells you what scientists measure.
 explain: Earthquake waves slow down in melted rock, and the ground swells before an eruption. These clues help scientists work out the details.
@@ -304,9 +304,9 @@ p: So what about that boom that follows lightning? Thunder is the sound of air s
 fact: Light gets to you almost instantly, but sound crawls at about one mile every five seconds. Count from the flash to the bang, divide by five, and that tells you roughly how many miles off the strike was.
 try: The next time there's a storm, count one-Mississippi, two-Mississippi from the flash until the thunder arrives. Divide by five for miles.
 check: You count ten seconds from the flash to the bang. How far away is the strike?
-+ About two miles
 - About one mile
 - About five miles
++ About two miles
 hint: Look at the fact box. It tells you how to work it out.
 explain: Counting ten seconds means the lightning strike was about two miles away.
 
@@ -324,10 +324,10 @@ p: By the time it was measured, it had shrunk a little from sitting in a home fr
 p: Cut a big hailstone open and you find layers, like an onion.
 fact(Worked out): The old idea was that each layer is one trip up and down inside the storm. That is only a guess. Nobody can follow a hailstone around inside a thundercloud.
 p: The layers form as the stone drifts through patches of different temperature and wetness. Clear layers mean water landed on the stone faster than it could freeze, so the water spread out and the air bubbles escaped. Cloudy white layers mean it froze on contact and trapped the bubbles.
-check: Why can we not say exactly how a hailstone grew?
+check: Why can scientists not say exactly how a hailstone grew?
++ Nobody can follow one around inside a thundercloud
 - Scientists have never found a hailstone that has layers
 - Hailstones are made on the ground, not in the clouds
-+ Nobody can follow one around inside a thundercloud
 hint: Look at the Worked out box. It says nobody can follow a hailstone inside a thundercloud.
 explain: Nobody can follow a hailstone around inside a thundercloud, so we cannot track its exact path and growth.
 
@@ -342,8 +342,8 @@ term: crystal = A solid made up of molecules that lock into a repeating pattern.
 fact: When water freezes, its molecules lock into a repeating six-sided pattern. The snow crystal grows outward on this frame, so it ends up with six sides.
 check: Why do snow crystals have six sides?
 - Because the wind carves every flake into six sharp points.
-+ Because ice molecules lock into a six-sided pattern.
 - Because every snowflake grows from six drops of water.
++ Because ice molecules lock into a six-sided pattern.
 hint: The fact box tells you why the molecules form a six-sided pattern.
 explain: Ice molecules lock into a six-sided pattern, and the crystal grows outward from there.
 
@@ -368,8 +368,8 @@ fact: On 3 May 1999, the radar read about 301 mph (484 km/h), give or take about
 p: The radar was looking at wind a few hundred feet up, not at ground level. No weather instrument on the ground survives a tornado, so tornado strength is normally rated afterward from what the damage looks like.
 check: How is a tornado's strength normally rated?
 - By a weather instrument left standing in its path
-- By how long it lasts
 + Afterward, from the damage
+- By how long it lasts
 hint: The page says ground instruments do not survive.
 explain: Since no ground instruments survive a tornado, its strength is rated afterward by looking at the damage.
 
@@ -386,9 +386,9 @@ game: Mammoth Cave = The longest cave known, 426 miles | Veryovkina = The deepes
 p: On 8 May 1981, the ground opened up in Winter Park, Florida.
 fact: Over two days, the hole widened to 320 feet across and 90 feet deep. It swallowed a three-bedroom house, a huge sycamore tree, five Porsches from a repair shop, a pickup truck, and even the town swimming pool.
 p: Florida is built on limestone riddled with holes. This particular hole let go during a stretch of record-low water in the aquifer underneath, when the water that had been helping hold the roof up was gone.
-check: How wide did the Winter Park hole grow?
-- 90 feet
+check: In 1981 the ground opened up in Winter Park, Florida. How wide did the hole grow?
 + 320 feet
+- 90 feet
 - 500 feet
 hint: The fact box gives you the width and depth of the hole.
 explain: The hole grew to 320 feet across.
@@ -397,7 +397,7 @@ explain: The hole grew to 320 feet across.
 p: Have you ever seen a cave grow? No, nobody has.
 fact(Worked out): Rain picks up carbon dioxide from the air and soil, turns into a weak acid, and slowly eats away at limestone along cracks. This is how caves form, but nobody has watched it happen.
 term: limestone = A type of rock that forms in layers under water and can be eaten away by acid.
-check: What has nobody ever done with a cave?
+check: What has nobody ever done with a cave, even though people have explored thousands of them?
 - Dived into one
 - Drawn a map of one
 + Watched one form
@@ -408,7 +408,7 @@ explain: Nobody has watched a cave actually form. We know the process, but we ha
 term: stalactite = A type of rock formation that hangs from the ceiling.
 term: stalagmite = A type of rock formation that stands on the ground.
 fact(How they start): A stalactite starts as a hollow tube about a fifth of an inch across, called a soda straw. When the tube gets clogged, water runs down the outside and the stalactite thickens. On average, it grows about 0.005 inches each year.
-check: Which one hangs from the ceiling?
+check: Which cave formation hangs from the ceiling, the stalactite or the stalagmite?
 + The stalactite
 - The stalagmite
 - Both of them
@@ -460,7 +460,7 @@ p: Nobody watched the Grand Canyon get cut. People watched this one happen.
 p: The Grand Canyon is so big you can measure it. It runs 278 river miles long, up to 18 miles wide, and about a mile deep.
 fact: The South Rim stands near 7,000 feet, and the North Rim stands near 8,000. From rim to river, it is about one mile straight down.
 p: But here's the thing: nobody watched the Grand Canyon get cut. We only know how big it is, not exactly how it got that way.
-check: Which part of the Grand Canyon story is measured?
+check: What can scientists measure about the Grand Canyon?
 + How big it is
 - How it was cut
 - When it formed
@@ -502,7 +502,7 @@ explain: About nine-tenths. Only that last tenth sticks up where you can see it.
 p: Imagine you have an ice cube floating in a glass filled to the brim. When it melts, the water level stays exactly the same.
 fact: Floating sea ice melting does not raise sea level because it is already displacing its own weight in water. Ice sitting on land, however, is a different case. That water is not in the ocean yet and will raise the sea level when it melts.
 try: Float an ice cube in a glass filled to the brim and mark the level. When it melts, the glass still does not overflow. Now set a second cube on a saucer, let it melt, and pour that water into the glass. That one is land ice.
-check: Which melting would raise the sea?
+check: Which melting would raise sea level: ice sitting on land or ice floating at sea?
 + Ice sitting on land
 - Ice floating at sea
 - Both of them equally
@@ -530,9 +530,9 @@ term: permafrost = Ground that has stayed at or below 32 F (0 C) for at least tw
 fact: About a quarter of the land in the northern half of the world has this permafrost, and in some places it goes down more than 4,900 feet (1,500 m).
 p: The top layer thaws every summer and refreezes every winter. Trees, moss, and mosquitoes live on a thin lid over frozen ground. Houses are lifted off the ground to avoid sinking as the ground thaws.
 check: What is permafrost?
++ Ground that has stayed frozen for at least two years
 - Giant chunks of ice drifting on the cold Arctic Ocean
 - Deep snow that never melts on the tops of high mountains
-+ Ground that has stayed frozen for at least two years
 hint: Look at the definition of permafrost at the top of the page.
 explain: Permafrost is ground that stays at or below 32 F (0 C) for at least two years.
 
@@ -542,8 +542,8 @@ fact: The rock under all that ice is close to sea level. So almost all of the Po
 p: Every New Year's Day, the marker at the geographic South Pole is dug up and moved. This is because the ice it stands on drifts about 33 feet a year toward the Weddell Sea.
 check: Why is the South Pole marker moved every year?
 - Warm summer sun melts the ice it stands on every year
-+ The ice it stands on drifts about 33 feet a year
 - The spinning Earth slowly slides the pole sideways
++ The ice it stands on drifts about 33 feet a year
 hint: Look at the paragraph that talks about how much the ice drifts each year.
 explain: The ice drifts about 33 feet a year, so the marker needs to be moved to stay at the exact South Pole.
 
@@ -556,10 +556,10 @@ p: The pressure and warmth from the rock keep some of these lakes liquid, even u
 --- 🧮
 p: Imagine all of Antarctica's ice melted. What would that do to the sea?
 fact(Worked out): If every bit of Antarctica's ice melted, sea level would go up about 190 feet (58 m). Nobody has measured that, obviously. Those numbers are worked out from the measured volume of the ice and the measured area of the oceans.
-check: Is the 190 feet rise in sea level measured or worked out?
+check: If all of Antarctica's ice melted, the sea would rise about 190 feet. Is that number measured or worked out?
++ Worked out from the measured ice
 - Measured directly by ships at sea
 - Taken from records of past floods
-+ Worked out from the measured ice
 hint: The page says those numbers are sums, not measurements.
 explain: The number is worked out from the volume of ice and the area of oceans.
 
@@ -597,8 +597,8 @@ p: So why do we have summer and winter?
 fact: Seasons come from Earth's 23.4-degree tilt, not how close the sun is. In early January, Earth is actually closest to the sun, right in the middle of northern winter.
 p: Australia has summer while Canada has winter at the same time. The planet is the same distance from the sun for both. It is the tilt that makes summer by leaning toward the sun and letting the light hit at a steeper angle.
 check: What makes summer?
-+ Earth's tilt
 - Earth getting closer to the sun
++ Earth's tilt
 - The sun giving off more heat in summer
 hint: Look at the fact about Australia and Canada having different seasons.
 explain: Tilt makes the light hit at a steeper angle, squeezing it onto less ground and making it warmer.
@@ -608,8 +608,8 @@ p: The sun you see out the window is actually a bit of history.
 fact: Sunlight takes about 8 minutes and 20 seconds to reach us, crossing roughly 93 million miles (150 million km). So the sunlight you see now left the sun about eight minutes ago.
 p: Moonlight takes only 1.3 seconds to get here. Light from the nearest star after the sun, though, takes over four years.
 check: How old is the sunlight you see out the window?
-- About forty minutes
 + About eight minutes
+- About forty minutes
 - Nearly four years
 hint: The fact box tells you exactly how long sunlight takes to reach us.
 explain: Sunlight takes about 8 minutes and 20 seconds to travel from the sun to Earth.
@@ -630,8 +630,8 @@ fact: Those two numbers cancel out, so the sun and the moon look almost exactly 
 p: No other planet with moons gets such a neat fit. The moon drifts about an inch and a half further from Earth each year. One day it will look too small to cover the sun completely.
 check: Why can the moon cover the sun?
 - The moon is much larger than the sun and sits right beside it
-+ The sun is about 400 times wider but about 400 times farther away
 - The moon's shadow is much wider than the moon, so it hides the sun
++ The sun is about 400 times wider but about 400 times farther away
 hint: Look at the first fact on the page. It explains why they look the same size.
 explain: The sun is about 400 times wider but also about 400 times farther away, so they appear the same size in our sky.
 
@@ -640,8 +640,8 @@ p: Most coasts get two high tides a day, not just one.
 term: tide = The regular rise and fall of the ocean level.
 fact(Worked out, not seen): The moon's pull heaps the ocean up on the side facing it, and also on the far side where the water gets left behind. Earth turns through both bulges daily.
 check: Why do we get two high tides a day?
-+ The ocean bulges on the side facing the moon and the side away
 - The moon rises twice a day, so the ocean is pulled toward it twice
++ The ocean bulges on the side facing the moon and the side away
 - The water sloshes from side to side like a bathtub twice a day
 hint: Look at the fact box for the explanation.
 explain: The ocean bulges on the side facing the moon and also on the far side, which creates two high tides as Earth turns.
@@ -651,9 +651,9 @@ p: Have you ever seen a shooting star streak across the sky?
 fact: Most shooting stars are made by something between a grain of sand and a pea. It is moving so fast that the air in front of it gets crushed and heated until the grain glows white.
 p: The grain is not burning up from rubbing against the air, which is what people usually think. Instead, it is the air itself that gets compressed and superheated in front of it. About 48 tons of that dust hits the atmosphere every single day.
 check: What makes a shooting star glow?
++ Air crushed and heated in front of it
 - The grain rubbing against the air
 - The grain being melted by sunlight
-+ Air crushed and heated in front of it
 hint: Look at the fact box for what happens to the air.
 explain: It is the air in front of the grain that gets crushed and heated until it glows.
 
@@ -677,7 +677,7 @@ game: Bay of Fundy = Tides of about 52 feet twice a day | Amazon = About a fifth
 p: A cold glass of water looks like it is leaking on a warm day. But it is not leaking at all.
 fact: The water on the outside came out of the air in the room. Air carries invisible water, and chilling it makes the air let go.
 try: Fill a glass with ice water and leave it a few minutes. Wipe the outside completely dry, then watch it go wet again. Nothing came through the glass. The room handed it over.
-check: Where did the water on the outside of the cold glass come from?
+check: Where did the water on the outside of a cold glass come from?
 - Inside the glass
 - A leak in the glass
 + The air in the room
@@ -715,10 +715,10 @@ p: Tide tables are printed a year ahead. Boats stake their keels on those tables
 p: In the Bay of Fundy, Canada, the tides rise and fall about 52 feet twice a day.
 fact: Boats that are floating at breakfast sit on mud by lunchtime.
 p: Around 100 billion tons of water move in and out with each tide cycle, more than all the rivers in the world combined.
-check: How far do the Fundy tides rise and fall?
+check: How far do the tides in the Bay of Fundy rise and fall?
 - About 26 feet
-+ About 52 feet
 - About 71 feet
++ About 52 feet
 hint: Look at the first number on the page.
 explain: The tides rise and fall about 52 feet twice a day in the Bay of Fundy.
 
@@ -732,9 +732,9 @@ p: Imagine you are at the bottom of the Challenger Deep. The pressure there is o
 fact: The pressure is about eight tons per square inch, enough to crush anything with air inside it, including a person.
 p: People have still been down there, but they go in thick steel spheres that can stand the crushing force.
 check: What lets people reach the bottom of the Challenger Deep?
++ Thick steel spheres
 - Special diving suits made of rubber
 - Thin plastic bubbles
-+ Thick steel spheres
 hint: The thick steel spheres keep the pressure from crushing the people inside.
 explain: The spheres are strong enough to withstand the immense pressure at the bottom.
 
@@ -747,9 +747,9 @@ p: Mapping is not the same as seeing. A camera or a person has looked at less th
 p: A trench in the ocean can be very deep, but how it got there is a story we work out.
 fact(The measured part): The depth of a trench is measured, but how it formed is worked out from where earthquakes happen and line up.
 p: Earthquakes below a trench line up on a slanting sheet that runs down and away. This pattern tells us that one slab of sea floor bends under another.
-check: Which part of the trench story is measured?
-+ How deep it is
+check: What can scientists measure about an ocean trench?
 - How it got there
++ How deep it is
 - Where it will be in 10 years
 hint: Look at the first sentence of the fact box. It names the part that is measured.
 explain: We measure how deep a trench is. The pattern of earthquakes helps us work out how it formed.
@@ -759,7 +759,7 @@ p: In Genesis, water is there before anything has a shape.
 fact(The written account says): On day two, the waters are divided into water below and water above. On day three, the water below is gathered into one place so that dry land can appear.
 p: The written account makes water the setting everything else gets arranged in.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === earth-deserts
 idea: Some places are so dry that weather stations there have never caught a drop of rain. Visit the biggest deserts and the sand dunes that move.
 
@@ -768,49 +768,49 @@ game: Atacama = Weather stations that never got rain | Sahara = The largest hot 
 --- 🏜️
 p: About one-third of the land on Earth is very dry.
 
-fact: That includes polar lands, which are sometimes called cold deserts.
+fact(Cold deserts): Very dry land includes polar lands, which are sometimes called cold deserts.
 
 check: How much of Earth's land is very dry?
 - Almost none
-+ One-third
 - Nearly all
-hint: Look at the paragraph. The answer is there.
++ One-third
+hint: Look at the paragraph. It gives the share.
 explain: About one-third of the land on Earth is very dry.
 
 --- 🤔
-p: In the Atacama Desert in Chile, the average rainfall in one region is just 0.039 in (1 mm) a year.
+p: In the Atacama Desert in Chile, one region gets only 0.039 in (1 mm) of rain a year.
 
-fact: Some weather stations there have never received any rain.
+fact(No rain at all): Some weather stations in the Atacama have never received any rain.
 
 check: How much rain falls each year in the driest part of the Atacama?
 - 0.39 in
 + 0.039 in
 - 0.0039 in
-hint: Look at the paragraph. The answer is there.
-explain: In the Atacama Desert in Chile, the average rainfall in one region is just 0.039 in (1 mm) a year.
+hint: Look at the paragraph. It gives the amount.
+explain: One region of the Atacama gets only 0.039 in (1 mm) of rain a year.
 
 --- 📏
 p: The Atacama Desert is a strip of land about 1,000 mi (1,600 km) long in northern Chile.
 
-fact: It covers about 41,000 sq mi (105,000 km2).
+fact(Its size): The Atacama covers about 41,000 sq mi (105,000 km2).
 
 check: Where is the Atacama Desert?
-- Southern Peru
 + Northern Chile
+- Southern Peru
 - Western Egypt
-hint: Look at the paragraph. The answer is there.
-explain: The Atacama Desert is a strip of land about 1,000 mi (1,600 km) long in northern Chile.
+hint: Look at the paragraph. It names the place.
+explain: The Atacama Desert is in northern Chile.
 
 --- 📐
 p: The Sahara in North Africa is the largest hot desert in the world.
 
-fact: It covers 3,600,000 sq mi (9,200,000 square kilometers). Only the deserts of Antarctica and the Arctic are bigger.
+fact(How big): The Sahara covers 3,600,000 sq mi (9,200,000 square kilometers). Only the deserts of Antarctica and the Arctic are bigger.
 
 check: What is the largest hot desert in the world?
 - The Atacama
-+ The Sahara
 - The Arctic
-hint: Look at the paragraph. The answer is there.
++ The Sahara
+hint: Look at the paragraph. It names the desert.
 explain: The Sahara in North Africa is the largest hot desert in the world.
 
 --- ⚖️
@@ -818,12 +818,26 @@ p: Many sand dunes in the Sahara rise over 590 ft (180 m).
 
 term: dune = A hill made of sand, like the dunes in the Sahara.
 
-fact: The desert also has rocky plateaus, gravel plains, dry lakes and salt flats.
+fact(More landforms): The desert also has rocky plateaus, gravel plains, dry lakes and salt flats.
+
+check: How high do many sand dunes in the Sahara rise?
+- Only about 59 ft
++ Over 590 ft (180 m)
+- Nearly 5,900 ft
+hint: Look at the paragraph. It gives the height.
+explain: Many sand dunes in the Sahara rise over 590 ft (180 m).
 
 --- 💨
 p: A group of sand dunes in China moved more than 328 ft (100 m) every year from 1954 to 1959.
 
-fact: Dunes in the Western Desert of Egypt move that fast too.
+fact(Egypt too): Dunes in the Western Desert of Egypt move that fast too.
+
+check: How far did a group of sand dunes in China move each year from 1954 to 1959?
++ More than 328 ft (100 m)
+- Only about 3 ft (1 m)
+- Less than 33 ft (10 m)
+hint: Look at the paragraph. It gives the distance.
+explain: A group of sand dunes in China moved more than 328 ft (100 m) every year.
 
 --- 🔎
 p: A dry land. A strip of desert in Chile. A huge hot desert. Dunes that move.
@@ -836,25 +850,25 @@ quiz: What have some weather stations in the Atacama never received?
 - Wind
 explain: Some weather stations in the Atacama have never received any rain.
 
-quiz: How far did a group of dunes in China move each year?
-- Only 3 ft
-+ More than 328 ft
-- About 30 ft
-explain: A group of sand dunes in China moved more than 328 ft (100 m) every year.
+quiz: How large an area does the Atacama Desert cover?
+- About 4,100 sq mi
+- About 410,000 sq mi
++ About 41,000 sq mi
+explain: The Atacama covers about 41,000 sq mi (105,000 km2).
 
-quiz: Which country is the Atacama Desert in?
-- Egypt
-+ Chile
-- China
-explain: The Atacama Desert is in northern Chile.
+quiz: How long is the strip of land that makes up the Atacama Desert?
++ About 1,000 mi (1,600 km)
+- About 100 mi (160 km)
+- About 10,000 mi (16,000 km)
+explain: The Atacama Desert is a strip of land about 1,000 mi (1,600 km) long.
 
-quiz: What are sand dunes made of?
-- Ice
-+ Sand
-- Salt
-explain: A dune is a hill made of sand.
+quiz: Where else do dunes move as fast as the dunes in China?
+- The Atacama Desert of Chile
+- The Arctic ice of the north
++ The Western Desert of Egypt
+explain: Dunes in the Western Desert of Egypt move that fast too.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === earth-islands
 idea: An island has water on every side. Meet a whole chain of volcanic islands, and a reef you can see from space.
 
@@ -863,93 +877,107 @@ game: Island = Land surrounded by water | Great Barrier Reef = Seen from outer s
 --- 🏝️
 p: An island is a piece of land completely surrounded by water.
 
-fact: Some islands were once part of a continent. Others, called oceanic islands, never were.
+fact(Two kinds): Some islands were once part of a continent. Others, called oceanic islands, never were.
 
 check: What is an island?
 - A tall hill that rises above a flat plain
-+ A piece of land completely surrounded by water
 - A wide river with a low bank on each side
-hint: Look at the paragraph. The answer is there.
++ A piece of land completely surrounded by water
+hint: Look at the paragraph. It says what an island is.
 explain: An island is a piece of land completely surrounded by water.
 
 --- 🏠
 p: Up to 10% of the world's people live on islands.
 
-fact: Many people also visit islands for their natural beauty and their unique cultures.
+fact(Why visit): Many people also visit islands for their natural beauty and their unique cultures.
 
 check: How much of the world's population lives on islands?
-- 1%
-+ 10%
-- 90%
-hint: Look at the paragraph. The answer is there.
+- About 1%
++ Up to 10%
+- Over 90%
+hint: Look at the paragraph. It gives the share.
 explain: Up to 10% of the world's people live on islands.
 
 --- 📏
 p: The Great Barrier Reef is the world's largest coral reef system.
 
-fact: It has over 2,900 individual reefs and 900 islands, and it stretches for over 1,400 mi (2,300 km).
+fact(How big): The Great Barrier Reef has over 2,900 individual reefs and 900 islands, and it stretches for over 1,400 mi (2,300 km).
 
 check: How many individual reefs make up the Great Barrier Reef?
-- Only 29
 + Over 2,900
+- Only 29
 - About 290
-hint: Look at the box. The answer is there.
-explain: It has over 2,900 individual reefs and 900 islands, and it stretches for over 1,400 mi (2,300 km).
+hint: Look at the box. It gives the number of reefs.
+explain: The Great Barrier Reef has over 2,900 individual reefs.
 
 --- 🔧
 p: Billions of tiny animals called coral polyps built the Great Barrier Reef.
 
 term: reef = A long line of coral in the sea.
 
-fact: It can be seen from outer space. It is the biggest single structure made by living things.
+fact(From space): The Great Barrier Reef can be seen from outer space. It is the biggest single structure made by living things.
 
 check: What tiny animals built the Great Barrier Reef?
 - Little fish
 + Coral polyps
 - Sea turtles
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It names the animals.
 explain: Billions of tiny animals called coral polyps built the Great Barrier Reef.
 
 --- 📐
 p: The state of Hawaii is made of 137 volcanic islands.
 
-fact: They stretch for 1,500 mi (2,400 km).
+fact(How far): The islands stretch for 1,500 mi (2,400 km).
+
+check: How many volcanic islands make up Hawaii?
+- 13
+- 1,370
++ 137
+hint: Look at the paragraph. It gives the number.
+explain: The state of Hawaii is made of 137 volcanic islands.
 
 --- 🏡
 p: Hawaii is in the Pacific Ocean, about 2,000 mi (3,200 km) southwest of the U.S. mainland.
 
-fact: It is the only state that is not on the North American mainland, and the only state that is an archipelago.
+fact(Special state): Hawaii is the only state that is not on the North American mainland, and the only state that is an archipelago.
+
+check: How far is Hawaii from the U.S. mainland?
++ About 2,000 miles
+- About 20 miles
+- About 200 miles
+hint: Look at the paragraph. It gives the distance.
+explain: Hawaii is about 2,000 mi (3,200 km) southwest of the U.S. mainland.
 
 --- 🔎
 p: Land with water around it. A huge reef built by tiny animals. A chain of volcanic islands.
 
 p: Islands are great.
 
-quiz: How many volcanic islands make up Hawaii?
-- 13
-+ 137
-- 1,370
-explain: The state of Hawaii is made of 137 volcanic islands.
+quiz: What is the biggest single structure made by living things?
+- A huge termite mound
+- A giant beaver dam
++ The Great Barrier Reef
+explain: It is the biggest single structure made by living things.
 
-quiz: How much of the world's population lives on islands?
-- About 1%
-+ Up to 10%
-- Over 90%
-explain: Up to 10% of the world's people live on islands.
+quiz: How far do the Hawaiian Islands stretch?
+- 150 mi (240 km)
++ 1,500 mi (2,400 km)
+- 15,000 mi (24,000 km)
+explain: The islands stretch for 1,500 mi (2,400 km).
 
-quiz: What built the Great Barrier Reef?
-- Big whales
-+ Coral polyps
-- Sea birds
-explain: Billions of tiny animals called coral polyps built it.
+quiz: Hawaii is the only state that is what kind of group of islands?
++ An archipelago
+- A peninsula
+- A river delta
+explain: Hawaii is the only state that is an archipelago.
 
-quiz: How far is Hawaii from the U.S. mainland?
-- About 20 mi
-+ About 2,000 mi
-- About 200 mi
-explain: Hawaii is about 2,000 mi (3,200 km) southwest of the U.S. mainland.
+quiz: What are islands that were never part of a continent called?
+- Coastal islands
+- River islands
++ Oceanic islands
+explain: Others, called oceanic islands, never were part of a continent.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === earth-mountains
 idea: Mountains stand thousands of feet high. Climb with us from the top of Mount Everest to the farthest point from the center of the Earth.
 
@@ -958,62 +986,76 @@ game: Mount Everest = Highest mountain on Earth | Mauna Kea = Rises from the oce
 --- 🏔️
 p: Mount Everest in the Himalayas is the highest mountain on Earth.
 
-fact: Its top is 29,035 ft (8,850 m) above sea level.
+fact(Its top): The top of Mount Everest is 29,035 ft (8,850 m) above sea level.
 
 check: What is the highest mountain on Earth?
 - Chimborazo
-+ Mount Everest
 - Mauna Kea in Hawaii
-hint: Look at the paragraph. The answer is there.
++ Mount Everest
+hint: Look at the paragraph. It names the mountain.
 explain: Mount Everest in the Himalayas is the highest mountain on Earth.
 
 --- 📏
 p: Mauna Kea in Hawaii rises 30,610 ft (9,330 m) from its base at the bottom of the ocean.
 
-fact: Measured from base to peak, some scientists say it is the tallest mountain on Earth.
+fact(Tallest?): Measured from base to peak, some scientists say it is the tallest mountain on Earth.
 
 check: Where is Mauna Kea?
 - Nepal
 + Hawaii
 - Ecuador
-hint: Look at the paragraph. The answer is there.
-explain: Mauna Kea in Hawaii rises 30,610 ft (9,330 m) from its base at the bottom of the ocean.
+hint: Look at the paragraph. It names the place.
+explain: Mauna Kea is in Hawaii.
 
 --- 🧭
 p: The closest sea to Mount Everest's summit is the Bay of Bengal, almost 430 mi (700 km) away.
 
 term: summit = The very top of a mountain.
 
-fact: In 1990, a team led by Tim Macartney-Snape climbed the whole height, from the coast. Most climbers start at base camps above 16,404 ft (5,000 m).
+fact(From the coast): In 1990, a team led by Tim Macartney-Snape climbed the whole height, from the coast. Most climbers start at base camps above 16,404 ft (5,000 m).
 
 check: What is the distance from the top of Mount Everest to the closest sea?
-- 43 mi
 + 430 mi
+- 43 mi
 - 4,300 mi
-hint: Look at the paragraph. The answer is there.
-explain: The closest sea to Mount Everest's summit is the Bay of Bengal, almost 430 mi (700 km) away.
+hint: Look at the paragraph. It gives the distance.
+explain: The closest sea to Mount Everest's summit is almost 430 mi (700 km) away.
 
 --- 📐
 p: More than 100 peaks in the Himalayas rise above 23,600 ft (7,200 m).
 
-fact: The range spans five countries: Nepal, India, China, Bhutan and Pakistan.
+fact(Five countries): The range spans five countries: Nepal, India, China, Bhutan and Pakistan.
 
 check: How many countries does the Himalayas range span?
 - Two
-+ Five
 - Nine
-hint: Look at the box. The answer is there.
-explain: The range spans five countries: Nepal, India, China, Bhutan and Pakistan.
++ Five
+hint: Look at the box. It gives the number of countries.
+explain: The Himalayas range spans five countries.
 
 --- ⚖️
 p: The Andes are the longest mountain range on land in the world.
 
-fact: They run along the western edge of South America and are 5,500 mi (8,900 km) long.
+fact(Their length): The Andes run along the western edge of South America and are 5,500 mi (8,900 km) long.
+
+check: Which mountain range is the longest on land in the world?
++ The Andes
+- The Himalayas
+- The Rockies
+hint: Look at the paragraph. It names the range.
+explain: The Andes are the longest mountain range on land in the world.
 
 --- 🤔
 p: The peak of Chimborazo in Ecuador is farther from the center of the Earth than any other place on its surface.
 
-fact: The Earth bulges at the equator because it spins.
+fact(Why): The Earth bulges at the equator because it spins.
+
+check: Why does the Earth bulge at the equator?
+- It is flat
++ It spins
+- It melts
+hint: Look at the box. It says why.
+explain: The Earth bulges at the equator because it spins.
 
 --- 🔎
 p: The highest mountain. A mountain rising from the sea. Peaks in five countries. The longest range.
@@ -1021,30 +1063,30 @@ p: The highest mountain. A mountain rising from the sea. Peaks in five countries
 p: Mountains are tall.
 
 quiz: How high is the top of Mount Everest above sea level?
-- 2,903 ft
 + 29,035 ft
+- 2,903 ft
 - 290 ft
-explain: Mount Everest's top is 29,035 ft (8,850 m) above sea level.
+explain: The top of Mount Everest is 29,035 ft (8,850 m) above sea level.
 
-quiz: Which mountain range is the longest on land?
-- The Himalayas
-+ The Andes
-- The Rockies
-explain: The Andes are the longest mountain range on land in the world.
+quiz: How far does Mauna Kea rise from its base at the bottom of the ocean?
+- 3,061 ft (933 m)
+- 306,100 ft (93,300 m)
++ 30,610 ft (9,330 m)
+explain: Mauna Kea in Hawaii rises 30,610 ft (9,330 m) from its base at the bottom of the ocean.
 
-quiz: Why does the Earth bulge at the equator?
-- It is flat
-+ It spins
-- It melts
-explain: The Earth bulges at the equator because it spins.
+quiz: How long are the Andes?
+- 550 mi (890 km)
++ 5,500 mi (8,900 km)
+- 55,000 mi (89,000 km)
+explain: The Andes are 5,500 mi (8,900 km) long.
 
 quiz: In which year did a team climb the whole height of Everest from the coast?
 - 1790
-+ 1990
 - 1890
++ 1990
 explain: In 1990, a team led by Tim Macartney-Snape climbed the whole height, from the coast.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === earth-lakes
 idea: Lake Baikal is the deepest lake in the world, and Angel Falls is the tallest waterfall. See how deep, how clear and how tall water can get.
 
@@ -1053,62 +1095,76 @@ game: Lake Baikal = The deepest lake | Niagara Falls = Over 5.9 million cubic fe
 --- 💦
 p: Lake Baikal is the deepest lake in the world, 5,387 ft (1,642 m) deep.
 
-fact: It holds 22 to 23% of the world's fresh surface water, more than all the North American Great Lakes combined.
+fact(Fresh water): Lake Baikal holds 22 to 23% of the world's fresh surface water, more than all the North American Great Lakes combined.
 
 check: Which lake is the deepest in the world?
 - Lake Powell
 + Lake Baikal
 - Lake Erie
-hint: Look at the paragraph. The answer is there.
-explain: Lake Baikal is the deepest lake in the world, 5,387 ft (1,642 m) deep.
+hint: Look at the paragraph. It names the lake.
+explain: Lake Baikal is the deepest lake in the world.
 
 --- 👀
 p: In winter, the water in Lake Baikal is so clear that you can see down 100 to 130 ft (30 to 40 m).
 
-fact: In summer you can see 15 to 25 ft (5 to 8 m).
+fact(In summer): In summer you can see 15 to 25 ft (5 to 8 m).
 
 check: How far can you see down into Lake Baikal in winter?
-- 10 to 13 ft
 + 100 to 130 ft
+- 10 to 13 ft
 - 1 to 3 ft
-hint: Look at the paragraph. The answer is there.
-explain: In winter, the water in Lake Baikal is so clear that you can see down 100 to 130 ft (30 to 40 m).
+hint: Look at the paragraph. It gives the distance.
+explain: In winter you can see down 100 to 130 ft (30 to 40 m) into Lake Baikal.
 
 --- 🤔
 p: Many kinds of living things live in Lake Baikal.
 
 term: species = The kinds of plants and animals, like those in Lake Baikal.
 
-fact: More than 1,000 species of plants and 2,500 species of animals live there.
+fact(Counts): More than 1,000 species of plants and 2,500 species of animals live in Lake Baikal.
 
 check: How many species of animals live in Lake Baikal?
 - 25,000
-+ 2,500
 - 250
-hint: Look at the box. The answer is there.
-explain: More than 1,000 species of plants and 2,500 species of animals live there.
++ 2,500
+hint: Look at the box. It gives the number of animal species.
+explain: 2,500 species of animals live in Lake Baikal.
 
 --- 💨
 p: Niagara Falls is huge.
 
-fact: In busy hours, more than 5.9 million cubic feet (168,000 cubic meters) of water goes over the top each minute.
+fact(Water): In busy hours, more than 5.9 million cubic feet (168,000 cubic meters) of water goes over the top of Niagara Falls each minute.
 
-check: How much water goes over Niagara Falls every minute?
+check: How much water goes over Niagara Falls each minute in busy hours?
 - About 5.9 thousand cubic feet
 + Over 5.9 million cubic feet
 - Nearly 59,000 cubic feet
-hint: Look at the box. The answer is there.
-explain: In busy hours, more than 5.9 million cubic feet (168,000 cubic meters) of water goes over the top each minute.
+hint: Look at the box. It gives the amount.
+explain: In busy hours, more than 5.9 million cubic feet of water goes over the top each minute.
 
 --- 📏
 p: Angel Falls is the world's tallest waterfall with no break in the drop.
 
-fact: It is 3,212 ft (979 m) high, and the main plunge is 2,648 ft (807 m).
+fact(Its height): Angel Falls is 3,212 ft (979 m) high, and the main plunge is 2,648 ft (807 m).
+
+check: How high is Angel Falls?
++ 3,212 ft (979 m)
+- 321 ft (98 m)
+- 32,120 ft (9,790 m)
+hint: Look at the box. It gives the height.
+explain: Angel Falls is 3,212 ft (979 m) high.
 
 --- 🧑
 p: Angel Falls is named after Jimmie Angel, a U.S. pilot.
 
-fact: He was the first person to fly over the falls, on November 16, 1933.
+fact(First flight): Jimmie Angel was the first person to fly over the falls, on November 16, 1933.
+
+check: Who was Angel Falls named after?
+- Tim Angel
+- Sam Niagara
++ Jimmie Angel
+hint: Look at the paragraph. It names the person.
+explain: Angel Falls is named after Jimmie Angel, a U.S. pilot.
 
 --- 🔎
 p: A deep lake. Clear water. Many kinds of plants and animals. A huge waterfall.
@@ -1116,30 +1172,30 @@ p: A deep lake. Clear water. Many kinds of plants and animals. A huge waterfall.
 p: Water is big.
 
 quiz: How deep is Lake Baikal?
-- 538 ft
-+ 5,387 ft
-- 53 ft
+- 538 ft (164 m)
++ 5,387 ft (1,642 m)
+- 53 ft (16 m)
 explain: Lake Baikal is the deepest lake in the world, 5,387 ft (1,642 m) deep.
 
 quiz: How many species of plants live in Lake Baikal?
-- About 10
 + More than 1,000
+- About 10
 - Only 100
 explain: More than 1,000 species of plants live in Lake Baikal.
 
-quiz: How high is Angel Falls?
-- 321 ft
-+ 3,212 ft
-- 32 ft
-explain: Angel Falls is 3,212 ft (979 m) high.
+quiz: How far can you see down into Lake Baikal in summer?
+- 150 to 250 ft (50 to 80 m)
+- 1 to 2 ft (30 to 60 cm)
++ 15 to 25 ft (5 to 8 m)
+explain: In summer you can see 15 to 25 ft (5 to 8 m).
 
-quiz: Who was Angel Falls named after?
-- Tim Angel
-+ Jimmie Angel
-- Sam Niagara
-explain: Angel Falls is named after Jimmie Angel, a U.S. pilot.
+quiz: On what date did Jimmie Angel first fly over Angel Falls?
+- June 11, 1993
++ November 16, 1933
+- December 6, 1393
+explain: Jimmie Angel was the first person to fly over the falls, on November 16, 1933.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === earth-rivers
 idea: The Nile is the longest river in the world, and the Amazon carries more water than the next seven rivers put together. Follow the great rivers.
 
@@ -1148,62 +1204,76 @@ game: Nile = Longest river in the world | Amazon = Carries 20% of the river wate
 --- 🏞️
 p: The Nile is the longest river in the world, 4,404 mi (7,088 km) long.
 
-fact: It flows north into the Mediterranean Sea.
+fact(Where it flows): The Nile flows north into the Mediterranean Sea.
 
 check: What is the longest river in the world?
 - The Amazon
 + The Nile
 - The Missouri
-hint: Look at the paragraph. The answer is there.
-explain: The Nile is the longest river in the world, 4,404 mi (7,088 km) long.
+hint: Look at the paragraph. It names the river.
+explain: The Nile is the longest river in the world.
 
 --- ⚙️
 p: Eleven countries share the Nile's basin.
 
 term: basin = The land where the water of the Nile comes from.
 
-fact: Most of its water comes from rain in Ethiopia, Kenya, Tanzania and Uganda.
+fact(Its rain): Most of the Nile's water comes from rain in Ethiopia, Kenya, Tanzania and Uganda.
 
 check: Where does most of the Nile's water come from?
-- Springs
 + Rain
+- Springs
 - Glaciers
-hint: Look at the box. The answer is there.
-explain: Most of its water comes from rain in Ethiopia, Kenya, Tanzania and Uganda.
+hint: Look at the box. It says where the water comes from.
+explain: Most of the Nile's water comes from rain.
 
 --- 📏
-p: The Amazon River carries more water than the next seven biggest rivers put together.
+p: The Amazon River carries more water than the next seven biggest rivers.
 
-fact: It delivers 20% of all the river water that flows into the world's oceans.
+fact(Its share): It delivers 20% of the river water that flows into the oceans.
 
 check: How much of the world's river water flows from the Amazon?
 - 2%
-+ 20%
 - 80%
-hint: Look at the box. The answer is there.
-explain: It delivers 20% of all the river water that flows into the world's oceans.
++ 20%
+hint: Look at the box. It gives the share.
+explain: The Amazon delivers 20% of the river water that flows into the oceans.
 
 --- 📐
 p: The Amazon River is about 4,000 mi (6,400 km) long.
 
-fact: Its drainage basin is the largest in the world, about 2,700,000 sq mi (7,000,000 square kilometers).
+fact(Its basin): The Amazon's drainage basin is the largest in the world, about 2,700,000 sq mi (7,000,000 square kilometers).
 
 check: What is the length of the Amazon River?
 - About 400 mi
 + About 4,000 mi
 - About 14,000 mi
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the length.
 explain: The Amazon River is about 4,000 mi (6,400 km) long.
 
 --- ⚖️
 p: The Mississippi River is 2,340 mi (3,766 km) long.
 
-fact: It starts at Lake Itasca in Minnesota and ends in the Gulf of Mexico. It is the second-longest river in the U.S.
+fact(Start and end): The Mississippi starts at Lake Itasca in Minnesota and ends in the Gulf of Mexico. It is the second-longest river in the U.S.
+
+check: Where does the Mississippi River start?
++ Lake Itasca
+- Lake Baikal
+- Niagara Falls
+hint: Look at the box. It names where it starts.
+explain: The Mississippi starts at Lake Itasca in Minnesota.
 
 --- 🔭
 p: The Mississippi collects water from all or part of 32 U.S. states.
 
-fact: Two Canadian provinces drain into it too.
+fact(Canada too): Two Canadian provinces drain into the Mississippi too.
+
+check: How many U.S. states does the Mississippi collect water from?
+- 3
+- 320
++ 32
+hint: Look at the paragraph. It gives the number.
+explain: The Mississippi collects water from all or part of 32 U.S. states.
 
 --- 🔎
 p: A very long river. A basin of rain. A river with a lot of water. A river that ends in the Gulf of Mexico.
@@ -1217,24 +1287,24 @@ quiz: Which sea does the Nile flow into?
 explain: The Nile flows north into the Mediterranean Sea.
 
 quiz: How many countries share the Nile's basin?
-- Two
 + Eleven
+- Two
 - Forty
 explain: Eleven countries share the Nile's basin.
 
-quiz: Where does the Mississippi River start?
-- Lake Baikal
-+ Lake Itasca
-- Niagara Falls
-explain: The Mississippi starts at Lake Itasca in Minnesota.
+quiz: Where does the Mississippi River end?
+- In the Pacific Ocean
+- In Lake Itasca
++ In the Gulf of Mexico
+explain: The Mississippi ends in the Gulf of Mexico.
 
-quiz: How many U.S. states does the Mississippi collect water from?
-- 3
-+ 32
-- 320
-explain: The Mississippi collects water from all or part of 32 U.S. states.
+quiz: How many Canadian provinces drain into the Mississippi?
+- Ten
++ Two
+- Twelve
+explain: Two Canadian provinces drain into the Mississippi too.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === earth-storms
 idea: A tornado is a column of air that spins fast enough to rip buildings off their foundations. Find out how big tornadoes and hurricanes get.
 
@@ -1245,60 +1315,74 @@ p: A tornado is a column of air that spins very fast, from the ground up to a cl
 
 term: tornado = A column of air that spins very fast.
 
-fact: Most have winds under 110 mph (180 km/h) and are about 250 ft (80 m) across.
+fact(Typical size): Most tornadoes have winds under 110 mph (180 km/h) and are about 250 ft (80 m) across.
 
 check: How wide is a typical tornado?
 - About 25 ft
 + About 250 ft
 - About 2,500 ft
-hint: Look at the box. The answer is there.
-explain: Most have winds under 110 mph (180 km/h) and are about 250 ft (80 m) across.
+hint: Look at the box. It gives the width.
+explain: Most tornadoes are about 250 ft (80 m) across.
 
 --- 💨
 p: The strongest tornadoes can have winds of more than 300 mph (480 km/h).
 
-fact: They can be more than 2 mi (3 km) wide and stay on the ground for more than 62 mi (100 km).
+fact(How big): The strongest tornadoes can be more than 2 mi (3 km) wide and stay on the ground for more than 62 mi (100 km).
 
 check: How fast can the winds of the strongest tornadoes blow?
-- Only about 30 mph
 + More than 300 mph
+- Only about 30 mph
 - Barely over 3 mph
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the speed.
 explain: The strongest tornadoes can have winds of more than 300 mph (480 km/h).
 
 --- ⚙️
 p: The Enhanced Fujita Scale rates tornadoes by the damage they cause.
 
-fact: An EF0, the weakest, damages trees but not buildings. An EF5, the strongest, rips buildings off their foundations.
+fact(EF0 and EF5): An EF0, the weakest, damages trees but not buildings. An EF5, the strongest, rips buildings off their foundations.
 
 check: What does the Enhanced Fujita Scale measure?
 - The speed of sound
-+ The damage
 - The size of clouds
-hint: Look at the paragraph. The answer is there.
++ The damage
+hint: Look at the paragraph. It says what the scale rates.
 explain: The Enhanced Fujita Scale rates tornadoes by the damage they cause.
 
 --- 🏆
 p: Around 80 to 90 named tropical cyclones form around the world each year.
 
-fact: More than half of them reach hurricane-force winds of 75 mph (120 km/h) or more.
+fact(Hurricane-force): More than half of them reach hurricane-force winds of 75 mph (120 km/h) or more.
 
 check: About how many named tropical cyclones form each year?
-- 8 to 9
 + 80 to 90
+- 8 to 9
 - 800 to 900
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the number.
 explain: Around 80 to 90 named tropical cyclones form around the world each year.
 
 --- 🔧
 p: Hurricanes form over warm ocean water.
 
-fact: They get their energy from water that evaporates off the sea.
+fact(Their energy): Hurricanes get their energy from water that evaporates off the sea.
+
+check: Where do hurricanes get their energy?
+- From the strong winds above
++ From water that evaporates
+- From the cold ground below
+hint: Look at the box. It says where the energy comes from.
+explain: Hurricanes get their energy from water that evaporates off the sea.
 
 --- 📏
 p: A tropical cyclone is typically between 62 and 1,243 mi (100 and 2,000 km) wide.
 
-fact: That is much wider than a tornado.
+fact(Compared): A tropical cyclone is much wider than a tornado.
+
+check: Which is much wider, a tropical cyclone or a tornado?
+- A tornado
+- They are the same
++ A tropical cyclone
+hint: Look at the paragraph. It tells how wide a tropical cyclone is.
+explain: A tropical cyclone is much wider than a tornado.
 
 --- 🔎
 p: A spinning column of air. Winds over 300 mph. A scale for damage. Storms over warm water.
@@ -1306,30 +1390,30 @@ p: A spinning column of air. Winds over 300 mph. A scale for damage. Storms over
 p: Storms are big.
 
 quiz: What does an EF5 tornado do?
-- Only bends the trees
 + Rips buildings off their foundations
+- Only bends the trees
 - Does no damage at all
 explain: An EF5, the strongest, rips buildings off their foundations.
 
 quiz: Where do hurricanes form?
 - Over cold land
-+ Over warm ocean water
 - Inside tall clouds
++ Over warm ocean water
 explain: Hurricanes form over warm ocean water.
-
-quiz: Where do hurricanes get their energy?
-- From the wind alone
-+ From water that evaporates
-- From the ground
-explain: They get their energy from water that evaporates off the sea.
 
 quiz: How wide can the strongest tornadoes be?
 - Less than 2 ft
 + More than 2 mi
 - About 20 ft
-explain: They can be more than 2 mi (3 km) wide.
+explain: The strongest tornadoes can be more than 2 mi (3 km) wide.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: What does an EF0 tornado damage?
+- Buildings but not trees
+- Nothing at all
++ Trees but not buildings
+explain: An EF0, the weakest, damages trees but not buildings.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === earth-lightning
 idea: Lightning heats the air to about 54,000°F in an instant. Learn why thunder booms and why you see the flash first.
 
@@ -1338,25 +1422,25 @@ game: Lightning = Heats the air to about 54,000°F | Thunder = A shock wave | De
 --- ⚡
 p: Lightning heats the air around it.
 
-fact: It heats it to about 54,000°F (30,000°C) in an instant.
+fact(How hot): Lightning heats the air to about 54,000°F (30,000°C) in an instant.
 
 check: How hot does the air around lightning get?
 - 5,400°F
 + 54,000°F
 - 540°F
-hint: Look at the box. The answer is there.
-explain: It heats it to about 54,000°F (30,000°C) in an instant.
+hint: Look at the box. It gives the temperature.
+explain: Lightning heats the air to about 54,000°F (30,000°C) in an instant.
 
 --- 📏
 p: An average bolt of negative lightning carries 30,000 amperes of electric current.
 
-fact: The biggest positive bolts can carry up to 120 kA.
+fact(Biggest bolts): The biggest positive bolts can carry up to 120 kA.
 
 check: How much electric current does an average bolt carry?
 - 3,000 amperes
-+ 30,000 amperes
 - 300,000 amperes
-hint: Look at the paragraph. The answer is there.
++ 30,000 amperes
+hint: Look at the paragraph. It gives the amount.
 explain: An average bolt of negative lightning carries 30,000 amperes of electric current.
 
 --- ⚙️
@@ -1364,36 +1448,50 @@ p: Thunder is a shock wave.
 
 term: shock wave = A fast push of air, like thunder.
 
-fact: Lightning heats the air so fast that the air blasts outward faster than sound would normally travel.
+fact(Why): Lightning heats the air so fast that the air blasts outward faster than sound would normally travel.
 
 check: What is thunder?
-- A flash of light
 + A shock wave
+- A flash of light
 - A kind of wind
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It says what thunder is.
 explain: Thunder is a shock wave.
 
 --- 👀
 p: Close to the lightning, thunder is usually 165 to 180 decibels loud.
 
-fact: Sometimes it is over 200 decibels.
+fact(Even louder): Sometimes thunder is over 200 decibels.
 
 check: How loud is thunder close to the lightning?
 - 16 to 18 decibels
 + 165 to 180 decibels
 - 1 to 2 decibels
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the loudness.
 explain: Close to the lightning, thunder is usually 165 to 180 decibels loud.
 
 --- 💨
 p: You see lightning before you hear thunder. Light travels much faster than sound.
 
-fact: In dry air, sound goes about 1,130 ft (343 m) every second.
+fact(Sound speed): In dry air, sound goes about 1,130 ft (343 m) every second.
+
+check: How far does sound go each second in dry air?
++ About 1,130 ft each second
+- Only 11 ft each second
+- Nearly 113 ft each second
+hint: Look at the box. It gives the speed.
+explain: In dry air, sound goes about 1,130 ft (343 m) every second.
 
 --- 📐
 p: A thunderstorm cloud, called a cumulonimbus, can reach more than 12 mi (20 km) high.
 
-fact: It grows when warm, moist air moves up and cools.
+fact(How it grows): A cumulonimbus grows when warm, moist air moves up and cools.
+
+check: How high can a thunderstorm cloud reach?
+- Only about 12 ft
+- Nearly 120 ft
++ More than 12 mi
+hint: Look at the paragraph. It gives the height.
+explain: A thunderstorm cloud can reach more than 12 mi (20 km) high.
 
 --- 🔎
 p: A very hot flash. A big electric current. A shock wave. A loud boom. A tall cloud.
@@ -1401,25 +1499,25 @@ p: A very hot flash. A big electric current. A shock wave. A loud boom. A tall c
 p: Lightning is hot.
 
 quiz: What do you see before you hear thunder?
-- A cloud
 + Lightning
+- A cloud
 - A rainbow
 explain: You see lightning before you hear thunder.
 
 quiz: Why do you see lightning first?
 - Sound travels faster than light
-+ Light travels faster than sound
 - Thunder happens later
++ Light travels faster than sound
 explain: Light travels much faster than sound.
 
-quiz: How high can a thunderstorm cloud reach?
-- Only 12 ft
-+ More than 12 mi
-- About 120 ft
-explain: A thunderstorm cloud can reach more than 12 mi (20 km) high.
+quiz: What is a thunderstorm cloud called?
+- A shock wave
++ A cumulonimbus
+- A decibel
+explain: A thunderstorm cloud is called a cumulonimbus.
 
-quiz: How fast does sound travel in dry air?
-- About 11 ft each second
-+ About 1,130 ft each second
-- About 113 ft each second
-explain: In dry air, sound goes about 1,130 ft (343 m) every second.
+quiz: How loud is thunder sometimes?
+- Only 20 decibels
+- About 2 decibels
++ Over 200 decibels
+explain: Sometimes thunder is over 200 decibels.

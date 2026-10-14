@@ -6,10 +6,10 @@ game: Robert Hooke = The man who saw cork cells | Antonie van Leeuwenhoek = Foun
 p: In 1665, Robert Hooke sliced a piece of cork so thin he could see through it.
 fact: He put the slice under his microscope and found it was full of tiny empty boxes.
 p: These boxes reminded him of the little rooms monks slept in. So he called them cells.
-check: Why did Hooke call them cells?
-+ They reminded him of the little rooms monks slept in
+check: In 1665, Robert Hooke looked at a thin slice of cork under a microscope and called the tiny boxes 'cells'. Why did he call them cells?
 - He thought of the tiny windows in old stone churches
 - They looked like the tiny stones that paved old roads
++ They reminded him of the little rooms monks slept in
 hint: The tiny empty boxes reminded him of something specific.
 explain: He named them after the small rooms because that's what they reminded him of.
 
@@ -28,10 +28,10 @@ explain: He found tiny things swimming, which he called animalcules.
 p: You are made of about 30 trillion cells. That is a lot, but nobody counted them all.
 fact(Worked out): The number comes from weighing organs and working out the typical size and weight of each kind of cell. Then someone did the math.
 p: In 2016, a careful recount of the bacteria in and on your body replaced an older figure that was several times too big. A number repeated in textbooks for decades turned out to have been a rough guess nobody had rechecked.
-check: How was the 30 trillion worked out?
+check: How was the number of 30 trillion cells in a human body worked out?
++ By weighing organs and working out the typical size of each kind of cell
 - By putting a body under a huge microscope and counting every last cell
 - By measuring the height of many people and guessing how many cells they have
-+ By weighing organs and working out the typical size of each kind of cell
 hint: The fact box tells you how it was done.
 explain: The number comes from weighing organs and figuring out the typical size of cells, not by counting them all.
 
@@ -50,9 +50,9 @@ explain: The skin of germs is made of fat, and soap breaks that up.
 p: Inside every cell is a long string of instructions called DNA.
 term: DNA = The instructions inside your cells that tell them what to do.
 fact(Worked out): If you pulled the DNA out of one of your cells and stretched it into a line, it would be about 6 feet long. It fits because it is wound round protein spools and coiled again and again, like a very long rope packed into a very small bag.
-check: About how long is the DNA in one cell if you stretch it out?
-+ About 6 feet
+check: About how long is the DNA in one human cell if you stretch it out?
 - About 1 foot
++ About 6 feet
 - About 12 feet
 hint: The fact box tells you the exact length when stretched out.
 explain: The DNA is about 6 feet long when stretched out, but it's packed tightly inside the cell.
@@ -62,8 +62,8 @@ p: Inside almost every cell, there are hundreds of bean-shaped parts that do not
 term: mitochondria = The bean-shaped parts inside your cells that release energy from food.
 fact: Muscle cells that work hard are packed with them; a heart muscle cell can be a third mitochondria by volume.
 check: What do mitochondria do?
-- Make the cell grow bigger
 + Release energy from food
+- Make the cell grow bigger
 - Carry instructions for the cell
 hint: The first paragraph explains what they do.
 explain: Mitochondria release energy from food, helping cells function.
@@ -80,9 +80,9 @@ game: Bacterium = A single tiny living thing | Twenty minutes = How often a comm
 p: Imagine something so tiny that you could lay a thousand of them across the head of a pin and still have room to spare.
 fact: A typical bacterium is about two thousandths of a millimeter long. You could fit a thousand of them across the head of a pin, with room left over.
 check: How many bacteria fit across the head of a pin?
-+ About a thousand, with room to spare
 - About ten thousand, packed in tight
 - About a million, with no room to spare
++ About a thousand, with room to spare
 hint: The fact box says you can fit a thousand with room left over.
 explain: A thousand bacteria fit across the head of a pin, with some space still left.
 
@@ -92,17 +92,17 @@ term: bacterium = A single tiny living thing that splits into two to make more o
 fact: In ideal conditions, a common gut bacterium can split every twenty minutes. That means one becomes eight in an hour and more than a thousand in under four hours.
 check: If one bacterium splits every twenty minutes, how many will there be after an hour?
 - Four
-- Sixteen
 + Eight
+- Sixteen
 hint: Each split doubles the number. Start with one, double it three times (every twenty minutes).
 explain: One becomes two, then four, and finally eight in an hour.
 
 --- ♨️
 p: Some bacteria live where it is so hot that it could cook an egg.
 fact: One was pulled out of a pool at Yellowstone. It makes a heat-proof copying enzyme used in medical tests all over the world.
-check: Where was the heat-proof microbe found?
-- A cold lake in Alaska
+check: Where was the heat-proof microbe used in medical tests pulled from?
 + A hot pool at Yellowstone
+- A cold lake in Alaska
 - An ice cave in Iceland
 hint: The page mentions one specific place in Wyoming.
 explain: This microbe was found in a hot pool at Yellowstone, where it can survive extreme temperatures.
@@ -112,18 +112,18 @@ p: Most of the thousands of kinds of bacteria living on your skin and in your gu
 fact: Only a small handful cause disease. Many are actually useful.
 check: How many kinds of bacteria cause disease?
 - Nearly every single one
-- Thousands of them
 + Only a small handful
+- Thousands of them
 hint: The page mentions that most do nothing to you and many are useful.
 explain: Only a small handful of the thousands of kinds of bacteria cause disease.
 
 --- ⚖️
 p: You may have heard that there are ten times more bacteria in your body than your own cells. That was a guess from 1972 that got repeated for forty years.
 fact(Worked out): When someone finally checked properly, they found it was about one to one. There are still tens of trillions of bacteria, mostly in your large intestine.
-check: When it was checked properly, how many bacteria are there per body cell?
-+ About one
+check: When bacteria were counted properly, about how many were there for each human body cell?
 - Ten times more
 - Half as many
++ About one
 hint: The fact box says the proper check came out at about one to one.
 explain: The number one to one means for every one of your cells, there is about one bacterium.
 
@@ -132,8 +132,8 @@ p: When you take antibiotics to fight bacteria, a few of those bacteria survive 
 fact: Those surviving bacteria breed, and their offspring also survive the drug. This has been watched happening in laboratories and hospitals.
 p: That is why doctors tell you to take antibiotics exactly the way they say, and only when you need them.
 check: Why should you take antibiotics exactly the way the doctor says?
-- To keep the pharmacy from running out of it
 + The few that survive breed and pass it on
+- To keep the pharmacy from running out of it
 - Your body gets used to it and stops needing it
 hint: Look at the fact box. It explains what happens when you do not finish the course.
 explain: Taking them the right way, and only when needed, gives the surviving bacteria less chance to breed and pass on their drug-resistant traits.
@@ -149,10 +149,10 @@ game: Edward Jenner = The doctor who tested cowpox on a boy | Antibiotics = Medi
 --- 🧬
 p: Is a virus alive? It is a bundle of instructions in a coat and does not eat, grow or copy itself on its own.
 fact(Worked out): A virus only does anything at all once it is inside a living cell. Whether that counts as alive is argued about and not settled.
-check: Where does a virus only do anything?
-+ Inside a living cell
+check: Where can a virus come alive and do anything?
 - Outside a living cell
 - On the surface of a rock
++ Inside a living cell
 hint: The fact box tells you where a virus acts.
 explain: A virus is just a bundle of instructions in a coat until it gets inside a living cell.
 
@@ -160,9 +160,9 @@ explain: A virus is just a bundle of instructions in a coat until it gets inside
 p: Viruses are much smaller than bacteria. They can slip right through filters that catch every bacterium.
 fact: That is how people first worked out something else was there. Nobody saw one until the electron microscope came along in the 1930s.
 check: How were viruses first noticed?
++ They passed through filters that catch bacteria
 - They glowed bright green under a strong lamp
 - They turned dark red when mixed with warm water
-+ They passed through filters that catch bacteria
 hint: Viruses are tiny enough to slip through filters that catch bacteria.
 explain: People knew something was there because it could pass through filters designed to catch bacteria.
 
@@ -186,10 +186,10 @@ explain: Antibiotics do nothing to a virus, and taking them for a cold can make 
 p: In 1796, Edward Jenner noticed something curious about milkmaids.
 fact: Those who had caught cowpox did not catch smallpox. He put matter from a milkmaid's sore into a cut on an eight-year-old boy, waited, then deliberately exposed him to smallpox. The boy did not get it.
 p: It was a shocking thing to do to a child, but it worked. Smallpox is the only human disease ever wiped out, and it was declared gone in 1980.
-check: What did Jenner notice about milkmaids?
-+ Those who had caught cowpox did not catch smallpox
+check: What did Edward Jenner notice about milkmaids?
 - Those who drank fresh milk every day never got sick
 - Those who worked in barns caught fewer colds all winter
++ Those who had caught cowpox did not catch smallpox
 hint: Jenner saw a pattern with a specific illness.
 explain: Milkmaids who had cowpox did not get smallpox.
 
@@ -197,8 +197,8 @@ explain: Milkmaids who had cowpox did not get smallpox.
 p: You might think of a cold as one thing, but it is not.
 fact: More than two hundred different viruses produce the same set of symptoms we call a cold. Beating one virus does not protect you from the other one hundred and ninety-nine.
 check: Why is there no cure for the common cold?
-- One tough virus hides deep inside the body
 + More than two hundred different viruses cause it
+- One tough virus hides deep inside the body
 - Colds come from a germ that no medicine can kill
 hint: Each virus causes similar symptoms, but there are many of them.
 explain: There are more than two hundred different viruses that can cause a cold.
@@ -217,8 +217,8 @@ fact: Bread rises because yeast, a kind of fungus, eats the sugar in the dough a
 try: Look closely at the holes in a slice of bread. Each one is where a bubble of carbon dioxide was trapped.
 check: What makes bread rise?
 - Salt gives off oxygen gas as it melts
-- Butter melts and lifts the dough up
 + Yeast gives off carbon dioxide gas
+- Butter melts and lifts the dough up
 hint: Look at the fact box. It explains what yeast does with sugar.
 explain: When yeast eats sugar, it gives off carbon dioxide, and those bubbles get trapped in the dough, making it rise.
 
@@ -228,8 +228,8 @@ fact: Mold does not arrive on bread. It is already in the air of every room, as 
 try: Seal three slices of bread in bags: one untouched, one rubbed on the floor, and one wiped with a damp cloth. Leave them somewhere warm for a week and compare. Do not open them afterwards.
 check: Where does bread mold come from?
 - Germs that crawl up from the plate
-+ Spores that are already in the air
 - Old dough that goes bad all by itself
++ Spores that are already in the air
 hint: Mold spores are floating in the air of every room, waiting for something damp.
 explain: When you leave bread out, you are not catching mold — you are giving it a place to grow.
 
@@ -237,7 +237,7 @@ explain: When you leave bread out, you are not catching mold — you are giving 
 p: In 1928, Alexander Fleming came back from vacation to find something interesting in his lab.
 fact: One of his dishes had gone moldy, and in a clear ring around the mold, the bacteria were dead.
 p: He noticed this instead of just throwing it away. Turning that observation into a usable drug took another twelve years and a different team as well.
-check: What did Fleming notice about the dish with the mold?
+check: What did Alexander Fleming notice about the dish where mold had grown?
 + The bacteria were dead in a ring around the mold
 - The mold was growing much faster than the bacteria were
 - A thick ring of bacteria had grown around the mold
@@ -249,8 +249,8 @@ p: Fungi are not like plants at all. They have no chlorophyll and cannot make th
 fact: Instead, they feed on things that are already dead or alive. Their walls are made of chitin, the same stuff as an insect's shell, and not the cellulose that plant walls are made of.
 p: A mushroom is only the fruit. The organism itself is a mat of threads spread through the soil or wood.
 check: What part of the fungus is a mushroom?
-+ Only the fruit
 - The roots
++ Only the fruit
 - The leaves
 hint: Look at the last paragraph. It tells you what a mushroom really is.
 explain: A mushroom is just the fruit. The rest of the fungus is a mat of threads hidden in the soil or wood.
@@ -259,8 +259,8 @@ explain: A mushroom is just the fruit. The rest of the fungus is a mat of thread
 p: In a forest in Oregon, there is one honey fungus with threads spread across 3.4 square miles.
 fact: It is one organism, but above ground it shows up as scattered clumps of ordinary-looking mushrooms.
 check: How big is the Oregon honey fungus?
-- About 1 square mile
 + 3.4 square miles
+- About 1 square mile
 - Over 10 square miles
 hint: The fact box says how big it is.
 explain: The underground threads of this one organism cover 3.4 square miles.
@@ -300,8 +300,8 @@ fact: A paramecium is covered in thousands of tiny hairs that beat in waves, lik
 p: When it bumps into something, it reverses the beat of its hairs and backs up.
 check: How does a paramecium back up?
 - It uses its mouth to push backward
-- It grows a tail to swim backward
 + It reverses the beat of its hairs
+- It grows a tail to swim backward
 hint: Look at the sentence about reversing the beat.
 explain: When it bumps into something, it simply reverses the beat of its tiny hairs and backs up.
 
@@ -311,8 +311,8 @@ fact: Volvox is a hollow ball made up of hundreds of cells, each with two whips.
 p: Inside the ball are smaller balls — the next generation, growing.
 check: What is growing inside a Volvox ball?
 - Tiny hairs like on a paramecium
-+ Smaller balls, the next generation
 - New sets of whips
++ Smaller balls, the next generation
 hint: The sentence mentions smaller balls inside as the next generation.
 explain: Inside the Volvox ball are smaller balls that are the next generation.
 
@@ -322,8 +322,8 @@ fact: Diatoms build themselves glass boxes with lids. Each kind has a different 
 p: Victorian lens-makers lined them up to test their lenses because the patterns were so precise.
 check: What are diatom shells made of?
 - Wood
-- Metal
 + Glass
+- Metal
 hint: The fact mentions that diatoms build themselves glass boxes.
 explain: Diatoms make glass boxes for themselves.
 
@@ -332,8 +332,8 @@ p: Some single cells in pond water build armor out of whatever is lying around.
 fact: A testate amoeba glues sand grains and bits of diatom shell into a case and carries it, leaving one opening to reach out through.
 p: Different kinds use different materials and build different cases. That is how you tell them apart.
 check: What does a testate amoeba build its case from?
-- Only thin flakes of metal that it picks up from the bottom of ponds
 + Whatever is lying around, like sand grains and bits of diatom shell
+- Only thin flakes of metal that it picks up from the bottom of ponds
 - Only a thick jelly that it makes from its own body and nothing else
 hint: The fact mentions that it glues sand grains and bits of diatom shell.
 explain: A testate amoeba uses whatever is lying around to build its case.
@@ -356,9 +356,9 @@ p: Pull up a clover plant and take a close look at its roots. You will see littl
 fact: Those lumps are full of bacteria that pull nitrogen out of the air and give it to the plant as fertilizer. In return, the plant feeds them sugar.
 try: Dig up a clover from a lawn. Wash the roots gently in a bowl of water and look for tiny pink or white nodules on the roots.
 check: What do the bacteria in clover roots do for the plant?
++ They pull nitrogen out of the air as fertilizer
 - They carry water up from the deep soil to the roots
 - They store sunlight inside the roots to make food
-+ They pull nitrogen out of the air as fertilizer
 hint: Look at the fact box. It tells you what the bacteria give to the plant.
 explain: The bacteria pull nitrogen out of the air and give it to the plant, which helps the plant grow.
 
@@ -366,10 +366,10 @@ explain: The bacteria pull nitrogen out of the air and give it to the plant, whi
 term: microbe = A living thing too small to see without a microscope.
 fact(Worked out, not seen): A single teaspoon of healthy soil is estimated to hold more living organisms than there are people on Earth. The number comes from diluting soil, growing what is in it, and counting.
 p: But this count is probably too low because most soil microbes will not grow in a dish at all.
-check: Why is the soil count probably too low?
-+ Most soil microbes will not grow in a dish
+check: Why is the count of microbes in a spoonful of soil probably too low?
 - Only the top inch of soil was ever checked
 - Soil microbes are too big for the dishes
++ Most soil microbes will not grow in a dish
 hint: The fact box mentions that most soil microbes do not grow in a dish.
 explain: Most soil microbes will not grow in a dish, so the count is likely lower than the actual number.
 
@@ -389,9 +389,9 @@ p: Yogurt is milk that bacteria have soured under control.
 fact: The bacteria turn the milk sugar into acid, which makes the milk proteins clump together and stops anything worse from growing.
 try: Warm milk to about 110°F, stir in two spoons of plain live yogurt, wrap it up warm, and leave it overnight. In the morning, it will be yogurt.
 check: What does the acid in yogurt do?
++ It clumps the milk proteins and stops anything worse growing
 - It melts the milk fat and makes the yogurt taste much sweeter
 - It breaks the milk proteins down into sugar and makes it thin
-+ It clumps the milk proteins and stops anything worse growing
 hint: The fact box explains what the acid does to the milk proteins.
 explain: The acid clumps the milk proteins and keeps other bad bacteria from growing.
 
@@ -401,8 +401,8 @@ fact: Kept fed, a sourdough starter can be passed down for generations, and bake
 try: Mix equal weights of flour and water in a jar. Throw half away and feed it again every day. By about day six it will be bubbling.
 check: Where do the microbes in a sourdough starter come from?
 - The milk in the kitchen
-+ The air and the flour
 - The oven where bread is baked
++ The air and the flour
 hint: Look at the first sentence on the page for where the microbes come from.
 explain: The wild yeast and bacteria from the air and the flour move into the mix.
 
@@ -410,8 +410,8 @@ explain: The wild yeast and bacteria from the air and the flour move into the mi
 p: Inside your large intestine, there are lots of bacteria that help break down fiber you cannot digest.
 fact: These same bacteria also make vitamin K, which your blood needs to clot properly.
 check: Which vitamin do gut bacteria make?
-+ Vitamin K
 - Vitamin C
++ Vitamin K
 - Vitamin D
 hint: The page talks about a vitamin that helps your blood clot.
 explain: Gut bacteria make vitamin K, which is important for blood clotting.
@@ -428,9 +428,9 @@ game: Water drop = Acts as a magnifying lens | Van Leeuwenhoek = Used tiny glass
 p: A single drop of water can do something surprising: it becomes a lens.
 fact: Hold a drop on a loop of wire over a printed page or put one on clear plastic, and it magnifies. The same principle is used in the glass bead that first showed anyone a bacterium.
 try: Put a drop of water on clear plastic over some writing and see what happens.
-check: What does a drop of water do to print under it?
-- It darkens it
+check: What does a drop of water do to the print under it?
 + It magnifies it
+- It darkens it
 - It blurs it
 hint: Look at the fact box. It says it magnifies.
 explain: A drop of water magnifies, making the print bigger and clearer.
@@ -439,8 +439,8 @@ explain: A drop of water magnifies, making the print bigger and clearer.
 p: Van Leeuwenhoek's microscopes were not like the ones you might see today. They were small flat brass plates with one tiny glass bead in a hole.
 fact: The glass bead was held right up against the eye. About a dozen of these original microscopes still exist and they still work.
 check: What was the lens in Leeuwenhoek's microscope?
-+ One tiny glass bead
 - A small drop of water
++ One tiny glass bead
 - A curved metal mirror
 hint: Look at the fact box. It mentions one tiny glass bead.
 explain: The lens was just one tiny glass bead held right up against the eye.
@@ -460,11 +460,11 @@ explain: Light waves have a limit. Viruses are smaller than those light waves, s
 p: An electron microscope does not use light. Instead, it fires electrons, which behave like much shorter waves.
 term: electron microscope = A microscope that uses electrons instead of light to see tiny things.
 fact: The machine works in a vacuum, and everything has to be coated in metal first. This means nothing being looked at can be alive, so you can see a virus but never see it moving.
-check: What is the trade with an electron microscope?
+check: What is the trade-off with an electron microscope?
 - You can see a virus but only if it is dripping wet
++ You can see a virus but never see it moving
 - You can see a virus but it is not clear
 - You can see a virus but only the biggest kinds
-+ You can see a virus but never see it moving
 hint: Look at the fact box. It says that everything has to be coated in metal and nothing can be alive.
 explain: You get to see a virus, but you never get to see it moving because nothing seen is alive.
 
@@ -472,9 +472,9 @@ explain: You get to see a virus, but you never get to see it moving because noth
 p: Most cells are clear, like a drop of water. So microscopists dye them so they show up.
 fact: One old recipe, from Hans Christian Gram in 1884, splits bacteria into two groups based on whether the color washes out of their walls. This simple test still tells doctors which antibiotic to use.
 check: Why do microscopists dye cells?
-+ Most cells are transparent
 - They look prettier in colors
 - It makes them bigger
++ Most cells are transparent
 hint: Look at the first sentence on the page.
 explain: Most cells are see-through, so dyes help them stand out under a microscope.
 
@@ -483,8 +483,8 @@ p: Before 1887, scientists grew tiny life forms on slices of potato. Not great, 
 fact: In 1887, Julius Petri, an assistant in Robert Koch's lab, invented the flat round dish with a loose lid.
 p: The lid rests on top but does not seal. That way air gets in and dust stays out.
 check: Who invented the Petri dish?
-- Louis Pasteur, a chemist working in Paris
 + Julius Petri, an assistant in Koch's laboratory
+- Louis Pasteur, a chemist working in Paris
 - Joseph Lister, a surgeon working in Edinburgh
 hint: Look at the fact box for the inventor's name.
 explain: Julius Petri came up with the dish while he was working in Koch's lab.
@@ -501,9 +501,9 @@ game: Ignaz Semmelweis = Made doctors wash their hands | Chlorine = What Semmelw
 p: In 1847, a doctor named Ignaz Semmelweis noticed something that nobody wanted to hear.
 fact: Mothers in the doctors' ward were dying far more often than those in the midwives' ward. The doctors came straight from dissecting the dead.
 p: He made the doctors wash their hands in chlorine. The deaths dropped away.
-check: What did Semmelweis make the doctors do?
-- Wear gloves while dissecting
+check: What did Ignaz Semmelweis make the doctors in his hospital do?
 + Wash their hands in chlorine
+- Wear gloves while dissecting
 - Change clothes between wards
 hint: Look at the fact box. It says what he made them wash their hands in.
 explain: Washing hands in chlorine helped drop the deaths, but he was ignored and mocked because germs were not yet shown.
@@ -514,8 +514,8 @@ fact: One end of a soap molecule grips grease, and the other grips water. This l
 try: Sprinkle pepper on a bowl of water, then touch the surface with a soapy finger. The pepper will flee to the edges instantly.
 check: What does soap do to germs?
 - It poisons them with chemicals and kills them on the spot
-- It sucks all the water out of them until they shrivel up
 + It lifts them off with the grease and sends them down the drain
+- It sucks all the water out of them until they shrivel up
 hint: Look at the fact box. It says how soap molecules work.
 explain: Soap lifts off grease and everything stuck in it, including germs, and sends them down the drain.
 
@@ -524,9 +524,9 @@ p: You might wonder why we count to twenty when we wash our hands.
 fact: Twenty seconds is not just a number. It is about how long scrubbing takes to lift things off your skin, especially under nails and between fingers.
 try: Next time you wash your hands, count to twenty as you scrub.
 check: Why do we wash our hands for about twenty seconds?
-+ That is how long it takes to physically lift things off your skin
 - Soap needs that long to kill every last germ on your skin
 - Because it takes that long for the water to get hot enough
++ That is how long it takes to physically lift things off your skin
 hint: Look at the fact box. It explains why scrubbing takes that long.
 explain: Twenty seconds is about how long careful scrubbing takes to lift everything off your skin, especially in tricky spots like under your nails and between your fingers.
 
@@ -535,8 +535,8 @@ p: Have you ever felt really warm with a fever? That is your body doing somethin
 fact: A fever is not something germs do to you. Your own body turns up the temperature because most germs that can make you sick do not grow as well when it gets hotter.
 p: This is why a mild fever is usually left alone. It is a weapon being used, not damage being done.
 check: Who turns the temperature up in a fever?
-- The germs making you sick
 + Your own body
+- The germs making you sick
 - The medicine you take
 hint: Look at the first fact box on this page. It explains who raises the temperature.
 explain: Your body raises its temperature to fight off what is making you sick.
@@ -547,8 +547,8 @@ fact: In a fridge, bacteria take days to reach numbers that could make you sick,
 p: Freezing nearly stops bacteria altogether. But when it thaws, they start up again where they left off.
 check: Does a fridge kill bacteria?
 - Yes, it kills them completely
-- It speeds them up
 + No, it only slows them down
+- It speeds them up
 hint: Look at the fact box on this page. It explains how long bacteria take to reach numbers that could make you sick.
 explain: A fridge does not kill bacteria; it just slows them down so much that they take days instead of hours to grow to levels that could make you sick.
 
@@ -557,9 +557,9 @@ term: pasteurized = Heated to about 161°F for fifteen seconds and then chilled 
 fact: The method is named after Louis Pasteur and is on almost every carton you have ever opened.
 try: Look at a milk carton for the word pasteurized. Then find one that says UHT (ultra-high temperature) and compare the dates. Hotter treatment means much longer life, but a different taste.
 check: About how hot is milk heated to be pasteurized?
-+ About 161°F
 - About 100°F
 - About 200°F
++ About 161°F
 hint: Look at the first number on the page.
 explain: Milk is heated to about 161°F for fifteen seconds, then quickly chilled. This kills harmful germs without cooking the milk.
 
@@ -567,7 +567,7 @@ explain: Milk is heated to about 161°F for fifteen seconds, then quickly chille
 p: Wash for twenty seconds. Chill the food. Heat the milk. Let a fever do its work.
 p: Small habits, and your own body does the rest.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === micro-hunters
 idea: Meet the people who first looked at microbes, and the ones who found ways to fight them.
 
@@ -578,67 +578,81 @@ p: Antonie van Leeuwenhoek made his own microscopes, each with a single lens.
 
 term: microscope = A tool with a lens, like the single lens Leeuwenhoek used.
 
-fact: He was the first person to observe and experiment with microbes.
+fact(A first): Leeuwenhoek was the first person to observe and experiment with microbes.
 
-check: Who was the first person to observe microbes?
-- Christopher Columbus
+check: Who was the first person to observe and experiment with microbes?
 + Antonie van Leeuwenhoek
+- Christopher Columbus
 - Alexander Graham Bell
-hint: Look at the paragraph. The answer is there.
-explain: Antonie van Leeuwenhoek made his own microscopes, each with a single lens.
+hint: Look at the paragraph. It names the person who made his own microscopes.
+explain: Leeuwenhoek was the first person to observe and experiment with microbes.
 
 --- 🧑
 p: Antonie van Leeuwenhoek wrote some 190 letters to the Royal Society about his findings.
 
-fact: He wrote them in Dutch.
+fact(In Dutch): Leeuwenhoek wrote his letters in Dutch.
 
-check: How many letters did Van Leeuwenhoek write to the Royal Society?
+check: How many letters did Leeuwenhoek write to the Royal Society?
 - About 19
 + About 190
 - About 1,900
-hint: Look at the paragraph. The answer is there.
-explain: Antonie van Leeuwenhoek wrote some 190 letters to the Royal Society about his findings.
+hint: Look at the paragraph. It gives the number of letters.
+explain: Leeuwenhoek wrote some 190 letters to the Royal Society about his findings.
 
 --- 👤
 p: In 1665, Robert Hooke was one of the first scientists to study living things at microscopic scale.
 
-fact: He used a compound microscope that he designed.
+fact(His tool): Robert Hooke used a compound microscope that he designed.
 
 check: Who designed a compound microscope in 1665?
 - Louis Pasteur
-+ Robert Hooke
 - Isaac Newton
-hint: Look at the paragraph. The answer is there.
-explain: In 1665, Robert Hooke was one of the first scientists to study living things at microscopic scale.
++ Robert Hooke
+hint: Look at the paragraph. It names the scientist who studied living things in 1665.
+explain: Robert Hooke used a compound microscope that he designed.
 
 --- 👑
 p: Louis Pasteur invented a way to treat milk so that bacteria cannot spoil it.
 
-fact: The process is now called pasteurization.
+fact(Its name): The process is now called pasteurization.
 
-check: What is the process Pasteur invented called?
-- Fermentation
+check: What is the process called that Louis Pasteur invented to treat milk?
 + Pasteurization
+- Fermentation
 - Evaporation
-hint: Look at the box. The answer is there.
-explain: The process is now called pasteurization.
+hint: Look at the box. It gives the name of the process.
+explain: The process that Louis Pasteur invented is now called pasteurization.
 
 --- 🧑‍🔬
 p: Louis Pasteur's work is credited with saving millions of lives.
 
-fact: It saved lives through vaccines for rabies and anthrax.
+fact(How): Pasteur's work saved lives through vaccines for rabies and anthrax.
+
+check: Pasteur's work saved millions of lives through vaccines for which two diseases?
+- Measles and mumps
++ Rabies and anthrax
+- Colds and flu
+hint: Look at the box. It names the two diseases.
+explain: Pasteur's work saved lives through vaccines for rabies and anthrax.
 
 --- 🔎
 p: In 1928, Alexander Fleming found penicillin in a mold.
 
-fact: It has been called the greatest victory ever won over disease.
+fact(Its fame): Penicillin has been called the greatest victory ever won over disease.
+
+check: In which year did Alexander Fleming find penicillin in a mold?
+- 1298
+- 1982
++ 1928
+hint: Look at the paragraph. It gives the year.
+explain: In 1928, Alexander Fleming found penicillin in a mold.
 
 --- 🎈
 p: A single lens. Letters in Dutch. A compound microscope. Milk made safe. Vaccines. A mold with penicillin.
 
 p: Microbes were found.
 
-quiz: What was in each of Leeuwenhoek's microscopes?
+quiz: What did each of Leeuwenhoek's microscopes have?
 - Two mirrors
 + A single lens
 - A tiny flame
@@ -646,23 +660,23 @@ explain: Leeuwenhoek made his own microscopes, each with a single lens.
 
 quiz: What language did Leeuwenhoek write his letters in?
 - French
-+ Dutch
 - Latin
-explain: He wrote them in Dutch.
++ Dutch
+explain: Leeuwenhoek wrote his letters in Dutch.
 
-quiz: What did Pasteur invent a way to treat so that bacteria could not spoil it?
-- Bread
+quiz: What did Louis Pasteur invent a way to treat so that bacteria could not spoil it?
 + Milk
+- Bread
 - Water
 explain: Louis Pasteur invented a way to treat milk so that bacteria cannot spoil it.
 
-quiz: In what year did Alexander Fleming find penicillin in a mold?
-- 1298
-+ 1928
-- 1982
-explain: In 1928, Alexander Fleming found penicillin in a mold.
+quiz: What did Alexander Fleming find in a mold?
+- A microscope
++ Penicillin
+- A vaccine
+explain: Alexander Fleming found penicillin in a mold.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === micro-tiny
 idea: Meet tiny animals that live in the sea, in fresh water and even in the dust in homes.
 
@@ -673,91 +687,105 @@ p: Tardigrades are usually about 0.02 in (0.5 mm) long when fully grown.
 
 term: tardigrade = The tiny animal usually about 0.02 in long when fully grown.
 
-fact: Most range from 0.002 to 0.02 in (0.05 to 0.5 mm).
+fact(The range): Most tardigrades range from 0.002 to 0.02 in (0.05 to 0.5 mm).
 
 check: What is the length of a fully grown tardigrade?
-- About 0.2 in
 + About 0.02 in
+- About 0.2 in
 - About 2 in
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the length.
 explain: Tardigrades are usually about 0.02 in (0.5 mm) long when fully grown.
 
 --- 🧑
-p: In 1773, a German scientist called them 'little water bears'.
+p: In 1773, a German scientist called tardigrades 'little water bears'.
 
-fact: In 1776, an Italian scientist named them Tardigrada, which means slow walkers.
+fact(A new name): In 1776, an Italian scientist named them Tardigrada, which means slow walkers.
 
 check: What does the name Tardigrada mean?
 - Tiny swimmers
-+ Slow walkers
 - Fast runners
-hint: Look at the box. The answer is there.
-explain: In 1776, an Italian scientist named them Tardigrada, which means slow walkers.
++ Slow walkers
+hint: Look at the box. It says what the name means.
+explain: The name Tardigrada means slow walkers.
 
 --- 🏡
 p: About 1,500 species of tardigrades are known.
 
-fact: They live on land, in fresh water and in the sea.
+fact(Where they live): Tardigrades live on land, in fresh water and in the sea.
 
 check: About how many species of tardigrades are known?
 - 150
 + 1,500
 - 15,000
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the number of species.
 explain: About 1,500 species of tardigrades are known.
 
 --- 📏
-p: Now meet the house dust mite.
+p: A house dust mite is a tiny animal.
 
-fact: A typical one is only about 0.01 in long.
+fact(Its size): A typical house dust mite is only about 0.01 in long.
 
 check: What is the length of a typical house dust mite?
-- About 0.1 in
 + About 0.01 in
+- About 0.1 in
 - About 1 in
-hint: Look at the box. The answer is there.
-explain: A typical one is only about 0.01 in long.
+hint: Look at the box. It gives the length.
+explain: A typical house dust mite is only about 0.01 in long.
 
 --- 🌍
 p: Dust mites live in the dust in homes.
 
-fact: In a survey, dust mite allergen was found in the beds of about 84% of U.S. homes.
+fact(How common): In a survey, dust mite allergen was found in the beds of about 84% of U.S. homes.
+
+check: In a survey, what share of U.S. homes had dust mite allergen in the beds?
+- About 8%
+- About 48%
++ About 84%
+hint: Look at the box. It gives the share of homes.
+explain: In a survey, dust mite allergen was found in the beds of about 84% of U.S. homes.
 
 --- 👤
 p: Rotifers are tiny animals with many cells.
 
-fact: Scientists did not recognize them as animals until 1838, and now about 2,200 species of rotifers are known.
+fact(Late to be known): Scientists did not recognize rotifers as animals until 1838. Now about 2,200 species of rotifers are known.
+
+check: How many species of rotifers are known now?
+- About 22
++ About 2,200
+- About 220,000
+hint: Look at the box. It gives the number of species.
+explain: About 2,200 species of rotifers are known now.
 
 --- 🔎
 p: A tiny water bear. A mite in house dust. A rotifer with many cells.
 
 p: Tiny animals are all around.
 
-quiz: In what year did a German scientist call them 'little water bears'?
-- 1377
+quiz: In what year did a German scientist call tardigrades 'little water bears'?
 + 1773
+- 1377
 - 1737
-explain: In 1773, a German scientist called them 'little water bears'.
+explain: In 1773, a German scientist called tardigrades 'little water bears'.
 
-quiz: How many species of rotifers are known now?
-- About 22
-+ About 2,200
-- About 220,000
-explain: Now about 2,200 species of rotifers are known.
+quiz: What does the name Tardigrada mean?
+- Water swimmers
++ Slow walkers
+- Dust eaters
+explain: The name Tardigrada means slow walkers.
 
 quiz: What did scientists not recognize rotifers as until 1838?
 - Plants
-+ Animals
 - Rocks
-explain: Scientists did not recognize them as animals until 1838.
++ Animals
+explain: Scientists did not recognize rotifers as animals until 1838.
 
-quiz: What share of U.S. homes had dust mite allergen in the beds in a survey?
-- About 8%
-+ About 84%
-- About 48%
-explain: Dust mite allergen was found in the beds of about 84% of U.S. homes.
+quiz: Where do tardigrades live?
+- Only in hot desert sand
++ On land, in fresh water and in the sea
+- Only in the deepest caves
+explain: Tardigrades live on land, in fresh water and in the sea.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === micro-algae
 idea: Some algae are giant seaweeds, and the tiny ones called phytoplankton make at least half of the oxygen.
 
@@ -768,60 +796,74 @@ p: Algae can be microscopic one-celled microalgae or giant seaweeds.
 
 term: seaweed = The giant kind of algae, which may grow up to 160 ft long.
 
-fact: Some seaweeds may grow up to 160 ft (50 m) long.
+fact(How big): Some seaweeds may grow up to 160 ft (50 m) long.
 
 check: How long can giant seaweeds grow?
 - Only 16 ft
-+ Up to 160 ft
 - Nearly 1,600 ft
-hint: Look at the box. The answer is there.
++ Up to 160 ft
+hint: Look at the box. It gives how long seaweeds can grow.
 explain: Some seaweeds may grow up to 160 ft (50 m) long.
 
 --- 🏡
 p: Most algae live in water, especially in the sea.
 
-fact: Most are plankton, carried along by the water, though some big seaweeds hold themselves in place with holdfasts.
+fact(Floating or fixed): Most algae are plankton, carried along by the water. Some big seaweeds hold themselves in place with holdfasts.
 
 check: Where do most algae live?
 - On dry sand
 + In water
 - In tall trees
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It says where most algae live.
 explain: Most algae live in water, especially in the sea.
 
 --- ⚙️
 p: Phytoplankton get their energy from sunlight, by photosynthesis.
 
-fact: Trees and other plants do the same on land. So they live in the sunlit surface of oceans and lakes.
+fact(Where they live): Trees and other plants make energy from sunlight on land. Phytoplankton live in the sunlit surface of oceans and lakes.
 
 check: Where do phytoplankton live?
-- The dark floor of the deepest caves
 + The sunlit surface of oceans and lakes
+- The dark floor of the deepest caves
 - The dry soil under the trees
-hint: Look at the box. The answer is there.
-explain: So they live in the sunlit surface of oceans and lakes.
+hint: Look at the box. It says where they live.
+explain: Phytoplankton live in the sunlit surface of oceans and lakes.
 
 --- 📏
 p: Phytoplankton are only about 1% of all the plant material on Earth.
 
-fact: Yet they do about half of all photosynthesis and make at least half of the oxygen.
+fact(Big job): Yet phytoplankton do about half of all photosynthesis and make at least half of the oxygen.
 
 check: How much of Earth's oxygen do phytoplankton make?
 - About 1%
-+ At least half
 - Almost none
-hint: Look at the box. The answer is there.
-explain: Yet they do about half of all photosynthesis and make at least half of the oxygen.
++ At least half
+hint: Look at the box. It says how much oxygen they make.
+explain: Phytoplankton make at least half of the oxygen.
 
 --- 📐
 p: About 12,000 species of diatoms have been documented.
 
-fact: Diatoms are phytoplankton, the most common kind of plankton.
+fact(What they are): Diatoms are phytoplankton, the most common kind of plankton.
+
+check: About how many species of diatoms have been documented?
+- About 120
++ About 12,000
+- About 1,200,000
+hint: Look at the paragraph. It gives the number of species.
+explain: About 12,000 species of diatoms have been documented.
 
 --- ⚖️
 p: Diatoms are tiny, generally 20 to 200 micrometers across.
 
-fact: They form huge blooms each spring and fall, and make about half of the photosynthesis in the oceans.
+fact(Blooms): Diatoms form huge blooms each spring and fall, and make about half of the photosynthesis in the oceans.
+
+check: When do diatoms form huge blooms?
++ Each spring and fall
+- Only on cold nights
+- Just once in a century
+hint: Look at the box. It says when the blooms happen.
+explain: Diatoms form huge blooms each spring and fall.
 
 --- 🔎
 p: A giant seaweed. Algae in the sea. Phytoplankton that use sunlight. Half of the oxygen. Diatoms in blooms.
@@ -834,25 +876,25 @@ quiz: What do some big seaweeds use to hold themselves in place?
 - Pebbles
 explain: Some big seaweeds hold themselves in place with holdfasts.
 
-quiz: About how many species of diatoms have been documented?
-- About 120
-+ About 12,000
-- About 1,200,000
-explain: About 12,000 species of diatoms have been documented.
-
-quiz: When do diatoms form huge blooms?
-- Only on cold nights
-+ Each spring and fall
-- Just once in a century
-explain: They form huge blooms each spring and fall.
-
 quiz: How much of the plant material on Earth are phytoplankton?
 - About half
-+ About 1%
 - Almost all
++ About 1%
 explain: Phytoplankton are only about 1% of all the plant material on Earth.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: Which tiny algae are the most common kind of plankton?
++ Diatoms
+- Seaweeds
+- Holdfasts
+explain: Diatoms are phytoplankton, the most common kind of plankton.
+
+quiz: What do phytoplankton get their energy from?
+- Rocks
++ Sunlight
+- Sand
+explain: Phytoplankton get their energy from sunlight, by photosynthesis.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === micro-food
 idea: Tiny yeasts and bacteria help make bread rise and keep sour foods like yogurt from spoiling.
 
@@ -863,60 +905,74 @@ p: Fermentation is a change made by tiny yeasts or bacteria.
 
 term: fermentation = A change made when yeasts or bacteria turn sugars into acids.
 
-fact: They turn sugars and starches into acids and other chemicals.
+fact(What they do): Yeasts and bacteria turn sugars and starches into acids and other chemicals.
 
 check: What causes fermentation?
 - Bright light from the sun
-+ Yeasts or bacteria
 - Cold wind off the sea
-hint: Look at the paragraph. The answer is there.
++ Yeasts or bacteria
+hint: Look at the paragraph. It says what makes the change.
 explain: Fermentation is a change made by tiny yeasts or bacteria.
 
 --- ⚙️
 p: Yeast makes carbon dioxide gas that makes bread rise.
 
-fact: Bacteria make lactic acid that helps keep sour foods like sauerkraut and yogurt from spoiling.
+fact(Bacteria too): Bacteria make lactic acid that helps keep sour foods like sauerkraut and yogurt from spoiling.
 
 check: What makes bread rise?
-- Lactic acid and sugar
 + Carbon dioxide gas
+- Lactic acid and sugar
 - Cold water and flour
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It says what makes bread rise.
 explain: Yeast makes carbon dioxide gas that makes bread rise.
 
 --- 🧑
 p: Louis Pasteur was a French chemist.
 
-fact: In 1856, he showed that yeast is connected to fermentation.
+fact(1856): In 1856, Louis Pasteur showed that yeast is connected to fermentation.
 
-check: Who connected yeast to fermentation in 1856?
+check: Who showed that yeast is connected to fermentation in 1856?
 - Edward Jenner
 + Louis Pasteur
 - Robert Hooke
-hint: Look at the paragraph. The answer is there.
-explain: Louis Pasteur was a French chemist.
+hint: Look at the paragraph. It names the French chemist.
+explain: In 1856, Louis Pasteur showed that yeast is connected to fermentation.
 
 --- 🍽️
 p: Cheese is made by curdling milk, usually from cows, goats or sheep.
 
-fact: Over a thousand types of cheese exist.
+fact(Many kinds): Over a thousand types of cheese exist.
 
 check: What do you curdle to make cheese?
 - Flour
-+ Milk
 - Water
-hint: Look at the paragraph. The answer is there.
-explain: Cheese is made by curdling milk, usually from cows, goats or sheep.
++ Milk
+hint: Look at the paragraph. It says what cheese is made from.
+explain: Cheese is made by curdling milk.
 
 --- 🍎
 p: Yogurt is most often made from cow's milk.
 
-fact: Milk from water buffalo, goats, ewes, mares, camels and yaks can be used too.
+fact(Other milks): Milk from water buffalo, goats, ewes, mares, camels and yaks can be used too.
+
+check: Which animal's milk is yogurt most often made from?
+- A camel
++ A cow
+- A yak
+hint: Look at the paragraph. It names the animal.
+explain: Yogurt is most often made from cow's milk.
 
 --- 📅
 p: Sourdough bread was carried into Alaska and the Yukon in Canada.
 
-fact: It went there during the Klondike Gold Rush of 1898.
+fact(When): Sourdough bread went there during the Klondike Gold Rush of 1898.
+
+check: Sourdough bread was carried into Alaska and the Yukon during which event?
++ The Klondike Gold Rush
+- The Great Plains Drought
+- The Panama Canal Dig
+hint: Look at the box. It names the event.
+explain: Sourdough bread was carried into Alaska and the Yukon during the Klondike Gold Rush of 1898.
 
 --- 🔎
 p: Yeasts that make bread rise. Bacteria that keep yogurt from spoiling. Cheese from milk. Bread in the Gold Rush.
@@ -930,24 +986,24 @@ quiz: What gas does yeast make that makes bread rise?
 explain: Yeast makes carbon dioxide gas that makes bread rise.
 
 quiz: What do bacteria make that helps keep yogurt from spoiling?
-- Carbon dioxide
 + Lactic acid
+- Carbon dioxide
 - Cold water
 explain: Bacteria make lactic acid that helps keep sour foods like yogurt from spoiling.
 
 quiz: In what year did Louis Pasteur show that yeast is connected to fermentation?
 - 1658
-+ 1856
 - 1865
++ 1856
 explain: In 1856, Louis Pasteur showed that yeast is connected to fermentation.
 
-quiz: Where was sourdough bread carried during the Klondike Gold Rush?
-- Texas and New Mexico
-+ Alaska and the Yukon
-- Mexico and Peru
-explain: Sourdough bread was carried into Alaska and the Yukon in Canada.
+quiz: In which year of the Klondike Gold Rush was sourdough bread carried into Alaska?
++ 1898
+- 1889
+- 1989
+explain: Sourdough bread was carried into Alaska and the Yukon during the Klondike Gold Rush of 1898.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === micro-water
 idea: A doctor followed a sickness back to one water pump, and that changed how cities handle water.
 
@@ -958,62 +1014,76 @@ p: Dr. John Snow traced a cholera outbreak in London's Soho back to one public w
 
 term: cholera = The sickness Dr. Snow traced back to one public water pump.
 
-fact: His work helped start the study of how diseases spread.
+fact(What it started): Dr. Snow's work helped start the study of how diseases spread.
 
 check: What did John Snow trace the cholera outbreak to?
-- One crowded city street
 + One public water pump
+- One crowded city street
 - One busy fish market
-hint: Look at the paragraph. The answer is there.
-explain: John Snow traced a cholera outbreak in London's Soho back to one public water pump.
+hint: Look at the paragraph. It says what he traced the outbreak to.
+explain: Dr. John Snow traced a cholera outbreak back to one public water pump.
 
 --- 🧑
 p: Snow's findings changed how London handled its water and waste.
 
-fact: Other cities made the same changes, and public health improved around the world.
+fact(Other cities): Other cities made the same changes, and public health improved around the world.
 
-check: Which city changed its water and waste systems because of Snow?
+check: Which city changed its water and waste systems because of Dr. Snow's findings?
 - Paris
-+ London
 - Rome
-hint: Look at the paragraph. The answer is there.
++ London
+hint: Look at the paragraph. It names the city.
 explain: Snow's findings changed how London handled its water and waste.
 
 --- ⚙️
 p: The first step in cleaning surface water is to take out big things like sticks, leaves and rubbish.
 
-fact: They would get in the way of the later steps.
+fact(Why first): Big things would get in the way of the later steps.
 
 check: What is the first step in cleaning surface water?
 - Heating all of the water until it is boiling
 + Taking out big things like sticks and leaves
 - Adding a lot of salt to the water supply
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It says what the first step is.
 explain: The first step in cleaning surface water is to take out big things like sticks, leaves and rubbish.
 
 --- 🔧
 p: People clean water in many ways.
 
-fact: They use filters, slow sand filters, chlorine, and even ultraviolet light.
+fact(Some ways): People use filters, slow sand filters, chlorine, and even ultraviolet light.
 
 check: What kind of light can clean water?
-- Bright candle light
 + Ultraviolet light
+- Bright candle light
 - Warm yellow light
-hint: Look at the box. The answer is there.
-explain: They use filters, slow sand filters, chlorine, and even ultraviolet light.
+hint: Look at the box. It names the light.
+explain: People can clean water with filters, slow sand filters, chlorine, and even ultraviolet light.
 
 --- 🏠
 p: Chlorine is a common disinfectant.
 
 term: disinfectant = Something used in swimming pools to keep them sanitary.
 
-fact: It is used in swimming pools to keep them sanitary.
+fact(In pools): Chlorine is used in swimming pools to keep them sanitary.
+
+check: What is chlorine used in swimming pools to do?
+- Make the water look blue
+- Keep the water warm all year
++ Keep them sanitary
+hint: Look at the box. It says what chlorine is used for.
+explain: Chlorine is used in swimming pools to keep them sanitary.
 
 --- 🧩
 p: Boiling or a home filter is not always enough.
 
-fact: Water from an unknown place can hold things that they do not remove.
+fact(Why): Water from an unknown place can hold things that boiling or a filter does not remove.
+
+check: Is boiling or a home filter always enough for water from an unknown place?
+- Yes, always enough
++ No, not always
+- Yes, in most homes
+hint: Look at the paragraph. It says whether boiling is enough.
+explain: Boiling or a home filter is not always enough.
 
 --- 🔎
 p: A pump in London. A big step with sticks and leaves. Filters, chlorine and ultraviolet light.
@@ -1022,29 +1092,29 @@ p: Clean water takes care.
 
 quiz: What kind of sickness did Dr. John Snow trace to a water pump?
 - Smallpox
-+ Cholera
 - Rabies
++ Cholera
 explain: Dr. John Snow traced a cholera outbreak to one public water pump.
 
-quiz: What is chlorine used in swimming pools to do?
-- Make the water look blue
-+ Keep them sanitary
-- Keep the water warm all year
-explain: Chlorine is used in swimming pools to keep them sanitary.
-
-quiz: What did Snow's work help start the study of?
-- How rivers are formed
+quiz: What did Dr. Snow's work help start the study of?
 + How diseases spread
+- How rivers are formed
 - How clouds make rain
-explain: His work helped start the study of how diseases spread.
+explain: Dr. Snow's work helped start the study of how diseases spread.
 
-quiz: Is boiling or a home filter always enough for water from an unknown place?
-- Yes, always enough
-+ No, not always
-- Yes, in most homes
-explain: Boiling or a home filter is not always enough.
+quiz: What is the first step in cleaning surface water?
+- Adding sugar
++ Taking out big things
+- Letting it freeze
+explain: The first step in cleaning surface water is to take out big things like sticks, leaves and rubbish.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: What is chlorine, in water cleaning?
+- A kind of filter
+- A kind of sand
++ A common disinfectant
+explain: Chlorine is a common disinfectant.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === micro-extremes
 idea: Microbes live where it is far too hot for you, deep below the sea floor and in hot springs.
 
@@ -1053,62 +1123,76 @@ game: Microbes = Found below the sea floor | Spores = Alive after heating to 788
 --- 🌋
 p: Microbes have been found below the sea floor.
 
-fact: They were in sediment as hot as 248°F (120°C), 0.75 mi (1.2 km) down.
+fact(How hot): The microbes were in sediment as hot as 248°F (120°C), 0.75 mi (1.2 km) down.
 
-check: How hot was the sediment where microbes were found?
-- 128°F
+check: How hot was the sediment where microbes were found below the sea floor?
 + 248°F
+- 128°F
 - 842°F
-hint: Look at the box. The answer is there.
-explain: They were in sediment as hot as 248°F (120°C), 0.75 mi (1.2 km) down.
+hint: Look at the box. It gives the temperature.
+explain: The microbes were in sediment as hot as 248°F (120°C).
 
 --- 🏡
 p: Some microbes thrive inside rocks.
 
-fact: They have been found up to 1,900 ft (580 m) below the sea floor, under 8,500 ft (2,600 m) of ocean.
+fact(How deep): These microbes have been found up to 1,900 ft (580 m) below the sea floor, under 8,500 ft (2,600 m) of ocean.
 
 check: How far below the sea floor were microbes found inside rocks?
 - 190 ft
-+ 1,900 ft
 - 19,000 ft
-hint: Look at the box. The answer is there.
-explain: They have been found up to 1,900 ft (580 m) below the sea floor, under 8,500 ft (2,600 m) of ocean.
++ 1,900 ft
+hint: Look at the box. It gives the depth.
+explain: Microbes have been found inside rocks up to 1,900 ft (580 m) below the sea floor.
 
 --- 🤔
 p: Spores from a kind of Bacillus bacteria were still alive after being heated.
 
 term: spore = A tough form of bacteria that stays alive after being heated.
 
-fact: They were heated to 788°F (420°C).
+fact(How hot): The spores were heated to 788°F (420°C).
 
 check: How hot were the Bacillus spores heated?
 - 478°F
 + 788°F
 - 88°F
-hint: Look at the box. The answer is there.
-explain: They were heated to 788°F (420°C).
+hint: Look at the box. It gives the temperature.
+explain: The Bacillus spores were heated to 788°F (420°C) and were still alive.
 
 --- 📅
 p: In the 1960s, scientists thought bacteria could not live above about 131°F (55°C).
 
-fact: Soon they found many bacteria that survived and even thrived at higher temperatures.
+fact(A surprise): Soon scientists found many bacteria that lived, and even thrived, in higher heat.
 
 check: What temperature did scientists in the 1960s think bacteria could not live above?
-- 311°F
 + 131°F
+- 311°F
 - 113°F
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the temperature.
 explain: In the 1960s, scientists thought bacteria could not live above about 131°F (55°C).
 
 --- 🔧
 p: A hot-spring bacterium called Thermus aquaticus makes an enzyme that handles heat.
 
-fact: Scientists use it in PCR, a way to copy DNA.
+fact(A use): Scientists use this enzyme in PCR, a way to copy DNA.
+
+check: What does Thermus aquaticus make that handles heat?
+- A mineral
+- A pigment
++ An enzyme
+hint: Look at the paragraph. It says what the bacterium makes.
+explain: A hot-spring bacterium called Thermus aquaticus makes an enzyme that handles heat.
 
 --- 😮
 p: Some microbes, called halophiles, grow best in very salty water.
 
-fact: That means 50 grams of salt per liter or more. A coral reef has about 35 grams per liter.
+fact(How salty): Halophiles like 50 grams of salt per liter or more. A coral reef has about 35 grams per liter.
+
+check: Halophiles are microbes that like what kind of water?
+- Very cold water
++ Very salty water
+- Very clean water
+hint: Look at the paragraph. It says what water they like.
+explain: Some microbes, called halophiles, grow best in very salty water.
 
 --- 🔎
 p: Microbes below the sea floor. Spores still alive after heat. Bacteria in hot springs. Microbes that like salt.
@@ -1116,30 +1200,30 @@ p: Microbes below the sea floor. Spores still alive after heat. Bacteria in hot 
 p: Microbes live in many places.
 
 quiz: What distance below the sea floor were microbes found in the hot sediment?
-- 7.5 mi
 + 0.75 mi
+- 7.5 mi
 - 0.075 mi
 explain: Microbes have been found in sediment 0.75 mi (1.2 km) below the sea floor.
 
-quiz: What does Thermus aquaticus make that handles heat?
-- A mineral
-+ An enzyme
-- A pigment
-explain: A hot-spring bacterium called Thermus aquaticus makes an enzyme that handles heat.
-
 quiz: What is PCR a way to do?
 - Clean water
-+ Copy DNA
 - Make bread
-explain: Scientists use it in PCR, a way to copy DNA.
++ Copy DNA
+explain: Scientists use this enzyme in PCR, a way to copy DNA.
 
-quiz: Which kind of water do halophiles grow best in?
-- Very cold water
-+ Very salty water
-- Very clean water
+quiz: Which microbes grow best in very salty water?
+- Spores
++ Halophiles
+- Diatoms
 explain: Some microbes, called halophiles, grow best in very salty water.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: Soon after the 1960s, what did scientists find about bacteria?
+- None survive in any heat
+- All of them are huge
++ Many survive in higher heat
+explain: Scientists found many bacteria that survived and even thrived at higher temperatures.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === micro-vaccines
 idea: A vaccine trains the body to spot a germ, and the first one was made against smallpox.
 
@@ -1148,25 +1232,25 @@ game: Jenner = Created the smallpox vaccine | Vaccine = Trains the immune system
 --- 💉
 p: Edward Jenner was an English doctor.
 
-fact: He created the smallpox vaccine. It was the world's first vaccine.
+fact(The first): Edward Jenner created the smallpox vaccine. It was the world's first vaccine.
 
 check: What was the world's first vaccine for?
 - Measles
-+ Smallpox
 - Cholera
-hint: Look at the box. The answer is there.
-explain: He created the smallpox vaccine.
++ Smallpox
+hint: Look at the box. It names the disease.
+explain: Edward Jenner created the smallpox vaccine, the world's first vaccine.
 
 --- 📏
 p: In Jenner's time, smallpox killed around 10% of the world's people.
 
-fact: In towns and cities, it killed as many as 20%.
+fact(In cities): In towns and cities, smallpox killed as many as 20% of the people.
 
 check: What share of the world's people did smallpox kill in Jenner's time?
 - Around 1%
 + Around 10%
 - Around 50%
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the share.
 explain: In Jenner's time, smallpox killed around 10% of the world's people.
 
 --- ⚙️
@@ -1174,36 +1258,50 @@ p: A vaccine trains the body's immune system to see a germ as a threat.
 
 term: vaccine = Something that trains the body's immune system to see a germ as a threat.
 
-fact: Then the body can destroy that germ if it meets it later.
+fact(Later): Then the body can destroy that germ if it meets it later.
 
 check: What does a vaccine train?
-- The heart muscles
 + The immune system
+- The heart muscles
 - The leg bones
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It says what a vaccine trains.
 explain: A vaccine trains the body's immune system to see a germ as a threat.
 
 --- 📅
 p: Edward Jenner wrote about cowpox in 1798.
 
-fact: He wrote about its protective effect against smallpox.
+fact(What he wrote): Jenner wrote about the protective effect of cowpox against smallpox.
 
 check: What protected people from smallpox in Jenner's study?
 - Measles
 + Cowpox
 - Chickenpox
-hint: Look at the paragraph. The answer is there.
-explain: Edward Jenner wrote about cowpox in 1798.
+hint: Look at the paragraph. It names what Jenner wrote about in 1798.
+explain: Jenner wrote about the protective effect of cowpox against smallpox.
 
 --- 🧑
 p: Penicillin was one of the first medicines that worked against many bacterial infections.
 
-fact: In 1945, three men shared a Nobel Prize for it.
+fact(A prize): In 1945, three men shared a Nobel Prize for penicillin.
+
+check: In 1945, what did three men share for penicillin?
++ A Nobel Prize
+- A gold medal
+- A large trophy
+hint: Look at the box. It says what they shared.
+explain: In 1945, three men shared a Nobel Prize for penicillin.
 
 --- 👤
 p: The word antibiotic was first used in 1942 by Selman Waksman and his team.
 
-fact: They used it for any substance made by a microorganism that works against the growth of other microorganisms.
+fact(What it means): They used the word for any substance made by a microorganism that works against the growth of other microorganisms.
+
+check: Who first used the word antibiotic in 1942?
+- Edward Jenner and his team
+- Louis Pasteur and his team
++ Selman Waksman and his team
+hint: Look at the paragraph. It names who used the word.
+explain: The word antibiotic was first used in 1942 by Selman Waksman and his team.
 
 --- 🔎
 p: A doctor and a first vaccine. Smallpox in towns and cities. A body that learns to see a germ. Cowpox. Penicillin and a Nobel Prize.
@@ -1211,25 +1309,25 @@ p: A doctor and a first vaccine. Smallpox in towns and cities. A body that learn
 p: Medicine began.
 
 quiz: What did Edward Jenner create?
-- A strong new microscope
 + The smallpox vaccine
+- A strong new microscope
 - The first steam engine
 explain: Edward Jenner created the smallpox vaccine.
 
-quiz: How much of the world's people did smallpox kill, at most, in towns and cities?
+quiz: How many of the world's people did smallpox kill, at most, in towns and cities?
 - As many as 2%
 + As many as 20%
 - As many as 90%
-explain: In towns and cities, it killed as many as 20%.
+explain: In towns and cities, smallpox killed as many as 20% of the people.
 
-quiz: In 1945, what did three men share for penicillin?
-- A gold medal
-+ A Nobel Prize
-- A large trophy
-explain: In 1945, three men shared a Nobel Prize for it.
+quiz: What do we call a plan the body learns so it can destroy a germ later?
+- A loan
+- A budget
++ A vaccine
+explain: A vaccine trains the body's immune system to see a germ as a threat.
 
-quiz: Who first used the word antibiotic in 1942?
-- Edward Jenner and his team
-+ Selman Waksman and his team
-- Louis Pasteur and his team
-explain: The word antibiotic was first used in 1942 by Selman Waksman and his team.
+quiz: In which year did Edward Jenner write about cowpox?
++ 1798
+- 1789
+- 1897
+explain: Edward Jenner wrote about cowpox in 1798.

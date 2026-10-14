@@ -84,6 +84,10 @@ def strings(lesson):
         yield f'pair {k + 1}', ' / '.join(pr)
 
 
+DEPENDENT = re.compile(r"\b(the example|in the example|the passage|the text|the story|the experiments?|these (?:experiments|two|three|four|five)|"
+                       r"the above|this page|this lesson|the lesson|the picture|the chart|the table)\b", re.I)
+
+
 def check(lid, L, problems, src=None, full=True):
     """full=False checks only what a single page can be wrong about (used while drafting page by page)."""
     allow = GATE_ALLOW.get(lid, [])
@@ -131,6 +135,9 @@ def check(lid, L, problems, src=None, full=True):
                     bad(f'{w}: check needs a prompt and an explain')
                 if not (q.get('hint') or '').strip():
                     bad(f'{w}: check needs a hint (shown after a wrong answer)')
+                # Boss battles, games and quizzes ask this question away from its page.
+                if DEPENDENT.search(q.get('prompt') or ''):
+                    bad(f'{w}: the question depends on its page ("{(q.get("prompt") or "")[:60]}"): make it stand alone')
         if nchk > 1:
             bad(f'{w}: {nchk} checks on one page (max 1)')
         checks += nchk

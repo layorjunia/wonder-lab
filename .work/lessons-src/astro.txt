@@ -23,15 +23,15 @@ p: Sunlight may seem to appear instantly, but it takes time to travel from the s
 fact: Sunlight takes about 8 minutes 20 seconds to cross the 93 million miles (150 million km) to Earth. Both the distance and the speed of light are measured precisely.
 check: How long does sunlight take to reach us?
 - About 3 minutes 45 seconds
-- About 14 minutes 30 seconds
 + About 8 minutes 20 seconds
+- About 14 minutes 30 seconds
 hint: Look at the fact box on this page.
 explain: Sunlight takes about 8 minutes 20 seconds to travel from the sun to Earth.
 
 --- 🌡️
 p: The sun has two temperatures that we talk about, but they are found in different ways.
 fact: The surface of the sun is about 10,000 °F (5,500 °C), and that temperature is measured directly. But the center is about 27 million °F (15 million °C), worked out from how the sun rings and wobbles, like telling a cracked bell from a whole one.
-check: Which sun temperature is measured directly?
+check: The sun has a surface and a center. Which sun temperature is measured directly?
 - The center
 + The surface
 - Both temperatures
@@ -43,8 +43,8 @@ term: sunspot = A cooler patch on the sun's surface. It looks black in a photogr
 fact: A sunspot looks dark because it is cooler than the surface around it, about 6,300 °F compared to roughly 10,000 °F for the surface.
 p: People have been drawing sunspots since telescopes came along in 1610. In 1843, Heinrich Schwabe noticed that the number of sunspots rises and falls in an eleven-year cycle after he spent seventeen years counting them nearly every day.
 check: Why does a sunspot look dark?
-- It is much hotter than the area around it
 + It is cooler than the surface around it
+- It is much hotter than the area around it
 - It is a shadow made by a passing planet
 hint: The fact box explains why a sunspot looks dark.
 explain: A sunspot looks dark because it is cooler than the surface around it.
@@ -74,8 +74,8 @@ p: Helium was found in the sun before anyone found it on Earth. On August 18, 18
 fact: Norman Lockyer saw the same yellow line and named the new element after the Greek word for the sun. It turned up on Earth in volcanic gas at Vesuvius fourteen years later in 1882.
 check: Where was helium found first?
 - In party balloons
-- At Vesuvius
 + In the sun
+- At Vesuvius
 hint: The yellow line in sunlight was seen before it was found on Earth.
 explain: Helium was first spotted as a yellow line in sunlight, not on Earth.
 
@@ -94,8 +94,8 @@ fact: For most of the month, it is visible during daylight, pale blue-white agai
 try: Look for the moon in the afternoon sky today. It is up in daytime more often than you think.
 check: When can you see the moon?
 - Only after the sun has set, and never in daylight
-+ For most of the month it is up during the day too
 - Only in the morning, right before the sun comes up
++ For most of the month it is up during the day too
 hint: Look at the first fact block on the page.
 explain: The moon is up in the sky for much of the day, but many people miss seeing it because they do not look for it.
 
@@ -104,8 +104,8 @@ p: The moon may look close up there, but it is really far away.
 fact: The moon is 2,159 miles across, a bit over a quarter of Earth's width. It sits an average of 238,855 miles away, about thirty Earths laid side by side.
 check: About how many Earths laid side by side reach the moon?
 - About five
-- About one hundred
 + About thirty
+- About one hundred
 hint: Look at the end of the fact box. It says how many Earths fit.
 explain: Thirty Earths laid side by side reach the moon. Lasers measure this distance on clear nights.
 
@@ -147,9 +147,9 @@ p: Until 7 October 1959, nobody had seen the far side of the moon.
 fact: That day, the Soviet probe Luna 3 looped behind it and took 29 photographs. The pictures showed almost no dark plains like those on the near side.
 p: The far side is not the dark side. It gets just as much sunlight as the side we see. When the moon looks black from Earth, the far side is in full daylight.
 check: When the moon looks black from Earth, what is the far side doing?
-+ It is in full daylight
 - It looks black too
 - It is hidden by Earth
++ It is in full daylight
 hint: The far side gets just as much sunlight as the near side.
 explain: The far side of the moon is in full daylight when the moon appears black from Earth.
 
@@ -175,8 +175,8 @@ fact: The strongest was about magnitude 5.5, and some kept shaking for over ten 
 p: Nobody has drilled deep into the moon, so what we know about its middle is worked out from seismometers and the laser wobble.
 check: How is the inside of the moon known?
 - Seen directly by a robot sent down a very deep hole
-- Known from X-ray pictures taken from the Earth
 + Worked out from seismometers and the laser wobble
+- Known from X-ray pictures taken from the Earth
 hint: The last paragraph explains how scientists figure it out.
 explain: Seismometers recorded the ground shaking, and mirrors let lasers measure the moon's wobble. Together, they give clues about what is inside.
 
@@ -193,9 +193,9 @@ p: Meet Mercury, the smallest planet. It is just 3,032 miles across.
 fact(Smaller than a moon): Two moons beat it in size. Ganymede, which orbits Jupiter, and Titan, which orbits Saturn, are both wider than Mercury.
 p: Mercury also has the widest temperature swing. Where the sun hits it, it is about 800 °F. On the dark side, it drops to about -290 °F. Mercury has almost no air to carry heat from the sunny side to the dark side.
 check: Why does Mercury have such a big temperature swing?
-+ It has almost no atmosphere
 - It is wrapped in thick clouds
 - It spins too fast
++ It has almost no atmosphere
 hint: Look at the last sentence of the page. It says what is missing to carry the heat around.
 explain: Without an atmosphere, there is nothing to carry the heat from the sunny side to the dark side.
 
@@ -204,9 +204,9 @@ p: Mercury is the closest planet to the sun, but it is not the hottest.
 fact(Hottest planet): Venus is the hottest planet. It sits much farther out than Mercury and still runs at roughly 870 °F (465 °C), hot enough to melt lead. A thick blanket of carbon-dioxide air traps the heat.
 p: Venus's air is about 96% carbon dioxide, and the pressure at its surface is around 93 times that of Earth’s.
 check: Which planet is the hottest?
++ Venus
 - Mercury
 - Mars
-+ Venus
 hint: The fact box explains why Venus is hotter than Mercury.
 explain: Venus is the hottest because its thick blanket of carbon-dioxide air traps heat, making it much warmer than Mercury.
 
@@ -230,9 +230,9 @@ explain: Venera 13 was designed for a short time on Venus, but it ended up lasti
 p: Imagine seeing Earth from so far away that it just looks like a tiny dot.
 fact: The famous Blue Marble photo of the whole Earth was taken on 7 December 1972 by the Apollo 17 crew, outbound to the moon. It shows Africa and the Antarctic ice cap, and it became one of the most reproduced photographs ever.
 p: On 14 February 1990, Voyager 1 took a picture from 3.7 billion miles out. Earth was smaller than a single pixel in that photo.
-check: How big did Earth look to Voyager 1?
-- About as wide as ten pixels
+check: On 14 February 1990, Voyager 1 took a picture of Earth from 3.7 billion miles out. How big did Earth look?
 + Smaller than a single pixel
+- About as wide as ten pixels
 - Larger than a hundred pixels
 hint: Look at the last paragraph for the size of Earth in the Voyager picture.
 explain: From Voyager's distance, Earth was smaller than a single pixel in the photo.
@@ -247,8 +247,8 @@ p: Olympus Mons on Mars is a giant volcano. It stands about 16 miles high, which
 fact: It also spreads roughly 370 miles across, wide enough to cover Arizona. The slope is so broad and gentle that you might not realize you were on a mountain if you stood there.
 check: How tall is Olympus Mons?
 - About 8 miles
-+ About 16 miles
 - About 24 miles
++ About 16 miles
 hint: Look at the first number on the page.
 explain: It stands about 16 miles high, three times the height of Everest.
 
@@ -285,9 +285,9 @@ game: Linda Morabito = Found a volcano on Io | Great Red Spot = Jupiter's giant 
 p: On 7 January 1610, Galileo pointed his homemade telescope at Jupiter and saw three little stars beside it.
 fact: On 13 January a fourth appeared. Night after night, they shifted their positions around Jupiter.
 try: Steady a pair of binoculars against a wall or a fence and look at Jupiter. You will see three or four tiny points strung out in a line, just like Galileo did. Look again the next night and you will see them move.
-check: What did Galileo conclude the little stars were doing?
-- Floating away into space
+check: When Galileo saw little stars near Jupiter move night after night, what did he conclude they were doing?
 + Going round Jupiter
+- Floating away into space
 - Moving closer to Earth
 hint: Look at the fact box. It says he saw them shifting their positions.
 explain: He noticed that these little stars changed position each night, which led him to conclude they were going round Jupiter.
@@ -302,7 +302,7 @@ p: Spinning that quickly has a noticeable effect. Jupiter is squashed at the pol
 p: Jupiter has a giant storm that has lasted for centuries. It is called the Great Red Spot.
 fact: In the 1800s, the long axis of the Great Red Spot was about 24,000 miles. Hubble now measures it at about 10,250 miles.
 p: This shrinking happened while people watched. Amateur astronomers noticed the shrinking speeding up in 2012.
-check: What has the Great Red Spot been doing?
+check: Over the last 150 years, what has Jupiter's Great Red Spot been doing?
 - Growing bigger
 - Moving to a different spot
 + Shrinking
@@ -314,8 +314,8 @@ p: Linda Morabito was looking at navigation photos from Voyager 1 on March 9, 19
 fact: She noticed an odd bulge off the edge of Jupiter's moon Io. It was a plume from an erupting volcano, about 170 miles tall.
 term: plume = A tall cloud of gas and dust thrown up from a volcano.
 check: What did Linda Morabito find?
-+ A volcano erupting on Io
 - A huge storm over Jupiter
++ A volcano erupting on Io
 - A comet hitting Saturn
 hint: The bulge she noticed was actually a plume.
 explain: Linda Morabito found a volcanic plume over 170 miles tall. It was the first active volcano seen beyond Earth.
@@ -325,8 +325,8 @@ p: Europa is one of Jupiter's moons, covered in cracked ice.
 fact(Worked out, not seen): Something under that ice bends Jupiter's magnetic field in a way that fits a salty ocean. Nobody has drilled through to see it. The ocean is worked out from a magnetic reading and the pattern of cracks.
 check: How do we know about Europa's ocean?
 - It was seen by cameras on a rover that drove across the ice
-+ It is worked out from a magnetic reading and the pattern of cracks
 - A probe was lowered through the ice and sent back pictures
++ It is worked out from a magnetic reading and the pattern of cracks
 hint: Look at the fact box. It tells you how scientists figured it out.
 explain: The best answer comes from how Jupiter's magnetic field bends and the way the ice cracks.
 
@@ -336,8 +336,8 @@ fact: They are only around 30 feet thick and made up of over 99% water ice. Seen
 p: Saturn itself is lighter than water for its size. Given a big enough ocean, it would float.
 check: About how thick are Saturn's rings?
 - A few miles
-- Several thousand feet
 + About 30 feet
+- Several thousand feet
 hint: The fact box tells you exactly how thick the rings are.
 explain: Saturn's rings are only about 30 feet thick.
 
@@ -345,7 +345,7 @@ explain: Saturn's rings are only about 30 feet thick.
 p: Enceladus is a small icy moon of Saturn with four long cracks near its south pole, nicknamed the tiger stripes.
 fact: Jets of water vapor and ice grains fire out of those cracks into space. Cassini flew straight through the spray and analyzed it, which is like a spacecraft tasting a moon without ever landing on it.
 p: Cassini spent thirteen years at Saturn and was then destroyed on purpose. On 15 September 2017, it flew into Saturn's atmosphere and burned up.
-check: How did Cassini taste Enceladus?
+check: How did the Cassini spacecraft taste the water of Enceladus?
 + It flew through the spray
 - It landed on the surface
 - It crashed into a moon
@@ -371,9 +371,9 @@ p: Its rings circle its equator, but because it is tipped over, they stand up li
 p: Imagine finding a planet with just a pencil and paper.
 fact: Neptune was found this way. Uranus was not moving as it should, so Urbain Le Verrier worked out where an unseen planet would have to sit to tug it that way. Johann Galle aimed his telescope there on 23 September 1846 and found Neptune within one degree.
 p: Neptune gets very little sunlight, yet it has the fastest winds in our solar system. Voyager 2 flew past on 25 August 1989 and clocked them near 1,200 miles per hour around a storm called the Great Dark Spot.
-check: Which came first for Neptune?
-+ The calculation
+check: For the planet Neptune, which came first?
 - Seeing it through a telescope
++ The calculation
 - Naming it
 hint: Look at the fact box. It explains how Neptune was found.
 explain: The calculation came first. Urbain Le Verrier figured out where Neptune should be, and then Johann Galle looked there.
@@ -390,8 +390,8 @@ game: OSIRIS-REx = Grabbed samples from Bennu | Hayabusa2 = Dropped Ryugu sample
 p: Films show the asteroid belt as a shooting gallery where you have to dodge rocks. The real belt is mostly empty space.
 fact: On average, asteroids are about 600,000 miles apart. That's more than twice the distance from Earth to the moon.
 check: How far apart are asteroids in the belt on average?
-- About 100 miles
 + About 600,000 miles
+- About 100 miles
 - About 1 million miles
 hint: Look at the fact box. It gives the exact number.
 explain: The asteroids are about 600,000 miles apart, making the belt mostly empty space.
@@ -408,8 +408,8 @@ term: dwarf planet = A world that goes around the sun, is round, but has not cle
 fact: Pluto passes the first two rules but fails the third, because it shares its region with many other icy bodies. So Pluto became a dwarf planet. On 14 July 2015, New Horizons flew past it at about 32,000 miles an hour, 7,800 miles above the surface.
 check: What makes Pluto a dwarf planet?
 - It has no moons circling around it
-- It circles the sun the wrong way
 + It has not cleared its orbital lane
+- It circles the sun the wrong way
 hint: The facts box tells you why Pluto is a dwarf planet.
 explain: Pluto shares its orbit with other bodies, so it has not cleared its orbital lane.
 
@@ -422,10 +422,10 @@ p: It is a slab of metal, mostly iron and nickel, with just a trace of cobalt. P
 p: On 15 February 2013, a rock about 60 feet across came in over a city called Chelyabinsk in Russia.
 fact: The rock blew apart roughly 18 miles up. Nothing hit the city; the shock wave did. It blew in windows across a wide strip of ground and cut about 1,500 people with flying glass.
 p: Nobody was killed. The airburst released energy on the order of 400 to 600 kilotons of TNT, making it the largest such event over a populated place in living memory.
-check: What hurt people in Chelyabinsk?
-+ The shock wave
+check: A space rock blew apart over the city of Chelyabinsk in 2013. What hurt people there?
 - Pieces of the rock falling
 - The heat from the explosion
++ The shock wave
 hint: The shock wave blew in windows and cut people with flying glass.
 explain: The shock wave from the explosion was what hurt people, not pieces of the rock or other effects.
 
@@ -445,9 +445,9 @@ p: Have you ever seen a comet in the sky? It has a bright head and a long tail.
 fact: A comet’s tail does not trail behind it like smoke off a train. It points away from the sun, always.
 p: There are usually two tails on a comet, and they point slightly differently. The gas tail glows bluish and runs almost exactly away from the sun. The dust tail is broader, whiter, and curved.
 check: Which way does a comet's tail point?
-+ Away from the sun
 - Behind the comet
 - Towards the comet
++ Away from the sun
 hint: Look at the fact box. It says the tail points away from the sun.
 explain: The tail always points away from the sun because sunlight and the stream of particles blowing off the sun push the dust and gas straight outward.
 
@@ -455,9 +455,9 @@ explain: The tail always points away from the sun because sunlight and the strea
 p: Edmond Halley noticed something special in 1705. He saw that bright comets seen in 1531, 1607, and 1682 all followed the same path.
 fact: Halley said it was one comet coming back and predicted its next return for 1758. It arrived sixteen years after he died.
 p: Chinese astronomers had logged the same comet as far back as 240 BC. It came again in 1835, 1910, and 1986.
-check: When did Halley predict the comet's return?
-- 1705
+check: In what year did Edmond Halley predict that his comet would return?
 + 1758
+- 1705
 - 1786
 hint: Look at the fact box. It says he predicted it would return in 1758.
 explain: In 1705, Halley predicted the comet would return in 1758, sixteen years after his death.
@@ -472,7 +472,7 @@ p: It was the first landing on a comet ever. The mother ship Rosetta took ten ye
 p: On 24 September 2023, a capsule landed in the Utah desert with 4.29 ounces (121.6 g) of asteroid Bennu inside.
 fact: OSIRIS-REx touched Bennu for just a few seconds and grabbed a handful. It needed at least 60 grams to count as a success, but it brought back twice that amount.
 p: Japan's Hayabusa2 mission beat it home. On 6 December 2020, it dropped a capsule into the South Australian desert with 5.4 grams of Ryugu inside. Its older sister, Hayabusa, had already brought back a few tiny grains from the asteroid Itokawa in 2010.
-check: Which of these two missions brought its asteroid samples home first?
+check: Which asteroid-sample mission brought its samples home first?
 - NASA's OSIRIS-REx
 - Both at the same time
 + Japan's Hayabusa2
@@ -494,8 +494,8 @@ fact: Stars are so far away that they arrive as single points of light, and any 
 try: Next clear night, look for a bright light that does not flicker. It is likely a planet.
 check: Why do planets not twinkle?
 - They shine with their own steady glow, not sunlight
-- They are above the air, where nothing bends light
 + They arrive as tiny discs and the wobbles cancel out
+- They are above the air, where nothing bends light
 hint: Look at the fact box. It explains why the wobbles cancel for planets.
 explain: Planets appear as tiny discs made up of many points, so the air's wobbles cancel each other out.
 
@@ -504,8 +504,8 @@ p: Have you ever noticed that some stars look red and others look blue? The colo
 fact: Betelgeuse, the orange star on Orion's shoulder, is about 6,000 °F (3,500 K). Rigel, the blue-white one at his foot, is around 21,000 °F (12,000 K). Red is cool, blue is hot.
 try: On a winter evening, find Orion. Look at Betelgeuse at the top left of the four corners, then Rigel at the bottom right. Go back and forth a few times. Betelgeuse is clearly orange, Rigel is white with a blue edge.
 check: Which stars are hotter?
-- Red ones
 + Blue ones
+- Red ones
 - Orange ones
 hint: Look at the fact box. It shows the temperatures of Betelgeuse and Rigel.
 explain: Blue stars like Rigel are much hotter than red stars like Betelgeuse.
@@ -514,9 +514,9 @@ explain: Blue stars like Rigel are much hotter than red stars like Betelgeuse.
 p: Look up at the night sky, and you will see a star that outshines all others. That's Sirius, the brightest star in the night sky, with a magnitude of minus 1.46.
 fact: The brightness scale runs backwards because of Hipparchus. He sorted stars into six ranks, calling the brightest ones first magnitude. So now, bigger numbers mean fainter stars.
 check: On the magnitude scale, what does a bigger number mean?
-+ A fainter star
 - A brighter star
 - A closer star
++ A fainter star
 hint: Look at the fact box. It explains that Hipparchus sorted stars with bigger numbers for fainter stars.
 explain: Bigger numbers on the magnitude scale mean fainter stars, thanks to Hipparchus's system.
 
@@ -606,8 +606,8 @@ p: Look up at the night sky, and find a tiny group of stars that looks like a di
 fact: Most people can see six or seven stars in it with just their eyes. Binoculars turn that into dozens.
 p: This cluster is called the Pleiades. It sits about 444 light-years away. That distance was measured by the Gaia spacecraft using a method called parallax.
 check: How many stars do most people pick out in the Pleiades?
-- Two or three
 + Six or seven
+- Two or three
 - Forty or more
 hint: Most people see six or seven stars with just their eyes, but binoculars show dozens.
 explain: With your eyes alone, you can usually see six or seven stars in the Pleiades. Binoculars reveal many more.
@@ -618,8 +618,8 @@ fact: The Orion Nebula is about 1,344 light-years away. People call it a stellar
 p: Right in the middle of the Orion Nebula, a small telescope shows four points of light in a tight lopsided box. They are called the Trapezium.
 check: Why do people call the Orion Nebula a stellar nursery?
 - Because it is shaped like a cradle
-- Because baby stars were filmed being born there
 + Because people think stars form inside it
+- Because baby stars were filmed being born there
 hint: The nebula is thought to be a place where stars form, but no one has seen it happen.
 explain: While people think stars form inside the Orion Nebula, nobody has actually watched a star form there.
 
@@ -671,8 +671,8 @@ fact: The Coalsack, beside the Southern Cross, is a place where the Milky Way si
 p: The Coalsack is one of the few dark nebulae obvious to the unaided eye, and it is about 600 light-years away.
 check: What is the Coalsack?
 - A tight group of bright stars shaped like a sack
-+ A cloud of dust that blocks the stars behind it
 - A faint galaxy hiding far beyond the Milky Way
++ A cloud of dust that blocks the stars behind it
 hint: The page describes what the Coalsack blocks.
 explain: The Coalsack is a cloud of dust that blocks the stars behind it, making it look like a dark shape in the sky.
 
@@ -682,8 +682,8 @@ fact(Worked out, not seen directly): The Andromeda galaxy is about 2.5 million l
 p: Edwin Hubble figured this out first in 1923 using a big telescope on Mount Wilson. He looked at stars whose brightness changes in a way that tells us how far away they are.
 check: How is Andromeda's distance worked out?
 - By sending a radio signal toward it and timing how long the echo takes to return
-- By counting how many stars it holds and comparing that number to the Milky Way
 + By comparing how bright certain pulsing stars look with how bright they are taken to be
+- By counting how many stars it holds and comparing that number to the Milky Way
 hint: Look at the fact box. It explains how the brightness of certain stars helps calculate the distance.
 explain: The distance is worked out by looking at how bright certain pulsing stars in Andromeda appear and comparing that to how bright they are assumed to be.
 
@@ -701,9 +701,9 @@ p: Your eyes are the best telescope you already own, but you have to treat them 
 fact(Night mode): It takes half an hour for your eyes to switch over to night mode, and just one glance at a phone undoes all that. The sensors in your eyes rely on a special pigment that takes time to rebuild, and bright light bleaches it out in a second.
 p: Red light barely touches this pigment, so observers use red flashlights. This way they can see what they need to without ruining their night vision.
 check: Why do observers use red flashlights?
++ Red light barely disturbs the pigment that works in the dark
 - The color red helps the faint stars look brighter and clearer
 - Red light keeps telescope mirrors from getting too hot
-+ Red light barely disturbs the pigment that works in the dark
 hint: Bright light bleaches out the pigment, but red light barely touches it.
 explain: Red light is gentle enough to let you see without disturbing your night vision.
 
@@ -712,8 +712,8 @@ p: The best first instrument for looking at the night sky isn't a telescope. It'
 fact: In 10x50, the first number is ten times magnification and the second is the width of the front lenses in millimeters, which is how much light gets in.
 p: Astronomers often recommend 7x50 or 10x50 binoculars because anything above about 10x is hard to hold steady.
 check: What does the second number in 10x50 tell you?
-+ The width of the front lenses in millimeters, how much light gets in
 - The power of the lenses, how many times they enlarge things
++ The width of the front lenses in millimeters, how much light gets in
 - The weight of the whole binoculars in ounces, how heavy they are
 hint: Look at the fact box. It explains what each number means.
 explain: The second number is the width of the front lenses in millimeters. This tells you how much light gets in, which is really important for seeing well in the dark.
@@ -724,8 +724,8 @@ fact: A 6-inch mirror gathers around 500 times as much light as your eye can on 
 p: Magnification is a separate setting. You change it by swapping the eyepiece. But too much magnification just gives you a big, dim, mushy blob.
 check: What is a telescope's real job?
 - Making things look bigger
-+ Collecting light
 - Changing colors
++ Collecting light
 hint: Look at the first number on the page. It shows how much more light a 6-inch mirror can collect.
 explain: A telescope collects light, which is why it can show you things your eye cannot see at all.
 
@@ -738,7 +738,7 @@ try: Brace a pair of binoculars against a fence or door frame and look at Jupite
 --- 🎹
 p: William Herschel was a musician who made his own telescopes. On 13 March 1781, he was scanning the sky from his garden in Bath.
 fact: He found a small disk that was not a star. He thought it was a comet at first, but it turned out to be a planet, Uranus, the first ever found with a telescope.
-check: What did Herschel find?
+check: What did William Herschel find with his telescope?
 - A comet, the first one seen through a telescope
 + A planet, the first found with a telescope
 - A new star, the closest one beyond the sun
@@ -750,8 +750,8 @@ p: In 1948, the 200-inch Hale telescope opened on Palomar Mountain. Its mirror i
 fact: The Hale stayed the most capable telescope on Earth for 45 years. Each Keck telescope in Hawaii now uses 36 hexagons to make its mirror, along with lasers to cancel out the blur of the air.
 p: Here is the trick. A laser fired into the sky lights up sodium atoms about 56 miles up, creating an artificial star.
 check: How many hexagons make up a Keck mirror?
-- 16
 + 36
+- 16
 - 45
 hint: Each Keck telescope uses 36 hexagons.
 explain: Each Keck mirror is made of 36 hexagonal pieces.
@@ -760,10 +760,10 @@ explain: Each Keck mirror is made of 36 hexagonal pieces.
 p: Hubble launched on 24 April 1990, but there was a problem. Its mirror was ground the wrong shape.
 fact: The edge of Hubble's mirror was too flat by about two microns, which is a fiftieth the thickness of a hair. Every picture came back blurry.
 p: In December 1993, astronauts flew up and fixed it. They fitted corrective optics to Hubble, like glasses.
-check: How was Hubble fixed?
-+ Astronauts fitted corrective optics, like glasses
+check: How was the blurry vision of the Hubble telescope fixed?
 - A new mirror was installed
 - The telescope was brought back to Earth for repairs
++ Astronauts fitted corrective optics, like glasses
 hint: Look at the last paragraph. It says what the astronauts fitted, like a pair of glasses.
 explain: Astronauts flew up and fitted corrective optics, like glasses, to fix Hubble's blurry vision.
 
@@ -784,9 +784,9 @@ p: Big telescopes end up in awkward places because they need still, dry, dark ai
 fact: Mauna Kea in Hawaii sits at 13,800 feet, high enough to make people ill. The Atacama in Chile is one of the driest deserts on Earth. Both give sharper pictures.
 p: Water vapor in the air soaks up infrared, so dry sites see colors wet ones cannot. Height gets you above part of the atmosphere and most of the turbulence. Nobody builds a major observatory somewhere convenient.
 check: Why do big telescopes sit in awkward places?
++ They need still, dry, dark air
 - They are cheaper to build on hills
 - They get free power from the wind
-+ They need still, dry, dark air
 hint: Look at the first fact on the page about Mauna Kea and the Atacama.
 explain: Big telescopes need still, dry, and dark air for the best views.
 
@@ -796,31 +796,32 @@ fact(The written account says): In Genesis 1:14, the lights in the sky are "for 
 p: Think of Galileo's little tube or the giant Webb telescope. Each one is just a tool to help us do what we have always done.
 p: The oldest working instrument is still the naked eye. It is not retired. Bessel’s parallax, Goodricke's timing of Algol, and the Chinese record of the guest star in 1054 all came from watching. So did every constellation ever named.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === astro-astronauts
 idea: A house in space as big as a football field, and the first person ever to travel into space. Meet the astronauts.
+
 game: Space station = As big as a football field | Yuri Gagarin = First person to travel into space | Gemini 8 = Made the first docking of two spacecraft | Karman line = The international rule for the edge of space
 
 --- 👨‍🚀
 p: The International Space Station is as big as a football field.
 
-fact: It is 358 ft (109 m) by 239 ft (73 m). Inside, it has about as much room as a Boeing 747 airliner.
+fact(Its size): It is 358 ft (109 m) by 239 ft (73 m). Inside, it has about as much room as a Boeing 747 airliner.
 
 check: How big is the space station?
 - A tennis court
-+ A football field
 - A basketball hoop
++ A football field
 hint: Look at the paragraph. It says how big the station is.
 explain: The International Space Station is as big as a football field.
 
 --- 💨
 p: The space station circles the Earth about every 93 minutes.
 
-fact: It moves at 17,200 mph (27,600 km/h). That is 15.5 trips around the planet every day.
+fact(Its speed): It moves at 17,200 mph (27,600 km/h). That is 15.5 trips around the planet every day.
 
 check: How often does the space station circle the Earth?
-- Once each day
 + Every 93 minutes
+- Once each day
 - Once each week
 hint: Look at the paragraph. It says how often.
 explain: The space station circles the Earth about every 93 minutes.
@@ -828,7 +829,7 @@ explain: The space station circles the Earth about every 93 minutes.
 --- 🏆
 p: People have lived on the International Space Station without a break since November 2, 2000.
 
-fact: It is the longest continuous human presence in space. Visitors from 26 countries, 290 people in all, have come aboard.
+fact(A record): This is the longest continuous human presence in space. Visitors from 26 countries, 290 people in all, have come aboard.
 
 check: How many countries have sent visitors to the space station?
 - 6
@@ -840,26 +841,40 @@ explain: Visitors from 26 countries have come aboard.
 --- 📅
 p: On April 12, 1961, Yuri Gagarin became the first person to travel into space.
 
-fact: He circled the Earth one time, and the flight took 108 minutes.
+fact(His flight): He circled the Earth one time, and the flight took 108 minutes.
 
-check: How long was Gagarin's flight?
+check: How long was the flight of Yuri Gagarin?
 - 10 minutes
-+ 108 minutes
 - 8 hours
++ 108 minutes
 hint: Look at the box. It tells how long the flight took.
-explain: Gagarin's flight took 108 minutes.
+explain: The flight of Yuri Gagarin took 108 minutes.
 
 --- 🧭
 p: In March 1966, Neil Armstrong flew Gemini 8 with David Scott.
 
 term: docking = Joining two spacecraft together in space.
 
-fact: They made the first docking of two spacecraft in space. A stuck thruster then sent them into a dangerous roll, so the mission ended early.
+fact(What happened): They made the first docking of two spacecraft in space. A stuck thruster then sent them into a dangerous roll, so the mission ended early.
+
+check: What did Armstrong and Scott make on Gemini 8?
+- The first space walk
++ The first docking
+- The first moon landing
+hint: Look at the box. It says what they made.
+explain: Armstrong and Scott made the first docking of two spacecraft in space.
 
 --- 🥇
 p: In the United States, a person earns astronaut wings by flying above 50 miles (80 km).
 
-fact: The international rule is higher: the Karman line, at 62 miles (100 km).
+fact(Karman line): The international rule is higher: the Karman line, at 62 miles (100 km).
+
+check: How high is the Karman line?
++ 62 mi (100 km)
+- 6 mi (10 km)
+- 620 mi (1,000 km)
+hint: Look at the box. It gives the height.
+explain: The Karman line is at 62 miles (100 km).
 
 --- 🔎
 p: A big house in space. A first flight around the Earth. A docking of two spacecraft. Wings for flying high.
@@ -874,31 +889,32 @@ explain: Yuri Gagarin became the first person to travel into space on April 12, 
 
 quiz: How many trips around the Earth does the space station make every day?
 - 1.5
-+ 15.5
 - 155
++ 15.5
 explain: The space station makes 15.5 trips around the planet every day.
 
-quiz: How high is the Karman line?
-- 6 miles
-+ 62 miles
-- 620 miles
-explain: The Karman line is at 62 miles (100 km).
+quiz: On what date did people start living on the International Space Station without a break?
++ November 2, 2000
+- February 11, 2020
+- August 21, 1990
+explain: People have lived on the International Space Station without a break since November 2, 2000.
 
-quiz: What did Armstrong and Scott make on Gemini 8?
-- The first space walk
-+ The first docking
-- The first moon landing
-explain: They made the first docking of two spacecraft in space.
+quiz: What was stuck on Gemini 8 and sent it into a dangerous roll?
+- A door
++ A thruster
+- A window
+explain: A stuck thruster sent them into a dangerous roll, so the mission ended early.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === astro-jupiter
 idea: Jupiter has nearly 2.5 times the mass of all the other planets put together. Meet its giant storm and its four big moons.
+
 game: Great Red Spot = Giant storm on Jupiter | Hydrogen = Most of Jupiter's air | Ganymede = One of the four big moons | Binoculars = Show you the four big moons
 
 --- 🟤
 p: Jupiter is 11 times as wide as Earth.
 
-fact: It has nearly 2.5 times the mass of all the other planets put together.
+fact(Its mass): Jupiter has nearly 2.5 times the mass of all the other planets put together.
 
 check: How many times wider than Earth is Jupiter?
 - 2 times
@@ -910,11 +926,11 @@ explain: Jupiter is 11 times as wide as Earth.
 --- 🌀
 p: The Great Red Spot is a giant storm on Jupiter.
 
-fact: Its winds blow up to 308 mph (496 km/h). People first saw it in September 1831.
+fact(Winds): Its winds blow up to 308 mph (496 km/h). People first saw it in September 1831.
 
 check: How fast do the winds blow in the Great Red Spot?
-- 30 mph
 + 308 mph
+- 30 mph
 - 3,080 mph
 hint: Look at the box. It gives the speed of the wind.
 explain: The winds in the Great Red Spot blow up to 308 mph (496 km/h).
@@ -922,12 +938,12 @@ explain: The winds in the Great Red Spot blow up to 308 mph (496 km/h).
 --- ☀️
 p: The Great Red Spot is red-orange because of a kind of sunburn.
 
-fact: Sunlight blasts chemicals high up in Jupiter's clouds.
+fact(How): Sunlight blasts chemicals high up in Jupiter's clouds.
 
 check: What makes the Great Red Spot red-orange?
 - Red sand blowing around
-+ A kind of sunburn
 - Hot red lava
++ A kind of sunburn
 hint: Look at the paragraph. It says what makes the color.
 explain: The Great Red Spot is red-orange because of a kind of sunburn.
 
@@ -936,11 +952,11 @@ p: Jupiter's air is 76% hydrogen and 24% helium.
 
 term: helium = A gas that makes up 24% of Jupiter's air.
 
-fact: It also has a little ammonia, water vapor and other gases.
+fact(Other gases): Jupiter's air also has a little ammonia, water vapor and other gases.
 
 check: How much of Jupiter's air is hydrogen?
-- 7%
 + 76%
+- 7%
 - 24%
 hint: Look at the paragraph. It gives the share of hydrogen.
 explain: Jupiter's air is 76% hydrogen.
@@ -948,19 +964,26 @@ explain: Jupiter's air is 76% hydrogen.
 --- 🌙
 p: Jupiter has four big moons.
 
-fact: Their names are Ganymede, Callisto, Io and Europa. You can see them with binoculars. Astronomers found them in 1610.
+fact(Their names): Their names are Ganymede, Callisto, Io and Europa. You can see them with binoculars. Astronomers found them in 1610.
 
-check: In what year did astronomers find Jupiter's four big moons?
-- 1010
-+ 1610
-- 1910
-hint: Look at the box. It gives the year.
-explain: Astronomers found the four big moons in 1610.
+check: How many big moons does Jupiter have?
+- Two
++ Four
+- Nine
+hint: Look at the paragraph. It gives the number.
+explain: Jupiter has four big moons.
 
 --- 📅
 p: One year on Jupiter is 11.86 Earth years long.
 
-fact: That is how long Jupiter takes to go once around the Sun.
+fact(Why): That is how long Jupiter takes to go once around the Sun.
+
+check: How long is one year on Jupiter?
+- Only about 1 Earth year
+- Over 100 Earth years
++ 11.86 Earth years
+hint: Look at the paragraph. It gives the length of a year.
+explain: One year on Jupiter is 11.86 Earth years long.
 
 --- 🔎
 p: A giant planet. A giant storm. A red-orange glow. Gas and four big moons.
@@ -975,43 +998,44 @@ explain: The Great Red Spot is a giant storm on Jupiter.
 
 quiz: Which gas is 76% of Jupiter's air?
 - Helium
-+ Hydrogen
 - Ammonia
++ Hydrogen
 explain: Jupiter's air is 76% hydrogen and 24% helium.
 
 quiz: Which is one of Jupiter's four big moons?
-- Saturn
 + Europa
+- Saturn
 - Mars
 explain: Their names are Ganymede, Callisto, Io and Europa.
 
-quiz: How long is one year on Jupiter?
-- 1.86 Earth years
-+ 11.86 Earth years
-- 118.6 Earth years
-explain: One year on Jupiter is 11.86 Earth years long.
+quiz: In what year did astronomers find Jupiter's four big moons?
+- 1010
++ 1610
+- 1910
+explain: Astronomers found the four big moons in 1610.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === astro-mars
 idea: Mars is called the Red Planet because it looks orange-red. It is a desert-like world with a giant volcano and a very long canyon.
+
 game: Red Planet = Mars looks orange-red | Olympus Mons = Giant volcano on Mars | Valles Marineris = Very long canyon on Mars | Phobos = Tiny moon of Mars | Thin air = Only a few thousandths as heavy as Earth's
 
 --- 🔴
 p: Mars is called the Red Planet because it looks orange-red.
 
-fact: It is a rocky, desert-like world with very thin air, mostly carbon dioxide.
+fact(Its air): Mars is a rocky, desert-like world with very thin air, mostly carbon dioxide.
 
 check: Why is Mars called the Red Planet?
 - It is covered with red water
-+ It looks orange-red
 - It is the closest planet to the Sun
++ It looks orange-red
 hint: Look at the paragraph. It says why.
 explain: Mars is called the Red Planet because it looks orange-red.
 
 --- 📏
-p: Mars is about half as wide as Earth. It is 4,212 mi (6,779 km) across.
+p: Mars is about half as wide as Earth: 4,212 mi (6,779 km) across.
 
-fact: Its gravity is only about a third of Earth's.
+fact(Gravity): The gravity on Mars is only about a third of Earth's.
 
 check: How strong is the gravity on Mars compared with Earth's?
 - Twice as strong
@@ -1023,11 +1047,11 @@ explain: The gravity on Mars is only about a third of Earth's.
 --- 🌡️
 p: The air on Mars can be as cold as -243°F (-153°C) and as warm as 68°F (20°C).
 
-fact: The air is very thin, only a few thousandths as heavy as Earth's.
+fact(Thin air): The air is very thin, only a few thousandths as heavy as Earth's.
 
 check: How thick is the air on Mars compared with Earth's?
-- About half as thick
 + A few thousandths
+- About half as thick
 - Twice as thick
 hint: Look at the box. It gives the exact comparison.
 explain: The air on Mars is only a few thousandths as heavy as Earth's.
@@ -1035,7 +1059,7 @@ explain: The air on Mars is only a few thousandths as heavy as Earth's.
 --- 🌋
 p: Olympus Mons is a giant volcano on Mars.
 
-fact: It is 69,840 ft (21.287 km) high, about 2.5 times as tall as Mount Everest.
+fact(Its height): Olympus Mons is 69,840 ft (21.287 km) high, about 2.5 times as tall as Mount Everest.
 
 check: What is the tallest volcano on Mars called?
 - Mount Everest
@@ -1049,16 +1073,23 @@ p: Mars has a canyon called Valles Marineris.
 
 term: canyon = A very long place in the ground, like Valles Marineris.
 
-fact: It is 2,500 mi (4,000 km) long. It is one of the largest canyons in the Solar System.
+fact(Its length): Valles Marineris is 2,500 mi (4,000 km) long. It is one of the largest canyons in the Solar System.
+
+check: How long is Valles Marineris?
+- 25 mi (40 km)
+- 250,000 mi (400,000 km)
++ 2,500 mi (4,000 km)
+hint: Look at the box. It gives the length.
+explain: Valles Marineris is 2,500 mi (4,000 km) long.
 
 --- 🌙
 p: Phobos is a tiny moon of Mars.
 
-fact: It races around Mars in just 7 hours and 39 minutes. From Mars, it rises in the west and sets in the east, twice every Martian day.
+fact(Its orbit): Phobos races around Mars in just 7 hours and 39 minutes. From Mars, it rises in the west and sets in the east, twice every Martian day.
 
-check: Where does Phobos set?
-- In the west
+check: Where does Phobos set, as seen from Mars?
 + In the east
+- In the west
 - It never sets
 hint: Look at the box. It says where Phobos sets.
 explain: From Mars, Phobos rises in the west and sets in the east.
@@ -1076,15 +1107,15 @@ explain: Mars is about half as wide as Earth.
 
 quiz: What is Olympus Mons?
 - A moon of Mars
-+ A giant volcano on Mars
 - A canyon on Mars
++ A giant volcano on Mars
 explain: Olympus Mons is a giant volcano on Mars.
 
-quiz: How long is Valles Marineris?
-- 25 miles
-+ 2,500 miles
-- 250,000 miles
-explain: Valles Marineris is 2,500 mi (4,000 km) long.
+quiz: About how many times as tall as Mount Everest is Olympus Mons?
++ About 2.5 times
+- About 25 times
+- About 0.25 times
+explain: Olympus Mons is about 2.5 times as tall as Mount Everest.
 
 quiz: How long does Phobos take to go around Mars?
 - 7 days
@@ -1092,27 +1123,28 @@ quiz: How long does Phobos take to go around Mars?
 - 39 hours
 explain: Phobos races around Mars in just 7 hours and 39 minutes.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === astro-saturn
 idea: Saturn is almost as big as Jupiter, but it has only an eighth of Earth's density. Meet its rings and its giant moon Titan.
+
 game: Rings = Made mostly of ice | Galileo = First person to see the rings | Christiaan Huygens = First to describe the rings as a disk | Titan = Bigger than the planet Mercury
 
 --- 🪐
 p: Saturn has only an eighth of Earth's density.
 
-fact: But it is over 95 times more massive than Earth. It is almost as big as Jupiter, with less than a third of Jupiter's mass.
+fact(Its mass): Saturn is over 95 times more massive than Earth. It is almost as big as Jupiter, with less than a third of Jupiter's mass.
 
 check: How much of Earth's density does Saturn have?
 - Twice as much
-+ An eighth
 - The same
++ An eighth
 hint: Look at the paragraph. It gives the share.
 explain: Saturn has only an eighth of Earth's density.
 
 --- 🌬️
 p: The wind blows hard on Saturn.
 
-fact: Winds on Saturn can blow as fast as 1,100 mph (1,800 km/h).
+fact(Wind speed): Winds on Saturn can blow as fast as 1,100 mph (1,800 km/h).
 
 check: How fast can the winds on Saturn blow?
 - 11 mph
@@ -1126,11 +1158,11 @@ p: Saturn has a system of rings.
 
 term: rings = Flat bands of ice and dust that circle Saturn.
 
-fact: Its rings are made mostly of ice, with some rocky bits and dust. At least 293 moons orbit Saturn, and 63 of them have official names.
+fact(Made of): Its rings are made mostly of ice, with some rocky bits and dust. At least 293 moons orbit Saturn, and 63 of them have official names.
 
 check: What are Saturn's rings made of?
-- Gold
 + Ice
+- Gold
 - Sand
 hint: Look at the box. It says what the rings are made of.
 explain: The rings are made mostly of ice, with some rocky bits and dust.
@@ -1138,7 +1170,7 @@ explain: The rings are made mostly of ice, with some rocky bits and dust.
 --- 🔭
 p: In 1610, Galileo became the first person to see Saturn's rings.
 
-fact: But he could not see them well enough to tell what they were. In 1655, Christiaan Huygens was the first to describe them as a disk around Saturn.
+fact(Huygens): But he could not see them well enough to tell what they were. In 1655, Christiaan Huygens was the first to describe them as a disk around Saturn.
 
 check: Who first described the rings as a disk?
 - Galileo Galilei
@@ -1150,12 +1182,26 @@ explain: In 1655, Christiaan Huygens was the first to describe the rings as a di
 --- 🌫️
 p: Titan is Saturn's largest moon.
 
-fact: It is bigger than the planet Mercury. It is the only moon in the Solar System with a thick atmosphere.
+fact(Bigger than Mercury): Titan is bigger than the planet Mercury. It is the only moon in the Solar System with a thick atmosphere.
+
+check: What is Titan bigger than?
+- The planet Jupiter
+- The planet Saturn
++ The planet Mercury
+hint: Look at the box. It names the planet.
+explain: Titan is bigger than the planet Mercury.
 
 --- ⏳
 p: A year on Saturn is 29.45 Earth years long.
 
-fact: That is how long Saturn takes to go once around the Sun.
+fact(Why): That is how long Saturn takes to go once around the Sun.
+
+check: How long is one year on Saturn?
++ 29.45 Earth years
+- 2.945 Earth years
+- 294.5 Earth years
+hint: Look at the paragraph. It gives the length of a year.
+explain: A year on Saturn is 29.45 Earth years long.
 
 --- 🔎
 p: A planet that is light for its size. Fast winds. Rings of ice. A big moon with thick air.
@@ -1168,11 +1214,17 @@ quiz: How many times more massive than Earth is Saturn?
 - 950 times
 explain: Saturn is over 95 times more massive than Earth.
 
-quiz: What are the rings mostly made of?
-- Gas
-+ Ice
-- Rock
-explain: The rings are made mostly of ice.
+quiz: At least how many moons orbit Saturn?
++ 293
+- 29
+- 2,930
+explain: At least 293 moons orbit Saturn.
+
+quiz: In what year did Galileo become the first person to see Saturn's rings?
+- 1160
+- 1061
++ 1610
+explain: In 1610, Galileo became the first person to see Saturn's rings.
 
 quiz: Which is Saturn's largest moon?
 - Mercury
@@ -1180,15 +1232,10 @@ quiz: Which is Saturn's largest moon?
 - Jupiter
 explain: Titan is Saturn's largest moon.
 
-quiz: How long is one year on Saturn?
-- 2.945 Earth years
-+ 29.45 Earth years
-- 294.5 Earth years
-explain: A year on Saturn is 29.45 Earth years long.
-
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === astro-venus
 idea: Venus is the hottest planet, even though Mercury is closer to the Sun. Meet two small planets close to the Sun.
+
 game: Venus = The hottest planet | Mercury = The smallest planet | Morning star = What people call Venus | Atmosphere = The air around a planet
 
 --- 🔥
@@ -1196,19 +1243,19 @@ p: Venus is the hottest planet.
 
 term: atmosphere = The air around a planet.
 
-fact: The atmosphere at its surface is 867°F (464°C), and the pressure is 92 times greater than Earth's.
+fact(How hot): The atmosphere at the surface of Venus is 867°F (464°C), and the pressure is 92 times greater than Earth's.
 
 check: Which planet is the hottest?
 - Mercury
-+ Venus
 - Earth
++ Venus
 hint: Look at the paragraph. It names the planet.
 explain: Venus is the hottest planet.
 
 --- ⏳
 p: A day on Venus lasts 116.75 Earth days.
 
-fact: That is about half of a Venus year, which is 224.7 Earth days long.
+fact(A Venus year): That is about half of a Venus year, which is 224.7 Earth days long.
 
 check: How long is a day on Venus?
 - 11.675 Earth days
@@ -1220,59 +1267,55 @@ explain: A day on Venus lasts 116.75 Earth days.
 --- 🙃
 p: Venus has no moons.
 
-fact: It also spins very slowly, and backward.
+fact(Its spin): Venus also spins very slowly, and backward.
 
 check: How many moons does Venus have?
-- Two moons
 + No moons
+- Two moons
 - Many moons
 hint: Look at the paragraph. It says how many.
 explain: Venus has no moons.
 
 --- ⭐
-p: People call Venus the morning star or the evening star.
+p: Venus shines brighter than any other point of light in the sky.
 
-fact: Venus shines brighter than any other point of light in the sky.
+fact(Names): People call Venus the morning star or the evening star.
 
-check: What do people call Venus in the morning?
-- A very big moon
-+ The morning star
-- A tiny red sun
-hint: Look at the paragraph. It gives the name.
+check: What do people call Venus when it shines at dawn?
+- Giant red moon
++ Morning star
+- Tiny blue sun
+hint: Look at the box. It gives the name.
 explain: People call Venus the morning star or the evening star.
 
 --- 📏
 p: Mercury is the smallest planet in the Solar System.
 
-fact: It is 3,030 mi (4,880 km) across, and its biggest crater is about a third as wide as the whole planet.
+fact(Its size): Mercury is 3,030 mi (4,880 km) across, and its biggest crater is about a third as wide as the whole planet.
+
+check: Which planet is the smallest in the Solar System?
+- Venus, the hot one
+- Earth, our home
++ Mercury
+hint: Look at the paragraph. It names the planet.
+explain: Mercury is the smallest planet in the Solar System.
 
 --- 🥶
 p: Mercury is the closest planet to the Sun, but Venus is hotter.
 
-fact: Mercury has no air to hold heat, so near its equator it goes from -270°F at night to 790°F in sunlight (-170°C to 420°C).
+fact(Why): Mercury has no air to hold heat, so near its equator it goes from -270°F at night to 790°F in sunlight (-170°C to 420°C).
+
+check: Why is Mercury cooler than Venus?
++ It has no air to hold heat
+- The Sun shines less on it
+- It spins slowly and backward
+hint: Look at the box. It says why.
+explain: Mercury has no air to hold heat.
 
 --- 🔎
 p: A very hot planet. A long day. No moons. A bright star. A small planet.
 
 p: Venus is hotter than Mercury.
-
-quiz: Which planet is the smallest in the Solar System?
-- Venus
-+ Mercury
-- Earth
-explain: Mercury is the smallest planet in the Solar System.
-
-quiz: How many moons does Venus have?
-- One
-+ None
-- Two
-explain: Venus has no moons.
-
-quiz: Why is Mercury cooler than Venus?
-- It has no sunlight
-+ It has no air to hold heat
-- It spins backward
-explain: Mercury has no air to hold heat.
 
 quiz: How long is a Venus year?
 - 22.47 Earth days
@@ -1280,15 +1323,34 @@ quiz: How long is a Venus year?
 - 2,247 Earth days
 explain: A Venus year is 224.7 Earth days long.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: How hot is the atmosphere at the surface of Venus?
+- 86°F (46°C)
+- 8,670°F (4,640°C)
++ 867°F (464°C)
+explain: The atmosphere at the surface of Venus is 867°F (464°C).
+
+quiz: How many times greater than Earth's is the pressure at the surface of Venus?
++ 92 times
+- 9 times
+- 920 times
+explain: The pressure at the surface of Venus is 92 times greater than Earth's.
+
+quiz: How wide is Mercury?
+- 303 mi (488 km)
++ 3,030 mi (4,880 km)
+- 30,300 mi (48,800 km)
+explain: Mercury is 3,030 mi (4,880 km) across.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === astro-eclipses
 idea: A total solar eclipse can last over 7 minutes, but in any one place you would wait 360 to 410 years to see one. Find out about solar and lunar eclipses.
+
 game: Solar eclipse = Seen from only a small part of the world | Lunar eclipse = The Moon looks orange or red | Totality = Can last over 7 minutes | Shadow track = Up to 166 mi (267 km) wide
 
 --- 🌑
 p: A total solar eclipse happens somewhere on Earth about every 18 months.
 
-fact: But in any one place, you would wait 360 to 410 years to see one.
+fact(In one place): But in any one place, you would wait 360 to 410 years to see one.
 
 check: About how often does a total solar eclipse happen somewhere on Earth?
 - Several times a year
@@ -1300,11 +1362,11 @@ explain: A total solar eclipse happens somewhere on Earth about every 18 months.
 --- 🤔
 p: A solar eclipse can only be seen from a small part of the world.
 
-fact: That is why most people never see one.
+fact(Why few see one): That is why most people never see one.
 
 check: How much of the world can see a solar eclipse?
-- All of it
 + A small part
+- All of it
 - Half of it
 hint: Look at the paragraph. It says how much.
 explain: A solar eclipse can only be seen from a small part of the world.
@@ -1314,23 +1376,23 @@ p: A total solar eclipse can last over 7 minutes.
 
 term: track = The path the Moon's shadow makes on Earth.
 
-fact: The Moon's shadow track on Earth can be up to 166 mi (267 km) wide.
+fact(Shadow track): The Moon's shadow track on Earth can be up to 166 mi (267 km) wide.
 
 check: How long can a total solar eclipse last?
 - Only 7 seconds
-+ Over 7 minutes
 - Nearly 7 hours
++ Over 7 minutes
 hint: Look at the paragraph. It says how long.
 explain: A total solar eclipse can last over 7 minutes.
 
 --- 🔴
 p: During a lunar eclipse, the Moon looks orange or red.
 
-fact: The sunlight reaching it first passes through Earth's air, which removes blue and violet light.
+fact(Why): The sunlight reaching the Moon first passes through Earth's air, which removes blue and violet light.
 
 check: What color does the Moon turn in a lunar eclipse?
-- Bright blue
 + Orange or red
+- Bright blue
 - Pure white
 hint: Look at the paragraph. It names the color.
 explain: During a lunar eclipse, the Moon looks orange or red.
@@ -1338,55 +1400,70 @@ explain: During a lunar eclipse, the Moon looks orange or red.
 --- 👀
 p: You can watch a lunar eclipse without eye protection.
 
-fact: It can be seen from anywhere on the night side of Earth, and it often lasts an hour or longer.
+fact(Where to see it): A lunar eclipse can be seen from anywhere on the night side of Earth, and it often lasts an hour or longer.
+
+check: Where can a lunar eclipse be seen from?
+- Only from the top of a mountain
++ Anywhere on the night side of Earth
+- Only from one small place on land
+hint: Look at the box. It says where.
+explain: A lunar eclipse can be seen from anywhere on the night side of Earth.
 
 --- 💨
 p: The Moon moves about 2,300 mph (1.03 km/s) around Earth.
 
-fact: That is why a total lunar eclipse can last up to nearly 107 minutes.
+fact(Long eclipse): That is why a total lunar eclipse can last up to nearly 107 minutes.
+
+check: How long can a total lunar eclipse last?
+- Only about 10 minutes
+- Barely 7 minutes
++ Up to nearly 107 minutes
+hint: Look at the box. It gives the length.
+explain: A total lunar eclipse can last up to nearly 107 minutes.
 
 --- 🔎
 p: A dark day. A small part of the world. A red Moon. An hour or longer.
 
 p: An eclipse is a big show.
 
-quiz: What color does the Moon look in a lunar eclipse?
-- Green
-+ Orange or red
-- Black
-explain: During a lunar eclipse, the Moon looks orange or red.
-
-quiz: How long can a total lunar eclipse last?
-- 10 minutes
-+ Up to 107 minutes
-- 7 minutes
-explain: A total lunar eclipse can last up to nearly 107 minutes.
-
-quiz: How wide can the Moon's shadow track be?
-- 16 mi
-+ 166 mi
-- 1,660 mi
+quiz: How wide can the shadow track of the Moon be?
+- Up to 16 mi (27 km)
++ Up to 166 mi (267 km)
+- Up to 1,660 mi (2,670 km)
 explain: The Moon's shadow track can be up to 166 mi (267 km) wide.
 
 quiz: How long would you wait in one place to see a total solar eclipse?
-- 3 to 4 years
 + 360 to 410 years
+- 3 to 4 years
 - 36 to 41 years
 explain: In any one place, you would wait 360 to 410 years.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: How fast does the Moon move around Earth?
+- About 23 mph (10 m/s)
+- About 230,000 mph (103 km/s)
++ About 2,300 mph (1.03 km/s)
+explain: The Moon moves about 2,300 mph (1.03 km/s) around Earth.
+
+quiz: What removes blue and violet light from the sunlight that reaches the Moon?
++ Earth's air
+- Earth's ice
+- The Moon's dust
+explain: The sunlight reaching the Moon first passes through Earth's air, which removes blue and violet light.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === astro-rockets
 idea: From gunpowder rockets in China to a spacecraft that has entered interstellar space. See how rockets took people to the Moon.
+
 game: Gunpowder = Powered the first rockets | Saturn V = Carried Apollo 11 to the Moon | Command module = The part that came back to Earth | Voyager 1 = First to enter interstellar space | Space Shuttle = Flew 135 missions
 
 --- 🚀
 p: Rockets powered by gunpowder were used in China by the 13th century, under the Song dynasty.
 
-fact: The idea then spread to the Middle East and to Europe.
+fact(Spreading): The idea then spread to the Middle East and to Europe.
 
 check: Where were gunpowder rockets first used?
-- Europe
 + China
+- Europe
 - Florida
 hint: Look at the paragraph. It names the country.
 explain: Rockets powered by gunpowder were used in China by the 13th century.
@@ -1394,7 +1471,7 @@ explain: Rockets powered by gunpowder were used in China by the 13th century.
 --- 🌕
 p: Apollo 11 was the spaceflight that first landed people on the Moon.
 
-fact: It lifted off on a Saturn V rocket from Florida on July 16, 1969, and returned on July 24.
+fact(Liftoff): Apollo 11 lifted off on a Saturn V rocket from Florida on July 16, 1969, and returned on July 24.
 
 check: What rocket carried Apollo 11 into space?
 - A Space Shuttle
@@ -1404,25 +1481,25 @@ hint: Look at the box. It names the rocket.
 explain: Apollo 11 lifted off on a Saturn V rocket.
 
 --- 🧩
-p: Only the command module, which held the three astronauts, came back to Earth.
+p: The Apollo spacecraft had three parts.
 
-fact: The Apollo spacecraft had three parts.
+fact(What came back): Only the command module, which held the three astronauts, came back to Earth.
 
 check: Which part of the Apollo spacecraft came back to Earth?
 - The whole rocket
-+ The command module
 - The flag
-hint: Look at the paragraph. It names the part.
++ Command module
+hint: Look at the box. It names the part.
 explain: Only the command module came back to Earth.
 
 --- 👨‍🚀
 p: Neil Armstrong and Buzz Aldrin spent about two and a half hours walking on the Moon.
 
-fact: They planted a flag, set up science instruments, and collected 47.5 lb (21.5 kg) of Moon material.
+fact(What they did): They planted a flag, set up science instruments, and collected 47.5 lb (21.5 kg) of Moon material.
 
 check: How long did Armstrong and Aldrin walk on the Moon?
-- A few short minutes
 + Two and a half hours
+- A few short minutes
 - Almost two whole days
 hint: Look at the paragraph. It tells how long.
 explain: They spent about two and a half hours walking on the Moon.
@@ -1432,12 +1509,26 @@ p: Voyager 1 is the most distant human-made object.
 
 term: interstellar = The kind of space that Voyager 1 entered in 2012.
 
-fact: In 2026 it was 15.9 billion mi (25.6 billion km) from Earth. On August 25, 2012, it became the first spacecraft to enter interstellar space.
+fact(How far): In 2026 Voyager 1 was 15.9 billion mi (25.6 billion km) from Earth. On August 25, 2012, it became the first spacecraft to enter interstellar space.
+
+check: How far from Earth was Voyager 1 in 2026?
+- Only 1.59 billion mi (2.56 billion km)
++ About 15.9 billion mi (25.6 billion km)
+- Nearly 159 billion mi (256 billion km)
+hint: Look at the box. It gives the distance.
+explain: In 2026 Voyager 1 was 15.9 billion mi (25.6 billion km) from Earth.
 
 --- 🛰️
 p: The Space Shuttle program built five orbiters and flew them on 135 missions from 1981 to 2011.
 
-fact: They launched satellites, space probes and the Hubble Space Telescope.
+fact(What they launched): The orbiters launched satellites, space probes and the Hubble Space Telescope.
+
+check: How many missions did the Space Shuttle program fly?
+- 13
+- 1,350
++ 135
+hint: Look at the paragraph. It gives the number.
+explain: The Space Shuttle program flew 135 missions from 1981 to 2011.
 
 --- 🔎
 p: A gunpowder rocket. A trip to the Moon. A far spacecraft. Shuttles with a telescope.
@@ -1450,16 +1541,16 @@ quiz: Which spacecraft was the first to enter interstellar space?
 - The Space Shuttle
 explain: Voyager 1 became the first spacecraft to enter interstellar space.
 
-quiz: How many missions did the Space Shuttles fly?
-- 13
-+ 135
-- 1,350
-explain: The Space Shuttle program flew 135 missions from 1981 to 2011.
+quiz: How many orbiters did the Space Shuttle program build?
++ Five
+- Two
+- Nine
+explain: The Space Shuttle program built five orbiters.
 
 quiz: What did Armstrong and Aldrin plant on the Moon?
 - A tent
-+ A flag
 - A tree
++ A flag
 explain: They planted a flag on the Moon.
 
 quiz: What powered the first rockets in China?

@@ -9,7 +9,7 @@ already in lessons-src is skipped, so it is safe to run twice.
 import os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 MARK = ('# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every '
-        'automatic check, not yet read by a person (2026-10-13)\n')
+        'automatic check, not yet read by a person (2026-10-14)\n')
 for c in sys.argv[1:]:
     hand = open(os.path.join(ROOT, '.work', 'lessons-hand', c + '.txt'), encoding='utf-8').read()
     dst = os.path.join(ROOT, '.work', 'lessons-src', c + '.txt')

@@ -7,9 +7,9 @@ game: Jamestown = Found postholes of the fort's wall | Mayflower = 66 days at se
 p: For centuries everyone said the river had washed away the original Jamestown fort.
 fact: In 1994, an archaeologist dug where he thought the fort should be and found postholes, the dark soil stains where wooden wall posts once stood, within weeks.
 p: They have since dug up armor, tools, coins, and the graves of some of the first settlers, all inside those walls.
-check: What did the archaeologist find first?
-+ The postholes of the fort's wall
+check: In 1994, an archaeologist dug where he thought the Jamestown fort should be. What did he find first?
 - The armor and tools of the soldiers
++ The postholes of the fort's wall
 - The coins and graves of settlers
 hint: Look at the fact box. It says what he found in the first few weeks.
 explain: He found the postholes of the fort's wall within weeks of digging.
@@ -18,8 +18,8 @@ explain: He found the postholes of the fort's wall within weeks of digging.
 p: The Mayflower carried 102 passengers plus crew on a ship about 100 feet long, which is roughly as long as two buses.
 fact(Worked out): The ship was at sea for 66 days. Living space per person was smaller than a modern parking space. No plans of the ship survive; its dimensions are worked out from other records.
 check: How many days was the Mayflower at sea?
-- About 30 days
 + 66 days
+- About 30 days
 - Over 100 days
 hint: Look at the fact box. It gives the exact number of days.
 explain: The Mayflower was at sea for 66 days.
@@ -40,8 +40,8 @@ p: Colonial children learned to read from a tool called a hornbook.
 term: hornbook = A wooden paddle with one printed sheet under a thin, see-through layer of cow horn.
 fact: The thin, see-through layer of cow horn protected the printed sheet from small hands wearing it out. One page, and it had to last.
 check: What protected the printed sheet on a hornbook?
-- A tight cover of stitched leather
 + A thin see-through layer of cow horn
+- A tight cover of stitched leather
 - A thick coat of hard, clear varnish
 hint: Look at the fact box. It mentions what protects the printed sheet.
 explain: The thin layer of cow horn kept the printed sheet safe from wear and tear.
@@ -49,10 +49,10 @@ explain: The thin layer of cow horn kept the printed sheet safe from wear and te
 --- ✉️
 p: Benjamin Franklin started working in his brother's print shop when he was just twelve years old.
 fact: He was not allowed to write for the paper, so he wrote letters under a false name—a middle-aged widow—and slid them under the door at night. His brother printed them without knowing who wrote them.
-check: How did Franklin get his writing printed?
-+ He wrote letters as a middle-aged widow and slid them under the door
+check: As a boy in his brother's print shop, how did Benjamin Franklin get his writing printed?
 - He wrote articles as a village doctor and mailed them to the newspaper
 - He paid a stranger to carry his stories to the printer in town
++ He wrote letters as a middle-aged widow and slid them under the door
 hint: Look at the second sentence. It explains how he got his letters printed.
 explain: Franklin wrote letters under a false name and slid them under the door at night, and his brother printed them without knowing the truth.
 
@@ -60,10 +60,10 @@ explain: Franklin wrote letters under a false name and slid them under the door 
 p: Benjamin Banneker was self-taught in astronomy and made his own tables of sunrise, tides, and eclipses.
 fact: He published these tables as almanacs and sent one to Thomas Jefferson with a letter, getting a reply.
 p: Early accounts say he also built a striking clock entirely out of wood. He took apart a borrowed pocket watch to see how it worked and then crafted his own clock that kept time for decades.
-check: What did Banneker build entirely of wood?
+check: What did Benjamin Banneker build entirely of wood?
 - A telescope
-- A printing press
 + A striking clock
+- A printing press
 hint: Look at the last paragraph on the page. It describes what he built out of wood.
 explain: He took apart a pocket watch to understand its mechanism and then built his own striking clock entirely out of wood.
 
@@ -80,10 +80,10 @@ game: Frederic Tudor = Made a fortune selling ice | Home canning = Like giving f
 p: Before refrigerators, ice was a crop. Men cut it from frozen New England ponds in blocks.
 fact: They packed the ice in sawdust and shipped it as far as India. Much of it arrived unmelted.
 p: Frederic Tudor thought of this idea. Everybody said it was ridiculous, but he made a fortune.
-check: What was the ice packed in?
+check: When ice was cut from New England ponds and shipped far away, what was it packed in?
++ Sawdust
 - Wet sand
 - Cotton
-+ Sawdust
 hint: Look at the first sentence of the fact box. It mentions what the ice was packed in.
 explain: The ice was packed in sawdust to keep it from melting during shipping.
 
@@ -91,7 +91,7 @@ explain: The ice was packed in sawdust to keep it from melting during shipping.
 p: For about thirty years, you could order a house from a catalog. It would arrive by rail as roughly 30,000 numbered pieces with a book of instructions.
 term: catalog = A big book that lists things you can buy and order.
 fact: Thousands of these houses are still standing today, and people live in them.
-check: About how many pieces came in a catalog house?
+check: About how many pieces came in a house ordered from a catalog?
 - About 3,000
 + About 30,000
 - More than 100,000
@@ -101,10 +101,10 @@ explain: The house arrived with about 30,000 numbered pieces and a book to help 
 --- 💡
 p: In 1935, about one farm in ten had electricity. Cities had been lit for fifty years by then.
 fact: Running lines out to scattered farms cost more than any company could make back. So farm families formed their own cooperatives (neighbors who own a business together), borrowed money from the government, and strung much of the wire themselves.
-check: Who strung the wire to the farms?
-+ The farm families themselves, in cooperatives
+check: In 1935, about one farm in ten had electricity. Who strung much of the wire to the farms?
 - Crews of paid soldiers sent out by the army
 - The power companies, using hired city crews
++ The farm families themselves, in cooperatives
 hint: Look at the fact box. It explains who took charge.
 explain: Farm families formed cooperatives and did it themselves because the cost was too high for any company to handle.
 
@@ -112,7 +112,7 @@ explain: Farm families formed cooperatives and did it themselves because the cos
 p: In a one-room school, kids of every age were there together.
 fact: Older children taught the younger ones because the teacher could not be everywhere at once.
 p: Many schools used the same series of reading books, the McGuffey Readers. This way, if a child moved to another state, they could pick up right where they left off.
-check: Who helped teach the younger children?
+check: In a one-room school, who helped teach the younger children?
 + The older children
 - The school janitor
 - A visiting preacher
@@ -123,20 +123,20 @@ explain: Older children taught the younger ones because the teacher could not be
 p: Home canning is like giving food a hot bath in a sealed jar.
 fact: The heat kills the germs inside, and as it cools, the lid gets sucked down tight. When you open a jar, the pop you hear is air going back in for the first time since it was sealed.
 try: Next time someone opens a jar, listen for that pop.
-check: What is the pop when you open a canned jar?
+check: What causes the pop when you open a jar of home-canned food?
 - Gas leaking out as the food slowly went bad inside it
-- Steam rushing out for the first time since it was cooked
 + Air going back in for the first time since it was sealed
+- Steam rushing out for the first time since it was cooked
 hint: Look at the second sentence of the fact box. It explains what causes the pop.
 explain: The pop is air going back into the jar for the first time since it was sealed.
 
 --- 📖
 p: In many homes, the mail-order catalog was a big book, right up there with the Bible.
 fact: Children learned to read from it, cut it up for paper dolls, and when a new one came, the old one went out to the outhouse.
-check: What did children cut up for paper dolls?
+check: What did children cut up to make paper dolls, in the days of the mail-order catalog?
 - The family Bible
-+ The catalog
 - A schoolbook
++ The catalog
 hint: Look at the fact box. It mentions cutting the catalog for paper dolls.
 explain: Children cut up the mail-order catalog to make paper dolls.
 
@@ -152,9 +152,9 @@ game: Amerigo Vespucci = Said clearly it was not Asia | Accurate clock = Needed 
 --- 🏕️
 p: At L'Anse aux Meadows, on the northern tip of Newfoundland, there are eight turf buildings, a smithy, iron nails, and a bronze cloak pin. They are Norse, which means Viking.
 fact: They were found in 1960 by a Norwegian couple who went looking after reading the old sagas, long Viking stories, about a land called Vinland.
-check: Who found L'Anse aux Meadows?
-+ A Norwegian couple who treated the sagas as directions
+check: Who found the Viking site of L'Anse aux Meadows?
 - A Canadian farmer who found the ruins while plowing
++ A Norwegian couple who treated the sagas as directions
 - An American team who followed old pirate treasure maps
 hint: Look at the fact box. It names who went looking and why.
 explain: Helge and Anne Stine Ingstad took the old sagas as directions to find these Norse remains.
@@ -163,9 +163,9 @@ explain: Helge and Anne Stine Ingstad took the old sagas as directions to find t
 p: Columbus's own logbook is lost. What we have is a summary that a priest made from a copy of the original.
 term: summary = A shorter version made from something longer.
 fact: Columbus died still believing he had reached the edge of Asia. The continent, however, is named after Amerigo Vespucci, who said plainly it was not Asia.
-check: Whose name is on the continent?
-- Christopher Columbus
+check: Which explorer's name is on the continent of America?
 + Amerigo Vespucci
+- Christopher Columbus
 - Leif Erikson
 hint: Look at the last sentence. It gives the name of the person the continent is named after.
 explain: Amerigo Vespucci said clearly that the land was not Asia, and the continent bears his name.
@@ -184,7 +184,7 @@ explain: You need an accurate clock to compare your noon with the time somewhere
 --- 📔
 p: Lewis and Clark set out to explore the West and kept journals every day for two and a half years.
 fact: They came back with 178 plants and 122 animals that nobody in the eastern states had recorded before. They brought measurements, drawings, and pressed specimens.
-check: How many new plants did they write up?
+check: How many new plants did Lewis and Clark's expedition write up?
 - 122
 + 178
 - 300
@@ -195,9 +195,9 @@ explain: They wrote up 178 new plants that nobody in the eastern states had reco
 p: Sacagawea was a key member of Lewis and Clark’s team, traveling from North Dakota to the Pacific and back with her baby son on her back.
 fact: When a boat tipped over, she was the one who reached out and saved the instruments, books, and papers floating away. Those were the records of the entire expedition.
 check: What did Sacagawea save when the boat tipped?
++ The instruments, books, and papers
 - The guns, powder, and spare bullets
 - The corn, dried meat, and salt
-+ The instruments, books, and papers
 hint: Look at the fact box. It mentions exactly what she saved.
 explain: She saved the instruments, books, and papers, which were crucial records of the entire expedition.
 
@@ -206,9 +206,9 @@ p: John Wesley Powell ran the Colorado River through the Grand Canyon in 1869, e
 fact: He took four wooden boats on the journey. Nobody had charted this stretch of the river before.
 p: Three men left partway through and were never seen again. Powell kept a journal as the boats ran the rapids. One boat was smashed on the rocks early in the trip, and food and instruments were lost.
 check: How many boats did John Wesley Powell take on his expedition?
-+ Four
 - Two
 - Six
++ Four
 hint: Look at the first sentence of the fact box. It gives the number of boats.
 explain: Powell took four wooden boats on his journey through the Grand Canyon.
 
@@ -224,7 +224,7 @@ game: Flyer III = Could stay up for 39 minutes | Wing warping = Twisting the who
 --- ✈️
 p: The first airplane flight by the Wright brothers in 1903 lasted just 12 seconds and covered 120 feet. That's shorter than the wingspan of a jumbo jet, which is about 211 ft (64 m).
 fact: There were five witnesses and one photograph. The man who took it had never used a camera before, and was told simply to squeeze the bulb.
-check: How long did the first flight last?
+check: How long did the first flight of the Wright brothers last?
 - 5 minutes
 + 12 seconds
 - 2 hours
@@ -236,9 +236,9 @@ p: The Wright brothers paid for their flying experiments entirely from a bicycle
 term: sprockets = The toothed wheels that a bike chain wraps around. Their teeth fit into the links and turn the wheel.
 fact: The bicycle shop also gave them chains, sprockets, and a feel for balance. They shipped the aircraft to North Carolina in crates for steady wind and soft sand.
 check: What paid for the Wrights' flying experiments?
-+ Their bicycle shop
 - Their inheritance
 - Government grants
++ Their bicycle shop
 hint: Look at the first sentence on the page. It mentions what funded their experiments.
 explain: The profits from selling bicycles paid for their experiments.
 
@@ -247,9 +247,9 @@ p: The Wright brothers ran into trouble with the published tables of how wings s
 fact: The tables kept giving them wrong results, so they built a wind tunnel out of a wooden box and a fan.
 p: In this setup, they tested around two hundred wing shapes themselves and wrote down the numbers.
 check: Why did the Wrights build a wind tunnel?
++ The published tables kept giving wrong results
 - To make their bicycles faster
 - To launch their airplane into the air
-+ The published tables kept giving wrong results
 hint: Look at the second sentence on the page. It explains why they needed the wind tunnel.
 explain: They found that the published tables were not reliable, so they decided to test wing shapes themselves.
 
@@ -267,9 +267,9 @@ explain: They figured out how to twist the whole wing to make the aircraft roll,
 --- 🔄
 p: Two years after their first flight, the Wright brothers had a much better machine. This one could stay up for 39 minutes and circle a field about 30 times.
 fact: The aircraft that actually mattered is called Flyer III. It is on display in Dayton.
-check: How long did Flyer III stay up?
-+ 39 minutes
+check: How long did the Wright brothers' Flyer III stay up?
 - 5 seconds
++ 39 minutes
 - 1 hour
 hint: Look at the second sentence. It gives the number of minutes.
 explain: Flyer III could stay up for 39 minutes and circle a field 30 times.
@@ -278,8 +278,8 @@ explain: Flyer III could stay up for 39 minutes and circle a field 30 times.
 p: Flying led all the way to the moon. A bootprint there stays put, because there is no wind or rain to erase it.
 fact: The astronauts also left mirrors, and laboratories on Earth still bounce lasers off them to measure the distance to the moon.
 check: How is the distance to the moon measured?
-- By looking through powerful telescopes
 + By bouncing lasers off mirrors the astronauts left
+- By looking through powerful telescopes
 - By sending more astronauts with measuring tapes
 hint: Look at the second sentence. It tells you what laboratories use to measure the distance.
 explain: Labs bounce lasers off the mirrors left by astronauts to measure the distance, showing the moon moving away about an inch and a half a year.
@@ -298,8 +298,8 @@ p: The Declaration of Independence is a single sheet you could carry under your 
 fact: Today, it rests in a sealed case filled with argon, a gas that will not harm old paper, in Washington, D.C. The signatures have faded badly over time, from years on display in sunlight and from an 1820s copying process that lifted some of the ink.
 p: John Hancock signed large and bold, and his is still the clearest. That is why his name became slang for a signature.
 check: Whose signature is still the clearest on the Declaration of Independence?
-+ John Hancock
 - Thomas Jefferson
++ John Hancock
 - Benjamin Franklin
 hint: Look at the last sentence. It names whose signature is clear.
 explain: John Hancock signed large and bold, and his signature is still the clearest, which is why his name became slang for a signature.
@@ -315,9 +315,9 @@ p: The Constitution is four sheets of parchment, and one man wrote out the whole
 fact: Jacob Shallus was the clerk who did it, and he got paid thirty dollars for his work. His name appears nowhere on it.
 p: He made a few small mistakes and fixed them with words written between the lines and one scraped-away spot, where the fixes are still visible today.
 check: Who copied the finished Constitution onto parchment by hand?
++ A clerk named Jacob Shallus
 - The founding fathers
 - The president of the United States
-+ A clerk named Jacob Shallus
 hint: Look at the fact box. It names the clerk who did it.
 explain: Jacob Shallus was the clerk who wrote it out over a weekend for thirty dollars.
 
@@ -325,10 +325,10 @@ explain: Jacob Shallus was the clerk who wrote it out over a weekend for thirty 
 p: In 1752, Benjamin Franklin published a letter describing an experiment with a kite in a thunderstorm.
 fact: The letter describes drawing sparks from the storm with a key on a silk ribbon. It is the only account from that year. The story that Franklin flew the kite himself comes from a friend, Joseph Priestley, who wrote it down fifteen years later.
 p: The letter warned that the silk had to stay dry and the experimenter must stand under cover. At least one scientist who tried something like it was killed by lightning. Never try this yourself.
-check: What is the only account of the kite experiment?
+check: What is the only account of Benjamin Franklin's kite experiment?
 - A diary kept by his son
-+ Franklin's own letter
 - A painting from the time
++ Franklin's own letter
 hint: Look at the fact box. It says it is the only account from that year.
 explain: The letter describes drawing sparks with a key on a silk ribbon, and it is the only account from that year.
 
@@ -337,8 +337,8 @@ p: The Liberty Bell cracked on its very first test ring after arriving.
 fact: It was melted down and recast twice by local workmen, but it cracked again later. The famous wide slot was cut deliberately to try to stop the crack spreading.
 p: But it did not work, and the bell has not been rung properly since.
 check: Why was the slot cut in the Liberty Bell?
-+ To try to stop the crack spreading
 - To make it look more interesting
++ To try to stop the crack spreading
 - To make the bell ring louder
 hint: Look at the fact box. It explains what the slot was for.
 explain: The slot was cut to try to stop the crack from spreading, but it did not work.
@@ -347,8 +347,8 @@ explain: The slot was cut to try to stop the crack from spreading, but it did no
 p: You might have heard that George Washington's false teeth were wooden, but that is not true.
 fact: His surviving set is made of hippopotamus ivory, human teeth, brass screws, and a lead base. They stained dark over time, which is probably where the wood story came from.
 check: What were Washington's false teeth made of?
-- Carved maple wood, cow bone, iron nails, and tin
 + Hippopotamus ivory, human teeth, brass screws, and lead
+- Carved maple wood, cow bone, iron nails, and tin
 - Solid gold, polished silver, glass beads, and clay
 hint: Look at the fact box. It lists the materials used.
 explain: They were made of hippopotamus ivory, human teeth, brass screws, and a lead base.
@@ -365,7 +365,7 @@ game: Groove = Cut by iron-rimmed wheels | Oxen = Cheaper and stronger than hors
 --- 🛤️
 p: Stand in a groove cut into solid rock by wagon wheels near Guernsey, Wyoming.
 fact: The Oregon Trail crossed a ridge of soft sandstone there. So many iron-rimmed wheels went over the same line that they cut a groove up to 5 feet deep. It was worn by wheels, one wagon at a time.
-check: How was the groove made?
+check: Deep grooves can still be seen in the rock along the Oregon Trail. How were they made?
 + It was worn by wheels, one wagon at a time
 - A stream cut it into the rock over many years
 - Workers cut it out with picks and shovels
@@ -376,7 +376,7 @@ explain: The groove was worn into the soft sandstone by countless iron-rimmed wh
 p: Almost nobody rode in the wagons because they were crammed with supplies and the ride was too rough.
 fact: The animals pulling most of the wagons were oxen, not horses. Oxen were cheaper and stronger, could live on rougher grass, and were less likely to be stolen.
 term: oxen = Big, strong cattle used for work.
-check: What pulled most of the wagons?
+check: What pulled most of the wagons on the Oregon Trail?
 - Horses
 + Oxen
 - Mules
@@ -408,7 +408,7 @@ explain: The houses were built using strips of sod cut with a special plow and s
 p: Two inventions made farming the dry plains possible.
 fact: Barbed wire fenced land where there was no wood for rails. Windmills pumped water up from far below the ground with nobody doing the work.
 p: The windmills are still standing all over the American West. They are tall metal towers with a small tail that turns the wheel into the wind by itself.
-check: What did the windmills do?
+check: What did the windmills on the plains farms do?
 - Plowed the fields without any animals
 + Pumped water up from far below the ground
 - Sent signals to neighbors across the plains
@@ -419,7 +419,7 @@ explain: Windmills pumped water up from deep underground without anyone having t
 p: A chuckwagon was a kitchen on wheels that followed the cattle drives.
 fact: It had a hinged lid that dropped down to make a work surface. Behind it were drawers for flour, coffee, beans, and sourdough.
 p: A rancher named Charles Goodnight built the first one in 1866 from an old army wagon, with iron axles that would not break.
-check: What did the hinged lid make?
+check: On a chuckwagon, what did the hinged lid make?
 - A storage compartment
 - A bed for the cook
 + A work surface
@@ -439,8 +439,8 @@ game: Erie Canal = 363 miles long with locks | Mules = Pulled boats along the ca
 p: Have you ever dug a trench in the sand at the beach? Now imagine digging a canal 363 miles long by hand.
 fact: The Erie Canal ran across New York State, with 83 locks, which are water-filled chambers that lift boats up or lower them to the next level. Boats were pulled by mules walking a towpath beside the water. It cut the cost of moving a ton of freight by about ninety percent.
 check: What pulled the boats along the Erie Canal?
-- Steam engines on the boat
 + Mules walking a towpath
+- Steam engines on the boat
 - Sails raised on tall masts
 hint: Look at the fact box. It tells you what pulled the boats.
 explain: Mules walked a towpath beside the canal, pulling the boats along.
@@ -450,9 +450,9 @@ p: Mississippi steamboats floated in so little water that captains joked they co
 fact: Flat-bottomed hulls and paddle wheels let them work rivers a few feet deep, and they carried enormous loads.
 term: paddle wheels = The big round wheels on the side of the boat that turn to push it through the water.
 check: Why could steamboats work shallow rivers?
-+ Flat-bottomed hulls and paddle wheels
 - Deep keels and tall canvas sails
 - Tall smokestacks and strong iron anchors
++ Flat-bottomed hulls and paddle wheels
 hint: Look at the fact box. It mentions two key parts of the boats.
 explain: Flat-bottomed hulls and paddle wheels allowed them to navigate rivers that were only a few feet deep.
 
@@ -460,10 +460,10 @@ explain: Flat-bottomed hulls and paddle wheels allowed them to navigate rivers t
 p: Two railroads met at Promontory Summit in 1869 to finish the first cross-country railway.
 fact: A telegraph wire was attached to the hammer and the last spike. The blow was meant to send a signal down the line, so the word DONE would go out to both coasts at the same moment.
 p: The man swinging the hammer even missed on the first try, but the telegraph operator sent the signal anyway.
-check: How did the news go out when the spike was hit?
+check: How did the news go out when the last spike of the first railroad across the country was hit?
 - A rider on a fast horse carried the news to town
-- A large flag was waved from the hilltop to the crowd
 + A telegraph wire was fixed to the hammer and the spike
+- A large flag was waved from the hilltop to the crowd
 hint: Look at the fact box. It mentions the telegraph wire attached to both the hammer and the spike.
 explain: The telegraph wire was connected to the hammer and the spike, so when it was hit, the signal went out instantly.
 
@@ -471,9 +471,9 @@ explain: The telegraph wire was connected to the hammer and the spike, so when i
 p: Before 1883, every town set its own clock by the sun. Noon in one place was several minutes off from noon in the next.
 fact: Railway timetables became impossible with all those different times, so the railroads invented four time zones and imposed them.
 p: The government did not make it law for another thirty-five years. The trains had already settled it.
-check: Who made the time zones?
-- The government
+check: Who made the time zones in the United States?
 + The railroads
+- The government
 - Each town
 hint: Look at the fact box. It says who created the time zones.
 explain: The railroads invented and imposed the four time zones to make their timetables work.
@@ -482,20 +482,20 @@ explain: The railroads invented and imposed the four time zones to make their ti
 p: Henry Ford did not invent the car. He found a new way to build it, with a moving assembly line.
 fact: Instead of workers walking around a car that stayed in one place, he moved the car past the workers, and each worker did one job. Building one chassis, the frame the car body sits on, went from twelve and a half hours to just ninety-three minutes.
 p: The idea came partly from meat-packing plants. There, carcasses traveled on overhead rails, with workers making specific cuts as they passed by.
-check: How long did building a chassis take after Ford's change?
-+ Ninety-three minutes
+check: After Ford's change, how long did it take to build a car chassis?
 - Twelve and a half hours
 - Two hours
++ Ninety-three minutes
 hint: Look at the fact box. It gives the new time.
 explain: After Ford's change, building a chassis took ninety-three minutes.
 
 --- 🌉
 p: The chief engineer of the Brooklyn Bridge, Washington Roebling, became too sick to leave his bed after working in the air-filled chambers under the river.
 fact: His wife, Emily Roebling, filled in for him. She learned the mathematics, carried his instructions to the site every day, and dealt with contractors for eleven years.
-check: Who carried the engineer's instructions to the site?
+check: When Washington Roebling became too sick to leave his bed, who carried his instructions to the Brooklyn Bridge site?
 - A hired helper
-- The bridge workers
 + His wife Emily
+- The bridge workers
 hint: Look at the second sentence. It names who took over.
 explain: Emily learned the math and carried the instructions daily.
 
@@ -512,8 +512,8 @@ p: Thomas Edison's laboratory left behind about five million pages of notes, dra
 fact: Most of what is in them is failure — sketches, dead ends, and lists of things tried and crossed off.
 check: What fills most of Edison's notebooks?
 - Clever inventions that worked
-+ Failures and dead ends
 - Perfectly working designs
++ Failures and dead ends
 hint: Look at the first sentence of the fact box. It tells you what fills most of the notebooks.
 explain: Most of Edison's notebooks are filled with failures, sketches, and things crossed off.
 
@@ -521,9 +521,9 @@ explain: Most of Edison's notebooks are filled with failures, sketches, and thin
 p: Samuel Morse sent the first long telegraph message from Washington to Baltimore in 1844.
 fact: The message was four words: What hath God wrought. The paper tape with those dots and dashes still exists today.
 term: wrought = An old word meaning made or done.
-check: How many words was the first long telegraph message?
-+ Four
+check: How many words were in the first long telegraph message, sent by Samuel Morse?
 - Two
++ Four
 - Eight
 hint: Look at the first sentence of the fact box. It tells you how many words the message had.
 explain: The message had four words: What hath God wrought.
@@ -531,10 +531,10 @@ explain: The message had four words: What hath God wrought.
 --- 🛗
 p: In 1854, Elisha Otis stood on a loaded platform hoisted above a crowd and had an assistant cut the rope with an axe.
 fact: The safety brake caught. This convinced people that elevators were safe to use.
-check: What happened when the rope was cut?
+check: When Elisha Otis had the rope of his elevator platform cut with an axe, what happened?
++ The safety brake caught the platform
 - The platform fell to the ground
 - The people on board jumped to safety
-+ The safety brake caught the platform
 hint: Look at the second sentence of the fact box. It tells you what happened.
 explain: The safety brake caught the platform, proving that elevators could be safe.
 
@@ -542,8 +542,8 @@ explain: The safety brake caught the platform, proving that elevators could be s
 p: Cotton is hard on the land. It takes so much from the soil that it can leave fields tired and empty.
 fact: George Washington Carver pushed farmers to plant peanuts and sweet potatoes instead. Peanut roots carry tiny bacteria that put back nitrogen, a plant food that cotton had used up. He published hundreds of recipes and products to make sure those crops were worth growing.
 check: Why did Carver push peanuts?
-+ Cotton strips the soil, and peanuts help it recover
 - Cotton spoils in storage, and peanuts keep for years
++ Cotton strips the soil, and peanuts help it recover
 - Peanut farms need no workers, but cotton farms do
 hint: Look at the first sentence on the page. It tells you how cotton affects the soil.
 explain: Peanuts let the soil recover from what cotton takes out of it.
@@ -552,9 +552,9 @@ explain: Peanuts let the soil recover from what cotton takes out of it.
 p: Garrett Morgan built a breathing hood to protect people from smoke and gas.
 fact: In 1916, he used his breathing hood to rescue men trapped in a collapsed, gas-filled tunnel under Lake Erie.
 p: Later, Morgan patented a traffic signal. Signals then had only two positions, stop and go. His added a third that stops everyone at once.
-check: What is Morgan's third position on a traffic signal?
-- Only the cars on one street stop
+check: What is the third position of Garrett Morgan's traffic signal?
 + Everybody stops at once
+- Only the cars on one street stop
 - Everybody goes at once
 hint: Look at the last sentence on the page. It tells you about the third position.
 explain: The third position stops everybody, so people on foot can cross safely.
@@ -562,7 +562,7 @@ explain: The third position stops everybody, so people on foot can cross safely.
 --- ☎️
 p: In 1876, Alexander Graham Bell filed his telephone patent.
 fact: On the very same day, another inventor named Elisha Gray filed a description of something very similar. Which arrived first has been argued about ever since.
-check: Who else filed a similar description on the same day as Bell?
+check: Who else filed a description of a telephone on the same day as Alexander Graham Bell?
 - Thomas Edison
 - Nikola Tesla
 + Elisha Gray
@@ -573,71 +573,85 @@ explain: Both Bell and Elisha Gray filed descriptions of something very similar 
 p: Failures in notebooks. Words by wire. A rope cut on purpose. A patent race on the same day.
 p: Each invention, a step built from what was learned.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === america-revolution
 idea: Tea in a harbor, a midnight ride and a Declaration of Independence: how a new country began.
 
 game: Dartmouth = Ship that carried the tea | Sons of Liberty = Threw chests of tea into the harbor | Paul Revere = Rang the new bells at Old North Church | Longfellow = Wrote the poem Paul Revere's Ride | Washington = Chosen to lead the Continental Army
 
 --- 🔔
-p: On the night of December 16, members of the Sons of Liberty boarded the ship Dartmouth in Boston.
+p: On the night of December 16, 1773, members of the Sons of Liberty boarded the ship Dartmouth in Boston.
 
 term: harbor = A place where a ship like the Dartmouth stays, as in Boston Harbor.
 
-fact: They threw 340 or 342 chests of tea into Boston Harbor.
+fact(The tea): The Sons of Liberty threw 340 or 342 chests of tea into Boston Harbor.
 
-check: How many chests of tea were thrown into Boston Harbor?
+check: How many chests of tea did the Sons of Liberty throw into Boston Harbor?
 - Only 34
-+ 340 or 342
 - More than 3,400
-hint: Look at the box. The answer is there.
-explain: They threw 340 or 342 chests of tea into Boston Harbor.
++ 340 or 342
+hint: Look at the box. It gives the number of chests.
+explain: The Sons of Liberty threw 340 or 342 chests of tea into Boston Harbor.
 
 --- 📅
 p: In November 1773 the merchant ship Dartmouth arrived in Boston harbor.
 
-fact: It carried the first shipment of tea made under the terms of the Tea Act.
+fact(Its cargo): The Dartmouth carried the first shipment of tea made under the terms of the Tea Act.
 
-check: What was the name of the merchant ship that carried the tea?
-- Mayflower
+check: What was the name of the merchant ship that carried the first shipment of tea under the Tea Act?
 + Dartmouth
+- Mayflower
 - Santa Maria
-hint: Look at the paragraph. The answer is there.
-explain: In November 1773 the merchant ship Dartmouth arrived in Boston harbor.
+hint: Look at the paragraph. It names the ship.
+explain: The merchant ship Dartmouth carried the first shipment of tea under the Tea Act.
 
 --- 🧑
 p: In 1750, Paul Revere was 15 years old.
 
-fact: He was part of the first group to ring the new bells at Christ Church in Boston, the Old North Church.
+fact(The bells): Paul Revere was part of the first group to ring the new bells at Christ Church in Boston, the Old North Church.
 
-check: How old was Paul Revere when he rang the new bells?
+check: How old was Paul Revere in 1750, when he helped ring the new bells?
 - Just 5 years
 + 15 years old
 - Nearly 50 years
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives his age.
 explain: In 1750, Paul Revere was 15 years old.
 
 --- 👤
 p: Paul Revere's midnight ride made him an American folk hero.
 
-fact: Henry Wadsworth Longfellow told the story in his 1861 poem Paul Revere's Ride.
+fact(The poem): Henry Wadsworth Longfellow told the story in his 1861 poem Paul Revere's Ride.
 
 check: Who wrote the poem about Paul Revere's ride?
-- Elizabeth Cady Stanton
 + Henry Wadsworth Longfellow
+- Elizabeth Cady Stanton
 - Ralph Waldo Emerson
-hint: Look at the box. The answer is there.
+hint: Look at the box. It names the poet.
 explain: Henry Wadsworth Longfellow told the story in his 1861 poem Paul Revere's Ride.
 
 --- ⏳
-p: The Declaration of Independence was first read in public on July 8, 1776.
+p: The Declaration was first read in public on July 8, 1776.
 
-fact: It was read at noon in three places: Trenton, Easton and Philadelphia.
+fact(Three places): It was read at noon in three places: Trenton, Easton and Philadelphia.
+
+check: How many places was the Declaration read at noon on that first day?
+- Seven
+- Eight
++ Three
+hint: Look at the box. It says how many places.
+explain: The Declaration was read at noon in three places: Trenton, Easton and Philadelphia.
 
 --- 👑
 p: In 1775, the Second Continental Congress made an army, the Continental Army.
 
-fact: It chose George Washington to lead it.
+fact(Its leader): The Congress chose George Washington to lead the Continental Army.
+
+check: Who did the Second Continental Congress choose to lead the Continental Army?
+- Paul Revere
++ George Washington
+- Henry Wadsworth Longfellow
+hint: Look at the box. It names the leader.
+explain: The Congress chose George Washington to lead the Continental Army.
 
 --- 🔎
 p: Chests of tea in the harbor. A ship named Dartmouth. Bells in Boston. A midnight ride. A Declaration read at noon. An army with Washington.
@@ -646,19 +660,13 @@ p: The tea, the ride and the Declaration.
 
 quiz: Where did the Sons of Liberty throw the tea?
 - Into a muddy river
-+ Into Boston Harbor
 - Onto the busy docks
-explain: They threw 340 or 342 chests of tea into Boston Harbor.
-
-quiz: Who was chosen to lead the Continental Army?
-- Henry Wadsworth Longfellow
-+ George Washington
-- Abraham Lincoln
-explain: It chose George Washington to lead it.
++ Into Boston Harbor
+explain: The Sons of Liberty threw 340 or 342 chests of tea into Boston Harbor.
 
 quiz: In what year did Longfellow's poem about Paul Revere's ride come out?
-- 1681
 + 1861
+- 1681
 - 1816
 explain: Henry Wadsworth Longfellow told the story in his 1861 poem Paul Revere's Ride.
 
@@ -668,7 +676,13 @@ quiz: On what date was the Declaration of Independence first read in public?
 - October 31, 1776
 explain: The Declaration of Independence was first read in public on July 8, 1776.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: What army did the Second Continental Congress make in 1775?
++ The Continental Army
+- The Minuteman Army
+- The Boston Army
+explain: In 1775, the Second Continental Congress made an army, the Continental Army.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === america-constitution
 idea: The Constitution was written in Philadelphia, and George Washington was the first president.
 
@@ -677,62 +691,76 @@ game: Constitution = Oldest written national constitution still in use | Bill of
 --- 📜
 p: In 1787, men met at Independence Hall in Philadelphia.
 
-fact: They wrote the Constitution there.
+fact(What they did): The men wrote the Constitution there.
 
 check: In which city was the Constitution drafted?
 - New York City
-+ Philadelphia
 - Washington
-hint: Look at the paragraph. The answer is there.
-explain: In 1787, men met at Independence Hall in Philadelphia.
++ Philadelphia
+hint: Look at the paragraph. It names the city.
+explain: In 1787, men met at Independence Hall in Philadelphia, and they wrote the Constitution there.
 
 --- 🏆
-p: The U.S. Constitution is still in use.
+p: The U.S. Constitution is the oldest written national constitution.
 
-fact: It is the oldest written national constitution still in use in the world.
+fact(Still in use): It is still in use in the world.
 
 check: Among written national constitutions still in use, the U.S. Constitution is which?
 - The newest
 + The oldest
 - The longest
-hint: Look at the paragraph. The answer is there.
-explain: It is the oldest written national constitution still in use in the world.
+hint: Look at the paragraph. It says how old it is compared with the others.
+explain: The U.S. Constitution is the oldest written national constitution still in use in the world.
 
 --- ⚙️
 p: The Bill of Rights is part of the Constitution.
 
 term: amendment = A change or addition to the Constitution.
 
-fact: It is the first ten amendments to the United States Constitution.
+fact(Ten amendments): The Bill of Rights is the first ten amendments to the United States Constitution.
 
 check: How many amendments are in the Bill of Rights?
-- Six
 + Ten
+- Six
 - Twenty
-hint: Look at the box. The answer is there.
-explain: It is the first ten amendments to the United States Constitution.
+hint: Look at the box. It gives the number.
+explain: The Bill of Rights is the first ten amendments to the United States Constitution.
 
 --- 🧑
 p: 55 delegates drafted the Constitution.
 
-fact: They are among the men known as the Founding Fathers of the new nation.
+fact(Founding Fathers): The delegates are among the men known as the Founding Fathers of the new nation.
 
 check: How many delegates drafted the Constitution?
 - 5
 + 55
 - 550
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the number.
 explain: 55 delegates drafted the Constitution.
 
 --- 🔧
 p: The 9th Amendment is about rights.
 
-fact: It says that a right is not missing just because it is not listed in the Bill of Rights.
+fact(What it says): The 9th Amendment says that a right is not missing just because it is not listed in the Bill of Rights.
+
+check: According to the 9th Amendment, is a right missing just because it is not listed in the Bill of Rights?
+- Yes
+- Only in some states
++ No
+hint: Look at the box. It says what the amendment says.
+explain: The 9th Amendment says that a right is not missing just because it is not listed in the Bill of Rights.
 
 --- 👤
 p: George Washington was the first U.S. president.
 
-fact: Every vote of the Electoral College elected him in 1789 and again in 1792.
+fact(Elected twice): Every vote of the Electoral College elected George Washington in 1789 and again in 1792.
+
+check: Who was the first U.S. president?
++ George Washington
+- Abraham Lincoln
+- Theodore Roosevelt
+hint: Look at the paragraph. It names the first president.
+explain: George Washington was the first U.S. president.
 
 --- 🔎
 p: Men in Philadelphia. The oldest written constitution. Ten amendments. 55 delegates. The first president.
@@ -745,25 +773,25 @@ quiz: In what year did men meet at Independence Hall in Philadelphia?
 - 1877
 explain: In 1787, men met at Independence Hall in Philadelphia.
 
-quiz: Who was the first U.S. president?
-- Abraham Lincoln
-+ George Washington
-- Theodore Roosevelt
-explain: George Washington was the first U.S. president.
-
 quiz: In which years did the Electoral College elect George Washington?
 - Only in 1801
-+ 1789 and 1792
 - In 1776 and 1783
-explain: Every vote of the Electoral College elected him in 1789 and again in 1792.
++ 1789 and 1792
+explain: Every vote of the Electoral College elected George Washington in 1789 and again in 1792.
 
 quiz: What is the Bill of Rights?
-- A list of all the states
 + The first ten amendments
+- A list of all the states
 - The names of the delegates
 explain: The Bill of Rights is the first ten amendments to the United States Constitution.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: What are the men who drafted the Constitution among those known as?
+- The Pilgrim Fathers
+- The Ship Captains
++ The Founding Fathers
+explain: The delegates are among the men known as the Founding Fathers of the new nation.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === america-presidents
 idea: A president born in a log cabin, and one who became president at 42, the youngest ever.
 
@@ -774,91 +802,105 @@ p: Abraham Lincoln was born in a one-room log cabin in Kentucky.
 
 term: log cabin = A small house made from logs, like the cabin where Lincoln was born.
 
-fact: He was born on February 12, 1809.
+fact(His birthday): Abraham Lincoln was born on February 12, 1809.
 
-check: What kind of house was Lincoln born in?
+check: What kind of house was Abraham Lincoln born in?
 - A tall brick mansion
-+ A one-room log cabin
 - A big stone castle
-hint: Look at the paragraph. The answer is there.
++ A one-room log cabin
+hint: Look at the paragraph. It says what kind of house it was.
 explain: Abraham Lincoln was born in a one-room log cabin in Kentucky.
 
 --- 📅
-p: On January 1, 1863, Lincoln said that slaves in the rebel states were free.
+p: On January 1, 1863, Lincoln said that enslaved people in the rebel states were free.
 
-fact: This was the Emancipation Proclamation.
+fact(Its name): This was the Emancipation Proclamation.
 
 check: What did the Emancipation Proclamation declare?
 - Soldiers in the northern states were paid
-+ Slaves in the rebel states were free
++ Enslaved people in the rebel states were free
 - Farmers in the western states were rich
-hint: Look at the paragraph. The answer is there.
-explain: On January 1, 1863, Lincoln said that slaves in the rebel states were free.
+hint: Look at the paragraph. It says what Lincoln declared.
+explain: In the Emancipation Proclamation, Lincoln said that enslaved people in the rebel states were free.
 
 --- 🏆
 p: Theodore Roosevelt was 42 years old when he was first inaugurated.
 
-fact: That made him the youngest person to hold the office of president.
+fact(The youngest): That made Theodore Roosevelt the youngest person to hold the office of president.
 
 check: How old was Theodore Roosevelt at his first inauguration?
-- Just 24
 + 42 years old
+- Just 24
 - About 62 years
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives his age.
 explain: Theodore Roosevelt was 42 years old when he was first inaugurated.
 
 --- 🥇
 p: Theodore Roosevelt won the 1906 Nobel Peace Prize.
 
-fact: It was for his efforts to end the Russo-Japanese War. He was the first non-European to win a Nobel Prize.
+fact(Why): He won it for his efforts to end the Russo-Japanese War. He was the first non-European to win a Nobel Prize.
 
 check: What prize did Theodore Roosevelt win in 1906?
 - A gold medal of honor
-+ The Nobel Peace Prize
 - A big trophy cup
-hint: Look at the paragraph. The answer is there.
++ The Nobel Peace Prize
+hint: Look at the paragraph. It names the prize.
 explain: Theodore Roosevelt won the 1906 Nobel Peace Prize.
 
 --- 🧑
 p: Theodore Roosevelt went hiking with his family in the Alps in 1869.
 
-fact: He found that exercise helped his asthma and lifted his spirits.
+fact(What he found): Roosevelt found that exercise helped his asthma and lifted his spirits.
+
+check: What did Theodore Roosevelt find helped his asthma?
+- Medicine
++ Exercise
+- Sleeping
+hint: Look at the box. It says what helped.
+explain: Roosevelt found that exercise helped his asthma and lifted his spirits.
 
 --- 🏗️
 p: The White House was built between 1792 and 1800.
 
-fact: Its outside walls are Aquia Creek sandstone painted white.
+fact(Its walls): The outside walls of the White House are Aquia Creek sandstone painted white.
+
+check: What are the outside walls of the White House made of?
++ Aquia Creek sandstone
+- Red brick from Virginia
+- White painted wood
+hint: Look at the box. It says what the walls are made of.
+explain: The outside walls of the White House are Aquia Creek sandstone painted white.
 
 --- 🔎
-p: A log cabin. A proclamation that said slaves were free. A young president. A Nobel Peace Prize. A house painted white.
+p: A log cabin. A proclamation that said enslaved people were free. A young president. A Nobel Peace Prize. A house painted white.
 
 p: Presidents did big things.
 
-quiz: In which state was Lincoln born?
+quiz: In which state was Abraham Lincoln born?
 - Boston
-+ Kentucky
 - Virginia
++ Kentucky
 explain: Abraham Lincoln was born in a one-room log cabin in Kentucky.
-
-quiz: What did Theodore Roosevelt find helped his asthma?
-- Medicine
-+ Exercise
-- Sleeping
-explain: He found that exercise helped his asthma and lifted his spirits.
-
-quiz: What are the outside walls of the White House made of?
-- Red brick from Virginia
-+ Aquia Creek sandstone
-- White painted wood
-explain: Its outside walls are Aquia Creek sandstone painted white.
 
 quiz: Which president was the youngest person to hold the office?
 - Abraham Lincoln
 + Theodore Roosevelt
 - George Washington
-explain: That made him the youngest person to hold the office of president.
+explain: Theodore Roosevelt was the youngest person to hold the office of president.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: When was the White House built?
++ Between 1792 and 1800
+- Between 1492 and 1500
+- Between 1992 and 2000
+explain: The White House was built between 1792 and 1800.
+
+quiz: Who was the first non-European to win a Nobel Prize?
+- Abraham Lincoln
++ Theodore Roosevelt
+- George Washington
+explain: Theodore Roosevelt was the first non-European to win a Nobel Prize.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === america-civilwar
 idea: A very short speech, a surrender at Appomattox, and a woman who rescued enslaved people.
 
@@ -869,60 +911,74 @@ p: Americans argued about slavery for years.
 
 term: elected = Chosen by votes, like Abraham Lincoln when he was elected president.
 
-fact: In 1860, Abraham Lincoln was elected president. He did not want slavery to spread.
+fact(1860): In 1860, Abraham Lincoln was elected president. He did not want slavery to spread.
 
 check: Who won the 1860 presidential election?
 - George Washington
 + Abraham Lincoln
 - Theodore Roosevelt
-hint: Look at the box. The answer is there.
+hint: Look at the box. It says who was elected in 1860.
 explain: In 1860, Abraham Lincoln was elected president.
 
 --- 📅
 p: On April 9, 1865, General Lee surrendered to General Grant at Appomattox Court House.
 
-fact: That began the end of the war.
+fact(The end): That began the end of the Civil War.
 
-check: Who surrendered to Grant on April 9, 1865?
+check: Who surrendered to General Grant on April 9, 1865?
 - General Custer
-+ General Lee
 - General Sherman
-hint: Look at the paragraph. The answer is there.
++ General Lee
+hint: Look at the paragraph. It names who surrendered.
 explain: On April 9, 1865, General Lee surrendered to General Grant at Appomattox Court House.
 
 --- 🏆
 p: Lincoln's Gettysburg Address was only 271 words long and ten sentences.
 
-fact: The speaker before him talked for two hours and used 13,607 words.
+fact(The speaker before): The speaker before Lincoln talked for two hours and used 13,607 words.
 
 check: How many words was Lincoln's Gettysburg Address?
-- Over 2,000
 + 271 words
+- Over 2,000
 - Only 27
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the length.
 explain: Lincoln's Gettysburg Address was only 271 words long and ten sentences.
 
 --- 🧑
 p: Harriet Tubman escaped slavery.
 
-fact: Then she made some 13 trips to rescue about 70 enslaved people.
+fact(Her trips): Then Harriet Tubman made some 13 trips to rescue about 70 enslaved people.
 
-check: About how many people did Harriet Tubman rescue?
+check: About how many enslaved people did Harriet Tubman rescue?
 - Just 7
-+ About 70
 - Nearly 7,000
-hint: Look at the box. The answer is there.
-explain: Then she made some 13 trips to rescue about 70 enslaved people.
++ About 70
+hint: Look at the box. It gives the number of people.
+explain: Harriet Tubman made some 13 trips to rescue about 70 enslaved people.
 
 --- 👤
 p: Harriet Tubman guided a raid at Combahee Ferry.
 
-fact: It freed more than 700 enslaved people.
+fact(Set free): The raid freed more than 700 enslaved people.
+
+check: How many enslaved people did the raid at Combahee Ferry free?
++ More than 700
+- About 70
+- Fewer than 7
+hint: Look at the box. It gives the number.
+explain: The raid at Combahee Ferry freed more than 700 enslaved people.
 
 --- ⏳
 p: The Emancipation Proclamation changed the lives of more than 3.5 million enslaved people.
 
-fact: It made them free.
+fact(Free by law): It changed their legal status from enslaved to free.
+
+check: How many enslaved people did the Emancipation Proclamation change the lives of?
+- Fewer than 350,000 people
++ More than 3.5 million
+- Around 35,000 people in all
+hint: Look at the paragraph. It gives the number.
+explain: The Emancipation Proclamation changed the lives of more than 3.5 million enslaved people.
 
 --- 🔎
 p: An election in 1860. A surrender at Appomattox. A short address. Harriet Tubman and her trips. A raid at a ferry.
@@ -930,30 +986,30 @@ p: An election in 1860. A surrender at Appomattox. A short address. Harriet Tubm
 p: Freedom came to many.
 
 quiz: Who guided a raid at Combahee Ferry?
-- Abraham Lincoln
 + Harriet Tubman
+- Abraham Lincoln
 - General Grant
 explain: Harriet Tubman guided a raid at Combahee Ferry.
 
-quiz: How long did the speaker before Lincoln talk?
+quiz: How long did the speaker before Lincoln talk at Gettysburg?
 - Ten minutes
 + Two hours
 - A whole week
-explain: The speaker before him talked for two hours and used 13,607 words.
+explain: The speaker before Lincoln talked for two hours and used 13,607 words.
 
 quiz: Where did General Lee surrender to General Grant?
 - Gettysburg battlefield
-+ Appomattox Court House
 - Independence Hall
++ Appomattox Court House
 explain: General Lee surrendered to General Grant at Appomattox Court House.
 
-quiz: How many enslaved people did the Emancipation Proclamation change the lives of?
-- Fewer than 350,000 people
-+ More than 3.5 million
-- Around 35,000 people in all
-explain: The Emancipation Proclamation changed the lives of more than 3.5 million enslaved people.
+quiz: What did Abraham Lincoln not want to happen to slavery?
+- To end
++ To spread
+- To be written down
+explain: In 1860, Abraham Lincoln was elected president. He did not want slavery to spread.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === america-gold
 idea: Gold was found in California in 1848, and many people headed west by wagon trail and Pony Express.
 
@@ -964,60 +1020,74 @@ p: The California gold rush began on January 24, 1848.
 
 term: gold rush = A rush of many people to a place where gold was found.
 
-fact: Gold was found by James W. Marshall.
+fact(Who found it): Gold was found by James W. Marshall.
 
 check: When did the California gold rush begin?
 - February 14, 1858
-+ January 24, 1848
 - September 4, 1749
-hint: Look at the paragraph. The answer is there.
++ January 24, 1848
+hint: Look at the paragraph. It gives the date.
 explain: The California gold rush began on January 24, 1848.
 
 --- 📏
 p: The news of gold brought about 300,000 people to California.
 
-fact: They came from the rest of the United States and from other countries.
+fact(From where): The people came from the rest of the United States and from other countries.
 
 check: About how many people came to California for gold?
 - 30,000
 + 300,000
 - 3 million
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the number of people.
 explain: The news of gold brought about 300,000 people to California.
 
 --- 📐
 p: San Francisco grew from a small settlement of about 200 people in 1846.
 
-fact: By 1852 it was a boomtown of about 36,000 people.
+fact(By 1852): By 1852 San Francisco was a boomtown of about 36,000 people.
 
 check: How many people lived in San Francisco by 1852?
-- Only 360
-+ About 36,000
-- Nearly 3,600
-hint: Look at the paragraph. The answer is there.
-explain: By 1852 it was a boomtown of about 36,000 people.
++ 36,000
+- 3,600
+- 360,000
+hint: Look at the box. It gives the number of people.
+explain: By 1852 San Francisco was a boomtown of about 36,000 people.
 
 --- ⚖️
 p: The Oregon Trail was a wagon route 2,170 mi (3,490 km) long.
 
-fact: It connected the Missouri River to valleys in Oregon Territory.
+fact(Where it ran): The Oregon Trail connected the Missouri River to valleys in Oregon Territory.
 
 check: What was the length of the Oregon Trail?
 - About 217 miles
 + 2,170 mi (3,490 km)
 - Over 21,700 miles
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It gives the length.
 explain: The Oregon Trail was a wagon route 2,170 mi (3,490 km) long.
 
 --- 📅
 p: Use of the Oregon Trail declined after the first transcontinental railroad was completed in 1869.
 
-fact: The railroad made the trip west faster, cheaper and safer.
+fact(Why): The railroad made the trip west faster, cheaper and safer.
+
+check: What did the railroad make the trip west?
++ Faster, cheaper and safer
+- Slower and more costly
+- Longer and much harder
+hint: Look at the box. It says what the railroad did for the trip.
+explain: The railroad made the trip west faster, cheaper and safer.
 
 --- 🏠
 p: Pony Express riders could not weigh more than 125 lb (57 kg).
 
-fact: The riders changed about every 75 to 100 mi (120 to 160 km), and they rode day and night.
+fact(Changing riders): The riders changed about every 75 to 100 mi (120 to 160 km), and they rode day and night.
+
+check: How much could a Pony Express rider weigh at most?
+- Under 12 lb
+- Over 1,250 lb
++ 125 lb (57 kg)
+hint: Look at the paragraph. It gives the weight.
+explain: Pony Express riders could not weigh more than 125 lb (57 kg).
 
 --- 🔎
 p: Gold found in 1848. People coming to California. A boomtown. A long wagon trail. A railroad. Riders day and night.
@@ -1025,30 +1095,30 @@ p: Gold found in 1848. People coming to California. A boomtown. A long wagon tra
 p: The West grew fast.
 
 quiz: Who found gold and began the California gold rush?
-- George Washington
 + James W. Marshall
+- George Washington
 - Theodore Roosevelt
 explain: The California gold rush began when gold was found by James W. Marshall.
 
-quiz: What did the railroad make the trip west?
-- Slower and more costly
-+ Faster, cheaper and safer
-- Longer and much harder
-explain: The railroad made the trip west faster, cheaper and safer.
-
-quiz: How much could Pony Express riders weigh at most?
-- Under 12 lb
-+ 125 lb (57 kg)
-- Over 1,250 lb
-explain: Pony Express riders could not weigh more than 125 lb (57 kg).
+quiz: In what year did San Francisco grow from about 200 people to about 36,000?
+- 1258
++ 1852
+- 1925
+explain: San Francisco grew from about 200 people in 1846 to about 36,000 people by 1852.
 
 quiz: When did Pony Express riders change?
 - Once every day at the same noon hour
-+ Every 75 to 100 mi (120 to 160 km)
 - Just once at the end of each month
++ Every 75 to 100 mi (120 to 160 km)
 explain: The riders changed about every 75 to 100 mi (120 to 160 km), and they rode day and night.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: What rivers did the Oregon Trail connect to valleys in Oregon Territory?
++ The Missouri River
+- The Nile River
+- The Amazon River
+explain: The Oregon Trail connected the Missouri River to valleys in Oregon Territory.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === america-coming
 idea: Ships and an island brought new people to America: the Pilgrims on the Mayflower, and millions through Ellis Island.
 
@@ -1059,93 +1129,107 @@ p: Ellis Island is a place where immigrants were processed.
 
 term: immigrants = People who arrived at the Port of New York to live in a new country.
 
-fact: From 1892 to 1954, about 12 million immigrants who arrived at the Port of New York and New Jersey were processed there.
+fact(How many): From 1892 to 1954, about 12 million immigrants who arrived at the Port of New York and New Jersey were processed there.
 
 check: How many immigrants were processed at Ellis Island?
-- Only about 12,000 people
 + About 12 million
+- Only about 12,000 people
 - Nearly 1,200 people
-hint: Look at the box. The answer is there.
-explain: From 1892 to 1954, about 12 million immigrants who arrived at the Port of New York and New Jersey were processed there.
+hint: Look at the box. It gives the number.
+explain: From 1892 to 1954, about 12 million immigrants were processed at Ellis Island.
 
 --- 🧑
 p: Ellis Island is named after Samuel Ellis.
 
-fact: He was a Welshman who bought the island in 1774.
+fact(Who he was): Samuel Ellis was a Welshman who bought the island in 1774.
 
 check: Who is Ellis Island named after?
 - Samuel Adams
 + Samuel Ellis
 - George Washington
-hint: Look at the paragraph. The answer is there.
+hint: Look at the paragraph. It names the person.
 explain: Ellis Island is named after Samuel Ellis.
 
 --- 📅
 p: The Statue of Liberty was dedicated on October 28, 1886.
 
-fact: In her left hand she carries a tablet marked July 4, 1776, in Roman numerals.
+fact(The tablet): In her left hand the Statue of Liberty carries a tablet marked July 4, 1776, in Roman numerals.
 
 check: When was the Statue of Liberty dedicated?
 - April 12, 1861
-+ October 28, 1886
 - March 8, 1688
-hint: Look at the paragraph. The answer is there.
++ October 28, 1886
+hint: Look at the paragraph. It gives the date.
 explain: The Statue of Liberty was dedicated on October 28, 1886.
 
 --- 🧭
 p: The Mayflower was an English sailing ship.
 
-fact: It was 110 ft (34 m) long and 25 ft (7.5 m) wide. In 1620 she carried a group of English families, known today as the Pilgrims, to the New World.
+fact(The Pilgrims): In 1620 the Mayflower carried a group of English families, known today as the Pilgrims, to the New World. The ship was 110 ft (34 m) long and 25 ft (7.5 m) wide.
 
 check: What were the English families on the Mayflower known as?
-- The Patriots
-+ The Pilgrims
-- The Pioneers
-hint: Look at the paragraph. The answer is there.
-explain: In 1620 she carried a group of English families, known today as the Pilgrims, to the New World.
+- Patriots
++ Pilgrims
+- Pioneers
+hint: Look at the box. It names the families.
+explain: In 1620 the Mayflower carried a group of English families, known today as the Pilgrims, to the New World.
 
 --- 🗺️
 p: After 10 weeks at sea, the Mayflower reached what is now the United States.
 
-fact: It carried 102 passengers and a crew of about 30. It dropped anchor near the tip of Cape Cod in November 1620.
+fact(Who was aboard): The Mayflower carried 102 passengers and a crew of about 30. It dropped anchor near the tip of Cape Cod in November 1620.
+
+check: How many passengers did the Mayflower carry?
++ 102
+- 12
+- 1,020
+hint: Look at the box. It gives the number of passengers.
+explain: The Mayflower carried 102 passengers and a crew of about 30.
 
 --- ⏳
 p: The first inspection station on Ellis Island opened in 1892.
 
-fact: A fire destroyed it in 1897.
+fact(The fire): A fire destroyed the station in 1897.
+
+check: What destroyed the first inspection station on Ellis Island?
+- A flood
+- A storm
++ A fire
+hint: Look at the box. It says what destroyed it.
+explain: A fire destroyed the first inspection station on Ellis Island in 1897.
 
 --- 🔎
 p: Millions of immigrants. A Welshman and an island. A statue with a tablet. A ship called the Mayflower. Ten weeks at sea.
 
 p: People came to a new land.
 
-quiz: How many passengers did the Mayflower carry?
-- 12
-+ 102
-- 1,020
-explain: It carried 102 passengers and a crew of about 30.
-
 quiz: Where did the Mayflower drop anchor in November 1620?
 - Inside the Port of New York
 + Near the tip of Cape Cod
 - Along the shores of Florida
-explain: It dropped anchor near the tip of Cape Cod in November 1620.
-
-quiz: What destroyed the first inspection station on Ellis Island?
-- A flood
-+ A fire
-- A storm
-explain: A fire destroyed it in 1897.
+explain: The Mayflower dropped anchor near the tip of Cape Cod in November 1620.
 
 quiz: How many weeks was the Mayflower at sea?
-- Only 2
 + 10 weeks
+- Only 2
 - Nearly 20
 explain: After 10 weeks at sea, the Mayflower reached what is now the United States.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+quiz: Who bought the island that is now called Ellis Island, in 1774?
+- George Washington
+- Paul Revere
++ Samuel Ellis
+explain: Samuel Ellis was a Welshman who bought the island in 1774.
+
+quiz: What is marked on the tablet that the Statue of Liberty carries?
+- October 28, 1886
++ July 4, 1776
+- December 16, 1773
+explain: In her left hand the Statue of Liberty carries a tablet marked July 4, 1776, in Roman numerals.
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === america-parks
-idea: A canyon over a mile deep, a geyser that erupts about every 92 minutes, and the first public park.
+idea: A canyon over a mile deep, Old Faithful erupting about every 92 minutes, and the first public park.
 
 game: Yellowstone = First public park for the people | Bison = Oldest and largest public herd | Grand Canyon = Over a mile deep | Old Faithful = Erupts on average every 92 minutes
 
@@ -1154,86 +1238,100 @@ p: In 1872, the United States set up Yellowstone National Park.
 
 term: national park = A park set up by the country for the benefit of its people.
 
-fact: It was the first public park for the benefit and enjoyment of the people.
+fact(The first): Yellowstone was the first public park for the benefit and enjoyment of the people.
 
 check: In what year was Yellowstone National Park established?
 - 1827
-+ 1872
 - 1782
-hint: Look at the paragraph. The answer is there.
++ 1872
+hint: Look at the paragraph. It gives the year.
 explain: In 1872, the United States set up Yellowstone National Park.
 
 --- 📏
 p: Yellowstone has a bison herd.
 
-fact: It is the oldest and largest public bison herd in the United States.
+fact(The record): The Yellowstone bison herd is the oldest and largest public bison herd in the United States.
 
-check: Which animal herd in Yellowstone is the oldest and largest public herd?
-- Elk
+check: Which animal herd in Yellowstone is the oldest and largest public herd in the United States?
 + Bison
+- Elk
 - Moose
-hint: Look at the paragraph. The answer is there.
-explain: Yellowstone has a bison herd.
+hint: Look at the paragraph. It names the animal.
+explain: The Yellowstone bison herd is the oldest and largest public bison herd in the United States.
 
 --- 📐
 p: The Grand Canyon is 277 mi (446 km) long and up to 18 mi (29 km) wide.
 
-fact: It is over a mile deep, at 6,093 ft (1,857 m).
+fact(How deep): The Grand Canyon is over a mile deep, at 6,093 ft (1,857 m).
 
 check: What is the length of the Grand Canyon?
 - About 27 miles
 + 277 mi (446 km)
 - Over 2,700 miles
-hint: Look at the paragraph. The answer is there.
-explain: The Grand Canyon is 277 mi (446 km) long and up to 18 mi (29 km) wide.
+hint: Look at the paragraph. It gives the length.
+explain: The Grand Canyon is 277 mi (446 km) long.
 
 --- ⚙️
 p: The North Rim of the Grand Canyon is cooler than the South Rim, because it is higher.
 
-fact: It averages 8,000 ft (2,400 m) above sea level.
+fact(How high): The North Rim averages 8,000 ft (2,400 m) above sea level.
 
 check: Which rim of the Grand Canyon is higher?
-- The South Rim
 + The North Rim
+- The South Rim
 - The Inner Rim
-hint: Look at the paragraph. The answer is there.
-explain: The North Rim of the Grand Canyon is cooler than the South Rim, because it is higher.
+hint: Look at the paragraph. It says which rim is higher.
+explain: The North Rim of the Grand Canyon is higher than the South Rim.
 
 --- 💨
 p: Old Faithful erupts on average every 92 minutes.
 
-fact: The time between eruptions can be as short as 35 minutes or as long as 120 minutes.
+fact(The range): The time between eruptions can be as short as 35 minutes or as long as 120 minutes.
+
+check: How often does Old Faithful erupt on average?
+- Once each hour on the hour
+- About twice in a whole year
++ Every 92 minutes
+hint: Look at the paragraph. It gives the average.
+explain: Old Faithful erupts on average every 92 minutes.
 
 --- ⚖️
 p: An eruption of Old Faithful can shoot 3,700 to 8,400 gallons of boiling water.
 
-fact: The water reaches a height of 106 to 185 ft (32 to 56 m).
+fact(How high): The water reaches a height of 106 to 185 ft (32 to 56 m).
+
+check: How high does the water of Old Faithful reach in an eruption?
+- Only 10 to 18 ft (3 to 5 m)
++ 106 to 185 ft (32 to 56 m)
+- Nearly 1,060 to 1,850 ft
+hint: Look at the box. It gives the height.
+explain: The water reaches a height of 106 to 185 ft (32 to 56 m).
 
 --- 🔎
-p: A park for the people. A herd of bison. A deep canyon. A cooler rim. A geyser that erupts.
+p: A park for the people. A herd of bison. A deep canyon. A cooler rim. Old Faithful, which erupts.
 
-p: Parks are for everyone.
-
-quiz: How often does Old Faithful erupt on average?
-- Once each hour on the hour
-+ Every 92 minutes
-- About twice in a whole year
-explain: Old Faithful erupts on average every 92 minutes.
-
-quiz: What does the North Rim average above sea level?
-- About 80 ft
-+ 8,000 ft (2,400 m)
-- Nearly 80,000 feet
-explain: It averages 8,000 ft (2,400 m) above sea level.
+p: Parks are for the people.
 
 quiz: What is shot out in an eruption of Old Faithful?
 - Melted snow
-+ Boiling water
 - Cold mud
++ Boiling water
 explain: An eruption of Old Faithful can shoot 3,700 to 8,400 gallons of boiling water.
 
-quiz: How tall is the water when Old Faithful erupts?
-- Only 10 to 18 ft
-+ 106 to 185 ft (32 to 56 m)
-- Nearly 1,060 ft
-explain: The water reaches a height of 106 to 185 ft (32 to 56 m).
+quiz: What does the North Rim average above sea level?
++ 8,000 ft (2,400 m)
+- About 80 ft
+- Nearly 80,000 feet
+explain: The North Rim averages 8,000 ft (2,400 m) above sea level.
+
+quiz: How long can the time be between eruptions of Old Faithful, at the shortest?
+- 3 minutes
++ 35 minutes
+- 350 minutes
+explain: The time between eruptions can be as short as 35 minutes or as long as 120 minutes.
+
+quiz: What is the Grand Canyon, at over a mile deep?
+- A tall mountain peak
+- A wide flat plain
++ A deep canyon in Arizona
+explain: The Grand Canyon is over a mile deep, at 6,093 ft (1,857 m).
