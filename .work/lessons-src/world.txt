@@ -877,11 +877,11 @@ p: A name from silk. A man who made it popular. Marco Polo in China. A camel wit
 
 p: The Silk Road was long.
 
-quiz: In what year did Ferdinand von Richthofen make the name Silk Road popular?
-- 1787
-- 1778
-+ 1877
-explain: The name Silk Road was made popular in 1877 by Ferdinand von Richthofen.
+quiz: Ferdinand von Richthofen made seven expeditions to which country?
+- Venice
+- Mecca
++ China
+explain: He made seven expeditions to China from 1868 to 1872.
 
 quiz: How many expeditions did Richthofen make to China from 1868 to 1872?
 + Seven
@@ -889,11 +889,11 @@ quiz: How many expeditions did Richthofen make to China from 1868 to 1872?
 - Twelve
 explain: He made seven expeditions to China from 1868 to 1872.
 
-quiz: In what year did Niccolò and Maffeo Polo come home to Venice?
-- 1296
-+ 1269
-- 1629
-explain: In 1269, Niccolò and Maffeo Polo came home to Venice and met young Marco for the first time.
+quiz: Which city did Niccolò and Maffeo Polo come home to?
+- China
++ Venice
+- Mecca
+explain: Niccolò and Maffeo Polo came home to Venice and met young Marco for the first time.
 
 quiz: Where was silk first developed?
 - Venice
@@ -986,17 +986,17 @@ p: A long wall. Smoke signals. Soldiers in pits. Tall generals. Paper money. A f
 
 p: China had big ideas.
 
-quiz: How many chariots are at the Terracotta Army?
-- 13
-+ 130
-- 1,300
+quiz: What does the Terracotta Army include besides soldiers?
+- Boats and sails
++ Chariots and horses
+- Houses and shops
 explain: There are also 130 chariots with 520 horses, and 150 cavalry horses.
 
-quiz: How many horses are with the 130 chariots at the Terracotta Army?
-- 52 horses
-- 5,200 horses
-+ 520 horses
-explain: There are also 130 chariots with 520 horses, and 150 cavalry horses.
+quiz: Which was the first government to issue paper currency?
+- The Great Wall
+- The Terracotta Army
++ The Song dynasty
+explain: The Song dynasty was the first government to issue paper currency.
 
 quiz: What did the Great Wall have?
 + Watchtowers
@@ -1216,17 +1216,17 @@ quiz: What unit of power is named after James Watt?
 - The volt
 explain: The unit of power called the watt is named after James Watt.
 
-quiz: In what year did Thomas Newcomen build an engine that sold well?
-- 1721
-- 1172
-+ 1712
-explain: In 1712, Thomas Newcomen built an engine that sold well.
+quiz: What could the engine of Thomas Newcomen give to a machine?
+- A new color
+- A loud voice
++ Steady power
+explain: Newcomen's engine could give steady power to a machine.
 
-quiz: By about what year had the Industrial Revolution spread to Europe and the United States?
-- 1480
-+ 1840
-- 1804
-explain: The Industrial Revolution had spread to Europe and the United States by about 1840.
+quiz: Where had the Industrial Revolution spread to by about 1840?
+- Great Britain and the sea
++ Europe and the United States
+- Only the old textile towns
+explain: By about 1840 it had spread to Europe and the United States.
 
 # UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === world-africa
@@ -1325,11 +1325,11 @@ quiz: What did Mali spread across the region?
 - Its gold, salt and ivory
 explain: Mali spread its language, laws and customs across the region.
 
-quiz: How far do the walls of the Great Enclosure extend?
-- About 82 ft (25 m)
-- Over 8,200 ft (2,500 m)
-+ About 820 ft (250 m)
-explain: The walls extend about 820 ft (250 m).
+quiz: What does the Great Enclosure at Great Zimbabwe have?
+- Tall towers
+- Tall bridges
++ Tall walls
+explain: The Great Enclosure at Great Zimbabwe has walls as high as 36 ft (11 m).
 
 quiz: How much of the Old World's gold came from West Africa, at that time?
 - Only one tenth

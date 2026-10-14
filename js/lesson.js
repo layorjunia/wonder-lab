@@ -588,13 +588,29 @@ Object.assign(App, {
   },
 
   // ══ THE QUIZ ═════════════════════════════════════════════════════════
+  // The quiz asks about ideas, not about remembering a number: a figure-recall question
+  // (q.fig, tools/qkind.py) is swapped for a question the child already met on a page of this
+  // lesson, so the quiz keeps its length. Only if the lesson has no such question is it kept.
+  portableQuiz(L) {
+    const quiz = L.quiz || [];
+    const ok = quiz.filter(q => !q.fig);
+    if (ok.length === quiz.length) return quiz;
+    const seen = new Set(ok.map(q => q.prompt));
+    const spare = [];
+    (L.pages || []).forEach(p => (p.blocks || []).forEach(b => {
+      const q = b.t === 'check' ? b.q : null;
+      if (q && !q.fig && q.type !== 'tf' && q.options && q.options.length >= 3 && !seen.has(q.prompt)) spare.push(q);
+    }));
+    const out = ok.concat(this.shuffle(spare)).slice(0, quiz.length);
+    return out.length >= Math.min(3, quiz.length) ? out : quiz;
+  },
   lessonStartQuiz() {
     const s = this._lesson;
     s.stage = 'quiz';
     // Shuffle the options as well as the order: the hand-written quiz lists
     // the right answer first in most questions, so without this a child
     // can pass every quiz by tapping the top button.
-    s.quiz = this.shuffle(s.L.quiz || this.buildQuestions(s.L, s.pages, 6, true)).map(q => {
+    s.quiz = this.shuffle(s.L.quiz ? this.portableQuiz(s.L) : this.buildQuestions(s.L, s.pages, 6, true)).map(q => {
       if (!q.options) return q;
       const order = this.shuffle(q.options.map((_, i) => i));
       return { ...q, options: order.map(i => q.options[i]), answer: order.indexOf(q.answer) };

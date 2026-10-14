@@ -51,14 +51,16 @@ Object.assign(App, {
 
   // ── what each new game is built from ─────────────────────────────────
   // Multiple-choice questions a lesson has already asked (never the quiz that
-  // follows the game, so a lesson's game does not give its quiz away).
+  // follows the game, so a lesson's game does not give its quiz away). A question
+  // that only tests remembering a figure (q.fig, see tools/qkind.py) is left out:
+  // it is fine right after the page that gave the number, and a guess anywhere else.
   qPool(lessons, withQuiz) {
     const out = [];
     lessons.forEach(L => {
       (L.pages || []).forEach(p => (p.blocks || []).forEach(b => {
-        if (b.t === 'check' && b.q && b.q.options && b.q.options.length >= 3 && b.q.type !== 'tf') out.push(b.q);
+        if (b.t === 'check' && b.q && b.q.options && b.q.options.length >= 3 && b.q.type !== 'tf' && !b.q.fig) out.push(b.q);
       }));
-      if (withQuiz) (L.quiz || []).forEach(q => { if (q.options && q.options.length >= 3 && q.type !== 'tf') out.push(q); });
+      if (withQuiz) (L.quiz || []).forEach(q => { if (q.options && q.options.length >= 3 && q.type !== 'tf' && !q.fig) out.push(q); });
     });
     return out;
   },

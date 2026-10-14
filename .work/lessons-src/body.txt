@@ -1561,11 +1561,11 @@ quiz: What cleans the ear canal?
 + Earwax
 explain: The ear canal is cleaned by earwax, which naturally moves out toward the outer ear.
 
-quiz: How many turns does the cochlea make in humans?
-+ 2.75 turns
-- 27.5 turns
-- 0.25 turns
-explain: The cochlea is a spiral-shaped cavity that makes 2.75 turns in humans.
+quiz: Which part of the inner ear is involved in hearing?
++ The cochlea
+- The ear canal
+- The earwax
+explain: The cochlea is the part of the inner ear involved in hearing.
 
 quiz: In which part of the ear are the ossicles?
 - The outer ear
@@ -1664,11 +1664,11 @@ p: Baby teeth at six months. Enamel, the hardest layer. Dentin under it. Bacteri
 
 p: Teeth need care.
 
-quiz: How much of enamel is mineral?
-- 9.6%
-- 66%
-+ 96%
-explain: Enamel is 96% mineral.
+quiz: What makes enamel strong?
+- A thick layer of fat
+- A lot of water
++ A large amount of mineral
+explain: The large amount of mineral in enamel makes it strong.
 
 quiz: What do bacteria in the mouth use for energy?
 - Plain water and air
@@ -1676,11 +1676,11 @@ quiz: What do bacteria in the mouth use for energy?
 - Clean salt and milk
 explain: Bacteria in the mouth use the simple sugars in food for energy.
 
-quiz: About how many people had cavities in their permanent teeth as of 2016?
-+ About 3.6 billion
-- About 36 million
-- About 360 thousand
-explain: As of 2016, about 3.6 billion people had cavities in their permanent teeth.
+quiz: As of 2016, how many people in the world had cavities in their permanent teeth?
++ Nearly half of them
+- Almost none of them
+- Only a few of them
+explain: That is 48% of all the people in the world.
 
 quiz: Besides baby teeth, what else is a baby's first set of teeth called?
 - Wisdom teeth
@@ -1773,11 +1773,11 @@ p: Blood in your body. Plasma made of water. Platelets that clot. A red blood ce
 
 p: Blood is in your body.
 
-quiz: What share of blood does plasma make up?
-- 5.5%
-- 95%
-+ 55%
-explain: Plasma makes up 55% of blood.
+quiz: What is the liquid part of blood called?
+- Platelets
+- Capillaries
++ Plasma
+explain: Plasma is the liquid part of blood, mostly water.
 
 quiz: Where do red blood cells take up oxygen?
 + In the lungs
@@ -1785,11 +1785,11 @@ quiz: Where do red blood cells take up oxygen?
 - In the feet
 explain: Red blood cells take up oxygen in the lungs.
 
-quiz: How much of plasma is water, by volume?
-- 29%
-+ 92%
-- 52%
-explain: Plasma is mostly water, 92% by volume.
+quiz: What helps your blood clot?
+- Plasma
++ Platelets
+- Capillaries
+explain: Platelets help your blood clot.
 
 quiz: What are platelets also called?
 - Lymphocytes

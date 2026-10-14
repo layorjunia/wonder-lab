@@ -880,29 +880,29 @@ p: Settlers on the Wasatch Front. A temple site marked in four days. A golden sp
 
 p: Utah has cities.
 
-quiz: What year was Salt Lake City founded?
-- 1874
-- 1748
-+ 1847
-explain: Salt Lake City was founded in 1847.
+quiz: What did Brigham Young mark the building site for?
+- A big fort
+- A railroad station
++ The Salt Lake Temple
+explain: Four days after arriving in the Salt Lake Valley, Brigham Young marked the building site for the Salt Lake Temple.
 
-quiz: In what year was the first railroad across the country joined at Promontory Summit?
-- 1896
-+ 1869
-- 1689
+quiz: What was special about the railroad joined at Promontory Summit?
+- It was the shortest in the world
++ It was the first one across the country
+- It was built only for goods
 explain: The first railroad across the country was joined at Promontory Summit in 1869.
 
-quiz: How hot was the highest temperature ever recorded in Utah?
-+ 118°F
-- Only 81°F
-- Nearly 181°F
-explain: The highest temperature ever recorded in Utah was 118°F (48°C).
+quiz: What do we call the people led by Brigham Young who founded Salt Lake City?
++ Settlers
+- Trappers
+- Soldiers
+explain: Settlers led by Brigham Young founded Salt Lake City.
 
-quiz: How many years did the Salt Lake Temple take to finish?
-- 4 years
-+ 40 years
-- 400 years
-explain: The Salt Lake Temple took 40 years to finish.
+quiz: What is the Wasatch Front?
+- A tall peak in Utah
++ A long line of cities in Utah
+- A big lake in Utah
+explain: Salt Lake City is part of a long line of cities along the Wasatch Front.
 
 # UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === utah-people
@@ -995,11 +995,11 @@ quiz: Where did the first image from Farnsworth's camera tube go?
 - Into a camera on the street
 explain: The image went to a receiver in another room of his laboratory.
 
-quiz: How many patents did John Browning receive?
-- 12
-+ 128
-- 1,280
-explain: John Browning received the first of his 128 patents at age 24.
+quiz: Who was the father of John Browning?
+- Philo Farnsworth
++ Jonathan Browning
+- Butch Cassidy
+explain: John Browning's father, Jonathan, was one of the pioneers who came to Utah.
 
 quiz: Who set up a gunsmith shop in Ogden in 1852?
 - Philo Farnsworth
@@ -1007,11 +1007,11 @@ quiz: Who set up a gunsmith shop in Ogden in 1852?
 + Jonathan Browning
 explain: In 1852 Jonathan Browning set up a gunsmith shop in Ogden.
 
-quiz: How many children was Butch Cassidy the first of?
-- Three children
-+ Thirteen children
-- Thirty children
-explain: Butch Cassidy was the first of thirteen children.
+quiz: In which Utah town was Butch Cassidy born?
+- Ogden
++ Beaver
+- Provo
+explain: Butch Cassidy was born in Beaver, Utah Territory.
 
 # UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === utah-animals
@@ -1098,11 +1098,11 @@ p: An elk down in winter. A prairie dog with pups. Horns that weigh as much as b
 
 p: Utah has many animals.
 
-quiz: About how long is a male Rocky Mountain elk?
-- Only about 0.79 ft
-+ About 7.9 ft (2.4 m)
-- Nearly 79 ft long
-explain: Males are about 7.9 ft (2.4 m) long and females about 6.6 ft (2 m).
+quiz: Which animal moves down lower in the winter?
+- A bighorn sheep
++ A Rocky Mountain elk
+- A Utah prairie dog
+explain: Rocky Mountain elk move down lower in the winter.
 
 quiz: How many pups does a Utah prairie dog mother usually have in a litter?
 - Ten to twenty
@@ -1110,17 +1110,17 @@ quiz: How many pups does a Utah prairie dog mother usually have in a litter?
 + One to eight
 explain: A Utah prairie dog mother has only one litter a year, usually one to eight pups.
 
-quiz: How long does a desert tortoise live on average?
-+ 70 to 80 years
-- Only 7 or 8
-- Nearly 700 years
-explain: A desert tortoise lives 70 to 80 years on average.
+quiz: Which animal grows slowly, has few young, and lives a long time?
++ A desert tortoise
+- A Utah prairie dog
+- A male elk
+explain: A desert tortoise lives 70 to 80 years on average. It grows slowly, and it has few young.
 
-quiz: How much can a male bighorn sheep's horns weigh at most?
-- Only 3 lb (1.4 kg)
-+ Up to 30 lb (14 kg)
-- Up to 300 lb (140 kg)
-explain: A male bighorn sheep's horns can weigh up to 30 lb (14 kg).
+quiz: Which animal's horns can be as heavy as all the bones in its body?
+- A Rocky Mountain elk
++ A male bighorn sheep
+- A desert tortoise
+explain: A male bighorn sheep's horns can weigh as much as all the bones in his body.
 
 # UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === utah-dinos
@@ -1207,23 +1207,23 @@ p: A quarry with thousands of bones. Skeletons in museums. A raptor with a big c
 
 p: Utah has dinosaur bones.
 
-quiz: How heavy was a Utahraptor?
-- Only a few pounds
-- Over ten tons
-+ Around 1,100 lb (500 kg)
-explain: It was about 20 to 23 ft (6 to 7 m) long and weighed around 1,100 lb (500 kg).
+quiz: What are many thousands more bones at the Cleveland-Lloyd quarry waiting for?
+- To be sold at a market
+- To be washed away by a river
++ To be dug up and studied
+explain: Many thousands more bones are waiting to be dug up and studied.
 
-quiz: How many pounds of fossils did Earl Douglass and his team dig up?
-- Fewer than 7,000 lb
-+ Over 700,000 lb
-- Nearly 70,000 lb
-explain: Earl Douglass and his team dug up over 700,000 lb (320,000 kg) of fossils.
+quiz: What did Earl Douglass and his team dig up from a single quarry?
+- Coins
++ Fossils
+- Gold
+explain: They dug the fossils from a single quarry at what became Dinosaur National Monument.
 
-quiz: About how long were the largest Allosaurus estimated to be?
-+ About 30 ft (9 m)
-- Only 3 ft
-- Nearly 300 feet
-explain: The largest Allosaurus were estimated at about 30 ft (9 m) long.
+quiz: Which was longer, a Utahraptor or an Allosaurus?
++ An Allosaurus
+- A Utahraptor
+- They were the same length
+explain: Allosaurus averaged about 25 to 26 ft long. A Utahraptor was about 20 to 23 ft long.
 
 quiz: What part of a Utahraptor seems to have had a very tight grip?
 - Its tail
@@ -1316,17 +1316,17 @@ p: A lake shared with Idaho. A trip to California. A rendezvous near Laketown. A
 
 p: Utah has lakes.
 
-quiz: How many years did Lake Powell take to fill?
-- Sixty years
-+ Sixteen years
-- Six years
-explain: Lake Powell took sixteen years to fill to the 3,700 ft (1,100 m) level.
+quiz: Which dam makes Lake Powell?
+- The Bear Lake Dam
++ The Glen Canyon Dam
+- The Utah Lake Dam
+explain: The Glen Canyon Dam makes Lake Powell.
 
-quiz: How high above sea level is the surface of Lake Powell when it is full?
-+ About 3,700 ft (1,100 m)
-- About 370 feet
-- Over 37,000 feet
-explain: When the lake is full, its surface is about 3,700 ft (1,100 m) above sea level.
+quiz: Which Utah lake is shallow?
++ Utah Lake
+- Lake Powell
+- Bear Lake
+explain: Utah Lake is shallow.
 
 quiz: Which two states is Bear Lake split between?
 - Nevada and Oregon
@@ -1534,26 +1534,26 @@ p: A lift from 1939. Lots of snow. No snowboards. A cool town up high. A large s
 
 p: Utah is great for skiing.
 
-quiz: In what year did Park City Ski Resort and Canyons resorts merge?
-- 2051
-+ 2015
-- 2005
+quiz: Which two ski resorts merged in 2015?
+- Alta and Canyons
++ Park City and Canyons
+- Alta and Park City
 explain: In 2015, Park City Ski Resort and Canyons resorts merged.
 
-quiz: At about what height does Salt Lake City sit?
-- About 430 feet
-- Over 43,000 feet
-+ About 4,300 ft (1,300 m)
-explain: Salt Lake City sits at about 4,300 ft (1,300 m).
+quiz: Which Utah ski resort does not allow snowboarders?
+- Canyons
+- Park City
++ Alta
+explain: Alta is one of just three ski areas in the U.S. that do not allow snowboarders.
 
-quiz: How many athletes took part in the 2002 Winter Olympics in Salt Lake City?
-+ 2,399
-- 239
-- 23,990
-explain: The 2002 Winter Olympics in Salt Lake City had 2,399 athletes from 78 nations.
+quiz: Why is Park City usually cooler than Salt Lake City?
++ It sits much higher up
+- It is nearer to the lake
+- It gets no sunshine
+explain: Park City lies mostly higher than 7,000 ft, so it is usually cooler than Salt Lake City.
 
-quiz: How many nations did the athletes at the 2002 Winter Olympics come from?
-- 8
-- 780
-+ 78
+quiz: Which big winter event came to Salt Lake City in 2002?
+- A giant snow parade
+- A world ski fair
++ The Winter Olympics
 explain: The 2002 Winter Olympics in Salt Lake City had 2,399 athletes from 78 nations.

@@ -664,11 +664,11 @@ quiz: A lever is one of how many simple machines?
 - Sixty
 explain: A lever is one of six simple machines.
 
-quiz: How heavy were the obelisks that workers lifted in ancient Egypt?
-- Only 10 tons
-- About 1 ton
-+ More than 100 tons
-explain: The obelisks weighed more than 100 tons.
+quiz: What did Archimedes use to pull a fully loaded ship toward him?
+- A long ramp
+- A team of oxen
++ A system of pulleys
+explain: Plutarch wrote that Archimedes used a system of pulleys to pull a fully loaded ship toward him.
 
 # UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === physical-air
@@ -755,11 +755,11 @@ p: Air with nitrogen and oxygen. Air that thins out. A line for the edge of spac
 
 p: Air is all around.
 
-quiz: How much of dry air is nitrogen?
-- 7.8%
-- 20.95%
-+ 78.08%
-explain: Dry air is 78.08% nitrogen.
+quiz: Which gas makes up most of dry air?
+- Oxygen
+- Water vapor
++ Nitrogen
+explain: Dry air is 78.08% nitrogen and 20.95% oxygen.
 
 quiz: What is wind?
 + Air moving to a place with lower pressure
@@ -979,17 +979,17 @@ quiz: Which animal that flies is the heaviest?
 - The flying fish
 explain: The great bustard is the heaviest flier, up to 46 lb (21 kg).
 
-quiz: In what year did the Wright brothers fly the first airplane?
-+ 1903
-- 1093
-- 1930
-explain: The Wright brothers flew the first airplane in 1903.
+quiz: What was special about the first flight of the Wright brothers?
++ It was the first controlled, powered flight
+- It was the first flight in a balloon
+- It was the first flight over an ocean
+explain: It was the first sustained, controlled flight of a powered machine heavier than air.
 
-quiz: For how many years did the Boeing 707 fly?
-- Only 6 years
-- About 600 years
-+ More than 60 years
-explain: The Boeing 707 flew for more than 60 years.
+quiz: Which was the first jet airliner?
+- The big Boeing 707 jet
+- The German Heinkel He 178
++ The de Havilland Comet
+explain: The first jet airliner, the de Havilland Comet, was introduced in 1952.
 
 quiz: What can a helicopter do that an airplane cannot?
 - Fly through clouds
@@ -1100,11 +1100,11 @@ quiz: What do we call a baking soda reaction that makes bread rise?
 - Giving off salt water
 explain: When baking soda reacts with an acid, it gives off carbon dioxide gas.
 
-quiz: In what year did Antoine Lavoisier find the correct explanation of burning?
-+ 1785
-- 1578
-- 1857
-explain: In 1785, Antoine Lavoisier found the correct explanation of burning.
+quiz: Why can you see a flame when something burns?
++ The burning substances turn to vapor
+- The air catches fire by itself
+- The wood turns into water
+explain: A flame is only visible when the burning substances turn to vapor.
 
 # UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === physical-gravity
@@ -1197,17 +1197,17 @@ quiz: How strong is gravity on the Moon compared with Earth?
 - Exactly the same
 explain: On the Moon, gravity is only about one-sixth as strong as on Earth.
 
-quiz: In which year did Albert Einstein describe gravity as a curving of space and time?
-+ 1915
-- 1195
-- 1951
-explain: In 1915, Albert Einstein described gravity as a curving of space and time.
+quiz: What did Albert Einstein say gravity is?
++ A curving of space and time
+- A kind of magnetic force
+- A wind blowing from the Sun
+explain: Albert Einstein described gravity as a curving of space and time caused by mass.
 
-quiz: About how fast does a skydiver fall at top speed?
-- Around 18 mph
-- Around 1,180 mph
-+ Around 118 mph
-explain: A skydiver reaches a top speed, called terminal velocity, of around 118 mph (190 km/h).
+quiz: What is the top speed of a falling skydiver called?
+- Gravity speed
+- Wind speed
++ Terminal velocity
+explain: A skydiver reaches a top speed, called terminal velocity.
 
 quiz: What makes a pull of gravity weaker?
 + The objects being farther apart
@@ -1306,20 +1306,20 @@ quiz: Which element has atoms with 11 protons?
 - Oxygen
 explain: Any atom with 11 protons is sodium.
 
-quiz: How many elements are known today?
-- 18
-- 1,180
-+ 118
-explain: Today 118 elements are known.
+quiz: Which element has atoms with 29 protons?
+- Sodium
+- Oxygen
++ Copper
+explain: Any atom with 29 protons is copper.
 
-quiz: In what year did Dmitri Mendeleev make the first widely accepted periodic table?
-- 1698
-+ 1869
-- 1986
+quiz: Who made the first periodic table that people widely accepted?
+- A German doctor
++ Dmitri Mendeleev
+- A French chemist
 explain: In 1869, Dmitri Mendeleev made the first periodic table that people widely accepted.
 
-quiz: How many of the 118 elements occur naturally on Earth?
-+ 94
-- 24
-- 11
-explain: The first 94 occur naturally on Earth.
+quiz: Where do the elements beyond the first 94 come from?
++ Scientists make them in a lab
+- They fall from the sky
+- Miners dig them from caves
+explain: The first 94 occur naturally on Earth. The other 24 only occur when scientists make them in laboratories.

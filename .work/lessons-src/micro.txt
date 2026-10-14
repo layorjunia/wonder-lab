@@ -761,11 +761,11 @@ p: A tiny water bear. A mite in house dust. A rotifer with many cells.
 
 p: Tiny animals are all around.
 
-quiz: In what year did a German scientist call tardigrades 'little water bears'?
-+ 1773
-- 1377
-- 1737
-explain: In 1773, a German scientist called tardigrades 'little water bears'.
+quiz: What did a German scientist call tardigrades?
++ Little water bears
+- Little sand bears
+- Little fire bears
+explain: A German scientist called tardigrades little water bears.
 
 quiz: What does the name Tardigrada mean?
 - Water swimmers
@@ -876,11 +876,11 @@ quiz: What do some big seaweeds use to hold themselves in place?
 - Pebbles
 explain: Some big seaweeds hold themselves in place with holdfasts.
 
-quiz: How much of the plant material on Earth are phytoplankton?
-- About half
-- Almost all
-+ About 1%
-explain: Phytoplankton are only about 1% of all the plant material on Earth.
+quiz: What job do phytoplankton do for the Earth?
+- They make all the wind
+- They make most of the rain
++ They make much of the oxygen
+explain: Phytoplankton make at least half of the oxygen.
 
 quiz: Which tiny algae are the most common kind of plankton?
 + Diatoms
@@ -991,17 +991,17 @@ quiz: What do bacteria make that helps keep yogurt from spoiling?
 - Cold water
 explain: Bacteria make lactic acid that helps keep sour foods like yogurt from spoiling.
 
-quiz: In what year did Louis Pasteur show that yeast is connected to fermentation?
-- 1658
-- 1865
-+ 1856
-explain: In 1856, Louis Pasteur showed that yeast is connected to fermentation.
+quiz: What did Louis Pasteur show that yeast is connected to?
+- Evaporation
+- Gravity
++ Fermentation
+explain: Louis Pasteur showed that yeast is connected to fermentation.
 
-quiz: In which year of the Klondike Gold Rush was sourdough bread carried into Alaska?
-+ 1898
-- 1889
-- 1989
-explain: Sourdough bread was carried into Alaska and the Yukon during the Klondike Gold Rush of 1898.
+quiz: Where was sourdough bread carried during the Klondike Gold Rush?
++ Into Alaska and the Yukon
+- Onto ships crossing the sea
+- Into towns far to the south
+explain: Sourdough bread was carried into Alaska and the Yukon during the Klondike Gold Rush.
 
 # UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === micro-water
@@ -1314,11 +1314,11 @@ quiz: What did Edward Jenner create?
 - The first steam engine
 explain: Edward Jenner created the smallpox vaccine.
 
-quiz: How many of the world's people did smallpox kill, at most, in towns and cities?
-- As many as 2%
-+ As many as 20%
-- As many as 90%
-explain: In towns and cities, smallpox killed as many as 20% of the people.
+quiz: What did cowpox protect people against, as Edward Jenner wrote?
+- A cold
++ Smallpox
+- Hunger
+explain: Jenner wrote about the protective effect of cowpox against smallpox.
 
 quiz: What do we call a plan the body learns so it can destroy a germ later?
 - A loan
@@ -1326,8 +1326,8 @@ quiz: What do we call a plan the body learns so it can destroy a germ later?
 + A vaccine
 explain: A vaccine trains the body's immune system to see a germ as a threat.
 
-quiz: In which year did Edward Jenner write about cowpox?
-+ 1798
-- 1789
-- 1897
-explain: Edward Jenner wrote about cowpox in 1798.
+quiz: What word means a substance made by a microorganism that works against other microorganisms?
++ Antibiotic
+- Vaccine
+- Fermentation
+explain: They used the word antibiotic for any substance made by a microorganism that works against the growth of other microorganisms.

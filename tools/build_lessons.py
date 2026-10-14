@@ -26,6 +26,9 @@ import os
 import subprocess
 import sys
 
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
+import qkind  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'js', 'lessons.js')
 
@@ -167,6 +170,13 @@ def main():
             if a.get('quiz'):
                 lesson['quiz'] = a['quiz']          # written into the lesson itself
             lesson.pop('intro', None)
+            # questions that only test remembering a figure: the boss, games and quiz skip them (tools/qkind.py)
+            for pg_ in lesson['pages']:
+                for b_ in pg_.get('blocks', []):
+                    if b_.get('t') == 'check' and isinstance(b_.get('q'), dict):
+                        qkind.tag(b_['q'])
+            for q_ in lesson.get('quiz') or []:
+                qkind.tag(q_)
             if lesson.get('kind') == 'species' and lesson.get('names'):
                 lesson['title'] = species_title(lesson['names'])
             wrote += 1

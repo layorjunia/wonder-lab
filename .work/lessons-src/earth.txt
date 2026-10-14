@@ -850,17 +850,17 @@ quiz: What have some weather stations in the Atacama never received?
 - Wind
 explain: Some weather stations in the Atacama have never received any rain.
 
-quiz: How large an area does the Atacama Desert cover?
-- About 4,100 sq mi
-- About 410,000 sq mi
-+ About 41,000 sq mi
-explain: The Atacama covers about 41,000 sq mi (105,000 km2).
+quiz: What are very dry polar lands sometimes called?
+- Warm swamps
+- Sandy beaches
++ Cold deserts
+explain: Very dry land includes polar lands, which are sometimes called cold deserts.
 
-quiz: How long is the strip of land that makes up the Atacama Desert?
-+ About 1,000 mi (1,600 km)
-- About 100 mi (160 km)
-- About 10,000 mi (16,000 km)
-explain: The Atacama Desert is a strip of land about 1,000 mi (1,600 km) long.
+quiz: What is a dune?
++ A hill made of sand
+- A hole made of stone
+- A lake made of salt
+explain: A dune is a hill made of sand, like the dunes in the Sahara.
 
 quiz: Where else do dunes move as fast as the dunes in China?
 - The Atacama Desert of Chile
@@ -959,11 +959,11 @@ quiz: What is the biggest single structure made by living things?
 + The Great Barrier Reef
 explain: It is the biggest single structure made by living things.
 
-quiz: How far do the Hawaiian Islands stretch?
-- 150 mi (240 km)
-+ 1,500 mi (2,400 km)
-- 15,000 mi (24,000 km)
-explain: The islands stretch for 1,500 mi (2,400 km).
+quiz: Why do many people visit islands?
+- For cold and snowy winters
++ For beauty and unique cultures
+- For tall and busy cities
+explain: Many people also visit islands for their natural beauty and their unique cultures.
 
 quiz: Hawaii is the only state that is what kind of group of islands?
 + An archipelago
@@ -1062,28 +1062,28 @@ p: The highest mountain. A mountain rising from the sea. Peaks in five countries
 
 p: Mountains are tall.
 
-quiz: How high is the top of Mount Everest above sea level?
-+ 29,035 ft
-- 2,903 ft
-- 290 ft
-explain: The top of Mount Everest is 29,035 ft (8,850 m) above sea level.
+quiz: Measured from base to peak, which mountain do some scientists say is the tallest on Earth?
++ Mauna Kea
+- Mount Everest
+- Chimborazo
+explain: Measured from base to peak, some scientists say Mauna Kea is the tallest mountain on Earth.
 
-quiz: How far does Mauna Kea rise from its base at the bottom of the ocean?
-- 3,061 ft (933 m)
-- 306,100 ft (93,300 m)
-+ 30,610 ft (9,330 m)
-explain: Mauna Kea in Hawaii rises 30,610 ft (9,330 m) from its base at the bottom of the ocean.
+quiz: Which mountain range runs along the western edge of South America?
+- The Himalayas
+- Mauna Kea
++ The Andes
+explain: The Andes run along the western edge of South America.
 
-quiz: How long are the Andes?
-- 550 mi (890 km)
-+ 5,500 mi (8,900 km)
-- 55,000 mi (89,000 km)
-explain: The Andes are 5,500 mi (8,900 km) long.
+quiz: In which country is Chimborazo?
+- Nepal
++ Ecuador
+- India
+explain: The peak of Chimborazo in Ecuador is farther from the center of the Earth than any other place on its surface.
 
-quiz: In which year did a team climb the whole height of Everest from the coast?
-- 1790
-- 1890
-+ 1990
+quiz: Where did a team start when they climbed the whole height of Mount Everest?
+- At a base camp
+- At the summit
++ At the coast
 explain: In 1990, a team led by Tim Macartney-Snape climbed the whole height, from the coast.
 
 # UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
@@ -1171,28 +1171,28 @@ p: A deep lake. Clear water. Many kinds of plants and animals. A huge waterfall.
 
 p: Water is big.
 
-quiz: How deep is Lake Baikal?
-- 538 ft (164 m)
-+ 5,387 ft (1,642 m)
-- 53 ft (16 m)
-explain: Lake Baikal is the deepest lake in the world, 5,387 ft (1,642 m) deep.
+quiz: Which lake holds more fresh surface water than all the North American Great Lakes combined?
+- Lake Erie
++ Lake Baikal
+- Lake Powell
+explain: Lake Baikal holds 22 to 23% of the world's fresh surface water, more than all the North American Great Lakes combined.
 
-quiz: How many species of plants live in Lake Baikal?
-+ More than 1,000
-- About 10
-- Only 100
-explain: More than 1,000 species of plants live in Lake Baikal.
+quiz: In which season is the water of Lake Baikal clearest?
++ Winter
+- Summer
+- Spring
+explain: In winter you can see down 100 to 130 ft (30 to 40 m) into Lake Baikal, but in summer only 15 to 25 ft (5 to 8 m).
 
-quiz: How far can you see down into Lake Baikal in summer?
-- 150 to 250 ft (50 to 80 m)
-- 1 to 2 ft (30 to 60 cm)
-+ 15 to 25 ft (5 to 8 m)
-explain: In summer you can see 15 to 25 ft (5 to 8 m).
+quiz: What is special about the drop of Angel Falls?
+- It is the widest waterfall on Earth
+- It is the oldest waterfall in the world
++ It has the tallest drop with no break
+explain: Angel Falls is the world's tallest waterfall with no break in the drop.
 
-quiz: On what date did Jimmie Angel first fly over Angel Falls?
-- June 11, 1993
-+ November 16, 1933
-- December 6, 1393
+quiz: What was Jimmie Angel the first person to do at the falls?
+- Climb up them
++ Fly over them
+- Swim below them
 explain: Jimmie Angel was the first person to fly over the falls, on November 16, 1933.
 
 # UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
@@ -1516,8 +1516,8 @@ quiz: What is a thunderstorm cloud called?
 - A decibel
 explain: A thunderstorm cloud is called a cumulonimbus.
 
-quiz: How loud is thunder sometimes?
-- Only 20 decibels
-- About 2 decibels
-+ Over 200 decibels
-explain: Sometimes thunder is over 200 decibels.
+quiz: What makes a thunderstorm cloud grow tall?
+- Cold, dry air sinking down
+- Wind blowing across the ground
++ Warm, moist air moving up and cooling
+explain: A cumulonimbus grows when warm, moist air moves up and cools.

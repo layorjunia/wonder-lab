@@ -887,17 +887,17 @@ quiz: Who was the first person to travel into space?
 - David Scott
 explain: Yuri Gagarin became the first person to travel into space on April 12, 1961.
 
-quiz: How many trips around the Earth does the space station make every day?
-- 1.5
-- 155
-+ 15.5
-explain: The space station makes 15.5 trips around the planet every day.
+quiz: Which rule for astronaut wings is higher, the U.S. rule or the Karman line?
+- The U.S. rule
+- They are the same
++ The Karman line
+explain: In the United States, a person earns astronaut wings by flying above 50 miles. The international rule is higher: the Karman line.
 
-quiz: On what date did people start living on the International Space Station without a break?
-+ November 2, 2000
-- February 11, 2020
-- August 21, 1990
-explain: People have lived on the International Space Station without a break since November 2, 2000.
+quiz: What record does the International Space Station hold?
++ The longest human stay in space
+- The fastest trip to the Moon
+- The biggest rocket ever built
+explain: The International Space Station is the longest continuous human presence in space.
 
 quiz: What was stuck on Gemini 8 and sent it into a dangerous roll?
 - A door
@@ -1008,11 +1008,11 @@ quiz: Which is one of Jupiter's four big moons?
 - Mars
 explain: Their names are Ganymede, Callisto, Io and Europa.
 
-quiz: In what year did astronomers find Jupiter's four big moons?
-- 1010
-+ 1610
-- 1910
-explain: Astronomers found the four big moons in 1610.
+quiz: What can you use to see Jupiter's four big moons?
+- A kitchen mirror
++ Binoculars
+- A magnifying glass
+explain: You can see the four big moons of Jupiter with binoculars.
 
 # UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === astro-mars
@@ -1111,17 +1111,17 @@ quiz: What is Olympus Mons?
 + A giant volcano on Mars
 explain: Olympus Mons is a giant volcano on Mars.
 
-quiz: About how many times as tall as Mount Everest is Olympus Mons?
-+ About 2.5 times
-- About 25 times
-- About 0.25 times
+quiz: Which is taller, Olympus Mons or Mount Everest?
++ Olympus Mons
+- Mount Everest
+- They are the same height
 explain: Olympus Mons is about 2.5 times as tall as Mount Everest.
 
-quiz: How long does Phobos take to go around Mars?
-- 7 days
-+ 7 hours and 39 minutes
-- 39 hours
-explain: Phobos races around Mars in just 7 hours and 39 minutes.
+quiz: Where does Phobos rise, as seen from Mars?
+- In the east
++ In the west
+- It never rises
+explain: From Mars, Phobos rises in the west and sets in the east.
 
 # UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === astro-saturn
@@ -1208,23 +1208,23 @@ p: A planet that is light for its size. Fast winds. Rings of ice. A big moon wit
 
 p: Saturn is big.
 
-quiz: How many times more massive than Earth is Saturn?
-- 9 times
-+ Over 95 times
-- 950 times
+quiz: Which is more massive, Saturn or Earth?
+- Earth
++ Saturn
+- They are the same
 explain: Saturn is over 95 times more massive than Earth.
 
-quiz: At least how many moons orbit Saturn?
-+ 293
-- 29
-- 2,930
-explain: At least 293 moons orbit Saturn.
+quiz: What is special about the moon Titan?
++ It is the only moon with a thick atmosphere
+- It is the smallest moon in the Solar System
+- It has no air at all
+explain: Titan is the only moon in the Solar System with a thick atmosphere.
 
-quiz: In what year did Galileo become the first person to see Saturn's rings?
-- 1160
-- 1061
-+ 1610
-explain: In 1610, Galileo became the first person to see Saturn's rings.
+quiz: How did Christiaan Huygens describe Saturn's rings?
+- As two small moons
+- As a belt of clouds
++ As a disk around Saturn
+explain: In 1655, Christiaan Huygens was the first to describe them as a disk around Saturn.
 
 quiz: Which is Saturn's largest moon?
 - Mercury
@@ -1317,29 +1317,29 @@ p: A very hot planet. A long day. No moons. A bright star. A small planet.
 
 p: Venus is hotter than Mercury.
 
-quiz: How long is a Venus year?
-- 22.47 Earth days
-+ 224.7 Earth days
-- 2,247 Earth days
-explain: A Venus year is 224.7 Earth days long.
+quiz: Which planet is hotter, Venus or Mercury?
+- Mercury
++ Venus
+- They are the same
+explain: Mercury is the closest planet to the Sun, but Venus is hotter.
 
-quiz: How hot is the atmosphere at the surface of Venus?
-- 86°F (46°C)
-- 8,670°F (4,640°C)
-+ 867°F (464°C)
-explain: The atmosphere at the surface of Venus is 867°F (464°C).
+quiz: What is odd about the way Venus spins?
+- It spins very fast
+- It does not spin at all
++ It spins slowly and backward
+explain: Venus also spins very slowly, and backward.
 
-quiz: How many times greater than Earth's is the pressure at the surface of Venus?
-+ 92 times
-- 9 times
-- 920 times
-explain: The pressure at the surface of Venus is 92 times greater than Earth's.
+quiz: What is the air around a planet called?
++ The atmosphere
+- The surface
+- The crater
+explain: The atmosphere is the air around a planet.
 
-quiz: How wide is Mercury?
-- 303 mi (488 km)
-+ 3,030 mi (4,880 km)
-- 30,300 mi (48,800 km)
-explain: Mercury is 3,030 mi (4,880 km) across.
+quiz: How long is a day on Venus compared with a Venus year?
+- Twice as long
++ About half as long
+- The same length
+explain: A day on Venus is about half of a Venus year.
 
 # UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === astro-eclipses
@@ -1426,23 +1426,23 @@ p: A dark day. A small part of the world. A red Moon. An hour or longer.
 
 p: An eclipse is a big show.
 
-quiz: How wide can the shadow track of the Moon be?
-- Up to 16 mi (27 km)
-+ Up to 166 mi (267 km)
-- Up to 1,660 mi (2,670 km)
-explain: The Moon's shadow track can be up to 166 mi (267 km) wide.
+quiz: Which eclipse can you watch without eye protection?
+- A solar eclipse
++ A lunar eclipse
+- Neither one
+explain: You can watch a lunar eclipse without eye protection.
 
-quiz: How long would you wait in one place to see a total solar eclipse?
-+ 360 to 410 years
-- 3 to 4 years
-- 36 to 41 years
-explain: In any one place, you would wait 360 to 410 years.
+quiz: What is the path the Moon's shadow makes on Earth called?
++ The track
+- The orbit
+- The crater
+explain: The Moon's shadow track on Earth is the path the Moon's shadow makes.
 
-quiz: How fast does the Moon move around Earth?
-- About 23 mph (10 m/s)
-- About 230,000 mph (103 km/s)
-+ About 2,300 mph (1.03 km/s)
-explain: The Moon moves about 2,300 mph (1.03 km/s) around Earth.
+quiz: Which lasts longer, a total lunar eclipse or a total solar eclipse?
+- A total solar eclipse
+- They last the same time
++ A total lunar eclipse
+explain: A total lunar eclipse can last up to nearly 107 minutes, but a total solar eclipse can last over 7 minutes.
 
 quiz: What removes blue and violet light from the sunlight that reaches the Moon?
 + Earth's air

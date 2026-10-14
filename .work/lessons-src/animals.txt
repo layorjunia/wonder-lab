@@ -1269,35 +1269,35 @@ explain: The Brachiosaurus, at 70,000 lb.
 p: A T. rex that hunts, a Triceratops with horns, a Stegosaurus with plates, a Brachiosaurus reaching high, an Apatosaurus long and heavy.
 p: Five giants, each one built for its own world.
 
-quiz: How long was Brachiosaurus's upper arm bone?
-- 4 ft 6 in (137 cm)
-- 5 ft 2 in (157 cm)
-+ 6 ft 8 in (204 cm)
-explain: That’s a huge bone, taller than most grown-ups!
+quiz: Which of these dinosaurs ate meat?
+- Triceratops
+- Stegosaurus
++ Tyrannosaurus rex
+explain: Tyrannosaurus rex was the biggest meat-eating dinosaur from North America.
 
-quiz: What did scientists once think Stegosaurus's plates were used for?
+quiz: What did scientists once think the plates of Stegosaurus were used for?
 + Shedding heat
 - Looking bigger to rivals
 - Digging up roots to eat
-explain: They thought the plates helped cool off the big dinosaur.
-
-quiz: How long is T. rex nose to tail?
-- 30 ft (9 m)
-+ 40 ft (12 m)
-- 50 ft (15 m)
-explain: T. rex was huge, but not as big as some other dinosaurs.
+explain: The plates were once thought to be radiators for shedding heat. Now they are seen as a way to look bigger.
 
 quiz: What special bone do horned dinosaurs have?
-+ A rostral bone
 - A jawbone
++ A rostral bone
 - A rib bone
-explain: The rostral bone makes their beak, perfect for munching plants.
+explain: The rostral bone is a special bone that only horned dinosaurs have. It makes their beak.
 
-quiz: About how much does Scotty, the biggest T. rex found, weigh?
-- 12,000 lb (5,443 kg)
-- 25,000 lb (11,340 kg)
-+ 19,500 lb (8,870 kg)
-explain: Scotty may be the biggest T. rex found, at about 19,500 lb (8,870 kg).
+quiz: Which dinosaur had a back that sloped downhill from front to rear, like a giraffe?
++ Brachiosaurus
+- Stegosaurus
+- Apatosaurus
+explain: The shoulders of Brachiosaurus were much higher than the hips, so its back sloped downhill like a giraffe's.
+
+quiz: What are the neck bones of an Apatosaurus like?
+- Solid and very heavy
+- Soft like a jellyfish
++ Hollowed out, like a bird's bones
+explain: Apatosaurus had fifteen neck bones, and none of them are solid. They are hollowed out just like a bird's bones.
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
 === animals-dinosaurs-2

@@ -1,5 +1,6 @@
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === economics-needs
 idea: A person needs water but only wants cake. Learn what a need is, what a want is, and what economics studies.
 
@@ -108,7 +109,7 @@ quiz: Why is water the most important need?
 - It is always sold in the biggest stores
 explain: A person will die very quickly without drinking water.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === economics-choices
 idea: There is never enough of everything, so every choice gives something up. Learn what scarcity and opportunity cost mean.
 
@@ -213,7 +214,7 @@ quiz: What is economics about, when there is never enough?
 - The shapes of the clouds
 explain: Economics is about the choices people make.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === economics-goods
 idea: Some things you can hold and some things people do for you. Meet goods, services, producers and consumers.
 
@@ -320,7 +321,7 @@ quiz: Which of these is capital?
 - A haircut
 explain: Capital means things like machines and buildings.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === economics-money
 idea: Before there was money, people traded cows for wheat. Find out why that got tricky and what money fixed.
 
@@ -429,7 +430,7 @@ quiz: Why did people start to use banknotes?
 - Coins were against the law
 explain: Carrying around a lot of precious metal was hard and dangerous, so banknotes were made.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === economics-trade
 idea: Every trade works because both people think they come out ahead. Learn about markets and about trading between countries.
 
@@ -536,7 +537,7 @@ quiz: Which of these can a shipping container travel on without being unloaded?
 - A horse, a cart and a sled
 explain: A shipping container can go from a ship to a train to a truck without anyone unloading and reloading the cargo.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === economics-work
 idea: People trade their time and skills for pay. See what a wage is, and why sharing the work makes more.
 
@@ -605,14 +606,14 @@ explain: A person who does only one very specialised task will do it best.
 --- 📌
 p: Adam Smith wrote about a small pin factory where ten workers shared the job of making pins.
 
-fact(The result): Together they could make upwards of forty-eight thousand pins in a day. Working separately, each could not make twenty pins in a day, perhaps not even one.
+fact(The result): Together they could make far more pins: upwards of forty-eight thousand in a day. Working separately, each could not make twenty pins in a day, perhaps not even one.
 
-check: When each worker did one small step, how many pins could ten workers make in a day?
-+ Upwards of forty-eight thousand
-- A few dozen, working all day long
-- About two hundred if they hurried
-hint: Look at the box. It says how many pins they could make.
-explain: Together the ten workers could make upwards of forty-eight thousand pins in a day.
+check: Ten workers shared the job of making pins. What did sharing the job do?
++ It let them make far more pins
+- It made them make fewer pins
+- It made no difference at all
+hint: Look at the box. It compares working together with working alone.
+explain: Together the workers could make upwards of forty-eight thousand pins in a day, but working alone they could not make twenty each.
 
 --- 🔎
 p: A job. A wage. An hourly wage. A minimum wage. One person mending shoes. Ten workers making pins.
@@ -643,7 +644,7 @@ quiz: How many workers shared the job in the pin factory that Adam Smith wrote a
 + Ten
 explain: Adam Smith wrote about a small pin factory where ten workers shared the job of making pins.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === economics-business
 idea: A lemonade stand is a business: spend a little, sell for more and keep the difference. Learn about entrepreneurs, profit and risk.
 
@@ -752,7 +753,7 @@ quiz: Which person starts a business to make use of an opportunity?
 + An entrepreneur
 explain: An entrepreneur is a person who starts a business instead of working for someone else.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === economics-supply
 idea: Why does a rare card cost so much? Prices go up and down with how much there is and how many people want it.
 
@@ -861,7 +862,7 @@ quiz: What is the opposite of inflation?
 - Barter
 explain: The opposite of inflation is deflation.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === economics-saving
 idea: Saving is money you do not spend. See what a bank does, what interest is, and how a budget helps.
 
@@ -968,7 +969,7 @@ quiz: In a loan, who pays the money back?
 + The borrower
 explain: The borrower agrees to pay the lender back at a particular time.
 
-# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-13)
+# UNREVIEWED: written by hand (Claude) from sourced facts (each fact quotes its source), passed every automatic check, not yet read by a person (2026-10-14)
 === economics-taxes
 idea: Roads, police and schools are paid for by everyone together. That is what taxes are for.
 

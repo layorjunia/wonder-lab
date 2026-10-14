@@ -664,17 +664,17 @@ quiz: Where did the Sons of Liberty throw the tea?
 + Into Boston Harbor
 explain: The Sons of Liberty threw 340 or 342 chests of tea into Boston Harbor.
 
-quiz: In what year did Longfellow's poem about Paul Revere's ride come out?
-+ 1861
-- 1681
-- 1816
-explain: Henry Wadsworth Longfellow told the story in his 1861 poem Paul Revere's Ride.
+quiz: Who told the story of Paul Revere's ride in a famous poem?
++ Henry Wadsworth Longfellow
+- Paul Revere, the silversmith
+- George Washington, the general
+explain: Henry Wadsworth Longfellow told the story in his poem Paul Revere's Ride.
 
-quiz: On what date was the Declaration of Independence first read in public?
-- May 1, 1776
-+ July 8, 1776
-- October 31, 1776
-explain: The Declaration of Independence was first read in public on July 8, 1776.
+quiz: What was read in public at noon in Trenton, Easton and Philadelphia?
+- The Constitution
++ The Declaration
+- The Bill of Rights
+explain: The Declaration was read at noon in three places: Trenton, Easton and Philadelphia.
 
 quiz: What army did the Second Continental Congress make in 1775?
 + The Continental Army
@@ -767,16 +767,16 @@ p: Men in Philadelphia. The oldest written constitution. Ten amendments. 55 dele
 
 p: The Constitution is still in use.
 
-quiz: In what year did men meet at Independence Hall in Philadelphia?
-- 1778
-+ 1787
-- 1877
-explain: In 1787, men met at Independence Hall in Philadelphia.
+quiz: At which hall did the men meet to write the Constitution?
+- A hall in Boston
++ Independence Hall
+- A hall in New York
+explain: In 1787, men met at Independence Hall in Philadelphia, and they wrote the Constitution there.
 
-quiz: In which years did the Electoral College elect George Washington?
-- Only in 1801
-- In 1776 and 1783
-+ 1789 and 1792
+quiz: Which group elected George Washington as president?
+- The Bill of Rights
+- The Constitution
++ The Electoral College
 explain: Every vote of the Electoral College elected George Washington in 1789 and again in 1792.
 
 quiz: What is the Bill of Rights?
@@ -1100,17 +1100,17 @@ quiz: Who found gold and began the California gold rush?
 - Theodore Roosevelt
 explain: The California gold rush began when gold was found by James W. Marshall.
 
-quiz: In what year did San Francisco grow from about 200 people to about 36,000?
-- 1258
-+ 1852
-- 1925
-explain: San Francisco grew from about 200 people in 1846 to about 36,000 people by 1852.
+quiz: What was San Francisco by 1852?
+- A tiny village
++ A boomtown
+- A quiet farm
+explain: By 1852 San Francisco was a boomtown of about 36,000 people.
 
-quiz: When did Pony Express riders change?
-- Once every day at the same noon hour
-- Just once at the end of each month
-+ Every 75 to 100 mi (120 to 160 km)
-explain: The riders changed about every 75 to 100 mi (120 to 160 km), and they rode day and night.
+quiz: When did Pony Express riders ride?
+- Only in the morning
+- Only on Sundays
++ Day and night
+explain: The riders changed about every 75 to 100 mi, and they rode day and night.
 
 quiz: What rivers did the Oregon Trail connect to valleys in Oregon Territory?
 + The Missouri River
@@ -1209,11 +1209,11 @@ quiz: Where did the Mayflower drop anchor in November 1620?
 - Along the shores of Florida
 explain: The Mayflower dropped anchor near the tip of Cape Cod in November 1620.
 
-quiz: How many weeks was the Mayflower at sea?
-+ 10 weeks
-- Only 2
-- Nearly 20
-explain: After 10 weeks at sea, the Mayflower reached what is now the United States.
+quiz: What kind of ship was the Mayflower?
++ An English sailing ship
+- A steam-powered ferry
+- A fast warship
+explain: The Mayflower was an English sailing ship.
 
 quiz: Who bought the island that is now called Ellis Island, in 1774?
 - George Washington
@@ -1318,17 +1318,17 @@ quiz: What is shot out in an eruption of Old Faithful?
 + Boiling water
 explain: An eruption of Old Faithful can shoot 3,700 to 8,400 gallons of boiling water.
 
-quiz: What does the North Rim average above sea level?
-+ 8,000 ft (2,400 m)
-- About 80 ft
-- Nearly 80,000 feet
-explain: The North Rim averages 8,000 ft (2,400 m) above sea level.
+quiz: Which rim of the Grand Canyon is cooler?
++ The North Rim
+- The South Rim
+- They are just the same
+explain: The North Rim of the Grand Canyon is cooler than the South Rim, because it is higher.
 
-quiz: How long can the time be between eruptions of Old Faithful, at the shortest?
-- 3 minutes
-+ 35 minutes
-- 350 minutes
-explain: The time between eruptions can be as short as 35 minutes or as long as 120 minutes.
+quiz: What does the water of Old Faithful do in an eruption?
+- It freezes into ice
++ It shoots up into the air
+- It soaks into the ground
+explain: The water reaches a height of 106 to 185 ft (32 to 56 m).
 
 quiz: What is the Grand Canyon, at over a mile deep?
 - A tall mountain peak

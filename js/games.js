@@ -500,7 +500,7 @@ Object.assign(App, {
   dailyPool() {
     const out = [];
     this.doneLessons().forEach(L => {
-      (L.quiz || []).forEach(q => out.push({ ...q, _from: L.id }));
+      (L.quiz || []).forEach(q => { if (!q.fig) out.push({ ...q, _from: L.id }); });
     });
     return out;
   },

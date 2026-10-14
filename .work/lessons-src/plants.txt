@@ -237,35 +237,35 @@ fact(Long lives): All of them are long-lived trees. The bristlecone pine lives l
 p: A giant sequoia weighing millions of pounds. A coast redwood living up to 2,000 years. Bristlecone pine rings counting time. Baobab trunks holding water. An English oak standing strong for 500 years.
 p: Five trees, each in their own way, reaching through time and growth.
 
-quiz: How tall is Hyperion, the tallest coast redwood?
-- 354.7 ft (108.11 m)
-- 412.6 ft (125.76 m)
-+ 381.3 ft (116.22 m)
-explain: That's taller than the Statue of Liberty.
+quiz: Which tree is the tallest on Earth?
+- The baobab
+- The English oak
++ The coast redwood
+explain: The coast redwood is the tallest tree on Earth.
 
-quiz: What does fog drip provide to a coast redwood?
-+ 30% of its water needs
-- 50% of its water needs
-- 20% of its water needs
-explain: Fog drip supplies about 30 percent of the water a coast redwood needs each year.
+quiz: How does fog drip help a coast redwood?
++ It waters the roots of the tree
+- It keeps the bark warm
+- It makes the tree grow wider
+explain: Fog condenses on the needles high in the crown and drips down, supplying water to the roots.
 
-quiz: How much water can a large baobab hold in its trunk?
-- 13,200 gallons (50,000 liters)
-+ 36,000 gallons (136,400 liters)
-- 6,600 gallons (25,000 liters)
-explain: That's about two backyard swimming pools stored inside the wood.
+quiz: What does a large baobab store in its trunk?
+- Honey
++ Water
+- Sand
+explain: A large baobab can hold as much water as two backyard swimming pools stored inside the wood.
 
-quiz: What is the English oak known for supporting?
-+ 2,300 species
-- 1,000 species
-- 1,500 species
-explain: About 2,300 species live on or with the English oak in the UK, more than on any other tree in Britain.
+quiz: Which tree supports more living things than any other tree in Britain?
++ The English oak
+- The baobab
+- The bristlecone pine
+explain: Insects, mosses, lichens, birds and mammals live on or with the English oak, more than on any other tree in Britain.
 
-quiz: What is the longest a bristlecone pine is known to have lived?
-- 3,000 years
-+ 4,862 years
-- 2,000 years
-explain: One bristlecone cut down in 1964 had at least 4,862 rings.
+quiz: Which of the five trees lives the longest?
+- The English oak
++ The bristlecone pine
+- The baobab
+explain: The bristlecone pine lives longest of the five trees.
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-09)
 === plants-trees-2
@@ -326,35 +326,35 @@ fact(Shared trait): All five trees have a trick that suits the place they live. 
 p: A banyan spreading wide with its aerial roots. A red mangrove standing in salty water. Aspen trees in groves connected underground. A dragon's blood tree shaped like an umbrella. A Joshua tree that needs a moth to make seeds.
 p: Five trees, each unique, each built for its own world.
 
-quiz: How much ground does the biggest banyan's canopy cover?
-+ 4.67 acres
-- 2 acres
-- 6 acres
-explain: The biggest banyan's canopy covers 4.67 acres, about three and a half football fields.
+quiz: What holds up the Great Banyan?
++ Roots that grow down from its branches
+- One huge trunk in the middle
+- Stakes that people put in the ground
+explain: A prop root grows from a branch, reaches the ground and holds the tree up.
 
-quiz: What is the widest the crown of a dragon's blood tree can be?
-- 15 ft (4.5 m)
-- 25 ft (7.5 m)
-+ 39 ft (12 m)
-explain: The crown can be up to 39 ft (12 m) across, wider than the tree is tall.
+quiz: What is odd about Pando, the aspen grove in Utah?
+- It is the tallest tree on Earth
+- It grows under the water
++ All its stems share one root system
+explain: Every stem of Pando shares one root system and one set of DNA, so it is one single plant.
 
-quiz: What does a red mangrove seed grow into before it drops off the parent tree?
-- A tough, hard brown seed
-+ A finished green seedling
-- A dry pod full of seeds
-explain: The seed sprouts while still on the parent tree and becomes a green seedling shaped like a dart.
-
-quiz: How heavy is Pando, the quaking aspen grove in Utah?
-+ 13.2 million lb (6,000 metric tons)
-- 5 million lb (2,270 metric tons)
-- 8 million lb (3,630 metric tons)
-explain: Pando is the heaviest known single organism.
+quiz: What does a red mangrove seed do before it drops off the parent tree?
+- It turns into a hard brown stone
++ It sprouts into a green seedling
+- It waits in a dry pod
+explain: A red mangrove seed grows into a finished green seedling while it is still attached to the parent.
 
 quiz: Where does the dragon's blood tree grow wild?
++ One island group in the Arabian Sea
 - A dry plain in central Australia
 - One river valley in southern Chile
-+ One island group in the Arabian Sea
-explain: It grows wild only on one island group in the Arabian Sea.
+explain: The Socotra dragon's blood tree grows wild only on one island group in the Arabian Sea.
+
+quiz: What does a Joshua tree need to make seeds?
+- A honey bee
+- A hummingbird
++ A yucca moth
+explain: The yucca moth is the only pollinator of the Joshua tree, so without the moth it sets no seed.
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-10)
 === plants-crops-3
@@ -504,35 +504,29 @@ fact(The lives of plants): Despite its name, the century plant lives only about 
 p: A saguaro cactus that lives 175 years. A welwitschia that lasts 1,500 years. A century plant with a fast-growing flower stalk. Living stones and a resurrection plant that survive the desert.
 p: Each plant, in its own way, built to endure.
 
-quiz: How tall can a big saguaro cactus grow?
-+ 40 to 52 ft (12–16 m) tall
-- 20 to 30 ft (6–9 m) tall
-- 60 to 70 ft (18–21 m) tall
-explain: Saguaros can grow really tall, but it takes them a long time.
+quiz: Where does the saguaro cactus grow wild?
++ Only in the Sonoran Desert
+- Only in the Chihuahuan Desert
+- In every desert on Earth
+explain: The saguaro grows wild nowhere else on Earth except the Sonoran Desert.
 
-quiz: How wide does the largest known Welwitschia sprawl?
-- 15 ft (4.6 m) wide
-- 20 ft (6.1 m) wide
-+ 28 ft (8.7 m) wide
-explain: The welwitschia is a big plant with just two leaves that keep growing.
+quiz: What does a welwitschia grow?
+- A new set of leaves every year
+- Hundreds of small thin leaves
++ Only two leaves that never stop growing
+explain: A welwitschia grows exactly two leaves and never grows another one. The leaves keep growing from the base.
 
 quiz: What is hidden underground in a living stone?
 - Only the window on top
 + Most of the plant
 - Just the roots
-explain: Most of a living stone is buried, and only the window on top shows.
+explain: Most of the plant is underground, and the green tissue lines the inside walls of the buried leaves.
 
-quiz: What is the largest share of its water the resurrection plant can lose and still live?
-+ 95 percent of its water
-- 75 percent of its water
-- 80 percent of its water
-explain: The resurrection plant is really tough and can dry out almost completely.
-
-quiz: About how long do the oldest welwitschias live?
-- 500 years
-- 1,000 years
-+ 1,500 years
-explain: Welwitschia plants are some of the longest-lived plants in the world.
+quiz: What does a resurrection plant do when it dries out?
++ It curls into a ball and waits for rain
+- It drops all its leaves and dies
+- It grows a longer root
+explain: The resurrection plant goes dormant and starts opening within a few hours once it gets water.
 
 # UNREVIEWED: drafted by a local model, auto-checked, not yet read by a person (2026-10-10)
 === plants-flowers-2

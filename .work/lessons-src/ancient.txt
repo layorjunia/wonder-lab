@@ -577,11 +577,11 @@ quiz: Who did Yahweh tell to leave his country and his father's house?
 - Joseph
 explain: The written account says Yahweh told Abram to leave his country and his father's house.
 
-quiz: How old was Joseph when he was feeding the flock with his brothers?
-- Seven years old
-- Seventy years old
-+ Seventeen years old
-explain: The written account says Joseph was seventeen years old when he was feeding the flock with his brothers.
+quiz: What did Israel make for Joseph?
+- A tent of fine cloth
+- A sack of grain
++ A coat of many colors
+explain: Their father Israel loved Joseph more than all his children and made him a coat of many colors.
 
 quiz: What did Abraham split for the offering?
 - The stones
@@ -680,11 +680,11 @@ p: Moses and Aaron. A lamb a year old. Blood on the door posts. A meal in haste.
 
 p: Israel was led out.
 
-quiz: For how long did the people eat manna?
-- For four days
-- For one week
-+ For forty years
-explain: The people ate manna for forty years, until they came to the borders of Canaan.
+quiz: Until where did the people eat manna?
+- Until the sea closed
+- Until the lamb was eaten
++ Until they reached Canaan
+explain: The people ate manna until they came to the borders of Canaan.
 
 quiz: What did manna taste like?
 + Wafers with honey
@@ -1019,11 +1019,11 @@ quiz: What did Cyrus issue to free the Jewish people?
 - The Book of Wonders
 explain: Cyrus freed them by issuing the Edict of Restoration.
 
-quiz: How long did the trip from Susa to Sardis take on foot?
-- Nine days
-+ Ninety days
-- Nineteen days
-explain: On foot, the same trip took ninety days.
+quiz: Which trip from Susa to Sardis was faster, by mounted couriers or on foot?
+- On foot
++ By mounted couriers
+- They were just as fast
+explain: Mounted couriers were supposed to travel it in nine days. On foot, the same trip took ninety days.
 
 quiz: Who is the only non-Jewish person honored in this way in the Book of Isaiah?
 + Cyrus
