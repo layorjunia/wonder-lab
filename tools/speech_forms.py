@@ -170,7 +170,7 @@ def for_speech(text):
     # 1. Celsius-first with Fahrenheit in brackets is the one aside worth
     #    keeping rather than dropping — this app speaks imperial, so promote
     #    the bracketed value instead of deleting it.
-    t = re.sub(r'([\d,.]+)\s*°?\s*C\b\s*\(\s*([\d,.]+)\s*°?\s*F\b\s*\)',
+    t = re.sub(r'([\d,.]+(?:\s*[-–]\s*[\d,.]+)?)\s*°?\s*C\b\s*\(\s*([\d,.]+(?:\s*[-–]\s*[\d,.]+)?)\s*°?\s*F\b\s*\)',
                lambda m: m.group(2) + '°F', t)
 
     # 2. drop the bracketed conversion asides entirely
@@ -212,6 +212,16 @@ def for_speech(text):
         w = m.group(0)
         return _spell(w) if w in SPELL_OUT else w
     t = re.sub(r'\b[A-Z]{2,}\b', _init, t)
+
+    # 4a. The Wright aircraft: "Flyer III" is "Flyer three", never the letters I-I-I.
+    t = re.sub(r'\bFlyer (III|II|I)\b',
+               lambda m: 'Flyer ' + {'I': 'one', 'II': 'two', 'III': 'three'}[m.group(1)], t)
+
+    # 4b. numeric ranges: "25-30 mph" is "25 to 30 mph". Without the "to" the voice runs the two
+    #     numbers together ("twenty-five thirty") and a year range reads as one long number. After
+    #     the specimen codes (step 3), which use a hyphen of their own.
+    t = re.sub(r'(?<![\w.,/-])(\d[\d,]*(?:\.\d+)?)\s*[-–]\s*(\d[\d,]*(?:\.\d+)?)(?![\w-]*\d)',
+               r'\1 to \2', t)
 
     # 5. years — before generic numbers, or 1888 becomes "one thousand..."
     def _yr(m):
